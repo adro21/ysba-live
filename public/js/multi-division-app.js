@@ -108,17 +108,36 @@ class MultiDivisionYSBAApp {
             document.head.appendChild(styleElement);
         }
 
+        // Convert hex colors to RGB for rgba() usage
+        const hexToRgb = (hex) => {
+            const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+            return result ? {
+                r: parseInt(result[1], 16),
+                g: parseInt(result[2], 16),
+                b: parseInt(result[3], 16)
+            } : null;
+        };
+
+        const primaryRgb = hexToRgb(theme.primary);
+        const primaryRgbString = primaryRgb ? `${primaryRgb.r}, ${primaryRgb.g}, ${primaryRgb.b}` : '2, 66, 32';
+
         styleElement.textContent = `
             /* Dynamic theme for ${this.divisionConfig.displayName} */
             :root {
                 --theme-primary: ${theme.primary};
+                --theme-primary-rgb: ${primaryRgbString};
                 --theme-secondary: ${theme.secondary};
                 --theme-accent: ${theme.accent};
                 --theme-text: ${theme.text};
                 --theme-background: ${theme.background};
+                --theme-header-bg: ${theme.headerBg};
             }
 
             .modern-header {
+                background: ${theme.headerBg} !important;
+            }
+
+            .modern-footer {
                 background: ${theme.headerBg} !important;
             }
 
@@ -142,6 +161,11 @@ class MultiDivisionYSBAApp {
                 border-color: ${theme.secondary} !important;
             }
 
+            .btn-modern:hover {
+                background: ${theme.primary} !important;
+                color: white !important;
+            }
+
             .text-primary {
                 color: ${theme.primary} !important;
             }
@@ -150,12 +174,50 @@ class MultiDivisionYSBAApp {
                 border-top-color: ${theme.primary} !important;
             }
 
-            .position-badge {
-                background: ${theme.primary} !important;
+            .loading-spinner-small {
+                border-top-color: ${theme.primary} !important;
             }
 
             .team-row-clickable:hover {
                 background: ${theme.background} !important;
+            }
+
+            .team-name {
+                color: ${theme.primary} !important;
+            }
+
+            .team-name:hover {
+                color: ${theme.secondary} !important;
+            }
+
+            .brand-text .dropdown-item:hover {
+                color: ${theme.primary} !important;
+            }
+
+            .brand-text .dropdown-item.active {
+                background-color: ${theme.primary} !important;
+            }
+
+            .status-actions .dropdown-item:hover {
+                color: ${theme.primary} !important;
+            }
+
+            .status-actions .dropdown-item.active {
+                background-color: ${theme.primary} !important;
+            }
+
+            .division-filter-active {
+                background: ${theme.primary} !important;
+                border-color: ${theme.primary} !important;
+            }
+
+            .schedule-tab.active {
+                color: ${theme.primary} !important;
+                border-bottom-color: ${theme.primary} !important;
+            }
+
+            .schedule-tab:hover {
+                color: ${theme.primary} !important;
             }
         `;
 
@@ -1005,58 +1067,209 @@ class MultiDivisionYSBAApp {
         }
     }
 
-    // Sticky header functionality
+    // Sticky header functionality (Working implementation from ysba-9u-standings)
     initStickyHeader() {
+        // Get the table element and its container
+        this.table = document.querySelector('.standings-table');
+        this.tableContainer = document.querySelector('.table-container');
+        
+        if (!this.table || !this.tableContainer) {
+            return;
+        }
+
+        // Clean up existing listeners to prevent duplicates
+        if (this.stickyHeaderHandler) {
+            window.removeEventListener('scroll', this.stickyHeaderHandler);
+        }
+        if (this.resizeHandler) {
+            window.removeEventListener('resize', this.resizeHandler);
+        }
+        
+        // Remove existing fixed header if it exists
+        if (this.fixedHeader) {
+            this.hideFixedHeader();
+        }
+
         this.precalculateColumnWidths();
         
-        const throttledHandler = this.throttle(() => {
+        // Throttled scroll handler for better performance
+        this.stickyHeaderHandler = this.throttle(() => {
             this.handleStickyHeader();
-        }, 16);
+        }, 16); // ~60fps
+
+        // Resize handler to re-align columns
+        this.resizeHandler = this.throttle(() => {
+            this.precalculateColumnWidths();
+            if (this.fixedHeader) {
+                this.alignFixedHeaderColumns();
+                this.syncHeaderPosition();
+            }
+        }, 100);
+
+        // Add scroll listener for sticky behavior
+        window.addEventListener('scroll', this.stickyHeaderHandler);
         
-        window.addEventListener('scroll', throttledHandler);
-        window.addEventListener('resize', throttledHandler);
+        // Add real-time scroll sync for horizontal scrolling
+        this.horizontalScrollHandler = () => {
+            if (this.fixedHeader) {
+                this.syncHeaderPosition();
+            }
+        };
+        
+        this.tableContainer.addEventListener('scroll', this.horizontalScrollHandler, { passive: true });
+        
+        // Add resize listener for column alignment
+        window.addEventListener('resize', this.resizeHandler);
     }
 
     precalculateColumnWidths() {
-        const table = document.querySelector('.standings-table');
-        if (!table) return;
-
-        const headerCells = table.querySelectorAll('thead th');
-        this.columnWidths = Array.from(headerCells).map(cell => cell.offsetWidth);
+        if (!this.table) return;
+        
+        // Store original column widths for smooth transitions
+        const originalHeaders = this.table.querySelectorAll('thead th');
+        this.columnWidths = [];
+        
+        originalHeaders.forEach((header) => {
+            this.columnWidths.push(header.offsetWidth);
+        });
+        
+        // Store total table width
+        this.tableWidth = this.table.offsetWidth;
     }
 
     handleStickyHeader() {
-        const standingsContainer = document.getElementById('standingsContainer');
-        if (!standingsContainer) return;
+        if (!this.table) {
+            return;
+        }
 
-        const containerRect = standingsContainer.getBoundingClientRect();
-        const isContainerVisible = containerRect.top < 100 && containerRect.bottom > 100;
-
-        if (isContainerVisible && containerRect.top < 0) {
+        const tableRect = this.table.getBoundingClientRect();
+        const tableTop = tableRect.top;
+        
+        // Check if the table header has reached the top of the viewport
+        if (tableTop <= 0 && tableRect.bottom > 0) {
+            // Table header is at or above the top of viewport and table is still visible
             this.showFixedHeader();
         } else {
+            // Table header is below the top of viewport or table is not visible
             this.hideFixedHeader();
         }
     }
 
     showFixedHeader() {
-        document.body.classList.add('sticky-header-fixed');
-        this.alignFixedHeaderColumns();
+        if (this.fixedHeader) return; // Already showing
+
+        // Apply fixed widths to original table BEFORE creating fixed header to prevent flicker
+        this.applyFixedWidthsToOriginal();
+
+        // Create a fixed header element
+        this.fixedHeader = document.createElement('div');
+        this.fixedHeader.className = 'sticky-header-fixed';
+        
+        // Clone the table structure for the header
+        const tableContainer = document.createElement('div');
+        tableContainer.className = 'table-container';
+        
+        const table = document.createElement('table');
+        table.className = 'standings-table';
+        
+        // Clone only the thead
+        const thead = this.table.querySelector('thead').cloneNode(true);
+        table.appendChild(thead);
+        
+        tableContainer.appendChild(table);
+        this.fixedHeader.appendChild(tableContainer);
+        
+        // Add to body
+        document.body.appendChild(this.fixedHeader);
+
+        // Apply column widths and initial position
+        setTimeout(() => {
+            this.alignFixedHeaderColumns();
+            this.syncHeaderPosition();
+        }, 0);
+    }
+
+    applyFixedWidthsToOriginal() {
+        if (!this.table || !this.columnWidths) return;
+        
+        const originalHeaders = this.table.querySelectorAll('thead th');
+        originalHeaders.forEach((header, index) => {
+            if (this.columnWidths[index]) {
+                const widthStyle = this.columnWidths[index] + 'px';
+                header.style.width = widthStyle;
+                header.style.minWidth = widthStyle;
+                header.style.maxWidth = widthStyle;
+            }
+        });
+        
+        // Set table width
+        if (this.tableWidth) {
+            this.table.style.width = this.tableWidth + 'px';
+            this.table.style.minWidth = this.tableWidth + 'px';
+        }
     }
 
     alignFixedHeaderColumns() {
-        const originalCells = document.querySelectorAll('.standings-table thead th');
-        const fixedCells = document.querySelectorAll('.sticky-header-fixed .standings-table thead th');
+        if (!this.fixedHeader || !this.table || !this.columnWidths) return;
 
-        originalCells.forEach((cell, index) => {
-            if (fixedCells[index]) {
-                fixedCells[index].style.width = `${cell.offsetWidth}px`;
+        const fixedHeaders = this.fixedHeader.querySelectorAll('thead th');
+        const fixedTable = this.fixedHeader.querySelector('.standings-table');
+        
+        // Set the fixed table width
+        if (this.tableWidth) {
+            fixedTable.style.width = this.tableWidth + 'px';
+            fixedTable.style.minWidth = this.tableWidth + 'px';
+        }
+        
+        // Apply pre-calculated widths to fixed header
+        fixedHeaders.forEach((header, index) => {
+            if (this.columnWidths[index]) {
+                const widthStyle = this.columnWidths[index] + 'px';
+                header.style.width = widthStyle;
+                header.style.minWidth = widthStyle;
+                header.style.maxWidth = widthStyle;
             }
         });
     }
 
     hideFixedHeader() {
-        document.body.classList.remove('sticky-header-fixed');
+        if (this.fixedHeader) {
+            // Remove the fixed header
+            this.fixedHeader.remove();
+            this.fixedHeader = null;
+            
+            // Reset original table column widths to allow natural reflow
+            const originalHeaders = this.table.querySelectorAll('thead th');
+            originalHeaders.forEach((header) => {
+                header.style.width = '';
+                header.style.minWidth = '';
+                header.style.maxWidth = '';
+            });
+            
+            // Reset table width
+            if (this.table) {
+                this.table.style.width = '';
+                this.table.style.minWidth = '';
+            }
+        }
+    }
+
+    syncHeaderPosition() {
+        if (!this.fixedHeader || !this.tableContainer) return;
+        
+        const fixedTableContainer = this.fixedHeader.querySelector('.table-container');
+        if (!fixedTableContainer) return;
+        
+        // Revolutionary approach: Direct position mirroring
+        // Instead of separate scroll containers, we position the fixed header's table
+        // to exactly mirror the main table's scroll position using transforms
+        const scrollLeft = this.tableContainer.scrollLeft;
+        const fixedTable = fixedTableContainer.querySelector('.standings-table');
+        
+        if (fixedTable) {
+            // Instantly position the table to match main table scroll
+            fixedTable.style.transform = `translateX(-${scrollLeft}px)`;
+        }
     }
 
     throttle(func, limit) {
@@ -1085,6 +1298,20 @@ class MultiDivisionYSBAApp {
         }
         if (this.lastUpdatedCountdown) {
             this.lastUpdatedCountdown.stopCountdown();
+        }
+        
+        // Cleanup sticky header handlers
+        if (this.stickyHeaderHandler) {
+            window.removeEventListener('scroll', this.stickyHeaderHandler);
+        }
+        if (this.resizeHandler) {
+            window.removeEventListener('resize', this.resizeHandler);
+        }
+        if (this.horizontalScrollHandler && this.tableContainer) {
+            this.tableContainer.removeEventListener('scroll', this.horizontalScrollHandler);
+        }
+        if (this.fixedHeader) {
+            this.hideFixedHeader();
         }
     }
 
