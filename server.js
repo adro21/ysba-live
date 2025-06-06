@@ -116,14 +116,14 @@ const KNOWN_WORKING_DIVISIONS = {
   // Rep divisions that we've seen have teams in the logs
   '8U-rep': ['tier-3'], // Had 15+ teams in tier-3
   '9U-rep': ['tier-3'], // Had teams in tier-3
-  '10U-rep': ['tier-1', 'tier-2', 'tier-3'], // Had 19 teams across tiers
-  '11U-rep': ['tier-2'], // Has 10 teams in tier-2
-  '12U-rep': ['tier-2'], // Has 9 teams in tier-2
-  '13U-rep': ['tier-2'], // Has 8 teams in tier-2
+  '10U-rep': ['tier-2', 'tier-3'], // Remove tier-1 (0 teams), keep tier-2 and tier-3
+  '11U-rep': ['tier-2', 'tier-3'], // Has 10 teams in tier-2, 10 teams in tier-3
+  '12U-rep': ['tier-2', 'tier-3'], // Has 9 teams in tier-2, 10 teams in tier-3
+  '13U-rep': ['tier-2', 'tier-3'], // Has 8 teams in tier-2, 9 teams in tier-3
   '14U-rep': ['tier-3'], // Has 13 teams in tier-3  
   '15U-rep': ['tier-2', 'tier-3'], // Rep 15U has teams in tier-2 (8 teams) and tier-3 (10 teams)
   '16U-rep': ['tier-2'], // Has 5 teams in tier-2
-  '18U-rep': ['tier-1', 'tier-2', 'tier-3'], // Had 19 teams across tiers
+  '18U-rep': ['no-tier'], // Has 19 teams in no-tier (doesn't use individual tiers)
   
   // Add more as we discover them - this avoids scraping everything on startup
 };
