@@ -30,6 +30,10 @@ class YSBAScraper {
     this.browser = null;
     this.isScraping = false; // Add flag to prevent concurrent scraping
     this.scrapePromise = null; // Store ongoing scrape promise
+    
+    // Multi-division caching
+    this.cachedDataByDivision = {}; // Cache data per division/tier combination
+    this.scrapingPromises = {}; // Track ongoing scraping promises per division
   }
 
   async initBrowser() {
@@ -67,84 +71,112 @@ class YSBAScraper {
     return this.browser;
   }
 
-  async scrapeStandings(forceRefresh = false) {
+  // New multi-division scraping method
+  async scrapeStandingsForDivision(division, tier, forceRefresh = false) {
+    const cacheKey = `${division}-${tier}`;
+    
     try {
       // Check cache first unless forced refresh
-      if (!forceRefresh && this.cachedData && this.cacheTimestamp) {
-        const cacheAge = Date.now() - this.cacheTimestamp;
+      if (!forceRefresh && this.cachedDataByDivision[cacheKey]) {
+        const cachedEntry = this.cachedDataByDivision[cacheKey];
+        const cacheAge = Date.now() - cachedEntry.timestamp;
         if (cacheAge < this.CACHE_DURATION) {
-          console.log(`Returning cached data (age: ${Math.floor(cacheAge / 1000)}s)`);
-          return this.cachedData;
+          console.log(`Returning cached data for ${cacheKey} (age: ${Math.floor(cacheAge / 1000)}s)`);
+          return cachedEntry.data;
         } else {
-          console.log(`Cache expired (age: ${Math.floor(cacheAge / 1000)}s > ${this.CACHE_DURATION / 1000}s), refreshing...`);
+          console.log(`Cache expired for ${cacheKey} (age: ${Math.floor(cacheAge / 1000)}s > ${this.CACHE_DURATION / 1000}s), refreshing...`);
         }
       }
 
-      // Prevent concurrent scraping
-      if (this.isScraping && this.scrapePromise) {
-        console.log('Scraping already in progress, waiting for completion...');
-        return await this.scrapePromise;
+      // Prevent concurrent scraping for the same division/tier
+      if (this.scrapingPromises[cacheKey]) {
+        console.log(`Scraping already in progress for ${cacheKey}, waiting for completion...`);
+        return await this.scrapingPromises[cacheKey];
       }
 
-      // Set scraping flag and create promise
-      this.isScraping = true;
-      console.log(`Starting fresh scrape (forceRefresh: ${forceRefresh})`);
-      this.scrapePromise = this.performScrapeWithCleanup(forceRefresh);
+      console.log(`Starting fresh scrape for ${cacheKey} (forceRefresh: ${forceRefresh})`);
       
-      return await this.scrapePromise;
+      // Get division configuration
+      const divisionConfig = config.getDivisionConfig(division, tier);
+      if (!divisionConfig) {
+        throw new Error(`Invalid division/tier combination: ${division}/${tier}`);
+      }
+
+      // Create scraping promise
+      this.scrapingPromises[cacheKey] = this.performDivisionScrapeWithCleanup(
+        divisionConfig.ysbaParams.division, 
+        divisionConfig.ysbaParams.tier, 
+        division, 
+        tier, 
+        forceRefresh
+      );
+      
+      const result = await this.scrapingPromises[cacheKey];
+      return result;
 
     } catch (error) {
-      console.error('Error scraping standings:', error.message);
+      console.error(`Error scraping standings for ${cacheKey}:`, error.message);
       
       // Return cached data if available, even if stale
-      if (this.cachedData) {
-        console.log('Returning stale cached data due to scraping error');
-        return this.cachedData;
+      if (this.cachedDataByDivision[cacheKey]) {
+        console.log(`Returning stale cached data for ${cacheKey} due to scraping error`);
+        return this.cachedDataByDivision[cacheKey].data;
       }
       
       throw error;
     } finally {
-      this.isScraping = false;
-      this.scrapePromise = null;
+      delete this.scrapingPromises[cacheKey];
     }
   }
 
-  async performScrapeWithCleanup(forceRefresh) {
+  // Legacy single-division method (for backwards compatibility)
+  async scrapeStandings(forceRefresh = false) {
+    // Default to 9U-select all-tiers for backwards compatibility
+    return await this.scrapeStandingsForDivision('9U-select', 'all-tiers', forceRefresh);
+  }
+
+  async performDivisionScrapeWithCleanup(ysbaDiv, ysbaTier, divisionKey, tierKey, forceRefresh) {
     try {
-      console.log(`Attempting to scrape YSBA standings (attempt 1)`);
-      const standingsData = await this.performScrape();
+      console.log(`Attempting to scrape YSBA standings for ${divisionKey}/${tierKey} (YSBA: ${ysbaDiv}/${ysbaTier})`);
+      const standingsData = await this.performDivisionScrape(ysbaDiv, ysbaTier, divisionKey);
       
-      // Cache the standings data
-      this.cachedData = standingsData;
-      this.cacheTimestamp = Date.now();
+      // Cache the standings data per division/tier
+      const cacheKey = `${divisionKey}-${tierKey}`;
+      this.cachedDataByDivision[cacheKey] = {
+        data: standingsData,
+        timestamp: Date.now()
+      };
       
-      // Clear old schedule cache when refreshing standings
-      if (forceRefresh) {
-        console.log('Clearing schedule cache due to forced refresh...');
-        this.allGamesCache = null; // Clear comprehensive cache
+      // Also cache for legacy compatibility if this is 9U-select
+      if (divisionKey === '9U-select' && tierKey === 'all-tiers') {
+        this.cachedData = standingsData;
+        this.cacheTimestamp = Date.now();
       }
       
-      // Cache comprehensive schedule in background (used by modal for instant loading)
-      // If this was a forced refresh, also force refresh the schedule cache
-      console.log(`Starting background comprehensive schedule caching (forceRefresh: ${forceRefresh})...`);
-      this.scrapeAllGamesSchedule(forceRefresh).then(() => {
-        console.log('✓ Background comprehensive schedule caching completed');
-      }).catch(err => {
-        console.log('✗ Background comprehensive schedule cache failed:', err.message);
-      });
-      
-      console.log(`Successfully scraped ${standingsData.teams.length} teams`);
+      console.log(`Successfully scraped ${standingsData.teams.length} teams for ${divisionKey}/${tierKey}`);
       
       return standingsData;
     } catch (error) {
-      console.error('Error in performScrapeWithCleanup:', error.message);
+      console.error(`Error in performDivisionScrapeWithCleanup for ${divisionKey}/${tierKey}:`, error.message);
       throw error;
     }
   }
 
+  // Legacy method for backwards compatibility
+  async performScrapeWithCleanup(forceRefresh) {
+    return await this.performDivisionScrapeWithCleanup(
+      config.DIVISION_VALUE, 
+      config.TIER_VALUE, 
+      '9U-select', 
+      'all-tiers', 
+      forceRefresh
+    );
+  }
 
 
-  async performScrape() {
+
+  // New multi-division scraping method
+  async performDivisionScrape(ysbaDiv, ysbaTier, divisionKey) {
     const browser = await this.initBrowser();
     const page = await browser.newPage();
 
@@ -163,16 +195,16 @@ class YSBAScraper {
       // Wait for the division dropdown to be available
       await page.waitForSelector('select[name="ddlDivision"]', { timeout: 10000 });
 
-      // Select the 9U Select division
-      console.log('Selecting 9U Select division...');
-      await page.select('select[name="ddlDivision"]', config.DIVISION_VALUE);
+      // Select the specified division
+      console.log(`Selecting division: ${ysbaDiv}...`);
+      await page.select('select[name="ddlDivision"]', ysbaDiv);
 
       // Wait a bit for the tier dropdown to update
       await this.sleep(1000);
 
-      // Select All Tiers
-      console.log('Selecting All Tiers...');
-      await page.select('select[name="ddlTier"]', config.TIER_VALUE);
+      // Select the specified tier
+      console.log(`Selecting tier: ${ysbaTier}...`);
+      await page.select('select[name="ddlTier"]', ysbaTier);
 
       // Click the search button
       console.log('Clicking search button...');
@@ -183,6 +215,10 @@ class YSBAScraper {
 
       // Extract the standings data
       console.log('Extracting standings data...');
+      
+      // Use the proper team name mapping (not division mapping)
+      const teamMapping = TEAM_NAME_MAPPING;
+      
       const standingsData = await page.evaluate((teamMappingJson) => {
         // Parse the team mapping JSON string
         const teamMapping = JSON.parse(teamMappingJson);
@@ -335,45 +371,49 @@ class YSBAScraper {
             // Account for ties: each tie counts as 0.5 wins
             const percentage = ((wins + 0.5 * ties) / totalGames) * 100;
             winPercentage = (percentage / 100).toFixed(3);
-          } else if (gamesPlayed > 0) {
-            // Fallback to GP if available
-            const percentage = ((wins + 0.5 * ties) / gamesPlayed) * 100;
-            winPercentage = (percentage / 100).toFixed(3);
           }
+
+          console.log(`Team: ${teamName}, Code: ${teamCode}, W-L-T: ${wins}-${losses}-${ties}, PCT: ${winPercentage}`);
 
           return {
             position: index + 1,
             team: teamName,
-            teamCode: teamCode,
-            gamesPlayed: gamesPlayed,
-            wins: wins,
-            losses: losses,
-            ties: ties,
-            points: parseInt(cellValues[4]) || 0,
-            runsFor: parseInt(cellValues[5]) || 0,
-            runsAgainst: parseInt(cellValues[6]) || 0,
-            winPercentage: winPercentage
+            teamCode: teamCode || `unknown-${index + 1}`,
+            gamesPlayed,
+            wins,
+            losses,
+            ties,
+            points: cellValues[4] || 0,
+            runsFor: cellValues[5] || 0,
+            runsAgainst: cellValues[6] || 0,
+            winPercentage
           };
-        }).filter(team => team && team.team);
+        }).filter(team => team !== null);
 
-        console.log('=== FINAL RESULTS ===');
-        teams.slice(0, 3).forEach(team => {
-          console.log(`${team.position}. ${team.team} (${team.teamCode}) - ${team.wins}W-${team.losses}L-${team.ties}T, Win%: ${team.winPercentage}`);
-        });
+        console.log('=== EXTRACTION COMPLETE ===');
+        console.log(`Successfully extracted ${teams.length} teams`);
 
         return {
           teams,
           lastUpdated: new Date().toISOString(),
-          division: '9U Select',
-          tier: 'All Tiers'
+          source: 'YSBA Website'
         };
-      }, JSON.stringify(TEAM_NAME_MAPPING));
+      }, JSON.stringify(teamMapping));
+
+      // Close the page
+      await page.close();
 
       return standingsData;
-
-    } finally {
+    } catch (error) {
+      console.error('Error in performDivisionScrape:', error);
       await page.close();
+      throw error;
     }
+  }
+
+  // Legacy method for backwards compatibility
+  async performScrape() {
+    return await this.performDivisionScrape(config.DIVISION_VALUE, config.TIER_VALUE, '9U-select');
   }
 
   // New comprehensive schedule scraping method
@@ -712,4 +752,5 @@ class YSBAScraper {
   }
 }
 
+module.exports = YSBAScraper; 
 module.exports = YSBAScraper; 

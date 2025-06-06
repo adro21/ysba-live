@@ -103,20 +103,113 @@ app.use(express.static(path.join(__dirname, 'public'), {
   }
 }));
 
-// API Routes
+// API Routes (must come before dynamic routes)
+
+// Get all available divisions (with optional filtering for non-empty ones)
+app.get('/api/divisions', async (req, res) => {
+  try {
+    const filterEmpty = req.query.filterEmpty === 'true';
+    
+    if (filterEmpty) {
+      // Filter out division/tier combinations that have no teams
+      const filteredDivisions = {};
+      
+      for (const [divisionKey, division] of Object.entries(config.DIVISIONS)) {
+        const filteredTiers = {};
+        
+        for (const [tierKey, tier] of Object.entries(division.tiers)) {
+          // Check if this division/tier combination has teams
+          const cacheKey = `${divisionKey}-${tierKey}`;
+          let hasTeams = false;
+          
+          if (scraper.cachedDataByDivision && scraper.cachedDataByDivision[cacheKey]) {
+            const cachedData = scraper.cachedDataByDivision[cacheKey];
+            hasTeams = cachedData.data?.teams?.length > 0;
+          } else {
+            // If not cached, try a quick scrape to check
+            try {
+              const data = await scraper.scrapeStandingsForDivision(divisionKey, tierKey, false);
+              hasTeams = data?.teams?.length > 0;
+            } catch (error) {
+              console.log(`Error checking ${divisionKey}/${tierKey}:`, error.message);
+              hasTeams = false;
+            }
+          }
+          
+          if (hasTeams) {
+            filteredTiers[tierKey] = tier;
+          }
+        }
+        
+        // Only include the division if it has at least one tier with teams
+        if (Object.keys(filteredTiers).length > 0) {
+          filteredDivisions[divisionKey] = {
+            ...division,
+            tiers: filteredTiers
+          };
+        }
+      }
+      
+      res.json({
+        success: true,
+        divisions: filteredDivisions,
+        filtered: true
+      });
+    } else {
+      // Return all divisions without filtering
+      res.json({
+        success: true,
+        divisions: config.DIVISIONS,
+        filtered: false
+      });
+    }
+  } catch (error) {
+    console.error('Error fetching divisions:', error);
+    res.status(500).json({
+      error: 'Failed to fetch divisions',
+      message: error.message
+    });
+  }
+});
+
+// Get standings for a specific division and tier
 app.get('/api/standings', async (req, res) => {
   try {
     const forceRefresh = req.query.refresh === 'true';
-    console.log(`API request for standings (force refresh: ${forceRefresh})`);
+    const division = req.query.division || '9U-select'; // Default fallback
+    const tier = req.query.tier || 'all-tiers';
     
-    // Check if scraper has cached data and the cache is fresh
-    if (!forceRefresh && scraper.cachedData && scraper.cacheTimestamp) {
-      const cacheAge = Date.now() - scraper.cacheTimestamp;
+    console.log(`API request for standings - Division: ${division}, Tier: ${tier} (force refresh: ${forceRefresh})`);
+    
+    // Get division configuration
+    const divisionConfig = config.getDivisionConfig(division);
+    if (!divisionConfig) {
+      return res.status(400).json({
+        error: 'Invalid division',
+        message: `Division '${division}' is not supported.`
+      });
+    }
+    
+    const tierConfig = divisionConfig.tiers[tier];
+    if (!tierConfig) {
+      return res.status(400).json({
+        error: 'Invalid tier',
+        message: `Tier '${tier}' is not supported for division '${division}'.`
+      });
+    }
+    
+    // Check if scraper has cached data for this division/tier and the cache is fresh
+    const cacheKey = `${division}-${tier}`;
+    if (!forceRefresh && scraper.cachedDataByDivision && scraper.cachedDataByDivision[cacheKey]) {
+      const cachedEntry = scraper.cachedDataByDivision[cacheKey];
+      const cacheAge = Date.now() - cachedEntry.timestamp;
       if (cacheAge < config.CACHE_DURATION) {
-        console.log(`Returning cached data directly from API (age: ${Math.floor(cacheAge / 1000)}s)`);
+        console.log(`Returning cached data for ${cacheKey} (age: ${Math.floor(cacheAge / 1000)}s)`);
         return res.json({
           success: true,
-          data: scraper.cachedData,
+          data: cachedEntry.data,
+          division: division,
+          tier: tier,
           cached: true,
           cacheAge: Math.floor(cacheAge / 1000),
           cacheDuration: config.CACHE_DURATION / 1000
@@ -124,26 +217,23 @@ app.get('/api/standings', async (req, res) => {
       }
     }
     
-    // Proceed with regular scrape (which may use cache internally)
-    const data = await scraper.scrapeStandings(forceRefresh);
+    // Proceed with scraping for this specific division/tier
+    const data = await scraper.scrapeStandingsForDivision(division, tier, forceRefresh);
     
     if (!data) {
       return res.status(503).json({
         error: 'Standings data not available',
-        message: 'Unable to fetch standings at this time. Please try again later.'
+        message: `Unable to fetch standings for ${divisionConfig.displayName} ${tierConfig.displayName} at this time. Please try again later.`
       });
     }
-
-    // Check if the result was from cache
-    const freshlyScraped = forceRefresh || 
-                          !scraper.cacheTimestamp || 
-                          (Date.now() - scraper.cacheTimestamp < 10000); // Less than 10 seconds old
 
     res.json({
       success: true,
       data: data,
-      cached: !freshlyScraped,
-      lastUpdated: scraper.cacheTimestamp ? new Date(scraper.cacheTimestamp).toISOString() : null
+      division: division,
+      tier: tier,
+      cached: false,
+      lastUpdated: new Date().toISOString()
     });
   } catch (error) {
     console.error('Error fetching standings:', error);
@@ -177,6 +267,19 @@ app.get('/api/status', (req, res) => {
     cacheAge: null
   };
 
+  // Multi-division cache status
+  const divisionCacheStatus = {};
+  if (scraper.cachedDataByDivision) {
+    Object.entries(scraper.cachedDataByDivision).forEach(([cacheKey, cachedEntry]) => {
+      const cacheAge = Math.round((now - cachedEntry.timestamp) / 1000);
+      divisionCacheStatus[cacheKey] = {
+        teamCount: cachedEntry.data?.teams?.length || 0,
+        lastUpdated: new Date(cachedEntry.timestamp).toISOString(),
+        cacheAge: cacheAge
+      };
+    });
+  }
+
   res.json({
     status: 'online',
     lastScrapeTime: lastScrape ? new Date(lastScrape).toISOString() : null,
@@ -187,6 +290,10 @@ app.get('/api/status', (req, res) => {
       isScheduleCachingInProgress: scraper.isScheduleCachingInProgress || false,
       cachedTeamCount: cachedScheduleCount,
       totalTeamCount: scraper.cachedData?.teams?.length || 0
+    },
+    multiDivisionCache: {
+      divisionsCount: Object.keys(divisionCacheStatus).length,
+      divisions: divisionCacheStatus
     }
   });
 });
@@ -814,6 +921,20 @@ app.get('/unsubscribe', (req, res) => {
     });
     
     res.send(htmlContent);
+});
+
+// Multi-division routing - handle /{division}/{tier} URLs (must come after API routes)
+app.get('/:division/:tier', (req, res) => {
+  const { division, tier } = req.params;
+  
+  // Validate division and tier
+  const divisionConfig = config.getDivisionConfig(division, tier);
+  if (!divisionConfig) {
+    return res.status(404).sendFile(path.join(__dirname, 'public', 'index.html'));
+  }
+  
+  // Serve the standings template
+  res.sendFile(path.join(__dirname, 'public', 'standings.html'));
 });
 
 // Schedule automatic scraping with change detection
