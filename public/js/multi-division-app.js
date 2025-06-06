@@ -277,86 +277,325 @@ class MultiDivisionYSBAApp {
     }
 
     populateDivisionTierDropdown() {
-        const menu = document.getElementById('divisionTierMenu');
-        if (!menu || !this.allDivisions) return;
+        // Use the divisions loaded from the API instead of window.AppConfig
+        const divisions = this.allDivisions || {};
+        
+        // Create mega menu for desktop
+        this.createMegaMenu(divisions);
+        
+        // Create mobile modal
+        this.createMobileModal(divisions);
+        
+        // Set up event listeners for both
+        this.setupMegaMenuEvents();
+        this.setupMobileModalEvents();
+    }
 
-        menu.innerHTML = '';
+    createMegaMenu(divisions) {
+        // Remove existing mega menu if it exists
+        const existingMegaMenu = document.querySelector('.mega-menu');
+        if (existingMegaMenu) {
+            existingMegaMenu.remove();
+        }
 
-        // Group divisions by category
-        const categories = {
-            'Rep Divisions': [],
-            'Select Divisions': []
-        };
+        // Create mega menu structure
+        const megaMenu = document.createElement('div');
+        megaMenu.className = 'mega-menu';
+        megaMenu.innerHTML = `
+            <div class="mega-menu-content">
+                <div class="mega-menu-header">
+                    <h3 class="mega-menu-title">Choose Division & Tier</h3>
+                    <p class="mega-menu-subtitle">Select your preferred division and tier to view standings</p>
+                </div>
+                <div class="mega-menu-grid">
+                    <div class="mega-menu-section">
+                        <h4 class="mega-menu-section-title">Rep Divisions</h4>
+                        <div class="mega-menu-items" id="rep-divisions"></div>
+                    </div>
+                    <div class="mega-menu-section">
+                        <h4 class="mega-menu-section-title">Select Divisions</h4>
+                        <div class="mega-menu-items" id="select-divisions"></div>
+                    </div>
+                </div>
+            </div>
+        `;
 
-        Object.entries(this.allDivisions).forEach(([key, division]) => {
-            if (key.includes('-rep')) {
-                categories['Rep Divisions'].push({ key, division });
-            } else if (key.includes('-select')) {
-                categories['Select Divisions'].push({ key, division });
+        // Populate divisions
+        const repContainer = megaMenu.querySelector('#rep-divisions');
+        const selectContainer = megaMenu.querySelector('#select-divisions');
+
+        Object.entries(divisions).forEach(([key, division]) => {
+            const isRep = key.includes('-rep');
+            const container = isRep ? repContainer : selectContainer;
+            
+            // Get the main tier for this division
+            const tierKeys = Object.keys(division.tiers);
+            const mainTierKey = tierKeys[0];
+            const tier = division.tiers[mainTierKey];
+            
+            const item = document.createElement('button');
+            item.className = 'mega-menu-item';
+            item.dataset.division = key;
+            item.dataset.tier = mainTierKey;
+            
+            // Check if this is the current active division
+            if (this.divisionConfig && this.divisionConfig.key === key) {
+                item.classList.add('active');
+            }
+            
+            item.innerHTML = `
+                <div class="mega-menu-item-content">
+                    <div class="mega-menu-item-title">${division.displayName}</div>
+                    <div class="mega-menu-item-subtitle">${tier.displayName}</div>
+                </div>
+                <span class="mega-menu-item-badge">${division.shortName}</span>
+            `;
+            
+            container.appendChild(item);
+        });
+
+        // Insert mega menu after the dropdown button
+        const brandText = document.querySelector('.brand-text');
+        if (brandText) {
+            brandText.style.position = 'relative';
+            brandText.appendChild(megaMenu);
+        }
+    }
+
+    createMobileModal(divisions) {
+        // Remove existing modal if it exists
+        const existingModal = document.querySelector('.division-modal');
+        if (existingModal) {
+            existingModal.remove();
+        }
+
+        // Create mobile modal structure
+        const modal = document.createElement('div');
+        modal.className = 'division-modal';
+        modal.innerHTML = `
+            <div class="division-modal-content">
+                <div class="division-modal-header">
+                    <h3 class="division-modal-title">Choose Division</h3>
+                    <p class="division-modal-subtitle">Select your preferred division and tier</p>
+                    <button class="division-modal-close" aria-label="Close">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <div class="division-modal-body">
+                    <div class="division-modal-section">
+                        <h4 class="division-modal-section-title">Rep Divisions</h4>
+                        <div class="division-modal-items" id="mobile-rep-divisions"></div>
+                    </div>
+                    <div class="division-modal-section">
+                        <h4 class="division-modal-section-title">Select Divisions</h4>
+                        <div class="division-modal-items" id="mobile-select-divisions"></div>
+                    </div>
+                </div>
+            </div>
+        `;
+
+        // Populate divisions
+        const repContainer = modal.querySelector('#mobile-rep-divisions');
+        const selectContainer = modal.querySelector('#mobile-select-divisions');
+
+        Object.entries(divisions).forEach(([key, division]) => {
+            const isRep = key.includes('-rep');
+            const container = isRep ? repContainer : selectContainer;
+            
+            // Get the main tier for this division
+            const tierKeys = Object.keys(division.tiers);
+            const mainTierKey = tierKeys[0];
+            const tier = division.tiers[mainTierKey];
+            
+            const item = document.createElement('button');
+            item.className = 'division-modal-item';
+            item.dataset.division = key;
+            item.dataset.tier = mainTierKey;
+            
+            // Check if this is the current active division
+            if (this.divisionConfig && this.divisionConfig.key === key) {
+                item.classList.add('active');
+            }
+            
+            item.innerHTML = `
+                <div class="division-modal-item-content">
+                    <div class="division-modal-item-title">${division.displayName}</div>
+                    <div class="division-modal-item-subtitle">${tier.displayName}</div>
+                </div>
+                <span class="division-modal-item-badge">${division.shortName}</span>
+            `;
+            
+            container.appendChild(item);
+        });
+
+        // Append modal to body
+        document.body.appendChild(modal);
+    }
+
+    setupMegaMenuEvents() {
+        const megaMenu = document.querySelector('.mega-menu');
+        const dropdownBtn = document.querySelector('.brand-subtitle-btn');
+        
+        if (!megaMenu || !dropdownBtn) return;
+
+        // Toggle mega menu on button click (desktop only)
+        dropdownBtn.addEventListener('click', (e) => {
+            if (window.innerWidth >= 992) {
+                e.preventDefault();
+                e.stopPropagation();
+                
+                const isOpen = megaMenu.classList.contains('show');
+                
+                if (isOpen) {
+                    this.closeMegaMenu();
+                } else {
+                    this.openMegaMenu();
+                }
             }
         });
 
-        Object.entries(categories).forEach(([categoryName, divisions]) => {
-            if (divisions.length === 0) return;
+        // Handle mega menu item clicks
+        megaMenu.addEventListener('click', (e) => {
+            const item = e.target.closest('.mega-menu-item');
+            if (item) {
+                e.preventDefault();
+                const division = item.dataset.division;
+                const tier = item.dataset.tier;
+                
+                // Update active state
+                megaMenu.querySelectorAll('.mega-menu-item').forEach(i => i.classList.remove('active'));
+                item.classList.add('active');
+                
+                // Navigate to new division
+                this.navigateToDivision(division, tier);
+                this.closeMegaMenu();
+            }
+        });
 
-            // Add category header
-            const header = document.createElement('li');
-            header.innerHTML = `<h6 class="dropdown-header">${categoryName}</h6>`;
-            menu.appendChild(header);
+        // Close mega menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!megaMenu.contains(e.target) && !dropdownBtn.contains(e.target)) {
+                this.closeMegaMenu();
+            }
+        });
 
-            // Add divisions in this category
-            divisions.forEach(({ key, division }) => {
-                Object.entries(division.tiers).forEach(([tierKey, tier]) => {
-                    const item = document.createElement('li');
-                    const link = document.createElement('a');
-                    link.className = 'dropdown-item';
-                    link.href = `/${key}/${tierKey}`;
-                    link.textContent = `${division.displayName} - ${tier.displayName}`;
-                    
-                    // Mark current selection as active
-                    if (key === this.currentDivision && tierKey === this.currentTier) {
-                        link.classList.add('active');
-                    }
-                    
-                    item.appendChild(link);
-                    menu.appendChild(item);
-                });
-            });
-
-            // Add divider after each category (except last)
-            const categoryEntries = Object.entries(categories);
-            const isLastCategory = categoryEntries[categoryEntries.length - 1][0] === categoryName;
-            if (!isLastCategory) {
-                const divider = document.createElement('li');
-                divider.innerHTML = '<hr class="dropdown-divider">';
-                menu.appendChild(divider);
+        // Close mega menu on escape
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                this.closeMegaMenu();
             }
         });
     }
 
-    setupDivisionFilter() {
-        const filterMenu = document.getElementById('divisionFilterMenu');
-        if (!filterMenu || !this.divisionMapping) return;
+    setupMobileModalEvents() {
+        const modal = document.querySelector('.division-modal');
+        const dropdownBtn = document.querySelector('.brand-subtitle-btn');
+        const closeBtn = modal?.querySelector('.division-modal-close');
+        
+        if (!modal || !dropdownBtn) return;
 
-        filterMenu.innerHTML = `
-            <li><a class="dropdown-item" href="#" data-division="all">All Divisions</a></li>
-            <li><a class="dropdown-item" href="#" data-division="north">North Division</a></li>
-            <li><a class="dropdown-item" href="#" data-division="south">South Division</a></li>
-        `;
-
-        // Add event listeners for division filter
-        filterMenu.querySelectorAll('.dropdown-item[data-division]').forEach(item => {
-            item.addEventListener('click', (e) => {
+        // Open modal on button click (mobile only)
+        dropdownBtn.addEventListener('click', (e) => {
+            if (window.innerWidth < 992) {
                 e.preventDefault();
-                const division = e.target.getAttribute('data-division');
-                
-                // Close the dropdown
-                const dropdown = bootstrap.Dropdown.getInstance(document.getElementById('divisionBtn'));
-                if (dropdown) dropdown.hide();
-                
-                this.setDivisionFilter(division);
-            });
+                e.stopPropagation();
+                this.openMobileModal();
+            }
         });
+
+        // Close modal on close button click
+        closeBtn?.addEventListener('click', () => {
+            this.closeMobileModal();
+        });
+
+        // Close modal on backdrop click
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                this.closeMobileModal();
+            }
+        });
+
+        // Handle modal item clicks
+        modal.addEventListener('click', (e) => {
+            const item = e.target.closest('.division-modal-item');
+            if (item) {
+                e.preventDefault();
+                const division = item.dataset.division;
+                const tier = item.dataset.tier;
+                
+                // Update active state
+                modal.querySelectorAll('.division-modal-item').forEach(i => i.classList.remove('active'));
+                item.classList.add('active');
+                
+                // Navigate to new division
+                this.navigateToDivision(division, tier);
+                this.closeMobileModal();
+            }
+        });
+
+        // Close modal on escape
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                this.closeMobileModal();
+            }
+        });
+    }
+
+    openMegaMenu() {
+        const megaMenu = document.querySelector('.mega-menu');
+        const dropdownBtn = document.querySelector('.brand-subtitle-btn');
+        
+        if (megaMenu) {
+            megaMenu.classList.add('show');
+            dropdownBtn?.setAttribute('aria-expanded', 'true');
+        }
+    }
+
+    closeMegaMenu() {
+        const megaMenu = document.querySelector('.mega-menu');
+        const dropdownBtn = document.querySelector('.brand-subtitle-btn');
+        
+        if (megaMenu) {
+            megaMenu.classList.remove('show');
+            dropdownBtn?.setAttribute('aria-expanded', 'false');
+        }
+    }
+
+    openMobileModal() {
+        const modal = document.querySelector('.division-modal');
+        if (modal) {
+            modal.classList.add('show');
+            document.body.style.overflow = 'hidden';
+        }
+    }
+
+    closeMobileModal() {
+        const modal = document.querySelector('.division-modal');
+        if (modal) {
+            modal.classList.remove('show');
+            document.body.style.overflow = '';
+        }
+    }
+
+    async navigateToDivision(divisionKey, tierKey) {
+        // Update URL and reload with new division
+        const newPath = `/${divisionKey}/${tierKey}`;
+        window.history.pushState({}, '', newPath);
+        
+        // Update button text
+        const config = window.AppConfig?.DIVISIONS?.[divisionKey];
+        if (config) {
+            const dropdownBtn = document.querySelector('.brand-subtitle-btn');
+            const buttonText = dropdownBtn?.querySelector('.dropdown-button-text');
+            if (buttonText) {
+                buttonText.textContent = config.shortName;
+            }
+        }
+        
+        // Reinitialize the app with new division
+        await this.parseCurrentPath();
+        await this.loadStandings(true);
+        this.applyDynamicTheming();
     }
 
     setupEventListeners() {
@@ -1359,6 +1598,31 @@ class MultiDivisionYSBAApp {
                 </div>
             </div>
         `;
+    }
+
+    setupDivisionFilter() {
+        const filterMenu = document.getElementById('divisionFilterMenu');
+        if (!filterMenu || !this.divisionMapping) return;
+
+        filterMenu.innerHTML = `
+            <li><a class="dropdown-item" href="#" data-division="all">All Divisions</a></li>
+            <li><a class="dropdown-item" href="#" data-division="north">North Division</a></li>
+            <li><a class="dropdown-item" href="#" data-division="south">South Division</a></li>
+        `;
+
+        // Add event listeners for division filter
+        filterMenu.querySelectorAll('.dropdown-item[data-division]').forEach(item => {
+            item.addEventListener('click', (e) => {
+                e.preventDefault();
+                const division = e.target.getAttribute('data-division');
+
+                // Close the dropdown
+                const dropdown = bootstrap.Dropdown.getInstance(document.getElementById('divisionBtn'));
+                if (dropdown) dropdown.hide();
+                
+                this.setDivisionFilter(division);
+            });
+        });
     }
 }
 
