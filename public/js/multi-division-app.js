@@ -851,9 +851,17 @@ class MultiDivisionYSBAApp {
         // Score display
         let scoreDisplay = '';
         if (game.isCompleted && game.teamScore !== null && game.opponentScore !== null) {
+            // Game has scores - show actual score
             scoreDisplay = `${game.teamScore} - ${game.opponentScore}`;
-        } else {
+        } else if (isFutureGame) {
+            // Future game - show time or TBD
             scoreDisplay = game.time || 'TBD';
+        } else {
+            // Past game without scores - show special "No Result" HTML
+            scoreDisplay = `<strong>-</strong>
+                    <div class="score-labels">
+                        <small class="text-muted">No Score</small>
+                    </div>`;
         }
 
         return `
