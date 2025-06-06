@@ -105,38 +105,57 @@ app.use(express.static(path.join(__dirname, 'public'), {
 
 // API Routes (must come before dynamic routes)
 
+// Known working division/tier combinations (to avoid unnecessary scraping)
+const KNOWN_WORKING_DIVISIONS = {
+  // Select divisions (we know these work)
+  '9U-select': ['all-tiers'],
+  '11U-select': ['all-tiers'], 
+  '13U-select': ['all-tiers'],
+  '15U-select': ['all-tiers'],
+  
+  // Rep divisions that we've seen have teams in the logs
+  '8U-rep': ['all-tiers', 'tier-3'], // Had 15+ teams in logs
+  '9U-rep': ['tier-3'], // Had teams
+  '10U-rep': ['all-tiers'], // Had 19 teams  
+  '18U-rep': ['all-tiers'], // Had 19 teams
+  
+  // Add more as we discover them - this avoids scraping everything on startup
+};
+
 // Get all available divisions (with optional filtering for non-empty ones)
 app.get('/api/divisions', async (req, res) => {
   try {
     const filterEmpty = req.query.filterEmpty === 'true';
     
     if (filterEmpty) {
-      // Filter out division/tier combinations that have no teams
+      // Use smart filtering - check cache first, then known working divisions, avoid unnecessary scrapes
       const filteredDivisions = {};
       
       for (const [divisionKey, division] of Object.entries(config.DIVISIONS)) {
         const filteredTiers = {};
         
         for (const [tierKey, tier] of Object.entries(division.tiers)) {
-          // Check if this division/tier combination has teams
           const cacheKey = `${divisionKey}-${tierKey}`;
-          let hasTeams = false;
+          let includeThisTier = false;
           
+          // 1. Check if already cached (fast)
           if (scraper.cachedDataByDivision && scraper.cachedDataByDivision[cacheKey]) {
             const cachedData = scraper.cachedDataByDivision[cacheKey];
-            hasTeams = cachedData.data?.teams?.length > 0;
-          } else {
-            // If not cached, try a quick scrape to check
-            try {
-              const data = await scraper.scrapeStandingsForDivision(divisionKey, tierKey, false);
-              hasTeams = data?.teams?.length > 0;
-            } catch (error) {
-              console.log(`Error checking ${divisionKey}/${tierKey}:`, error.message);
-              hasTeams = false;
-            }
+            includeThisTier = cachedData.data?.teams?.length > 0;
+          }
+          // 2. Check if it's in our known working list (fast)
+          else if (KNOWN_WORKING_DIVISIONS[divisionKey]?.includes(tierKey)) {
+            includeThisTier = true;
+          }
+          // 3. For unknown combinations, include them but let them be discovered lazily
+          //    This prevents the long startup delay
+          else {
+            // Skip unknown combinations for now - they'll be discovered when users click them
+            includeThisTier = false;
+            console.log(`Skipping unknown division/tier combination: ${divisionKey}/${tierKey} (will be discovered on-demand)`);
           }
           
-          if (hasTeams) {
+          if (includeThisTier) {
             filteredTiers[tierKey] = tier;
           }
         }
@@ -150,10 +169,13 @@ app.get('/api/divisions', async (req, res) => {
         }
       }
       
+      console.log(`Filtered divisions returned: ${Object.keys(filteredDivisions).length} divisions with teams`);
+      
       res.json({
         success: true,
         divisions: filteredDivisions,
-        filtered: true
+        filtered: true,
+        note: 'Some divisions may be discovered on-demand to avoid startup delays'
       });
     } else {
       // Return all divisions without filtering
@@ -225,6 +247,17 @@ app.get('/api/standings', async (req, res) => {
         error: 'Standings data not available',
         message: `Unable to fetch standings for ${divisionConfig.displayName} ${tierConfig.displayName} at this time. Please try again later.`
       });
+    }
+
+    // Auto-discover working division/tier combinations for future optimization
+    if (data.teams && data.teams.length > 0) {
+      if (!KNOWN_WORKING_DIVISIONS[division]) {
+        KNOWN_WORKING_DIVISIONS[division] = [];
+      }
+      if (!KNOWN_WORKING_DIVISIONS[division].includes(tier)) {
+        KNOWN_WORKING_DIVISIONS[division].push(tier);
+        console.log(`✅ Auto-discovered working combination: ${division}/${tier} (${data.teams.length} teams)`);
+      }
     }
 
     res.json({
