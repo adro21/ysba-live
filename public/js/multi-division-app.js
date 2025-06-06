@@ -582,20 +582,34 @@ class MultiDivisionYSBAApp {
         const newPath = `/${divisionKey}/${tierKey}`;
         window.history.pushState({}, '', newPath);
         
-        // Update button text
-        const config = window.AppConfig?.DIVISIONS?.[divisionKey];
-        if (config) {
-            const dropdownBtn = document.querySelector('.brand-subtitle-btn');
-            const buttonText = dropdownBtn?.querySelector('.dropdown-button-text');
-            if (buttonText) {
-                buttonText.textContent = config.shortName;
+        // Update current division/tier
+        this.currentDivision = divisionKey;
+        this.currentTier = tierKey;
+        
+        // Update division and tier config from loaded divisions
+        if (this.allDivisions && this.allDivisions[divisionKey]) {
+            this.divisionConfig = this.allDivisions[divisionKey];
+            this.tierConfig = this.divisionConfig.tiers[tierKey];
+            
+            // Set division mapping if available
+            if (this.divisionConfig.divisionMapping) {
+                this.divisionMapping = this.divisionConfig.divisionMapping;
             }
         }
         
-        // Reinitialize the app with new division
-        await this.parseCurrentPath();
-        await this.loadStandings(true);
+        // Update button text
+        if (this.divisionConfig) {
+            const dropdownBtn = document.querySelector('.brand-subtitle-btn');
+            const buttonText = dropdownBtn?.querySelector('.dropdown-button-text');
+            if (buttonText) {
+                buttonText.textContent = this.divisionConfig.shortName;
+            }
+        }
+        
+        // Apply theming first, then load standings and update UI
         this.applyDynamicTheming();
+        this.updateUIElements();
+        await this.loadStandings(true);
     }
 
     setupEventListeners() {
