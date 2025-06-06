@@ -286,19 +286,45 @@ app.get('/api/status', (req, res) => {
   // Count cached schedules (legacy individual team cache)
   const cachedScheduleCount = scraper.teamScheduleCache ? Object.keys(scraper.teamScheduleCache).length : 0;
   
-  // Get comprehensive schedule status
+  // Get comprehensive schedule status - now handles multi-division cache
   const allGamesCache = scraper.allGamesCache;
-  const comprehensiveScheduleStatus = allGamesCache ? {
-    isActive: true,
-    totalGames: allGamesCache.data?.games?.length || 0,
-    lastUpdated: allGamesCache.timestamp ? new Date(allGamesCache.timestamp).toISOString() : null,
-    cacheAge: allGamesCache.timestamp ? Math.round((now - allGamesCache.timestamp) / 1000) : null
-  } : {
+  let comprehensiveScheduleStatus = {
     isActive: false,
     totalGames: 0,
     lastUpdated: null,
-    cacheAge: null
+    cacheAge: null,
+    divisionCaches: {}
   };
+
+  if (allGamesCache && Object.keys(allGamesCache).length > 0) {
+    comprehensiveScheduleStatus.isActive = true;
+    let totalGames = 0;
+    let mostRecentUpdate = null;
+
+    // Process each division cache
+    Object.entries(allGamesCache).forEach(([cacheKey, cacheData]) => {
+      const gamesCount = cacheData.data?.allGames?.length || 0;
+      totalGames += gamesCount;
+      
+      const lastUpdated = cacheData.timestamp ? new Date(cacheData.timestamp).toISOString() : null;
+      const cacheAge = cacheData.timestamp ? Math.round((now - cacheData.timestamp) / 1000) : null;
+      
+      comprehensiveScheduleStatus.divisionCaches[cacheKey] = {
+        gamesCount,
+        lastUpdated,
+        cacheAge
+      };
+
+      // Track most recent update
+      if (!mostRecentUpdate || (cacheData.timestamp && cacheData.timestamp > mostRecentUpdate)) {
+        mostRecentUpdate = cacheData.timestamp;
+      }
+    });
+
+    comprehensiveScheduleStatus.totalGames = totalGames;
+    comprehensiveScheduleStatus.lastUpdated = mostRecentUpdate ? new Date(mostRecentUpdate).toISOString() : null;
+    comprehensiveScheduleStatus.cacheAge = mostRecentUpdate ? Math.round((now - mostRecentUpdate) / 1000) : null;
+  }
 
   // Multi-division cache status
   const divisionCacheStatus = {};
@@ -335,6 +361,9 @@ app.get('/api/status', (req, res) => {
 app.get('/api/team/:teamCode/schedule', async (req, res) => {
     try {
         const { teamCode } = req.params;
+        const division = req.query.division || '9U-select'; // Default to 9U-select for backward compatibility
+        const tier = req.query.tier || 'all-tiers';
+        
         console.log(`API request for team ${teamCode} schedule`);
 
         // Validate team code
@@ -345,7 +374,25 @@ app.get('/api/team/:teamCode/schedule', async (req, res) => {
             });
         }
 
-        const scheduleData = await scraper.scrapeTeamSchedule(teamCode);
+        // Get division configuration to get the YSBA division value
+        const divisionConfig = config.getDivisionConfig(division);
+        if (!divisionConfig) {
+            return res.status(400).json({
+                success: false,
+                message: `Division '${division}' is not supported.`
+            });
+        }
+
+        const tierConfig = divisionConfig.tiers[tier];
+        if (!tierConfig) {
+            return res.status(400).json({
+                success: false,
+                message: `Tier '${tier}' is not supported for division '${division}'.`
+            });
+        }
+
+        // Get schedule data for the specific division/tier
+        const scheduleData = await scraper.scrapeTeamScheduleForDivision(teamCode, division, tier);
         
         res.json({
             success: true,
@@ -1111,13 +1158,32 @@ app.listen(PORT, () => {
       
       console.log('Performing initial scrape (standings + comprehensive schedule)...');
       
-      // Populate standings cache
+      // Populate standings cache for the default 9U-select division
       await scraper.scrapeStandings(true);
       
-      // Populate comprehensive schedule cache for instant modal loading
-      console.log('Pre-populating comprehensive schedule cache...');
-      await scraper.scrapeAllGamesSchedule(true);
-      console.log('✓ All caches populated - schedule modals will load instantly');
+      // Populate comprehensive schedule cache for known working divisions
+      console.log('Pre-populating comprehensive schedule caches...');
+      
+      // Get a subset of known working divisions that are most likely to have schedules
+      const divisionsToCache = [
+        { division: '9U-select', tier: 'all-tiers' },    // Main division - always cache this
+        { division: '11U-select', tier: 'all-tiers' },   // Select divisions are most active
+        { division: '13U-select', tier: 'all-tiers' },
+        { division: '15U-select', tier: 'all-tiers' }
+      ];
+      
+      for (const { division, tier } of divisionsToCache) {
+        try {
+          console.log(`Pre-caching schedule for ${division}/${tier}...`);
+          await scraper.scrapeAllGamesSchedule(true, division, tier);
+          console.log(`✓ Schedule cache populated for ${division}/${tier}`);
+        } catch (error) {
+          console.warn(`⚠️ Failed to cache schedule for ${division}/${tier}:`, error.message);
+          // Continue with other divisions even if one fails
+        }
+      }
+      
+      console.log('✓ Schedule caches populated - schedule modals will load faster');
       
     } catch (error) {
       console.error('Initial scraping failed:', error);

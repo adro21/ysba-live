@@ -336,9 +336,8 @@ class MultiDivisionYSBAApp {
 
         this.isLoading = true;
         
-        if (!forceRefresh) {
-            this.showLoadingState();
-        }
+        // Always show loading state, whether it's initial load or refresh
+        this.showLoadingState();
 
         try {
             const params = new URLSearchParams({
@@ -721,7 +720,13 @@ class MultiDivisionYSBAApp {
         document.getElementById('scheduleErrorState')?.classList.remove('show');
         document.getElementById('scheduleContent')?.classList.add('show');
 
-        const games = scheduleData.games || [];
+        // Use the pre-separated games from the new schedule structure
+        const playedGames = (scheduleData.playedGames || []).slice().sort((a, b) => {
+            // Sort played games newest first (reverse chronological)
+            if (!a.date || !b.date) return 0;
+            return new Date(b.date) - new Date(a.date);
+        });
+        const upcomingGames = scheduleData.upcomingGames || [];
         
         // Team record display
         let recordText = '';
@@ -735,10 +740,6 @@ class MultiDivisionYSBAApp {
         }
 
         document.getElementById('teamRecord').innerHTML = recordText;
-        
-        // Split games into played and upcoming
-        const playedGames = games.filter(game => game.isCompleted);
-        const upcomingGames = games.filter(game => !game.isCompleted);
         
         this.setupNewScheduleTabs(playedGames, upcomingGames);
         
@@ -801,43 +802,39 @@ class MultiDivisionYSBAApp {
     }
 
     createNewGameCard(game) {
-        // Determine if this team is home or away and the opponent
-        const isHome = game.homeTeamCode === this.getTeamData(game.homeTeamCode || game.awayTeamCode)?.teamCode;
-        const opponent = isHome ? game.awayTeam : game.homeTeam;
-        const location = game.location || 'TBD';
+        // Use the pre-calculated values from the API data
+        const isHome = game.isHome;
+        const opponent = game.opponent;
         
-        // Game result logic
+        // Game result logic - determine if this is a future game
+        const now = new Date();
+        const gameDate = game.date ? new Date(game.date) : null;
+        const isFutureGame = gameDate && gameDate > now;
+        
         let resultClass = 'no-result';
         let resultText = 'No Result';
         
-        if (game.isCompleted && game.homeScore !== null && game.awayScore !== null) {
-            if (isHome) {
-                if (game.homeScore > game.awayScore) {
-                    resultClass = 'win';
-                    resultText = 'W';
-                } else if (game.homeScore < game.awayScore) {
-                    resultClass = 'loss';
-                    resultText = 'L';
-                } else {
-                    resultClass = 'tie';
-                    resultText = 'T';
-                }
+        if (game.isCompleted && game.teamScore !== null && game.opponentScore !== null) {
+            // Game has scores - show win/loss/tie
+            if (game.teamScore > game.opponentScore) {
+                resultClass = 'win';
+                resultText = 'Win';
+            } else if (game.teamScore < game.opponentScore) {
+                resultClass = 'loss';
+                resultText = 'Loss';
             } else {
-                if (game.awayScore > game.homeScore) {
-                    resultClass = 'win';
-                    resultText = 'W';
-                } else if (game.awayScore < game.homeScore) {
-                    resultClass = 'loss';
-                    resultText = 'L';
-                } else {
-                    resultClass = 'tie';
-                    resultText = 'T';
-                }
+                resultClass = 'tie';
+                resultText = 'Tie';
             }
             resultClass = 'completed ' + resultClass;
-        } else if (!game.isCompleted) {
+        } else if (isFutureGame) {
+            // Future game - show upcoming
             resultClass = 'upcoming';
-            resultText = game.time || 'TBD';
+            resultText = 'Upcoming';
+        } else {
+            // Past game without scores - show no result
+            resultClass = 'no-result';
+            resultText = 'No Result';
         }
 
         // Format date
@@ -853,12 +850,8 @@ class MultiDivisionYSBAApp {
 
         // Score display
         let scoreDisplay = '';
-        if (game.isCompleted && game.homeScore !== null && game.awayScore !== null) {
-            if (isHome) {
-                scoreDisplay = `${game.homeScore} - ${game.awayScore}`;
-            } else {
-                scoreDisplay = `${game.awayScore} - ${game.homeScore}`;
-            }
+        if (game.isCompleted && game.teamScore !== null && game.opponentScore !== null) {
+            scoreDisplay = `${game.teamScore} - ${game.opponentScore}`;
         } else {
             scoreDisplay = game.time || 'TBD';
         }
@@ -867,26 +860,19 @@ class MultiDivisionYSBAApp {
             <div class="game-card ${resultClass}">
                 <div class="game-content">
                     <div class="game-left-column">
+                        <div class="game-result ${resultClass}">
+                            ${resultText}
+                        </div>
                         <div class="game-opponent">${this.escapeHtml(opponent)}</div>
                         <div class="game-details">
                             <div class="game-detail">
                                 <i class="bi bi-calendar3"></i>
-                                ${formattedDate}
-                            </div>
-                            <div class="game-detail">
-                                <i class="bi bi-geo-alt"></i>
-                                ${this.escapeHtml(location)}
-                            </div>
-                            <div class="game-detail">
-                                <i class="${isHome ? 'bi bi-house' : 'bi bi-airplane'}"></i>
+                                ${formattedDate} <i class="${isHome ? 'bi bi-house' : 'bi bi-airplane'}"></i>
                                 ${isHome ? 'Home' : 'Away'}
                             </div>
                         </div>
                     </div>
                     <div class="game-right-column">
-                        <div class="game-result ${resultClass}">
-                            ${resultText}
-                        </div>
                         <div class="game-score">
                             ${scoreDisplay}
                         </div>

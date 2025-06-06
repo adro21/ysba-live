@@ -417,25 +417,42 @@ class YSBAScraper {
   }
 
   // New comprehensive schedule scraping method
-  async scrapeAllGamesSchedule(forceRefresh = false) {
+  async scrapeAllGamesSchedule(forceRefresh = false, division = '9U-select', tier = 'all-tiers') {
     try {
-      console.log('Scraping comprehensive schedule from YSBA schedule page...');
+      console.log(`Scraping comprehensive schedule from YSBA schedule page for ${division}/${tier}...`);
+      
+      // Get division configuration to get the YSBA values
+      const divisionConfig = config.getDivisionConfig(division);
+      if (!divisionConfig) {
+        throw new Error(`Division '${division}' is not supported.`);
+      }
+
+      const tierConfig = divisionConfig.tiers[tier];
+      if (!tierConfig) {
+        throw new Error(`Tier '${tier}' is not supported for division '${division}'.`);
+      }
+
+      const ysbaDiv = divisionConfig.ysbaValue;
+      const ysbaTier = tierConfig.ysbaValue;
+      
+      // Create a cache key for this specific division/tier combination
+      const cacheKey = `schedule-${division}-${tier}`;
       
       // Check cache first (only skip cache if explicitly forced to refresh)
-      if (!forceRefresh && this.allGamesCache) {
-        const cacheAge = Date.now() - this.allGamesCache.timestamp;
+      if (!forceRefresh && this.allGamesCache && this.allGamesCache[cacheKey]) {
+        const cacheAge = Date.now() - this.allGamesCache[cacheKey].timestamp;
         const maxAge = 30 * 60 * 1000; // 30 minutes
         
         if (cacheAge < maxAge) {
-          console.log(`✓ Returning cached all-games schedule (age: ${Math.floor(cacheAge / 1000)}s, cache hit)`);
-          return this.allGamesCache.data;
+          console.log(`✓ Returning cached schedule for ${division}/${tier} (age: ${Math.floor(cacheAge / 1000)}s, cache hit)`);
+          return this.allGamesCache[cacheKey].data;
         } else {
-          console.log(`Cache expired (age: ${Math.floor(cacheAge / 1000)}s), fetching fresh data...`);
+          console.log(`Cache expired for ${division}/${tier} (age: ${Math.floor(cacheAge / 1000)}s), fetching fresh data...`);
         }
       } else if (forceRefresh) {
-        console.log(`Force refresh requested, bypassing cache...`);
+        console.log(`Force refresh requested for ${division}/${tier}, bypassing cache...`);
       } else {
-        console.log(`No cache available, fetching fresh data...`);
+        console.log(`No cache available for ${division}/${tier}, fetching fresh data...`);
       }
 
       const browser = await this.initBrowser();
@@ -455,8 +472,8 @@ class YSBAScraper {
         // Wait for dropdowns to be available
         await page.waitForSelector('select[name="ddlDivision"]', { timeout: 10000 });
 
-        console.log('Selecting 9U Select division...');
-        await page.select('select[name="ddlDivision"]', '13'); // [Sel] 9U
+        console.log(`Selecting ${division} division (YSBA value: ${ysbaDiv})...`);
+        await page.select('select[name="ddlDivision"]', ysbaDiv);
 
         await this.sleep(1000);
 
@@ -501,13 +518,18 @@ class YSBAScraper {
         // Process and organize games
         const processedGames = this.processAllGames(allGames);
 
-        // Cache the result
-        this.allGamesCache = {
+        // Initialize cache object if it doesn't exist
+        if (!this.allGamesCache) {
+          this.allGamesCache = {};
+        }
+
+        // Cache the result for this division/tier
+        this.allGamesCache[cacheKey] = {
           data: processedGames,
           timestamp: Date.now()
         };
 
-        console.log(`✓ Successfully scraped ${allGames.length} total games from schedule page`);
+        console.log(`✓ Successfully scraped ${allGames.length} games for ${division}/${tier}`);
         return processedGames;
 
       } finally {
@@ -515,7 +537,7 @@ class YSBAScraper {
       }
 
     } catch (error) {
-      console.error('Error scraping comprehensive schedule:', error.message);
+      console.error(`Error scraping schedule for ${division}/${tier}:`, error.message);
       throw error;
     }
   }
@@ -562,7 +584,7 @@ class YSBAScraper {
           // Skip if missing essential data
           if (!dateText || !awayTeamInfo.code || !homeTeamInfo.code) return;
 
-          // Parse date and time
+          // Parse game date and time more accurately
           let gameDate = null;
           try {
             if (dateText && dateText !== '-') {
@@ -575,9 +597,32 @@ class YSBAScraper {
                 fullDateText = `${dateText}, ${currentYear}`;
               }
               
-              gameDate = new Date(fullDateText);
+              // Parse the date first
+              let tempDate = new Date(fullDateText);
+              if (!isNaN(tempDate.getTime())) {
+                // If we have a time, combine it with the date
+                if (timeText && timeText !== '-') {
+                  try {
+                    // Create a date string that includes both date and time
+                    // Format: "Jun 6, 2025 6:00 PM" -> proper date object
+                    const fullDateTimeText = `${fullDateText} ${timeText}`;
+                    gameDate = new Date(fullDateTimeText);
+                    
+                    // If parsing with time failed, fall back to date only
+                    if (isNaN(gameDate.getTime())) {
+                      gameDate = tempDate;
+                    }
+                  } catch (e) {
+                    gameDate = tempDate; // Fall back to date only
+                  }
+                } else {
+                  gameDate = tempDate;
+                }
+              }
+              
               if (isNaN(gameDate.getTime())) {
-                console.warn('Could not parse date:', dateText);
+                console.warn('Could not parse date:', dateText, timeText);
+                gameDate = null;
               }
             }
           } catch (e) {
@@ -692,12 +737,52 @@ class YSBAScraper {
     };
   }
 
+  async scrapeTeamScheduleForDivision(teamCode, division = '9U-select', tier = 'all-tiers') {
+    try {
+      console.log(`Getting schedule for team ${teamCode} from ${division}/${tier} schedule...`);
+      
+      // Use the division-aware comprehensive schedule method
+      const allScheduleData = await this.scrapeAllGamesSchedule(false, division, tier); // false = use cache if available
+      
+      if (allScheduleData.teamGames[teamCode]) {
+        const cacheKey = `schedule-${division}-${tier}`;
+        const fromCache = this.allGamesCache && this.allGamesCache[cacheKey];
+        console.log(`✓ Schedule data found for team ${teamCode} in ${division}/${tier} (from cache: ${!!fromCache})`);
+        return allScheduleData.teamGames[teamCode];
+      } else {
+        console.warn(`No schedule data found for team ${teamCode} in ${division}/${tier}`);
+        return {
+          allGames: [],
+          playedGames: [],
+          upcomingGames: [],
+          teamCode: teamCode,
+          lastUpdated: new Date().toISOString(),
+          error: `No schedule data found for this team in ${division}/${tier}`
+        };
+      }
+
+    } catch (error) {
+      console.error(`Error getting schedule for team ${teamCode} in ${division}/${tier}:`, error.message);
+      
+      // Return a basic error response instead of throwing
+      return {
+        allGames: [],
+        playedGames: [],
+        upcomingGames: [],
+        teamCode: teamCode,
+        lastUpdated: new Date().toISOString(),
+        error: `Unable to load schedule: ${error.message}`
+      };
+    }
+  }
+
   async scrapeTeamSchedule(teamCode) {
     try {
       console.log(`Getting schedule for team ${teamCode} from comprehensive schedule...`);
       
       // Use the new comprehensive schedule method with explicit cache preference
-      const allScheduleData = await this.scrapeAllGamesSchedule(false); // false = use cache if available
+      // Default to 9U-select for backward compatibility
+      const allScheduleData = await this.scrapeAllGamesSchedule(false, '9U-select', 'all-tiers'); // false = use cache if available
       
       if (allScheduleData.teamGames[teamCode]) {
         console.log(`✓ Schedule data found for team ${teamCode} (from cache: ${!!this.allGamesCache})`);
@@ -752,5 +837,4 @@ class YSBAScraper {
   }
 }
 
-module.exports = YSBAScraper; 
 module.exports = YSBAScraper; 
