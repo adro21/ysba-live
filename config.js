@@ -19,8 +19,7 @@ module.exports = {
         'no-tier': { displayName: 'No Tier', ysbaValue: '-10' },
         'tier-1': { displayName: 'Tier 1', ysbaValue: '1' },
         'tier-2': { displayName: 'Tier 2', ysbaValue: '2' },
-        'tier-3': { displayName: 'Tier 3', ysbaValue: '3' },
-        'all-tiers': { displayName: 'All Tiers', ysbaValue: '__ALL__' }
+        'tier-3': { displayName: 'Tier 3', ysbaValue: '3' }
       },
       theme: {
         primary: '#dc2626',
@@ -45,8 +44,7 @@ module.exports = {
         'no-tier': { displayName: 'No Tier', ysbaValue: '-10' },
         'tier-1': { displayName: 'Tier 1', ysbaValue: '1' },
         'tier-2': { displayName: 'Tier 2', ysbaValue: '2' },
-        'tier-3': { displayName: 'Tier 3', ysbaValue: '3' },
-        'all-tiers': { displayName: 'All Tiers', ysbaValue: '__ALL__' }
+        'tier-3': { displayName: 'Tier 3', ysbaValue: '3' }
       },
       theme: {
         primary: '#ea580c',
@@ -71,8 +69,7 @@ module.exports = {
         'no-tier': { displayName: 'No Tier', ysbaValue: '-10' },
         'tier-1': { displayName: 'Tier 1', ysbaValue: '1' },
         'tier-2': { displayName: 'Tier 2', ysbaValue: '2' },
-        'tier-3': { displayName: 'Tier 3', ysbaValue: '3' },
-        'all-tiers': { displayName: 'All Tiers', ysbaValue: '__ALL__' }
+        'tier-3': { displayName: 'Tier 3', ysbaValue: '3' }
       },
       theme: {
         primary: '#f59e0b',
@@ -97,8 +94,7 @@ module.exports = {
         'no-tier': { displayName: 'No Tier', ysbaValue: '-10' },
         'tier-1': { displayName: 'Tier 1', ysbaValue: '1' },
         'tier-2': { displayName: 'Tier 2', ysbaValue: '2' },
-        'tier-3': { displayName: 'Tier 3', ysbaValue: '3' },
-        'all-tiers': { displayName: 'All Tiers', ysbaValue: '__ALL__' }
+        'tier-3': { displayName: 'Tier 3', ysbaValue: '3' }
       },
       theme: {
         primary: '#2563eb',
@@ -123,8 +119,7 @@ module.exports = {
         'no-tier': { displayName: 'No Tier', ysbaValue: '-10' },
         'tier-1': { displayName: 'Tier 1', ysbaValue: '1' },
         'tier-2': { displayName: 'Tier 2', ysbaValue: '2' },
-        'tier-3': { displayName: 'Tier 3', ysbaValue: '3' },
-        'all-tiers': { displayName: 'All Tiers', ysbaValue: '__ALL__' }
+        'tier-3': { displayName: 'Tier 3', ysbaValue: '3' }
       },
       theme: {
         primary: '#059669',
@@ -149,8 +144,7 @@ module.exports = {
         'no-tier': { displayName: 'No Tier', ysbaValue: '-10' },
         'tier-1': { displayName: 'Tier 1', ysbaValue: '1' },
         'tier-2': { displayName: 'Tier 2', ysbaValue: '2' },
-        'tier-3': { displayName: 'Tier 3', ysbaValue: '3' },
-        'all-tiers': { displayName: 'All Tiers', ysbaValue: '__ALL__' }
+        'tier-3': { displayName: 'Tier 3', ysbaValue: '3' }
       },
       theme: {
         primary: '#7c3aed',
@@ -175,8 +169,7 @@ module.exports = {
         'no-tier': { displayName: 'No Tier', ysbaValue: '-10' },
         'tier-1': { displayName: 'Tier 1', ysbaValue: '1' },
         'tier-2': { displayName: 'Tier 2', ysbaValue: '2' },
-        'tier-3': { displayName: 'Tier 3', ysbaValue: '3' },
-        'all-tiers': { displayName: 'All Tiers', ysbaValue: '__ALL__' }
+        'tier-3': { displayName: 'Tier 3', ysbaValue: '3' }
       },
       theme: {
         primary: '#0891b2',
@@ -201,8 +194,7 @@ module.exports = {
         'no-tier': { displayName: 'No Tier', ysbaValue: '-10' },
         'tier-1': { displayName: 'Tier 1', ysbaValue: '1' },
         'tier-2': { displayName: 'Tier 2', ysbaValue: '2' },
-        'tier-3': { displayName: 'Tier 3', ysbaValue: '3' },
-        'all-tiers': { displayName: 'All Tiers', ysbaValue: '__ALL__' }
+        'tier-3': { displayName: 'Tier 3', ysbaValue: '3' }
       },
       theme: {
         primary: '#e11d48',
@@ -227,8 +219,7 @@ module.exports = {
         'no-tier': { displayName: 'No Tier', ysbaValue: '-10' },
         'tier-1': { displayName: 'Tier 1', ysbaValue: '1' },
         'tier-2': { displayName: 'Tier 2', ysbaValue: '2' },
-        'tier-3': { displayName: 'Tier 3', ysbaValue: '3' },
-        'all-tiers': { displayName: 'All Tiers', ysbaValue: '__ALL__' }
+        'tier-3': { displayName: 'Tier 3', ysbaValue: '3' }
       },
       theme: {
         primary: '#facc15',
@@ -253,8 +244,7 @@ module.exports = {
         'no-tier': { displayName: 'No Tier', ysbaValue: '-10' },
         'tier-1': { displayName: 'Tier 1', ysbaValue: '1' },
         'tier-2': { displayName: 'Tier 2', ysbaValue: '2' },
-        'tier-3': { displayName: 'Tier 3', ysbaValue: '3' },
-        'all-tiers': { displayName: 'All Tiers', ysbaValue: '__ALL__' }
+        'tier-3': { displayName: 'Tier 3', ysbaValue: '3' }
       },
       theme: {
         primary: '#c2410c',
@@ -279,8 +269,7 @@ module.exports = {
         'no-tier': { displayName: 'No Tier', ysbaValue: '-10' },
         'tier-1': { displayName: 'Tier 1', ysbaValue: '1' },
         'tier-2': { displayName: 'Tier 2', ysbaValue: '2' },
-        'tier-3': { displayName: 'Tier 3', ysbaValue: '3' },
-        'all-tiers': { displayName: 'All Tiers', ysbaValue: '__ALL__' }
+        'tier-3': { displayName: 'Tier 3', ysbaValue: '3' }
       },
       theme: {
         primary: '#6366f1',
@@ -305,8 +294,7 @@ module.exports = {
         'no-tier': { displayName: 'No Tier', ysbaValue: '-10' },
         'tier-1': { displayName: 'Tier 1', ysbaValue: '1' },
         'tier-2': { displayName: 'Tier 2', ysbaValue: '2' },
-        'tier-3': { displayName: 'Tier 3', ysbaValue: '3' },
-        'all-tiers': { displayName: 'All Tiers', ysbaValue: '__ALL__' }
+        'tier-3': { displayName: 'Tier 3', ysbaValue: '3' }
       },
       theme: {
         primary: '#374151',
