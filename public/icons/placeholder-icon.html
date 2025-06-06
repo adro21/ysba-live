@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YSBA Icon Generator</title>
+    <style>
+        .icon-container {
+            width: 192px;
+            height: 192px;
+            background: linear-gradient(135deg, #2b6cb0, #1a365d);
+            border-radius: 20%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 20px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+        }
+        .baseball {
+            width: 80px;
+            height: 80px;
+            background: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            margin-bottom: 15px;
+        }
+        .text {
+            color: white;
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+            font-size: 28px;
+        }
+    </style>
+</head>
+<body>
+    <h2>YSBA 9U Standings App Icon</h2>
+    <p>Right-click the icon below and save as PNG:</p>
+    
+    <div class="icon-container">
+        <div class="baseball">⚾</div>
+        <div class="text">9U</div>
+    </div>
+    
+    <script>
+        // You can also use this to create canvas-based icons
+        function createIcon() {
+            const canvas = document.createElement('canvas');
+            canvas.width = 192;
+            canvas.height = 192;
+            const ctx = canvas.getContext('2d');
+            
+            // Blue gradient background
+            const gradient = ctx.createLinearGradient(0, 0, 192, 192);
+            gradient.addColorStop(0, '#2b6cb0');
+            gradient.addColorStop(1, '#1a365d');
+            ctx.fillStyle = gradient;
+            ctx.fillRect(0, 0, 192, 192);
+            
+            // White circle for baseball
+            ctx.fillStyle = '#ffffff';
+            ctx.beginPath();
+            ctx.arc(96, 80, 35, 0, 2 * Math.PI);
+            ctx.fill();
+            
+            // Baseball emoji
+            ctx.font = '28px Arial';
+            ctx.fillText('⚾', 82, 90);
+            
+            // 9U text
+            ctx.fillStyle = '#ffffff';
+            ctx.font = 'bold 24px Arial';
+            ctx.textAlign = 'center';
+            ctx.fillText('9U', 96, 140);
+            
+            return canvas.toDataURL('image/png');
+        }
+        
+        console.log('Generated icon data URL:', createIcon());
+    </script>
+</body>
+</html> 

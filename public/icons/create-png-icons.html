@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PNG Icon Generator - YSBA 9U</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            text-align: center; 
+            padding: 20px; 
+            background: #f5f5f5;
+        }
+        .preview { 
+            margin: 20px; 
+            padding: 20px; 
+            background: white; 
+            border-radius: 10px; 
+            display: inline-block;
+        }
+        canvas { 
+            border: 1px solid #ccc; 
+            margin: 10px; 
+            border-radius: 10px;
+        }
+        button {
+            background: #2b6cb0;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+            font-size: 16px;
+        }
+        button:hover {
+            background: #1a365d;
+        }
+    </style>
+</head>
+<body>
+    <h1>🏆 YSBA 9U iOS App Icons</h1>
+    <p>Generate and download PNG icons for iOS "Add to Home Screen"</p>
+    
+    <div class="preview">
+        <h3>180x180 (Primary iOS icon)</h3>
+        <canvas id="icon180" width="180" height="180"></canvas><br>
+        <button onclick="downloadIcon('icon180', 'ysba-9u-180.png')">Download 180x180</button>
+    </div>
+    
+    <div class="preview">
+        <h3>192x192 (Android/PWA)</h3>
+        <canvas id="icon192" width="192" height="192"></canvas><br>
+        <button onclick="downloadIcon('icon192', 'ysba-9u-192.png')">Download 192x192</button>
+    </div>
+    
+    <div class="preview">
+        <h3>512x512 (High-res)</h3>
+        <canvas id="icon512" width="512" height="512"></canvas><br>
+        <button onclick="downloadIcon('icon512', 'ysba-9u-512.png')">Download 512x512</button>
+    </div>
+
+    <script>
+        function drawIcon(canvas) {
+            const ctx = canvas.getContext('2d');
+            const size = canvas.width;
+            
+            // Clear canvas
+            ctx.clearRect(0, 0, size, size);
+            
+            // Background (blue circle with rounded edges)
+            ctx.fillStyle = '#2b6cb0';
+            ctx.beginPath();
+            ctx.roundRect(0, 0, size, size, size * 0.15);
+            ctx.fill();
+            
+            // Baseball (white circle)
+            ctx.fillStyle = '#ffffff';
+            ctx.beginPath();
+            ctx.arc(size/2, size/2, size * 0.25, 0, 2 * Math.PI);
+            ctx.fill();
+            
+            // Baseball stitching
+            ctx.strokeStyle = '#e53e3e';
+            ctx.lineWidth = size * 0.008;
+            ctx.beginPath();
+            // Left curve
+            ctx.moveTo(size * 0.35, size * 0.35);
+            ctx.quadraticCurveTo(size * 0.45, size * 0.5, size * 0.35, size * 0.65);
+            // Right curve  
+            ctx.moveTo(size * 0.65, size * 0.35);
+            ctx.quadraticCurveTo(size * 0.55, size * 0.5, size * 0.65, size * 0.65);
+            ctx.stroke();
+            
+            // "9U" text
+            ctx.fillStyle = '#ffffff';
+            ctx.font = `bold ${size * 0.12}px Arial, sans-serif`;
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.fillText('9U', size/2, size * 0.85);
+            
+            // Small trophy
+            ctx.fillStyle = '#ffd700';
+            const trophySize = size * 0.08;
+            const trophyX = size/2;
+            const trophyY = size * 0.15;
+            
+            // Trophy cup
+            ctx.beginPath();
+            ctx.moveTo(trophyX - trophySize/2, trophyY);
+            ctx.lineTo(trophyX + trophySize/2, trophyY);
+            ctx.lineTo(trophyX + trophySize/3, trophyY + trophySize/2);
+            ctx.lineTo(trophyX - trophySize/3, trophyY + trophySize/2);
+            ctx.closePath();
+            ctx.fill();
+            
+            // Trophy base
+            ctx.fillRect(trophyX - trophySize/4, trophyY + trophySize/2, trophySize/2, trophySize/4);
+        }
+        
+        function downloadIcon(canvasId, filename) {
+            const canvas = document.getElementById(canvasId);
+            const link = document.createElement('a');
+            link.download = filename;
+            link.href = canvas.toDataURL('image/png');
+            link.click();
+        }
+        
+        // Add roundRect polyfill for older browsers
+        if (!CanvasRenderingContext2D.prototype.roundRect) {
+            CanvasRenderingContext2D.prototype.roundRect = function(x, y, width, height, radius) {
+                this.beginPath();
+                this.moveTo(x + radius, y);
+                this.lineTo(x + width - radius, y);
+                this.quadraticCurveTo(x + width, y, x + width, y + radius);
+                this.lineTo(x + width, y + height - radius);
+                this.quadraticCurveTo(x + width, y + height, x + width - radius, y + height);
+                this.lineTo(x + radius, y + height);
+                this.quadraticCurveTo(x, y + height, x, y + height - radius);
+                this.lineTo(x, y + radius);
+                this.quadraticCurveTo(x, y, x + radius, y);
+                this.closePath();
+            };
+        }
+        
+        // Generate all icons on page load
+        window.onload = function() {
+            drawIcon(document.getElementById('icon180'));
+            drawIcon(document.getElementById('icon192'));
+            drawIcon(document.getElementById('icon512'));
+        };
+    </script>
+</body>
+</html> 

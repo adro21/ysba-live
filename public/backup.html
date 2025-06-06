@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscriber Data Backup - YSBA 9U Select Standings</title>
+    
+    <!-- Cache Control -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    
+    <!-- Basic Meta Tags -->
+    <meta name="description" content="Manage subscriber data backup for YSBA 9U Select Division email notifications">
+    <meta name="keywords" content="YSBA, baseball, backup, subscribers, notifications">
+    <meta name="author" content="YSBA Standings App">
+    
+    <!-- Web App Meta -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="YSBA Standings">
+    <meta name="theme-color" content="#024220">
+    <link rel="manifest" href="/manifest.json?v=321200">
+    
+    <!-- Default Icon -->
+    <link rel="icon" type="image/svg+xml" href="/icons/icon.svg?v=321200">
+    
+    <!-- iOS App Icons -->
+    <link rel="apple-touch-icon" href="/icons/ios/AppIcon@3x.png?v=321200">
+    <link rel="apple-touch-icon" sizes="60x60" href="/icons/ios/AppIcon-20@3x.png?v=321200">
+    <link rel="apple-touch-icon" sizes="76x76" href="/icons/ios/AppIcon~ipad.png?v=321200">
+    <link rel="apple-touch-icon" sizes="120x120" href="/icons/ios/AppIcon@2x.png?v=321200">
+    <link rel="apple-touch-icon" sizes="152x152" href="/icons/ios/AppIcon@2x~ipad.png?v=321200">
+    <link rel="apple-touch-icon" sizes="167x167" href="/icons/ios/AppIcon-83.5@2x~ipad.png?v=321200">
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/ios/AppIcon@3x.png?v=321200">
+    
+    <!-- Android Icons -->
+    <link rel="icon" type="image/png" sizes="48x48" href="/icons/android/res/mipmap-mdpi/ic_launcher.png?v=321200">
+    <link rel="icon" type="image/png" sizes="72x72" href="/icons/android/res/mipmap-hdpi/ic_launcher.png?v=321200">
+    <link rel="icon" type="image/png" sizes="96x96" href="/icons/android/res/mipmap-xhdpi/ic_launcher.png?v=321200">
+    <link rel="icon" type="image/png" sizes="144x144" href="/icons/android/res/mipmap-xxhdpi/ic_launcher.png?v=321200">
+    <link rel="icon" type="image/png" sizes="192x192" href="/icons/android/res/mipmap-xxxhdpi/ic_launcher.png?v=321200">
+    <link rel="icon" type="image/png" sizes="512x512" href="/icons/android/play_store_512.png?v=321200">
+    
+    <!-- Fonts and Styles -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/styles.css?v=321200">
+    <style>
+        .card-body {
+            padding:10px 50px;
+        }
+    </style>
+</head>
+<body class="modern-body">
+    <!-- Header -->
+    <header class="modern-header">
+        <div class="container">
+            <div class="header-content">
+                <!-- Main Header -->
+                <div class="header-top">
+                    <div class="brand-section">
+                        <div class="brand-icon">
+                            <i class="bi bi-trophy-fill"></i>
+                        </div>
+                        <div class="brand-text">
+                            <h1 class="brand-title">2025 YSBA Standings</h1>
+                            <p class="brand-subtitle">Subscriber Data Backup</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Status Bar -->
+                <div class="status-bar">
+                    <div class="status-item">
+                        <i class="bi bi-shield-check"></i>
+                        <span>Backup Management System</span>
+                    </div>
+                    
+                    <div class="status-actions">
+                        <a href="/" class="btn-modern btn-secondary btn-compact">
+                            <i class="bi bi-house"></i>
+                            <span class="d-none d-md-inline">Home</span>
+                        </a>
+                        <a href="/manage.html" class="btn-modern btn-secondary btn-compact">
+                            <i class="bi bi-gear"></i>
+                            <span class="d-none d-lg-inline">Manage</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="standings-card">
+                        <div class="card-header">
+                            <h2><i class="bi bi-shield-alt me-2"></i>Subscriber Data Backup Management</h2>
+                        </div>
+                        <div class="card-body">
+                            <!-- Current Status -->
+                            <div class="row mb-4">
+                                <div class="col-md-6">
+                                    <div class="card bg-light">
+                                        <div class="card-body text-center">
+                                            <i class="bi bi-people text-primary fa-2x mb-2"></i>
+                                            <h5>Current Subscribers</h5>
+                                            <span id="subscriberCount" class="badge bg-primary fs-5">Loading...</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card bg-light">
+                                        <div class="card-body text-center">
+                                            <i class="bi bi-cloud-check text-success fa-2x mb-2"></i>
+                                            <h5>GitHub Gist Backup</h5>
+                                            <span id="gistStatus" class="badge bg-secondary fs-6">Checking...</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- GitHub Gist Setup (Recommended) -->
+                            <div class="mb-4" id="gistSection">
+                                <h4><i class="bi bi-github me-2"></i>GitHub Gist Setup (Recommended)</h4>
+                                <p class="text-muted">Automatic, persistent backup with no size limits or manual updates required.</p>
+                                
+                                <div id="gistStatusDetails" class="alert alert-info">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <span>Loading GitHub Gist status...</span>
+                                        <div class="spinner-border spinner-border-sm" role="status"></div>
+                                    </div>
+                                </div>
+                                
+                                <div id="gistControls" style="display: none;">
+                                    <button id="syncGistBtn" class="btn btn-success me-2">
+                                        <i class="bi bi-cloud-upload me-2"></i>Sync to GitHub Gist
+                                    </button>
+                                    <button id="setupGistBtn" class="btn btn-outline-primary">
+                                        <i class="bi bi-info-circle me-2"></i>Setup Instructions
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- GitHub Setup Instructions -->
+                            <div id="gistInstructions" class="d-none mb-4">
+                                <div class="standings-card">
+                                    <div class="card-header">
+                                        <h5><i class="bi bi-github me-2"></i>GitHub Gist Setup Instructions</h5>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="alert alert-warning">
+                                            <strong><i class="bi bi-exclamation-triangle me-2"></i>One-time setup required</strong><br>
+                                            After this setup, backups will happen automatically on every subscriber change.
+                                        </div>
+                                        
+                                        <h6>Step 1: Create GitHub Personal Access Token</h6>
+                                        <ol>
+                                            <li>Go to <a href="https://github.com/settings/tokens/new" target="_blank">GitHub → Settings → Developer settings → Personal access tokens</a></li>
+                                            <li>Click "Generate new token (classic)"</li>
+                                            <li>Give it a name like "YSBA Standings Backup"</li>
+                                            <li>Select scope: <strong>✅ gist</strong> (only this permission needed)</li>
+                                            <li>Click "Generate token" and copy the token</li>
+                                        </ol>
+                                        
+                                        <h6>Step 2: Add to Render Environment Variables</h6>
+                                        <ol>
+                                            <li>Go to your <a href="https://dashboard.render.com" target="_blank">Render Dashboard</a></li>
+                                            <li>Navigate to your service → Environment tab</li>
+                                            <li>Add environment variable: <code>GITHUB_TOKEN</code></li>
+                                            <li>Paste your GitHub token as the value</li>
+                                            <li>Deploy to activate GitHub Gist backup</li>
+                                        </ol>
+                                        
+                                        <div class="alert alert-success">
+                                            <h6><i class="bi bi-check-circle me-2"></i>Benefits of GitHub Gist Backup:</h6>
+                                            <ul class="mb-0">
+                                                <li>✅ <strong>Fully automatic</strong> - no manual updates needed</li>
+                                                <li>✅ <strong>No size limits</strong> - supports hundreds of subscribers</li>
+                                                <li>✅ <strong>Version history</strong> - see previous versions</li>
+                                                <li>✅ <strong>Deploy-safe</strong> - survives all deployments</li>
+                                                <li>✅ <strong>Reliable</strong> - backed by GitHub's infrastructure</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Environment Variable Backup (Fallback) -->
+                            <div class="mb-4">
+                                <h4><i class="bi bi-download me-2"></i>Environment Variable Backup (Fallback)</h4>
+                                <p class="text-muted">Manual backup option if GitHub Gist is not configured. Requires manual updates before deployments.</p>
+                                <button id="exportBtn" class="btn btn-outline-primary">
+                                    <i class="bi bi-download me-2"></i>Export for Environment Variable
+                                </button>
+                            </div>
+
+                            <!-- Export Result -->
+                            <div id="exportResult" class="d-none mb-4">
+                                <div class="standings-card">
+                                    <div class="card-header">
+                                        <h5><i class="bi bi-code me-2"></i>Environment Variable Setup</h5>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="row mb-3">
+                                            <div class="col-md-3"><strong>Total Subscribers:</strong></div>
+                                            <div class="col-md-9" id="totalSubs">-</div>
+                                        </div>
+                                        <div class="row mb-3">
+                                            <div class="col-md-3"><strong>Active Subscribers:</strong></div>
+                                            <div class="col-md-9" id="activeSubs">-</div>
+                                        </div>
+                                        <div class="row mb-3">
+                                            <div class="col-md-3"><strong>Data Size:</strong></div>
+                                            <div class="col-md-9" id="dataSize">-</div>
+                                        </div>
+                                        
+                                        <div class="mb-3">
+                                            <label class="form-label"><strong>JSON Data for Environment Variable:</strong></label>
+                                            <textarea id="jsonData" class="form-control" rows="4" readonly></textarea>
+                                            <button id="copyBtn" class="btn btn-sm btn-secondary mt-2">
+                                                <i class="bi bi-clipboard me-1"></i>Copy to Clipboard
+                                            </button>
+                                        </div>
+
+                                        <div class="alert alert-info">
+                                            <h6><i class="bi bi-info-circle me-2"></i>Setup Instructions:</h6>
+                                            <ol class="mb-0">
+                                                <li>Copy the JSON data above</li>
+                                                <li>Go to your <a href="https://dashboard.render.com" target="_blank">Render Dashboard</a></li>
+                                                <li>Navigate to your service → Environment tab</li>
+                                                <li>Add/update environment variable: <code>SUBSCRIBERS_DATA</code></li>
+                                                <li>Paste the JSON data as the value</li>
+                                                <li>Deploy to activate the backup</li>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Navigation -->
+                            <div class="text-center">
+                                <a href="/" class="btn btn-secondary">
+                                    <i class="bi bi-arrow-left me-2"></i>Back to Standings
+                                </a>
+                                <a href="/manage.html" class="btn btn-outline-primary ms-2">
+                                    <i class="bi bi-gear me-2"></i>Manage Subscribers
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="modern-footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>Subscriber data backup management for York Simcoe Baseball Association.</p>
+                <p class="footer-note">
+                    <a href="/">← Back to Standings</a> | 
+                    <a href="https://www.yorksimcoebaseball.com" target="_blank">YSBA Official Website</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/backup.js?v=321200"></script>
+</body>
+</html> 

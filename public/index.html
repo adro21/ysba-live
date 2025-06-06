@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YSBA 9U Select Standings</title>
+    
+    <!-- Cache Control -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    
+    <!-- Basic Meta Tags -->
+    <meta name="description" content="York Simcoe Baseball Association 9U Select Division Standings - Real-time team standings and schedules">
+    <meta name="keywords" content="YSBA, baseball, standings, 9U, select, york, simcoe">
+    <meta name="author" content="YSBA Standings App">
+    
+    <!-- Web App Meta -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="YSBA Standings">
+    <meta name="theme-color" content="#024220">
+    <link rel="manifest" href="/manifest.json?v=321200">
+    
+    <!-- Default Icon -->
+    <link rel="icon" type="image/svg+xml" href="/icons/icon.svg?v=321200">
+    
+    <!-- iOS App Icons -->
+    <link rel="apple-touch-icon" href="/icons/ios/AppIcon@3x.png?v=321200">
+    <link rel="apple-touch-icon" sizes="60x60" href="/icons/ios/AppIcon-20@3x.png?v=321200">
+    <link rel="apple-touch-icon" sizes="76x76" href="/icons/ios/AppIcon~ipad.png?v=321200">
+    <link rel="apple-touch-icon" sizes="120x120" href="/icons/ios/AppIcon@2x.png?v=321200">
+    <link rel="apple-touch-icon" sizes="152x152" href="/icons/ios/AppIcon@2x~ipad.png?v=321200">
+    <link rel="apple-touch-icon" sizes="167x167" href="/icons/ios/AppIcon-83.5@2x~ipad.png?v=321200">
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/ios/AppIcon@3x.png?v=321200">
+    
+    <!-- Android Icons -->
+    <link rel="icon" type="image/png" sizes="48x48" href="/icons/android/res/mipmap-mdpi/ic_launcher.png?v=321200">
+    <link rel="icon" type="image/png" sizes="72x72" href="/icons/android/res/mipmap-hdpi/ic_launcher.png?v=321200">
+    <link rel="icon" type="image/png" sizes="96x96" href="/icons/android/res/mipmap-xhdpi/ic_launcher.png?v=321200">
+    <link rel="icon" type="image/png" sizes="144x144" href="/icons/android/res/mipmap-xxhdpi/ic_launcher.png?v=321200">
+    <link rel="icon" type="image/png" sizes="192x192" href="/icons/android/res/mipmap-xxxhdpi/ic_launcher.png?v=321200">
+    <link rel="icon" type="image/png" sizes="512x512" href="/icons/android/play_store_512.png?v=321200">
+    
+    <!-- Fonts and Styles -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/styles.css?v=321200">
+</head>
+<body class="modern-body">
+    <!-- Header -->
+    <header class="modern-header">
+        <div class="container">
+            <div class="header-content">
+                <!-- Main Header -->
+                <div class="header-top">
+                    <div class="brand-section">
+                        <div class="brand-icon">
+                            <!-- <i class="bi bi-trophy-fill"></i> -->
+                            ⚾
+                        </div>
+                        <div class="brand-text">
+                            <h1 class="brand-title"><span class="title-icon">⚾</span><span class="fw-light">2025</span> YSBA Standings</h1>
+                            <p class="brand-subtitle">9U Select Divisions</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Status Bar -->
+                <div class="status-bar">
+                    <div class="status-item">
+                        <i class="bi bi-lightning-fill"></i>
+                        <span>Last synced: <span id="lastUpdated">Loading...</span></span>
+                    </div>
+                    
+                    <div class="status-actions">
+                        <button id="refreshBtn" class="btn-modern btn-primary btn-compact">
+                            <i class="bi bi-arrow-repeat"></i>
+                            <span class="d-none d-md-inline">Refresh</span>
+                        </button>
+                        <div class="dropdown">
+                            <button id="divisionBtn" class="btn-modern btn-secondary btn-compact dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-sliders2-vertical"></i>
+                                <span class="d-none d-lg-inline">Division</span>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li><a class="dropdown-item" href="#" data-division="all">All Divisions</a></li>
+                                <li><a class="dropdown-item" href="#" data-division="north">North Division</a></li>
+                                <li><a class="dropdown-item" href="#" data-division="south">South Division</a></li>
+                            </ul>
+                        </div>
+                        <button id="notificationsBtn" class="btn-modern btn-secondary btn-compact" data-bs-toggle="modal" data-bs-target="#notificationsModal">
+                            <i class="bi bi-bell"></i>
+                            <span class="d-none d-lg-inline">Notifications</span>
+                        </button>
+                        <button id="statusBtn" class="btn-modern btn-secondary btn-compact" data-bs-toggle="modal" data-bs-target="#statusModal">
+                            <i class="bi bi-info-circle"></i>
+                            <span class="d-none d-lg-inline">Status</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Loading State -->
+            <div id="loadingState" class="loading-card">
+                <div class="loading-content">
+                    <div class="loading-spinner"></div>
+                    <h3>Loading Standings</h3>
+                    <p>Fetching the latest data from YSBA...</p>
+                </div>
+            </div>
+
+            <!-- Error State -->
+            <div id="errorAlert" class="error-card">
+                <div class="error-content">
+                    <i class="bi bi-exclamation-triangle"></i>
+                    <div>
+                        <h4>Unable to Load Standings</h4>
+                        <p id="errorMessage">Something went wrong. Please try refreshing the page.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Standings Table -->
+            <div id="standingsContainer" class="standings-container">
+                <div class="standings-card">
+                    <div class="table-container">
+                        <table class="standings-table">
+                            <thead>
+                                <tr>
+                                    <th class="pos-col">Pos</th>
+                                    <th class="team-col">Team</th>
+                                    <th class="stat-col">GP</th>
+                                    <th class="stat-col">W</th>
+                                    <th class="stat-col">L</th>
+                                    <th class="stat-col">T</th>
+                                    <th class="stat-col">PTS</th>
+                                    <th class="stat-col" title="Runs For" data-bs-toggle="tooltip">RF</th>
+                                    <th class="stat-col" title="Runs Against" data-bs-toggle="tooltip">RA</th>
+                                    <th class="stat-col">PCT</th>
+                                </tr>
+                            </thead>
+                            <tbody id="standingsTableBody">
+                                <!-- Table rows will be populated by JavaScript -->
+                            </tbody>
+                        </table>
+                        
+                        <!-- Swipe Indicator -->
+                        <div class="swipe-indicator">
+                            <div class="swipe-content">
+                                <i class="bi bi-arrow-left"></i>
+                                <span>Swipe to see more</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="modern-footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>York Simcoe Baseball Association 9U Select Division Standings</p>
+                <p class="footer-note"><i class="bi bi-check-circle"></i>&nbsp;&nbsp; Last YSBA Standings Update: <span id="lastYsbaUpdate">Loading...</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Team Schedule Modal -->
+    <div class="modal fade" id="scheduleModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-md">
+            <div class="modal-content modern-modal">
+                <div class="modal-header">
+                    <div class="modal-title-section">
+                        <h5 class="modal-title" id="scheduleModalTitle">Team Schedule</h5>
+                        <div class="team-record" id="teamRecord"></div>
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="scheduleLoadingState" class="schedule-loading">
+                        <div class="loading-spinner-small"></div>
+                        <p>Loading schedule...</p>
+                    </div>
+                    
+                    <div id="scheduleErrorState" class="schedule-error">
+                        <i class="bi bi-exclamation-triangle"></i>
+                        <p>Unable to load schedule. Please try again.</p>
+                    </div>
+                    
+                    <div id="scheduleContent" class="schedule-content">
+                        <div class="schedule-tabs">
+                            <!-- Tabs will be dynamically created by JavaScript -->
+                        </div>
+                        
+                        <div class="schedule-games">
+                            <!-- Games will be populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Status Modal -->
+    <div class="modal fade" id="statusModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content modern-modal">
+                <div class="modal-header">
+                    <h5 class="modal-title">System Status</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="statusContent">
+                        <div class="text-center">
+                            <div class="loading-spinner-small"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Notifications Modal -->
+    <div class="modal fade" id="notificationsModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content modern-modal">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        <i class="bi bi-bell"></i>
+                        Email Notifications
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="text-muted mb-4">
+                        Get notified when standings change for the YSBA 9U Select Division.
+                    </p>
+                    
+                    <div id="subscriptionAlert" class="alert" style="display: none;"></div>
+                    
+                    <form id="subscriptionForm">
+                        <div class="mb-3">
+                            <label for="subscriberEmail" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="subscriberEmail" required>
+                        </div>
+                        
+                        <div class="mb-4">
+                            <label for="subscriberName" class="form-label">Your Name (optional)</label>
+                            <input type="text" class="form-control" id="subscriberName">
+                        </div>
+                        
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary" style="padding-top: 15px; padding-bottom: 15px;">
+                                <i class="bi bi-envelope-plus"></i>
+                                &nbsp;&nbsp;Subscribe to Notifications
+                            </button>
+                        </div>
+                    </form>
+                    
+                    <div class="text-center mt-4">
+                        <small class="text-muted">
+                            Current subscribers: <span id="subscriberCount">Loading...</span>
+                        </small>
+                        <br>
+                        <small class="text-muted">
+                            <i class="bi bi-info-circle"></i>
+                            You can unsubscribe at any time from the email.
+                        </small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/simplyCountdown.umd.js"></script>
+    <script src="/js/dev-utils.js?v=321200"></script>
+    <script src="/js/app.js?v=321200"></script>
+</body>
+</html> 

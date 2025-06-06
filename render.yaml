@@ -1,0 +1,27 @@
+services:
+  - type: web
+    name: ysba-9u-standings
+    env: node
+    region: virginia
+    plan: free
+    buildCommand: npm ci && npm run build && npx puppeteer browsers install chrome
+    startCommand: npm start
+    healthCheckPath: /api/status
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PUPPETEER_ARGS
+        value: "--no-sandbox,--disable-setuid-sandbox,--disable-dev-shm-usage,--disable-accelerated-2d-canvas,--no-first-run,--no-zygote,--single-process,--disable-gpu,--disable-extensions"
+      - key: SENDGRID_API_KEY
+        sync: false
+      - key: FROM_EMAIL
+        value: notifications@ysba9ustandings.com
+      - key: FROM_NAME
+        value: YSBA 9U Standings
+      - key: GITHUB_TOKEN
+        sync: false
+      - key: GIST_ID
+        sync: false
+    scaling:
+      minInstances: 1
+      maxInstances: 1 

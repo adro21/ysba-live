@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unsubscribe - YSBA 9U Standings</title>
+    
+    <!-- Basic Meta Tags -->
+    <meta name="description" content="Unsubscribe from YSBA 9U standings email notifications">
+    <meta name="keywords" content="YSBA, baseball, unsubscribe, notifications">
+    <meta name="author" content="YSBA Standings App">
+    
+    <!-- Web App Meta -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="YSBA Standings">
+    <meta name="theme-color" content="#024220">
+    <link rel="manifest" href="/manifest.json?v=321200">
+    
+    <!-- Default Icon -->
+    <link rel="icon" type="image/svg+xml" href="/icons/icon.svg?v=321200">
+    
+    <!-- iOS App Icons -->
+    <link rel="apple-touch-icon" href="/icons/ios/AppIcon@3x.png?v=321200">
+    <link rel="apple-touch-icon" sizes="60x60" href="/icons/ios/AppIcon-20@3x.png?v=321200">
+    <link rel="apple-touch-icon" sizes="76x76" href="/icons/ios/AppIcon~ipad.png?v=321200">
+    <link rel="apple-touch-icon" sizes="120x120" href="/icons/ios/AppIcon@2x.png?v=321200">
+    <link rel="apple-touch-icon" sizes="152x152" href="/icons/ios/AppIcon@2x~ipad.png?v=321200">
+    <link rel="apple-touch-icon" sizes="167x167" href="/icons/ios/AppIcon-83.5@2x~ipad.png?v=321200">
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/ios/AppIcon@3x.png?v=321200">
+    
+    <!-- Android Icons -->
+    <link rel="icon" type="image/png" sizes="48x48" href="/icons/android/res/mipmap-mdpi/ic_launcher.png?v=321200">
+    <link rel="icon" type="image/png" sizes="72x72" href="/icons/android/res/mipmap-hdpi/ic_launcher.png?v=321200">
+    <link rel="icon" type="image/png" sizes="96x96" href="/icons/android/res/mipmap-xhdpi/ic_launcher.png?v=321200">
+    <link rel="icon" type="image/png" sizes="144x144" href="/icons/android/res/mipmap-xxhdpi/ic_launcher.png?v=321200">
+    <link rel="icon" type="image/png" sizes="192x192" href="/icons/android/res/mipmap-xxxhdpi/ic_launcher.png?v=321200">
+    <link rel="icon" type="image/png" sizes="512x512" href="/icons/android/play_store_512.png?v=321200">
+    
+    <link rel="stylesheet" href="css/styles.css?v=321200">
+    <style>
+        .unsubscribe-container {
+            max-width: 500px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .btn {
+            background: #dc2626;
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+            margin: 0.5rem;
+        }
+
+        .btn:hover {
+            background: #b91c1c;
+        }
+
+        .btn-secondary {
+            background: #6b7280;
+        }
+
+        .btn-secondary:hover {
+            background: #4b5563;
+        }
+
+        .alert {
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+        }
+
+        .alert-success {
+            background: #d1fae5;
+            color: #065f46;
+            border: 1px solid #a7f3d0;
+        }
+
+        .alert-error {
+            background: #fee2e2;
+            color: #991b1b;
+            border: 1px solid #fca5a5;
+        }
+
+        .loading {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>⚾ YSBA 9U Standings</h1>
+            <p>Email Notifications</p>
+        </div>
+
+        <div class="unsubscribe-container">
+            <div id="loading" class="loading">
+                <p>🔄 Processing...</p>
+            </div>
+
+            <div id="confirm-container" style="display: none;">
+                <h2>🚫 Unsubscribe from Notifications</h2>
+                <p>Are you sure you want to unsubscribe from YSBA 9U standings email notifications?</p>
+                <p><strong>Email:</strong> <span id="subscriber-email"></span></p>
+                
+                <div style="margin-top: 2rem;">
+                    <button id="confirm-unsubscribe" class="btn">Yes, Unsubscribe</button>
+                    <button id="cancel-unsubscribe" class="btn btn-secondary">Cancel</button>
+                </div>
+                
+                <p style="margin-top: 1.5rem; font-size: 0.9rem; color: #666;">
+                    Want to change your preferences instead? 
+                    <a href="#" id="manage-link" style="color: #1e40af;">Manage your subscription</a>
+                </p>
+            </div>
+
+            <div id="result-container" style="display: none;">
+                <div id="alert-container"></div>
+                <div style="margin-top: 2rem;">
+                    <a href="/" class="btn btn-secondary">← Back to Standings</a>
+                </div>
+            </div>
+
+            <div id="error-container" style="display: none;">
+                <div class="alert alert-error">
+                    <p id="error-message"></p>
+                </div>
+                <div style="margin-top: 2rem;">
+                    <a href="/" class="btn btn-secondary">← Back to Standings</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Get token from URL params
+        const urlParams = new URLSearchParams(window.location.search);
+        const token = urlParams.get('token');
+
+        if (!token) {
+            showError('No token provided. This link may be invalid or expired.');
+        } else {
+            loadSubscriberInfo();
+        }
+
+        function showError(message) {
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('confirm-container').style.display = 'none';
+            document.getElementById('result-container').style.display = 'none';
+            document.getElementById('error-message').textContent = message;
+            document.getElementById('error-container').style.display = 'block';
+        }
+
+        function showResult(message, type = 'success') {
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('confirm-container').style.display = 'none';
+            document.getElementById('alert-container').innerHTML = `
+                <div class="alert alert-${type}">
+                    <p>${message}</p>
+                </div>
+            `;
+            document.getElementById('result-container').style.display = 'block';
+        }
+
+        async function loadSubscriberInfo() {
+            try {
+                const response = await fetch(`/api/subscriber/${token}`);
+                
+                if (!response.ok) {
+                    throw new Error('Subscriber not found or token invalid');
+                }
+
+                const subscriber = await response.json();
+                
+                if (!subscriber.active) {
+                    showResult('📧 You are already unsubscribed from notifications.', 'success');
+                    return;
+                }
+
+                // Show confirmation
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('subscriber-email').textContent = subscriber.email;
+                document.getElementById('manage-link').href = `/manage.html?token=${token}`;
+                document.getElementById('confirm-container').style.display = 'block';
+                
+            } catch (error) {
+                console.error('Error loading subscriber info:', error);
+                showError('Failed to load subscription details. This link may be invalid or expired.');
+            }
+        }
+
+        // Handle confirm unsubscribe
+        document.getElementById('confirm-unsubscribe').addEventListener('click', async () => {
+            document.getElementById('confirm-unsubscribe').disabled = true;
+            document.getElementById('confirm-unsubscribe').textContent = 'Processing...';
+
+            try {
+                const response = await fetch('/api/unsubscribe-token', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ token })
+                });
+
+                if (!response.ok) {
+                    throw new Error('Failed to unsubscribe');
+                }
+
+                const result = await response.json();
+                showResult('✅ Successfully unsubscribed! You will no longer receive YSBA standings notifications.', 'success');
+
+            } catch (error) {
+                console.error('Error unsubscribing:', error);
+                showResult('❌ Failed to unsubscribe. Please try again later.', 'error');
+            }
+        });
+
+        // Handle cancel
+        document.getElementById('cancel-unsubscribe').addEventListener('click', () => {
+            window.location.href = '/';
+        });
+    </script>
+</body>
+</html> 
