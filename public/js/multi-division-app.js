@@ -357,8 +357,8 @@ class MultiDivisionYSBAApp {
             item.dataset.division = key;
             item.dataset.tier = mainTierKey;
             
-            // Check if this is the current active division
-            if (this.divisionConfig && this.divisionConfig.key === key) {
+            // Check if this is the current active division and tier
+            if (this.currentDivision === key && this.currentTier === mainTierKey) {
                 item.classList.add('active');
             }
             
@@ -431,8 +431,8 @@ class MultiDivisionYSBAApp {
             item.dataset.division = key;
             item.dataset.tier = mainTierKey;
             
-            // Check if this is the current active division
-            if (this.divisionConfig && this.divisionConfig.key === key) {
+            // Check if this is the current active division and tier
+            if (this.currentDivision === key && this.currentTier === mainTierKey) {
                 item.classList.add('active');
             }
             
@@ -1022,30 +1022,54 @@ class MultiDivisionYSBAApp {
 
     // Schedule modal methods
     async showTeamSchedule(teamCode, teamName) {
-        const modal = new bootstrap.Modal(document.getElementById('scheduleModal'));
-        document.getElementById('scheduleModalTitle').textContent = `${teamName} Schedule`;
-        
-        modal.show();
-        this.showScheduleLoading();
-
         try {
-            const params = new URLSearchParams({
-                division: this.currentDivision,
-                tier: this.currentTier
-            });
+            // Show modal immediately with loading state
+            const modal = document.getElementById('scheduleModal');
+            document.getElementById('scheduleModalTitle').textContent = teamName;
+            this.showScheduleLoading();
             
-            const response = await fetch(`/api/team/${teamCode}/schedule?${params}`);
-            const result = await response.json();
+            const modalInstance = new bootstrap.Modal(modal);
+            modalInstance.show();
 
-            if (result.success) {
-                const teamData = this.getTeamData(teamCode);
-                this.displayNewSchedule(result.data, teamName, teamData);
-            } else {
-                this.showScheduleError(result.message || 'Unable to load schedule');
+            console.log(`⚡ Loading schedule for team ${teamCode}...`);
+            const startTime = Date.now();
+            
+            // NEW: Use fast cache-aware endpoint with current division/tier
+            const divisionKey = this.currentDivision || '9U-select';
+            const tierKey = this.currentTier || 'all-tiers';
+            
+            const response = await fetch(`/api/team/${teamCode}/schedule?division=${divisionKey}&tier=${tierKey}`);
+            const loadTime = Date.now() - startTime;
+            
+            if (!response.ok) {
+                throw new Error(`HTTP ${response.status}: ${response.statusText}`);
             }
+            
+            const result = await response.json();
+            
+            // Performance feedback in console
+            if (result.fromCache && loadTime < 500) {
+                console.log(`⚡ INSTANT: Schedule loaded from cache (${loadTime}ms)`);
+            } else if (loadTime < 2000) {
+                console.log(`🚀 FAST: Schedule loaded (${loadTime}ms)`);
+            } else {
+                console.log(`📥 FRESH: Schedule scraped (${loadTime}ms)`);
+            }
+            
+            if (result.success && result.data) {
+                this.displayNewSchedule(result.data, teamName, this.getTeamData(teamCode));
+                
+                // Show subtle performance indicator to user if very fast
+                if (result.fromCache && loadTime < 300) {
+                    // Could add a brief "⚡ Cached" indicator here if desired
+                }
+            } else {
+                throw new Error('Invalid schedule data');
+            }
+            
         } catch (error) {
             console.error('Error loading team schedule:', error);
-            this.showScheduleError('Unable to load schedule. Please try again.');
+            this.showScheduleError(error.message);
         }
     }
 
@@ -1200,8 +1224,11 @@ class MultiDivisionYSBAApp {
         // Score display
         let scoreDisplay = '';
         if (game.isCompleted && game.teamScore !== null && game.opponentScore !== null) {
-            // Game has scores - show actual score
-            scoreDisplay = `${game.teamScore} - ${game.opponentScore}`;
+            // Game has scores - show actual score with FINAL label
+            scoreDisplay = `<strong>${game.teamScore} - ${game.opponentScore}</strong>
+                    <div class="score-labels">
+                        <small class="text-muted">Final</small>
+                    </div>`;
         } else if (isFutureGame) {
             // Future game - show time or TBD
             scoreDisplay = game.time || 'TBD';
@@ -1223,8 +1250,8 @@ class MultiDivisionYSBAApp {
                         <div class="game-opponent">${this.escapeHtml(opponent)}</div>
                         <div class="game-details">
                             <div class="game-detail">
-                                <i class="bi bi-calendar3"></i>
-                                ${formattedDate} <i class="${isHome ? 'bi bi-house' : 'bi bi-airplane'}"></i>
+                                <i class="bi bi-calendar3-fill"></i>
+                                ${formattedDate} <i class="${isHome ? 'bi bi-house-fill' : 'bi bi-airplane-fill'}"></i>
                                 ${isHome ? 'Home' : 'Away'}
                             </div>
                         </div>

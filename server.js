@@ -363,14 +363,14 @@ app.get('/api/status', (req, res) => {
   });
 });
 
-// Get team schedule
+// Get team schedule - NEW: Fast cache-first approach
 app.get('/api/team/:teamCode/schedule', async (req, res) => {
     try {
         const { teamCode } = req.params;
         const division = req.query.division || '9U-select'; // Default to 9U-select for backward compatibility
         const tier = req.query.tier || 'all-tiers';
         
-        console.log(`API request for team ${teamCode} schedule`);
+        console.log(`⚡ Fast API request for team ${teamCode} schedule`);
 
         // Validate team code
         if (!teamCode || teamCode.trim() === '') {
@@ -397,12 +397,19 @@ app.get('/api/team/:teamCode/schedule', async (req, res) => {
             });
         }
 
-        // Get schedule data for the specific division/tier
+        const startTime = Date.now();
+        
+        // NEW: Use fast cache-first approach
         const scheduleData = await scraper.scrapeTeamScheduleForDivision(teamCode, division, tier);
+        
+        const responseTime = Date.now() - startTime;
+        console.log(`⚡ Team ${teamCode} schedule response in ${responseTime}ms`);
         
         res.json({
             success: true,
-            data: scheduleData
+            data: scheduleData,
+            responseTime: responseTime,
+            fromCache: responseTime < 500 // Likely from cache if very fast
         });
 
     } catch (error) {
@@ -1058,6 +1065,19 @@ async function performScheduledScrapeWithNotifications() {
 
     console.log(`✅ Successfully updated cache with latest standings (${currentData.teams.length} teams)`);
 
+    // NEW: Trigger background team schedule caching after standings update
+    const currentDivision = '9U-select'; // Could be made dynamic based on most active division
+    const currentTier = 'all-tiers';
+    
+    // Background schedule refresh (don't wait for it)
+    scraper.backgroundCacheTeamSchedules(currentDivision, currentTier)
+      .then(result => {
+        console.log(`📅 Background team schedule cache updated: ${result.cached}/${result.total} teams`);
+      })
+      .catch(error => {
+        console.warn('Background schedule caching warning:', error.message);
+      });
+
     // If we have previous data, check for changes
     if (previousStandings && previousStandings.length > 0) {
       console.log(`Comparing with previous standings (${previousStandings.length} teams)...`);
@@ -1144,6 +1164,76 @@ app.use((error, req, res, next) => {
   });
 });
 
+// NEW: Performance monitoring endpoint
+app.get('/api/performance', (req, res) => {
+  const now = Date.now();
+  
+  // Team schedule cache status
+  const teamCacheCount = scraper.teamScheduleCache ? Object.keys(scraper.teamScheduleCache).length : 0;
+  const teamCacheDetails = {};
+  
+  if (scraper.teamScheduleCache) {
+    Object.entries(scraper.teamScheduleCache).forEach(([cacheKey, cache]) => {
+      const cacheAge = Math.round((now - cache.timestamp) / 1000);
+      const [teamCode, division, tier] = cacheKey.split('-');
+      
+      if (!teamCacheDetails[`${division}-${tier}`]) {
+        teamCacheDetails[`${division}-${tier}`] = { teams: [], avgAge: 0 };
+      }
+      
+      teamCacheDetails[`${division}-${tier}`].teams.push({
+        teamCode,
+        cacheAge
+      });
+    });
+    
+    // Calculate average ages
+    Object.keys(teamCacheDetails).forEach(division => {
+      const teams = teamCacheDetails[division].teams;
+      const totalAge = teams.reduce((sum, team) => sum + team.cacheAge, 0);
+      teamCacheDetails[division].avgAge = Math.round(totalAge / teams.length);
+      teamCacheDetails[division].count = teams.length;
+    });
+  }
+  
+  // Comprehensive cache status
+  const comprehensiveCache = scraper.allGamesCache || {};
+  const comprehensiveCacheDetails = {};
+  
+  Object.entries(comprehensiveCache).forEach(([cacheKey, cache]) => {
+    const cacheAge = Math.round((now - cache.timestamp) / 1000);
+    const totalGames = cache.data?.allGames?.length || 0;
+    const totalTeams = cache.data?.teamGames ? Object.keys(cache.data.teamGames).length : 0;
+    
+    comprehensiveCacheDetails[cacheKey] = {
+      cacheAge,
+      totalGames,
+      totalTeams,
+      lastUpdated: new Date(cache.timestamp).toISOString()
+    };
+  });
+  
+  res.json({
+    performance: {
+      teamScheduleCache: {
+        totalCachedTeams: teamCacheCount,
+        isBackgroundCaching: scraper.isScheduleCachingInProgress || false,
+        cacheDetails: teamCacheDetails
+      },
+      comprehensiveCache: {
+        totalDivisions: Object.keys(comprehensiveCacheDetails).length,
+        cacheDetails: comprehensiveCacheDetails
+      },
+      optimization: {
+        fastCacheHits: 'Team schedules load in <500ms when cached',
+        backgroundCaching: 'Team schedules pre-cached for instant modals',
+        multiLevelCache: 'Individual → Comprehensive → Fresh scrape fallback'
+      }
+    },
+    timestamp: new Date().toISOString()
+  });
+});
+
 const PORT = config.PORT;
 app.listen(PORT, () => {
   console.log(`YSBA Standings server running on port ${PORT}`);
@@ -1162,15 +1252,14 @@ app.listen(PORT, () => {
         return;
       }
       
-      console.log('Performing initial scrape (standings + comprehensive schedule)...');
+      console.log('🚀 Performing initial scrape (standings + comprehensive schedule + team caching)...');
       
-      // Populate standings cache for the default 9U-select division
+      // Step 1: Populate standings cache for the default 9U-select division
       await scraper.scrapeStandings(true);
       
-      // Populate comprehensive schedule cache for known working divisions
-      console.log('Pre-populating comprehensive schedule caches...');
+      // Step 2: Sequential caching to avoid browser conflicts
+      console.log('📊 Pre-populating comprehensive schedule caches...');
       
-      // Get a subset of known working divisions that are most likely to have schedules
       const divisionsToCache = [
         { division: '9U-select', tier: 'all-tiers' },    // Main division - always cache this
         { division: '11U-select', tier: 'all-tiers' },   // Select divisions are most active
@@ -1178,9 +1267,10 @@ app.listen(PORT, () => {
         { division: '15U-select', tier: 'all-tiers' }
       ];
       
+      // Step 3: Pre-cache comprehensive schedules SEQUENTIALLY (not parallel)
       for (const { division, tier } of divisionsToCache) {
         try {
-          console.log(`Pre-caching schedule for ${division}/${tier}...`);
+          console.log(`📊 Pre-caching schedule for ${division}/${tier}...`);
           await scraper.scrapeAllGamesSchedule(true, division, tier);
           console.log(`✓ Schedule cache populated for ${division}/${tier}`);
         } catch (error) {
@@ -1189,7 +1279,30 @@ app.listen(PORT, () => {
         }
       }
       
-      console.log('✓ Schedule caches populated - schedule modals will load faster');
+      // Step 4: Background team schedule caching (after comprehensive caches are ready)
+      console.log('⚡ Starting background team schedule caching for instant modals...');
+      
+      for (const { division, tier } of divisionsToCache) {
+        try {
+          console.log(`📅 Background caching team schedules for ${division}/${tier}...`);
+          
+          // This will use the existing comprehensive cache we just populated
+          const result = await scraper.backgroundCacheTeamSchedules(division, tier);
+          
+          if (result.cached > 0) {
+            console.log(`✅ Cached ${result.cached}/${result.total} team schedules for ${division}/${tier}`);
+          } else {
+            console.log(`⚠️ No teams found to cache for ${division}/${tier}`);
+          }
+          
+        } catch (error) {
+          console.warn(`⚠️ Failed to background cache ${division}/${tier}:`, error.message);
+          // Continue with other divisions even if one fails
+        }
+      }
+      
+      console.log('🎯 Background team schedule caching completed - modals will load instantly!');
+      console.log('✅ Initial caches populated - app ready for fast performance!');
       
     } catch (error) {
       console.error('Initial scraping failed:', error);

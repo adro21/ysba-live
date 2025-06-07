@@ -1817,9 +1817,9 @@
 }
 
 /* Add space between date and home/away sections */
-.game-detail i.fa-home,
-.game-detail i.fa-plane {
-  margin-left: var(--spacing-sm);
+.game-detail i.bi-house-fill,
+.game-detail i.bi-airplane-fill {
+  margin-left: var(--spacing-xs);
 }
 
 /* Empty State */

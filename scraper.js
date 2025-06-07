@@ -34,6 +34,15 @@ class YSBAScraper {
     // Multi-division caching
     this.cachedDataByDivision = {}; // Cache data per division/tier combination
     this.scrapingPromises = {}; // Track ongoing scraping promises per division
+    
+    // NEW: Background team schedule caching
+    this.teamScheduleCache = {}; // Cache individual team schedules
+    this.isScheduleCachingInProgress = false; // Track background caching status
+    this.backgroundCachePromises = {}; // Track background caching promises per division
+    
+    // NEW: Browser session coordination
+    this.browserOperationQueue = []; // Queue browser operations to prevent conflicts
+    this.isBrowserBusy = false; // Track if browser is currently being used
   }
 
   async initBrowser() {
@@ -69,6 +78,45 @@ class YSBAScraper {
       this.browser = await puppeteer.launch(browserOptions);
     }
     return this.browser;
+  }
+
+  // NEW: Coordinate browser operations to prevent session conflicts
+  async withBrowserSession(operation, operationName = 'browser operation') {
+    return new Promise((resolve, reject) => {
+      // Add operation to queue
+      this.browserOperationQueue.push({
+        operation,
+        operationName,
+        resolve,
+        reject
+      });
+      
+      // Process queue if not already processing
+      this.processBrowserQueue();
+    });
+  }
+  
+  async processBrowserQueue() {
+    if (this.isBrowserBusy || this.browserOperationQueue.length === 0) {
+      return;
+    }
+    
+    this.isBrowserBusy = true;
+    
+    while (this.browserOperationQueue.length > 0) {
+      const { operation, operationName, resolve, reject } = this.browserOperationQueue.shift();
+      
+      try {
+        console.log(`🔄 Executing browser operation: ${operationName}`);
+        const result = await operation();
+        resolve(result);
+      } catch (error) {
+        console.error(`❌ Browser operation failed: ${operationName}:`, error.message);
+        reject(error);
+      }
+    }
+    
+    this.isBrowserBusy = false;
   }
 
   // New multi-division scraping method
@@ -177,238 +225,240 @@ class YSBAScraper {
 
   // New multi-division scraping method
   async performDivisionScrape(ysbaDiv, ysbaTier, divisionKey) {
-    const browser = await this.initBrowser();
-    const page = await browser.newPage();
+    return await this.withBrowserSession(async () => {
+      const browser = await this.initBrowser();
+      const page = await browser.newPage();
 
-    try {
-      // Set user agent and viewport for better stealth
-      await page.setUserAgent(config.USER_AGENT);
-      await page.setViewport({ width: 1366, height: 768 });
+      try {
+        // Set user agent and viewport for better stealth
+        await page.setUserAgent(config.USER_AGENT);
+        await page.setViewport({ width: 1366, height: 768 });
 
-      // Navigate to the standings page
-      console.log('Navigating to YSBA standings page...');
-      await page.goto(config.YSBA_URL, { 
-        waitUntil: 'networkidle2',
-        timeout: config.REQUEST_TIMEOUT 
-      });
+        // Navigate to the standings page
+        console.log('Navigating to YSBA standings page...');
+        await page.goto(config.YSBA_URL, { 
+          waitUntil: 'networkidle2',
+          timeout: config.REQUEST_TIMEOUT 
+        });
 
-      // Wait for the division dropdown to be available
-      await page.waitForSelector('select[name="ddlDivision"]', { timeout: 10000 });
+        // Wait for the division dropdown to be available
+        await page.waitForSelector('select[name="ddlDivision"]', { timeout: 10000 });
 
-      // Select the specified division
-      console.log(`Selecting division: ${ysbaDiv}...`);
-      await page.select('select[name="ddlDivision"]', ysbaDiv);
+        // Select the specified division
+        console.log(`Selecting division: ${ysbaDiv}...`);
+        await page.select('select[name="ddlDivision"]', ysbaDiv);
 
-      // Wait a bit for the tier dropdown to update
-      await this.sleep(1000);
+        // Wait a bit for the tier dropdown to update
+        await this.sleep(1000);
 
-      // Select the specified tier
-      console.log(`Selecting tier: ${ysbaTier}...`);
-      await page.select('select[name="ddlTier"]', ysbaTier);
+        // Select the specified tier
+        console.log(`Selecting tier: ${ysbaTier}...`);
+        await page.select('select[name="ddlTier"]', ysbaTier);
 
-      // Click the search button
-      console.log('Clicking search button...');
-      await page.click('#cmdSearch');
+        // Click the search button
+        console.log('Clicking search button...');
+        await page.click('#cmdSearch');
 
-      // Wait for the results table to appear
-      await page.waitForSelector('#dgGrid', { timeout: 15000 });
+        // Wait for the results table to appear
+        await page.waitForSelector('#dgGrid', { timeout: 15000 });
 
-      // Extract the standings data
-      console.log('Extracting standings data...');
-      
-      // Use the proper team name mapping (not division mapping)
-      const teamMapping = TEAM_NAME_MAPPING;
-      
-      const standingsData = await page.evaluate((teamMappingJson) => {
-        // Parse the team mapping JSON string
-        const teamMapping = JSON.parse(teamMappingJson);
+        // Extract the standings data
+        console.log('Extracting standings data...');
         
-        const table = document.getElementById('dgGrid');
-        if (!table) {
-          throw new Error('Standings table not found');
-        }
-
-        const rows = Array.from(table.querySelectorAll('tr'));
-        if (rows.length === 0) {
-          throw new Error('No data rows found in standings table');
-        }
-
-        console.log('=== TABLE ANALYSIS ===');
-        console.log('Total rows found:', rows.length);
-
-        // Find ALL header rows and log them
-        rows.forEach((row, index) => {
-          const cells = Array.from(row.querySelectorAll('th, td'));
-          const cellTexts = cells.map(cell => cell.textContent.trim());
+        // Use the proper team name mapping (not division mapping)
+        const teamMapping = TEAM_NAME_MAPPING;
+        
+        const standingsData = await page.evaluate((teamMappingJson) => {
+          // Parse the team mapping JSON string
+          const teamMapping = JSON.parse(teamMappingJson);
           
-          // Check if this looks like a header row
-          const hasHeaders = cellTexts.some(text => 
-            text.toLowerCase().includes('team') ||
-            text.toLowerCase().includes('name') ||
-            text.toLowerCase().includes('gp') ||
-            text.toLowerCase().includes('wins') ||
-            text.toLowerCase().includes('w') ||
-            text.toLowerCase().includes('pts')
-          );
-          
-          if (hasHeaders || index < 3) {
-            console.log(`Row ${index} (${hasHeaders ? 'HEADER' : 'potential header'}):`, cellTexts);
-          }
-        });
-
-        // Find the actual header row
-        const headerRow = rows.find(row => {
-          const cells = row.querySelectorAll('th, td');
-          return Array.from(cells).some(cell => 
-            cell.textContent.trim().toLowerCase().includes('team') ||
-            cell.textContent.trim().toLowerCase().includes('gp') ||
-            cell.textContent.trim().toLowerCase().includes('wins') ||
-            cell.textContent.trim().toLowerCase().includes('name')
-          );
-        });
-
-        if (!headerRow) {
-          throw new Error('Header row not found');
-        }
-
-        const headers = Array.from(headerRow.querySelectorAll('th, td')).map(th => 
-          th.textContent.trim()
-        );
-
-        console.log('=== FINAL HEADERS ===');
-        console.log('Headers:', headers);
-
-        // Extract data rows (skip header rows)
-        const dataRows = rows.filter(row => {
-          const firstCell = row.querySelector('td');
-          if (!firstCell) return false;
-          
-          const cellText = firstCell.textContent.trim();
-          // Skip if it's a header or empty
-          return cellText && !cellText.toLowerCase().includes('team') && 
-                 !cellText.toLowerCase().includes('name') &&
-                 !cellText.toLowerCase().includes('standing');
-        });
-
-        console.log('=== DATA ROWS ===');
-        console.log(`Found ${dataRows.length} data rows`);
-
-        const teams = dataRows.map((row, index) => {
-          const cells = Array.from(row.querySelectorAll('td'));
-          const cellTexts = cells.map(cell => cell.textContent.trim());
-          
-          console.log(`Row ${index + 1}:`, cellTexts);
-
-          if (cells.length < 7) {
-            console.log(`Skipping row ${index + 1} - insufficient cells (${cells.length})`);
-            return null;
+          const table = document.getElementById('dgGrid');
+          if (!table) {
+            throw new Error('Standings table not found');
           }
 
-          // Extract team code from the link in any cell
-          const firstCellLink = cells[0].querySelector('a');
-          const secondCellLink = cells[1] ? cells[1].querySelector('a') : null;
-          let teamCode = null;
-          
-          // Try first cell link
-          if (firstCellLink) {
-            const href = firstCellLink.getAttribute('href') || '';
-            console.log(`First cell link href: ${href}`);
-            const codeMatch = href.match(/tmcd=(\d+)/);
-            teamCode = codeMatch ? codeMatch[1] : null;
+          const rows = Array.from(table.querySelectorAll('tr'));
+          if (rows.length === 0) {
+            throw new Error('No data rows found in standings table');
           }
-          
-          // Try second cell link if first didn't work
-          if (!teamCode && secondCellLink) {
-            const href = secondCellLink.getAttribute('href') || '';
-            console.log(`Second cell link href: ${href}`);
-            const codeMatch = href.match(/tmcd=(\d+)/);
-            teamCode = codeMatch ? codeMatch[1] : null;
-          }
-          
-          // If still no team code, try other patterns or extract from text
-          if (!teamCode) {
-            // Check if any cell contains a team code pattern
-            for (let i = 0; i < Math.min(cells.length, 3); i++) {
-              const cellText = cells[i].textContent.trim();
-              // Look for 6-digit team codes in text
-              const textCodeMatch = cellText.match(/\b(5\d{5})\b/);
-              if (textCodeMatch) {
-                teamCode = textCodeMatch[1];
-                console.log(`Found team code in cell ${i} text: ${teamCode}`);
-                break;
-              }
+
+          console.log('=== TABLE ANALYSIS ===');
+          console.log('Total rows found:', rows.length);
+
+          // Find ALL header rows and log them
+          rows.forEach((row, index) => {
+            const cells = Array.from(row.querySelectorAll('th, td'));
+            const cellTexts = cells.map(cell => cell.textContent.trim());
+            
+            // Check if this looks like a header row
+            const hasHeaders = cellTexts.some(text => 
+              text.toLowerCase().includes('team') ||
+              text.toLowerCase().includes('name') ||
+              text.toLowerCase().includes('gp') ||
+              text.toLowerCase().includes('wins') ||
+              text.toLowerCase().includes('w') ||
+              text.toLowerCase().includes('pts')
+            );
+            
+            if (hasHeaders || index < 3) {
+              console.log(`Row ${index} (${hasHeaders ? 'HEADER' : 'potential header'}):`, cellTexts);
             }
-          }
-
-          // Get team name - prefer mapping over cell text
-          let teamName = teamCode && teamMapping[teamCode] ? teamMapping[teamCode] : null;
-          
-          if (!teamName) {
-            // Fallback to cell text
-            teamName = cells[1] ? cells[1].textContent.trim() : 
-                      cells[0] ? cells[0].textContent.trim() : 
-                      `Team ${teamCode || index + 1}`;
-          }
-
-          // Parse numerical values (GP, W, L, T, Pts, RF, RA)
-          const cellValues = cellTexts.slice(2, 9).map(text => {
-            const num = parseInt(text);
-            return isNaN(num) ? 0 : num;
           });
 
-          const gamesPlayed = cellValues[0] || 0;
-          const wins = parseInt(cellValues[1]) || 0;
-          const losses = parseInt(cellValues[2]) || 0;
-          const ties = parseInt(cellValues[3]) || 0;
-          
-          // Calculate win percentage for leagues that allow ties
-          // Formula: PCT = (Wins + 0.5 * Ties) / Games Played
-          let winPercentage = '.000';
-          const totalGames = wins + losses + ties;
-          
-          if (totalGames > 0) {
-            // Use total games (W+L+T) as denominator since GP might be 0
-            // Account for ties: each tie counts as 0.5 wins
-            const percentage = ((wins + 0.5 * ties) / totalGames) * 100;
-            winPercentage = (percentage / 100).toFixed(3);
+          // Find the actual header row
+          const headerRow = rows.find(row => {
+            const cells = row.querySelectorAll('th, td');
+            return Array.from(cells).some(cell => 
+              cell.textContent.trim().toLowerCase().includes('team') ||
+              cell.textContent.trim().toLowerCase().includes('gp') ||
+              cell.textContent.trim().toLowerCase().includes('wins') ||
+              cell.textContent.trim().toLowerCase().includes('name')
+            );
+          });
+
+          if (!headerRow) {
+            throw new Error('Header row not found');
           }
 
-          console.log(`Team: ${teamName}, Code: ${teamCode}, W-L-T: ${wins}-${losses}-${ties}, PCT: ${winPercentage}`);
+          const headers = Array.from(headerRow.querySelectorAll('th, td')).map(th => 
+            th.textContent.trim()
+          );
+
+          console.log('=== FINAL HEADERS ===');
+          console.log('Headers:', headers);
+
+          // Extract data rows (skip header rows)
+          const dataRows = rows.filter(row => {
+            const firstCell = row.querySelector('td');
+            if (!firstCell) return false;
+            
+            const cellText = firstCell.textContent.trim();
+            // Skip if it's a header or empty
+            return cellText && !cellText.toLowerCase().includes('team') && 
+                   !cellText.toLowerCase().includes('name') &&
+                   !cellText.toLowerCase().includes('standing');
+          });
+
+          console.log('=== DATA ROWS ===');
+          console.log(`Found ${dataRows.length} data rows`);
+
+          const teams = dataRows.map((row, index) => {
+            const cells = Array.from(row.querySelectorAll('td'));
+            const cellTexts = cells.map(cell => cell.textContent.trim());
+            
+            console.log(`Row ${index + 1}:`, cellTexts);
+
+            if (cells.length < 7) {
+              console.log(`Skipping row ${index + 1} - insufficient cells (${cells.length})`);
+              return null;
+            }
+
+            // Extract team code from the link in any cell
+            const firstCellLink = cells[0].querySelector('a');
+            const secondCellLink = cells[1] ? cells[1].querySelector('a') : null;
+            let teamCode = null;
+            
+            // Try first cell link
+            if (firstCellLink) {
+              const href = firstCellLink.getAttribute('href') || '';
+              console.log(`First cell link href: ${href}`);
+              const codeMatch = href.match(/tmcd=(\d+)/);
+              teamCode = codeMatch ? codeMatch[1] : null;
+            }
+            
+            // Try second cell link if first didn't work
+            if (!teamCode && secondCellLink) {
+              const href = secondCellLink.getAttribute('href') || '';
+              console.log(`Second cell link href: ${href}`);
+              const codeMatch = href.match(/tmcd=(\d+)/);
+              teamCode = codeMatch ? codeMatch[1] : null;
+            }
+            
+            // If still no team code, try other patterns or extract from text
+            if (!teamCode) {
+              // Check if any cell contains a team code pattern
+              for (let i = 0; i < Math.min(cells.length, 3); i++) {
+                const cellText = cells[i].textContent.trim();
+                // Look for 6-digit team codes in text
+                const textCodeMatch = cellText.match(/\b(5\d{5})\b/);
+                if (textCodeMatch) {
+                  teamCode = textCodeMatch[1];
+                  console.log(`Found team code in cell ${i} text: ${teamCode}`);
+                  break;
+                }
+              }
+            }
+
+            // Get team name - prefer mapping over cell text
+            let teamName = teamCode && teamMapping[teamCode] ? teamMapping[teamCode] : null;
+            
+            if (!teamName) {
+              // Fallback to cell text
+              teamName = cells[1] ? cells[1].textContent.trim() : 
+                        cells[0] ? cells[0].textContent.trim() : 
+                        `Team ${teamCode || index + 1}`;
+            }
+
+            // Parse numerical values (GP, W, L, T, Pts, RF, RA)
+            const cellValues = cellTexts.slice(2, 9).map(text => {
+              const num = parseInt(text);
+              return isNaN(num) ? 0 : num;
+            });
+
+            const gamesPlayed = cellValues[0] || 0;
+            const wins = parseInt(cellValues[1]) || 0;
+            const losses = parseInt(cellValues[2]) || 0;
+            const ties = parseInt(cellValues[3]) || 0;
+            
+            // Calculate win percentage for leagues that allow ties
+            // Formula: PCT = (Wins + 0.5 * Ties) / Games Played
+            let winPercentage = '.000';
+            const totalGames = wins + losses + ties;
+            
+            if (totalGames > 0) {
+              // Use total games (W+L+T) as denominator since GP might be 0
+              // Account for ties: each tie counts as 0.5 wins
+              const percentage = ((wins + 0.5 * ties) / totalGames) * 100;
+              winPercentage = (percentage / 100).toFixed(3);
+            }
+
+            console.log(`Team: ${teamName}, Code: ${teamCode}, W-L-T: ${wins}-${losses}-${ties}, PCT: ${winPercentage}`);
+
+            return {
+              position: index + 1,
+              team: teamName,
+              teamCode: teamCode || `unknown-${index + 1}`,
+              gamesPlayed,
+              wins,
+              losses,
+              ties,
+              points: cellValues[4] || 0,
+              runsFor: cellValues[5] || 0,
+              runsAgainst: cellValues[6] || 0,
+              winPercentage
+            };
+          }).filter(team => team !== null);
+
+          console.log('=== EXTRACTION COMPLETE ===');
+          console.log(`Successfully extracted ${teams.length} teams`);
 
           return {
-            position: index + 1,
-            team: teamName,
-            teamCode: teamCode || `unknown-${index + 1}`,
-            gamesPlayed,
-            wins,
-            losses,
-            ties,
-            points: cellValues[4] || 0,
-            runsFor: cellValues[5] || 0,
-            runsAgainst: cellValues[6] || 0,
-            winPercentage
+            teams,
+            lastUpdated: new Date().toISOString(),
+            source: 'YSBA Website'
           };
-        }).filter(team => team !== null);
+        }, JSON.stringify(teamMapping));
 
-        console.log('=== EXTRACTION COMPLETE ===');
-        console.log(`Successfully extracted ${teams.length} teams`);
+        // Close the page
+        await page.close();
 
-        return {
-          teams,
-          lastUpdated: new Date().toISOString(),
-          source: 'YSBA Website'
-        };
-      }, JSON.stringify(teamMapping));
-
-      // Close the page
-      await page.close();
-
-      return standingsData;
-    } catch (error) {
-      console.error('Error in performDivisionScrape:', error);
-      await page.close();
-      throw error;
-    }
+        return standingsData;
+      } catch (error) {
+        console.error('Error in performDivisionScrape:', error);
+        await page.close();
+        throw error;
+      }
+    }, `scrape-${divisionKey}-${ysbaDiv}-${ysbaTier}`);
   }
 
   // Legacy method for backwards compatibility
@@ -455,86 +505,111 @@ class YSBAScraper {
         console.log(`No cache available for ${division}/${tier}, fetching fresh data...`);
       }
 
-      const browser = await this.initBrowser();
-      const page = await browser.newPage();
+      // NEW: Use browser session coordination to prevent conflicts
+      return await this.withBrowserSession(async () => {
+        const browser = await this.initBrowser();
+        const page = await browser.newPage();
 
-      try {
-        // Set user agent and viewport
-        await page.setUserAgent(config.USER_AGENT);
-        await page.setViewport({ width: 1366, height: 768 });
-
-        console.log('Navigating to YSBA schedule page...');
-        await page.goto('https://www.yorksimcoebaseball.com/Club/xScheduleMM.aspx', { 
-          waitUntil: 'networkidle2',
-          timeout: config.REQUEST_TIMEOUT 
-        });
-
-        // Wait for dropdowns to be available
-        await page.waitForSelector('select[name="ddlDivision"]', { timeout: 10000 });
-
-        console.log(`Selecting ${division} division (YSBA value: ${ysbaDiv})...`);
-        await page.select('select[name="ddlDivision"]', ysbaDiv);
-
-        await this.sleep(1000);
-
-        console.log('Selecting Regular category...');
-        await page.select('select[name="ddlCategory"]', '1'); // Regular
-
-        await this.sleep(1000);
-
-        // Click search to load the schedule
-        console.log('Clicking search button...');
-        await page.click('#cmdSearch');
-
-        // Wait for results table
-        await page.waitForSelector('#dgGrid', { timeout: 15000 });
-
-        // Extract all games from page 1
-        console.log('Extracting games from page 1...');
-        let allGames = await this.extractGamesFromPage(page);
-
-        // Check for pagination and get page 2
         try {
-          console.log('Looking for page 2 link...');
-          const page2Link = await page.$('a[href*="dgGrid$ctl104$ctl02"]');
+          // NEW: Optimize for performance
+          const isProduction = process.env.NODE_ENV === 'production';
           
-          if (page2Link) {
-            console.log('Found page 2, clicking to load more games...');
-            await page2Link.click();
-            await page.waitForSelector('#dgGrid', { timeout: 10000 });
-            await this.sleep(2000); // Wait for page to fully load
+          if (isProduction) {
+            // Disable images, CSS, and fonts for faster loading in production
+            await page.setRequestInterception(true);
+            page.on('request', (req) => {
+              const resourceType = req.resourceType();
+              if (['image', 'stylesheet', 'font'].includes(resourceType)) {
+                req.abort();
+              } else {
+                req.continue();
+              }
+            });
             
-            console.log('Extracting games from page 2...');
-            const page2Games = await this.extractGamesFromPage(page);
-            allGames = allGames.concat(page2Games);
-            console.log(`Total games extracted: ${allGames.length}`);
-          } else {
-            console.log('No page 2 found, continuing with page 1 data');
+            console.log('🚀 Production optimizations enabled - disabled images/CSS/fonts');
           }
-        } catch (paginationError) {
-          console.log('Error handling pagination, continuing with page 1 data:', paginationError.message);
+          
+          // Set user agent and viewport
+          await page.setUserAgent(config.USER_AGENT);
+          await page.setViewport({ width: 1366, height: 768 });
+
+          console.log('Navigating to YSBA schedule page...');
+          const navigationTimeout = isProduction ? 45000 : config.REQUEST_TIMEOUT;
+          
+          await page.goto('https://www.yorksimcoebaseball.com/Club/xScheduleMM.aspx', { 
+            waitUntil: isProduction ? 'domcontentloaded' : 'networkidle2', // Faster in production
+            timeout: navigationTimeout
+          });
+
+          // Wait for dropdowns to be available
+          await page.waitForSelector('select[name="ddlDivision"]', { timeout: 10000 });
+
+          console.log(`Selecting ${division} division (YSBA value: ${ysbaDiv})...`);
+          await page.select('select[name="ddlDivision"]', ysbaDiv);
+
+          // Reduced delays for faster execution
+          await this.sleep(isProduction ? 500 : 1000);
+
+          console.log('Selecting Regular category...');
+          await page.select('select[name="ddlCategory"]', '1'); // Regular
+
+          await this.sleep(isProduction ? 500 : 1000);
+
+          // Click search to load the schedule
+          console.log('Clicking search button...');
+          await page.click('#cmdSearch');
+
+          // Wait for results table with appropriate timeout
+          const waitTimeout = isProduction ? 20000 : 15000;
+          await page.waitForSelector('#dgGrid', { timeout: waitTimeout });
+
+          // Extract all games from page 1
+          console.log('Extracting games from page 1...');
+          let allGames = await this.extractGamesFromPage(page);
+
+          // Check for pagination and get page 2
+          try {
+            console.log('Looking for page 2 link...');
+            const page2Link = await page.$('a[href*="dgGrid$ctl104$ctl02"]');
+            
+            if (page2Link) {
+              console.log('Found page 2, clicking to load more games...');
+              await page2Link.click();
+              await page.waitForSelector('#dgGrid', { timeout: 10000 });
+              await this.sleep(isProduction ? 1000 : 2000); // Faster wait for production
+              
+              console.log('Extracting games from page 2...');
+              const page2Games = await this.extractGamesFromPage(page);
+              allGames = allGames.concat(page2Games);
+              console.log(`Total games extracted: ${allGames.length}`);
+            } else {
+              console.log('No page 2 found, continuing with page 1 data');
+            }
+          } catch (paginationError) {
+            console.log('Error handling pagination, continuing with page 1 data:', paginationError.message);
+          }
+
+          // Process and organize games
+          const processedGames = this.processAllGames(allGames);
+
+          // Initialize cache object if it doesn't exist
+          if (!this.allGamesCache) {
+            this.allGamesCache = {};
+          }
+
+          // Cache the result for this division/tier
+          this.allGamesCache[cacheKey] = {
+            data: processedGames,
+            timestamp: Date.now()
+          };
+
+          console.log(`✓ Successfully scraped ${allGames.length} games for ${division}/${tier}`);
+          return processedGames;
+
+        } finally {
+          await page.close();
         }
-
-        // Process and organize games
-        const processedGames = this.processAllGames(allGames);
-
-        // Initialize cache object if it doesn't exist
-        if (!this.allGamesCache) {
-          this.allGamesCache = {};
-        }
-
-        // Cache the result for this division/tier
-        this.allGamesCache[cacheKey] = {
-          data: processedGames,
-          timestamp: Date.now()
-        };
-
-        console.log(`✓ Successfully scraped ${allGames.length} games for ${division}/${tier}`);
-        return processedGames;
-
-      } finally {
-        await page.close();
-      }
+      }, `scrape-schedule-${division}-${tier}`);
 
     } catch (error) {
       console.error(`Error scraping schedule for ${division}/${tier}:`, error.message);
@@ -739,16 +814,30 @@ class YSBAScraper {
 
   async scrapeTeamScheduleForDivision(teamCode, division = '9U-select', tier = 'all-tiers') {
     try {
-      console.log(`Getting schedule for team ${teamCode} from ${division}/${tier} schedule...`);
+      console.log(`Getting schedule for team ${teamCode} from ${division}/${tier}...`);
       
-      // Use the division-aware comprehensive schedule method
-      const allScheduleData = await this.scrapeAllGamesSchedule(false, division, tier); // false = use cache if available
+      // NEW: Try fast cache lookup first (instant response)
+      const cachedData = await this.getTeamScheduleFromCache(teamCode, division, tier);
+      if (cachedData) {
+        return cachedData;
+      }
+      
+      // Cache miss - try comprehensive schedule method (still fast if cached)
+      console.log(`Cache miss for team ${teamCode}, checking comprehensive schedule...`);
+      const allScheduleData = await this.scrapeAllGamesSchedule(false, division, tier);
       
       if (allScheduleData.teamGames[teamCode]) {
-        const cacheKey = `schedule-${division}-${tier}`;
-        const fromCache = this.allGamesCache && this.allGamesCache[cacheKey];
-        console.log(`✓ Schedule data found for team ${teamCode} in ${division}/${tier} (from cache: ${!!fromCache})`);
-        return allScheduleData.teamGames[teamCode];
+        const teamSchedule = allScheduleData.teamGames[teamCode];
+        
+        // Cache individually for next time
+        const cacheKey = `${teamCode}-${division}-${tier}`;
+        this.teamScheduleCache[cacheKey] = {
+          data: teamSchedule,
+          timestamp: Date.now()
+        };
+        
+        console.log(`✓ Schedule found and cached for team ${teamCode}`);
+        return teamSchedule;
       } else {
         console.warn(`No schedule data found for team ${teamCode} in ${division}/${tier}`);
         return {
@@ -833,6 +922,106 @@ class YSBAScraper {
       } finally {
         this.browser = null;
       }
+    }
+  }
+
+  // NEW: Fast team schedule lookup with instant response
+  async getTeamScheduleFromCache(teamCode, division = '9U-select', tier = 'all-tiers') {
+    const cacheKey = `${teamCode}-${division}-${tier}`;
+    
+    // Check individual team cache first (instant response)
+    if (this.teamScheduleCache[cacheKey]) {
+      const cacheAge = Date.now() - this.teamScheduleCache[cacheKey].timestamp;
+      if (cacheAge < this.CACHE_DURATION) {
+        console.log(`✓ Team ${teamCode} schedule from individual cache (${Math.round(cacheAge/1000)}s old)`);
+        return this.teamScheduleCache[cacheKey].data;
+      }
+    }
+    
+    // Fallback to comprehensive cache (still fast)
+    const comprehensiveCacheKey = `schedule-${division}-${tier}`;
+    if (this.allGamesCache && this.allGamesCache[comprehensiveCacheKey]) {
+      const comprehensiveCache = this.allGamesCache[comprehensiveCacheKey];
+      const cacheAge = Date.now() - comprehensiveCache.timestamp;
+      
+      if (cacheAge < this.CACHE_DURATION && comprehensiveCache.data.teamGames[teamCode]) {
+        console.log(`✓ Team ${teamCode} schedule from comprehensive cache (${Math.round(cacheAge/1000)}s old)`);
+        
+        // Cache individually for even faster next lookup
+        this.teamScheduleCache[cacheKey] = {
+          data: comprehensiveCache.data.teamGames[teamCode],
+          timestamp: Date.now()
+        };
+        
+        return comprehensiveCache.data.teamGames[teamCode];
+      }
+    }
+    
+    // No cache available - return null to trigger fresh scrape
+    return null;
+  }
+
+  // NEW: Background team schedule caching for instant modal loads
+  async backgroundCacheTeamSchedules(division = '9U-select', tier = 'all-tiers') {
+    const cacheKey = `${division}-${tier}`;
+    
+    // Prevent concurrent background caching for same division
+    if (this.backgroundCachePromises[cacheKey]) {
+      console.log(`Background caching already in progress for ${division}/${tier}`);
+      return await this.backgroundCachePromises[cacheKey];
+    }
+    
+    try {
+      this.isScheduleCachingInProgress = true;
+      console.log(`🔄 Starting background team schedule caching for ${division}/${tier}...`);
+      
+      this.backgroundCachePromises[cacheKey] = this.performBackgroundCaching(division, tier);
+      const result = await this.backgroundCachePromises[cacheKey];
+      
+      console.log(`✅ Background team schedule caching completed for ${division}/${tier}`);
+      return result;
+      
+    } catch (error) {
+      console.error(`❌ Background caching failed for ${division}/${tier}:`, error.message);
+      throw error;
+    } finally {
+      this.isScheduleCachingInProgress = false;
+      delete this.backgroundCachePromises[cacheKey];
+    }
+  }
+  
+  async performBackgroundCaching(division, tier) {
+    try {
+      // Get comprehensive schedule first (this might be cached already)
+      const scheduleData = await this.scrapeAllGamesSchedule(false, division, tier);
+      
+      if (!scheduleData || !scheduleData.teamGames) {
+        console.warn(`No team games found for ${division}/${tier}`);
+        return { cached: 0, total: 0 };
+      }
+      
+      // Cache individual team schedules for instant access
+      let cachedCount = 0;
+      const totalTeams = Object.keys(scheduleData.teamGames).length;
+      
+      for (const [teamCode, teamSchedule] of Object.entries(scheduleData.teamGames)) {
+        const individualCacheKey = `${teamCode}-${division}-${tier}`;
+        
+        this.teamScheduleCache[individualCacheKey] = {
+          data: teamSchedule,
+          timestamp: Date.now()
+        };
+        
+        cachedCount++;
+        console.log(`📅 Cached schedule for team ${teamCode} (${cachedCount}/${totalTeams})`);
+      }
+      
+      console.log(`✅ Successfully cached ${cachedCount} team schedules for ${division}/${tier}`);
+      return { cached: cachedCount, total: totalTeams };
+      
+    } catch (error) {
+      console.error(`Error in background caching for ${division}/${tier}:`, error.message);
+      throw error;
     }
   }
 }
