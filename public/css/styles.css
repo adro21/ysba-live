@@ -317,7 +317,7 @@
 .mega-menu-items.rep-divisions {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: var(--spacing-xs);
+  gap: 0;
 }
 
 .mega-menu-item {
@@ -341,8 +341,8 @@
 .mega-menu-item:hover {
   background: #f9fafb;
   color: #024220;
-  border-color: #e5e7eb;
-  transform: translateX(2px);
+  /* border-color: #e5e7eb; */
+  /* transform: translateX(2px); */
 }
 
 .mega-menu-item.active {
@@ -1099,7 +1099,7 @@
   font-weight: var(--font-weight-bold);
   background-color: rgba(var(--theme-primary-rgb, 2, 66, 32), 0.1);
   color: var(--theme-primary, #024220);
-  border: 1px solid rgba(var(--theme-primary-rgb, 2, 66, 32), 0.2);
+  /* border: 1px solid rgba(var(--theme-primary-rgb, 2, 66, 32), 0.2); */
   transition: all var(--transition-fast);
 }
 
