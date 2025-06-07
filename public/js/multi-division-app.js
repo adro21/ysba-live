@@ -1230,8 +1230,11 @@ class MultiDivisionYSBAApp {
                         <small class="text-muted">Final</small>
                     </div>`;
         } else if (isFutureGame) {
-            // Future game - show time or TBD
-            scoreDisplay = game.time || 'TBD';
+            // Future game - show time or TBD with Game Time label
+            scoreDisplay = `<strong>${game.time || 'TBD'}</strong>
+                    <div class="score-labels">
+                        <small class="text-muted">Game Time</small>
+                    </div>`;
         } else {
             // Past game without scores - show special "No Result" HTML
             scoreDisplay = `<strong>-</strong>
