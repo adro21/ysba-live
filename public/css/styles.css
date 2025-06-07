@@ -120,7 +120,7 @@
   flex-wrap: wrap;
   gap: var(--spacing-md);
   padding-bottom:20px;
-  border-bottom: 1px solid #041c0f;
+  border-bottom: 1px solid rgba(var(--theme-primary-rgb, 2, 66, 32), 0.6);
 }
 
 .brand-section {
@@ -163,12 +163,12 @@
   margin-bottom: 3px;
   letter-spacing: -0.035em;
   /* Enhanced pressed effect for dark background */
-  text-shadow: 
+  /* text-shadow: 
     0 1px 0 rgba(255, 255, 255, 0.1),
     0 -1px 0 rgba(0, 0, 0, 0.8),
     1px 0 0 rgba(255, 255, 255, 0.05),
     -1px 0 0 rgba(0, 0, 0, 0.6),
-    0 2px 4px rgba(0, 0, 0, 0.4);
+    0 2px 4px rgba(0, 0, 0, 0.4); */
 }
 
 .brand-subtitle {
@@ -237,8 +237,8 @@
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
   padding: 0;
   margin-top: var(--spacing-xs);
-  min-width: 600px;
-  max-width: 800px;
+  min-width: 750px;
+  max-width: 1000px;
   z-index: 1050;
   opacity: 0;
   visibility: hidden;
@@ -277,8 +277,18 @@
 
 .mega-menu-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: var(--spacing-xl);
+}
+
+/* Rep section spans first 2 columns */
+.mega-menu-section.rep-section {
+  grid-column: span 2;
+}
+
+/* Select section takes the 3rd column */
+.mega-menu-section.select-section {
+  grid-column: 3;
 }
 
 .mega-menu-section {
@@ -300,6 +310,13 @@
 .mega-menu-items {
   display: grid;
   grid-template-columns: 1fr;
+  gap: var(--spacing-xs);
+}
+
+/* Rep divisions get multiple columns within their 2-column span */
+.mega-menu-items.rep-divisions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: var(--spacing-xs);
 }
 
@@ -629,6 +646,7 @@
   
   .division-modal-item-subtitle {
     font-size: 0.75rem;
+    text-align: left;
   }
 }
 
@@ -644,7 +662,7 @@
   align-items: center;
   gap: var(--spacing-md);
   padding: var(--spacing-xs) 0;
-  border-top: 1px solid #27553c;
+  border-top: 1px solid rgba(var(--theme-primary-rgb, 2, 66, 32), 0.4);
   flex-wrap: wrap;
   color: white;
 }
@@ -692,6 +710,62 @@
   margin-left: 0;
 }
 
+/* Status action links - styled to look like buttons but behave like links */
+.status-action-link {
+  padding: var(--spacing-sm) var(--spacing-md);
+  font-size: 0.875rem;
+  min-width: 52px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-sm);
+  text-decoration: none;
+  color: white;
+  background: transparent;
+  border: none;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.status-action-link i {
+  font-size: 0.875rem;
+  color: white;
+  transition: color var(--transition-fast);
+}
+
+.status-action-link span {
+  margin-left: 0;
+  color: white;
+  transition: color var(--transition-fast);
+}
+
+.status-action-link:hover {
+  text-decoration: none;
+  background: transparent;
+}
+
+.status-action-link:hover i,
+.status-action-link:hover span {
+  color: #3ba26b;
+}
+
+.status-action-link:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+.status-action-link:active {
+  background: transparent;
+  color: white;
+}
+
+.status-action-link:active i,
+.status-action-link:active span {
+  color: #3ba26b;
+}
+
 /* Modern Buttons */
 .btn-modern {
   display: inline-flex;
@@ -714,11 +788,11 @@
   background: #024220;
   color: white;
   box-shadow: none;
-  text-shadow:0 1px 0 rgba(255, 255, 255, 0.1),
+  /* text-shadow:0 1px 0 rgba(255, 255, 255, 0.1),
   0 -1px 0 rgba(0, 0, 0, 0.8),
   1px 0 0 rgba(255, 255, 255, 0.05),
   -1px 0 0 rgba(0, 0, 0, 0.6),
-  0 2px 4px rgba(0, 0, 0, 0.4);
+  0 2px 4px rgba(0, 0, 0, 0.4); */
 }
 
 .btn-modern:active {
@@ -1239,6 +1313,22 @@
   
   
   .btn-compact i {
+    font-size: 1rem;
+  }
+  
+  /* Status action links mobile styles */
+  .status-action-link {
+    padding: var(--spacing-sm) var(--spacing-sm);
+    font-size: 0.75rem;
+    min-width: 47px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-xs);
+  }
+  
+  .status-action-link i {
     font-size: 1rem;
   }
   
@@ -1823,6 +1913,23 @@
     margin: 0;
     font-size: 0.875rem;
   }
+  
+  /* Status action links very small mobile styles */
+  .status-action-link {
+    padding: 6px;
+    font-size: 0.7rem;
+    min-width: 32px;
+    min-height: 32px;
+  }
+  
+  .status-action-link span {
+    display: none !important;
+  }
+  
+  .status-action-link i {
+    margin: 0;
+    font-size: 0.875rem;
+  }
 }
 
 /* Form Styling */
@@ -1960,6 +2067,32 @@
 /* Change filter icon color when division filter is active (all screen sizes) */
 .status-actions .dropdown .btn-compact.division-filter-active i {
   color: #FCBF24 !important;
+}
+
+/* Override button behavior for division filter to match status action links */
+.status-actions .dropdown .btn-compact {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.status-actions .dropdown .btn-compact:hover,
+.status-actions .dropdown .btn-compact:focus,
+.status-actions .dropdown .btn-compact:active,
+.status-actions .dropdown .btn-compact.show,
+.status-actions .dropdown .btn-compact[aria-expanded="true"] {
+  background: transparent !important;
+  color: white !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.status-actions .dropdown .btn-compact:hover i,
+.status-actions .dropdown .btn-compact:hover span,
+.status-actions .dropdown .btn-compact:focus i,
+.status-actions .dropdown .btn-compact:focus span {
+  color: #3ba26b !important;
 }
 
 .division-filter-active:hover {

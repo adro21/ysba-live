@@ -219,6 +219,25 @@ class MultiDivisionYSBAApp {
             .schedule-tab:hover {
                 color: ${theme.primary} !important;
             }
+
+            /* Mega menu active item styling to match division colorway */
+            .mega-menu-item.active {
+                background: ${theme.primary} !important;
+                color: white !important;
+                border-color: ${theme.primary} !important;
+            }
+
+            .mega-menu-item.active:hover {
+                background: ${theme.secondary} !important;
+                border-color: ${theme.secondary} !important;
+            }
+
+            /* Mobile modal active item styling to match division colorway */
+            .division-modal-item.active {
+                background: ${theme.primary} !important;
+                color: white !important;
+                border-color: ${theme.primary} !important;
+            }
         `;
 
         // Update theme color meta tag
@@ -308,11 +327,11 @@ class MultiDivisionYSBAApp {
                     <p class="mega-menu-subtitle">Select your preferred division and tier to view standings</p>
                 </div>
                 <div class="mega-menu-grid">
-                    <div class="mega-menu-section">
+                    <div class="mega-menu-section rep-section">
                         <h4 class="mega-menu-section-title">Rep Divisions</h4>
-                        <div class="mega-menu-items" id="rep-divisions"></div>
+                        <div class="mega-menu-items rep-divisions" id="rep-divisions"></div>
                     </div>
-                    <div class="mega-menu-section">
+                    <div class="mega-menu-section select-section">
                         <h4 class="mega-menu-section-title">Select Divisions</h4>
                         <div class="mega-menu-items" id="select-divisions"></div>
                     </div>
@@ -616,7 +635,8 @@ class MultiDivisionYSBAApp {
         // Refresh button
         const refreshBtn = document.getElementById('refreshBtn');
         if (refreshBtn) {
-            refreshBtn.addEventListener('click', () => {
+            refreshBtn.addEventListener('click', (e) => {
+                e.preventDefault();
                 this.refreshStandings();
             });
         }
@@ -697,28 +717,45 @@ class MultiDivisionYSBAApp {
         if (!refreshBtn) return;
 
         const originalContent = refreshBtn.innerHTML;
-        refreshBtn.innerHTML = '<div class="loading-spinner-small"></div>';
-        refreshBtn.disabled = true;
+        
+        // Show button loading state with spinning refresh icon (keep text on desktop)
+        refreshBtn.classList.add('btn-loading', 'btn-refreshing');
+        
+        // On mobile, only show icon. On desktop, keep the text
+        if (window.innerWidth <= 768) {
+            refreshBtn.innerHTML = '<i class="bi bi-arrow-repeat"></i>';
+        } else {
+            // For desktop, keep the text but replace the icon with spinning one
+            refreshBtn.innerHTML = '<i class="bi bi-arrow-repeat"></i><span class="d-none d-md-inline">Refresh</span>';
+        }
 
         try {
             await this.loadStandings(true);
             this.showRefreshSuccess(refreshBtn, originalContent);
         } catch (error) {
+            // Restore button immediately on error
+            refreshBtn.classList.remove('btn-loading', 'btn-refreshing');
             refreshBtn.innerHTML = originalContent;
-            refreshBtn.disabled = false;
         }
     }
 
     showRefreshSuccess(refreshBtn, originalContent) {
-        refreshBtn.innerHTML = '<i class="bi bi-check"></i> <span class="d-none d-md-inline">Updated</span>';
-        refreshBtn.classList.remove('btn-primary');
+        // Remove loading classes and add success state
+        refreshBtn.classList.remove('btn-loading', 'btn-refreshing');
         refreshBtn.classList.add('btn-success-state');
         
+        // On mobile, only show icon. On desktop, keep the text
+        if (window.innerWidth <= 768) {
+            refreshBtn.innerHTML = '<i class="bi bi-check"></i>';
+        } else {
+            refreshBtn.innerHTML = '<i class="bi bi-check"></i><span class="d-none d-md-inline">Updated</span>';
+        }
+        
+        // Keep disabled during success animation
         setTimeout(() => {
-            refreshBtn.innerHTML = originalContent;
-            refreshBtn.disabled = false;
+            // Restore original state after success animation
             refreshBtn.classList.remove('btn-success-state');
-            refreshBtn.classList.add('btn-primary');
+            refreshBtn.innerHTML = originalContent;
         }, 2000);
     }
 
@@ -1074,11 +1111,9 @@ class MultiDivisionYSBAApp {
 
         tabsContainer.innerHTML = `
             <button class="schedule-tab" data-tab="played">
-                <i class="bi bi-check-circle"></i>
                 Played (${playedGames.length})
             </button>
             <button class="schedule-tab" data-tab="upcoming">
-                <i class="bi bi-calendar-event"></i>
                 Upcoming (${upcomingGames.length})
             </button>
         `;
@@ -1157,7 +1192,6 @@ class MultiDivisionYSBAApp {
         if (game.date) {
             const gameDate = new Date(game.date);
             formattedDate = gameDate.toLocaleDateString('en-US', {
-                weekday: 'short',
                 month: 'short',
                 day: 'numeric'
             });

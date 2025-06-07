@@ -49,7 +49,8 @@ class YSBAStandingsApp {
 
     setupEventListeners() {
         // Refresh button
-        document.getElementById('refreshBtn').addEventListener('click', () => {
+        document.getElementById('refreshBtn').addEventListener('click', (e) => {
+            e.preventDefault();
             this.refreshStandings();
         });
 
@@ -163,7 +164,6 @@ class YSBAStandingsApp {
         
         // Show button loading state with spinning refresh icon (keep text on desktop)
         refreshBtn.classList.add('btn-loading', 'btn-refreshing');
-        refreshBtn.disabled = true;
         
         // On mobile, only show icon. On desktop, keep the text
         if (window.innerWidth <= 768) {
@@ -209,7 +209,6 @@ class YSBAStandingsApp {
             this.showError(`Refresh failed: ${error.message}`);
             // Restore button immediately on error
             refreshBtn.classList.remove('btn-loading', 'btn-refreshing');
-            refreshBtn.disabled = false;
             refreshBtn.innerHTML = originalContent;
         } finally {
             this.hideLoadingState();
@@ -345,7 +344,6 @@ class YSBAStandingsApp {
         setTimeout(() => {
             // Restore original state after success animation
             refreshBtn.classList.remove('btn-success-state');
-            refreshBtn.disabled = false;
             refreshBtn.innerHTML = originalContent;
         }, 2000); // Show success for 2 seconds
     }
