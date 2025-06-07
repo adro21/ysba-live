@@ -1065,18 +1065,53 @@ async function performScheduledScrapeWithNotifications() {
 
     console.log(`✅ Successfully updated cache with latest standings (${currentData.teams.length} teams)`);
 
-    // NEW: Trigger background team schedule caching after standings update
-    const currentDivision = '9U-select'; // Could be made dynamic based on most active division
-    const currentTier = 'all-tiers';
+    // NEW: Trigger background team schedule caching for ALL active divisions
+    console.log('🔄 Starting background schedule caching for all active divisions...');
     
-    // Background schedule refresh (don't wait for it)
-    scraper.backgroundCacheTeamSchedules(currentDivision, currentTier)
-      .then(result => {
-        console.log(`📅 Background team schedule cache updated: ${result.cached}/${result.total} teams`);
-      })
-      .catch(error => {
-        console.warn('Background schedule caching warning:', error.message);
-      });
+    // Define divisions to cache during auto-refresh
+    const divisionsToCache = [
+      { division: '9U-select', tier: 'all-tiers' },     // Primary select division
+      { division: '11U-select', tier: 'all-tiers' },    // Other select divisions
+      { division: '13U-select', tier: 'all-tiers' },
+      { division: '15U-select', tier: 'all-tiers' },
+      { division: '8U-rep', tier: 'no-tier' },          // Most active rep divisions
+      { division: '9U-rep', tier: 'no-tier' },
+      { division: '10U-rep', tier: 'no-tier' },
+      { division: '11U-rep', tier: 'no-tier' },
+      { division: '12U-rep', tier: 'no-tier' }
+    ];
+    
+    // Background schedule refresh for all divisions (don't wait for it)
+    (async () => {
+      let totalCachedTeams = 0;
+      let totalDivisions = 0;
+      
+      for (const { division, tier } of divisionsToCache) {
+        try {
+          console.log(`📅 Background caching schedules for ${division}/${tier}...`);
+          
+          const result = await scraper.backgroundCacheTeamSchedules(division, tier);
+          
+          if (result.cached > 0) {
+            console.log(`✅ Cached ${result.cached}/${result.total} team schedules for ${division}/${tier}`);
+            totalCachedTeams += result.cached;
+            totalDivisions++;
+          } else {
+            console.log(`⚠️ No teams found in ${division}/${tier} - skipping`);
+          }
+          
+        } catch (error) {
+          console.warn(`⚠️ Failed to cache schedules for ${division}/${tier}:`, error.message);
+          // Continue with other divisions even if one fails
+        }
+      }
+      
+      console.log(`🎯 Background caching completed: ${totalCachedTeams} teams across ${totalDivisions} divisions`);
+      console.log(`⚡ Team schedule modals will now load instantly for all cached divisions!`);
+      
+    })().catch(error => {
+      console.warn('Background schedule caching error:', error.message);
+    });
 
     // If we have previous data, check for changes
     if (previousStandings && previousStandings.length > 0) {
@@ -1261,10 +1296,15 @@ app.listen(PORT, () => {
       console.log('📊 Pre-populating comprehensive schedule caches...');
       
       const divisionsToCache = [
-        { division: '9U-select', tier: 'all-tiers' },    // Main division - always cache this
-        { division: '11U-select', tier: 'all-tiers' },   // Select divisions are most active
+        { division: '9U-select', tier: 'all-tiers' },     // Primary select division
+        { division: '11U-select', tier: 'all-tiers' },    // Other select divisions
         { division: '13U-select', tier: 'all-tiers' },
-        { division: '15U-select', tier: 'all-tiers' }
+        { division: '15U-select', tier: 'all-tiers' },
+        { division: '8U-rep', tier: 'no-tier' },          // Most active rep divisions
+        { division: '9U-rep', tier: 'no-tier' },
+        { division: '10U-rep', tier: 'no-tier' },
+        { division: '11U-rep', tier: 'no-tier' },
+        { division: '12U-rep', tier: 'no-tier' }
       ];
       
       // Step 3: Pre-cache comprehensive schedules SEQUENTIALLY (not parallel)
