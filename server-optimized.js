@@ -208,16 +208,46 @@ app.get('/api/divisions', async (req, res) => {
       // Convert to frontend-expected format
       const divisions = {};
       Object.entries(indexData.divisions).forEach(([key, division]) => {
+        // Convert tier array to tier object for frontend compatibility
+        const tiers = {};
+        if (division.tiers && Array.isArray(division.tiers)) {
+          division.tiers.forEach(tier => {
+            tiers[tier.key] = {
+              displayName: tier.key.split('-').map(word => 
+                word.charAt(0).toUpperCase() + word.slice(1)
+              ).join(' '),
+              teams: tier.teams,
+              games: tier.games
+            };
+          });
+        }
+        
         // Skip empty divisions if filtering is requested
-        if (filterEmpty && (!division.tiers || Object.keys(division.tiers).length === 0)) {
+        if (filterEmpty && Object.keys(tiers).length === 0) {
           return;
         }
         
-        divisions[key] = {
-          displayName: division.displayName,
-          theme: division.theme || { primary: '#024220' },
-          tiers: division.tiers || {}
-        };
+        // Add division type suffixes for proper routing
+        const repDivision = Object.keys(tiers).some(t => t.includes('rep'));
+        const selectDivision = Object.keys(tiers).some(t => t.includes('select'));
+        
+        if (repDivision) {
+          divisions[`${key}-rep`] = {
+            displayName: `${division.displayName} Rep`,
+            theme: division.theme || { primary: '#024220' },
+            tiers
+          };
+        }
+        
+        if (selectDivision) {
+          divisions[`${key}-select`] = {
+            displayName: `${division.displayName} Select`,
+            theme: division.theme || { primary: '#15803d' },
+            tiers: Object.fromEntries(
+              Object.entries(tiers).filter(([tierKey]) => tierKey.includes('select'))
+            )
+          };
+        }
       });
       
       res.json({
