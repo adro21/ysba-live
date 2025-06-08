@@ -47,14 +47,19 @@ jobs:
     - name: Check for changes
       id: git-check
       run: |
-        git diff --exit-code public/ysba-*.json || echo "changes=true" >> $GITHUB_OUTPUT
+        git add public/ data/ || true
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          echo "changes=true" >> $GITHUB_OUTPUT
+        fi
     
     - name: Commit and push changes
       if: steps.git-check.outputs.changes == 'true'
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add public/ysba-*.json public/divisions/*.json data/ysba-*.json data/divisions/*.json data/metadata.json data/dashboard.json
+        git pull --rebase origin main || git pull origin main
         git commit -m "🤖 Update YSBA data - $(date -u '+%Y-%m-%d %H:%M:%S UTC')
 
         - Scraped $(date -u '+%Y-%m-%d at %H:%M UTC')
@@ -62,7 +67,6 @@ jobs:
         - Generated optimized JSON files
         
         🤖 Generated with GitHub Actions" || exit 0
-        git pull --rebase origin main
         git push
     
     - name: Trigger Render deployment
