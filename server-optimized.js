@@ -385,9 +385,20 @@ app.use('/api/*', (req, res) => {
   });
 });
 
-// Serve main application
+// Serve main application with proper routing
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'index.html'));
+  const requestPath = req.path;
+  
+  // Check if this is a division/tier route (e.g., /8U-rep/rep-tier-3)
+  const divisionRoutePattern = /^\/\d+U-(rep|select)\/[^\/]+$/;
+  
+  if (divisionRoutePattern.test(requestPath)) {
+    // Serve standings.html for division pages
+    res.sendFile(path.join(__dirname, 'public', 'standings.html'));
+  } else {
+    // Serve index.html for homepage and other routes
+    res.sendFile(path.join(__dirname, 'public', 'index.html'));
+  }
 });
 
 // Start server
