@@ -1,7 +1,21 @@
 {
-  "lastUpdated": "2025-06-08T13:06:07.704Z",
+  "lastUpdated": "2025-06-08T14:07:02.903Z",
   "totalGames": 190,
   "games": [
+    {
+      "date": "2025-06-08T13:15:00.000Z",
+      "dateText": "Sun, Jun 8",
+      "time": "1:15 PM",
+      "homeTeam": "Vaughan Vikings 10U DS",
+      "homeTeamCode": "518967",
+      "awayTeam": "Richmond Hill Phoenix 11U DS",
+      "awayTeamCode": "511081",
+      "location": "Matthew Park",
+      "isCompleted": false,
+      "score": null,
+      "division": "11U",
+      "tier": "select-all-tiers"
+    },
     {
       "date": "2025-06-08T12:30:00.000Z",
       "dateText": "Sun, Jun 8",
@@ -409,8 +423,12 @@
       "awayTeam": "Vaughan Vikings 15U A",
       "awayTeamCode": "518959",
       "location": "David Hamilton Main Diamond",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 10,
+        "away": 9,
+        "scoreText": "9-10"
+      },
       "division": "15U",
       "tier": "rep-tier-2"
     },
@@ -423,8 +441,12 @@
       "awayTeam": "Vaughan Vikings 15U A",
       "awayTeamCode": "518959",
       "location": "David Hamilton Main Diamond",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 10,
+        "away": 9,
+        "scoreText": "9-10"
+      },
       "division": "15U",
       "tier": "rep-tier-3"
     },
@@ -589,24 +611,6 @@
       "score": null,
       "division": "16U",
       "tier": "rep-tier-2"
-    },
-    {
-      "date": "2025-06-07T11:00:00.000Z",
-      "dateText": "Sat, Jun 7",
-      "time": "11:00 AM",
-      "homeTeam": "Vaughan Vikings 11U DS",
-      "homeTeamCode": "518968",
-      "awayTeam": "Thornhill Reds 11U DS - Team 2",
-      "awayTeamCode": "511083",
-      "location": "Chatfield District Park",
-      "isCompleted": true,
-      "score": {
-        "home": 13,
-        "away": 0,
-        "scoreText": "0-13"
-      },
-      "division": "11U",
-      "tier": "select-all-tiers"
     },
     {
       "date": "2025-06-07T11:00:00.000Z",
