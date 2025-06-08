@@ -54,6 +54,7 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
+        git pull --rebase origin main
         git add public/ysba-*.json public/divisions/*.json data/ysba-*.json data/divisions/*.json data/metadata.json data/dashboard.json
         git commit -m "🤖 Update YSBA data - $(date -u '+%Y-%m-%d %H:%M:%S UTC')
 
