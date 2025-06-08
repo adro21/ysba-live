@@ -60,17 +60,17 @@
         "team": "Markham Mariners 11U DS",
         "teamCode": "511079",
         "record": {
-          "gamesPlayed": 4,
-          "wins": 2,
+          "gamesPlayed": 6,
+          "wins": 4,
           "losses": 1,
           "ties": 1,
-          "winPercentage": "0.625"
+          "winPercentage": "0.750"
         },
         "stats": {
-          "points": 5,
-          "runsFor": 30,
-          "runsAgainst": 27,
-          "runDifferential": 3
+          "points": 9,
+          "runsFor": 52,
+          "runsAgainst": 33,
+          "runDifferential": 19
         }
       },
       {
@@ -78,21 +78,21 @@
         "team": "Richmond Hill Phoenix 11U DS",
         "teamCode": "511081",
         "record": {
-          "gamesPlayed": 8,
-          "wins": 4,
-          "losses": 4,
+          "gamesPlayed": 10,
+          "wins": 5,
+          "losses": 5,
           "ties": 0,
           "winPercentage": "0.500"
         },
         "stats": {
-          "points": 8,
-          "runsFor": 62,
-          "runsAgainst": 79,
-          "runDifferential": -17
+          "points": 10,
+          "runsFor": 74,
+          "runsAgainst": 98,
+          "runDifferential": -24
         }
       },
       {
-        "position": 7,
+        "position": 8,
         "team": "Thornhill Reds 11U DS - Team 1",
         "teamCode": "511082",
         "record": {
@@ -111,6 +111,24 @@
       },
       {
         "position": 6,
+        "team": "Vaughan Vikings 10U DS",
+        "teamCode": "518967",
+        "record": {
+          "gamesPlayed": 7,
+          "wins": 2,
+          "losses": 4,
+          "ties": 1,
+          "winPercentage": "0.357"
+        },
+        "stats": {
+          "points": 5,
+          "runsFor": 46,
+          "runsAgainst": 52,
+          "runDifferential": -6
+        }
+      },
+      {
+        "position": 7,
         "team": "Newmarket Hawks 11U DS",
         "teamCode": "511080",
         "record": {
@@ -146,43 +164,7 @@
         }
       },
       {
-        "position": 8,
-        "team": "Vaughan Vikings 10U DS",
-        "teamCode": "518967",
-        "record": {
-          "gamesPlayed": 5,
-          "wins": 1,
-          "losses": 3,
-          "ties": 1,
-          "winPercentage": "0.300"
-        },
-        "stats": {
-          "points": 3,
-          "runsFor": 27,
-          "runsAgainst": 40,
-          "runDifferential": -13
-        }
-      },
-      {
         "position": 10,
-        "team": "Mansfield Cubs 11U DS",
-        "teamCode": "511078",
-        "record": {
-          "gamesPlayed": 4,
-          "wins": 1,
-          "losses": 3,
-          "ties": 0,
-          "winPercentage": "0.250"
-        },
-        "stats": {
-          "points": 2,
-          "runsFor": 37,
-          "runsAgainst": 47,
-          "runDifferential": -10
-        }
-      },
-      {
-        "position": 9,
         "team": "Bradford Tigers 11U DS",
         "teamCode": "511076",
         "record": {
@@ -197,6 +179,24 @@
           "runsFor": 32,
           "runsAgainst": 62,
           "runDifferential": -30
+        }
+      },
+      {
+        "position": 9,
+        "team": "Mansfield Cubs 11U DS",
+        "teamCode": "511078",
+        "record": {
+          "gamesPlayed": 6,
+          "wins": 1,
+          "losses": 5,
+          "ties": 0,
+          "winPercentage": "0.167"
+        },
+        "stats": {
+          "points": 2,
+          "runsFor": 43,
+          "runsAgainst": 69,
+          "runDifferential": -26
         }
       },
       {
@@ -236,7 +236,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-06-08T20:44:47.025Z",
+    "lastUpdated": "2025-06-08T21:17:50.641Z",
     "totalTeams": 13
   },
   "schedule": {
@@ -386,7 +386,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-08T20:44:51.238Z"
+        "lastUpdated": "2025-06-08T21:17:55.044Z"
       },
       "511075": {
         "teamCode": "511075",
@@ -537,7 +537,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-08T20:44:51.238Z"
+        "lastUpdated": "2025-06-08T21:17:55.044Z"
       },
       "511076": {
         "teamCode": "511076",
@@ -684,7 +684,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-08T20:44:51.238Z"
+        "lastUpdated": "2025-06-08T21:17:55.044Z"
       },
       "511077": {
         "teamCode": "511077",
@@ -831,7 +831,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-08T20:44:51.238Z"
+        "lastUpdated": "2025-06-08T21:17:55.044Z"
       },
       "511078": {
         "teamCode": "511078",
@@ -892,8 +892,12 @@
             "awayTeam": "Markham Mariners 11U DS",
             "awayTeamCode": "511079",
             "location": "Mansfield Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 9,
+              "scoreText": "9-6"
+            }
           },
           {
             "date": "2025-06-08T12:15:00.000Z",
@@ -904,8 +908,12 @@
             "awayTeam": "Markham Mariners 11U DS",
             "awayTeamCode": "511079",
             "location": "Mansfield Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 0,
+              "away": 13,
+              "scoreText": "13-0"
+            }
           }
         ],
         "nextGames": [
@@ -970,7 +978,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-08T20:44:51.238Z"
+        "lastUpdated": "2025-06-08T21:17:55.044Z"
       },
       "511079": {
         "teamCode": "511079",
@@ -1035,8 +1043,12 @@
             "awayTeam": "Markham Mariners 11U DS",
             "awayTeamCode": "511079",
             "location": "Mansfield Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 9,
+              "scoreText": "9-6"
+            }
           },
           {
             "date": "2025-06-08T12:15:00.000Z",
@@ -1047,8 +1059,12 @@
             "awayTeam": "Markham Mariners 11U DS",
             "awayTeamCode": "511079",
             "location": "Mansfield Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 0,
+              "away": 13,
+              "scoreText": "13-0"
+            }
           }
         ],
         "nextGames": [
@@ -1113,7 +1129,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-08T20:44:51.239Z"
+        "lastUpdated": "2025-06-08T21:17:55.044Z"
       },
       "511080": {
         "teamCode": "511080",
@@ -1252,7 +1268,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-08T20:44:51.239Z"
+        "lastUpdated": "2025-06-08T21:17:55.044Z"
       },
       "511081": {
         "teamCode": "511081",
@@ -1317,8 +1333,12 @@
             "awayTeam": "Richmond Hill Phoenix 11U DS",
             "awayTeamCode": "511081",
             "location": "Matthew Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 7,
+              "scoreText": "7-6"
+            }
           },
           {
             "date": "2025-06-08T13:15:00.000Z",
@@ -1329,8 +1349,12 @@
             "awayTeam": "Richmond Hill Phoenix 11U DS",
             "awayTeamCode": "511081",
             "location": "Matthew Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 5,
+              "scoreText": "5-13"
+            }
           }
         ],
         "nextGames": [
@@ -1395,7 +1419,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-08T20:44:51.239Z"
+        "lastUpdated": "2025-06-08T21:17:55.044Z"
       },
       "511082": {
         "teamCode": "511082",
@@ -1538,7 +1562,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-08T20:44:51.239Z"
+        "lastUpdated": "2025-06-08T21:17:55.044Z"
       },
       "511083": {
         "teamCode": "511083",
@@ -1689,7 +1713,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-08T20:44:51.239Z"
+        "lastUpdated": "2025-06-08T21:17:55.044Z"
       },
       "518967": {
         "teamCode": "518967",
@@ -1750,8 +1774,12 @@
             "awayTeam": "Richmond Hill Phoenix 11U DS",
             "awayTeamCode": "511081",
             "location": "Matthew Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 7,
+              "scoreText": "7-6"
+            }
           },
           {
             "date": "2025-06-08T13:15:00.000Z",
@@ -1762,8 +1790,12 @@
             "awayTeam": "Richmond Hill Phoenix 11U DS",
             "awayTeamCode": "511081",
             "location": "Matthew Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 5,
+              "scoreText": "5-13"
+            }
           }
         ],
         "nextGames": [
@@ -1828,7 +1860,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-08T20:44:51.239Z"
+        "lastUpdated": "2025-06-08T21:17:55.044Z"
       },
       "518968": {
         "teamCode": "518968",
@@ -1975,7 +2007,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-08T20:44:51.239Z"
+        "lastUpdated": "2025-06-08T21:17:55.045Z"
       },
       "518974": {
         "teamCode": "518974",
@@ -2114,7 +2146,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-08T20:44:51.239Z"
+        "lastUpdated": "2025-06-08T21:17:55.045Z"
       }
     },
     "allGames": [
@@ -2811,8 +2843,12 @@
         "awayTeam": "Markham Mariners 11U DS",
         "awayTeamCode": "511079",
         "location": "Mansfield Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 9,
+          "scoreText": "9-6"
+        }
       },
       {
         "date": "2025-06-08T11:00:00.000Z",
@@ -2823,8 +2859,12 @@
         "awayTeam": "Richmond Hill Phoenix 11U DS",
         "awayTeamCode": "511081",
         "location": "Matthew Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 7,
+          "scoreText": "7-6"
+        }
       },
       {
         "date": "2025-06-08T12:15:00.000Z",
@@ -2835,8 +2875,12 @@
         "awayTeam": "Markham Mariners 11U DS",
         "awayTeamCode": "511079",
         "location": "Mansfield Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 0,
+          "away": 13,
+          "scoreText": "13-0"
+        }
       },
       {
         "date": "2025-06-08T13:15:00.000Z",
@@ -2847,8 +2891,12 @@
         "awayTeam": "Richmond Hill Phoenix 11U DS",
         "awayTeamCode": "511081",
         "location": "Matthew Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 5,
+          "scoreText": "5-13"
+        }
       },
       {
         "date": "2025-06-14T10:00:00.000Z",
@@ -3545,8 +3593,12 @@
         "awayTeam": "Richmond Hill Phoenix 11U DS",
         "awayTeamCode": "511081",
         "location": "Matthew Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 5,
+          "scoreText": "5-13"
+        }
       },
       {
         "date": "2025-06-08T12:15:00.000Z",
@@ -3557,8 +3609,12 @@
         "awayTeam": "Markham Mariners 11U DS",
         "awayTeamCode": "511079",
         "location": "Mansfield Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 0,
+          "away": 13,
+          "scoreText": "13-0"
+        }
       },
       {
         "date": "2025-06-08T11:00:00.000Z",
@@ -3569,8 +3625,12 @@
         "awayTeam": "Richmond Hill Phoenix 11U DS",
         "awayTeamCode": "511081",
         "location": "Matthew Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 7,
+          "scoreText": "7-6"
+        }
       },
       {
         "date": "2025-06-08T10:00:00.000Z",
@@ -3581,8 +3641,12 @@
         "awayTeam": "Markham Mariners 11U DS",
         "awayTeamCode": "511079",
         "location": "Mansfield Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 9,
+          "scoreText": "9-6"
+        }
       },
       {
         "date": "2025-06-07T15:45:00.000Z",
@@ -3795,14 +3859,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-08T20:44:51.239Z",
+    "lastUpdated": "2025-06-08T21:17:55.045Z",
     "totalGames": 106
   },
   "summary": {
     "totalTeams": 13,
     "totalGames": 106,
-    "completedGames": 36,
-    "upcomingGames": 70,
+    "completedGames": 40,
+    "upcomingGames": 66,
     "topTeam": {
       "team": "Barrie Baycats 11U DS",
       "teamCode": "511075",
@@ -3819,6 +3883,6 @@
       "date": "Sat, May 24",
       "location": "Mansfield Park"
     },
-    "lastUpdated": "2025-06-08T20:39:00.391Z"
+    "lastUpdated": "2025-06-08T21:11:58.269Z"
   }
 }
