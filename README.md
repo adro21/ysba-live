@@ -1,19 +1,21 @@
-# YSBA 9U Select Baseball Standings
+# YSBA Live
 
-A web application that scrapes and displays real-time standings for York Simcoe Baseball Association (YSBA) 9U Select teams with email notifications for standings changes.
+A comprehensive web application that scrapes and displays real-time standings and schedules for all York Simcoe Baseball Association (YSBA) divisions with email notifications and background worker system.
 
 ## Features
 
-- 🏆 Real-time team standings with win/loss records
-- 📊 Win percentage calculations
-- 🔄 Automatic data refresh every 30 minutes
+- 🏆 Real-time team standings for all YSBA divisions (197 teams across 19 active divisions)
+- 📊 Win percentage calculations with runs for/against stats
+- 🔄 Background worker system with automatic data refresh every 30 minutes
 - 📱 Mobile-responsive design with PWA support
-- ⚡ Fast caching for better performance
-- 🗓️ Individual team schedule viewing
+- ⚡ Fast caching with optimized JSON files (18KB for standings)
+- 🗓️ Individual team schedule viewing and recent games
 - 📧 **Email notifications** for standings changes
 - 🛡️ **Deployment-safe subscriber backup** system
 - 👥 **Subscriber management** interface
 - 📱 **Progressive Web App** with offline support
+- 🔧 **Background Worker** - Render background service for data scraping
+- 📋 **Multi-Division Support** - All Rep and Select divisions (8U through 18U)
 
 ## Technology Stack
 

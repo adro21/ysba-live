@@ -16,17 +16,17 @@ class EmailService {
             console.log('📧 SendGrid not configured - email notifications disabled');
         }
         
-        this.fromEmail = process.env.FROM_EMAIL || 'notifications@ysba9ustandings.com';
-        this.fromName = process.env.FROM_NAME || 'YSBA 9U Standings';
+        this.fromEmail = process.env.FROM_EMAIL || 'notifications@ysbalive.com';
+        this.fromName = process.env.FROM_NAME || 'YSBA Live';
         this.subscribersFile = path.join(__dirname, 'subscribers.json');
         this.backupDir = path.join(__dirname, 'backup');
-        this.baseUrl = process.env.BASE_URL || 'https://ysba9ustandings.com';
+        this.baseUrl = process.env.BASE_URL || 'https://ysbalive.com';
         
         // GitHub Gist configuration for persistent storage
         this.githubToken = process.env.GITHUB_TOKEN;
         this.gistId = process.env.GIST_ID || null;
         this.gistFilename = 'ysba-subscribers.json';
-        this.gistDescription = 'YSBA 9U Standings Email Subscribers';
+        this.gistDescription = 'YSBA Live Email Subscribers';
         
         // Check GitHub configuration
         if (this.githubToken && this.githubToken !== 'your_github_token_here') {

@@ -1,7 +1,7 @@
 {
-  "name": "ysba-standings",
+  "name": "ysba-live",
   "version": "2.0.0",
-  "description": "YSBA 9U Select Baseball Standings with GitHub Gist Backup",
+  "description": "YSBA Live - Real-time Baseball Standings and Schedules",
   "main": "server.js",
   "engines": {
     "node": ">=18.0.0",
@@ -9,8 +9,12 @@
   },
   "scripts": {
     "start": "node server.js",
+    "start-site": "node server.js",
+    "start-worker": "node src/scraper/worker.js",
     "dev": "nodemon server.js",
-    "build": "node scripts/update-cache-version.js"
+    "dev-worker": "nodemon src/scraper/worker.js",
+    "build": "node scripts/update-cache-version.js",
+    "test-worker": "node src/scraper/worker.js"
   },
   "nodemonConfig": {
     "ignore": [
@@ -30,6 +34,8 @@
     "baseball",
     "standings",
     "ysba",
+    "live",
+    "schedules",
     "scraper"
   ],
   "author": "",
