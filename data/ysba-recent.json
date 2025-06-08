@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-06-08T15:13:36.530Z",
+  "lastUpdated": "2025-06-08T15:39:40.147Z",
   "totalGames": 190,
   "games": [
     {
@@ -635,8 +635,12 @@
       "awayTeam": "Aurora-King Jays 14U A",
       "awayTeamCode": "510958",
       "location": "Tiffin Park",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 10,
+        "away": 14,
+        "scoreText": "14-10"
+      },
       "division": "14U",
       "tier": "rep-tier-3"
     },
