@@ -296,6 +296,46 @@ app.get('/api/divisions', async (req, res) => {
   }
 });
 
+// API endpoint to get last YSBA update time
+app.get('/api/last-ysba-update', async (req, res) => {
+  try {
+    // Try to get the last update time from the standings data
+    try {
+      const standingsPath = path.join(__dirname, 'public', 'ysba-standings.json');
+      const standingsData = JSON.parse(await fs.readFile(standingsPath, 'utf8'));
+      
+      res.json({
+        success: true,
+        lastYsbaUpdate: standingsData.lastUpdated,
+        formattedDate: new Date(standingsData.lastUpdated).toLocaleDateString('en-US', {
+          month: 'long',
+          day: 'numeric',
+          year: 'numeric'
+        })
+      });
+    } catch (error) {
+      // Fallback to current date if no data available
+      const currentDate = new Date();
+      res.json({
+        success: true,
+        lastYsbaUpdate: currentDate.toISOString(),
+        formattedDate: currentDate.toLocaleDateString('en-US', {
+          month: 'long',
+          day: 'numeric',
+          year: 'numeric'
+        })
+      });
+    }
+  } catch (error) {
+    console.error('Error getting last YSBA update time:', error);
+    res.status(500).json({ 
+      success: false, 
+      error: 'Failed to get YSBA update time',
+      formattedDate: 'Unknown'
+    });
+  }
+});
+
 // API endpoint to get team schedule
 app.get('/api/team/:teamCode/schedule', async (req, res) => {
   try {
