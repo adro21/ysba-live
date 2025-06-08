@@ -26,6 +26,7 @@ app.use(helmet({
       ],
       scriptSrc: [
         "'self'", 
+        "'unsafe-inline'",
         "https://cdn.jsdelivr.net"
       ],
       fontSrc: [
@@ -108,69 +109,81 @@ app.get('/api/status', async (req, res) => {
   }
 });
 
-// API endpoint to serve standings data (from pre-generated JSON)
+// API endpoint to serve standings data (backwards compatible with old frontend)
 app.get('/api/standings', async (req, res) => {
   try {
-    const { division = '9U-select', tier = 'all-tiers' } = req.query;
+    const { division = '9U-select', tier = 'all-tiers', refresh } = req.query;
     
-    // Try to serve from pre-generated optimized files first
+    // Default to 9U-select if no division specified (for backwards compatibility)
+    const targetDivision = division || '9U-select';
+    const targetTier = tier || 'all-tiers';
+    
+    // Try individual division file first (most specific)
+    try {
+      const divisionPath = path.join(__dirname, 'public', 'divisions', `${targetDivision}-${targetTier}.json`);
+      const divisionData = JSON.parse(await fs.readFile(divisionPath, 'utf8'));
+      
+      if (divisionData && divisionData.standings && divisionData.standings.teams) {
+        res.json(divisionData.standings);
+        return;
+      }
+    } catch (error) {
+      // Continue to next fallback
+    }
+    
+    // Fallback: try optimized standings file and extract division
     try {
       const standingsPath = path.join(__dirname, 'public', 'ysba-standings.json');
       const standingsData = JSON.parse(await fs.readFile(standingsPath, 'utf8'));
       
-      // Extract the specific division/tier data
-      const divisionData = standingsData.divisions[division.replace('-select', '').replace('-rep', '')];
+      // Parse division name (remove -select/-rep suffix for lookup)
+      let divisionKey = targetDivision.replace('-select', '').replace('-rep', '');
+      let tierKey = targetTier;
       
-      if (divisionData && divisionData.tiers) {
-        const tierKey = division.includes('select') ? 'select-all-tiers' : 
-                       division.includes('rep') ? `rep-${tier}` : tier;
-        
+      // Handle special cases for tier mapping
+      if (targetDivision.includes('select')) {
+        tierKey = 'select-all-tiers';
+      } else if (targetDivision.includes('rep')) {
+        tierKey = `rep-${targetTier}`;
+      }
+      
+      const divisionData = standingsData.divisions[divisionKey];
+      
+      if (divisionData && divisionData.tiers && divisionData.tiers[tierKey]) {
         const tierData = divisionData.tiers[tierKey];
         
-        if (tierData) {
-          res.json({
-            teams: tierData.teams.map(team => ({
-              position: team.pos,
-              team: team.team,
-              teamCode: team.teamCode || `team-${team.pos}`,
-              gamesPlayed: (team.w + team.l + team.t) || 0,
-              wins: team.w,
-              losses: team.l,
-              ties: team.t,
-              points: team.points || (team.w * 2 + team.t),
-              runsFor: team.rf,
-              runsAgainst: team.ra,
-              winPercentage: team.pct
-            })),
-            lastUpdated: standingsData.lastUpdated,
-            source: 'GitHub Actions'
-          });
-          return;
-        }
+        // Convert optimized format back to old format for backwards compatibility
+        const teams = tierData.teams.map(team => ({
+          position: team.pos,
+          team: team.team,
+          teamCode: team.teamCode || `team-${team.pos}`,
+          gamesPlayed: (team.w + team.l + team.t) || 0,
+          wins: team.w,
+          losses: team.l,
+          ties: team.t,
+          points: team.points || (team.w * 2 + team.t),
+          runsFor: team.rf,
+          runsAgainst: team.ra,
+          winPercentage: team.pct
+        }));
+        
+        res.json({
+          teams,
+          lastUpdated: standingsData.lastUpdated,
+          source: 'GitHub Actions'
+        });
+        return;
       }
     } catch (error) {
       console.log('Could not serve from optimized standings file:', error.message);
     }
     
-    // Fallback: try individual division file
-    try {
-      const divisionPath = path.join(__dirname, 'public', 'divisions', `${division}-${tier}.json`);
-      const divisionData = JSON.parse(await fs.readFile(divisionPath, 'utf8'));
-      
-      if (divisionData && divisionData.standings) {
-        res.json(divisionData.standings);
-        return;
-      }
-    } catch (error) {
-      console.log('Could not serve from division file:', error.message);
-    }
-    
-    // If no files found, return empty data
+    // If no data found, return empty response (but still valid)
     res.json({
       teams: [],
       lastUpdated: new Date().toISOString(),
       source: 'No data available',
-      error: `No data found for ${division}/${tier}`
+      error: `No data found for ${targetDivision}/${targetTier}. Available divisions can be found at /api/divisions`
     });
     
   } catch (error) {
@@ -186,26 +199,54 @@ app.get('/api/standings', async (req, res) => {
 // API endpoint to get available divisions
 app.get('/api/divisions', async (req, res) => {
   try {
+    const { filterEmpty } = req.query;
     const indexPath = path.join(__dirname, 'public', 'ysba-index.json');
-    const indexData = JSON.parse(await fs.readFile(indexPath, 'utf8'));
     
-    res.json({
-      divisions: indexData.divisions,
-      lastUpdated: indexData.lastUpdated,
-      totalDivisions: indexData.totalDivisions
-    });
+    try {
+      const indexData = JSON.parse(await fs.readFile(indexPath, 'utf8'));
+      
+      // Convert to frontend-expected format
+      const divisions = {};
+      Object.entries(indexData.divisions).forEach(([key, division]) => {
+        // Skip empty divisions if filtering is requested
+        if (filterEmpty && (!division.tiers || Object.keys(division.tiers).length === 0)) {
+          return;
+        }
+        
+        divisions[key] = {
+          displayName: division.displayName,
+          theme: division.theme || { primary: '#024220' },
+          tiers: division.tiers || {}
+        };
+      });
+      
+      res.json({
+        success: true,
+        divisions,
+        lastUpdated: indexData.lastUpdated,
+        totalDivisions: Object.keys(divisions).length
+      });
+    } catch (error) {
+      console.log('Could not load from index file, using config fallback:', error.message);
+      throw error; // Continue to fallback
+    }
   } catch (error) {
     // Fallback to config-based divisions
-    const divisions = Object.keys(config.DIVISIONS).map(key => ({
-      key,
-      ...config.DIVISIONS[key],
-      tiers: Object.keys(config.DIVISIONS[key].tiers)
-    }));
+    const divisions = {};
+    Object.entries(config.DIVISIONS).forEach(([key, division]) => {
+      divisions[key] = {
+        displayName: division.displayName,
+        theme: division.theme || { primary: '#024220' },
+        tiers: division.tiers || {}
+      };
+    });
     
     res.json({
+      success: true,
       divisions,
       lastUpdated: new Date().toISOString(),
-      source: 'fallback'
+      source: 'fallback',
+      totalDivisions: Object.keys(divisions).length
     });
   }
 });
