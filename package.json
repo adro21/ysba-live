@@ -11,10 +11,12 @@
     "start": "node server.js",
     "start-site": "node server.js",
     "start-worker": "node src/scraper/worker.js",
+    "scrape-github-action": "node scripts/github-action-scraper.js",
     "dev": "nodemon server.js",
     "dev-worker": "nodemon src/scraper/worker.js",
     "build": "node scripts/update-cache-version.js",
-    "test-worker": "node src/scraper/worker.js"
+    "test-worker": "node src/scraper/worker.js",
+    "test-scraper": "node scripts/github-action-scraper.js"
   },
   "nodemonConfig": {
     "ignore": [

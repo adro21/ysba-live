@@ -1,18 +1,16 @@
 services:
-  # Main web application (existing functionality)
+  # Main web application - data is updated via GitHub Actions every 30 minutes
   - type: web
     name: ysba-live-site
     env: node
     region: virginia
     plan: free
-    buildCommand: npm ci && npm run build && npx puppeteer browsers install chrome
+    buildCommand: npm ci && npm run build
     startCommand: npm run start-site
     healthCheckPath: /api/status
     envVars:
       - key: NODE_ENV
         value: production
-      - key: PUPPETEER_ARGS
-        value: "--no-sandbox,--disable-setuid-sandbox,--disable-dev-shm-usage,--disable-accelerated-2d-canvas,--no-first-run,--no-zygote,--single-process,--disable-gpu,--disable-extensions"
       - key: SENDGRID_API_KEY
         sync: false
       - key: FROM_EMAIL
@@ -26,20 +24,3 @@ services:
     scaling:
       minInstances: 1
       maxInstances: 1
-
-  # Background worker for YSBA scraping
-  - type: worker
-    name: ysba-live-worker
-    env: node
-    region: virginia
-    plan: free
-    buildCommand: npm ci && npx puppeteer browsers install chrome
-    startCommand: npm run start-worker
-    envVars:
-      - key: NODE_ENV
-        value: production
-      - key: PUPPETEER_ARGS
-        value: "--no-sandbox,--disable-setuid-sandbox,--disable-dev-shm-usage,--disable-accelerated-2d-canvas,--no-first-run,--no-zygote,--single-process,--disable-gpu,--disable-extensions"
-    scaling:
-      minInstances: 1
-      maxInstances: 1 

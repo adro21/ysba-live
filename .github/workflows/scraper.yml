@@ -1,0 +1,70 @@
+name: YSBA Live Data Scraper
+
+on:
+  schedule:
+    # Run every 30 minutes
+    - cron: '*/30 * * * *'
+  
+  # Allow manual trigger for testing
+  workflow_dispatch:
+  
+  # Run on push to main for testing
+  push:
+    branches: [ main ]
+    paths: 
+      - 'src/scraper/**'
+      - '.github/workflows/scraper.yml'
+
+jobs:
+  scrape-and-update:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+    
+    - name: Install dependencies
+      run: npm ci
+    
+    - name: Install Puppeteer Chrome
+      run: npx puppeteer browsers install chrome
+    
+    - name: Run YSBA scraper
+      run: npm run scrape-github-action
+      env:
+        NODE_ENV: production
+        PUPPETEER_ARGS: --no-sandbox,--disable-setuid-sandbox,--disable-dev-shm-usage,--disable-accelerated-2d-canvas,--no-first-run,--no-zygote,--single-process,--disable-gpu,--disable-extensions
+    
+    - name: Check for changes
+      id: git-check
+      run: |
+        git diff --exit-code public/ysba-*.json || echo "changes=true" >> $GITHUB_OUTPUT
+    
+    - name: Commit and push changes
+      if: steps.git-check.outputs.changes == 'true'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add public/ysba-*.json public/divisions/*.json data/ysba-*.json data/divisions/*.json data/metadata.json data/dashboard.json
+        git commit -m "🤖 Update YSBA data - $(date -u '+%Y-%m-%d %H:%M:%S UTC')
+
+        - Scraped $(date -u '+%Y-%m-%d at %H:%M UTC')
+        - Updated standings and schedules
+        - Generated optimized JSON files
+        
+        🤖 Generated with GitHub Actions" || exit 0
+        git push
+    
+    - name: Trigger Render deployment
+      if: steps.git-check.outputs.changes == 'true'
+      run: |
+        echo "✅ Data updated and pushed to repository"
+        echo "🚀 Render will automatically redeploy with new data"
