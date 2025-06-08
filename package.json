@@ -8,8 +8,9 @@
     "npm": ">=8.0.0"
   },
   "scripts": {
-    "start": "node server.js",
-    "start-site": "node server.js",
+    "start": "node server-optimized.js",
+    "start-site": "node server-optimized.js",
+    "start-old": "node server.js",
     "start-worker": "node src/scraper/worker.js",
     "scrape-github-action": "node scripts/github-action-scraper.js",
     "dev": "nodemon server.js",
