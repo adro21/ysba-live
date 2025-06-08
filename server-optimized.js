@@ -235,7 +235,12 @@ app.get('/api/divisions', async (req, res) => {
           divisions[`${key}-rep`] = {
             displayName: `${division.displayName} Rep`,
             theme: division.theme || { primary: '#024220' },
-            tiers
+            tiers,
+            features: {
+              divisionFilter: false,
+              emailNotifications: true,
+              schedules: true
+            }
           };
         }
         
@@ -245,7 +250,12 @@ app.get('/api/divisions', async (req, res) => {
             theme: division.theme || { primary: '#15803d' },
             tiers: Object.fromEntries(
               Object.entries(tiers).filter(([tierKey]) => tierKey.includes('select'))
-            )
+            ),
+            features: {
+              divisionFilter: false,
+              emailNotifications: true,
+              schedules: true
+            }
           };
         }
       });
@@ -267,7 +277,12 @@ app.get('/api/divisions', async (req, res) => {
       divisions[key] = {
         displayName: division.displayName,
         theme: division.theme || { primary: '#024220' },
-        tiers: division.tiers || {}
+        tiers: division.tiers || {},
+        features: division.features || {
+          divisionFilter: false,
+          emailNotifications: true,
+          schedules: true
+        }
       };
     });
     
