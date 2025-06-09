@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-06-08T23:36:40.879Z",
+  "lastUpdated": "2025-06-09T01:12:41.374Z",
   "totalGames": 190,
   "games": [
     {
@@ -95,8 +95,12 @@
       "awayTeam": "Stayner White Sox 18U C",
       "awayTeamCode": "519242",
       "location": "Lambert Wilson #4",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 15,
+        "away": 5,
+        "scoreText": "5-15"
+      },
       "division": "18U",
       "tier": "rep-no-tier"
     },
@@ -109,8 +113,12 @@
       "awayTeam": "Caledon Nationals 13U AA",
       "awayTeamCode": "510948",
       "location": "Armstrong Park #1",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 3,
+        "away": 15,
+        "scoreText": "15-3"
+      },
       "division": "13U",
       "tier": "rep-tier-2"
     },
@@ -123,8 +131,12 @@
       "awayTeam": "Caledon Nationals 13U AA",
       "awayTeamCode": "510948",
       "location": "Armstrong Park #1",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 3,
+        "away": 15,
+        "scoreText": "15-3"
+      },
       "division": "13U",
       "tier": "rep-tier-3"
     },

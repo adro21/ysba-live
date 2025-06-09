@@ -2,7 +2,7 @@
   "standings": {
     "teams": [
       {
-        "position": 3,
+        "position": 4,
         "team": "Caledon Nationals 18U AA",
         "teamCode": "511035",
         "record": {
@@ -20,7 +20,7 @@
         }
       },
       {
-        "position": 2,
+        "position": 3,
         "team": "Aurora-King Jays 18U A",
         "teamCode": "511022",
         "record": {
@@ -71,6 +71,24 @@
           "runsFor": 41,
           "runsAgainst": 27,
           "runDifferential": 14
+        }
+      },
+      {
+        "position": 2,
+        "team": "Aurora-King Jays 17U A",
+        "teamCode": "511021",
+        "record": {
+          "gamesPlayed": 6,
+          "wins": 4,
+          "losses": 2,
+          "ties": 0,
+          "winPercentage": "0.667"
+        },
+        "stats": {
+          "points": 8,
+          "runsFor": 35,
+          "runsAgainst": 29,
+          "runDifferential": 6
         }
       },
       {
@@ -125,24 +143,6 @@
           "runsFor": 22,
           "runsAgainst": 14,
           "runDifferential": 8
-        }
-      },
-      {
-        "position": 4,
-        "team": "Aurora-King Jays 17U A",
-        "teamCode": "511021",
-        "record": {
-          "gamesPlayed": 5,
-          "wins": 3,
-          "losses": 2,
-          "ties": 0,
-          "winPercentage": "0.600"
-        },
-        "stats": {
-          "points": 6,
-          "runsFor": 20,
-          "runsAgainst": 24,
-          "runDifferential": -4
         }
       },
       {
@@ -258,17 +258,17 @@
         "team": "Stayner White Sox 18U C",
         "teamCode": "519242",
         "record": {
-          "gamesPlayed": 5,
+          "gamesPlayed": 6,
           "wins": 1,
-          "losses": 4,
+          "losses": 5,
           "ties": 0,
-          "winPercentage": "0.200"
+          "winPercentage": "0.167"
         },
         "stats": {
           "points": 2,
-          "runsFor": 28,
-          "runsAgainst": 38,
-          "runDifferential": -10
+          "runsFor": 33,
+          "runsAgainst": 53,
+          "runDifferential": -20
         }
       },
       {
@@ -344,7 +344,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-06-08T23:41:00.073Z",
+    "lastUpdated": "2025-06-09T01:16:57.939Z",
     "totalTeams": 19
   },
   "schedule": {
@@ -428,8 +428,12 @@
             "awayTeam": "Stayner White Sox 18U C",
             "awayTeamCode": "519242",
             "location": "Lambert Wilson #4",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 15,
+              "away": 5,
+              "scoreText": "5-15"
+            }
           }
         ],
         "nextGames": [
@@ -494,7 +498,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-08T23:41:04.372Z"
+        "lastUpdated": "2025-06-09T01:17:02.091Z"
       },
       "511022": {
         "teamCode": "511022",
@@ -641,7 +645,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-08T23:41:04.372Z"
+        "lastUpdated": "2025-06-09T01:17:02.091Z"
       },
       "511023": {
         "teamCode": "511023",
@@ -772,7 +776,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-08T23:41:04.372Z"
+        "lastUpdated": "2025-06-09T01:17:02.091Z"
       },
       "511024": {
         "teamCode": "511024",
@@ -919,7 +923,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-08T23:41:04.372Z"
+        "lastUpdated": "2025-06-09T01:17:02.091Z"
       },
       "511025": {
         "teamCode": "511025",
@@ -1058,7 +1062,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-08T23:41:04.372Z"
+        "lastUpdated": "2025-06-09T01:17:02.091Z"
       },
       "511026": {
         "teamCode": "511026",
@@ -1201,7 +1205,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-08T23:41:04.372Z"
+        "lastUpdated": "2025-06-09T01:17:02.091Z"
       },
       "511027": {
         "teamCode": "511027",
@@ -1348,7 +1352,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-08T23:41:04.372Z"
+        "lastUpdated": "2025-06-09T01:17:02.091Z"
       },
       "511028": {
         "teamCode": "511028",
@@ -1495,7 +1499,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-08T23:41:04.372Z"
+        "lastUpdated": "2025-06-09T01:17:02.091Z"
       },
       "511030": {
         "teamCode": "511030",
@@ -1646,7 +1650,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-08T23:41:04.372Z"
+        "lastUpdated": "2025-06-09T01:17:02.091Z"
       },
       "511031": {
         "teamCode": "511031",
@@ -1773,7 +1777,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-08T23:41:04.372Z"
+        "lastUpdated": "2025-06-09T01:17:02.091Z"
       },
       "511032": {
         "teamCode": "511032",
@@ -1916,7 +1920,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-08T23:41:04.372Z"
+        "lastUpdated": "2025-06-09T01:17:02.091Z"
       },
       "511033": {
         "teamCode": "511033",
@@ -2063,7 +2067,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-08T23:41:04.372Z"
+        "lastUpdated": "2025-06-09T01:17:02.091Z"
       },
       "511034": {
         "teamCode": "511034",
@@ -2190,7 +2194,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-08T23:41:04.372Z"
+        "lastUpdated": "2025-06-09T01:17:02.091Z"
       },
       "511035": {
         "teamCode": "511035",
@@ -2337,7 +2341,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-08T23:41:04.372Z"
+        "lastUpdated": "2025-06-09T01:17:02.091Z"
       },
       "516246": {
         "teamCode": "516246",
@@ -2476,7 +2480,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-08T23:41:04.372Z"
+        "lastUpdated": "2025-06-09T01:17:02.091Z"
       },
       "518960": {
         "teamCode": "518960",
@@ -2623,7 +2627,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-08T23:41:04.372Z"
+        "lastUpdated": "2025-06-09T01:17:02.091Z"
       },
       "518962": {
         "teamCode": "518962",
@@ -2742,7 +2746,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-08T23:41:04.372Z"
+        "lastUpdated": "2025-06-09T01:17:02.091Z"
       },
       "519242": {
         "teamCode": "519242",
@@ -2823,8 +2827,12 @@
             "awayTeam": "Stayner White Sox 18U C",
             "awayTeamCode": "519242",
             "location": "Lambert Wilson #4",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 15,
+              "away": 5,
+              "scoreText": "5-15"
+            }
           }
         ],
         "nextGames": [
@@ -2889,7 +2897,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-08T23:41:04.372Z"
+        "lastUpdated": "2025-06-09T01:17:02.091Z"
       },
       "546377": {
         "teamCode": "546377",
@@ -3028,7 +3036,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-08T23:41:04.372Z"
+        "lastUpdated": "2025-06-09T01:17:02.092Z"
       }
     },
     "allGames": [
@@ -3801,8 +3809,12 @@
         "awayTeam": "Stayner White Sox 18U C",
         "awayTeamCode": "519242",
         "location": "Lambert Wilson #4",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 15,
+          "away": 5,
+          "scoreText": "5-15"
+        }
       },
       {
         "date": "2025-06-08T19:00:00.000Z",
@@ -5123,8 +5135,12 @@
         "awayTeam": "Stayner White Sox 18U C",
         "awayTeamCode": "519242",
         "location": "Lambert Wilson #4",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 15,
+          "away": 5,
+          "scoreText": "5-15"
+        }
       },
       {
         "date": "2025-06-08T11:45:00.000Z",
@@ -5369,14 +5385,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-08T23:41:04.372Z",
+    "lastUpdated": "2025-06-09T01:17:02.092Z",
     "totalGames": 160
   },
   "summary": {
     "totalTeams": 19,
     "totalGames": 160,
-    "completedGames": 37,
-    "upcomingGames": 123,
+    "completedGames": 38,
+    "upcomingGames": 122,
     "topTeam": {
       "team": "Caledon Nationals 18U AA",
       "teamCode": "511035",
@@ -5393,6 +5409,6 @@
       "date": "Mon, May 26",
       "location": "Stewart Burnett"
     },
-    "lastUpdated": "2025-06-08T23:36:40.879Z"
+    "lastUpdated": "2025-06-09T01:12:41.374Z"
   }
 }
