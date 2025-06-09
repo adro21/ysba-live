@@ -9,6 +9,7 @@
   },
   "scripts": {
     "start": "node server-optimized.js",
+    "start-site": "node server-optimized.js",
     "start-worker": "node src/scraper/worker.js",
     "scrape-github-action": "node scripts/github-action-scraper.js",
     "dev": "nodemon server-optimized.js",
