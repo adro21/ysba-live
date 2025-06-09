@@ -453,46 +453,49 @@ app.get('/api/divisions', async (req, res) => {
   }
 });
 
-// API endpoint to get last YSBA update time
+// Get the timestamp of the last YSBA update based on GitHub Actions scraper metadata
 app.get('/api/last-ysba-update', async (req, res) => {
   try {
-    // Try to get the last update time from the standings data
+    // Try to read the actual GitHub Actions metadata for the real sync time
+    const metadataPath = path.join(__dirname, 'public', 'metadata.json');
+    
+    let ysbaUpdateDate;
+    let source = 'cached JSON';
+    
     try {
-      const standingsPath = path.join(__dirname, 'public', 'ysba-standings.json');
+      const metadataContent = await fs.readFile(metadataPath, 'utf8');
+      const metadata = JSON.parse(metadataContent);
       
-      const standingsData = JSON.parse(await fs.readFile(standingsPath, 'utf8'));
-      
-      // Use the lastUpdated from JSON content (more reliable than file mtime after git operations)
-      const standingsFileModTime = standingsData.lastUpdated || new Date().toISOString();
-      
-      res.json({
-        success: true,
-        lastYsbaUpdate: standingsFileModTime,
-        formattedDate: new Date(standingsFileModTime).toLocaleDateString('en-US', {
-          month: 'long',
-          day: 'numeric',
-          year: 'numeric'
-        })
-      });
-    } catch (error) {
-      // Fallback to current date if no data available
-      const currentDate = new Date();
-      res.json({
-        success: true,
-        lastYsbaUpdate: currentDate.toISOString(),
-        formattedDate: currentDate.toLocaleDateString('en-US', {
-          month: 'long',
-          day: 'numeric',
-          year: 'numeric'
-        })
-      });
+      if (metadata.generatedAt) {
+        ysbaUpdateDate = new Date(metadata.generatedAt);
+        source = `GitHub Actions (${metadata.source})`;
+        console.log(`Using GitHub Actions sync time: ${ysbaUpdateDate.toISOString()}`);
+      } else {
+        throw new Error('No generatedAt timestamp in metadata');
+      }
+    } catch (metadataError) {
+      console.warn('Could not read GitHub Actions metadata, using fallback:', metadataError.message);
+      // Fallback to a recent reasonable date if metadata is not available
+      ysbaUpdateDate = new Date(2025, 5, 9); // June 9, 2025 (month is 0-based)
+      source = 'fallback estimate';
     }
+    
+    res.json({
+      success: true,
+      lastYsbaUpdate: ysbaUpdateDate.toISOString(),
+      formattedDate: ysbaUpdateDate.toLocaleDateString('en-US', {
+        month: 'long',
+        day: 'numeric',
+        year: 'numeric'
+      }),
+      source: source
+    });
   } catch (error) {
     console.error('Error getting last YSBA update time:', error);
     res.status(500).json({ 
       success: false, 
       error: 'Failed to get YSBA update time',
-      formattedDate: 'Unknown'
+      formattedDate: 'Unknown' // More honest fallback
     });
   }
 });

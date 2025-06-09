@@ -6,9 +6,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ### Development
 ```bash
-npm run dev        # Start development server with nodemon
+npm run dev        # Start development server with nodemon (uses server-optimized.js)
+npm start          # Start production server (uses server-optimized.js)
 npm run dev-worker # Start worker in development mode with nodemon
-npm start          # Start production server
 npm run build      # Update cache version for CSS/JS files
 ```
 
@@ -31,7 +31,7 @@ localStorage.setItem('debugMode', 'true')
 
 ## Architecture Overview
 
-This is a Node.js web application that scrapes and displays real-time baseball standings for York Simcoe Baseball Association (YSBA). The application uses Puppeteer for web scraping, Express for the server, and vanilla JavaScript for the frontend.
+This is a Node.js web application that displays real-time baseball standings for York Simcoe Baseball Association (YSBA). The application uses Express for the server, vanilla JavaScript for the frontend, and relies entirely on pre-generated JSON files from GitHub Actions for data (no in-app scraping).
 
 ### Background Worker System
 
@@ -43,7 +43,7 @@ The application now includes a background worker system (`src/scraper/`) that:
 
 ### Key Components
 
-**`server.js`** - Main Express server handling all routes, API endpoints, and email notifications (legacy scraping removed)
+**`server-optimized.js`** - Main Express server handling all routes, API endpoints, and email notifications (serves cached JSON files only, no scraping)
 
 **`src/scraper/worker.js`** - Background worker with cron scheduling that orchestrates all scraping operations
 
@@ -86,19 +86,20 @@ Scraping operations use `withBrowserSession()` to coordinate Puppeteer instances
 - **Change detection**: Compares standings between scraping cycles
 - **Token-based unsubscribe**: Secure subscriber management
 
-### Development vs Production
+### Application vs Background Worker
 
-Development mode enables:
-- Detailed console logging
-- Browser visibility during scraping
-- Extended timeouts
-- Image/CSS loading during scraping
+**Application Server** (`server-optimized.js`):
+- Serves cached JSON files only
+- No scraping or Puppeteer operations
+- Fast API responses from pre-generated data
+- Handles email notifications and subscriptions
 
-Production mode optimizes:
-- Headless browser operation
-- Disabled images/CSS during scraping
-- Shorter timeouts
-- Memory-efficient operations
+**Background Worker** (`src/scraper/worker.js`):
+- Runs independently via GitHub Actions every 30 minutes
+- Performs all Puppeteer scraping operations
+- Generates JSON files that the application serves
+- Development mode: detailed logging and browser visibility
+- Production mode: headless, optimized operation
 
 ## Key API Endpoints
 
@@ -117,9 +118,9 @@ Production mode optimizes:
 3. Verify scraping works via `/api/standings` endpoint
 
 ### Modifying Scraping Logic
-1. Update `scraper.js` - modify Puppeteer selectors/logic
-2. Test with individual division via API
-3. Check caching behavior with debug mode enabled
+1. Update `src/scraper/scraper.js` - modify Puppeteer selectors/logic
+2. Test locally with `npm run test-worker` or `npm run test-scraper`
+3. Deploy changes to trigger GitHub Actions scraping
 
 ### Frontend Changes
 1. Main logic in `public/js/app.js`

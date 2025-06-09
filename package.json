@@ -2,18 +2,16 @@
   "name": "ysba-live",
   "version": "2.0.0",
   "description": "YSBA Live - Real-time Baseball Standings and Schedules",
-  "main": "server.js",
+  "main": "server-optimized.js",
   "engines": {
     "node": ">=18.0.0",
     "npm": ">=8.0.0"
   },
   "scripts": {
     "start": "node server-optimized.js",
-    "start-site": "node server-optimized.js",
-    "start-old": "node server.js",
     "start-worker": "node src/scraper/worker.js",
     "scrape-github-action": "node scripts/github-action-scraper.js",
-    "dev": "nodemon server.js",
+    "dev": "nodemon server-optimized.js",
     "dev-worker": "nodemon src/scraper/worker.js",
     "build": "node scripts/update-cache-version.js",
     "test-worker": "node src/scraper/worker.js",
@@ -27,9 +25,9 @@
       "*.log"
     ],
     "watch": [
-      "server.js",
-      "scraper.js",
-      "config.js"
+      "server-optimized.js",
+      "config.js",
+      "email-service.js"
     ],
     "delay": 2000
   },
