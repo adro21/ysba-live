@@ -454,13 +454,21 @@ app.get('/api/team/:teamCode/schedule', async (req, res) => {
       
       if (divisionData.schedule && divisionData.schedule.teamSchedules && divisionData.schedule.teamSchedules[teamCode]) {
         const scheduleData = divisionData.schedule.teamSchedules[teamCode];
+        
+        // Map the actual data structure to what the frontend expects
+        const allGames = [
+          ...(scheduleData.recentGames || []),
+          ...(scheduleData.nextGames || [])
+        ];
+        
         res.json({
           success: true,
           data: {
-            allGames: scheduleData.allGames || [],
-            playedGames: scheduleData.playedGames || [],
-            upcomingGames: scheduleData.upcomingGames || [],
+            allGames: allGames,
+            playedGames: scheduleData.recentGames || [],  // Recent games = played games
+            upcomingGames: scheduleData.nextGames || [],  // Next games = upcoming games
             teamCode,
+            totalGames: scheduleData.totalGames || 0,
             lastUpdated: divisionData.lastUpdated || new Date().toISOString()
           }
         });
