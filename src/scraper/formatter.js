@@ -2,11 +2,20 @@ const config = require('../../config');
 
 class DataFormatter {
   constructor() {
+    // Don't set lastUpdated in constructor - set it when formatting completes
+    this.lastUpdated = null;
+  }
+
+  // Update the timestamp to current time (call this when formatting completes)
+  updateTimestamp() {
     this.lastUpdated = new Date().toISOString();
   }
 
   // Format complete YSBA data structure for JSON output
   formatYSBAData(allDivisionData) {
+    // Update timestamp when we start the final formatting
+    this.updateTimestamp();
+    
     const formattedData = {
       metadata: {
         lastUpdated: this.lastUpdated,
@@ -47,7 +56,7 @@ class DataFormatter {
     if (!standingsData || !standingsData.teams) {
       return {
         teams: [],
-        lastUpdated: this.lastUpdated,
+        lastUpdated: new Date().toISOString(),
         error: 'No standings data available'
       };
     }
@@ -71,7 +80,7 @@ class DataFormatter {
           runDifferential: team.runsFor - team.runsAgainst
         }
       })),
-      lastUpdated: standingsData.lastUpdated || this.lastUpdated,
+      lastUpdated: standingsData.lastUpdated || (this.lastUpdated || new Date().toISOString()),
       totalTeams: standingsData.teams.length
     };
   }
@@ -82,7 +91,7 @@ class DataFormatter {
       return {
         teamSchedules: {},
         allGames: [],
-        lastUpdated: this.lastUpdated,
+        lastUpdated: new Date().toISOString(),
         error: 'No schedule data available'
       };
     }
@@ -107,7 +116,7 @@ class DataFormatter {
       allGames: this.formatGames(scheduleData.allGames),
       recentGames: this.getRecentGames(scheduleData.allGames, 10),
       upcomingGames: this.getUpcomingGames(scheduleData.allGames, 10),
-      lastUpdated: scheduleData.lastUpdated || this.lastUpdated,
+      lastUpdated: scheduleData.lastUpdated || (this.lastUpdated || new Date().toISOString()),
       totalGames: scheduleData.allGames.length
     };
   }
@@ -166,7 +175,7 @@ class DataFormatter {
       upcomingGames: 0,
       topTeam: null,
       highestScoringGame: null,
-      lastUpdated: this.lastUpdated
+      lastUpdated: this.lastUpdated || new Date().toISOString()
     };
 
     // Standings summary
@@ -224,7 +233,7 @@ class DataFormatter {
   // Format data for quick API consumption (lighter format)
   formatForAPI(allDivisionData) {
     const apiData = {
-      lastUpdated: this.lastUpdated,
+      lastUpdated: this.lastUpdated || new Date().toISOString(),
       divisions: {}
     };
 
@@ -271,7 +280,7 @@ class DataFormatter {
     const completedGames = allGames.filter(game => game.isCompleted).length;
 
     return {
-      lastUpdated: this.lastUpdated,
+      lastUpdated: this.lastUpdated || new Date().toISOString(),
       totals: {
         divisions: Object.keys(allDivisionData).length,
         teams: totalTeams,
