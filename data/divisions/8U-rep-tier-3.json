@@ -2,7 +2,7 @@
   "standings": {
     "teams": [
       {
-        "position": 2,
+        "position": 3,
         "team": "Markham Mariners 8U A",
         "teamCode": "511057",
         "record": {
@@ -20,7 +20,7 @@
         }
       },
       {
-        "position": 3,
+        "position": 4,
         "team": "Vaughan Vikings 8U A",
         "teamCode": "518946",
         "record": {
@@ -38,9 +38,9 @@
         }
       },
       {
-        "position": 1,
-        "team": "Aurora-King Jays 8U A",
-        "teamCode": "511050",
+        "position": 2,
+        "team": "Orangeville Bengals 8U B",
+        "teamCode": "511052",
         "record": {
           "gamesPlayed": 5,
           "wins": 4,
@@ -50,31 +50,31 @@
         },
         "stats": {
           "points": 8,
-          "runsFor": 78,
-          "runsAgainst": 77,
-          "runDifferential": 1
+          "runsFor": 97,
+          "runsAgainst": 67,
+          "runDifferential": 30
         }
       },
       {
-        "position": 5,
-        "team": "Orangeville Bengals 8U B",
-        "teamCode": "511052",
+        "position": 1,
+        "team": "Aurora-King Jays 8U A",
+        "teamCode": "511050",
         "record": {
-          "gamesPlayed": 3,
-          "wins": 2,
-          "losses": 1,
+          "gamesPlayed": 6,
+          "wins": 4,
+          "losses": 2,
           "ties": 0,
           "winPercentage": "0.667"
         },
         "stats": {
-          "points": 4,
-          "runsFor": 66,
-          "runsAgainst": 44,
-          "runDifferential": 22
+          "points": 8,
+          "runsFor": 95,
+          "runsAgainst": 101,
+          "runDifferential": -6
         }
       },
       {
-        "position": 4,
+        "position": 5,
         "team": "Newmarket Hawks 8U A",
         "teamCode": "511051",
         "record": {
@@ -92,25 +92,25 @@
         }
       },
       {
-        "position": 8,
+        "position": 7,
         "team": "Stouffville 8U A",
         "teamCode": "511059",
         "record": {
-          "gamesPlayed": 3,
+          "gamesPlayed": 4,
           "wins": 1,
-          "losses": 2,
+          "losses": 3,
           "ties": 0,
-          "winPercentage": "0.333"
+          "winPercentage": "0.250"
         },
         "stats": {
           "points": 2,
-          "runsFor": 59,
-          "runsAgainst": 51,
-          "runDifferential": 8
+          "runsFor": 65,
+          "runsAgainst": 58,
+          "runDifferential": 7
         }
       },
       {
-        "position": 7,
+        "position": 8,
         "team": "Richmond Hill Phoenix 8U A",
         "teamCode": "511053",
         "record": {
@@ -164,7 +164,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-06-09T16:49:16.746Z",
+    "lastUpdated": "2025-06-09T18:20:37.380Z",
     "totalTeams": 9
   },
   "schedule": {
@@ -244,8 +244,12 @@
             "awayTeam": "Orangeville Bengals 8U B",
             "awayTeamCode": "511052",
             "location": "Lambert Wilson Park LC2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 17,
+              "away": 24,
+              "scoreText": "24-17"
+            }
           }
         ],
         "nextGames": [
@@ -310,7 +314,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-09T16:49:19.410Z"
+        "lastUpdated": "2025-06-09T18:20:40.062Z"
       },
       "511051": {
         "teamCode": "511051",
@@ -457,7 +461,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-09T16:49:19.410Z"
+        "lastUpdated": "2025-06-09T18:20:40.062Z"
       },
       "511052": {
         "teamCode": "511052",
@@ -518,8 +522,12 @@
             "awayTeam": "Orangeville Bengals 8U B",
             "awayTeamCode": "511052",
             "location": "Bethesda D3",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 7,
+              "scoreText": "7-6"
+            }
           },
           {
             "date": "2025-06-08T18:30:00.000Z",
@@ -530,8 +538,12 @@
             "awayTeam": "Orangeville Bengals 8U B",
             "awayTeamCode": "511052",
             "location": "Lambert Wilson Park LC2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 17,
+              "away": 24,
+              "scoreText": "24-17"
+            }
           }
         ],
         "nextGames": [
@@ -596,7 +608,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-09T16:49:19.410Z"
+        "lastUpdated": "2025-06-09T18:20:40.062Z"
       },
       "511053": {
         "teamCode": "511053",
@@ -743,7 +755,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-09T16:49:19.410Z"
+        "lastUpdated": "2025-06-09T18:20:40.062Z"
       },
       "511054": {
         "teamCode": "511054",
@@ -894,7 +906,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-09T16:49:19.410Z"
+        "lastUpdated": "2025-06-09T18:20:40.062Z"
       },
       "511057": {
         "teamCode": "511057",
@@ -1037,7 +1049,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-09T16:49:19.410Z"
+        "lastUpdated": "2025-06-09T18:20:40.062Z"
       },
       "511059": {
         "teamCode": "511059",
@@ -1114,8 +1126,12 @@
             "awayTeam": "Orangeville Bengals 8U B",
             "awayTeamCode": "511052",
             "location": "Bethesda D3",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 7,
+              "scoreText": "7-6"
+            }
           }
         ],
         "nextGames": [
@@ -1180,7 +1196,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-09T16:49:19.410Z"
+        "lastUpdated": "2025-06-09T18:20:40.062Z"
       },
       "511060": {
         "teamCode": "511060",
@@ -1323,7 +1339,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-09T16:49:19.410Z"
+        "lastUpdated": "2025-06-09T18:20:40.062Z"
       },
       "518946": {
         "teamCode": "518946",
@@ -1454,7 +1470,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-09T16:49:19.411Z"
+        "lastUpdated": "2025-06-09T18:20:40.062Z"
       }
     },
     "allGames": [
@@ -1783,8 +1799,12 @@
         "awayTeam": "Orangeville Bengals 8U B",
         "awayTeamCode": "511052",
         "location": "Bethesda D3",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 7,
+          "scoreText": "7-6"
+        }
       },
       {
         "date": "2025-06-05T18:30:00.000Z",
@@ -1811,8 +1831,12 @@
         "awayTeam": "Orangeville Bengals 8U B",
         "awayTeamCode": "511052",
         "location": "Lambert Wilson Park LC2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 17,
+          "away": 24,
+          "scoreText": "24-17"
+        }
       },
       {
         "date": "2025-06-09T18:30:00.000Z",
@@ -2413,8 +2437,12 @@
         "awayTeam": "Orangeville Bengals 8U B",
         "awayTeamCode": "511052",
         "location": "Lambert Wilson Park LC2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 17,
+          "away": 24,
+          "scoreText": "24-17"
+        }
       },
       {
         "date": "2025-06-05T18:30:00.000Z",
@@ -2457,8 +2485,12 @@
         "awayTeam": "Orangeville Bengals 8U B",
         "awayTeamCode": "511052",
         "location": "Bethesda D3",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 7,
+          "scoreText": "7-6"
+        }
       },
       {
         "date": "2025-06-03T18:00:00.000Z",
@@ -2671,14 +2703,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-09T16:49:19.411Z",
+    "lastUpdated": "2025-06-09T18:20:40.062Z",
     "totalGames": 73
   },
   "summary": {
     "totalTeams": 9,
     "totalGames": 73,
-    "completedGames": 17,
-    "upcomingGames": 56,
+    "completedGames": 19,
+    "upcomingGames": 54,
     "topTeam": {
       "team": "Markham Mariners 8U A",
       "teamCode": "511057",
@@ -2695,6 +2727,6 @@
       "date": "Thu, May 29",
       "location": "Caledon Fairgrounds"
     },
-    "lastUpdated": "2025-06-09T16:55:01.804Z"
+    "lastUpdated": "2025-06-09T18:26:21.356Z"
   }
 }

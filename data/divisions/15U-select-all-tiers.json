@@ -6,77 +6,77 @@
         "team": "Barrie Baycats 15U DS",
         "teamCode": "511524",
         "record": {
-          "gamesPlayed": 0,
-          "wins": 0,
+          "gamesPlayed": 2,
+          "wins": 2,
           "losses": 0,
           "ties": 0,
-          "winPercentage": ".000"
+          "winPercentage": "1.000"
         },
         "stats": {
-          "points": 0,
-          "runsFor": 0,
-          "runsAgainst": 0,
-          "runDifferential": 0
+          "points": 4,
+          "runsFor": 25,
+          "runsAgainst": 9,
+          "runDifferential": 16
         }
       },
       {
         "position": 2,
-        "team": "Newmarket Hawks 15U DS",
-        "teamCode": "511101",
+        "team": "Collingwood Jays 15U DS",
+        "teamCode": "511100",
         "record": {
-          "gamesPlayed": 0,
-          "wins": 0,
+          "gamesPlayed": 2,
+          "wins": 2,
           "losses": 0,
           "ties": 0,
-          "winPercentage": ".000"
+          "winPercentage": "1.000"
         },
         "stats": {
-          "points": 0,
-          "runsFor": 0,
-          "runsAgainst": 0,
-          "runDifferential": 0
+          "points": 4,
+          "runsFor": 21,
+          "runsAgainst": 9,
+          "runDifferential": 12
         }
       },
       {
         "position": 3,
-        "team": "Collingwood Jays 15U DS",
-        "teamCode": "511100",
+        "team": "Stouffville Yankees 15U DS",
+        "teamCode": "511103",
         "record": {
-          "gamesPlayed": 0,
-          "wins": 0,
-          "losses": 0,
+          "gamesPlayed": 3,
+          "wins": 1,
+          "losses": 2,
           "ties": 0,
-          "winPercentage": ".000"
+          "winPercentage": "0.333"
         },
         "stats": {
-          "points": 0,
-          "runsFor": 0,
-          "runsAgainst": 0,
-          "runDifferential": 0
+          "points": 2,
+          "runsFor": 21,
+          "runsAgainst": 33,
+          "runDifferential": -12
         }
       },
       {
         "position": 4,
-        "team": "Orillia Royals 15U DS",
-        "teamCode": "511102",
+        "team": "Newmarket Hawks 15U DS",
+        "teamCode": "511101",
         "record": {
-          "gamesPlayed": 0,
+          "gamesPlayed": 3,
           "wins": 0,
-          "losses": 0,
+          "losses": 3,
           "ties": 0,
-          "winPercentage": ".000"
+          "winPercentage": "0.000"
         },
         "stats": {
           "points": 0,
-          "runsFor": 0,
-          "runsAgainst": 0,
-          "runDifferential": 0
+          "runsFor": 17,
+          "runsAgainst": 33,
+          "runDifferential": -16
         }
       },
       {
         "position": 5,
-        "team": "Stouffville Yankees 15U DS",
-        "teamCode": "511103",
+        "team": "Orillia Royals 15U DS",
+        "teamCode": "511102",
         "record": {
           "gamesPlayed": 0,
           "wins": 0,
@@ -128,7 +128,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-06-09T16:54:59.049Z",
+    "lastUpdated": "2025-06-09T18:26:18.601Z",
     "totalTeams": 7
   },
   "schedule": {
@@ -250,7 +250,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-09T16:55:01.797Z"
+        "lastUpdated": "2025-06-09T18:26:21.349Z"
       },
       "511100": {
         "teamCode": "511100",
@@ -267,8 +267,12 @@
             "awayTeam": "Newmarket Hawks 15U DS",
             "awayTeamCode": "511101",
             "location": "Legion Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 6,
+              "scoreText": "6-9"
+            }
           },
           {
             "date": "2025-06-01T12:30:00.000Z",
@@ -279,8 +283,12 @@
             "awayTeam": "Newmarket Hawks 15U DS",
             "awayTeamCode": "511101",
             "location": "Legion Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 3,
+              "scoreText": "3-12"
+            }
           },
           {
             "date": "2025-06-03T19:00:00.000Z",
@@ -381,7 +389,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-09T16:55:01.797Z"
+        "lastUpdated": "2025-06-09T18:26:21.349Z"
       },
       "511101": {
         "teamCode": "511101",
@@ -422,8 +430,12 @@
             "awayTeam": "Stouffville Yankees 15U DS",
             "awayTeamCode": "511103",
             "location": "WhipperWatson",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 12,
+              "scoreText": "12-8"
+            }
           },
           {
             "date": "2025-06-01T10:00:00.000Z",
@@ -434,8 +446,12 @@
             "awayTeam": "Newmarket Hawks 15U DS",
             "awayTeamCode": "511101",
             "location": "Legion Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 6,
+              "scoreText": "6-9"
+            }
           },
           {
             "date": "2025-06-01T12:30:00.000Z",
@@ -446,8 +462,12 @@
             "awayTeam": "Newmarket Hawks 15U DS",
             "awayTeamCode": "511101",
             "location": "Legion Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 3,
+              "scoreText": "3-12"
+            }
           }
         ],
         "nextGames": [
@@ -512,7 +532,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-09T16:55:01.797Z"
+        "lastUpdated": "2025-06-09T18:26:21.349Z"
       },
       "511102": {
         "teamCode": "511102",
@@ -619,7 +639,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-09T16:55:01.797Z"
+        "lastUpdated": "2025-06-09T18:26:21.349Z"
       },
       "511103": {
         "teamCode": "511103",
@@ -636,8 +656,12 @@
             "awayTeam": "Stouffville Yankees 15U DS",
             "awayTeamCode": "511103",
             "location": "WhipperWatson",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 12,
+              "scoreText": "12-8"
+            }
           },
           {
             "date": "2025-06-07T09:30:00.000Z",
@@ -648,8 +672,12 @@
             "awayTeam": "Barrie Baycats 15U DS",
             "awayTeamCode": "511524",
             "location": "Bethesda 2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 1,
+              "away": 12,
+              "scoreText": "12-1"
+            }
           },
           {
             "date": "2025-06-07T12:00:00.000Z",
@@ -660,8 +688,12 @@
             "awayTeam": "Barrie Baycats 15U DS",
             "awayTeamCode": "511524",
             "location": "Bethesda 2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 13,
+              "scoreText": "13-8"
+            }
           }
         ],
         "nextGames": [
@@ -726,7 +758,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-09T16:55:01.797Z"
+        "lastUpdated": "2025-06-09T18:26:21.349Z"
       },
       "511104": {
         "teamCode": "511104",
@@ -857,7 +889,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-09T16:55:01.797Z"
+        "lastUpdated": "2025-06-09T18:26:21.349Z"
       },
       "511524": {
         "teamCode": "511524",
@@ -910,8 +942,12 @@
             "awayTeam": "Barrie Baycats 15U DS",
             "awayTeamCode": "511524",
             "location": "Bethesda 2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 1,
+              "away": 12,
+              "scoreText": "12-1"
+            }
           },
           {
             "date": "2025-06-07T12:00:00.000Z",
@@ -922,8 +958,12 @@
             "awayTeam": "Barrie Baycats 15U DS",
             "awayTeamCode": "511524",
             "location": "Bethesda 2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 13,
+              "scoreText": "13-8"
+            }
           }
         ],
         "nextGames": [
@@ -988,7 +1028,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-09T16:55:01.797Z"
+        "lastUpdated": "2025-06-09T18:26:21.349Z"
       }
     },
     "allGames": [
@@ -1073,8 +1113,12 @@
         "awayTeam": "Stouffville Yankees 15U DS",
         "awayTeamCode": "511103",
         "location": "WhipperWatson",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 12,
+          "scoreText": "12-8"
+        }
       },
       {
         "date": "2025-05-31T12:00:00.000Z",
@@ -1109,8 +1153,12 @@
         "awayTeam": "Newmarket Hawks 15U DS",
         "awayTeamCode": "511101",
         "location": "Legion Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 6,
+          "scoreText": "6-9"
+        }
       },
       {
         "date": "2025-06-01T12:30:00.000Z",
@@ -1121,8 +1169,12 @@
         "awayTeam": "Newmarket Hawks 15U DS",
         "awayTeamCode": "511101",
         "location": "Legion Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 3,
+          "scoreText": "3-12"
+        }
       },
       {
         "date": "2025-06-03T19:00:00.000Z",
@@ -1145,8 +1197,12 @@
         "awayTeam": "Barrie Baycats 15U DS",
         "awayTeamCode": "511524",
         "location": "Bethesda 2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 1,
+          "away": 12,
+          "scoreText": "12-1"
+        }
       },
       {
         "date": "2025-06-07T12:00:00.000Z",
@@ -1157,8 +1213,12 @@
         "awayTeam": "Barrie Baycats 15U DS",
         "awayTeamCode": "511524",
         "location": "Bethesda 2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 13,
+          "scoreText": "13-8"
+        }
       },
       {
         "date": "2025-06-07T12:30:00.000Z",
@@ -1735,8 +1795,12 @@
         "awayTeam": "Barrie Baycats 15U DS",
         "awayTeamCode": "511524",
         "location": "Bethesda 2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 13,
+          "scoreText": "13-8"
+        }
       },
       {
         "date": "2025-06-07T09:30:00.000Z",
@@ -1747,8 +1811,12 @@
         "awayTeam": "Barrie Baycats 15U DS",
         "awayTeamCode": "511524",
         "location": "Bethesda 2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 1,
+          "away": 12,
+          "scoreText": "12-1"
+        }
       },
       {
         "date": "2025-06-03T19:00:00.000Z",
@@ -1771,8 +1839,12 @@
         "awayTeam": "Newmarket Hawks 15U DS",
         "awayTeamCode": "511101",
         "location": "Legion Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 3,
+          "scoreText": "3-12"
+        }
       },
       {
         "date": "2025-06-01T10:00:00.000Z",
@@ -1783,8 +1855,12 @@
         "awayTeam": "Newmarket Hawks 15U DS",
         "awayTeamCode": "511101",
         "location": "Legion Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 6,
+          "scoreText": "6-9"
+        }
       },
       {
         "date": "2025-05-31T15:00:00.000Z",
@@ -1921,22 +1997,30 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-09T16:55:01.797Z",
+    "lastUpdated": "2025-06-09T18:26:21.349Z",
     "totalGames": 57
   },
   "summary": {
     "totalTeams": 7,
     "totalGames": 57,
-    "completedGames": 0,
-    "upcomingGames": 57,
+    "completedGames": 5,
+    "upcomingGames": 52,
     "topTeam": {
       "team": "Barrie Baycats 15U DS",
       "teamCode": "511524",
-      "wins": 0,
+      "wins": 2,
       "losses": 0,
-      "winPercentage": ".000"
+      "winPercentage": "1.000"
     },
-    "highestScoringGame": null,
-    "lastUpdated": "2025-06-09T16:55:01.804Z"
+    "highestScoringGame": {
+      "homeTeam": "Stouffville Yankees 15U DS",
+      "awayTeam": "Barrie Baycats 15U DS",
+      "homeScore": 8,
+      "awayScore": 13,
+      "totalRuns": 21,
+      "date": "Sat, Jun 7",
+      "location": "Bethesda 2"
+    },
+    "lastUpdated": "2025-06-09T18:26:21.356Z"
   }
 }
