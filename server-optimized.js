@@ -132,6 +132,11 @@ app.get('/api/standings', async (req, res) => {
       
       const divisionPath = path.join(__dirname, 'public', 'divisions', fileName);
       console.log(`Looking for division file: ${divisionPath}`);
+      
+      // Get file stats to get modification time
+      const fileStats = await fs.stat(divisionPath);
+      const fileModTime = fileStats.mtime.toISOString();
+      
       const divisionData = JSON.parse(await fs.readFile(divisionPath, 'utf8'));
       console.log(`Found division data with ${divisionData?.standings?.teams?.length || 0} teams`);
       
@@ -178,7 +183,7 @@ app.get('/api/standings', async (req, res) => {
           success: true,
           data: {
             teams,
-            lastUpdated: divisionData.lastUpdated || new Date().toISOString(),
+            lastUpdated: fileModTime,
             source: 'GitHub Actions'
           }
         });
@@ -191,6 +196,11 @@ app.get('/api/standings', async (req, res) => {
     // Fallback: try optimized standings file and extract division
     try {
       const standingsPath = path.join(__dirname, 'public', 'ysba-standings.json');
+      
+      // Get file stats to get modification time
+      const standingsFileStats = await fs.stat(standingsPath);
+      const standingsFileModTime = standingsFileStats.mtime.toISOString();
+      
       const standingsData = JSON.parse(await fs.readFile(standingsPath, 'utf8'));
       
       // Parse division name (remove -select/-rep suffix for lookup)
@@ -251,7 +261,7 @@ app.get('/api/standings', async (req, res) => {
           success: true,
           data: {
             teams,
-            lastUpdated: standingsData.lastUpdated,
+            lastUpdated: standingsFileModTime,
             source: 'GitHub Actions'
           }
         });
@@ -293,6 +303,10 @@ app.get('/api/divisions', async (req, res) => {
     const indexPath = path.join(__dirname, 'public', 'ysba-index.json');
     
     try {
+      // Get file stats to get modification time
+      const indexFileStats = await fs.stat(indexPath);
+      const indexFileModTime = indexFileStats.mtime.toISOString();
+      
       const indexData = JSON.parse(await fs.readFile(indexPath, 'utf8'));
       
       // Convert to frontend-expected format
@@ -375,7 +389,7 @@ app.get('/api/divisions', async (req, res) => {
       res.json({
         success: true,
         divisions,
-        lastUpdated: indexData.lastUpdated,
+        lastUpdated: indexFileModTime,
         totalDivisions: Object.keys(divisions).length
       });
     } catch (error) {
@@ -412,15 +426,18 @@ app.get('/api/divisions', async (req, res) => {
 // API endpoint to get last YSBA update time
 app.get('/api/last-ysba-update', async (req, res) => {
   try {
-    // Try to get the last update time from the standings data
+    // Try to get the last update time from the standings data file modification time
     try {
       const standingsPath = path.join(__dirname, 'public', 'ysba-standings.json');
-      const standingsData = JSON.parse(await fs.readFile(standingsPath, 'utf8'));
+      
+      // Get file stats to get modification time
+      const standingsFileStats = await fs.stat(standingsPath);
+      const standingsFileModTime = standingsFileStats.mtime.toISOString();
       
       res.json({
         success: true,
-        lastYsbaUpdate: standingsData.lastUpdated,
-        formattedDate: new Date(standingsData.lastUpdated).toLocaleDateString('en-US', {
+        lastYsbaUpdate: standingsFileModTime,
+        formattedDate: new Date(standingsFileModTime).toLocaleDateString('en-US', {
           month: 'long',
           day: 'numeric',
           year: 'numeric'
@@ -523,9 +540,18 @@ app.get('/api/team/:teamCode/schedule', async (req, res) => {
         // Sort games by date
         allTeamGames.sort((a, b) => new Date(a.date) - new Date(b.date));
         
-        // Filter into played and upcoming based on isCompleted flag
-        const playedGames = allTeamGames.filter(game => game.isCompleted);
-        const upcomingGames = allTeamGames.filter(game => !game.isCompleted);
+        // Filter into played and upcoming based on proper date logic
+        const now = new Date();
+        const playedGames = allTeamGames.filter(game => {
+          // Games are considered played if they have a completion status OR if the date is in the past
+          if (game.isCompleted) return true;
+          if (game.date && new Date(game.date) < now) return true;
+          return false;
+        });
+        const upcomingGames = allTeamGames.filter(game => {
+          // Only show games with future dates, regardless of completion status
+          return game.date && new Date(game.date) >= now;
+        });
         
         console.log(`Team ${teamCode}: ${allTeamGames.length} total games, ${playedGames.length} played, ${upcomingGames.length} upcoming`);
         
