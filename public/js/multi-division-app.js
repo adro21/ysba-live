@@ -196,28 +196,54 @@ class MultiDivisionYSBAApp {
             const isRep = key.includes('-rep');
             const container = isRep ? repContainer : selectContainer;
             
-            // Get the main tier for this division
-            const tierKeys = Object.keys(division.tiers);
-            const mainTierKey = tierKeys[0];
-            const tier = division.tiers[mainTierKey];
-            
-            const item = document.createElement('button');
+            const item = document.createElement('div');
             item.className = 'mega-menu-item';
-            item.dataset.division = key;
-            item.dataset.tier = mainTierKey;
             
-            // Check if this is the current active division and tier
-            if (this.currentDivision === key && this.currentTier === mainTierKey) {
-                item.classList.add('active');
+            if (isRep) {
+                // Rep divisions: Show all tiers as clickable badges
+                const tierKeys = Object.keys(division.tiers);
+                
+                // Create tier badges
+                const tierBadges = tierKeys.map(tierKey => {
+                    const tier = division.tiers[tierKey];
+                    const isActive = this.currentDivision === key && this.currentTier === tierKey;
+                    return `<button class="mega-menu-tier-badge ${isActive ? 'active' : ''}" 
+                                    data-division="${key}" 
+                                    data-tier="${tierKey}">
+                                ${tier.displayName}
+                            </button>`;
+                }).join('');
+                
+                item.innerHTML = `
+                    <div class="mega-menu-item-content">
+                        <div class="mega-menu-item-title">${division.displayName}</div>
+                        <div class="mega-menu-item-subtitle">Choose Tier:</div>
+                    </div>
+                    <div class="mega-menu-tier-badges">
+                        ${tierBadges}
+                    </div>
+                `;
+            } else {
+                // Select divisions: Whole item clickable, "All Teams" badge
+                const mainTierKey = Object.keys(division.tiers)[0];
+                const isActive = this.currentDivision === key && this.currentTier === mainTierKey;
+                
+                item.className += ' clickable';
+                item.dataset.division = key;
+                item.dataset.tier = mainTierKey;
+                
+                if (isActive) {
+                    item.classList.add('active');
+                }
+                
+                item.innerHTML = `
+                    <div class="mega-menu-item-content">
+                        <div class="mega-menu-item-title">${division.displayName}</div>
+                        <div class="mega-menu-item-subtitle">Select Division</div>
+                    </div>
+                    <span class="mega-menu-item-badge">All Teams</span>
+                `;
             }
-            
-            item.innerHTML = `
-                <div class="mega-menu-item-content">
-                    <div class="mega-menu-item-title">${division.displayName}</div>
-                    <div class="mega-menu-item-subtitle">${tier.displayName}</div>
-                </div>
-                <span class="mega-menu-item-badge">${division.shortName}</span>
-            `;
             
             container.appendChild(item);
         });
@@ -270,30 +296,60 @@ class MultiDivisionYSBAApp {
             const isRep = key.includes('-rep');
             const container = isRep ? repContainer : selectContainer;
             
-            // Get the main tier for this division
-            const tierKeys = Object.keys(division.tiers);
-            const mainTierKey = tierKeys[0];
-            const tier = division.tiers[mainTierKey];
-            
-            const item = document.createElement('button');
-            item.className = 'division-modal-item';
-            item.dataset.division = key;
-            item.dataset.tier = mainTierKey;
-            
-            // Check if this is the current active division and tier
-            if (this.currentDivision === key && this.currentTier === mainTierKey) {
-                item.classList.add('active');
+            if (isRep) {
+                // Rep divisions: Create container with tier badges
+                const item = document.createElement('div');
+                item.className = 'division-modal-item rep-division';
+                
+                const tierKeys = Object.keys(division.tiers);
+                
+                // Create tier badges
+                const tierBadges = tierKeys.map(tierKey => {
+                    const tier = division.tiers[tierKey];
+                    const isActive = this.currentDivision === key && this.currentTier === tierKey;
+                    return `<button class="division-modal-tier-badge ${isActive ? 'active' : ''}" 
+                                    data-division="${key}" 
+                                    data-tier="${tierKey}">
+                                ${tier.displayName}
+                            </button>`;
+                }).join('');
+                
+                item.innerHTML = `
+                    <div class="division-modal-item-content">
+                        <div class="division-modal-item-title">${division.displayName}</div>
+                        <div class="division-modal-item-subtitle">Choose Tier:</div>
+                    </div>
+                    <div class="division-modal-tier-badges">
+                        ${tierBadges}
+                    </div>
+                `;
+                
+                container.appendChild(item);
+            } else {
+                // Select divisions: Whole item clickable
+                const tierKeys = Object.keys(division.tiers);
+                const mainTierKey = tierKeys[0];
+                const isActive = this.currentDivision === key && this.currentTier === mainTierKey;
+                
+                const item = document.createElement('button');
+                item.className = 'division-modal-item clickable';
+                item.dataset.division = key;
+                item.dataset.tier = mainTierKey;
+                
+                if (isActive) {
+                    item.classList.add('active');
+                }
+                
+                item.innerHTML = `
+                    <div class="division-modal-item-content">
+                        <div class="division-modal-item-title">${division.displayName}</div>
+                        <div class="division-modal-item-subtitle">Select Division</div>
+                    </div>
+                    <span class="division-modal-item-badge">All Teams</span>
+                `;
+                
+                container.appendChild(item);
             }
-            
-            item.innerHTML = `
-                <div class="division-modal-item-content">
-                    <div class="division-modal-item-title">${division.displayName}</div>
-                    <div class="division-modal-item-subtitle">${tier.displayName}</div>
-                </div>
-                <span class="division-modal-item-badge">${division.shortName}</span>
-            `;
-            
-            container.appendChild(item);
         });
 
         // Append modal to body
@@ -322,16 +378,41 @@ class MultiDivisionYSBAApp {
             }
         });
 
-        // Handle mega menu item clicks
+        // Handle mega menu clicks
         megaMenu.addEventListener('click', (e) => {
-            const item = e.target.closest('.mega-menu-item');
+            // Handle tier badge clicks (for Rep divisions)
+            const tierBadge = e.target.closest('.mega-menu-tier-badge');
+            if (tierBadge) {
+                e.preventDefault();
+                e.stopPropagation();
+                
+                const division = tierBadge.dataset.division;
+                const tier = tierBadge.dataset.tier;
+                
+                // Update active state for tier badges within this division
+                const parentItem = tierBadge.closest('.mega-menu-item');
+                if (parentItem) {
+                    parentItem.querySelectorAll('.mega-menu-tier-badge').forEach(badge => {
+                        badge.classList.remove('active');
+                    });
+                    tierBadge.classList.add('active');
+                }
+                
+                // Navigate to new division/tier
+                this.navigateToDivision(division, tier);
+                this.closeMegaMenu();
+                return;
+            }
+            
+            // Handle full item clicks (for Select divisions - those with .clickable class)
+            const item = e.target.closest('.mega-menu-item.clickable');
             if (item) {
                 e.preventDefault();
                 const division = item.dataset.division;
                 const tier = item.dataset.tier;
                 
-                // Update active state
-                megaMenu.querySelectorAll('.mega-menu-item').forEach(i => i.classList.remove('active'));
+                // Update active state for select divisions
+                megaMenu.querySelectorAll('.mega-menu-item.clickable').forEach(i => i.classList.remove('active'));
                 item.classList.add('active');
                 
                 // Navigate to new division
@@ -383,16 +464,41 @@ class MultiDivisionYSBAApp {
             }
         });
 
-        // Handle modal item clicks
+        // Handle modal clicks
         modal.addEventListener('click', (e) => {
-            const item = e.target.closest('.division-modal-item');
+            // Handle tier badge clicks (for Rep divisions)
+            const tierBadge = e.target.closest('.division-modal-tier-badge');
+            if (tierBadge) {
+                e.preventDefault();
+                e.stopPropagation();
+                
+                const division = tierBadge.dataset.division;
+                const tier = tierBadge.dataset.tier;
+                
+                // Update active state for tier badges within this division
+                const parentItem = tierBadge.closest('.division-modal-item');
+                if (parentItem) {
+                    parentItem.querySelectorAll('.division-modal-tier-badge').forEach(badge => {
+                        badge.classList.remove('active');
+                    });
+                    tierBadge.classList.add('active');
+                }
+                
+                // Navigate to new division/tier
+                this.navigateToDivision(division, tier);
+                this.closeMobileModal();
+                return;
+            }
+            
+            // Handle full item clicks (for Select divisions - those with .clickable class)
+            const item = e.target.closest('.division-modal-item.clickable');
             if (item) {
                 e.preventDefault();
                 const division = item.dataset.division;
                 const tier = item.dataset.tier;
                 
-                // Update active state
-                modal.querySelectorAll('.division-modal-item').forEach(i => i.classList.remove('active'));
+                // Update active state for select divisions
+                modal.querySelectorAll('.division-modal-item.clickable').forEach(i => i.classList.remove('active'));
                 item.classList.add('active');
                 
                 // Navigate to new division

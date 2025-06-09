@@ -377,6 +377,46 @@
   color: rgba(255, 255, 255, 0.9);
 }
 
+/* Tier Badges for Rep Divisions */
+.mega-menu-tier-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-xs);
+  margin-top: var(--spacing-xs);
+}
+
+.mega-menu-tier-badge {
+  background: #f3f4f6;
+  color: #6b7280;
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border-radius: var(--radius-sm);
+  font-size: 0.625rem;
+  font-weight: var(--font-weight-medium);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  text-decoration: none;
+}
+
+.mega-menu-tier-badge:hover {
+  background: #e5e7eb;
+  color: #024220;
+  border-color: #d1d5db;
+}
+
+.mega-menu-tier-badge.active {
+  background: #024220;
+  color: white;
+  border-color: #024220;
+}
+
+.mega-menu-tier-badge.active:hover {
+  background: #047857;
+  border-color: #047857;
+}
+
 /* Mobile Modal */
 .division-modal {
   position: fixed;
@@ -404,7 +444,7 @@
   background: white;
   border-top-left-radius: var(--radius-xl);
   border-top-right-radius: var(--radius-xl);
-  max-height: 80vh;
+  max-height: 70vh;
   display: flex;
   flex-direction: column;
   transform: translateY(100%);
@@ -549,6 +589,64 @@
 .division-modal-item.active .division-modal-item-badge {
   background: rgba(255, 255, 255, 0.2);
   color: rgba(255, 255, 255, 0.9);
+}
+
+/* Mobile Modal Tier Badges for Rep Divisions */
+.division-modal-tier-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-xs);
+  margin-top: var(--spacing-sm);
+}
+
+.division-modal-tier-badge {
+  background: #f3f4f6;
+  color: #6b7280;
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border-radius: var(--radius-md);
+  font-size: 0.75rem;
+  font-weight: var(--font-weight-medium);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  text-decoration: none;
+}
+
+.division-modal-tier-badge:hover {
+  background: #e5e7eb;
+  color: #024220;
+  border-color: #d1d5db;
+  transform: scale(1.02);
+}
+
+.division-modal-tier-badge.active {
+  background: #024220;
+  color: white;
+  border-color: #024220;
+  transform: scale(1.02);
+}
+
+.division-modal-tier-badge.active:hover {
+  background: #047857;
+  border-color: #047857;
+}
+
+/* Rep division container styling */
+.division-modal-item.rep-division {
+  cursor: default;
+  padding: var(--spacing-md);
+  border-radius: var(--radius-lg);
+  background: #f9fafb;
+  border: 2px solid #f3f4f6;
+  transition: none;
+}
+
+.division-modal-item.rep-division:hover {
+  background: #f9fafb;
+  border-color: #f3f4f6;
+  transform: none;
 }
 
 /* Hide original Bootstrap dropdown on ALL screens since we use mega menu + mobile modal */
