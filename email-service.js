@@ -372,7 +372,7 @@ class EmailService {
         const newSubscriber = {
             id: this.generateToken(),
             email: email.toLowerCase().trim(),
-            name: name.trim(),
+            name: (name || '').trim(),
             divisionPreferences: normalizedPreferences, // New multi-division support
             teamFilter: 'all', // Legacy field for backward compatibility
             subscribedAt: new Date().toISOString(),

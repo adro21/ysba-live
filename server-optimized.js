@@ -647,7 +647,7 @@ app.post('/api/subscribe', async (req, res) => {
     // Support both new format (divisionPreferences) and legacy format (divisions)
     const prefs = divisionPreferences || divisions;
     
-    const result = await emailService.addSubscriber(email, prefs, name);
+    const result = await emailService.addSubscriber(email, name, prefs);
     res.json(result);
   } catch (error) {
     console.error('Subscription error:', error);
@@ -783,9 +783,85 @@ app.use('/api/*', (req, res) => {
       '/api/divisions',
       '/api/team/:teamCode/schedule',
       '/api/subscribe',
-      '/api/unsubscribe-token'
+      '/api/unsubscribe-token',
+      '/api/test-email/:division',
+      '/api/subscribers/export'
     ]
   });
+});
+
+// Export subscribers (for testing/debugging)
+app.get('/api/subscribers/export', async (req, res) => {
+  try {
+    const subscribers = await emailService.loadSubscribers();
+    res.json({
+      success: true,
+      count: subscribers.length,
+      subscribers: subscribers.map(sub => ({
+        email: sub.email,
+        name: sub.name || '',
+        divisionPreferences: sub.divisionPreferences || [],
+        subscribedAt: sub.subscribedAt
+      }))
+    });
+  } catch (error) {
+    console.error('Export subscribers error:', error);
+    res.status(500).json({
+      success: false,
+      error: 'Failed to export subscribers'
+    });
+  }
+});
+
+// Test email endpoint for development
+app.post('/api/test-email/:division', async (req, res) => {
+  try {
+    const { division } = req.params;
+    const { testEmail } = req.body;
+    
+    if (!emailService.isConfigured) {
+      return res.status(500).json({ 
+        error: 'Email service not configured',
+        message: 'SendGrid API key not set'
+      });
+    }
+
+    // Generate mock standings data for testing
+    const mockStandings = [
+      { team: 'Test Team 1', wins: 5, losses: 2, winPercentage: '.714', position: 1 },
+      { team: 'Test Team 2', wins: 4, losses: 3, winPercentage: '.571', position: 2 },
+      { team: 'Test Team 3', wins: 3, losses: 4, winPercentage: '.429', position: 3 }
+    ];
+
+    const mockChanges = ['Test Team 1 moved up to #1 (was #2)', 'Test Team 2 dropped to #2 (was #1)'];
+
+    if (testEmail) {
+      // Send to specific email for testing
+      const result = await emailService.sendTestEmail(testEmail);
+      res.json({ 
+        success: true, 
+        message: `Test email sent to ${testEmail}`,
+        division 
+      });
+    } else {
+      // Send to actual subscribers for this division
+      const result = await emailService.sendDivisionStandingsUpdate(division, mockStandings, mockChanges);
+      res.json({ 
+        success: result.sent, 
+        count: result.count,
+        division: result.divisionDisplay || division,
+        message: result.sent 
+          ? `Test notification sent to ${result.count} subscribers`
+          : result.reason || 'No subscribers found'
+      });
+    }
+  } catch (error) {
+    console.error('Test email error:', error);
+    res.status(500).json({ 
+      error: 'Failed to send test email',
+      message: error.message 
+    });
+  }
 });
 
 // Serve main application with proper routing
