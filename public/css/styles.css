@@ -2305,21 +2305,22 @@
 
 /* Header */
 .division-preferences-header {
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.5rem;
   text-align: center;
 }
 
 .division-preferences-header .form-label {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: left;
   gap: 0.5rem;
-  margin-bottom: 0.75rem;
-  font-weight: 600;
-  font-size: 1.1rem;
+  font-weight: 700;
+  font-size: 0.825rem;
   color: var(--gray-900);
 }
 
+.division-preferences-header .form-label i{
+  display:none;
+}
 .help-text {
   margin-top: 0.5rem;
 }
@@ -2339,7 +2340,7 @@
   border-radius: var(--radius-lg);
   border: 1px solid var(--gray-200);
   padding: 1.5rem;
-  max-height: 400px;
+  max-height: 270px;
   overflow-y: auto;
 }
 
@@ -2535,7 +2536,7 @@
 /* Mobile Responsive */
 @media (max-width: 768px) {
   .division-preferences-header .form-label {
-    font-size: 1rem;
+    font-size: 0.825rem;
   }
   
   .division-preferences-simple {
@@ -2548,7 +2549,7 @@
   }
   
   .choose-header {
-    flex-direction: column;
+    flex-direction: left;
     align-items: flex-start;
     gap: 0.5rem;
   }

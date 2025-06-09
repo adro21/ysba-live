@@ -125,12 +125,7 @@ class MultiDivisionYSBAApp {
             footerTitle.textContent = `${this.divisionConfig.displayName} ${this.tierConfig.displayName} Division`;
         }
 
-        // Update notification description
-        const notificationDescription = document.getElementById('notificationDescription');
-        if (notificationDescription) {
-            notificationDescription.textContent = 
-                `Get notified when standings change for ${this.divisionConfig.displayName} ${this.tierConfig.displayName}.`;
-        }
+        // Keep notification description static - don't update it dynamically
 
         // Show/hide division filter based on features
         const divisionFilterContainer = document.getElementById('divisionFilterContainer');
@@ -1498,14 +1493,8 @@ class MultiDivisionYSBAApp {
                 <div class="division-preferences-header">
                     <label class="form-label">
                         <i class="bi bi-envelope"></i>
-                        Choose which divisions to get notifications for
+                        Choose divisions for notifications:
                     </label>
-                    <div class="help-text">
-                        <small class="text-muted">
-                            <i class="bi bi-info-circle"></i>
-                            We'll email you when standings change for your selected divisions
-                        </small>
-                    </div>
                 </div>
                 
                 <div class="division-preferences-simple">
@@ -1625,27 +1614,31 @@ class MultiDivisionYSBAApp {
         const parts = division.key.split('-');
         const age = parts[0];
         const type = parts[1]; // 'rep' or 'select'
-        const tier = parts[2]; // 'tier-2', 'tier-3', 'all-tiers', 'no-tier'
         
         let displayName = '';
         let description = '';
         
         if (type === 'select') {
             displayName = `${age} Select Baseball`;
-            description = 'All teams in this age group';
+            description = 'All Teams';
         } else if (type === 'rep') {
-            if (tier === 'tier-2') {
+            // For rep divisions, check if the key contains tier information
+            if (division.key.includes('tier-2')) {
                 displayName = `${age} Rep Baseball - AA`;
-                description = 'Tier 2 / AA level';
-            } else if (tier === 'tier-3') {
+                description = 'Tier 2';
+            } else if (division.key.includes('tier-3')) {
                 displayName = `${age} Rep Baseball - A`;
-                description = 'Tier 3 / A level';
-            } else if (tier === 'no-tier') {
+                description = 'Tier 3';
+            } else if (division.key.includes('no-tier')) {
                 displayName = `${age} Rep Baseball`;
-                description = 'All teams in this age group';
+                description = 'All Teams';
+            } else if (division.key.includes('tier-1')) {
+                displayName = `${age} Rep Baseball - AAA`;
+                description = 'Tier 1';
             } else {
+                // Fallback for any other rep division
                 displayName = `${age} Rep Baseball`;
-                description = 'Rep level baseball';
+                description = 'Rep Division';
             }
         }
         
