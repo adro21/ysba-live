@@ -455,18 +455,48 @@ app.get('/api/team/:teamCode/schedule', async (req, res) => {
       if (divisionData.schedule && divisionData.schedule.teamSchedules && divisionData.schedule.teamSchedules[teamCode]) {
         const scheduleData = divisionData.schedule.teamSchedules[teamCode];
         
-        // Map the actual data structure to what the frontend expects
+        // Process and fix game data
+        const processGame = (game) => {
+          // Determine opponent based on whether this team is home or away
+          const isHomeTeam = game.homeTeamCode === teamCode;
+          const opponent = isHomeTeam ? game.awayTeam : game.homeTeam;
+          const opponentCode = isHomeTeam ? game.awayTeamCode : game.homeTeamCode;
+          
+          // Fix score text to be from this team's perspective (team score - opponent score)
+          let scoreText = null;
+          if (game.score && game.isCompleted) {
+            const teamScore = isHomeTeam ? game.score.home : game.score.away;
+            const opponentScore = isHomeTeam ? game.score.away : game.score.home;
+            scoreText = `${teamScore}-${opponentScore}`;
+          }
+          
+          return {
+            ...game,
+            opponent,
+            opponentCode,
+            isHome: isHomeTeam,
+            scoreText,
+            teamScore: game.score && isHomeTeam ? game.score.home : game.score?.away,
+            opponentScore: game.score && isHomeTeam ? game.score.away : game.score?.home
+          };
+        };
+        
+        // Combine and process all games
         const allGames = [
           ...(scheduleData.recentGames || []),
           ...(scheduleData.nextGames || [])
-        ];
+        ].map(processGame);
+        
+        // Filter into played and upcoming based on isCompleted flag
+        const playedGames = allGames.filter(game => game.isCompleted);
+        const upcomingGames = allGames.filter(game => !game.isCompleted);
         
         res.json({
           success: true,
           data: {
-            allGames: allGames,
-            playedGames: scheduleData.recentGames || [],  // Recent games = played games
-            upcomingGames: scheduleData.nextGames || [],  // Next games = upcoming games
+            allGames,
+            playedGames,
+            upcomingGames,
             teamCode,
             totalGames: scheduleData.totalGames || 0,
             lastUpdated: divisionData.lastUpdated || new Date().toISOString()
