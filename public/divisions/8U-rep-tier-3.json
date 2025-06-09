@@ -3,6 +3,24 @@
     "teams": [
       {
         "position": 2,
+        "team": "Markham Mariners 8U A",
+        "teamCode": "511057",
+        "record": {
+          "gamesPlayed": 3,
+          "wins": 3,
+          "losses": 0,
+          "ties": 0,
+          "winPercentage": "1.000"
+        },
+        "stats": {
+          "points": 6,
+          "runsFor": 76,
+          "runsAgainst": 16,
+          "runDifferential": 60
+        }
+      },
+      {
+        "position": 3,
         "team": "Vaughan Vikings 8U A",
         "teamCode": "518946",
         "record": {
@@ -20,43 +38,25 @@
         }
       },
       {
-        "position": 5,
-        "team": "Markham Mariners 8U A",
-        "teamCode": "511057",
-        "record": {
-          "gamesPlayed": 2,
-          "wins": 2,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": "1.000"
-        },
-        "stats": {
-          "points": 4,
-          "runsFor": 57,
-          "runsAgainst": 12,
-          "runDifferential": 45
-        }
-      },
-      {
         "position": 1,
         "team": "Aurora-King Jays 8U A",
         "teamCode": "511050",
         "record": {
-          "gamesPlayed": 4,
-          "wins": 3,
+          "gamesPlayed": 5,
+          "wins": 4,
           "losses": 1,
           "ties": 0,
-          "winPercentage": "0.750"
+          "winPercentage": "0.800"
         },
         "stats": {
-          "points": 6,
-          "runsFor": 61,
-          "runsAgainst": 64,
-          "runDifferential": -3
+          "points": 8,
+          "runsFor": 78,
+          "runsAgainst": 77,
+          "runDifferential": 1
         }
       },
       {
-        "position": 4,
+        "position": 5,
         "team": "Orangeville Bengals 8U B",
         "teamCode": "511052",
         "record": {
@@ -74,7 +74,7 @@
         }
       },
       {
-        "position": 3,
+        "position": 4,
         "team": "Newmarket Hawks 8U A",
         "teamCode": "511051",
         "record": {
@@ -92,7 +92,7 @@
         }
       },
       {
-        "position": 7,
+        "position": 8,
         "team": "Stouffville 8U A",
         "teamCode": "511059",
         "record": {
@@ -110,21 +110,21 @@
         }
       },
       {
-        "position": 8,
+        "position": 7,
         "team": "Richmond Hill Phoenix 8U A",
         "teamCode": "511053",
         "record": {
-          "gamesPlayed": 3,
+          "gamesPlayed": 4,
           "wins": 1,
-          "losses": 2,
+          "losses": 3,
           "ties": 0,
-          "winPercentage": "0.333"
+          "winPercentage": "0.250"
         },
         "stats": {
           "points": 2,
-          "runsFor": 42,
-          "runsAgainst": 65,
-          "runDifferential": -23
+          "runsFor": 46,
+          "runsAgainst": 84,
+          "runDifferential": -38
         }
       },
       {
@@ -150,21 +150,21 @@
         "team": "Georgina Bulldogs 8U B",
         "teamCode": "511060",
         "record": {
-          "gamesPlayed": 2,
+          "gamesPlayed": 3,
           "wins": 0,
-          "losses": 2,
+          "losses": 3,
           "ties": 0,
           "winPercentage": "0.000"
         },
         "stats": {
           "points": 0,
-          "runsFor": 19,
-          "runsAgainst": 38,
-          "runDifferential": -19
+          "runsFor": 32,
+          "runsAgainst": 55,
+          "runDifferential": -23
         }
       }
     ],
-    "lastUpdated": "2025-06-09T13:08:47.777Z",
+    "lastUpdated": "2025-06-09T16:49:16.746Z",
     "totalTeams": 9
   },
   "schedule": {
@@ -228,8 +228,12 @@
             "awayTeam": "Aurora-King Jays 8U A",
             "awayTeamCode": "511050",
             "location": "ROC #3",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 17,
+              "scoreText": "17-13"
+            }
           },
           {
             "date": "2025-06-08T18:30:00.000Z",
@@ -306,7 +310,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-09T13:08:50.541Z"
+        "lastUpdated": "2025-06-09T16:49:19.410Z"
       },
       "511051": {
         "teamCode": "511051",
@@ -453,7 +457,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-09T13:08:50.541Z"
+        "lastUpdated": "2025-06-09T16:49:19.410Z"
       },
       "511052": {
         "teamCode": "511052",
@@ -592,7 +596,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-09T13:08:50.541Z"
+        "lastUpdated": "2025-06-09T16:49:19.410Z"
       },
       "511053": {
         "teamCode": "511053",
@@ -669,8 +673,12 @@
             "awayTeam": "Richmond Hill Phoenix 8U A",
             "awayTeamCode": "511053",
             "location": "Morgan Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 19,
+              "away": 4,
+              "scoreText": "4-19"
+            }
           }
         ],
         "nextGames": [
@@ -735,7 +743,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-09T13:08:50.541Z"
+        "lastUpdated": "2025-06-09T16:49:19.410Z"
       },
       "511054": {
         "teamCode": "511054",
@@ -886,7 +894,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-09T13:08:50.541Z"
+        "lastUpdated": "2025-06-09T16:49:19.410Z"
       },
       "511057": {
         "teamCode": "511057",
@@ -959,8 +967,12 @@
             "awayTeam": "Richmond Hill Phoenix 8U A",
             "awayTeamCode": "511053",
             "location": "Morgan Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 19,
+              "away": 4,
+              "scoreText": "4-19"
+            }
           }
         ],
         "nextGames": [
@@ -1025,7 +1037,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-09T13:08:50.541Z"
+        "lastUpdated": "2025-06-09T16:49:19.410Z"
       },
       "511059": {
         "teamCode": "511059",
@@ -1168,7 +1180,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-09T13:08:50.541Z"
+        "lastUpdated": "2025-06-09T16:49:19.410Z"
       },
       "511060": {
         "teamCode": "511060",
@@ -1241,8 +1253,12 @@
             "awayTeam": "Aurora-King Jays 8U A",
             "awayTeamCode": "511050",
             "location": "ROC #3",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 17,
+              "scoreText": "17-13"
+            }
           }
         ],
         "nextGames": [
@@ -1307,7 +1323,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-09T13:08:50.541Z"
+        "lastUpdated": "2025-06-09T16:49:19.410Z"
       },
       "518946": {
         "teamCode": "518946",
@@ -1438,7 +1454,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-09T13:08:50.541Z"
+        "lastUpdated": "2025-06-09T16:49:19.411Z"
       }
     },
     "allGames": [
@@ -1751,8 +1767,12 @@
         "awayTeam": "Aurora-King Jays 8U A",
         "awayTeamCode": "511050",
         "location": "ROC #3",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 17,
+          "scoreText": "17-13"
+        }
       },
       {
         "date": "2025-06-05T18:00:00.000Z",
@@ -1775,8 +1795,12 @@
         "awayTeam": "Richmond Hill Phoenix 8U A",
         "awayTeamCode": "511053",
         "location": "Morgan Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 19,
+          "away": 4,
+          "scoreText": "4-19"
+        }
       },
       {
         "date": "2025-06-08T18:30:00.000Z",
@@ -2401,8 +2425,12 @@
         "awayTeam": "Richmond Hill Phoenix 8U A",
         "awayTeamCode": "511053",
         "location": "Morgan Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 19,
+          "away": 4,
+          "scoreText": "4-19"
+        }
       },
       {
         "date": "2025-06-05T18:00:00.000Z",
@@ -2413,8 +2441,12 @@
         "awayTeam": "Aurora-King Jays 8U A",
         "awayTeamCode": "511050",
         "location": "ROC #3",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 17,
+          "scoreText": "17-13"
+        }
       },
       {
         "date": "2025-06-05T18:00:00.000Z",
@@ -2639,17 +2671,17 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-09T13:08:50.541Z",
+    "lastUpdated": "2025-06-09T16:49:19.411Z",
     "totalGames": 73
   },
   "summary": {
     "totalTeams": 9,
     "totalGames": 73,
-    "completedGames": 15,
-    "upcomingGames": 58,
+    "completedGames": 17,
+    "upcomingGames": 56,
     "topTeam": {
-      "team": "Vaughan Vikings 8U A",
-      "teamCode": "518946",
+      "team": "Markham Mariners 8U A",
+      "teamCode": "511057",
       "wins": 3,
       "losses": 0,
       "winPercentage": "1.000"
@@ -2663,6 +2695,6 @@
       "date": "Thu, May 29",
       "location": "Caledon Fairgrounds"
     },
-    "lastUpdated": "2025-06-09T13:14:34.660Z"
+    "lastUpdated": "2025-06-09T16:55:01.804Z"
   }
 }
