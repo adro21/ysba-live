@@ -124,11 +124,30 @@ app.get('/api/standings', async (req, res) => {
       const divisionData = JSON.parse(await fs.readFile(divisionPath, 'utf8'));
       
       if (divisionData && divisionData.standings && divisionData.standings.teams) {
-        res.json(divisionData.standings);
+        // Convert the nested structure to the expected flat structure
+        const teams = divisionData.standings.teams.map(team => ({
+          position: team.position,
+          team: team.team,
+          teamCode: team.teamCode,
+          gamesPlayed: team.record?.gamesPlayed || 0,
+          wins: team.record?.wins || 0,
+          losses: team.record?.losses || 0,
+          ties: team.record?.ties || 0,
+          points: team.stats?.points || 0,
+          runsFor: team.stats?.runsFor || 0,
+          runsAgainst: team.stats?.runsAgainst || 0,
+          winPercentage: team.record?.winPercentage || "0.000"
+        }));
+        
+        res.json({
+          teams,
+          lastUpdated: divisionData.lastUpdated || new Date().toISOString(),
+          source: 'GitHub Actions'
+        });
         return;
       }
     } catch (error) {
-      // Continue to next fallback
+      console.log('Could not load from division file:', error.message);
     }
     
     // Fallback: try optimized standings file and extract division
@@ -397,6 +416,29 @@ app.post('/api/subscribe', async (req, res) => {
       success: false, 
       message: 'Failed to process subscription',
       error: error.message 
+    });
+  }
+});
+
+// API endpoint to get subscriber count for a division
+app.get('/api/subscribers/count', async (req, res) => {
+  try {
+    const { division, tier } = req.query;
+    
+    // For now, return a mock count since we don't have subscriber data loaded
+    // In a real implementation, this would query the actual subscriber database
+    res.json({
+      success: true,
+      count: 0,
+      division,
+      tier
+    });
+  } catch (error) {
+    console.error('Error getting subscriber count:', error);
+    res.status(500).json({
+      success: false,
+      count: 0,
+      error: error.message
     });
   }
 });
