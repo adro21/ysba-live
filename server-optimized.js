@@ -152,18 +152,18 @@ app.get('/api/standings', async (req, res) => {
           winPercentage: team.record?.winPercentage || "0.000"
         }));
         
-        // Sort teams by YSBA criteria: Points desc, Win% desc, Wins desc, Run Differential desc
+        // Sort teams by YSBA criteria: Points desc, Games Played asc, Win% desc, Run Differential desc
         teams.sort((a, b) => {
           // 1. Points (descending)
           if (b.points !== a.points) return b.points - a.points;
           
-          // 2. Win Percentage (descending)
+          // 2. Games Played (ascending - fewer games = higher rank)
+          if (a.gamesPlayed !== b.gamesPlayed) return a.gamesPlayed - b.gamesPlayed;
+          
+          // 3. Win Percentage (descending)
           const aWinPct = parseFloat(a.winPercentage);
           const bWinPct = parseFloat(b.winPercentage);
           if (bWinPct !== aWinPct) return bWinPct - aWinPct;
-          
-          // 3. Wins (descending)
-          if (b.wins !== a.wins) return b.wins - a.wins;
           
           // 4. Run Differential (descending)
           return b.runDifferential - a.runDifferential;
