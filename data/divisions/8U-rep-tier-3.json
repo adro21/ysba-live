@@ -3,6 +3,24 @@
     "teams": [
       {
         "position": 3,
+        "team": "Vaughan Vikings 8U A",
+        "teamCode": "518946",
+        "record": {
+          "gamesPlayed": 4,
+          "wins": 4,
+          "losses": 0,
+          "ties": 0,
+          "winPercentage": "1.000"
+        },
+        "stats": {
+          "points": 8,
+          "runsFor": 83,
+          "runsAgainst": 29,
+          "runDifferential": 54
+        }
+      },
+      {
+        "position": 4,
         "team": "Markham Mariners 8U A",
         "teamCode": "511057",
         "record": {
@@ -17,24 +35,6 @@
           "runsFor": 76,
           "runsAgainst": 16,
           "runDifferential": 60
-        }
-      },
-      {
-        "position": 4,
-        "team": "Vaughan Vikings 8U A",
-        "teamCode": "518946",
-        "record": {
-          "gamesPlayed": 3,
-          "wins": 3,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": "1.000"
-        },
-        "stats": {
-          "points": 6,
-          "runsFor": 66,
-          "runsAgainst": 27,
-          "runDifferential": 39
         }
       },
       {
@@ -150,21 +150,21 @@
         "team": "Georgina Bulldogs 8U B",
         "teamCode": "511060",
         "record": {
-          "gamesPlayed": 3,
+          "gamesPlayed": 4,
           "wins": 0,
-          "losses": 3,
+          "losses": 4,
           "ties": 0,
           "winPercentage": "0.000"
         },
         "stats": {
           "points": 0,
-          "runsFor": 32,
-          "runsAgainst": 55,
-          "runDifferential": -23
+          "runsFor": 34,
+          "runsAgainst": 72,
+          "runDifferential": -38
         }
       }
     ],
-    "lastUpdated": "2025-06-09T18:47:29.627Z",
+    "lastUpdated": "2025-06-09T19:11:29.685Z",
     "totalTeams": 9
   },
   "schedule": {
@@ -314,7 +314,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-09T18:47:32.319Z"
+        "lastUpdated": "2025-06-09T19:11:32.275Z"
       },
       "511051": {
         "teamCode": "511051",
@@ -457,7 +457,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-09T18:47:32.319Z"
+        "lastUpdated": "2025-06-09T19:11:32.275Z"
       },
       "511052": {
         "teamCode": "511052",
@@ -604,7 +604,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-09T18:47:32.319Z"
+        "lastUpdated": "2025-06-09T19:11:32.275Z"
       },
       "511053": {
         "teamCode": "511053",
@@ -751,7 +751,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-09T18:47:32.319Z"
+        "lastUpdated": "2025-06-09T19:11:32.275Z"
       },
       "511054": {
         "teamCode": "511054",
@@ -902,7 +902,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-09T18:47:32.319Z"
+        "lastUpdated": "2025-06-09T19:11:32.275Z"
       },
       "511057": {
         "teamCode": "511057",
@@ -1045,7 +1045,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-09T18:47:32.319Z"
+        "lastUpdated": "2025-06-09T19:11:32.275Z"
       },
       "511059": {
         "teamCode": "511059",
@@ -1192,7 +1192,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-09T18:47:32.319Z"
+        "lastUpdated": "2025-06-09T19:11:32.275Z"
       },
       "511060": {
         "teamCode": "511060",
@@ -1237,8 +1237,12 @@
             "awayTeam": "Georgina Bulldogs 8U B",
             "awayTeamCode": "511060",
             "location": "Maple CC",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 17,
+              "away": 2,
+              "scoreText": "2-17"
+            }
           },
           {
             "date": "2025-06-05T18:00:00.000Z",
@@ -1331,7 +1335,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-09T18:47:32.319Z"
+        "lastUpdated": "2025-06-09T19:11:32.276Z"
       },
       "518946": {
         "teamCode": "518946",
@@ -1396,8 +1400,12 @@
             "awayTeam": "Georgina Bulldogs 8U B",
             "awayTeamCode": "511060",
             "location": "Maple CC",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 17,
+              "away": 2,
+              "scoreText": "2-17"
+            }
           }
         ],
         "nextGames": [
@@ -1462,7 +1470,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-09T18:47:32.319Z"
+        "lastUpdated": "2025-06-09T19:11:32.276Z"
       }
     },
     "allGames": [
@@ -1747,8 +1755,12 @@
         "awayTeam": "Georgina Bulldogs 8U B",
         "awayTeamCode": "511060",
         "location": "Maple CC",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 17,
+          "away": 2,
+          "scoreText": "2-17"
+        }
       },
       {
         "date": "2025-06-03T18:00:00.000Z",
@@ -2505,8 +2517,12 @@
         "awayTeam": "Georgina Bulldogs 8U B",
         "awayTeamCode": "511060",
         "location": "Maple CC",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 17,
+          "away": 2,
+          "scoreText": "2-17"
+        }
       },
       {
         "date": "2025-06-03T18:00:00.000Z",
@@ -2695,18 +2711,18 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-09T18:47:32.319Z",
+    "lastUpdated": "2025-06-09T19:11:32.276Z",
     "totalGames": 73
   },
   "summary": {
     "totalTeams": 9,
     "totalGames": 73,
-    "completedGames": 19,
-    "upcomingGames": 54,
+    "completedGames": 20,
+    "upcomingGames": 53,
     "topTeam": {
-      "team": "Markham Mariners 8U A",
-      "teamCode": "511057",
-      "wins": 3,
+      "team": "Vaughan Vikings 8U A",
+      "teamCode": "518946",
+      "wins": 4,
       "losses": 0,
       "winPercentage": "1.000"
     },
@@ -2719,6 +2735,6 @@
       "date": "Thu, May 29",
       "location": "Caledon Fairgrounds"
     },
-    "lastUpdated": "2025-06-09T18:53:17.088Z"
+    "lastUpdated": "2025-06-09T19:17:14.132Z"
   }
 }
