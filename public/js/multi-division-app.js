@@ -1363,15 +1363,46 @@ class MultiDivisionYSBAApp {
         }
     }
 
-    setupSubscriptionForm() {
+    async setupSubscriptionForm() {
         const form = document.getElementById('subscriptionForm');
         if (!form) return;
+
+        // Load and setup division checkboxes
+        await this.setupDivisionPreferences();
+
+        // Setup modal event listeners for FRESH division setup every time
+        const modal = document.getElementById('notificationsModal');
+        if (modal) {
+            modal.addEventListener('show.bs.modal', () => {
+                // REGENERATE division preferences with FRESH URL data every time modal opens
+                if (this.debug) {
+                    console.log('Modal opening - regenerating division preferences with fresh URL data');
+                }
+                this.setupDivisionPreferences();
+            });
+            
+            modal.addEventListener('shown.bs.modal', () => {
+                // Scroll to current division when modal is fully opened
+                const currentDivision = this.getCurrentDivisionKey();
+                if (currentDivision) {
+                    this.scrollToCurrentDivision(currentDivision);
+                }
+            });
+        }
 
         form.addEventListener('submit', async (e) => {
             e.preventDefault();
             
             const email = document.getElementById('subscriberEmail').value;
             const name = document.getElementById('subscriberName').value;
+            
+            // Get selected division preferences
+            const selectedDivisions = this.getSelectedDivisionPreferences();
+            
+            if (selectedDivisions.length === 0) {
+                this.showSubscriptionAlert('Please select at least one division to receive notifications for.', 'warning');
+                return;
+            }
             
             this.showSubscriptionLoading();
             
@@ -1382,6 +1413,8 @@ class MultiDivisionYSBAApp {
                     body: JSON.stringify({ 
                         email, 
                         name,
+                        divisionPreferences: selectedDivisions,
+                        // Legacy support
                         division: this.currentDivision,
                         tier: this.currentTier
                     })
@@ -1392,6 +1425,7 @@ class MultiDivisionYSBAApp {
                 if (result.success) {
                     this.showSubscriptionAlert('Successfully subscribed! You\'ll receive email notifications for standings changes.', 'success');
                     form.reset();
+                    this.resetDivisionPreferences();
                     this.loadSubscriberCount();
                 } else {
                     this.showSubscriptionAlert(result.message || 'Failed to subscribe. Please try again.', 'danger');
@@ -1403,6 +1437,462 @@ class MultiDivisionYSBAApp {
                 this.hideSubscriptionLoading();
             }
         });
+    }
+
+    async setupDivisionPreferences() {
+        try {
+            const response = await fetch('/api/available-divisions');
+            const data = await response.json();
+            
+            if (!data.success) {
+                console.error('Failed to load available divisions');
+                return;
+            }
+
+            const container = document.getElementById('divisionPreferences');
+            if (!container) return;
+
+            // FORCE fresh URL reading - completely ignore any cached instance variables
+            const urlParams = new URLSearchParams(window.location.search);
+            const pathParts = window.location.pathname.split('/').filter(part => part);
+            
+            let division = null;
+            let tier = null;
+            
+            // Check URL parameters first
+            if (urlParams.has('division') && urlParams.has('tier')) {
+                division = urlParams.get('division');
+                tier = urlParams.get('tier');
+            } 
+            // Then check path-based routing
+            else if (pathParts.length >= 2) {
+                division = pathParts[0];
+                tier = pathParts[1];
+            }
+            
+            const currentDivision = (division && tier) ? `${division}-${tier}` : null;
+            
+            if (this.debug) {
+                console.log('FRESH URL READ for division preferences:', {
+                    url: window.location.href,
+                    pathParts,
+                    urlParams: Object.fromEntries(urlParams),
+                    division,
+                    tier,
+                    currentDivision,
+                    ignoringCachedValues: {
+                        cachedDivision: this.currentDivision,
+                        cachedTier: this.currentTier
+                    }
+                });
+            }
+
+            // Group divisions by type
+            const repDivisions = data.divisions.filter(d => d.key.includes('-rep-'));
+            const selectDivisions = data.divisions.filter(d => d.key.includes('-select-'));
+
+            // Group rep divisions by age
+            const repByAge = this.groupRepDivisionsByAge(repDivisions);
+
+            let html = `
+                <div class="division-preferences-header">
+                    <label class="form-label">
+                        <i class="bi bi-envelope"></i>
+                        Choose which divisions to get notifications for
+                    </label>
+                    <div class="help-text">
+                        <small class="text-muted">
+                            <i class="bi bi-info-circle"></i>
+                            We'll email you when standings change for your selected divisions
+                        </small>
+                    </div>
+                </div>
+                
+                <div class="division-preferences-simple">
+                    <div class="choose-specific">
+                        <h6 class="choose-header">
+                            Select divisions:
+                            <span class="selection-badge">0 selected</span>
+                        </h6>
+                        
+                        <div class="divisions-list">
+            `;
+
+            // Group divisions by age for better organization
+            const divisionsByAge = {};
+            [...selectDivisions, ...repDivisions].forEach(division => {
+                const age = division.key.split('-')[0];
+                if (!divisionsByAge[age]) {
+                    divisionsByAge[age] = { select: [], rep: [] };
+                }
+                
+                if (division.key.includes('-select-')) {
+                    divisionsByAge[age].select.push(division);
+                } else if (division.key.includes('-rep-')) {
+                    divisionsByAge[age].rep.push(division);
+                }
+            });
+
+            // Sort ages numerically
+            const sortedAges = Object.keys(divisionsByAge).sort((a, b) => {
+                const aAge = parseInt(a);
+                const bAge = parseInt(b);
+                return aAge - bAge;
+            });
+
+            sortedAges.forEach(age => {
+                const ageGroups = divisionsByAge[age];
+                
+                // Add Select divisions first
+                ageGroups.select.forEach(division => {
+                    // Don't pre-select here, we'll do it after clearing
+                    html += this.renderDivisionOption(division, false);
+                });
+                
+                // Then add Rep divisions (sorted by tier)
+                const sortedRepDivisions = ageGroups.rep.sort((a, b) => {
+                    const aTier = a.key.includes('tier-2') ? 2 : a.key.includes('tier-3') ? 3 : 1;
+                    const bTier = b.key.includes('tier-2') ? 2 : b.key.includes('tier-3') ? 3 : 1;
+                    return aTier - bTier;
+                });
+                
+                sortedRepDivisions.forEach(division => {
+                    // Don't pre-select here, we'll do it after clearing
+                    html += this.renderDivisionOption(division, false);
+                });
+            });
+
+            html += `
+                        </div>
+                        
+                        <div class="selection-actions">
+                            <button type="button" class="btn-action-clear">
+                                <i class="bi bi-x-circle"></i>
+                                Clear All
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            `;
+
+            container.innerHTML = html;
+
+            // Clear any existing selections and set only the current division
+            setTimeout(() => {
+                // FORCE complete reset - clear everything first
+                this.clearAllDivisionSelections();
+                
+                // Re-read URL one more time to be absolutely sure
+                const freshUrlParams = new URLSearchParams(window.location.search);
+                const freshPathParts = window.location.pathname.split('/').filter(part => part);
+                let freshDivision = null;
+                let freshTier = null;
+                
+                if (freshUrlParams.has('division') && freshUrlParams.has('tier')) {
+                    freshDivision = freshUrlParams.get('division');
+                    freshTier = freshUrlParams.get('tier');
+                } else if (freshPathParts.length >= 2) {
+                    freshDivision = freshPathParts[0];
+                    freshTier = freshPathParts[1];
+                }
+                
+                const freshCurrentDivision = (freshDivision && freshTier) ? `${freshDivision}-${freshTier}` : null;
+                
+                if (freshCurrentDivision) {
+                    this.selectDivision(freshCurrentDivision);
+                    
+                    if (this.debug) {
+                        console.log('Applied FRESH selection for current page:', {
+                            freshCurrentDivision,
+                            url: window.location.href
+                        });
+                    }
+                }
+            }, 100);
+
+            // Setup interactive behaviors
+            this.setupDivisionPreferencesInteractions();
+
+            if (this.debug) {
+                console.log('Division preferences setup completed', { currentDivision, totalDivisions: data.divisions.length });
+            }
+        } catch (error) {
+            console.error('Error setting up division preferences:', error);
+        }
+    }
+
+    renderDivisionOption(division, isDefault) {
+        const parts = division.key.split('-');
+        const age = parts[0];
+        const type = parts[1]; // 'rep' or 'select'
+        const tier = parts[2]; // 'tier-2', 'tier-3', 'all-tiers', 'no-tier'
+        
+        let displayName = '';
+        let description = '';
+        
+        if (type === 'select') {
+            displayName = `${age} Select Baseball`;
+            description = 'All teams in this age group';
+        } else if (type === 'rep') {
+            if (tier === 'tier-2') {
+                displayName = `${age} Rep Baseball - AA`;
+                description = 'Tier 2 / AA level';
+            } else if (tier === 'tier-3') {
+                displayName = `${age} Rep Baseball - A`;
+                description = 'Tier 3 / A level';
+            } else if (tier === 'no-tier') {
+                displayName = `${age} Rep Baseball`;
+                description = 'All teams in this age group';
+            } else {
+                displayName = `${age} Rep Baseball`;
+                description = 'Rep level baseball';
+            }
+        }
+        
+        return `
+            <div class="division-option" data-value="${division.key}">
+                <label class="division-label" for="div_${division.key}">
+                    <input type="checkbox" id="div_${division.key}" value="${division.key}">
+                    <div class="division-info">
+                        <div class="division-name">${displayName}</div>
+                        <div class="division-desc">${description}</div>
+                    </div>
+                    <div class="check-indicator">
+                        <i class="bi bi-check-circle-fill"></i>
+                    </div>
+                </label>
+            </div>
+        `;
+    }
+
+    scrollToCurrentDivision(currentDivision) {
+        // Wait for modal to be fully open and rendered
+        setTimeout(() => {
+            const selectedOption = document.querySelector(`.division-option[data-value="${currentDivision}"]`);
+            const container = document.querySelector('.division-preferences-simple');
+            
+            if (this.debug) {
+                console.log('Scroll to current division:', {
+                    currentDivision,
+                    selectedOption: !!selectedOption,
+                    container: !!container
+                });
+            }
+            
+            if (selectedOption && container) {
+                // Calculate position within the container ONLY (no page jumping)
+                const containerRect = container.getBoundingClientRect();
+                const optionRect = selectedOption.getBoundingClientRect();
+                const relativeTop = selectedOption.offsetTop - container.offsetTop;
+                
+                // Calculate desired scroll position (option near top of container with some padding)
+                const padding = 60; // 60px from top
+                const targetScroll = Math.max(0, relativeTop - padding);
+                
+                if (this.debug) {
+                    console.log('Smooth scroll details:', {
+                        optionOffsetTop: selectedOption.offsetTop,
+                        containerOffsetTop: container.offsetTop,
+                        relativeTop: relativeTop,
+                        targetScroll: targetScroll,
+                        containerHeight: container.clientHeight
+                    });
+                }
+                
+                // Smooth scroll within container only
+                container.scrollTo({
+                    top: targetScroll,
+                    behavior: 'smooth'
+                });
+            }
+        }, 400); // Wait for modal animation
+    }
+
+    clearAllDivisionSelections() {
+        const container = document.getElementById('divisionPreferences');
+        if (!container) return;
+
+        // Uncheck all checkboxes and remove selected class
+        const checkboxes = container.querySelectorAll('input[type="checkbox"]');
+        const options = container.querySelectorAll('.division-option');
+        
+        checkboxes.forEach(cb => cb.checked = false);
+        options.forEach(option => option.classList.remove('selected'));
+        
+        // Update selection count
+        this.updateSelectionCount();
+    }
+
+    selectDivision(divisionKey) {
+        const container = document.getElementById('divisionPreferences');
+        if (!container) return;
+
+        const checkbox = container.querySelector(`input[value="${divisionKey}"]`);
+        const option = container.querySelector(`.division-option[data-value="${divisionKey}"]`);
+        
+        if (checkbox && option) {
+            checkbox.checked = true;
+            option.classList.add('selected');
+            
+            if (this.debug) {
+                console.log('Selected division:', divisionKey);
+            }
+        }
+        
+        // Update selection count
+        this.updateSelectionCount();
+    }
+
+    updateSelectionCount() {
+        const container = document.getElementById('divisionPreferences');
+        if (!container) return;
+
+        const selected = container.querySelectorAll('input[type="checkbox"]:checked').length;
+        const badge = container.querySelector('.selection-badge');
+        if (badge) {
+            badge.textContent = `${selected} selected`;
+            badge.style.display = selected > 0 ? 'inline' : 'none';
+        }
+    }
+
+    groupRepDivisionsByAge(repDivisions) {
+        const grouped = {};
+        repDivisions.forEach(division => {
+            const age = division.key.split('-')[0];
+            if (!grouped[age]) {
+                grouped[age] = [];
+            }
+            grouped[age].push(division);
+        });
+        return grouped;
+    }
+
+    getCurrentDivisionKey() {
+        // FORCE fresh URL reading - completely bypass any instance variables
+        const currentUrl = window.location.href;
+        const urlParams = new URLSearchParams(window.location.search);
+        const pathParts = window.location.pathname.split('/').filter(part => part);
+        
+        let division = null;
+        let tier = null;
+        
+        // Check URL parameters first
+        if (urlParams.has('division') && urlParams.has('tier')) {
+            division = urlParams.get('division');
+            tier = urlParams.get('tier');
+        } 
+        // Then check path-based routing
+        else if (pathParts.length >= 2) {
+            division = pathParts[0];
+            tier = pathParts[1];
+        }
+        
+        if (division && tier) {
+            const key = `${division}-${tier}`;
+            if (this.debug) {
+                console.log('getCurrentDivisionKey FORCED FRESH READ:', {
+                    currentUrl,
+                    pathParts,
+                    urlParams: Object.fromEntries(urlParams),
+                    division,
+                    tier,
+                    key,
+                    timestamp: new Date().toISOString()
+                });
+            }
+            return key;
+        }
+        
+        if (this.debug) {
+            console.log('getCurrentDivisionKey: No valid division found', {
+                currentUrl,
+                pathParts,
+                urlParams: Object.fromEntries(urlParams)
+            });
+        }
+        
+        return null;
+    }
+
+    getCurrentDivisionDisplay() {
+        if (!this.currentDivision || !this.currentTier) {
+            return 'Current Division';
+        }
+        
+        const age = this.currentDivision;
+        const tier = this.currentTier;
+        
+        if (tier === 'all-tiers') {
+            return `${age} Select Baseball`;
+        } else if (tier === 'tier-2') {
+            return `${age} Rep Baseball - AA`;
+        } else if (tier === 'tier-3') {
+            return `${age} Rep Baseball - A`;
+        } else if (tier === 'no-tier') {
+            return `${age} Rep Baseball`;
+        } else {
+            return `${age} ${tier}`;
+        }
+    }
+
+    setupDivisionPreferencesInteractions() {
+        const container = document.getElementById('divisionPreferences');
+        if (!container) return;
+
+        // Handle checkbox changes
+        container.addEventListener('change', (e) => {
+            if (e.target.type === 'checkbox') {
+                const option = e.target.closest('.division-option');
+                if (option) {
+                    option.classList.toggle('selected', e.target.checked);
+                }
+                this.updateSelectionCount();
+            }
+        });
+
+
+        // Handle clear all
+        container.addEventListener('click', (e) => {
+            if (e.target.closest('.btn-action-clear')) {
+                this.clearAllDivisionSelections();
+            }
+        });
+
+        // Initial count update
+        this.updateSelectionCount();
+    }
+
+    getSelectedDivisionPreferences() {
+        const checkboxes = document.querySelectorAll('#divisionPreferences input[type="checkbox"]:checked');
+        return Array.from(checkboxes).map(cb => cb.value);
+    }
+
+    resetDivisionPreferences() {
+        const checkboxes = document.querySelectorAll('#divisionPreferences input[type="checkbox"]');
+        checkboxes.forEach(checkbox => {
+            // Reset to default state (only current division checked if it exists)
+            const currentDivision = this.getCurrentDivisionKey();
+            checkbox.checked = checkbox.value === currentDivision;
+            
+            // Update pill visual state
+            const pill = checkbox.closest('.division-pill, .tier-pill');
+            if (pill) {
+                pill.classList.toggle('selected', checkbox.checked);
+            }
+        });
+        
+        // Update selection count
+        const container = document.getElementById('divisionPreferences');
+        if (container) {
+            const updateSelectionCount = () => {
+                const selected = container.querySelectorAll('input[type="checkbox"]:checked').length;
+                const countElement = container.querySelector('.selection-count');
+                if (countElement) {
+                    countElement.textContent = `${selected} selected`;
+                }
+            };
+            updateSelectionCount();
+        }
     }
 
     showSubscriptionLoading() {

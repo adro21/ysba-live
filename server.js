@@ -448,16 +448,25 @@ app.get('/api/schedule/all', async (req, res) => {
     }
 });
 
-// Subscribe to email notifications
+// Subscribe to email notifications with division preferences
 app.post('/api/subscribe', async (req, res) => {
     try {
-        const { email, name } = req.body;
+        const { email, name, divisionPreferences, division, tier } = req.body;
         
         if (!email) {
             return res.status(400).json({ error: 'Email is required' });
         }
 
-        const result = await emailService.addSubscriber(email, name);
+        // Handle division preferences - support both new format and legacy single division
+        let preferences = [];
+        if (divisionPreferences && Array.isArray(divisionPreferences)) {
+            preferences = divisionPreferences;
+        } else if (division && tier) {
+            // Legacy support: if division/tier provided, create preference key
+            preferences = [`${division}-${tier}`];
+        }
+
+        const result = await emailService.addSubscriber(email, name, preferences);
         
         if (result.success) {
             res.json(result);
@@ -527,7 +536,7 @@ app.get('/api/subscriber/:token', async (req, res) => {
 app.put('/api/subscriber/:token', async (req, res) => {
     try {
         const { token } = req.params;
-        const { name } = req.body;
+        const { name, divisionPreferences } = req.body;
 
         if (!token) {
             return res.status(400).json({ error: 'Token is required' });
@@ -535,6 +544,7 @@ app.put('/api/subscriber/:token', async (req, res) => {
 
         const updates = {};
         if (name !== undefined) updates.name = name;
+        if (divisionPreferences !== undefined) updates.divisionPreferences = divisionPreferences;
 
         const result = await emailService.updateSubscriber(token, updates);
         
@@ -604,6 +614,20 @@ app.get('/api/subscribers/count', async (req, res) => {
     } catch (error) {
         console.error('Error getting subscriber count:', error);
         res.status(500).json({ error: 'Failed to get subscriber count' });
+    }
+});
+
+// Get available divisions for subscription preferences
+app.get('/api/available-divisions', (req, res) => {
+    try {
+        const divisions = emailService.getAvailableDivisions();
+        res.json({
+            success: true,
+            divisions
+        });
+    } catch (error) {
+        console.error('Error getting available divisions:', error);
+        res.status(500).json({ error: 'Failed to get available divisions' });
     }
 });
 
@@ -767,6 +791,57 @@ app.post('/api/test-real-email', async (req, res) => {
     } catch (error) {
         console.error('Real data test email error:', error);
         res.status(500).json({ error: 'Failed to send real data test email' });
+    }
+});
+
+// Send test email for specific division (for testing notifications)
+app.post('/api/test-email/:division', async (req, res) => {
+    try {
+        const { division } = req.params;
+        const { testEmail } = req.body;
+        
+        if (!emailService.isConfigured) {
+            return res.status(500).json({ 
+                error: 'Email service not configured',
+                message: 'SendGrid API key not set'
+            });
+        }
+
+        // Generate mock standings data for testing
+        const mockStandings = [
+            { team: 'Test Team 1', wins: 5, losses: 2, winPercentage: '.714', position: 1 },
+            { team: 'Test Team 2', wins: 4, losses: 3, winPercentage: '.571', position: 2 },
+            { team: 'Test Team 3', wins: 3, losses: 4, winPercentage: '.429', position: 3 }
+        ];
+
+        const mockChanges = ['Test Team 1 moved up to #1 (was #2)', 'Test Team 2 dropped to #2 (was #1)'];
+
+        if (testEmail) {
+            // Send to specific email for testing
+            const result = await emailService.sendTestEmail(testEmail);
+            res.json({ 
+                success: true, 
+                message: `Test email sent to ${testEmail}`,
+                division 
+            });
+        } else {
+            // Send to actual subscribers for this division
+            const result = await emailService.sendDivisionStandingsUpdate(division, mockStandings, mockChanges);
+            res.json({ 
+                success: result.sent, 
+                count: result.count,
+                division: result.divisionDisplay || division,
+                message: result.sent 
+                    ? `Test notification sent to ${result.count} subscribers`
+                    : result.reason || 'No subscribers found'
+            });
+        }
+    } catch (error) {
+        console.error('Test email error:', error);
+        res.status(500).json({ 
+            error: 'Failed to send test email',
+            message: error.message 
+        });
     }
 });
 

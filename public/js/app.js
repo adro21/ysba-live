@@ -1266,6 +1266,9 @@ class YSBAStandingsApp {
         // Load subscriber count
         this.loadSubscriberCount();
         
+        // Setup division preferences first
+        await this.setupDivisionPreferences();
+        
         // Setup form submission
         this.setupSubscriptionForm();
     }
@@ -1294,6 +1297,13 @@ class YSBAStandingsApp {
             
             const email = document.getElementById('subscriberEmail').value;
             const name = document.getElementById('subscriberName').value;
+            const selectedDivisions = this.getSelectedDivisionPreferences();
+
+            // Validate that at least one division is selected
+            if (selectedDivisions.length === 0) {
+                this.showSubscriptionAlert('❌ Please select at least one division to receive notifications for.', 'error');
+                return;
+            }
 
             try {
                 this.showSubscriptionLoading();
@@ -1305,15 +1315,17 @@ class YSBAStandingsApp {
                     },
                     body: JSON.stringify({
                         email: email,
-                        name: name
+                        name: name,
+                        divisionPreferences: selectedDivisions
                     })
                 });
 
                 const result = await response.json();
 
                 if (response.ok && result.success) {
-                    this.showSubscriptionAlert('✅ Successfully subscribed! You\'ll receive notifications when standings change.', 'success');
+                    this.showSubscriptionAlert('✅ Successfully subscribed! You\'ll receive notifications when standings change for your selected divisions.', 'success');
                     form.reset();
+                    this.resetDivisionPreferences();
                     this.loadSubscriberCount(); // Refresh count
                 } else {
                     this.showSubscriptionAlert(`❌ ${result.message || 'Failed to subscribe. Please try again.'}`, 'error');
@@ -1340,7 +1352,7 @@ class YSBAStandingsApp {
         const submitBtn = document.querySelector('#subscriptionForm button[type="submit"]');
         if (submitBtn) {
             submitBtn.disabled = false;
-            submitBtn.innerHTML = '<i class="bi bi-envelope-plus"></i> Subscribe to Notifications';
+            submitBtn.innerHTML = '<i class="bi bi-envelope-plus"></i>&nbsp;&nbsp;Subscribe to Notifications';
         }
     }
 
@@ -1586,6 +1598,257 @@ class YSBAStandingsApp {
                 setTimeout(() => inThrottle = false, limit);
             }
         }
+    }
+
+    // Division preferences functionality
+    async setupDivisionPreferences() {
+        try {
+            const response = await fetch('/api/available-divisions');
+            const data = await response.json();
+            
+            if (!data.success) {
+                console.error('Failed to load available divisions');
+                return;
+            }
+
+            const container = document.getElementById('divisionPreferences');
+            if (!container) return;
+
+            // Get current division/tier from URL for default selection
+            const currentDivision = this.getCurrentDivisionKey();
+
+            // Group divisions by type
+            const repDivisions = data.divisions.filter(d => d.key.includes('-rep-'));
+            const selectDivisions = data.divisions.filter(d => d.key.includes('-select-'));
+
+            // Group rep divisions by age
+            const repByAge = this.groupRepDivisionsByAge(repDivisions);
+
+            let html = `
+                <div class="division-preferences-header">
+                    <label class="form-label">
+                        <i class="bi bi-list-check"></i>
+                        Select Divisions for Notifications
+                    </label>
+                    <div class="selection-summary">
+                        <span class="selection-count">0 selected</span>
+                        <button type="button" class="btn-clear-all">Clear All</button>
+                    </div>
+                </div>
+                
+                <div class="division-preferences-compact">
+                    <!-- Quick Actions -->
+                    <div class="quick-actions">
+                        <button type="button" class="btn-quick-action" data-action="select-all">
+                            <i class="bi bi-check-all"></i> Select All
+                        </button>
+                        <button type="button" class="btn-quick-action" data-action="select-rep">
+                            <i class="bi bi-trophy"></i> All Rep
+                        </button>
+                        <button type="button" class="btn-quick-action" data-action="select-select">
+                            <i class="bi bi-star"></i> All Select
+                        </button>
+                    </div>
+
+                    <!-- Select Divisions (Compact) -->
+                    <div class="division-section">
+                        <div class="section-header">
+                            <h6><i class="bi bi-star-fill"></i> Select Divisions</h6>
+                            <small class="text-muted">All teams in division</small>
+                        </div>
+                        <div class="division-pills">
+            `;
+
+            selectDivisions.forEach(division => {
+                const age = division.key.split('-')[0];
+                const isDefault = division.key === currentDivision;
+                html += `
+                    <label class="division-pill ${isDefault ? 'selected' : ''}" for="div_${division.key}">
+                        <input type="checkbox" id="div_${division.key}" value="${division.key}" ${isDefault ? 'checked' : ''}>
+                        <span class="pill-text">${age}</span>
+                    </label>
+                `;
+            });
+
+            html += `
+                        </div>
+                    </div>
+
+                    <!-- Rep Divisions (Grouped by Age) -->
+                    <div class="division-section">
+                        <div class="section-header">
+                            <h6><i class="bi bi-trophy-fill"></i> Rep Divisions</h6>
+                            <small class="text-muted">By tier level</small>
+                        </div>
+                        <div class="rep-divisions-grid">
+            `;
+
+            // Create rep divisions grouped by age
+            Object.keys(repByAge).sort((a, b) => parseInt(a) - parseInt(b)).forEach(age => {
+                const divisions = repByAge[age];
+                html += `
+                    <div class="age-group">
+                        <div class="age-label">${age}</div>
+                        <div class="tier-pills">
+                `;
+                
+                divisions.forEach(division => {
+                    const tierMatch = division.key.match(/tier-(\d+)|no-tier/);
+                    const tierLabel = tierMatch ? (tierMatch[1] ? `T${tierMatch[1]}` : 'All') : 'T?';
+                    const isDefault = division.key === currentDivision;
+                    
+                    html += `
+                        <label class="tier-pill ${isDefault ? 'selected' : ''}" for="div_${division.key}">
+                            <input type="checkbox" id="div_${division.key}" value="${division.key}" ${isDefault ? 'checked' : ''}>
+                            <span class="pill-text">${tierLabel}</span>
+                        </label>
+                    `;
+                });
+                
+                html += `
+                        </div>
+                    </div>
+                `;
+            });
+
+            html += `
+                        </div>
+                    </div>
+                </div>
+                
+                <small class="form-text text-muted">
+                    Select divisions to receive email notifications when standings change.
+                </small>
+            `;
+
+            container.innerHTML = html;
+
+            // Setup interactive behaviors
+            this.setupDivisionPreferencesInteractions();
+
+            if (this.debug) {
+                console.log('Division preferences setup completed', { currentDivision, totalDivisions: data.divisions.length });
+            }
+        } catch (error) {
+            console.error('Error setting up division preferences:', error);
+        }
+    }
+
+    groupRepDivisionsByAge(repDivisions) {
+        const grouped = {};
+        repDivisions.forEach(division => {
+            const age = division.key.split('-')[0];
+            if (!grouped[age]) {
+                grouped[age] = [];
+            }
+            grouped[age].push(division);
+        });
+        return grouped;
+    }
+
+    setupDivisionPreferencesInteractions() {
+        const container = document.getElementById('divisionPreferences');
+        if (!container) return;
+
+        // Update selection count
+        const updateSelectionCount = () => {
+            const selected = container.querySelectorAll('input[type="checkbox"]:checked').length;
+            const countElement = container.querySelector('.selection-count');
+            if (countElement) {
+                countElement.textContent = `${selected} selected`;
+            }
+        };
+
+        // Handle checkbox changes
+        container.addEventListener('change', (e) => {
+            if (e.target.type === 'checkbox') {
+                const pill = e.target.closest('.division-pill, .tier-pill');
+                if (pill) {
+                    pill.classList.toggle('selected', e.target.checked);
+                }
+                updateSelectionCount();
+            }
+        });
+
+        // Handle quick actions
+        container.addEventListener('click', (e) => {
+            const button = e.target.closest('[data-action]');
+            if (!button) return;
+
+            const action = button.dataset.action;
+            const checkboxes = container.querySelectorAll('input[type="checkbox"]');
+
+            switch (action) {
+                case 'select-all':
+                    checkboxes.forEach(cb => {
+                        cb.checked = true;
+                        const pill = cb.closest('.division-pill, .tier-pill');
+                        if (pill) pill.classList.add('selected');
+                    });
+                    break;
+                case 'select-rep':
+                    checkboxes.forEach(cb => {
+                        const isRep = cb.value.includes('-rep-');
+                        cb.checked = isRep;
+                        const pill = cb.closest('.division-pill, .tier-pill');
+                        if (pill) pill.classList.toggle('selected', isRep);
+                    });
+                    break;
+                case 'select-select':
+                    checkboxes.forEach(cb => {
+                        const isSelect = cb.value.includes('-select-');
+                        cb.checked = isSelect;
+                        const pill = cb.closest('.division-pill, .tier-pill');
+                        if (pill) pill.classList.toggle('selected', isSelect);
+                    });
+                    break;
+            }
+            updateSelectionCount();
+        });
+
+        // Handle clear all
+        container.addEventListener('click', (e) => {
+            if (e.target.closest('.btn-clear-all')) {
+                const checkboxes = container.querySelectorAll('input[type="checkbox"]');
+                checkboxes.forEach(cb => {
+                    cb.checked = false;
+                    const pill = cb.closest('.division-pill, .tier-pill');
+                    if (pill) pill.classList.remove('selected');
+                });
+                updateSelectionCount();
+            }
+        });
+
+        // Initial count update
+        updateSelectionCount();
+    }
+
+    getCurrentDivisionKey() {
+        // Try to determine current division from URL path
+        const path = window.location.pathname;
+        const pathMatch = path.match(/^\/([^\/]+)\/([^\/]+)/);
+        
+        if (pathMatch) {
+            const [, division, tier] = pathMatch;
+            return `${division}-${tier}`;
+        }
+        
+        // Fallback: return null for default page
+        return null;
+    }
+
+    getSelectedDivisionPreferences() {
+        const checkboxes = document.querySelectorAll('#divisionPreferences input[type="checkbox"]:checked');
+        return Array.from(checkboxes).map(cb => cb.value);
+    }
+
+    resetDivisionPreferences() {
+        const checkboxes = document.querySelectorAll('#divisionPreferences input[type="checkbox"]');
+        checkboxes.forEach(checkbox => {
+            // Reset to default state (only current division checked if it exists)
+            const currentDivision = this.getCurrentDivisionKey();
+            checkbox.checked = checkbox.value === currentDivision;
+        });
     }
 
     syncHeaderPosition() {

@@ -2296,4 +2296,293 @@
   .status-actions .dropdown .btn-compact.division-filter-active i {
     color: #FCBF24 !important;
   }
+}
+
+/* Division Preferences Styling - User-Friendly Design */
+.division-preferences {
+  margin-bottom: 1rem;
+}
+
+/* Header */
+.division-preferences-header {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.division-preferences-header .form-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: var(--gray-900);
+}
+
+.help-text {
+  margin-top: 0.5rem;
+}
+
+.help-text small {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  color: var(--gray-600);
+  font-size: 0.9rem;
+}
+
+/* Simple container */
+.division-preferences-simple {
+  background: var(--gray-50);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--gray-200);
+  padding: 1.5rem;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+/* Choose Specific */
+.choose-specific {
+  padding-top: 0;
+}
+
+.choose-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--gray-900);
+}
+
+/* Current Division Notice */
+.current-division-notice {
+  margin-bottom: 1rem;
+}
+
+.current-division-notice .alert {
+  background: #e3f2fd;
+  border: 1px solid #024220;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  margin: 0;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.current-division-notice .alert i {
+  color: #024220;
+  font-size: 1rem;
+}
+
+.selection-badge {
+  background: #024220;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.25rem 0.6rem;
+  border-radius: 12px;
+  display: none;
+}
+
+/* Divisions List */
+.divisions-list {
+  margin-bottom: 1rem;
+}
+
+.division-option {
+  background: white;
+  border: 2px solid var(--gray-200);
+  border-radius: 8px;
+  margin-bottom: 0.75rem;
+  transition: all 0.2s ease;
+  overflow: hidden;
+}
+
+.division-option:hover {
+  border-color: #024220;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transform: translateY(-1px);
+}
+
+.division-option.selected {
+  border-color: #024220;
+  background: #e3f2fd;
+  box-shadow: 0 0 0 2px rgba(2, 66, 32, 0.1);
+}
+
+.division-label {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  cursor: pointer;
+  margin: 0;
+  width: 100%;
+  gap: 1rem;
+}
+
+.division-label input[type="checkbox"] {
+  margin: 0;
+  width: 18px;
+  height: 18px;
+  accent-color: #024220;
+  cursor: pointer;
+}
+
+.division-info {
+  flex: 1;
+}
+
+.division-name {
+  font-weight: 600;
+  color: var(--gray-900);
+  font-size: 0.95rem;
+  margin-bottom: 0.25rem;
+}
+
+.division-desc {
+  color: var(--gray-600);
+  font-size: 0.8rem;
+}
+
+.check-indicator {
+  color: #024220;
+  font-size: 1.2rem;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.division-option.selected .check-indicator {
+  opacity: 1;
+}
+
+/* Selection Actions */
+.selection-actions {
+  text-align: center;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--gray-200);
+}
+
+.btn-action-clear {
+  background: none;
+  border: 1px solid var(--gray-200);
+  color: var(--gray-600);
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.btn-action-clear:hover {
+  border-color: #dc3545;
+  color: #dc3545;
+  background: #fff5f5;
+}
+
+/* Legacy checkbox grid support (fallback) */
+.checkbox-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+  padding: 1rem;
+  background: var(--gray-50);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--gray-200);
+}
+
+.checkbox-grid .form-check {
+  margin-bottom: 0;
+  padding: 0.5rem;
+  background: white;
+  border-radius: 6px;
+  border: 1px solid var(--gray-200);
+  transition: all 0.2s ease;
+}
+
+.checkbox-grid .form-check:hover {
+  border-color: #024220;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.checkbox-grid .form-check-input:checked ~ .form-check-label {
+  color: #024220;
+  font-weight: 600;
+}
+
+.checkbox-grid .form-check-input {
+  margin-top: 0.2rem;
+}
+
+.checkbox-grid .form-check-label {
+  font-size: 0.9rem;
+  color: var(--gray-600);
+  margin-left: 0.5rem;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .division-preferences-header .form-label {
+    font-size: 1rem;
+  }
+  
+  .division-preferences-simple {
+    padding: 1rem;
+    max-height: 350px;
+  }
+  
+  .choose-specific {
+    padding-top: 0;
+  }
+  
+  .choose-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  
+  .selection-badge {
+    align-self: flex-end;
+  }
+  
+  .division-label {
+    padding: 0.75rem;
+    gap: 0.75rem;
+  }
+  
+  .division-name {
+    font-size: 0.9rem;
+  }
+  
+  .division-desc {
+    font-size: 0.75rem;
+  }
+  
+  .btn-action-clear {
+    font-size: 0.8rem;
+    padding: 0.4rem 0.8rem;
+  }
+  
+  /* Legacy support */
+  .checkbox-grid {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+    padding: 0.75rem;
+  }
+  
+  .checkbox-grid .form-check {
+    padding: 0.75rem;
+  }
 } 

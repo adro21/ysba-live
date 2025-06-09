@@ -635,7 +635,7 @@ app.get('/api/team/:teamCode/schedule', async (req, res) => {
 // Email subscription endpoints (keep existing functionality)
 app.post('/api/subscribe', async (req, res) => {
   try {
-    const { email, divisions } = req.body;
+    const { email, name, divisionPreferences, divisions } = req.body;
     
     if (!email || !email.includes('@')) {
       return res.status(400).json({ 
@@ -644,7 +644,10 @@ app.post('/api/subscribe', async (req, res) => {
       });
     }
 
-    const result = await emailService.addSubscriber(email, divisions);
+    // Support both new format (divisionPreferences) and legacy format (divisions)
+    const prefs = divisionPreferences || divisions;
+    
+    const result = await emailService.addSubscriber(email, prefs, name);
     res.json(result);
   } catch (error) {
     console.error('Subscription error:', error);
@@ -698,6 +701,73 @@ app.post('/api/unsubscribe-token', async (req, res) => {
       success: false, 
       message: 'Failed to process unsubscribe request',
       error: error.message 
+    });
+  }
+});
+
+// Get subscriber info by token (for manage page)
+app.get('/api/subscriber/:token', async (req, res) => {
+  try {
+    const { token } = req.params;
+    const subscriber = await emailService.getSubscriberByToken(token);
+    
+    if (!subscriber) {
+      return res.status(404).json({
+        success: false,
+        error: 'Subscriber not found or invalid token'
+      });
+    }
+
+    res.json({
+      success: true,
+      email: subscriber.email,
+      name: subscriber.name || '',
+      divisionPreferences: subscriber.divisionPreferences || [],
+      subscribedAt: subscriber.subscribedAt
+    });
+  } catch (error) {
+    console.error('Get subscriber error:', error);
+    res.status(500).json({
+      success: false,
+      error: 'Failed to load subscriber information'
+    });
+  }
+});
+
+// Update subscriber preferences
+app.put('/api/subscriber/:token', async (req, res) => {
+  try {
+    const { token } = req.params;
+    const { name, divisionPreferences } = req.body;
+
+    const result = await emailService.updateSubscriber(token, {
+      name,
+      divisionPreferences
+    });
+
+    res.json(result);
+  } catch (error) {
+    console.error('Update subscriber error:', error);
+    res.status(500).json({
+      success: false,
+      error: 'Failed to update subscriber preferences'
+    });
+  }
+});
+
+// Get available divisions for subscription
+app.get('/api/available-divisions', (req, res) => {
+  try {
+    const divisions = emailService.getAvailableDivisions();
+    res.json({
+      success: true,
+      divisions: divisions
+    });
+  } catch (error) {
+    console.error('Get available divisions error:', error);
+    res.status(500).json({
+      success: false,
+      error: 'Failed to load available divisions'
     });
   }
 });

@@ -355,8 +355,8 @@ class EmailService {
         }
     }
 
-    // Add new email subscriber (simplified - no team preference)
-    async addSubscriber(email, name = '') {
+    // Add new email subscriber with division preferences
+    async addSubscriber(email, name = '', divisionPreferences = []) {
         const subscribers = await this.loadSubscribers();
         
         // Check if already subscribed
@@ -365,12 +365,16 @@ class EmailService {
             return { success: false, message: 'Email already subscribed' };
         }
 
+        // Validate and normalize division preferences
+        const normalizedPreferences = this.normalizeDivisionPreferences(divisionPreferences);
+
         // Add new subscriber
         const newSubscriber = {
             id: this.generateToken(),
             email: email.toLowerCase().trim(),
             name: name.trim(),
-            teamFilter: 'all', // Always 'all' since we removed team-specific subscriptions
+            divisionPreferences: normalizedPreferences, // New multi-division support
+            teamFilter: 'all', // Legacy field for backward compatibility
             subscribedAt: new Date().toISOString(),
             updatedAt: new Date().toISOString(),
             active: true
@@ -379,8 +383,51 @@ class EmailService {
         subscribers.push(newSubscriber);
         await this.saveSubscribers(subscribers);
 
-        console.log(`📧 New subscriber added: ${email}`);
+        console.log(`📧 New subscriber added: ${email} with ${normalizedPreferences.length} division preferences`);
         return { success: true, message: 'Successfully subscribed to notifications!' };
+    }
+
+    // Normalize and validate division preferences
+    normalizeDivisionPreferences(preferences) {
+        if (!Array.isArray(preferences)) {
+            // Legacy support - if string provided, assume it's a single division
+            if (typeof preferences === 'string') {
+                return [preferences];
+            }
+            return [];
+        }
+
+        // Filter out invalid entries and ensure proper format
+        return preferences
+            .filter(pref => pref && typeof pref === 'string')
+            .map(pref => pref.trim())
+            .filter(pref => pref.length > 0);
+    }
+
+    // Get available divisions for preference selection
+    getAvailableDivisions() {
+        return [
+            { key: '8U-rep-tier-3', display: '8U Rep - Tier 3' },
+            { key: '9U-rep-tier-3', display: '9U Rep - Tier 3' },
+            { key: '9U-select-all-tiers', display: '9U Select - All Teams' },
+            { key: '10U-rep-tier-2', display: '10U Rep - Tier 2' },
+            { key: '10U-rep-tier-3', display: '10U Rep - Tier 3' },
+            { key: '11U-rep-tier-2', display: '11U Rep - Tier 2' },
+            { key: '11U-rep-tier-3', display: '11U Rep - Tier 3' },
+            { key: '11U-select-all-tiers', display: '11U Select - All Teams' },
+            { key: '12U-rep-tier-2', display: '12U Rep - Tier 2' },
+            { key: '12U-rep-tier-3', display: '12U Rep - Tier 3' },
+            { key: '13U-rep-tier-2', display: '13U Rep - Tier 2' },
+            { key: '13U-rep-tier-3', display: '13U Rep - Tier 3' },
+            { key: '13U-select-all-tiers', display: '13U Select - All Teams' },
+            { key: '14U-rep-tier-3', display: '14U Rep - Tier 3' },
+            { key: '15U-rep-tier-2', display: '15U Rep - Tier 2' },
+            { key: '15U-rep-tier-3', display: '15U Rep - Tier 3' },
+            { key: '15U-select-all-tiers', display: '15U Select - All Teams' },
+            { key: '16U-rep-tier-2', display: '16U Rep - Tier 2' },
+            { key: '18U-rep-no-tier', display: '18U Rep - All Teams' },
+            { key: '22U-rep-no-tier', display: '22U Rep - All Teams' },
+        ];
     }
 
     // Update subscriber preferences
@@ -392,13 +439,17 @@ class EmailService {
             return { success: false, message: 'Subscriber not found' };
         }
 
-        // Update allowed fields (removed teamFilter since it's always 'all')
-        const allowedUpdates = ['name', 'active'];
+        // Update allowed fields (now including divisionPreferences)
+        const allowedUpdates = ['name', 'active', 'divisionPreferences'];
         const filteredUpdates = {};
         
         for (const key of allowedUpdates) {
             if (updates.hasOwnProperty(key)) {
-                filteredUpdates[key] = updates[key];
+                if (key === 'divisionPreferences') {
+                    filteredUpdates[key] = this.normalizeDivisionPreferences(updates[key]);
+                } else {
+                    filteredUpdates[key] = updates[key];
+                }
             }
         }
 
@@ -455,10 +506,26 @@ class EmailService {
         return { success: true, message: 'Successfully unsubscribed', email: subscriber.email };
     }
 
-    // Get active subscribers (simplified since no team filtering needed)
-    async getActiveSubscribers() {
+    // Get active subscribers for a specific division/tier
+    async getActiveSubscribers(divisionFilter = null) {
         const subscribers = await this.loadSubscribers();
-        return subscribers.filter(sub => sub.active);
+        let activeSubscribers = subscribers.filter(sub => sub.active);
+
+        // If no division filter specified, return all active subscribers
+        if (!divisionFilter) {
+            return activeSubscribers;
+        }
+
+        // Filter subscribers based on their division preferences
+        return activeSubscribers.filter(subscriber => {
+            // Legacy support: if no divisionPreferences, assume they want all notifications
+            if (!subscriber.divisionPreferences || !Array.isArray(subscriber.divisionPreferences)) {
+                return true;
+            }
+
+            // Check if subscriber has preferences for this specific division
+            return subscriber.divisionPreferences.includes(divisionFilter);
+        });
     }
 
     // Safely reactivate subscribers (for fixing accidental deactivations)
@@ -494,25 +561,28 @@ class EmailService {
         };
     }
 
-    // Send standings update notification
-    async sendStandingsUpdate(standingsData, changes = []) {
+    // Send division-specific standings update notification
+    async sendDivisionStandingsUpdate(divisionKey, standingsData, changes = []) {
         if (!this.isConfigured) {
             console.log('📧 Email notifications disabled - SendGrid not configured');
             return;
         }
 
-        const subscribers = await this.getActiveSubscribers();
+        // Get subscribers who want notifications for this specific division
+        const subscribers = await this.getActiveSubscribers(divisionKey);
         if (subscribers.length === 0) {
-            console.log('📧 No subscribers to notify');
-            return;
+            console.log(`📧 No subscribers for division ${divisionKey} to notify`);
+            return { sent: false, reason: 'No subscribers for division', divisionKey };
         }
 
-        // Create descriptive subject based on changes AND game results
-        // We need to detect game results for the subject even though we don't display them in the email
-        let subject = '⚾ YSBA 9U Standings Updated!';
+        // Get division display name
+        const availableDivisions = this.getAvailableDivisions();
+        const divisionInfo = availableDivisions.find(div => div.key === divisionKey);
+        const divisionDisplay = divisionInfo ? divisionInfo.display : divisionKey;
+
+        // Create descriptive subject based on changes
+        let subject = `⚾ YSBA ${divisionDisplay} Standings Updated!`;
         
-        // For the subject line, we still want to check if there were any game results
-        // even though we don't display them in the content
         const gameChanges = this.previousStandings ? 
             changes.filter(change => change.includes('→')).length : 0;
         
@@ -526,17 +596,17 @@ class EmailService {
         const formattedDate = date.toLocaleDateString('en-US', options);
         
         if (gameChanges > 0) {
-            subject = `⚾ ${gameChanges} New Game Results - ${formattedDate}`;
+            subject = `⚾ ${divisionDisplay} - ${gameChanges} New Game Results - ${formattedDate}`;
         } else if (positionChanges > 0) {
-            subject = `⚾ ${positionChanges} Position Changes - ${formattedDate}`;
+            subject = `⚾ ${divisionDisplay} - ${positionChanges} Position Changes - ${formattedDate}`;
         }
 
         // Send email to each subscriber
         let sentCount = 0;
         for (const subscriber of subscribers) {
             try {
-                const html = this.generateStandingsEmail(standingsData, changes, subscriber);
-                const text = this.generateStandingsTextEmail(standingsData, changes, subscriber);
+                const html = this.generateStandingsEmail(standingsData, changes, subscriber, divisionDisplay);
+                const text = this.generateStandingsTextEmail(standingsData, changes, subscriber, divisionDisplay);
                 await this.sendEmail(subscriber.email, subject, html, text);
                 sentCount++;
             } catch (error) {
@@ -544,8 +614,13 @@ class EmailService {
             }
         }
 
-        console.log(`📧 Sent standings update to ${sentCount}/${subscribers.length} subscribers`);
-        return { sent: sentCount > 0, count: sentCount };
+        console.log(`📧 Sent ${divisionDisplay} update to ${sentCount}/${subscribers.length} subscribers`);
+        return { sent: sentCount > 0, count: sentCount, divisionKey, divisionDisplay };
+    }
+
+    // Send standings update notification (legacy - now delegates to division-specific method)
+    async sendStandingsUpdate(standingsData, changes = [], divisionKey = '9U-select-all-tiers') {
+        return this.sendDivisionStandingsUpdate(divisionKey, standingsData, changes);
     }
 
     // Send team-specific standings update notification
@@ -669,8 +744,8 @@ class EmailService {
     }
 
     // Generate HTML email for standings update
-    generateStandingsEmail(standingsData, changes, subscriber = null) {
-        console.log('📧 Using MOBILE-OPTIMIZED email template v4'); // Updated version marker
+    generateStandingsEmail(standingsData, changes, subscriber = null, divisionDisplay = 'YSBA') {
+        console.log('📧 Using MOBILE-OPTIMIZED email template v5 with multi-division support'); // Updated version marker
         const topTeams = standingsData.slice(0, 5);
         
         let changesHtml = '';
@@ -697,13 +772,13 @@ class EmailService {
                         <a href="${manageUrl}" style="color: #1e40af; text-decoration: none;">⚙️ Manage Preferences</a> | 
                         <a href="${unsubscribeUrl}" style="color: #dc2626; text-decoration: none;">Unsubscribe</a>
                     </p>
-                    <p style="margin: 0;">YSBA 9U Select Division • Automated Standings Updates</p>
+                    <p style="margin: 0;">YSBA ${divisionDisplay} • Automated Standings Updates</p>
                 </div>
             `;
         } else {
             managementLinks = `
                 <div style="text-align: center; margin-top: 20px; padding-top: 20px; border-top: 1px solid #e5e7eb; color: #666; font-size: 12px;">
-                    <p>YSBA 9U Select Division • Automated Standings Updates</p>
+                    <p>YSBA ${divisionDisplay} • Automated Standings Updates</p>
                 </div>
             `;
         }
@@ -720,8 +795,8 @@ class EmailService {
                 <div style="background-color: white; border-radius: 12px; padding: 24px; box-shadow: 0 4px 8px rgba(0,0,0,0.05);">
                     <div style="text-align: center; margin-bottom: 25px;">
                         <div style="font-size: 40px; margin-bottom: 8px;">⚾</div>
-                        <h1 style="color: #1e40af; margin: 0; font-size: 24px;">YSBA 9U Standings</h1>
-                        <p style="color: #666; margin: 8px 0 0 0; font-size: 15px;">Select Division Update</p>
+                        <h1 style="color: #1e40af; margin: 0; font-size: 24px;">YSBA Standings</h1>
+                        <p style="color: #666; margin: 8px 0 0 0; font-size: 15px;">${divisionDisplay} Update</p>
                     </div>
 
                     ${changesHtml}
@@ -803,7 +878,7 @@ class EmailService {
     }
 
     // Generate plain text email for standings update
-    generateStandingsTextEmail(standingsData, changes, subscriber = null) {
+    generateStandingsTextEmail(standingsData, changes, subscriber = null, divisionDisplay = 'YSBA') {
         const topTeams = standingsData.slice(0, 5);
         
         let changesText = '';
@@ -819,7 +894,7 @@ class EmailService {
         }
 
         return `
-⚾ YSBA 9U STANDINGS UPDATE
+⚾ YSBA ${divisionDisplay.toUpperCase()} STANDINGS UPDATE
 
 ${changesText}
 🏆 CURRENT STANDINGS:
