@@ -1199,7 +1199,7 @@ class MultiDivisionYSBAApp {
 
         tabsContainer.innerHTML = `
             <button class="schedule-tab" data-tab="played">
-                Played (${playedGames.length})
+                Historical (${playedGames.length})
             </button>
             <button class="schedule-tab" data-tab="upcoming">
                 Upcoming (${upcomingGames.length})
