@@ -120,15 +120,16 @@ app.get('/api/standings', async (req, res) => {
     
     // Try individual division file first (most specific)
     try {
-      // Handle tier mapping: remove redundant prefixes
-      let cleanTier = targetTier;
+      // Normalize tier key - remove redundant prefixes if they exist
+      let normalizedTier = targetTier;
       if (targetDivision.endsWith('-rep') && targetTier.startsWith('rep-')) {
-        cleanTier = targetTier.substring(4); // Remove "rep-" prefix
+        normalizedTier = targetTier.substring(4); // Remove "rep-" prefix
       } else if (targetDivision.endsWith('-select') && targetTier.startsWith('select-')) {
-        cleanTier = targetTier.substring(7); // Remove "select-" prefix
+        normalizedTier = targetTier.substring(7); // Remove "select-" prefix  
       }
       
-      const fileName = `${targetDivision}-${cleanTier}.json`;
+      // Division files use clean naming: 8U-rep-tier-3.json, 9U-select-all-tiers.json
+      const fileName = `${targetDivision}-${normalizedTier}.json`;
       
       const divisionPath = path.join(__dirname, 'public', 'divisions', fileName);
       console.log(`Looking for division file: ${divisionPath}`);
@@ -211,11 +212,16 @@ app.get('/api/standings', async (req, res) => {
       let divisionKey = targetDivision.replace('-select', '').replace('-rep', '');
       let tierKey = targetTier;
       
-      // Handle special cases for tier mapping
+      // Handle special cases for tier mapping - ensure we use the correct keys for data lookup
       if (targetDivision.includes('select')) {
         tierKey = 'select-all-tiers';
       } else if (targetDivision.includes('rep')) {
-        tierKey = `rep-${targetTier}`;
+        // For rep divisions, check if the tier already has rep- prefix, if not add it for data lookup
+        if (!targetTier.startsWith('rep-') && targetTier !== 'no-tier') {
+          tierKey = `rep-${targetTier}`;
+        } else {
+          tierKey = targetTier;
+        }
       }
       
       const divisionData = standingsData.divisions[divisionKey];
@@ -324,15 +330,32 @@ app.get('/api/divisions', async (req, res) => {
             if (tier.key === 'select-all-tiers') {
               displayName = 'All Teams'; // More friendly than "All Tiers" for select
             } else {
-              displayName = tier.key.split('-').map(word => 
+              // Remove redundant rep/select prefixes from tier display names
+              let cleanKey = tier.key;
+              if (cleanKey.startsWith('rep-')) {
+                cleanKey = cleanKey.substring(4); // Remove "rep-" prefix
+              } else if (cleanKey.startsWith('select-')) {
+                cleanKey = cleanKey.substring(7); // Remove "select-" prefix
+              }
+              
+              displayName = cleanKey.split('-').map(word => 
                 word.charAt(0).toUpperCase() + word.slice(1)
               ).join(' ');
             }
             
-            tiers[tier.key] = {
+            // Generate clean tier key for API response (remove redundant prefixes)
+            let cleanTierKey = tier.key;
+            if (cleanTierKey.startsWith('rep-')) {
+              cleanTierKey = cleanTierKey.substring(4); // Remove "rep-" prefix
+            } else if (cleanTierKey.startsWith('select-')) {
+              cleanTierKey = cleanTierKey.substring(7); // Remove "select-" prefix
+            }
+            
+            tiers[cleanTierKey] = {
               displayName,
               teams: tier.teams,
-              games: tier.games
+              games: tier.games,
+              originalKey: tier.key // Keep original key for internal mapping if needed
             };
           });
         }
@@ -343,8 +366,8 @@ app.get('/api/divisions', async (req, res) => {
         }
         
         // Add division type suffixes for proper routing
-        const repDivision = Object.keys(tiers).some(t => t.includes('rep'));
-        const selectDivision = Object.keys(tiers).some(t => t.includes('select'));
+        const repDivision = division.tiers && Array.isArray(division.tiers) && division.tiers.some(t => t.key.includes('rep'));
+        const selectDivision = division.tiers && Array.isArray(division.tiers) && division.tiers.some(t => t.key.includes('select'));
         
         if (repDivision) {
           divisions[`${key}-rep`] = {
@@ -355,7 +378,9 @@ app.get('/api/divisions', async (req, res) => {
               accent: '#facc15'
             },
             tiers: Object.fromEntries(
-              Object.entries(tiers).filter(([tierKey]) => tierKey.includes('rep'))
+              Object.entries(tiers).filter(([tierKey, tierData]) => 
+                tierData.originalKey && tierData.originalKey.includes('rep')
+              )
             ),
             features: {
               divisionFilter: false,
@@ -377,7 +402,9 @@ app.get('/api/divisions', async (req, res) => {
               accent: '#facc15'
             },
             tiers: Object.fromEntries(
-              Object.entries(tiers).filter(([tierKey]) => tierKey.includes('select'))
+              Object.entries(tiers).filter(([tierKey, tierData]) => 
+                tierData.originalKey && tierData.originalKey.includes('select')
+              )
             ),
             features: configDivision?.features || {
               divisionFilter: false,
@@ -480,15 +507,16 @@ app.get('/api/team/:teamCode/schedule', async (req, res) => {
     const targetDivision = division || '9U-select';
     const targetTier = tier || 'all-tiers';
     
-    // Handle tier mapping: remove redundant prefixes
-    let cleanTier = targetTier;
+    // Normalize tier key - remove redundant prefixes if they exist
+    let normalizedTier = targetTier;
     if (targetDivision.endsWith('-rep') && targetTier.startsWith('rep-')) {
-      cleanTier = targetTier.substring(4); // Remove "rep-" prefix
+      normalizedTier = targetTier.substring(4); // Remove "rep-" prefix
     } else if (targetDivision.endsWith('-select') && targetTier.startsWith('select-')) {
-      cleanTier = targetTier.substring(7); // Remove "select-" prefix
+      normalizedTier = targetTier.substring(7); // Remove "select-" prefix  
     }
     
-    const fileName = `${targetDivision}-${cleanTier}.json`;
+    // Division files use clean naming: 8U-rep-tier-3.json, 9U-select-all-tiers.json
+    const fileName = `${targetDivision}-${normalizedTier}.json`;
     
     // Try to get from individual division file
     try {
@@ -592,7 +620,7 @@ app.get('/api/team/:teamCode/schedule', async (req, res) => {
     console.error('Error serving team schedule:', error);
     res.status(500).json({
       success: false,
-      message: error.message || 'Failed to load team schedule',
+      message: 'Failed to load team schedule',
       data: {
         allGames: [],
         playedGames: [],

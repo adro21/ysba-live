@@ -120,7 +120,7 @@
   flex-wrap: wrap;
   gap: var(--spacing-md);
   padding-bottom:20px;
-  border-bottom: 1px solid rgba(var(--theme-primary-rgb, 2, 66, 32), 0.6);
+  border-bottom: 1px solid #041c0f;
 }
 
 .brand-section {
@@ -161,7 +161,6 @@
   text-transform: uppercase;
   color: white;
   margin-bottom: 3px;
-  letter-spacing: -0.035em;
   /* Enhanced pressed effect for dark background */
   /* text-shadow: 
     0 1px 0 rgba(255, 255, 255, 0.1),
@@ -257,9 +256,8 @@
 }
 
 .mega-menu-header {
-  margin-bottom: var(--spacing-lg);
+  margin-bottom: var(--spacing-md);
   padding-bottom: var(--spacing-md);
-  border-bottom: 1px solid #f3f4f6;
 }
 
 .mega-menu-title {
@@ -662,7 +660,7 @@
   align-items: center;
   gap: var(--spacing-md);
   padding: var(--spacing-xs) 0;
-  border-top: 1px solid rgba(var(--theme-primary-rgb, 2, 66, 32), 0.4);
+  border-top: 1px solid #27553c;
   flex-wrap: wrap;
   color: white;
 }
@@ -1075,8 +1073,8 @@
 }
 
 .pos-col {
-  width: 50px;
-  min-width: 50px;
+  width: 40px;
+  min-width: 40px;
   text-align: center;
 }
 
@@ -1087,8 +1085,8 @@
 }
 
 .stat-col {
-  width: 45px;
-  min-width: 45px;
+  width: 40px;
+  min-width: 40px;
   text-align: center;
 }
 
@@ -1990,7 +1988,7 @@
 }
 
 .swipe-content i {
-    animation: swipeLeft 2s ease-in-out infinite;
+    animation: swipeLeft 1.5s ease-in-out infinite;
     color: #9ca3af;
 }
 
@@ -2004,8 +2002,8 @@
         color: #9ca3af;
     }
     50% {
-        transform: translateX(-4px);
-        color: #6b7280;
+        transform: translateX(-8px);
+        color: #4d535e;
     }
 }
 
@@ -2145,8 +2143,8 @@
 
 .standings-table tbody tr.filter-hidden {
   opacity: 0;
-  transform: translateY(-5px) scale(0.99);
-  max-height: 0;
+}
+
   overflow: hidden;
   padding: 0;
   border: none;

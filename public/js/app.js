@@ -497,7 +497,7 @@ class YSBAStandingsApp {
         // Clear any existing interval
         this.stopStatusUpdates();
         
-        // Start polling for status updates every 1.5 seconds for faster updates
+        // Start polling for status updates every 5 seconds for reasonable updates
         this.statusUpdateInterval = setInterval(async () => {
             try {
                 const response = await fetch('/api/status');
@@ -518,7 +518,7 @@ class YSBAStandingsApp {
             } catch (error) {
                 console.error('Error updating status:', error);
             }
-        }, 1500); // Poll every 1.5 seconds during active caching for more responsive updates
+        }, 5000); // Poll every 5 seconds during active caching for reasonable updates
     }
 
     stopStatusUpdates() {

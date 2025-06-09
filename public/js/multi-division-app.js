@@ -26,6 +26,9 @@ class MultiDivisionYSBAApp {
         this.nextRefreshCountdown = null;
         this.lastUpdatedCountdown = null;
         
+        // Track initial load for fade-in animation
+        this.isInitialLoad = true;
+        
         this.init();
     }
 
@@ -658,21 +661,28 @@ class MultiDivisionYSBAApp {
             });
         }
 
-        // Auto-refresh when page becomes visible
+        // Auto-refresh when page becomes visible (with debouncing)
+        let visibilityTimeout;
         document.addEventListener('visibilitychange', () => {
             if (!document.hidden && this.shouldAutoRefresh()) {
-                this.loadStandings();
+                // Add 1-second delay to prevent rapid refreshes
+                clearTimeout(visibilityTimeout);
+                visibilityTimeout = setTimeout(() => {
+                    this.loadStandings();
+                }, 1000);
             }
         });
     }
 
-    async loadStandings(forceRefresh = false) {
+    async loadStandings(forceRefresh = false, silent = false) {
         if (this.isLoading && !forceRefresh) return;
 
         this.isLoading = true;
         
-        // Always show loading state, whether it's initial load or refresh
-        this.showLoadingState();
+        // Only show loading state if not a silent refresh (prevents auto-refresh flash)
+        if (!silent) {
+            this.showLoadingState();
+        }
 
         try {
             const params = new URLSearchParams({
@@ -825,12 +835,12 @@ class MultiDivisionYSBAApp {
         existingRows.forEach(row => row.classList.add('filter-hidden'));
         
         setTimeout(() => {
-            this.displayFilteredStandings(this.currentDivisionFilter);
+            this.displayFilteredStandings(this.currentDivisionFilter, true); // isFiltering = true
             standingsTable.classList.remove('filtering');
         }, 150);
     }
 
-    displayFilteredStandings(division) {
+    displayFilteredStandings(division, isFiltering = false) {
         const tbody = document.getElementById('standingsTableBody');
         if (!tbody) return;
         
@@ -841,6 +851,10 @@ class MultiDivisionYSBAApp {
         filteredTeams.forEach((team, index) => {
             const row = this.createTeamRow(team, index + 1);
             row.classList.add('filter-visible');
+            // Only add fade-in during actual filtering, not during data refresh
+            if (isFiltering) {
+                row.classList.add('fade-in');
+            }
             row.style.opacity = '';
             row.style.transform = '';
             row.style.transition = '';
@@ -856,7 +870,13 @@ class MultiDivisionYSBAApp {
             return;
         }
 
-        this.displayFilteredStandings(this.currentDivisionFilter);
+        // Show fade-in animation on initial load or when filtering
+        const shouldAnimate = this.isInitialLoad;
+        this.displayFilteredStandings(this.currentDivisionFilter, shouldAnimate);
+        
+        // Mark initial load as complete
+        this.isInitialLoad = false;
+        
         if (this.divisionConfig?.features.divisionFilter) {
             this.updateDivisionFilterUI(this.currentDivisionFilter);
         }
@@ -967,7 +987,8 @@ class MultiDivisionYSBAApp {
         
         this.autoRefreshInterval = setInterval(() => {
             if (this.autoRefreshEnabled && !document.hidden && this.shouldAutoRefresh()) {
-                this.loadStandings();
+                // Use silent refresh to prevent loading state flash
+                this.loadStandings(false, true); // forceRefresh=false, silent=true
             }
         }, 30000); // Check every 30 seconds
     }
@@ -1069,6 +1090,7 @@ class MultiDivisionYSBAApp {
             
         } catch (error) {
             console.error('Error loading team schedule:', error);
+            
             this.showScheduleError(error.message);
         }
     }
@@ -1088,6 +1110,20 @@ class MultiDivisionYSBAApp {
             errorState.classList.add('show');
             const errorText = errorState.querySelector('p');
             if (errorText) errorText.textContent = message;
+        }
+    }
+
+    showScheduleErrorWithRetry(message, teamCode, teamName) {
+        document.getElementById('scheduleLoadingState')?.classList.remove('show');
+        document.getElementById('scheduleContent')?.classList.remove('show');
+        
+        const errorState = document.getElementById('scheduleErrorState');
+        if (errorState) {
+            errorState.classList.add('show');
+            const errorText = errorState.querySelector('p');
+            if (errorText) {
+                errorText.innerHTML = `${message} <br><br><button class="btn btn-primary btn-sm mt-2" onclick="app.showTeamSchedule('${teamCode}', '${teamName}')">🔄 Try Again</button>`;
+            }
         }
     }
 

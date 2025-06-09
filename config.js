@@ -457,11 +457,27 @@ module.exports = {
     const tier = division.tiers[tierKey];
     if (!tier) return null;
     
+    // Clean up tier display name to remove redundant prefixes
+    let cleanTierDisplayName = tier.displayName;
+    if (divisionKey.includes('rep') && cleanTierDisplayName.toLowerCase().includes('rep')) {
+      cleanTierDisplayName = cleanTierDisplayName.replace(/^Rep\s*/i, '');
+    } else if (divisionKey.includes('select') && cleanTierDisplayName.toLowerCase().includes('select')) {
+      cleanTierDisplayName = cleanTierDisplayName.replace(/^Select\s*/i, '');
+    }
+    
+    // Generate clean URL path without redundant prefixes
+    let cleanUrlTier = tierKey;
+    if (divisionKey.includes('rep') && tierKey.startsWith('rep-')) {
+      cleanUrlTier = tierKey.substring(4); // Remove "rep-" prefix from URL
+    } else if (divisionKey.includes('select') && tierKey.startsWith('select-')) {
+      cleanUrlTier = tierKey.substring(7); // Remove "select-" prefix from URL
+    }
+    
     return {
       division,
       tier,
-      fullName: `${division.displayName} - ${tier.displayName}`,
-      urlPath: `/${divisionKey}/${tierKey}`,
+      fullName: `${division.displayName} - ${cleanTierDisplayName}`,
+      urlPath: `/${divisionKey}/${cleanUrlTier}`,
       ysbaParams: {
         division: division.ysbaValue,
         tier: tier.ysbaValue
@@ -480,7 +496,16 @@ module.exports = {
     const segments = path.split('/').filter(s => s);
     if (segments.length !== 2) return null;
     
-    const [divisionKey, tierKey] = segments;
-    return this.getDivisionConfig(divisionKey, tierKey);
+    const [divisionKey, urlTierKey] = segments;
+    
+    // Convert clean URL tier key back to internal tier key for lookup
+    let internalTierKey = urlTierKey;
+    if (divisionKey.includes('rep') && !urlTierKey.startsWith('rep-') && urlTierKey !== 'no-tier') {
+      internalTierKey = `rep-${urlTierKey}`;
+    } else if (divisionKey.includes('select') && !urlTierKey.startsWith('select-')) {
+      internalTierKey = `select-${urlTierKey}`;
+    }
+    
+    return this.getDivisionConfig(divisionKey, internalTierKey);
   }
 }; 
