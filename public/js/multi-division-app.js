@@ -978,12 +978,32 @@ class MultiDivisionYSBAApp {
         }
     }
 
-    updateLastUpdatedTime() {
+    async updateLastUpdatedTime() {
         const element = document.getElementById('lastUpdated');
-        if (!element || !this.lastUpdateTime) return;
+        if (!element) return;
 
-        const timeAgo = this.getTimeAgo(this.lastUpdateTime);
-        element.textContent = timeAgo;
+        try {
+            // Get the actual GitHub Action completion time for accurate "Last synced"
+            const response = await fetch('/api/last-ysba-update');
+            const data = await response.json();
+            
+            if (data.success && data.lastYsbaUpdate) {
+                const updateTime = new Date(data.lastYsbaUpdate);
+                const timeAgo = this.getTimeAgo(updateTime);
+                element.textContent = timeAgo;
+            } else if (this.lastUpdateTime) {
+                // Fallback to division-specific time if metadata not available
+                const timeAgo = this.getTimeAgo(this.lastUpdateTime);
+                element.textContent = timeAgo;
+            }
+        } catch (error) {
+            console.error('Error updating last synced time:', error);
+            // Fallback to division-specific time on error
+            if (this.lastUpdateTime) {
+                const timeAgo = this.getTimeAgo(this.lastUpdateTime);
+                element.textContent = timeAgo;
+            }
+        }
     }
 
     getTimeAgo(date) {
