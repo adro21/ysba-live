@@ -481,24 +481,39 @@ app.get('/api/team/:teamCode/schedule', async (req, res) => {
           };
         };
         
-        // Combine and process all games
-        const allGames = [
-          ...(scheduleData.recentGames || []),
-          ...(scheduleData.nextGames || [])
-        ].map(processGame);
+        // Get ALL games for this team from the division's complete game list
+        let allTeamGames = [];
+        
+        if (divisionData.schedule.allGames) {
+          // Filter division's allGames for games involving this team
+          allTeamGames = divisionData.schedule.allGames
+            .filter(game => game.homeTeamCode === teamCode || game.awayTeamCode === teamCode)
+            .map(processGame);
+        } else {
+          // Fallback to team's individual game lists if allGames not available
+          allTeamGames = [
+            ...(scheduleData.recentGames || []),
+            ...(scheduleData.nextGames || [])
+          ].map(processGame);
+        }
+        
+        // Sort games by date
+        allTeamGames.sort((a, b) => new Date(a.date) - new Date(b.date));
         
         // Filter into played and upcoming based on isCompleted flag
-        const playedGames = allGames.filter(game => game.isCompleted);
-        const upcomingGames = allGames.filter(game => !game.isCompleted);
+        const playedGames = allTeamGames.filter(game => game.isCompleted);
+        const upcomingGames = allTeamGames.filter(game => !game.isCompleted);
+        
+        console.log(`Team ${teamCode}: ${allTeamGames.length} total games, ${playedGames.length} played, ${upcomingGames.length} upcoming`);
         
         res.json({
           success: true,
           data: {
-            allGames,
+            allGames: allTeamGames,
             playedGames,
             upcomingGames,
             teamCode,
-            totalGames: scheduleData.totalGames || 0,
+            totalGames: allTeamGames.length,
             lastUpdated: divisionData.lastUpdated || new Date().toISOString()
           }
         });
