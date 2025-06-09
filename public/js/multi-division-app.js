@@ -222,24 +222,20 @@ class MultiDivisionYSBAApp {
                     </div>
                 `;
             } else {
-                // Select divisions: Whole item clickable, "All Teams" badge
+                // Select divisions: Badge clickable like rep divisions
                 const mainTierKey = Object.keys(division.tiers)[0];
                 const isActive = this.currentDivision === key && this.currentTier === mainTierKey;
-                
-                item.className += ' clickable';
-                item.dataset.division = key;
-                item.dataset.tier = mainTierKey;
-                
-                if (isActive) {
-                    item.classList.add('active');
-                }
                 
                 item.innerHTML = `
                     <div class="mega-menu-item-content">
                         <div class="mega-menu-item-title">${division.displayName}</div>
                         <div class="mega-menu-item-subtitle">Select Division</div>
                     </div>
-                    <span class="mega-menu-item-badge">All Teams</span>
+                    <button class="mega-menu-item-badge ${isActive ? 'active' : ''}" 
+                            data-division="${key}" 
+                            data-tier="${mainTierKey}">
+                        All Teams
+                    </button>
                 `;
             }
             
@@ -399,18 +395,20 @@ class MultiDivisionYSBAApp {
                 return;
             }
             
-            // Handle full item clicks (for Select divisions - those with .clickable class)
-            const item = e.target.closest('.mega-menu-item.clickable');
-            if (item) {
+            // Handle badge clicks (for Select divisions)
+            const badge = e.target.closest('.mega-menu-item-badge');
+            if (badge) {
                 e.preventDefault();
-                const division = item.dataset.division;
-                const tier = item.dataset.tier;
+                e.stopPropagation();
+                
+                const division = badge.dataset.division;
+                const tier = badge.dataset.tier;
                 
                 // Clear all active states before setting new one
                 this.clearAllActiveStates();
                 
-                // Set active state for clicked item
-                item.classList.add('active');
+                // Set active state for clicked badge
+                badge.classList.add('active');
                 
                 // Navigate to new division
                 this.navigateToDivision(division, tier);
@@ -441,8 +439,8 @@ class MultiDivisionYSBAApp {
             megaMenu.querySelectorAll('.mega-menu-tier-badge.active').forEach(badge => {
                 badge.classList.remove('active');
             });
-            megaMenu.querySelectorAll('.mega-menu-item.clickable.active').forEach(item => {
-                item.classList.remove('active');
+            megaMenu.querySelectorAll('.mega-menu-item-badge.active').forEach(badge => {
+                badge.classList.remove('active');
             });
         }
         
@@ -475,12 +473,12 @@ class MultiDivisionYSBAApp {
             if (tierBadge) {
                 tierBadge.classList.add('active');
             } else {
-                // Try to find matching clickable item (for Select divisions)
-                const clickableItem = megaMenu.querySelector(
-                    `.mega-menu-item.clickable[data-division="${this.currentDivision}"][data-tier="${this.currentTier}"]`
+                // Try to find matching badge (for Select divisions)
+                const badge = megaMenu.querySelector(
+                    `.mega-menu-item-badge[data-division="${this.currentDivision}"][data-tier="${this.currentTier}"]`
                 );
-                if (clickableItem) {
-                    clickableItem.classList.add('active');
+                if (badge) {
+                    badge.classList.add('active');
                 }
             }
         }
@@ -1624,16 +1622,16 @@ class MultiDivisionYSBAApp {
         } else if (type === 'rep') {
             // For rep divisions, check if the key contains tier information
             if (division.key.includes('tier-2')) {
-                displayName = `${age} Rep Baseball - AA`;
+                displayName = `${age} Rep Baseball`;
                 description = 'Tier 2';
             } else if (division.key.includes('tier-3')) {
-                displayName = `${age} Rep Baseball - A`;
+                displayName = `${age} Rep Baseball`;
                 description = 'Tier 3';
             } else if (division.key.includes('no-tier')) {
                 displayName = `${age} Rep Baseball`;
                 description = 'All Teams';
             } else if (division.key.includes('tier-1')) {
-                displayName = `${age} Rep Baseball - AAA`;
+                displayName = `${age} Rep Baseball`;
                 description = 'Tier 1';
             } else {
                 // Fallback for any other rep division
