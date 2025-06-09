@@ -989,9 +989,18 @@ class YSBAStandingsApp {
         // Clear existing tabs
         tabContainer.innerHTML = '';
 
-        // Filter games into played and upcoming
-        const playedGames = games.filter(game => game.isCompleted);
-        const upcomingGames = games.filter(game => !game.isCompleted);
+        // Filter games into played and upcoming based on proper date logic
+        const now = new Date();
+        const playedGames = games.filter(game => {
+            // Games are considered played if they have a completion status OR if the date is in the past
+            if (game.isCompleted) return true;
+            if (game.date && new Date(game.date) < now) return true;
+            return false;
+        });
+        const upcomingGames = games.filter(game => {
+            // Only show games with future dates, regardless of completion status
+            return game.date && new Date(game.date) >= now;
+        });
 
         // Calculate total games played by summing up the gamesPlayed for each completed matchup
         const totalGamesPlayed = playedGames.reduce((total, game) => total + (game.gamesPlayed || 0), 0);

@@ -133,11 +133,16 @@ app.get('/api/standings', async (req, res) => {
       const divisionPath = path.join(__dirname, 'public', 'divisions', fileName);
       console.log(`Looking for division file: ${divisionPath}`);
       
-      // Get file stats to get modification time
-      const fileStats = await fs.stat(divisionPath);
-      const fileModTime = fileStats.mtime.toISOString();
-      
       const divisionData = JSON.parse(await fs.readFile(divisionPath, 'utf8'));
+      
+      // Division files don't have lastUpdated, so get it from the main standings file
+      let fileModTime = new Date().toISOString();
+      try {
+        const standingsData = JSON.parse(await fs.readFile(path.join(__dirname, 'public', 'ysba-standings.json'), 'utf8'));
+        fileModTime = standingsData.lastUpdated || fileModTime;
+      } catch (e) {
+        console.log('Could not get lastUpdated from standings file:', e.message);
+      }
       console.log(`Found division data with ${divisionData?.standings?.teams?.length || 0} teams`);
       
       if (divisionData && divisionData.standings && divisionData.standings.teams) {
@@ -197,11 +202,10 @@ app.get('/api/standings', async (req, res) => {
     try {
       const standingsPath = path.join(__dirname, 'public', 'ysba-standings.json');
       
-      // Get file stats to get modification time
-      const standingsFileStats = await fs.stat(standingsPath);
-      const standingsFileModTime = standingsFileStats.mtime.toISOString();
-      
       const standingsData = JSON.parse(await fs.readFile(standingsPath, 'utf8'));
+      
+      // Use the lastUpdated from JSON content (more reliable than file mtime after git operations)
+      const standingsFileModTime = standingsData.lastUpdated || new Date().toISOString();
       
       // Parse division name (remove -select/-rep suffix for lookup)
       let divisionKey = targetDivision.replace('-select', '').replace('-rep', '');
@@ -303,11 +307,10 @@ app.get('/api/divisions', async (req, res) => {
     const indexPath = path.join(__dirname, 'public', 'ysba-index.json');
     
     try {
-      // Get file stats to get modification time
-      const indexFileStats = await fs.stat(indexPath);
-      const indexFileModTime = indexFileStats.mtime.toISOString();
-      
       const indexData = JSON.parse(await fs.readFile(indexPath, 'utf8'));
+      
+      // Use the lastUpdated from JSON content (more reliable than file mtime after git operations)
+      const indexFileModTime = indexData.lastUpdated || new Date().toISOString();
       
       // Convert to frontend-expected format
       const divisions = {};
@@ -426,13 +429,14 @@ app.get('/api/divisions', async (req, res) => {
 // API endpoint to get last YSBA update time
 app.get('/api/last-ysba-update', async (req, res) => {
   try {
-    // Try to get the last update time from the standings data file modification time
+    // Try to get the last update time from the standings data
     try {
       const standingsPath = path.join(__dirname, 'public', 'ysba-standings.json');
       
-      // Get file stats to get modification time
-      const standingsFileStats = await fs.stat(standingsPath);
-      const standingsFileModTime = standingsFileStats.mtime.toISOString();
+      const standingsData = JSON.parse(await fs.readFile(standingsPath, 'utf8'));
+      
+      // Use the lastUpdated from JSON content (more reliable than file mtime after git operations)
+      const standingsFileModTime = standingsData.lastUpdated || new Date().toISOString();
       
       res.json({
         success: true,

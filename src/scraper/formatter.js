@@ -148,7 +148,10 @@ class DataFormatter {
   getUpcomingGames(allGames, limit = 10) {
     const now = new Date();
     return allGames
-      .filter(game => !game.isCompleted && game.date && new Date(game.date) >= now)
+      .filter(game => {
+        // Only show games with future dates, regardless of completion status
+        return game.date && new Date(game.date) >= now;
+      })
       .sort((a, b) => new Date(a.date || 0) - new Date(b.date || 0))
       .slice(0, limit)
       .map(game => this.formatGames([game])[0]);

@@ -901,8 +901,8 @@ class MultiDivisionYSBAApp {
                 <div class="team-name">${this.escapeHtml(team.team)}</div>
             </td>
             <td class="stat-col">${team.gamesPlayed}</td>
-            <td class="stat-col">${team.wins}</td>
-            <td class="stat-col">${team.losses}</td>
+            <td class="stat-col text-success">${team.wins}</td>
+            <td class="stat-col text-danger">${team.losses}</td>
             <td class="stat-col">${team.ties}</td>
             <td class="stat-col">${team.points}</td>
             <td class="stat-col">${team.runsFor}</td>

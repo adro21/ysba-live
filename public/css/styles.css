@@ -1003,6 +1003,7 @@
   z-index: 10;
   transition: width 150ms ease; /* Smooth width transitions */
   will-change: width; /* Optimize for width changes */
+  vertical-align: middle; /* Ensure proper alignment */
 }
 
 /* Sticky header styles - only applied when .sticky-header class is added */
@@ -1056,6 +1057,8 @@
   padding: var(--spacing-md);
   border-bottom: 1px solid var(--gray-100);
   transition: background-color var(--transition-fast);
+  text-align: center; /* Ensure data is centered to match headers */
+  vertical-align: middle; /* Ensure proper alignment */
 }
 
 .standings-table tbody tr:hover {
@@ -1072,8 +1075,9 @@
 }
 
 .pos-col {
-  width: 40px;
-  min-width: 40px;
+  width: 50px;
+  min-width: 50px;
+  text-align: center;
 }
 
 .team-col {
@@ -1083,8 +1087,25 @@
 }
 
 .stat-col {
-  width: 40px;
-  min-width: 40px;
+  width: 45px;
+  min-width: 45px;
+  text-align: center;
+}
+
+/* Specific styling for W, L, PTS columns to match screenshot */
+.standings-table th:nth-child(4), /* W column header */
+.standings-table th:nth-child(5), /* L column header */
+.standings-table th:nth-child(7), /* PTS column header */
+.standings-table td:nth-child(4), /* W column data */
+.standings-table td:nth-child(5), /* L column data */
+.standings-table td:nth-child(7)  /* PTS column data */ {
+  font-weight: 600;
+  color: var(--gray-900);
+}
+
+/* Ensure team name column stays left-aligned */
+.standings-table .team-col {
+  text-align: left !important;
 }
 
 /* Position Badges */
@@ -1787,7 +1808,7 @@
 
 /* Wider game-score for upcoming games */
 .schedule-games.upcoming .game-score {
-  width: 120px;
+  width: 140px; /* Wider to fit time with AM/PM on one line */
 }
 
 
@@ -1883,7 +1904,12 @@
   }
   
   .game-score {
-    width: 100px; /* Mobile width for game scores */
+    width: 110px; /* Mobile width for game scores */
+  }
+  
+  /* Ensure upcoming games have enough width on mobile for time display */
+  .schedule-games.upcoming .game-score {
+    width: 130px; /* Wider on mobile to prevent AM/PM wrapping */
   }
 }
 
