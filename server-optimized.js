@@ -157,8 +157,8 @@ app.get('/api/standings', async (req, res) => {
           // 1. Points (descending)
           if (b.points !== a.points) return b.points - a.points;
           
-          // 2. Games Played (ascending - fewer games = higher rank)
-          if (a.gamesPlayed !== b.gamesPlayed) return a.gamesPlayed - b.gamesPlayed;
+          // 2. Games Played (descending - more games = higher rank)
+          if (b.gamesPlayed !== a.gamesPlayed) return b.gamesPlayed - a.gamesPlayed;
           
           // 3. Win Percentage (descending)
           const aWinPct = parseFloat(a.winPercentage);
