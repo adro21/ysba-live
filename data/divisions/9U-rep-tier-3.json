@@ -2,7 +2,7 @@
   "standings": {
     "teams": [
       {
-        "position": 2,
+        "position": 3,
         "team": "Markham Mariners 9U A",
         "teamCode": "511061",
         "record": {
@@ -38,21 +38,21 @@
         }
       },
       {
-        "position": 3,
-        "team": "Stouffville Yankees 9U A",
-        "teamCode": "511065",
+        "position": 2,
+        "team": "Orillia Royals 9U A",
+        "teamCode": "511064",
         "record": {
-          "gamesPlayed": 2,
-          "wins": 1,
+          "gamesPlayed": 3,
+          "wins": 2,
           "losses": 1,
           "ties": 0,
-          "winPercentage": "0.500"
+          "winPercentage": "0.667"
         },
         "stats": {
-          "points": 2,
-          "runsFor": 12,
-          "runsAgainst": 24,
-          "runDifferential": -12
+          "points": 4,
+          "runsFor": 41,
+          "runsAgainst": 28,
+          "runDifferential": 13
         }
       },
       {
@@ -60,21 +60,39 @@
         "team": "Vaughan Vikings 9U A",
         "teamCode": "518948",
         "record": {
-          "gamesPlayed": 2,
-          "wins": 0,
+          "gamesPlayed": 3,
+          "wins": 1,
           "losses": 1,
           "ties": 1,
-          "winPercentage": "0.250"
+          "winPercentage": "0.500"
         },
         "stats": {
-          "points": 1,
-          "runsFor": 20,
-          "runsAgainst": 32,
-          "runDifferential": -12
+          "points": 3,
+          "runsFor": 37,
+          "runsAgainst": 43,
+          "runDifferential": -6
         }
       },
       {
         "position": 5,
+        "team": "Stouffville Yankees 9U A",
+        "teamCode": "511065",
+        "record": {
+          "gamesPlayed": 5,
+          "wins": 1,
+          "losses": 4,
+          "ties": 0,
+          "winPercentage": "0.200"
+        },
+        "stats": {
+          "points": 2,
+          "runsFor": 37,
+          "runsAgainst": 78,
+          "runDifferential": -41
+        }
+      },
+      {
+        "position": 6,
         "team": "Orangeville Bengals 9U A",
         "teamCode": "511063",
         "record": {
@@ -89,24 +107,6 @@
           "runsFor": 7,
           "runsAgainst": 30,
           "runDifferential": -23
-        }
-      },
-      {
-        "position": 6,
-        "team": "Orillia Royals 9U A",
-        "teamCode": "511064",
-        "record": {
-          "gamesPlayed": 1,
-          "wins": 0,
-          "losses": 1,
-          "ties": 0,
-          "winPercentage": "0.000"
-        },
-        "stats": {
-          "points": 0,
-          "runsFor": 4,
-          "runsAgainst": 14,
-          "runDifferential": -10
         }
       },
       {
@@ -128,7 +128,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-06-09T01:13:26.593Z",
+    "lastUpdated": "2025-06-09T03:08:31.385Z",
     "totalTeams": 7
   },
   "schedule": {
@@ -246,7 +246,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-09T01:13:29.626Z"
+        "lastUpdated": "2025-06-09T03:08:33.962Z"
       },
       "511062": {
         "teamCode": "511062",
@@ -397,7 +397,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-09T01:13:29.626Z"
+        "lastUpdated": "2025-06-09T03:08:33.962Z"
       },
       "511063": {
         "teamCode": "511063",
@@ -512,7 +512,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-09T01:13:29.626Z"
+        "lastUpdated": "2025-06-09T03:08:33.962Z"
       },
       "511064": {
         "teamCode": "511064",
@@ -545,8 +545,12 @@
             "awayTeam": "Stouffville Yankees 9U A",
             "awayTeamCode": "511065",
             "location": "Rupert Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 22,
+              "away": 7,
+              "scoreText": "7-22"
+            }
           },
           {
             "date": "2025-06-07T15:30:00.000Z",
@@ -557,8 +561,12 @@
             "awayTeam": "Orillia Royals 9U A",
             "awayTeamCode": "511064",
             "location": "Rupert Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 15,
+              "scoreText": "15-7"
+            }
           }
         ],
         "nextGames": [
@@ -623,7 +631,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-09T01:13:29.626Z"
+        "lastUpdated": "2025-06-09T03:08:33.962Z"
       },
       "511065": {
         "teamCode": "511065",
@@ -672,8 +680,12 @@
             "awayTeam": "Stouffville Yankees 9U A",
             "awayTeamCode": "511065",
             "location": "Rupert Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 22,
+              "away": 7,
+              "scoreText": "7-22"
+            }
           },
           {
             "date": "2025-06-07T15:30:00.000Z",
@@ -684,8 +696,12 @@
             "awayTeam": "Orillia Royals 9U A",
             "awayTeamCode": "511064",
             "location": "Rupert Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 15,
+              "scoreText": "15-7"
+            }
           },
           {
             "date": "2025-06-08T18:00:00.000Z",
@@ -696,8 +712,12 @@
             "awayTeam": "Vaughan Vikings 9U A",
             "awayTeamCode": "518948",
             "location": "Rupert Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 17,
+              "scoreText": "17-11"
+            }
           }
         ],
         "nextGames": [
@@ -762,7 +782,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-09T01:13:29.626Z"
+        "lastUpdated": "2025-06-09T03:08:33.962Z"
       },
       "516247": {
         "teamCode": "516247",
@@ -832,7 +852,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-09T01:13:29.626Z"
+        "lastUpdated": "2025-06-09T03:08:33.962Z"
       },
       "518948": {
         "teamCode": "518948",
@@ -881,8 +901,12 @@
             "awayTeam": "Vaughan Vikings 9U A",
             "awayTeamCode": "518948",
             "location": "Rupert Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 17,
+              "scoreText": "17-11"
+            }
           }
         ],
         "nextGames": [
@@ -947,7 +971,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-09T01:13:29.626Z"
+        "lastUpdated": "2025-06-09T03:08:33.962Z"
       }
     },
     "allGames": [
@@ -1084,8 +1108,12 @@
         "awayTeam": "Stouffville Yankees 9U A",
         "awayTeamCode": "511065",
         "location": "Rupert Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 22,
+          "away": 7,
+          "scoreText": "7-22"
+        }
       },
       {
         "date": "2025-06-07T15:30:00.000Z",
@@ -1096,8 +1124,12 @@
         "awayTeam": "Orillia Royals 9U A",
         "awayTeamCode": "511064",
         "location": "Rupert Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 15,
+          "scoreText": "15-7"
+        }
       },
       {
         "date": "2025-06-08T18:00:00.000Z",
@@ -1108,8 +1140,12 @@
         "awayTeam": "Vaughan Vikings 9U A",
         "awayTeamCode": "518948",
         "location": "Rupert Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 17,
+          "scoreText": "17-11"
+        }
       },
       {
         "date": "2025-06-11T18:30:00.000Z",
@@ -1662,8 +1698,12 @@
         "awayTeam": "Vaughan Vikings 9U A",
         "awayTeamCode": "518948",
         "location": "Rupert Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 17,
+          "scoreText": "17-11"
+        }
       },
       {
         "date": "2025-06-07T15:30:00.000Z",
@@ -1674,8 +1714,12 @@
         "awayTeam": "Orillia Royals 9U A",
         "awayTeamCode": "511064",
         "location": "Rupert Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 15,
+          "scoreText": "15-7"
+        }
       },
       {
         "date": "2025-06-07T13:00:00.000Z",
@@ -1686,8 +1730,12 @@
         "awayTeam": "Stouffville Yankees 9U A",
         "awayTeamCode": "511065",
         "location": "Rupert Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 22,
+          "away": 7,
+          "scoreText": "7-22"
+        }
       },
       {
         "date": "2025-06-05T18:00:00.000Z",
@@ -1920,14 +1968,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-09T01:13:29.626Z",
+    "lastUpdated": "2025-06-09T03:08:33.962Z",
     "totalGames": 56
   },
   "summary": {
     "totalTeams": 7,
     "totalGames": 56,
-    "completedGames": 7,
-    "upcomingGames": 49,
+    "completedGames": 10,
+    "upcomingGames": 46,
     "topTeam": {
       "team": "Markham Mariners 9U A",
       "teamCode": "511061",
@@ -1936,14 +1984,14 @@
       "winPercentage": "1.000"
     },
     "highestScoringGame": {
-      "homeTeam": "Vaughan Vikings 9U A",
-      "awayTeam": "Newmarket Hawks 9U A",
-      "homeScore": 13,
-      "awayScore": 13,
-      "totalRuns": 26,
-      "date": "Mon, May 26",
-      "location": "Concord Regional #4"
+      "homeTeam": "Orillia Royals 9U A",
+      "awayTeam": "Stouffville Yankees 9U A",
+      "homeScore": 22,
+      "awayScore": 7,
+      "totalRuns": 29,
+      "date": "Sat, Jun 7",
+      "location": "Rupert Park"
     },
-    "lastUpdated": "2025-06-09T01:12:41.374Z"
+    "lastUpdated": "2025-06-09T03:07:40.409Z"
   }
 }
