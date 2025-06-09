@@ -91,10 +91,6 @@
                     </div>
                     
                     <div class="status-actions">
-                        <a href="#" id="refreshBtn" class="status-action-link">
-                            <i class="bi bi-arrow-repeat"></i>
-                            <span class="d-none d-md-inline">Refresh</span>
-                        </a>
                         <!-- Division Filter - Only shown for divisions that support it -->
                         <div class="dropdown" id="divisionFilterContainer" style="display: none;">
                             <button id="divisionBtn" class="btn-modern btn-secondary btn-compact dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -108,10 +104,6 @@
                         <a href="#" id="notificationsBtn" class="status-action-link" data-bs-toggle="modal" data-bs-target="#notificationsModal">
                             <i class="bi bi-bell"></i>
                             <span class="d-none d-lg-inline">Notifications</span>
-                        </a>
-                        <a href="#" id="statusBtn" class="status-action-link" data-bs-toggle="modal" data-bs-target="#statusModal">
-                            <i class="bi bi-info-circle"></i>
-                            <span class="d-none d-lg-inline">Status</span>
                         </a>
                     </div>
                 </div>
@@ -228,25 +220,6 @@
         </div>
     </div>
 
-    <!-- Status Modal -->
-    <div class="modal fade" id="statusModal" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content modern-modal">
-                <div class="modal-header">
-                    <h5 class="modal-title">System Status</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                </div>
-                <div class="modal-body">
-                    <div id="statusContent">
-                        <div class="text-center">
-                            <div class="loading-spinner-small"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!-- Notifications Modal -->
     <div class="modal fade" id="notificationsModal" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered">
@@ -254,13 +227,13 @@
                 <div class="modal-header">
                     <h5 class="modal-title">
                         <i class="bi bi-bell"></i>
-                        Email Notifications
+                        Standings Change Alerts
                     </h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                 </div>
                 <div class="modal-body">
                     <p class="text-muted mb-4" id="notificationDescription">
-                        Get notified when standings change for your game division/tier!
+                        Get alerts for standings updates in your division!
                     </p>
                     
                     <div id="subscriptionAlert" class="alert" style="display: none;"></div>

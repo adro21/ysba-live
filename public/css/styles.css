@@ -530,9 +530,9 @@
   font-size: 1rem;
   font-weight: var(--font-weight-semibold);
   color: #374151;
-  margin: 0 0 var(--spacing-md);
+  margin: 0 0 var(--spacing-sm);
   padding: var(--spacing-sm) 0;
-  border-bottom: 1px solid #f3f4f6;
+  border-bottom: 3px solid #f3f4f6;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
@@ -540,7 +540,7 @@
 .division-modal-items {
   display: grid;
   grid-template-columns: 1fr;
-  gap: var(--spacing-sm);
+  /* gap: var(--spacing-sm); */
 }
 
 .division-modal-item {
@@ -549,18 +549,11 @@
   justify-content: space-between;
   padding: var(--spacing-md);
   border-radius: var(--radius-lg);
-  background: #f9fafb;
   border: 2px solid transparent;
   transition: all var(--transition-fast);
   cursor: pointer;
   text-decoration: none;
   color: inherit;
-}
-
-.division-modal-item:hover {
-  background: #f3f4f6;
-  border-color: #e5e7eb;
-  transform: scale(1.01);
 }
 
 .division-modal-item.active {
@@ -649,18 +642,26 @@
 /* Rep division container styling */
 .division-modal-item.rep-division {
   cursor: default;
-  padding: var(--spacing-md);
+  padding: var(--spacing-md) 0;
   border-radius: var(--radius-lg);
-  background: #f9fafb;
-  border: 2px solid #f3f4f6;
   transition: none;
+  border-bottom: 1px solid #f3f4f6;
 }
 
-.division-modal-item.rep-division:hover {
-  background: #f9fafb;
-  border-color: #f3f4f6;
-  transform: none;
+/* Select division container styling (matches rep divisions) */
+.division-modal-item.select-division {
+  cursor: default;
+  padding: var(--spacing-md) 0;
+  border-radius: var(--radius-lg);
+  transition: none;
+  border-bottom: 1px solid #f3f4f6;
 }
+
+/* Remove bottom border from last division items in both sections */
+.division-modal-items .division-modal-item:last-child {
+  border-bottom: none;
+}
+
 
 /* Hide original Bootstrap dropdown on ALL screens since we use mega menu + mobile modal */
 .brand-text .dropdown-menu,
@@ -724,7 +725,7 @@
 /* Very Small Mobile Adjustments */
 @media (max-width: 480px) {
   .division-modal-content {
-    max-height: 85vh;
+    max-height: 75vh;
   }
   
   .division-modal-header {
@@ -811,7 +812,7 @@
 
 /* Status action links - styled to look like buttons but behave like links */
 .status-action-link {
-  padding: var(--spacing-sm) var(--spacing-md);
+  padding: var(--spacing-sm) 0;
   font-size: 0.875rem;
   min-width: 52px;
   height: 38px;
@@ -1086,6 +1087,7 @@
   border-collapse: collapse;
   font-size: 0.875rem;
   transition: width 150ms ease; /* Smooth width transitions */
+  table-layout: auto; /* Let browser calculate optimal widths */
 }
 
 .standings-table th {
@@ -1138,6 +1140,8 @@
   margin-bottom: 0 !important;
   will-change: transform !important;
   transition: none !important;
+  table-layout: fixed !important;
+  width: 100% !important;
 }
 
 .sticky-header-fixed .standings-table thead th{
@@ -1426,8 +1430,8 @@
     min-width: 47px;
     height: 38px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: right;
+    justify-content: right;
     gap: var(--spacing-xs);
   }
   
@@ -1438,13 +1442,13 @@
   
   /* Status action links mobile styles */
   .status-action-link {
-    padding: var(--spacing-sm) var(--spacing-sm);
+    padding: var(--spacing-sm) var(--spacing-xs);
     font-size: 0.75rem;
-    min-width: 47px;
+    min-width: 38px;
     height: 38px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
     gap: var(--spacing-xs);
   }
   

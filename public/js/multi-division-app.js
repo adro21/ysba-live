@@ -171,7 +171,7 @@ class MultiDivisionYSBAApp {
             <div class="mega-menu-content">
                 <div class="mega-menu-header">
                     <h3 class="mega-menu-title">Choose Division & Tier</h3>
-                    <p class="mega-menu-subtitle">Select your preferred division and tier to view standings</p>
+                    <p class="mega-menu-subtitle">Select your division and tier to view standings</p>
                 </div>
                 <div class="mega-menu-grid">
                     <div class="mega-menu-section rep-section">
@@ -264,7 +264,7 @@ class MultiDivisionYSBAApp {
             <div class="division-modal-content">
                 <div class="division-modal-header">
                     <h3 class="division-modal-title">Choose Division</h3>
-                    <p class="division-modal-subtitle">Select your preferred division and tier</p>
+                    <p class="division-modal-subtitle">Select your division and tier</p>
                     <button class="division-modal-close" aria-label="Close">
                         <i class="fas fa-times"></i>
                     </button>
@@ -320,26 +320,26 @@ class MultiDivisionYSBAApp {
                 
                 container.appendChild(item);
             } else {
-                // Select divisions: Whole item clickable
+                // Select divisions: Non-clickable container with clickable badge (like Rep divisions)
                 const tierKeys = Object.keys(division.tiers);
                 const mainTierKey = tierKeys[0];
                 const isActive = this.currentDivision === key && this.currentTier === mainTierKey;
                 
-                const item = document.createElement('button');
-                item.className = 'division-modal-item clickable';
-                item.dataset.division = key;
-                item.dataset.tier = mainTierKey;
-                
-                if (isActive) {
-                    item.classList.add('active');
-                }
+                const item = document.createElement('div');
+                item.className = 'division-modal-item select-division';
                 
                 item.innerHTML = `
                     <div class="division-modal-item-content">
                         <div class="division-modal-item-title">${division.displayName}</div>
                         <div class="division-modal-item-subtitle">Select Division</div>
                     </div>
-                    <span class="division-modal-item-badge">All Teams</span>
+                    <div class="division-modal-tier-badges">
+                        <button class="division-modal-tier-badge ${isActive ? 'active' : ''}" 
+                                data-division="${key}" 
+                                data-tier="${mainTierKey}">
+                            All Teams
+                        </button>
+                    </div>
                 `;
                 
                 container.appendChild(item);
@@ -450,9 +450,7 @@ class MultiDivisionYSBAApp {
             modal.querySelectorAll('.division-modal-tier-badge.active').forEach(badge => {
                 badge.classList.remove('active');
             });
-            modal.querySelectorAll('.division-modal-item.clickable.active').forEach(item => {
-                item.classList.remove('active');
-            });
+            // No need to clear .clickable items since Select divisions now use tier badges
         }
     }
 
@@ -492,14 +490,7 @@ class MultiDivisionYSBAApp {
             );
             if (tierBadge) {
                 tierBadge.classList.add('active');
-            } else {
-                // Try to find matching clickable item (for Select divisions)
-                const clickableItem = modal.querySelector(
-                    `.division-modal-item.clickable[data-division="${this.currentDivision}"][data-tier="${this.currentTier}"]`
-                );
-                if (clickableItem) {
-                    clickableItem.classList.add('active');
-                }
+            // Select divisions now use tier badges like Rep divisions, so no special handling needed
             }
         }
     }
@@ -553,24 +544,6 @@ class MultiDivisionYSBAApp {
                 this.navigateToDivision(division, tier);
                 this.closeMobileModal();
                 return;
-            }
-            
-            // Handle full item clicks (for Select divisions - those with .clickable class)
-            const item = e.target.closest('.division-modal-item.clickable');
-            if (item) {
-                e.preventDefault();
-                const division = item.dataset.division;
-                const tier = item.dataset.tier;
-                
-                // Clear all active states before setting new one
-                this.clearAllActiveStates();
-                
-                // Set active state for clicked item
-                item.classList.add('active');
-                
-                // Navigate to new division
-                this.navigateToDivision(division, tier);
-                this.closeMobileModal();
             }
         });
 
@@ -652,35 +625,11 @@ class MultiDivisionYSBAApp {
         
         // Update UI and load standings
         this.updateUIElements();
-        await this.loadStandings(true);
+        await this.loadStandings(); // Initial load - show loading state
     }
 
     setupEventListeners() {
-        // Refresh button
-        const refreshBtn = document.getElementById('refreshBtn');
-        if (refreshBtn) {
-            refreshBtn.addEventListener('click', (e) => {
-                e.preventDefault();
-                this.refreshStandings();
-            });
-        }
 
-        // Status button - load status when modal is shown
-        const statusBtn = document.getElementById('statusBtn');
-        if (statusBtn) {
-            statusBtn.addEventListener('click', () => {
-                this.loadStatus();
-                this.startStatusUpdates();
-            });
-        }
-
-        // Stop status updates when modal is hidden
-        const statusModal = document.getElementById('statusModal');
-        if (statusModal) {
-            statusModal.addEventListener('hidden.bs.modal', () => {
-                this.stopStatusUpdates();
-            });
-        }
 
         // Auto-refresh when page becomes visible (with debouncing)
         let visibilityTimeout;
@@ -689,14 +638,15 @@ class MultiDivisionYSBAApp {
                 // Add 1-second delay to prevent rapid refreshes
                 clearTimeout(visibilityTimeout);
                 visibilityTimeout = setTimeout(() => {
-                    this.loadStandings();
+                    // Use silent refresh to prevent loading state flash when returning to tab
+                    this.loadStandings(true); // silent=true
                 }, 1000);
             }
         });
     }
 
-    async loadStandings(forceRefresh = false, silent = false) {
-        if (this.isLoading && !forceRefresh) return;
+    async loadStandings(silent = false) {
+        if (this.isLoading) return;
 
         this.isLoading = true;
         
@@ -710,10 +660,6 @@ class MultiDivisionYSBAApp {
                 division: this.currentDivision,
                 tier: this.currentTier
             });
-            
-            if (forceRefresh) {
-                params.set('refresh', 'true');
-            }
 
             const response = await fetch(`/api/standings?${params}`);
             const result = await response.json();
@@ -730,6 +676,14 @@ class MultiDivisionYSBAApp {
                 this.hideError();
                 this.showStandings();
                 this.updateLastYsbaUpdateTime();
+                
+                // For silent refreshes, check if sticky header should be reestablished
+                if (silent) {
+                    // Use a small delay to let the DOM update, then check scroll position
+                    setTimeout(() => {
+                        this.checkStickyHeader();
+                    }, 50);
+                }
             } else {
                 throw new Error(result.message || 'No standings data available');
             }
@@ -743,52 +697,6 @@ class MultiDivisionYSBAApp {
         }
     }
 
-    async refreshStandings() {
-        const refreshBtn = document.getElementById('refreshBtn');
-        if (!refreshBtn) return;
-
-        const originalContent = refreshBtn.innerHTML;
-        
-        // Show button loading state with spinning refresh icon (keep text on desktop)
-        refreshBtn.classList.add('btn-loading', 'btn-refreshing');
-        
-        // On mobile, only show icon. On desktop, keep the text
-        if (window.innerWidth <= 768) {
-            refreshBtn.innerHTML = '<i class="bi bi-arrow-repeat"></i>';
-        } else {
-            // For desktop, keep the text but replace the icon with spinning one
-            refreshBtn.innerHTML = '<i class="bi bi-arrow-repeat"></i><span class="d-none d-md-inline">Refresh</span>';
-        }
-
-        try {
-            await this.loadStandings(true);
-            this.showRefreshSuccess(refreshBtn, originalContent);
-        } catch (error) {
-            // Restore button immediately on error
-            refreshBtn.classList.remove('btn-loading', 'btn-refreshing');
-            refreshBtn.innerHTML = originalContent;
-        }
-    }
-
-    showRefreshSuccess(refreshBtn, originalContent) {
-        // Remove loading classes and add success state
-        refreshBtn.classList.remove('btn-loading', 'btn-refreshing');
-        refreshBtn.classList.add('btn-success-state');
-        
-        // On mobile, only show icon. On desktop, keep the text
-        if (window.innerWidth <= 768) {
-            refreshBtn.innerHTML = '<i class="bi bi-check"></i>';
-        } else {
-            refreshBtn.innerHTML = '<i class="bi bi-check"></i><span class="d-none d-md-inline">Updated</span>';
-        }
-        
-        // Keep disabled during success animation
-        setTimeout(() => {
-            // Restore original state after success animation
-            refreshBtn.classList.remove('btn-success-state');
-            refreshBtn.innerHTML = originalContent;
-        }, 2000);
-    }
 
     // Division filtering methods (only used if supported)
     setDivisionFilter(division) {
@@ -963,20 +871,6 @@ class MultiDivisionYSBAApp {
     // ... [Include all the rest of the methods from the original app.js file]
     // Status, subscription, schedule, and utility methods remain the same
 
-    async loadStatus() {
-        try {
-            const params = new URLSearchParams({
-                division: this.currentDivision,
-                tier: this.currentTier
-            });
-            
-            const response = await fetch(`/api/status?${params}`);
-            const status = await response.json();
-            this.updateStatusDisplay(status);
-        } catch (error) {
-            console.error('Error loading status:', error);
-        }
-    }
 
     async updateLastUpdatedTime() {
         const element = document.getElementById('lastUpdated');
@@ -1029,7 +923,7 @@ class MultiDivisionYSBAApp {
         this.autoRefreshInterval = setInterval(() => {
             if (this.autoRefreshEnabled && !document.hidden && this.shouldAutoRefresh()) {
                 // Use silent refresh to prevent loading state flash
-                this.loadStandings(false, true); // forceRefresh=false, silent=true
+                this.loadStandings(true); // silent=true
             }
         }, 30000); // Check every 30 seconds
     }
@@ -1983,10 +1877,13 @@ class MultiDivisionYSBAApp {
         this.resizeHandler = this.throttle(() => {
             this.precalculateColumnWidths();
             if (this.fixedHeader) {
-                this.alignFixedHeaderColumns();
-                this.syncHeaderPosition();
+                // Use requestAnimationFrame for smoother updates
+                requestAnimationFrame(() => {
+                    this.alignFixedHeaderColumns();
+                    this.syncHeaderPosition();
+                });
             }
-        }, 100);
+        }, 50); // Reduced throttle for more responsive updates
 
         // Add scroll listener for sticky behavior
         window.addEventListener('scroll', this.stickyHeaderHandler);
@@ -2051,6 +1948,12 @@ class MultiDivisionYSBAApp {
         const tableContainer = document.createElement('div');
         tableContainer.className = 'table-container';
         
+        // Copy any padding/margin from the original table container
+        const originalContainer = this.tableContainer;
+        const containerStyles = window.getComputedStyle(originalContainer);
+        tableContainer.style.paddingLeft = containerStyles.paddingLeft;
+        tableContainer.style.paddingRight = containerStyles.paddingRight;
+        
         const table = document.createElement('table');
         table.className = 'standings-table';
         
@@ -2065,10 +1968,13 @@ class MultiDivisionYSBAApp {
         document.body.appendChild(this.fixedHeader);
 
         // Apply column widths and initial position
-        setTimeout(() => {
+        // Use requestAnimationFrame for better timing with layout calculations
+        requestAnimationFrame(() => {
+            // Recalculate widths first to ensure accuracy
+            this.precalculateColumnWidths();
             this.alignFixedHeaderColumns();
             this.syncHeaderPosition();
-        }, 0);
+        });
     }
 
     applyFixedWidthsToOriginal() {
@@ -2092,24 +1998,26 @@ class MultiDivisionYSBAApp {
     }
 
     alignFixedHeaderColumns() {
-        if (!this.fixedHeader || !this.table || !this.columnWidths) return;
+        if (!this.fixedHeader || !this.table) return;
 
+        const originalHeaders = this.table.querySelectorAll('thead th');
         const fixedHeaders = this.fixedHeader.querySelectorAll('thead th');
         const fixedTable = this.fixedHeader.querySelector('.standings-table');
+        const fixedContainer = this.fixedHeader.querySelector('.table-container');
         
-        // Set the fixed table width
-        if (this.tableWidth) {
-            fixedTable.style.width = this.tableWidth + 'px';
-            fixedTable.style.minWidth = this.tableWidth + 'px';
-        }
+        // Match the container width first
+        fixedContainer.style.width = this.tableContainer.offsetWidth + 'px';
         
-        // Apply pre-calculated widths to fixed header
-        fixedHeaders.forEach((header, index) => {
-            if (this.columnWidths[index]) {
-                const widthStyle = this.columnWidths[index] + 'px';
-                header.style.width = widthStyle;
-                header.style.minWidth = widthStyle;
-                header.style.maxWidth = widthStyle;
+        // Then match the table width
+        const tableWidth = this.table.offsetWidth;
+        fixedTable.style.width = tableWidth + 'px';
+        
+        // Copy the natural widths without forcing fixed layout
+        originalHeaders.forEach((originalHeader, index) => {
+            const fixedHeader = fixedHeaders[index];
+            if (fixedHeader) {
+                const width = originalHeader.offsetWidth;
+                fixedHeader.style.width = width + 'px';
             }
         });
     }
@@ -2198,50 +2106,6 @@ class MultiDivisionYSBAApp {
     }
 
     // Status display methods
-    updateStatusDisplay(status) {
-        const statusContent = document.getElementById('statusContent');
-        if (!statusContent) return;
-
-        const cacheAge = status.cacheAge;
-        const nextScrapeIn = status.nextScrapeIn;
-        
-        statusContent.innerHTML = `
-            <div class="row g-3">
-                <div class="col-md-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h6 class="card-title">📊 Current Division</h6>
-                            <p class="card-text">${this.divisionConfig?.displayName || 'Unknown'} - ${this.tierConfig?.displayName || 'Unknown'}</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h6 class="card-title">⚡ Cache Status</h6>
-                            <p class="card-text">${cacheAge ? `${cacheAge}s old` : 'No cache'}</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h6 class="card-title">🔄 Next Update</h6>
-                            <p class="card-text">${nextScrapeIn ? `${Math.floor(nextScrapeIn / 60)}m ${nextScrapeIn % 60}s` : 'Soon'}</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h6 class="card-title">🏆 Teams</h6>
-                            <p class="card-text">${this.standingsData?.teams?.length || 0} teams</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        `;
-    }
 
     setupDivisionFilter() {
         const filterMenu = document.getElementById('divisionFilterMenu');
