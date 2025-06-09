@@ -741,10 +741,42 @@ app.get('/api/subscriber/:token', async (req, res) => {
 app.put('/api/subscriber/:token', async (req, res) => {
   try {
     const { token } = req.params;
-    const { name, divisionPreferences } = req.body;
+    const { name, email, divisionPreferences } = req.body;
+
+    // If email is being changed, validate it and check for duplicates
+    if (email) {
+      // Basic email validation
+      if (!email.includes('@')) {
+        return res.status(400).json({
+          success: false,
+          error: 'Valid email address is required'
+        });
+      }
+
+      // Check if email is already used by another subscriber
+      const currentSubscriber = await emailService.getSubscriberByToken(token);
+      if (!currentSubscriber) {
+        return res.status(404).json({
+          success: false,
+          error: 'Subscriber not found'
+        });
+      }
+
+      // Only check for duplicates if the email is actually changing
+      if (email.toLowerCase() !== currentSubscriber.email.toLowerCase()) {
+        const existingSubscriber = await emailService.getSubscriberByEmail(email);
+        if (existingSubscriber && existingSubscriber.active) {
+          return res.status(400).json({
+            success: false,
+            error: 'This email address is already subscribed'
+          });
+        }
+      }
+    }
 
     const result = await emailService.updateSubscriber(token, {
       name,
+      email,
       divisionPreferences
     });
 

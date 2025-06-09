@@ -439,14 +439,18 @@ class EmailService {
             return { success: false, message: 'Subscriber not found' };
         }
 
-        // Update allowed fields (now including divisionPreferences)
-        const allowedUpdates = ['name', 'active', 'divisionPreferences'];
+        // Update allowed fields (now including divisionPreferences and email)
+        const allowedUpdates = ['name', 'email', 'active', 'divisionPreferences'];
         const filteredUpdates = {};
         
         for (const key of allowedUpdates) {
             if (updates.hasOwnProperty(key)) {
                 if (key === 'divisionPreferences') {
                     filteredUpdates[key] = this.normalizeDivisionPreferences(updates[key]);
+                } else if (key === 'email') {
+                    filteredUpdates[key] = updates[key].toLowerCase().trim();
+                } else if (key === 'name') {
+                    filteredUpdates[key] = updates[key] ? updates[key].trim() : updates[key];
                 } else {
                     filteredUpdates[key] = updates[key];
                 }
@@ -472,6 +476,11 @@ class EmailService {
     async getSubscriberByEmail(email) {
         const subscribers = await this.loadSubscribers();
         return subscribers.find(sub => sub.email.toLowerCase() === email.toLowerCase());
+    }
+
+    // Get subscriber by token (token is the same as ID)
+    async getSubscriberByToken(token) {
+        return this.getSubscriberById(token);
     }
 
     // Remove email subscriber
@@ -504,6 +513,11 @@ class EmailService {
 
         console.log(`📧 Subscriber unsubscribed: ${subscriber.email}`);
         return { success: true, message: 'Successfully unsubscribed', email: subscriber.email };
+    }
+
+    // Unsubscribe by token (token is the same as ID)
+    async unsubscribeByToken(token) {
+        return this.unsubscribeById(token);
     }
 
     // Get active subscribers for a specific division/tier
