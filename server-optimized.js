@@ -302,10 +302,18 @@ app.get('/api/divisions', async (req, res) => {
         const tiers = {};
         if (division.tiers && Array.isArray(division.tiers)) {
           division.tiers.forEach(tier => {
-            tiers[tier.key] = {
-              displayName: tier.key.split('-').map(word => 
+            // Improve display names for better UX
+            let displayName;
+            if (tier.key === 'select-all-tiers') {
+              displayName = 'All Teams'; // More friendly than "All Tiers" for select
+            } else {
+              displayName = tier.key.split('-').map(word => 
                 word.charAt(0).toUpperCase() + word.slice(1)
-              ).join(' '),
+              ).join(' ');
+            }
+            
+            tiers[tier.key] = {
+              displayName,
               teams: tier.teams,
               games: tier.games
             };
@@ -329,7 +337,9 @@ app.get('/api/divisions', async (req, res) => {
               secondary: '#015c2a',
               accent: '#facc15'
             },
-            tiers,
+            tiers: Object.fromEntries(
+              Object.entries(tiers).filter(([tierKey]) => tierKey.includes('rep'))
+            ),
             features: {
               divisionFilter: false,
               emailNotifications: true,
