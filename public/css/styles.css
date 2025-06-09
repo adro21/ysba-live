@@ -205,7 +205,7 @@
 }
 
 .brand-subtitle-btn:hover {
-  background: #fbbf24;
+  background: #f8c645;
   color: #024220;
   transform: translateY(-1px);
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -236,8 +236,8 @@
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
   padding: 0;
   margin-top: var(--spacing-xs);
-  min-width: 750px;
-  max-width: 1000px;
+  min-width: 600px;
+  max-width: 750px;
   z-index: 1050;
   opacity: 0;
   visibility: hidden;
@@ -252,7 +252,7 @@
 }
 
 .mega-menu-content {
-  padding: var(--spacing-xl);
+  padding: var(--spacing-lg);
 }
 
 .mega-menu-header {
@@ -275,18 +275,8 @@
 
 .mega-menu-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: var(--spacing-xl);
-}
-
-/* Rep section spans first 2 columns */
-.mega-menu-section.rep-section {
-  grid-column: span 2;
-}
-
-/* Select section takes the 3rd column */
-.mega-menu-section.select-section {
-  grid-column: 3;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-lg);
 }
 
 .mega-menu-section {
@@ -311,10 +301,10 @@
   gap: var(--spacing-xs);
 }
 
-/* Rep divisions get multiple columns within their 2-column span */
+/* Rep divisions - single column layout */
 .mega-menu-items.rep-divisions {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 0;
 }
 
@@ -1735,7 +1725,7 @@
   display: flex;
   flex-direction: column;
   gap: var(--spacing-sm);
-}
+} 
 
 .game-right-column {
   flex-shrink: 0;

@@ -39,9 +39,6 @@ class MultiDivisionYSBAApp {
         // Load available divisions
         await this.loadAllDivisions();
         
-        // Apply dynamic theming
-        this.applyDynamicTheming();
-        
         // Update UI elements
         this.updateUIElements();
         
@@ -98,157 +95,6 @@ class MultiDivisionYSBAApp {
         }
     }
 
-    applyDynamicTheming() {
-        if (!this.divisionConfig || !this.divisionConfig.theme) return;
-        
-        const theme = this.divisionConfig.theme;
-        const styleId = 'dynamicStyles';
-        let styleElement = document.getElementById(styleId);
-        
-        if (!styleElement) {
-            styleElement = document.createElement('style');
-            styleElement.id = styleId;
-            document.head.appendChild(styleElement);
-        }
-
-        // Convert hex colors to RGB for rgba() usage
-        const hexToRgb = (hex) => {
-            const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
-            return result ? {
-                r: parseInt(result[1], 16),
-                g: parseInt(result[2], 16),
-                b: parseInt(result[3], 16)
-            } : null;
-        };
-
-        const primaryRgb = hexToRgb(theme.primary);
-        const primaryRgbString = primaryRgb ? `${primaryRgb.r}, ${primaryRgb.g}, ${primaryRgb.b}` : '2, 66, 32';
-
-        styleElement.textContent = `
-            /* Dynamic theme for ${this.divisionConfig.displayName} */
-            :root {
-                --theme-primary: ${theme.primary};
-                --theme-primary-rgb: ${primaryRgbString};
-                --theme-secondary: ${theme.secondary};
-                --theme-accent: ${theme.accent};
-                --theme-text: ${theme.text};
-                --theme-background: ${theme.background};
-                --theme-header-bg: ${theme.headerBg};
-            }
-
-            .modern-header {
-                background: ${theme.headerBg} !important;
-            }
-
-            .modern-footer {
-                background: ${theme.headerBg} !important;
-            }
-
-            .brand-subtitle-btn {
-                background: ${theme.accent} !important;
-                color: ${theme.text} !important;
-            }
-
-            .brand-subtitle-btn:hover {
-                background: ${theme.primary} !important;
-                color: white !important;
-            }
-
-            .btn-primary {
-                background: ${theme.primary} !important;
-                border-color: ${theme.primary} !important;
-            }
-
-            .btn-primary:hover {
-                background: ${theme.secondary} !important;
-                border-color: ${theme.secondary} !important;
-            }
-
-            .btn-modern:hover {
-                background: ${theme.primary} !important;
-                color: white !important;
-            }
-
-            .text-primary {
-                color: ${theme.primary} !important;
-            }
-
-            .loading-spinner {
-                border-top-color: ${theme.primary} !important;
-            }
-
-            .loading-spinner-small {
-                border-top-color: ${theme.primary} !important;
-            }
-
-            .team-row-clickable:hover {
-                background: ${theme.background} !important;
-            }
-
-            .team-name {
-                color: ${theme.primary} !important;
-            }
-
-            .team-name:hover {
-                color: ${theme.secondary} !important;
-            }
-
-            .brand-text .dropdown-item:hover {
-                color: ${theme.primary} !important;
-            }
-
-            .brand-text .dropdown-item.active {
-                background-color: ${theme.primary} !important;
-            }
-
-            .status-actions .dropdown-item:hover {
-                color: ${theme.primary} !important;
-            }
-
-            .status-actions .dropdown-item.active {
-                background-color: ${theme.primary} !important;
-            }
-
-            .division-filter-active {
-                background: ${theme.primary} !important;
-                border-color: ${theme.primary} !important;
-            }
-
-            .schedule-tab.active {
-                color: ${theme.primary} !important;
-                border-bottom-color: ${theme.primary} !important;
-            }
-
-            .schedule-tab:hover {
-                color: ${theme.primary} !important;
-            }
-
-            /* Mega menu active item styling to match division colorway */
-            .mega-menu-item.active {
-                background: ${theme.primary} !important;
-                color: white !important;
-                border-color: ${theme.primary} !important;
-            }
-
-            .mega-menu-item.active:hover {
-                background: ${theme.secondary} !important;
-                border-color: ${theme.secondary} !important;
-            }
-
-            /* Mobile modal active item styling to match division colorway */
-            .division-modal-item.active {
-                background: ${theme.primary} !important;
-                color: white !important;
-                border-color: ${theme.primary} !important;
-            }
-        `;
-
-        // Update theme color meta tag
-        const themeColorMeta = document.getElementById('themeColor');
-        if (themeColorMeta) {
-            themeColorMeta.setAttribute('content', theme.primary);
-        }
-    }
 
     updateUIElements() {
         if (!this.divisionConfig || !this.tierConfig) return;
@@ -628,8 +474,7 @@ class MultiDivisionYSBAApp {
             }
         }
         
-        // Apply theming first, then load standings and update UI
-        this.applyDynamicTheming();
+        // Update UI and load standings
         this.updateUIElements();
         await this.loadStandings(true);
     }
