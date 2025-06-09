@@ -3,6 +3,42 @@
     "teams": [
       {
         "position": 1,
+        "team": "Stouffville Yankees 15U DS",
+        "teamCode": "511103",
+        "record": {
+          "gamesPlayed": 1,
+          "wins": 1,
+          "losses": 0,
+          "ties": 0,
+          "winPercentage": "1.000"
+        },
+        "stats": {
+          "points": 2,
+          "runsFor": 12,
+          "runsAgainst": 8,
+          "runDifferential": 4
+        }
+      },
+      {
+        "position": 2,
+        "team": "Newmarket Hawks 15U DS",
+        "teamCode": "511101",
+        "record": {
+          "gamesPlayed": 1,
+          "wins": 0,
+          "losses": 1,
+          "ties": 0,
+          "winPercentage": "0.000"
+        },
+        "stats": {
+          "points": 0,
+          "runsFor": 8,
+          "runsAgainst": 12,
+          "runDifferential": -4
+        }
+      },
+      {
+        "position": 3,
         "team": "Barrie Baycats 15U DS",
         "teamCode": "511524",
         "record": {
@@ -20,25 +56,7 @@
         }
       },
       {
-        "position": 2,
-        "team": "Newmarket Hawks 15U DS",
-        "teamCode": "511101",
-        "record": {
-          "gamesPlayed": 0,
-          "wins": 0,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": ".000"
-        },
-        "stats": {
-          "points": 0,
-          "runsFor": 0,
-          "runsAgainst": 0,
-          "runDifferential": 0
-        }
-      },
-      {
-        "position": 3,
+        "position": 4,
         "team": "Collingwood Jays 15U DS",
         "teamCode": "511100",
         "record": {
@@ -56,27 +74,9 @@
         }
       },
       {
-        "position": 4,
+        "position": 5,
         "team": "Orillia Royals 15U DS",
         "teamCode": "511102",
-        "record": {
-          "gamesPlayed": 0,
-          "wins": 0,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": ".000"
-        },
-        "stats": {
-          "points": 0,
-          "runsFor": 0,
-          "runsAgainst": 0,
-          "runDifferential": 0
-        }
-      },
-      {
-        "position": 5,
-        "team": "Stouffville Yankees 15U DS",
-        "teamCode": "511103",
         "record": {
           "gamesPlayed": 0,
           "wins": 0,
@@ -128,7 +128,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-06-09T16:54:59.049Z",
+    "lastUpdated": "2025-06-09T17:19:08.471Z",
     "totalTeams": 7
   },
   "schedule": {
@@ -250,7 +250,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-09T16:55:01.797Z"
+        "lastUpdated": "2025-06-09T17:19:11.403Z"
       },
       "511100": {
         "teamCode": "511100",
@@ -381,7 +381,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-09T16:55:01.797Z"
+        "lastUpdated": "2025-06-09T17:19:11.403Z"
       },
       "511101": {
         "teamCode": "511101",
@@ -422,8 +422,12 @@
             "awayTeam": "Stouffville Yankees 15U DS",
             "awayTeamCode": "511103",
             "location": "WhipperWatson",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 12,
+              "scoreText": "12-8"
+            }
           },
           {
             "date": "2025-06-01T10:00:00.000Z",
@@ -512,7 +516,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-09T16:55:01.797Z"
+        "lastUpdated": "2025-06-09T17:19:11.403Z"
       },
       "511102": {
         "teamCode": "511102",
@@ -619,7 +623,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-09T16:55:01.797Z"
+        "lastUpdated": "2025-06-09T17:19:11.404Z"
       },
       "511103": {
         "teamCode": "511103",
@@ -636,8 +640,12 @@
             "awayTeam": "Stouffville Yankees 15U DS",
             "awayTeamCode": "511103",
             "location": "WhipperWatson",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 12,
+              "scoreText": "12-8"
+            }
           },
           {
             "date": "2025-06-07T09:30:00.000Z",
@@ -726,7 +734,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-09T16:55:01.797Z"
+        "lastUpdated": "2025-06-09T17:19:11.404Z"
       },
       "511104": {
         "teamCode": "511104",
@@ -857,7 +865,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-09T16:55:01.797Z"
+        "lastUpdated": "2025-06-09T17:19:11.404Z"
       },
       "511524": {
         "teamCode": "511524",
@@ -988,7 +996,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-09T16:55:01.797Z"
+        "lastUpdated": "2025-06-09T17:19:11.404Z"
       }
     },
     "allGames": [
@@ -1073,8 +1081,12 @@
         "awayTeam": "Stouffville Yankees 15U DS",
         "awayTeamCode": "511103",
         "location": "WhipperWatson",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 12,
+          "scoreText": "12-8"
+        }
       },
       {
         "date": "2025-05-31T12:00:00.000Z",
@@ -1921,22 +1933,30 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-09T16:55:01.797Z",
+    "lastUpdated": "2025-06-09T17:19:11.404Z",
     "totalGames": 57
   },
   "summary": {
     "totalTeams": 7,
     "totalGames": 57,
-    "completedGames": 0,
-    "upcomingGames": 57,
+    "completedGames": 1,
+    "upcomingGames": 56,
     "topTeam": {
-      "team": "Barrie Baycats 15U DS",
-      "teamCode": "511524",
-      "wins": 0,
+      "team": "Stouffville Yankees 15U DS",
+      "teamCode": "511103",
+      "wins": 1,
       "losses": 0,
-      "winPercentage": ".000"
+      "winPercentage": "1.000"
     },
-    "highestScoringGame": null,
-    "lastUpdated": "2025-06-09T16:55:01.804Z"
+    "highestScoringGame": {
+      "homeTeam": "Newmarket Hawks 15U DS",
+      "awayTeam": "Stouffville Yankees 15U DS",
+      "homeScore": 8,
+      "awayScore": 12,
+      "totalRuns": 20,
+      "date": "Sat, May 31",
+      "location": "WhipperWatson"
+    },
+    "lastUpdated": "2025-06-09T17:19:11.410Z"
   }
 }
