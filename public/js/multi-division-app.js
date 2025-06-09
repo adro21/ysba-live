@@ -157,6 +157,9 @@ class MultiDivisionYSBAApp {
         // Set up event listeners for both
         this.setupMegaMenuEvents();
         this.setupMobileModalEvents();
+        
+        // Update active states to highlight current page
+        this.updateActiveStates();
     }
 
     createMegaMenu(divisions) {
@@ -389,14 +392,11 @@ class MultiDivisionYSBAApp {
                 const division = tierBadge.dataset.division;
                 const tier = tierBadge.dataset.tier;
                 
-                // Update active state for tier badges within this division
-                const parentItem = tierBadge.closest('.mega-menu-item');
-                if (parentItem) {
-                    parentItem.querySelectorAll('.mega-menu-tier-badge').forEach(badge => {
-                        badge.classList.remove('active');
-                    });
-                    tierBadge.classList.add('active');
-                }
+                // Clear all active states before setting new one
+                this.clearAllActiveStates();
+                
+                // Set active state for clicked tier badge
+                tierBadge.classList.add('active');
                 
                 // Navigate to new division/tier
                 this.navigateToDivision(division, tier);
@@ -411,8 +411,10 @@ class MultiDivisionYSBAApp {
                 const division = item.dataset.division;
                 const tier = item.dataset.tier;
                 
-                // Update active state for select divisions
-                megaMenu.querySelectorAll('.mega-menu-item.clickable').forEach(i => i.classList.remove('active'));
+                // Clear all active states before setting new one
+                this.clearAllActiveStates();
+                
+                // Set active state for clicked item
                 item.classList.add('active');
                 
                 // Navigate to new division
@@ -434,6 +436,79 @@ class MultiDivisionYSBAApp {
                 this.closeMegaMenu();
             }
         });
+    }
+
+    // Clear all active states in mega menu and mobile modal
+    clearAllActiveStates() {
+        // Clear desktop mega menu active states
+        const megaMenu = document.querySelector('.mega-menu');
+        if (megaMenu) {
+            megaMenu.querySelectorAll('.mega-menu-tier-badge.active').forEach(badge => {
+                badge.classList.remove('active');
+            });
+            megaMenu.querySelectorAll('.mega-menu-item.clickable.active').forEach(item => {
+                item.classList.remove('active');
+            });
+        }
+        
+        // Clear mobile modal active states
+        const modal = document.querySelector('.division-modal');
+        if (modal) {
+            modal.querySelectorAll('.division-modal-tier-badge.active').forEach(badge => {
+                badge.classList.remove('active');
+            });
+            modal.querySelectorAll('.division-modal-item.clickable.active').forEach(item => {
+                item.classList.remove('active');
+            });
+        }
+    }
+
+    // Update active states to match current division/tier
+    updateActiveStates() {
+        if (!this.currentDivision || !this.currentTier) return;
+        
+        // Clear all active states first
+        this.clearAllActiveStates();
+        
+        // Set active state for current page in desktop mega menu
+        const megaMenu = document.querySelector('.mega-menu');
+        if (megaMenu) {
+            // Try to find matching tier badge first (for Rep divisions)
+            const tierBadge = megaMenu.querySelector(
+                `.mega-menu-tier-badge[data-division="${this.currentDivision}"][data-tier="${this.currentTier}"]`
+            );
+            if (tierBadge) {
+                tierBadge.classList.add('active');
+            } else {
+                // Try to find matching clickable item (for Select divisions)
+                const clickableItem = megaMenu.querySelector(
+                    `.mega-menu-item.clickable[data-division="${this.currentDivision}"][data-tier="${this.currentTier}"]`
+                );
+                if (clickableItem) {
+                    clickableItem.classList.add('active');
+                }
+            }
+        }
+        
+        // Set active state for current page in mobile modal
+        const modal = document.querySelector('.division-modal');
+        if (modal) {
+            // Try to find matching tier badge first (for Rep divisions)
+            const tierBadge = modal.querySelector(
+                `.division-modal-tier-badge[data-division="${this.currentDivision}"][data-tier="${this.currentTier}"]`
+            );
+            if (tierBadge) {
+                tierBadge.classList.add('active');
+            } else {
+                // Try to find matching clickable item (for Select divisions)
+                const clickableItem = modal.querySelector(
+                    `.division-modal-item.clickable[data-division="${this.currentDivision}"][data-tier="${this.currentTier}"]`
+                );
+                if (clickableItem) {
+                    clickableItem.classList.add('active');
+                }
+            }
+        }
     }
 
     setupMobileModalEvents() {
@@ -475,14 +550,11 @@ class MultiDivisionYSBAApp {
                 const division = tierBadge.dataset.division;
                 const tier = tierBadge.dataset.tier;
                 
-                // Update active state for tier badges within this division
-                const parentItem = tierBadge.closest('.division-modal-item');
-                if (parentItem) {
-                    parentItem.querySelectorAll('.division-modal-tier-badge').forEach(badge => {
-                        badge.classList.remove('active');
-                    });
-                    tierBadge.classList.add('active');
-                }
+                // Clear all active states before setting new one
+                this.clearAllActiveStates();
+                
+                // Set active state for clicked tier badge
+                tierBadge.classList.add('active');
                 
                 // Navigate to new division/tier
                 this.navigateToDivision(division, tier);
@@ -497,8 +569,10 @@ class MultiDivisionYSBAApp {
                 const division = item.dataset.division;
                 const tier = item.dataset.tier;
                 
-                // Update active state for select divisions
-                modal.querySelectorAll('.division-modal-item.clickable').forEach(i => i.classList.remove('active'));
+                // Clear all active states before setting new one
+                this.clearAllActiveStates();
+                
+                // Set active state for clicked item
                 item.classList.add('active');
                 
                 // Navigate to new division
@@ -579,6 +653,9 @@ class MultiDivisionYSBAApp {
                 buttonText.textContent = this.divisionConfig.shortName;
             }
         }
+        
+        // Update active states in mega menu and mobile modal
+        this.updateActiveStates();
         
         // Update UI and load standings
         this.updateUIElements();
