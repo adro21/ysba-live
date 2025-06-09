@@ -432,13 +432,38 @@ app.get('/api/team/:teamCode/schedule', async (req, res) => {
     const { teamCode } = req.params;
     const { division = '9U-select', tier = 'all-tiers' } = req.query;
     
+    // Use same path construction logic as standings
+    const targetDivision = division || '9U-select';
+    const targetTier = tier || 'all-tiers';
+    
+    // Handle tier mapping: remove redundant prefixes
+    let cleanTier = targetTier;
+    if (targetDivision.endsWith('-rep') && targetTier.startsWith('rep-')) {
+      cleanTier = targetTier.substring(4); // Remove "rep-" prefix
+    } else if (targetDivision.endsWith('-select') && targetTier.startsWith('select-')) {
+      cleanTier = targetTier.substring(7); // Remove "select-" prefix
+    }
+    
+    const fileName = `${targetDivision}-${cleanTier}.json`;
+    
     // Try to get from individual division file
     try {
-      const divisionPath = path.join(__dirname, 'public', 'divisions', `${division}-${tier}.json`);
+      const divisionPath = path.join(__dirname, 'public', 'divisions', fileName);
+      console.log(`Looking for schedule in: ${divisionPath}`);
       const divisionData = JSON.parse(await fs.readFile(divisionPath, 'utf8'));
       
       if (divisionData.schedule && divisionData.schedule.teamSchedules && divisionData.schedule.teamSchedules[teamCode]) {
-        res.json(divisionData.schedule.teamSchedules[teamCode]);
+        const scheduleData = divisionData.schedule.teamSchedules[teamCode];
+        res.json({
+          success: true,
+          data: {
+            allGames: scheduleData.allGames || [],
+            playedGames: scheduleData.playedGames || [],
+            upcomingGames: scheduleData.upcomingGames || [],
+            teamCode,
+            lastUpdated: divisionData.lastUpdated || new Date().toISOString()
+          }
+        });
         return;
       }
     } catch (error) {
@@ -446,23 +471,29 @@ app.get('/api/team/:teamCode/schedule', async (req, res) => {
     }
     
     res.json({
-      allGames: [],
-      playedGames: [],
-      upcomingGames: [],
-      teamCode,
-      lastUpdated: new Date().toISOString(),
-      error: 'No schedule data available'
+      success: false,
+      message: 'No schedule data available',
+      data: {
+        allGames: [],
+        playedGames: [],
+        upcomingGames: [],
+        teamCode,
+        lastUpdated: new Date().toISOString()
+      }
     });
     
   } catch (error) {
     console.error('Error serving team schedule:', error);
     res.status(500).json({
-      error: 'Failed to load team schedule',
-      message: error.message,
-      allGames: [],
-      playedGames: [],
-      upcomingGames: [],
-      teamCode: req.params.teamCode
+      success: false,
+      message: error.message || 'Failed to load team schedule',
+      data: {
+        allGames: [],
+        playedGames: [],
+        upcomingGames: [],
+        teamCode: req.params.teamCode,
+        lastUpdated: new Date().toISOString()
+      }
     });
   }
 });
