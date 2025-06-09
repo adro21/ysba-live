@@ -205,23 +205,683 @@
             background: var(--theme-primary);
             border-color: var(--theme-primary);
         }
+        
+        /* Clean header without background */
+        .clean-header {
+            background: transparent;
+            border-bottom: 1px solid #e5e7eb;
+            padding: 20px 0;
+        }
+        
+        /* Ensure mega menu looks good on clean header */
+        .clean-header .mega-menu {
+            background: white;
+            border: 1px solid #d1d5db;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.15), 0 10px 10px -5px rgba(0, 0, 0, 0.08);
+            /* Force same positioning and size as standings pages */
+            min-width: 600px !important;
+            max-width: 750px !important;
+            left: 0 !important;
+            right: 0 !important;
+        }
+        
+        /* Brand title color for clean header */
+        .clean-header .brand-title {
+            color: #024220;
+        }
+        
+        .header-content {
+            display: flex;
+            align-items: center;
+        }
+        
+        .header-top {
+            width: 100%;
+        }
+        
+        .brand-section {
+            display: flex;
+            align-items: center;
+        }
+        
+        .brand-text {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+        
+        .brand-title {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: #024220;
+            margin: 0;
+        }
+        
+        .brand-subtitle-btn {
+            background: transparent;
+            border: none;
+            color: #6b7280;
+            font-size: 0.875rem;
+            font-weight: 500;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            cursor: pointer;
+        }
+        
+        .brand-subtitle-btn:hover {
+            color: #024220;
+        }
+        
+        .mega-menu {
+            min-width: 300px;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        
+        /* Full-screen magazine layout */
+        .magazine-section {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            background: #f8f9fa;
+            min-height: 100vh;
+        }
+        
+        .magazine-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .stories-grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 1rem;
+            height: auto;
+        }
+        
+        /* Hero story - takes up large space */
+        .story-hero {
+            grid-column: span 8;
+            background: linear-gradient(135deg, #024220 0%, #015c2a 100%);
+            color: white;
+            position: relative;
+            overflow: hidden;
+            border-radius: 16px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 3rem;
+            min-height: 400px;
+        }
+        
+        .story-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(45deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.1) 100%);
+            z-index: 1;
+        }
+        
+        .story-hero > * {
+            position: relative;
+            z-index: 2;
+        }
+        
+        .hero-headline {
+            font-size: 3.5rem;
+            font-weight: 900;
+            line-height: 1.1;
+            margin-bottom: 1rem;
+            letter-spacing: -0.03em;
+        }
+        
+        .hero-body {
+            font-size: 1.4rem;
+            line-height: 1.5;
+            margin-bottom: 1.5rem;
+            opacity: 0.95;
+        }
+        
+        /* Featured stories - medium size */
+        .story-featured {
+            grid-column: span 4;
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            min-height: 250px;
+        }
+        
+        .featured-headline {
+            font-size: 1.8rem;
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 1rem;
+            color: #1a1a1a;
+            letter-spacing: -0.02em;
+        }
+        
+        .featured-body {
+            font-size: 1rem;
+            line-height: 1.5;
+            color: #4a5568;
+            margin-bottom: 1rem;
+            flex-grow: 1;
+        }
+        
+        /* Compact stories - smaller cards */
+        .story-compact {
+            grid-column: span 3;
+            background: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            min-height: 200px;
+        }
+        
+        .compact-headline {
+            font-size: 1.1rem;
+            font-weight: 700;
+            line-height: 1.3;
+            margin-bottom: 0.5rem;
+            color: #1a1a1a;
+        }
+        
+        .compact-body {
+            font-size: 0.9rem;
+            line-height: 1.4;
+            color: #5a5a5a;
+            margin-bottom: 0.75rem;
+            flex-grow: 1;
+        }
+        
+        /* Wide story - spans full width */
+        .story-wide {
+            grid-column: span 12;
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            min-height: 150px;
+        }
+        
+        .wide-content {
+            flex: 1;
+        }
+        
+        .wide-headline {
+            font-size: 2rem;
+            font-weight: 800;
+            margin-bottom: 0.75rem;
+            color: #1a1a1a;
+        }
+        
+        .wide-body {
+            font-size: 1.1rem;
+            color: #4a5568;
+            line-height: 1.5;
+        }
+        
+        /* Mini story cards - improved design */
+        .story-mini {
+            grid-column: span 3;
+            background: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            min-height: 180px;
+        }
+        
+        
+        .mini-content {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+        
+        .mini-stat-container {
+            flex-shrink: 0;
+            text-align: center;
+        }
+        
+        .mini-stat {
+            font-size: 2rem;
+            font-weight: 900;
+            color: #024220;
+            line-height: 1;
+            margin-bottom: 0.25rem;
+        }
+        
+        .mini-label {
+            font-size: 0.7rem;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            font-weight: 600;
+        }
+        
+        .mini-text {
+            flex: 1;
+        }
+        
+        .mini-headline {
+            font-size: 1rem;
+            font-weight: 700;
+            line-height: 1.3;
+            color: #1a1a1a;
+            margin-bottom: 0.5rem;
+        }
+        
+        .mini-body {
+            font-size: 0.85rem;
+            color: #666;
+            line-height: 1.4;
+        }
+        
+        /* CTA cards for viewing standings */
+        .story-cta {
+            grid-column: span 4;
+            background: linear-gradient(135deg, #024220 0%, #015c2a 100%);
+            color: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            min-height: 180px;
+        }
+        
+        .story-cta:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(2, 66, 32, 0.3);
+            color: white;
+            text-decoration: none;
+        }
+        
+        .cta-headline {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            text-align: center;
+        }
+        
+        .cta-body {
+            font-size: 0.9rem;
+            opacity: 0.9;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+        
+        .cta-button {
+            background: rgba(255,255,255,0.2);
+            border: 1px solid rgba(255,255,255,0.3);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            transition: all 0.2s ease;
+        }
+        
+        .story-cta:hover .cta-button {
+            background: rgba(255,255,255,0.3);
+            border-color: rgba(255,255,255,0.5);
+        }
+        
+        /* Story metadata */
+        .story-meta {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-top: auto;
+            padding-top: 1rem;
+        }
+        
+        .story-division {
+            background: #024220;
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .story-time {
+            color: #666;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+        
+        /* Type-specific styling */
+        .story-type-undefeated .story-division {
+            background: #dc2626;
+        }
+        
+        .story-type-hot_streak .story-division {
+            background: #ea580c;
+        }
+        
+        .story-type-shutout_artist .story-division {
+            background: #0ea5e9;
+        }
+        
+        .story-type-first_win .story-division {
+            background: #16a34a;
+        }
+        
+        .story-type-scoring_machine .story-division {
+            background: #d97706;
+        }
+        
+        .story-type-tight_race .story-division {
+            background: #7c3aed;
+        }
+        
+        .stories-loading {
+            padding: 3rem;
+            text-align: center;
+            color: #666;
+        }
+        
+        .stories-loading .spinner {
+            width: 2rem;
+            height: 2rem;
+            border: 3px solid #e5e7eb;
+            border-top: 3px solid #024220;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1rem auto;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .news-ticker {
+            background: #1a1a1a;
+            color: white;
+            padding: 0.75rem 0;
+            font-weight: 600;
+            font-size: 0.9rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .news-ticker::before {
+            content: '🚨 BREAKING';
+            background: #dc2626;
+            padding: 0.25rem 0.75rem;
+            border-radius: 3px;
+            margin-right: 1rem;
+            font-size: 0.8rem;
+        }
+        
+        /* Mobile responsive design */
+        @media (max-width: 1200px) {
+            .magazine-container {
+                padding: 1.5rem;
+            }
+            
+            .stories-grid {
+                grid-template-columns: repeat(8, 1fr);
+            }
+            
+            .story-hero {
+                grid-column: span 8;
+                grid-row: span 2;
+            }
+            
+            .hero-headline {
+                font-size: 2.8rem;
+            }
+            
+            .story-featured {
+                grid-column: span 4;
+            }
+            
+            .story-compact {
+                grid-column: span 4;
+            }
+            
+            .story-mini {
+                grid-column: span 4;
+            }
+            
+            .story-cta {
+                grid-column: span 4;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .magazine-container {
+                padding: 1rem;
+            }
+            
+            .stories-grid {
+                grid-template-columns: repeat(4, 1fr);
+                gap: 1rem;
+            }
+            
+            .story-hero {
+                grid-column: span 4;
+                grid-row: span 2;
+                padding: 2rem;
+            }
+            
+            .hero-headline {
+                font-size: 2.2rem;
+            }
+            
+            .hero-body {
+                font-size: 1.1rem;
+            }
+            
+            .story-featured {
+                grid-column: span 4;
+                grid-row: span 1;
+                padding: 1.5rem;
+            }
+            
+            .featured-headline {
+                font-size: 1.4rem;
+            }
+            
+            .story-compact {
+                grid-column: span 2;
+                padding: 1rem;
+            }
+            
+            .compact-headline {
+                font-size: 1rem;
+            }
+            
+            .story-mini {
+                grid-column: span 4;
+                padding: 1rem;
+            }
+            
+            .mini-content {
+                flex-direction: column;
+                text-align: center;
+                gap: 0.5rem;
+            }
+            
+            .mini-stat {
+                font-size: 1.5rem;
+            }
+            
+            .mini-headline {
+                font-size: 0.9rem;
+            }
+            
+            .story-cta {
+                grid-column: span 4;
+                padding: 1.25rem;
+            }
+            
+            .cta-headline {
+                font-size: 1.1rem;
+            }
+            
+            .story-wide {
+                grid-column: span 4;
+                flex-direction: column;
+                text-align: center;
+                padding: 1.5rem;
+            }
+            
+            .wide-headline {
+                font-size: 1.6rem;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .magazine-container {
+                padding: 0.75rem;
+            }
+            
+            .stories-grid {
+                grid-template-columns: 1fr;
+                gap: 0.75rem;
+            }
+            
+            .story-hero,
+            .story-featured,
+            .story-compact,
+            .story-mini,
+            .story-cta,
+            .story-wide {
+                grid-column: span 1;
+                grid-row: span 1;
+            }
+            
+            .story-hero {
+                padding: 1.5rem;
+            }
+            
+            .hero-headline {
+                font-size: 1.8rem;
+            }
+            
+            .hero-body {
+                font-size: 1rem;
+            }
+            
+            .story-featured,
+            .story-compact {
+                padding: 1.25rem;
+            }
+            
+            .story-mini {
+                padding: 1rem;
+            }
+            
+            .mini-content {
+                flex-direction: column;
+                text-align: center;
+                gap: 0.5rem;
+                margin-bottom: 0.5rem;
+            }
+            
+            .mini-stat {
+                font-size: 1.4rem;
+            }
+            
+            .mini-headline {
+                font-size: 0.95rem;
+            }
+            
+            .story-cta {
+                padding: 1.25rem;
+            }
+            
+            .cta-headline {
+                font-size: 1.1rem;
+            }
+            
+            .featured-headline,
+            .compact-headline {
+                font-size: 1.2rem;
+            }
+            
+            .wide-headline {
+                font-size: 1.4rem;
+            }
+        }
     </style>
 </head>
 <body class="modern-body">
-    <!-- Hero Section -->
-    <section class="home-hero">
+    <!-- Header Navigation -->
+    <header class="clean-header">
         <div class="container">
-            <div class="text-center">
-                <div class="mb-4">⚾</div>
-                <h1 class="hero-title">YSBA Standings</h1>
-                <p class="hero-subtitle">Real-time standings and schedules for all divisions</p>
+            <div class="header-content">
+                <div class="header-top">
+                    <div class="brand-section">
+                        <div class="brand-text">
+                            <h1 class="brand-title">
+                                <span class="fw-light">2025</span> YSBA Live
+                            </h1>
+                            <div class="dropdown">
+                                <button class="brand-subtitle-btn" 
+                                        type="button" 
+                                        data-bs-toggle="dropdown" 
+                                        aria-expanded="false"
+                                        id="divisionTierSelector">
+                                    <span class="dropdown-button-text">Select Division & Tier</span>
+                                    <i class="bi bi-chevron-down"></i>
+                                </button>
+                                <ul class="dropdown-menu" id="divisionTierMenu">
+                                    <!-- Populated by JavaScript -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </section>
+    </header>
 
     <!-- Main Content -->
-    <main class="py-5">
-        <div class="container">
+    <main>
+        <div class="container-fluid p-0">
+            <!-- AI-Generated Stories Magazine Section -->
+            <section class="magazine-section" id="magazineSection" style="display: none;">
+                <div class="magazine-container">
+                    <div id="storiesContent">
+                        <div class="stories-loading">
+                            <div class="spinner"></div>
+                            <p>Generating exciting stories from the latest games...</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
             <!-- Loading State -->
             <div id="loadingState" class="text-center py-5" style="display: none;">
                 <div class="spinner-border text-primary" role="status">
@@ -347,9 +1007,510 @@
             }
         }
 
+        class MagazineSection {
+            constructor() {
+                this.storiesContainer = document.getElementById('storiesContent');
+                this.magazineSection = document.getElementById('magazineSection');
+                this.loadStories();
+            }
+
+            async loadStories() {
+                try {
+                    const response = await fetch('/api/stories');
+                    const data = await response.json();
+
+                    if (data.success && data.stories && data.stories.length > 0) {
+                        this.renderStories(data.stories);
+                        this.magazineSection.style.display = 'block';
+                    } else {
+                        // Show fallback stories for now to demonstrate the layout
+                        console.log('No AI stories available, showing fallback stories');
+                        this.renderFallbackStories();
+                        this.magazineSection.style.display = 'block';
+                    }
+                } catch (error) {
+                    console.error('Error loading stories:', error);
+                    this.renderFallbackStories();
+                    this.magazineSection.style.display = 'block';
+                }
+            }
+
+            renderFallbackStories() {
+                const fallbackStories = [
+                    {
+                        headline: "Twins Stay Perfect with Explosive 8-0 Start!",
+                        body: "The Midland Penetang Twins 9U DS continue their incredible undefeated season, outscoring opponents 118-46 while dominating the Select division.",
+                        division: "9U Select",
+                        generatedAt: new Date().toISOString(),
+                        type: "undefeated"
+                    },
+                    {
+                        headline: "Vikings and Mariners Roll Undefeated",
+                        body: "Both Vaughan Vikings 8U A and Markham Mariners 9U A remain perfect this season.",
+                        division: "Rep Divisions", 
+                        generatedAt: new Date().toISOString(),
+                        type: "undefeated"
+                    },
+                    {
+                        headline: "Phoenix Shutout Streak Amazing",
+                        body: "Richmond Hill Phoenix 14U A hasn't allowed a run in their last two games.",
+                        division: "14U Rep",
+                        generatedAt: new Date().toISOString(),
+                        type: "hot_streak"
+                    },
+                    {
+                        headline: "Thunder Fights Back for First Win",
+                        body: "TNT Thunder 8U A finally broke through with an emotional victory.",
+                        division: "8U Rep",
+                        generatedAt: new Date().toISOString(),
+                        type: "breakthrough"
+                    }
+                ];
+                
+                this.renderStories(fallbackStories);
+            }
+
+            renderStories(stories) {
+                if (!stories || stories.length === 0) {
+                    this.storiesContainer.innerHTML = `
+                        <div class="stories-loading">
+                            <p>No stories available at the moment.</p>
+                        </div>
+                    `;
+                    return;
+                }
+
+                // Create a diverse layout with different story types
+                const layout = this.createStoryLayout(stories);
+                
+                let html = '<div class="stories-grid">';
+                
+                layout.forEach((item, index) => {
+                    const story = item.story;
+                    const storyClass = `story-${item.type} story-type-${story.type}`;
+                    
+                    switch (item.type) {
+                        case 'hero':
+                            html += `
+                                <div class="${storyClass}">
+                                    <h1 class="hero-headline">${this.escapeHtml(story.headline)}</h1>
+                                    <p class="hero-body">${this.escapeHtml(story.body)}</p>
+                                    <div class="story-meta">
+                                        <span class="story-division">${this.escapeHtml(story.division)}</span>
+                                        <span class="story-time">${this.formatTimeAgo(story.generatedAt)}</span>
+                                    </div>
+                                </div>
+                            `;
+                            break;
+                            
+                        case 'featured':
+                            html += `
+                                <div class="${storyClass}">
+                                    <h2 class="featured-headline">${this.escapeHtml(story.headline)}</h2>
+                                    <p class="featured-body">${this.escapeHtml(story.body)}</p>
+                                    <div class="story-meta">
+                                        <span class="story-division">${this.escapeHtml(story.division)}</span>
+                                        <span class="story-time">${this.formatTimeAgo(story.generatedAt)}</span>
+                                    </div>
+                                </div>
+                            `;
+                            break;
+                            
+                        case 'compact':
+                            html += `
+                                <div class="${storyClass}">
+                                    <h3 class="compact-headline">${this.escapeHtml(story.headline)}</h3>
+                                    <p class="compact-body">${this.escapeHtml(story.body)}</p>
+                                    <div class="story-meta">
+                                        <span class="story-division">${this.escapeHtml(story.division)}</span>
+                                        <span class="story-time">${this.formatTimeAgo(story.generatedAt)}</span>
+                                    </div>
+                                </div>
+                            `;
+                            break;
+                            
+                        case 'mini':
+                            // Extract key stat from story
+                            const stat = this.extractStat(story);
+                            html += `
+                                <div class="${storyClass}">
+                                    <div class="mini-content">
+                                        <div class="mini-stat-container">
+                                            <div class="mini-stat">${stat.value}</div>
+                                            <div class="mini-label">${stat.label}</div>
+                                        </div>
+                                        <div class="mini-text">
+                                            <h3 class="mini-headline">${this.escapeHtml(this.truncateText(story.headline, 50))}</h3>
+                                            <p class="mini-body">${this.escapeHtml(this.truncateText(story.body, 80))}</p>
+                                        </div>
+                                    </div>
+                                    <div class="story-meta">
+                                        <span class="story-division">${this.escapeHtml(story.division)}</span>
+                                        <span class="story-time">${this.formatTimeAgo(story.generatedAt)}</span>
+                                    </div>
+                                </div>
+                            `;
+                            break;
+                            
+                        case 'cta':
+                            const divisionSlug = this.getDivisionSlug(story.division);
+                            html += `
+                                <a href="${divisionSlug}" class="${storyClass}">
+                                    <h3 class="cta-headline">View ${story.division} Standings</h3>
+                                    <p class="cta-body">See full standings, schedules and team stats</p>
+                                    <div class="cta-button">View Standings</div>
+                                </a>
+                            `;
+                            break;
+                            
+                        case 'wide':
+                            html += `
+                                <div class="${storyClass}">
+                                    <div class="wide-content">
+                                        <h2 class="wide-headline">${this.escapeHtml(story.headline)}</h2>
+                                        <p class="wide-body">${this.escapeHtml(story.body)}</p>
+                                    </div>
+                                    <div class="story-meta">
+                                        <span class="story-division">${this.escapeHtml(story.division)}</span>
+                                        <span class="story-time">${this.formatTimeAgo(story.generatedAt)}</span>
+                                    </div>
+                                </div>
+                            `;
+                            break;
+                    }
+                });
+                
+                html += '</div>';
+                this.storiesContainer.innerHTML = html;
+            }
+            
+            createStoryLayout(stories) {
+                const layout = [];
+                
+                // Ensure we have enough stories for a good layout
+                const availableStories = [...stories];
+                
+                if (availableStories.length > 0) {
+                    // Hero story (most important) - 8 columns
+                    layout.push({ type: 'hero', story: availableStories.shift() });
+                }
+                
+                if (availableStories.length > 0) {
+                    // Featured story next to hero - 4 columns  
+                    layout.push({ type: 'featured', story: availableStories.shift() });
+                }
+                
+                // Row of 4 mini cards - 3 columns each = 12 total
+                for (let i = 0; i < 4 && availableStories.length > 0; i++) {
+                    layout.push({ type: 'mini', story: availableStories.shift() });
+                }
+                
+                // Another featured story - 4 columns
+                if (availableStories.length > 0) {
+                    layout.push({ type: 'featured', story: availableStories.shift() });
+                }
+                
+                // CTA card - 4 columns  
+                if (availableStories.length > 0) {
+                    const story = availableStories.shift();
+                    layout.push({ type: 'cta', story: story, division: story.division });
+                }
+                
+                // Compact card - 4 columns
+                if (availableStories.length > 0) {
+                    layout.push({ type: 'compact', story: availableStories.shift() });
+                }
+                
+                // Wide story - 12 columns
+                if (availableStories.length > 0) {
+                    layout.push({ type: 'wide', story: availableStories.shift() });
+                }
+                
+                // Fill remaining with compact stories
+                while (availableStories.length > 0 && layout.length < 16) {
+                    layout.push({ type: 'compact', story: availableStories.shift() });
+                }
+                
+                return layout;
+            }
+
+            extractStat(story) {
+                // Extract key stats based on story type
+                switch(story.type) {
+                    case 'undefeated':
+                        const matches = story.headline.match(/(\d+-\d+)/);
+                        return { value: matches ? matches[1] : '0-0', label: 'Record' };
+                    case 'hot_streak':
+                        const pctMatch = story.headline.match(/(\d+)/);
+                        return { value: pctMatch ? pctMatch[1] : '0', label: 'Wins' };
+                    case 'scoring_machine':
+                        const runsMatch = story.body.match(/(\d+) runs/i);
+                        return { value: runsMatch ? runsMatch[1] : '0', label: 'Runs' };
+                    case 'shutout_artist':
+                        const allowedMatch = story.body.match(/(\d+) runs/i);
+                        return { value: allowedMatch ? allowedMatch[1] : '0', label: 'Runs Allowed' };
+                    case 'tight_race':
+                        return { value: '1', label: 'Game Gap' };
+                    default:
+                        return { value: '⚾', label: 'YSBA' };
+                }
+            }
+            
+            truncateText(text, maxLength) {
+                if (text.length <= maxLength) return text;
+                return text.substr(0, maxLength) + '...';
+            }
+            
+            getDivisionSlug(division) {
+                // Convert division name to URL slug
+                const mapping = {
+                    '8U': '/8U-rep/tier-3',
+                    '9U': '/9U-select/all-tiers',
+                    '10U': '/10U-rep/tier-3',
+                    '11U': '/11U-rep/tier-3',
+                    '12U': '/12U-rep/tier-3',
+                    '13U': '/13U-rep/tier-3',
+                    '14U': '/14U-rep/tier-3',
+                    '15U': '/15U-rep/tier-3',
+                    '16U': '/16U-rep/tier-2',
+                    '18U': '/18U-rep/no-tier'
+                };
+                return mapping[division] || '/';
+            }
+
+            escapeHtml(text) {
+                const div = document.createElement('div');
+                div.textContent = text;
+                return div.innerHTML;
+            }
+
+            formatTimeAgo(dateString) {
+                const date = new Date(dateString);
+                const now = new Date();
+                const diffInHours = Math.floor((now - date) / (1000 * 60 * 60));
+
+                if (diffInHours < 1) {
+                    return 'Just now';
+                } else if (diffInHours === 1) {
+                    return '1 hour ago';
+                } else if (diffInHours < 24) {
+                    return `${diffInHours} hours ago`;
+                } else {
+                    const diffInDays = Math.floor(diffInHours / 24);
+                    if (diffInDays === 1) {
+                        return '1 day ago';
+                    } else {
+                        return `${diffInDays} days ago`;
+                    }
+                }
+            }
+        }
+
+        class NavigationHandler {
+            constructor() {
+                this.allDivisions = {};
+                this.init();
+            }
+            
+            async init() {
+                await this.loadNavigationData();
+                this.createMegaMenu();
+                this.setupMegaMenuEvents();
+            }
+            
+            async loadNavigationData() {
+                try {
+                    const response = await fetch('/api/divisions?filterEmpty=true');
+                    const result = await response.json();
+                    
+                    if (result.success) {
+                        this.allDivisions = result.divisions;
+                    }
+                } catch (error) {
+                    console.error('Error loading navigation data:', error);
+                }
+            }
+            
+            createMegaMenu() {
+                // Remove existing mega menu if it exists
+                const existingMegaMenu = document.querySelector('.mega-menu');
+                if (existingMegaMenu) {
+                    existingMegaMenu.remove();
+                }
+
+                // Create mega menu structure
+                const megaMenu = document.createElement('div');
+                megaMenu.className = 'mega-menu';
+                megaMenu.innerHTML = `
+                    <div class="mega-menu-content">
+                        <div class="mega-menu-header">
+                            <h3 class="mega-menu-title">Choose Division & Tier</h3>
+                            <p class="mega-menu-subtitle">Select your division and tier to view standings</p>
+                        </div>
+                        <div class="mega-menu-grid">
+                            <div class="mega-menu-section rep-section">
+                                <h4 class="mega-menu-section-title">Rep Divisions</h4>
+                                <div class="mega-menu-items rep-divisions" id="rep-divisions"></div>
+                            </div>
+                            <div class="mega-menu-section select-section">
+                                <h4 class="mega-menu-section-title">Select Divisions</h4>
+                                <div class="mega-menu-items" id="select-divisions"></div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+
+                // Populate divisions
+                const repContainer = megaMenu.querySelector('#rep-divisions');
+                const selectContainer = megaMenu.querySelector('#select-divisions');
+
+                Object.entries(this.allDivisions).forEach(([key, division]) => {
+                    const isRep = key.includes('-rep');
+                    const container = isRep ? repContainer : selectContainer;
+                    
+                    const item = document.createElement('div');
+                    item.className = 'mega-menu-item';
+                    
+                    if (isRep) {
+                        // Rep divisions: Show all tiers as clickable badges
+                        const tierKeys = Object.keys(division.tiers);
+                        
+                        // Create tier badges
+                        const tierBadges = tierKeys.map(tierKey => {
+                            const tier = division.tiers[tierKey];
+                            return `<button class="mega-menu-tier-badge" 
+                                            data-division="${key}" 
+                                            data-tier="${tierKey}">
+                                        ${tier.displayName}
+                                    </button>`;
+                        }).join('');
+                        
+                        item.innerHTML = `
+                            <div class="mega-menu-item-content">
+                                <div class="mega-menu-item-title">${division.displayName}</div>
+                                <div class="mega-menu-item-subtitle">Choose Tier:</div>
+                            </div>
+                            <div class="mega-menu-tier-badges">
+                                ${tierBadges}
+                            </div>
+                        `;
+                    } else {
+                        // Select divisions: Badge clickable like rep divisions
+                        const mainTierKey = Object.keys(division.tiers)[0];
+                        
+                        item.innerHTML = `
+                            <div class="mega-menu-item-content">
+                                <div class="mega-menu-item-title">${division.displayName}</div>
+                                <div class="mega-menu-item-subtitle">Select Division</div>
+                            </div>
+                            <button class="mega-menu-item-badge" 
+                                    data-division="${key}" 
+                                    data-tier="${mainTierKey}">
+                                All Teams
+                            </button>
+                        `;
+                    }
+                    
+                    container.appendChild(item);
+                });
+
+                // Insert mega menu after the dropdown button
+                const brandText = document.querySelector('.brand-text');
+                if (brandText) {
+                    brandText.style.position = 'relative';
+                    brandText.appendChild(megaMenu);
+                }
+            }
+            
+            setupMegaMenuEvents() {
+                const megaMenu = document.querySelector('.mega-menu');
+                const dropdownBtn = document.querySelector('.brand-subtitle-btn');
+                
+                if (!megaMenu || !dropdownBtn) return;
+
+                // Toggle mega menu on button click (desktop only)
+                dropdownBtn.addEventListener('click', (e) => {
+                    if (window.innerWidth >= 992) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        
+                        const isOpen = megaMenu.classList.contains('show');
+                        
+                        if (isOpen) {
+                            this.closeMegaMenu();
+                        } else {
+                            this.openMegaMenu();
+                        }
+                    }
+                });
+
+                // Handle mega menu clicks
+                megaMenu.addEventListener('click', (e) => {
+                    // Handle tier badge clicks (for Rep divisions)
+                    const tierBadge = e.target.closest('.mega-menu-tier-badge');
+                    if (tierBadge) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        
+                        const division = tierBadge.dataset.division;
+                        const tier = tierBadge.dataset.tier;
+                        
+                        // Navigate to standings page
+                        window.location.href = `/${division}/${tier}`;
+                        this.closeMegaMenu();
+                        return;
+                    }
+                    
+                    // Handle badge clicks (for Select divisions)
+                    const badge = e.target.closest('.mega-menu-item-badge');
+                    if (badge) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        
+                        const division = badge.dataset.division;
+                        const tier = badge.dataset.tier;
+                        
+                        // Navigate to standings page
+                        window.location.href = `/${division}/${tier}`;
+                        this.closeMegaMenu();
+                        return;
+                    }
+                });
+
+                // Close mega menu when clicking outside
+                document.addEventListener('click', (e) => {
+                    if (!dropdownBtn.contains(e.target) && !megaMenu.contains(e.target)) {
+                        this.closeMegaMenu();
+                    }
+                });
+            }
+            
+            openMegaMenu() {
+                const megaMenu = document.querySelector('.mega-menu');
+                const dropdownBtn = document.querySelector('.brand-subtitle-btn');
+                
+                if (megaMenu && dropdownBtn) {
+                    megaMenu.classList.add('show');
+                    dropdownBtn.setAttribute('aria-expanded', 'true');
+                }
+            }
+            
+            closeMegaMenu() {
+                const megaMenu = document.querySelector('.mega-menu');
+                const dropdownBtn = document.querySelector('.brand-subtitle-btn');
+                
+                if (megaMenu && dropdownBtn) {
+                    megaMenu.classList.remove('show');
+                    dropdownBtn.setAttribute('aria-expanded', 'false');
+                }
+            }
+        }
+
         // Initialize when page loads
         document.addEventListener('DOMContentLoaded', () => {
             new DivisionSelector();
+            new MagazineSection();
+            new NavigationHandler();
         });
     </script>
 </body>

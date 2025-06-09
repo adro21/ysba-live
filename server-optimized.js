@@ -6,11 +6,13 @@ const cors = require('cors');
 const helmet = require('helmet');
 const path = require('path');
 const EmailService = require('./email-service');
+const AIStoryService = require('./ai-story-service');
 const config = require('./config');
 const fs = require('fs').promises;
 
 const app = express();
 const emailService = new EmailService();
+const aiStoryService = new AIStoryService();
 
 // Security middleware
 app.use(helmet({
@@ -807,6 +809,46 @@ app.get('/api/available-divisions', (req, res) => {
   }
 });
 
+// Get AI-generated stories for homepage
+app.get('/api/stories', async (req, res) => {
+  try {
+    const stories = await aiStoryService.getStoriesForDisplay();
+    
+    res.json({
+      success: true,
+      stories: stories,
+      lastUpdated: stories.length > 0 ? stories[0].generatedAt : null,
+      provider: aiStoryService.aiProvider
+    });
+  } catch (error) {
+    console.error('Get stories error:', error);
+    res.status(500).json({
+      success: false,
+      error: 'Failed to load stories',
+      stories: []
+    });
+  }
+});
+
+// Manually trigger story generation (for testing)
+app.post('/api/stories/generate', async (req, res) => {
+  try {
+    const stories = await aiStoryService.generateStories();
+    
+    res.json({
+      success: true,
+      stories: stories || [],
+      message: 'Stories generated successfully'
+    });
+  } catch (error) {
+    console.error('Generate stories error:', error);
+    res.status(500).json({
+      success: false,
+      error: 'Failed to generate stories'
+    });
+  }
+});
+
 // Catch-all for unknown API routes
 app.use('/api/*', (req, res) => {
   res.status(404).json({
@@ -819,6 +861,8 @@ app.use('/api/*', (req, res) => {
       '/api/team/:teamCode/schedule',
       '/api/subscribe',
       '/api/unsubscribe-token',
+      '/api/stories',
+      '/api/stories/generate',
       '/api/test-email/:division',
       '/api/subscribers/export'
     ]
