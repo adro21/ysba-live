@@ -148,8 +148,31 @@ app.get('/api/standings', async (req, res) => {
           points: team.stats?.points || 0,
           runsFor: team.stats?.runsFor || 0,
           runsAgainst: team.stats?.runsAgainst || 0,
+          runDifferential: (team.stats?.runsFor || 0) - (team.stats?.runsAgainst || 0),
           winPercentage: team.record?.winPercentage || "0.000"
         }));
+        
+        // Sort teams by YSBA criteria: Points desc, Win% desc, Wins desc, Run Differential desc
+        teams.sort((a, b) => {
+          // 1. Points (descending)
+          if (b.points !== a.points) return b.points - a.points;
+          
+          // 2. Win Percentage (descending)
+          const aWinPct = parseFloat(a.winPercentage);
+          const bWinPct = parseFloat(b.winPercentage);
+          if (bWinPct !== aWinPct) return bWinPct - aWinPct;
+          
+          // 3. Wins (descending)
+          if (b.wins !== a.wins) return b.wins - a.wins;
+          
+          // 4. Run Differential (descending)
+          return b.runDifferential - a.runDifferential;
+        });
+        
+        // Reassign positions based on correct sort order
+        teams.forEach((team, index) => {
+          team.position = index + 1;
+        });
         
         res.json({
           success: true,
@@ -198,8 +221,31 @@ app.get('/api/standings', async (req, res) => {
           points: team.points || (team.w * 2 + team.t),
           runsFor: team.rf,
           runsAgainst: team.ra,
+          runDifferential: (team.rf || 0) - (team.ra || 0),
           winPercentage: team.pct
         }));
+        
+        // Sort teams by YSBA criteria: Points desc, Win% desc, Wins desc, Run Differential desc
+        teams.sort((a, b) => {
+          // 1. Points (descending)
+          if (b.points !== a.points) return b.points - a.points;
+          
+          // 2. Win Percentage (descending)
+          const aWinPct = parseFloat(a.winPercentage);
+          const bWinPct = parseFloat(b.winPercentage);
+          if (bWinPct !== aWinPct) return bWinPct - aWinPct;
+          
+          // 3. Wins (descending)
+          if (b.wins !== a.wins) return b.wins - a.wins;
+          
+          // 4. Run Differential (descending)
+          return b.runDifferential - a.runDifferential;
+        });
+        
+        // Reassign positions based on correct sort order
+        teams.forEach((team, index) => {
+          team.position = index + 1;
+        });
         
         res.json({
           success: true,
