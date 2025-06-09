@@ -324,7 +324,11 @@ app.get('/api/divisions', async (req, res) => {
         if (repDivision) {
           divisions[`${key}-rep`] = {
             displayName: `${division.displayName} Rep`,
-            theme: division.theme || { primary: '#024220' },
+            theme: {
+              primary: '#024220',
+              secondary: '#015c2a',
+              accent: '#facc15'
+            },
             tiers,
             features: {
               divisionFilter: false,
@@ -335,17 +339,25 @@ app.get('/api/divisions', async (req, res) => {
         }
         
         if (selectDivision) {
+          // Get the config division for this key to access features and divisionMapping
+          const configDivision = config.DIVISIONS[`${key}-select`];
+          
           divisions[`${key}-select`] = {
             displayName: `${division.displayName} Select`,
-            theme: division.theme || { primary: '#15803d' },
+            theme: {
+              primary: '#024220',
+              secondary: '#015c2a',
+              accent: '#facc15'
+            },
             tiers: Object.fromEntries(
               Object.entries(tiers).filter(([tierKey]) => tierKey.includes('select'))
             ),
-            features: {
+            features: configDivision?.features || {
               divisionFilter: false,
               emailNotifications: true,
               schedules: true
-            }
+            },
+            divisionMapping: configDivision?.divisionMapping || {}
           };
         }
       });
@@ -372,7 +384,8 @@ app.get('/api/divisions', async (req, res) => {
           divisionFilter: false,
           emailNotifications: true,
           schedules: true
-        }
+        },
+        divisionMapping: division.divisionMapping || {}
       };
     });
     

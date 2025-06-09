@@ -8,6 +8,17 @@ module.exports = {
   YSBA_URL: 'https://www.yorksimcoebaseball.com/Club/xStanding.aspx',
   YSBA_SCHEDULE_URL: 'https://www.yorksimcoebaseball.com/Club/xScheduleMM.aspx',
   
+  // Standardized theme - green primary with yellow accent
+  STANDARD_THEME: {
+    primary: '#024220',
+    secondary: '#015c2a',
+    accent: '#facc15',  // Yellow accent
+    text: '#14532d',
+    background: '#f0fdf4',
+    headerBg: 'linear-gradient(135deg, #024220, #015c2a)',
+    brandSubtitle: '#6b7280'
+  },
+  
   // Multi-Division Configuration
   DIVISIONS: {
     // Rep Divisions (based on actual YSBA website values)
@@ -22,12 +33,12 @@ module.exports = {
         'tier-3': { displayName: 'Tier 3', ysbaValue: '3' }
       },
       theme: {
-        primary: '#dc2626',
-        secondary: '#b91c1c',
-        accent: '#ef4444',
-        text: '#7f1d1d',
-        background: '#fef2f2',
-        headerBg: 'linear-gradient(135deg, #dc2626, #b91c1c)',
+        primary: '#024220',
+        secondary: '#015c2a',
+        accent: '#facc15',
+        text: '#14532d',
+        background: '#f0fdf4',
+        headerBg: 'linear-gradient(135deg, #024220, #015c2a)',
         brandSubtitle: '#6b7280'
       },
       features: {
@@ -47,12 +58,12 @@ module.exports = {
         'tier-3': { displayName: 'Tier 3', ysbaValue: '3' }
       },
       theme: {
-        primary: '#ea580c',
-        secondary: '#c2410c',
-        accent: '#fb923c',
-        text: '#9a3412',
-        background: '#fff7ed',
-        headerBg: 'linear-gradient(135deg, #ea580c, #c2410c)',
+        primary: '#024220',
+        secondary: '#015c2a',
+        accent: '#facc15',
+        text: '#14532d',
+        background: '#f0fdf4',
+        headerBg: 'linear-gradient(135deg, #024220, #015c2a)',
         brandSubtitle: '#6b7280'
       },
       features: {
@@ -72,12 +83,12 @@ module.exports = {
         'tier-3': { displayName: 'Tier 3', ysbaValue: '3' }
       },
       theme: {
-        primary: '#f59e0b',
-        secondary: '#d97706',
-        accent: '#fbbf24',
-        text: '#92400e',
-        background: '#fffbeb',
-        headerBg: 'linear-gradient(135deg, #f59e0b, #d97706)',
+        primary: '#024220',
+        secondary: '#015c2a',
+        accent: '#facc15',
+        text: '#14532d',
+        background: '#f0fdf4',
+        headerBg: 'linear-gradient(135deg, #024220, #015c2a)',
         brandSubtitle: '#6b7280'
       },
       features: {
@@ -97,13 +108,13 @@ module.exports = {
         'tier-3': { displayName: 'Tier 3', ysbaValue: '3' }
       },
       theme: {
-        primary: '#2563eb',
-        secondary: '#1e40af',
-        accent: '#3b82f6',
-        text: '#1e293b',
-        background: '#f1f5f9',
-        headerBg: 'linear-gradient(135deg, #2563eb, #1e40af)',
-        brandSubtitle: '#64748b'
+        primary: '#024220',
+        secondary: '#015c2a',
+        accent: '#facc15',
+        text: '#14532d',
+        background: '#f0fdf4',
+        headerBg: 'linear-gradient(135deg, #024220, #015c2a)',
+        brandSubtitle: '#6b7280'
       },
       features: {
         divisionFilter: false,
@@ -122,12 +133,12 @@ module.exports = {
         'tier-3': { displayName: 'Tier 3', ysbaValue: '3' }
       },
       theme: {
-        primary: '#059669',
-        secondary: '#047857',
-        accent: '#10b981',
-        text: '#064e3b',
+        primary: '#024220',
+        secondary: '#015c2a',
+        accent: '#facc15',
+        text: '#14532d',
         background: '#f0fdf4',
-        headerBg: 'linear-gradient(135deg, #059669, #047857)',
+        headerBg: 'linear-gradient(135deg, #024220, #015c2a)',
         brandSubtitle: '#6b7280'
       },
       features: {
@@ -147,12 +158,12 @@ module.exports = {
         'tier-3': { displayName: 'Tier 3', ysbaValue: '3' }
       },
       theme: {
-        primary: '#7c3aed',
-        secondary: '#6d28d9',
-        accent: '#8b5cf6',
-        text: '#581c87',
-        background: '#faf5ff',
-        headerBg: 'linear-gradient(135deg, #7c3aed, #6d28d9)',
+        primary: '#024220',
+        secondary: '#015c2a',
+        accent: '#facc15',
+        text: '#14532d',
+        background: '#f0fdf4',
+        headerBg: 'linear-gradient(135deg, #024220, #015c2a)',
         brandSubtitle: '#6b7280'
       },
       features: {
@@ -172,12 +183,12 @@ module.exports = {
         'tier-3': { displayName: 'Tier 3', ysbaValue: '3' }
       },
       theme: {
-        primary: '#0891b2',
-        secondary: '#0e7490',
-        accent: '#06b6d4',
-        text: '#164e63',
-        background: '#ecfeff',
-        headerBg: 'linear-gradient(135deg, #0891b2, #0e7490)',
+        primary: '#024220',
+        secondary: '#015c2a',
+        accent: '#facc15',
+        text: '#14532d',
+        background: '#f0fdf4',
+        headerBg: 'linear-gradient(135deg, #024220, #015c2a)',
         brandSubtitle: '#6b7280'
       },
       features: {
@@ -197,12 +208,12 @@ module.exports = {
         'tier-3': { displayName: 'Tier 3', ysbaValue: '3' }
       },
       theme: {
-        primary: '#e11d48',
-        secondary: '#be185d',
-        accent: '#f43f5e',
-        text: '#881337',
-        background: '#fdf2f8',
-        headerBg: 'linear-gradient(135deg, #e11d48, #be185d)',
+        primary: '#024220',
+        secondary: '#015c2a',
+        accent: '#facc15',
+        text: '#14532d',
+        background: '#f0fdf4',
+        headerBg: 'linear-gradient(135deg, #024220, #015c2a)',
         brandSubtitle: '#6b7280'
       },
       features: {
@@ -222,13 +233,13 @@ module.exports = {
         'tier-3': { displayName: 'Tier 3', ysbaValue: '3' }
       },
       theme: {
-        primary: '#facc15',
-        secondary: '#eab308',
-        accent: '#fde047',
-        text: '#713f12',
-        background: '#fefce8',
-        headerBg: 'linear-gradient(135deg, #facc15, #eab308)',
-        brandSubtitle: '#78716c'
+        primary: '#024220',
+        secondary: '#015c2a',
+        accent: '#facc15',
+        text: '#14532d',
+        background: '#f0fdf4',
+        headerBg: 'linear-gradient(135deg, #024220, #015c2a)',
+        brandSubtitle: '#6b7280'
       },
       features: {
         divisionFilter: false,
@@ -247,12 +258,12 @@ module.exports = {
         'tier-3': { displayName: 'Tier 3', ysbaValue: '3' }
       },
       theme: {
-        primary: '#c2410c',
-        secondary: '#9a3412',
-        accent: '#ea580c',
-        text: '#7c2d12',
-        background: '#fff7ed',
-        headerBg: 'linear-gradient(135deg, #c2410c, #9a3412)',
+        primary: '#024220',
+        secondary: '#015c2a',
+        accent: '#facc15',
+        text: '#14532d',
+        background: '#f0fdf4',
+        headerBg: 'linear-gradient(135deg, #024220, #015c2a)',
         brandSubtitle: '#6b7280'
       },
       features: {
@@ -272,12 +283,12 @@ module.exports = {
         'tier-3': { displayName: 'Tier 3', ysbaValue: '3' }
       },
       theme: {
-        primary: '#6366f1',
-        secondary: '#4f46e5',
-        accent: '#818cf8',
-        text: '#312e81',
-        background: '#f8fafc',
-        headerBg: 'linear-gradient(135deg, #6366f1, #4f46e5)',
+        primary: '#024220',
+        secondary: '#015c2a',
+        accent: '#facc15',
+        text: '#14532d',
+        background: '#f0fdf4',
+        headerBg: 'linear-gradient(135deg, #024220, #015c2a)',
         brandSubtitle: '#6b7280'
       },
       features: {
@@ -297,12 +308,12 @@ module.exports = {
         'tier-3': { displayName: 'Tier 3', ysbaValue: '3' }
       },
       theme: {
-        primary: '#374151',
-        secondary: '#1f2937',
-        accent: '#6b7280',
-        text: '#111827',
-        background: '#f9fafb',
-        headerBg: 'linear-gradient(135deg, #374151, #1f2937)',
+        primary: '#024220',
+        secondary: '#015c2a',
+        accent: '#facc15',
+        text: '#14532d',
+        background: '#f0fdf4',
+        headerBg: 'linear-gradient(135deg, #024220, #015c2a)',
         brandSubtitle: '#6b7280'
       },
       features: {
@@ -362,12 +373,12 @@ module.exports = {
         'all-tiers': { displayName: 'All Teams', ysbaValue: '__ALL__' }
       },
       theme: {
-        primary: '#0891b2',
-        secondary: '#0e7490',
-        accent: '#06b6d4',
-        text: '#164e63',
-        background: '#ecfeff',
-        headerBg: 'linear-gradient(135deg, #0891b2, #0e7490)',
+        primary: '#024220',
+        secondary: '#015c2a',
+        accent: '#facc15',
+        text: '#14532d',
+        background: '#f0fdf4',
+        headerBg: 'linear-gradient(135deg, #024220, #015c2a)',
         brandSubtitle: '#6b7280'
       },
       features: {
@@ -384,12 +395,12 @@ module.exports = {
         'all-tiers': { displayName: 'All Teams', ysbaValue: '__ALL__' }
       },
       theme: {
-        primary: '#c2410c',
-        secondary: '#9a3412',
-        accent: '#ea580c',
-        text: '#7c2d12',
-        background: '#fff7ed',
-        headerBg: 'linear-gradient(135deg, #c2410c, #9a3412)',
+        primary: '#024220',
+        secondary: '#015c2a',
+        accent: '#facc15',
+        text: '#14532d',
+        background: '#f0fdf4',
+        headerBg: 'linear-gradient(135deg, #024220, #015c2a)',
         brandSubtitle: '#6b7280'
       },
       features: {
@@ -406,12 +417,12 @@ module.exports = {
         'all-tiers': { displayName: 'All Teams', ysbaValue: '__ALL__' }
       },
       theme: {
-        primary: '#dc2626',
-        secondary: '#b91c1c',
-        accent: '#ef4444',
-        text: '#7f1d1d',
-        background: '#fef2f2',
-        headerBg: 'linear-gradient(135deg, #dc2626, #b91c1c)',
+        primary: '#024220',
+        secondary: '#015c2a',
+        accent: '#facc15',
+        text: '#14532d',
+        background: '#f0fdf4',
+        headerBg: 'linear-gradient(135deg, #024220, #015c2a)',
         brandSubtitle: '#6b7280'
       },
       features: {
