@@ -120,8 +120,20 @@ app.get('/api/standings', async (req, res) => {
     
     // Try individual division file first (most specific)
     try {
-      const divisionPath = path.join(__dirname, 'public', 'divisions', `${targetDivision}-${targetTier}.json`);
+      // Handle tier mapping: remove redundant prefixes
+      let cleanTier = targetTier;
+      if (targetDivision.endsWith('-rep') && targetTier.startsWith('rep-')) {
+        cleanTier = targetTier.substring(4); // Remove "rep-" prefix
+      } else if (targetDivision.endsWith('-select') && targetTier.startsWith('select-')) {
+        cleanTier = targetTier.substring(7); // Remove "select-" prefix
+      }
+      
+      const fileName = `${targetDivision}-${cleanTier}.json`;
+      
+      const divisionPath = path.join(__dirname, 'public', 'divisions', fileName);
+      console.log(`Looking for division file: ${divisionPath}`);
       const divisionData = JSON.parse(await fs.readFile(divisionPath, 'utf8'));
+      console.log(`Found division data with ${divisionData?.standings?.teams?.length || 0} teams`);
       
       if (divisionData && divisionData.standings && divisionData.standings.teams) {
         // Convert the nested structure to the expected flat structure
@@ -140,9 +152,12 @@ app.get('/api/standings', async (req, res) => {
         }));
         
         res.json({
-          teams,
-          lastUpdated: divisionData.lastUpdated || new Date().toISOString(),
-          source: 'GitHub Actions'
+          success: true,
+          data: {
+            teams,
+            lastUpdated: divisionData.lastUpdated || new Date().toISOString(),
+            source: 'GitHub Actions'
+          }
         });
         return;
       }
@@ -187,9 +202,12 @@ app.get('/api/standings', async (req, res) => {
         }));
         
         res.json({
-          teams,
-          lastUpdated: standingsData.lastUpdated,
-          source: 'GitHub Actions'
+          success: true,
+          data: {
+            teams,
+            lastUpdated: standingsData.lastUpdated,
+            source: 'GitHub Actions'
+          }
         });
         return;
       }
@@ -199,18 +217,25 @@ app.get('/api/standings', async (req, res) => {
     
     // If no data found, return empty response (but still valid)
     res.json({
-      teams: [],
-      lastUpdated: new Date().toISOString(),
-      source: 'No data available',
-      error: `No data found for ${targetDivision}/${targetTier}. Available divisions can be found at /api/divisions`
+      success: false,
+      message: `No data found for ${targetDivision}/${targetTier}. Available divisions can be found at /api/divisions`,
+      data: {
+        teams: [],
+        lastUpdated: new Date().toISOString(),
+        source: 'No data available'
+      }
     });
     
   } catch (error) {
     console.error('Error serving standings:', error);
     res.status(500).json({
-      error: 'Failed to load standings data',
-      message: error.message,
-      teams: []
+      success: false,
+      message: error.message || 'Failed to load standings data',
+      data: {
+        teams: [],
+        lastUpdated: new Date().toISOString(),
+        source: 'Error'
+      }
     });
   }
 });
