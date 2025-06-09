@@ -23,7 +23,7 @@
     <link rel="manifest" href="/manifest.json?v=321200">
     
     <!-- Default Icon -->
-    <link rel="icon" type="image/svg+xml" href="/icons/icon.svg?v=420124">
+    <link rel="icon" type="image/svg+xml" href="/icons/icon.svg?v=535230">
     
     <!-- iOS App Icons -->
     <link rel="apple-touch-icon" href="/icons/ios/AppIcon@3x.png?v=321200">
@@ -49,10 +49,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="stylesheet" href="/css/styles.css?v=420124">
+    <link rel="stylesheet" href="/css/styles.css?v=535230">
     
 </head>
-<body class="modern-body">
+<body id="home" class="modern-body">
     <!-- Header Navigation -->
     <header class="clean-header">
         <div class="container">
@@ -232,23 +232,33 @@
 
             async loadStories() {
                 try {
+                    // Always show magazine section
+                    this.magazineSection.style.display = 'block';
+                    
                     const response = await fetch('/api/stories');
                     const data = await response.json();
 
                     if (data.success && data.stories && data.stories.length > 0) {
                         this.renderStories(data.stories);
-                        this.magazineSection.style.display = 'block';
                     } else {
-                        // Show fallback stories for now to demonstrate the layout
-                        console.log('No AI stories available, showing fallback stories');
-                        this.renderFallbackStories();
-                        this.magazineSection.style.display = 'block';
+                        // Show loading state while stories are being generated
+                        this.showLoadingState();
+                        console.log('No AI stories available yet, showing loading state');
                     }
                 } catch (error) {
                     console.error('Error loading stories:', error);
                     this.renderFallbackStories();
-                    this.magazineSection.style.display = 'block';
                 }
+            }
+
+            showLoadingState() {
+                this.storiesContainer.innerHTML = `
+                    <div class="stories-loading">
+                        <div class="spinner"></div>
+                        <p>Generating exciting stories from the latest games...</p>
+                        <p class="loading-subtext">This may take a moment while we analyze all the YSBA action</p>
+                    </div>
+                `;
             }
 
             renderFallbackStories() {
@@ -335,7 +345,7 @@
                         case 'compact':
                             html += `
                                 <div class="${storyClass}">
-                                    <h3 class="compact-headline">${this.escapeHtml(story.headline)}</h3>
+                                    <h2 class="compact-headline">${this.escapeHtml(story.headline)}</h2>
                                     <p class="compact-body">${this.escapeHtml(story.body)}</p>
                                     <div class="story-meta">
                                         <span class="story-division">${this.escapeHtml(story.division)}</span>
@@ -406,44 +416,44 @@
                 // Ensure we have enough stories for a good layout
                 const availableStories = [...stories];
                 
+                // Row 1: Hero (8 cols) + Featured (4 cols) = 12 cols
                 if (availableStories.length > 0) {
-                    // Hero story (most important) - 8 columns
                     layout.push({ type: 'hero', story: availableStories.shift() });
                 }
-                
                 if (availableStories.length > 0) {
-                    // Featured story next to hero - 4 columns  
                     layout.push({ type: 'featured', story: availableStories.shift() });
                 }
                 
-                // Row of 4 mini cards - 3 columns each = 12 total
+                // Row 2: 4 mini cards (3 cols each) = 12 cols
                 for (let i = 0; i < 4 && availableStories.length > 0; i++) {
                     layout.push({ type: 'mini', story: availableStories.shift() });
                 }
                 
-                // Another featured story - 4 columns
+                // Row 3: Featured (4 cols) + CTA (4 cols) + Compact (4 cols) = 12 cols
                 if (availableStories.length > 0) {
                     layout.push({ type: 'featured', story: availableStories.shift() });
                 }
-                
-                // CTA card - 4 columns  
                 if (availableStories.length > 0) {
                     const story = availableStories.shift();
                     layout.push({ type: 'cta', story: story, division: story.division });
                 }
-                
-                // Compact card - 4 columns
                 if (availableStories.length > 0) {
                     layout.push({ type: 'compact', story: availableStories.shift() });
                 }
                 
-                // Wide story - 12 columns
+                // Row 4: Wide story (12 cols)
                 if (availableStories.length > 0) {
                     layout.push({ type: 'wide', story: availableStories.shift() });
                 }
                 
-                // Fill remaining with compact stories
-                while (availableStories.length > 0 && layout.length < 16) {
+                // Row 5: Featured (4 cols) + Featured (4 cols) + Compact (4 cols) = 12 cols
+                if (availableStories.length > 0) {
+                    layout.push({ type: 'featured', story: availableStories.shift() });
+                }
+                if (availableStories.length > 0) {
+                    layout.push({ type: 'featured', story: availableStories.shift() });
+                }
+                if (availableStories.length > 0) {
                     layout.push({ type: 'compact', story: availableStories.shift() });
                 }
                 
@@ -531,7 +541,9 @@
             async init() {
                 await this.loadNavigationData();
                 this.createMegaMenu();
+                this.createMobileModal();
                 this.setupMegaMenuEvents();
+                this.setupMobileModalEvents();
             }
             
             async loadNavigationData() {
@@ -637,6 +649,104 @@
                     brandText.appendChild(megaMenu);
                 }
             }
+
+            createMobileModal() {
+                // Remove existing modal if it exists
+                const existingModal = document.querySelector('.division-modal');
+                if (existingModal) {
+                    existingModal.remove();
+                }
+
+                // Create mobile modal structure
+                const modal = document.createElement('div');
+                modal.className = 'division-modal';
+                modal.innerHTML = `
+                    <div class="division-modal-content">
+                        <div class="division-modal-header">
+                            <h3 class="division-modal-title">Choose Division</h3>
+                            <p class="division-modal-subtitle">Select your division and tier</p>
+                            <button class="division-modal-close" aria-label="Close">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                        <div class="division-modal-body">
+                            <div class="division-modal-section">
+                                <h4 class="division-modal-section-title">Rep Divisions</h4>
+                                <div class="division-modal-items" id="mobile-rep-divisions"></div>
+                            </div>
+                            <div class="division-modal-section">
+                                <h4 class="division-modal-section-title">Select Divisions</h4>
+                                <div class="division-modal-items" id="mobile-select-divisions"></div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+
+                // Populate divisions
+                const repContainer = modal.querySelector('#mobile-rep-divisions');
+                const selectContainer = modal.querySelector('#mobile-select-divisions');
+
+                Object.entries(this.allDivisions).forEach(([key, division]) => {
+                    const isRep = key.includes('-rep');
+                    const container = isRep ? repContainer : selectContainer;
+                    
+                    if (isRep) {
+                        // Rep divisions: Create container with tier badges
+                        const item = document.createElement('div');
+                        item.className = 'division-modal-item rep-division';
+                        
+                        const tierKeys = Object.keys(division.tiers);
+                        
+                        // Create tier badges
+                        const tierBadges = tierKeys.map(tierKey => {
+                            const tier = division.tiers[tierKey];
+                            return `<button class="division-modal-tier-badge" 
+                                            data-division="${key}" 
+                                            data-tier="${tierKey}">
+                                        ${tier.displayName}
+                                    </button>`;
+                        }).join('');
+                        
+                        item.innerHTML = `
+                            <div class="division-modal-item-content">
+                                <div class="division-modal-item-title">${division.displayName}</div>
+                                <div class="division-modal-item-subtitle">Choose Tier:</div>
+                            </div>
+                            <div class="division-modal-tier-badges">
+                                ${tierBadges}
+                            </div>
+                        `;
+                        
+                        container.appendChild(item);
+                    } else {
+                        // Select divisions: Non-clickable container with clickable badge (like Rep divisions)
+                        const tierKeys = Object.keys(division.tiers);
+                        const mainTierKey = tierKeys[0];
+                        
+                        const item = document.createElement('div');
+                        item.className = 'division-modal-item select-division';
+                        
+                        item.innerHTML = `
+                            <div class="division-modal-item-content">
+                                <div class="division-modal-item-title">${division.displayName}</div>
+                                <div class="division-modal-item-subtitle">Select Division</div>
+                            </div>
+                            <div class="division-modal-tier-badges">
+                                <button class="division-modal-tier-badge" 
+                                        data-division="${key}" 
+                                        data-tier="${mainTierKey}">
+                                    All Teams
+                                </button>
+                            </div>
+                        `;
+                        
+                        container.appendChild(item);
+                    }
+                });
+
+                // Append modal to body
+                document.body.appendChild(modal);
+            }
             
             setupMegaMenuEvents() {
                 const megaMenu = document.querySelector('.mega-menu');
@@ -699,6 +809,76 @@
                         this.closeMegaMenu();
                     }
                 });
+            }
+
+            setupMobileModalEvents() {
+                const modal = document.querySelector('.division-modal');
+                const dropdownBtn = document.querySelector('.brand-subtitle-btn');
+                const closeBtn = modal?.querySelector('.division-modal-close');
+                
+                if (!modal || !dropdownBtn) return;
+
+                // Open modal on button click (mobile only)
+                dropdownBtn.addEventListener('click', (e) => {
+                    if (window.innerWidth < 992) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        this.openMobileModal();
+                    }
+                });
+
+                // Close modal on close button click
+                closeBtn?.addEventListener('click', () => {
+                    this.closeMobileModal();
+                });
+
+                // Close modal on backdrop click
+                modal.addEventListener('click', (e) => {
+                    if (e.target === modal) {
+                        this.closeMobileModal();
+                    }
+                });
+
+                // Handle modal clicks
+                modal.addEventListener('click', (e) => {
+                    // Handle tier badge clicks (for Rep divisions)
+                    const tierBadge = e.target.closest('.division-modal-tier-badge');
+                    if (tierBadge) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        
+                        const division = tierBadge.dataset.division;
+                        const tier = tierBadge.dataset.tier;
+                        
+                        // Navigate to standings page
+                        window.location.href = `/${division}/${tier}`;
+                        this.closeMobileModal();
+                        return;
+                    }
+                });
+
+                // Close modal on escape
+                document.addEventListener('keydown', (e) => {
+                    if (e.key === 'Escape') {
+                        this.closeMobileModal();
+                    }
+                });
+            }
+
+            openMobileModal() {
+                const modal = document.querySelector('.division-modal');
+                if (modal) {
+                    modal.classList.add('show');
+                    document.body.style.overflow = 'hidden';
+                }
+            }
+
+            closeMobileModal() {
+                const modal = document.querySelector('.division-modal');
+                if (modal) {
+                    modal.classList.remove('show');
+                    document.body.style.overflow = '';
+                }
             }
             
             openMegaMenu() {

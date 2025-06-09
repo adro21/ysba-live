@@ -157,7 +157,7 @@ class AIStoryService {
         // Sort by priority and return top stories
         return balancedStories
             .sort((a, b) => b.priority - a.priority)
-            .slice(0, 12); // Keep top 12 stories for better coverage
+            .slice(0, 14); // Keep exactly 14 stories for new layout (5 rows)
     }
     
     findUndefeatedTeams(standingsData) {
@@ -228,11 +228,13 @@ class AIStoryService {
         const closeGames = [];
         
         if (scheduleData.divisions) {
-            Object.values(scheduleData.divisions).forEach(division => {
+            Object.entries(scheduleData.divisions).forEach(([divisionKey, division]) => {
                 if (division.recentGames) {
                     division.recentGames.slice(0, 10).forEach(game => {
                         const scoreDiff = Math.abs(game.homeScore - game.awayScore);
                         if (scoreDiff <= 2 && game.homeScore > 0 && game.awayScore > 0) {
+                            // Extract tier key from division key (e.g., "8U-rep-tier-1" -> "rep-tier-1")
+                            const tierKey = divisionKey.includes('-') ? divisionKey.split('-').slice(1).join('-') : 'no-tier';
                             closeGames.push({
                                 type: 'close_game',
                                 priority: 6,
@@ -257,11 +259,13 @@ class AIStoryService {
         const blowouts = [];
         
         if (scheduleData.divisions) {
-            Object.values(scheduleData.divisions).forEach(division => {
+            Object.entries(scheduleData.divisions).forEach(([divisionKey, division]) => {
                 if (division.recentGames) {
                     division.recentGames.slice(0, 10).forEach(game => {
                         const scoreDiff = Math.abs(game.homeScore - game.awayScore);
                         if (scoreDiff >= 10 && game.homeScore > 0 && game.awayScore > 0) {
+                            // Extract tier key from division key (e.g., "8U-rep-tier-1" -> "rep-tier-1")
+                            const tierKey = divisionKey.includes('-') ? divisionKey.split('-').slice(1).join('-') : 'no-tier';
                             blowouts.push({
                                 type: 'blowout',
                                 priority: 5,
@@ -418,13 +422,34 @@ class AIStoryService {
     }
     
     formatDivisionName(divisionKey, tierKey, displayName) {
-        // Add Rep/Select designation to division names
+        // Add Rep/Select designation to division names with tier info for Rep
         if (tierKey.includes('rep')) {
-            return `${displayName} Rep`;
+            // Extract tier information for Rep divisions
+            if (tierKey.includes('tier-1')) {
+                return `${displayName} Rep AAA`;
+            } else if (tierKey.includes('tier-2')) {
+                return `${displayName} Rep AA`;
+            } else if (tierKey.includes('tier-3')) {
+                return `${displayName} Rep A`;
+            } else if (tierKey.includes('no-tier')) {
+                return `${displayName} Rep`;
+            } else {
+                return `${displayName} Rep`;
+            }
         } else if (tierKey.includes('select')) {
             return `${displayName} Select`;
         }
         return displayName || 'Unknown Division';
+    }
+    
+    isPitchingMachineDivision(divisionName) {
+        // Check if division is 9U or below (uses pitching machine, no pitchers)
+        const ageMatch = divisionName.match(/(\d+)U/);
+        if (ageMatch) {
+            const age = parseInt(ageMatch[1]);
+            return age <= 9;
+        }
+        return false;
     }
     
     async generateAIStories(storyOpportunities) {
@@ -448,16 +473,21 @@ class AIStoryService {
     async generateOpenAIStories(storyOpportunities) {
         const stories = [];
         
-        for (const opportunity of storyOpportunities.slice(0, 12)) {
+        for (const opportunity of storyOpportunities.slice(0, 14)) {
             try {
                 const prompt = this.createPrompt(opportunity);
+                
+                // Debug: log first few prompts to see what we're sending
+                if (stories.length < 3) {
+                    console.log(`🔍 Prompt ${stories.length + 1}: "${prompt}"`);
+                }
                 
                 const completion = await this.openai.chat.completions.create({
                     model: 'gpt-3.5-turbo',
                     messages: [
                         {
                             role: 'system',
-                            content: 'You are a youth sports journalist writing exciting headlines and short stories for a local baseball league. Write in an enthusiastic but appropriate tone for youth sports. Keep stories 1-3 sentences. Format: First line should be the headline, then a blank line, then the story body.'
+                            content: 'You are a youth sports journalist writing exciting headlines and short stories for a local baseball league. Write in an enthusiastic but appropriate tone for youth sports. Keep stories 1-3 sentences. Format: First line should be the headline, then a blank line, then the story body. IMPORTANT: For divisions 9U and below, do NOT mention pitching or pitchers - these divisions use pitching machines. Focus on fielding, hitting, and teamwork instead. NEVER use markdown formatting like **bold** or *italics* - write in plain text only.'
                         },
                         {
                             role: 'user',
@@ -472,13 +502,44 @@ class AIStoryService {
                     const content = completion.choices[0].message.content.trim();
                     const lines = content.split('\n').filter(line => line.trim());
                     
-                    const headline = lines[0] || 'Exciting YSBA Action!';
-                    const body = lines.slice(1).join(' ') || 'Great baseball action in the YSBA!';
+                    // Improved parsing - if first line is too long, it might contain both headline and body
+                    let headline = lines[0] || 'Exciting YSBA Action!';
+                    let body = lines.slice(1).join(' ') || 'Great baseball action in the YSBA!';
+                    
+                    // If headline is suspiciously long (over 100 chars), try to split it
+                    if (headline.length > 100) {
+                        // Look for sentence breaks in the headline
+                        const sentences = headline.split(/[.!?]+/);
+                        if (sentences.length > 1) {
+                            headline = sentences[0].trim() + (sentences[0].endsWith('.') ? '' : '!');
+                            body = sentences.slice(1).join('. ').trim() + (body ? ' ' + body : '');
+                        }
+                    }
+                    
+                    // Ensure headline isn't too long (max 80 chars)
+                    if (headline.length > 80) {
+                        headline = headline.substring(0, 77) + '...';
+                    }
+                    
+                    // Clean up any markdown formatting and quotes
+                    const cleanHeadline = headline
+                        .replace(/^["']|["']$/g, '') // Remove quotes
+                        .replace(/\*\*(.*?)\*\*/g, '$1') // Remove **bold**
+                        .replace(/\*(.*?)\*/g, '$1') // Remove *italics*
+                        .replace(/#{1,6}\s*/g, '') // Remove # headers
+                        .trim();
+                    
+                    const cleanBody = body
+                        .replace(/^["']|["']$/g, '') // Remove quotes
+                        .replace(/\*\*(.*?)\*\*/g, '$1') // Remove **bold**
+                        .replace(/\*(.*?)\*/g, '$1') // Remove *italics*
+                        .replace(/#{1,6}\s*/g, '') // Remove # headers
+                        .trim();
                     
                     stories.push({
                         id: `story_${Date.now()}_${stories.length}`,
-                        headline: headline.replace(/^["']|["']$/g, ''), // Remove quotes
-                        body: body.replace(/^["']|["']$/g, ''), // Remove quotes
+                        headline: cleanHeadline,
+                        body: cleanBody,
                         type: opportunity.type,
                         division: opportunity.division,
                         priority: opportunity.priority,
@@ -488,7 +549,7 @@ class AIStoryService {
                 }
                 
                 // Small delay to respect rate limits
-                await new Promise(resolve => setTimeout(resolve, 200));
+                await new Promise(resolve => setTimeout(resolve, 500)); // Increase delay to avoid rate limits
                 
             } catch (error) {
                 console.error('Error generating story for opportunity:', opportunity, error);
@@ -522,7 +583,10 @@ class AIStoryService {
                 return `Write a punchy sports headline and 1-2 sentence story about ${opportunity.team} getting their breakthrough first win of the season in ${opportunity.division}. Make it exciting and celebratory but appropriate for youth sports.`;
             
             case 'shutout_artist':
-                return `Write a punchy sports headline and 1-2 sentence story about ${opportunity.team}'s incredible defense, allowing only ${opportunity.runsAgainst} runs in their ${opportunity.record} season in ${opportunity.division}. Focus on their pitching and defensive prowess. Make it exciting but appropriate for youth sports.`;
+                // Check if this is a pitching machine division (9U and below)
+                const isPitchingMachine = this.isPitchingMachineDivision(opportunity.division);
+                const defenseType = isPitchingMachine ? 'fielding and defensive' : 'pitching and defensive';
+                return `Write a punchy sports headline and 1-2 sentence story about ${opportunity.team}'s incredible defense, allowing only ${opportunity.runsAgainst} runs in their ${opportunity.record} season in ${opportunity.division}. Focus on their ${defenseType} prowess. Make it exciting but appropriate for youth sports.`;
             
             case 'scoring_machine':
                 return `Write a punchy sports headline and 1-2 sentence story about ${opportunity.team}'s explosive offense, scoring ${opportunity.runsFor} runs (${opportunity.runsPerGame} per game) with their ${opportunity.record} record in ${opportunity.division}. Focus on their hitting and offensive power. Make it exciting but appropriate for youth sports.`;
