@@ -857,26 +857,6 @@ app.post('/api/stories/generate', async (req, res) => {
   }
 });
 
-// Catch-all for unknown API routes
-app.use('/api/*', (req, res) => {
-  res.status(404).json({
-    error: 'API endpoint not found',
-    message: `The endpoint ${req.path} does not exist`,
-    availableEndpoints: [
-      '/api/status',
-      '/api/standings',
-      '/api/divisions',
-      '/api/team/:teamCode/schedule',
-      '/api/subscribe',
-      '/api/unsubscribe-token',
-      '/api/stories',
-      '/api/stories/generate',
-      '/api/test-email/:division',
-      '/api/subscribers/export'
-    ]
-  });
-});
-
 // Export subscribers (for testing/debugging)
 app.get('/api/subscribers/export', async (req, res) => {
   try {
@@ -949,6 +929,26 @@ app.post('/api/test-email/:division', async (req, res) => {
       message: error.message 
     });
   }
+});
+
+// Catch-all for unknown API routes
+app.use('/api/*', (req, res) => {
+  res.status(404).json({
+    error: 'API endpoint not found',
+    message: `The endpoint ${req.path} does not exist`,
+    availableEndpoints: [
+      '/api/status',
+      '/api/standings',
+      '/api/divisions',
+      '/api/team/:teamCode/schedule',
+      '/api/subscribe',
+      '/api/unsubscribe-token',
+      '/api/stories',
+      '/api/stories/generate',
+      '/api/test-email/:division',
+      '/api/subscribers/export'
+    ]
+  });
 });
 
 // Serve main application with proper routing
