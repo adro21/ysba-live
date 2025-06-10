@@ -366,8 +366,8 @@
                                             <div class="mini-label">${stat.label}</div>
                                         </div>
                                         <div class="mini-text">
-                                            <h3 class="mini-headline">${this.escapeHtml(this.truncateText(story.headline, 50))}</h3>
-                                            <p class="mini-body">${this.escapeHtml(this.truncateText(story.body, 80))}</p>
+                                            <h3 class="mini-headline">${this.escapeHtml(story.headline)}</h3>
+                                            <p class="mini-body">${this.escapeHtml(story.body)}</p>
                                         </div>
                                     </div>
                                     <div class="story-meta">
@@ -467,6 +467,12 @@
                         const matches = story.headline.match(/(\d+-\d+)/);
                         return { value: matches ? matches[1] : '0-0', label: 'Record' };
                     case 'hot_streak':
+                        // Look for record pattern first (e.g., "8-0", "4-1"), then fall back to any number
+                        const recordMatch = story.headline.match(/(\d+-\d+)/);
+                        if (recordMatch) {
+                            const wins = recordMatch[1].split('-')[0];
+                            return { value: wins, label: 'Wins' };
+                        }
                         const pctMatch = story.headline.match(/(\d+)/);
                         return { value: pctMatch ? pctMatch[1] : '0', label: 'Wins' };
                     case 'scoring_machine':

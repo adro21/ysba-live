@@ -146,12 +146,24 @@ class AIStoryService {
             storiesByType[type].sort((a, b) => b.priority - a.priority);
         });
         
-        // Create balanced selection - max 3 of each type
+        // Create balanced selection - max 3 of each type, avoiding duplicate teams
         const balancedStories = [];
         const maxPerType = 3;
+        const usedTeams = new Set();
         
         Object.keys(storiesByType).forEach(type => {
-            balancedStories.push(...storiesByType[type].slice(0, maxPerType));
+            const typeStories = storiesByType[type];
+            const uniqueTypeStories = [];
+            
+            for (const story of typeStories) {
+                const teamKey = story.team || story.leader || story.winner || 'unknown';
+                if (!usedTeams.has(teamKey) && uniqueTypeStories.length < maxPerType) {
+                    uniqueTypeStories.push(story);
+                    usedTeams.add(teamKey);
+                }
+            }
+            
+            balancedStories.push(...uniqueTypeStories);
         });
         
         // Sort by priority and return top stories
@@ -191,7 +203,7 @@ class AIStoryService {
     
     findWinningStreaks(standingsData, scheduleData) {
         // This would require more detailed game-by-game analysis
-        // For now, return teams with high win percentages
+        // For now, return teams with high win percentages (but exclude undefeated teams to avoid duplicates)
         const streaks = [];
         
         if (standingsData.divisions) {
@@ -203,7 +215,8 @@ class AIStoryService {
                                 const totalGames = team.w + team.l + (team.t || 0);
                                 const winPct = totalGames > 0 ? team.w / totalGames : 0;
                                 
-                                if (winPct >= 0.8 && team.w >= 4) {
+                                // Exclude undefeated teams (they get their own story type) and only include teams with high win percentage
+                                if (winPct >= 0.8 && team.w >= 4 && team.l > 0) {
                                     streaks.push({
                                         type: 'hot_streak',
                                         priority: 7,
