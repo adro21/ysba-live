@@ -73,7 +73,7 @@
 
 /* Container max width for desktop screens */
 .container {
-  max-width: 1080px;
+  max-width: 1350px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -2671,6 +2671,53 @@
   margin: 0;
 }
 
+.clean-header .brand-title a {
+  color: inherit !important;
+  text-decoration: none !important;
+  font-weight: inherit;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+.clean-header .brand-title a:hover {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+.clean-header .brand-title a:visited {
+  color: inherit !important;
+}
+
+.clean-header .brand-title a:focus {
+  color: inherit !important;
+  text-decoration: none !important;
+  outline: none;
+}
+
+/* Brand title link styles for all pages */
+.brand-title a {
+  color: inherit !important;
+  text-decoration: none !important;
+  font-weight: inherit;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+.brand-title a:hover {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+.brand-title a:visited {
+  color: inherit !important;
+}
+
+.brand-title a:focus {
+  color: inherit !important;
+  text-decoration: none !important;
+  outline: none;
+}
+
 /* Full-screen magazine layout */
 .magazine-section {
   margin: 0;
@@ -3249,6 +3296,10 @@
   .tier-btn { 
     min-width: 70px; 
     font-size: 0.8rem; 
+  }
+  
+  .clean-header {
+    padding: 20px 0px 10px 0;
   }
 }
 
