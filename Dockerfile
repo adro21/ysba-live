@@ -5,8 +5,8 @@ WORKDIR /app
 # Copy Railway-specific package.json for lighter dependencies
 COPY package-railway.json package.json
 
-# Install dependencies
-RUN npm ci --only=production --no-cache
+# Install dependencies using npm install (not ci since no lockfile)
+RUN npm install --omit=dev --no-fund --no-audit
 
 # Copy application code (excluding scraper files via .dockerignore)
 COPY . .
