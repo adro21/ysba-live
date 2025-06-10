@@ -2862,13 +2862,15 @@
   padding: 2rem;
   box-shadow: 0 4px 20px rgba(0,0,0,0.08);
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 2rem;
   min-height: 150px;
+  overflow: visible;
 }
 
 .wide-content {
   flex: 1;
+  overflow: visible;
 }
 
 .wide-headline {
