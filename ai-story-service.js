@@ -529,10 +529,8 @@ class AIStoryService {
                         }
                     }
                     
-                    // Ensure headline isn't too long (max 80 chars)
-                    if (headline.length > 80) {
-                        headline = headline.substring(0, 77) + '...';
-                    }
+                    // Allow headlines to be their full length
+                    // Headlines will wrap in the UI as needed
                     
                     // Clean up any markdown formatting and quotes
                     const cleanHeadline = headline
