@@ -2,13 +2,13 @@ FROM node:20-alpine
 
 WORKDIR /app
 
-# Copy package files
-COPY package*.json ./
+# Copy Railway-specific package.json for lighter dependencies
+COPY package-railway.json package.json
 
 # Install dependencies
 RUN npm ci --only=production --no-cache
 
-# Copy application code
+# Copy application code (excluding scraper files via .dockerignore)
 COPY . .
 
 # Build application
