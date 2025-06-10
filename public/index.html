@@ -325,7 +325,7 @@
                                     <p class="hero-body">${this.escapeHtml(story.body)}</p>
                                     <div class="story-meta">
                                         <span class="story-division">${this.escapeHtml(story.division)}</span>
-                                        <span class="story-time">${this.formatTimeAgo(story.generatedAt)}</span>
+                                        <a href="${this.getDivisionSlug(story.division)}" class="story-time">View standings</a>
                                     </div>
                                 </div>
                             `;
@@ -338,7 +338,7 @@
                                     <p class="featured-body">${this.escapeHtml(story.body)}</p>
                                     <div class="story-meta">
                                         <span class="story-division">${this.escapeHtml(story.division)}</span>
-                                        <span class="story-time">${this.formatTimeAgo(story.generatedAt)}</span>
+                                        <a href="${this.getDivisionSlug(story.division)}" class="story-time">View standings</a>
                                     </div>
                                 </div>
                             `;
@@ -351,7 +351,7 @@
                                     <p class="compact-body">${this.escapeHtml(story.body)}</p>
                                     <div class="story-meta">
                                         <span class="story-division">${this.escapeHtml(story.division)}</span>
-                                        <span class="story-time">${this.formatTimeAgo(story.generatedAt)}</span>
+                                        <a href="${this.getDivisionSlug(story.division)}" class="story-time">View standings</a>
                                     </div>
                                 </div>
                             `;
@@ -374,7 +374,7 @@
                                     </div>
                                     <div class="story-meta">
                                         <span class="story-division">${this.escapeHtml(story.division)}</span>
-                                        <span class="story-time">${this.formatTimeAgo(story.generatedAt)}</span>
+                                        <a href="${this.getDivisionSlug(story.division)}" class="story-time">View standings</a>
                                     </div>
                                 </div>
                             `;
@@ -400,7 +400,7 @@
                                     </div>
                                     <div class="story-meta">
                                         <span class="story-division">${this.escapeHtml(story.division)}</span>
-                                        <span class="story-time">${this.formatTimeAgo(story.generatedAt)}</span>
+                                        <a href="${this.getDivisionSlug(story.division)}" class="story-time">View standings</a>
                                     </div>
                                 </div>
                             `;

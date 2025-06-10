@@ -1631,7 +1631,7 @@
 /* Large Monitor Support (4K and similar) - Dell U2723QE and larger */
 @media (min-width: 2560px) {
   .modern-footer {
-    margin-top: -190px;
+    margin-top: -100px;
   }
 }
 
@@ -2775,6 +2775,11 @@
   color:#cdcdcd;
 }
 
+.story-hero .story-time:hover{
+  color:#ffffff;
+  text-decoration: none;
+}
+
 .hero-headline {
   font-size: 3.5rem;
   font-weight: 900;
@@ -3012,9 +3017,15 @@
 }
 
 .story-time {
-  color: #666;
+  color: #064722;
   font-size: 0.8rem;
   font-weight: 500;
+  text-decoration: none;
+}
+
+.story-time:hover {
+  color: #333;
+  text-decoration: none;
 }
 
 /* Type-specific styling */
