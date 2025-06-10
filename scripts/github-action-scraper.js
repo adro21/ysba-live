@@ -13,7 +13,10 @@ const YSBAScraper = require('../src/scraper/scraper');
 const DataFormatter = require('../src/scraper/formatter');
 const DataWriter = require('../src/scraper/writer');
 const DataOptimizer = require('../src/scraper/optimizer');
+const EmailService = require('../email-service');
 const config = require('../config');
+const fs = require('fs').promises;
+const path = require('path');
 
 class GitHubActionScraper {
   constructor() {
@@ -21,6 +24,7 @@ class GitHubActionScraper {
     this.formatter = new DataFormatter();
     this.writer = new DataWriter();
     this.optimizer = new DataOptimizer();
+    this.emailService = new EmailService();
     this.startTime = Date.now();
   }
 
@@ -29,6 +33,10 @@ class GitHubActionScraper {
     console.log(`📅 ${new Date().toISOString()}`);
     
     try {
+      // Load previous standings for change detection
+      const previousStandings = await this.loadPreviousStandings();
+      console.log(`📊 Loaded previous standings for change detection`);
+      
       // Get all divisions to scrape
       const divisionsToScrape = this.getDivisionsToScrape();
       console.log(`📋 Will scrape ${divisionsToScrape.length} division/tier combinations`);
@@ -121,6 +129,14 @@ class GitHubActionScraper {
         console.log('🔧 Creating optimized data files...');
         await this.optimizer.createOptimizedFiles();
         
+        // Check for standings changes and send email notifications
+        if (this.emailService.isConfigured && previousStandings) {
+          console.log('📧 Checking for standings changes...');
+          await this.checkAndSendNotifications(previousStandings, formattedData);
+        } else if (!this.emailService.isConfigured) {
+          console.log('📧 Email service not configured - skipping notifications');
+        }
+        
         const duration = Date.now() - this.startTime;
         
         console.log('\n✅ GitHub Actions Scraper Completed Successfully!');
@@ -191,6 +207,99 @@ class GitHubActionScraper {
 
   async sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
+  }
+
+  async loadPreviousStandings() {
+    try {
+      const standingsPath = path.join(__dirname, '..', 'public', 'ysba-standings.json');
+      const data = await fs.readFile(standingsPath, 'utf8');
+      return JSON.parse(data);
+    } catch (error) {
+      console.log('📊 No previous standings found (first run or file missing)');
+      return null;
+    }
+  }
+
+  async checkAndSendNotifications(previousStandings, newStandings) {
+    try {
+      let totalNotificationsSent = 0;
+      
+      // Check each division for changes
+      if (previousStandings && previousStandings.divisions && newStandings && newStandings.divisions) {
+        for (const [divisionKey, newDivisionData] of Object.entries(newStandings.divisions)) {
+          const oldDivisionData = previousStandings.divisions[divisionKey];
+          
+          if (!oldDivisionData) {
+            console.log(`📧 New division detected: ${divisionKey} - skipping notifications for first appearance`);
+            continue;
+          }
+          
+          // Check each tier within the division
+          for (const [tierKey, newTierData] of Object.entries(newDivisionData.tiers || {})) {
+            const oldTierData = oldDivisionData.tiers?.[tierKey];
+            
+            if (!oldTierData || !newTierData.teams || !oldTierData.teams) {
+              continue;
+            }
+            
+            // Convert tier data to the format expected by email service
+            const oldTeams = this.convertToEmailFormat(oldTierData.teams);
+            const newTeams = this.convertToEmailFormat(newTierData.teams);
+            
+            // Check for changes in this division/tier
+            const changes = this.emailService.detectStandingsChanges(oldTeams, newTeams);
+            
+            if (changes && changes.length > 0) {
+              console.log(`📧 Changes detected in ${divisionKey}/${tierKey}: ${changes.length} changes`);
+              
+              // Construct division key for email service
+              const emailDivisionKey = `${divisionKey}-${tierKey}`;
+              
+              try {
+                const result = await this.emailService.sendDivisionStandingsUpdate(
+                  emailDivisionKey, 
+                  newTeams, 
+                  changes
+                );
+                
+                if (result.sent) {
+                  totalNotificationsSent += result.count || 0;
+                  console.log(`✅ Sent ${result.count || 0} notifications for ${emailDivisionKey}`);
+                } else {
+                  console.log(`📧 No subscribers for ${emailDivisionKey}`);
+                }
+              } catch (emailError) {
+                console.error(`❌ Failed to send notifications for ${emailDivisionKey}:`, emailError.message);
+              }
+            }
+          }
+        }
+      }
+      
+      if (totalNotificationsSent > 0) {
+        console.log(`✅ Total notifications sent: ${totalNotificationsSent}`);
+      } else {
+        console.log('📧 No changes detected or no subscribers found');
+      }
+      
+    } catch (error) {
+      console.error('❌ Error checking/sending notifications:', error.message);
+    }
+  }
+
+  convertToEmailFormat(teams) {
+    return teams.map(team => ({
+      position: team.pos,
+      team: team.team,
+      teamCode: team.teamCode || `team-${team.pos}`,
+      wins: team.w,
+      losses: team.l,
+      ties: team.t,
+      winPercentage: team.pct,
+      points: team.points || (team.w * 2 + team.t),
+      runsFor: team.rf,
+      runsAgainst: team.ra
+    }));
   }
 }
 
