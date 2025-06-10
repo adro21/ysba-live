@@ -79,6 +79,7 @@ app.get('/api/status', async (req, res) => {
     // Check if JSON files exist and get their timestamps
     const files = ['ysba-standings.json', 'ysba-recent.json', 'ysba-index.json'];
     const fileStats = {};
+    let allFilesExist = true;
     
     for (const file of files) {
       try {
@@ -90,17 +91,24 @@ app.get('/api/status', async (req, res) => {
           size: stats.size
         };
       } catch (error) {
-        fileStats[file] = { exists: false };
+        fileStats[file] = { 
+          exists: false,
+          error: error.message 
+        };
+        allFilesExist = false;
       }
     }
 
     res.json({
-      status: 'healthy',
+      status: allFilesExist ? 'healthy' : 'degraded',
       timestamp: new Date().toISOString(),
       dataSource: 'GitHub Actions (every 30 minutes)',
       files: fileStats,
       server: 'YSBA Live - Optimized for JSON serving',
-      uptime: process.uptime()
+      uptime: process.uptime(),
+      environment: process.env.NODE_ENV || 'development',
+      port: process.env.PORT || 3000,
+      pid: process.pid
     });
   } catch (error) {
     res.status(500).json({
@@ -961,11 +969,37 @@ app.get('*', (req, res) => {
 
 // Start server
 const PORT = process.env.PORT || 3000;
-const server = app.listen(PORT, () => {
-  console.log(`🚀 YSBA Live server running on port ${PORT}`);
+const HOST = process.env.NODE_ENV === 'production' ? '0.0.0.0' : 'localhost';
+
+const server = app.listen(PORT, HOST, () => {
+  console.log(`🚀 YSBA Live server running on ${HOST}:${PORT}`);
   console.log(`📊 Serving pre-generated JSON files (updated every 30 minutes)`);
   console.log(`⚡ No live scraping - optimized for speed!`);
   console.log(`🌐 Environment: ${process.env.NODE_ENV || 'development'}`);
+  console.log(`🔧 Process ID: ${process.pid}`);
+});
+
+// Add error handling for server startup
+server.on('error', (error) => {
+  if (error.syscall !== 'listen') {
+    throw error;
+  }
+
+  const bind = typeof PORT === 'string' ? 'Pipe ' + PORT : 'Port ' + PORT;
+
+  switch (error.code) {
+    case 'EACCES':
+      console.error(`❌ ${bind} requires elevated privileges`);
+      process.exit(1);
+      break;
+    case 'EADDRINUSE':
+      console.error(`❌ ${bind} is already in use`);
+      process.exit(1);
+      break;
+    default:
+      console.error(`❌ Server error:`, error);
+      throw error;
+  }
 });
 
 // Graceful shutdown
@@ -982,6 +1016,24 @@ process.on('SIGINT', () => {
   server.close(() => {
     console.log('✅ Server closed');
     process.exit(0);
+  });
+});
+
+// Handle unhandled promise rejections
+process.on('unhandledRejection', (reason, promise) => {
+  console.error('⚠️ Unhandled Rejection at:', promise, 'reason:', reason);
+  // Don't exit the process in production, just log the error
+  if (process.env.NODE_ENV !== 'production') {
+    process.exit(1);
+  }
+});
+
+// Handle uncaught exceptions
+process.on('uncaughtException', (error) => {
+  console.error('💥 Uncaught Exception:', error);
+  console.log('🛑 Shutting down due to uncaught exception...');
+  server.close(() => {
+    process.exit(1);
   });
 });
 
