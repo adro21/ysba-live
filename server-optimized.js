@@ -125,8 +125,11 @@ app.get('/api/standings', async (req, res) => {
     const { division = '9U-select', tier = 'all-tiers', refresh } = req.query;
     
     // Default to 9U-select if no division specified (for backwards compatibility)
-    const targetDivision = division || '9U-select';
+    let targetDivision = division || '9U-select';
     const targetTier = tier || 'all-tiers';
+    
+    // Normalize division case: ensure U is uppercase for numbered divisions
+    targetDivision = targetDivision.replace(/(\d+)u-/i, '$1U-');
     
     // Try individual division file first (most specific)
     try {
