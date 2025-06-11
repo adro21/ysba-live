@@ -774,7 +774,21 @@ class EmailService {
             }
         };
 
-        return sgMail.send(msg);
+        console.log(`📧 Attempting to send email to: ${to}`);
+        console.log(`📧 Subject: ${subject}`);
+        console.log(`📧 From: ${this.fromEmail}`);
+        
+        try {
+            const result = await sgMail.send(msg);
+            console.log(`✅ SendGrid send successful:`, result[0].statusCode);
+            return result;
+        } catch (error) {
+            console.error(`❌ SendGrid send failed:`, error.message);
+            if (error.response) {
+                console.error(`❌ SendGrid response:`, error.response.body);
+            }
+            throw error;
+        }
     }
 
     // Generate HTML email for standings update
