@@ -955,14 +955,19 @@ app.use('/api/*', (req, res) => {
 app.get('*', (req, res) => {
   const requestPath = req.path;
   
-  // Check if this is a division/tier route (e.g., /8U-rep/rep-tier-3)
+  // Check if this is a division/tier route (e.g., /11U-select/all-tiers, /8U-rep/tier-3)
   const divisionRoutePattern = /^\/\d+U-(rep|select)\/[^\/]+$/;
+  const isMatchingRoute = divisionRoutePattern.test(requestPath);
   
-  if (divisionRoutePattern.test(requestPath)) {
+  console.log(`🌐 Route request: ${requestPath}, matches pattern: ${isMatchingRoute}`);
+  
+  if (isMatchingRoute) {
     // Serve standings.html for division pages
+    console.log(`📊 Serving standings.html for: ${requestPath}`);
     res.sendFile(path.join(__dirname, 'public', 'standings.html'));
   } else {
     // Serve index.html for homepage and other routes
+    console.log(`🏠 Serving index.html for: ${requestPath}`);
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
   }
 });
