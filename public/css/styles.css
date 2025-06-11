@@ -3431,19 +3431,23 @@
   }
   
   .story-mini {
-    padding: 1rem;
+    padding: 1.5rem 1rem;
     min-height: 160px;
   }
   
   .mini-content {
-    flex-direction: column;
-    gap: 0.5rem;
+    flex-direction: row;
+    gap: 0.8rem;
     margin-bottom: 0.5rem;
   }
   
   .mini-stat-container {
     padding: 0.4rem 0.6rem;
     min-height: 45px;
+    justify-content: left;
+    flex-direction: column;
+    border-bottom: 0;
+    border-right: 1px solid #e6e6e6;
   }
   
   .mini-stat {
@@ -3456,6 +3460,11 @@
   
   .mini-headline {
     font-size: 0.95rem;
+    text-align:left;
+  }
+
+  .mini-body{
+    text-align: left;
   }
   
   .story-cta {
@@ -3469,6 +3478,7 @@
   .featured-headline,
   .compact-headline {
     font-size: 1.2rem;
+    font-weight:800;
   }
   
   .wide-headline {
