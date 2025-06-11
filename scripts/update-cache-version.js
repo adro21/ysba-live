@@ -12,7 +12,8 @@ console.log(`🔄 Updating cache version to: ${cacheVersion}`);
 const filesToUpdate = [
   'public/index.html',
   'public/backup.html',
-  'public/manage.html'
+  'public/manage.html',
+  'public/standings.html'
 ];
 
 // Update each file
