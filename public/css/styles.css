@@ -918,13 +918,13 @@
 
 .btn-primary {
   background: #024220;
-  color: white;
+  color: #fff !important;
   border: 1px solid transparent;
 }
 
 .btn-primary:hover {
-  /* background: #077339;
-  border-color: #077339; */
+  background: #077339;
+  border-color: #077339;
   color: #3ba26b;
 }
 
@@ -2575,7 +2575,7 @@
   
   .division-preferences-simple {
     padding: 1rem;
-    max-height: 350px;
+    max-height: 260px;
   }
   
   .choose-specific {
