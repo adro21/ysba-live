@@ -60,7 +60,8 @@ class MultiDivisionYSBAApp {
         const segments = path.split('/').filter(s => s);
         
         if (segments.length >= 2) {
-            this.currentDivision = segments[0];
+            // Normalize division case: ensure U is uppercase for numbered divisions
+            this.currentDivision = segments[0].replace(/(\d+)u-/i, '$1U-');
             this.currentTier = segments[1];
         } else {
             // Default fallback
