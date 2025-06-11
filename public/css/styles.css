@@ -1,5 +1,14 @@
 /* Modern YSBA Standings - Tailwind-inspired Design */
 
+/* Font Imports */
+@font-face {
+  font-family: 'Ozone';
+  src: url('/fonts/Ozone-xRRO.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* CSS Custom Properties */
 :root {
   /* Colors */
@@ -2671,7 +2680,7 @@
 
 .clean-header .brand-title {
   font-size: 1.75rem;
-  font-weight: 700;
+  font-weight: 800;
   color: #024220;
   margin: 0;
 }
@@ -2721,6 +2730,14 @@
   color: inherit !important;
   text-decoration: none !important;
   outline: none;
+}
+
+.standings-type{
+  font-family: 'Ozone', sans-serif;
+  font-size: 30px;
+  opacity: 0.5;
+  font-weight: 300;
+  padding-left:0.1rem;
 }
 
 /* Full-screen magazine layout */
