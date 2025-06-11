@@ -36,11 +36,14 @@ class MultiDivisionYSBAApp {
         // Parse current division/tier from URL
         await this.parseCurrentPath();
         
-        // Load available divisions
+        // Load available divisions and wait for completion
         await this.loadAllDivisions();
         
-        // Update UI elements
+        // Now update UI elements after divisions are loaded
         this.updateUIElements();
+        
+        // Update active states for mega menu
+        this.updateActiveStates();
         
         // Load standings for current division/tier
         this.loadStandings();
@@ -104,6 +107,8 @@ class MultiDivisionYSBAApp {
         if (buttonText) {
             if (this.divisionConfig?.shortName) {
                 buttonText.textContent = this.divisionConfig.shortName;
+            } else if (this.divisionConfig?.displayName) {
+                buttonText.textContent = this.divisionConfig.displayName;
             } else if (this.currentDivision) {
                 // Fallback: use current division name even if config not loaded
                 buttonText.textContent = this.currentDivision.replace('-', ' ').toUpperCase();

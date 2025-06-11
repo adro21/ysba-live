@@ -383,8 +383,12 @@ app.get('/api/divisions', async (req, res) => {
         const selectDivision = division.tiers && Array.isArray(division.tiers) && division.tiers.some(t => t.key.includes('select'));
         
         if (repDivision) {
+          // Get the config division for this key to access shortName and other properties
+          const configDivision = config.DIVISIONS[`${key}-rep`];
+          
           divisions[`${key}-rep`] = {
             displayName: `${division.displayName} Rep`,
+            shortName: configDivision?.shortName || `${key.toUpperCase()} Rep`,
             theme: {
               primary: '#024220',
               secondary: '#015c2a',
@@ -409,6 +413,7 @@ app.get('/api/divisions', async (req, res) => {
           
           divisions[`${key}-select`] = {
             displayName: `${division.displayName} Select`,
+            shortName: configDivision?.shortName || `${key.toUpperCase()} Select`,
             theme: {
               primary: '#024220',
               secondary: '#015c2a',
@@ -445,6 +450,7 @@ app.get('/api/divisions', async (req, res) => {
     Object.entries(config.DIVISIONS).forEach(([key, division]) => {
       divisions[key] = {
         displayName: division.displayName,
+        shortName: division.shortName || division.displayName,
         theme: division.theme || { primary: '#024220' },
         tiers: division.tiers || {},
         features: division.features || {
