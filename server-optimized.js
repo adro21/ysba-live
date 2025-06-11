@@ -956,7 +956,7 @@ app.get('*', (req, res) => {
   const requestPath = req.path;
   
   // Check if this is a division/tier route (e.g., /11U-select/all-tiers, /8U-rep/tier-3, /senior-rep/tier-1)
-  const divisionRoutePattern = /^\/(\d+U|senior)-(rep|select)\/[^\/]+$/;
+  const divisionRoutePattern = /^\/(\d+u|senior)-(rep|select)\/[^\/]+$/i;
   const isMatchingRoute = divisionRoutePattern.test(requestPath);
   
   console.log(`🌐 Route request: ${requestPath}, matches pattern: ${isMatchingRoute}`);
