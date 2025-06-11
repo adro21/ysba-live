@@ -97,7 +97,26 @@ class MultiDivisionYSBAApp {
     }
 
 
+    updateBrandSubtitle() {
+        const dropdownBtn = document.querySelector('.brand-subtitle-btn');
+        const buttonText = dropdownBtn?.querySelector('.dropdown-button-text');
+        
+        if (buttonText) {
+            if (this.divisionConfig?.shortName) {
+                buttonText.textContent = this.divisionConfig.shortName;
+            } else if (this.currentDivision) {
+                // Fallback: use current division name even if config not loaded
+                buttonText.textContent = this.currentDivision.replace('-', ' ').toUpperCase();
+            } else {
+                buttonText.textContent = 'LOADING...';
+            }
+        }
+    }
+
     updateUIElements() {
+        // Update brand subtitle even if we don't have full config yet
+        this.updateBrandSubtitle();
+        
         if (!this.divisionConfig || !this.tierConfig) return;
 
         // Update page title
