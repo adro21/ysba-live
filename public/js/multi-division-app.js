@@ -681,7 +681,7 @@ class MultiDivisionYSBAApp {
                 if (silent) {
                     // Use a small delay to let the DOM update, then check scroll position
                     setTimeout(() => {
-                        this.checkStickyHeader();
+                        this.handleStickyHeader();
                     }, 50);
                 }
             } else {
