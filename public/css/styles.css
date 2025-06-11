@@ -2914,6 +2914,23 @@
   line-height: 1.5;
 }
 
+/* Story Headline Emojis */
+.story-type-undefeated .featured-headline::before {
+  content: '🔥 ';
+}
+
+.story-wide .wide-headline::before {
+  content: '⭐ ';
+}
+
+.story-type-shutout_artist .featured-headline::before {
+  content: '⚾ ';
+}
+
+.story-type-tight_race .compact-headline::before {
+  content: '🧢 ';
+}
+
 /* Mini story cards - improved design */
 .story-mini {
   grid-column: span 3;
