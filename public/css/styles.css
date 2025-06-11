@@ -3,10 +3,16 @@
 /* Font Imports */
 @font-face {
   font-family: 'Ozone';
-  src: url('/public/fonts/Ozone-xRRO.ttf') format('truetype');
+  src: url('../fonts/Ozone-xRRO.ttf?v=3') format('truetype'),
+       url('/fonts/Ozone-xRRO.ttf?v=3') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+}
+
+/* Test to see if font is loading */
+.font-test {
+  font-family: 'Ozone', 'Arial Black', sans-serif;
 }
 
 /* CSS Custom Properties */
@@ -2736,7 +2742,7 @@
   font-family: 'Ozone', sans-serif;
   font-size: 30px;
   opacity: 0.5;
-  font-weight: 300;
+  font-weight: normal;
   padding-left:0.1rem;
 }
 
