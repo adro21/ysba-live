@@ -577,15 +577,27 @@ class EmailService {
 
     // Send division-specific standings update notification
     async sendDivisionStandingsUpdate(divisionKey, standingsData, changes = []) {
+        console.log(`📧 sendDivisionStandingsUpdate called with divisionKey: ${divisionKey}`);
+        
         if (!this.isConfigured) {
             console.log('📧 Email notifications disabled - SendGrid not configured');
-            return;
+            return { sent: false, reason: 'SendGrid not configured' };
         }
 
         // Get subscribers who want notifications for this specific division
+        console.log(`📧 Looking for subscribers for division: ${divisionKey}`);
+        const allSubscribers = await this.loadSubscribers();
+        console.log(`📧 Total subscribers loaded: ${allSubscribers.length}`);
+        
         const subscribers = await this.getActiveSubscribers(divisionKey);
+        console.log(`📧 Active subscribers for ${divisionKey}: ${subscribers.length}`);
+        
         if (subscribers.length === 0) {
             console.log(`📧 No subscribers for division ${divisionKey} to notify`);
+            // Debug: show what divisions each subscriber is subscribed to
+            allSubscribers.forEach(sub => {
+                console.log(`📧 Debug - Subscriber ${sub.email}: ${JSON.stringify(sub.divisionPreferences)}`);
+            });
             return { sent: false, reason: 'No subscribers for division', divisionKey };
         }
 
