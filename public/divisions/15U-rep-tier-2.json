@@ -42,17 +42,17 @@
         "team": "Bradford Tigers 15U AA",
         "teamCode": "510988",
         "record": {
-          "gamesPlayed": 7,
-          "wins": 4,
+          "gamesPlayed": 8,
+          "wins": 5,
           "losses": 2,
           "ties": 1,
-          "winPercentage": "0.643"
+          "winPercentage": "0.688"
         },
         "stats": {
-          "points": 9,
-          "runsFor": 68,
-          "runsAgainst": 46,
-          "runDifferential": 22
+          "points": 11,
+          "runsFor": 88,
+          "runsAgainst": 51,
+          "runDifferential": 37
         }
       },
       {
@@ -92,24 +92,6 @@
         }
       },
       {
-        "position": 6,
-        "team": "Newmarket Hawks 15U AA",
-        "teamCode": "510991",
-        "record": {
-          "gamesPlayed": 4,
-          "wins": 1,
-          "losses": 3,
-          "ties": 0,
-          "winPercentage": "0.250"
-        },
-        "stats": {
-          "points": 2,
-          "runsFor": 32,
-          "runsAgainst": 43,
-          "runDifferential": -11
-        }
-      },
-      {
         "position": 7,
         "team": "Aurora-King Jays 15U AA",
         "teamCode": "510993",
@@ -125,6 +107,24 @@
           "runsFor": 28,
           "runsAgainst": 47,
           "runDifferential": -19
+        }
+      },
+      {
+        "position": 6,
+        "team": "Newmarket Hawks 15U AA",
+        "teamCode": "510991",
+        "record": {
+          "gamesPlayed": 5,
+          "wins": 1,
+          "losses": 4,
+          "ties": 0,
+          "winPercentage": "0.200"
+        },
+        "stats": {
+          "points": 2,
+          "runsFor": 37,
+          "runsAgainst": 63,
+          "runDifferential": -26
         }
       },
       {
@@ -146,7 +146,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-06-11T01:13:30.174Z",
+    "lastUpdated": "2025-06-11T03:04:28.970Z",
     "totalTeams": 8
   },
   "schedule": {
@@ -280,7 +280,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-11T01:13:34.311Z"
+        "lastUpdated": "2025-06-11T03:04:33.048Z"
       },
       "510981": {
         "teamCode": "510981",
@@ -423,7 +423,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-11T01:13:34.311Z"
+        "lastUpdated": "2025-06-11T03:04:33.048Z"
       },
       "510982": {
         "teamCode": "510982",
@@ -574,7 +574,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-11T01:13:34.311Z"
+        "lastUpdated": "2025-06-11T03:04:33.048Z"
       },
       "510983": {
         "teamCode": "510983",
@@ -721,7 +721,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-11T01:13:34.311Z"
+        "lastUpdated": "2025-06-11T03:04:33.048Z"
       },
       "510984": {
         "teamCode": "510984",
@@ -864,7 +864,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-11T01:13:34.311Z"
+        "lastUpdated": "2025-06-11T03:04:33.048Z"
       },
       "510985": {
         "teamCode": "510985",
@@ -967,7 +967,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-11T01:13:34.311Z"
+        "lastUpdated": "2025-06-11T03:04:33.048Z"
       },
       "510986": {
         "teamCode": "510986",
@@ -1110,7 +1110,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-11T01:13:34.311Z"
+        "lastUpdated": "2025-06-11T03:04:33.048Z"
       },
       "510987": {
         "teamCode": "510987",
@@ -1253,7 +1253,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-11T01:13:34.311Z"
+        "lastUpdated": "2025-06-11T03:04:33.048Z"
       },
       "510988": {
         "teamCode": "510988",
@@ -1334,8 +1334,12 @@
             "awayTeam": "Newmarket Hawks 15U AA",
             "awayTeamCode": "510991",
             "location": "Joe Magani Park #5",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 20,
+              "away": 5,
+              "scoreText": "5-20"
+            }
           }
         ],
         "nextGames": [
@@ -1400,7 +1404,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-11T01:13:34.311Z"
+        "lastUpdated": "2025-06-11T03:04:33.048Z"
       },
       "510989": {
         "teamCode": "510989",
@@ -1539,7 +1543,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-11T01:13:34.311Z"
+        "lastUpdated": "2025-06-11T03:04:33.048Z"
       },
       "510990": {
         "teamCode": "510990",
@@ -1674,7 +1678,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-11T01:13:34.311Z"
+        "lastUpdated": "2025-06-11T03:04:33.048Z"
       },
       "510991": {
         "teamCode": "510991",
@@ -1747,8 +1751,12 @@
             "awayTeam": "Newmarket Hawks 15U AA",
             "awayTeamCode": "510991",
             "location": "Joe Magani Park #5",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 20,
+              "away": 5,
+              "scoreText": "5-20"
+            }
           }
         ],
         "nextGames": [
@@ -1813,7 +1821,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-11T01:13:34.311Z"
+        "lastUpdated": "2025-06-11T03:04:33.048Z"
       },
       "510992": {
         "teamCode": "510992",
@@ -1948,7 +1956,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-11T01:13:34.311Z"
+        "lastUpdated": "2025-06-11T03:04:33.048Z"
       },
       "510993": {
         "teamCode": "510993",
@@ -2091,7 +2099,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-11T01:13:34.311Z"
+        "lastUpdated": "2025-06-11T03:04:33.048Z"
       },
       "510998": {
         "teamCode": "510998",
@@ -2194,7 +2202,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-11T01:13:34.311Z"
+        "lastUpdated": "2025-06-11T03:04:33.048Z"
       },
       "516244": {
         "teamCode": "516244",
@@ -2313,7 +2321,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-11T01:13:34.312Z"
+        "lastUpdated": "2025-06-11T03:04:33.048Z"
       },
       "518959": {
         "teamCode": "518959",
@@ -2460,7 +2468,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-11T01:13:34.312Z"
+        "lastUpdated": "2025-06-11T03:04:33.048Z"
       },
       "546379": {
         "teamCode": "546379",
@@ -2607,7 +2615,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-11T01:13:34.312Z"
+        "lastUpdated": "2025-06-11T03:04:33.048Z"
       }
     },
     "allGames": [
@@ -3340,8 +3348,12 @@
         "awayTeam": "Newmarket Hawks 15U AA",
         "awayTeamCode": "510991",
         "location": "Joe Magani Park #5",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 20,
+          "away": 5,
+          "scoreText": "5-20"
+        }
       },
       {
         "date": "2025-06-11T18:30:00.000Z",
@@ -4722,8 +4734,12 @@
         "awayTeam": "Newmarket Hawks 15U AA",
         "awayTeamCode": "510991",
         "location": "Joe Magani Park #5",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 20,
+          "away": 5,
+          "scoreText": "5-20"
+        }
       },
       {
         "date": "2025-06-10T18:00:00.000Z",
@@ -4960,14 +4976,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-11T01:13:34.312Z",
+    "lastUpdated": "2025-06-11T03:04:33.048Z",
     "totalGames": 162
   },
   "summary": {
     "totalTeams": 8,
     "totalGames": 162,
-    "completedGames": 36,
-    "upcomingGames": 126,
+    "completedGames": 37,
+    "upcomingGames": 125,
     "topTeam": {
       "team": "Innisfil Cardinals 15U AA",
       "teamCode": "510989",
@@ -4984,6 +5000,6 @@
       "date": "Thu, May 29",
       "location": "Bethesda Fields #2"
     },
-    "lastUpdated": "2025-06-11T01:15:56.889Z"
+    "lastUpdated": "2025-06-11T03:06:59.030Z"
   }
 }
