@@ -92,7 +92,7 @@
         }
       },
       {
-        "position": 10,
+        "position": 11,
         "team": "Collingwood Jays 18U A",
         "teamCode": "511027",
         "record": {
@@ -143,6 +143,24 @@
           "runsFor": 39,
           "runsAgainst": 56,
           "runDifferential": -17
+        }
+      },
+      {
+        "position": 8,
+        "team": "Caledon Nationals 18U A",
+        "teamCode": "511026",
+        "record": {
+          "gamesPlayed": 6,
+          "wins": 2,
+          "losses": 2,
+          "ties": 2,
+          "winPercentage": "0.500"
+        },
+        "stats": {
+          "points": 6,
+          "runsFor": 42,
+          "runsAgainst": 37,
+          "runDifferential": 5
         }
       },
       {
@@ -200,7 +218,7 @@
         }
       },
       {
-        "position": 9,
+        "position": 10,
         "team": "Bradford Tigers 18U A",
         "teamCode": "511025",
         "record": {
@@ -218,7 +236,7 @@
         }
       },
       {
-        "position": 11,
+        "position": 12,
         "team": "Innisfil Cardinals 18U A",
         "teamCode": "511028",
         "record": {
@@ -233,24 +251,6 @@
           "runsFor": 34,
           "runsAgainst": 41,
           "runDifferential": -7
-        }
-      },
-      {
-        "position": 12,
-        "team": "Caledon Nationals 18U A",
-        "teamCode": "511026",
-        "record": {
-          "gamesPlayed": 5,
-          "wins": 1,
-          "losses": 2,
-          "ties": 2,
-          "winPercentage": "0.400"
-        },
-        "stats": {
-          "points": 4,
-          "runsFor": 31,
-          "runsAgainst": 37,
-          "runDifferential": -6
         }
       },
       {
@@ -272,7 +272,7 @@
         }
       },
       {
-        "position": 8,
+        "position": 9,
         "team": "Vaughan Vikings 17U A",
         "teamCode": "518960",
         "record": {
@@ -312,17 +312,17 @@
         "team": "TNT Thunder 18U A",
         "teamCode": "511034",
         "record": {
-          "gamesPlayed": 4,
+          "gamesPlayed": 5,
           "wins": 0,
-          "losses": 4,
+          "losses": 5,
           "ties": 0,
           "winPercentage": "0.000"
         },
         "stats": {
           "points": 0,
           "runsFor": 6,
-          "runsAgainst": 69,
-          "runDifferential": -63
+          "runsAgainst": 80,
+          "runDifferential": -74
         }
       },
       {
@@ -344,7 +344,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-06-12T01:13:27.169Z",
+    "lastUpdated": "2025-06-12T03:03:30.177Z",
     "totalTeams": 19
   },
   "schedule": {
@@ -498,7 +498,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T01:13:31.707Z"
+        "lastUpdated": "2025-06-12T03:03:35.073Z"
       },
       "511022": {
         "teamCode": "511022",
@@ -645,7 +645,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T01:13:31.707Z"
+        "lastUpdated": "2025-06-12T03:03:35.073Z"
       },
       "511023": {
         "teamCode": "511023",
@@ -784,7 +784,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T01:13:31.707Z"
+        "lastUpdated": "2025-06-12T03:03:35.073Z"
       },
       "511024": {
         "teamCode": "511024",
@@ -931,7 +931,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T01:13:31.707Z"
+        "lastUpdated": "2025-06-12T03:03:35.073Z"
       },
       "511025": {
         "teamCode": "511025",
@@ -1078,7 +1078,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T01:13:31.707Z"
+        "lastUpdated": "2025-06-12T03:03:35.073Z"
       },
       "511026": {
         "teamCode": "511026",
@@ -1155,8 +1155,12 @@
             "awayTeam": "TNT Thunder 18U A",
             "awayTeamCode": "511034",
             "location": "Bolton North Hill D1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 0,
+              "scoreText": "0-11"
+            }
           }
         ],
         "nextGames": [
@@ -1221,7 +1225,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T01:13:31.707Z"
+        "lastUpdated": "2025-06-12T03:03:35.073Z"
       },
       "511027": {
         "teamCode": "511027",
@@ -1368,7 +1372,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T01:13:31.707Z"
+        "lastUpdated": "2025-06-12T03:03:35.073Z"
       },
       "511028": {
         "teamCode": "511028",
@@ -1515,7 +1519,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T01:13:31.707Z"
+        "lastUpdated": "2025-06-12T03:03:35.073Z"
       },
       "511030": {
         "teamCode": "511030",
@@ -1662,7 +1666,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T01:13:31.707Z"
+        "lastUpdated": "2025-06-12T03:03:35.073Z"
       },
       "511031": {
         "teamCode": "511031",
@@ -1789,7 +1793,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T01:13:31.707Z"
+        "lastUpdated": "2025-06-12T03:03:35.074Z"
       },
       "511032": {
         "teamCode": "511032",
@@ -1932,7 +1936,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T01:13:31.707Z"
+        "lastUpdated": "2025-06-12T03:03:35.074Z"
       },
       "511033": {
         "teamCode": "511033",
@@ -2083,7 +2087,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T01:13:31.707Z"
+        "lastUpdated": "2025-06-12T03:03:35.074Z"
       },
       "511034": {
         "teamCode": "511034",
@@ -2164,8 +2168,12 @@
             "awayTeam": "TNT Thunder 18U A",
             "awayTeamCode": "511034",
             "location": "Bolton North Hill D1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 0,
+              "scoreText": "0-11"
+            }
           }
         ],
         "nextGames": [
@@ -2230,7 +2238,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T01:13:31.707Z"
+        "lastUpdated": "2025-06-12T03:03:35.074Z"
       },
       "511035": {
         "teamCode": "511035",
@@ -2377,7 +2385,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T01:13:31.707Z"
+        "lastUpdated": "2025-06-12T03:03:35.074Z"
       },
       "516246": {
         "teamCode": "516246",
@@ -2516,7 +2524,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T01:13:31.707Z"
+        "lastUpdated": "2025-06-12T03:03:35.074Z"
       },
       "518960": {
         "teamCode": "518960",
@@ -2663,7 +2671,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T01:13:31.707Z"
+        "lastUpdated": "2025-06-12T03:03:35.074Z"
       },
       "518962": {
         "teamCode": "518962",
@@ -2810,7 +2818,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T01:13:31.707Z"
+        "lastUpdated": "2025-06-12T03:03:35.074Z"
       },
       "519242": {
         "teamCode": "519242",
@@ -2961,7 +2969,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T01:13:31.707Z"
+        "lastUpdated": "2025-06-12T03:03:35.074Z"
       },
       "546377": {
         "teamCode": "546377",
@@ -3108,7 +3116,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T01:13:31.707Z"
+        "lastUpdated": "2025-06-12T03:03:35.074Z"
       }
     },
     "allGames": [
@@ -4085,8 +4093,12 @@
         "awayTeam": "TNT Thunder 18U A",
         "awayTeamCode": "511034",
         "location": "Bolton North Hill D1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 0,
+          "scoreText": "0-11"
+        }
       },
       {
         "date": "2025-06-12T18:30:00.000Z",
@@ -5251,8 +5263,12 @@
         "awayTeam": "TNT Thunder 18U A",
         "awayTeamCode": "511034",
         "location": "Bolton North Hill D1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 0,
+          "scoreText": "0-11"
+        }
       },
       {
         "date": "2025-06-11T19:30:00.000Z",
@@ -5509,14 +5525,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-12T01:13:31.707Z",
+    "lastUpdated": "2025-06-12T03:03:35.074Z",
     "totalGames": 161
   },
   "summary": {
     "totalTeams": 19,
     "totalGames": 161,
-    "completedGames": 49,
-    "upcomingGames": 112,
+    "completedGames": 50,
+    "upcomingGames": 111,
     "topTeam": {
       "team": "Caledon Nationals 18U AA",
       "teamCode": "511035",
@@ -5533,6 +5549,6 @@
       "date": "Mon, May 26",
       "location": "Stewart Burnett"
     },
-    "lastUpdated": "2025-06-12T01:15:19.415Z"
+    "lastUpdated": "2025-06-12T03:05:30.036Z"
   }
 }

@@ -6,17 +6,17 @@
         "team": "Richmond Hill Phoenix 10U AA",
         "teamCode": "510885",
         "record": {
-          "gamesPlayed": 8,
-          "wins": 7,
+          "gamesPlayed": 9,
+          "wins": 8,
           "losses": 1,
           "ties": 0,
-          "winPercentage": "0.875"
+          "winPercentage": "0.889"
         },
         "stats": {
-          "points": 14,
-          "runsFor": 88,
-          "runsAgainst": 44,
-          "runDifferential": 44
+          "points": 16,
+          "runsFor": 101,
+          "runsAgainst": 47,
+          "runDifferential": 54
         }
       },
       {
@@ -60,17 +60,17 @@
         "team": "Markham Mariners 10U AA",
         "teamCode": "510883",
         "record": {
-          "gamesPlayed": 6,
+          "gamesPlayed": 7,
           "wins": 3,
-          "losses": 3,
+          "losses": 4,
           "ties": 0,
-          "winPercentage": "0.500"
+          "winPercentage": "0.429"
         },
         "stats": {
           "points": 6,
-          "runsFor": 44,
-          "runsAgainst": 52,
-          "runDifferential": -8
+          "runsFor": 47,
+          "runsAgainst": 65,
+          "runDifferential": -18
         }
       },
       {
@@ -110,7 +110,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-06-12T01:10:02.717Z",
+    "lastUpdated": "2025-06-12T03:00:03.086Z",
     "totalTeams": 6
   },
   "schedule": {
@@ -256,7 +256,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T01:10:07.282Z"
+        "lastUpdated": "2025-06-12T03:00:07.595Z"
       },
       "510870": {
         "teamCode": "510870",
@@ -399,7 +399,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T01:10:07.282Z"
+        "lastUpdated": "2025-06-12T03:00:07.595Z"
       },
       "510871": {
         "teamCode": "510871",
@@ -550,7 +550,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T01:10:07.282Z"
+        "lastUpdated": "2025-06-12T03:00:07.595Z"
       },
       "510872": {
         "teamCode": "510872",
@@ -681,7 +681,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T01:10:07.282Z"
+        "lastUpdated": "2025-06-12T03:00:07.595Z"
       },
       "510873": {
         "teamCode": "510873",
@@ -824,7 +824,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T01:10:07.282Z"
+        "lastUpdated": "2025-06-12T03:00:07.595Z"
       },
       "510874": {
         "teamCode": "510874",
@@ -967,7 +967,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T01:10:07.282Z"
+        "lastUpdated": "2025-06-12T03:00:07.595Z"
       },
       "510875": {
         "teamCode": "510875",
@@ -1114,7 +1114,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T01:10:07.282Z"
+        "lastUpdated": "2025-06-12T03:00:07.596Z"
       },
       "510876": {
         "teamCode": "510876",
@@ -1265,7 +1265,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T01:10:07.282Z"
+        "lastUpdated": "2025-06-12T03:00:07.596Z"
       },
       "510877": {
         "teamCode": "510877",
@@ -1416,7 +1416,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T01:10:07.282Z"
+        "lastUpdated": "2025-06-12T03:00:07.596Z"
       },
       "510878": {
         "teamCode": "510878",
@@ -1559,7 +1559,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T01:10:07.282Z"
+        "lastUpdated": "2025-06-12T03:00:07.596Z"
       },
       "510879": {
         "teamCode": "510879",
@@ -1702,7 +1702,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T01:10:07.282Z"
+        "lastUpdated": "2025-06-12T03:00:07.596Z"
       },
       "510880": {
         "teamCode": "510880",
@@ -1845,7 +1845,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T01:10:07.282Z"
+        "lastUpdated": "2025-06-12T03:00:07.596Z"
       },
       "510881": {
         "teamCode": "510881",
@@ -1996,7 +1996,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T01:10:07.282Z"
+        "lastUpdated": "2025-06-12T03:00:07.596Z"
       },
       "510882": {
         "teamCode": "510882",
@@ -2147,7 +2147,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T01:10:07.282Z"
+        "lastUpdated": "2025-06-12T03:00:07.596Z"
       },
       "510883": {
         "teamCode": "510883",
@@ -2228,8 +2228,12 @@
             "awayTeam": "Markham Mariners 10U AA",
             "awayTeamCode": "510883",
             "location": "Morgan Boyle Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 3,
+              "scoreText": "3-13"
+            }
           }
         ],
         "nextGames": [
@@ -2294,7 +2298,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T01:10:07.282Z"
+        "lastUpdated": "2025-06-12T03:00:07.596Z"
       },
       "510884": {
         "teamCode": "510884",
@@ -2445,7 +2449,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T01:10:07.282Z"
+        "lastUpdated": "2025-06-12T03:00:07.596Z"
       },
       "510885": {
         "teamCode": "510885",
@@ -2526,8 +2530,12 @@
             "awayTeam": "Markham Mariners 10U AA",
             "awayTeamCode": "510883",
             "location": "Morgan Boyle Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 3,
+              "scoreText": "3-13"
+            }
           }
         ],
         "nextGames": [
@@ -2592,7 +2600,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T01:10:07.282Z"
+        "lastUpdated": "2025-06-12T03:00:07.596Z"
       },
       "510889": {
         "teamCode": "510889",
@@ -2739,7 +2747,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T01:10:07.282Z"
+        "lastUpdated": "2025-06-12T03:00:07.596Z"
       },
       "510890": {
         "teamCode": "510890",
@@ -2886,7 +2894,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T01:10:07.282Z"
+        "lastUpdated": "2025-06-12T03:00:07.596Z"
       },
       "518949": {
         "teamCode": "518949",
@@ -3037,7 +3045,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T01:10:07.282Z"
+        "lastUpdated": "2025-06-12T03:00:07.596Z"
       }
     },
     "allGames": [
@@ -4134,8 +4142,12 @@
         "awayTeam": "Markham Mariners 10U AA",
         "awayTeamCode": "510883",
         "location": "Morgan Boyle Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 3,
+          "scoreText": "3-13"
+        }
       },
       {
         "date": "2025-06-11T18:30:00.000Z",
@@ -5632,8 +5644,12 @@
         "awayTeam": "Markham Mariners 10U AA",
         "awayTeamCode": "510883",
         "location": "Morgan Boyle Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 3,
+          "scoreText": "3-13"
+        }
       },
       {
         "date": "2025-06-11T18:00:00.000Z",
@@ -5862,20 +5878,20 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-12T01:10:07.282Z",
+    "lastUpdated": "2025-06-12T03:00:07.596Z",
     "totalGames": 193
   },
   "summary": {
     "totalTeams": 6,
     "totalGames": 193,
-    "completedGames": 59,
-    "upcomingGames": 134,
+    "completedGames": 60,
+    "upcomingGames": 133,
     "topTeam": {
       "team": "Richmond Hill Phoenix 10U AA",
       "teamCode": "510885",
-      "wins": 7,
+      "wins": 8,
       "losses": 1,
-      "winPercentage": "0.875"
+      "winPercentage": "0.889"
     },
     "highestScoringGame": {
       "homeTeam": "Georgina Bulldogs 10U B",
@@ -5886,6 +5902,6 @@
       "date": "Sun, May 25",
       "location": "West Park Diamond 1"
     },
-    "lastUpdated": "2025-06-12T01:15:19.415Z"
+    "lastUpdated": "2025-06-12T03:05:30.036Z"
   }
 }
