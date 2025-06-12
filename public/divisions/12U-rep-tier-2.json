@@ -20,9 +20,27 @@
         }
       },
       {
-        "position": 7,
+        "position": 3,
         "team": "Newmarket Hawks 12U AA",
         "teamCode": "510923",
+        "record": {
+          "gamesPlayed": 4,
+          "wins": 3,
+          "losses": 1,
+          "ties": 0,
+          "winPercentage": "0.750"
+        },
+        "stats": {
+          "points": 6,
+          "runsFor": 31,
+          "runsAgainst": 21,
+          "runDifferential": 10
+        }
+      },
+      {
+        "position": 8,
+        "team": "Aurora-King Jays 12U AA",
+        "teamCode": "510935",
         "record": {
           "gamesPlayed": 3,
           "wins": 2,
@@ -32,9 +50,9 @@
         },
         "stats": {
           "points": 4,
-          "runsFor": 25,
-          "runsAgainst": 16,
-          "runDifferential": 9
+          "runsFor": 35,
+          "runsAgainst": 21,
+          "runDifferential": 14
         }
       },
       {
@@ -56,7 +74,7 @@
         }
       },
       {
-        "position": 3,
+        "position": 5,
         "team": "Caledon Nationals 12U AA",
         "teamCode": "510929",
         "record": {
@@ -74,7 +92,7 @@
         }
       },
       {
-        "position": 5,
+        "position": 6,
         "team": "Stouffville Yankees 12U AA",
         "teamCode": "510933",
         "record": {
@@ -92,7 +110,7 @@
         }
       },
       {
-        "position": 6,
+        "position": 7,
         "team": "Thornhill Reds 12U AA",
         "teamCode": "510934",
         "record": {
@@ -110,61 +128,43 @@
         }
       },
       {
-        "position": 9,
-        "team": "Aurora-King Jays 12U AA",
-        "teamCode": "510935",
-        "record": {
-          "gamesPlayed": 2,
-          "wins": 1,
-          "losses": 1,
-          "ties": 0,
-          "winPercentage": "0.500"
-        },
-        "stats": {
-          "points": 2,
-          "runsFor": 17,
-          "runsAgainst": 20,
-          "runDifferential": -3
-        }
-      },
-      {
         "position": 4,
         "team": "Richmond Hill Phoenix 12U AA",
         "teamCode": "510932",
         "record": {
-          "gamesPlayed": 6,
+          "gamesPlayed": 8,
           "wins": 2,
-          "losses": 4,
-          "ties": 0,
-          "winPercentage": "0.333"
+          "losses": 5,
+          "ties": 1,
+          "winPercentage": "0.313"
         },
         "stats": {
-          "points": 4,
-          "runsFor": 38,
-          "runsAgainst": 59,
-          "runDifferential": -21
+          "points": 5,
+          "runsFor": 49,
+          "runsAgainst": 87,
+          "runDifferential": -38
         }
       },
       {
-        "position": 8,
+        "position": 9,
         "team": "Barrie Baycats 12U AA",
         "teamCode": "510928",
         "record": {
-          "gamesPlayed": 5,
+          "gamesPlayed": 7,
           "wins": 1,
-          "losses": 4,
-          "ties": 0,
-          "winPercentage": "0.200"
+          "losses": 5,
+          "ties": 1,
+          "winPercentage": "0.214"
         },
         "stats": {
-          "points": 2,
-          "runsFor": 35,
-          "runsAgainst": 60,
-          "runDifferential": -25
+          "points": 3,
+          "runsFor": 50,
+          "runsAgainst": 76,
+          "runDifferential": -26
         }
       }
     ],
-    "lastUpdated": "2025-06-11T23:40:56.662Z",
+    "lastUpdated": "2025-06-12T12:30:26.611Z",
     "totalTeams": 9
   },
   "schedule": {
@@ -310,7 +310,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-11T23:41:00.980Z"
+        "lastUpdated": "2025-06-12T12:30:31.046Z"
       },
       "510919": {
         "teamCode": "510919",
@@ -457,7 +457,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-11T23:41:00.980Z"
+        "lastUpdated": "2025-06-12T12:30:31.047Z"
       },
       "510920": {
         "teamCode": "510920",
@@ -604,7 +604,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-11T23:41:00.980Z"
+        "lastUpdated": "2025-06-12T12:30:31.047Z"
       },
       "510921": {
         "teamCode": "510921",
@@ -747,7 +747,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-11T23:41:00.980Z"
+        "lastUpdated": "2025-06-12T12:30:31.047Z"
       },
       "510922": {
         "teamCode": "510922",
@@ -890,14 +890,30 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-11T23:41:00.980Z"
+        "lastUpdated": "2025-06-12T12:30:31.047Z"
       },
       "510923": {
         "teamCode": "510923",
         "totalGames": 16,
-        "playedGames": 6,
-        "upcomingGames": 10,
+        "playedGames": 5,
+        "upcomingGames": 11,
         "recentGames": [
+          {
+            "date": "2025-05-13T18:30:00.000Z",
+            "dateText": "Tue, May 13",
+            "time": "6:30 PM",
+            "homeTeam": "Richmond Hill Phoenix 12U AA",
+            "homeTeamCode": "510932",
+            "awayTeam": "Newmarket Hawks 12U AA",
+            "awayTeamCode": "510923",
+            "location": "Richmond Green Field 6",
+            "isCompleted": true,
+            "score": {
+              "home": 1,
+              "away": 10,
+              "scoreText": "10-1"
+            }
+          },
           {
             "date": "2025-05-22T18:30:00.000Z",
             "dateText": "Thu, May 22",
@@ -943,18 +959,6 @@
             }
           },
           {
-            "date": "2025-06-04T18:00:00.000Z",
-            "dateText": "Wed, Jun 4",
-            "time": "6:00 PM",
-            "homeTeam": "Newmarket Hawks 12U AA",
-            "homeTeamCode": "510923",
-            "awayTeam": "Collingwood Jays 12U AA",
-            "awayTeamCode": "510930",
-            "location": "Armstrong Park Field 1",
-            "isCompleted": false,
-            "score": null
-          },
-          {
             "date": "2025-06-11T18:00:00.000Z",
             "dateText": "Wed, Jun 11",
             "time": "6:00 PM",
@@ -963,8 +967,12 @@
             "awayTeam": "Barrie Baycats 12U AA",
             "awayTeamCode": "510928",
             "location": "Armstrong Park Field 1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 5,
+              "scoreText": "5-6"
+            }
           }
         ],
         "nextGames": [
@@ -1029,7 +1037,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-11T23:41:00.980Z"
+        "lastUpdated": "2025-06-12T12:30:31.047Z"
       },
       "510924": {
         "teamCode": "510924",
@@ -1180,7 +1188,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-11T23:41:00.980Z"
+        "lastUpdated": "2025-06-12T12:30:31.047Z"
       },
       "510925": {
         "teamCode": "510925",
@@ -1331,7 +1339,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-11T23:41:00.980Z"
+        "lastUpdated": "2025-06-12T12:30:31.047Z"
       },
       "510926": {
         "teamCode": "510926",
@@ -1474,7 +1482,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-11T23:41:00.980Z"
+        "lastUpdated": "2025-06-12T12:30:31.047Z"
       },
       "510927": {
         "teamCode": "510927",
@@ -1617,7 +1625,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-11T23:41:00.980Z"
+        "lastUpdated": "2025-06-12T12:30:31.047Z"
       },
       "510928": {
         "teamCode": "510928",
@@ -1678,8 +1686,12 @@
             "awayTeam": "Barrie Baycats 12U AA",
             "awayTeamCode": "510928",
             "location": "Richmond Green Field 6",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 10,
+              "scoreText": "10-10"
+            }
           },
           {
             "date": "2025-06-11T18:00:00.000Z",
@@ -1690,8 +1702,12 @@
             "awayTeam": "Barrie Baycats 12U AA",
             "awayTeamCode": "510928",
             "location": "Armstrong Park Field 1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 5,
+              "scoreText": "5-6"
+            }
           }
         ],
         "nextGames": [
@@ -1756,7 +1772,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-11T23:41:00.980Z"
+        "lastUpdated": "2025-06-12T12:30:31.047Z"
       },
       "510929": {
         "teamCode": "510929",
@@ -1903,14 +1919,30 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-11T23:41:00.980Z"
+        "lastUpdated": "2025-06-12T12:30:31.047Z"
       },
       "510930": {
         "teamCode": "510930",
         "totalGames": 16,
-        "playedGames": 6,
-        "upcomingGames": 10,
+        "playedGames": 5,
+        "upcomingGames": 11,
         "recentGames": [
+          {
+            "date": "2025-05-13T18:30:00.000Z",
+            "dateText": "Tue, May 13",
+            "time": "6:30 PM",
+            "homeTeam": "Barrie Baycats 12U AA",
+            "homeTeamCode": "510928",
+            "awayTeam": "Collingwood Jays 12U AA",
+            "awayTeamCode": "510930",
+            "location": "Barrie Sports Complex Field 12",
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 14,
+              "scoreText": "14-5"
+            }
+          },
           {
             "date": "2025-05-17T10:00:00.000Z",
             "dateText": "Sat, May 17",
@@ -1958,18 +1990,6 @@
               "away": 5,
               "scoreText": "5-6"
             }
-          },
-          {
-            "date": "2025-06-04T18:00:00.000Z",
-            "dateText": "Wed, Jun 4",
-            "time": "6:00 PM",
-            "homeTeam": "Newmarket Hawks 12U AA",
-            "homeTeamCode": "510923",
-            "awayTeam": "Collingwood Jays 12U AA",
-            "awayTeamCode": "510930",
-            "location": "Armstrong Park Field 1",
-            "isCompleted": false,
-            "score": null
           },
           {
             "date": "2025-06-08T09:00:00.000Z",
@@ -2050,7 +2070,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-11T23:41:00.980Z"
+        "lastUpdated": "2025-06-12T12:30:31.047Z"
       },
       "510931": {
         "teamCode": "510931",
@@ -2201,7 +2221,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-11T23:41:00.980Z"
+        "lastUpdated": "2025-06-12T12:30:31.047Z"
       },
       "510932": {
         "teamCode": "510932",
@@ -2266,8 +2286,12 @@
             "awayTeam": "Barrie Baycats 12U AA",
             "awayTeamCode": "510928",
             "location": "Richmond Green Field 6",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 10,
+              "scoreText": "10-10"
+            }
           },
           {
             "date": "2025-06-11T18:30:00.000Z",
@@ -2278,8 +2302,12 @@
             "awayTeam": "Richmond Hill Phoenix 12U AA",
             "awayTeamCode": "510932",
             "location": "Hallmark Field 2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 18,
+              "away": 1,
+              "scoreText": "1-18"
+            }
           }
         ],
         "nextGames": [
@@ -2344,7 +2372,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-11T23:41:00.980Z"
+        "lastUpdated": "2025-06-12T12:30:31.047Z"
       },
       "510933": {
         "teamCode": "510933",
@@ -2491,7 +2519,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-11T23:41:00.980Z"
+        "lastUpdated": "2025-06-12T12:30:31.047Z"
       },
       "510934": {
         "teamCode": "510934",
@@ -2638,7 +2666,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-11T23:41:00.980Z"
+        "lastUpdated": "2025-06-12T12:30:31.047Z"
       },
       "510935": {
         "teamCode": "510935",
@@ -2699,8 +2727,12 @@
             "awayTeam": "Richmond Hill Phoenix 12U AA",
             "awayTeamCode": "510932",
             "location": "Hallmark Field 2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 18,
+              "away": 1,
+              "scoreText": "1-18"
+            }
           }
         ],
         "nextGames": [
@@ -2765,7 +2797,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-11T23:41:00.980Z"
+        "lastUpdated": "2025-06-12T12:30:31.047Z"
       },
       "510939": {
         "teamCode": "510939",
@@ -2908,7 +2940,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-11T23:41:00.980Z"
+        "lastUpdated": "2025-06-12T12:30:31.047Z"
       }
     },
     "allGames": [
@@ -2996,22 +3028,6 @@
         "date": "2025-05-15T18:30:00.000Z",
         "dateText": "Thu, May 15",
         "time": "6:30 PM",
-        "homeTeam": "Caledon Nationals 12U AA",
-        "homeTeamCode": "510929",
-        "awayTeam": "Markham Mariners 12U AA",
-        "awayTeamCode": "510931",
-        "location": "North Hill Field 3",
-        "isCompleted": true,
-        "score": {
-          "home": 6,
-          "away": 6,
-          "scoreText": "6-6"
-        }
-      },
-      {
-        "date": "2025-05-15T18:30:00.000Z",
-        "dateText": "Thu, May 15",
-        "time": "6:30 PM",
         "homeTeam": "Thornhill Reds 12U A",
         "homeTeamCode": "510926",
         "awayTeam": "Markham Mariners 12U A",
@@ -3022,6 +3038,22 @@
           "home": 5,
           "away": 3,
           "scoreText": "3-5"
+        }
+      },
+      {
+        "date": "2025-05-15T18:30:00.000Z",
+        "dateText": "Thu, May 15",
+        "time": "6:30 PM",
+        "homeTeam": "Caledon Nationals 12U AA",
+        "homeTeamCode": "510929",
+        "awayTeam": "Markham Mariners 12U AA",
+        "awayTeamCode": "510931",
+        "location": "North Hill Field 3",
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 6,
+          "scoreText": "6-6"
         }
       },
       {
@@ -3044,22 +3076,6 @@
         "date": "2025-05-19T18:30:00.000Z",
         "dateText": "Mon, May 19",
         "time": "6:30 PM",
-        "homeTeam": "Markham Mariners 12U AA",
-        "homeTeamCode": "510931",
-        "awayTeam": "Aurora-King Jays 12U AA",
-        "awayTeamCode": "510935",
-        "location": "Berczy Park South",
-        "isCompleted": true,
-        "score": {
-          "home": 8,
-          "away": 12,
-          "scoreText": "12-8"
-        }
-      },
-      {
-        "date": "2025-05-19T18:30:00.000Z",
-        "dateText": "Mon, May 19",
-        "time": "6:30 PM",
         "homeTeam": "Thornhill Reds 12U AA",
         "homeTeamCode": "510934",
         "awayTeam": "Stouffville Yankees 12U AA",
@@ -3070,6 +3086,22 @@
           "home": 10,
           "away": 6,
           "scoreText": "6-10"
+        }
+      },
+      {
+        "date": "2025-05-19T18:30:00.000Z",
+        "dateText": "Mon, May 19",
+        "time": "6:30 PM",
+        "homeTeam": "Markham Mariners 12U AA",
+        "homeTeamCode": "510931",
+        "awayTeam": "Aurora-King Jays 12U AA",
+        "awayTeamCode": "510935",
+        "location": "Berczy Park South",
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 12,
+          "scoreText": "12-8"
         }
       },
       {
@@ -3108,22 +3140,6 @@
         "date": "2025-05-20T18:30:00.000Z",
         "dateText": "Tue, May 20",
         "time": "6:30 PM",
-        "homeTeam": "Barrie Baycats 12U AA",
-        "homeTeamCode": "510928",
-        "awayTeam": "Caledon Nationals 12U AA",
-        "awayTeamCode": "510929",
-        "location": "Barrie Sports Complex Field 12",
-        "isCompleted": true,
-        "score": {
-          "home": 5,
-          "away": 11,
-          "scoreText": "11-5"
-        }
-      },
-      {
-        "date": "2025-05-20T18:30:00.000Z",
-        "dateText": "Tue, May 20",
-        "time": "6:30 PM",
         "homeTeam": "Richmond Hill Phoenix 12U AA",
         "homeTeamCode": "510932",
         "awayTeam": "Markham Mariners 12U AA",
@@ -3134,6 +3150,22 @@
           "home": 6,
           "away": 19,
           "scoreText": "19-6"
+        }
+      },
+      {
+        "date": "2025-05-20T18:30:00.000Z",
+        "dateText": "Tue, May 20",
+        "time": "6:30 PM",
+        "homeTeam": "Barrie Baycats 12U AA",
+        "homeTeamCode": "510928",
+        "awayTeam": "Caledon Nationals 12U AA",
+        "awayTeamCode": "510929",
+        "location": "Barrie Sports Complex Field 12",
+        "isCompleted": true,
+        "score": {
+          "home": 5,
+          "away": 11,
+          "scoreText": "11-5"
         }
       },
       {
@@ -3224,22 +3256,6 @@
         "date": "2025-05-27T18:00:00.000Z",
         "dateText": "Tue, May 27",
         "time": "6:00 PM",
-        "homeTeam": "Innisfil Cardinals 12U A",
-        "homeTeamCode": "510921",
-        "awayTeam": "Aurora-King Jays 12U A",
-        "awayTeamCode": "510918",
-        "location": "Stroud Community Centre",
-        "isCompleted": true,
-        "score": {
-          "home": 7,
-          "away": 4,
-          "scoreText": "4-7"
-        }
-      },
-      {
-        "date": "2025-05-27T18:00:00.000Z",
-        "dateText": "Tue, May 27",
-        "time": "6:00 PM",
         "homeTeam": "TNT Thunder 12U A",
         "homeTeamCode": "510927",
         "awayTeam": "Orangeville Bengals 12U A",
@@ -3250,6 +3266,22 @@
           "home": 9,
           "away": 8,
           "scoreText": "8-9"
+        }
+      },
+      {
+        "date": "2025-05-27T18:00:00.000Z",
+        "dateText": "Tue, May 27",
+        "time": "6:00 PM",
+        "homeTeam": "Innisfil Cardinals 12U A",
+        "homeTeamCode": "510921",
+        "awayTeam": "Aurora-King Jays 12U A",
+        "awayTeamCode": "510918",
+        "location": "Stroud Community Centre",
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 4,
+          "scoreText": "4-7"
         }
       },
       {
@@ -3452,22 +3484,6 @@
         "date": "2025-06-02T18:30:00.000Z",
         "dateText": "Mon, Jun 2",
         "time": "6:30 PM",
-        "homeTeam": "Aurora-King Jays 12U A",
-        "homeTeamCode": "510918",
-        "awayTeam": "TNT Thunder 12U A",
-        "awayTeamCode": "510927",
-        "location": "Hallmark Diamond 1",
-        "isCompleted": true,
-        "score": {
-          "home": 4,
-          "away": 12,
-          "scoreText": "12-4"
-        }
-      },
-      {
-        "date": "2025-06-02T18:30:00.000Z",
-        "dateText": "Mon, Jun 2",
-        "time": "6:30 PM",
         "homeTeam": "Markham Mariners 12U AA",
         "homeTeamCode": "510931",
         "awayTeam": "Newmarket Hawks 12U AA",
@@ -3478,6 +3494,22 @@
           "home": 10,
           "away": 3,
           "scoreText": "3-10"
+        }
+      },
+      {
+        "date": "2025-06-02T18:30:00.000Z",
+        "dateText": "Mon, Jun 2",
+        "time": "6:30 PM",
+        "homeTeam": "Aurora-King Jays 12U A",
+        "homeTeamCode": "510918",
+        "awayTeam": "TNT Thunder 12U A",
+        "awayTeamCode": "510927",
+        "location": "Hallmark Diamond 1",
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 12,
+          "scoreText": "12-4"
         }
       },
       {
@@ -3548,6 +3580,22 @@
         "date": "2025-06-03T18:30:00.000Z",
         "dateText": "Tue, Jun 3",
         "time": "6:30 PM",
+        "homeTeam": "Thornhill Reds 12U A",
+        "homeTeamCode": "510926",
+        "awayTeam": "Orillia Royals 12U A",
+        "awayTeamCode": "510925",
+        "location": "Bayview Reservoir Park",
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 11,
+          "scoreText": "11-10"
+        }
+      },
+      {
+        "date": "2025-06-03T18:30:00.000Z",
+        "dateText": "Tue, Jun 3",
+        "time": "6:30 PM",
         "homeTeam": "Barrie Baycats 12U AA",
         "homeTeamCode": "510928",
         "awayTeam": "Stouffville Yankees 12U AA",
@@ -3575,34 +3623,6 @@
           "away": 4,
           "scoreText": "4-10"
         }
-      },
-      {
-        "date": "2025-06-03T18:30:00.000Z",
-        "dateText": "Tue, Jun 3",
-        "time": "6:30 PM",
-        "homeTeam": "Thornhill Reds 12U A",
-        "homeTeamCode": "510926",
-        "awayTeam": "Orillia Royals 12U A",
-        "awayTeamCode": "510925",
-        "location": "Bayview Reservoir Park",
-        "isCompleted": true,
-        "score": {
-          "home": 10,
-          "away": 11,
-          "scoreText": "11-10"
-        }
-      },
-      {
-        "date": "2025-06-04T18:00:00.000Z",
-        "dateText": "Wed, Jun 4",
-        "time": "6:00 PM",
-        "homeTeam": "Newmarket Hawks 12U AA",
-        "homeTeamCode": "510923",
-        "awayTeam": "Collingwood Jays 12U AA",
-        "awayTeamCode": "510930",
-        "location": "Armstrong Park Field 1",
-        "isCompleted": false,
-        "score": null
       },
       {
         "date": "2025-06-04T18:30:00.000Z",
@@ -3760,11 +3780,11 @@
         "date": "2025-06-10T18:00:00.000Z",
         "dateText": "Tue, Jun 10",
         "time": "6:00 PM",
-        "homeTeam": "Innisfil Cardinals 12U A",
-        "homeTeamCode": "510921",
-        "awayTeam": "Bradford Tigers 12U A",
-        "awayTeamCode": "510920",
-        "location": "Stroud Community Centre",
+        "homeTeam": "TNT Thunder 12U A",
+        "homeTeamCode": "510927",
+        "awayTeam": "Aurora-King Jays 12U A",
+        "awayTeamCode": "510918",
+        "location": "Coventry Park",
         "isCompleted": false,
         "score": null
       },
@@ -3772,11 +3792,11 @@
         "date": "2025-06-10T18:00:00.000Z",
         "dateText": "Tue, Jun 10",
         "time": "6:00 PM",
-        "homeTeam": "TNT Thunder 12U A",
-        "homeTeamCode": "510927",
-        "awayTeam": "Aurora-King Jays 12U A",
-        "awayTeamCode": "510918",
-        "location": "Coventry Park",
+        "homeTeam": "Innisfil Cardinals 12U A",
+        "homeTeamCode": "510921",
+        "awayTeam": "Bradford Tigers 12U A",
+        "awayTeamCode": "510920",
+        "location": "Stroud Community Centre",
         "isCompleted": false,
         "score": null
       },
@@ -3801,8 +3821,12 @@
         "awayTeam": "Barrie Baycats 12U AA",
         "awayTeamCode": "510928",
         "location": "Richmond Green Field 6",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 10,
+          "scoreText": "10-10"
+        }
       },
       {
         "date": "2025-06-11T18:00:00.000Z",
@@ -3813,8 +3837,12 @@
         "awayTeam": "Barrie Baycats 12U AA",
         "awayTeamCode": "510928",
         "location": "Armstrong Park Field 1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 5,
+          "scoreText": "5-6"
+        }
       },
       {
         "date": "2025-06-11T18:30:00.000Z",
@@ -3837,8 +3865,12 @@
         "awayTeam": "Richmond Hill Phoenix 12U AA",
         "awayTeamCode": "510932",
         "location": "Hallmark Field 2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 18,
+          "away": 1,
+          "scoreText": "1-18"
+        }
       },
       {
         "date": "2025-06-12T18:30:00.000Z",
@@ -3892,18 +3924,6 @@
         "date": "2025-06-16T18:30:00.000Z",
         "dateText": "Mon, Jun 16",
         "time": "6:30 PM",
-        "homeTeam": "Markham Mariners 12U AA",
-        "homeTeamCode": "510931",
-        "awayTeam": "Stouffville Yankees 12U AA",
-        "awayTeamCode": "510933",
-        "location": "Berczy Park South",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": "2025-06-16T18:30:00.000Z",
-        "dateText": "Mon, Jun 16",
-        "time": "6:30 PM",
         "homeTeam": "Thornhill Reds 12U AA",
         "homeTeamCode": "510934",
         "awayTeam": "Richmond Hill Phoenix 12U AA",
@@ -3913,14 +3933,14 @@
         "score": null
       },
       {
-        "date": "2025-06-17T18:00:00.000Z",
-        "dateText": "Tue, Jun 17",
-        "time": "6:00 PM",
-        "homeTeam": "TNT Thunder 12U A",
-        "homeTeamCode": "510927",
-        "awayTeam": "Barrie Baycats 12U A",
-        "awayTeamCode": "510919",
-        "location": "Coventry Park",
+        "date": "2025-06-16T18:30:00.000Z",
+        "dateText": "Mon, Jun 16",
+        "time": "6:30 PM",
+        "homeTeam": "Markham Mariners 12U AA",
+        "homeTeamCode": "510931",
+        "awayTeam": "Stouffville Yankees 12U AA",
+        "awayTeamCode": "510933",
+        "location": "Berczy Park South",
         "isCompleted": false,
         "score": null
       },
@@ -3933,6 +3953,18 @@
         "awayTeam": "Orangeville Bengals 12U A",
         "awayTeamCode": "510924",
         "location": "Stroud Community Centre",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2025-06-17T18:00:00.000Z",
+        "dateText": "Tue, Jun 17",
+        "time": "6:00 PM",
+        "homeTeam": "TNT Thunder 12U A",
+        "homeTeamCode": "510927",
+        "awayTeam": "Barrie Baycats 12U A",
+        "awayTeamCode": "510919",
+        "location": "Coventry Park",
         "isCompleted": false,
         "score": null
       },
@@ -3976,11 +4008,11 @@
         "date": "2025-06-18T18:30:00.000Z",
         "dateText": "Wed, Jun 18",
         "time": "6:30 PM",
-        "homeTeam": "Barrie Baycats 12U A",
-        "homeTeamCode": "510919",
-        "awayTeam": "Bradford Tigers 12U A",
-        "awayTeamCode": "510920",
-        "location": "Barrie Community Sports Complex - Diamond 12",
+        "homeTeam": "Aurora-King Jays 12U AA",
+        "homeTeamCode": "510935",
+        "awayTeam": "Caledon Nationals 12U AA",
+        "awayTeamCode": "510929",
+        "location": "Hallmark Field 2",
         "isCompleted": false,
         "score": null
       },
@@ -3988,11 +4020,11 @@
         "date": "2025-06-18T18:30:00.000Z",
         "dateText": "Wed, Jun 18",
         "time": "6:30 PM",
-        "homeTeam": "Aurora-King Jays 12U AA",
-        "homeTeamCode": "510935",
-        "awayTeam": "Caledon Nationals 12U AA",
-        "awayTeamCode": "510929",
-        "location": "Hallmark Field 2",
+        "homeTeam": "Barrie Baycats 12U A",
+        "homeTeamCode": "510919",
+        "awayTeam": "Bradford Tigers 12U A",
+        "awayTeamCode": "510920",
+        "location": "Barrie Community Sports Complex - Diamond 12",
         "isCompleted": false,
         "score": null
       },
@@ -4012,11 +4044,11 @@
         "date": "2025-06-19T18:15:00.000Z",
         "dateText": "Thu, Jun 19",
         "time": "6:15 PM",
-        "homeTeam": "Markham Mariners 12U A",
-        "homeTeamCode": "510922",
-        "awayTeam": "Orillia Royals 12U A",
-        "awayTeamCode": "510925",
-        "location": "Milliken Mills Diamond 2",
+        "homeTeam": "Georgina Bulldogs 12U B",
+        "homeTeamCode": "510939",
+        "awayTeam": "TNT Thunder 12U A",
+        "awayTeamCode": "510927",
+        "location": "ROC 2",
         "isCompleted": false,
         "score": null
       },
@@ -4024,11 +4056,11 @@
         "date": "2025-06-19T18:15:00.000Z",
         "dateText": "Thu, Jun 19",
         "time": "6:15 PM",
-        "homeTeam": "Georgina Bulldogs 12U B",
-        "homeTeamCode": "510939",
-        "awayTeam": "TNT Thunder 12U A",
-        "awayTeamCode": "510927",
-        "location": "ROC 2",
+        "homeTeam": "Markham Mariners 12U A",
+        "homeTeamCode": "510922",
+        "awayTeam": "Orillia Royals 12U A",
+        "awayTeamCode": "510925",
+        "location": "Milliken Mills Diamond 2",
         "isCompleted": false,
         "score": null
       },
@@ -4204,11 +4236,11 @@
         "date": "2025-06-25T18:30:00.000Z",
         "dateText": "Wed, Jun 25",
         "time": "6:30 PM",
-        "homeTeam": "Orillia Royals 12U A",
-        "homeTeamCode": "510925",
-        "awayTeam": "Aurora-King Jays 12U A",
-        "awayTeamCode": "510918",
-        "location": "YEO Diamond",
+        "homeTeam": "Barrie Baycats 12U A",
+        "homeTeamCode": "510919",
+        "awayTeam": "TNT Thunder 12U A",
+        "awayTeamCode": "510927",
+        "location": "Barrie Community Sports Complex - Diamond 12",
         "isCompleted": false,
         "score": null
       },
@@ -4216,11 +4248,11 @@
         "date": "2025-06-25T18:30:00.000Z",
         "dateText": "Wed, Jun 25",
         "time": "6:30 PM",
-        "homeTeam": "Barrie Baycats 12U A",
-        "homeTeamCode": "510919",
-        "awayTeam": "TNT Thunder 12U A",
-        "awayTeamCode": "510927",
-        "location": "Barrie Community Sports Complex - Diamond 12",
+        "homeTeam": "Orillia Royals 12U A",
+        "homeTeamCode": "510925",
+        "awayTeam": "Aurora-King Jays 12U A",
+        "awayTeamCode": "510918",
+        "location": "YEO Diamond",
         "isCompleted": false,
         "score": null
       },
@@ -4288,11 +4320,11 @@
         "date": "2025-06-30T18:30:00.000Z",
         "dateText": "Mon, Jun 30",
         "time": "6:30 PM",
-        "homeTeam": "Thornhill Reds 12U AA",
-        "homeTeamCode": "510934",
-        "awayTeam": "Caledon Nationals 12U AA",
-        "awayTeamCode": "510929",
-        "location": "Bishop's Cross Small",
+        "homeTeam": "Aurora-King Jays 12U A",
+        "homeTeamCode": "510918",
+        "awayTeam": "Orangeville Bengals 12U A",
+        "awayTeamCode": "510924",
+        "location": "Hallmark Diamond 1",
         "isCompleted": false,
         "score": null
       },
@@ -4300,11 +4332,11 @@
         "date": "2025-06-30T18:30:00.000Z",
         "dateText": "Mon, Jun 30",
         "time": "6:30 PM",
-        "homeTeam": "Aurora-King Jays 12U A",
-        "homeTeamCode": "510918",
-        "awayTeam": "Orangeville Bengals 12U A",
-        "awayTeamCode": "510924",
-        "location": "Hallmark Diamond 1",
+        "homeTeam": "Thornhill Reds 12U AA",
+        "homeTeamCode": "510934",
+        "awayTeam": "Caledon Nationals 12U AA",
+        "awayTeamCode": "510929",
+        "location": "Bishop's Cross Small",
         "isCompleted": false,
         "score": null
       },
@@ -4336,18 +4368,6 @@
         "date": "2025-07-02T18:30:00.000Z",
         "dateText": "Wed, Jul 2",
         "time": "6:30 PM",
-        "homeTeam": "Orillia Royals 12U A",
-        "homeTeamCode": "510925",
-        "awayTeam": "Bradford Tigers 12U A",
-        "awayTeamCode": "510920",
-        "location": "YEO Diamond",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": "2025-07-02T18:30:00.000Z",
-        "dateText": "Wed, Jul 2",
-        "time": "6:30 PM",
         "homeTeam": "Barrie Baycats 12U A",
         "homeTeamCode": "510919",
         "awayTeam": "Aurora-King Jays 12U A",
@@ -4365,6 +4385,18 @@
         "awayTeam": "Collingwood Jays 12U AA",
         "awayTeamCode": "510930",
         "location": "Hallmark Field 2",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2025-07-02T18:30:00.000Z",
+        "dateText": "Wed, Jul 2",
+        "time": "6:30 PM",
+        "homeTeam": "Orillia Royals 12U A",
+        "homeTeamCode": "510925",
+        "awayTeam": "Bradford Tigers 12U A",
+        "awayTeamCode": "510920",
+        "location": "YEO Diamond",
         "isCompleted": false,
         "score": null
       },
@@ -4492,11 +4524,11 @@
         "date": "2025-07-10T18:30:00.000Z",
         "dateText": "Thu, Jul 10",
         "time": "6:30 PM",
-        "homeTeam": "Thornhill Reds 12U A",
-        "homeTeamCode": "510926",
-        "awayTeam": "Innisfil Cardinals 12U A",
-        "awayTeamCode": "510921",
-        "location": "Bishop's Cross Park",
+        "homeTeam": "Collingwood Jays 12U AA",
+        "homeTeamCode": "510930",
+        "awayTeam": "Aurora-King Jays 12U AA",
+        "awayTeamCode": "510935",
+        "location": "Heritage Park Small",
         "isCompleted": false,
         "score": null
       },
@@ -4504,11 +4536,11 @@
         "date": "2025-07-10T18:30:00.000Z",
         "dateText": "Thu, Jul 10",
         "time": "6:30 PM",
-        "homeTeam": "Collingwood Jays 12U AA",
-        "homeTeamCode": "510930",
-        "awayTeam": "Aurora-King Jays 12U AA",
-        "awayTeamCode": "510935",
-        "location": "Heritage Park Small",
+        "homeTeam": "Thornhill Reds 12U A",
+        "homeTeamCode": "510926",
+        "awayTeam": "Innisfil Cardinals 12U A",
+        "awayTeamCode": "510921",
+        "location": "Bishop's Cross Park",
         "isCompleted": false,
         "score": null
       },
@@ -4540,11 +4572,11 @@
         "date": "2025-07-14T18:30:00.000Z",
         "dateText": "Mon, Jul 14",
         "time": "6:30 PM",
-        "homeTeam": "Aurora-King Jays 12U A",
-        "homeTeamCode": "510918",
-        "awayTeam": "Orillia Royals 12U A",
-        "awayTeamCode": "510925",
-        "location": "Hallmark Diamond 1",
+        "homeTeam": "Richmond Hill Phoenix 12U AA",
+        "homeTeamCode": "510932",
+        "awayTeam": "Aurora-King Jays 12U AA",
+        "awayTeamCode": "510935",
+        "location": "Morgan Boyle",
         "isCompleted": false,
         "score": null
       },
@@ -4564,11 +4596,11 @@
         "date": "2025-07-14T18:30:00.000Z",
         "dateText": "Mon, Jul 14",
         "time": "6:30 PM",
-        "homeTeam": "Richmond Hill Phoenix 12U AA",
-        "homeTeamCode": "510932",
-        "awayTeam": "Aurora-King Jays 12U AA",
-        "awayTeamCode": "510935",
-        "location": "Morgan Boyle",
+        "homeTeam": "Aurora-King Jays 12U A",
+        "homeTeamCode": "510918",
+        "awayTeam": "Orillia Royals 12U A",
+        "awayTeamCode": "510925",
+        "location": "Hallmark Diamond 1",
         "isCompleted": false,
         "score": null
       },
@@ -4636,18 +4668,6 @@
         "date": "2025-07-16T18:30:00.000Z",
         "dateText": "Wed, Jul 16",
         "time": "6:30 PM",
-        "homeTeam": "Aurora-King Jays 12U AA",
-        "homeTeamCode": "510935",
-        "awayTeam": "Markham Mariners 12U AA",
-        "awayTeamCode": "510931",
-        "location": "Hallmark Field 2",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": "2025-07-16T18:30:00.000Z",
-        "dateText": "Wed, Jul 16",
-        "time": "6:30 PM",
         "homeTeam": "Barrie Baycats 12U A",
         "homeTeamCode": "510919",
         "awayTeam": "Thornhill Reds 12U A",
@@ -4657,14 +4677,14 @@
         "score": null
       },
       {
-        "date": "2025-07-17T18:00:00.000Z",
-        "dateText": "Thu, Jul 17",
-        "time": "6:00 PM",
-        "homeTeam": "Newmarket Hawks 12U AA",
-        "homeTeamCode": "510923",
-        "awayTeam": "Thornhill Reds 12U AA",
-        "awayTeamCode": "510934",
-        "location": "Armstrong Park Field 1",
+        "date": "2025-07-16T18:30:00.000Z",
+        "dateText": "Wed, Jul 16",
+        "time": "6:30 PM",
+        "homeTeam": "Aurora-King Jays 12U AA",
+        "homeTeamCode": "510935",
+        "awayTeam": "Markham Mariners 12U AA",
+        "awayTeamCode": "510931",
+        "location": "Hallmark Field 2",
         "isCompleted": false,
         "score": null
       },
@@ -4681,6 +4701,18 @@
         "score": null
       },
       {
+        "date": "2025-07-17T18:00:00.000Z",
+        "dateText": "Thu, Jul 17",
+        "time": "6:00 PM",
+        "homeTeam": "Newmarket Hawks 12U AA",
+        "homeTeamCode": "510923",
+        "awayTeam": "Thornhill Reds 12U AA",
+        "awayTeamCode": "510934",
+        "location": "Armstrong Park Field 1",
+        "isCompleted": false,
+        "score": null
+      },
+      {
         "date": "2025-07-17T18:30:00.000Z",
         "dateText": "Thu, Jul 17",
         "time": "6:30 PM",
@@ -4693,14 +4725,14 @@
         "score": null
       },
       {
-        "date": "2025-07-21T18:30:00.000Z",
-        "dateText": "Mon, Jul 21",
-        "time": "6:30 PM",
-        "homeTeam": "Markham Mariners 12U AA",
-        "homeTeamCode": "510931",
-        "awayTeam": "Richmond Hill Phoenix 12U AA",
-        "awayTeamCode": "510932",
-        "location": "Berczy Park South",
+        "date": "2025-07-20T16:00:00.000Z",
+        "dateText": "Sun, Jul 20",
+        "time": "4:00 PM",
+        "homeTeam": "Newmarket Hawks 12U AA",
+        "homeTeamCode": "510923",
+        "awayTeam": "Collingwood Jays 12U AA",
+        "awayTeamCode": "510930",
+        "location": "Fairgrounds",
         "isCompleted": false,
         "score": null
       },
@@ -4725,6 +4757,18 @@
         "awayTeam": "Bradford Tigers 12U A",
         "awayTeamCode": "510920",
         "location": "Hallmark Diamond 1",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2025-07-21T18:30:00.000Z",
+        "dateText": "Mon, Jul 21",
+        "time": "6:30 PM",
+        "homeTeam": "Markham Mariners 12U AA",
+        "homeTeamCode": "510931",
+        "awayTeam": "Richmond Hill Phoenix 12U AA",
+        "awayTeamCode": "510932",
+        "location": "Berczy Park South",
         "isCompleted": false,
         "score": null
       },
@@ -4816,18 +4860,6 @@
         "date": "2025-07-24T18:30:00.000Z",
         "dateText": "Thu, Jul 24",
         "time": "6:30 PM",
-        "homeTeam": "Thornhill Reds 12U A",
-        "homeTeamCode": "510926",
-        "awayTeam": "Bradford Tigers 12U A",
-        "awayTeamCode": "510920",
-        "location": "Bishop's Cross Park",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": "2025-07-24T18:30:00.000Z",
-        "dateText": "Thu, Jul 24",
-        "time": "6:30 PM",
         "homeTeam": "Caledon Nationals 12U AA",
         "homeTeamCode": "510929",
         "awayTeam": "Aurora-King Jays 12U AA",
@@ -4845,6 +4877,18 @@
         "awayTeam": "Newmarket Hawks 12U AA",
         "awayTeamCode": "510923",
         "location": "Heritage Park Small",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2025-07-24T18:30:00.000Z",
+        "dateText": "Thu, Jul 24",
+        "time": "6:30 PM",
+        "homeTeam": "Thornhill Reds 12U A",
+        "homeTeamCode": "510926",
+        "awayTeam": "Bradford Tigers 12U A",
+        "awayTeamCode": "510920",
+        "location": "Bishop's Cross Park",
         "isCompleted": false,
         "score": null
       },
@@ -4876,11 +4920,11 @@
         "date": "2025-07-28T18:30:00.000Z",
         "dateText": "Mon, Jul 28",
         "time": "6:30 PM",
-        "homeTeam": "Aurora-King Jays 12U A",
-        "homeTeamCode": "510918",
-        "awayTeam": "Innisfil Cardinals 12U A",
-        "awayTeamCode": "510921",
-        "location": "Hallmark Diamond 1",
+        "homeTeam": "Markham Mariners 12U AA",
+        "homeTeamCode": "510931",
+        "awayTeam": "Collingwood Jays 12U AA",
+        "awayTeamCode": "510930",
+        "location": "Berczy Park South",
         "isCompleted": false,
         "score": null
       },
@@ -4888,11 +4932,11 @@
         "date": "2025-07-28T18:30:00.000Z",
         "dateText": "Mon, Jul 28",
         "time": "6:30 PM",
-        "homeTeam": "Markham Mariners 12U AA",
-        "homeTeamCode": "510931",
-        "awayTeam": "Collingwood Jays 12U AA",
-        "awayTeamCode": "510930",
-        "location": "Berczy Park South",
+        "homeTeam": "Aurora-King Jays 12U A",
+        "homeTeamCode": "510918",
+        "awayTeam": "Innisfil Cardinals 12U A",
+        "awayTeamCode": "510921",
+        "location": "Hallmark Diamond 1",
         "isCompleted": false,
         "score": null
       },
@@ -4924,11 +4968,11 @@
         "date": "2025-07-29T18:15:00.000Z",
         "dateText": "Tue, Jul 29",
         "time": "6:15 PM",
-        "homeTeam": "Georgina Bulldogs 12U B",
-        "homeTeamCode": "510939",
-        "awayTeam": "Barrie Baycats 12U A",
-        "awayTeamCode": "510919",
-        "location": "ROC 2",
+        "homeTeam": "Markham Mariners 12U A",
+        "homeTeamCode": "510922",
+        "awayTeam": "Bradford Tigers 12U A",
+        "awayTeamCode": "510920",
+        "location": "Milliken Mills Diamond 2",
         "isCompleted": false,
         "score": null
       },
@@ -4936,11 +4980,11 @@
         "date": "2025-07-29T18:15:00.000Z",
         "dateText": "Tue, Jul 29",
         "time": "6:15 PM",
-        "homeTeam": "Markham Mariners 12U A",
-        "homeTeamCode": "510922",
-        "awayTeam": "Bradford Tigers 12U A",
-        "awayTeamCode": "510920",
-        "location": "Milliken Mills Diamond 2",
+        "homeTeam": "Georgina Bulldogs 12U B",
+        "homeTeamCode": "510939",
+        "awayTeam": "Barrie Baycats 12U A",
+        "awayTeamCode": "510919",
+        "location": "ROC 2",
         "isCompleted": false,
         "score": null
       },
@@ -5063,8 +5107,12 @@
         "awayTeam": "Richmond Hill Phoenix 12U AA",
         "awayTeamCode": "510932",
         "location": "Hallmark Field 2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 18,
+          "away": 1,
+          "scoreText": "1-18"
+        }
       },
       {
         "date": "2025-06-11T18:00:00.000Z",
@@ -5075,8 +5123,12 @@
         "awayTeam": "Barrie Baycats 12U AA",
         "awayTeamCode": "510928",
         "location": "Armstrong Park Field 1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 5,
+          "scoreText": "5-6"
+        }
       },
       {
         "date": "2025-06-10T18:30:00.000Z",
@@ -5087,8 +5139,12 @@
         "awayTeam": "Barrie Baycats 12U AA",
         "awayTeamCode": "510928",
         "location": "Richmond Green Field 6",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 10,
+          "scoreText": "10-10"
+        }
       },
       {
         "date": "2025-06-10T18:15:00.000Z",
@@ -5106,11 +5162,11 @@
         "date": "2025-06-10T18:00:00.000Z",
         "dateText": "Tue, Jun 10",
         "time": "6:00 PM",
-        "homeTeam": "Innisfil Cardinals 12U A",
-        "homeTeamCode": "510921",
-        "awayTeam": "Bradford Tigers 12U A",
-        "awayTeamCode": "510920",
-        "location": "Stroud Community Centre",
+        "homeTeam": "TNT Thunder 12U A",
+        "homeTeamCode": "510927",
+        "awayTeam": "Aurora-King Jays 12U A",
+        "awayTeamCode": "510918",
+        "location": "Coventry Park",
         "isCompleted": false,
         "score": null
       },
@@ -5118,11 +5174,11 @@
         "date": "2025-06-10T18:00:00.000Z",
         "dateText": "Tue, Jun 10",
         "time": "6:00 PM",
-        "homeTeam": "TNT Thunder 12U A",
-        "homeTeamCode": "510927",
-        "awayTeam": "Aurora-King Jays 12U A",
-        "awayTeamCode": "510918",
-        "location": "Coventry Park",
+        "homeTeam": "Innisfil Cardinals 12U A",
+        "homeTeamCode": "510921",
+        "awayTeam": "Bradford Tigers 12U A",
+        "awayTeamCode": "510920",
+        "location": "Stroud Community Centre",
         "isCompleted": false,
         "score": null
       },
@@ -5228,18 +5284,6 @@
         "date": "2025-06-16T18:30:00.000Z",
         "dateText": "Mon, Jun 16",
         "time": "6:30 PM",
-        "homeTeam": "Markham Mariners 12U AA",
-        "homeTeamCode": "510931",
-        "awayTeam": "Stouffville Yankees 12U AA",
-        "awayTeamCode": "510933",
-        "location": "Berczy Park South",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": "2025-06-16T18:30:00.000Z",
-        "dateText": "Mon, Jun 16",
-        "time": "6:30 PM",
         "homeTeam": "Thornhill Reds 12U AA",
         "homeTeamCode": "510934",
         "awayTeam": "Richmond Hill Phoenix 12U AA",
@@ -5249,14 +5293,14 @@
         "score": null
       },
       {
-        "date": "2025-06-17T18:00:00.000Z",
-        "dateText": "Tue, Jun 17",
-        "time": "6:00 PM",
-        "homeTeam": "TNT Thunder 12U A",
-        "homeTeamCode": "510927",
-        "awayTeam": "Barrie Baycats 12U A",
-        "awayTeamCode": "510919",
-        "location": "Coventry Park",
+        "date": "2025-06-16T18:30:00.000Z",
+        "dateText": "Mon, Jun 16",
+        "time": "6:30 PM",
+        "homeTeam": "Markham Mariners 12U AA",
+        "homeTeamCode": "510931",
+        "awayTeam": "Stouffville Yankees 12U AA",
+        "awayTeamCode": "510933",
+        "location": "Berczy Park South",
         "isCompleted": false,
         "score": null
       },
@@ -5269,6 +5313,18 @@
         "awayTeam": "Orangeville Bengals 12U A",
         "awayTeamCode": "510924",
         "location": "Stroud Community Centre",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2025-06-17T18:00:00.000Z",
+        "dateText": "Tue, Jun 17",
+        "time": "6:00 PM",
+        "homeTeam": "TNT Thunder 12U A",
+        "homeTeamCode": "510927",
+        "awayTeam": "Barrie Baycats 12U A",
+        "awayTeamCode": "510919",
+        "location": "Coventry Park",
         "isCompleted": false,
         "score": null
       },
@@ -5297,14 +5353,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-11T23:41:00.980Z",
+    "lastUpdated": "2025-06-12T12:30:31.047Z",
     "totalGames": 162
   },
   "summary": {
     "totalTeams": 9,
     "totalGames": 162,
-    "completedGames": 46,
-    "upcomingGames": 116,
+    "completedGames": 49,
+    "upcomingGames": 113,
     "topTeam": {
       "team": "Markham Mariners 12U AA",
       "teamCode": "510931",
@@ -5321,6 +5377,6 @@
       "date": "Tue, Jun 3",
       "location": "ROC 2"
     },
-    "lastUpdated": "2025-06-11T23:44:57.836Z"
+    "lastUpdated": "2025-06-12T12:34:42.145Z"
   }
 }
