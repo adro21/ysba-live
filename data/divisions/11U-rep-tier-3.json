@@ -38,24 +38,6 @@
         }
       },
       {
-        "position": 6,
-        "team": "Georgina Bulldogs 11U B",
-        "teamCode": "510916",
-        "record": {
-          "gamesPlayed": 3,
-          "wins": 2,
-          "losses": 1,
-          "ties": 0,
-          "winPercentage": "0.667"
-        },
-        "stats": {
-          "points": 4,
-          "runsFor": 25,
-          "runsAgainst": 30,
-          "runDifferential": -5
-        }
-      },
-      {
         "position": 4,
         "team": "Midland Penetang Twins 11U A",
         "teamCode": "510891",
@@ -92,7 +74,43 @@
         }
       },
       {
+        "position": 6,
+        "team": "Orangeville Bengals 11U A",
+        "teamCode": "510897",
+        "record": {
+          "gamesPlayed": 4,
+          "wins": 2,
+          "losses": 2,
+          "ties": 0,
+          "winPercentage": "0.500"
+        },
+        "stats": {
+          "points": 4,
+          "runsFor": 43,
+          "runsAgainst": 35,
+          "runDifferential": 8
+        }
+      },
+      {
         "position": 7,
+        "team": "Georgina Bulldogs 11U B",
+        "teamCode": "510916",
+        "record": {
+          "gamesPlayed": 4,
+          "wins": 2,
+          "losses": 2,
+          "ties": 0,
+          "winPercentage": "0.500"
+        },
+        "stats": {
+          "points": 4,
+          "runsFor": 33,
+          "runsAgainst": 40,
+          "runDifferential": -7
+        }
+      },
+      {
+        "position": 8,
         "team": "New Lowell Knights 11U D",
         "teamCode": "510917",
         "record": {
@@ -129,24 +147,6 @@
       },
       {
         "position": 9,
-        "team": "Orangeville Bengals 11U A",
-        "teamCode": "510897",
-        "record": {
-          "gamesPlayed": 3,
-          "wins": 1,
-          "losses": 2,
-          "ties": 0,
-          "winPercentage": "0.333"
-        },
-        "stats": {
-          "points": 2,
-          "runsFor": 33,
-          "runsAgainst": 27,
-          "runDifferential": 6
-        }
-      },
-      {
-        "position": 8,
         "team": "Caledon Nationals 11U A",
         "teamCode": "510893",
         "record": {
@@ -182,7 +182,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-06-12T20:42:53.740Z",
+    "lastUpdated": "2025-06-12T21:15:30.332Z",
     "totalTeams": 10
   },
   "schedule": {
@@ -332,7 +332,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T20:42:57.934Z"
+        "lastUpdated": "2025-06-12T21:15:34.584Z"
       },
       "510892": {
         "teamCode": "510892",
@@ -483,7 +483,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T20:42:57.934Z"
+        "lastUpdated": "2025-06-12T21:15:34.584Z"
       },
       "510893": {
         "teamCode": "510893",
@@ -630,7 +630,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T20:42:57.934Z"
+        "lastUpdated": "2025-06-12T21:15:34.584Z"
       },
       "510894": {
         "teamCode": "510894",
@@ -777,7 +777,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T20:42:57.935Z"
+        "lastUpdated": "2025-06-12T21:15:34.584Z"
       },
       "510897": {
         "teamCode": "510897",
@@ -842,8 +842,12 @@
             "awayTeam": "Orangeville Bengals 11U A",
             "awayTeamCode": "510897",
             "location": "ROC 2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 10,
+              "scoreText": "10-8"
+            }
           }
         ],
         "nextGames": [
@@ -908,7 +912,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T20:42:57.935Z"
+        "lastUpdated": "2025-06-12T21:15:34.584Z"
       },
       "510898": {
         "teamCode": "510898",
@@ -1059,7 +1063,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T20:42:57.935Z"
+        "lastUpdated": "2025-06-12T21:15:34.584Z"
       },
       "510903": {
         "teamCode": "510903",
@@ -1210,7 +1214,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T20:42:57.935Z"
+        "lastUpdated": "2025-06-12T21:15:34.584Z"
       },
       "510905": {
         "teamCode": "510905",
@@ -1357,7 +1361,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T20:42:57.935Z"
+        "lastUpdated": "2025-06-12T21:15:34.584Z"
       },
       "510906": {
         "teamCode": "510906",
@@ -1504,7 +1508,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T20:42:57.935Z"
+        "lastUpdated": "2025-06-12T21:15:34.584Z"
       },
       "510907": {
         "teamCode": "510907",
@@ -1635,7 +1639,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T20:42:57.935Z"
+        "lastUpdated": "2025-06-12T21:15:34.584Z"
       },
       "510908": {
         "teamCode": "510908",
@@ -1786,7 +1790,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T20:42:57.935Z"
+        "lastUpdated": "2025-06-12T21:15:34.584Z"
       },
       "510909": {
         "teamCode": "510909",
@@ -1937,7 +1941,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T20:42:57.935Z"
+        "lastUpdated": "2025-06-12T21:15:34.584Z"
       },
       "510910": {
         "teamCode": "510910",
@@ -2080,7 +2084,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T20:42:57.935Z"
+        "lastUpdated": "2025-06-12T21:15:34.584Z"
       },
       "510911": {
         "teamCode": "510911",
@@ -2231,7 +2235,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T20:42:57.935Z"
+        "lastUpdated": "2025-06-12T21:15:34.584Z"
       },
       "510912": {
         "teamCode": "510912",
@@ -2378,7 +2382,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T20:42:57.935Z"
+        "lastUpdated": "2025-06-12T21:15:34.584Z"
       },
       "510913": {
         "teamCode": "510913",
@@ -2525,7 +2529,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T20:42:57.935Z"
+        "lastUpdated": "2025-06-12T21:15:34.584Z"
       },
       "510916": {
         "teamCode": "510916",
@@ -2602,8 +2606,12 @@
             "awayTeam": "Orangeville Bengals 11U A",
             "awayTeamCode": "510897",
             "location": "ROC 2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 10,
+              "scoreText": "10-8"
+            }
           }
         ],
         "nextGames": [
@@ -2668,7 +2676,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T20:42:57.935Z"
+        "lastUpdated": "2025-06-12T21:15:34.584Z"
       },
       "510917": {
         "teamCode": "510917",
@@ -2799,7 +2807,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T20:42:57.935Z"
+        "lastUpdated": "2025-06-12T21:15:34.584Z"
       },
       "516241": {
         "teamCode": "516241",
@@ -2950,7 +2958,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T20:42:57.935Z"
+        "lastUpdated": "2025-06-12T21:15:34.584Z"
       }
     },
     "allGames": [
@@ -3755,8 +3763,12 @@
         "awayTeam": "Orangeville Bengals 11U A",
         "awayTeamCode": "510897",
         "location": "ROC 2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 10,
+          "scoreText": "10-8"
+        }
       },
       {
         "date": "2025-06-11T18:30:00.000Z",
@@ -5181,8 +5193,12 @@
         "awayTeam": "Orangeville Bengals 11U A",
         "awayTeamCode": "510897",
         "location": "ROC 2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 10,
+          "scoreText": "10-8"
+        }
       },
       {
         "date": "2025-06-11T18:00:00.000Z",
@@ -5367,14 +5383,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-12T20:42:57.935Z",
+    "lastUpdated": "2025-06-12T21:15:34.584Z",
     "totalGames": 162
   },
   "summary": {
     "totalTeams": 10,
     "totalGames": 162,
-    "completedGames": 49,
-    "upcomingGames": 113,
+    "completedGames": 50,
+    "upcomingGames": 112,
     "topTeam": {
       "team": "Barrie Baycats 11U A",
       "teamCode": "510892",
@@ -5391,6 +5407,6 @@
       "date": "Tue, May 13",
       "location": "North Hill #3"
     },
-    "lastUpdated": "2025-06-12T20:47:14.488Z"
+    "lastUpdated": "2025-06-12T21:20:03.611Z"
   }
 }
