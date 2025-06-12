@@ -29,7 +29,9 @@ app.use(helmet({
       scriptSrc: [
         "'self'", 
         "'unsafe-inline'",
-        "https://cdn.jsdelivr.net"
+        "https://cdn.jsdelivr.net",
+        "https://www.googletagmanager.com",
+        "https://www.google-analytics.com"
       ],
       fontSrc: [
         "'self'", 
@@ -48,7 +50,10 @@ app.use(helmet({
         "https://cdn.jsdelivr.net",
         "https://fonts.googleapis.com",
         "https://fonts.gstatic.com",
-        "https://cdnjs.cloudflare.com"
+        "https://cdnjs.cloudflare.com",
+        "https://www.google-analytics.com",
+        "https://analytics.google.com",
+        "https://www.googletagmanager.com"
       ]
     }
   } : false

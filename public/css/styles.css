@@ -1692,6 +1692,15 @@
   animation: loading-shimmer 1.5s infinite;
 }
 
+/* Fix disabled subscription button styling */
+#subscriptionForm button[type="submit"]:disabled {
+  background: #6b8068 !important;  /* Muted green instead of blue */
+  border-color: #6b8068 !important;
+  color: white !important;
+  opacity: 0.8;
+  cursor: not-allowed;
+}
+
 /* Refresh button specific animations */
 .btn-refreshing i {
   animation: spin 1s linear infinite;

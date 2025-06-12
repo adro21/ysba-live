@@ -39,31 +39,41 @@ class AIStoryService {
         try {
             console.log('🔍 Analyzing YSBA data for story generation...');
             
-            // Load all the data we need
-            const standingsData = await this.loadStandingsData();
-            const scheduleData = await this.loadScheduleData();
-            
-            if (!standingsData || !scheduleData) {
-                console.warn('⚠️ Insufficient data for story generation');
-                return null;
-            }
-            
-            // Analyze the data to find interesting stories
-            const storyOpportunities = this.analyzeDataForStories(standingsData, scheduleData);
-            
-            // Generate stories using AI
-            const stories = await this.generateAIStories(storyOpportunities);
-            
-            // Save the stories
-            await this.saveStories(stories);
-            
-            console.log(`✨ Generated ${stories.length} AI stories`);
-            return stories;
+            // Add global timeout for entire story generation process
+            return await Promise.race([
+                this._generateStoriesInternal(),
+                new Promise((_, reject) => 
+                    setTimeout(() => reject(new Error('Story generation timeout')), 30000)
+                )
+            ]);
             
         } catch (error) {
             console.error('❌ Error generating AI stories:', error);
             return null;
         }
+    }
+    
+    async _generateStoriesInternal() {
+        // Load all the data we need
+        const standingsData = await this.loadStandingsData();
+        const scheduleData = await this.loadScheduleData();
+        
+        if (!standingsData || !scheduleData) {
+            console.warn('⚠️ Insufficient data for story generation');
+            return null;
+        }
+        
+        // Analyze the data to find interesting stories
+        const storyOpportunities = this.analyzeDataForStories(standingsData, scheduleData);
+        
+        // Generate stories using AI
+        const stories = await this.generateAIStories(storyOpportunities);
+        
+        // Save the stories
+        await this.saveStories(stories);
+        
+        console.log(`✨ Generated ${stories.length} AI stories`);
+        return stories;
     }
     
     async loadStandingsData() {
@@ -495,21 +505,27 @@ class AIStoryService {
                     console.log(`🔍 Prompt ${stories.length + 1}: "${prompt}"`);
                 }
                 
-                const completion = await this.openai.chat.completions.create({
-                    model: 'gpt-3.5-turbo',
-                    messages: [
-                        {
-                            role: 'system',
-                            content: 'You are a youth sports journalist writing exciting headlines and short stories for a local baseball league. Write in an enthusiastic but appropriate tone for youth sports. Keep stories 1-3 sentences. Format: First line should be the headline, then a blank line, then the story body. IMPORTANT: For divisions 9U and below, do NOT mention pitching or pitchers - these divisions use pitching machines. Focus on fielding, hitting, and teamwork instead. NEVER use markdown formatting like **bold** or *italics* - write in plain text only.'
-                        },
-                        {
-                            role: 'user',
-                            content: prompt
-                        }
-                    ],
-                    max_tokens: 150,
-                    temperature: 0.8
-                });
+                // Add timeout to prevent hanging
+                const completion = await Promise.race([
+                    this.openai.chat.completions.create({
+                        model: 'gpt-3.5-turbo',
+                        messages: [
+                            {
+                                role: 'system',
+                                content: 'You are a youth sports journalist writing exciting headlines and short stories for a local baseball league. Write in an enthusiastic but appropriate tone for youth sports. Keep stories 1-3 sentences. Format: First line should be the headline, then a blank line, then the story body. IMPORTANT: For divisions 9U and below, do NOT mention pitching or pitchers - these divisions use pitching machines. Focus on fielding, hitting, and teamwork instead. NEVER use markdown formatting like **bold** or *italics* - write in plain text only.'
+                            },
+                            {
+                                role: 'user',
+                                content: prompt
+                            }
+                        ],
+                        max_tokens: 150,
+                        temperature: 0.8
+                    }),
+                    new Promise((_, reject) => 
+                        setTimeout(() => reject(new Error('OpenAI API timeout')), 8000)
+                    )
+                ]);
                 
                 if (completion.choices && completion.choices[0] && completion.choices[0].message) {
                     const content = completion.choices[0].message.content.trim();
