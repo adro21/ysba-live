@@ -43,6 +43,12 @@ jobs:
       env:
         NODE_ENV: production
         PUPPETEER_ARGS: --no-sandbox,--disable-setuid-sandbox,--disable-dev-shm-usage,--disable-accelerated-2d-canvas,--no-first-run,--no-zygote,--single-process,--disable-gpu,--disable-extensions
+        SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
+        FROM_EMAIL: ${{ secrets.FROM_EMAIL }}
+        FROM_NAME: ${{ secrets.FROM_NAME }}
+        BASE_URL: ${{ secrets.BASE_URL }}
+        GITHUB_TOKEN: ${{ secrets.GIST_GITHUB_TOKEN }}
+        GIST_ID: ${{ secrets.GIST_ID }}
     
     - name: Check for changes
       id: git-check
