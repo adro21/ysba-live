@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-06-13T05:20:40.057Z",
+  "lastUpdated": "2025-06-13T05:47:38.180Z",
   "totalGames": 200,
   "games": [
     {
@@ -317,8 +317,12 @@
       "awayTeam": "Newmarket Hawks 13U DS",
       "awayTeamCode": "511093",
       "location": "Newmarket Fairgrounds Park #1",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 17,
+        "away": 18,
+        "scoreText": "18-17"
+      },
       "division": "13U",
       "tier": "select-all-tiers"
     },
