@@ -6,7 +6,9 @@
  * This script runs in GitHub Actions every 30 minutes to:
  * 1. Scrape all YSBA divisions
  * 2. Generate optimized JSON files
- * 3. Commit and push changes to trigger Render deployment
+ * 3. Send email notifications for significant changes
+ * 4. Generate new homepage stories when story-worthy events occur
+ * 5. Commit and push changes to trigger Render deployment
  */
 
 const YSBAScraper = require('../src/scraper/scraper');
@@ -14,6 +16,7 @@ const DataFormatter = require('../src/scraper/formatter');
 const DataWriter = require('../src/scraper/writer');
 const DataOptimizer = require('../src/scraper/optimizer');
 const EmailService = require('../email-service');
+const AIStoryService = require('../ai-story-service');
 const config = require('../config');
 const fs = require('fs').promises;
 const path = require('path');
@@ -25,6 +28,7 @@ class GitHubActionScraper {
     this.writer = new DataWriter();
     this.optimizer = new DataOptimizer();
     this.emailService = new EmailService();
+    this.aiStoryService = new AIStoryService();
     this.startTime = Date.now();
   }
 
@@ -135,6 +139,15 @@ class GitHubActionScraper {
           await this.checkAndSendNotifications(previousStandings, formattedData);
         } else if (!this.emailService.isConfigured) {
           console.log('📧 Email service not configured - skipping notifications');
+        }
+
+        // Check for story-worthy changes and generate new stories
+        if (previousStandings) {
+          console.log('📰 Checking for story-worthy changes...');
+          await this.checkAndGenerateStories(previousStandings, formattedData);
+        } else {
+          console.log('📰 No previous standings for story comparison - generating initial stories...');
+          await this.generateInitialStories(formattedData);
         }
         
         const duration = Date.now() - this.startTime;
@@ -300,6 +313,188 @@ class GitHubActionScraper {
       runsFor: team.rf,
       runsAgainst: team.ra
     }));
+  }
+
+  // Check for story-worthy changes and generate new stories if needed
+  async checkAndGenerateStories(previousStandings, newStandings) {
+    try {
+      console.log('📰 Analyzing standings for story-worthy changes...');
+      
+      const storyTriggers = this.detectStoryTriggers(previousStandings, newStandings);
+      
+      if (storyTriggers.length > 0) {
+        console.log(`📰 Found ${storyTriggers.length} story triggers:`, storyTriggers.map(t => t.type));
+        
+        // Generate new stories based on current standings
+        const stories = await this.aiStoryService.generateStories();
+        
+        if (stories && stories.length > 0) {
+          console.log(`✅ Generated ${stories.length} new stories based on recent changes`);
+        } else {
+          console.log('⚠️ Story generation failed or returned empty results');
+        }
+      } else {
+        console.log('📰 No significant story-worthy changes detected');
+      }
+      
+    } catch (error) {
+      console.error('❌ Error checking/generating stories:', error.message);
+    }
+  }
+
+  // Generate initial stories when no previous standings exist
+  async generateInitialStories(standings) {
+    try {
+      console.log('📰 Generating initial stories for new deployment...');
+      
+      const stories = await this.aiStoryService.generateStories();
+      
+      if (stories && stories.length > 0) {
+        console.log(`✅ Generated ${stories.length} initial stories`);
+      } else {
+        console.log('⚠️ Initial story generation failed or returned empty results');
+      }
+      
+    } catch (error) {
+      console.error('❌ Error generating initial stories:', error.message);
+    }
+  }
+
+  // Detect story-worthy changes between old and new standings
+  detectStoryTriggers(previousStandings, newStandings) {
+    const triggers = [];
+    
+    if (!previousStandings?.divisions || !newStandings?.divisions) {
+      return triggers;
+    }
+
+    // Check each division for story-worthy changes
+    for (const [divisionKey, newDivisionData] of Object.entries(newStandings.divisions)) {
+      const oldDivisionData = previousStandings.divisions[divisionKey];
+      
+      if (!oldDivisionData) {
+        triggers.push({ type: 'new_division', division: divisionKey });
+        continue;
+      }
+      
+      // Check each tier within the division
+      for (const [tierKey, newTierData] of Object.entries(newDivisionData.tiers || {})) {
+        const oldTierData = oldDivisionData.tiers?.[tierKey];
+        
+        if (!oldTierData || !newTierData.teams || !oldTierData.teams) {
+          continue;
+        }
+        
+        const divisionName = `${divisionKey}/${tierKey}`;
+        const tierTriggers = this.detectTierStoryTriggers(oldTierData.teams, newTierData.teams, divisionName);
+        triggers.push(...tierTriggers);
+      }
+    }
+    
+    return triggers;
+  }
+
+  // Detect story triggers within a specific tier
+  detectTierStoryTriggers(oldTeams, newTeams, divisionName) {
+    const triggers = [];
+    
+    // Create lookup maps
+    const oldTeamsMap = {};
+    const newTeamsMap = {};
+    
+    oldTeams.forEach(team => oldTeamsMap[team.team] = team);
+    newTeams.forEach(team => newTeamsMap[team.team] = team);
+    
+    // Check each team for story-worthy changes
+    newTeams.forEach(newTeam => {
+      const oldTeam = oldTeamsMap[newTeam.team];
+      
+      if (!oldTeam) {
+        triggers.push({ type: 'new_team', team: newTeam.team, division: divisionName });
+        return;
+      }
+      
+      // First win trigger (team went from 0 wins to 1+ wins)
+      if (oldTeam.w === 0 && newTeam.w >= 1) {
+        triggers.push({ 
+          type: 'first_win', 
+          team: newTeam.team, 
+          division: divisionName,
+          record: `${newTeam.w}-${newTeam.l}${newTeam.t ? `-${newTeam.t}` : ''}`
+        });
+      }
+      
+      // Undefeated milestone (team reaches 3+ wins undefeated)
+      if (newTeam.l === 0 && newTeam.w >= 3 && (oldTeam.w < 3 || oldTeam.l > 0)) {
+        triggers.push({ 
+          type: 'undefeated_milestone', 
+          team: newTeam.team, 
+          division: divisionName,
+          record: `${newTeam.w}-${newTeam.l}${newTeam.t ? `-${newTeam.t}` : ''}`
+        });
+      }
+      
+      // Hot streak (team gains 2+ wins since last check and has high win rate)
+      const winsGained = newTeam.w - oldTeam.w;
+      const totalGames = newTeam.w + newTeam.l + (newTeam.t || 0);
+      const winPct = totalGames > 0 ? newTeam.w / totalGames : 0;
+      
+      if (winsGained >= 2 && winPct >= 0.75 && newTeam.w >= 3) {
+        triggers.push({ 
+          type: 'hot_streak', 
+          team: newTeam.team, 
+          division: divisionName,
+          winsGained,
+          record: `${newTeam.w}-${newTeam.l}${newTeam.t ? `-${newTeam.t}` : ''}`
+        });
+      }
+      
+      // Major position changes (moved up/down 2+ spots)
+      const positionChange = oldTeam.pos - newTeam.pos; // positive = moved up
+      if (Math.abs(positionChange) >= 2) {
+        triggers.push({ 
+          type: 'position_change', 
+          team: newTeam.team, 
+          division: divisionName,
+          positionChange,
+          oldPosition: oldTeam.pos,
+          newPosition: newTeam.pos
+        });
+      }
+      
+      // Breakthrough moment (team reaches .500 or better after being below .500)
+      const oldWinPct = (oldTeam.w + oldTeam.l + (oldTeam.t || 0)) > 0 ? 
+        oldTeam.w / (oldTeam.w + oldTeam.l + (oldTeam.t || 0)) : 0;
+      
+      if (oldWinPct < 0.5 && winPct >= 0.5 && totalGames >= 4) {
+        triggers.push({ 
+          type: 'breakthrough', 
+          team: newTeam.team, 
+          division: divisionName,
+          record: `${newTeam.w}-${newTeam.l}${newTeam.t ? `-${newTeam.t}` : ''}`
+        });
+      }
+    });
+    
+    // Check for tight division races
+    if (newTeams.length >= 3) {
+      const sortedTeams = [...newTeams].sort((a, b) => b.w - a.w || a.l - b.l);
+      const leader = sortedTeams[0];
+      const secondPlace = sortedTeams[1];
+      
+      if (leader.w - secondPlace.w <= 1 && leader.w >= 3) {
+        triggers.push({ 
+          type: 'tight_race', 
+          division: divisionName,
+          leader: leader.team,
+          secondPlace: secondPlace.team,
+          leaderRecord: `${leader.w}-${leader.l}${leader.t ? `-${leader.t}` : ''}`,
+          secondRecord: `${secondPlace.w}-${secondPlace.l}${secondPlace.t ? `-${secondPlace.t}` : ''}`
+        });
+      }
+    }
+    
+    return triggers;
   }
 }
 

@@ -36,16 +36,18 @@ This is a Node.js web application that displays real-time baseball standings for
 ### Background Worker System
 
 The application now includes a background worker system (`src/scraper/`) that:
-- Runs independently as a background service on Render
-- Scrapes all YSBA divisions every 30 minutes using cron
+- Runs independently as a background service via GitHub Actions every 30 minutes
+- Scrapes all YSBA divisions and detects changes
 - Generates structured JSON files (`data/ysba.json`, `public/ysba.json`)
+- Sends email notifications when significant standings changes occur
+- Generates new homepage stories when story-worthy events happen (first wins, hot streaks, undefeated runs, etc.)
 - Provides clean API data that the frontend can consume quickly
 
 ### Key Components
 
-**`server-optimized.js`** - Main Express server handling all routes, API endpoints, and email notifications (serves cached JSON files only, no scraping)
+**`server-optimized.js`** - Main Express server handling all routes, API endpoints (serves cached JSON files only, no scraping)
 
-**`src/scraper/worker.js`** - Background worker with cron scheduling that orchestrates all scraping operations
+**`scripts/github-action-scraper.js`** - GitHub Actions worker that orchestrates scraping, change detection, emails, and story generation
 
 **`src/scraper/scraper.js`** - Modular Puppeteer-based scraping engine (extracted from original scraper.js)
 
@@ -58,6 +60,8 @@ The application now includes a background worker system (`src/scraper/`) that:
 **`public/js/app.js`** - Frontend application logic handling standings display, team schedules, and user interactions
 
 **`email-service.js`** - SendGrid-powered email notification system with GitHub Gist backup for subscriber data
+
+**`ai-story-service.js`** - OpenAI-powered story generation system for homepage news content
 
 ### Multi-Division System
 
@@ -92,23 +96,26 @@ Scraping operations use `withBrowserSession()` to coordinate Puppeteer instances
 - Serves cached JSON files only
 - No scraping or Puppeteer operations
 - Fast API responses from pre-generated data
-- Handles email notifications and subscriptions
+- Handles email subscriptions and serves pre-generated stories
 
-**Background Worker** (`src/scraper/worker.js`):
+**Background Worker** (`scripts/github-action-scraper.js`):
 - Runs independently via GitHub Actions every 30 minutes
 - Performs all Puppeteer scraping operations
+- Detects significant changes in standings
+- Sends email notifications for standings changes
+- Generates new stories when story-worthy events occur (first wins, hot streaks, etc.)
 - Generates JSON files that the application serves
-- Development mode: detailed logging and browser visibility
-- Production mode: headless, optimized operation
 
 ## Key API Endpoints
 
 - `GET /api/standings?division=X&tier=Y` - Get standings data
 - `GET /api/divisions?filterEmpty=true` - Get available divisions
 - `GET /api/team/:teamCode/schedule?division=X&tier=Y` - Get team schedule
+- `GET /api/stories` - Get pre-generated homepage stories
 - `GET /api/status` - Application health check
 - `POST /api/subscribe` - Email subscription
 - `POST /api/unsubscribe-token` - Token-based unsubscribe
+- `POST /api/stories/generate` - Manually trigger story generation (testing only)
 
 ## Common Development Tasks
 
