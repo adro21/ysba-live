@@ -508,46 +508,53 @@
                 // Ensure we have enough stories for a good layout
                 const availableStories = [...stories];
                 
+                // Create fallback stories for when we don't have enough content
+                const createFallbackStory = (index) => ({
+                    id: `fallback_${Date.now()}_${index}`,
+                    headline: "Exciting YSBA Action Continues!",
+                    body: "Stay tuned for more exciting baseball action and standings updates across all YSBA divisions.",
+                    type: "general",
+                    division: "All Divisions",
+                    priority: 3,
+                    generatedAt: new Date().toISOString(),
+                    source: "fallback"
+                });
+                
+                // Helper function to get next story (or fallback if none available)
+                const getNextStory = (fallbackIndex = 0) => {
+                    if (availableStories.length > 0) {
+                        return availableStories.shift();
+                    }
+                    // If no more available stories, cycle through existing stories or create fallback
+                    if (stories.length > 0) {
+                        return stories[fallbackIndex % stories.length];
+                    }
+                    return createFallbackStory(fallbackIndex);
+                };
+                
                 // Row 1: Hero (8 cols) + Featured (4 cols) = 12 cols
-                if (availableStories.length > 0) {
-                    layout.push({ type: 'hero', story: availableStories.shift() });
-                }
-                if (availableStories.length > 0) {
-                    layout.push({ type: 'featured', story: availableStories.shift() });
-                }
+                layout.push({ type: 'hero', story: getNextStory(0) });
+                layout.push({ type: 'featured', story: getNextStory(1) });
                 
                 // Row 2: 4 mini cards (3 cols each) = 12 cols
-                for (let i = 0; i < 4 && availableStories.length > 0; i++) {
-                    layout.push({ type: 'mini', story: availableStories.shift() });
+                for (let i = 0; i < 4; i++) {
+                    layout.push({ type: 'mini', story: getNextStory(i + 2) });
                 }
                 
                 // Row 3: Featured (4 cols) + CTA (4 cols) + Compact (4 cols) = 12 cols
-                if (availableStories.length > 0) {
-                    layout.push({ type: 'featured', story: availableStories.shift() });
-                }
-                if (availableStories.length > 0) {
-                    const story = availableStories.shift();
-                    layout.push({ type: 'cta', story: story, division: story.division });
-                }
-                if (availableStories.length > 0) {
-                    layout.push({ type: 'compact', story: availableStories.shift() });
-                }
+                layout.push({ type: 'featured', story: getNextStory(6) });
+                const ctaStory = getNextStory(7);
+                layout.push({ type: 'cta', story: ctaStory, division: ctaStory.division });
+                layout.push({ type: 'compact', story: getNextStory(8) });
                 
                 // Row 4: Wide story (12 cols)
-                if (availableStories.length > 0) {
-                    layout.push({ type: 'wide', story: availableStories.shift() });
-                }
+                layout.push({ type: 'wide', story: getNextStory(9) });
                 
                 // Row 5: Featured (4 cols) + Featured (4 cols) + Compact (4 cols) = 12 cols
-                if (availableStories.length > 0) {
-                    layout.push({ type: 'featured', story: availableStories.shift() });
-                }
-                if (availableStories.length > 0) {
-                    layout.push({ type: 'featured', story: availableStories.shift() });
-                }
-                if (availableStories.length > 0) {
-                    layout.push({ type: 'compact', story: availableStories.shift() });
-                }
+                // ALWAYS ensure exactly 3 stories in the bottom row
+                layout.push({ type: 'featured', story: getNextStory(10) });
+                layout.push({ type: 'featured', story: getNextStory(11) });
+                layout.push({ type: 'compact', story: getNextStory(12) });
                 
                 return layout;
             }

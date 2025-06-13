@@ -307,7 +307,7 @@ class AIStoryService {
                     Object.entries(division.tiers).forEach(([tierKey, tier]) => {
                         if (tier.teams) {
                             tier.teams.forEach(team => {
-                                // Teams with exactly 1 win (first win of season)
+                                // First wins (teams with exactly 1 win and multiple losses)
                                 if (team.w === 1 && team.l >= 3) {
                                     breakthroughs.push({
                                         type: 'first_win',
@@ -317,6 +317,31 @@ class AIStoryService {
                                         division: this.formatDivisionName(divisionKey, tierKey, division.displayName),
                                         data: team
                                     });
+                                }
+                                // Breakthrough moments for teams getting their second win after struggling
+                                else if (team.w === 2 && team.l >= 4) {
+                                    breakthroughs.push({
+                                        type: 'breakthrough',
+                                        priority: 3,
+                                        team: team.team,
+                                        record: `${team.w}-${team.l}${team.t ? `-${team.t}` : ''}`,
+                                        division: this.formatDivisionName(divisionKey, tierKey, division.displayName),
+                                        data: team
+                                    });
+                                }
+                                // Teams showing improvement (getting to .500 or better after early struggles)
+                                else if (team.w >= team.l && team.l >= 3 && team.w >= 3) {
+                                    const totalGames = team.w + team.l + (team.t || 0);
+                                    if (totalGames >= 6) {
+                                        breakthroughs.push({
+                                            type: 'turnaround',
+                                            priority: 3,
+                                            team: team.team,
+                                            record: `${team.w}-${team.l}${team.t ? `-${team.t}` : ''}`,
+                                            division: this.formatDivisionName(divisionKey, tierKey, division.displayName),
+                                            data: team
+                                        });
+                                    }
                                 }
                             });
                         }
@@ -593,6 +618,12 @@ class AIStoryService {
             case 'first_win':
                 return `Write a punchy sports headline and 1-2 sentence story about ${opportunity.team} getting their breakthrough first win of the season in ${opportunity.division}. Make it exciting and celebratory but appropriate for youth sports.`;
             
+            case 'breakthrough':
+                return `Write a punchy sports headline and 1-2 sentence story about ${opportunity.team} building momentum with their second win and a ${opportunity.record} record in ${opportunity.division}. Focus on their perseverance and improvement. Make it exciting but appropriate for youth sports.`;
+            
+            case 'turnaround':
+                return `Write a punchy sports headline and 1-2 sentence story about ${opportunity.team}'s impressive turnaround, reaching a ${opportunity.record} record after early struggles in ${opportunity.division}. Focus on their resilience and teamwork. Make it exciting but appropriate for youth sports.`;
+            
             case 'shutout_artist':
                 // Check if this is a pitching machine division (9U and below)
                 const isPitchingMachine = this.isPitchingMachineDivision(opportunity.division);
@@ -631,26 +662,97 @@ class AIStoryService {
                 priority: 4,
                 generatedAt: new Date().toISOString(),
                 source: "fallback"
+            },
+            {
+                id: `fallback_${Date.now()}_3`,
+                headline: "Thrilling Matchups Continue",
+                body: "Close games and exciting plays highlight another week of competitive YSBA baseball.",
+                type: "general",
+                division: "All Divisions",
+                priority: 4,
+                generatedAt: new Date().toISOString(),
+                source: "fallback"
+            },
+            {
+                id: `fallback_${Date.now()}_4`,
+                headline: "Young Athletes Shine Bright",
+                body: "Outstanding performances and great sportsmanship on display across all YSBA divisions.",
+                type: "general",
+                division: "All Divisions",
+                priority: 3,
+                generatedAt: new Date().toISOString(),
+                source: "fallback"
+            },
+            {
+                id: `fallback_${Date.now()}_5`,
+                headline: "Season Reaching Peak Excitement",
+                body: "Every game matters as teams push toward the playoffs in thrilling YSBA action.",
+                type: "general",
+                division: "All Divisions",
+                priority: 3,
+                generatedAt: new Date().toISOString(),
+                source: "fallback"
             }
         ];
         
-        // Add specific stories based on opportunities
-        storyOpportunities.slice(0, 2).forEach((opp, index) => {
-            if (opp.type === 'undefeated') {
-                fallbackStories.push({
-                    id: `fallback_${Date.now()}_${index + 3}`,
-                    headline: `${opp.team} Stays Perfect!`,
-                    body: `The ${opp.team} continue their undefeated season with a stellar ${opp.record} record.`,
-                    type: opp.type,
-                    division: opp.division,
-                    priority: opp.priority,
-                    generatedAt: new Date().toISOString(),
-                    source: "fallback"
-                });
+        // Add specific stories based on opportunities (up to 9 more to reach 14 total)
+        storyOpportunities.slice(0, 9).forEach((opp, index) => {
+            let headline, body;
+            
+            switch(opp.type) {
+                case 'undefeated':
+                    headline = `${opp.team} Stays Perfect!`;
+                    body = `The ${opp.team} continue their undefeated season with a stellar ${opp.record} record.`;
+                    break;
+                case 'first_win':
+                    headline = `${opp.team} Celebrates First Victory!`;
+                    body = `The ${opp.team} earned their first win of the season, bringing smiles and high-fives all around.`;
+                    break;
+                case 'breakthrough':
+                    headline = `${opp.team} Building Momentum!`;
+                    body = `The ${opp.team} continue to improve with their latest victory and ${opp.record} record.`;
+                    break;
+                case 'turnaround':
+                    headline = `${opp.team} Shows Great Resilience!`;
+                    body = `The ${opp.team} have turned things around with strong play and teamwork.`;
+                    break;
+                case 'hot_streak':
+                    headline = `${opp.team} On Fire!`;
+                    body = `The ${opp.team} are red-hot with their impressive ${opp.record} record.`;
+                    break;
+                default:
+                    headline = `${opp.team || 'Teams'} Making Headlines!`;
+                    body = `Great baseball action continues in ${opp.division}.`;
             }
+            
+            fallbackStories.push({
+                id: `fallback_${Date.now()}_${index + 6}`,
+                headline,
+                body,
+                type: opp.type || 'general',
+                division: opp.division || 'All Divisions',
+                priority: opp.priority || 3,
+                generatedAt: new Date().toISOString(),
+                source: "fallback"
+            });
         });
         
-        return fallbackStories.slice(0, 4);
+        // Ensure we always have at least 14 stories for the layout
+        while (fallbackStories.length < 14) {
+            const index = fallbackStories.length;
+            fallbackStories.push({
+                id: `fallback_${Date.now()}_${index}`,
+                headline: "YSBA Baseball Action Continues!",
+                body: "Check back soon for more exciting updates from all divisions.",
+                type: "general",
+                division: "All Divisions",
+                priority: 2,
+                generatedAt: new Date().toISOString(),
+                source: "fallback"
+            });
+        }
+        
+        return fallbackStories.slice(0, 14);
     }
     
     async saveStories(stories) {
