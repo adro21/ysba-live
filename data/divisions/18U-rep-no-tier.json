@@ -92,7 +92,7 @@
         }
       },
       {
-        "position": 11,
+        "position": 12,
         "team": "Collingwood Jays 18U A",
         "teamCode": "511027",
         "record": {
@@ -128,7 +128,7 @@
         }
       },
       {
-        "position": 7,
+        "position": 8,
         "team": "Women's Team",
         "teamCode": "546377",
         "record": {
@@ -146,7 +146,7 @@
         }
       },
       {
-        "position": 8,
+        "position": 9,
         "team": "Caledon Nationals 18U A",
         "teamCode": "511026",
         "record": {
@@ -182,7 +182,25 @@
         }
       },
       {
-        "position": 10,
+        "position": 7,
+        "team": "Innisfil Cardinals 18U A",
+        "teamCode": "511028",
+        "record": {
+          "gamesPlayed": 7,
+          "wins": 3,
+          "losses": 4,
+          "ties": 0,
+          "winPercentage": "0.429"
+        },
+        "stats": {
+          "points": 6,
+          "runsFor": 46,
+          "runsAgainst": 55,
+          "runDifferential": -9
+        }
+      },
+      {
+        "position": 11,
         "team": "Bradford Tigers 18U A",
         "teamCode": "511025",
         "record": {
@@ -236,24 +254,6 @@
         }
       },
       {
-        "position": 12,
-        "team": "Innisfil Cardinals 18U A",
-        "teamCode": "511028",
-        "record": {
-          "gamesPlayed": 6,
-          "wins": 2,
-          "losses": 4,
-          "ties": 0,
-          "winPercentage": "0.333"
-        },
-        "stats": {
-          "points": 4,
-          "runsFor": 35,
-          "runsAgainst": 51,
-          "runDifferential": -16
-        }
-      },
-      {
         "position": 17,
         "team": "Muskoka Hornets 18U AA",
         "teamCode": "516246",
@@ -272,7 +272,7 @@
         }
       },
       {
-        "position": 9,
+        "position": 10,
         "team": "Vaughan Vikings 17U A",
         "teamCode": "518960",
         "record": {
@@ -294,17 +294,17 @@
         "team": "Stayner White Sox 18U C",
         "teamCode": "519242",
         "record": {
-          "gamesPlayed": 7,
+          "gamesPlayed": 8,
           "wins": 1,
-          "losses": 6,
+          "losses": 7,
           "ties": 0,
-          "winPercentage": "0.143"
+          "winPercentage": "0.125"
         },
         "stats": {
           "points": 2,
-          "runsFor": 33,
-          "runsAgainst": 64,
-          "runDifferential": -31
+          "runsFor": 37,
+          "runsAgainst": 75,
+          "runDifferential": -38
         }
       },
       {
@@ -344,7 +344,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-06-13T16:22:18.859Z",
+    "lastUpdated": "2025-06-13T16:50:54.745Z",
     "totalTeams": 19
   },
   "schedule": {
@@ -498,7 +498,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T16:22:23.132Z"
+        "lastUpdated": "2025-06-13T16:50:59.051Z"
       },
       "511022": {
         "teamCode": "511022",
@@ -649,7 +649,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T16:22:23.132Z"
+        "lastUpdated": "2025-06-13T16:50:59.051Z"
       },
       "511023": {
         "teamCode": "511023",
@@ -788,7 +788,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T16:22:23.132Z"
+        "lastUpdated": "2025-06-13T16:50:59.051Z"
       },
       "511024": {
         "teamCode": "511024",
@@ -939,7 +939,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T16:22:23.132Z"
+        "lastUpdated": "2025-06-13T16:50:59.051Z"
       },
       "511025": {
         "teamCode": "511025",
@@ -1086,7 +1086,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T16:22:23.132Z"
+        "lastUpdated": "2025-06-13T16:50:59.051Z"
       },
       "511026": {
         "teamCode": "511026",
@@ -1233,7 +1233,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T16:22:23.132Z"
+        "lastUpdated": "2025-06-13T16:50:59.051Z"
       },
       "511027": {
         "teamCode": "511027",
@@ -1380,7 +1380,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T16:22:23.132Z"
+        "lastUpdated": "2025-06-13T16:50:59.051Z"
       },
       "511028": {
         "teamCode": "511028",
@@ -1461,8 +1461,12 @@
             "awayTeam": "Innisfil Cardinals 18U A",
             "awayTeamCode": "511028",
             "location": "Stayner Collegiate",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 11,
+              "scoreText": "11-4"
+            }
           }
         ],
         "nextGames": [
@@ -1527,7 +1531,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T16:22:23.132Z"
+        "lastUpdated": "2025-06-13T16:50:59.051Z"
       },
       "511030": {
         "teamCode": "511030",
@@ -1678,7 +1682,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T16:22:23.132Z"
+        "lastUpdated": "2025-06-13T16:50:59.051Z"
       },
       "511031": {
         "teamCode": "511031",
@@ -1805,7 +1809,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T16:22:23.132Z"
+        "lastUpdated": "2025-06-13T16:50:59.051Z"
       },
       "511032": {
         "teamCode": "511032",
@@ -1952,7 +1956,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T16:22:23.132Z"
+        "lastUpdated": "2025-06-13T16:50:59.051Z"
       },
       "511033": {
         "teamCode": "511033",
@@ -2103,7 +2107,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T16:22:23.132Z"
+        "lastUpdated": "2025-06-13T16:50:59.051Z"
       },
       "511034": {
         "teamCode": "511034",
@@ -2254,7 +2258,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T16:22:23.132Z"
+        "lastUpdated": "2025-06-13T16:50:59.051Z"
       },
       "511035": {
         "teamCode": "511035",
@@ -2401,7 +2405,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T16:22:23.132Z"
+        "lastUpdated": "2025-06-13T16:50:59.051Z"
       },
       "516246": {
         "teamCode": "516246",
@@ -2540,7 +2544,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T16:22:23.133Z"
+        "lastUpdated": "2025-06-13T16:50:59.051Z"
       },
       "518960": {
         "teamCode": "518960",
@@ -2691,7 +2695,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T16:22:23.133Z"
+        "lastUpdated": "2025-06-13T16:50:59.051Z"
       },
       "518962": {
         "teamCode": "518962",
@@ -2842,7 +2846,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T16:22:23.133Z"
+        "lastUpdated": "2025-06-13T16:50:59.051Z"
       },
       "519242": {
         "teamCode": "519242",
@@ -2923,8 +2927,12 @@
             "awayTeam": "Innisfil Cardinals 18U A",
             "awayTeamCode": "511028",
             "location": "Stayner Collegiate",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 11,
+              "scoreText": "11-4"
+            }
           }
         ],
         "nextGames": [
@@ -2989,7 +2997,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T16:22:23.133Z"
+        "lastUpdated": "2025-06-13T16:50:59.051Z"
       },
       "546377": {
         "teamCode": "546377",
@@ -3136,7 +3144,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T16:22:23.133Z"
+        "lastUpdated": "2025-06-13T16:50:59.051Z"
       }
     },
     "allGames": [
@@ -4129,8 +4137,12 @@
         "awayTeam": "Innisfil Cardinals 18U A",
         "awayTeamCode": "511028",
         "location": "Stayner Collegiate",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 11,
+          "scoreText": "11-4"
+        }
       },
       {
         "date": "2025-06-13T19:30:00.000Z",
@@ -5295,8 +5307,12 @@
         "awayTeam": "Innisfil Cardinals 18U A",
         "awayTeamCode": "511028",
         "location": "Stayner Collegiate",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 11,
+          "scoreText": "11-4"
+        }
       },
       {
         "date": "2025-06-11T20:30:00.000Z",
@@ -5565,14 +5581,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-13T16:22:23.133Z",
+    "lastUpdated": "2025-06-13T16:50:59.051Z",
     "totalGames": 161
   },
   "summary": {
     "totalTeams": 19,
     "totalGames": 161,
-    "completedGames": 53,
-    "upcomingGames": 108,
+    "completedGames": 54,
+    "upcomingGames": 107,
     "topTeam": {
       "team": "Caledon Nationals 18U AA",
       "teamCode": "511035",
@@ -5589,6 +5605,6 @@
       "date": "Mon, May 26",
       "location": "Stewart Burnett"
     },
-    "lastUpdated": "2025-06-13T16:24:05.410Z"
+    "lastUpdated": "2025-06-13T16:52:41.080Z"
   }
 }
