@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-06-13T01:16:08.136Z",
+  "lastUpdated": "2025-06-13T03:07:17.976Z",
   "totalGames": 200,
   "games": [
     {
@@ -95,8 +95,12 @@
       "awayTeam": "Collingwood Jays 14U A",
       "awayTeamCode": "510962",
       "location": "Richmond Green #1",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 11,
+        "away": 5,
+        "scoreText": "5-11"
+      },
       "division": "14U",
       "tier": "rep-tier-3"
     },
@@ -405,8 +409,12 @@
       "awayTeam": "Stouffville Yankees 14U A",
       "awayTeamCode": "510966",
       "location": "Lennox Park B",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 16,
+        "away": 5,
+        "scoreText": "5-16"
+      },
       "division": "14U",
       "tier": "rep-tier-3"
     },

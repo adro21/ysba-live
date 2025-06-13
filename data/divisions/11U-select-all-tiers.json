@@ -3,6 +3,24 @@
     "teams": [
       {
         "position": 1,
+        "team": "Vaughan Vikings 11U DS",
+        "teamCode": "518968",
+        "record": {
+          "gamesPlayed": 8,
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "winPercentage": "1.000"
+        },
+        "stats": {
+          "points": 16,
+          "runsFor": 105,
+          "runsAgainst": 15,
+          "runDifferential": 90
+        }
+      },
+      {
+        "position": 2,
         "team": "Barrie Baycats 11U DS",
         "teamCode": "511075",
         "record": {
@@ -17,24 +35,6 @@
           "runsFor": 95,
           "runsAgainst": 38,
           "runDifferential": 57
-        }
-      },
-      {
-        "position": 2,
-        "team": "Vaughan Vikings 11U DS",
-        "teamCode": "518968",
-        "record": {
-          "gamesPlayed": 7,
-          "wins": 7,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": "1.000"
-        },
-        "stats": {
-          "points": 14,
-          "runsFor": 89,
-          "runsAgainst": 14,
-          "runDifferential": 75
         }
       },
       {
@@ -150,17 +150,17 @@
         "team": "Vaughan Vikings 10U DS",
         "teamCode": "518967",
         "record": {
-          "gamesPlayed": 7,
+          "gamesPlayed": 8,
           "wins": 2,
-          "losses": 4,
+          "losses": 5,
           "ties": 1,
-          "winPercentage": "0.357"
+          "winPercentage": "0.313"
         },
         "stats": {
           "points": 5,
-          "runsFor": 46,
-          "runsAgainst": 52,
-          "runDifferential": -6
+          "runsFor": 47,
+          "runsAgainst": 68,
+          "runDifferential": -21
         }
       },
       {
@@ -236,7 +236,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-06-13T01:15:49.962Z",
+    "lastUpdated": "2025-06-13T03:07:00.195Z",
     "totalTeams": 13
   },
   "schedule": {
@@ -390,7 +390,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T01:15:54.116Z"
+        "lastUpdated": "2025-06-13T03:07:04.392Z"
       },
       "511075": {
         "teamCode": "511075",
@@ -541,7 +541,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T01:15:54.116Z"
+        "lastUpdated": "2025-06-13T03:07:04.392Z"
       },
       "511076": {
         "teamCode": "511076",
@@ -688,7 +688,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T01:15:54.117Z"
+        "lastUpdated": "2025-06-13T03:07:04.392Z"
       },
       "511077": {
         "teamCode": "511077",
@@ -823,7 +823,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T01:15:54.117Z"
+        "lastUpdated": "2025-06-13T03:07:04.392Z"
       },
       "511078": {
         "teamCode": "511078",
@@ -970,7 +970,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T01:15:54.117Z"
+        "lastUpdated": "2025-06-13T03:07:04.392Z"
       },
       "511079": {
         "teamCode": "511079",
@@ -1121,7 +1121,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T01:15:54.117Z"
+        "lastUpdated": "2025-06-13T03:07:04.392Z"
       },
       "511080": {
         "teamCode": "511080",
@@ -1268,7 +1268,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T01:15:54.117Z"
+        "lastUpdated": "2025-06-13T03:07:04.392Z"
       },
       "511081": {
         "teamCode": "511081",
@@ -1419,7 +1419,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T01:15:54.117Z"
+        "lastUpdated": "2025-06-13T03:07:04.392Z"
       },
       "511082": {
         "teamCode": "511082",
@@ -1562,7 +1562,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T01:15:54.117Z"
+        "lastUpdated": "2025-06-13T03:07:04.393Z"
       },
       "511083": {
         "teamCode": "511083",
@@ -1713,7 +1713,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T01:15:54.117Z"
+        "lastUpdated": "2025-06-13T03:07:04.393Z"
       },
       "518967": {
         "teamCode": "518967",
@@ -1860,7 +1860,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T01:15:54.117Z"
+        "lastUpdated": "2025-06-13T03:07:04.393Z"
       },
       "518968": {
         "teamCode": "518968",
@@ -1877,8 +1877,12 @@
             "awayTeam": "Vaughan Vikings 10U DS",
             "awayTeamCode": "518967",
             "location": "Chatfield District Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 16,
+              "away": 1,
+              "scoreText": "1-16"
+            }
           },
           {
             "date": "2025-05-25T10:00:00.000Z",
@@ -2007,7 +2011,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T01:15:54.117Z"
+        "lastUpdated": "2025-06-13T03:07:04.393Z"
       },
       "518974": {
         "teamCode": "518974",
@@ -2154,7 +2158,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T01:15:54.117Z"
+        "lastUpdated": "2025-06-13T03:07:04.393Z"
       }
     },
     "allGames": [
@@ -2403,8 +2407,12 @@
         "awayTeam": "Vaughan Vikings 10U DS",
         "awayTeamCode": "518967",
         "location": "Chatfield District Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 16,
+          "away": 1,
+          "scoreText": "1-16"
+        }
       },
       {
         "date": "2025-05-18T10:00:00.000Z",
@@ -3871,17 +3879,17 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-13T01:15:54.117Z",
+    "lastUpdated": "2025-06-13T03:07:04.393Z",
     "totalGames": 105
   },
   "summary": {
     "totalTeams": 13,
     "totalGames": 105,
-    "completedGames": 42,
-    "upcomingGames": 63,
+    "completedGames": 43,
+    "upcomingGames": 62,
     "topTeam": {
-      "team": "Barrie Baycats 11U DS",
-      "teamCode": "511075",
+      "team": "Vaughan Vikings 11U DS",
+      "teamCode": "518968",
       "wins": 8,
       "losses": 0,
       "winPercentage": "1.000"
@@ -3895,6 +3903,6 @@
       "date": "Sat, May 24",
       "location": "Mansfield Park"
     },
-    "lastUpdated": "2025-06-13T01:16:08.136Z"
+    "lastUpdated": "2025-06-13T03:07:17.976Z"
   }
 }
