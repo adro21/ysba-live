@@ -20,7 +20,7 @@
         }
       },
       {
-        "position": 2,
+        "position": 3,
         "team": "Richmond Hill Phoenix 11U AA",
         "teamCode": "510910",
         "record": {
@@ -38,43 +38,43 @@
         }
       },
       {
-        "position": 4,
+        "position": 2,
         "team": "Barrie Baycats 11U AA",
         "teamCode": "510906",
         "record": {
-          "gamesPlayed": 5,
-          "wins": 3,
+          "gamesPlayed": 6,
+          "wins": 4,
           "losses": 2,
           "ties": 0,
-          "winPercentage": "0.600"
+          "winPercentage": "0.667"
+        },
+        "stats": {
+          "points": 8,
+          "runsFor": 55,
+          "runsAgainst": 37,
+          "runDifferential": 18
+        }
+      },
+      {
+        "position": 4,
+        "team": "Newmarket Hawks 11U AA",
+        "teamCode": "510913",
+        "record": {
+          "gamesPlayed": 6,
+          "wins": 3,
+          "losses": 3,
+          "ties": 0,
+          "winPercentage": "0.500"
         },
         "stats": {
           "points": 6,
-          "runsFor": 39,
-          "runsAgainst": 30,
-          "runDifferential": 9
+          "runsFor": 41,
+          "runsAgainst": 57,
+          "runDifferential": -16
         }
       },
       {
         "position": 5,
-        "team": "Newmarket Hawks 11U AA",
-        "teamCode": "510913",
-        "record": {
-          "gamesPlayed": 5,
-          "wins": 3,
-          "losses": 2,
-          "ties": 0,
-          "winPercentage": "0.600"
-        },
-        "stats": {
-          "points": 6,
-          "runsFor": 34,
-          "runsAgainst": 41,
-          "runDifferential": -7
-        }
-      },
-      {
-        "position": 3,
         "team": "Caledon Nationals 11U AA",
         "teamCode": "510912",
         "record": {
@@ -182,7 +182,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-06-13T17:13:56.616Z",
+    "lastUpdated": "2025-06-13T17:41:40.296Z",
     "totalTeams": 10
   },
   "schedule": {
@@ -332,7 +332,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T17:14:00.768Z"
+        "lastUpdated": "2025-06-13T17:41:44.579Z"
       },
       "510892": {
         "teamCode": "510892",
@@ -483,7 +483,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T17:14:00.768Z"
+        "lastUpdated": "2025-06-13T17:41:44.579Z"
       },
       "510893": {
         "teamCode": "510893",
@@ -630,7 +630,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T17:14:00.768Z"
+        "lastUpdated": "2025-06-13T17:41:44.579Z"
       },
       "510894": {
         "teamCode": "510894",
@@ -777,7 +777,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T17:14:00.768Z"
+        "lastUpdated": "2025-06-13T17:41:44.579Z"
       },
       "510897": {
         "teamCode": "510897",
@@ -912,7 +912,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T17:14:00.768Z"
+        "lastUpdated": "2025-06-13T17:41:44.579Z"
       },
       "510898": {
         "teamCode": "510898",
@@ -1063,7 +1063,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T17:14:00.768Z"
+        "lastUpdated": "2025-06-13T17:41:44.579Z"
       },
       "510903": {
         "teamCode": "510903",
@@ -1214,7 +1214,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T17:14:00.768Z"
+        "lastUpdated": "2025-06-13T17:41:44.579Z"
       },
       "510905": {
         "teamCode": "510905",
@@ -1294,7 +1294,7 @@
             "homeTeamCode": "510907",
             "awayTeam": "Aurora-King Jays 11U AA",
             "awayTeamCode": "510905",
-            "location": "Joe Magani Park",
+            "location": "PPD",
             "isCompleted": false,
             "score": null
           }
@@ -1361,7 +1361,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T17:14:00.768Z"
+        "lastUpdated": "2025-06-13T17:41:44.579Z"
       },
       "510906": {
         "teamCode": "510906",
@@ -1442,8 +1442,12 @@
             "awayTeam": "Newmarket Hawks 11U AA",
             "awayTeamCode": "510913",
             "location": "Sports Complex #12",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 16,
+              "away": 7,
+              "scoreText": "7-16"
+            }
           }
         ],
         "nextGames": [
@@ -1508,7 +1512,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T17:14:00.768Z"
+        "lastUpdated": "2025-06-13T17:41:44.579Z"
       },
       "510907": {
         "teamCode": "510907",
@@ -1572,7 +1576,7 @@
             "homeTeamCode": "510907",
             "awayTeam": "Aurora-King Jays 11U AA",
             "awayTeamCode": "510905",
-            "location": "Joe Magani Park",
+            "location": "PPD",
             "isCompleted": false,
             "score": null
           }
@@ -1639,7 +1643,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T17:14:00.768Z"
+        "lastUpdated": "2025-06-13T17:41:44.579Z"
       },
       "510908": {
         "teamCode": "510908",
@@ -1790,7 +1794,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T17:14:00.768Z"
+        "lastUpdated": "2025-06-13T17:41:44.579Z"
       },
       "510909": {
         "teamCode": "510909",
@@ -1941,7 +1945,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T17:14:00.768Z"
+        "lastUpdated": "2025-06-13T17:41:44.579Z"
       },
       "510910": {
         "teamCode": "510910",
@@ -2084,7 +2088,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T17:14:00.768Z"
+        "lastUpdated": "2025-06-13T17:41:44.579Z"
       },
       "510911": {
         "teamCode": "510911",
@@ -2235,7 +2239,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T17:14:00.768Z"
+        "lastUpdated": "2025-06-13T17:41:44.579Z"
       },
       "510912": {
         "teamCode": "510912",
@@ -2382,7 +2386,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T17:14:00.768Z"
+        "lastUpdated": "2025-06-13T17:41:44.579Z"
       },
       "510913": {
         "teamCode": "510913",
@@ -2463,8 +2467,12 @@
             "awayTeam": "Newmarket Hawks 11U AA",
             "awayTeamCode": "510913",
             "location": "Sports Complex #12",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 16,
+              "away": 7,
+              "scoreText": "7-16"
+            }
           }
         ],
         "nextGames": [
@@ -2529,7 +2537,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T17:14:00.768Z"
+        "lastUpdated": "2025-06-13T17:41:44.579Z"
       },
       "510916": {
         "teamCode": "510916",
@@ -2676,7 +2684,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T17:14:00.768Z"
+        "lastUpdated": "2025-06-13T17:41:44.579Z"
       },
       "510917": {
         "teamCode": "510917",
@@ -2807,7 +2815,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T17:14:00.768Z"
+        "lastUpdated": "2025-06-13T17:41:44.579Z"
       },
       "516241": {
         "teamCode": "516241",
@@ -2958,7 +2966,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T17:14:00.768Z"
+        "lastUpdated": "2025-06-13T17:41:44.580Z"
       }
     },
     "allGames": [
@@ -3702,7 +3710,7 @@
         "homeTeamCode": "510907",
         "awayTeam": "Aurora-King Jays 11U AA",
         "awayTeamCode": "510905",
-        "location": "Joe Magani Park",
+        "location": "PPD",
         "isCompleted": false,
         "score": null
       },
@@ -3843,8 +3851,12 @@
         "awayTeam": "Newmarket Hawks 11U AA",
         "awayTeamCode": "510913",
         "location": "Sports Complex #12",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 16,
+          "away": 7,
+          "scoreText": "7-16"
+        }
       },
       {
         "date": "2025-06-13T18:30:00.000Z",
@@ -5117,8 +5129,12 @@
         "awayTeam": "Newmarket Hawks 11U AA",
         "awayTeamCode": "510913",
         "location": "Sports Complex #12",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 16,
+          "away": 7,
+          "scoreText": "7-16"
+        }
       },
       {
         "date": "2025-06-11T19:00:00.000Z",
@@ -5224,7 +5240,7 @@
         "homeTeamCode": "510907",
         "awayTeam": "Aurora-King Jays 11U AA",
         "awayTeamCode": "510905",
-        "location": "Joe Magani Park",
+        "location": "PPD",
         "isCompleted": false,
         "score": null
       },
@@ -5383,14 +5399,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-13T17:14:00.768Z",
+    "lastUpdated": "2025-06-13T17:41:44.580Z",
     "totalGames": 162
   },
   "summary": {
     "totalTeams": 10,
     "totalGames": 162,
-    "completedGames": 50,
-    "upcomingGames": 112,
+    "completedGames": 51,
+    "upcomingGames": 111,
     "topTeam": {
       "team": "Orangeville Bengals 11U AA",
       "teamCode": "510909",
@@ -5407,6 +5423,6 @@
       "date": "Tue, May 13",
       "location": "North Hill #3"
     },
-    "lastUpdated": "2025-06-13T17:18:22.820Z"
+    "lastUpdated": "2025-06-13T17:46:15.829Z"
   }
 }
