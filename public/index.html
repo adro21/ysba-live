@@ -508,28 +508,26 @@
                 // Ensure we have enough stories for a good layout
                 const availableStories = [...stories];
                 
-                // Create fallback stories for when we don't have enough content
-                const createFallbackStory = (index) => ({
-                    id: `fallback_${Date.now()}_${index}`,
-                    headline: "Exciting YSBA Action Continues!",
-                    body: "Stay tuned for more exciting baseball action and standings updates across all YSBA divisions.",
-                    type: "general",
-                    division: "All Divisions",
-                    priority: 3,
-                    generatedAt: new Date().toISOString(),
-                    source: "fallback"
-                });
-                
-                // Helper function to get next story (or fallback if none available)
+                // Helper function to get next story (recycle existing if needed)
                 const getNextStory = (fallbackIndex = 0) => {
                     if (availableStories.length > 0) {
                         return availableStories.shift();
                     }
-                    // If no more available stories, cycle through existing stories or create fallback
+                    // If no more available stories, cycle through existing quality stories
                     if (stories.length > 0) {
                         return stories[fallbackIndex % stories.length];
                     }
-                    return createFallbackStory(fallbackIndex);
+                    // Only as last resort, create a simple fallback (this should rarely happen)
+                    return {
+                        id: `fallback_${Date.now()}_${fallbackIndex}`,
+                        headline: "YSBA Action Continues",
+                        body: "Check back soon for more exciting baseball updates.",
+                        type: "general",
+                        division: "All Divisions",
+                        priority: 1,
+                        generatedAt: new Date().toISOString(),
+                        source: "frontend_fallback"
+                    };
                 };
                 
                 // Row 1: Hero (8 cols) + Featured (4 cols) = 12 cols

@@ -322,8 +322,13 @@ class GitHubActionScraper {
       
       const storyTriggers = this.detectStoryTriggers(previousStandings, newStandings);
       
-      if (storyTriggers.length > 0) {
-        console.log(`📰 Found ${storyTriggers.length} story triggers:`, storyTriggers.map(t => t.type));
+      // Only generate new stories if we have significant, quality triggers
+      const qualityTriggers = storyTriggers.filter(t => 
+        ['first_win', 'undefeated_milestone', 'hot_streak', 'breakthrough', 'tight_race'].includes(t.type)
+      );
+      
+      if (qualityTriggers.length >= 2) {
+        console.log(`📰 Found ${qualityTriggers.length} quality story triggers:`, qualityTriggers.map(t => t.type));
         
         // Generate new stories based on current standings
         const stories = await this.aiStoryService.generateStories();
@@ -333,8 +338,10 @@ class GitHubActionScraper {
         } else {
           console.log('⚠️ Story generation failed or returned empty results');
         }
+      } else if (storyTriggers.length > 0) {
+        console.log(`📰 Found ${storyTriggers.length} story triggers but not enough quality ones (${qualityTriggers.length}) - keeping existing stories`);
       } else {
-        console.log('📰 No significant story-worthy changes detected');
+        console.log('📰 No significant story-worthy changes detected - keeping existing stories');
       }
       
     } catch (error) {

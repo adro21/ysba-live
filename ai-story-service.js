@@ -51,14 +51,26 @@ class AIStoryService {
             // Analyze the data to find interesting stories
             const storyOpportunities = this.analyzeDataForStories(standingsData, scheduleData);
             
+            // Check if we have enough quality opportunities to justify new stories
+            const qualityOpportunities = storyOpportunities.filter(opp => opp.priority >= 5);
+            
+            if (qualityOpportunities.length < 3) {
+                console.log(`📰 Only ${qualityOpportunities.length} quality story opportunities found - keeping existing stories`);
+                return null; // Don't overwrite existing stories
+            }
+            
             // Generate stories using AI
             const stories = await this.generateAIStories(storyOpportunities);
             
-            // Save the stories
-            await this.saveStories(stories);
-            
-            console.log(`✨ Generated ${stories.length} AI stories`);
-            return stories;
+            if (stories && stories.length >= 3) {
+                // Only save if we have good stories
+                await this.saveStories(stories);
+                console.log(`✨ Generated ${stories.length} quality AI stories`);
+                return stories;
+            } else {
+                console.log(`📰 Generated stories (${stories?.length || 0}) don't meet quality threshold - keeping existing stories`);
+                return null; // Don't overwrite existing stories
+            }
             
         } catch (error) {
             console.error('❌ Error generating AI stories:', error);
@@ -166,10 +178,14 @@ class AIStoryService {
             balancedStories.push(...uniqueTypeStories);
         });
         
-        // Sort by priority and return top stories
-        return balancedStories
+        // Sort by priority and return quality stories only
+        // Don't force a specific number - let quality stories speak for themselves
+        const qualityStories = balancedStories
             .sort((a, b) => b.priority - a.priority)
-            .slice(0, 14); // Keep exactly 14 stories for new layout (5 rows)
+            .filter(story => story.priority >= 4); // Only high-quality stories (4+ priority)
+        
+        // Return at least some stories, but prefer quality over quantity
+        return qualityStories.length >= 3 ? qualityStories : balancedStories.slice(0, Math.max(3, balancedStories.length));
     }
     
     findUndefeatedTeams(standingsData) {
@@ -538,35 +554,53 @@ class AIStoryService {
                 
                 if (completion.choices && completion.choices[0] && completion.choices[0].message) {
                     const content = completion.choices[0].message.content.trim();
-                    const lines = content.split('\n').filter(line => line.trim());
                     
-                    // Improved parsing - if first line is too long, it might contain both headline and body
-                    let headline = lines[0] || 'Exciting YSBA Action!';
-                    let body = lines.slice(1).join(' ') || 'Great baseball action in the YSBA!';
+                    // Handle various AI response formats more robustly
+                    let headline = 'Exciting YSBA Action!';
+                    let body = 'Great baseball action in the YSBA!';
                     
-                    // If headline is suspiciously long (over 100 chars), try to split it
-                    if (headline.length > 100) {
-                        // Look for sentence breaks in the headline
-                        const sentences = headline.split(/[.!?]+/);
-                        if (sentences.length > 1) {
-                            headline = sentences[0].trim() + (sentences[0].endsWith('.') ? '' : '!');
-                            body = sentences.slice(1).join('. ').trim() + (body ? ' ' + body : '');
+                    // Remove any "Headline:" or "Story:" prefixes that AI might add
+                    const cleanContent = content
+                        .replace(/^(headline:|story:)/gi, '')
+                        .replace(/headline:\s*/gi, '')
+                        .replace(/story:\s*/gi, '')
+                        .trim();
+                    
+                    const lines = cleanContent.split('\n').filter(line => line.trim());
+                    
+                    if (lines.length >= 2) {
+                        // Standard format: headline on first line, body on subsequent lines
+                        headline = lines[0].trim();
+                        body = lines.slice(1).join(' ').trim();
+                    } else if (lines.length === 1) {
+                        // Single line - try to split on sentence breaks
+                        const fullText = lines[0];
+                        const sentences = fullText.split(/[.!?]+/).filter(s => s.trim());
+                        
+                        if (sentences.length >= 2) {
+                            headline = sentences[0].trim() + '!';
+                            body = sentences.slice(1).join('. ').trim() + '.';
+                        } else {
+                            headline = fullText.length > 100 ? fullText.substring(0, 100) + '...' : fullText;
+                            body = 'Great baseball action in the YSBA!';
                         }
                     }
+                    
+                    // Clean up any residual formatting issues
+                    headline = headline.replace(/^["']|["']$/g, '').replace(/\s+/g, ' ').trim();
+                    body = body.replace(/^["']|["']$/g, '').replace(/\s+/g, ' ').trim();
                     
                     // Allow headlines to be their full length
                     // Headlines will wrap in the UI as needed
                     
-                    // Clean up any markdown formatting and quotes
+                    // Final cleanup of any markdown formatting
                     const cleanHeadline = headline
-                        .replace(/^["']|["']$/g, '') // Remove quotes
                         .replace(/\*\*(.*?)\*\*/g, '$1') // Remove **bold**
                         .replace(/\*(.*?)\*/g, '$1') // Remove *italics*
                         .replace(/#{1,6}\s*/g, '') // Remove # headers
                         .trim();
                     
                     const cleanBody = body
-                        .replace(/^["']|["']$/g, '') // Remove quotes
                         .replace(/\*\*(.*?)\*\*/g, '$1') // Remove **bold**
                         .replace(/\*(.*?)\*/g, '$1') // Remove *italics*
                         .replace(/#{1,6}\s*/g, '') // Remove # headers
@@ -642,61 +676,10 @@ class AIStoryService {
     }
     
     generateFallbackStories(storyOpportunities) {
-        const fallbackStories = [
-            {
-                id: `fallback_${Date.now()}_1`,
-                headline: "YSBA Action Heats Up!",
-                body: "Exciting games across all divisions as teams battle for playoff positioning.",
-                type: "general",
-                division: "All Divisions",
-                priority: 5,
-                generatedAt: new Date().toISOString(),
-                source: "fallback"
-            },
-            {
-                id: `fallback_${Date.now()}_2`,
-                headline: "Championship Dreams Alive",
-                body: "Multiple teams remain in contention as the season reaches its most exciting phase.",
-                type: "general", 
-                division: "All Divisions",
-                priority: 4,
-                generatedAt: new Date().toISOString(),
-                source: "fallback"
-            },
-            {
-                id: `fallback_${Date.now()}_3`,
-                headline: "Thrilling Matchups Continue",
-                body: "Close games and exciting plays highlight another week of competitive YSBA baseball.",
-                type: "general",
-                division: "All Divisions",
-                priority: 4,
-                generatedAt: new Date().toISOString(),
-                source: "fallback"
-            },
-            {
-                id: `fallback_${Date.now()}_4`,
-                headline: "Young Athletes Shine Bright",
-                body: "Outstanding performances and great sportsmanship on display across all YSBA divisions.",
-                type: "general",
-                division: "All Divisions",
-                priority: 3,
-                generatedAt: new Date().toISOString(),
-                source: "fallback"
-            },
-            {
-                id: `fallback_${Date.now()}_5`,
-                headline: "Season Reaching Peak Excitement",
-                body: "Every game matters as teams push toward the playoffs in thrilling YSBA action.",
-                type: "general",
-                division: "All Divisions",
-                priority: 3,
-                generatedAt: new Date().toISOString(),
-                source: "fallback"
-            }
-        ];
+        const fallbackStories = [];
         
-        // Add specific stories based on opportunities (up to 9 more to reach 14 total)
-        storyOpportunities.slice(0, 9).forEach((opp, index) => {
+        // Only create fallback stories based on REAL opportunities
+        storyOpportunities.forEach((opp, index) => {
             let headline, body;
             
             switch(opp.type) {
@@ -720,39 +703,42 @@ class AIStoryService {
                     headline = `${opp.team} On Fire!`;
                     body = `The ${opp.team} are red-hot with their impressive ${opp.record} record.`;
                     break;
+                case 'shutout_artist':
+                    headline = `${opp.team} Dominates with Defense!`;
+                    body = `The ${opp.team} have been shutting down opponents with stellar defensive play.`;
+                    break;
+                case 'scoring_machine':
+                    headline = `${opp.team} Offensive Powerhouse!`;
+                    body = `The ${opp.team} are lighting up the scoreboard with explosive hitting.`;
+                    break;
+                case 'tight_race':
+                    headline = `Thrilling Race in ${opp.division}!`;
+                    body = `${opp.leader} and ${opp.secondPlace} are locked in an exciting battle for the division lead.`;
+                    break;
                 default:
-                    headline = `${opp.team || 'Teams'} Making Headlines!`;
-                    body = `Great baseball action continues in ${opp.division}.`;
+                    // For unknown types, only create if we have real data
+                    if (opp.team && opp.division) {
+                        headline = `${opp.team} Making Headlines!`;
+                        body = `Great baseball action continues with ${opp.team} in ${opp.division}.`;
+                    } else {
+                        return; // Skip this opportunity
+                    }
             }
             
             fallbackStories.push({
-                id: `fallback_${Date.now()}_${index + 6}`,
+                id: `fallback_${Date.now()}_${index}`,
                 headline,
                 body,
                 type: opp.type || 'general',
                 division: opp.division || 'All Divisions',
-                priority: opp.priority || 3,
+                priority: opp.priority || 5,
                 generatedAt: new Date().toISOString(),
                 source: "fallback"
             });
         });
         
-        // Ensure we always have at least 14 stories for the layout
-        while (fallbackStories.length < 14) {
-            const index = fallbackStories.length;
-            fallbackStories.push({
-                id: `fallback_${Date.now()}_${index}`,
-                headline: "YSBA Baseball Action Continues!",
-                body: "Check back soon for more exciting updates from all divisions.",
-                type: "general",
-                division: "All Divisions",
-                priority: 2,
-                generatedAt: new Date().toISOString(),
-                source: "fallback"
-            });
-        }
-        
-        return fallbackStories.slice(0, 14);
+        // NO generic padding - return only what we have based on real opportunities
+        return fallbackStories;
     }
     
     async saveStories(stories) {
