@@ -38,24 +38,6 @@
         }
       },
       {
-        "position": 6,
-        "team": "Georgina Bulldogs 11U B",
-        "teamCode": "510916",
-        "record": {
-          "gamesPlayed": 3,
-          "wins": 2,
-          "losses": 1,
-          "ties": 0,
-          "winPercentage": "0.667"
-        },
-        "stats": {
-          "points": 4,
-          "runsFor": 25,
-          "runsAgainst": 30,
-          "runDifferential": -5
-        }
-      },
-      {
         "position": 4,
         "team": "Midland Penetang Twins 11U A",
         "teamCode": "510891",
@@ -92,7 +74,43 @@
         }
       },
       {
+        "position": 6,
+        "team": "Orangeville Bengals 11U A",
+        "teamCode": "510897",
+        "record": {
+          "gamesPlayed": 4,
+          "wins": 2,
+          "losses": 2,
+          "ties": 0,
+          "winPercentage": "0.500"
+        },
+        "stats": {
+          "points": 4,
+          "runsFor": 43,
+          "runsAgainst": 35,
+          "runDifferential": 8
+        }
+      },
+      {
         "position": 7,
+        "team": "Georgina Bulldogs 11U B",
+        "teamCode": "510916",
+        "record": {
+          "gamesPlayed": 4,
+          "wins": 2,
+          "losses": 2,
+          "ties": 0,
+          "winPercentage": "0.500"
+        },
+        "stats": {
+          "points": 4,
+          "runsFor": 33,
+          "runsAgainst": 40,
+          "runDifferential": -7
+        }
+      },
+      {
+        "position": 8,
         "team": "New Lowell Knights 11U D",
         "teamCode": "510917",
         "record": {
@@ -129,24 +147,6 @@
       },
       {
         "position": 9,
-        "team": "Orangeville Bengals 11U A",
-        "teamCode": "510897",
-        "record": {
-          "gamesPlayed": 3,
-          "wins": 1,
-          "losses": 2,
-          "ties": 0,
-          "winPercentage": "0.333"
-        },
-        "stats": {
-          "points": 2,
-          "runsFor": 33,
-          "runsAgainst": 27,
-          "runDifferential": 6
-        }
-      },
-      {
-        "position": 8,
         "team": "Caledon Nationals 11U A",
         "teamCode": "510893",
         "record": {
@@ -182,7 +182,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-06-12T15:17:27.013Z",
+    "lastUpdated": "2025-06-13T13:48:44.440Z",
     "totalTeams": 10
   },
   "schedule": {
@@ -332,7 +332,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:17:31.298Z"
+        "lastUpdated": "2025-06-13T13:48:48.990Z"
       },
       "510892": {
         "teamCode": "510892",
@@ -483,7 +483,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:17:31.299Z"
+        "lastUpdated": "2025-06-13T13:48:48.990Z"
       },
       "510893": {
         "teamCode": "510893",
@@ -630,7 +630,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:17:31.299Z"
+        "lastUpdated": "2025-06-13T13:48:48.990Z"
       },
       "510894": {
         "teamCode": "510894",
@@ -777,7 +777,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:17:31.299Z"
+        "lastUpdated": "2025-06-13T13:48:48.990Z"
       },
       "510897": {
         "teamCode": "510897",
@@ -842,8 +842,12 @@
             "awayTeam": "Orangeville Bengals 11U A",
             "awayTeamCode": "510897",
             "location": "ROC 2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 10,
+              "scoreText": "10-8"
+            }
           }
         ],
         "nextGames": [
@@ -908,7 +912,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:17:31.299Z"
+        "lastUpdated": "2025-06-13T13:48:48.990Z"
       },
       "510898": {
         "teamCode": "510898",
@@ -1059,7 +1063,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:17:31.299Z"
+        "lastUpdated": "2025-06-13T13:48:48.990Z"
       },
       "510903": {
         "teamCode": "510903",
@@ -1210,7 +1214,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:17:31.299Z"
+        "lastUpdated": "2025-06-13T13:48:48.990Z"
       },
       "510905": {
         "teamCode": "510905",
@@ -1357,30 +1361,14 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:17:31.299Z"
+        "lastUpdated": "2025-06-13T13:48:48.990Z"
       },
       "510906": {
         "teamCode": "510906",
         "totalGames": 15,
-        "playedGames": 5,
-        "upcomingGames": 10,
+        "playedGames": 6,
+        "upcomingGames": 9,
         "recentGames": [
-          {
-            "date": "2025-05-08T18:30:00.000Z",
-            "dateText": "Thu, May 8",
-            "time": "6:30 PM",
-            "homeTeam": "Barrie Baycats 11U AA",
-            "homeTeamCode": "510906",
-            "awayTeam": "Markham Mariners 11U AA",
-            "awayTeamCode": "510908",
-            "location": "Sports Complex #12",
-            "isCompleted": true,
-            "score": {
-              "home": 6,
-              "away": 5,
-              "scoreText": "5-6"
-            }
-          },
           {
             "date": "2025-05-14T18:30:00.000Z",
             "dateText": "Wed, May 14",
@@ -1444,9 +1432,7 @@
               "away": 16,
               "scoreText": "16-3"
             }
-          }
-        ],
-        "nextGames": [
+          },
           {
             "date": "2025-06-12T18:30:00.000Z",
             "dateText": "Thu, Jun 12",
@@ -1458,7 +1444,9 @@
             "location": "Sports Complex #12",
             "isCompleted": false,
             "score": null
-          },
+          }
+        ],
+        "nextGames": [
           {
             "date": "2025-06-17T18:00:00.000Z",
             "dateText": "Tue, Jun 17",
@@ -1506,9 +1494,21 @@
             "location": "Sports Complex #12",
             "isCompleted": false,
             "score": null
+          },
+          {
+            "date": "2025-07-09T19:00:00.000Z",
+            "dateText": "Wed, Jul 9",
+            "time": "7:00 PM",
+            "homeTeam": "Richmond Hill Phoenix 11U AA",
+            "homeTeamCode": "510910",
+            "awayTeam": "Barrie Baycats 11U AA",
+            "awayTeamCode": "510906",
+            "location": "David Hamilton #2",
+            "isCompleted": false,
+            "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:17:31.299Z"
+        "lastUpdated": "2025-06-13T13:48:48.990Z"
       },
       "510907": {
         "teamCode": "510907",
@@ -1639,7 +1639,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:17:31.299Z"
+        "lastUpdated": "2025-06-13T13:48:48.990Z"
       },
       "510908": {
         "teamCode": "510908",
@@ -1790,7 +1790,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:17:31.299Z"
+        "lastUpdated": "2025-06-13T13:48:48.990Z"
       },
       "510909": {
         "teamCode": "510909",
@@ -1941,7 +1941,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:17:31.299Z"
+        "lastUpdated": "2025-06-13T13:48:48.990Z"
       },
       "510910": {
         "teamCode": "510910",
@@ -2084,7 +2084,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:17:31.299Z"
+        "lastUpdated": "2025-06-13T13:48:48.990Z"
       },
       "510911": {
         "teamCode": "510911",
@@ -2235,7 +2235,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:17:31.299Z"
+        "lastUpdated": "2025-06-13T13:48:48.990Z"
       },
       "510912": {
         "teamCode": "510912",
@@ -2382,26 +2382,14 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:17:31.299Z"
+        "lastUpdated": "2025-06-13T13:48:48.990Z"
       },
       "510913": {
         "teamCode": "510913",
         "totalGames": 16,
-        "playedGames": 6,
-        "upcomingGames": 10,
+        "playedGames": 7,
+        "upcomingGames": 9,
         "recentGames": [
-          {
-            "date": "2025-05-24T15:00:00.000Z",
-            "dateText": "Sat, May 24",
-            "time": "3:00 PM",
-            "homeTeam": "Richmond Hill Phoenix 11U AA",
-            "homeTeamCode": "510910",
-            "awayTeam": "Newmarket Hawks 11U AA",
-            "awayTeamCode": "510913",
-            "location": "PPD",
-            "isCompleted": false,
-            "score": null
-          },
           {
             "date": "2025-05-27T18:00:00.000Z",
             "dateText": "Tue, May 27",
@@ -2465,9 +2453,7 @@
               "away": 16,
               "scoreText": "16-3"
             }
-          }
-        ],
-        "nextGames": [
+          },
           {
             "date": "2025-06-12T18:30:00.000Z",
             "dateText": "Thu, Jun 12",
@@ -2479,7 +2465,9 @@
             "location": "Sports Complex #12",
             "isCompleted": false,
             "score": null
-          },
+          }
+        ],
+        "nextGames": [
           {
             "date": "2025-06-24T18:00:00.000Z",
             "dateText": "Tue, Jun 24",
@@ -2527,9 +2515,21 @@
             "location": "Alton Park",
             "isCompleted": false,
             "score": null
+          },
+          {
+            "date": "2025-07-21T18:30:00.000Z",
+            "dateText": "Mon, Jul 21",
+            "time": "6:30 PM",
+            "homeTeam": "Markham Mariners 11U AA",
+            "homeTeamCode": "510908",
+            "awayTeam": "Newmarket Hawks 11U AA",
+            "awayTeamCode": "510913",
+            "location": "Monarch Park",
+            "isCompleted": false,
+            "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:17:31.299Z"
+        "lastUpdated": "2025-06-13T13:48:48.990Z"
       },
       "510916": {
         "teamCode": "510916",
@@ -2606,8 +2606,12 @@
             "awayTeam": "Orangeville Bengals 11U A",
             "awayTeamCode": "510897",
             "location": "ROC 2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 10,
+              "scoreText": "10-8"
+            }
           }
         ],
         "nextGames": [
@@ -2672,7 +2676,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:17:31.299Z"
+        "lastUpdated": "2025-06-13T13:48:48.990Z"
       },
       "510917": {
         "teamCode": "510917",
@@ -2803,7 +2807,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:17:31.299Z"
+        "lastUpdated": "2025-06-13T13:48:48.990Z"
       },
       "516241": {
         "teamCode": "516241",
@@ -2954,7 +2958,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:17:31.299Z"
+        "lastUpdated": "2025-06-13T13:48:48.990Z"
       }
     },
     "allGames": [
@@ -3759,8 +3763,12 @@
         "awayTeam": "Orangeville Bengals 11U A",
         "awayTeamCode": "510897",
         "location": "ROC 2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 10,
+          "scoreText": "10-8"
+        }
       },
       {
         "date": "2025-06-11T18:30:00.000Z",
@@ -5101,6 +5109,18 @@
     ],
     "recentGames": [
       {
+        "date": "2025-06-12T18:30:00.000Z",
+        "dateText": "Thu, Jun 12",
+        "time": "6:30 PM",
+        "homeTeam": "Barrie Baycats 11U AA",
+        "homeTeamCode": "510906",
+        "awayTeam": "Newmarket Hawks 11U AA",
+        "awayTeamCode": "510913",
+        "location": "Sports Complex #12",
+        "isCompleted": false,
+        "score": null
+      },
+      {
         "date": "2025-06-11T19:00:00.000Z",
         "dateText": "Wed, Jun 11",
         "time": "7:00 PM",
@@ -5173,8 +5193,12 @@
         "awayTeam": "Orangeville Bengals 11U A",
         "awayTeamCode": "510897",
         "location": "ROC 2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 10,
+          "scoreText": "10-8"
+        }
       },
       {
         "date": "2025-06-11T18:00:00.000Z",
@@ -5235,37 +5259,9 @@
           "away": 9,
           "scoreText": "9-9"
         }
-      },
-      {
-        "date": "2025-06-10T17:50:00.000Z",
-        "dateText": "Tue, Jun 10",
-        "time": "5:50 PM",
-        "homeTeam": "TNT Thunder 11U AA",
-        "homeTeamCode": "510911",
-        "awayTeam": "Richmond Hill Phoenix 11U AA",
-        "awayTeamCode": "510910",
-        "location": "Coventry #2",
-        "isCompleted": true,
-        "score": {
-          "home": 1,
-          "away": 10,
-          "scoreText": "10-1"
-        }
       }
     ],
     "upcomingGames": [
-      {
-        "date": "2025-06-12T18:30:00.000Z",
-        "dateText": "Thu, Jun 12",
-        "time": "6:30 PM",
-        "homeTeam": "Barrie Baycats 11U AA",
-        "homeTeamCode": "510906",
-        "awayTeam": "Newmarket Hawks 11U AA",
-        "awayTeamCode": "510913",
-        "location": "Sports Complex #12",
-        "isCompleted": false,
-        "score": null
-      },
       {
         "date": "2025-06-13T18:30:00.000Z",
         "dateText": "Fri, Jun 13",
@@ -5373,16 +5369,28 @@
         "location": "ROC 2",
         "isCompleted": false,
         "score": null
+      },
+      {
+        "date": "2025-06-18T18:30:00.000Z",
+        "dateText": "Wed, Jun 18",
+        "time": "6:30 PM",
+        "homeTeam": "Markham Mariners 11U AA",
+        "homeTeamCode": "510908",
+        "awayTeam": "TNT Thunder 11U AA",
+        "awayTeamCode": "510911",
+        "location": "Carlton Park",
+        "isCompleted": false,
+        "score": null
       }
     ],
-    "lastUpdated": "2025-06-12T15:17:31.299Z",
+    "lastUpdated": "2025-06-13T13:48:48.990Z",
     "totalGames": 162
   },
   "summary": {
     "totalTeams": 10,
     "totalGames": 162,
-    "completedGames": 49,
-    "upcomingGames": 113,
+    "completedGames": 50,
+    "upcomingGames": 112,
     "topTeam": {
       "team": "Barrie Baycats 11U A",
       "teamCode": "510892",
@@ -5399,6 +5407,6 @@
       "date": "Tue, May 13",
       "location": "North Hill #3"
     },
-    "lastUpdated": "2025-06-12T15:21:49.431Z"
+    "lastUpdated": "2025-06-13T13:53:22.002Z"
   }
 }

@@ -3,6 +3,24 @@
     "teams": [
       {
         "position": 1,
+        "team": "Vaughan Vikings 11U DS",
+        "teamCode": "518968",
+        "record": {
+          "gamesPlayed": 8,
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "winPercentage": "1.000"
+        },
+        "stats": {
+          "points": 16,
+          "runsFor": 105,
+          "runsAgainst": 15,
+          "runDifferential": 90
+        }
+      },
+      {
+        "position": 2,
         "team": "Barrie Baycats 11U DS",
         "teamCode": "511075",
         "record": {
@@ -17,24 +35,6 @@
           "runsFor": 95,
           "runsAgainst": 38,
           "runDifferential": 57
-        }
-      },
-      {
-        "position": 2,
-        "team": "Vaughan Vikings 11U DS",
-        "teamCode": "518968",
-        "record": {
-          "gamesPlayed": 7,
-          "wins": 7,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": "1.000"
-        },
-        "stats": {
-          "points": 14,
-          "runsFor": 89,
-          "runsAgainst": 14,
-          "runDifferential": 75
         }
       },
       {
@@ -150,17 +150,17 @@
         "team": "Vaughan Vikings 10U DS",
         "teamCode": "518967",
         "record": {
-          "gamesPlayed": 7,
+          "gamesPlayed": 8,
           "wins": 2,
-          "losses": 4,
+          "losses": 5,
           "ties": 1,
-          "winPercentage": "0.357"
+          "winPercentage": "0.313"
         },
         "stats": {
           "points": 5,
-          "runsFor": 46,
-          "runsAgainst": 52,
-          "runDifferential": -6
+          "runsFor": 47,
+          "runsAgainst": 68,
+          "runDifferential": -21
         }
       },
       {
@@ -236,15 +236,15 @@
         }
       }
     ],
-    "lastUpdated": "2025-06-12T15:21:30.777Z",
+    "lastUpdated": "2025-06-13T13:53:02.814Z",
     "totalTeams": 13
   },
   "schedule": {
     "teamSchedules": {
       "511074": {
         "teamCode": "511074",
-        "totalGames": 17,
-        "playedGames": 9,
+        "totalGames": 16,
+        "playedGames": 8,
         "upcomingGames": 8,
         "recentGames": [
           {
@@ -256,8 +256,12 @@
             "awayTeam": "Midland Penetang Twins 11U DS",
             "awayTeamCode": "511074",
             "location": "Nantyr Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 14,
+              "scoreText": "14-4"
+            }
           },
           {
             "date": "2025-05-25T15:00:00.000Z",
@@ -386,7 +390,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:21:35.124Z"
+        "lastUpdated": "2025-06-13T13:53:07.334Z"
       },
       "511075": {
         "teamCode": "511075",
@@ -537,7 +541,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:21:35.124Z"
+        "lastUpdated": "2025-06-13T13:53:07.334Z"
       },
       "511076": {
         "teamCode": "511076",
@@ -684,12 +688,12 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:21:35.124Z"
+        "lastUpdated": "2025-06-13T13:53:07.334Z"
       },
       "511077": {
         "teamCode": "511077",
-        "totalGames": 17,
-        "playedGames": 5,
+        "totalGames": 16,
+        "playedGames": 4,
         "upcomingGames": 12,
         "recentGames": [
           {
@@ -723,18 +727,6 @@
               "away": 14,
               "scoreText": "14-4"
             }
-          },
-          {
-            "date": "2025-05-17T12:15:00.000Z",
-            "dateText": "Sat, May 17",
-            "time": "12:15 PM",
-            "homeTeam": "Innisfil Cardinals 11U DS",
-            "homeTeamCode": "511077",
-            "awayTeam": "Midland Penetang Twins 11U DS",
-            "awayTeamCode": "511074",
-            "location": "Nantyr Park",
-            "isCompleted": false,
-            "score": null
           },
           {
             "date": "2025-06-07T10:00:00.000Z",
@@ -831,7 +823,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:21:35.124Z"
+        "lastUpdated": "2025-06-13T13:53:07.334Z"
       },
       "511078": {
         "teamCode": "511078",
@@ -978,7 +970,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:21:35.124Z"
+        "lastUpdated": "2025-06-13T13:53:07.334Z"
       },
       "511079": {
         "teamCode": "511079",
@@ -1129,7 +1121,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:21:35.124Z"
+        "lastUpdated": "2025-06-13T13:53:07.334Z"
       },
       "511080": {
         "teamCode": "511080",
@@ -1276,7 +1268,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:21:35.124Z"
+        "lastUpdated": "2025-06-13T13:53:07.334Z"
       },
       "511081": {
         "teamCode": "511081",
@@ -1427,7 +1419,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:21:35.124Z"
+        "lastUpdated": "2025-06-13T13:53:07.334Z"
       },
       "511082": {
         "teamCode": "511082",
@@ -1570,7 +1562,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:21:35.124Z"
+        "lastUpdated": "2025-06-13T13:53:07.334Z"
       },
       "511083": {
         "teamCode": "511083",
@@ -1721,7 +1713,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:21:35.124Z"
+        "lastUpdated": "2025-06-13T13:53:07.334Z"
       },
       "518967": {
         "teamCode": "518967",
@@ -1868,7 +1860,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:21:35.124Z"
+        "lastUpdated": "2025-06-13T13:53:07.334Z"
       },
       "518968": {
         "teamCode": "518968",
@@ -1885,8 +1877,12 @@
             "awayTeam": "Vaughan Vikings 10U DS",
             "awayTeamCode": "518967",
             "location": "Chatfield District Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 16,
+              "away": 1,
+              "scoreText": "1-16"
+            }
           },
           {
             "date": "2025-05-25T10:00:00.000Z",
@@ -2015,7 +2011,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:21:35.124Z"
+        "lastUpdated": "2025-06-13T13:53:07.334Z"
       },
       "518974": {
         "teamCode": "518974",
@@ -2162,7 +2158,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:21:35.124Z"
+        "lastUpdated": "2025-06-13T13:53:07.334Z"
       }
     },
     "allGames": [
@@ -2298,22 +2294,6 @@
         "date": "2025-05-17T10:00:00.000Z",
         "dateText": "Sat, May 17",
         "time": "10:00 AM",
-        "homeTeam": "Barrie Baycats 11U DS",
-        "homeTeamCode": "511075",
-        "awayTeam": "Mansfield Cubs 11U DS",
-        "awayTeamCode": "511078",
-        "location": "Lampman Lane",
-        "isCompleted": true,
-        "score": {
-          "home": 15,
-          "away": 8,
-          "scoreText": "8-15"
-        }
-      },
-      {
-        "date": "2025-05-17T10:00:00.000Z",
-        "dateText": "Sat, May 17",
-        "time": "10:00 AM",
         "homeTeam": "Innisfil Cardinals 11U DS",
         "homeTeamCode": "511077",
         "awayTeam": "Midland Penetang Twins 11U DS",
@@ -2343,6 +2323,22 @@
         }
       },
       {
+        "date": "2025-05-17T10:00:00.000Z",
+        "dateText": "Sat, May 17",
+        "time": "10:00 AM",
+        "homeTeam": "Barrie Baycats 11U DS",
+        "homeTeamCode": "511075",
+        "awayTeam": "Mansfield Cubs 11U DS",
+        "awayTeamCode": "511078",
+        "location": "Lampman Lane",
+        "isCompleted": true,
+        "score": {
+          "home": 15,
+          "away": 8,
+          "scoreText": "8-15"
+        }
+      },
+      {
         "date": "2025-05-17T11:00:00.000Z",
         "dateText": "Sat, May 17",
         "time": "11:00 AM",
@@ -2356,6 +2352,22 @@
           "home": 7,
           "away": 2,
           "scoreText": "2-7"
+        }
+      },
+      {
+        "date": "2025-05-17T12:15:00.000Z",
+        "dateText": "Sat, May 17",
+        "time": "12:15 PM",
+        "homeTeam": "Innisfil Cardinals 11U DS",
+        "homeTeamCode": "511077",
+        "awayTeam": "Midland Penetang Twins 11U DS",
+        "awayTeamCode": "511074",
+        "location": "Nantyr Park",
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 14,
+          "scoreText": "14-4"
         }
       },
       {
@@ -2387,34 +2399,6 @@
         }
       },
       {
-        "date": "2025-05-17T12:15:00.000Z",
-        "dateText": "Sat, May 17",
-        "time": "12:15 PM",
-        "homeTeam": "Innisfil Cardinals 11U DS",
-        "homeTeamCode": "511077",
-        "awayTeam": "Midland Penetang Twins 11U DS",
-        "awayTeamCode": "511074",
-        "location": "Nantyr Park",
-        "isCompleted": true,
-        "score": {
-          "home": 4,
-          "away": 14,
-          "scoreText": "14-4"
-        }
-      },
-      {
-        "date": "2025-05-17T12:15:00.000Z",
-        "dateText": "Sat, May 17",
-        "time": "12:15 PM",
-        "homeTeam": "Innisfil Cardinals 11U DS",
-        "homeTeamCode": "511077",
-        "awayTeam": "Midland Penetang Twins 11U DS",
-        "awayTeamCode": "511074",
-        "location": "Nantyr Park",
-        "isCompleted": false,
-        "score": null
-      },
-      {
         "date": "2025-05-17T13:15:00.000Z",
         "dateText": "Sat, May 17",
         "time": "1:15 PM",
@@ -2423,8 +2407,12 @@
         "awayTeam": "Vaughan Vikings 10U DS",
         "awayTeamCode": "518967",
         "location": "Chatfield District Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 16,
+          "away": 1,
+          "scoreText": "1-16"
+        }
       },
       {
         "date": "2025-05-18T10:00:00.000Z",
@@ -2490,6 +2478,18 @@
         "date": "2025-05-24T12:15:00.000Z",
         "dateText": "Sat, May 24",
         "time": "12:15 PM",
+        "homeTeam": "TNT Thunder 11U DS",
+        "homeTeamCode": "518974",
+        "awayTeam": "Vaughan Vikings 10U DS",
+        "awayTeamCode": "518967",
+        "location": "Tottenham Community Centre",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2025-05-24T12:15:00.000Z",
+        "dateText": "Sat, May 24",
+        "time": "12:15 PM",
         "homeTeam": "Mansfield Cubs 11U DS",
         "homeTeamCode": "511078",
         "awayTeam": "Bradford Tigers 11U DS",
@@ -2513,18 +2513,6 @@
           "away": 5,
           "scoreText": "5-14"
         }
-      },
-      {
-        "date": "2025-05-24T12:15:00.000Z",
-        "dateText": "Sat, May 24",
-        "time": "12:15 PM",
-        "homeTeam": "TNT Thunder 11U DS",
-        "homeTeamCode": "518974",
-        "awayTeam": "Vaughan Vikings 10U DS",
-        "awayTeamCode": "518967",
-        "location": "Tottenham Community Centre",
-        "isCompleted": false,
-        "score": null
       },
       {
         "date": "2025-05-24T14:15:00.000Z",
@@ -3010,11 +2998,11 @@
         "date": "2025-06-21T12:15:00.000Z",
         "dateText": "Sat, Jun 21",
         "time": "12:15 PM",
-        "homeTeam": "Innisfil Cardinals 11U DS",
-        "homeTeamCode": "511077",
-        "awayTeam": "Vaughan Vikings 10U DS",
-        "awayTeamCode": "518967",
-        "location": "Nantyr Park",
+        "homeTeam": "Bradford Tigers 11U DS",
+        "homeTeamCode": "511076",
+        "awayTeam": "Vaughan Vikings 11U DS",
+        "awayTeamCode": "518968",
+        "location": "Joe Magani Park Field #3",
         "isCompleted": false,
         "score": null
       },
@@ -3022,11 +3010,11 @@
         "date": "2025-06-21T12:15:00.000Z",
         "dateText": "Sat, Jun 21",
         "time": "12:15 PM",
-        "homeTeam": "Bradford Tigers 11U DS",
-        "homeTeamCode": "511076",
-        "awayTeam": "Vaughan Vikings 11U DS",
-        "awayTeamCode": "518968",
-        "location": "Joe Magani Park Field #3",
+        "homeTeam": "Innisfil Cardinals 11U DS",
+        "homeTeamCode": "511077",
+        "awayTeam": "Vaughan Vikings 10U DS",
+        "awayTeamCode": "518967",
+        "location": "Nantyr Park",
         "isCompleted": false,
         "score": null
       },
@@ -3082,11 +3070,11 @@
         "date": "2025-06-28T10:00:00.000Z",
         "dateText": "Sat, Jun 28",
         "time": "10:00 AM",
-        "homeTeam": "TNT Thunder 11U DS",
-        "homeTeamCode": "518974",
-        "awayTeam": "Vaughan Vikings 10U DS",
-        "awayTeamCode": "518967",
-        "location": "Tottenham Community Centre",
+        "homeTeam": "Barrie Baycats 11U DS",
+        "homeTeamCode": "511075",
+        "awayTeam": "Midland Penetang Twins 11U DS",
+        "awayTeamCode": "511074",
+        "location": "Lampman Lane",
         "isCompleted": false,
         "score": null
       },
@@ -3094,11 +3082,11 @@
         "date": "2025-06-28T10:00:00.000Z",
         "dateText": "Sat, Jun 28",
         "time": "10:00 AM",
-        "homeTeam": "Barrie Baycats 11U DS",
-        "homeTeamCode": "511075",
-        "awayTeam": "Midland Penetang Twins 11U DS",
-        "awayTeamCode": "511074",
-        "location": "Lampman Lane",
+        "homeTeam": "TNT Thunder 11U DS",
+        "homeTeamCode": "518974",
+        "awayTeam": "Vaughan Vikings 10U DS",
+        "awayTeamCode": "518967",
+        "location": "Tottenham Community Centre",
         "isCompleted": false,
         "score": null
       },
@@ -3166,35 +3154,35 @@
         "date": "2025-06-29T12:15:00.000Z",
         "dateText": "Sun, Jun 29",
         "time": "12:15 PM",
-        "homeTeam": "Mansfield Cubs 11U DS",
-        "homeTeamCode": "511078",
-        "awayTeam": "TNT Thunder 11U DS",
-        "awayTeamCode": "518974",
-        "location": "Mansfield Park",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": "2025-06-29T12:15:00.000Z",
-        "dateText": "Sun, Jun 29",
-        "time": "12:15 PM",
-        "homeTeam": "Mansfield Cubs 11U DS",
-        "homeTeamCode": "511078",
-        "awayTeam": "TNT Thunder 11U DS",
-        "awayTeamCode": "518974",
-        "location": "Mansfield Park",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": "2025-06-29T12:15:00.000Z",
-        "dateText": "Sun, Jun 29",
-        "time": "12:15 PM",
         "homeTeam": "Richmond Hill Phoenix 11U DS",
         "homeTeamCode": "511081",
         "awayTeam": "Thornhill Reds 11U DS - Team 1",
         "awayTeamCode": "511082",
         "location": "David Hamilton Park Field #2",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2025-06-29T12:15:00.000Z",
+        "dateText": "Sun, Jun 29",
+        "time": "12:15 PM",
+        "homeTeam": "Mansfield Cubs 11U DS",
+        "homeTeamCode": "511078",
+        "awayTeam": "TNT Thunder 11U DS",
+        "awayTeamCode": "518974",
+        "location": "Mansfield Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2025-06-29T12:15:00.000Z",
+        "dateText": "Sun, Jun 29",
+        "time": "12:15 PM",
+        "homeTeam": "Mansfield Cubs 11U DS",
+        "homeTeamCode": "511078",
+        "awayTeam": "TNT Thunder 11U DS",
+        "awayTeamCode": "518974",
+        "location": "Mansfield Park",
         "isCompleted": false,
         "score": null
       },
@@ -3858,11 +3846,11 @@
         "date": "2025-06-21T12:15:00.000Z",
         "dateText": "Sat, Jun 21",
         "time": "12:15 PM",
-        "homeTeam": "Innisfil Cardinals 11U DS",
-        "homeTeamCode": "511077",
-        "awayTeam": "Vaughan Vikings 10U DS",
-        "awayTeamCode": "518967",
-        "location": "Nantyr Park",
+        "homeTeam": "Bradford Tigers 11U DS",
+        "homeTeamCode": "511076",
+        "awayTeam": "Vaughan Vikings 11U DS",
+        "awayTeamCode": "518968",
+        "location": "Joe Magani Park Field #3",
         "isCompleted": false,
         "score": null
       },
@@ -3870,11 +3858,11 @@
         "date": "2025-06-21T12:15:00.000Z",
         "dateText": "Sat, Jun 21",
         "time": "12:15 PM",
-        "homeTeam": "Bradford Tigers 11U DS",
-        "homeTeamCode": "511076",
-        "awayTeam": "Vaughan Vikings 11U DS",
-        "awayTeamCode": "518968",
-        "location": "Joe Magani Park Field #3",
+        "homeTeam": "Innisfil Cardinals 11U DS",
+        "homeTeamCode": "511077",
+        "awayTeam": "Vaughan Vikings 10U DS",
+        "awayTeamCode": "518967",
+        "location": "Nantyr Park",
         "isCompleted": false,
         "score": null
       },
@@ -3891,17 +3879,17 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-12T15:21:35.124Z",
-    "totalGames": 106
+    "lastUpdated": "2025-06-13T13:53:07.334Z",
+    "totalGames": 105
   },
   "summary": {
     "totalTeams": 13,
-    "totalGames": 106,
-    "completedGames": 42,
-    "upcomingGames": 64,
+    "totalGames": 105,
+    "completedGames": 43,
+    "upcomingGames": 62,
     "topTeam": {
-      "team": "Barrie Baycats 11U DS",
-      "teamCode": "511075",
+      "team": "Vaughan Vikings 11U DS",
+      "teamCode": "518968",
       "wins": 8,
       "losses": 0,
       "winPercentage": "1.000"
@@ -3915,6 +3903,6 @@
       "date": "Sat, May 24",
       "location": "Mansfield Park"
     },
-    "lastUpdated": "2025-06-12T15:21:49.431Z"
+    "lastUpdated": "2025-06-13T13:53:22.002Z"
   }
 }

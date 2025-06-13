@@ -6,17 +6,17 @@
         "team": "Barrie Baycats 15U DS",
         "teamCode": "511524",
         "record": {
-          "gamesPlayed": 2,
-          "wins": 2,
+          "gamesPlayed": 4,
+          "wins": 4,
           "losses": 0,
           "ties": 0,
           "winPercentage": "1.000"
         },
         "stats": {
-          "points": 4,
-          "runsFor": 25,
-          "runsAgainst": 9,
-          "runDifferential": 16
+          "points": 8,
+          "runsFor": 43,
+          "runsAgainst": 16,
+          "runDifferential": 27
         }
       },
       {
@@ -75,6 +75,24 @@
       },
       {
         "position": 5,
+        "team": "TNT Thunder 15U DS",
+        "teamCode": "511104",
+        "record": {
+          "gamesPlayed": 2,
+          "wins": 0,
+          "losses": 2,
+          "ties": 0,
+          "winPercentage": "0.000"
+        },
+        "stats": {
+          "points": 0,
+          "runsFor": 7,
+          "runsAgainst": 18,
+          "runDifferential": -11
+        }
+      },
+      {
+        "position": 6,
         "team": "Orillia Royals 15U DS",
         "teamCode": "511102",
         "record": {
@@ -92,7 +110,7 @@
         }
       },
       {
-        "position": 6,
+        "position": 7,
         "team": "Sudbury",
         "teamCode": "500609",
         "record": {
@@ -108,27 +126,9 @@
           "runsAgainst": 0,
           "runDifferential": 0
         }
-      },
-      {
-        "position": 7,
-        "team": "TNT Thunder 15U DS",
-        "teamCode": "511104",
-        "record": {
-          "gamesPlayed": 0,
-          "wins": 0,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": ".000"
-        },
-        "stats": {
-          "points": 0,
-          "runsFor": 0,
-          "runsAgainst": 0,
-          "runDifferential": 0
-        }
       }
     ],
-    "lastUpdated": "2025-06-12T15:21:46.680Z",
+    "lastUpdated": "2025-06-13T13:53:19.084Z",
     "totalTeams": 7
   },
   "schedule": {
@@ -250,7 +250,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:21:49.424Z"
+        "lastUpdated": "2025-06-13T13:53:21.995Z"
       },
       "511100": {
         "teamCode": "511100",
@@ -389,7 +389,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:21:49.424Z"
+        "lastUpdated": "2025-06-13T13:53:21.995Z"
       },
       "511101": {
         "teamCode": "511101",
@@ -532,7 +532,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:21:49.424Z"
+        "lastUpdated": "2025-06-13T13:53:21.995Z"
       },
       "511102": {
         "teamCode": "511102",
@@ -639,7 +639,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:21:49.424Z"
+        "lastUpdated": "2025-06-13T13:53:21.995Z"
       },
       "511103": {
         "teamCode": "511103",
@@ -758,7 +758,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:21:49.424Z"
+        "lastUpdated": "2025-06-13T13:53:21.995Z"
       },
       "511104": {
         "teamCode": "511104",
@@ -787,8 +787,12 @@
             "awayTeam": "Barrie Baycats 15U DS",
             "awayTeamCode": "511524",
             "location": "Beeton South",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 9,
+              "scoreText": "9-4"
+            }
           },
           {
             "date": "2025-05-31T15:00:00.000Z",
@@ -799,8 +803,12 @@
             "awayTeam": "Barrie Baycats 15U DS",
             "awayTeamCode": "511524",
             "location": "Beeton South",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 3,
+              "away": 9,
+              "scoreText": "9-3"
+            }
           },
           {
             "date": "2025-06-07T12:30:00.000Z",
@@ -889,7 +897,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:21:49.424Z"
+        "lastUpdated": "2025-06-13T13:53:21.995Z"
       },
       "511524": {
         "teamCode": "511524",
@@ -906,8 +914,12 @@
             "awayTeam": "Barrie Baycats 15U DS",
             "awayTeamCode": "511524",
             "location": "Beeton South",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 9,
+              "scoreText": "9-4"
+            }
           },
           {
             "date": "2025-05-31T15:00:00.000Z",
@@ -918,8 +930,12 @@
             "awayTeam": "Barrie Baycats 15U DS",
             "awayTeamCode": "511524",
             "location": "Beeton South",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 3,
+              "away": 9,
+              "scoreText": "9-3"
+            }
           },
           {
             "date": "2025-06-03T19:00:00.000Z",
@@ -1028,7 +1044,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:21:49.424Z"
+        "lastUpdated": "2025-06-13T13:53:21.995Z"
       }
     },
     "allGames": [
@@ -1129,8 +1145,12 @@
         "awayTeam": "Barrie Baycats 15U DS",
         "awayTeamCode": "511524",
         "location": "Beeton South",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 9,
+          "scoreText": "9-4"
+        }
       },
       {
         "date": "2025-05-31T15:00:00.000Z",
@@ -1141,8 +1161,12 @@
         "awayTeam": "Barrie Baycats 15U DS",
         "awayTeamCode": "511524",
         "location": "Beeton South",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 3,
+          "away": 9,
+          "scoreText": "9-3"
+        }
       },
       {
         "date": "2025-06-01T10:00:00.000Z",
@@ -1665,18 +1689,6 @@
         "score": null
       },
       {
-        "date": "2025-07-26T10:00:00.000Z",
-        "dateText": "Sat, Jul 26",
-        "time": "10:00 AM",
-        "homeTeam": "Collingwood Jays 15U DS",
-        "homeTeamCode": "511100",
-        "awayTeam": "TNT Thunder 15U DS",
-        "awayTeamCode": "511104",
-        "location": "Legion Park",
-        "isCompleted": false,
-        "score": null
-      },
-      {
         "date": "2025-07-26T12:00:00.000Z",
         "dateText": "Sat, Jul 26",
         "time": "12:00 PM",
@@ -1689,8 +1701,20 @@
         "score": null
       },
       {
-        "date": "2025-07-26T12:30:00.000Z",
-        "dateText": "Sat, Jul 26",
+        "date": "2025-07-27T10:00:00.000Z",
+        "dateText": "Sun, Jul 27",
+        "time": "10:00 AM",
+        "homeTeam": "Collingwood Jays 15U DS",
+        "homeTeamCode": "511100",
+        "awayTeam": "TNT Thunder 15U DS",
+        "awayTeamCode": "511104",
+        "location": "Legion Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2025-07-27T12:30:00.000Z",
+        "dateText": "Sun, Jul 27",
         "time": "12:30 PM",
         "homeTeam": "Collingwood Jays 15U DS",
         "homeTeamCode": "511100",
@@ -1871,8 +1895,12 @@
         "awayTeam": "Barrie Baycats 15U DS",
         "awayTeamCode": "511524",
         "location": "Beeton South",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 3,
+          "away": 9,
+          "scoreText": "9-3"
+        }
       }
     ],
     "upcomingGames": [
@@ -1997,18 +2025,18 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-12T15:21:49.424Z",
+    "lastUpdated": "2025-06-13T13:53:21.995Z",
     "totalGames": 57
   },
   "summary": {
     "totalTeams": 7,
     "totalGames": 57,
-    "completedGames": 5,
-    "upcomingGames": 52,
+    "completedGames": 7,
+    "upcomingGames": 50,
     "topTeam": {
       "team": "Barrie Baycats 15U DS",
       "teamCode": "511524",
-      "wins": 2,
+      "wins": 4,
       "losses": 0,
       "winPercentage": "1.000"
     },
@@ -2021,6 +2049,6 @@
       "date": "Sat, Jun 7",
       "location": "Bethesda 2"
     },
-    "lastUpdated": "2025-06-12T15:21:49.431Z"
+    "lastUpdated": "2025-06-13T13:53:22.002Z"
   }
 }

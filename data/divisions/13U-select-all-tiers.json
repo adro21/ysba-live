@@ -2,7 +2,7 @@
   "standings": {
     "teams": [
       {
-        "position": 2,
+        "position": 3,
         "team": "Barrie Baycats 13U DS",
         "teamCode": "511085",
         "record": {
@@ -56,21 +56,21 @@
         }
       },
       {
-        "position": 3,
+        "position": 2,
         "team": "Newmarket Hawks 13U DS",
         "teamCode": "511093",
         "record": {
-          "gamesPlayed": 5,
-          "wins": 4,
+          "gamesPlayed": 7,
+          "wins": 6,
           "losses": 1,
           "ties": 0,
-          "winPercentage": "0.800"
+          "winPercentage": "0.857"
         },
         "stats": {
-          "points": 8,
-          "runsFor": 47,
-          "runsAgainst": 38,
-          "runDifferential": 9
+          "points": 12,
+          "runsFor": 80,
+          "runsAgainst": 61,
+          "runDifferential": 19
         }
       },
       {
@@ -128,24 +128,6 @@
         }
       },
       {
-        "position": 7,
-        "team": "Thornhill Reds 13U DS",
-        "teamCode": "511096",
-        "record": {
-          "gamesPlayed": 6,
-          "wins": 3,
-          "losses": 3,
-          "ties": 0,
-          "winPercentage": "0.500"
-        },
-        "stats": {
-          "points": 6,
-          "runsFor": 47,
-          "runsAgainst": 49,
-          "runDifferential": -2
-        }
-      },
-      {
         "position": 8,
         "team": "Aurora-King Jays 13U DS",
         "teamCode": "511084",
@@ -182,7 +164,7 @@
         }
       },
       {
-        "position": 6,
+        "position": 7,
         "team": "Richmond Hill Phoenix 13U DS",
         "teamCode": "511095",
         "record": {
@@ -201,6 +183,24 @@
       },
       {
         "position": 5,
+        "team": "Thornhill Reds 13U DS",
+        "teamCode": "511096",
+        "record": {
+          "gamesPlayed": 8,
+          "wins": 3,
+          "losses": 5,
+          "ties": 0,
+          "winPercentage": "0.375"
+        },
+        "stats": {
+          "points": 6,
+          "runsFor": 70,
+          "runsAgainst": 82,
+          "runDifferential": -12
+        }
+      },
+      {
+        "position": 6,
         "team": "Markham Mariners 13U DS -Team 2",
         "teamCode": "511091",
         "record": {
@@ -290,7 +290,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-06-12T15:21:38.691Z",
+    "lastUpdated": "2025-06-13T13:53:10.910Z",
     "totalTeams": 16
   },
   "schedule": {
@@ -444,7 +444,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:21:43.060Z"
+        "lastUpdated": "2025-06-13T13:53:15.456Z"
       },
       "511085": {
         "teamCode": "511085",
@@ -595,7 +595,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:21:43.060Z"
+        "lastUpdated": "2025-06-13T13:53:15.456Z"
       },
       "511086": {
         "teamCode": "511086",
@@ -730,7 +730,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:21:43.060Z"
+        "lastUpdated": "2025-06-13T13:53:15.456Z"
       },
       "511087": {
         "teamCode": "511087",
@@ -877,7 +877,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:21:43.060Z"
+        "lastUpdated": "2025-06-13T13:53:15.456Z"
       },
       "511088": {
         "teamCode": "511088",
@@ -1016,7 +1016,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:21:43.060Z"
+        "lastUpdated": "2025-06-13T13:53:15.456Z"
       },
       "511089": {
         "teamCode": "511089",
@@ -1159,7 +1159,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:21:43.060Z"
+        "lastUpdated": "2025-06-13T13:53:15.456Z"
       },
       "511090": {
         "teamCode": "511090",
@@ -1306,7 +1306,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:21:43.060Z"
+        "lastUpdated": "2025-06-13T13:53:15.456Z"
       },
       "511091": {
         "teamCode": "511091",
@@ -1457,7 +1457,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:21:43.060Z"
+        "lastUpdated": "2025-06-13T13:53:15.456Z"
       },
       "511092": {
         "teamCode": "511092",
@@ -1608,30 +1608,14 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:21:43.060Z"
+        "lastUpdated": "2025-06-13T13:53:15.456Z"
       },
       "511093": {
         "teamCode": "511093",
         "totalGames": 16,
-        "playedGames": 6,
-        "upcomingGames": 10,
+        "playedGames": 7,
+        "upcomingGames": 9,
         "recentGames": [
-          {
-            "date": "2025-05-18T12:30:00.000Z",
-            "dateText": "Sun, May 18",
-            "time": "12:30 PM",
-            "homeTeam": "Markham Mariners 13U DS -Team 2",
-            "homeTeamCode": "511091",
-            "awayTeam": "Newmarket Hawks 13U DS",
-            "awayTeamCode": "511093",
-            "location": "Milliken Mills Park #2",
-            "isCompleted": true,
-            "score": {
-              "home": 7,
-              "away": 4,
-              "scoreText": "4-7"
-            }
-          },
           {
             "date": "2025-05-27T18:30:00.000Z",
             "dateText": "Tue, May 27",
@@ -1689,11 +1673,13 @@
             "awayTeam": "Newmarket Hawks 13U DS",
             "awayTeamCode": "511093",
             "location": "Concord Regional Park 3",
-            "isCompleted": false,
-            "score": null
-          }
-        ],
-        "nextGames": [
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 15,
+              "scoreText": "15-6"
+            }
+          },
           {
             "date": "2025-06-12T18:00:00.000Z",
             "dateText": "Thu, Jun 12",
@@ -1703,9 +1689,15 @@
             "awayTeam": "Newmarket Hawks 13U DS",
             "awayTeamCode": "511093",
             "location": "Newmarket Fairgrounds Park #1",
-            "isCompleted": false,
-            "score": null
-          },
+            "isCompleted": true,
+            "score": {
+              "home": 17,
+              "away": 18,
+              "scoreText": "18-17"
+            }
+          }
+        ],
+        "nextGames": [
           {
             "date": "2025-06-14T12:30:00.000Z",
             "dateText": "Sat, Jun 14",
@@ -1753,9 +1745,21 @@
             "location": "Armstrong Family Park #1",
             "isCompleted": false,
             "score": null
+          },
+          {
+            "date": "2025-07-05T12:00:00.000Z",
+            "dateText": "Sat, Jul 5",
+            "time": "12:00 PM",
+            "homeTeam": "Markham Mariners 13U DS -Team 1",
+            "homeTeamCode": "511090",
+            "awayTeam": "Newmarket Hawks 13U DS",
+            "awayTeamCode": "511093",
+            "location": "Berczy Park (South)",
+            "isCompleted": false,
+            "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:21:43.060Z"
+        "lastUpdated": "2025-06-13T13:53:15.456Z"
       },
       "511094": {
         "teamCode": "511094",
@@ -1906,7 +1910,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:21:43.060Z"
+        "lastUpdated": "2025-06-13T13:53:15.456Z"
       },
       "511095": {
         "teamCode": "511095",
@@ -2057,30 +2061,14 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:21:43.060Z"
+        "lastUpdated": "2025-06-13T13:53:15.456Z"
       },
       "511096": {
         "teamCode": "511096",
         "totalGames": 16,
-        "playedGames": 7,
-        "upcomingGames": 9,
+        "playedGames": 8,
+        "upcomingGames": 8,
         "recentGames": [
-          {
-            "date": "2025-05-17T10:00:00.000Z",
-            "dateText": "Sat, May 17",
-            "time": "10:00 AM",
-            "homeTeam": "Richmond Hill Phoenix 13U DS",
-            "homeTeamCode": "511095",
-            "awayTeam": "Thornhill Reds 13U DS",
-            "awayTeamCode": "511096",
-            "location": "David Hamilton Park #2",
-            "isCompleted": true,
-            "score": {
-              "home": 11,
-              "away": 4,
-              "scoreText": "4-11"
-            }
-          },
           {
             "date": "2025-05-20T19:00:00.000Z",
             "dateText": "Tue, May 20",
@@ -2138,11 +2126,13 @@
             "awayTeam": "Newmarket Hawks 13U DS",
             "awayTeamCode": "511093",
             "location": "Concord Regional Park 3",
-            "isCompleted": false,
-            "score": null
-          }
-        ],
-        "nextGames": [
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 15,
+              "scoreText": "15-6"
+            }
+          },
           {
             "date": "2025-06-12T18:00:00.000Z",
             "dateText": "Thu, Jun 12",
@@ -2152,9 +2142,15 @@
             "awayTeam": "Newmarket Hawks 13U DS",
             "awayTeamCode": "511093",
             "location": "Newmarket Fairgrounds Park #1",
-            "isCompleted": false,
-            "score": null
-          },
+            "isCompleted": true,
+            "score": {
+              "home": 17,
+              "away": 18,
+              "scoreText": "18-17"
+            }
+          }
+        ],
+        "nextGames": [
           {
             "date": "2025-06-24T18:00:00.000Z",
             "dateText": "Tue, Jun 24",
@@ -2202,9 +2198,21 @@
             "location": "Concord Regional Park 3",
             "isCompleted": false,
             "score": null
+          },
+          {
+            "date": "2025-07-20T10:00:00.000Z",
+            "dateText": "Sun, Jul 20",
+            "time": "10:00 AM",
+            "homeTeam": "Caledon Nationals 13U HS",
+            "homeTeamCode": "511098",
+            "awayTeam": "Thornhill Reds 13U DS",
+            "awayTeamCode": "511096",
+            "location": "Jays Care (Bolton Camp)",
+            "isCompleted": false,
+            "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:21:43.060Z"
+        "lastUpdated": "2025-06-13T13:53:15.456Z"
       },
       "511097": {
         "teamCode": "511097",
@@ -2339,7 +2347,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:21:43.060Z"
+        "lastUpdated": "2025-06-13T13:53:15.456Z"
       },
       "511098": {
         "teamCode": "511098",
@@ -2490,7 +2498,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:21:43.060Z"
+        "lastUpdated": "2025-06-13T13:53:15.456Z"
       },
       "518969": {
         "teamCode": "518969",
@@ -2637,7 +2645,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:21:43.060Z"
+        "lastUpdated": "2025-06-13T13:53:15.456Z"
       }
     },
     "allGames": [
@@ -3398,8 +3406,12 @@
         "awayTeam": "Newmarket Hawks 13U DS",
         "awayTeamCode": "511093",
         "location": "Concord Regional Park 3",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 15,
+          "scoreText": "15-6"
+        }
       },
       {
         "date": "2025-06-12T18:00:00.000Z",
@@ -3410,8 +3422,12 @@
         "awayTeam": "Newmarket Hawks 13U DS",
         "awayTeamCode": "511093",
         "location": "Newmarket Fairgrounds Park #1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 17,
+          "away": 18,
+          "scoreText": "18-17"
+        }
       },
       {
         "date": "2025-06-14T10:00:00.000Z",
@@ -4352,6 +4368,22 @@
     ],
     "recentGames": [
       {
+        "date": "2025-06-12T18:00:00.000Z",
+        "dateText": "Thu, Jun 12",
+        "time": "6:00 PM",
+        "homeTeam": "Thornhill Reds 13U DS",
+        "homeTeamCode": "511096",
+        "awayTeam": "Newmarket Hawks 13U DS",
+        "awayTeamCode": "511093",
+        "location": "Newmarket Fairgrounds Park #1",
+        "isCompleted": true,
+        "score": {
+          "home": 17,
+          "away": 18,
+          "scoreText": "18-17"
+        }
+      },
+      {
         "date": "2025-06-10T18:00:00.000Z",
         "dateText": "Tue, Jun 10",
         "time": "6:00 PM",
@@ -4360,8 +4392,12 @@
         "awayTeam": "Newmarket Hawks 13U DS",
         "awayTeamCode": "511093",
         "location": "Concord Regional Park 3",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 15,
+          "scoreText": "15-6"
+        }
       },
       {
         "date": "2025-06-08T12:30:00.000Z",
@@ -4490,37 +4526,9 @@
           "away": 5,
           "scoreText": "5-6"
         }
-      },
-      {
-        "date": "2025-06-05T18:00:00.000Z",
-        "dateText": "Thu, Jun 5",
-        "time": "6:00 PM",
-        "homeTeam": "New Lowell Knights 13U DS",
-        "homeTeamCode": "511092",
-        "awayTeam": "TNT Thunder 13U DS",
-        "awayTeamCode": "511097",
-        "location": "New Lowell Recreation Park #3",
-        "isCompleted": true,
-        "score": {
-          "home": 1,
-          "away": 12,
-          "scoreText": "12-1"
-        }
       }
     ],
     "upcomingGames": [
-      {
-        "date": "2025-06-12T18:00:00.000Z",
-        "dateText": "Thu, Jun 12",
-        "time": "6:00 PM",
-        "homeTeam": "Thornhill Reds 13U DS",
-        "homeTeamCode": "511096",
-        "awayTeam": "Newmarket Hawks 13U DS",
-        "awayTeamCode": "511093",
-        "location": "Newmarket Fairgrounds Park #1",
-        "isCompleted": false,
-        "score": null
-      },
       {
         "date": "2025-06-14T10:00:00.000Z",
         "dateText": "Sat, Jun 14",
@@ -4628,16 +4636,28 @@
         "location": "Central Park #1",
         "isCompleted": false,
         "score": null
+      },
+      {
+        "date": "2025-06-15T14:30:00.000Z",
+        "dateText": "Sun, Jun 15",
+        "time": "2:30 PM",
+        "homeTeam": "New Lowell Knights 13U DS",
+        "homeTeamCode": "511092",
+        "awayTeam": "Collingwood Jays (Blue) 13U DS",
+        "awayTeamCode": "511086",
+        "location": "New Lowell Recreation Park #3",
+        "isCompleted": false,
+        "score": null
       }
     ],
-    "lastUpdated": "2025-06-12T15:21:43.060Z",
+    "lastUpdated": "2025-06-13T13:53:15.456Z",
     "totalGames": 128
   },
   "summary": {
     "totalTeams": 16,
     "totalGames": 128,
-    "completedGames": 43,
-    "upcomingGames": 85,
+    "completedGames": 45,
+    "upcomingGames": 83,
     "topTeam": {
       "team": "Barrie Baycats 13U DS",
       "teamCode": "511085",
@@ -4646,14 +4666,14 @@
       "winPercentage": "1.000"
     },
     "highestScoringGame": {
-      "homeTeam": "New Lowell Knights 13U DS",
-      "awayTeam": "Richmond Hill Phoenix 13U DS",
-      "homeScore": 18,
-      "awayScore": 10,
-      "totalRuns": 28,
-      "date": "Sun, May 25",
-      "location": "New Lowell Recreation Park #3"
+      "homeTeam": "Thornhill Reds 13U DS",
+      "awayTeam": "Newmarket Hawks 13U DS",
+      "homeScore": 17,
+      "awayScore": 18,
+      "totalRuns": 35,
+      "date": "Thu, Jun 12",
+      "location": "Newmarket Fairgrounds Park #1"
     },
-    "lastUpdated": "2025-06-12T15:21:49.431Z"
+    "lastUpdated": "2025-06-13T13:53:22.002Z"
   }
 }

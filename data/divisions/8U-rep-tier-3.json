@@ -20,7 +20,7 @@
         }
       },
       {
-        "position": 4,
+        "position": 5,
         "team": "Markham Mariners 8U A",
         "teamCode": "511057",
         "record": {
@@ -74,21 +74,21 @@
         }
       },
       {
-        "position": 5,
+        "position": 4,
         "team": "Newmarket Hawks 8U A",
         "teamCode": "511051",
         "record": {
-          "gamesPlayed": 4,
-          "wins": 2,
+          "gamesPlayed": 5,
+          "wins": 3,
           "losses": 2,
           "ties": 0,
-          "winPercentage": "0.500"
+          "winPercentage": "0.600"
         },
         "stats": {
-          "points": 4,
-          "runsFor": 72,
-          "runsAgainst": 59,
-          "runDifferential": 13
+          "points": 6,
+          "runsFor": 92,
+          "runsAgainst": 78,
+          "runDifferential": 14
         }
       },
       {
@@ -150,21 +150,21 @@
         "team": "Georgina Bulldogs 8U B",
         "teamCode": "511060",
         "record": {
-          "gamesPlayed": 4,
+          "gamesPlayed": 5,
           "wins": 0,
-          "losses": 4,
+          "losses": 5,
           "ties": 0,
           "winPercentage": "0.000"
         },
         "stats": {
           "points": 0,
-          "runsFor": 34,
-          "runsAgainst": 72,
-          "runDifferential": -38
+          "runsFor": 53,
+          "runsAgainst": 92,
+          "runDifferential": -39
         }
       }
     ],
-    "lastUpdated": "2025-06-12T15:16:02.739Z",
+    "lastUpdated": "2025-06-13T13:47:14.925Z",
     "totalTeams": 9
   },
   "schedule": {
@@ -314,7 +314,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:16:05.327Z"
+        "lastUpdated": "2025-06-13T13:47:18.069Z"
       },
       "511051": {
         "teamCode": "511051",
@@ -375,8 +375,12 @@
             "awayTeam": "Georgina Bulldogs 8U B",
             "awayTeamCode": "511060",
             "location": "Fairgrounds #2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 20,
+              "away": 19,
+              "scoreText": "19-20"
+            }
           },
           {
             "date": "2025-06-10T18:00:00.000Z",
@@ -453,26 +457,14 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:16:05.327Z"
+        "lastUpdated": "2025-06-13T13:47:18.069Z"
       },
       "511052": {
         "teamCode": "511052",
         "totalGames": 16,
-        "playedGames": 6,
-        "upcomingGames": 10,
+        "playedGames": 7,
+        "upcomingGames": 9,
         "recentGames": [
-          {
-            "date": "2025-05-22T18:00:00.000Z",
-            "dateText": "Thu, May 22",
-            "time": "6:00 PM",
-            "homeTeam": "Georgina Bulldogs 8U B",
-            "homeTeamCode": "511060",
-            "awayTeam": "Orangeville Bengals 8U B",
-            "awayTeamCode": "511052",
-            "location": "ROC #3",
-            "isCompleted": false,
-            "score": null
-          },
           {
             "date": "2025-05-29T18:00:00.000Z",
             "dateText": "Thu, May 29",
@@ -536,9 +528,7 @@
               "away": 24,
               "scoreText": "24-17"
             }
-          }
-        ],
-        "nextGames": [
+          },
           {
             "date": "2025-06-12T18:00:00.000Z",
             "dateText": "Thu, Jun 12",
@@ -550,7 +540,9 @@
             "location": "Caledon Fairgrounds",
             "isCompleted": false,
             "score": null
-          },
+          }
+        ],
+        "nextGames": [
           {
             "date": "2025-06-17T18:00:00.000Z",
             "dateText": "Tue, Jun 17",
@@ -598,9 +590,21 @@
             "location": "Maple CC",
             "isCompleted": false,
             "score": null
+          },
+          {
+            "date": "2025-07-10T18:00:00.000Z",
+            "dateText": "Thu, Jul 10",
+            "time": "6:00 PM",
+            "homeTeam": "Orangeville Bengals 8U B",
+            "homeTeamCode": "511052",
+            "awayTeam": "Newmarket Hawks 8U A",
+            "awayTeamCode": "511051",
+            "location": "Caledon Fairgrounds",
+            "isCompleted": false,
+            "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:16:05.327Z"
+        "lastUpdated": "2025-06-13T13:47:18.069Z"
       },
       "511053": {
         "teamCode": "511053",
@@ -743,30 +747,14 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:16:05.327Z"
+        "lastUpdated": "2025-06-13T13:47:18.069Z"
       },
       "511054": {
         "teamCode": "511054",
         "totalGames": 17,
-        "playedGames": 6,
-        "upcomingGames": 11,
+        "playedGames": 7,
+        "upcomingGames": 10,
         "recentGames": [
-          {
-            "date": "2025-05-19T18:00:00.000Z",
-            "dateText": "Mon, May 19",
-            "time": "6:00 PM",
-            "homeTeam": "TNT Thunder 8U A",
-            "homeTeamCode": "511054",
-            "awayTeam": "Richmond Hill Phoenix 8U A",
-            "awayTeamCode": "511053",
-            "location": "Mclean diamond",
-            "isCompleted": true,
-            "score": {
-              "home": 18,
-              "away": 17,
-              "scoreText": "17-18"
-            }
-          },
           {
             "date": "2025-05-25T18:30:00.000Z",
             "dateText": "Sun, May 25",
@@ -830,9 +818,7 @@
               "away": 35,
               "scoreText": "35-8"
             }
-          }
-        ],
-        "nextGames": [
+          },
           {
             "date": "2025-06-12T18:00:00.000Z",
             "dateText": "Thu, Jun 12",
@@ -844,7 +830,9 @@
             "location": "ROC #3",
             "isCompleted": false,
             "score": null
-          },
+          }
+        ],
+        "nextGames": [
           {
             "date": "2025-06-16T18:00:00.000Z",
             "dateText": "Mon, Jun 16",
@@ -892,32 +880,28 @@
             "location": "Bethesda D3",
             "isCompleted": false,
             "score": null
+          },
+          {
+            "date": "2025-07-08T18:00:00.000Z",
+            "dateText": "Tue, Jul 8",
+            "time": "6:00 PM",
+            "homeTeam": "Richmond Hill Phoenix 8U A",
+            "homeTeamCode": "511053",
+            "awayTeam": "TNT Thunder 8U A",
+            "awayTeamCode": "511054",
+            "location": "Richmond Green 3",
+            "isCompleted": false,
+            "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:16:05.327Z"
+        "lastUpdated": "2025-06-13T13:47:18.069Z"
       },
       "511057": {
         "teamCode": "511057",
         "totalGames": 16,
-        "playedGames": 5,
-        "upcomingGames": 11,
+        "playedGames": 6,
+        "upcomingGames": 10,
         "recentGames": [
-          {
-            "date": "2025-05-15T18:30:00.000Z",
-            "dateText": "Thu, May 15",
-            "time": "6:30 PM",
-            "homeTeam": "Markham Mariners 8U A",
-            "homeTeamCode": "511057",
-            "awayTeam": "Georgina Bulldogs 8U B",
-            "awayTeamCode": "511060",
-            "location": "Morgan Park",
-            "isCompleted": true,
-            "score": {
-              "home": 22,
-              "away": 4,
-              "scoreText": "4-22"
-            }
-          },
           {
             "date": "2025-05-22T18:00:00.000Z",
             "dateText": "Thu, May 22",
@@ -973,9 +957,7 @@
               "away": 4,
               "scoreText": "4-19"
             }
-          }
-        ],
-        "nextGames": [
+          },
           {
             "date": "2025-06-12T18:30:00.000Z",
             "dateText": "Thu, Jun 12",
@@ -987,7 +969,9 @@
             "location": "Morgan Park",
             "isCompleted": false,
             "score": null
-          },
+          }
+        ],
+        "nextGames": [
           {
             "date": "2025-06-17T18:00:00.000Z",
             "dateText": "Tue, Jun 17",
@@ -1035,32 +1019,28 @@
             "location": "Morgan Park",
             "isCompleted": false,
             "score": null
+          },
+          {
+            "date": "2025-07-10T18:00:00.000Z",
+            "dateText": "Thu, Jul 10",
+            "time": "6:00 PM",
+            "homeTeam": "Georgina Bulldogs 8U B",
+            "homeTeamCode": "511060",
+            "awayTeam": "Markham Mariners 8U A",
+            "awayTeamCode": "511057",
+            "location": "ROC #3",
+            "isCompleted": false,
+            "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:16:05.328Z"
+        "lastUpdated": "2025-06-13T13:47:18.069Z"
       },
       "511059": {
         "teamCode": "511059",
         "totalGames": 16,
-        "playedGames": 5,
-        "upcomingGames": 11,
+        "playedGames": 6,
+        "upcomingGames": 10,
         "recentGames": [
-          {
-            "date": "2025-05-15T18:00:00.000Z",
-            "dateText": "Thu, May 15",
-            "time": "6:00 PM",
-            "homeTeam": "Orangeville Bengals 8U B",
-            "homeTeamCode": "511052",
-            "awayTeam": "Stouffville 8U A",
-            "awayTeamCode": "511059",
-            "location": "Caledon Fairgrounds",
-            "isCompleted": true,
-            "score": {
-              "home": 19,
-              "away": 8,
-              "scoreText": "8-19"
-            }
-          },
           {
             "date": "2025-05-22T18:00:00.000Z",
             "dateText": "Thu, May 22",
@@ -1120,9 +1100,7 @@
               "away": 7,
               "scoreText": "7-6"
             }
-          }
-        ],
-        "nextGames": [
+          },
           {
             "date": "2025-06-12T18:30:00.000Z",
             "dateText": "Thu, Jun 12",
@@ -1134,7 +1112,9 @@
             "location": "Morgan Park",
             "isCompleted": false,
             "score": null
-          },
+          }
+        ],
+        "nextGames": [
           {
             "date": "2025-06-19T18:00:00.000Z",
             "dateText": "Thu, Jun 19",
@@ -1182,28 +1162,28 @@
             "location": "Fairgrounds #2",
             "isCompleted": false,
             "score": null
+          },
+          {
+            "date": "2025-07-10T18:00:00.000Z",
+            "dateText": "Thu, Jul 10",
+            "time": "6:00 PM",
+            "homeTeam": "Stouffville 8U A",
+            "homeTeamCode": "511059",
+            "awayTeam": "Richmond Hill Phoenix 8U A",
+            "awayTeamCode": "511053",
+            "location": "Bethesda D3",
+            "isCompleted": false,
+            "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:16:05.328Z"
+        "lastUpdated": "2025-06-13T13:47:18.069Z"
       },
       "511060": {
         "teamCode": "511060",
         "totalGames": 16,
-        "playedGames": 6,
-        "upcomingGames": 10,
+        "playedGames": 7,
+        "upcomingGames": 9,
         "recentGames": [
-          {
-            "date": "2025-05-22T18:00:00.000Z",
-            "dateText": "Thu, May 22",
-            "time": "6:00 PM",
-            "homeTeam": "Georgina Bulldogs 8U B",
-            "homeTeamCode": "511060",
-            "awayTeam": "Orangeville Bengals 8U B",
-            "awayTeamCode": "511052",
-            "location": "ROC #3",
-            "isCompleted": false,
-            "score": null
-          },
           {
             "date": "2025-06-01T18:30:00.000Z",
             "dateText": "Sun, Jun 1",
@@ -1261,11 +1241,13 @@
             "awayTeam": "Georgina Bulldogs 8U B",
             "awayTeamCode": "511060",
             "location": "Fairgrounds #2",
-            "isCompleted": false,
-            "score": null
-          }
-        ],
-        "nextGames": [
+            "isCompleted": true,
+            "score": {
+              "home": 20,
+              "away": 19,
+              "scoreText": "19-20"
+            }
+          },
           {
             "date": "2025-06-12T18:00:00.000Z",
             "dateText": "Thu, Jun 12",
@@ -1277,7 +1259,9 @@
             "location": "ROC #3",
             "isCompleted": false,
             "score": null
-          },
+          }
+        ],
+        "nextGames": [
           {
             "date": "2025-06-16T18:00:00.000Z",
             "dateText": "Mon, Jun 16",
@@ -1325,15 +1309,27 @@
             "location": "ROC #3",
             "isCompleted": false,
             "score": null
+          },
+          {
+            "date": "2025-07-10T18:00:00.000Z",
+            "dateText": "Thu, Jul 10",
+            "time": "6:00 PM",
+            "homeTeam": "Georgina Bulldogs 8U B",
+            "homeTeamCode": "511060",
+            "awayTeam": "Markham Mariners 8U A",
+            "awayTeamCode": "511057",
+            "location": "ROC #3",
+            "isCompleted": false,
+            "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:16:05.328Z"
+        "lastUpdated": "2025-06-13T13:47:18.069Z"
       },
       "518946": {
         "teamCode": "518946",
         "totalGames": 17,
-        "playedGames": 4,
-        "upcomingGames": 13,
+        "playedGames": 5,
+        "upcomingGames": 12,
         "recentGames": [
           {
             "date": "2025-05-20T18:00:00.000Z",
@@ -1398,9 +1394,7 @@
               "away": 2,
               "scoreText": "2-17"
             }
-          }
-        ],
-        "nextGames": [
+          },
           {
             "date": "2025-06-12T18:00:00.000Z",
             "dateText": "Thu, Jun 12",
@@ -1412,7 +1406,9 @@
             "location": "Caledon Fairgrounds",
             "isCompleted": false,
             "score": null
-          },
+          }
+        ],
+        "nextGames": [
           {
             "date": "2025-06-17T18:00:00.000Z",
             "dateText": "Tue, Jun 17",
@@ -1460,9 +1456,21 @@
             "location": "ROC #3",
             "isCompleted": false,
             "score": null
+          },
+          {
+            "date": "2025-07-08T18:00:00.000Z",
+            "dateText": "Tue, Jul 8",
+            "time": "6:00 PM",
+            "homeTeam": "Vaughan Vikings 8U A",
+            "homeTeamCode": "518946",
+            "awayTeam": "Orangeville Bengals 8U B",
+            "awayTeamCode": "511052",
+            "location": "Maple CC",
+            "isCompleted": false,
+            "score": null
           }
         ],
-        "lastUpdated": "2025-06-12T15:16:05.328Z"
+        "lastUpdated": "2025-06-13T13:47:18.069Z"
       }
     },
     "allGames": [
@@ -1843,8 +1851,12 @@
         "awayTeam": "Georgina Bulldogs 8U B",
         "awayTeamCode": "511060",
         "location": "Fairgrounds #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 20,
+          "away": 19,
+          "scoreText": "19-20"
+        }
       },
       {
         "date": "2025-06-10T18:00:00.000Z",
@@ -2425,6 +2437,42 @@
     ],
     "recentGames": [
       {
+        "date": "2025-06-12T18:30:00.000Z",
+        "dateText": "Thu, Jun 12",
+        "time": "6:30 PM",
+        "homeTeam": "Markham Mariners 8U A",
+        "homeTeamCode": "511057",
+        "awayTeam": "Stouffville 8U A",
+        "awayTeamCode": "511059",
+        "location": "Morgan Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2025-06-12T18:00:00.000Z",
+        "dateText": "Thu, Jun 12",
+        "time": "6:00 PM",
+        "homeTeam": "Orangeville Bengals 8U B",
+        "homeTeamCode": "511052",
+        "awayTeam": "Vaughan Vikings 8U A",
+        "awayTeamCode": "518946",
+        "location": "Caledon Fairgrounds",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2025-06-12T18:00:00.000Z",
+        "dateText": "Thu, Jun 12",
+        "time": "6:00 PM",
+        "homeTeam": "Georgina Bulldogs 8U B",
+        "homeTeamCode": "511060",
+        "awayTeam": "TNT Thunder 8U A",
+        "awayTeamCode": "511054",
+        "location": "ROC #3",
+        "isCompleted": false,
+        "score": null
+      },
+      {
         "date": "2025-06-10T18:00:00.000Z",
         "dateText": "Tue, Jun 10",
         "time": "6:00 PM",
@@ -2445,8 +2493,12 @@
         "awayTeam": "Georgina Bulldogs 8U B",
         "awayTeamCode": "511060",
         "location": "Fairgrounds #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 20,
+          "away": 19,
+          "scoreText": "19-20"
+        }
       },
       {
         "date": "2025-06-08T18:30:00.000Z",
@@ -2527,93 +2579,9 @@
           "away": 2,
           "scoreText": "2-17"
         }
-      },
-      {
-        "date": "2025-06-03T18:00:00.000Z",
-        "dateText": "Tue, Jun 3",
-        "time": "6:00 PM",
-        "homeTeam": "Richmond Hill Phoenix 8U A",
-        "homeTeamCode": "511053",
-        "awayTeam": "Stouffville 8U A",
-        "awayTeamCode": "511059",
-        "location": "Richmond Green 3",
-        "isCompleted": true,
-        "score": {
-          "home": 20,
-          "away": 19,
-          "scoreText": "19-20"
-        }
-      },
-      {
-        "date": "2025-06-02T18:30:00.000Z",
-        "dateText": "Mon, Jun 2",
-        "time": "6:30 PM",
-        "homeTeam": "Newmarket Hawks 8U A",
-        "homeTeamCode": "511051",
-        "awayTeam": "Orangeville Bengals 8U B",
-        "awayTeamCode": "511052",
-        "location": "Fairgrounds #2",
-        "isCompleted": true,
-        "score": {
-          "home": 19,
-          "away": 18,
-          "scoreText": "18-19"
-        }
-      },
-      {
-        "date": "2025-06-02T18:00:00.000Z",
-        "dateText": "Mon, Jun 2",
-        "time": "6:00 PM",
-        "homeTeam": "TNT Thunder 8U A",
-        "homeTeamCode": "511054",
-        "awayTeam": "Markham Mariners 8U A",
-        "awayTeamCode": "511057",
-        "location": "Mclean diamond",
-        "isCompleted": true,
-        "score": {
-          "home": 8,
-          "away": 35,
-          "scoreText": "35-8"
-        }
       }
     ],
     "upcomingGames": [
-      {
-        "date": "2025-06-12T18:00:00.000Z",
-        "dateText": "Thu, Jun 12",
-        "time": "6:00 PM",
-        "homeTeam": "Orangeville Bengals 8U B",
-        "homeTeamCode": "511052",
-        "awayTeam": "Vaughan Vikings 8U A",
-        "awayTeamCode": "518946",
-        "location": "Caledon Fairgrounds",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": "2025-06-12T18:00:00.000Z",
-        "dateText": "Thu, Jun 12",
-        "time": "6:00 PM",
-        "homeTeam": "Georgina Bulldogs 8U B",
-        "homeTeamCode": "511060",
-        "awayTeam": "TNT Thunder 8U A",
-        "awayTeamCode": "511054",
-        "location": "ROC #3",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": "2025-06-12T18:30:00.000Z",
-        "dateText": "Thu, Jun 12",
-        "time": "6:30 PM",
-        "homeTeam": "Markham Mariners 8U A",
-        "homeTeamCode": "511057",
-        "awayTeam": "Stouffville 8U A",
-        "awayTeamCode": "511059",
-        "location": "Morgan Park",
-        "isCompleted": false,
-        "score": null
-      },
       {
         "date": "2025-06-16T18:00:00.000Z",
         "dateText": "Mon, Jun 16",
@@ -2697,16 +2665,52 @@
         "location": "Mclean diamond",
         "isCompleted": false,
         "score": null
+      },
+      {
+        "date": "2025-06-24T18:00:00.000Z",
+        "dateText": "Tue, Jun 24",
+        "time": "6:00 PM",
+        "homeTeam": "Richmond Hill Phoenix 8U A",
+        "homeTeamCode": "511053",
+        "awayTeam": "Vaughan Vikings 8U A",
+        "awayTeamCode": "518946",
+        "location": "Richmond Green 3",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2025-06-26T18:00:00.000Z",
+        "dateText": "Thu, Jun 26",
+        "time": "6:00 PM",
+        "homeTeam": "Georgina Bulldogs 8U B",
+        "homeTeamCode": "511060",
+        "awayTeam": "Stouffville 8U A",
+        "awayTeamCode": "511059",
+        "location": "ROC #3",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2025-06-26T18:00:00.000Z",
+        "dateText": "Thu, Jun 26",
+        "time": "6:00 PM",
+        "homeTeam": "Orangeville Bengals 8U B",
+        "homeTeamCode": "511052",
+        "awayTeam": "Markham Mariners 8U A",
+        "awayTeamCode": "511057",
+        "location": "Caledon Fairgrounds",
+        "isCompleted": false,
+        "score": null
       }
     ],
-    "lastUpdated": "2025-06-12T15:16:05.328Z",
+    "lastUpdated": "2025-06-13T13:47:18.069Z",
     "totalGames": 73
   },
   "summary": {
     "totalTeams": 9,
     "totalGames": 73,
-    "completedGames": 20,
-    "upcomingGames": 53,
+    "completedGames": 21,
+    "upcomingGames": 52,
     "topTeam": {
       "team": "Vaughan Vikings 8U A",
       "teamCode": "518946",
@@ -2723,6 +2727,6 @@
       "date": "Thu, May 29",
       "location": "Caledon Fairgrounds"
     },
-    "lastUpdated": "2025-06-12T15:21:49.431Z"
+    "lastUpdated": "2025-06-13T13:53:22.002Z"
   }
 }
