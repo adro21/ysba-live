@@ -164,7 +164,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-06-14T10:44:04.790Z",
+    "lastUpdated": "2025-06-14T11:13:29.152Z",
     "totalTeams": 9
   },
   "schedule": {
@@ -314,7 +314,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T10:44:08.874Z"
+        "lastUpdated": "2025-06-14T11:13:33.293Z"
       },
       "510941": {
         "teamCode": "510941",
@@ -461,30 +461,14 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T10:44:08.874Z"
+        "lastUpdated": "2025-06-14T11:13:33.293Z"
       },
       "510942": {
         "teamCode": "510942",
         "totalGames": 16,
-        "playedGames": 8,
-        "upcomingGames": 8,
+        "playedGames": 9,
+        "upcomingGames": 7,
         "recentGames": [
-          {
-            "date": "2025-05-26T18:30:00.000Z",
-            "dateText": "Mon, May 26",
-            "time": "6:30 PM",
-            "homeTeam": "Mansfield Cubs 13U A",
-            "homeTeamCode": "510942",
-            "awayTeam": "Orillia Royals 13U A",
-            "awayTeamCode": "510944",
-            "location": "MANSFIELD",
-            "isCompleted": true,
-            "score": {
-              "home": 13,
-              "away": 12,
-              "scoreText": "12-13"
-            }
-          },
           {
             "date": "2025-05-27T20:30:00.000Z",
             "dateText": "Tue, May 27",
@@ -540,9 +524,7 @@
             "location": "ROTORY PARK SOUTH",
             "isCompleted": false,
             "score": null
-          }
-        ],
-        "nextGames": [
+          },
           {
             "date": "2025-06-14T11:00:00.000Z",
             "dateText": "Sat, Jun 14",
@@ -554,7 +536,9 @@
             "location": "MCCULLEY ROBERTSON",
             "isCompleted": false,
             "score": null
-          },
+          }
+        ],
+        "nextGames": [
           {
             "date": "2025-06-14T14:00:00.000Z",
             "dateText": "Sat, Jun 14",
@@ -602,9 +586,21 @@
             "location": "MANSFIELD",
             "isCompleted": false,
             "score": null
+          },
+          {
+            "date": "2025-07-21T18:30:00.000Z",
+            "dateText": "Mon, Jul 21",
+            "time": "6:30 PM",
+            "homeTeam": "Barrie Baycats 13U A",
+            "homeTeamCode": "510941",
+            "awayTeam": "Mansfield Cubs 13U A",
+            "awayTeamCode": "510942",
+            "location": "LAMPMAN",
+            "isCompleted": false,
+            "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T10:44:08.874Z"
+        "lastUpdated": "2025-06-14T11:13:33.293Z"
       },
       "510943": {
         "teamCode": "510943",
@@ -747,7 +743,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T10:44:08.874Z"
+        "lastUpdated": "2025-06-14T11:13:33.293Z"
       },
       "510944": {
         "teamCode": "510944",
@@ -898,7 +894,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T10:44:08.874Z"
+        "lastUpdated": "2025-06-14T11:13:33.293Z"
       },
       "510945": {
         "teamCode": "510945",
@@ -1049,7 +1045,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T10:44:08.874Z"
+        "lastUpdated": "2025-06-14T11:13:33.293Z"
       },
       "510946": {
         "teamCode": "510946",
@@ -1114,8 +1110,12 @@
             "awayTeam": "Aurora-King Jays 13U AA",
             "awayTeamCode": "510946",
             "location": "Milliken Mills #2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 2,
+              "scoreText": "2-7"
+            }
           },
           {
             "date": "2025-06-14T10:00:00.000Z",
@@ -1192,7 +1192,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T10:44:08.874Z"
+        "lastUpdated": "2025-06-14T11:13:33.293Z"
       },
       "510947": {
         "teamCode": "510947",
@@ -1273,8 +1273,12 @@
             "awayTeam": "Orangeville Bengals 13U AA",
             "awayTeamCode": "510951",
             "location": "Lampman Lane Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 7,
+              "scoreText": "7-8"
+            }
           }
         ],
         "nextGames": [
@@ -1339,7 +1343,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T10:44:08.874Z"
+        "lastUpdated": "2025-06-14T11:13:33.293Z"
       },
       "510948": {
         "teamCode": "510948",
@@ -1430,14 +1434,14 @@
         ],
         "nextGames": [
           {
-            "date": "2025-06-15T13:00:00.000Z",
+            "date": "2025-06-15T14:00:00.000Z",
             "dateText": "Sun, Jun 15",
-            "time": "1:00 PM",
+            "time": "2:00 PM",
             "homeTeam": "Stouffville Yankees 13U AA",
             "homeTeamCode": "510953",
             "awayTeam": "Caledon Nationals 13U AA",
             "awayTeamCode": "510948",
-            "location": "Memorial Park",
+            "location": "Bethesda #3",
             "isCompleted": false,
             "score": null
           },
@@ -1490,7 +1494,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T10:44:08.874Z"
+        "lastUpdated": "2025-06-14T11:13:33.293Z"
       },
       "510949": {
         "teamCode": "510949",
@@ -1555,8 +1559,12 @@
             "awayTeam": "Aurora-King Jays 13U AA",
             "awayTeamCode": "510946",
             "location": "Milliken Mills #2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 2,
+              "scoreText": "2-7"
+            }
           },
           {
             "date": "2025-06-14T10:00:00.000Z",
@@ -1633,7 +1641,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T10:44:08.874Z"
+        "lastUpdated": "2025-06-14T11:13:33.293Z"
       },
       "510950": {
         "teamCode": "510950",
@@ -1780,13 +1788,13 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T10:44:08.874Z"
+        "lastUpdated": "2025-06-14T11:13:33.293Z"
       },
       "510951": {
         "teamCode": "510951",
         "totalGames": 19,
-        "playedGames": 9,
-        "upcomingGames": 10,
+        "playedGames": 8,
+        "upcomingGames": 11,
         "recentGames": [
           {
             "date": "2025-05-26T18:30:00.000Z",
@@ -1857,11 +1865,27 @@
             "awayTeam": "Orangeville Bengals 13U AA",
             "awayTeamCode": "510951",
             "location": "Lampman Lane Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 7,
+              "scoreText": "7-8"
+            }
           }
         ],
         "nextGames": [
+          {
+            "date": "2025-06-15T19:00:00.000Z",
+            "dateText": "Sun, Jun 15",
+            "time": "7:00 PM",
+            "homeTeam": "Richmond Hill Phoenix 13U AA",
+            "homeTeamCode": "510952",
+            "awayTeam": "Orangeville Bengals 13U AA",
+            "awayTeamCode": "510951",
+            "location": "David Hamilton Park",
+            "isCompleted": false,
+            "score": null
+          },
           {
             "date": "2025-06-23T20:00:00.000Z",
             "dateText": "Mon, Jun 23",
@@ -1909,28 +1933,32 @@
             "location": "Rotary Park South",
             "isCompleted": false,
             "score": null
-          },
-          {
-            "date": "2025-07-16T18:30:00.000Z",
-            "dateText": "Wed, Jul 16",
-            "time": "6:30 PM",
-            "homeTeam": "Markham Mariners 13U AA",
-            "homeTeamCode": "510949",
-            "awayTeam": "Orangeville Bengals 13U AA",
-            "awayTeamCode": "510951",
-            "location": "Milliken Mills #2",
-            "isCompleted": false,
-            "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T10:44:08.875Z"
+        "lastUpdated": "2025-06-14T11:13:33.293Z"
       },
       "510952": {
         "teamCode": "510952",
         "totalGames": 20,
-        "playedGames": 8,
-        "upcomingGames": 12,
+        "playedGames": 7,
+        "upcomingGames": 13,
         "recentGames": [
+          {
+            "date": "2025-05-18T16:00:00.000Z",
+            "dateText": "Sun, May 18",
+            "time": "4:00 PM",
+            "homeTeam": "Stouffville Yankees 13U AA",
+            "homeTeamCode": "510953",
+            "awayTeam": "Richmond Hill Phoenix 13U AA",
+            "awayTeamCode": "510952",
+            "location": "Memorial Park",
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 17,
+              "scoreText": "17-12"
+            }
+          },
           {
             "date": "2025-05-22T19:00:00.000Z",
             "dateText": "Thu, May 22",
@@ -1946,18 +1974,6 @@
               "away": 6,
               "scoreText": "6-16"
             }
-          },
-          {
-            "date": "2025-05-23T19:00:00.000Z",
-            "dateText": "Fri, May 23",
-            "time": "7:00 PM",
-            "homeTeam": "Richmond Hill Phoenix 13U AA",
-            "homeTeamCode": "510952",
-            "awayTeam": "Orangeville Bengals 13U AA",
-            "awayTeamCode": "510951",
-            "location": "David Hamilton Park",
-            "isCompleted": false,
-            "score": null
           },
           {
             "date": "2025-05-29T19:00:00.000Z",
@@ -2000,11 +2016,27 @@
             "awayTeam": "Stouffville Yankees 13U AA",
             "awayTeamCode": "510953",
             "location": "David Hamilton Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 4,
+              "scoreText": "4-14"
+            }
           }
         ],
         "nextGames": [
+          {
+            "date": "2025-06-15T19:00:00.000Z",
+            "dateText": "Sun, Jun 15",
+            "time": "7:00 PM",
+            "homeTeam": "Richmond Hill Phoenix 13U AA",
+            "homeTeamCode": "510952",
+            "awayTeam": "Orangeville Bengals 13U AA",
+            "awayTeamCode": "510951",
+            "location": "David Hamilton Park",
+            "isCompleted": false,
+            "score": null
+          },
           {
             "date": "2025-06-18T19:00:00.000Z",
             "dateText": "Wed, Jun 18",
@@ -2052,21 +2084,9 @@
             "location": "Rotary Park South",
             "isCompleted": false,
             "score": null
-          },
-          {
-            "date": "2025-07-03T19:00:00.000Z",
-            "dateText": "Thu, Jul 3",
-            "time": "7:00 PM",
-            "homeTeam": "Richmond Hill Phoenix 13U AA",
-            "homeTeamCode": "510952",
-            "awayTeam": "Markham Mariners 13U AA",
-            "awayTeamCode": "510949",
-            "location": "David Hamilton Park",
-            "isCompleted": false,
-            "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T10:44:08.875Z"
+        "lastUpdated": "2025-06-14T11:13:33.293Z"
       },
       "510953": {
         "teamCode": "510953",
@@ -2147,20 +2167,24 @@
             "awayTeam": "Stouffville Yankees 13U AA",
             "awayTeamCode": "510953",
             "location": "David Hamilton Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 4,
+              "scoreText": "4-14"
+            }
           }
         ],
         "nextGames": [
           {
-            "date": "2025-06-15T13:00:00.000Z",
+            "date": "2025-06-15T14:00:00.000Z",
             "dateText": "Sun, Jun 15",
-            "time": "1:00 PM",
+            "time": "2:00 PM",
             "homeTeam": "Stouffville Yankees 13U AA",
             "homeTeamCode": "510953",
             "awayTeam": "Caledon Nationals 13U AA",
             "awayTeamCode": "510948",
-            "location": "Memorial Park",
+            "location": "Bethesda #3",
             "isCompleted": false,
             "score": null
           },
@@ -2213,7 +2237,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T10:44:08.875Z"
+        "lastUpdated": "2025-06-14T11:13:33.293Z"
       },
       "510957": {
         "teamCode": "510957",
@@ -2360,30 +2384,14 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T10:44:08.875Z"
+        "lastUpdated": "2025-06-14T11:13:33.293Z"
       },
       "516242": {
         "teamCode": "516242",
         "totalGames": 16,
-        "playedGames": 6,
-        "upcomingGames": 10,
+        "playedGames": 7,
+        "upcomingGames": 9,
         "recentGames": [
-          {
-            "date": "2025-05-24T10:00:00.000Z",
-            "dateText": "Sat, May 24",
-            "time": "10:00 AM",
-            "homeTeam": "Aurora-King Jays 13U A",
-            "homeTeamCode": "510940",
-            "awayTeam": "Muskoka Hornets 13U B",
-            "awayTeamCode": "516242",
-            "location": "HALLMARK 1",
-            "isCompleted": true,
-            "score": {
-              "home": 15,
-              "away": 0,
-              "scoreText": "0-15"
-            }
-          },
           {
             "date": "2025-05-24T13:00:00.000Z",
             "dateText": "Sat, May 24",
@@ -2447,9 +2455,7 @@
               "away": 0,
               "scoreText": "0-29"
             }
-          }
-        ],
-        "nextGames": [
+          },
           {
             "date": "2025-06-14T11:00:00.000Z",
             "dateText": "Sat, Jun 14",
@@ -2461,7 +2467,9 @@
             "location": "MCCULLEY ROBERTSON",
             "isCompleted": false,
             "score": null
-          },
+          }
+        ],
+        "nextGames": [
           {
             "date": "2025-06-14T14:00:00.000Z",
             "dateText": "Sat, Jun 14",
@@ -2509,9 +2517,21 @@
             "location": "HARDING PARK",
             "isCompleted": false,
             "score": null
+          },
+          {
+            "date": "2025-07-05T14:00:00.000Z",
+            "dateText": "Sat, Jul 5",
+            "time": "2:00 PM",
+            "homeTeam": "Richmond Hill Phoenix 13U A",
+            "homeTeamCode": "510945",
+            "awayTeam": "Muskoka Hornets 13U B",
+            "awayTeamCode": "516242",
+            "location": "HARDING PARK",
+            "isCompleted": false,
+            "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T10:44:08.875Z"
+        "lastUpdated": "2025-06-14T11:13:33.293Z"
       },
       "518954": {
         "teamCode": "518954",
@@ -2662,7 +2682,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T10:44:08.875Z"
+        "lastUpdated": "2025-06-14T11:13:33.293Z"
       }
     },
     "allGames": [
@@ -2702,16 +2722,16 @@
         "date": "2025-05-12T18:30:00.000Z",
         "dateText": "Mon, May 12",
         "time": "6:30 PM",
-        "homeTeam": "Barrie Baycats 13U A",
-        "homeTeamCode": "510941",
-        "awayTeam": "Vaughan Vikings 13U A",
-        "awayTeamCode": "518954",
-        "location": "LAMPMAN",
+        "homeTeam": "Mansfield Cubs 13U A",
+        "homeTeamCode": "510942",
+        "awayTeam": "Orangeville Bengals 13U A",
+        "awayTeamCode": "510943",
+        "location": "MANSFIELD",
         "isCompleted": true,
         "score": {
-          "home": 8,
-          "away": 2,
-          "scoreText": "2-8"
+          "home": 46,
+          "away": 0,
+          "scoreText": "0-46"
         }
       },
       {
@@ -2734,16 +2754,16 @@
         "date": "2025-05-12T18:30:00.000Z",
         "dateText": "Mon, May 12",
         "time": "6:30 PM",
-        "homeTeam": "Mansfield Cubs 13U A",
-        "homeTeamCode": "510942",
-        "awayTeam": "Orangeville Bengals 13U A",
-        "awayTeamCode": "510943",
-        "location": "MANSFIELD",
+        "homeTeam": "Barrie Baycats 13U A",
+        "homeTeamCode": "510941",
+        "awayTeam": "Vaughan Vikings 13U A",
+        "awayTeamCode": "518954",
+        "location": "LAMPMAN",
         "isCompleted": true,
         "score": {
-          "home": 46,
-          "away": 0,
-          "scoreText": "0-46"
+          "home": 8,
+          "away": 2,
+          "scoreText": "2-8"
         }
       },
       {
@@ -2766,22 +2786,6 @@
         "date": "2025-05-13T19:00:00.000Z",
         "dateText": "Tue, May 13",
         "time": "7:00 PM",
-        "homeTeam": "Midland Penetang Twins 13U B",
-        "homeTeamCode": "510957",
-        "awayTeam": "Aurora-King Jays 13U A",
-        "awayTeamCode": "510940",
-        "location": "VASEY",
-        "isCompleted": true,
-        "score": {
-          "home": 5,
-          "away": 8,
-          "scoreText": "8-5"
-        }
-      },
-      {
-        "date": "2025-05-13T19:00:00.000Z",
-        "dateText": "Tue, May 13",
-        "time": "7:00 PM",
         "homeTeam": "Richmond Hill Phoenix 13U A",
         "homeTeamCode": "510945",
         "awayTeam": "Mansfield Cubs 13U A",
@@ -2795,19 +2799,19 @@
         }
       },
       {
-        "date": "2025-05-14T18:30:00.000Z",
-        "dateText": "Wed, May 14",
-        "time": "6:30 PM",
-        "homeTeam": "Barrie Baycats 13U AA",
-        "homeTeamCode": "510947",
-        "awayTeam": "Stouffville Yankees 13U AA",
-        "awayTeamCode": "510953",
-        "location": "Lampman Lane Park",
+        "date": "2025-05-13T19:00:00.000Z",
+        "dateText": "Tue, May 13",
+        "time": "7:00 PM",
+        "homeTeam": "Midland Penetang Twins 13U B",
+        "homeTeamCode": "510957",
+        "awayTeam": "Aurora-King Jays 13U A",
+        "awayTeamCode": "510940",
+        "location": "VASEY",
         "isCompleted": true,
         "score": {
-          "home": 15,
-          "away": 5,
-          "scoreText": "5-15"
+          "home": 5,
+          "away": 8,
+          "scoreText": "8-5"
         }
       },
       {
@@ -2824,6 +2828,22 @@
           "home": 1,
           "away": 11,
           "scoreText": "11-1"
+        }
+      },
+      {
+        "date": "2025-05-14T18:30:00.000Z",
+        "dateText": "Wed, May 14",
+        "time": "6:30 PM",
+        "homeTeam": "Barrie Baycats 13U AA",
+        "homeTeamCode": "510947",
+        "awayTeam": "Stouffville Yankees 13U AA",
+        "awayTeamCode": "510953",
+        "location": "Lampman Lane Park",
+        "isCompleted": true,
+        "score": {
+          "home": 15,
+          "away": 5,
+          "scoreText": "5-15"
         }
       },
       {
@@ -3011,18 +3031,6 @@
         }
       },
       {
-        "date": "2025-05-23T19:00:00.000Z",
-        "dateText": "Fri, May 23",
-        "time": "7:00 PM",
-        "homeTeam": "Richmond Hill Phoenix 13U AA",
-        "homeTeamCode": "510952",
-        "awayTeam": "Orangeville Bengals 13U AA",
-        "awayTeamCode": "510951",
-        "location": "David Hamilton Park",
-        "isCompleted": false,
-        "score": null
-      },
-      {
         "date": "2025-05-24T10:00:00.000Z",
         "dateText": "Sat, May 24",
         "time": "10:00 AM",
@@ -3074,22 +3082,6 @@
         "date": "2025-05-26T18:30:00.000Z",
         "dateText": "Mon, May 26",
         "time": "6:30 PM",
-        "homeTeam": "Mansfield Cubs 13U A",
-        "homeTeamCode": "510942",
-        "awayTeam": "Orillia Royals 13U A",
-        "awayTeamCode": "510944",
-        "location": "MANSFIELD",
-        "isCompleted": true,
-        "score": {
-          "home": 13,
-          "away": 12,
-          "scoreText": "12-13"
-        }
-      },
-      {
-        "date": "2025-05-26T18:30:00.000Z",
-        "dateText": "Mon, May 26",
-        "time": "6:30 PM",
         "homeTeam": "Caledon Nationals 13U AA",
         "homeTeamCode": "510948",
         "awayTeam": "Orangeville Bengals 13U AA",
@@ -3116,6 +3108,22 @@
           "home": 12,
           "away": 9,
           "scoreText": "9-12"
+        }
+      },
+      {
+        "date": "2025-05-26T18:30:00.000Z",
+        "dateText": "Mon, May 26",
+        "time": "6:30 PM",
+        "homeTeam": "Mansfield Cubs 13U A",
+        "homeTeamCode": "510942",
+        "awayTeam": "Orillia Royals 13U A",
+        "awayTeamCode": "510944",
+        "location": "MANSFIELD",
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 12,
+          "scoreText": "12-13"
         }
       },
       {
@@ -3234,22 +3242,6 @@
         "date": "2025-05-31T10:00:00.000Z",
         "dateText": "Sat, May 31",
         "time": "10:00 AM",
-        "homeTeam": "Muskoka Hornets 13U B",
-        "homeTeamCode": "516242",
-        "awayTeam": "Midland Penetang Twins 13U B",
-        "awayTeamCode": "510957",
-        "location": "PEAK FIELD (BRACEBRIDGE)",
-        "isCompleted": true,
-        "score": {
-          "home": 0,
-          "away": 17,
-          "scoreText": "17-0"
-        }
-      },
-      {
-        "date": "2025-05-31T10:00:00.000Z",
-        "dateText": "Sat, May 31",
-        "time": "10:00 AM",
         "homeTeam": "Aurora-King Jays 13U AA",
         "homeTeamCode": "510946",
         "awayTeam": "Caledon Nationals 13U AA",
@@ -3260,6 +3252,22 @@
           "home": 5,
           "away": 15,
           "scoreText": "15-5"
+        }
+      },
+      {
+        "date": "2025-05-31T10:00:00.000Z",
+        "dateText": "Sat, May 31",
+        "time": "10:00 AM",
+        "homeTeam": "Muskoka Hornets 13U B",
+        "homeTeamCode": "516242",
+        "awayTeam": "Midland Penetang Twins 13U B",
+        "awayTeamCode": "510957",
+        "location": "PEAK FIELD (BRACEBRIDGE)",
+        "isCompleted": true,
+        "score": {
+          "home": 0,
+          "away": 17,
+          "scoreText": "17-0"
         }
       },
       {
@@ -3378,22 +3386,6 @@
         "date": "2025-06-04T18:30:00.000Z",
         "dateText": "Wed, Jun 4",
         "time": "6:30 PM",
-        "homeTeam": "Barrie Baycats 13U AA",
-        "homeTeamCode": "510947",
-        "awayTeam": "Newmarket Hawks 13U AA",
-        "awayTeamCode": "510950",
-        "location": "Lampman Lane Park",
-        "isCompleted": true,
-        "score": {
-          "home": 11,
-          "away": 1,
-          "scoreText": "1-11"
-        }
-      },
-      {
-        "date": "2025-06-04T18:30:00.000Z",
-        "dateText": "Wed, Jun 4",
-        "time": "6:30 PM",
         "homeTeam": "Markham Mariners 13U AA",
         "homeTeamCode": "510949",
         "awayTeam": "Caledon Nationals 13U AA",
@@ -3404,6 +3396,22 @@
           "home": 3,
           "away": 5,
           "scoreText": "5-3"
+        }
+      },
+      {
+        "date": "2025-06-04T18:30:00.000Z",
+        "dateText": "Wed, Jun 4",
+        "time": "6:30 PM",
+        "homeTeam": "Barrie Baycats 13U AA",
+        "homeTeamCode": "510947",
+        "awayTeam": "Newmarket Hawks 13U AA",
+        "awayTeamCode": "510950",
+        "location": "Lampman Lane Park",
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 1,
+          "scoreText": "1-11"
         }
       },
       {
@@ -3498,6 +3506,18 @@
         "date": "2025-06-10T19:00:00.000Z",
         "dateText": "Tue, Jun 10",
         "time": "7:00 PM",
+        "homeTeam": "Midland Penetang Twins 13U B",
+        "homeTeamCode": "510957",
+        "awayTeam": "Mansfield Cubs 13U A",
+        "awayTeamCode": "510942",
+        "location": "PPD",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2025-06-10T19:00:00.000Z",
+        "dateText": "Tue, Jun 10",
+        "time": "7:00 PM",
         "homeTeam": "Richmond Hill Phoenix 13U A",
         "homeTeamCode": "510945",
         "awayTeam": "Aurora-King Jays 13U A",
@@ -3509,18 +3529,6 @@
           "away": 7,
           "scoreText": "7-5"
         }
-      },
-      {
-        "date": "2025-06-10T19:00:00.000Z",
-        "dateText": "Tue, Jun 10",
-        "time": "7:00 PM",
-        "homeTeam": "Midland Penetang Twins 13U B",
-        "homeTeamCode": "510957",
-        "awayTeam": "Mansfield Cubs 13U A",
-        "awayTeamCode": "510942",
-        "location": "PPD",
-        "isCompleted": false,
-        "score": null
       },
       {
         "date": "2025-06-10T20:30:00.000Z",
@@ -3542,25 +3550,33 @@
         "date": "2025-06-11T18:30:00.000Z",
         "dateText": "Wed, Jun 11",
         "time": "6:30 PM",
-        "homeTeam": "Barrie Baycats 13U AA",
-        "homeTeamCode": "510947",
-        "awayTeam": "Orangeville Bengals 13U AA",
-        "awayTeamCode": "510951",
-        "location": "Lampman Lane Park",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": "2025-06-11T18:30:00.000Z",
-        "dateText": "Wed, Jun 11",
-        "time": "6:30 PM",
         "homeTeam": "Markham Mariners 13U AA",
         "homeTeamCode": "510949",
         "awayTeam": "Aurora-King Jays 13U AA",
         "awayTeamCode": "510946",
         "location": "Milliken Mills #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 2,
+          "scoreText": "2-7"
+        }
+      },
+      {
+        "date": "2025-06-11T18:30:00.000Z",
+        "dateText": "Wed, Jun 11",
+        "time": "6:30 PM",
+        "homeTeam": "Barrie Baycats 13U AA",
+        "homeTeamCode": "510947",
+        "awayTeam": "Orangeville Bengals 13U AA",
+        "awayTeamCode": "510951",
+        "location": "Lampman Lane Park",
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 7,
+          "scoreText": "7-8"
+        }
       },
       {
         "date": "2025-06-11T20:00:00.000Z",
@@ -3583,8 +3599,12 @@
         "awayTeam": "Stouffville Yankees 13U AA",
         "awayTeamCode": "510953",
         "location": "David Hamilton Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 4,
+          "scoreText": "4-14"
+        }
       },
       {
         "date": "2025-06-12T20:30:00.000Z",
@@ -3639,14 +3659,14 @@
         "score": null
       },
       {
-        "date": "2025-06-15T13:00:00.000Z",
+        "date": "2025-06-15T14:00:00.000Z",
         "dateText": "Sun, Jun 15",
-        "time": "1:00 PM",
+        "time": "2:00 PM",
         "homeTeam": "Stouffville Yankees 13U AA",
         "homeTeamCode": "510953",
         "awayTeam": "Caledon Nationals 13U AA",
         "awayTeamCode": "510948",
-        "location": "Memorial Park",
+        "location": "Bethesda #3",
         "isCompleted": false,
         "score": null
       },
@@ -3671,6 +3691,18 @@
         "awayTeam": "Richmond Hill Phoenix 13U A",
         "awayTeamCode": "510945",
         "location": "HALLMARK 1",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2025-06-15T19:00:00.000Z",
+        "dateText": "Sun, Jun 15",
+        "time": "7:00 PM",
+        "homeTeam": "Richmond Hill Phoenix 13U AA",
+        "homeTeamCode": "510952",
+        "awayTeam": "Orangeville Bengals 13U AA",
+        "awayTeamCode": "510951",
+        "location": "David Hamilton Park",
         "isCompleted": false,
         "score": null
       },
@@ -4685,6 +4717,18 @@
     ],
     "recentGames": [
       {
+        "date": "2025-06-14T11:00:00.000Z",
+        "dateText": "Sat, Jun 14",
+        "time": "11:00 AM",
+        "homeTeam": "Muskoka Hornets 13U B",
+        "homeTeamCode": "516242",
+        "awayTeam": "Mansfield Cubs 13U A",
+        "awayTeamCode": "510942",
+        "location": "MCCULLEY ROBERTSON",
+        "isCompleted": false,
+        "score": null
+      },
+      {
         "date": "2025-06-14T10:00:00.000Z",
         "dateText": "Sat, Jun 14",
         "time": "10:00 AM",
@@ -4721,8 +4765,12 @@
         "awayTeam": "Stouffville Yankees 13U AA",
         "awayTeamCode": "510953",
         "location": "David Hamilton Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 4,
+          "scoreText": "4-14"
+        }
       },
       {
         "date": "2025-06-11T20:00:00.000Z",
@@ -4740,25 +4788,33 @@
         "date": "2025-06-11T18:30:00.000Z",
         "dateText": "Wed, Jun 11",
         "time": "6:30 PM",
-        "homeTeam": "Barrie Baycats 13U AA",
-        "homeTeamCode": "510947",
-        "awayTeam": "Orangeville Bengals 13U AA",
-        "awayTeamCode": "510951",
-        "location": "Lampman Lane Park",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": "2025-06-11T18:30:00.000Z",
-        "dateText": "Wed, Jun 11",
-        "time": "6:30 PM",
         "homeTeam": "Markham Mariners 13U AA",
         "homeTeamCode": "510949",
         "awayTeam": "Aurora-King Jays 13U AA",
         "awayTeamCode": "510946",
         "location": "Milliken Mills #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 2,
+          "scoreText": "2-7"
+        }
+      },
+      {
+        "date": "2025-06-11T18:30:00.000Z",
+        "dateText": "Wed, Jun 11",
+        "time": "6:30 PM",
+        "homeTeam": "Barrie Baycats 13U AA",
+        "homeTeamCode": "510947",
+        "awayTeam": "Orangeville Bengals 13U AA",
+        "awayTeamCode": "510951",
+        "location": "Lampman Lane Park",
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 7,
+          "scoreText": "7-8"
+        }
       },
       {
         "date": "2025-06-10T20:30:00.000Z",
@@ -4780,6 +4836,18 @@
         "date": "2025-06-10T19:00:00.000Z",
         "dateText": "Tue, Jun 10",
         "time": "7:00 PM",
+        "homeTeam": "Midland Penetang Twins 13U B",
+        "homeTeamCode": "510957",
+        "awayTeam": "Mansfield Cubs 13U A",
+        "awayTeamCode": "510942",
+        "location": "PPD",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2025-06-10T19:00:00.000Z",
+        "dateText": "Tue, Jun 10",
+        "time": "7:00 PM",
         "homeTeam": "Richmond Hill Phoenix 13U A",
         "homeTeamCode": "510945",
         "awayTeam": "Aurora-King Jays 13U A",
@@ -4791,49 +4859,9 @@
           "away": 7,
           "scoreText": "7-5"
         }
-      },
-      {
-        "date": "2025-06-10T19:00:00.000Z",
-        "dateText": "Tue, Jun 10",
-        "time": "7:00 PM",
-        "homeTeam": "Midland Penetang Twins 13U B",
-        "homeTeamCode": "510957",
-        "awayTeam": "Mansfield Cubs 13U A",
-        "awayTeamCode": "510942",
-        "location": "PPD",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": "2025-06-10T18:00:00.000Z",
-        "dateText": "Tue, Jun 10",
-        "time": "6:00 PM",
-        "homeTeam": "Orillia Royals 13U A",
-        "homeTeamCode": "510944",
-        "awayTeam": "Muskoka Hornets 13U B",
-        "awayTeamCode": "516242",
-        "location": "UDELL",
-        "isCompleted": true,
-        "score": {
-          "home": 29,
-          "away": 0,
-          "scoreText": "0-29"
-        }
       }
     ],
     "upcomingGames": [
-      {
-        "date": "2025-06-14T11:00:00.000Z",
-        "dateText": "Sat, Jun 14",
-        "time": "11:00 AM",
-        "homeTeam": "Muskoka Hornets 13U B",
-        "homeTeamCode": "516242",
-        "awayTeam": "Mansfield Cubs 13U A",
-        "awayTeamCode": "510942",
-        "location": "MCCULLEY ROBERTSON",
-        "isCompleted": false,
-        "score": null
-      },
       {
         "date": "2025-06-14T14:00:00.000Z",
         "dateText": "Sat, Jun 14",
@@ -4847,14 +4875,14 @@
         "score": null
       },
       {
-        "date": "2025-06-15T13:00:00.000Z",
+        "date": "2025-06-15T14:00:00.000Z",
         "dateText": "Sun, Jun 15",
-        "time": "1:00 PM",
+        "time": "2:00 PM",
         "homeTeam": "Stouffville Yankees 13U AA",
         "homeTeamCode": "510953",
         "awayTeam": "Caledon Nationals 13U AA",
         "awayTeamCode": "510948",
-        "location": "Memorial Park",
+        "location": "Bethesda #3",
         "isCompleted": false,
         "score": null
       },
@@ -4879,6 +4907,18 @@
         "awayTeam": "Richmond Hill Phoenix 13U A",
         "awayTeamCode": "510945",
         "location": "HALLMARK 1",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2025-06-15T19:00:00.000Z",
+        "dateText": "Sun, Jun 15",
+        "time": "7:00 PM",
+        "homeTeam": "Richmond Hill Phoenix 13U AA",
+        "homeTeamCode": "510952",
+        "awayTeam": "Orangeville Bengals 13U AA",
+        "awayTeamCode": "510951",
+        "location": "David Hamilton Park",
         "isCompleted": false,
         "score": null
       },
@@ -4943,14 +4983,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-14T10:44:08.875Z",
+    "lastUpdated": "2025-06-14T11:13:33.293Z",
     "totalGames": 151
   },
   "summary": {
     "totalTeams": 9,
     "totalGames": 151,
-    "completedGames": 51,
-    "upcomingGames": 100,
+    "completedGames": 54,
+    "upcomingGames": 97,
     "topTeam": {
       "team": "Mansfield Cubs 13U A",
       "teamCode": "510942",
@@ -4967,6 +5007,6 @@
       "date": "Mon, May 12",
       "location": "MANSFIELD"
     },
-    "lastUpdated": "2025-06-14T10:47:24.579Z"
+    "lastUpdated": "2025-06-14T11:16:48.451Z"
   }
 }
