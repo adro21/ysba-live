@@ -56,6 +56,24 @@
         }
       },
       {
+        "position": 2,
+        "team": "Stouffville Yankees 14U A",
+        "teamCode": "510966",
+        "record": {
+          "gamesPlayed": 7,
+          "wins": 4,
+          "losses": 2,
+          "ties": 1,
+          "winPercentage": "0.643"
+        },
+        "stats": {
+          "points": 9,
+          "runsFor": 81,
+          "runsAgainst": 63,
+          "runDifferential": 18
+        }
+      },
+      {
         "position": 5,
         "team": "Caledon Nationals 14U A",
         "teamCode": "510961",
@@ -71,42 +89,6 @@
           "runsFor": 46,
           "runsAgainst": 35,
           "runDifferential": 11
-        }
-      },
-      {
-        "position": 2,
-        "team": "Stouffville Yankees 14U A",
-        "teamCode": "510966",
-        "record": {
-          "gamesPlayed": 6,
-          "wins": 3,
-          "losses": 2,
-          "ties": 1,
-          "winPercentage": "0.583"
-        },
-        "stats": {
-          "points": 7,
-          "runsFor": 68,
-          "runsAgainst": 56,
-          "runDifferential": 12
-        }
-      },
-      {
-        "position": 4,
-        "team": "Thornhill Reds 14U A",
-        "teamCode": "510965",
-        "record": {
-          "gamesPlayed": 6,
-          "wins": 3,
-          "losses": 3,
-          "ties": 0,
-          "winPercentage": "0.500"
-        },
-        "stats": {
-          "points": 6,
-          "runsFor": 65,
-          "runsAgainst": 65,
-          "runDifferential": 0
         }
       },
       {
@@ -182,6 +164,24 @@
         }
       },
       {
+        "position": 4,
+        "team": "Thornhill Reds 14U A",
+        "teamCode": "510965",
+        "record": {
+          "gamesPlayed": 7,
+          "wins": 3,
+          "losses": 4,
+          "ties": 0,
+          "winPercentage": "0.429"
+        },
+        "stats": {
+          "points": 6,
+          "runsFor": 72,
+          "runsAgainst": 78,
+          "runDifferential": -6
+        }
+      },
+      {
         "position": 11,
         "team": "Bradford Tigers 14U A",
         "teamCode": "510960",
@@ -236,7 +236,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-06-14T13:45:13.490Z",
+    "lastUpdated": "2025-06-14T14:15:31.075Z",
     "totalTeams": 13
   },
   "schedule": {
@@ -386,7 +386,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T13:45:17.969Z"
+        "lastUpdated": "2025-06-14T14:15:35.642Z"
       },
       "510959": {
         "teamCode": "510959",
@@ -521,7 +521,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T13:45:17.970Z"
+        "lastUpdated": "2025-06-14T14:15:35.642Z"
       },
       "510960": {
         "teamCode": "510960",
@@ -672,7 +672,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T13:45:17.970Z"
+        "lastUpdated": "2025-06-14T14:15:35.642Z"
       },
       "510961": {
         "teamCode": "510961",
@@ -815,7 +815,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T13:45:17.970Z"
+        "lastUpdated": "2025-06-14T14:15:35.642Z"
       },
       "510962": {
         "teamCode": "510962",
@@ -966,7 +966,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T13:45:17.970Z"
+        "lastUpdated": "2025-06-14T14:15:35.642Z"
       },
       "510963": {
         "teamCode": "510963",
@@ -1081,7 +1081,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T13:45:17.970Z"
+        "lastUpdated": "2025-06-14T14:15:35.642Z"
       },
       "510964": {
         "teamCode": "510964",
@@ -1232,7 +1232,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T13:45:17.970Z"
+        "lastUpdated": "2025-06-14T14:15:35.642Z"
       },
       "510965": {
         "teamCode": "510965",
@@ -1309,8 +1309,12 @@
             "awayTeam": "Thornhill Reds 14U A",
             "awayTeamCode": "510965",
             "location": "Bethesda Sports Field #2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 7,
+              "scoreText": "7-13"
+            }
           }
         ],
         "nextGames": [
@@ -1375,7 +1379,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T13:45:17.970Z"
+        "lastUpdated": "2025-06-14T14:15:35.642Z"
       },
       "510966": {
         "teamCode": "510966",
@@ -1440,8 +1444,12 @@
             "awayTeam": "Thornhill Reds 14U A",
             "awayTeamCode": "510965",
             "location": "Bethesda Sports Field #2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 7,
+              "scoreText": "7-13"
+            }
           },
           {
             "date": "2025-06-14T11:00:00.000Z",
@@ -1518,7 +1526,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T13:45:17.970Z"
+        "lastUpdated": "2025-06-14T14:15:35.642Z"
       },
       "510979": {
         "teamCode": "510979",
@@ -1665,7 +1673,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T13:45:17.970Z"
+        "lastUpdated": "2025-06-14T14:15:35.642Z"
       },
       "516243": {
         "teamCode": "516243",
@@ -1812,7 +1820,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T13:45:17.970Z"
+        "lastUpdated": "2025-06-14T14:15:35.642Z"
       },
       "518957": {
         "teamCode": "518957",
@@ -1959,7 +1967,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T13:45:17.970Z"
+        "lastUpdated": "2025-06-14T14:15:35.642Z"
       },
       "546378": {
         "teamCode": "546378",
@@ -2090,7 +2098,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T13:45:17.970Z"
+        "lastUpdated": "2025-06-14T14:15:35.642Z"
       }
     },
     "allGames": [
@@ -2659,8 +2667,12 @@
         "awayTeam": "Thornhill Reds 14U A",
         "awayTeamCode": "510965",
         "location": "Bethesda Sports Field #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 7,
+          "scoreText": "7-13"
+        }
       },
       {
         "date": "2025-06-14T11:00:00.000Z",
@@ -3801,8 +3813,12 @@
         "awayTeam": "Thornhill Reds 14U A",
         "awayTeamCode": "510965",
         "location": "Bethesda Sports Field #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 7,
+          "scoreText": "7-13"
+        }
       },
       {
         "date": "2025-06-12T19:00:00.000Z",
@@ -4047,14 +4063,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-14T13:45:17.970Z",
+    "lastUpdated": "2025-06-14T14:15:35.642Z",
     "totalGames": 130
   },
   "summary": {
     "totalTeams": 13,
     "totalGames": 130,
-    "completedGames": 31,
-    "upcomingGames": 99,
+    "completedGames": 32,
+    "upcomingGames": 98,
     "topTeam": {
       "team": "Richmond Hill Phoenix 14U A",
       "teamCode": "510964",
@@ -4071,6 +4087,6 @@
       "date": "Mon, May 19",
       "location": "Joe Magani Field #5"
     },
-    "lastUpdated": "2025-06-14T13:48:15.916Z"
+    "lastUpdated": "2025-06-14T14:18:32.887Z"
   }
 }

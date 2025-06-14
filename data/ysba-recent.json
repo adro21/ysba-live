@@ -1,7 +1,77 @@
 {
-  "lastUpdated": "2025-06-14T13:48:15.916Z",
+  "lastUpdated": "2025-06-14T14:18:32.887Z",
   "totalGames": 200,
   "games": [
+    {
+      "date": "2025-06-14T14:00:00.000Z",
+      "dateText": "Sat, Jun 14",
+      "time": "2:00 PM",
+      "homeTeam": "Orangeville Bengals 9U A",
+      "homeTeamCode": "511063",
+      "awayTeam": "Muskoka Hornets 9U A",
+      "awayTeamCode": "516247",
+      "location": "Wharf Field",
+      "isCompleted": false,
+      "score": null,
+      "division": "9U",
+      "tier": "rep-tier-3"
+    },
+    {
+      "date": "2025-06-14T14:00:00.000Z",
+      "dateText": "Sat, Jun 14",
+      "time": "2:00 PM",
+      "homeTeam": "Orillia Royals 11U A",
+      "homeTeamCode": "510898",
+      "awayTeam": "Barrie Baycats 11U A",
+      "awayTeamCode": "510892",
+      "location": "Gander Ross Field",
+      "isCompleted": false,
+      "score": null,
+      "division": "11U",
+      "tier": "rep-tier-2"
+    },
+    {
+      "date": "2025-06-14T14:00:00.000Z",
+      "dateText": "Sat, Jun 14",
+      "time": "2:00 PM",
+      "homeTeam": "Orillia Royals 11U A",
+      "homeTeamCode": "510898",
+      "awayTeam": "Barrie Baycats 11U A",
+      "awayTeamCode": "510892",
+      "location": "Gander Ross Field",
+      "isCompleted": false,
+      "score": null,
+      "division": "11U",
+      "tier": "rep-tier-3"
+    },
+    {
+      "date": "2025-06-14T14:00:00.000Z",
+      "dateText": "Sat, Jun 14",
+      "time": "2:00 PM",
+      "homeTeam": "Muskoka Hornets 13U B",
+      "homeTeamCode": "516242",
+      "awayTeam": "Mansfield Cubs 13U A",
+      "awayTeamCode": "510942",
+      "location": "MCCULLEY ROBERTSON",
+      "isCompleted": false,
+      "score": null,
+      "division": "13U",
+      "tier": "rep-tier-2"
+    },
+    {
+      "date": "2025-06-14T14:00:00.000Z",
+      "dateText": "Sat, Jun 14",
+      "time": "2:00 PM",
+      "homeTeam": "Muskoka Hornets 13U B",
+      "homeTeamCode": "516242",
+      "awayTeam": "Mansfield Cubs 13U A",
+      "awayTeamCode": "510942",
+      "location": "MCCULLEY ROBERTSON",
+      "isCompleted": false,
+      "score": null,
+      "division": "13U",
+      "tier": "rep-tier-3"
+    },
     {
       "date": "2025-06-14T13:30:00.000Z",
       "dateText": "Sat, Jun 14",
@@ -635,88 +705,14 @@
       "awayTeam": "Thornhill Reds 14U A",
       "awayTeamCode": "510965",
       "location": "Bethesda Sports Field #2",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 13,
+        "away": 7,
+        "scoreText": "7-13"
+      },
       "division": "14U",
       "tier": "rep-tier-3"
-    },
-    {
-      "date": "2025-06-13T19:00:00.000Z",
-      "dateText": "Fri, Jun 13",
-      "time": "7:00 PM",
-      "homeTeam": "Aurora-King Jays 15U A",
-      "homeTeamCode": "510980",
-      "awayTeam": "Georgina Bulldogs 15U B",
-      "awayTeamCode": "510998",
-      "location": "Stewart Barnett",
-      "isCompleted": true,
-      "score": {
-        "home": 4,
-        "away": 11,
-        "scoreText": "11-4"
-      },
-      "division": "15U",
-      "tier": "rep-tier-2"
-    },
-    {
-      "date": "2025-06-13T19:00:00.000Z",
-      "dateText": "Fri, Jun 13",
-      "time": "7:00 PM",
-      "homeTeam": "Aurora-King Jays 15U A",
-      "homeTeamCode": "510980",
-      "awayTeam": "Georgina Bulldogs 15U B",
-      "awayTeamCode": "510998",
-      "location": "Stewart Barnett",
-      "isCompleted": true,
-      "score": {
-        "home": 4,
-        "away": 11,
-        "scoreText": "11-4"
-      },
-      "division": "15U",
-      "tier": "rep-tier-3"
-    },
-    {
-      "date": "2025-06-13T18:30:00.000Z",
-      "dateText": "Fri, Jun 13",
-      "time": "6:30 PM",
-      "homeTeam": "Markham Mariners 11U AA",
-      "homeTeamCode": "510908",
-      "awayTeam": "Aurora-King Jays 11U AA",
-      "awayTeamCode": "510905",
-      "location": "Carlton Park",
-      "isCompleted": false,
-      "score": null,
-      "division": "11U",
-      "tier": "rep-tier-2"
-    },
-    {
-      "date": "2025-06-13T18:30:00.000Z",
-      "dateText": "Fri, Jun 13",
-      "time": "6:30 PM",
-      "homeTeam": "Markham Mariners 11U AA",
-      "homeTeamCode": "510908",
-      "awayTeam": "Aurora-King Jays 11U AA",
-      "awayTeamCode": "510905",
-      "location": "Carlton Park",
-      "isCompleted": false,
-      "score": null,
-      "division": "11U",
-      "tier": "rep-tier-3"
-    },
-    {
-      "date": "2025-06-13T18:00:00.000Z",
-      "dateText": "Fri, Jun 13",
-      "time": "6:00 PM",
-      "homeTeam": "Aurora-King Jays 10U A",
-      "homeTeamCode": "510869",
-      "awayTeam": "Georgina Bulldogs 10U B",
-      "awayTeamCode": "510889",
-      "location": "Town Park",
-      "isCompleted": false,
-      "score": null,
-      "division": "10U",
-      "tier": "rep-tier-2"
     }
   ]
 }
