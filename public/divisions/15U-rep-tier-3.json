@@ -20,7 +20,7 @@
         }
       },
       {
-        "position": 7,
+        "position": 8,
         "team": "Stouffville Yankees 15U A",
         "teamCode": "510985",
         "record": {
@@ -35,24 +35,6 @@
           "runsFor": 32,
           "runsAgainst": 14,
           "runDifferential": 18
-        }
-      },
-      {
-        "position": 4,
-        "team": "Aurora-King Jays 15U A",
-        "teamCode": "510980",
-        "record": {
-          "gamesPlayed": 4,
-          "wins": 3,
-          "losses": 1,
-          "ties": 0,
-          "winPercentage": "0.750"
-        },
-        "stats": {
-          "points": 6,
-          "runsFor": 31,
-          "runsAgainst": 19,
-          "runDifferential": 12
         }
       },
       {
@@ -92,6 +74,24 @@
         }
       },
       {
+        "position": 4,
+        "team": "Aurora-King Jays 15U A",
+        "teamCode": "510980",
+        "record": {
+          "gamesPlayed": 5,
+          "wins": 3,
+          "losses": 2,
+          "ties": 0,
+          "winPercentage": "0.600"
+        },
+        "stats": {
+          "points": 6,
+          "runsFor": 35,
+          "runsAgainst": 30,
+          "runDifferential": 5
+        }
+      },
+      {
         "position": 6,
         "team": "Collingwood Jays 15U A",
         "teamCode": "510986",
@@ -107,6 +107,24 @@
           "runsFor": 35,
           "runsAgainst": 27,
           "runDifferential": 8
+        }
+      },
+      {
+        "position": 7,
+        "team": "Georgina Bulldogs 15U B",
+        "teamCode": "510998",
+        "record": {
+          "gamesPlayed": 4,
+          "wins": 2,
+          "losses": 2,
+          "ties": 0,
+          "winPercentage": "0.500"
+        },
+        "stats": {
+          "points": 4,
+          "runsFor": 35,
+          "runsAgainst": 28,
+          "runDifferential": 7
         }
       },
       {
@@ -129,24 +147,6 @@
       },
       {
         "position": 9,
-        "team": "Georgina Bulldogs 15U B",
-        "teamCode": "510998",
-        "record": {
-          "gamesPlayed": 3,
-          "wins": 1,
-          "losses": 2,
-          "ties": 0,
-          "winPercentage": "0.333"
-        },
-        "stats": {
-          "points": 2,
-          "runsFor": 24,
-          "runsAgainst": 24,
-          "runDifferential": 0
-        }
-      },
-      {
-        "position": 8,
         "team": "Barrie Baycats 15U A",
         "teamCode": "510981",
         "record": {
@@ -182,7 +182,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-06-14T09:45:16.251Z",
+    "lastUpdated": "2025-06-14T10:17:39.133Z",
     "totalTeams": 10
   },
   "schedule": {
@@ -266,8 +266,12 @@
             "awayTeam": "Georgina Bulldogs 15U B",
             "awayTeamCode": "510998",
             "location": "Stewart Barnett",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 11,
+              "scoreText": "11-4"
+            }
           }
         ],
         "nextGames": [
@@ -332,7 +336,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T09:45:20.829Z"
+        "lastUpdated": "2025-06-14T10:17:43.391Z"
       },
       "510981": {
         "teamCode": "510981",
@@ -475,7 +479,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T09:45:20.829Z"
+        "lastUpdated": "2025-06-14T10:17:43.391Z"
       },
       "510982": {
         "teamCode": "510982",
@@ -626,7 +630,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T09:45:20.829Z"
+        "lastUpdated": "2025-06-14T10:17:43.391Z"
       },
       "510983": {
         "teamCode": "510983",
@@ -773,7 +777,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T09:45:20.829Z"
+        "lastUpdated": "2025-06-14T10:17:43.391Z"
       },
       "510984": {
         "teamCode": "510984",
@@ -920,7 +924,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T09:45:20.829Z"
+        "lastUpdated": "2025-06-14T10:17:43.391Z"
       },
       "510985": {
         "teamCode": "510985",
@@ -1023,7 +1027,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T09:45:20.829Z"
+        "lastUpdated": "2025-06-14T10:17:43.391Z"
       },
       "510986": {
         "teamCode": "510986",
@@ -1170,7 +1174,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T09:45:20.829Z"
+        "lastUpdated": "2025-06-14T10:17:43.392Z"
       },
       "510987": {
         "teamCode": "510987",
@@ -1317,7 +1321,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T09:45:20.829Z"
+        "lastUpdated": "2025-06-14T10:17:43.392Z"
       },
       "510988": {
         "teamCode": "510988",
@@ -1464,7 +1468,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T09:45:20.829Z"
+        "lastUpdated": "2025-06-14T10:17:43.392Z"
       },
       "510989": {
         "teamCode": "510989",
@@ -1599,7 +1603,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T09:45:20.829Z"
+        "lastUpdated": "2025-06-14T10:17:43.392Z"
       },
       "510990": {
         "teamCode": "510990",
@@ -1734,7 +1738,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T09:45:20.829Z"
+        "lastUpdated": "2025-06-14T10:17:43.392Z"
       },
       "510991": {
         "teamCode": "510991",
@@ -1877,7 +1881,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T09:45:20.829Z"
+        "lastUpdated": "2025-06-14T10:17:43.392Z"
       },
       "510992": {
         "teamCode": "510992",
@@ -2012,7 +2016,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T09:45:20.829Z"
+        "lastUpdated": "2025-06-14T10:17:43.392Z"
       },
       "510993": {
         "teamCode": "510993",
@@ -2159,7 +2163,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T09:45:20.829Z"
+        "lastUpdated": "2025-06-14T10:17:43.392Z"
       },
       "510998": {
         "teamCode": "510998",
@@ -2224,8 +2228,12 @@
             "awayTeam": "Georgina Bulldogs 15U B",
             "awayTeamCode": "510998",
             "location": "Stewart Barnett",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 11,
+              "scoreText": "11-4"
+            }
           }
         ],
         "nextGames": [
@@ -2290,7 +2298,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T09:45:20.829Z"
+        "lastUpdated": "2025-06-14T10:17:43.392Z"
       },
       "516244": {
         "teamCode": "516244",
@@ -2409,7 +2417,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T09:45:20.829Z"
+        "lastUpdated": "2025-06-14T10:17:43.392Z"
       },
       "518959": {
         "teamCode": "518959",
@@ -2560,7 +2568,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T09:45:20.829Z"
+        "lastUpdated": "2025-06-14T10:17:43.392Z"
       },
       "546379": {
         "teamCode": "546379",
@@ -2707,7 +2715,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T09:45:20.829Z"
+        "lastUpdated": "2025-06-14T10:17:43.392Z"
       }
     },
     "allGames": [
@@ -3496,8 +3504,12 @@
         "awayTeam": "Georgina Bulldogs 15U B",
         "awayTeamCode": "510998",
         "location": "Stewart Barnett",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 11,
+          "scoreText": "11-4"
+        }
       },
       {
         "date": "2025-06-14T13:00:00.000Z",
@@ -4830,8 +4842,12 @@
         "awayTeam": "Georgina Bulldogs 15U B",
         "awayTeamCode": "510998",
         "location": "Stewart Barnett",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 11,
+          "scoreText": "11-4"
+        }
       },
       {
         "date": "2025-06-12T20:30:00.000Z",
@@ -5096,14 +5112,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-14T09:45:20.829Z",
+    "lastUpdated": "2025-06-14T10:17:43.392Z",
     "totalGames": 162
   },
   "summary": {
     "totalTeams": 10,
     "totalGames": 162,
-    "completedGames": 41,
-    "upcomingGames": 121,
+    "completedGames": 42,
+    "upcomingGames": 120,
     "topTeam": {
       "team": "Ontario Women",
       "teamCode": "546379",
@@ -5120,6 +5136,6 @@
       "date": "Thu, May 29",
       "location": "Bethesda Fields #2"
     },
-    "lastUpdated": "2025-06-14T09:47:45.182Z"
+    "lastUpdated": "2025-06-14T10:19:57.009Z"
   }
 }
