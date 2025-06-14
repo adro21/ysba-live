@@ -42,17 +42,35 @@
         "team": "Barrie Baycats 18U A",
         "teamCode": "511024",
         "record": {
-          "gamesPlayed": 6,
+          "gamesPlayed": 7,
           "wins": 5,
-          "losses": 1,
+          "losses": 2,
           "ties": 0,
-          "winPercentage": "0.833"
+          "winPercentage": "0.714"
         },
         "stats": {
           "points": 10,
-          "runsFor": 51,
-          "runsAgainst": 19,
-          "runDifferential": 32
+          "runsFor": 58,
+          "runsAgainst": 27,
+          "runDifferential": 31
+        }
+      },
+      {
+        "position": 5,
+        "team": "Aurora-King Jays 17U A",
+        "teamCode": "511021",
+        "record": {
+          "gamesPlayed": 7,
+          "wins": 5,
+          "losses": 2,
+          "ties": 0,
+          "winPercentage": "0.714"
+        },
+        "stats": {
+          "points": 10,
+          "runsFor": 43,
+          "runsAgainst": 36,
+          "runDifferential": 7
         }
       },
       {
@@ -71,24 +89,6 @@
           "runsFor": 55,
           "runsAgainst": 39,
           "runDifferential": 16
-        }
-      },
-      {
-        "position": 5,
-        "team": "Aurora-King Jays 17U A",
-        "teamCode": "511021",
-        "record": {
-          "gamesPlayed": 6,
-          "wins": 4,
-          "losses": 2,
-          "ties": 0,
-          "winPercentage": "0.667"
-        },
-        "stats": {
-          "points": 8,
-          "runsFor": 35,
-          "runsAgainst": 29,
-          "runDifferential": 6
         }
       },
       {
@@ -344,7 +344,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-06-13T23:42:45.214Z",
+    "lastUpdated": "2025-06-14T01:11:12.727Z",
     "totalTeams": 19
   },
   "schedule": {
@@ -428,8 +428,12 @@
             "awayTeam": "Barrie Baycats 18U A",
             "awayTeamCode": "511024",
             "location": "Lambert Wilson #4",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 7,
+              "scoreText": "7-8"
+            }
           }
         ],
         "nextGames": [
@@ -494,7 +498,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T23:42:49.489Z"
+        "lastUpdated": "2025-06-14T01:11:16.953Z"
       },
       "511022": {
         "teamCode": "511022",
@@ -645,7 +649,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T23:42:49.489Z"
+        "lastUpdated": "2025-06-14T01:11:16.953Z"
       },
       "511023": {
         "teamCode": "511023",
@@ -784,7 +788,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T23:42:49.489Z"
+        "lastUpdated": "2025-06-14T01:11:16.953Z"
       },
       "511024": {
         "teamCode": "511024",
@@ -865,8 +869,12 @@
             "awayTeam": "Barrie Baycats 18U A",
             "awayTeamCode": "511024",
             "location": "Lambert Wilson #4",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 7,
+              "scoreText": "7-8"
+            }
           }
         ],
         "nextGames": [
@@ -931,7 +939,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T23:42:49.489Z"
+        "lastUpdated": "2025-06-14T01:11:16.953Z"
       },
       "511025": {
         "teamCode": "511025",
@@ -1078,7 +1086,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T23:42:49.489Z"
+        "lastUpdated": "2025-06-14T01:11:16.953Z"
       },
       "511026": {
         "teamCode": "511026",
@@ -1225,7 +1233,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T23:42:49.489Z"
+        "lastUpdated": "2025-06-14T01:11:16.953Z"
       },
       "511027": {
         "teamCode": "511027",
@@ -1372,7 +1380,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T23:42:49.489Z"
+        "lastUpdated": "2025-06-14T01:11:16.953Z"
       },
       "511028": {
         "teamCode": "511028",
@@ -1523,7 +1531,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T23:42:49.489Z"
+        "lastUpdated": "2025-06-14T01:11:16.953Z"
       },
       "511030": {
         "teamCode": "511030",
@@ -1674,7 +1682,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T23:42:49.489Z"
+        "lastUpdated": "2025-06-14T01:11:16.953Z"
       },
       "511031": {
         "teamCode": "511031",
@@ -1801,7 +1809,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T23:42:49.489Z"
+        "lastUpdated": "2025-06-14T01:11:16.953Z"
       },
       "511032": {
         "teamCode": "511032",
@@ -1948,7 +1956,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T23:42:49.489Z"
+        "lastUpdated": "2025-06-14T01:11:16.953Z"
       },
       "511033": {
         "teamCode": "511033",
@@ -2099,7 +2107,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T23:42:49.489Z"
+        "lastUpdated": "2025-06-14T01:11:16.954Z"
       },
       "511034": {
         "teamCode": "511034",
@@ -2250,7 +2258,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T23:42:49.489Z"
+        "lastUpdated": "2025-06-14T01:11:16.954Z"
       },
       "511035": {
         "teamCode": "511035",
@@ -2397,7 +2405,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T23:42:49.489Z"
+        "lastUpdated": "2025-06-14T01:11:16.954Z"
       },
       "516246": {
         "teamCode": "516246",
@@ -2536,7 +2544,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T23:42:49.489Z"
+        "lastUpdated": "2025-06-14T01:11:16.954Z"
       },
       "518960": {
         "teamCode": "518960",
@@ -2687,7 +2695,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T23:42:49.489Z"
+        "lastUpdated": "2025-06-14T01:11:16.954Z"
       },
       "518962": {
         "teamCode": "518962",
@@ -2838,7 +2846,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T23:42:49.490Z"
+        "lastUpdated": "2025-06-14T01:11:16.954Z"
       },
       "519242": {
         "teamCode": "519242",
@@ -2989,7 +2997,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T23:42:49.490Z"
+        "lastUpdated": "2025-06-14T01:11:16.954Z"
       },
       "546377": {
         "teamCode": "546377",
@@ -3136,7 +3144,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-13T23:42:49.490Z"
+        "lastUpdated": "2025-06-14T01:11:16.954Z"
       }
     },
     "allGames": [
@@ -4145,8 +4153,12 @@
         "awayTeam": "Barrie Baycats 18U A",
         "awayTeamCode": "511024",
         "location": "Lambert Wilson #4",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 7,
+          "scoreText": "7-8"
+        }
       },
       {
         "date": "2025-06-14T10:00:00.000Z",
@@ -5299,8 +5311,12 @@
         "awayTeam": "Barrie Baycats 18U A",
         "awayTeamCode": "511024",
         "location": "Lambert Wilson #4",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 7,
+          "scoreText": "7-8"
+        }
       },
       {
         "date": "2025-06-12T18:30:00.000Z",
@@ -5569,14 +5585,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-13T23:42:49.490Z",
+    "lastUpdated": "2025-06-14T01:11:16.954Z",
     "totalGames": 161
   },
   "summary": {
     "totalTeams": 19,
     "totalGames": 161,
-    "completedGames": 54,
-    "upcomingGames": 107,
+    "completedGames": 55,
+    "upcomingGames": 106,
     "topTeam": {
       "team": "Caledon Nationals 18U AA",
       "teamCode": "511035",
@@ -5593,6 +5609,6 @@
       "date": "Mon, May 26",
       "location": "Stewart Burnett"
     },
-    "lastUpdated": "2025-06-13T23:44:32.397Z"
+    "lastUpdated": "2025-06-14T01:12:59.501Z"
   }
 }
