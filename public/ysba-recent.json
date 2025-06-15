@@ -1,7 +1,21 @@
 {
-  "lastUpdated": "2025-06-15T12:32:23.982Z",
+  "lastUpdated": "2025-06-15T13:08:16.122Z",
   "totalGames": 200,
   "games": [
+    {
+      "date": "2025-06-15T13:00:00.000Z",
+      "dateText": "Sun, Jun 15",
+      "time": "1:00 PM",
+      "homeTeam": "Midland Penetang Twins 14U B",
+      "homeTeamCode": "510979",
+      "awayTeam": "Thornhill Reds 14U A",
+      "awayTeamCode": "510965",
+      "location": "Tiffin Park",
+      "isCompleted": false,
+      "score": null,
+      "division": "14U",
+      "tier": "rep-tier-3"
+    },
     {
       "date": "2025-06-15T12:30:00.000Z",
       "dateText": "Sun, Jun 15",
@@ -371,8 +385,12 @@
       "awayTeam": "Orillia Royals 9U A",
       "awayTeamCode": "511064",
       "location": "Dean Heliotis Diamond",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 12,
+        "away": 25,
+        "scoreText": "25-12"
+      },
       "division": "9U",
       "tier": "rep-tier-3"
     },
@@ -737,8 +755,12 @@
       "awayTeam": "Vaughan Vikings 9U A",
       "awayTeamCode": "518948",
       "location": "Dean Heliotis Diamond",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 18,
+        "away": 2,
+        "scoreText": "2-18"
+      },
       "division": "9U",
       "tier": "rep-tier-3"
     },
@@ -758,24 +780,6 @@
         "scoreText": "3-11"
       },
       "division": "9U",
-      "tier": "select-all-tiers"
-    },
-    {
-      "date": "2025-06-14T10:00:00.000Z",
-      "dateText": "Sat, Jun 14",
-      "time": "10:00 AM",
-      "homeTeam": "TNT Thunder 11U DS",
-      "homeTeamCode": "518974",
-      "awayTeam": "Innisfil Cardinals 11U DS",
-      "awayTeamCode": "511077",
-      "location": "Tottenham Community Centre",
-      "isCompleted": true,
-      "score": {
-        "home": 13,
-        "away": 2,
-        "scoreText": "2-13"
-      },
-      "division": "11U",
       "tier": "select-all-tiers"
     }
   ]
