@@ -6,17 +6,17 @@
         "team": "Midland Penetang Twins 9U DS",
         "teamCode": "511105",
         "record": {
-          "gamesPlayed": 8,
-          "wins": 8,
+          "gamesPlayed": 10,
+          "wins": 10,
           "losses": 0,
           "ties": 0,
           "winPercentage": "1.000"
         },
         "stats": {
-          "points": 16,
-          "runsFor": 118,
-          "runsAgainst": 46,
-          "runDifferential": 72
+          "points": 20,
+          "runsFor": 165,
+          "runsAgainst": 47,
+          "runDifferential": 118
         }
       },
       {
@@ -146,24 +146,6 @@
         }
       },
       {
-        "position": 10,
-        "team": "Caledon Nationals 9U HS",
-        "teamCode": "511116",
-        "record": {
-          "gamesPlayed": 4,
-          "wins": 1,
-          "losses": 2,
-          "ties": 1,
-          "winPercentage": "0.375"
-        },
-        "stats": {
-          "points": 3,
-          "runsFor": 34,
-          "runsAgainst": 60,
-          "runDifferential": -26
-        }
-      },
-      {
         "position": 9,
         "team": "Markham Mariners 9U DS",
         "teamCode": "511111",
@@ -179,6 +161,24 @@
           "runsFor": 57,
           "runsAgainst": 108,
           "runDifferential": -51
+        }
+      },
+      {
+        "position": 10,
+        "team": "Caledon Nationals 9U HS",
+        "teamCode": "511116",
+        "record": {
+          "gamesPlayed": 6,
+          "wins": 1,
+          "losses": 4,
+          "ties": 1,
+          "winPercentage": "0.250"
+        },
+        "stats": {
+          "points": 3,
+          "runsFor": 35,
+          "runsAgainst": 107,
+          "runDifferential": -72
         }
       },
       {
@@ -254,7 +254,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-06-15T20:20:04.974Z",
+    "lastUpdated": "2025-06-15T20:44:50.352Z",
     "totalTeams": 14
   },
   "schedule": {
@@ -314,8 +314,12 @@
             "awayTeam": "Caledon Nationals 9U HS",
             "awayTeamCode": "511116",
             "location": "Little Lake Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 19,
+              "away": 0,
+              "scoreText": "0-19"
+            }
           },
           {
             "date": "2025-06-15T12:30:00.000Z",
@@ -326,8 +330,12 @@
             "awayTeam": "Caledon Nationals 9U HS",
             "awayTeamCode": "511116",
             "location": "Little Lake Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 28,
+              "away": 1,
+              "scoreText": "1-28"
+            }
           }
         ],
         "nextGames": [
@@ -380,7 +388,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-15T20:20:09.363Z"
+        "lastUpdated": "2025-06-15T20:44:54.695Z"
       },
       "511106": {
         "teamCode": "511106",
@@ -531,7 +539,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-15T20:20:09.363Z"
+        "lastUpdated": "2025-06-15T20:44:54.695Z"
       },
       "511107": {
         "teamCode": "511107",
@@ -682,7 +690,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-15T20:20:09.363Z"
+        "lastUpdated": "2025-06-15T20:44:54.695Z"
       },
       "511108": {
         "teamCode": "511108",
@@ -833,7 +841,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-15T20:20:09.363Z"
+        "lastUpdated": "2025-06-15T20:44:54.695Z"
       },
       "511109": {
         "teamCode": "511109",
@@ -984,7 +992,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-15T20:20:09.363Z"
+        "lastUpdated": "2025-06-15T20:44:54.695Z"
       },
       "511110": {
         "teamCode": "511110",
@@ -1119,7 +1127,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-15T20:20:09.363Z"
+        "lastUpdated": "2025-06-15T20:44:54.695Z"
       },
       "511111": {
         "teamCode": "511111",
@@ -1270,7 +1278,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-15T20:20:09.363Z"
+        "lastUpdated": "2025-06-15T20:44:54.695Z"
       },
       "511112": {
         "teamCode": "511112",
@@ -1401,7 +1409,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-15T20:20:09.363Z"
+        "lastUpdated": "2025-06-15T20:44:54.695Z"
       },
       "511113": {
         "teamCode": "511113",
@@ -1552,7 +1560,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-15T20:20:09.363Z"
+        "lastUpdated": "2025-06-15T20:44:54.695Z"
       },
       "511114": {
         "teamCode": "511114",
@@ -1695,7 +1703,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-15T20:20:09.363Z"
+        "lastUpdated": "2025-06-15T20:44:54.695Z"
       },
       "511115": {
         "teamCode": "511115",
@@ -1834,7 +1842,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-15T20:20:09.363Z"
+        "lastUpdated": "2025-06-15T20:44:54.695Z"
       },
       "511116": {
         "teamCode": "511116",
@@ -1899,8 +1907,12 @@
             "awayTeam": "Caledon Nationals 9U HS",
             "awayTeamCode": "511116",
             "location": "Little Lake Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 19,
+              "away": 0,
+              "scoreText": "0-19"
+            }
           },
           {
             "date": "2025-06-15T12:30:00.000Z",
@@ -1911,8 +1923,12 @@
             "awayTeam": "Caledon Nationals 9U HS",
             "awayTeamCode": "511116",
             "location": "Little Lake Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 28,
+              "away": 1,
+              "scoreText": "1-28"
+            }
           }
         ],
         "nextGames": [
@@ -1977,7 +1993,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-15T20:20:09.363Z"
+        "lastUpdated": "2025-06-15T20:44:54.695Z"
       },
       "518965": {
         "teamCode": "518965",
@@ -2128,7 +2144,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-15T20:20:09.363Z"
+        "lastUpdated": "2025-06-15T20:44:54.695Z"
       },
       "518966": {
         "teamCode": "518966",
@@ -2279,7 +2295,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-15T20:20:09.363Z"
+        "lastUpdated": "2025-06-15T20:44:54.695Z"
       }
     },
     "allGames": [
@@ -3092,8 +3108,12 @@
         "awayTeam": "Caledon Nationals 9U HS",
         "awayTeamCode": "511116",
         "location": "Little Lake Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 19,
+          "away": 0,
+          "scoreText": "0-19"
+        }
       },
       {
         "date": "2025-06-15T12:00:00.000Z",
@@ -3116,8 +3136,12 @@
         "awayTeam": "Caledon Nationals 9U HS",
         "awayTeamCode": "511116",
         "location": "Little Lake Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 28,
+          "away": 1,
+          "scoreText": "1-28"
+        }
       },
       {
         "date": "2025-06-15T14:00:00.000Z",
@@ -3838,8 +3862,12 @@
         "awayTeam": "Caledon Nationals 9U HS",
         "awayTeamCode": "511116",
         "location": "Little Lake Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 28,
+          "away": 1,
+          "scoreText": "1-28"
+        }
       },
       {
         "date": "2025-06-15T12:00:00.000Z",
@@ -3862,8 +3890,12 @@
         "awayTeam": "Caledon Nationals 9U HS",
         "awayTeamCode": "511116",
         "location": "Little Lake Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 19,
+          "away": 0,
+          "scoreText": "0-19"
+        }
       },
       {
         "date": "2025-06-14T15:30:00.000Z",
@@ -4080,18 +4112,18 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-15T20:20:09.363Z",
+    "lastUpdated": "2025-06-15T20:44:54.695Z",
     "totalGames": 112
   },
   "summary": {
     "totalTeams": 14,
     "totalGames": 112,
-    "completedGames": 47,
-    "upcomingGames": 65,
+    "completedGames": 49,
+    "upcomingGames": 63,
     "topTeam": {
       "team": "Midland Penetang Twins 9U DS",
       "teamCode": "511105",
-      "wins": 8,
+      "wins": 10,
       "losses": 0,
       "winPercentage": "1.000"
     },
@@ -4104,6 +4136,6 @@
       "date": "Sat, May 31",
       "location": "Maple Community Centre"
     },
-    "lastUpdated": "2025-06-15T20:20:31.536Z"
+    "lastUpdated": "2025-06-15T20:45:16.859Z"
   }
 }
