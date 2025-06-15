@@ -324,10 +324,10 @@ class GitHubActionScraper {
       
       // Only generate new stories if we have significant, quality triggers
       const qualityTriggers = storyTriggers.filter(t => 
-        ['first_win', 'undefeated_milestone', 'hot_streak', 'breakthrough', 'tight_race'].includes(t.type)
+        ['first_win', 'undefeated_milestone', 'hot_streak', 'breakthrough', 'tight_race', 'position_change'].includes(t.type)
       );
       
-      if (qualityTriggers.length >= 2) {
+      if (qualityTriggers.length >= 1) {
         console.log(`📰 Found ${qualityTriggers.length} quality story triggers:`, qualityTriggers.map(t => t.type));
         
         // Generate new stories based on current standings
@@ -456,9 +456,12 @@ class GitHubActionScraper {
         });
       }
       
-      // Major position changes (moved up/down 2+ spots)
+      // Position changes - more sensitive for top positions
       const positionChange = oldTeam.pos - newTeam.pos; // positive = moved up
-      if (Math.abs(positionChange) >= 2) {
+      const isTopPosition = newTeam.pos <= 3 || oldTeam.pos <= 3; // Top 3 positions
+      
+      // Trigger for: 2+ spot changes anywhere, OR 1+ spot changes in top 3
+      if (Math.abs(positionChange) >= 2 || (isTopPosition && Math.abs(positionChange) >= 1)) {
         triggers.push({ 
           type: 'position_change', 
           team: newTeam.team, 
