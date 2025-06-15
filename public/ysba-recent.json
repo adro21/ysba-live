@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-06-15T01:23:07.414Z",
+  "lastUpdated": "2025-06-15T03:15:42.544Z",
   "totalGames": 200,
   "games": [
     {
@@ -149,8 +149,12 @@
       "awayTeam": "Caledon Nationals 13U HS",
       "awayTeamCode": "511098",
       "location": "Armstrong Family Park #1",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 14,
+        "away": 7,
+        "scoreText": "7-14"
+      },
       "division": "13U",
       "tier": "select-all-tiers"
     },
@@ -260,13 +264,17 @@
       "date": "2025-06-14T13:00:00.000Z",
       "dateText": "Sat, Jun 14",
       "time": "1:00 PM",
-      "homeTeam": "Newmarket Hawks 9U DS",
-      "homeTeamCode": "511112",
-      "awayTeam": "Markham Mariners 9U DS",
-      "awayTeamCode": "511111",
-      "location": "Newmarket Fairgrounds (Fairgrounds Park) - Diamond #2",
-      "isCompleted": false,
-      "score": null,
+      "homeTeam": "Innisfil Cardinals 9U DS",
+      "homeTeamCode": "511110",
+      "awayTeam": "Caledon Nationals 9U HS",
+      "awayTeamCode": "511116",
+      "location": "Fennels Park",
+      "isCompleted": true,
+      "score": {
+        "home": 29,
+        "away": 8,
+        "scoreText": "8-29"
+      },
       "division": "9U",
       "tier": "select-all-tiers"
     },
@@ -274,11 +282,11 @@
       "date": "2025-06-14T13:00:00.000Z",
       "dateText": "Sat, Jun 14",
       "time": "1:00 PM",
-      "homeTeam": "Innisfil Cardinals 9U DS",
-      "homeTeamCode": "511110",
-      "awayTeam": "Caledon Nationals 9U HS",
-      "awayTeamCode": "511116",
-      "location": "Fennels Park",
+      "homeTeam": "Newmarket Hawks 9U DS",
+      "homeTeamCode": "511112",
+      "awayTeam": "Markham Mariners 9U DS",
+      "awayTeamCode": "511111",
+      "location": "Newmarket Fairgrounds (Fairgrounds Park) - Diamond #2",
       "isCompleted": false,
       "score": null,
       "division": "9U",
@@ -380,6 +388,24 @@
       "date": "2025-06-14T12:30:00.000Z",
       "dateText": "Sat, Jun 14",
       "time": "12:30 PM",
+      "homeTeam": "Richmond Hill Phoenix 9U DS",
+      "homeTeamCode": "511113",
+      "awayTeam": "Thornhill Reds 9U DS",
+      "awayTeamCode": "511114",
+      "location": "Morgan Boyle Park",
+      "isCompleted": true,
+      "score": {
+        "home": 9,
+        "away": 3,
+        "scoreText": "3-9"
+      },
+      "division": "9U",
+      "tier": "select-all-tiers"
+    },
+    {
+      "date": "2025-06-14T12:30:00.000Z",
+      "dateText": "Sat, Jun 14",
+      "time": "12:30 PM",
       "homeTeam": "TNT Thunder 9U DS",
       "homeTeamCode": "511115",
       "awayTeam": "Midland Penetang Twins 9U DS",
@@ -394,27 +420,17 @@
       "date": "2025-06-14T12:30:00.000Z",
       "dateText": "Sat, Jun 14",
       "time": "12:30 PM",
-      "homeTeam": "Richmond Hill Phoenix 9U DS",
-      "homeTeamCode": "511113",
-      "awayTeam": "Thornhill Reds 9U DS",
-      "awayTeamCode": "511114",
-      "location": "Morgan Boyle Park",
-      "isCompleted": false,
-      "score": null,
-      "division": "9U",
-      "tier": "select-all-tiers"
-    },
-    {
-      "date": "2025-06-14T12:30:00.000Z",
-      "dateText": "Sat, Jun 14",
-      "time": "12:30 PM",
       "homeTeam": "Richmond Hill Phoenix 13U DS",
       "homeTeamCode": "511095",
       "awayTeam": "Markham Mariners 13U DS -Team 1",
       "awayTeamCode": "511090",
       "location": "David Hamilton Park #2",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 6,
+        "away": 16,
+        "scoreText": "16-6"
+      },
       "division": "13U",
       "tier": "select-all-tiers"
     },
@@ -441,8 +457,12 @@
       "awayTeam": "Caledon Nationals 13U HS",
       "awayTeamCode": "511098",
       "location": "Armstrong Family Park #1",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 11,
+        "away": 6,
+        "scoreText": "6-11"
+      },
       "division": "13U",
       "tier": "select-all-tiers"
     },
@@ -473,8 +493,12 @@
       "awayTeam": "Barrie Baycats 9U DS",
       "awayTeamCode": "511107",
       "location": "Heritage Park Collingwood (Small Diamond)",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 3,
+        "away": 15,
+        "scoreText": "15-3"
+      },
       "division": "9U",
       "tier": "select-all-tiers"
     },
@@ -599,8 +623,12 @@
       "awayTeam": "Caledon Nationals 9U HS",
       "awayTeamCode": "511116",
       "location": "Fennels Park",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 11,
+        "away": 3,
+        "scoreText": "3-11"
+      },
       "division": "9U",
       "tier": "select-all-tiers"
     },
@@ -613,8 +641,12 @@
       "awayTeam": "Thornhill Reds 9U DS",
       "awayTeamCode": "511114",
       "location": "Morgan Boyle Park",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 16,
+        "away": 12,
+        "scoreText": "12-16"
+      },
       "division": "9U",
       "tier": "select-all-tiers"
     },
@@ -627,8 +659,12 @@
       "awayTeam": "Barrie Baycats 9U DS",
       "awayTeamCode": "511107",
       "location": "Heritage Park Collingwood (Small Diamond)",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 16,
+        "away": 13,
+        "scoreText": "13-16"
+      },
       "division": "9U",
       "tier": "select-all-tiers"
     },
