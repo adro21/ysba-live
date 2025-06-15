@@ -20,21 +20,21 @@
         }
       },
       {
-        "position": 12,
+        "position": 6,
         "team": "Innisfil Cardinals 13U DS - Team 1",
         "teamCode": "511088",
         "record": {
-          "gamesPlayed": 2,
-          "wins": 2,
+          "gamesPlayed": 4,
+          "wins": 4,
           "losses": 0,
           "ties": 0,
           "winPercentage": "1.000"
         },
         "stats": {
-          "points": 4,
-          "runsFor": 25,
-          "runsAgainst": 4,
-          "runDifferential": 21
+          "points": 8,
+          "runsFor": 45,
+          "runsAgainst": 14,
+          "runDifferential": 31
         }
       },
       {
@@ -60,21 +60,21 @@
         "team": "Collingwood Jays (Grey) 13U DS",
         "teamCode": "511087",
         "record": {
-          "gamesPlayed": 7,
+          "gamesPlayed": 9,
           "wins": 6,
-          "losses": 1,
+          "losses": 3,
           "ties": 0,
-          "winPercentage": "0.857"
+          "winPercentage": "0.667"
         },
         "stats": {
           "points": 12,
-          "runsFor": 87,
-          "runsAgainst": 26,
-          "runDifferential": 61
+          "runsFor": 97,
+          "runsAgainst": 46,
+          "runDifferential": 51
         }
       },
       {
-        "position": 11,
+        "position": 13,
         "team": "Innisfil Cardinals 13U DS - Team 2",
         "teamCode": "511089",
         "record": {
@@ -110,7 +110,7 @@
         }
       },
       {
-        "position": 9,
+        "position": 11,
         "team": "Aurora-King Jays 13U DS",
         "teamCode": "511084",
         "record": {
@@ -128,7 +128,7 @@
         }
       },
       {
-        "position": 10,
+        "position": 12,
         "team": "TNT Thunder 13U DS",
         "teamCode": "511097",
         "record": {
@@ -164,7 +164,7 @@
         }
       },
       {
-        "position": 6,
+        "position": 7,
         "team": "Caledon Nationals 13U HS",
         "teamCode": "511098",
         "record": {
@@ -182,7 +182,7 @@
         }
       },
       {
-        "position": 7,
+        "position": 9,
         "team": "Thornhill Reds 13U DS",
         "teamCode": "511096",
         "record": {
@@ -200,7 +200,7 @@
         }
       },
       {
-        "position": 8,
+        "position": 10,
         "team": "Markham Mariners 13U DS -Team 2",
         "teamCode": "511091",
         "record": {
@@ -218,7 +218,25 @@
         }
       },
       {
-        "position": 13,
+        "position": 8,
+        "team": "New Lowell Knights 13U DS",
+        "teamCode": "511092",
+        "record": {
+          "gamesPlayed": 9,
+          "wins": 3,
+          "losses": 6,
+          "ties": 0,
+          "winPercentage": "0.333"
+        },
+        "stats": {
+          "points": 6,
+          "runsFor": 65,
+          "runsAgainst": 100,
+          "runDifferential": -35
+        }
+      },
+      {
+        "position": 14,
         "team": "Vaughan Vikings 12U DS",
         "teamCode": "518969",
         "record": {
@@ -254,43 +272,25 @@
         }
       },
       {
-        "position": 14,
-        "team": "New Lowell Knights 13U DS",
-        "teamCode": "511092",
-        "record": {
-          "gamesPlayed": 7,
-          "wins": 1,
-          "losses": 6,
-          "ties": 0,
-          "winPercentage": "0.143"
-        },
-        "stats": {
-          "points": 2,
-          "runsFor": 40,
-          "runsAgainst": 87,
-          "runDifferential": -47
-        }
-      },
-      {
         "position": 16,
         "team": "Collingwood Jays (Blue) 13U DS",
         "teamCode": "511086",
         "record": {
-          "gamesPlayed": 4,
+          "gamesPlayed": 6,
           "wins": 0,
-          "losses": 4,
+          "losses": 6,
           "ties": 0,
           "winPercentage": "0.000"
         },
         "stats": {
           "points": 0,
-          "runsFor": 12,
-          "runsAgainst": 52,
-          "runDifferential": -40
+          "runsFor": 25,
+          "runsAgainst": 77,
+          "runDifferential": -52
         }
       }
     ],
-    "lastUpdated": "2025-06-15T23:19:20.760Z",
+    "lastUpdated": "2025-06-15T23:43:24.819Z",
     "totalTeams": 16
   },
   "schedule": {
@@ -436,7 +436,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-15T23:19:25.512Z"
+        "lastUpdated": "2025-06-15T23:43:29.472Z"
       },
       "511085": {
         "teamCode": "511085",
@@ -587,7 +587,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-15T23:19:25.512Z"
+        "lastUpdated": "2025-06-15T23:43:29.472Z"
       },
       "511086": {
         "teamCode": "511086",
@@ -652,8 +652,12 @@
             "awayTeam": "Collingwood Jays (Blue) 13U DS",
             "awayTeamCode": "511086",
             "location": "New Lowell Recreation Park #3",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 4,
+              "scoreText": "4-9"
+            }
           },
           {
             "date": "2025-06-15T14:30:00.000Z",
@@ -664,8 +668,12 @@
             "awayTeam": "Collingwood Jays (Blue) 13U DS",
             "awayTeamCode": "511086",
             "location": "New Lowell Recreation Park #3",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 16,
+              "away": 9,
+              "scoreText": "9-16"
+            }
           }
         ],
         "nextGames": [
@@ -730,7 +738,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-15T23:19:25.512Z"
+        "lastUpdated": "2025-06-15T23:43:29.472Z"
       },
       "511087": {
         "teamCode": "511087",
@@ -795,8 +803,12 @@
             "awayTeam": "Innisfil Cardinals 13U DS - Team 1",
             "awayTeamCode": "511088",
             "location": "Central Park #1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 0,
+              "away": 9,
+              "scoreText": "9-0"
+            }
           },
           {
             "date": "2025-06-15T12:00:00.000Z",
@@ -807,8 +819,12 @@
             "awayTeam": "Innisfil Cardinals 13U DS - Team 1",
             "awayTeamCode": "511088",
             "location": "Central Park #1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 11,
+              "scoreText": "11-10"
+            }
           }
         ],
         "nextGames": [
@@ -873,7 +889,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-15T23:19:25.512Z"
+        "lastUpdated": "2025-06-15T23:43:29.472Z"
       },
       "511088": {
         "teamCode": "511088",
@@ -934,8 +950,12 @@
             "awayTeam": "Innisfil Cardinals 13U DS - Team 1",
             "awayTeamCode": "511088",
             "location": "Central Park #1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 0,
+              "away": 9,
+              "scoreText": "9-0"
+            }
           },
           {
             "date": "2025-06-15T12:00:00.000Z",
@@ -946,8 +966,12 @@
             "awayTeam": "Innisfil Cardinals 13U DS - Team 1",
             "awayTeamCode": "511088",
             "location": "Central Park #1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 11,
+              "scoreText": "11-10"
+            }
           }
         ],
         "nextGames": [
@@ -1012,7 +1036,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-15T23:19:25.512Z"
+        "lastUpdated": "2025-06-15T23:43:29.472Z"
       },
       "511089": {
         "teamCode": "511089",
@@ -1155,7 +1179,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-15T23:19:25.512Z"
+        "lastUpdated": "2025-06-15T23:43:29.472Z"
       },
       "511090": {
         "teamCode": "511090",
@@ -1302,7 +1326,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-15T23:19:25.512Z"
+        "lastUpdated": "2025-06-15T23:43:29.472Z"
       },
       "511091": {
         "teamCode": "511091",
@@ -1445,7 +1469,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-15T23:19:25.512Z"
+        "lastUpdated": "2025-06-15T23:43:29.472Z"
       },
       "511092": {
         "teamCode": "511092",
@@ -1510,8 +1534,12 @@
             "awayTeam": "Collingwood Jays (Blue) 13U DS",
             "awayTeamCode": "511086",
             "location": "New Lowell Recreation Park #3",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 4,
+              "scoreText": "4-9"
+            }
           },
           {
             "date": "2025-06-15T14:30:00.000Z",
@@ -1522,8 +1550,12 @@
             "awayTeam": "Collingwood Jays (Blue) 13U DS",
             "awayTeamCode": "511086",
             "location": "New Lowell Recreation Park #3",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 16,
+              "away": 9,
+              "scoreText": "9-16"
+            }
           }
         ],
         "nextGames": [
@@ -1588,7 +1620,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-15T23:19:25.512Z"
+        "lastUpdated": "2025-06-15T23:43:29.472Z"
       },
       "511093": {
         "teamCode": "511093",
@@ -1739,7 +1771,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-15T23:19:25.512Z"
+        "lastUpdated": "2025-06-15T23:43:29.472Z"
       },
       "511094": {
         "teamCode": "511094",
@@ -1890,7 +1922,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-15T23:19:25.512Z"
+        "lastUpdated": "2025-06-15T23:43:29.472Z"
       },
       "511095": {
         "teamCode": "511095",
@@ -2041,7 +2073,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-15T23:19:25.512Z"
+        "lastUpdated": "2025-06-15T23:43:29.472Z"
       },
       "511096": {
         "teamCode": "511096",
@@ -2192,7 +2224,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-15T23:19:25.512Z"
+        "lastUpdated": "2025-06-15T23:43:29.472Z"
       },
       "511097": {
         "teamCode": "511097",
@@ -2327,7 +2359,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-15T23:19:25.512Z"
+        "lastUpdated": "2025-06-15T23:43:29.472Z"
       },
       "511098": {
         "teamCode": "511098",
@@ -2478,7 +2510,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-15T23:19:25.512Z"
+        "lastUpdated": "2025-06-15T23:43:29.473Z"
       },
       "518969": {
         "teamCode": "518969",
@@ -2625,7 +2657,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-15T23:19:25.512Z"
+        "lastUpdated": "2025-06-15T23:43:29.473Z"
       }
     },
     "allGames": [
@@ -3506,8 +3538,12 @@
         "awayTeam": "Innisfil Cardinals 13U DS - Team 1",
         "awayTeamCode": "511088",
         "location": "Central Park #1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 0,
+          "away": 9,
+          "scoreText": "9-0"
+        }
       },
       {
         "date": "2025-06-15T12:00:00.000Z",
@@ -3518,8 +3554,12 @@
         "awayTeam": "Collingwood Jays (Blue) 13U DS",
         "awayTeamCode": "511086",
         "location": "New Lowell Recreation Park #3",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 4,
+          "scoreText": "4-9"
+        }
       },
       {
         "date": "2025-06-15T12:00:00.000Z",
@@ -3530,8 +3570,12 @@
         "awayTeam": "Innisfil Cardinals 13U DS - Team 1",
         "awayTeamCode": "511088",
         "location": "Central Park #1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 11,
+          "scoreText": "11-10"
+        }
       },
       {
         "date": "2025-06-15T14:30:00.000Z",
@@ -3542,8 +3586,12 @@
         "awayTeam": "Collingwood Jays (Blue) 13U DS",
         "awayTeamCode": "511086",
         "location": "New Lowell Recreation Park #3",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 16,
+          "away": 9,
+          "scoreText": "9-16"
+        }
       },
       {
         "date": "2025-06-18T18:30:00.000Z",
@@ -4372,8 +4420,12 @@
         "awayTeam": "Collingwood Jays (Blue) 13U DS",
         "awayTeamCode": "511086",
         "location": "New Lowell Recreation Park #3",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 16,
+          "away": 9,
+          "scoreText": "9-16"
+        }
       },
       {
         "date": "2025-06-15T12:00:00.000Z",
@@ -4384,8 +4436,12 @@
         "awayTeam": "Collingwood Jays (Blue) 13U DS",
         "awayTeamCode": "511086",
         "location": "New Lowell Recreation Park #3",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 4,
+          "scoreText": "4-9"
+        }
       },
       {
         "date": "2025-06-15T12:00:00.000Z",
@@ -4396,8 +4452,12 @@
         "awayTeam": "Innisfil Cardinals 13U DS - Team 1",
         "awayTeamCode": "511088",
         "location": "Central Park #1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 11,
+          "scoreText": "11-10"
+        }
       },
       {
         "date": "2025-06-15T09:30:00.000Z",
@@ -4408,8 +4468,12 @@
         "awayTeam": "Innisfil Cardinals 13U DS - Team 1",
         "awayTeamCode": "511088",
         "location": "Central Park #1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 0,
+          "away": 9,
+          "scoreText": "9-0"
+        }
       },
       {
         "date": "2025-06-14T15:30:00.000Z",
@@ -4622,14 +4686,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-15T23:19:25.512Z",
+    "lastUpdated": "2025-06-15T23:43:29.473Z",
     "totalGames": 128
   },
   "summary": {
     "totalTeams": 16,
     "totalGames": 128,
-    "completedGames": 49,
-    "upcomingGames": 79,
+    "completedGames": 53,
+    "upcomingGames": 75,
     "topTeam": {
       "team": "Barrie Baycats 13U DS",
       "teamCode": "511085",
@@ -4646,6 +4710,6 @@
       "date": "Thu, Jun 12",
       "location": "Newmarket Fairgrounds Park #1"
     },
-    "lastUpdated": "2025-06-15T23:19:32.129Z"
+    "lastUpdated": "2025-06-15T23:43:36.104Z"
   }
 }
