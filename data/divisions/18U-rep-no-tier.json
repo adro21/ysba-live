@@ -92,39 +92,21 @@
         }
       },
       {
-        "position": 13,
-        "team": "Collingwood Jays 18U A",
-        "teamCode": "511027",
-        "record": {
-          "gamesPlayed": 4,
-          "wins": 2,
-          "losses": 1,
-          "ties": 1,
-          "winPercentage": "0.625"
-        },
-        "stats": {
-          "points": 5,
-          "runsFor": 35,
-          "runsAgainst": 21,
-          "runDifferential": 14
-        }
-      },
-      {
         "position": 6,
         "team": "Richmond Hill Phoenix 18U A",
         "teamCode": "511033",
         "record": {
-          "gamesPlayed": 6,
-          "wins": 3,
+          "gamesPlayed": 7,
+          "wins": 4,
           "losses": 2,
           "ties": 1,
-          "winPercentage": "0.583"
+          "winPercentage": "0.643"
         },
         "stats": {
-          "points": 7,
-          "runsFor": 36,
-          "runsAgainst": 23,
-          "runDifferential": 13
+          "points": 9,
+          "runsFor": 51,
+          "runsAgainst": 24,
+          "runDifferential": 27
         }
       },
       {
@@ -161,6 +143,24 @@
           "runsFor": 42,
           "runsAgainst": 37,
           "runDifferential": 5
+        }
+      },
+      {
+        "position": 13,
+        "team": "Collingwood Jays 18U A",
+        "teamCode": "511027",
+        "record": {
+          "gamesPlayed": 5,
+          "wins": 2,
+          "losses": 2,
+          "ties": 1,
+          "winPercentage": "0.500"
+        },
+        "stats": {
+          "points": 5,
+          "runsFor": 36,
+          "runsAgainst": 36,
+          "runDifferential": 0
         }
       },
       {
@@ -344,7 +344,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-06-14T23:42:59.967Z",
+    "lastUpdated": "2025-06-15T01:21:19.729Z",
     "totalTeams": 19
   },
   "schedule": {
@@ -498,7 +498,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T23:43:04.656Z"
+        "lastUpdated": "2025-06-15T01:21:24.083Z"
       },
       "511022": {
         "teamCode": "511022",
@@ -649,7 +649,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T23:43:04.656Z"
+        "lastUpdated": "2025-06-15T01:21:24.083Z"
       },
       "511023": {
         "teamCode": "511023",
@@ -788,7 +788,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T23:43:04.656Z"
+        "lastUpdated": "2025-06-15T01:21:24.083Z"
       },
       "511024": {
         "teamCode": "511024",
@@ -935,7 +935,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T23:43:04.656Z"
+        "lastUpdated": "2025-06-15T01:21:24.083Z"
       },
       "511025": {
         "teamCode": "511025",
@@ -1078,7 +1078,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T23:43:04.656Z"
+        "lastUpdated": "2025-06-15T01:21:24.083Z"
       },
       "511026": {
         "teamCode": "511026",
@@ -1225,7 +1225,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T23:43:04.656Z"
+        "lastUpdated": "2025-06-15T01:21:24.083Z"
       },
       "511027": {
         "teamCode": "511027",
@@ -1302,8 +1302,12 @@
             "awayTeam": "Richmond Hill Phoenix 18U A",
             "awayTeamCode": "511033",
             "location": "Heritage Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 1,
+              "away": 15,
+              "scoreText": "15-1"
+            }
           }
         ],
         "nextGames": [
@@ -1368,7 +1372,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T23:43:04.656Z"
+        "lastUpdated": "2025-06-15T01:21:24.083Z"
       },
       "511028": {
         "teamCode": "511028",
@@ -1519,7 +1523,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T23:43:04.656Z"
+        "lastUpdated": "2025-06-15T01:21:24.083Z"
       },
       "511030": {
         "teamCode": "511030",
@@ -1670,7 +1674,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T23:43:04.656Z"
+        "lastUpdated": "2025-06-15T01:21:24.083Z"
       },
       "511031": {
         "teamCode": "511031",
@@ -1813,7 +1817,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T23:43:04.656Z"
+        "lastUpdated": "2025-06-15T01:21:24.084Z"
       },
       "511032": {
         "teamCode": "511032",
@@ -1964,7 +1968,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T23:43:04.657Z"
+        "lastUpdated": "2025-06-15T01:21:24.084Z"
       },
       "511033": {
         "teamCode": "511033",
@@ -2045,8 +2049,12 @@
             "awayTeam": "Richmond Hill Phoenix 18U A",
             "awayTeamCode": "511033",
             "location": "Heritage Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 1,
+              "away": 15,
+              "scoreText": "15-1"
+            }
           }
         ],
         "nextGames": [
@@ -2111,7 +2119,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T23:43:04.657Z"
+        "lastUpdated": "2025-06-15T01:21:24.084Z"
       },
       "511034": {
         "teamCode": "511034",
@@ -2262,7 +2270,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T23:43:04.657Z"
+        "lastUpdated": "2025-06-15T01:21:24.084Z"
       },
       "511035": {
         "teamCode": "511035",
@@ -2409,7 +2417,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T23:43:04.657Z"
+        "lastUpdated": "2025-06-15T01:21:24.084Z"
       },
       "516246": {
         "teamCode": "516246",
@@ -2548,7 +2556,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T23:43:04.657Z"
+        "lastUpdated": "2025-06-15T01:21:24.084Z"
       },
       "518960": {
         "teamCode": "518960",
@@ -2699,7 +2707,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T23:43:04.657Z"
+        "lastUpdated": "2025-06-15T01:21:24.084Z"
       },
       "518962": {
         "teamCode": "518962",
@@ -2850,7 +2858,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T23:43:04.657Z"
+        "lastUpdated": "2025-06-15T01:21:24.084Z"
       },
       "519242": {
         "teamCode": "519242",
@@ -3001,7 +3009,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T23:43:04.657Z"
+        "lastUpdated": "2025-06-15T01:21:24.084Z"
       },
       "546377": {
         "teamCode": "546377",
@@ -3144,7 +3152,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-14T23:43:04.657Z"
+        "lastUpdated": "2025-06-15T01:21:24.084Z"
       }
     },
     "allGames": [
@@ -4213,8 +4221,12 @@
         "awayTeam": "Richmond Hill Phoenix 18U A",
         "awayTeamCode": "511033",
         "location": "Heritage Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 1,
+          "away": 15,
+          "scoreText": "15-1"
+        }
       },
       {
         "date": "2025-06-14T16:00:00.000Z",
@@ -5319,8 +5331,12 @@
         "awayTeam": "Richmond Hill Phoenix 18U A",
         "awayTeamCode": "511033",
         "location": "Heritage Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 1,
+          "away": 15,
+          "scoreText": "15-1"
+        }
       },
       {
         "date": "2025-06-14T16:00:00.000Z",
@@ -5581,14 +5597,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-14T23:43:04.657Z",
+    "lastUpdated": "2025-06-15T01:21:24.084Z",
     "totalGames": 161
   },
   "summary": {
     "totalTeams": 19,
     "totalGames": 161,
-    "completedGames": 57,
-    "upcomingGames": 104,
+    "completedGames": 58,
+    "upcomingGames": 103,
     "topTeam": {
       "team": "Caledon Nationals 18U AA",
       "teamCode": "511035",
@@ -5605,6 +5621,6 @@
       "date": "Mon, May 26",
       "location": "Stewart Burnett"
     },
-    "lastUpdated": "2025-06-14T23:44:55.596Z"
+    "lastUpdated": "2025-06-15T01:23:07.414Z"
   }
 }
