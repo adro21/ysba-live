@@ -1,7 +1,91 @@
 {
-  "lastUpdated": "2025-06-15T11:41:46.652Z",
+  "lastUpdated": "2025-06-15T12:32:23.982Z",
   "totalGames": 200,
   "games": [
+    {
+      "date": "2025-06-15T12:30:00.000Z",
+      "dateText": "Sun, Jun 15",
+      "time": "12:30 PM",
+      "homeTeam": "Midland Penetang Twins 9U DS",
+      "homeTeamCode": "511105",
+      "awayTeam": "Caledon Nationals 9U HS",
+      "awayTeamCode": "511116",
+      "location": "Little Lake Park",
+      "isCompleted": false,
+      "score": null,
+      "division": "9U",
+      "tier": "select-all-tiers"
+    },
+    {
+      "date": "2025-06-15T12:00:00.000Z",
+      "dateText": "Sun, Jun 15",
+      "time": "12:00 PM",
+      "homeTeam": "Thornhill Reds 9U DS",
+      "homeTeamCode": "511114",
+      "awayTeam": "Newmarket Hawks 9U DS",
+      "awayTeamCode": "511112",
+      "location": "Thornhill Park",
+      "isCompleted": false,
+      "score": null,
+      "division": "9U",
+      "tier": "select-all-tiers"
+    },
+    {
+      "date": "2025-06-15T12:00:00.000Z",
+      "dateText": "Sun, Jun 15",
+      "time": "12:00 PM",
+      "homeTeam": "New Lowell Knights 13U DS",
+      "homeTeamCode": "511092",
+      "awayTeam": "Collingwood Jays (Blue) 13U DS",
+      "awayTeamCode": "511086",
+      "location": "New Lowell Recreation Park #3",
+      "isCompleted": false,
+      "score": null,
+      "division": "13U",
+      "tier": "select-all-tiers"
+    },
+    {
+      "date": "2025-06-15T12:00:00.000Z",
+      "dateText": "Sun, Jun 15",
+      "time": "12:00 PM",
+      "homeTeam": "Collingwood Jays (Grey) 13U DS",
+      "homeTeamCode": "511087",
+      "awayTeam": "Innisfil Cardinals 13U DS - Team 1",
+      "awayTeamCode": "511088",
+      "location": "Central Park #1",
+      "isCompleted": false,
+      "score": null,
+      "division": "13U",
+      "tier": "select-all-tiers"
+    },
+    {
+      "date": "2025-06-15T11:45:00.000Z",
+      "dateText": "Sun, Jun 15",
+      "time": "11:45 AM",
+      "homeTeam": "Women's Team",
+      "homeTeamCode": "546377",
+      "awayTeam": "Aurora-King Jays 17U A",
+      "awayTeamCode": "511021",
+      "location": "David Hamilton #1",
+      "isCompleted": false,
+      "score": null,
+      "division": "18U",
+      "tier": "rep-no-tier"
+    },
+    {
+      "date": "2025-06-15T11:45:00.000Z",
+      "dateText": "Sun, Jun 15",
+      "time": "11:45 AM",
+      "homeTeam": "Women's Team",
+      "homeTeamCode": "546377",
+      "awayTeam": "Aurora-King Jays 17U A",
+      "awayTeamCode": "511021",
+      "location": "David Hamilton #1",
+      "isCompleted": false,
+      "score": null,
+      "division": "18U",
+      "tier": "rep-tier-3"
+    },
     {
       "date": "2025-06-15T10:00:00.000Z",
       "dateText": "Sun, Jun 15",
@@ -163,8 +247,12 @@
       "awayTeam": "Markham Mariners 9U DS",
       "awayTeamCode": "511111",
       "location": "Newmarket Fairgrounds (Fairgrounds Park) - Diamond #2",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 24,
+        "away": 2,
+        "scoreText": "2-24"
+      },
       "division": "9U",
       "tier": "select-all-tiers"
     },
@@ -315,8 +403,12 @@
       "awayTeam": "Markham Mariners 9U DS",
       "awayTeamCode": "511111",
       "location": "Newmarket Fairgrounds (Fairgrounds Park) - Diamond #2",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 20,
+        "away": 2,
+        "scoreText": "2-20"
+      },
       "division": "9U",
       "tier": "select-all-tiers"
     },
@@ -672,42 +764,6 @@
       "date": "2025-06-14T10:00:00.000Z",
       "dateText": "Sat, Jun 14",
       "time": "10:00 AM",
-      "homeTeam": "Richmond Hill Phoenix 9U DS",
-      "homeTeamCode": "511113",
-      "awayTeam": "Thornhill Reds 9U DS",
-      "awayTeamCode": "511114",
-      "location": "Morgan Boyle Park",
-      "isCompleted": true,
-      "score": {
-        "home": 16,
-        "away": 12,
-        "scoreText": "12-16"
-      },
-      "division": "9U",
-      "tier": "select-all-tiers"
-    },
-    {
-      "date": "2025-06-14T10:00:00.000Z",
-      "dateText": "Sat, Jun 14",
-      "time": "10:00 AM",
-      "homeTeam": "Collingwood Jays 9U DS",
-      "homeTeamCode": "511109",
-      "awayTeam": "Barrie Baycats 9U DS",
-      "awayTeamCode": "511107",
-      "location": "Heritage Park Collingwood (Small Diamond)",
-      "isCompleted": true,
-      "score": {
-        "home": 16,
-        "away": 13,
-        "scoreText": "13-16"
-      },
-      "division": "9U",
-      "tier": "select-all-tiers"
-    },
-    {
-      "date": "2025-06-14T10:00:00.000Z",
-      "dateText": "Sat, Jun 14",
-      "time": "10:00 AM",
       "homeTeam": "TNT Thunder 11U DS",
       "homeTeamCode": "518974",
       "awayTeam": "Innisfil Cardinals 11U DS",
@@ -721,74 +777,6 @@
       },
       "division": "11U",
       "tier": "select-all-tiers"
-    },
-    {
-      "date": "2025-06-14T10:00:00.000Z",
-      "dateText": "Sat, Jun 14",
-      "time": "10:00 AM",
-      "homeTeam": "Bradford Tigers 11U DS",
-      "homeTeamCode": "511076",
-      "awayTeam": "Barrie Baycats 11U DS",
-      "awayTeamCode": "511075",
-      "location": "Joe Magani Park Field #3",
-      "isCompleted": true,
-      "score": {
-        "home": 3,
-        "away": 14,
-        "scoreText": "14-3"
-      },
-      "division": "11U",
-      "tier": "select-all-tiers"
-    },
-    {
-      "date": "2025-06-14T10:00:00.000Z",
-      "dateText": "Sat, Jun 14",
-      "time": "10:00 AM",
-      "homeTeam": "Collingwood Jays 12U AA",
-      "homeTeamCode": "510930",
-      "awayTeam": "Stouffville Yankees 12U AA",
-      "awayTeamCode": "510933",
-      "location": "Central Park Field 3",
-      "isCompleted": true,
-      "score": {
-        "home": 7,
-        "away": 13,
-        "scoreText": "13-7"
-      },
-      "division": "12U",
-      "tier": "rep-tier-2"
-    },
-    {
-      "date": "2025-06-14T10:00:00.000Z",
-      "dateText": "Sat, Jun 14",
-      "time": "10:00 AM",
-      "homeTeam": "Collingwood Jays 12U AA",
-      "homeTeamCode": "510930",
-      "awayTeam": "Stouffville Yankees 12U AA",
-      "awayTeamCode": "510933",
-      "location": "Central Park Field 3",
-      "isCompleted": true,
-      "score": {
-        "home": 7,
-        "away": 13,
-        "scoreText": "13-7"
-      },
-      "division": "12U",
-      "tier": "rep-tier-3"
-    },
-    {
-      "date": "2025-06-14T10:00:00.000Z",
-      "dateText": "Sat, Jun 14",
-      "time": "10:00 AM",
-      "homeTeam": "Aurora-King Jays 13U AA",
-      "homeTeamCode": "510946",
-      "awayTeam": "Markham Mariners 13U AA",
-      "awayTeamCode": "510949",
-      "location": "Hallmark #1",
-      "isCompleted": false,
-      "score": null,
-      "division": "13U",
-      "tier": "rep-tier-2"
     }
   ]
 }
