@@ -304,7 +304,7 @@ class GitHubActionScraper {
     return teams.map(team => ({
       position: team.pos,
       team: team.team,
-      teamCode: team.teamCode || `team-${team.pos}`,
+      teamCode: team.team, // Use team name as unique identifier instead of position-based code
       wins: team.w,
       losses: team.l,
       ties: team.t,

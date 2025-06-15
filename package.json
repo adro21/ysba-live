@@ -16,7 +16,8 @@
     "dev-worker": "nodemon src/scraper/worker.js",
     "build": "node scripts/update-cache-version.js",
     "test-worker": "node src/scraper/worker.js",
-    "test-scraper": "node scripts/github-action-scraper.js"
+    "test-scraper": "node scripts/github-action-scraper.js",
+    "test-emails": "node test-email-notifications.js"
   },
   "nodemonConfig": {
     "ignore": [
