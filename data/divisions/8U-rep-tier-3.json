@@ -2,24 +2,6 @@
   "standings": {
     "teams": [
       {
-        "position": 3,
-        "team": "Vaughan Vikings 8U A",
-        "teamCode": "518946",
-        "record": {
-          "gamesPlayed": 4,
-          "wins": 4,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": "1.000"
-        },
-        "stats": {
-          "points": 8,
-          "runsFor": 83,
-          "runsAgainst": 29,
-          "runDifferential": 54
-        }
-      },
-      {
         "position": 5,
         "team": "Markham Mariners 8U A",
         "teamCode": "511057",
@@ -38,9 +20,27 @@
         }
       },
       {
-        "position": 2,
+        "position": 1,
         "team": "Orangeville Bengals 8U B",
         "teamCode": "511052",
+        "record": {
+          "gamesPlayed": 6,
+          "wins": 5,
+          "losses": 1,
+          "ties": 0,
+          "winPercentage": "0.833"
+        },
+        "stats": {
+          "points": 10,
+          "runsFor": 115,
+          "runsAgainst": 76,
+          "runDifferential": 39
+        }
+      },
+      {
+        "position": 3,
+        "team": "Vaughan Vikings 8U A",
+        "teamCode": "518946",
         "record": {
           "gamesPlayed": 5,
           "wins": 4,
@@ -50,13 +50,13 @@
         },
         "stats": {
           "points": 8,
-          "runsFor": 97,
-          "runsAgainst": 67,
-          "runDifferential": 30
+          "runsFor": 92,
+          "runsAgainst": 47,
+          "runDifferential": 45
         }
       },
       {
-        "position": 1,
+        "position": 2,
         "team": "Aurora-King Jays 8U A",
         "teamCode": "511050",
         "record": {
@@ -92,7 +92,7 @@
         }
       },
       {
-        "position": 7,
+        "position": 8,
         "team": "Stouffville 8U A",
         "teamCode": "511059",
         "record": {
@@ -110,7 +110,7 @@
         }
       },
       {
-        "position": 8,
+        "position": 9,
         "team": "Richmond Hill Phoenix 8U A",
         "teamCode": "511053",
         "record": {
@@ -128,9 +128,9 @@
         }
       },
       {
-        "position": 6,
-        "team": "TNT Thunder 8U A",
-        "teamCode": "511054",
+        "position": 7,
+        "team": "Georgina Bulldogs 8U B",
+        "teamCode": "511060",
         "record": {
           "gamesPlayed": 6,
           "wins": 1,
@@ -140,31 +140,31 @@
         },
         "stats": {
           "points": 2,
-          "runsFor": 74,
-          "runsAgainst": 156,
-          "runDifferential": -82
+          "runsFor": 73,
+          "runsAgainst": 105,
+          "runDifferential": -32
         }
       },
       {
-        "position": 9,
-        "team": "Georgina Bulldogs 8U B",
-        "teamCode": "511060",
+        "position": 6,
+        "team": "TNT Thunder 8U A",
+        "teamCode": "511054",
         "record": {
-          "gamesPlayed": 5,
-          "wins": 0,
-          "losses": 5,
+          "gamesPlayed": 7,
+          "wins": 1,
+          "losses": 6,
           "ties": 0,
-          "winPercentage": "0.000"
+          "winPercentage": "0.143"
         },
         "stats": {
-          "points": 0,
-          "runsFor": 53,
-          "runsAgainst": 92,
-          "runDifferential": -39
+          "points": 2,
+          "runsFor": 87,
+          "runsAgainst": 176,
+          "runDifferential": -89
         }
       }
     ],
-    "lastUpdated": "2025-06-16T18:20:26.090Z",
+    "lastUpdated": "2025-06-16T18:49:19.959Z",
     "totalTeams": 9
   },
   "schedule": {
@@ -314,7 +314,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T18:20:28.709Z"
+        "lastUpdated": "2025-06-16T18:49:22.806Z"
       },
       "511051": {
         "teamCode": "511051",
@@ -457,7 +457,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T18:20:28.709Z"
+        "lastUpdated": "2025-06-16T18:49:22.806Z"
       },
       "511052": {
         "teamCode": "511052",
@@ -538,8 +538,12 @@
             "awayTeam": "Vaughan Vikings 8U A",
             "awayTeamCode": "518946",
             "location": "Caledon Fairgrounds",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 18,
+              "away": 9,
+              "scoreText": "9-18"
+            }
           }
         ],
         "nextGames": [
@@ -604,7 +608,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T18:20:28.709Z"
+        "lastUpdated": "2025-06-16T18:49:22.806Z"
       },
       "511053": {
         "teamCode": "511053",
@@ -747,7 +751,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T18:20:28.709Z"
+        "lastUpdated": "2025-06-16T18:49:22.806Z"
       },
       "511054": {
         "teamCode": "511054",
@@ -812,8 +816,12 @@
             "awayTeam": "TNT Thunder 8U A",
             "awayTeamCode": "511054",
             "location": "ROC #3",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 20,
+              "away": 13,
+              "scoreText": "13-20"
+            }
           },
           {
             "date": "2025-06-16T18:00:00.000Z",
@@ -890,7 +898,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T18:20:28.709Z"
+        "lastUpdated": "2025-06-16T18:49:22.807Z"
       },
       "511057": {
         "teamCode": "511057",
@@ -1029,7 +1037,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T18:20:28.710Z"
+        "lastUpdated": "2025-06-16T18:49:22.807Z"
       },
       "511059": {
         "teamCode": "511059",
@@ -1172,7 +1180,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T18:20:28.710Z"
+        "lastUpdated": "2025-06-16T18:49:22.807Z"
       },
       "511060": {
         "teamCode": "511060",
@@ -1237,8 +1245,12 @@
             "awayTeam": "TNT Thunder 8U A",
             "awayTeamCode": "511054",
             "location": "ROC #3",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 20,
+              "away": 13,
+              "scoreText": "13-20"
+            }
           },
           {
             "date": "2025-06-16T18:00:00.000Z",
@@ -1315,7 +1327,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T18:20:28.710Z"
+        "lastUpdated": "2025-06-16T18:49:22.807Z"
       },
       "518946": {
         "teamCode": "518946",
@@ -1396,8 +1408,12 @@
             "awayTeam": "Vaughan Vikings 8U A",
             "awayTeamCode": "518946",
             "location": "Caledon Fairgrounds",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 18,
+              "away": 9,
+              "scoreText": "9-18"
+            }
           }
         ],
         "nextGames": [
@@ -1462,7 +1478,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T18:20:28.710Z"
+        "lastUpdated": "2025-06-16T18:49:22.807Z"
       }
     },
     "allGames": [
@@ -1871,8 +1887,12 @@
         "awayTeam": "Vaughan Vikings 8U A",
         "awayTeamCode": "518946",
         "location": "Caledon Fairgrounds",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 18,
+          "away": 9,
+          "scoreText": "9-18"
+        }
       },
       {
         "date": "2025-06-12T18:00:00.000Z",
@@ -1883,8 +1903,12 @@
         "awayTeam": "TNT Thunder 8U A",
         "awayTeamCode": "511054",
         "location": "ROC #3",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 20,
+          "away": 13,
+          "scoreText": "13-20"
+        }
       },
       {
         "date": "2025-06-12T18:30:00.000Z",
@@ -2461,8 +2485,12 @@
         "awayTeam": "Vaughan Vikings 8U A",
         "awayTeamCode": "518946",
         "location": "Caledon Fairgrounds",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 18,
+          "away": 9,
+          "scoreText": "9-18"
+        }
       },
       {
         "date": "2025-06-12T18:00:00.000Z",
@@ -2473,8 +2501,12 @@
         "awayTeam": "TNT Thunder 8U A",
         "awayTeamCode": "511054",
         "location": "ROC #3",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 20,
+          "away": 13,
+          "scoreText": "13-20"
+        }
       },
       {
         "date": "2025-06-10T18:00:00.000Z",
@@ -2691,18 +2723,18 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-16T18:20:28.710Z",
+    "lastUpdated": "2025-06-16T18:49:22.807Z",
     "totalGames": 73
   },
   "summary": {
     "totalTeams": 9,
     "totalGames": 73,
-    "completedGames": 21,
-    "upcomingGames": 52,
+    "completedGames": 23,
+    "upcomingGames": 50,
     "topTeam": {
-      "team": "Vaughan Vikings 8U A",
-      "teamCode": "518946",
-      "wins": 4,
+      "team": "Markham Mariners 8U A",
+      "teamCode": "511057",
+      "wins": 3,
       "losses": 0,
       "winPercentage": "1.000"
     },
@@ -2715,6 +2747,6 @@
       "date": "Thu, May 29",
       "location": "Caledon Fairgrounds"
     },
-    "lastUpdated": "2025-06-16T18:26:11.190Z"
+    "lastUpdated": "2025-06-16T18:55:21.474Z"
   }
 }

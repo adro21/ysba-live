@@ -20,7 +20,7 @@
         }
       },
       {
-        "position": 2,
+        "position": 3,
         "team": "Collingwood Jays 15U DS",
         "teamCode": "511100",
         "record": {
@@ -38,61 +38,79 @@
         }
       },
       {
-        "position": 3,
-        "team": "Stouffville Yankees 15U DS",
-        "teamCode": "511103",
-        "record": {
-          "gamesPlayed": 3,
-          "wins": 1,
-          "losses": 2,
-          "ties": 0,
-          "winPercentage": "0.333"
-        },
-        "stats": {
-          "points": 2,
-          "runsFor": 21,
-          "runsAgainst": 33,
-          "runDifferential": -12
-        }
-      },
-      {
         "position": 4,
-        "team": "Newmarket Hawks 15U DS",
-        "teamCode": "511101",
+        "team": "Sudbury",
+        "teamCode": "500609",
         "record": {
-          "gamesPlayed": 3,
-          "wins": 0,
-          "losses": 3,
+          "gamesPlayed": 2,
+          "wins": 2,
+          "losses": 0,
           "ties": 0,
-          "winPercentage": "0.000"
+          "winPercentage": "1.000"
         },
         "stats": {
-          "points": 0,
-          "runsFor": 17,
-          "runsAgainst": 33,
-          "runDifferential": -16
+          "points": 4,
+          "runsFor": 13,
+          "runsAgainst": 9,
+          "runDifferential": 4
         }
       },
       {
-        "position": 5,
+        "position": 2,
         "team": "TNT Thunder 15U DS",
         "teamCode": "511104",
         "record": {
-          "gamesPlayed": 2,
-          "wins": 0,
-          "losses": 2,
+          "gamesPlayed": 7,
+          "wins": 2,
+          "losses": 5,
           "ties": 0,
-          "winPercentage": "0.000"
+          "winPercentage": "0.286"
         },
         "stats": {
-          "points": 0,
-          "runsFor": 7,
-          "runsAgainst": 18,
-          "runDifferential": -11
+          "points": 4,
+          "runsFor": 58,
+          "runsAgainst": 46,
+          "runDifferential": 12
         }
       },
       {
         "position": 6,
+        "team": "Newmarket Hawks 15U DS",
+        "teamCode": "511101",
+        "record": {
+          "gamesPlayed": 4,
+          "wins": 1,
+          "losses": 3,
+          "ties": 0,
+          "winPercentage": "0.250"
+        },
+        "stats": {
+          "points": 2,
+          "runsFor": 27,
+          "runsAgainst": 42,
+          "runDifferential": -15
+        }
+      },
+      {
+        "position": 5,
+        "team": "Stouffville Yankees 15U DS",
+        "teamCode": "511103",
+        "record": {
+          "gamesPlayed": 5,
+          "wins": 1,
+          "losses": 4,
+          "ties": 0,
+          "winPercentage": "0.200"
+        },
+        "stats": {
+          "points": 2,
+          "runsFor": 26,
+          "runsAgainst": 66,
+          "runDifferential": -40
+        }
+      },
+      {
+        "position": 7,
         "team": "Orillia Royals 15U DS",
         "teamCode": "511102",
         "record": {
@@ -108,27 +126,9 @@
           "runsAgainst": 0,
           "runDifferential": 0
         }
-      },
-      {
-        "position": 7,
-        "team": "Sudbury",
-        "teamCode": "500609",
-        "record": {
-          "gamesPlayed": 0,
-          "wins": 0,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": ".000"
-        },
-        "stats": {
-          "points": 0,
-          "runsFor": 0,
-          "runsAgainst": 0,
-          "runDifferential": 0
-        }
       }
     ],
-    "lastUpdated": "2025-06-16T18:26:08.478Z",
+    "lastUpdated": "2025-06-16T18:55:18.566Z",
     "totalTeams": 7
   },
   "schedule": {
@@ -148,8 +148,12 @@
             "awayTeam": "Sudbury",
             "awayTeamCode": "500609",
             "location": "Beeton South",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 5,
+              "scoreText": "5-4"
+            }
           },
           {
             "date": "2025-06-07T15:30:00.000Z",
@@ -160,8 +164,12 @@
             "awayTeam": "Sudbury",
             "awayTeamCode": "500609",
             "location": "Beeton South",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 8,
+              "scoreText": "8-5"
+            }
           },
           {
             "date": "2025-06-08T10:00:00.000Z",
@@ -250,7 +258,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T18:26:11.184Z"
+        "lastUpdated": "2025-06-16T18:55:21.467Z"
       },
       "511100": {
         "teamCode": "511100",
@@ -389,7 +397,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T18:26:11.184Z"
+        "lastUpdated": "2025-06-16T18:55:21.467Z"
       },
       "511101": {
         "teamCode": "511101",
@@ -418,8 +426,12 @@
             "awayTeam": "TNT Thunder 15U DS",
             "awayTeamCode": "511104",
             "location": "WhipperWatson",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 9,
+              "scoreText": "9-10"
+            }
           },
           {
             "date": "2025-05-31T12:00:00.000Z",
@@ -532,7 +544,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T18:26:11.184Z"
+        "lastUpdated": "2025-06-16T18:55:21.467Z"
       },
       "511102": {
         "teamCode": "511102",
@@ -651,7 +663,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T18:26:11.184Z"
+        "lastUpdated": "2025-06-16T18:55:21.467Z"
       },
       "511103": {
         "teamCode": "511103",
@@ -700,8 +712,12 @@
             "awayTeam": "TNT Thunder 15U DS",
             "awayTeamCode": "511104",
             "location": "Bethesda 2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 2,
+              "away": 12,
+              "scoreText": "12-2"
+            }
           },
           {
             "date": "2025-06-14T12:00:00.000Z",
@@ -712,8 +728,12 @@
             "awayTeam": "TNT Thunder 15U DS",
             "awayTeamCode": "511104",
             "location": "Bethesda 2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 3,
+              "away": 21,
+              "scoreText": "21-3"
+            }
           },
           {
             "date": "2025-06-15T14:30:00.000Z",
@@ -790,7 +810,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T18:26:11.184Z"
+        "lastUpdated": "2025-06-16T18:55:21.467Z"
       },
       "511104": {
         "teamCode": "511104",
@@ -823,8 +843,12 @@
             "awayTeam": "Sudbury",
             "awayTeamCode": "500609",
             "location": "Beeton South",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 5,
+              "scoreText": "5-4"
+            }
           },
           {
             "date": "2025-06-07T15:30:00.000Z",
@@ -835,8 +859,12 @@
             "awayTeam": "Sudbury",
             "awayTeamCode": "500609",
             "location": "Beeton South",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 8,
+              "scoreText": "8-5"
+            }
           },
           {
             "date": "2025-06-14T09:30:00.000Z",
@@ -847,8 +875,12 @@
             "awayTeam": "TNT Thunder 15U DS",
             "awayTeamCode": "511104",
             "location": "Bethesda 2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 2,
+              "away": 12,
+              "scoreText": "12-2"
+            }
           },
           {
             "date": "2025-06-14T12:00:00.000Z",
@@ -859,8 +891,12 @@
             "awayTeam": "TNT Thunder 15U DS",
             "awayTeamCode": "511104",
             "location": "Bethesda 2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 3,
+              "away": 21,
+              "scoreText": "21-3"
+            }
           }
         ],
         "nextGames": [
@@ -925,7 +961,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T18:26:11.184Z"
+        "lastUpdated": "2025-06-16T18:55:21.467Z"
       },
       "511524": {
         "teamCode": "511524",
@@ -1072,7 +1108,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T18:26:11.184Z"
+        "lastUpdated": "2025-06-16T18:55:21.467Z"
       }
     },
     "allGames": [
@@ -1145,8 +1181,12 @@
         "awayTeam": "TNT Thunder 15U DS",
         "awayTeamCode": "511104",
         "location": "WhipperWatson",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 9,
+          "scoreText": "9-10"
+        }
       },
       {
         "date": "2025-05-31T12:00:00.000Z",
@@ -1281,8 +1321,12 @@
         "awayTeam": "Sudbury",
         "awayTeamCode": "500609",
         "location": "Beeton South",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 5,
+          "scoreText": "5-4"
+        }
       },
       {
         "date": "2025-06-07T15:30:00.000Z",
@@ -1293,8 +1337,12 @@
         "awayTeam": "Sudbury",
         "awayTeamCode": "500609",
         "location": "Beeton South",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 5,
+          "away": 8,
+          "scoreText": "8-5"
+        }
       },
       {
         "date": "2025-06-08T10:00:00.000Z",
@@ -1329,8 +1377,12 @@
         "awayTeam": "TNT Thunder 15U DS",
         "awayTeamCode": "511104",
         "location": "Bethesda 2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 2,
+          "away": 12,
+          "scoreText": "12-2"
+        }
       },
       {
         "date": "2025-06-14T12:00:00.000Z",
@@ -1341,8 +1393,12 @@
         "awayTeam": "TNT Thunder 15U DS",
         "awayTeamCode": "511104",
         "location": "Bethesda 2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 3,
+          "away": 21,
+          "scoreText": "21-3"
+        }
       },
       {
         "date": "2025-06-15T14:30:00.000Z",
@@ -1811,8 +1867,12 @@
         "awayTeam": "TNT Thunder 15U DS",
         "awayTeamCode": "511104",
         "location": "Bethesda 2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 3,
+          "away": 21,
+          "scoreText": "21-3"
+        }
       },
       {
         "date": "2025-06-14T09:30:00.000Z",
@@ -1823,8 +1883,12 @@
         "awayTeam": "TNT Thunder 15U DS",
         "awayTeamCode": "511104",
         "location": "Bethesda 2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 2,
+          "away": 12,
+          "scoreText": "12-2"
+        }
       },
       {
         "date": "2025-06-08T12:30:00.000Z",
@@ -1859,8 +1923,12 @@
         "awayTeam": "Sudbury",
         "awayTeamCode": "500609",
         "location": "Beeton South",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 5,
+          "away": 8,
+          "scoreText": "8-5"
+        }
       },
       {
         "date": "2025-06-07T12:30:00.000Z",
@@ -1871,8 +1939,12 @@
         "awayTeam": "Sudbury",
         "awayTeamCode": "500609",
         "location": "Beeton South",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 5,
+          "scoreText": "5-4"
+        }
       },
       {
         "date": "2025-06-07T12:00:00.000Z",
@@ -2041,14 +2113,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-16T18:26:11.184Z",
+    "lastUpdated": "2025-06-16T18:55:21.467Z",
     "totalGames": 57
   },
   "summary": {
     "totalTeams": 7,
     "totalGames": 57,
-    "completedGames": 7,
-    "upcomingGames": 50,
+    "completedGames": 12,
+    "upcomingGames": 45,
     "topTeam": {
       "team": "Barrie Baycats 15U DS",
       "teamCode": "511524",
@@ -2058,13 +2130,13 @@
     },
     "highestScoringGame": {
       "homeTeam": "Stouffville Yankees 15U DS",
-      "awayTeam": "Barrie Baycats 15U DS",
-      "homeScore": 8,
-      "awayScore": 13,
-      "totalRuns": 21,
-      "date": "Sat, Jun 7",
+      "awayTeam": "TNT Thunder 15U DS",
+      "homeScore": 3,
+      "awayScore": 21,
+      "totalRuns": 24,
+      "date": "Sat, Jun 14",
       "location": "Bethesda 2"
     },
-    "lastUpdated": "2025-06-16T18:26:11.190Z"
+    "lastUpdated": "2025-06-16T18:55:21.474Z"
   }
 }
