@@ -110,6 +110,24 @@
         }
       },
       {
+        "position": 11,
+        "team": "Barrie Baycats 17U A",
+        "teamCode": "511023",
+        "record": {
+          "gamesPlayed": 5,
+          "wins": 3,
+          "losses": 2,
+          "ties": 0,
+          "winPercentage": "0.600"
+        },
+        "stats": {
+          "points": 6,
+          "runsFor": 38,
+          "runsAgainst": 39,
+          "runDifferential": -1
+        }
+      },
+      {
         "position": 7,
         "team": "Collingwood Jays 18U A",
         "teamCode": "511027",
@@ -143,42 +161,6 @@
           "runsFor": 42,
           "runsAgainst": 37,
           "runDifferential": 5
-        }
-      },
-      {
-        "position": 15,
-        "team": "Markham Mariners 18U A - Team 2",
-        "teamCode": "511031",
-        "record": {
-          "gamesPlayed": 4,
-          "wins": 2,
-          "losses": 2,
-          "ties": 0,
-          "winPercentage": "0.500"
-        },
-        "stats": {
-          "points": 4,
-          "runsFor": 21,
-          "runsAgainst": 25,
-          "runDifferential": -4
-        }
-      },
-      {
-        "position": 16,
-        "team": "Barrie Baycats 17U A",
-        "teamCode": "511023",
-        "record": {
-          "gamesPlayed": 4,
-          "wins": 2,
-          "losses": 2,
-          "ties": 0,
-          "winPercentage": "0.500"
-        },
-        "stats": {
-          "points": 4,
-          "runsFor": 21,
-          "runsAgainst": 26,
-          "runDifferential": -5
         }
       },
       {
@@ -218,7 +200,7 @@
         }
       },
       {
-        "position": 13,
+        "position": 14,
         "team": "Orillia Royals 18U B",
         "teamCode": "511032",
         "record": {
@@ -236,7 +218,7 @@
         }
       },
       {
-        "position": 14,
+        "position": 15,
         "team": "Vaughan Vikings 18U AA",
         "teamCode": "518962",
         "record": {
@@ -254,7 +236,25 @@
         }
       },
       {
-        "position": 12,
+        "position": 16,
+        "team": "Markham Mariners 18U A - Team 2",
+        "teamCode": "511031",
+        "record": {
+          "gamesPlayed": 5,
+          "wins": 2,
+          "losses": 3,
+          "ties": 0,
+          "winPercentage": "0.400"
+        },
+        "stats": {
+          "points": 4,
+          "runsFor": 34,
+          "runsAgainst": 42,
+          "runDifferential": -8
+        }
+      },
+      {
+        "position": 13,
         "team": "Bradford Tigers 18U A",
         "teamCode": "511025",
         "record": {
@@ -290,7 +290,7 @@
         }
       },
       {
-        "position": 11,
+        "position": 12,
         "team": "Vaughan Vikings 17U A",
         "teamCode": "518960",
         "record": {
@@ -344,7 +344,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-06-16T20:46:00.484Z",
+    "lastUpdated": "2025-06-16T21:18:07.301Z",
     "totalTeams": 19
   },
   "schedule": {
@@ -494,7 +494,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T20:46:04.754Z"
+        "lastUpdated": "2025-06-16T21:18:12.017Z"
       },
       "511022": {
         "teamCode": "511022",
@@ -637,7 +637,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T20:46:04.754Z"
+        "lastUpdated": "2025-06-16T21:18:12.017Z"
       },
       "511023": {
         "teamCode": "511023",
@@ -654,8 +654,12 @@
             "awayTeam": "Barrie Baycats 17U A",
             "awayTeamCode": "511023",
             "location": "Cornell #1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 17,
+              "scoreText": "17-13"
+            }
           },
           {
             "date": "2025-05-28T19:15:00.000Z",
@@ -776,7 +780,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T20:46:04.754Z"
+        "lastUpdated": "2025-06-16T21:18:12.017Z"
       },
       "511024": {
         "teamCode": "511024",
@@ -923,7 +927,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T20:46:04.754Z"
+        "lastUpdated": "2025-06-16T21:18:12.017Z"
       },
       "511025": {
         "teamCode": "511025",
@@ -1066,7 +1070,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T20:46:04.754Z"
+        "lastUpdated": "2025-06-16T21:18:12.017Z"
       },
       "511026": {
         "teamCode": "511026",
@@ -1213,7 +1217,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T20:46:04.754Z"
+        "lastUpdated": "2025-06-16T21:18:12.017Z"
       },
       "511027": {
         "teamCode": "511027",
@@ -1364,7 +1368,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T20:46:04.754Z"
+        "lastUpdated": "2025-06-16T21:18:12.017Z"
       },
       "511028": {
         "teamCode": "511028",
@@ -1511,7 +1515,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T20:46:04.754Z"
+        "lastUpdated": "2025-06-16T21:18:12.017Z"
       },
       "511030": {
         "teamCode": "511030",
@@ -1662,7 +1666,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T20:46:04.754Z"
+        "lastUpdated": "2025-06-16T21:18:12.017Z"
       },
       "511031": {
         "teamCode": "511031",
@@ -1679,8 +1683,12 @@
             "awayTeam": "Barrie Baycats 17U A",
             "awayTeamCode": "511023",
             "location": "Cornell #1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 17,
+              "scoreText": "17-13"
+            }
           },
           {
             "date": "2025-05-28T20:30:00.000Z",
@@ -1805,7 +1813,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T20:46:04.754Z"
+        "lastUpdated": "2025-06-16T21:18:12.017Z"
       },
       "511032": {
         "teamCode": "511032",
@@ -1956,7 +1964,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T20:46:04.754Z"
+        "lastUpdated": "2025-06-16T21:18:12.017Z"
       },
       "511033": {
         "teamCode": "511033",
@@ -2107,7 +2115,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T20:46:04.754Z"
+        "lastUpdated": "2025-06-16T21:18:12.017Z"
       },
       "511034": {
         "teamCode": "511034",
@@ -2258,7 +2266,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T20:46:04.754Z"
+        "lastUpdated": "2025-06-16T21:18:12.017Z"
       },
       "511035": {
         "teamCode": "511035",
@@ -2405,7 +2413,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T20:46:04.754Z"
+        "lastUpdated": "2025-06-16T21:18:12.017Z"
       },
       "516246": {
         "teamCode": "516246",
@@ -2544,7 +2552,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T20:46:04.754Z"
+        "lastUpdated": "2025-06-16T21:18:12.017Z"
       },
       "518960": {
         "teamCode": "518960",
@@ -2691,7 +2699,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T20:46:04.754Z"
+        "lastUpdated": "2025-06-16T21:18:12.017Z"
       },
       "518962": {
         "teamCode": "518962",
@@ -2842,7 +2850,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T20:46:04.754Z"
+        "lastUpdated": "2025-06-16T21:18:12.017Z"
       },
       "519242": {
         "teamCode": "519242",
@@ -2993,7 +3001,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T20:46:04.754Z"
+        "lastUpdated": "2025-06-16T21:18:12.018Z"
       },
       "546377": {
         "teamCode": "546377",
@@ -3136,7 +3144,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T20:46:04.754Z"
+        "lastUpdated": "2025-06-16T21:18:12.018Z"
       }
     },
     "allGames": [
@@ -3449,8 +3457,12 @@
         "awayTeam": "Barrie Baycats 17U A",
         "awayTeamCode": "511023",
         "location": "Cornell #1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 17,
+          "scoreText": "17-13"
+        }
       },
       {
         "date": "2025-05-26T19:30:00.000Z",
@@ -5585,14 +5597,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-16T20:46:04.754Z",
+    "lastUpdated": "2025-06-16T21:18:12.018Z",
     "totalGames": 161
   },
   "summary": {
     "totalTeams": 19,
     "totalGames": 161,
-    "completedGames": 62,
-    "upcomingGames": 99,
+    "completedGames": 63,
+    "upcomingGames": 98,
     "topTeam": {
       "team": "Caledon Nationals 18U AA",
       "teamCode": "511035",
@@ -5601,14 +5613,14 @@
       "winPercentage": "0.917"
     },
     "highestScoringGame": {
-      "homeTeam": "Aurora-King Jays 18U A",
-      "awayTeam": "Bradford Tigers 18U A",
-      "homeScore": 11,
-      "awayScore": 10,
-      "totalRuns": 21,
+      "homeTeam": "Markham Mariners 18U A - Team 2",
+      "awayTeam": "Barrie Baycats 17U A",
+      "homeScore": 13,
+      "awayScore": 17,
+      "totalRuns": 30,
       "date": "Mon, May 26",
-      "location": "Stewart Burnett"
+      "location": "Cornell #1"
     },
-    "lastUpdated": "2025-06-16T20:47:47.911Z"
+    "lastUpdated": "2025-06-16T21:20:03.201Z"
   }
 }
