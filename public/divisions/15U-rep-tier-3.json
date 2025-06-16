@@ -38,6 +38,24 @@
         }
       },
       {
+        "position": 3,
+        "team": "Aurora-King Jays 15U A",
+        "teamCode": "510980",
+        "record": {
+          "gamesPlayed": 6,
+          "wins": 4,
+          "losses": 2,
+          "ties": 0,
+          "winPercentage": "0.667"
+        },
+        "stats": {
+          "points": 8,
+          "runsFor": 48,
+          "runsAgainst": 38,
+          "runDifferential": 10
+        }
+      },
+      {
         "position": 1,
         "team": "Orillia Royals 15U A",
         "teamCode": "510984",
@@ -56,39 +74,21 @@
         }
       },
       {
-        "position": 3,
+        "position": 4,
         "team": "Bradford Tigers 15U A",
         "teamCode": "510982",
         "record": {
-          "gamesPlayed": 5,
+          "gamesPlayed": 6,
           "wins": 3,
-          "losses": 2,
+          "losses": 3,
           "ties": 0,
-          "winPercentage": "0.600"
+          "winPercentage": "0.500"
         },
         "stats": {
           "points": 6,
-          "runsFor": 44,
-          "runsAgainst": 32,
-          "runDifferential": 12
-        }
-      },
-      {
-        "position": 4,
-        "team": "Aurora-King Jays 15U A",
-        "teamCode": "510980",
-        "record": {
-          "gamesPlayed": 5,
-          "wins": 3,
-          "losses": 2,
-          "ties": 0,
-          "winPercentage": "0.600"
-        },
-        "stats": {
-          "points": 6,
-          "runsFor": 35,
-          "runsAgainst": 30,
-          "runDifferential": 5
+          "runsFor": 52,
+          "runsAgainst": 45,
+          "runDifferential": 7
         }
       },
       {
@@ -182,7 +182,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-06-16T01:15:32.409Z",
+    "lastUpdated": "2025-06-16T03:11:16.994Z",
     "totalTeams": 10
   },
   "schedule": {
@@ -266,8 +266,12 @@
             "awayTeam": "Bradford Tigers 15U A",
             "awayTeamCode": "510982",
             "location": "Lambert Wilson #4",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 8,
+              "scoreText": "8-13"
+            }
           }
         ],
         "nextGames": [
@@ -332,7 +336,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T01:15:36.518Z"
+        "lastUpdated": "2025-06-16T03:11:21.281Z"
       },
       "510981": {
         "teamCode": "510981",
@@ -475,7 +479,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T01:15:36.518Z"
+        "lastUpdated": "2025-06-16T03:11:21.281Z"
       },
       "510982": {
         "teamCode": "510982",
@@ -552,8 +556,12 @@
             "awayTeam": "Bradford Tigers 15U A",
             "awayTeamCode": "510982",
             "location": "Lambert Wilson #4",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 8,
+              "scoreText": "8-13"
+            }
           }
         ],
         "nextGames": [
@@ -618,7 +626,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T01:15:36.518Z"
+        "lastUpdated": "2025-06-16T03:11:21.281Z"
       },
       "510983": {
         "teamCode": "510983",
@@ -765,7 +773,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T01:15:36.518Z"
+        "lastUpdated": "2025-06-16T03:11:21.281Z"
       },
       "510984": {
         "teamCode": "510984",
@@ -912,7 +920,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T01:15:36.518Z"
+        "lastUpdated": "2025-06-16T03:11:21.281Z"
       },
       "510985": {
         "teamCode": "510985",
@@ -1015,7 +1023,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T01:15:36.518Z"
+        "lastUpdated": "2025-06-16T03:11:21.281Z"
       },
       "510986": {
         "teamCode": "510986",
@@ -1162,7 +1170,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T01:15:36.518Z"
+        "lastUpdated": "2025-06-16T03:11:21.281Z"
       },
       "510987": {
         "teamCode": "510987",
@@ -1309,7 +1317,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T01:15:36.518Z"
+        "lastUpdated": "2025-06-16T03:11:21.281Z"
       },
       "510988": {
         "teamCode": "510988",
@@ -1456,7 +1464,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T01:15:36.518Z"
+        "lastUpdated": "2025-06-16T03:11:21.281Z"
       },
       "510989": {
         "teamCode": "510989",
@@ -1591,7 +1599,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T01:15:36.518Z"
+        "lastUpdated": "2025-06-16T03:11:21.281Z"
       },
       "510990": {
         "teamCode": "510990",
@@ -1726,7 +1734,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T01:15:36.518Z"
+        "lastUpdated": "2025-06-16T03:11:21.282Z"
       },
       "510991": {
         "teamCode": "510991",
@@ -1869,7 +1877,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T01:15:36.519Z"
+        "lastUpdated": "2025-06-16T03:11:21.282Z"
       },
       "510992": {
         "teamCode": "510992",
@@ -2004,7 +2012,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T01:15:36.519Z"
+        "lastUpdated": "2025-06-16T03:11:21.282Z"
       },
       "510993": {
         "teamCode": "510993",
@@ -2151,7 +2159,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T01:15:36.519Z"
+        "lastUpdated": "2025-06-16T03:11:21.282Z"
       },
       "510998": {
         "teamCode": "510998",
@@ -2298,7 +2306,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T01:15:36.519Z"
+        "lastUpdated": "2025-06-16T03:11:21.282Z"
       },
       "516244": {
         "teamCode": "516244",
@@ -2417,7 +2425,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T01:15:36.519Z"
+        "lastUpdated": "2025-06-16T03:11:21.282Z"
       },
       "518959": {
         "teamCode": "518959",
@@ -2568,7 +2576,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T01:15:36.519Z"
+        "lastUpdated": "2025-06-16T03:11:21.282Z"
       },
       "546379": {
         "teamCode": "546379",
@@ -2715,7 +2723,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-16T01:15:36.519Z"
+        "lastUpdated": "2025-06-16T03:11:21.282Z"
       }
     },
     "allGames": [
@@ -3548,8 +3556,12 @@
         "awayTeam": "Bradford Tigers 15U A",
         "awayTeamCode": "510982",
         "location": "Lambert Wilson #4",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 8,
+          "scoreText": "8-13"
+        }
       },
       {
         "date": "2025-06-16T18:30:00.000Z",
@@ -4846,8 +4858,12 @@
         "awayTeam": "Bradford Tigers 15U A",
         "awayTeamCode": "510982",
         "location": "Lambert Wilson #4",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 8,
+          "scoreText": "8-13"
+        }
       },
       {
         "date": "2025-06-14T18:00:00.000Z",
@@ -5108,14 +5124,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-16T01:15:36.519Z",
+    "lastUpdated": "2025-06-16T03:11:21.282Z",
     "totalGames": 162
   },
   "summary": {
     "totalTeams": 10,
     "totalGames": 162,
-    "completedGames": 43,
-    "upcomingGames": 119,
+    "completedGames": 44,
+    "upcomingGames": 118,
     "topTeam": {
       "team": "Stouffville Yankees 15U A",
       "teamCode": "510985",
@@ -5132,6 +5148,6 @@
       "date": "Thu, May 29",
       "location": "Bethesda Fields #2"
     },
-    "lastUpdated": "2025-06-16T01:17:52.164Z"
+    "lastUpdated": "2025-06-16T03:13:39.094Z"
   }
 }
