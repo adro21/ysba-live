@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-06-17T01:16:26.195Z",
+  "lastUpdated": "2025-06-17T03:07:26.993Z",
   "totalGames": 200,
   "games": [
     {
@@ -81,8 +81,12 @@
       "awayTeam": "Caledon Nationals 18U AA",
       "awayTeamCode": "511035",
       "location": "Joe Magani #4",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 5,
+        "away": 3,
+        "scoreText": "3-5"
+      },
       "division": "18U",
       "tier": "rep-no-tier"
     },
@@ -95,8 +99,12 @@
       "awayTeam": "Caledon Nationals 18U AA",
       "awayTeamCode": "511035",
       "location": "Joe Magani #4",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 5,
+        "away": 3,
+        "scoreText": "3-5"
+      },
       "division": "18U",
       "tier": "rep-tier-3"
     },
@@ -151,22 +159,12 @@
       "awayTeam": "Orangeville Bengals 10U AA",
       "awayTeamCode": "510884",
       "location": "Carlton Park",
-      "isCompleted": false,
-      "score": null,
-      "division": "10U",
-      "tier": "rep-tier-2"
-    },
-    {
-      "date": "2025-06-16T18:30:00.000Z",
-      "dateText": "Mon, Jun 16",
-      "time": "6:30 PM",
-      "homeTeam": "Aurora-King Jays 10U AA",
-      "homeTeamCode": "510881",
-      "awayTeam": "Barrie Baycats 10U AA",
-      "awayTeamCode": "510882",
-      "location": "Town Park",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 11,
+        "away": 13,
+        "scoreText": "13-11"
+      },
       "division": "10U",
       "tier": "rep-tier-2"
     },
@@ -193,22 +191,12 @@
       "awayTeam": "Orangeville Bengals 10U AA",
       "awayTeamCode": "510884",
       "location": "Carlton Park",
-      "isCompleted": false,
-      "score": null,
-      "division": "10U",
-      "tier": "rep-tier-3"
-    },
-    {
-      "date": "2025-06-16T18:30:00.000Z",
-      "dateText": "Mon, Jun 16",
-      "time": "6:30 PM",
-      "homeTeam": "Aurora-King Jays 10U AA",
-      "homeTeamCode": "510881",
-      "awayTeam": "Barrie Baycats 10U AA",
-      "awayTeamCode": "510882",
-      "location": "Town Park",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 11,
+        "away": 13,
+        "scoreText": "13-11"
+      },
       "division": "10U",
       "tier": "rep-tier-3"
     },
@@ -263,8 +251,12 @@
       "awayTeam": "Stouffville Yankees 12U AA",
       "awayTeamCode": "510933",
       "location": "Berczy Park South",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 8,
+        "away": 7,
+        "scoreText": "7-8"
+      },
       "division": "12U",
       "tier": "rep-tier-2"
     },
@@ -291,8 +283,12 @@
       "awayTeam": "Stouffville Yankees 12U AA",
       "awayTeamCode": "510933",
       "location": "Berczy Park South",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 8,
+        "away": 7,
+        "scoreText": "7-8"
+      },
       "division": "12U",
       "tier": "rep-tier-3"
     },
@@ -749,6 +745,38 @@
       },
       "division": "13U",
       "tier": "rep-tier-3"
+    },
+    {
+      "date": "2025-06-15T14:30:00.000Z",
+      "dateText": "Sun, Jun 15",
+      "time": "2:30 PM",
+      "homeTeam": "New Lowell Knights 13U DS",
+      "homeTeamCode": "511092",
+      "awayTeam": "Collingwood Jays (Blue) 13U DS",
+      "awayTeamCode": "511086",
+      "location": "New Lowell Recreation Park #3",
+      "isCompleted": true,
+      "score": {
+        "home": 16,
+        "away": 9,
+        "scoreText": "9-16"
+      },
+      "division": "13U",
+      "tier": "select-all-tiers"
+    },
+    {
+      "date": "2025-06-15T14:30:00.000Z",
+      "dateText": "Sun, Jun 15",
+      "time": "2:30 PM",
+      "homeTeam": "Orillia Royals 15U DS",
+      "homeTeamCode": "511102",
+      "awayTeam": "Stouffville Yankees 15U DS",
+      "awayTeamCode": "511103",
+      "location": "Udell field",
+      "isCompleted": false,
+      "score": null,
+      "division": "15U",
+      "tier": "select-all-tiers"
     }
   ]
 }
