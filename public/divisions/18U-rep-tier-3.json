@@ -1,70 +1,17 @@
 {
   "standings": {
-    "teams": [
-      {
-        "position": 1,
-        "team": "Aurora-King Jays 18U A",
-        "teamCode": "511022",
-        "record": {
-          "gamesPlayed": 0,
-          "wins": 0,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": ".000"
-        },
-        "stats": {
-          "points": 0,
-          "runsFor": 0,
-          "runsAgainst": 0,
-          "runDifferential": 0
-        }
-      },
-      {
-        "position": 2,
-        "team": "Innisfil Cardinals 18U A",
-        "teamCode": "511028",
-        "record": {
-          "gamesPlayed": 0,
-          "wins": 0,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": ".000"
-        },
-        "stats": {
-          "points": 0,
-          "runsFor": 0,
-          "runsAgainst": 0,
-          "runDifferential": 0
-        }
-      }
-    ],
-    "lastUpdated": "2025-06-15T14:44:20.903Z",
-    "totalTeams": 2
+    "teams": [],
+    "lastUpdated": "2025-06-17T14:49:26.377Z",
+    "totalTeams": 0
   },
   "schedule": {
     "teamSchedules": {
       "511021": {
         "teamCode": "511021",
         "totalGames": 17,
-        "playedGames": 8,
-        "upcomingGames": 9,
+        "playedGames": 9,
+        "upcomingGames": 8,
         "recentGames": [
-          {
-            "date": "2025-06-06T18:00:00.000Z",
-            "dateText": "Fri, Jun 6",
-            "time": "6:00 PM",
-            "homeTeam": "Aurora-King Jays 17U A",
-            "homeTeamCode": "511021",
-            "awayTeam": "Markham Mariners 18U A - Team 1",
-            "awayTeamCode": "511030",
-            "location": "Stewart Burnett Park",
-            "isCompleted": true,
-            "score": {
-              "home": 0,
-              "away": 4,
-              "scoreText": "4-0"
-            }
-          },
           {
             "date": "2025-06-06T20:30:00.000Z",
             "dateText": "Fri, Jun 6",
@@ -122,11 +69,13 @@
             "awayTeam": "Aurora-King Jays 17U A",
             "awayTeamCode": "511021",
             "location": "David Hamilton #1",
-            "isCompleted": false,
-            "score": null
-          }
-        ],
-        "nextGames": [
+            "isCompleted": true,
+            "score": {
+              "home": 0,
+              "away": 14,
+              "scoreText": "14-0"
+            }
+          },
           {
             "date": "2025-06-16T18:00:00.000Z",
             "dateText": "Mon, Jun 16",
@@ -136,9 +85,15 @@
             "awayTeam": "Aurora-King Jays 17U A",
             "awayTeamCode": "511021",
             "location": "Stewart Burnett",
-            "isCompleted": false,
-            "score": null
-          },
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 2,
+              "scoreText": "2-4"
+            }
+          }
+        ],
+        "nextGames": [
           {
             "date": "2025-06-20T19:30:00.000Z",
             "dateText": "Fri, Jun 20",
@@ -186,48 +141,28 @@
             "location": "Bolton North Hill D3",
             "isCompleted": false,
             "score": null
+          },
+          {
+            "date": "2025-07-08T20:30:00.000Z",
+            "dateText": "Tue, Jul 8",
+            "time": "8:30 PM",
+            "homeTeam": "Caledon Nationals 18U AA",
+            "homeTeamCode": "511035",
+            "awayTeam": "Aurora-King Jays 17U A",
+            "awayTeamCode": "511021",
+            "location": "Bolton North Hill D1",
+            "isCompleted": false,
+            "score": null
           }
         ],
-        "lastUpdated": "2025-06-15T14:44:25.450Z"
+        "lastUpdated": "2025-06-17T14:49:30.900Z"
       },
       "511022": {
         "teamCode": "511022",
         "totalGames": 17,
-        "playedGames": 8,
-        "upcomingGames": 9,
+        "playedGames": 10,
+        "upcomingGames": 7,
         "recentGames": [
-          {
-            "date": "2025-05-26T19:30:00.000Z",
-            "dateText": "Mon, May 26",
-            "time": "7:30 PM",
-            "homeTeam": "Aurora-King Jays 18U A",
-            "homeTeamCode": "511022",
-            "awayTeam": "Bradford Tigers 18U A",
-            "awayTeamCode": "511025",
-            "location": "Stewart Burnett",
-            "isCompleted": true,
-            "score": {
-              "home": 11,
-              "away": 10,
-              "scoreText": "10-11"
-            }
-          },
-          {
-            "date": "2025-06-01T16:00:00.000Z",
-            "dateText": "Sun, Jun 1",
-            "time": "4:00 PM",
-            "homeTeam": "Collingwood Jays 18U A",
-            "homeTeamCode": "511027",
-            "awayTeam": "Aurora-King Jays 18U A",
-            "awayTeamCode": "511022",
-            "location": "Heritage Park",
-            "isCompleted": true,
-            "score": {
-              "home": 5,
-              "away": 6,
-              "scoreText": "6-5"
-            }
-          },
           {
             "date": "2025-06-02T19:30:00.000Z",
             "dateText": "Mon, Jun 2",
@@ -275,9 +210,7 @@
               "away": 8,
               "scoreText": "8-3"
             }
-          }
-        ],
-        "nextGames": [
+          },
           {
             "date": "2025-06-16T18:00:00.000Z",
             "dateText": "Mon, Jun 16",
@@ -287,8 +220,12 @@
             "awayTeam": "Aurora-King Jays 17U A",
             "awayTeamCode": "511021",
             "location": "Stewart Burnett",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 2,
+              "scoreText": "2-4"
+            }
           },
           {
             "date": "2025-06-16T20:30:00.000Z",
@@ -299,9 +236,15 @@
             "awayTeam": "Innisfil Cardinals 18U A",
             "awayTeamCode": "511028",
             "location": "Stewart Burnett Park",
-            "isCompleted": false,
-            "score": null
-          },
+            "isCompleted": true,
+            "score": {
+              "home": 15,
+              "away": 3,
+              "scoreText": "3-15"
+            }
+          }
+        ],
+        "nextGames": [
           {
             "date": "2025-06-23T19:30:00.000Z",
             "dateText": "Mon, Jun 23",
@@ -337,9 +280,33 @@
             "location": "Bolton North Hill D1",
             "isCompleted": false,
             "score": null
+          },
+          {
+            "date": "2025-07-11T18:00:00.000Z",
+            "dateText": "Fri, Jul 11",
+            "time": "6:00 PM",
+            "homeTeam": "Aurora-King Jays 18U A",
+            "homeTeamCode": "511022",
+            "awayTeam": "Orillia Royals 18U B",
+            "awayTeamCode": "511032",
+            "location": "Lambert Wilson #4",
+            "isCompleted": false,
+            "score": null
+          },
+          {
+            "date": "2025-07-14T19:30:00.000Z",
+            "dateText": "Mon, Jul 14",
+            "time": "7:30 PM",
+            "homeTeam": "Aurora-King Jays 18U A",
+            "homeTeamCode": "511022",
+            "awayTeam": "Markham Mariners 18U A - Team 1",
+            "awayTeamCode": "511030",
+            "location": "Stewart Burnett",
+            "isCompleted": false,
+            "score": null
           }
         ],
-        "lastUpdated": "2025-06-15T14:44:25.450Z"
+        "lastUpdated": "2025-06-17T14:49:30.900Z"
       },
       "511023": {
         "teamCode": "511023",
@@ -356,8 +323,12 @@
             "awayTeam": "Barrie Baycats 17U A",
             "awayTeamCode": "511023",
             "location": "Cornell #1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 17,
+              "scoreText": "17-13"
+            }
           },
           {
             "date": "2025-05-28T19:15:00.000Z",
@@ -478,30 +449,14 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-15T14:44:25.450Z"
+        "lastUpdated": "2025-06-17T14:49:30.900Z"
       },
       "511024": {
         "teamCode": "511024",
         "totalGames": 17,
-        "playedGames": 9,
-        "upcomingGames": 8,
+        "playedGames": 10,
+        "upcomingGames": 7,
         "recentGames": [
-          {
-            "date": "2025-06-03T19:00:00.000Z",
-            "dateText": "Tue, Jun 3",
-            "time": "7:00 PM",
-            "homeTeam": "Markham Mariners 18U A - Team 1",
-            "homeTeamCode": "511030",
-            "awayTeam": "Barrie Baycats 18U A",
-            "awayTeamCode": "511024",
-            "location": "Cornell #2",
-            "isCompleted": true,
-            "score": {
-              "home": 1,
-              "away": 9,
-              "scoreText": "9-1"
-            }
-          },
           {
             "date": "2025-06-09T19:30:00.000Z",
             "dateText": "Mon, Jun 9",
@@ -559,11 +514,13 @@
             "awayTeam": "Barrie Baycats 18U A",
             "awayTeamCode": "511024",
             "location": "Joe Magani #4",
-            "isCompleted": false,
-            "score": null
-          }
-        ],
-        "nextGames": [
+            "isCompleted": true,
+            "score": {
+              "home": 1,
+              "away": 10,
+              "scoreText": "10-1"
+            }
+          },
           {
             "date": "2025-06-16T19:30:00.000Z",
             "dateText": "Mon, Jun 16",
@@ -573,9 +530,15 @@
             "awayTeam": "Vaughan Vikings 17U A",
             "awayTeamCode": "518960",
             "location": "Barrie Community Sports Complex",
-            "isCompleted": false,
-            "score": null
-          },
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 3,
+              "scoreText": "3-10"
+            }
+          }
+        ],
+        "nextGames": [
           {
             "date": "2025-06-18T19:00:00.000Z",
             "dateText": "Wed, Jun 18",
@@ -623,32 +586,28 @@
             "location": "David Hamilton #1",
             "isCompleted": false,
             "score": null
+          },
+          {
+            "date": "2025-07-14T19:30:00.000Z",
+            "dateText": "Mon, Jul 14",
+            "time": "7:30 PM",
+            "homeTeam": "Barrie Baycats 18U A",
+            "homeTeamCode": "511024",
+            "awayTeam": "Muskoka Hornets 18U AA",
+            "awayTeamCode": "516246",
+            "location": "Barrie Community Sports Complex",
+            "isCompleted": false,
+            "score": null
           }
         ],
-        "lastUpdated": "2025-06-15T14:44:25.450Z"
+        "lastUpdated": "2025-06-17T14:49:30.900Z"
       },
       "511025": {
         "teamCode": "511025",
         "totalGames": 17,
-        "playedGames": 9,
-        "upcomingGames": 8,
+        "playedGames": 10,
+        "upcomingGames": 7,
         "recentGames": [
-          {
-            "date": "2025-06-02T20:00:00.000Z",
-            "dateText": "Mon, Jun 2",
-            "time": "8:00 PM",
-            "homeTeam": "Bradford Tigers 18U A",
-            "homeTeamCode": "511025",
-            "awayTeam": "Muskoka Hornets 18U AA",
-            "awayTeamCode": "516246",
-            "location": "Joe Magani #4",
-            "isCompleted": true,
-            "score": {
-              "home": 2,
-              "away": 10,
-              "scoreText": "10-2"
-            }
-          },
           {
             "date": "2025-06-08T19:00:00.000Z",
             "dateText": "Sun, Jun 8",
@@ -690,8 +649,12 @@
             "awayTeam": "Barrie Baycats 18U A",
             "awayTeamCode": "511024",
             "location": "Joe Magani #4",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 1,
+              "away": 10,
+              "scoreText": "10-1"
+            }
           },
           {
             "date": "2025-06-14T16:00:00.000Z",
@@ -702,11 +665,13 @@
             "awayTeam": "Women's Team",
             "awayTeamCode": "546377",
             "location": "Joe Magani #4",
-            "isCompleted": false,
-            "score": null
-          }
-        ],
-        "nextGames": [
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 4,
+              "scoreText": "4-11"
+            }
+          },
           {
             "date": "2025-06-16T20:00:00.000Z",
             "dateText": "Mon, Jun 16",
@@ -716,9 +681,15 @@
             "awayTeam": "Caledon Nationals 18U AA",
             "awayTeamCode": "511035",
             "location": "Joe Magani #4",
-            "isCompleted": false,
-            "score": null
-          },
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 3,
+              "scoreText": "3-5"
+            }
+          }
+        ],
+        "nextGames": [
           {
             "date": "2025-06-20T19:30:00.000Z",
             "dateText": "Fri, Jun 20",
@@ -766,9 +737,21 @@
             "location": "Stayner Collegiate",
             "isCompleted": false,
             "score": null
+          },
+          {
+            "date": "2025-07-07T19:00:00.000Z",
+            "dateText": "Mon, Jul 7",
+            "time": "7:00 PM",
+            "homeTeam": "Markham Mariners 18U A - Team 2",
+            "homeTeamCode": "511031",
+            "awayTeam": "Bradford Tigers 18U A",
+            "awayTeamCode": "511025",
+            "location": "Cornell #1",
+            "isCompleted": false,
+            "score": null
           }
         ],
-        "lastUpdated": "2025-06-15T14:44:25.450Z"
+        "lastUpdated": "2025-06-17T14:49:30.900Z"
       },
       "511026": {
         "teamCode": "511026",
@@ -915,42 +898,14 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-15T14:44:25.450Z"
+        "lastUpdated": "2025-06-17T14:49:30.900Z"
       },
       "511027": {
         "teamCode": "511027",
         "totalGames": 17,
-        "playedGames": 6,
-        "upcomingGames": 11,
+        "playedGames": 8,
+        "upcomingGames": 9,
         "recentGames": [
-          {
-            "date": "2025-05-20T18:30:00.000Z",
-            "dateText": "Tue, May 20",
-            "time": "6:30 PM",
-            "homeTeam": "Collingwood Jays 18U A",
-            "homeTeamCode": "511027",
-            "awayTeam": "Women's Team",
-            "awayTeamCode": "546377",
-            "location": "Heritage Park",
-            "isCompleted": true,
-            "score": {
-              "home": 17,
-              "away": 3,
-              "scoreText": "3-17"
-            }
-          },
-          {
-            "date": "2025-05-30T18:00:00.000Z",
-            "dateText": "Fri, May 30",
-            "time": "6:00 PM",
-            "homeTeam": "Muskoka Hornets 18U AA",
-            "homeTeamCode": "516246",
-            "awayTeam": "Collingwood Jays 18U A",
-            "awayTeamCode": "511027",
-            "location": "Holm Diamond",
-            "isCompleted": false,
-            "score": null
-          },
           {
             "date": "2025-06-01T16:00:00.000Z",
             "dateText": "Sun, Jun 1",
@@ -998,9 +953,7 @@
               "away": 15,
               "scoreText": "15-1"
             }
-          }
-        ],
-        "nextGames": [
+          },
           {
             "date": "2025-06-15T16:00:00.000Z",
             "dateText": "Sun, Jun 15",
@@ -1010,8 +963,12 @@
             "awayTeam": "Collingwood Jays 18U A",
             "awayTeamCode": "511027",
             "location": "Cornell #2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 0,
+              "away": 9,
+              "scoreText": "9-0"
+            }
           },
           {
             "date": "2025-06-15T19:00:00.000Z",
@@ -1022,9 +979,15 @@
             "awayTeam": "Collingwood Jays 18U A",
             "awayTeamCode": "511027",
             "location": "Cornell #2",
-            "isCompleted": false,
-            "score": null
-          },
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 6,
+              "scoreText": "6-9"
+            }
+          }
+        ],
+        "nextGames": [
           {
             "date": "2025-06-17T18:30:00.000Z",
             "dateText": "Tue, Jun 17",
@@ -1060,32 +1023,40 @@
             "location": "Barrie Community Sports Complex",
             "isCompleted": false,
             "score": null
+          },
+          {
+            "date": "2025-07-11T20:00:00.000Z",
+            "dateText": "Fri, Jul 11",
+            "time": "8:00 PM",
+            "homeTeam": "Collingwood Jays 18U A",
+            "homeTeamCode": "511027",
+            "awayTeam": "Innisfil Cardinals 18U A",
+            "awayTeamCode": "511028",
+            "location": "Legion",
+            "isCompleted": false,
+            "score": null
+          },
+          {
+            "date": "2025-07-13T16:00:00.000Z",
+            "dateText": "Sun, Jul 13",
+            "time": "4:00 PM",
+            "homeTeam": "Collingwood Jays 18U A",
+            "homeTeamCode": "511027",
+            "awayTeam": "Aurora-King Jays 17U A",
+            "awayTeamCode": "511021",
+            "location": "Heritage Park",
+            "isCompleted": false,
+            "score": null
           }
         ],
-        "lastUpdated": "2025-06-15T14:44:25.450Z"
+        "lastUpdated": "2025-06-17T14:49:30.900Z"
       },
       "511028": {
         "teamCode": "511028",
         "totalGames": 18,
-        "playedGames": 8,
-        "upcomingGames": 10,
+        "playedGames": 9,
+        "upcomingGames": 9,
         "recentGames": [
-          {
-            "date": "2025-06-03T20:30:00.000Z",
-            "dateText": "Tue, Jun 3",
-            "time": "8:30 PM",
-            "homeTeam": "Innisfil Cardinals 18U A",
-            "homeTeamCode": "511028",
-            "awayTeam": "Vaughan Vikings 18U AA",
-            "awayTeamCode": "518962",
-            "location": "IRC North",
-            "isCompleted": true,
-            "score": {
-              "home": 3,
-              "away": 10,
-              "scoreText": "10-3"
-            }
-          },
           {
             "date": "2025-06-05T20:30:00.000Z",
             "dateText": "Thu, Jun 5",
@@ -1149,9 +1120,7 @@
               "away": 11,
               "scoreText": "11-4"
             }
-          }
-        ],
-        "nextGames": [
+          },
           {
             "date": "2025-06-16T20:30:00.000Z",
             "dateText": "Mon, Jun 16",
@@ -1161,9 +1130,15 @@
             "awayTeam": "Innisfil Cardinals 18U A",
             "awayTeamCode": "511028",
             "location": "Stewart Burnett Park",
-            "isCompleted": false,
-            "score": null
-          },
+            "isCompleted": true,
+            "score": {
+              "home": 15,
+              "away": 3,
+              "scoreText": "3-15"
+            }
+          }
+        ],
+        "nextGames": [
           {
             "date": "2025-06-24T20:30:00.000Z",
             "dateText": "Tue, Jun 24",
@@ -1211,32 +1186,28 @@
             "location": "Lambert Wilson #4",
             "isCompleted": false,
             "score": null
+          },
+          {
+            "date": "2025-07-08T20:30:00.000Z",
+            "dateText": "Tue, Jul 8",
+            "time": "8:30 PM",
+            "homeTeam": "Innisfil Cardinals 18U A",
+            "homeTeamCode": "511028",
+            "awayTeam": "Barrie Baycats 17U A",
+            "awayTeamCode": "511023",
+            "location": "IRC North",
+            "isCompleted": false,
+            "score": null
           }
         ],
-        "lastUpdated": "2025-06-15T14:44:25.450Z"
+        "lastUpdated": "2025-06-17T14:49:30.900Z"
       },
       "511030": {
         "teamCode": "511030",
         "totalGames": 17,
-        "playedGames": 9,
-        "upcomingGames": 8,
+        "playedGames": 10,
+        "upcomingGames": 7,
         "recentGames": [
-          {
-            "date": "2025-06-03T19:00:00.000Z",
-            "dateText": "Tue, Jun 3",
-            "time": "7:00 PM",
-            "homeTeam": "Markham Mariners 18U A - Team 1",
-            "homeTeamCode": "511030",
-            "awayTeam": "Barrie Baycats 18U A",
-            "awayTeamCode": "511024",
-            "location": "Cornell #2",
-            "isCompleted": true,
-            "score": {
-              "home": 1,
-              "away": 9,
-              "scoreText": "9-1"
-            }
-          },
           {
             "date": "2025-06-05T18:30:00.000Z",
             "dateText": "Thu, Jun 5",
@@ -1300,9 +1271,7 @@
               "away": 10,
               "scoreText": "10-1"
             }
-          }
-        ],
-        "nextGames": [
+          },
           {
             "date": "2025-06-15T16:00:00.000Z",
             "dateText": "Sun, Jun 15",
@@ -1312,9 +1281,15 @@
             "awayTeam": "Collingwood Jays 18U A",
             "awayTeamCode": "511027",
             "location": "Cornell #2",
-            "isCompleted": false,
-            "score": null
-          },
+            "isCompleted": true,
+            "score": {
+              "home": 0,
+              "away": 9,
+              "scoreText": "9-0"
+            }
+          }
+        ],
+        "nextGames": [
           {
             "date": "2025-07-01T19:00:00.000Z",
             "dateText": "Tue, Jul 1",
@@ -1362,32 +1337,28 @@
             "location": "Stewart Burnett",
             "isCompleted": false,
             "score": null
+          },
+          {
+            "date": "2025-07-15T19:00:00.000Z",
+            "dateText": "Tue, Jul 15",
+            "time": "7:00 PM",
+            "homeTeam": "Markham Mariners 18U A - Team 1",
+            "homeTeamCode": "511030",
+            "awayTeam": "Markham Mariners 18U A - Team 2",
+            "awayTeamCode": "511031",
+            "location": "Cornell #2",
+            "isCompleted": false,
+            "score": null
           }
         ],
-        "lastUpdated": "2025-06-15T14:44:25.450Z"
+        "lastUpdated": "2025-06-17T14:49:30.901Z"
       },
       "511031": {
         "teamCode": "511031",
         "totalGames": 17,
-        "playedGames": 5,
-        "upcomingGames": 12,
+        "playedGames": 6,
+        "upcomingGames": 11,
         "recentGames": [
-          {
-            "date": "2025-05-12T19:00:00.000Z",
-            "dateText": "Mon, May 12",
-            "time": "7:00 PM",
-            "homeTeam": "Markham Mariners 18U A - Team 2",
-            "homeTeamCode": "511031",
-            "awayTeam": "Aurora-King Jays 17U A",
-            "awayTeamCode": "511021",
-            "location": "Cornell #1",
-            "isCompleted": true,
-            "score": {
-              "home": 1,
-              "away": 8,
-              "scoreText": "8-1"
-            }
-          },
           {
             "date": "2025-05-26T19:00:00.000Z",
             "dateText": "Mon, May 26",
@@ -1397,8 +1368,12 @@
             "awayTeam": "Barrie Baycats 17U A",
             "awayTeamCode": "511023",
             "location": "Cornell #1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 17,
+              "scoreText": "17-13"
+            }
           },
           {
             "date": "2025-05-28T20:30:00.000Z",
@@ -1443,9 +1418,7 @@
               "away": 10,
               "scoreText": "10-5"
             }
-          }
-        ],
-        "nextGames": [
+          },
           {
             "date": "2025-06-15T19:00:00.000Z",
             "dateText": "Sun, Jun 15",
@@ -1455,9 +1428,15 @@
             "awayTeam": "Collingwood Jays 18U A",
             "awayTeamCode": "511027",
             "location": "Cornell #2",
-            "isCompleted": false,
-            "score": null
-          },
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 6,
+              "scoreText": "6-9"
+            }
+          }
+        ],
+        "nextGames": [
           {
             "date": "2025-06-18T19:00:00.000Z",
             "dateText": "Wed, Jun 18",
@@ -1505,9 +1484,21 @@
             "location": "Milliken #1",
             "isCompleted": false,
             "score": null
+          },
+          {
+            "date": "2025-06-30T19:00:00.000Z",
+            "dateText": "Mon, Jun 30",
+            "time": "7:00 PM",
+            "homeTeam": "Markham Mariners 18U A - Team 2",
+            "homeTeamCode": "511031",
+            "awayTeam": "Vaughan Vikings 18U AA",
+            "awayTeamCode": "518962",
+            "location": "Cornell #1",
+            "isCompleted": false,
+            "score": null
           }
         ],
-        "lastUpdated": "2025-06-15T14:44:25.450Z"
+        "lastUpdated": "2025-06-17T14:49:30.901Z"
       },
       "511032": {
         "teamCode": "511032",
@@ -1658,7 +1649,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-15T14:44:25.450Z"
+        "lastUpdated": "2025-06-17T14:49:30.901Z"
       },
       "511033": {
         "teamCode": "511033",
@@ -1809,7 +1800,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-15T14:44:25.450Z"
+        "lastUpdated": "2025-06-17T14:49:30.901Z"
       },
       "511034": {
         "teamCode": "511034",
@@ -1960,26 +1951,14 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-15T14:44:25.450Z"
+        "lastUpdated": "2025-06-17T14:49:30.901Z"
       },
       "511035": {
         "teamCode": "511035",
         "totalGames": 16,
-        "playedGames": 7,
-        "upcomingGames": 9,
+        "playedGames": 8,
+        "upcomingGames": 8,
         "recentGames": [
-          {
-            "date": "2025-05-13T19:30:00.000Z",
-            "dateText": "Tue, May 13",
-            "time": "7:30 PM",
-            "homeTeam": "Richmond Hill Phoenix 18U A",
-            "homeTeamCode": "511033",
-            "awayTeam": "Caledon Nationals 18U AA",
-            "awayTeamCode": "511035",
-            "location": "David Hamilton #1",
-            "isCompleted": false,
-            "score": null
-          },
           {
             "date": "2025-05-27T20:30:00.000Z",
             "dateText": "Tue, May 27",
@@ -2043,9 +2022,7 @@
               "away": 7,
               "scoreText": "7-9"
             }
-          }
-        ],
-        "nextGames": [
+          },
           {
             "date": "2025-06-16T20:00:00.000Z",
             "dateText": "Mon, Jun 16",
@@ -2055,9 +2032,15 @@
             "awayTeam": "Caledon Nationals 18U AA",
             "awayTeamCode": "511035",
             "location": "Joe Magani #4",
-            "isCompleted": false,
-            "score": null
-          },
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 3,
+              "scoreText": "3-5"
+            }
+          }
+        ],
+        "nextGames": [
           {
             "date": "2025-06-18T18:30:00.000Z",
             "dateText": "Wed, Jun 18",
@@ -2105,9 +2088,21 @@
             "location": "Vaughan Grove D1",
             "isCompleted": false,
             "score": null
+          },
+          {
+            "date": "2025-07-08T20:30:00.000Z",
+            "dateText": "Tue, Jul 8",
+            "time": "8:30 PM",
+            "homeTeam": "Caledon Nationals 18U AA",
+            "homeTeamCode": "511035",
+            "awayTeam": "Aurora-King Jays 17U A",
+            "awayTeamCode": "511021",
+            "location": "Bolton North Hill D1",
+            "isCompleted": false,
+            "score": null
           }
         ],
-        "lastUpdated": "2025-06-15T14:44:25.450Z"
+        "lastUpdated": "2025-06-17T14:49:30.901Z"
       },
       "516246": {
         "teamCode": "516246",
@@ -2246,30 +2241,14 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-15T14:44:25.450Z"
+        "lastUpdated": "2025-06-17T14:49:30.901Z"
       },
       "518960": {
         "teamCode": "518960",
         "totalGames": 17,
-        "playedGames": 8,
-        "upcomingGames": 9,
+        "playedGames": 9,
+        "upcomingGames": 8,
         "recentGames": [
-          {
-            "date": "2025-05-26T20:00:00.000Z",
-            "dateText": "Mon, May 26",
-            "time": "8:00 PM",
-            "homeTeam": "Vaughan Vikings 17U A",
-            "homeTeamCode": "518960",
-            "awayTeam": "Caledon Nationals 18U A",
-            "awayTeamCode": "511026",
-            "location": "Sports Village",
-            "isCompleted": true,
-            "score": {
-              "home": 6,
-              "away": 8,
-              "scoreText": "8-6"
-            }
-          },
           {
             "date": "2025-05-27T20:30:00.000Z",
             "dateText": "Tue, May 27",
@@ -2333,9 +2312,7 @@
               "away": 8,
               "scoreText": "8-8"
             }
-          }
-        ],
-        "nextGames": [
+          },
           {
             "date": "2025-06-16T19:30:00.000Z",
             "dateText": "Mon, Jun 16",
@@ -2345,9 +2322,15 @@
             "awayTeam": "Vaughan Vikings 17U A",
             "awayTeamCode": "518960",
             "location": "Barrie Community Sports Complex",
-            "isCompleted": false,
-            "score": null
-          },
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 3,
+              "scoreText": "3-10"
+            }
+          }
+        ],
+        "nextGames": [
           {
             "date": "2025-06-20T18:30:00.000Z",
             "dateText": "Fri, Jun 20",
@@ -2395,9 +2378,21 @@
             "location": "Sports Village",
             "isCompleted": false,
             "score": null
+          },
+          {
+            "date": "2025-07-09T20:00:00.000Z",
+            "dateText": "Wed, Jul 9",
+            "time": "8:00 PM",
+            "homeTeam": "Vaughan Vikings 18U AA",
+            "homeTeamCode": "518962",
+            "awayTeam": "Vaughan Vikings 17U A",
+            "awayTeamCode": "518960",
+            "location": "Vaughan Grove D1",
+            "isCompleted": false,
+            "score": null
           }
         ],
-        "lastUpdated": "2025-06-15T14:44:25.450Z"
+        "lastUpdated": "2025-06-17T14:49:30.901Z"
       },
       "518962": {
         "teamCode": "518962",
@@ -2548,7 +2543,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-15T14:44:25.450Z"
+        "lastUpdated": "2025-06-17T14:49:30.901Z"
       },
       "519242": {
         "teamCode": "519242",
@@ -2699,7 +2694,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-15T14:44:25.450Z"
+        "lastUpdated": "2025-06-17T14:49:30.901Z"
       },
       "546377": {
         "teamCode": "546377",
@@ -2760,8 +2755,12 @@
             "awayTeam": "Women's Team",
             "awayTeamCode": "546377",
             "location": "Joe Magani #4",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 4,
+              "scoreText": "4-11"
+            }
           },
           {
             "date": "2025-06-15T11:45:00.000Z",
@@ -2772,8 +2771,12 @@
             "awayTeam": "Aurora-King Jays 17U A",
             "awayTeamCode": "511021",
             "location": "David Hamilton #1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 0,
+              "away": 14,
+              "scoreText": "14-0"
+            }
           }
         ],
         "nextGames": [
@@ -2838,7 +2841,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-15T14:44:25.450Z"
+        "lastUpdated": "2025-06-17T14:49:30.901Z"
       }
     },
     "allGames": [
@@ -3151,8 +3154,12 @@
         "awayTeam": "Barrie Baycats 17U A",
         "awayTeamCode": "511023",
         "location": "Cornell #1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 17,
+          "scoreText": "17-13"
+        }
       },
       {
         "date": "2025-05-26T19:30:00.000Z",
@@ -3879,8 +3886,12 @@
         "awayTeam": "Barrie Baycats 18U A",
         "awayTeamCode": "511024",
         "location": "Joe Magani #4",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 1,
+          "away": 10,
+          "scoreText": "10-1"
+        }
       },
       {
         "date": "2025-06-14T13:00:00.000Z",
@@ -3923,8 +3934,12 @@
         "awayTeam": "Women's Team",
         "awayTeamCode": "546377",
         "location": "Joe Magani #4",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 4,
+          "scoreText": "4-11"
+        }
       },
       {
         "date": "2025-06-15T11:45:00.000Z",
@@ -3935,8 +3950,12 @@
         "awayTeam": "Aurora-King Jays 17U A",
         "awayTeamCode": "511021",
         "location": "David Hamilton #1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 0,
+          "away": 14,
+          "scoreText": "14-0"
+        }
       },
       {
         "date": "2025-06-15T16:00:00.000Z",
@@ -3947,8 +3966,12 @@
         "awayTeam": "Collingwood Jays 18U A",
         "awayTeamCode": "511027",
         "location": "Cornell #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 0,
+          "away": 9,
+          "scoreText": "9-0"
+        }
       },
       {
         "date": "2025-06-15T19:00:00.000Z",
@@ -3959,8 +3982,12 @@
         "awayTeam": "Collingwood Jays 18U A",
         "awayTeamCode": "511027",
         "location": "Cornell #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 6,
+          "scoreText": "6-9"
+        }
       },
       {
         "date": "2025-06-16T18:00:00.000Z",
@@ -3971,8 +3998,12 @@
         "awayTeam": "Aurora-King Jays 17U A",
         "awayTeamCode": "511021",
         "location": "Stewart Burnett",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 2,
+          "scoreText": "2-4"
+        }
       },
       {
         "date": "2025-06-16T19:30:00.000Z",
@@ -3983,8 +4014,12 @@
         "awayTeam": "Vaughan Vikings 17U A",
         "awayTeamCode": "518960",
         "location": "Barrie Community Sports Complex",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 3,
+          "scoreText": "3-10"
+        }
       },
       {
         "date": "2025-06-16T20:00:00.000Z",
@@ -3995,8 +4030,12 @@
         "awayTeam": "Caledon Nationals 18U AA",
         "awayTeamCode": "511035",
         "location": "Joe Magani #4",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 5,
+          "away": 3,
+          "scoreText": "3-5"
+        }
       },
       {
         "date": "2025-06-16T20:30:00.000Z",
@@ -4007,8 +4046,12 @@
         "awayTeam": "Innisfil Cardinals 18U A",
         "awayTeamCode": "511028",
         "location": "Stewart Burnett Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 15,
+          "away": 3,
+          "scoreText": "3-15"
+        }
       },
       {
         "date": "2025-06-17T18:30:00.000Z",
@@ -5009,6 +5052,102 @@
     ],
     "recentGames": [
       {
+        "date": "2025-06-16T20:30:00.000Z",
+        "dateText": "Mon, Jun 16",
+        "time": "8:30 PM",
+        "homeTeam": "Aurora-King Jays 18U A",
+        "homeTeamCode": "511022",
+        "awayTeam": "Innisfil Cardinals 18U A",
+        "awayTeamCode": "511028",
+        "location": "Stewart Burnett Park",
+        "isCompleted": true,
+        "score": {
+          "home": 15,
+          "away": 3,
+          "scoreText": "3-15"
+        }
+      },
+      {
+        "date": "2025-06-16T20:00:00.000Z",
+        "dateText": "Mon, Jun 16",
+        "time": "8:00 PM",
+        "homeTeam": "Bradford Tigers 18U A",
+        "homeTeamCode": "511025",
+        "awayTeam": "Caledon Nationals 18U AA",
+        "awayTeamCode": "511035",
+        "location": "Joe Magani #4",
+        "isCompleted": true,
+        "score": {
+          "home": 5,
+          "away": 3,
+          "scoreText": "3-5"
+        }
+      },
+      {
+        "date": "2025-06-16T19:30:00.000Z",
+        "dateText": "Mon, Jun 16",
+        "time": "7:30 PM",
+        "homeTeam": "Barrie Baycats 18U A",
+        "homeTeamCode": "511024",
+        "awayTeam": "Vaughan Vikings 17U A",
+        "awayTeamCode": "518960",
+        "location": "Barrie Community Sports Complex",
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 3,
+          "scoreText": "3-10"
+        }
+      },
+      {
+        "date": "2025-06-16T18:00:00.000Z",
+        "dateText": "Mon, Jun 16",
+        "time": "6:00 PM",
+        "homeTeam": "Aurora-King Jays 18U A",
+        "homeTeamCode": "511022",
+        "awayTeam": "Aurora-King Jays 17U A",
+        "awayTeamCode": "511021",
+        "location": "Stewart Burnett",
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 2,
+          "scoreText": "2-4"
+        }
+      },
+      {
+        "date": "2025-06-15T19:00:00.000Z",
+        "dateText": "Sun, Jun 15",
+        "time": "7:00 PM",
+        "homeTeam": "Markham Mariners 18U A - Team 2",
+        "homeTeamCode": "511031",
+        "awayTeam": "Collingwood Jays 18U A",
+        "awayTeamCode": "511027",
+        "location": "Cornell #2",
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 6,
+          "scoreText": "6-9"
+        }
+      },
+      {
+        "date": "2025-06-15T16:00:00.000Z",
+        "dateText": "Sun, Jun 15",
+        "time": "4:00 PM",
+        "homeTeam": "Markham Mariners 18U A - Team 1",
+        "homeTeamCode": "511030",
+        "awayTeam": "Collingwood Jays 18U A",
+        "awayTeamCode": "511027",
+        "location": "Cornell #2",
+        "isCompleted": true,
+        "score": {
+          "home": 0,
+          "away": 9,
+          "scoreText": "9-0"
+        }
+      },
+      {
         "date": "2025-06-15T11:45:00.000Z",
         "dateText": "Sun, Jun 15",
         "time": "11:45 AM",
@@ -5017,8 +5156,12 @@
         "awayTeam": "Aurora-King Jays 17U A",
         "awayTeamCode": "511021",
         "location": "David Hamilton #1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 0,
+          "away": 14,
+          "scoreText": "14-0"
+        }
       },
       {
         "date": "2025-06-14T16:00:00.000Z",
@@ -5045,8 +5188,12 @@
         "awayTeam": "Women's Team",
         "awayTeamCode": "546377",
         "location": "Joe Magani #4",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 4,
+          "scoreText": "4-11"
+        }
       },
       {
         "date": "2025-06-14T13:00:00.000Z",
@@ -5057,179 +5204,15 @@
         "awayTeam": "Barrie Baycats 18U A",
         "awayTeamCode": "511024",
         "location": "Joe Magani #4",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": "2025-06-14T13:00:00.000Z",
-        "dateText": "Sat, Jun 14",
-        "time": "1:00 PM",
-        "homeTeam": "Orillia Royals 18U B",
-        "homeTeamCode": "511032",
-        "awayTeam": "Stayner White Sox 18U C",
-        "awayTeamCode": "519242",
-        "location": "Udell Diamond Tudhope Park",
         "isCompleted": true,
         "score": {
-          "home": 11,
-          "away": 5,
-          "scoreText": "5-11"
-        }
-      },
-      {
-        "date": "2025-06-14T10:00:00.000Z",
-        "dateText": "Sat, Jun 14",
-        "time": "10:00 AM",
-        "homeTeam": "Orillia Royals 18U B",
-        "homeTeamCode": "511032",
-        "awayTeam": "Markham Mariners 18U A - Team 2",
-        "awayTeamCode": "511031",
-        "location": "Udell Diamond Tudhope Park",
-        "isCompleted": true,
-        "score": {
-          "home": 5,
+          "home": 1,
           "away": 10,
-          "scoreText": "10-5"
-        }
-      },
-      {
-        "date": "2025-06-13T19:30:00.000Z",
-        "dateText": "Fri, Jun 13",
-        "time": "7:30 PM",
-        "homeTeam": "Aurora-King Jays 17U A",
-        "homeTeamCode": "511021",
-        "awayTeam": "Barrie Baycats 18U A",
-        "awayTeamCode": "511024",
-        "location": "Lambert Wilson #4",
-        "isCompleted": true,
-        "score": {
-          "home": 8,
-          "away": 7,
-          "scoreText": "7-8"
-        }
-      },
-      {
-        "date": "2025-06-12T18:30:00.000Z",
-        "dateText": "Thu, Jun 12",
-        "time": "6:30 PM",
-        "homeTeam": "Stayner White Sox 18U C",
-        "homeTeamCode": "519242",
-        "awayTeam": "Innisfil Cardinals 18U A",
-        "awayTeamCode": "511028",
-        "location": "Stayner Collegiate",
-        "isCompleted": true,
-        "score": {
-          "home": 4,
-          "away": 11,
-          "scoreText": "11-4"
-        }
-      },
-      {
-        "date": "2025-06-11T20:30:00.000Z",
-        "dateText": "Wed, Jun 11",
-        "time": "8:30 PM",
-        "homeTeam": "Caledon Nationals 18U A",
-        "homeTeamCode": "511026",
-        "awayTeam": "TNT Thunder 18U A",
-        "awayTeamCode": "511034",
-        "location": "Bolton North Hill D1",
-        "isCompleted": true,
-        "score": {
-          "home": 11,
-          "away": 0,
-          "scoreText": "0-11"
-        }
-      },
-      {
-        "date": "2025-06-11T19:30:00.000Z",
-        "dateText": "Wed, Jun 11",
-        "time": "7:30 PM",
-        "homeTeam": "Barrie Baycats 18U A",
-        "homeTeamCode": "511024",
-        "awayTeam": "Orillia Royals 18U B",
-        "awayTeamCode": "511032",
-        "location": "Barrie Community Sports Complex",
-        "isCompleted": true,
-        "score": {
-          "home": 3,
-          "away": 1,
-          "scoreText": "1-3"
+          "scoreText": "10-1"
         }
       }
     ],
     "upcomingGames": [
-      {
-        "date": "2025-06-15T16:00:00.000Z",
-        "dateText": "Sun, Jun 15",
-        "time": "4:00 PM",
-        "homeTeam": "Markham Mariners 18U A - Team 1",
-        "homeTeamCode": "511030",
-        "awayTeam": "Collingwood Jays 18U A",
-        "awayTeamCode": "511027",
-        "location": "Cornell #2",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": "2025-06-15T19:00:00.000Z",
-        "dateText": "Sun, Jun 15",
-        "time": "7:00 PM",
-        "homeTeam": "Markham Mariners 18U A - Team 2",
-        "homeTeamCode": "511031",
-        "awayTeam": "Collingwood Jays 18U A",
-        "awayTeamCode": "511027",
-        "location": "Cornell #2",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": "2025-06-16T18:00:00.000Z",
-        "dateText": "Mon, Jun 16",
-        "time": "6:00 PM",
-        "homeTeam": "Aurora-King Jays 18U A",
-        "homeTeamCode": "511022",
-        "awayTeam": "Aurora-King Jays 17U A",
-        "awayTeamCode": "511021",
-        "location": "Stewart Burnett",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": "2025-06-16T19:30:00.000Z",
-        "dateText": "Mon, Jun 16",
-        "time": "7:30 PM",
-        "homeTeam": "Barrie Baycats 18U A",
-        "homeTeamCode": "511024",
-        "awayTeam": "Vaughan Vikings 17U A",
-        "awayTeamCode": "518960",
-        "location": "Barrie Community Sports Complex",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": "2025-06-16T20:00:00.000Z",
-        "dateText": "Mon, Jun 16",
-        "time": "8:00 PM",
-        "homeTeam": "Bradford Tigers 18U A",
-        "homeTeamCode": "511025",
-        "awayTeam": "Caledon Nationals 18U AA",
-        "awayTeamCode": "511035",
-        "location": "Joe Magani #4",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": "2025-06-16T20:30:00.000Z",
-        "dateText": "Mon, Jun 16",
-        "time": "8:30 PM",
-        "homeTeam": "Aurora-King Jays 18U A",
-        "homeTeamCode": "511022",
-        "awayTeam": "Innisfil Cardinals 18U A",
-        "awayTeamCode": "511028",
-        "location": "Stewart Burnett Park",
-        "isCompleted": false,
-        "score": null
-      },
       {
         "date": "2025-06-17T18:30:00.000Z",
         "dateText": "Tue, Jun 17",
@@ -5277,32 +5260,98 @@
         "location": "Barrie Community Sports Complex",
         "isCompleted": false,
         "score": null
+      },
+      {
+        "date": "2025-06-20T18:30:00.000Z",
+        "dateText": "Fri, Jun 20",
+        "time": "6:30 PM",
+        "homeTeam": "Orillia Royals 18U B",
+        "homeTeamCode": "511032",
+        "awayTeam": "Vaughan Vikings 17U A",
+        "awayTeamCode": "518960",
+        "location": "Franklin Carmichael Park - Yeo Diamond",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2025-06-20T19:30:00.000Z",
+        "dateText": "Fri, Jun 20",
+        "time": "7:30 PM",
+        "homeTeam": "Aurora-King Jays 17U A",
+        "homeTeamCode": "511021",
+        "awayTeam": "Bradford Tigers 18U A",
+        "awayTeamCode": "511025",
+        "location": "Lambert Wilson #4",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2025-06-21T11:00:00.000Z",
+        "dateText": "Sat, Jun 21",
+        "time": "11:00 AM",
+        "homeTeam": "TNT Thunder 18U A",
+        "homeTeamCode": "511034",
+        "awayTeam": "Richmond Hill Phoenix 18U A",
+        "awayTeamCode": "511033",
+        "location": "Beeton",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2025-06-21T11:00:00.000Z",
+        "dateText": "Sat, Jun 21",
+        "time": "11:00 AM",
+        "homeTeam": "Muskoka Hornets 18U AA",
+        "homeTeamCode": "516246",
+        "awayTeam": "Caledon Nationals 18U AA",
+        "awayTeamCode": "511035",
+        "location": "Holm Diamond",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2025-06-21T14:00:00.000Z",
+        "dateText": "Sat, Jun 21",
+        "time": "2:00 PM",
+        "homeTeam": "Muskoka Hornets 18U AA",
+        "homeTeamCode": "516246",
+        "awayTeam": "Caledon Nationals 18U AA",
+        "awayTeamCode": "511035",
+        "location": "Holm Diamond",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2025-06-22T11:45:00.000Z",
+        "dateText": "Sun, Jun 22",
+        "time": "11:45 AM",
+        "homeTeam": "Women's Team",
+        "homeTeamCode": "546377",
+        "awayTeam": "Markham Mariners 18U A - Team 2",
+        "awayTeamCode": "511031",
+        "location": "David Hamilton #1",
+        "isCompleted": false,
+        "score": null
       }
     ],
-    "lastUpdated": "2025-06-15T14:44:25.450Z",
+    "lastUpdated": "2025-06-17T14:49:30.901Z",
     "totalGames": 161
   },
   "summary": {
-    "totalTeams": 2,
+    "totalTeams": 0,
     "totalGames": 161,
-    "completedGames": 58,
-    "upcomingGames": 103,
-    "topTeam": {
-      "team": "Aurora-King Jays 18U A",
-      "teamCode": "511022",
-      "wins": 0,
-      "losses": 0,
-      "winPercentage": ".000"
-    },
+    "completedGames": 68,
+    "upcomingGames": 93,
+    "topTeam": null,
     "highestScoringGame": {
-      "homeTeam": "Aurora-King Jays 18U A",
-      "awayTeam": "Bradford Tigers 18U A",
-      "homeScore": 11,
-      "awayScore": 10,
-      "totalRuns": 21,
+      "homeTeam": "Markham Mariners 18U A - Team 2",
+      "awayTeam": "Barrie Baycats 17U A",
+      "homeScore": 13,
+      "awayScore": 17,
+      "totalRuns": 30,
       "date": "Mon, May 26",
-      "location": "Stewart Burnett"
+      "location": "Cornell #1"
     },
-    "lastUpdated": "2025-06-15T14:45:50.051Z"
+    "lastUpdated": "2025-06-17T14:50:56.466Z"
   }
 }
