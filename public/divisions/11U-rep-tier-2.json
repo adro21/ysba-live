@@ -2,7 +2,7 @@
   "standings": {
     "teams": [
       {
-        "position": 1,
+        "position": 2,
         "team": "Orangeville Bengals 11U AA",
         "teamCode": "510909",
         "record": {
@@ -38,25 +38,25 @@
         }
       },
       {
-        "position": 2,
+        "position": 1,
         "team": "Barrie Baycats 11U AA",
         "teamCode": "510906",
         "record": {
-          "gamesPlayed": 6,
-          "wins": 4,
+          "gamesPlayed": 7,
+          "wins": 5,
           "losses": 2,
           "ties": 0,
-          "winPercentage": "0.667"
+          "winPercentage": "0.714"
         },
         "stats": {
-          "points": 8,
-          "runsFor": 55,
-          "runsAgainst": 37,
-          "runDifferential": 18
+          "points": 10,
+          "runsFor": 68,
+          "runsAgainst": 47,
+          "runDifferential": 21
         }
       },
       {
-        "position": 4,
+        "position": 5,
         "team": "Newmarket Hawks 11U AA",
         "teamCode": "510913",
         "record": {
@@ -74,21 +74,39 @@
         }
       },
       {
-        "position": 5,
+        "position": 4,
         "team": "Caledon Nationals 11U AA",
         "teamCode": "510912",
         "record": {
-          "gamesPlayed": 6,
+          "gamesPlayed": 7,
           "wins": 2,
-          "losses": 2,
+          "losses": 3,
           "ties": 2,
-          "winPercentage": "0.500"
+          "winPercentage": "0.429"
         },
         "stats": {
           "points": 6,
-          "runsFor": 51,
-          "runsAgainst": 42,
-          "runDifferential": 9
+          "runsFor": 56,
+          "runsAgainst": 48,
+          "runDifferential": 8
+        }
+      },
+      {
+        "position": 8,
+        "team": "Aurora-King Jays 11U AA",
+        "teamCode": "510905",
+        "record": {
+          "gamesPlayed": 5,
+          "wins": 2,
+          "losses": 3,
+          "ties": 0,
+          "winPercentage": "0.400"
+        },
+        "stats": {
+          "points": 4,
+          "runsFor": 28,
+          "runsAgainst": 41,
+          "runDifferential": -13
         }
       },
       {
@@ -110,24 +128,6 @@
         }
       },
       {
-        "position": 9,
-        "team": "Bradford Tigers 11U AA",
-        "teamCode": "510907",
-        "record": {
-          "gamesPlayed": 3,
-          "wins": 1,
-          "losses": 2,
-          "ties": 0,
-          "winPercentage": "0.333"
-        },
-        "stats": {
-          "points": 2,
-          "runsFor": 20,
-          "runsAgainst": 27,
-          "runDifferential": -7
-        }
-      },
-      {
         "position": 7,
         "team": "TNT Thunder 11U AA",
         "teamCode": "510911",
@@ -146,9 +146,9 @@
         }
       },
       {
-        "position": 8,
-        "team": "Aurora-King Jays 11U AA",
-        "teamCode": "510905",
+        "position": 9,
+        "team": "Bradford Tigers 11U AA",
+        "teamCode": "510907",
         "record": {
           "gamesPlayed": 4,
           "wins": 1,
@@ -158,9 +158,9 @@
         },
         "stats": {
           "points": 2,
-          "runsFor": 22,
-          "runsAgainst": 36,
-          "runDifferential": -14
+          "runsFor": 30,
+          "runsAgainst": 40,
+          "runDifferential": -10
         }
       },
       {
@@ -182,7 +182,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-06-17T15:19:11.544Z",
+    "lastUpdated": "2025-06-18T16:19:39.294Z",
     "totalTeams": 10
   },
   "schedule": {
@@ -194,7 +194,7 @@
         "upcomingGames": 11,
         "recentGames": [
           {
-            "date": "2025-05-28T23:00:00.000Z",
+            "date": "2025-05-28T19:00:00.000Z",
             "dateText": "Wed, May 28",
             "time": "7:00 PM",
             "homeTeam": "Midland Penetang Twins 11U A",
@@ -210,7 +210,7 @@
             }
           },
           {
-            "date": "2025-06-04T23:00:00.000Z",
+            "date": "2025-06-04T19:00:00.000Z",
             "dateText": "Wed, Jun 4",
             "time": "7:00 PM",
             "homeTeam": "Midland Penetang Twins 11U A",
@@ -222,7 +222,7 @@
             "score": null
           },
           {
-            "date": "2025-06-09T22:30:00.000Z",
+            "date": "2025-06-09T18:30:00.000Z",
             "dateText": "Mon, Jun 9",
             "time": "6:30 PM",
             "homeTeam": "Innisfil Cardinals 11U A",
@@ -238,7 +238,7 @@
             }
           },
           {
-            "date": "2025-06-11T23:00:00.000Z",
+            "date": "2025-06-11T19:00:00.000Z",
             "dateText": "Wed, Jun 11",
             "time": "7:00 PM",
             "homeTeam": "Midland Penetang Twins 11U A",
@@ -254,7 +254,7 @@
             }
           },
           {
-            "date": "2025-06-16T22:30:00.000Z",
+            "date": "2025-06-16T18:30:00.000Z",
             "dateText": "Mon, Jun 16",
             "time": "6:30 PM",
             "homeTeam": "Orillia Royals 11U A",
@@ -262,13 +262,17 @@
             "awayTeam": "Midland Penetang Twins 11U A",
             "awayTeamCode": "510891",
             "location": "Cliff Yeo Diamond",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 13,
+              "scoreText": "13-8"
+            }
           }
         ],
         "nextGames": [
           {
-            "date": "2025-06-25T23:00:00.000Z",
+            "date": "2025-06-25T19:00:00.000Z",
             "dateText": "Wed, Jun 25",
             "time": "7:00 PM",
             "homeTeam": "Midland Penetang Twins 11U A",
@@ -280,7 +284,7 @@
             "score": null
           },
           {
-            "date": "2025-06-28T15:00:00.000Z",
+            "date": "2025-06-28T11:00:00.000Z",
             "dateText": "Sat, Jun 28",
             "time": "11:00 AM",
             "homeTeam": "Muskoka Hornets 11U B",
@@ -292,7 +296,7 @@
             "score": null
           },
           {
-            "date": "2025-07-02T23:00:00.000Z",
+            "date": "2025-07-02T19:00:00.000Z",
             "dateText": "Wed, Jul 2",
             "time": "7:00 PM",
             "homeTeam": "Midland Penetang Twins 11U A",
@@ -304,7 +308,7 @@
             "score": null
           },
           {
-            "date": "2025-07-09T23:00:00.000Z",
+            "date": "2025-07-09T19:00:00.000Z",
             "dateText": "Wed, Jul 9",
             "time": "7:00 PM",
             "homeTeam": "Midland Penetang Twins 11U A",
@@ -316,7 +320,7 @@
             "score": null
           },
           {
-            "date": "2025-07-16T22:30:00.000Z",
+            "date": "2025-07-16T18:30:00.000Z",
             "dateText": "Wed, Jul 16",
             "time": "6:30 PM",
             "homeTeam": "Caledon Nationals 11U A",
@@ -328,7 +332,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-17T15:19:19.671Z"
+        "lastUpdated": "2025-06-18T16:19:43.441Z"
       },
       "510892": {
         "teamCode": "510892",
@@ -337,7 +341,7 @@
         "upcomingGames": 12,
         "recentGames": [
           {
-            "date": "2025-05-14T22:30:00.000Z",
+            "date": "2025-05-14T18:30:00.000Z",
             "dateText": "Wed, May 14",
             "time": "6:30 PM",
             "homeTeam": "Barrie Baycats 11U A",
@@ -353,7 +357,7 @@
             }
           },
           {
-            "date": "2025-05-19T22:30:00.000Z",
+            "date": "2025-05-19T18:30:00.000Z",
             "dateText": "Mon, May 19",
             "time": "6:30 PM",
             "homeTeam": "Innisfil Cardinals 11U A",
@@ -369,7 +373,7 @@
             }
           },
           {
-            "date": "2025-06-01T15:00:00.000Z",
+            "date": "2025-06-01T11:00:00.000Z",
             "dateText": "Sun, Jun 1",
             "time": "11:00 AM",
             "homeTeam": "Muskoka Hornets 11U B",
@@ -385,7 +389,7 @@
             }
           },
           {
-            "date": "2025-06-11T22:30:00.000Z",
+            "date": "2025-06-11T18:30:00.000Z",
             "dateText": "Wed, Jun 11",
             "time": "6:30 PM",
             "homeTeam": "Barrie Baycats 11U A",
@@ -401,7 +405,7 @@
             }
           },
           {
-            "date": "2025-06-14T18:00:00.000Z",
+            "date": "2025-06-14T14:00:00.000Z",
             "dateText": "Sat, Jun 14",
             "time": "2:00 PM",
             "homeTeam": "Orillia Royals 11U A",
@@ -419,7 +423,7 @@
         ],
         "nextGames": [
           {
-            "date": "2025-06-25T22:30:00.000Z",
+            "date": "2025-06-25T18:30:00.000Z",
             "dateText": "Wed, Jun 25",
             "time": "6:30 PM",
             "homeTeam": "Barrie Baycats 11U A",
@@ -431,7 +435,7 @@
             "score": null
           },
           {
-            "date": "2025-06-28T15:00:00.000Z",
+            "date": "2025-06-28T11:00:00.000Z",
             "dateText": "Sat, Jun 28",
             "time": "11:00 AM",
             "homeTeam": "New Lowell Knights 11U D",
@@ -443,7 +447,7 @@
             "score": null
           },
           {
-            "date": "2025-07-02T22:30:00.000Z",
+            "date": "2025-07-02T18:30:00.000Z",
             "dateText": "Wed, Jul 2",
             "time": "6:30 PM",
             "homeTeam": "Barrie Baycats 11U A",
@@ -455,7 +459,7 @@
             "score": null
           },
           {
-            "date": "2025-07-09T22:30:00.000Z",
+            "date": "2025-07-09T18:30:00.000Z",
             "dateText": "Wed, Jul 9",
             "time": "6:30 PM",
             "homeTeam": "Caledon Nationals 11U A",
@@ -467,7 +471,7 @@
             "score": null
           },
           {
-            "date": "2025-07-16T22:30:00.000Z",
+            "date": "2025-07-16T18:30:00.000Z",
             "dateText": "Wed, Jul 16",
             "time": "6:30 PM",
             "homeTeam": "Barrie Baycats 11U A",
@@ -479,7 +483,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-17T15:19:19.671Z"
+        "lastUpdated": "2025-06-18T16:19:43.441Z"
       },
       "510893": {
         "teamCode": "510893",
@@ -488,7 +492,7 @@
         "upcomingGames": 11,
         "recentGames": [
           {
-            "date": "2025-05-26T22:30:00.000Z",
+            "date": "2025-05-26T18:30:00.000Z",
             "dateText": "Mon, May 26",
             "time": "6:30 PM",
             "homeTeam": "Innisfil Cardinals 11U A",
@@ -504,7 +508,7 @@
             }
           },
           {
-            "date": "2025-05-28T22:30:00.000Z",
+            "date": "2025-05-28T18:30:00.000Z",
             "dateText": "Wed, May 28",
             "time": "6:30 PM",
             "homeTeam": "Caledon Nationals 11U A",
@@ -516,7 +520,7 @@
             "score": null
           },
           {
-            "date": "2025-06-03T22:30:00.000Z",
+            "date": "2025-06-03T18:30:00.000Z",
             "dateText": "Tue, Jun 3",
             "time": "6:30 PM",
             "homeTeam": "Caledon Nationals 11U A",
@@ -532,7 +536,7 @@
             }
           },
           {
-            "date": "2025-06-04T22:30:00.000Z",
+            "date": "2025-06-04T18:30:00.000Z",
             "dateText": "Wed, Jun 4",
             "time": "6:30 PM",
             "homeTeam": "Caledon Nationals 11U A",
@@ -548,7 +552,7 @@
             }
           },
           {
-            "date": "2025-06-14T15:00:00.000Z",
+            "date": "2025-06-14T11:00:00.000Z",
             "dateText": "Sat, Jun 14",
             "time": "11:00 AM",
             "homeTeam": "Muskoka Hornets 11U B",
@@ -566,7 +570,7 @@
         ],
         "nextGames": [
           {
-            "date": "2025-06-18T22:30:00.000Z",
+            "date": "2025-06-18T18:30:00.000Z",
             "dateText": "Wed, Jun 18",
             "time": "6:30 PM",
             "homeTeam": "Caledon Nationals 11U A",
@@ -578,7 +582,7 @@
             "score": null
           },
           {
-            "date": "2025-06-21T15:00:00.000Z",
+            "date": "2025-06-21T11:00:00.000Z",
             "dateText": "Sat, Jun 21",
             "time": "11:00 AM",
             "homeTeam": "New Lowell Knights 11U D",
@@ -590,7 +594,7 @@
             "score": null
           },
           {
-            "date": "2025-06-25T22:15:00.000Z",
+            "date": "2025-06-25T18:15:00.000Z",
             "dateText": "Wed, Jun 25",
             "time": "6:15 PM",
             "homeTeam": "Georgina Bulldogs 11U B",
@@ -602,7 +606,7 @@
             "score": null
           },
           {
-            "date": "2025-06-30T22:30:00.000Z",
+            "date": "2025-06-30T18:30:00.000Z",
             "dateText": "Mon, Jun 30",
             "time": "6:30 PM",
             "homeTeam": "Caledon Nationals 11U A",
@@ -614,7 +618,7 @@
             "score": null
           },
           {
-            "date": "2025-07-02T22:30:00.000Z",
+            "date": "2025-07-02T18:30:00.000Z",
             "dateText": "Wed, Jul 2",
             "time": "6:30 PM",
             "homeTeam": "Barrie Baycats 11U A",
@@ -626,7 +630,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-17T15:19:19.671Z"
+        "lastUpdated": "2025-06-18T16:19:43.441Z"
       },
       "510894": {
         "teamCode": "510894",
@@ -635,7 +639,7 @@
         "upcomingGames": 11,
         "recentGames": [
           {
-            "date": "2025-05-26T22:30:00.000Z",
+            "date": "2025-05-26T18:30:00.000Z",
             "dateText": "Mon, May 26",
             "time": "6:30 PM",
             "homeTeam": "Innisfil Cardinals 11U A",
@@ -651,7 +655,7 @@
             }
           },
           {
-            "date": "2025-05-28T22:30:00.000Z",
+            "date": "2025-05-28T18:30:00.000Z",
             "dateText": "Wed, May 28",
             "time": "6:30 PM",
             "homeTeam": "Caledon Nationals 11U A",
@@ -663,7 +667,7 @@
             "score": null
           },
           {
-            "date": "2025-06-02T22:30:00.000Z",
+            "date": "2025-06-02T18:30:00.000Z",
             "dateText": "Mon, Jun 2",
             "time": "6:30 PM",
             "homeTeam": "Innisfil Cardinals 11U A",
@@ -679,7 +683,7 @@
             }
           },
           {
-            "date": "2025-06-09T22:30:00.000Z",
+            "date": "2025-06-09T18:30:00.000Z",
             "dateText": "Mon, Jun 9",
             "time": "6:30 PM",
             "homeTeam": "Innisfil Cardinals 11U A",
@@ -695,7 +699,7 @@
             }
           },
           {
-            "date": "2025-06-11T23:00:00.000Z",
+            "date": "2025-06-11T19:00:00.000Z",
             "dateText": "Wed, Jun 11",
             "time": "7:00 PM",
             "homeTeam": "Midland Penetang Twins 11U A",
@@ -713,7 +717,7 @@
         ],
         "nextGames": [
           {
-            "date": "2025-06-18T22:15:00.000Z",
+            "date": "2025-06-18T18:15:00.000Z",
             "dateText": "Wed, Jun 18",
             "time": "6:15 PM",
             "homeTeam": "Georgina Bulldogs 11U B",
@@ -725,7 +729,7 @@
             "score": null
           },
           {
-            "date": "2025-06-25T22:00:00.000Z",
+            "date": "2025-06-25T18:00:00.000Z",
             "dateText": "Wed, Jun 25",
             "time": "6:00 PM",
             "homeTeam": "Orangeville Bengals 11U A",
@@ -737,7 +741,7 @@
             "score": null
           },
           {
-            "date": "2025-07-04T22:30:00.000Z",
+            "date": "2025-07-04T18:30:00.000Z",
             "dateText": "Fri, Jul 4",
             "time": "6:30 PM",
             "homeTeam": "Innisfil Cardinals 11U A",
@@ -749,7 +753,7 @@
             "score": null
           },
           {
-            "date": "2025-07-05T19:00:00.000Z",
+            "date": "2025-07-05T15:00:00.000Z",
             "dateText": "Sat, Jul 5",
             "time": "3:00 PM",
             "homeTeam": "Muskoka Hornets 11U B",
@@ -761,7 +765,7 @@
             "score": null
           },
           {
-            "date": "2025-07-05T22:00:00.000Z",
+            "date": "2025-07-05T18:00:00.000Z",
             "dateText": "Sat, Jul 5",
             "time": "6:00 PM",
             "homeTeam": "Innisfil Cardinals 11U A",
@@ -773,16 +777,16 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-17T15:19:19.671Z"
+        "lastUpdated": "2025-06-18T16:19:43.441Z"
       },
       "510897": {
         "teamCode": "510897",
         "totalGames": 18,
-        "playedGames": 4,
-        "upcomingGames": 14,
+        "playedGames": 5,
+        "upcomingGames": 13,
         "recentGames": [
           {
-            "date": "2025-05-14T22:00:00.000Z",
+            "date": "2025-05-14T18:00:00.000Z",
             "dateText": "Wed, May 14",
             "time": "6:00 PM",
             "homeTeam": "Orangeville Bengals 11U A",
@@ -798,7 +802,7 @@
             }
           },
           {
-            "date": "2025-06-03T22:30:00.000Z",
+            "date": "2025-06-03T18:30:00.000Z",
             "dateText": "Tue, Jun 3",
             "time": "6:30 PM",
             "homeTeam": "Caledon Nationals 11U A",
@@ -814,7 +818,7 @@
             }
           },
           {
-            "date": "2025-06-04T22:00:00.000Z",
+            "date": "2025-06-04T18:00:00.000Z",
             "dateText": "Wed, Jun 4",
             "time": "6:00 PM",
             "homeTeam": "Orangeville Bengals 11U A",
@@ -830,7 +834,7 @@
             }
           },
           {
-            "date": "2025-06-11T22:15:00.000Z",
+            "date": "2025-06-11T18:15:00.000Z",
             "dateText": "Wed, Jun 11",
             "time": "6:15 PM",
             "homeTeam": "Georgina Bulldogs 11U B",
@@ -844,11 +848,9 @@
               "away": 10,
               "scoreText": "10-8"
             }
-          }
-        ],
-        "nextGames": [
+          },
           {
-            "date": "2025-06-17T22:00:00.000Z",
+            "date": "2025-06-17T18:00:00.000Z",
             "dateText": "Tue, Jun 17",
             "time": "6:00 PM",
             "homeTeam": "Collingwood Jays 11U A",
@@ -856,11 +858,17 @@
             "awayTeam": "Orangeville Bengals 11U A",
             "awayTeamCode": "510897",
             "location": "Heritage Park (Small)",
-            "isCompleted": false,
-            "score": null
-          },
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 2,
+              "scoreText": "2-12"
+            }
+          }
+        ],
+        "nextGames": [
           {
-            "date": "2025-06-18T22:00:00.000Z",
+            "date": "2025-06-18T18:00:00.000Z",
             "dateText": "Wed, Jun 18",
             "time": "6:00 PM",
             "homeTeam": "Orangeville Bengals 11U A",
@@ -872,7 +880,7 @@
             "score": null
           },
           {
-            "date": "2025-06-23T22:30:00.000Z",
+            "date": "2025-06-23T18:30:00.000Z",
             "dateText": "Mon, Jun 23",
             "time": "6:30 PM",
             "homeTeam": "Orillia Royals 11U A",
@@ -884,7 +892,7 @@
             "score": null
           },
           {
-            "date": "2025-06-25T22:00:00.000Z",
+            "date": "2025-06-25T18:00:00.000Z",
             "dateText": "Wed, Jun 25",
             "time": "6:00 PM",
             "homeTeam": "Orangeville Bengals 11U A",
@@ -896,7 +904,7 @@
             "score": null
           },
           {
-            "date": "2025-06-26T22:00:00.000Z",
+            "date": "2025-06-26T18:00:00.000Z",
             "dateText": "Thu, Jun 26",
             "time": "6:00 PM",
             "homeTeam": "Orangeville Bengals 11U A",
@@ -906,9 +914,21 @@
             "location": "Alton Community Diamond",
             "isCompleted": false,
             "score": null
+          },
+          {
+            "date": "2025-07-09T19:00:00.000Z",
+            "dateText": "Wed, Jul 9",
+            "time": "7:00 PM",
+            "homeTeam": "Midland Penetang Twins 11U A",
+            "homeTeamCode": "510891",
+            "awayTeam": "Orangeville Bengals 11U A",
+            "awayTeamCode": "510897",
+            "location": "Vasey Park",
+            "isCompleted": false,
+            "score": null
           }
         ],
-        "lastUpdated": "2025-06-17T15:19:19.671Z"
+        "lastUpdated": "2025-06-18T16:19:43.441Z"
       },
       "510898": {
         "teamCode": "510898",
@@ -917,7 +937,7 @@
         "upcomingGames": 11,
         "recentGames": [
           {
-            "date": "2025-05-31T15:00:00.000Z",
+            "date": "2025-05-31T11:00:00.000Z",
             "dateText": "Sat, May 31",
             "time": "11:00 AM",
             "homeTeam": "Muskoka Hornets 11U B",
@@ -933,7 +953,7 @@
             }
           },
           {
-            "date": "2025-05-31T17:00:00.000Z",
+            "date": "2025-05-31T13:00:00.000Z",
             "dateText": "Sat, May 31",
             "time": "1:00 PM",
             "homeTeam": "Orillia Royals 11U A",
@@ -949,7 +969,7 @@
             }
           },
           {
-            "date": "2025-06-11T22:30:00.000Z",
+            "date": "2025-06-11T18:30:00.000Z",
             "dateText": "Wed, Jun 11",
             "time": "6:30 PM",
             "homeTeam": "Barrie Baycats 11U A",
@@ -965,7 +985,7 @@
             }
           },
           {
-            "date": "2025-06-14T18:00:00.000Z",
+            "date": "2025-06-14T14:00:00.000Z",
             "dateText": "Sat, Jun 14",
             "time": "2:00 PM",
             "homeTeam": "Orillia Royals 11U A",
@@ -981,7 +1001,7 @@
             }
           },
           {
-            "date": "2025-06-16T22:30:00.000Z",
+            "date": "2025-06-16T18:30:00.000Z",
             "dateText": "Mon, Jun 16",
             "time": "6:30 PM",
             "homeTeam": "Orillia Royals 11U A",
@@ -989,13 +1009,17 @@
             "awayTeam": "Midland Penetang Twins 11U A",
             "awayTeamCode": "510891",
             "location": "Cliff Yeo Diamond",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 13,
+              "scoreText": "13-8"
+            }
           }
         ],
         "nextGames": [
           {
-            "date": "2025-06-23T22:30:00.000Z",
+            "date": "2025-06-23T18:30:00.000Z",
             "dateText": "Mon, Jun 23",
             "time": "6:30 PM",
             "homeTeam": "Orillia Royals 11U A",
@@ -1007,7 +1031,7 @@
             "score": null
           },
           {
-            "date": "2025-06-24T22:00:00.000Z",
+            "date": "2025-06-24T18:00:00.000Z",
             "dateText": "Tue, Jun 24",
             "time": "6:00 PM",
             "homeTeam": "Collingwood Jays 11U A",
@@ -1019,7 +1043,7 @@
             "score": null
           },
           {
-            "date": "2025-06-26T22:00:00.000Z",
+            "date": "2025-06-26T18:00:00.000Z",
             "dateText": "Thu, Jun 26",
             "time": "6:00 PM",
             "homeTeam": "Orangeville Bengals 11U A",
@@ -1031,7 +1055,7 @@
             "score": null
           },
           {
-            "date": "2025-07-02T23:00:00.000Z",
+            "date": "2025-07-02T19:00:00.000Z",
             "dateText": "Wed, Jul 2",
             "time": "7:00 PM",
             "homeTeam": "Midland Penetang Twins 11U A",
@@ -1043,44 +1067,28 @@
             "score": null
           },
           {
-            "date": "2025-07-05T18:00:00.000Z",
+            "date": "2025-07-05T14:30:00.000Z",
             "dateText": "Sat, Jul 5",
-            "time": "2:00 PM",
+            "time": "2:30 PM",
             "homeTeam": "Orillia Royals 11U A",
             "homeTeamCode": "510898",
             "awayTeam": "New Lowell Knights 11U D",
             "awayTeamCode": "510917",
-            "location": "Gander Ross Field",
+            "location": "Kitchener Park",
             "isCompleted": false,
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-17T15:19:19.672Z"
+        "lastUpdated": "2025-06-18T16:19:43.441Z"
       },
       "510903": {
         "teamCode": "510903",
         "totalGames": 18,
-        "playedGames": 10,
-        "upcomingGames": 8,
+        "playedGames": 11,
+        "upcomingGames": 7,
         "recentGames": [
           {
-            "date": "2025-06-04T22:30:00.000Z",
-            "dateText": "Wed, Jun 4",
-            "time": "6:30 PM",
-            "homeTeam": "Caledon Nationals 11U A",
-            "homeTeamCode": "510893",
-            "awayTeam": "Collingwood Jays 11U A",
-            "awayTeamCode": "510903",
-            "location": "Caledon East",
-            "isCompleted": true,
-            "score": {
-              "home": 2,
-              "away": 13,
-              "scoreText": "13-2"
-            }
-          },
-          {
-            "date": "2025-06-07T16:00:00.000Z",
+            "date": "2025-06-07T12:00:00.000Z",
             "dateText": "Sat, Jun 7",
             "time": "12:00 PM",
             "homeTeam": "Muskoka Hornets 11U B",
@@ -1096,7 +1104,7 @@
             }
           },
           {
-            "date": "2025-06-07T19:00:00.000Z",
+            "date": "2025-06-07T15:00:00.000Z",
             "dateText": "Sat, Jun 7",
             "time": "3:00 PM",
             "homeTeam": "Collingwood Jays 11U A",
@@ -1112,7 +1120,7 @@
             }
           },
           {
-            "date": "2025-06-10T22:00:00.000Z",
+            "date": "2025-06-10T18:00:00.000Z",
             "dateText": "Tue, Jun 10",
             "time": "6:00 PM",
             "homeTeam": "Collingwood Jays 11U A",
@@ -1128,7 +1136,7 @@
             }
           },
           {
-            "date": "2025-06-11T22:30:00.000Z",
+            "date": "2025-06-11T18:30:00.000Z",
             "dateText": "Wed, Jun 11",
             "time": "6:30 PM",
             "homeTeam": "New Lowell Knights 11U D",
@@ -1142,11 +1150,9 @@
               "away": 16,
               "scoreText": "16-5"
             }
-          }
-        ],
-        "nextGames": [
+          },
           {
-            "date": "2025-06-17T22:00:00.000Z",
+            "date": "2025-06-17T18:00:00.000Z",
             "dateText": "Tue, Jun 17",
             "time": "6:00 PM",
             "homeTeam": "Collingwood Jays 11U A",
@@ -1154,11 +1160,17 @@
             "awayTeam": "Orangeville Bengals 11U A",
             "awayTeamCode": "510897",
             "location": "Heritage Park (Small)",
-            "isCompleted": false,
-            "score": null
-          },
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 2,
+              "scoreText": "2-12"
+            }
+          }
+        ],
+        "nextGames": [
           {
-            "date": "2025-06-18T22:00:00.000Z",
+            "date": "2025-06-18T18:00:00.000Z",
             "dateText": "Wed, Jun 18",
             "time": "6:00 PM",
             "homeTeam": "Orangeville Bengals 11U A",
@@ -1170,7 +1182,7 @@
             "score": null
           },
           {
-            "date": "2025-06-24T22:00:00.000Z",
+            "date": "2025-06-24T18:00:00.000Z",
             "dateText": "Tue, Jun 24",
             "time": "6:00 PM",
             "homeTeam": "Collingwood Jays 11U A",
@@ -1182,7 +1194,7 @@
             "score": null
           },
           {
-            "date": "2025-07-04T22:30:00.000Z",
+            "date": "2025-07-04T18:30:00.000Z",
             "dateText": "Fri, Jul 4",
             "time": "6:30 PM",
             "homeTeam": "Innisfil Cardinals 11U A",
@@ -1194,7 +1206,7 @@
             "score": null
           },
           {
-            "date": "2025-07-08T22:00:00.000Z",
+            "date": "2025-07-08T18:00:00.000Z",
             "dateText": "Tue, Jul 8",
             "time": "6:00 PM",
             "homeTeam": "Collingwood Jays 11U A",
@@ -1204,34 +1216,30 @@
             "location": "Heritage Park (Small)",
             "isCompleted": false,
             "score": null
+          },
+          {
+            "date": "2025-07-09T18:15:00.000Z",
+            "dateText": "Wed, Jul 9",
+            "time": "6:15 PM",
+            "homeTeam": "Georgina Bulldogs 11U B",
+            "homeTeamCode": "510916",
+            "awayTeam": "Collingwood Jays 11U A",
+            "awayTeamCode": "510903",
+            "location": "ROC 2",
+            "isCompleted": false,
+            "score": null
           }
         ],
-        "lastUpdated": "2025-06-17T15:19:19.672Z"
+        "lastUpdated": "2025-06-18T16:19:43.441Z"
       },
       "510905": {
         "teamCode": "510905",
         "totalGames": 16,
-        "playedGames": 6,
-        "upcomingGames": 10,
+        "playedGames": 7,
+        "upcomingGames": 9,
         "recentGames": [
           {
-            "date": "2025-05-27T22:00:00.000Z",
-            "dateText": "Tue, May 27",
-            "time": "6:00 PM",
-            "homeTeam": "Newmarket Hawks 11U AA",
-            "homeTeamCode": "510913",
-            "awayTeam": "Aurora-King Jays 11U AA",
-            "awayTeamCode": "510905",
-            "location": "Fairgrounds #1",
-            "isCompleted": true,
-            "score": {
-              "home": 13,
-              "away": 5,
-              "scoreText": "5-13"
-            }
-          },
-          {
-            "date": "2025-05-29T22:30:00.000Z",
+            "date": "2025-05-29T18:30:00.000Z",
             "dateText": "Thu, May 29",
             "time": "6:30 PM",
             "homeTeam": "Aurora-King Jays 11U AA",
@@ -1247,7 +1255,7 @@
             }
           },
           {
-            "date": "2025-06-01T22:30:00.000Z",
+            "date": "2025-06-01T18:30:00.000Z",
             "dateText": "Sun, Jun 1",
             "time": "6:30 PM",
             "homeTeam": "Aurora-King Jays 11U AA",
@@ -1263,7 +1271,7 @@
             }
           },
           {
-            "date": "2025-06-10T22:00:00.000Z",
+            "date": "2025-06-10T18:00:00.000Z",
             "dateText": "Tue, Jun 10",
             "time": "6:00 PM",
             "homeTeam": "Bradford Tigers 11U AA",
@@ -1275,7 +1283,7 @@
             "score": null
           },
           {
-            "date": "2025-06-13T22:30:00.000Z",
+            "date": "2025-06-13T18:30:00.000Z",
             "dateText": "Fri, Jun 13",
             "time": "6:30 PM",
             "homeTeam": "Markham Mariners 11U AA",
@@ -1285,11 +1293,9 @@
             "location": "Carlton Park",
             "isCompleted": false,
             "score": null
-          }
-        ],
-        "nextGames": [
+          },
           {
-            "date": "2025-06-17T22:30:00.000Z",
+            "date": "2025-06-17T18:30:00.000Z",
             "dateText": "Tue, Jun 17",
             "time": "6:30 PM",
             "homeTeam": "Caledon Nationals 11U AA",
@@ -1297,11 +1303,17 @@
             "awayTeam": "Aurora-King Jays 11U AA",
             "awayTeamCode": "510905",
             "location": "North Hill #3",
-            "isCompleted": false,
-            "score": null
-          },
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 6,
+              "scoreText": "6-5"
+            }
+          }
+        ],
+        "nextGames": [
           {
-            "date": "2025-06-19T22:30:00.000Z",
+            "date": "2025-06-19T18:30:00.000Z",
             "dateText": "Thu, Jun 19",
             "time": "6:30 PM",
             "homeTeam": "Aurora-King Jays 11U AA",
@@ -1313,7 +1325,7 @@
             "score": null
           },
           {
-            "date": "2025-06-22T22:30:00.000Z",
+            "date": "2025-06-22T18:30:00.000Z",
             "dateText": "Sun, Jun 22",
             "time": "6:30 PM",
             "homeTeam": "Aurora-King Jays 11U AA",
@@ -1325,7 +1337,7 @@
             "score": null
           },
           {
-            "date": "2025-07-03T22:30:00.000Z",
+            "date": "2025-07-03T18:30:00.000Z",
             "dateText": "Thu, Jul 3",
             "time": "6:30 PM",
             "homeTeam": "Aurora-King Jays 11U AA",
@@ -1337,7 +1349,7 @@
             "score": null
           },
           {
-            "date": "2025-07-17T22:30:00.000Z",
+            "date": "2025-07-17T18:30:00.000Z",
             "dateText": "Thu, Jul 17",
             "time": "6:30 PM",
             "homeTeam": "Barrie Baycats 11U AA",
@@ -1347,34 +1359,30 @@
             "location": "Sports Complex #12",
             "isCompleted": false,
             "score": null
+          },
+          {
+            "date": "2025-07-20T18:30:00.000Z",
+            "dateText": "Sun, Jul 20",
+            "time": "6:30 PM",
+            "homeTeam": "Aurora-King Jays 11U AA",
+            "homeTeamCode": "510905",
+            "awayTeam": "Barrie Baycats 11U A",
+            "awayTeamCode": "510892",
+            "location": "HallMark #2",
+            "isCompleted": false,
+            "score": null
           }
         ],
-        "lastUpdated": "2025-06-17T15:19:19.672Z"
+        "lastUpdated": "2025-06-18T16:19:43.441Z"
       },
       "510906": {
         "teamCode": "510906",
         "totalGames": 15,
-        "playedGames": 6,
-        "upcomingGames": 9,
+        "playedGames": 7,
+        "upcomingGames": 8,
         "recentGames": [
           {
-            "date": "2025-05-14T22:30:00.000Z",
-            "dateText": "Wed, May 14",
-            "time": "6:30 PM",
-            "homeTeam": "Markham Mariners 11U AA",
-            "homeTeamCode": "510908",
-            "awayTeam": "Barrie Baycats 11U AA",
-            "awayTeamCode": "510906",
-            "location": "Carlton Park",
-            "isCompleted": true,
-            "score": {
-              "home": 3,
-              "away": 6,
-              "scoreText": "6-3"
-            }
-          },
-          {
-            "date": "2025-05-27T21:50:00.000Z",
+            "date": "2025-05-27T17:50:00.000Z",
             "dateText": "Tue, May 27",
             "time": "5:50 PM",
             "homeTeam": "TNT Thunder 11U AA",
@@ -1390,7 +1398,7 @@
             }
           },
           {
-            "date": "2025-05-29T22:30:00.000Z",
+            "date": "2025-05-29T18:30:00.000Z",
             "dateText": "Thu, May 29",
             "time": "6:30 PM",
             "homeTeam": "Barrie Baycats 11U AA",
@@ -1406,7 +1414,7 @@
             }
           },
           {
-            "date": "2025-06-10T22:00:00.000Z",
+            "date": "2025-06-10T18:00:00.000Z",
             "dateText": "Tue, Jun 10",
             "time": "6:00 PM",
             "homeTeam": "Newmarket Hawks 11U AA",
@@ -1422,7 +1430,7 @@
             }
           },
           {
-            "date": "2025-06-12T22:30:00.000Z",
+            "date": "2025-06-12T18:30:00.000Z",
             "dateText": "Thu, Jun 12",
             "time": "6:30 PM",
             "homeTeam": "Barrie Baycats 11U AA",
@@ -1436,11 +1444,9 @@
               "away": 7,
               "scoreText": "7-16"
             }
-          }
-        ],
-        "nextGames": [
+          },
           {
-            "date": "2025-06-17T22:00:00.000Z",
+            "date": "2025-06-17T18:00:00.000Z",
             "dateText": "Tue, Jun 17",
             "time": "6:00 PM",
             "homeTeam": "Bradford Tigers 11U AA",
@@ -1448,23 +1454,29 @@
             "awayTeam": "Barrie Baycats 11U AA",
             "awayTeamCode": "510906",
             "location": "Joe Magani Park",
-            "isCompleted": false,
-            "score": null
-          },
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 13,
+              "scoreText": "13-10"
+            }
+          }
+        ],
+        "nextGames": [
           {
-            "date": "2025-06-19T22:30:00.000Z",
+            "date": "2025-06-19T18:30:00.000Z",
             "dateText": "Thu, Jun 19",
             "time": "6:30 PM",
             "homeTeam": "Barrie Baycats 11U AA",
             "homeTeamCode": "510906",
             "awayTeam": "Bradford Tigers 11U AA",
             "awayTeamCode": "510907",
-            "location": "Sports Complex #12",
+            "location": "PPD",
             "isCompleted": false,
             "score": null
           },
           {
-            "date": "2025-06-25T22:00:00.000Z",
+            "date": "2025-06-25T18:00:00.000Z",
             "dateText": "Wed, Jun 25",
             "time": "6:00 PM",
             "homeTeam": "Orangeville Bengals 11U AA",
@@ -1476,7 +1488,7 @@
             "score": null
           },
           {
-            "date": "2025-06-26T22:30:00.000Z",
+            "date": "2025-06-26T18:30:00.000Z",
             "dateText": "Thu, Jun 26",
             "time": "6:30 PM",
             "homeTeam": "Barrie Baycats 11U AA",
@@ -1488,7 +1500,7 @@
             "score": null
           },
           {
-            "date": "2025-07-09T23:00:00.000Z",
+            "date": "2025-07-09T19:00:00.000Z",
             "dateText": "Wed, Jul 9",
             "time": "7:00 PM",
             "homeTeam": "Richmond Hill Phoenix 11U AA",
@@ -1498,18 +1510,30 @@
             "location": "David Hamilton #2",
             "isCompleted": false,
             "score": null
+          },
+          {
+            "date": "2025-07-10T18:30:00.000Z",
+            "dateText": "Thu, Jul 10",
+            "time": "6:30 PM",
+            "homeTeam": "Barrie Baycats 11U AA",
+            "homeTeamCode": "510906",
+            "awayTeam": "Richmond Hill Phoenix 11U AA",
+            "awayTeamCode": "510910",
+            "location": "Sports Complex #12",
+            "isCompleted": false,
+            "score": null
           }
         ],
-        "lastUpdated": "2025-06-17T15:19:19.672Z"
+        "lastUpdated": "2025-06-18T16:19:43.441Z"
       },
       "510907": {
         "teamCode": "510907",
         "totalGames": 16,
-        "playedGames": 4,
-        "upcomingGames": 12,
+        "playedGames": 5,
+        "upcomingGames": 11,
         "recentGames": [
           {
-            "date": "2025-05-13T22:00:00.000Z",
+            "date": "2025-05-13T18:00:00.000Z",
             "dateText": "Tue, May 13",
             "time": "6:00 PM",
             "homeTeam": "Bradford Tigers 11U AA",
@@ -1525,7 +1549,7 @@
             }
           },
           {
-            "date": "2025-05-20T22:00:00.000Z",
+            "date": "2025-05-20T18:00:00.000Z",
             "dateText": "Tue, May 20",
             "time": "6:00 PM",
             "homeTeam": "Bradford Tigers 11U AA",
@@ -1541,7 +1565,7 @@
             }
           },
           {
-            "date": "2025-05-27T22:00:00.000Z",
+            "date": "2025-05-27T18:00:00.000Z",
             "dateText": "Tue, May 27",
             "time": "6:00 PM",
             "homeTeam": "Bradford Tigers 11U AA",
@@ -1557,7 +1581,7 @@
             }
           },
           {
-            "date": "2025-06-10T22:00:00.000Z",
+            "date": "2025-06-10T18:00:00.000Z",
             "dateText": "Tue, Jun 10",
             "time": "6:00 PM",
             "homeTeam": "Bradford Tigers 11U AA",
@@ -1567,11 +1591,9 @@
             "location": "PPD",
             "isCompleted": false,
             "score": null
-          }
-        ],
-        "nextGames": [
+          },
           {
-            "date": "2025-06-17T22:00:00.000Z",
+            "date": "2025-06-17T18:00:00.000Z",
             "dateText": "Tue, Jun 17",
             "time": "6:00 PM",
             "homeTeam": "Bradford Tigers 11U AA",
@@ -1579,23 +1601,29 @@
             "awayTeam": "Barrie Baycats 11U AA",
             "awayTeamCode": "510906",
             "location": "Joe Magani Park",
-            "isCompleted": false,
-            "score": null
-          },
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 13,
+              "scoreText": "13-10"
+            }
+          }
+        ],
+        "nextGames": [
           {
-            "date": "2025-06-19T22:30:00.000Z",
+            "date": "2025-06-19T18:30:00.000Z",
             "dateText": "Thu, Jun 19",
             "time": "6:30 PM",
             "homeTeam": "Barrie Baycats 11U AA",
             "homeTeamCode": "510906",
             "awayTeam": "Bradford Tigers 11U AA",
             "awayTeamCode": "510907",
-            "location": "Sports Complex #12",
+            "location": "PPD",
             "isCompleted": false,
             "score": null
           },
           {
-            "date": "2025-06-20T22:30:00.000Z",
+            "date": "2025-06-20T18:30:00.000Z",
             "dateText": "Fri, Jun 20",
             "time": "6:30 PM",
             "homeTeam": "Markham Mariners 11U AA",
@@ -1607,7 +1635,7 @@
             "score": null
           },
           {
-            "date": "2025-06-24T22:00:00.000Z",
+            "date": "2025-06-24T18:00:00.000Z",
             "dateText": "Tue, Jun 24",
             "time": "6:00 PM",
             "homeTeam": "Bradford Tigers 11U AA",
@@ -1619,7 +1647,7 @@
             "score": null
           },
           {
-            "date": "2025-06-25T23:00:00.000Z",
+            "date": "2025-06-25T19:00:00.000Z",
             "dateText": "Wed, Jun 25",
             "time": "7:00 PM",
             "homeTeam": "Richmond Hill Phoenix 11U AA",
@@ -1629,9 +1657,21 @@
             "location": "David Hamilton #2",
             "isCompleted": false,
             "score": null
+          },
+          {
+            "date": "2025-07-03T18:30:00.000Z",
+            "dateText": "Thu, Jul 3",
+            "time": "6:30 PM",
+            "homeTeam": "Aurora-King Jays 11U AA",
+            "homeTeamCode": "510905",
+            "awayTeam": "Bradford Tigers 11U AA",
+            "awayTeamCode": "510907",
+            "location": "HallMark #2",
+            "isCompleted": false,
+            "score": null
           }
         ],
-        "lastUpdated": "2025-06-17T15:19:19.672Z"
+        "lastUpdated": "2025-06-18T16:19:43.441Z"
       },
       "510908": {
         "teamCode": "510908",
@@ -1640,7 +1680,7 @@
         "upcomingGames": 8,
         "recentGames": [
           {
-            "date": "2025-06-01T22:30:00.000Z",
+            "date": "2025-06-01T18:30:00.000Z",
             "dateText": "Sun, Jun 1",
             "time": "6:30 PM",
             "homeTeam": "Aurora-King Jays 11U AA",
@@ -1656,7 +1696,7 @@
             }
           },
           {
-            "date": "2025-06-03T22:30:00.000Z",
+            "date": "2025-06-03T18:30:00.000Z",
             "dateText": "Tue, Jun 3",
             "time": "6:30 PM",
             "homeTeam": "Caledon Nationals 11U AA",
@@ -1672,7 +1712,7 @@
             }
           },
           {
-            "date": "2025-06-04T22:30:00.000Z",
+            "date": "2025-06-04T18:30:00.000Z",
             "dateText": "Wed, Jun 4",
             "time": "6:30 PM",
             "homeTeam": "Markham Mariners 11U AA",
@@ -1688,7 +1728,7 @@
             }
           },
           {
-            "date": "2025-06-11T22:00:00.000Z",
+            "date": "2025-06-11T18:00:00.000Z",
             "dateText": "Wed, Jun 11",
             "time": "6:00 PM",
             "homeTeam": "Orangeville Bengals 11U AA",
@@ -1704,7 +1744,7 @@
             }
           },
           {
-            "date": "2025-06-13T22:30:00.000Z",
+            "date": "2025-06-13T18:30:00.000Z",
             "dateText": "Fri, Jun 13",
             "time": "6:30 PM",
             "homeTeam": "Markham Mariners 11U AA",
@@ -1718,7 +1758,7 @@
         ],
         "nextGames": [
           {
-            "date": "2025-06-18T22:30:00.000Z",
+            "date": "2025-06-18T18:30:00.000Z",
             "dateText": "Wed, Jun 18",
             "time": "6:30 PM",
             "homeTeam": "Markham Mariners 11U AA",
@@ -1730,7 +1770,7 @@
             "score": null
           },
           {
-            "date": "2025-06-20T22:30:00.000Z",
+            "date": "2025-06-20T18:30:00.000Z",
             "dateText": "Fri, Jun 20",
             "time": "6:30 PM",
             "homeTeam": "Markham Mariners 11U AA",
@@ -1742,7 +1782,7 @@
             "score": null
           },
           {
-            "date": "2025-06-24T22:00:00.000Z",
+            "date": "2025-06-24T18:00:00.000Z",
             "dateText": "Tue, Jun 24",
             "time": "6:00 PM",
             "homeTeam": "Newmarket Hawks 11U AA",
@@ -1754,7 +1794,7 @@
             "score": null
           },
           {
-            "date": "2025-07-16T23:00:00.000Z",
+            "date": "2025-07-16T19:00:00.000Z",
             "dateText": "Wed, Jul 16",
             "time": "7:00 PM",
             "homeTeam": "Richmond Hill Phoenix 11U AA",
@@ -1766,7 +1806,7 @@
             "score": null
           },
           {
-            "date": "2025-07-21T22:30:00.000Z",
+            "date": "2025-07-21T18:30:00.000Z",
             "dateText": "Mon, Jul 21",
             "time": "6:30 PM",
             "homeTeam": "Markham Mariners 11U AA",
@@ -1778,7 +1818,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-17T15:19:19.672Z"
+        "lastUpdated": "2025-06-18T16:19:43.441Z"
       },
       "510909": {
         "teamCode": "510909",
@@ -1787,7 +1827,7 @@
         "upcomingGames": 11,
         "recentGames": [
           {
-            "date": "2025-05-13T22:30:00.000Z",
+            "date": "2025-05-13T18:30:00.000Z",
             "dateText": "Tue, May 13",
             "time": "6:30 PM",
             "homeTeam": "Caledon Nationals 11U AA",
@@ -1803,7 +1843,7 @@
             }
           },
           {
-            "date": "2025-05-14T22:00:00.000Z",
+            "date": "2025-05-14T18:00:00.000Z",
             "dateText": "Wed, May 14",
             "time": "6:00 PM",
             "homeTeam": "Orangeville Bengals 11U AA",
@@ -1819,7 +1859,7 @@
             }
           },
           {
-            "date": "2025-05-20T22:00:00.000Z",
+            "date": "2025-05-20T18:00:00.000Z",
             "dateText": "Tue, May 20",
             "time": "6:00 PM",
             "homeTeam": "Bradford Tigers 11U AA",
@@ -1835,7 +1875,7 @@
             }
           },
           {
-            "date": "2025-06-04T22:00:00.000Z",
+            "date": "2025-06-04T18:00:00.000Z",
             "dateText": "Wed, Jun 4",
             "time": "6:00 PM",
             "homeTeam": "Orangeville Bengals 11U AA",
@@ -1851,7 +1891,7 @@
             }
           },
           {
-            "date": "2025-06-11T22:00:00.000Z",
+            "date": "2025-06-11T18:00:00.000Z",
             "dateText": "Wed, Jun 11",
             "time": "6:00 PM",
             "homeTeam": "Orangeville Bengals 11U AA",
@@ -1869,7 +1909,7 @@
         ],
         "nextGames": [
           {
-            "date": "2025-06-18T23:00:00.000Z",
+            "date": "2025-06-18T19:00:00.000Z",
             "dateText": "Wed, Jun 18",
             "time": "7:00 PM",
             "homeTeam": "Richmond Hill Phoenix 11U AA",
@@ -1881,7 +1921,7 @@
             "score": null
           },
           {
-            "date": "2025-06-19T22:00:00.000Z",
+            "date": "2025-06-19T18:00:00.000Z",
             "dateText": "Thu, Jun 19",
             "time": "6:00 PM",
             "homeTeam": "Orangeville Bengals 11U AA",
@@ -1893,7 +1933,7 @@
             "score": null
           },
           {
-            "date": "2025-06-25T22:00:00.000Z",
+            "date": "2025-06-25T18:00:00.000Z",
             "dateText": "Wed, Jun 25",
             "time": "6:00 PM",
             "homeTeam": "Orangeville Bengals 11U AA",
@@ -1905,7 +1945,7 @@
             "score": null
           },
           {
-            "date": "2025-06-26T22:30:00.000Z",
+            "date": "2025-06-26T18:30:00.000Z",
             "dateText": "Thu, Jun 26",
             "time": "6:30 PM",
             "homeTeam": "Barrie Baycats 11U AA",
@@ -1917,7 +1957,7 @@
             "score": null
           },
           {
-            "date": "2025-07-08T22:00:00.000Z",
+            "date": "2025-07-08T18:00:00.000Z",
             "dateText": "Tue, Jul 8",
             "time": "6:00 PM",
             "homeTeam": "Newmarket Hawks 11U AA",
@@ -1929,7 +1969,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-17T15:19:19.672Z"
+        "lastUpdated": "2025-06-18T16:19:43.441Z"
       },
       "510910": {
         "teamCode": "510910",
@@ -1938,7 +1978,7 @@
         "upcomingGames": 9,
         "recentGames": [
           {
-            "date": "2025-05-24T19:00:00.000Z",
+            "date": "2025-05-24T15:00:00.000Z",
             "dateText": "Sat, May 24",
             "time": "3:00 PM",
             "homeTeam": "Richmond Hill Phoenix 11U AA",
@@ -1950,7 +1990,7 @@
             "score": null
           },
           {
-            "date": "2025-05-27T22:30:00.000Z",
+            "date": "2025-05-27T18:30:00.000Z",
             "dateText": "Tue, May 27",
             "time": "6:30 PM",
             "homeTeam": "Caledon Nationals 11U AA",
@@ -1966,7 +2006,7 @@
             }
           },
           {
-            "date": "2025-05-28T23:00:00.000Z",
+            "date": "2025-05-28T19:00:00.000Z",
             "dateText": "Wed, May 28",
             "time": "7:00 PM",
             "homeTeam": "Richmond Hill Phoenix 11U AA",
@@ -1978,7 +2018,7 @@
             "score": null
           },
           {
-            "date": "2025-06-10T21:50:00.000Z",
+            "date": "2025-06-10T17:50:00.000Z",
             "dateText": "Tue, Jun 10",
             "time": "5:50 PM",
             "homeTeam": "TNT Thunder 11U AA",
@@ -1994,7 +2034,7 @@
             }
           },
           {
-            "date": "2025-06-11T23:00:00.000Z",
+            "date": "2025-06-11T19:00:00.000Z",
             "dateText": "Wed, Jun 11",
             "time": "7:00 PM",
             "homeTeam": "Richmond Hill Phoenix 11U AA",
@@ -2012,7 +2052,7 @@
         ],
         "nextGames": [
           {
-            "date": "2025-06-18T23:00:00.000Z",
+            "date": "2025-06-18T19:00:00.000Z",
             "dateText": "Wed, Jun 18",
             "time": "7:00 PM",
             "homeTeam": "Richmond Hill Phoenix 11U AA",
@@ -2024,7 +2064,7 @@
             "score": null
           },
           {
-            "date": "2025-06-19T22:00:00.000Z",
+            "date": "2025-06-19T18:00:00.000Z",
             "dateText": "Thu, Jun 19",
             "time": "6:00 PM",
             "homeTeam": "Orangeville Bengals 11U AA",
@@ -2036,7 +2076,7 @@
             "score": null
           },
           {
-            "date": "2025-06-22T22:30:00.000Z",
+            "date": "2025-06-22T18:30:00.000Z",
             "dateText": "Sun, Jun 22",
             "time": "6:30 PM",
             "homeTeam": "Aurora-King Jays 11U AA",
@@ -2048,7 +2088,7 @@
             "score": null
           },
           {
-            "date": "2025-06-24T22:00:00.000Z",
+            "date": "2025-06-24T18:00:00.000Z",
             "dateText": "Tue, Jun 24",
             "time": "6:00 PM",
             "homeTeam": "Bradford Tigers 11U AA",
@@ -2060,7 +2100,7 @@
             "score": null
           },
           {
-            "date": "2025-06-25T23:00:00.000Z",
+            "date": "2025-06-25T19:00:00.000Z",
             "dateText": "Wed, Jun 25",
             "time": "7:00 PM",
             "homeTeam": "Richmond Hill Phoenix 11U AA",
@@ -2072,7 +2112,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-17T15:19:19.672Z"
+        "lastUpdated": "2025-06-18T16:19:43.441Z"
       },
       "510911": {
         "teamCode": "510911",
@@ -2081,7 +2121,7 @@
         "upcomingGames": 8,
         "recentGames": [
           {
-            "date": "2025-05-29T22:30:00.000Z",
+            "date": "2025-05-29T18:30:00.000Z",
             "dateText": "Thu, May 29",
             "time": "6:30 PM",
             "homeTeam": "Barrie Baycats 11U AA",
@@ -2097,7 +2137,7 @@
             }
           },
           {
-            "date": "2025-06-03T21:50:00.000Z",
+            "date": "2025-06-03T17:50:00.000Z",
             "dateText": "Tue, Jun 3",
             "time": "5:50 PM",
             "homeTeam": "TNT Thunder 11U AA",
@@ -2113,7 +2153,7 @@
             }
           },
           {
-            "date": "2025-06-04T22:00:00.000Z",
+            "date": "2025-06-04T18:00:00.000Z",
             "dateText": "Wed, Jun 4",
             "time": "6:00 PM",
             "homeTeam": "Orangeville Bengals 11U AA",
@@ -2129,7 +2169,7 @@
             }
           },
           {
-            "date": "2025-06-10T21:50:00.000Z",
+            "date": "2025-06-10T17:50:00.000Z",
             "dateText": "Tue, Jun 10",
             "time": "5:50 PM",
             "homeTeam": "TNT Thunder 11U AA",
@@ -2145,7 +2185,7 @@
             }
           },
           {
-            "date": "2025-06-11T23:00:00.000Z",
+            "date": "2025-06-11T19:00:00.000Z",
             "dateText": "Wed, Jun 11",
             "time": "7:00 PM",
             "homeTeam": "Richmond Hill Phoenix 11U AA",
@@ -2163,7 +2203,7 @@
         ],
         "nextGames": [
           {
-            "date": "2025-06-18T22:30:00.000Z",
+            "date": "2025-06-18T18:30:00.000Z",
             "dateText": "Wed, Jun 18",
             "time": "6:30 PM",
             "homeTeam": "Markham Mariners 11U AA",
@@ -2175,7 +2215,7 @@
             "score": null
           },
           {
-            "date": "2025-06-24T22:30:00.000Z",
+            "date": "2025-06-24T18:30:00.000Z",
             "dateText": "Tue, Jun 24",
             "time": "6:30 PM",
             "homeTeam": "Caledon Nationals 11U AA",
@@ -2187,7 +2227,7 @@
             "score": null
           },
           {
-            "date": "2025-07-15T22:00:00.000Z",
+            "date": "2025-07-15T18:00:00.000Z",
             "dateText": "Tue, Jul 15",
             "time": "6:00 PM",
             "homeTeam": "Newmarket Hawks 11U AA",
@@ -2199,7 +2239,7 @@
             "score": null
           },
           {
-            "date": "2025-07-22T21:50:00.000Z",
+            "date": "2025-07-22T17:50:00.000Z",
             "dateText": "Tue, Jul 22",
             "time": "5:50 PM",
             "homeTeam": "TNT Thunder 11U AA",
@@ -2211,7 +2251,7 @@
             "score": null
           },
           {
-            "date": "2025-07-29T21:50:00.000Z",
+            "date": "2025-07-29T17:50:00.000Z",
             "dateText": "Tue, Jul 29",
             "time": "5:50 PM",
             "homeTeam": "TNT Thunder 11U AA",
@@ -2223,32 +2263,16 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-17T15:19:19.672Z"
+        "lastUpdated": "2025-06-18T16:19:43.442Z"
       },
       "510912": {
         "teamCode": "510912",
         "totalGames": 16,
-        "playedGames": 7,
-        "upcomingGames": 9,
+        "playedGames": 8,
+        "upcomingGames": 8,
         "recentGames": [
           {
-            "date": "2025-05-20T21:50:00.000Z",
-            "dateText": "Tue, May 20",
-            "time": "5:50 PM",
-            "homeTeam": "TNT Thunder 11U AA",
-            "homeTeamCode": "510911",
-            "awayTeam": "Caledon Nationals 11U AA",
-            "awayTeamCode": "510912",
-            "location": "Coventry #2",
-            "isCompleted": true,
-            "score": {
-              "home": 7,
-              "away": 8,
-              "scoreText": "8-7"
-            }
-          },
-          {
-            "date": "2025-05-27T22:30:00.000Z",
+            "date": "2025-05-27T18:30:00.000Z",
             "dateText": "Tue, May 27",
             "time": "6:30 PM",
             "homeTeam": "Caledon Nationals 11U AA",
@@ -2264,7 +2288,7 @@
             }
           },
           {
-            "date": "2025-05-28T23:00:00.000Z",
+            "date": "2025-05-28T19:00:00.000Z",
             "dateText": "Wed, May 28",
             "time": "7:00 PM",
             "homeTeam": "Richmond Hill Phoenix 11U AA",
@@ -2276,7 +2300,7 @@
             "score": null
           },
           {
-            "date": "2025-06-03T22:30:00.000Z",
+            "date": "2025-06-03T18:30:00.000Z",
             "dateText": "Tue, Jun 3",
             "time": "6:30 PM",
             "homeTeam": "Caledon Nationals 11U AA",
@@ -2292,7 +2316,7 @@
             }
           },
           {
-            "date": "2025-06-04T22:30:00.000Z",
+            "date": "2025-06-04T18:30:00.000Z",
             "dateText": "Wed, Jun 4",
             "time": "6:30 PM",
             "homeTeam": "Markham Mariners 11U AA",
@@ -2306,11 +2330,9 @@
               "away": 12,
               "scoreText": "12-2"
             }
-          }
-        ],
-        "nextGames": [
+          },
           {
-            "date": "2025-06-17T22:30:00.000Z",
+            "date": "2025-06-17T18:30:00.000Z",
             "dateText": "Tue, Jun 17",
             "time": "6:30 PM",
             "homeTeam": "Caledon Nationals 11U AA",
@@ -2318,11 +2340,17 @@
             "awayTeam": "Aurora-King Jays 11U AA",
             "awayTeamCode": "510905",
             "location": "North Hill #3",
-            "isCompleted": false,
-            "score": null
-          },
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 6,
+              "scoreText": "6-5"
+            }
+          }
+        ],
+        "nextGames": [
           {
-            "date": "2025-06-19T22:30:00.000Z",
+            "date": "2025-06-19T18:30:00.000Z",
             "dateText": "Thu, Jun 19",
             "time": "6:30 PM",
             "homeTeam": "Aurora-King Jays 11U AA",
@@ -2334,7 +2362,7 @@
             "score": null
           },
           {
-            "date": "2025-06-24T22:30:00.000Z",
+            "date": "2025-06-24T18:30:00.000Z",
             "dateText": "Tue, Jun 24",
             "time": "6:30 PM",
             "homeTeam": "Caledon Nationals 11U AA",
@@ -2346,7 +2374,7 @@
             "score": null
           },
           {
-            "date": "2025-07-08T22:00:00.000Z",
+            "date": "2025-07-08T18:00:00.000Z",
             "dateText": "Tue, Jul 8",
             "time": "6:00 PM",
             "homeTeam": "Bradford Tigers 11U AA",
@@ -2358,7 +2386,7 @@
             "score": null
           },
           {
-            "date": "2025-07-15T22:30:00.000Z",
+            "date": "2025-07-15T18:30:00.000Z",
             "dateText": "Tue, Jul 15",
             "time": "6:30 PM",
             "homeTeam": "Caledon Nationals 11U AA",
@@ -2368,9 +2396,21 @@
             "location": "North Hill #3",
             "isCompleted": false,
             "score": null
+          },
+          {
+            "date": "2025-07-29T18:30:00.000Z",
+            "dateText": "Tue, Jul 29",
+            "time": "6:30 PM",
+            "homeTeam": "Caledon Nationals 11U AA",
+            "homeTeamCode": "510912",
+            "awayTeam": "Barrie Baycats 11U AA",
+            "awayTeamCode": "510906",
+            "location": "North Hill #3",
+            "isCompleted": false,
+            "score": null
           }
         ],
-        "lastUpdated": "2025-06-17T15:19:19.672Z"
+        "lastUpdated": "2025-06-18T16:19:43.442Z"
       },
       "510913": {
         "teamCode": "510913",
@@ -2379,7 +2419,7 @@
         "upcomingGames": 9,
         "recentGames": [
           {
-            "date": "2025-05-27T22:00:00.000Z",
+            "date": "2025-05-27T18:00:00.000Z",
             "dateText": "Tue, May 27",
             "time": "6:00 PM",
             "homeTeam": "Newmarket Hawks 11U AA",
@@ -2395,7 +2435,7 @@
             }
           },
           {
-            "date": "2025-05-29T22:30:00.000Z",
+            "date": "2025-05-29T18:30:00.000Z",
             "dateText": "Thu, May 29",
             "time": "6:30 PM",
             "homeTeam": "Aurora-King Jays 11U AA",
@@ -2411,7 +2451,7 @@
             }
           },
           {
-            "date": "2025-06-03T21:50:00.000Z",
+            "date": "2025-06-03T17:50:00.000Z",
             "dateText": "Tue, Jun 3",
             "time": "5:50 PM",
             "homeTeam": "TNT Thunder 11U AA",
@@ -2427,7 +2467,7 @@
             }
           },
           {
-            "date": "2025-06-10T22:00:00.000Z",
+            "date": "2025-06-10T18:00:00.000Z",
             "dateText": "Tue, Jun 10",
             "time": "6:00 PM",
             "homeTeam": "Newmarket Hawks 11U AA",
@@ -2443,7 +2483,7 @@
             }
           },
           {
-            "date": "2025-06-12T22:30:00.000Z",
+            "date": "2025-06-12T18:30:00.000Z",
             "dateText": "Thu, Jun 12",
             "time": "6:30 PM",
             "homeTeam": "Barrie Baycats 11U AA",
@@ -2461,7 +2501,7 @@
         ],
         "nextGames": [
           {
-            "date": "2025-06-24T22:00:00.000Z",
+            "date": "2025-06-24T18:00:00.000Z",
             "dateText": "Tue, Jun 24",
             "time": "6:00 PM",
             "homeTeam": "Newmarket Hawks 11U AA",
@@ -2473,7 +2513,7 @@
             "score": null
           },
           {
-            "date": "2025-07-08T22:00:00.000Z",
+            "date": "2025-07-08T18:00:00.000Z",
             "dateText": "Tue, Jul 8",
             "time": "6:00 PM",
             "homeTeam": "Newmarket Hawks 11U AA",
@@ -2485,7 +2525,7 @@
             "score": null
           },
           {
-            "date": "2025-07-15T22:00:00.000Z",
+            "date": "2025-07-15T18:00:00.000Z",
             "dateText": "Tue, Jul 15",
             "time": "6:00 PM",
             "homeTeam": "Newmarket Hawks 11U AA",
@@ -2497,7 +2537,7 @@
             "score": null
           },
           {
-            "date": "2025-07-16T22:00:00.000Z",
+            "date": "2025-07-16T18:00:00.000Z",
             "dateText": "Wed, Jul 16",
             "time": "6:00 PM",
             "homeTeam": "Orangeville Bengals 11U AA",
@@ -2509,7 +2549,7 @@
             "score": null
           },
           {
-            "date": "2025-07-21T22:30:00.000Z",
+            "date": "2025-07-21T18:30:00.000Z",
             "dateText": "Mon, Jul 21",
             "time": "6:30 PM",
             "homeTeam": "Markham Mariners 11U AA",
@@ -2521,7 +2561,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-17T15:19:19.672Z"
+        "lastUpdated": "2025-06-18T16:19:43.442Z"
       },
       "510916": {
         "teamCode": "510916",
@@ -2530,7 +2570,7 @@
         "upcomingGames": 13,
         "recentGames": [
           {
-            "date": "2025-05-07T23:00:00.000Z",
+            "date": "2025-05-07T19:00:00.000Z",
             "dateText": "Wed, May 7",
             "time": "7:00 PM",
             "homeTeam": "Midland Penetang Twins 11U A",
@@ -2542,7 +2582,7 @@
             "score": null
           },
           {
-            "date": "2025-05-25T18:00:00.000Z",
+            "date": "2025-05-25T14:00:00.000Z",
             "dateText": "Sun, May 25",
             "time": "2:00 PM",
             "homeTeam": "Orillia Royals 11U A",
@@ -2558,7 +2598,7 @@
             }
           },
           {
-            "date": "2025-06-02T22:30:00.000Z",
+            "date": "2025-06-02T18:30:00.000Z",
             "dateText": "Mon, Jun 2",
             "time": "6:30 PM",
             "homeTeam": "Innisfil Cardinals 11U A",
@@ -2574,7 +2614,7 @@
             }
           },
           {
-            "date": "2025-06-04T22:00:00.000Z",
+            "date": "2025-06-04T18:00:00.000Z",
             "dateText": "Wed, Jun 4",
             "time": "6:00 PM",
             "homeTeam": "Orangeville Bengals 11U A",
@@ -2590,7 +2630,7 @@
             }
           },
           {
-            "date": "2025-06-11T22:15:00.000Z",
+            "date": "2025-06-11T18:15:00.000Z",
             "dateText": "Wed, Jun 11",
             "time": "6:15 PM",
             "homeTeam": "Georgina Bulldogs 11U B",
@@ -2608,7 +2648,7 @@
         ],
         "nextGames": [
           {
-            "date": "2025-06-18T22:15:00.000Z",
+            "date": "2025-06-18T18:15:00.000Z",
             "dateText": "Wed, Jun 18",
             "time": "6:15 PM",
             "homeTeam": "Georgina Bulldogs 11U B",
@@ -2620,7 +2660,7 @@
             "score": null
           },
           {
-            "date": "2025-06-21T18:00:00.000Z",
+            "date": "2025-06-21T14:00:00.000Z",
             "dateText": "Sat, Jun 21",
             "time": "2:00 PM",
             "homeTeam": "New Lowell Knights 11U D",
@@ -2632,7 +2672,7 @@
             "score": null
           },
           {
-            "date": "2025-06-25T22:15:00.000Z",
+            "date": "2025-06-25T18:15:00.000Z",
             "dateText": "Wed, Jun 25",
             "time": "6:15 PM",
             "homeTeam": "Georgina Bulldogs 11U B",
@@ -2644,7 +2684,7 @@
             "score": null
           },
           {
-            "date": "2025-07-02T22:15:00.000Z",
+            "date": "2025-07-02T18:15:00.000Z",
             "dateText": "Wed, Jul 2",
             "time": "6:15 PM",
             "homeTeam": "Georgina Bulldogs 11U B",
@@ -2656,7 +2696,7 @@
             "score": null
           },
           {
-            "date": "2025-07-08T22:00:00.000Z",
+            "date": "2025-07-08T18:00:00.000Z",
             "dateText": "Tue, Jul 8",
             "time": "6:00 PM",
             "homeTeam": "Collingwood Jays 11U A",
@@ -2668,7 +2708,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-17T15:19:19.672Z"
+        "lastUpdated": "2025-06-18T16:19:43.442Z"
       },
       "510917": {
         "teamCode": "510917",
@@ -2677,7 +2717,7 @@
         "upcomingGames": 14,
         "recentGames": [
           {
-            "date": "2025-05-28T22:30:00.000Z",
+            "date": "2025-05-28T18:30:00.000Z",
             "dateText": "Wed, May 28",
             "time": "6:30 PM",
             "homeTeam": "New Lowell Knights 11U D",
@@ -2693,7 +2733,7 @@
             }
           },
           {
-            "date": "2025-06-04T23:00:00.000Z",
+            "date": "2025-06-04T19:00:00.000Z",
             "dateText": "Wed, Jun 4",
             "time": "7:00 PM",
             "homeTeam": "Midland Penetang Twins 11U A",
@@ -2705,7 +2745,7 @@
             "score": null
           },
           {
-            "date": "2025-06-10T22:00:00.000Z",
+            "date": "2025-06-10T18:00:00.000Z",
             "dateText": "Tue, Jun 10",
             "time": "6:00 PM",
             "homeTeam": "Collingwood Jays 11U A",
@@ -2721,7 +2761,7 @@
             }
           },
           {
-            "date": "2025-06-11T22:30:00.000Z",
+            "date": "2025-06-11T18:30:00.000Z",
             "dateText": "Wed, Jun 11",
             "time": "6:30 PM",
             "homeTeam": "New Lowell Knights 11U D",
@@ -2739,7 +2779,7 @@
         ],
         "nextGames": [
           {
-            "date": "2025-06-18T22:30:00.000Z",
+            "date": "2025-06-18T18:30:00.000Z",
             "dateText": "Wed, Jun 18",
             "time": "6:30 PM",
             "homeTeam": "Caledon Nationals 11U A",
@@ -2751,7 +2791,7 @@
             "score": null
           },
           {
-            "date": "2025-06-21T15:00:00.000Z",
+            "date": "2025-06-21T11:00:00.000Z",
             "dateText": "Sat, Jun 21",
             "time": "11:00 AM",
             "homeTeam": "New Lowell Knights 11U D",
@@ -2763,7 +2803,7 @@
             "score": null
           },
           {
-            "date": "2025-06-21T18:00:00.000Z",
+            "date": "2025-06-21T14:00:00.000Z",
             "dateText": "Sat, Jun 21",
             "time": "2:00 PM",
             "homeTeam": "New Lowell Knights 11U D",
@@ -2775,7 +2815,7 @@
             "score": null
           },
           {
-            "date": "2025-06-25T22:30:00.000Z",
+            "date": "2025-06-25T18:30:00.000Z",
             "dateText": "Wed, Jun 25",
             "time": "6:30 PM",
             "homeTeam": "Barrie Baycats 11U A",
@@ -2787,7 +2827,7 @@
             "score": null
           },
           {
-            "date": "2025-06-28T15:00:00.000Z",
+            "date": "2025-06-28T11:00:00.000Z",
             "dateText": "Sat, Jun 28",
             "time": "11:00 AM",
             "homeTeam": "New Lowell Knights 11U D",
@@ -2799,7 +2839,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-17T15:19:19.672Z"
+        "lastUpdated": "2025-06-18T16:19:43.442Z"
       },
       "516241": {
         "teamCode": "516241",
@@ -2808,7 +2848,7 @@
         "upcomingGames": 12,
         "recentGames": [
           {
-            "date": "2025-05-31T17:00:00.000Z",
+            "date": "2025-05-31T13:00:00.000Z",
             "dateText": "Sat, May 31",
             "time": "1:00 PM",
             "homeTeam": "Orillia Royals 11U A",
@@ -2824,7 +2864,7 @@
             }
           },
           {
-            "date": "2025-06-01T15:00:00.000Z",
+            "date": "2025-06-01T11:00:00.000Z",
             "dateText": "Sun, Jun 1",
             "time": "11:00 AM",
             "homeTeam": "Muskoka Hornets 11U B",
@@ -2840,7 +2880,7 @@
             }
           },
           {
-            "date": "2025-06-07T16:00:00.000Z",
+            "date": "2025-06-07T12:00:00.000Z",
             "dateText": "Sat, Jun 7",
             "time": "12:00 PM",
             "homeTeam": "Muskoka Hornets 11U B",
@@ -2856,7 +2896,7 @@
             }
           },
           {
-            "date": "2025-06-07T19:00:00.000Z",
+            "date": "2025-06-07T15:00:00.000Z",
             "dateText": "Sat, Jun 7",
             "time": "3:00 PM",
             "homeTeam": "Collingwood Jays 11U A",
@@ -2872,7 +2912,7 @@
             }
           },
           {
-            "date": "2025-06-14T15:00:00.000Z",
+            "date": "2025-06-14T11:00:00.000Z",
             "dateText": "Sat, Jun 14",
             "time": "11:00 AM",
             "homeTeam": "Muskoka Hornets 11U B",
@@ -2890,7 +2930,7 @@
         ],
         "nextGames": [
           {
-            "date": "2025-06-25T23:00:00.000Z",
+            "date": "2025-06-25T19:00:00.000Z",
             "dateText": "Wed, Jun 25",
             "time": "7:00 PM",
             "homeTeam": "Midland Penetang Twins 11U A",
@@ -2902,7 +2942,7 @@
             "score": null
           },
           {
-            "date": "2025-06-28T15:00:00.000Z",
+            "date": "2025-06-28T11:00:00.000Z",
             "dateText": "Sat, Jun 28",
             "time": "11:00 AM",
             "homeTeam": "Muskoka Hornets 11U B",
@@ -2914,7 +2954,7 @@
             "score": null
           },
           {
-            "date": "2025-06-30T22:30:00.000Z",
+            "date": "2025-06-30T18:30:00.000Z",
             "dateText": "Mon, Jun 30",
             "time": "6:30 PM",
             "homeTeam": "Caledon Nationals 11U A",
@@ -2926,7 +2966,7 @@
             "score": null
           },
           {
-            "date": "2025-07-05T19:00:00.000Z",
+            "date": "2025-07-05T15:00:00.000Z",
             "dateText": "Sat, Jul 5",
             "time": "3:00 PM",
             "homeTeam": "Muskoka Hornets 11U B",
@@ -2938,7 +2978,7 @@
             "score": null
           },
           {
-            "date": "2025-07-05T22:00:00.000Z",
+            "date": "2025-07-05T18:00:00.000Z",
             "dateText": "Sat, Jul 5",
             "time": "6:00 PM",
             "homeTeam": "Innisfil Cardinals 11U A",
@@ -2950,12 +2990,12 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-17T15:19:19.672Z"
+        "lastUpdated": "2025-06-18T16:19:43.442Z"
       }
     },
     "allGames": [
       {
-        "date": "2025-05-07T22:30:00.000Z",
+        "date": "2025-05-07T18:30:00.000Z",
         "dateText": "Wed, May 7",
         "time": "6:30 PM",
         "homeTeam": "Barrie Baycats 11U A",
@@ -2971,7 +3011,7 @@
         }
       },
       {
-        "date": "2025-05-07T23:00:00.000Z",
+        "date": "2025-05-07T19:00:00.000Z",
         "dateText": "Wed, May 7",
         "time": "7:00 PM",
         "homeTeam": "Midland Penetang Twins 11U A",
@@ -2983,7 +3023,7 @@
         "score": null
       },
       {
-        "date": "2025-05-08T22:30:00.000Z",
+        "date": "2025-05-08T18:30:00.000Z",
         "dateText": "Thu, May 8",
         "time": "6:30 PM",
         "homeTeam": "Barrie Baycats 11U AA",
@@ -2999,7 +3039,7 @@
         }
       },
       {
-        "date": "2025-05-13T22:00:00.000Z",
+        "date": "2025-05-13T18:00:00.000Z",
         "dateText": "Tue, May 13",
         "time": "6:00 PM",
         "homeTeam": "Collingwood Jays 11U A",
@@ -3015,7 +3055,7 @@
         }
       },
       {
-        "date": "2025-05-13T22:00:00.000Z",
+        "date": "2025-05-13T18:00:00.000Z",
         "dateText": "Tue, May 13",
         "time": "6:00 PM",
         "homeTeam": "Bradford Tigers 11U AA",
@@ -3031,7 +3071,7 @@
         }
       },
       {
-        "date": "2025-05-13T22:30:00.000Z",
+        "date": "2025-05-13T18:30:00.000Z",
         "dateText": "Tue, May 13",
         "time": "6:30 PM",
         "homeTeam": "Caledon Nationals 11U AA",
@@ -3047,7 +3087,7 @@
         }
       },
       {
-        "date": "2025-05-14T22:00:00.000Z",
+        "date": "2025-05-14T18:00:00.000Z",
         "dateText": "Wed, May 14",
         "time": "6:00 PM",
         "homeTeam": "Orangeville Bengals 11U A",
@@ -3063,7 +3103,7 @@
         }
       },
       {
-        "date": "2025-05-14T22:00:00.000Z",
+        "date": "2025-05-14T18:00:00.000Z",
         "dateText": "Wed, May 14",
         "time": "6:00 PM",
         "homeTeam": "Orangeville Bengals 11U AA",
@@ -3079,7 +3119,7 @@
         }
       },
       {
-        "date": "2025-05-14T22:30:00.000Z",
+        "date": "2025-05-14T18:30:00.000Z",
         "dateText": "Wed, May 14",
         "time": "6:30 PM",
         "homeTeam": "Markham Mariners 11U AA",
@@ -3095,7 +3135,7 @@
         }
       },
       {
-        "date": "2025-05-14T22:30:00.000Z",
+        "date": "2025-05-14T18:30:00.000Z",
         "dateText": "Wed, May 14",
         "time": "6:30 PM",
         "homeTeam": "Barrie Baycats 11U A",
@@ -3111,7 +3151,7 @@
         }
       },
       {
-        "date": "2025-05-14T23:00:00.000Z",
+        "date": "2025-05-14T19:00:00.000Z",
         "dateText": "Wed, May 14",
         "time": "7:00 PM",
         "homeTeam": "Richmond Hill Phoenix 11U AA",
@@ -3127,7 +3167,7 @@
         }
       },
       {
-        "date": "2025-05-19T22:30:00.000Z",
+        "date": "2025-05-19T18:30:00.000Z",
         "dateText": "Mon, May 19",
         "time": "6:30 PM",
         "homeTeam": "Innisfil Cardinals 11U A",
@@ -3143,7 +3183,7 @@
         }
       },
       {
-        "date": "2025-05-20T21:50:00.000Z",
+        "date": "2025-05-20T17:50:00.000Z",
         "dateText": "Tue, May 20",
         "time": "5:50 PM",
         "homeTeam": "TNT Thunder 11U AA",
@@ -3159,7 +3199,7 @@
         }
       },
       {
-        "date": "2025-05-20T22:00:00.000Z",
+        "date": "2025-05-20T18:00:00.000Z",
         "dateText": "Tue, May 20",
         "time": "6:00 PM",
         "homeTeam": "Bradford Tigers 11U AA",
@@ -3175,7 +3215,7 @@
         }
       },
       {
-        "date": "2025-05-20T22:00:00.000Z",
+        "date": "2025-05-20T18:00:00.000Z",
         "dateText": "Tue, May 20",
         "time": "6:00 PM",
         "homeTeam": "Collingwood Jays 11U A",
@@ -3191,7 +3231,7 @@
         }
       },
       {
-        "date": "2025-05-20T22:00:00.000Z",
+        "date": "2025-05-20T18:00:00.000Z",
         "dateText": "Tue, May 20",
         "time": "6:00 PM",
         "homeTeam": "Newmarket Hawks 11U AA",
@@ -3207,7 +3247,7 @@
         }
       },
       {
-        "date": "2025-05-24T19:00:00.000Z",
+        "date": "2025-05-24T15:00:00.000Z",
         "dateText": "Sat, May 24",
         "time": "3:00 PM",
         "homeTeam": "Richmond Hill Phoenix 11U AA",
@@ -3219,7 +3259,7 @@
         "score": null
       },
       {
-        "date": "2025-05-25T18:00:00.000Z",
+        "date": "2025-05-25T14:00:00.000Z",
         "dateText": "Sun, May 25",
         "time": "2:00 PM",
         "homeTeam": "Orillia Royals 11U A",
@@ -3235,7 +3275,7 @@
         }
       },
       {
-        "date": "2025-05-26T22:30:00.000Z",
+        "date": "2025-05-26T18:30:00.000Z",
         "dateText": "Mon, May 26",
         "time": "6:30 PM",
         "homeTeam": "Innisfil Cardinals 11U A",
@@ -3251,7 +3291,7 @@
         }
       },
       {
-        "date": "2025-05-27T21:50:00.000Z",
+        "date": "2025-05-27T17:50:00.000Z",
         "dateText": "Tue, May 27",
         "time": "5:50 PM",
         "homeTeam": "TNT Thunder 11U AA",
@@ -3267,7 +3307,7 @@
         }
       },
       {
-        "date": "2025-05-27T22:00:00.000Z",
+        "date": "2025-05-27T18:00:00.000Z",
         "dateText": "Tue, May 27",
         "time": "6:00 PM",
         "homeTeam": "Newmarket Hawks 11U AA",
@@ -3283,7 +3323,7 @@
         }
       },
       {
-        "date": "2025-05-27T22:00:00.000Z",
+        "date": "2025-05-27T18:00:00.000Z",
         "dateText": "Tue, May 27",
         "time": "6:00 PM",
         "homeTeam": "Collingwood Jays 11U A",
@@ -3299,7 +3339,7 @@
         }
       },
       {
-        "date": "2025-05-27T22:00:00.000Z",
+        "date": "2025-05-27T18:00:00.000Z",
         "dateText": "Tue, May 27",
         "time": "6:00 PM",
         "homeTeam": "Bradford Tigers 11U AA",
@@ -3315,7 +3355,7 @@
         }
       },
       {
-        "date": "2025-05-27T22:30:00.000Z",
+        "date": "2025-05-27T18:30:00.000Z",
         "dateText": "Tue, May 27",
         "time": "6:30 PM",
         "homeTeam": "Caledon Nationals 11U AA",
@@ -3331,7 +3371,7 @@
         }
       },
       {
-        "date": "2025-05-28T22:30:00.000Z",
+        "date": "2025-05-28T18:30:00.000Z",
         "dateText": "Wed, May 28",
         "time": "6:30 PM",
         "homeTeam": "Caledon Nationals 11U A",
@@ -3343,7 +3383,7 @@
         "score": null
       },
       {
-        "date": "2025-05-28T22:30:00.000Z",
+        "date": "2025-05-28T18:30:00.000Z",
         "dateText": "Wed, May 28",
         "time": "6:30 PM",
         "homeTeam": "New Lowell Knights 11U D",
@@ -3359,7 +3399,7 @@
         }
       },
       {
-        "date": "2025-05-28T23:00:00.000Z",
+        "date": "2025-05-28T19:00:00.000Z",
         "dateText": "Wed, May 28",
         "time": "7:00 PM",
         "homeTeam": "Richmond Hill Phoenix 11U AA",
@@ -3371,7 +3411,7 @@
         "score": null
       },
       {
-        "date": "2025-05-28T23:00:00.000Z",
+        "date": "2025-05-28T19:00:00.000Z",
         "dateText": "Wed, May 28",
         "time": "7:00 PM",
         "homeTeam": "Midland Penetang Twins 11U A",
@@ -3387,7 +3427,7 @@
         }
       },
       {
-        "date": "2025-05-29T22:30:00.000Z",
+        "date": "2025-05-29T18:30:00.000Z",
         "dateText": "Thu, May 29",
         "time": "6:30 PM",
         "homeTeam": "Aurora-King Jays 11U AA",
@@ -3403,7 +3443,7 @@
         }
       },
       {
-        "date": "2025-05-29T22:30:00.000Z",
+        "date": "2025-05-29T18:30:00.000Z",
         "dateText": "Thu, May 29",
         "time": "6:30 PM",
         "homeTeam": "Barrie Baycats 11U AA",
@@ -3419,7 +3459,7 @@
         }
       },
       {
-        "date": "2025-05-31T15:00:00.000Z",
+        "date": "2025-05-31T11:00:00.000Z",
         "dateText": "Sat, May 31",
         "time": "11:00 AM",
         "homeTeam": "Muskoka Hornets 11U B",
@@ -3435,7 +3475,7 @@
         }
       },
       {
-        "date": "2025-05-31T17:00:00.000Z",
+        "date": "2025-05-31T13:00:00.000Z",
         "dateText": "Sat, May 31",
         "time": "1:00 PM",
         "homeTeam": "Orillia Royals 11U A",
@@ -3451,7 +3491,7 @@
         }
       },
       {
-        "date": "2025-06-01T15:00:00.000Z",
+        "date": "2025-06-01T11:00:00.000Z",
         "dateText": "Sun, Jun 1",
         "time": "11:00 AM",
         "homeTeam": "Muskoka Hornets 11U B",
@@ -3467,7 +3507,7 @@
         }
       },
       {
-        "date": "2025-06-01T22:30:00.000Z",
+        "date": "2025-06-01T18:30:00.000Z",
         "dateText": "Sun, Jun 1",
         "time": "6:30 PM",
         "homeTeam": "Aurora-King Jays 11U AA",
@@ -3483,7 +3523,7 @@
         }
       },
       {
-        "date": "2025-06-02T22:30:00.000Z",
+        "date": "2025-06-02T18:30:00.000Z",
         "dateText": "Mon, Jun 2",
         "time": "6:30 PM",
         "homeTeam": "Innisfil Cardinals 11U A",
@@ -3499,7 +3539,7 @@
         }
       },
       {
-        "date": "2025-06-03T21:50:00.000Z",
+        "date": "2025-06-03T17:50:00.000Z",
         "dateText": "Tue, Jun 3",
         "time": "5:50 PM",
         "homeTeam": "TNT Thunder 11U AA",
@@ -3515,7 +3555,7 @@
         }
       },
       {
-        "date": "2025-06-03T22:30:00.000Z",
+        "date": "2025-06-03T18:30:00.000Z",
         "dateText": "Tue, Jun 3",
         "time": "6:30 PM",
         "homeTeam": "Caledon Nationals 11U A",
@@ -3531,7 +3571,7 @@
         }
       },
       {
-        "date": "2025-06-03T22:30:00.000Z",
+        "date": "2025-06-03T18:30:00.000Z",
         "dateText": "Tue, Jun 3",
         "time": "6:30 PM",
         "homeTeam": "Caledon Nationals 11U AA",
@@ -3547,7 +3587,7 @@
         }
       },
       {
-        "date": "2025-06-04T22:00:00.000Z",
+        "date": "2025-06-04T18:00:00.000Z",
         "dateText": "Wed, Jun 4",
         "time": "6:00 PM",
         "homeTeam": "Orangeville Bengals 11U AA",
@@ -3563,7 +3603,7 @@
         }
       },
       {
-        "date": "2025-06-04T22:00:00.000Z",
+        "date": "2025-06-04T18:00:00.000Z",
         "dateText": "Wed, Jun 4",
         "time": "6:00 PM",
         "homeTeam": "Orangeville Bengals 11U A",
@@ -3579,7 +3619,7 @@
         }
       },
       {
-        "date": "2025-06-04T22:30:00.000Z",
+        "date": "2025-06-04T18:30:00.000Z",
         "dateText": "Wed, Jun 4",
         "time": "6:30 PM",
         "homeTeam": "Markham Mariners 11U AA",
@@ -3595,7 +3635,7 @@
         }
       },
       {
-        "date": "2025-06-04T22:30:00.000Z",
+        "date": "2025-06-04T18:30:00.000Z",
         "dateText": "Wed, Jun 4",
         "time": "6:30 PM",
         "homeTeam": "Caledon Nationals 11U A",
@@ -3611,7 +3651,7 @@
         }
       },
       {
-        "date": "2025-06-04T23:00:00.000Z",
+        "date": "2025-06-04T19:00:00.000Z",
         "dateText": "Wed, Jun 4",
         "time": "7:00 PM",
         "homeTeam": "Midland Penetang Twins 11U A",
@@ -3623,7 +3663,7 @@
         "score": null
       },
       {
-        "date": "2025-06-07T16:00:00.000Z",
+        "date": "2025-06-07T12:00:00.000Z",
         "dateText": "Sat, Jun 7",
         "time": "12:00 PM",
         "homeTeam": "Muskoka Hornets 11U B",
@@ -3639,7 +3679,7 @@
         }
       },
       {
-        "date": "2025-06-07T19:00:00.000Z",
+        "date": "2025-06-07T15:00:00.000Z",
         "dateText": "Sat, Jun 7",
         "time": "3:00 PM",
         "homeTeam": "Collingwood Jays 11U A",
@@ -3655,7 +3695,7 @@
         }
       },
       {
-        "date": "2025-06-09T22:30:00.000Z",
+        "date": "2025-06-09T18:30:00.000Z",
         "dateText": "Mon, Jun 9",
         "time": "6:30 PM",
         "homeTeam": "Innisfil Cardinals 11U A",
@@ -3671,7 +3711,7 @@
         }
       },
       {
-        "date": "2025-06-10T21:50:00.000Z",
+        "date": "2025-06-10T17:50:00.000Z",
         "dateText": "Tue, Jun 10",
         "time": "5:50 PM",
         "homeTeam": "TNT Thunder 11U AA",
@@ -3687,7 +3727,7 @@
         }
       },
       {
-        "date": "2025-06-10T22:00:00.000Z",
+        "date": "2025-06-10T18:00:00.000Z",
         "dateText": "Tue, Jun 10",
         "time": "6:00 PM",
         "homeTeam": "Bradford Tigers 11U AA",
@@ -3699,7 +3739,7 @@
         "score": null
       },
       {
-        "date": "2025-06-10T22:00:00.000Z",
+        "date": "2025-06-10T18:00:00.000Z",
         "dateText": "Tue, Jun 10",
         "time": "6:00 PM",
         "homeTeam": "Newmarket Hawks 11U AA",
@@ -3715,7 +3755,7 @@
         }
       },
       {
-        "date": "2025-06-10T22:00:00.000Z",
+        "date": "2025-06-10T18:00:00.000Z",
         "dateText": "Tue, Jun 10",
         "time": "6:00 PM",
         "homeTeam": "Collingwood Jays 11U A",
@@ -3731,7 +3771,7 @@
         }
       },
       {
-        "date": "2025-06-11T22:00:00.000Z",
+        "date": "2025-06-11T18:00:00.000Z",
         "dateText": "Wed, Jun 11",
         "time": "6:00 PM",
         "homeTeam": "Orangeville Bengals 11U AA",
@@ -3747,7 +3787,7 @@
         }
       },
       {
-        "date": "2025-06-11T22:15:00.000Z",
+        "date": "2025-06-11T18:15:00.000Z",
         "dateText": "Wed, Jun 11",
         "time": "6:15 PM",
         "homeTeam": "Georgina Bulldogs 11U B",
@@ -3763,7 +3803,7 @@
         }
       },
       {
-        "date": "2025-06-11T22:30:00.000Z",
+        "date": "2025-06-11T18:30:00.000Z",
         "dateText": "Wed, Jun 11",
         "time": "6:30 PM",
         "homeTeam": "New Lowell Knights 11U D",
@@ -3779,7 +3819,7 @@
         }
       },
       {
-        "date": "2025-06-11T22:30:00.000Z",
+        "date": "2025-06-11T18:30:00.000Z",
         "dateText": "Wed, Jun 11",
         "time": "6:30 PM",
         "homeTeam": "Barrie Baycats 11U A",
@@ -3795,7 +3835,7 @@
         }
       },
       {
-        "date": "2025-06-11T23:00:00.000Z",
+        "date": "2025-06-11T19:00:00.000Z",
         "dateText": "Wed, Jun 11",
         "time": "7:00 PM",
         "homeTeam": "Richmond Hill Phoenix 11U AA",
@@ -3811,7 +3851,7 @@
         }
       },
       {
-        "date": "2025-06-11T23:00:00.000Z",
+        "date": "2025-06-11T19:00:00.000Z",
         "dateText": "Wed, Jun 11",
         "time": "7:00 PM",
         "homeTeam": "Midland Penetang Twins 11U A",
@@ -3827,7 +3867,7 @@
         }
       },
       {
-        "date": "2025-06-12T22:30:00.000Z",
+        "date": "2025-06-12T18:30:00.000Z",
         "dateText": "Thu, Jun 12",
         "time": "6:30 PM",
         "homeTeam": "Barrie Baycats 11U AA",
@@ -3843,7 +3883,7 @@
         }
       },
       {
-        "date": "2025-06-13T22:30:00.000Z",
+        "date": "2025-06-13T18:30:00.000Z",
         "dateText": "Fri, Jun 13",
         "time": "6:30 PM",
         "homeTeam": "Markham Mariners 11U AA",
@@ -3855,7 +3895,7 @@
         "score": null
       },
       {
-        "date": "2025-06-14T15:00:00.000Z",
+        "date": "2025-06-14T11:00:00.000Z",
         "dateText": "Sat, Jun 14",
         "time": "11:00 AM",
         "homeTeam": "Muskoka Hornets 11U B",
@@ -3871,7 +3911,7 @@
         }
       },
       {
-        "date": "2025-06-14T18:00:00.000Z",
+        "date": "2025-06-14T14:00:00.000Z",
         "dateText": "Sat, Jun 14",
         "time": "2:00 PM",
         "homeTeam": "Orillia Royals 11U A",
@@ -3887,7 +3927,7 @@
         }
       },
       {
-        "date": "2025-06-16T22:30:00.000Z",
+        "date": "2025-06-16T18:30:00.000Z",
         "dateText": "Mon, Jun 16",
         "time": "6:30 PM",
         "homeTeam": "Orillia Royals 11U A",
@@ -3895,11 +3935,15 @@
         "awayTeam": "Midland Penetang Twins 11U A",
         "awayTeamCode": "510891",
         "location": "Cliff Yeo Diamond",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 13,
+          "scoreText": "13-8"
+        }
       },
       {
-        "date": "2025-06-17T22:00:00.000Z",
+        "date": "2025-06-17T18:00:00.000Z",
         "dateText": "Tue, Jun 17",
         "time": "6:00 PM",
         "homeTeam": "Bradford Tigers 11U AA",
@@ -3907,11 +3951,15 @@
         "awayTeam": "Barrie Baycats 11U AA",
         "awayTeamCode": "510906",
         "location": "Joe Magani Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 13,
+          "scoreText": "13-10"
+        }
       },
       {
-        "date": "2025-06-17T22:00:00.000Z",
+        "date": "2025-06-17T18:00:00.000Z",
         "dateText": "Tue, Jun 17",
         "time": "6:00 PM",
         "homeTeam": "Collingwood Jays 11U A",
@@ -3919,11 +3967,15 @@
         "awayTeam": "Orangeville Bengals 11U A",
         "awayTeamCode": "510897",
         "location": "Heritage Park (Small)",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 2,
+          "scoreText": "2-12"
+        }
       },
       {
-        "date": "2025-06-17T22:30:00.000Z",
+        "date": "2025-06-17T18:30:00.000Z",
         "dateText": "Tue, Jun 17",
         "time": "6:30 PM",
         "homeTeam": "Caledon Nationals 11U AA",
@@ -3931,11 +3983,15 @@
         "awayTeam": "Aurora-King Jays 11U AA",
         "awayTeamCode": "510905",
         "location": "North Hill #3",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 5,
+          "away": 6,
+          "scoreText": "6-5"
+        }
       },
       {
-        "date": "2025-06-18T22:00:00.000Z",
+        "date": "2025-06-18T18:00:00.000Z",
         "dateText": "Wed, Jun 18",
         "time": "6:00 PM",
         "homeTeam": "Orangeville Bengals 11U A",
@@ -3947,7 +4003,7 @@
         "score": null
       },
       {
-        "date": "2025-06-18T22:15:00.000Z",
+        "date": "2025-06-18T18:15:00.000Z",
         "dateText": "Wed, Jun 18",
         "time": "6:15 PM",
         "homeTeam": "Georgina Bulldogs 11U B",
@@ -3959,7 +4015,7 @@
         "score": null
       },
       {
-        "date": "2025-06-18T22:30:00.000Z",
+        "date": "2025-06-18T18:30:00.000Z",
         "dateText": "Wed, Jun 18",
         "time": "6:30 PM",
         "homeTeam": "Markham Mariners 11U AA",
@@ -3971,7 +4027,7 @@
         "score": null
       },
       {
-        "date": "2025-06-18T22:30:00.000Z",
+        "date": "2025-06-18T18:30:00.000Z",
         "dateText": "Wed, Jun 18",
         "time": "6:30 PM",
         "homeTeam": "Caledon Nationals 11U A",
@@ -3983,7 +4039,7 @@
         "score": null
       },
       {
-        "date": "2025-06-18T23:00:00.000Z",
+        "date": "2025-06-18T19:00:00.000Z",
         "dateText": "Wed, Jun 18",
         "time": "7:00 PM",
         "homeTeam": "Richmond Hill Phoenix 11U AA",
@@ -3995,7 +4051,7 @@
         "score": null
       },
       {
-        "date": "2025-06-19T22:00:00.000Z",
+        "date": "2025-06-19T18:00:00.000Z",
         "dateText": "Thu, Jun 19",
         "time": "6:00 PM",
         "homeTeam": "Orangeville Bengals 11U AA",
@@ -4007,19 +4063,19 @@
         "score": null
       },
       {
-        "date": "2025-06-19T22:30:00.000Z",
+        "date": "2025-06-19T18:30:00.000Z",
         "dateText": "Thu, Jun 19",
         "time": "6:30 PM",
         "homeTeam": "Barrie Baycats 11U AA",
         "homeTeamCode": "510906",
         "awayTeam": "Bradford Tigers 11U AA",
         "awayTeamCode": "510907",
-        "location": "Sports Complex #12",
+        "location": "PPD",
         "isCompleted": false,
         "score": null
       },
       {
-        "date": "2025-06-19T22:30:00.000Z",
+        "date": "2025-06-19T18:30:00.000Z",
         "dateText": "Thu, Jun 19",
         "time": "6:30 PM",
         "homeTeam": "Aurora-King Jays 11U AA",
@@ -4031,7 +4087,7 @@
         "score": null
       },
       {
-        "date": "2025-06-20T22:30:00.000Z",
+        "date": "2025-06-20T18:30:00.000Z",
         "dateText": "Fri, Jun 20",
         "time": "6:30 PM",
         "homeTeam": "Markham Mariners 11U AA",
@@ -4043,7 +4099,7 @@
         "score": null
       },
       {
-        "date": "2025-06-21T15:00:00.000Z",
+        "date": "2025-06-21T11:00:00.000Z",
         "dateText": "Sat, Jun 21",
         "time": "11:00 AM",
         "homeTeam": "New Lowell Knights 11U D",
@@ -4055,7 +4111,7 @@
         "score": null
       },
       {
-        "date": "2025-06-21T18:00:00.000Z",
+        "date": "2025-06-21T14:00:00.000Z",
         "dateText": "Sat, Jun 21",
         "time": "2:00 PM",
         "homeTeam": "New Lowell Knights 11U D",
@@ -4067,7 +4123,7 @@
         "score": null
       },
       {
-        "date": "2025-06-22T22:30:00.000Z",
+        "date": "2025-06-22T18:30:00.000Z",
         "dateText": "Sun, Jun 22",
         "time": "6:30 PM",
         "homeTeam": "Aurora-King Jays 11U AA",
@@ -4079,7 +4135,7 @@
         "score": null
       },
       {
-        "date": "2025-06-23T22:30:00.000Z",
+        "date": "2025-06-23T18:30:00.000Z",
         "dateText": "Mon, Jun 23",
         "time": "6:30 PM",
         "homeTeam": "Orillia Royals 11U A",
@@ -4091,7 +4147,7 @@
         "score": null
       },
       {
-        "date": "2025-06-24T22:00:00.000Z",
+        "date": "2025-06-24T18:00:00.000Z",
         "dateText": "Tue, Jun 24",
         "time": "6:00 PM",
         "homeTeam": "Newmarket Hawks 11U AA",
@@ -4103,7 +4159,7 @@
         "score": null
       },
       {
-        "date": "2025-06-24T22:00:00.000Z",
+        "date": "2025-06-24T18:00:00.000Z",
         "dateText": "Tue, Jun 24",
         "time": "6:00 PM",
         "homeTeam": "Collingwood Jays 11U A",
@@ -4115,7 +4171,7 @@
         "score": null
       },
       {
-        "date": "2025-06-24T22:00:00.000Z",
+        "date": "2025-06-24T18:00:00.000Z",
         "dateText": "Tue, Jun 24",
         "time": "6:00 PM",
         "homeTeam": "Bradford Tigers 11U AA",
@@ -4127,7 +4183,7 @@
         "score": null
       },
       {
-        "date": "2025-06-24T22:30:00.000Z",
+        "date": "2025-06-24T18:30:00.000Z",
         "dateText": "Tue, Jun 24",
         "time": "6:30 PM",
         "homeTeam": "Caledon Nationals 11U AA",
@@ -4139,7 +4195,7 @@
         "score": null
       },
       {
-        "date": "2025-06-25T22:00:00.000Z",
+        "date": "2025-06-25T18:00:00.000Z",
         "dateText": "Wed, Jun 25",
         "time": "6:00 PM",
         "homeTeam": "Orangeville Bengals 11U A",
@@ -4151,7 +4207,7 @@
         "score": null
       },
       {
-        "date": "2025-06-25T22:00:00.000Z",
+        "date": "2025-06-25T18:00:00.000Z",
         "dateText": "Wed, Jun 25",
         "time": "6:00 PM",
         "homeTeam": "Orangeville Bengals 11U AA",
@@ -4163,7 +4219,7 @@
         "score": null
       },
       {
-        "date": "2025-06-25T22:15:00.000Z",
+        "date": "2025-06-25T18:15:00.000Z",
         "dateText": "Wed, Jun 25",
         "time": "6:15 PM",
         "homeTeam": "Georgina Bulldogs 11U B",
@@ -4175,7 +4231,7 @@
         "score": null
       },
       {
-        "date": "2025-06-25T22:30:00.000Z",
+        "date": "2025-06-25T18:30:00.000Z",
         "dateText": "Wed, Jun 25",
         "time": "6:30 PM",
         "homeTeam": "Barrie Baycats 11U A",
@@ -4187,7 +4243,7 @@
         "score": null
       },
       {
-        "date": "2025-06-25T23:00:00.000Z",
+        "date": "2025-06-25T19:00:00.000Z",
         "dateText": "Wed, Jun 25",
         "time": "7:00 PM",
         "homeTeam": "Richmond Hill Phoenix 11U AA",
@@ -4199,7 +4255,7 @@
         "score": null
       },
       {
-        "date": "2025-06-25T23:00:00.000Z",
+        "date": "2025-06-25T19:00:00.000Z",
         "dateText": "Wed, Jun 25",
         "time": "7:00 PM",
         "homeTeam": "Midland Penetang Twins 11U A",
@@ -4211,7 +4267,7 @@
         "score": null
       },
       {
-        "date": "2025-06-26T22:00:00.000Z",
+        "date": "2025-06-26T18:00:00.000Z",
         "dateText": "Thu, Jun 26",
         "time": "6:00 PM",
         "homeTeam": "Orangeville Bengals 11U A",
@@ -4223,7 +4279,7 @@
         "score": null
       },
       {
-        "date": "2025-06-26T22:30:00.000Z",
+        "date": "2025-06-26T18:30:00.000Z",
         "dateText": "Thu, Jun 26",
         "time": "6:30 PM",
         "homeTeam": "Barrie Baycats 11U AA",
@@ -4235,7 +4291,7 @@
         "score": null
       },
       {
-        "date": "2025-06-28T15:00:00.000Z",
+        "date": "2025-06-28T11:00:00.000Z",
         "dateText": "Sat, Jun 28",
         "time": "11:00 AM",
         "homeTeam": "Muskoka Hornets 11U B",
@@ -4247,7 +4303,7 @@
         "score": null
       },
       {
-        "date": "2025-06-28T15:00:00.000Z",
+        "date": "2025-06-28T11:00:00.000Z",
         "dateText": "Sat, Jun 28",
         "time": "11:00 AM",
         "homeTeam": "New Lowell Knights 11U D",
@@ -4259,7 +4315,7 @@
         "score": null
       },
       {
-        "date": "2025-06-30T22:30:00.000Z",
+        "date": "2025-06-30T18:30:00.000Z",
         "dateText": "Mon, Jun 30",
         "time": "6:30 PM",
         "homeTeam": "Caledon Nationals 11U A",
@@ -4271,7 +4327,7 @@
         "score": null
       },
       {
-        "date": "2025-07-02T22:15:00.000Z",
+        "date": "2025-07-02T18:15:00.000Z",
         "dateText": "Wed, Jul 2",
         "time": "6:15 PM",
         "homeTeam": "Georgina Bulldogs 11U B",
@@ -4283,7 +4339,7 @@
         "score": null
       },
       {
-        "date": "2025-07-02T22:30:00.000Z",
+        "date": "2025-07-02T18:30:00.000Z",
         "dateText": "Wed, Jul 2",
         "time": "6:30 PM",
         "homeTeam": "Barrie Baycats 11U A",
@@ -4295,7 +4351,7 @@
         "score": null
       },
       {
-        "date": "2025-07-02T23:00:00.000Z",
+        "date": "2025-07-02T19:00:00.000Z",
         "dateText": "Wed, Jul 2",
         "time": "7:00 PM",
         "homeTeam": "Midland Penetang Twins 11U A",
@@ -4307,7 +4363,7 @@
         "score": null
       },
       {
-        "date": "2025-07-03T22:30:00.000Z",
+        "date": "2025-07-03T18:30:00.000Z",
         "dateText": "Thu, Jul 3",
         "time": "6:30 PM",
         "homeTeam": "Aurora-King Jays 11U AA",
@@ -4319,7 +4375,7 @@
         "score": null
       },
       {
-        "date": "2025-07-04T22:30:00.000Z",
+        "date": "2025-07-04T18:30:00.000Z",
         "dateText": "Fri, Jul 4",
         "time": "6:30 PM",
         "homeTeam": "Innisfil Cardinals 11U A",
@@ -4331,19 +4387,19 @@
         "score": null
       },
       {
-        "date": "2025-07-05T18:00:00.000Z",
+        "date": "2025-07-05T14:30:00.000Z",
         "dateText": "Sat, Jul 5",
-        "time": "2:00 PM",
+        "time": "2:30 PM",
         "homeTeam": "Orillia Royals 11U A",
         "homeTeamCode": "510898",
         "awayTeam": "New Lowell Knights 11U D",
         "awayTeamCode": "510917",
-        "location": "Gander Ross Field",
+        "location": "Kitchener Park",
         "isCompleted": false,
         "score": null
       },
       {
-        "date": "2025-07-05T19:00:00.000Z",
+        "date": "2025-07-05T15:00:00.000Z",
         "dateText": "Sat, Jul 5",
         "time": "3:00 PM",
         "homeTeam": "Muskoka Hornets 11U B",
@@ -4355,7 +4411,7 @@
         "score": null
       },
       {
-        "date": "2025-07-05T22:00:00.000Z",
+        "date": "2025-07-05T18:00:00.000Z",
         "dateText": "Sat, Jul 5",
         "time": "6:00 PM",
         "homeTeam": "Innisfil Cardinals 11U A",
@@ -4367,7 +4423,7 @@
         "score": null
       },
       {
-        "date": "2025-07-08T22:00:00.000Z",
+        "date": "2025-07-08T18:00:00.000Z",
         "dateText": "Tue, Jul 8",
         "time": "6:00 PM",
         "homeTeam": "Bradford Tigers 11U AA",
@@ -4379,7 +4435,7 @@
         "score": null
       },
       {
-        "date": "2025-07-08T22:00:00.000Z",
+        "date": "2025-07-08T18:00:00.000Z",
         "dateText": "Tue, Jul 8",
         "time": "6:00 PM",
         "homeTeam": "Collingwood Jays 11U A",
@@ -4391,7 +4447,7 @@
         "score": null
       },
       {
-        "date": "2025-07-08T22:00:00.000Z",
+        "date": "2025-07-08T18:00:00.000Z",
         "dateText": "Tue, Jul 8",
         "time": "6:00 PM",
         "homeTeam": "Newmarket Hawks 11U AA",
@@ -4403,7 +4459,7 @@
         "score": null
       },
       {
-        "date": "2025-07-09T22:15:00.000Z",
+        "date": "2025-07-09T18:15:00.000Z",
         "dateText": "Wed, Jul 9",
         "time": "6:15 PM",
         "homeTeam": "Georgina Bulldogs 11U B",
@@ -4415,7 +4471,7 @@
         "score": null
       },
       {
-        "date": "2025-07-09T22:30:00.000Z",
+        "date": "2025-07-09T18:30:00.000Z",
         "dateText": "Wed, Jul 9",
         "time": "6:30 PM",
         "homeTeam": "Caledon Nationals 11U A",
@@ -4427,7 +4483,7 @@
         "score": null
       },
       {
-        "date": "2025-07-09T23:00:00.000Z",
+        "date": "2025-07-09T19:00:00.000Z",
         "dateText": "Wed, Jul 9",
         "time": "7:00 PM",
         "homeTeam": "Midland Penetang Twins 11U A",
@@ -4439,7 +4495,7 @@
         "score": null
       },
       {
-        "date": "2025-07-09T23:00:00.000Z",
+        "date": "2025-07-09T19:00:00.000Z",
         "dateText": "Wed, Jul 9",
         "time": "7:00 PM",
         "homeTeam": "Richmond Hill Phoenix 11U AA",
@@ -4451,7 +4507,7 @@
         "score": null
       },
       {
-        "date": "2025-07-10T22:30:00.000Z",
+        "date": "2025-07-10T18:30:00.000Z",
         "dateText": "Thu, Jul 10",
         "time": "6:30 PM",
         "homeTeam": "Barrie Baycats 11U AA",
@@ -4463,7 +4519,7 @@
         "score": null
       },
       {
-        "date": "2025-07-15T22:00:00.000Z",
+        "date": "2025-07-15T18:00:00.000Z",
         "dateText": "Tue, Jul 15",
         "time": "6:00 PM",
         "homeTeam": "Newmarket Hawks 11U AA",
@@ -4475,7 +4531,7 @@
         "score": null
       },
       {
-        "date": "2025-07-15T22:00:00.000Z",
+        "date": "2025-07-15T18:00:00.000Z",
         "dateText": "Tue, Jul 15",
         "time": "6:00 PM",
         "homeTeam": "Collingwood Jays 11U A",
@@ -4487,7 +4543,7 @@
         "score": null
       },
       {
-        "date": "2025-07-15T22:30:00.000Z",
+        "date": "2025-07-15T18:30:00.000Z",
         "dateText": "Tue, Jul 15",
         "time": "6:30 PM",
         "homeTeam": "Caledon Nationals 11U AA",
@@ -4499,7 +4555,7 @@
         "score": null
       },
       {
-        "date": "2025-07-16T22:00:00.000Z",
+        "date": "2025-07-16T18:00:00.000Z",
         "dateText": "Wed, Jul 16",
         "time": "6:00 PM",
         "homeTeam": "Orangeville Bengals 11U AA",
@@ -4511,7 +4567,7 @@
         "score": null
       },
       {
-        "date": "2025-07-16T22:30:00.000Z",
+        "date": "2025-07-16T18:30:00.000Z",
         "dateText": "Wed, Jul 16",
         "time": "6:30 PM",
         "homeTeam": "Barrie Baycats 11U A",
@@ -4523,7 +4579,7 @@
         "score": null
       },
       {
-        "date": "2025-07-16T22:30:00.000Z",
+        "date": "2025-07-16T18:30:00.000Z",
         "dateText": "Wed, Jul 16",
         "time": "6:30 PM",
         "homeTeam": "Caledon Nationals 11U A",
@@ -4535,7 +4591,7 @@
         "score": null
       },
       {
-        "date": "2025-07-16T22:30:00.000Z",
+        "date": "2025-07-16T18:30:00.000Z",
         "dateText": "Wed, Jul 16",
         "time": "6:30 PM",
         "homeTeam": "New Lowell Knights 11U D",
@@ -4547,7 +4603,7 @@
         "score": null
       },
       {
-        "date": "2025-07-16T23:00:00.000Z",
+        "date": "2025-07-16T19:00:00.000Z",
         "dateText": "Wed, Jul 16",
         "time": "7:00 PM",
         "homeTeam": "Richmond Hill Phoenix 11U AA",
@@ -4559,7 +4615,7 @@
         "score": null
       },
       {
-        "date": "2025-07-17T22:15:00.000Z",
+        "date": "2025-07-17T18:15:00.000Z",
         "dateText": "Thu, Jul 17",
         "time": "6:15 PM",
         "homeTeam": "Georgina Bulldogs 11U B",
@@ -4571,7 +4627,7 @@
         "score": null
       },
       {
-        "date": "2025-07-17T22:30:00.000Z",
+        "date": "2025-07-17T18:30:00.000Z",
         "dateText": "Thu, Jul 17",
         "time": "6:30 PM",
         "homeTeam": "Barrie Baycats 11U AA",
@@ -4583,7 +4639,7 @@
         "score": null
       },
       {
-        "date": "2025-07-19T22:30:00.000Z",
+        "date": "2025-07-19T18:30:00.000Z",
         "dateText": "Sat, Jul 19",
         "time": "6:30 PM",
         "homeTeam": "Barrie Baycats 11U A",
@@ -4595,7 +4651,7 @@
         "score": null
       },
       {
-        "date": "2025-07-20T17:30:00.000Z",
+        "date": "2025-07-20T13:30:00.000Z",
         "dateText": "Sun, Jul 20",
         "time": "1:30 PM",
         "homeTeam": "Muskoka Hornets 11U B",
@@ -4607,7 +4663,7 @@
         "score": null
       },
       {
-        "date": "2025-07-20T20:30:00.000Z",
+        "date": "2025-07-20T16:30:00.000Z",
         "dateText": "Sun, Jul 20",
         "time": "4:30 PM",
         "homeTeam": "New Lowell Knights 11U D",
@@ -4619,7 +4675,7 @@
         "score": null
       },
       {
-        "date": "2025-07-20T22:30:00.000Z",
+        "date": "2025-07-20T18:30:00.000Z",
         "dateText": "Sun, Jul 20",
         "time": "6:30 PM",
         "homeTeam": "Aurora-King Jays 11U AA",
@@ -4631,7 +4687,7 @@
         "score": null
       },
       {
-        "date": "2025-07-21T22:30:00.000Z",
+        "date": "2025-07-21T18:30:00.000Z",
         "dateText": "Mon, Jul 21",
         "time": "6:30 PM",
         "homeTeam": "Barrie Baycats 11U A",
@@ -4643,7 +4699,7 @@
         "score": null
       },
       {
-        "date": "2025-07-21T22:30:00.000Z",
+        "date": "2025-07-21T18:30:00.000Z",
         "dateText": "Mon, Jul 21",
         "time": "6:30 PM",
         "homeTeam": "Markham Mariners 11U AA",
@@ -4655,7 +4711,7 @@
         "score": null
       },
       {
-        "date": "2025-07-22T21:50:00.000Z",
+        "date": "2025-07-22T17:50:00.000Z",
         "dateText": "Tue, Jul 22",
         "time": "5:50 PM",
         "homeTeam": "TNT Thunder 11U AA",
@@ -4667,7 +4723,7 @@
         "score": null
       },
       {
-        "date": "2025-07-22T22:00:00.000Z",
+        "date": "2025-07-22T18:00:00.000Z",
         "dateText": "Tue, Jul 22",
         "time": "6:00 PM",
         "homeTeam": "Bradford Tigers 11U AA",
@@ -4679,7 +4735,7 @@
         "score": null
       },
       {
-        "date": "2025-07-23T22:00:00.000Z",
+        "date": "2025-07-23T18:00:00.000Z",
         "dateText": "Wed, Jul 23",
         "time": "6:00 PM",
         "homeTeam": "Orangeville Bengals 11U A",
@@ -4691,7 +4747,7 @@
         "score": null
       },
       {
-        "date": "2025-07-23T22:00:00.000Z",
+        "date": "2025-07-23T18:00:00.000Z",
         "dateText": "Wed, Jul 23",
         "time": "6:00 PM",
         "homeTeam": "Orangeville Bengals 11U AA",
@@ -4703,7 +4759,7 @@
         "score": null
       },
       {
-        "date": "2025-07-23T22:15:00.000Z",
+        "date": "2025-07-23T18:15:00.000Z",
         "dateText": "Wed, Jul 23",
         "time": "6:15 PM",
         "homeTeam": "Georgina Bulldogs 11U B",
@@ -4715,7 +4771,7 @@
         "score": null
       },
       {
-        "date": "2025-07-23T22:30:00.000Z",
+        "date": "2025-07-23T18:30:00.000Z",
         "dateText": "Wed, Jul 23",
         "time": "6:30 PM",
         "homeTeam": "Markham Mariners 11U AA",
@@ -4727,7 +4783,7 @@
         "score": null
       },
       {
-        "date": "2025-07-23T23:00:00.000Z",
+        "date": "2025-07-23T19:00:00.000Z",
         "dateText": "Wed, Jul 23",
         "time": "7:00 PM",
         "homeTeam": "Midland Penetang Twins 11U A",
@@ -4739,7 +4795,7 @@
         "score": null
       },
       {
-        "date": "2025-07-26T18:00:00.000Z",
+        "date": "2025-07-26T14:00:00.000Z",
         "dateText": "Sat, Jul 26",
         "time": "2:00 PM",
         "homeTeam": "Orillia Royals 11U A",
@@ -4751,7 +4807,7 @@
         "score": null
       },
       {
-        "date": "2025-07-27T15:00:00.000Z",
+        "date": "2025-07-27T11:00:00.000Z",
         "dateText": "Sun, Jul 27",
         "time": "11:00 AM",
         "homeTeam": "Muskoka Hornets 11U B",
@@ -4763,7 +4819,7 @@
         "score": null
       },
       {
-        "date": "2025-07-28T22:30:00.000Z",
+        "date": "2025-07-28T18:30:00.000Z",
         "dateText": "Mon, Jul 28",
         "time": "6:30 PM",
         "homeTeam": "Innisfil Cardinals 11U A",
@@ -4775,7 +4831,7 @@
         "score": null
       },
       {
-        "date": "2025-07-29T21:50:00.000Z",
+        "date": "2025-07-29T17:50:00.000Z",
         "dateText": "Tue, Jul 29",
         "time": "5:50 PM",
         "homeTeam": "TNT Thunder 11U AA",
@@ -4787,7 +4843,7 @@
         "score": null
       },
       {
-        "date": "2025-07-29T22:00:00.000Z",
+        "date": "2025-07-29T18:00:00.000Z",
         "dateText": "Tue, Jul 29",
         "time": "6:00 PM",
         "homeTeam": "Newmarket Hawks 11U AA",
@@ -4799,7 +4855,7 @@
         "score": null
       },
       {
-        "date": "2025-07-29T22:30:00.000Z",
+        "date": "2025-07-29T18:30:00.000Z",
         "dateText": "Tue, Jul 29",
         "time": "6:30 PM",
         "homeTeam": "Caledon Nationals 11U AA",
@@ -4811,7 +4867,7 @@
         "score": null
       },
       {
-        "date": "2025-07-30T22:00:00.000Z",
+        "date": "2025-07-30T18:00:00.000Z",
         "dateText": "Wed, Jul 30",
         "time": "6:00 PM",
         "homeTeam": "Orangeville Bengals 11U AA",
@@ -4823,7 +4879,7 @@
         "score": null
       },
       {
-        "date": "2025-07-30T22:00:00.000Z",
+        "date": "2025-07-30T18:00:00.000Z",
         "dateText": "Wed, Jul 30",
         "time": "6:00 PM",
         "homeTeam": "Orangeville Bengals 11U A",
@@ -4835,7 +4891,7 @@
         "score": null
       },
       {
-        "date": "2025-07-30T22:30:00.000Z",
+        "date": "2025-07-30T18:30:00.000Z",
         "dateText": "Wed, Jul 30",
         "time": "6:30 PM",
         "homeTeam": "Barrie Baycats 11U A",
@@ -4847,7 +4903,7 @@
         "score": null
       },
       {
-        "date": "2025-07-30T22:30:00.000Z",
+        "date": "2025-07-30T18:30:00.000Z",
         "dateText": "Wed, Jul 30",
         "time": "6:30 PM",
         "homeTeam": "Caledon Nationals 11U A",
@@ -4859,7 +4915,7 @@
         "score": null
       },
       {
-        "date": "2025-07-31T22:30:00.000Z",
+        "date": "2025-07-31T18:30:00.000Z",
         "dateText": "Thu, Jul 31",
         "time": "6:30 PM",
         "homeTeam": "Barrie Baycats 11U AA",
@@ -4871,7 +4927,7 @@
         "score": null
       },
       {
-        "date": "2025-07-31T22:30:00.000Z",
+        "date": "2025-07-31T18:30:00.000Z",
         "dateText": "Thu, Jul 31",
         "time": "6:30 PM",
         "homeTeam": "Aurora-King Jays 11U AA",
@@ -4883,7 +4939,7 @@
         "score": null
       },
       {
-        "date": "2025-08-02T18:00:00.000Z",
+        "date": "2025-08-02T14:00:00.000Z",
         "dateText": "Sat, Aug 2",
         "time": "2:00 PM",
         "homeTeam": "Orillia Royals 11U A",
@@ -4895,7 +4951,7 @@
         "score": null
       },
       {
-        "date": "2025-08-04T22:30:00.000Z",
+        "date": "2025-08-04T18:30:00.000Z",
         "dateText": "Mon, Aug 4",
         "time": "6:30 PM",
         "homeTeam": "Innisfil Cardinals 11U A",
@@ -4907,7 +4963,7 @@
         "score": null
       },
       {
-        "date": "2025-08-05T21:50:00.000Z",
+        "date": "2025-08-05T17:50:00.000Z",
         "dateText": "Tue, Aug 5",
         "time": "5:50 PM",
         "homeTeam": "TNT Thunder 11U AA",
@@ -4919,7 +4975,7 @@
         "score": null
       },
       {
-        "date": "2025-08-05T22:00:00.000Z",
+        "date": "2025-08-05T18:00:00.000Z",
         "dateText": "Tue, Aug 5",
         "time": "6:00 PM",
         "homeTeam": "Orangeville Bengals 11U A",
@@ -4931,7 +4987,7 @@
         "score": null
       },
       {
-        "date": "2025-08-05T22:30:00.000Z",
+        "date": "2025-08-05T18:30:00.000Z",
         "dateText": "Tue, Aug 5",
         "time": "6:30 PM",
         "homeTeam": "Caledon Nationals 11U AA",
@@ -4943,7 +4999,7 @@
         "score": null
       },
       {
-        "date": "2025-08-06T22:15:00.000Z",
+        "date": "2025-08-06T18:15:00.000Z",
         "dateText": "Wed, Aug 6",
         "time": "6:15 PM",
         "homeTeam": "Georgina Bulldogs 11U B",
@@ -4955,7 +5011,7 @@
         "score": null
       },
       {
-        "date": "2025-08-06T22:30:00.000Z",
+        "date": "2025-08-06T18:30:00.000Z",
         "dateText": "Wed, Aug 6",
         "time": "6:30 PM",
         "homeTeam": "Caledon Nationals 11U A",
@@ -4967,7 +5023,7 @@
         "score": null
       },
       {
-        "date": "2025-08-06T22:30:00.000Z",
+        "date": "2025-08-06T18:30:00.000Z",
         "dateText": "Wed, Aug 6",
         "time": "6:30 PM",
         "homeTeam": "Markham Mariners 11U AA",
@@ -4979,7 +5035,7 @@
         "score": null
       },
       {
-        "date": "2025-08-06T23:00:00.000Z",
+        "date": "2025-08-06T19:00:00.000Z",
         "dateText": "Wed, Aug 6",
         "time": "7:00 PM",
         "homeTeam": "Midland Penetang Twins 11U A",
@@ -4991,7 +5047,7 @@
         "score": null
       },
       {
-        "date": "2025-08-07T22:30:00.000Z",
+        "date": "2025-08-07T18:30:00.000Z",
         "dateText": "Thu, Aug 7",
         "time": "6:30 PM",
         "homeTeam": "Aurora-King Jays 11U AA",
@@ -5003,7 +5059,7 @@
         "score": null
       },
       {
-        "date": "2025-08-09T15:00:00.000Z",
+        "date": "2025-08-09T11:00:00.000Z",
         "dateText": "Sat, Aug 9",
         "time": "11:00 AM",
         "homeTeam": "Muskoka Hornets 11U B",
@@ -5015,7 +5071,7 @@
         "score": null
       },
       {
-        "date": "2025-08-09T16:00:00.000Z",
+        "date": "2025-08-09T12:00:00.000Z",
         "dateText": "Sat, Aug 9",
         "time": "12:00 PM",
         "homeTeam": "New Lowell Knights 11U D",
@@ -5027,7 +5083,7 @@
         "score": null
       },
       {
-        "date": "2025-08-09T18:00:00.000Z",
+        "date": "2025-08-09T14:00:00.000Z",
         "dateText": "Sat, Aug 9",
         "time": "2:00 PM",
         "homeTeam": "Orillia Royals 11U A",
@@ -5039,7 +5095,7 @@
         "score": null
       },
       {
-        "date": "2025-08-11T22:30:00.000Z",
+        "date": "2025-08-11T18:30:00.000Z",
         "dateText": "Mon, Aug 11",
         "time": "6:30 PM",
         "homeTeam": "Innisfil Cardinals 11U A",
@@ -5051,7 +5107,7 @@
         "score": null
       },
       {
-        "date": "2025-08-12T21:50:00.000Z",
+        "date": "2025-08-12T17:50:00.000Z",
         "dateText": "Tue, Aug 12",
         "time": "5:50 PM",
         "homeTeam": "TNT Thunder 11U AA",
@@ -5063,7 +5119,7 @@
         "score": null
       },
       {
-        "date": "2025-08-12T22:00:00.000Z",
+        "date": "2025-08-12T18:00:00.000Z",
         "dateText": "Tue, Aug 12",
         "time": "6:00 PM",
         "homeTeam": "Newmarket Hawks 11U AA",
@@ -5075,7 +5131,7 @@
         "score": null
       },
       {
-        "date": "2025-08-13T22:00:00.000Z",
+        "date": "2025-08-13T18:00:00.000Z",
         "dateText": "Wed, Aug 13",
         "time": "6:00 PM",
         "homeTeam": "Orangeville Bengals 11U A",
@@ -5087,7 +5143,7 @@
         "score": null
       },
       {
-        "date": "2025-08-13T22:15:00.000Z",
+        "date": "2025-08-13T18:15:00.000Z",
         "dateText": "Wed, Aug 13",
         "time": "6:15 PM",
         "homeTeam": "Georgina Bulldogs 11U B",
@@ -5099,7 +5155,7 @@
         "score": null
       },
       {
-        "date": "2025-08-13T22:30:00.000Z",
+        "date": "2025-08-13T18:30:00.000Z",
         "dateText": "Wed, Aug 13",
         "time": "6:30 PM",
         "homeTeam": "New Lowell Knights 11U D",
@@ -5113,7 +5169,55 @@
     ],
     "recentGames": [
       {
-        "date": "2025-06-16T22:30:00.000Z",
+        "date": "2025-06-17T18:30:00.000Z",
+        "dateText": "Tue, Jun 17",
+        "time": "6:30 PM",
+        "homeTeam": "Caledon Nationals 11U AA",
+        "homeTeamCode": "510912",
+        "awayTeam": "Aurora-King Jays 11U AA",
+        "awayTeamCode": "510905",
+        "location": "North Hill #3",
+        "isCompleted": true,
+        "score": {
+          "home": 5,
+          "away": 6,
+          "scoreText": "6-5"
+        }
+      },
+      {
+        "date": "2025-06-17T18:00:00.000Z",
+        "dateText": "Tue, Jun 17",
+        "time": "6:00 PM",
+        "homeTeam": "Bradford Tigers 11U AA",
+        "homeTeamCode": "510907",
+        "awayTeam": "Barrie Baycats 11U AA",
+        "awayTeamCode": "510906",
+        "location": "Joe Magani Park",
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 13,
+          "scoreText": "13-10"
+        }
+      },
+      {
+        "date": "2025-06-17T18:00:00.000Z",
+        "dateText": "Tue, Jun 17",
+        "time": "6:00 PM",
+        "homeTeam": "Collingwood Jays 11U A",
+        "homeTeamCode": "510903",
+        "awayTeam": "Orangeville Bengals 11U A",
+        "awayTeamCode": "510897",
+        "location": "Heritage Park (Small)",
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 2,
+          "scoreText": "2-12"
+        }
+      },
+      {
+        "date": "2025-06-16T18:30:00.000Z",
         "dateText": "Mon, Jun 16",
         "time": "6:30 PM",
         "homeTeam": "Orillia Royals 11U A",
@@ -5121,11 +5225,15 @@
         "awayTeam": "Midland Penetang Twins 11U A",
         "awayTeamCode": "510891",
         "location": "Cliff Yeo Diamond",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 13,
+          "scoreText": "13-8"
+        }
       },
       {
-        "date": "2025-06-14T18:00:00.000Z",
+        "date": "2025-06-14T14:00:00.000Z",
         "dateText": "Sat, Jun 14",
         "time": "2:00 PM",
         "homeTeam": "Orillia Royals 11U A",
@@ -5141,7 +5249,7 @@
         }
       },
       {
-        "date": "2025-06-14T15:00:00.000Z",
+        "date": "2025-06-14T11:00:00.000Z",
         "dateText": "Sat, Jun 14",
         "time": "11:00 AM",
         "homeTeam": "Muskoka Hornets 11U B",
@@ -5157,7 +5265,7 @@
         }
       },
       {
-        "date": "2025-06-13T22:30:00.000Z",
+        "date": "2025-06-13T18:30:00.000Z",
         "dateText": "Fri, Jun 13",
         "time": "6:30 PM",
         "homeTeam": "Markham Mariners 11U AA",
@@ -5169,7 +5277,7 @@
         "score": null
       },
       {
-        "date": "2025-06-12T22:30:00.000Z",
+        "date": "2025-06-12T18:30:00.000Z",
         "dateText": "Thu, Jun 12",
         "time": "6:30 PM",
         "homeTeam": "Barrie Baycats 11U AA",
@@ -5185,7 +5293,7 @@
         }
       },
       {
-        "date": "2025-06-11T23:00:00.000Z",
+        "date": "2025-06-11T19:00:00.000Z",
         "dateText": "Wed, Jun 11",
         "time": "7:00 PM",
         "homeTeam": "Richmond Hill Phoenix 11U AA",
@@ -5201,7 +5309,7 @@
         }
       },
       {
-        "date": "2025-06-11T23:00:00.000Z",
+        "date": "2025-06-11T19:00:00.000Z",
         "dateText": "Wed, Jun 11",
         "time": "7:00 PM",
         "homeTeam": "Midland Penetang Twins 11U A",
@@ -5215,95 +5323,11 @@
           "away": 2,
           "scoreText": "2-7"
         }
-      },
-      {
-        "date": "2025-06-11T22:30:00.000Z",
-        "dateText": "Wed, Jun 11",
-        "time": "6:30 PM",
-        "homeTeam": "New Lowell Knights 11U D",
-        "homeTeamCode": "510917",
-        "awayTeam": "Collingwood Jays 11U A",
-        "awayTeamCode": "510903",
-        "location": "New Lowell Park",
-        "isCompleted": true,
-        "score": {
-          "home": 5,
-          "away": 16,
-          "scoreText": "16-5"
-        }
-      },
-      {
-        "date": "2025-06-11T22:30:00.000Z",
-        "dateText": "Wed, Jun 11",
-        "time": "6:30 PM",
-        "homeTeam": "Barrie Baycats 11U A",
-        "homeTeamCode": "510892",
-        "awayTeam": "Orillia Royals 11U A",
-        "awayTeamCode": "510898",
-        "location": "Sports Complex #13",
-        "isCompleted": true,
-        "score": {
-          "home": 14,
-          "away": 7,
-          "scoreText": "7-14"
-        }
-      },
-      {
-        "date": "2025-06-11T22:15:00.000Z",
-        "dateText": "Wed, Jun 11",
-        "time": "6:15 PM",
-        "homeTeam": "Georgina Bulldogs 11U B",
-        "homeTeamCode": "510916",
-        "awayTeam": "Orangeville Bengals 11U A",
-        "awayTeamCode": "510897",
-        "location": "ROC 2",
-        "isCompleted": true,
-        "score": {
-          "home": 8,
-          "away": 10,
-          "scoreText": "10-8"
-        }
       }
     ],
     "upcomingGames": [
       {
-        "date": "2025-06-17T22:00:00.000Z",
-        "dateText": "Tue, Jun 17",
-        "time": "6:00 PM",
-        "homeTeam": "Bradford Tigers 11U AA",
-        "homeTeamCode": "510907",
-        "awayTeam": "Barrie Baycats 11U AA",
-        "awayTeamCode": "510906",
-        "location": "Joe Magani Park",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": "2025-06-17T22:00:00.000Z",
-        "dateText": "Tue, Jun 17",
-        "time": "6:00 PM",
-        "homeTeam": "Collingwood Jays 11U A",
-        "homeTeamCode": "510903",
-        "awayTeam": "Orangeville Bengals 11U A",
-        "awayTeamCode": "510897",
-        "location": "Heritage Park (Small)",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": "2025-06-17T22:30:00.000Z",
-        "dateText": "Tue, Jun 17",
-        "time": "6:30 PM",
-        "homeTeam": "Caledon Nationals 11U AA",
-        "homeTeamCode": "510912",
-        "awayTeam": "Aurora-King Jays 11U AA",
-        "awayTeamCode": "510905",
-        "location": "North Hill #3",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": "2025-06-18T22:00:00.000Z",
+        "date": "2025-06-18T18:00:00.000Z",
         "dateText": "Wed, Jun 18",
         "time": "6:00 PM",
         "homeTeam": "Orangeville Bengals 11U A",
@@ -5315,7 +5339,7 @@
         "score": null
       },
       {
-        "date": "2025-06-18T22:15:00.000Z",
+        "date": "2025-06-18T18:15:00.000Z",
         "dateText": "Wed, Jun 18",
         "time": "6:15 PM",
         "homeTeam": "Georgina Bulldogs 11U B",
@@ -5327,7 +5351,7 @@
         "score": null
       },
       {
-        "date": "2025-06-18T22:30:00.000Z",
+        "date": "2025-06-18T18:30:00.000Z",
         "dateText": "Wed, Jun 18",
         "time": "6:30 PM",
         "homeTeam": "Markham Mariners 11U AA",
@@ -5339,7 +5363,7 @@
         "score": null
       },
       {
-        "date": "2025-06-18T22:30:00.000Z",
+        "date": "2025-06-18T18:30:00.000Z",
         "dateText": "Wed, Jun 18",
         "time": "6:30 PM",
         "homeTeam": "Caledon Nationals 11U A",
@@ -5351,7 +5375,7 @@
         "score": null
       },
       {
-        "date": "2025-06-18T23:00:00.000Z",
+        "date": "2025-06-18T19:00:00.000Z",
         "dateText": "Wed, Jun 18",
         "time": "7:00 PM",
         "homeTeam": "Richmond Hill Phoenix 11U AA",
@@ -5363,7 +5387,7 @@
         "score": null
       },
       {
-        "date": "2025-06-19T22:00:00.000Z",
+        "date": "2025-06-19T18:00:00.000Z",
         "dateText": "Thu, Jun 19",
         "time": "6:00 PM",
         "homeTeam": "Orangeville Bengals 11U AA",
@@ -5375,26 +5399,62 @@
         "score": null
       },
       {
-        "date": "2025-06-19T22:30:00.000Z",
+        "date": "2025-06-19T18:30:00.000Z",
         "dateText": "Thu, Jun 19",
         "time": "6:30 PM",
         "homeTeam": "Barrie Baycats 11U AA",
         "homeTeamCode": "510906",
         "awayTeam": "Bradford Tigers 11U AA",
         "awayTeamCode": "510907",
-        "location": "Sports Complex #12",
+        "location": "PPD",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2025-06-19T18:30:00.000Z",
+        "dateText": "Thu, Jun 19",
+        "time": "6:30 PM",
+        "homeTeam": "Aurora-King Jays 11U AA",
+        "homeTeamCode": "510905",
+        "awayTeam": "Caledon Nationals 11U AA",
+        "awayTeamCode": "510912",
+        "location": "HallMark #2",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2025-06-20T18:30:00.000Z",
+        "dateText": "Fri, Jun 20",
+        "time": "6:30 PM",
+        "homeTeam": "Markham Mariners 11U AA",
+        "homeTeamCode": "510908",
+        "awayTeam": "Bradford Tigers 11U AA",
+        "awayTeamCode": "510907",
+        "location": "Carlton Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2025-06-21T11:00:00.000Z",
+        "dateText": "Sat, Jun 21",
+        "time": "11:00 AM",
+        "homeTeam": "New Lowell Knights 11U D",
+        "homeTeamCode": "510917",
+        "awayTeam": "Caledon Nationals 11U A",
+        "awayTeamCode": "510893",
+        "location": "New Lowell Park",
         "isCompleted": false,
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-17T15:19:19.672Z",
+    "lastUpdated": "2025-06-18T16:19:43.442Z",
     "totalGames": 162
   },
   "summary": {
     "totalTeams": 10,
     "totalGames": 162,
-    "completedGames": 53,
-    "upcomingGames": 109,
+    "completedGames": 57,
+    "upcomingGames": 105,
     "topTeam": {
       "team": "Orangeville Bengals 11U AA",
       "teamCode": "510909",
@@ -5411,6 +5471,6 @@
       "date": "Tue, May 13",
       "location": "North Hill #3"
     },
-    "lastUpdated": "2025-06-17T15:27:17.628Z"
+    "lastUpdated": "2025-06-18T16:24:08.437Z"
   }
 }
