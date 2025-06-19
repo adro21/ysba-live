@@ -2,21 +2,21 @@
   "standings": {
     "teams": [
       {
-        "position": 4,
+        "position": 3,
         "team": "Barrie Baycats 13U DS",
         "teamCode": "511085",
         "record": {
-          "gamesPlayed": 5,
-          "wins": 5,
+          "gamesPlayed": 6,
+          "wins": 6,
           "losses": 0,
           "ties": 0,
           "winPercentage": "1.000"
         },
         "stats": {
-          "points": 10,
-          "runsFor": 58,
-          "runsAgainst": 20,
-          "runDifferential": 38
+          "points": 12,
+          "runsFor": 70,
+          "runsAgainst": 22,
+          "runDifferential": 48
         }
       },
       {
@@ -110,7 +110,7 @@
         }
       },
       {
-        "position": 3,
+        "position": 4,
         "team": "Markham Mariners 13U DS -Team 2",
         "teamCode": "511091",
         "record": {
@@ -125,24 +125,6 @@
           "runsFor": 91,
           "runsAgainst": 88,
           "runDifferential": 3
-        }
-      },
-      {
-        "position": 12,
-        "team": "TNT Thunder 13U DS",
-        "teamCode": "511097",
-        "record": {
-          "gamesPlayed": 4,
-          "wins": 2,
-          "losses": 2,
-          "ties": 0,
-          "winPercentage": "0.500"
-        },
-        "stats": {
-          "points": 4,
-          "runsFor": 30,
-          "runsAgainst": 26,
-          "runDifferential": 4
         }
       },
       {
@@ -179,6 +161,24 @@
           "runsFor": 64,
           "runsAgainst": 75,
           "runDifferential": -11
+        }
+      },
+      {
+        "position": 12,
+        "team": "TNT Thunder 13U DS",
+        "teamCode": "511097",
+        "record": {
+          "gamesPlayed": 5,
+          "wins": 2,
+          "losses": 3,
+          "ties": 0,
+          "winPercentage": "0.400"
+        },
+        "stats": {
+          "points": 4,
+          "runsFor": 32,
+          "runsAgainst": 38,
+          "runDifferential": -6
         }
       },
       {
@@ -290,7 +290,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-06-19T01:16:03.457Z",
+    "lastUpdated": "2025-06-19T03:07:03.705Z",
     "totalTeams": 16
   },
   "schedule": {
@@ -444,7 +444,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T01:16:07.850Z"
+        "lastUpdated": "2025-06-19T03:07:08.116Z"
       },
       "511085": {
         "teamCode": "511085",
@@ -525,8 +525,12 @@
             "awayTeam": "Barrie Baycats 13U DS",
             "awayTeamCode": "511085",
             "location": "Barrie Community Sports Complex #13",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 2,
+              "away": 12,
+              "scoreText": "12-2"
+            }
           }
         ],
         "nextGames": [
@@ -591,7 +595,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T01:16:07.850Z"
+        "lastUpdated": "2025-06-19T03:07:08.116Z"
       },
       "511086": {
         "teamCode": "511086",
@@ -742,7 +746,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T01:16:07.850Z"
+        "lastUpdated": "2025-06-19T03:07:08.116Z"
       },
       "511087": {
         "teamCode": "511087",
@@ -893,7 +897,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T01:16:07.850Z"
+        "lastUpdated": "2025-06-19T03:07:08.116Z"
       },
       "511088": {
         "teamCode": "511088",
@@ -1040,7 +1044,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T01:16:07.850Z"
+        "lastUpdated": "2025-06-19T03:07:08.116Z"
       },
       "511089": {
         "teamCode": "511089",
@@ -1183,7 +1187,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T01:16:07.850Z"
+        "lastUpdated": "2025-06-19T03:07:08.116Z"
       },
       "511090": {
         "teamCode": "511090",
@@ -1330,7 +1334,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T01:16:07.850Z"
+        "lastUpdated": "2025-06-19T03:07:08.116Z"
       },
       "511091": {
         "teamCode": "511091",
@@ -1481,7 +1485,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T01:16:07.850Z"
+        "lastUpdated": "2025-06-19T03:07:08.116Z"
       },
       "511092": {
         "teamCode": "511092",
@@ -1632,7 +1636,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T01:16:07.851Z"
+        "lastUpdated": "2025-06-19T03:07:08.116Z"
       },
       "511093": {
         "teamCode": "511093",
@@ -1783,7 +1787,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T01:16:07.851Z"
+        "lastUpdated": "2025-06-19T03:07:08.116Z"
       },
       "511094": {
         "teamCode": "511094",
@@ -1934,7 +1938,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T01:16:07.851Z"
+        "lastUpdated": "2025-06-19T03:07:08.116Z"
       },
       "511095": {
         "teamCode": "511095",
@@ -2085,7 +2089,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T01:16:07.851Z"
+        "lastUpdated": "2025-06-19T03:07:08.116Z"
       },
       "511096": {
         "teamCode": "511096",
@@ -2236,7 +2240,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T01:16:07.851Z"
+        "lastUpdated": "2025-06-19T03:07:08.116Z"
       },
       "511097": {
         "teamCode": "511097",
@@ -2317,8 +2321,12 @@
             "awayTeam": "Barrie Baycats 13U DS",
             "awayTeamCode": "511085",
             "location": "Barrie Community Sports Complex #13",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 2,
+              "away": 12,
+              "scoreText": "12-2"
+            }
           }
         ],
         "nextGames": [
@@ -2383,7 +2391,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T01:16:07.851Z"
+        "lastUpdated": "2025-06-19T03:07:08.116Z"
       },
       "511098": {
         "teamCode": "511098",
@@ -2534,7 +2542,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T01:16:07.851Z"
+        "lastUpdated": "2025-06-19T03:07:08.116Z"
       },
       "518969": {
         "teamCode": "518969",
@@ -2681,7 +2689,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T01:16:07.851Z"
+        "lastUpdated": "2025-06-19T03:07:08.117Z"
       }
     },
     "allGames": [
@@ -3634,8 +3642,12 @@
         "awayTeam": "Barrie Baycats 13U DS",
         "awayTeamCode": "511085",
         "location": "Barrie Community Sports Complex #13",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 2,
+          "away": 12,
+          "scoreText": "12-2"
+        }
       },
       {
         "date": "2025-06-21T09:00:00.000Z",
@@ -4452,8 +4464,12 @@
         "awayTeam": "Barrie Baycats 13U DS",
         "awayTeamCode": "511085",
         "location": "Barrie Community Sports Complex #13",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 2,
+          "away": 12,
+          "scoreText": "12-2"
+        }
       },
       {
         "date": "2025-06-15T14:30:00.000Z",
@@ -4722,18 +4738,18 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-19T01:16:07.851Z",
+    "lastUpdated": "2025-06-19T03:07:08.117Z",
     "totalGames": 128
   },
   "summary": {
     "totalTeams": 16,
     "totalGames": 128,
-    "completedGames": 55,
-    "upcomingGames": 73,
+    "completedGames": 56,
+    "upcomingGames": 72,
     "topTeam": {
       "team": "Barrie Baycats 13U DS",
       "teamCode": "511085",
-      "wins": 5,
+      "wins": 6,
       "losses": 0,
       "winPercentage": "1.000"
     },
@@ -4746,6 +4762,6 @@
       "date": "Thu, Jun 12",
       "location": "Newmarket Fairgrounds Park #1"
     },
-    "lastUpdated": "2025-06-19T01:16:14.258Z"
+    "lastUpdated": "2025-06-19T03:07:14.330Z"
   }
 }
