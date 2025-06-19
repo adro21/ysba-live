@@ -2,7 +2,7 @@
   "standings": {
     "teams": [
       {
-        "position": 5,
+        "position": 6,
         "team": "Innisfil Cardinals 12U A",
         "teamCode": "510921",
         "record": {
@@ -38,25 +38,7 @@
         }
       },
       {
-        "position": 2,
-        "team": "Thornhill Reds 12U A",
-        "teamCode": "510926",
-        "record": {
-          "gamesPlayed": 6,
-          "wins": 5,
-          "losses": 1,
-          "ties": 0,
-          "winPercentage": "0.833"
-        },
-        "stats": {
-          "points": 10,
-          "runsFor": 67,
-          "runsAgainst": 35,
-          "runDifferential": 32
-        }
-      },
-      {
-        "position": 3,
+        "position": 5,
         "team": "Orillia Royals 12U A",
         "teamCode": "510925",
         "record": {
@@ -74,39 +56,57 @@
         }
       },
       {
-        "position": 6,
-        "team": "Markham Mariners 12U A",
-        "teamCode": "510922",
+        "position": 2,
+        "team": "Thornhill Reds 12U A",
+        "teamCode": "510926",
         "record": {
-          "gamesPlayed": 5,
-          "wins": 3,
+          "gamesPlayed": 7,
+          "wins": 5,
           "losses": 2,
           "ties": 0,
-          "winPercentage": "0.600"
+          "winPercentage": "0.714"
         },
         "stats": {
-          "points": 6,
-          "runsFor": 71,
-          "runsAgainst": 44,
-          "runDifferential": 27
+          "points": 10,
+          "runsFor": 69,
+          "runsAgainst": 47,
+          "runDifferential": 22
         }
       },
       {
         "position": 4,
+        "team": "Markham Mariners 12U A",
+        "teamCode": "510922",
+        "record": {
+          "gamesPlayed": 6,
+          "wins": 4,
+          "losses": 2,
+          "ties": 0,
+          "winPercentage": "0.667"
+        },
+        "stats": {
+          "points": 8,
+          "runsFor": 83,
+          "runsAgainst": 46,
+          "runDifferential": 37
+        }
+      },
+      {
+        "position": 3,
         "team": "TNT Thunder 12U A",
         "teamCode": "510927",
         "record": {
-          "gamesPlayed": 6,
-          "wins": 3,
+          "gamesPlayed": 7,
+          "wins": 4,
           "losses": 2,
           "ties": 1,
-          "winPercentage": "0.583"
+          "winPercentage": "0.643"
         },
         "stats": {
-          "points": 7,
-          "runsFor": 47,
-          "runsAgainst": 43,
-          "runDifferential": 4
+          "points": 9,
+          "runsFor": 70,
+          "runsAgainst": 56,
+          "runDifferential": 14
         }
       },
       {
@@ -114,21 +114,39 @@
         "team": "Bradford Tigers 12U A",
         "teamCode": "510920",
         "record": {
-          "gamesPlayed": 6,
+          "gamesPlayed": 7,
           "wins": 2,
-          "losses": 4,
+          "losses": 5,
           "ties": 0,
-          "winPercentage": "0.333"
+          "winPercentage": "0.286"
         },
         "stats": {
           "points": 4,
-          "runsFor": 40,
-          "runsAgainst": 78,
-          "runDifferential": -38
+          "runsFor": 48,
+          "runsAgainst": 101,
+          "runDifferential": -53
         }
       },
       {
         "position": 9,
+        "team": "Aurora-King Jays 12U A",
+        "teamCode": "510918",
+        "record": {
+          "gamesPlayed": 6,
+          "wins": 1,
+          "losses": 5,
+          "ties": 0,
+          "winPercentage": "0.167"
+        },
+        "stats": {
+          "points": 2,
+          "runsFor": 52,
+          "runsAgainst": 60,
+          "runDifferential": -8
+        }
+      },
+      {
+        "position": 10,
         "team": "Georgina Bulldogs 12U B",
         "teamCode": "510939",
         "record": {
@@ -150,39 +168,21 @@
         "team": "Barrie Baycats 12U A",
         "teamCode": "510919",
         "record": {
-          "gamesPlayed": 8,
+          "gamesPlayed": 9,
           "wins": 1,
-          "losses": 7,
+          "losses": 8,
           "ties": 0,
-          "winPercentage": "0.125"
+          "winPercentage": "0.111"
         },
         "stats": {
           "points": 2,
-          "runsFor": 51,
-          "runsAgainst": 120,
-          "runDifferential": -69
-        }
-      },
-      {
-        "position": 10,
-        "team": "Aurora-King Jays 12U A",
-        "teamCode": "510918",
-        "record": {
-          "gamesPlayed": 5,
-          "wins": 0,
-          "losses": 5,
-          "ties": 0,
-          "winPercentage": "0.000"
-        },
-        "stats": {
-          "points": 0,
-          "runsFor": 29,
-          "runsAgainst": 52,
-          "runDifferential": -23
+          "runsFor": 64,
+          "runsAgainst": 143,
+          "runDifferential": -79
         }
       }
     ],
-    "lastUpdated": "2025-06-19T12:30:59.597Z",
+    "lastUpdated": "2025-06-19T13:10:22.968Z",
     "totalTeams": 10
   },
   "schedule": {
@@ -266,8 +266,12 @@
             "awayTeam": "Aurora-King Jays 12U A",
             "awayTeamCode": "510918",
             "location": "Joe Magani Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 23,
+              "scoreText": "23-8"
+            }
           }
         ],
         "nextGames": [
@@ -332,7 +336,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T12:31:03.880Z"
+        "lastUpdated": "2025-06-19T13:10:27.641Z"
       },
       "510919": {
         "teamCode": "510919",
@@ -397,8 +401,12 @@
             "awayTeam": "Barrie Baycats 12U A",
             "awayTeamCode": "510919",
             "location": "Coventry Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 23,
+              "away": 13,
+              "scoreText": "13-23"
+            }
           },
           {
             "date": "2025-06-18T18:30:00.000Z",
@@ -475,7 +483,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T12:31:03.880Z"
+        "lastUpdated": "2025-06-19T13:10:27.641Z"
       },
       "510920": {
         "teamCode": "510920",
@@ -536,8 +544,12 @@
             "awayTeam": "Aurora-King Jays 12U A",
             "awayTeamCode": "510918",
             "location": "Joe Magani Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 23,
+              "scoreText": "23-8"
+            }
           },
           {
             "date": "2025-06-18T18:30:00.000Z",
@@ -614,7 +626,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T12:31:03.880Z"
+        "lastUpdated": "2025-06-19T13:10:27.641Z"
       },
       "510921": {
         "teamCode": "510921",
@@ -749,7 +761,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T12:31:03.880Z"
+        "lastUpdated": "2025-06-19T13:10:27.641Z"
       },
       "510922": {
         "teamCode": "510922",
@@ -826,8 +838,12 @@
             "awayTeam": "Thornhill Reds 12U A",
             "awayTeamCode": "510926",
             "location": "Milliken Mills Diamond 2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 2,
+              "scoreText": "2-12"
+            }
           }
         ],
         "nextGames": [
@@ -892,7 +908,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T12:31:03.880Z"
+        "lastUpdated": "2025-06-19T13:10:27.641Z"
       },
       "510923": {
         "teamCode": "510923",
@@ -1039,7 +1055,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T12:31:03.880Z"
+        "lastUpdated": "2025-06-19T13:10:27.641Z"
       },
       "510924": {
         "teamCode": "510924",
@@ -1186,7 +1202,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T12:31:03.880Z"
+        "lastUpdated": "2025-06-19T13:10:27.641Z"
       },
       "510925": {
         "teamCode": "510925",
@@ -1333,7 +1349,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T12:31:03.880Z"
+        "lastUpdated": "2025-06-19T13:10:27.641Z"
       },
       "510926": {
         "teamCode": "510926",
@@ -1414,8 +1430,12 @@
             "awayTeam": "Thornhill Reds 12U A",
             "awayTeamCode": "510926",
             "location": "Milliken Mills Diamond 2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 2,
+              "scoreText": "2-12"
+            }
           }
         ],
         "nextGames": [
@@ -1480,7 +1500,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T12:31:03.880Z"
+        "lastUpdated": "2025-06-19T13:10:27.642Z"
       },
       "510927": {
         "teamCode": "510927",
@@ -1557,8 +1577,12 @@
             "awayTeam": "Barrie Baycats 12U A",
             "awayTeamCode": "510919",
             "location": "Coventry Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 23,
+              "away": 13,
+              "scoreText": "13-23"
+            }
           }
         ],
         "nextGames": [
@@ -1623,7 +1647,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T12:31:03.880Z"
+        "lastUpdated": "2025-06-19T13:10:27.642Z"
       },
       "510928": {
         "teamCode": "510928",
@@ -1770,7 +1794,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T12:31:03.880Z"
+        "lastUpdated": "2025-06-19T13:10:27.642Z"
       },
       "510929": {
         "teamCode": "510929",
@@ -1917,7 +1941,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T12:31:03.880Z"
+        "lastUpdated": "2025-06-19T13:10:27.642Z"
       },
       "510930": {
         "teamCode": "510930",
@@ -2068,7 +2092,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T12:31:03.880Z"
+        "lastUpdated": "2025-06-19T13:10:27.642Z"
       },
       "510931": {
         "teamCode": "510931",
@@ -2219,7 +2243,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T12:31:03.880Z"
+        "lastUpdated": "2025-06-19T13:10:27.642Z"
       },
       "510932": {
         "teamCode": "510932",
@@ -2370,7 +2394,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T12:31:03.880Z"
+        "lastUpdated": "2025-06-19T13:10:27.642Z"
       },
       "510933": {
         "teamCode": "510933",
@@ -2521,7 +2545,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T12:31:03.880Z"
+        "lastUpdated": "2025-06-19T13:10:27.642Z"
       },
       "510934": {
         "teamCode": "510934",
@@ -2668,7 +2692,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T12:31:03.880Z"
+        "lastUpdated": "2025-06-19T13:10:27.642Z"
       },
       "510935": {
         "teamCode": "510935",
@@ -2811,7 +2835,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T12:31:03.880Z"
+        "lastUpdated": "2025-06-19T13:10:27.642Z"
       },
       "510939": {
         "teamCode": "510939",
@@ -2958,7 +2982,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T12:31:03.880Z"
+        "lastUpdated": "2025-06-19T13:10:27.642Z"
       }
     },
     "allGames": [
@@ -3959,8 +3983,12 @@
         "awayTeam": "Aurora-King Jays 12U A",
         "awayTeamCode": "510918",
         "location": "Joe Magani Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 23,
+          "scoreText": "23-8"
+        }
       },
       {
         "date": "2025-06-16T18:30:00.000Z",
@@ -4015,8 +4043,12 @@
         "awayTeam": "Barrie Baycats 12U A",
         "awayTeamCode": "510919",
         "location": "Coventry Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 23,
+          "away": 13,
+          "scoreText": "13-23"
+        }
       },
       {
         "date": "2025-06-17T18:15:00.000Z",
@@ -4027,8 +4059,12 @@
         "awayTeam": "Thornhill Reds 12U A",
         "awayTeamCode": "510926",
         "location": "Milliken Mills Diamond 2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 2,
+          "scoreText": "2-12"
+        }
       },
       {
         "date": "2025-06-17T18:30:00.000Z",
@@ -5221,8 +5257,12 @@
         "awayTeam": "Thornhill Reds 12U A",
         "awayTeamCode": "510926",
         "location": "Milliken Mills Diamond 2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 2,
+          "scoreText": "2-12"
+        }
       },
       {
         "date": "2025-06-17T18:00:00.000Z",
@@ -5245,8 +5285,12 @@
         "awayTeam": "Barrie Baycats 12U A",
         "awayTeamCode": "510919",
         "location": "Coventry Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 23,
+          "away": 13,
+          "scoreText": "13-23"
+        }
       },
       {
         "date": "2025-06-16T18:30:00.000Z",
@@ -5403,14 +5447,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-19T12:31:03.880Z",
+    "lastUpdated": "2025-06-19T13:10:27.642Z",
     "totalGames": 162
   },
   "summary": {
     "totalTeams": 10,
     "totalGames": 162,
-    "completedGames": 59,
-    "upcomingGames": 103,
+    "completedGames": 62,
+    "upcomingGames": 100,
     "topTeam": {
       "team": "Innisfil Cardinals 12U A",
       "teamCode": "510921",
@@ -5427,6 +5471,6 @@
       "date": "Wed, Jun 11",
       "location": "Barrie Community Sports Complex - Diamond 12"
     },
-    "lastUpdated": "2025-06-19T12:34:53.809Z"
+    "lastUpdated": "2025-06-19T13:14:32.978Z"
   }
 }
