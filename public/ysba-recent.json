@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-06-19T21:43:48.416Z",
+  "lastUpdated": "2025-06-19T22:19:54.042Z",
   "totalGames": 190,
   "games": [
     {
@@ -403,8 +403,12 @@
       "awayTeam": "Orillia Royals 18U B",
       "awayTeamCode": "511032",
       "location": "Barrie Community Sports Complex",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 1,
+        "away": 9,
+        "scoreText": "9-1"
+      },
       "division": "18U",
       "tier": "rep-no-tier"
     },
