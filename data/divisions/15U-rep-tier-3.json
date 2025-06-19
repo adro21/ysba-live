@@ -74,6 +74,24 @@
         }
       },
       {
+        "position": 7,
+        "team": "Collingwood Jays 15U A",
+        "teamCode": "510986",
+        "record": {
+          "gamesPlayed": 5,
+          "wins": 3,
+          "losses": 2,
+          "ties": 0,
+          "winPercentage": "0.600"
+        },
+        "stats": {
+          "points": 6,
+          "runsFor": 46,
+          "runsAgainst": 30,
+          "runDifferential": 16
+        }
+      },
+      {
         "position": 6,
         "team": "Georgina Bulldogs 15U B",
         "teamCode": "510998",
@@ -93,42 +111,6 @@
       },
       {
         "position": 9,
-        "team": "Collingwood Jays 15U A",
-        "teamCode": "510986",
-        "record": {
-          "gamesPlayed": 4,
-          "wins": 2,
-          "losses": 2,
-          "ties": 0,
-          "winPercentage": "0.500"
-        },
-        "stats": {
-          "points": 4,
-          "runsFor": 35,
-          "runsAgainst": 27,
-          "runDifferential": 8
-        }
-      },
-      {
-        "position": 5,
-        "team": "Bradford Tigers 15U A",
-        "teamCode": "510982",
-        "record": {
-          "gamesPlayed": 7,
-          "wins": 3,
-          "losses": 4,
-          "ties": 0,
-          "winPercentage": "0.429"
-        },
-        "stats": {
-          "points": 6,
-          "runsFor": 60,
-          "runsAgainst": 60,
-          "runDifferential": 0
-        }
-      },
-      {
-        "position": 8,
         "team": "Barrie Baycats 15U A",
         "teamCode": "510981",
         "record": {
@@ -146,7 +128,25 @@
         }
       },
       {
-        "position": 7,
+        "position": 5,
+        "team": "Bradford Tigers 15U A",
+        "teamCode": "510982",
+        "record": {
+          "gamesPlayed": 8,
+          "wins": 3,
+          "losses": 5,
+          "ties": 0,
+          "winPercentage": "0.375"
+        },
+        "stats": {
+          "points": 6,
+          "runsFor": 63,
+          "runsAgainst": 71,
+          "runDifferential": -8
+        }
+      },
+      {
+        "position": 8,
         "team": "Vaughan Vikings 15U A",
         "teamCode": "518959",
         "record": {
@@ -182,7 +182,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-06-19T11:41:34.014Z",
+    "lastUpdated": "2025-06-19T12:32:33.013Z",
     "totalTeams": 10
   },
   "schedule": {
@@ -336,7 +336,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T11:41:38.326Z"
+        "lastUpdated": "2025-06-19T12:32:37.647Z"
       },
       "510981": {
         "teamCode": "510981",
@@ -483,7 +483,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T11:41:38.326Z"
+        "lastUpdated": "2025-06-19T12:32:37.647Z"
       },
       "510982": {
         "teamCode": "510982",
@@ -564,8 +564,12 @@
             "awayTeam": "Bradford Tigers 15U A",
             "awayTeamCode": "510982",
             "location": "Legion Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 3,
+              "scoreText": "3-11"
+            }
           }
         ],
         "nextGames": [
@@ -630,7 +634,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T11:41:38.326Z"
+        "lastUpdated": "2025-06-19T12:32:37.647Z"
       },
       "510983": {
         "teamCode": "510983",
@@ -781,7 +785,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T11:41:38.326Z"
+        "lastUpdated": "2025-06-19T12:32:37.647Z"
       },
       "510984": {
         "teamCode": "510984",
@@ -928,7 +932,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T11:41:38.326Z"
+        "lastUpdated": "2025-06-19T12:32:37.647Z"
       },
       "510985": {
         "teamCode": "510985",
@@ -1063,7 +1067,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T11:41:38.326Z"
+        "lastUpdated": "2025-06-19T12:32:37.647Z"
       },
       "510986": {
         "teamCode": "510986",
@@ -1140,8 +1144,12 @@
             "awayTeam": "Bradford Tigers 15U A",
             "awayTeamCode": "510982",
             "location": "Legion Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 3,
+              "scoreText": "3-11"
+            }
           }
         ],
         "nextGames": [
@@ -1206,25 +1214,29 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T11:41:38.326Z"
+        "lastUpdated": "2025-06-19T12:32:37.647Z"
       },
       "510987": {
         "teamCode": "510987",
         "totalGames": 18,
-        "playedGames": 9,
-        "upcomingGames": 9,
+        "playedGames": 8,
+        "upcomingGames": 10,
         "recentGames": [
           {
-            "date": "2025-05-28T18:00:00.000Z",
-            "dateText": "Wed, May 28",
-            "time": "6:00 PM",
-            "homeTeam": "Newmarket Hawks 15U AA",
-            "homeTeamCode": "510991",
-            "awayTeam": "Barrie Baycats 15U AA",
-            "awayTeamCode": "510987",
-            "location": "RAINOUT - Whipper Watson",
-            "isCompleted": false,
-            "score": null
+            "date": "2025-05-27T19:30:00.000Z",
+            "dateText": "Tue, May 27",
+            "time": "7:30 PM",
+            "homeTeam": "Barrie Baycats 15U AA",
+            "homeTeamCode": "510987",
+            "awayTeam": "Bradford Tigers 15U AA",
+            "awayTeamCode": "510988",
+            "location": "Lennox A",
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 14,
+              "scoreText": "14-4"
+            }
           },
           {
             "date": "2025-06-03T19:30:00.000Z",
@@ -1341,19 +1353,19 @@
             "score": null
           },
           {
-            "date": "2025-07-12T10:00:00.000Z",
-            "dateText": "Sat, Jul 12",
-            "time": "10:00 AM",
-            "homeTeam": "Thornhill Reds 15U AA",
-            "homeTeamCode": "510992",
+            "date": "2025-07-10T18:00:00.000Z",
+            "dateText": "Thu, Jul 10",
+            "time": "6:00 PM",
+            "homeTeam": "Newmarket Hawks 15U AA",
+            "homeTeamCode": "510991",
             "awayTeam": "Barrie Baycats 15U AA",
             "awayTeamCode": "510987",
-            "location": "Bathurst District Park",
+            "location": "Whipper Watson",
             "isCompleted": false,
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T11:41:38.326Z"
+        "lastUpdated": "2025-06-19T12:32:37.647Z"
       },
       "510988": {
         "teamCode": "510988",
@@ -1500,7 +1512,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T11:41:38.327Z"
+        "lastUpdated": "2025-06-19T12:32:37.647Z"
       },
       "510989": {
         "teamCode": "510989",
@@ -1639,7 +1651,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T11:41:38.327Z"
+        "lastUpdated": "2025-06-19T12:32:37.648Z"
       },
       "510990": {
         "teamCode": "510990",
@@ -1790,25 +1802,29 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T11:41:38.327Z"
+        "lastUpdated": "2025-06-19T12:32:37.648Z"
       },
       "510991": {
         "teamCode": "510991",
         "totalGames": 18,
-        "playedGames": 7,
-        "upcomingGames": 11,
+        "playedGames": 6,
+        "upcomingGames": 12,
         "recentGames": [
           {
-            "date": "2025-05-28T18:00:00.000Z",
-            "dateText": "Wed, May 28",
+            "date": "2025-05-20T18:00:00.000Z",
+            "dateText": "Tue, May 20",
             "time": "6:00 PM",
-            "homeTeam": "Newmarket Hawks 15U AA",
-            "homeTeamCode": "510991",
-            "awayTeam": "Barrie Baycats 15U AA",
-            "awayTeamCode": "510987",
-            "location": "RAINOUT - Whipper Watson",
-            "isCompleted": false,
-            "score": null
+            "homeTeam": "Aurora-King Jays 15U AA",
+            "homeTeamCode": "510993",
+            "awayTeam": "Newmarket Hawks 15U AA",
+            "awayTeamCode": "510991",
+            "location": "Lambert Willson #4",
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 11,
+              "scoreText": "11-12"
+            }
           },
           {
             "date": "2025-05-29T20:30:00.000Z",
@@ -1933,7 +1949,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T11:41:38.327Z"
+        "lastUpdated": "2025-06-19T12:32:37.648Z"
       },
       "510992": {
         "teamCode": "510992",
@@ -2068,7 +2084,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T11:41:38.327Z"
+        "lastUpdated": "2025-06-19T12:32:37.648Z"
       },
       "510993": {
         "teamCode": "510993",
@@ -2215,7 +2231,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T11:41:38.327Z"
+        "lastUpdated": "2025-06-19T12:32:37.648Z"
       },
       "510998": {
         "teamCode": "510998",
@@ -2358,7 +2374,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T11:41:38.327Z"
+        "lastUpdated": "2025-06-19T12:32:37.648Z"
       },
       "516244": {
         "teamCode": "516244",
@@ -2489,7 +2505,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T11:41:38.327Z"
+        "lastUpdated": "2025-06-19T12:32:37.648Z"
       },
       "518959": {
         "teamCode": "518959",
@@ -2640,7 +2656,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T11:41:38.327Z"
+        "lastUpdated": "2025-06-19T12:32:37.648Z"
       },
       "546379": {
         "teamCode": "546379",
@@ -2779,7 +2795,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T11:41:38.327Z"
+        "lastUpdated": "2025-06-19T12:32:37.648Z"
       }
     },
     "allGames": [
@@ -3152,18 +3168,6 @@
         }
       },
       {
-        "date": "2025-05-28T18:00:00.000Z",
-        "dateText": "Wed, May 28",
-        "time": "6:00 PM",
-        "homeTeam": "Newmarket Hawks 15U AA",
-        "homeTeamCode": "510991",
-        "awayTeam": "Barrie Baycats 15U AA",
-        "awayTeamCode": "510987",
-        "location": "RAINOUT - Whipper Watson",
-        "isCompleted": false,
-        "score": null
-      },
-      {
         "date": "2025-05-29T19:30:00.000Z",
         "dateText": "Thu, May 29",
         "time": "7:30 PM",
@@ -3351,22 +3355,6 @@
         "date": "2025-06-03T18:00:00.000Z",
         "dateText": "Tue, Jun 3",
         "time": "6:00 PM",
-        "homeTeam": "Aurora-King Jays 15U AA",
-        "homeTeamCode": "510993",
-        "awayTeam": "Bradford Tigers 15U AA",
-        "awayTeamCode": "510988",
-        "location": "Lambert Willson #4",
-        "isCompleted": true,
-        "score": {
-          "home": 4,
-          "away": 17,
-          "scoreText": "17-4"
-        }
-      },
-      {
-        "date": "2025-06-03T18:00:00.000Z",
-        "dateText": "Tue, Jun 3",
-        "time": "6:00 PM",
         "homeTeam": "Vaughan Vikings 15U A",
         "homeTeamCode": "518959",
         "awayTeam": "Barrie Baycats 15U A",
@@ -3377,6 +3365,22 @@
           "home": 10,
           "away": 8,
           "scoreText": "8-10"
+        }
+      },
+      {
+        "date": "2025-06-03T18:00:00.000Z",
+        "dateText": "Tue, Jun 3",
+        "time": "6:00 PM",
+        "homeTeam": "Aurora-King Jays 15U AA",
+        "homeTeamCode": "510993",
+        "awayTeam": "Bradford Tigers 15U AA",
+        "awayTeamCode": "510988",
+        "location": "Lambert Willson #4",
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 17,
+          "scoreText": "17-4"
         }
       },
       {
@@ -3459,22 +3463,6 @@
         "date": "2025-06-10T18:00:00.000Z",
         "dateText": "Tue, Jun 10",
         "time": "6:00 PM",
-        "homeTeam": "Vaughan Vikings 15U A",
-        "homeTeamCode": "518959",
-        "awayTeam": "Aurora-King Jays 15U A",
-        "awayTeamCode": "510980",
-        "location": "Sports Village",
-        "isCompleted": true,
-        "score": {
-          "home": 5,
-          "away": 10,
-          "scoreText": "10-5"
-        }
-      },
-      {
-        "date": "2025-06-10T18:00:00.000Z",
-        "dateText": "Tue, Jun 10",
-        "time": "6:00 PM",
         "homeTeam": "Aurora-King Jays 15U AA",
         "homeTeamCode": "510993",
         "awayTeam": "Barrie Baycats 15U AA",
@@ -3485,6 +3473,22 @@
           "home": 3,
           "away": 10,
           "scoreText": "10-3"
+        }
+      },
+      {
+        "date": "2025-06-10T18:00:00.000Z",
+        "dateText": "Tue, Jun 10",
+        "time": "6:00 PM",
+        "homeTeam": "Vaughan Vikings 15U A",
+        "homeTeamCode": "518959",
+        "awayTeam": "Aurora-King Jays 15U A",
+        "awayTeamCode": "510980",
+        "location": "Sports Village",
+        "isCompleted": true,
+        "score": {
+          "home": 5,
+          "away": 10,
+          "scoreText": "10-5"
         }
       },
       {
@@ -3708,8 +3712,12 @@
         "awayTeam": "Bradford Tigers 15U A",
         "awayTeamCode": "510982",
         "location": "Legion Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 3,
+          "scoreText": "3-11"
+        }
       },
       {
         "date": "2025-06-18T20:30:00.000Z",
@@ -3919,11 +3927,11 @@
         "date": "2025-06-25T18:00:00.000Z",
         "dateText": "Wed, Jun 25",
         "time": "6:00 PM",
-        "homeTeam": "Muskoka Hornets 15U AA",
-        "homeTeamCode": "516244",
-        "awayTeam": "Barrie Baycats 15U AA",
-        "awayTeamCode": "510987",
-        "location": "Kerr Park",
+        "homeTeam": "Newmarket Hawks 15U AA",
+        "homeTeamCode": "510991",
+        "awayTeam": "Aurora-King Jays 15U AA",
+        "awayTeamCode": "510993",
+        "location": "Whipper Watson",
         "isCompleted": false,
         "score": null
       },
@@ -3931,11 +3939,11 @@
         "date": "2025-06-25T18:00:00.000Z",
         "dateText": "Wed, Jun 25",
         "time": "6:00 PM",
-        "homeTeam": "Newmarket Hawks 15U AA",
-        "homeTeamCode": "510991",
-        "awayTeam": "Aurora-King Jays 15U AA",
-        "awayTeamCode": "510993",
-        "location": "Whipper Watson",
+        "homeTeam": "Muskoka Hornets 15U AA",
+        "homeTeamCode": "516244",
+        "awayTeam": "Barrie Baycats 15U AA",
+        "awayTeamCode": "510987",
+        "location": "Kerr Park",
         "isCompleted": false,
         "score": null
       },
@@ -4171,11 +4179,11 @@
         "date": "2025-07-07T20:30:00.000Z",
         "dateText": "Mon, Jul 7",
         "time": "8:30 PM",
-        "homeTeam": "Caledon Nationals 15U A",
-        "homeTeamCode": "510983",
-        "awayTeam": "Georgina Bulldogs 15U B",
-        "awayTeamCode": "510998",
-        "location": "North Hill #2",
+        "homeTeam": "Newmarket Hawks 15U AA",
+        "homeTeamCode": "510991",
+        "awayTeam": "Innisfil Cardinals 15U AA",
+        "awayTeamCode": "510989",
+        "location": "Whipper Watson",
         "isCompleted": false,
         "score": null
       },
@@ -4183,11 +4191,11 @@
         "date": "2025-07-07T20:30:00.000Z",
         "dateText": "Mon, Jul 7",
         "time": "8:30 PM",
-        "homeTeam": "Newmarket Hawks 15U AA",
-        "homeTeamCode": "510991",
-        "awayTeam": "Innisfil Cardinals 15U AA",
-        "awayTeamCode": "510989",
-        "location": "Whipper Watson",
+        "homeTeam": "Caledon Nationals 15U A",
+        "homeTeamCode": "510983",
+        "awayTeam": "Georgina Bulldogs 15U B",
+        "awayTeamCode": "510998",
+        "location": "North Hill #2",
         "isCompleted": false,
         "score": null
       },
@@ -4207,11 +4215,11 @@
         "date": "2025-07-08T19:30:00.000Z",
         "dateText": "Tue, Jul 8",
         "time": "7:30 PM",
-        "homeTeam": "Aurora-King Jays 15U AA",
-        "homeTeamCode": "510993",
-        "awayTeam": "Mansfield Cubs 15U AA",
-        "awayTeamCode": "510990",
-        "location": "Lambert Willson #4",
+        "homeTeam": "Barrie Baycats 15U AA",
+        "homeTeamCode": "510987",
+        "awayTeam": "Bradford Tigers 15U AA",
+        "awayTeamCode": "510988",
+        "location": "Lennox A",
         "isCompleted": false,
         "score": null
       },
@@ -4219,11 +4227,11 @@
         "date": "2025-07-08T19:30:00.000Z",
         "dateText": "Tue, Jul 8",
         "time": "7:30 PM",
-        "homeTeam": "Barrie Baycats 15U AA",
-        "homeTeamCode": "510987",
-        "awayTeam": "Bradford Tigers 15U AA",
-        "awayTeamCode": "510988",
-        "location": "Lennox A",
+        "homeTeam": "Aurora-King Jays 15U AA",
+        "homeTeamCode": "510993",
+        "awayTeam": "Mansfield Cubs 15U AA",
+        "awayTeamCode": "510990",
+        "location": "Lambert Willson #4",
         "isCompleted": false,
         "score": null
       },
@@ -4288,6 +4296,18 @@
         "score": null
       },
       {
+        "date": "2025-07-10T18:00:00.000Z",
+        "dateText": "Thu, Jul 10",
+        "time": "6:00 PM",
+        "homeTeam": "Newmarket Hawks 15U AA",
+        "homeTeamCode": "510991",
+        "awayTeam": "Barrie Baycats 15U AA",
+        "awayTeamCode": "510987",
+        "location": "Whipper Watson",
+        "isCompleted": false,
+        "score": null
+      },
+      {
         "date": "2025-07-10T19:00:00.000Z",
         "dateText": "Thu, Jul 10",
         "time": "7:00 PM",
@@ -4339,11 +4359,11 @@
         "date": "2025-07-12T10:00:00.000Z",
         "dateText": "Sat, Jul 12",
         "time": "10:00 AM",
-        "homeTeam": "Orillia Royals 15U A",
-        "homeTeamCode": "510984",
-        "awayTeam": "Caledon Nationals 15U A",
-        "awayTeamCode": "510983",
-        "location": "Udell Field",
+        "homeTeam": "Thornhill Reds 15U AA",
+        "homeTeamCode": "510992",
+        "awayTeam": "Barrie Baycats 15U AA",
+        "awayTeamCode": "510987",
+        "location": "Bathurst District Park",
         "isCompleted": false,
         "score": null
       },
@@ -4351,11 +4371,11 @@
         "date": "2025-07-12T10:00:00.000Z",
         "dateText": "Sat, Jul 12",
         "time": "10:00 AM",
-        "homeTeam": "Thornhill Reds 15U AA",
-        "homeTeamCode": "510992",
-        "awayTeam": "Barrie Baycats 15U AA",
-        "awayTeamCode": "510987",
-        "location": "Bathurst District Park",
+        "homeTeam": "Orillia Royals 15U A",
+        "homeTeamCode": "510984",
+        "awayTeam": "Caledon Nationals 15U A",
+        "awayTeamCode": "510983",
+        "location": "Udell Field",
         "isCompleted": false,
         "score": null
       },
@@ -4603,11 +4623,11 @@
         "date": "2025-07-22T20:00:00.000Z",
         "dateText": "Tue, Jul 22",
         "time": "8:00 PM",
-        "homeTeam": "Bradford Tigers 15U AA",
-        "homeTeamCode": "510988",
-        "awayTeam": "Thornhill Reds 15U AA",
-        "awayTeamCode": "510992",
-        "location": "Joe Magani Park #5",
+        "homeTeam": "Orillia Royals 15U A",
+        "homeTeamCode": "510984",
+        "awayTeam": "Georgina Bulldogs 15U B",
+        "awayTeamCode": "510998",
+        "location": "Udell Field",
         "isCompleted": false,
         "score": null
       },
@@ -4615,11 +4635,11 @@
         "date": "2025-07-22T20:00:00.000Z",
         "dateText": "Tue, Jul 22",
         "time": "8:00 PM",
-        "homeTeam": "Orillia Royals 15U A",
-        "homeTeamCode": "510984",
-        "awayTeam": "Georgina Bulldogs 15U B",
-        "awayTeamCode": "510998",
-        "location": "Udell Field",
+        "homeTeam": "Bradford Tigers 15U AA",
+        "homeTeamCode": "510988",
+        "awayTeam": "Thornhill Reds 15U AA",
+        "awayTeamCode": "510992",
+        "location": "Joe Magani Park #5",
         "isCompleted": false,
         "score": null
       },
@@ -4807,11 +4827,11 @@
         "date": "2025-07-29T19:30:00.000Z",
         "dateText": "Tue, Jul 29",
         "time": "7:30 PM",
-        "homeTeam": "Aurora-King Jays 15U AA",
-        "homeTeamCode": "510993",
-        "awayTeam": "Newmarket Hawks 15U AA",
-        "awayTeamCode": "510991",
-        "location": "Lambert Willson #4",
+        "homeTeam": "Barrie Baycats 15U AA",
+        "homeTeamCode": "510987",
+        "awayTeam": "Innisfil Cardinals 15U AA",
+        "awayTeamCode": "510989",
+        "location": "Lennox A",
         "isCompleted": false,
         "score": null
       },
@@ -4819,11 +4839,11 @@
         "date": "2025-07-29T19:30:00.000Z",
         "dateText": "Tue, Jul 29",
         "time": "7:30 PM",
-        "homeTeam": "Barrie Baycats 15U AA",
-        "homeTeamCode": "510987",
-        "awayTeam": "Innisfil Cardinals 15U AA",
-        "awayTeamCode": "510989",
-        "location": "Lennox A",
+        "homeTeam": "Aurora-King Jays 15U AA",
+        "homeTeamCode": "510993",
+        "awayTeam": "Newmarket Hawks 15U AA",
+        "awayTeamCode": "510991",
+        "location": "Lambert Willson #4",
         "isCompleted": false,
         "score": null
       },
@@ -4946,8 +4966,12 @@
         "awayTeam": "Bradford Tigers 15U A",
         "awayTeamCode": "510982",
         "location": "Legion Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 3,
+          "scoreText": "3-11"
+        }
       },
       {
         "date": "2025-06-18T18:00:00.000Z",
@@ -5192,14 +5216,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-19T11:41:38.327Z",
+    "lastUpdated": "2025-06-19T12:32:37.648Z",
     "totalGames": 162
   },
   "summary": {
     "totalTeams": 10,
     "totalGames": 162,
-    "completedGames": 49,
-    "upcomingGames": 113,
+    "completedGames": 50,
+    "upcomingGames": 112,
     "topTeam": {
       "team": "Stouffville Yankees 15U A",
       "teamCode": "510985",
@@ -5216,6 +5240,6 @@
       "date": "Thu, May 29",
       "location": "Bethesda Fields #2"
     },
-    "lastUpdated": "2025-06-19T11:43:55.682Z"
+    "lastUpdated": "2025-06-19T12:34:53.809Z"
   }
 }
