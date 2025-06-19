@@ -2,57 +2,39 @@
   "standings": {
     "teams": [
       {
-        "position": 6,
-        "team": "Innisfil Cardinals 12U A",
-        "teamCode": "510921",
-        "record": {
-          "gamesPlayed": 4,
-          "wins": 3,
-          "losses": 0,
-          "ties": 1,
-          "winPercentage": "0.875"
-        },
-        "stats": {
-          "points": 7,
-          "runsFor": 49,
-          "runsAgainst": 16,
-          "runDifferential": 33
-        }
-      },
-      {
         "position": 1,
         "team": "Orangeville Bengals 12U A",
         "teamCode": "510924",
         "record": {
-          "gamesPlayed": 7,
-          "wins": 6,
+          "gamesPlayed": 8,
+          "wins": 7,
           "losses": 1,
           "ties": 0,
-          "winPercentage": "0.857"
+          "winPercentage": "0.875"
         },
         "stats": {
-          "points": 12,
-          "runsFor": 102,
-          "runsAgainst": 34,
-          "runDifferential": 68
+          "points": 14,
+          "runsFor": 113,
+          "runsAgainst": 43,
+          "runDifferential": 70
         }
       },
       {
-        "position": 5,
+        "position": 3,
         "team": "Orillia Royals 12U A",
         "teamCode": "510925",
         "record": {
-          "gamesPlayed": 5,
-          "wins": 4,
+          "gamesPlayed": 6,
+          "wins": 5,
           "losses": 1,
           "ties": 0,
-          "winPercentage": "0.800"
+          "winPercentage": "0.833"
         },
         "stats": {
-          "points": 8,
-          "runsFor": 61,
-          "runsAgainst": 26,
-          "runDifferential": 35
+          "points": 10,
+          "runsFor": 72,
+          "runsAgainst": 33,
+          "runDifferential": 39
         }
       },
       {
@@ -74,7 +56,7 @@
         }
       },
       {
-        "position": 4,
+        "position": 5,
         "team": "Markham Mariners 12U A",
         "teamCode": "510922",
         "record": {
@@ -92,7 +74,7 @@
         }
       },
       {
-        "position": 3,
+        "position": 4,
         "team": "TNT Thunder 12U A",
         "teamCode": "510927",
         "record": {
@@ -107,6 +89,24 @@
           "runsFor": 70,
           "runsAgainst": 56,
           "runDifferential": 14
+        }
+      },
+      {
+        "position": 6,
+        "team": "Innisfil Cardinals 12U A",
+        "teamCode": "510921",
+        "record": {
+          "gamesPlayed": 6,
+          "wins": 3,
+          "losses": 2,
+          "ties": 1,
+          "winPercentage": "0.583"
+        },
+        "stats": {
+          "points": 7,
+          "runsFor": 65,
+          "runsAgainst": 38,
+          "runDifferential": 27
         }
       },
       {
@@ -182,7 +182,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-06-19T13:10:22.968Z",
+    "lastUpdated": "2025-06-19T13:49:35.993Z",
     "totalTeams": 10
   },
   "schedule": {
@@ -336,7 +336,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T13:10:27.641Z"
+        "lastUpdated": "2025-06-19T13:49:40.180Z"
       },
       "510919": {
         "teamCode": "510919",
@@ -483,7 +483,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T13:10:27.641Z"
+        "lastUpdated": "2025-06-19T13:49:40.180Z"
       },
       "510920": {
         "teamCode": "510920",
@@ -626,7 +626,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T13:10:27.641Z"
+        "lastUpdated": "2025-06-19T13:49:40.180Z"
       },
       "510921": {
         "teamCode": "510921",
@@ -683,8 +683,12 @@
             "awayTeam": "Orangeville Bengals 12U A",
             "awayTeamCode": "510924",
             "location": "Stroud Community Centre",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 11,
+              "scoreText": "11-9"
+            }
           },
           {
             "date": "2025-06-18T18:30:00.000Z",
@@ -695,8 +699,12 @@
             "awayTeam": "Innisfil Cardinals 12U A",
             "awayTeamCode": "510921",
             "location": "YEO Diamond",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 7,
+              "scoreText": "7-11"
+            }
           }
         ],
         "nextGames": [
@@ -761,7 +769,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T13:10:27.641Z"
+        "lastUpdated": "2025-06-19T13:49:40.180Z"
       },
       "510922": {
         "teamCode": "510922",
@@ -908,7 +916,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T13:10:27.641Z"
+        "lastUpdated": "2025-06-19T13:49:40.180Z"
       },
       "510923": {
         "teamCode": "510923",
@@ -1055,7 +1063,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T13:10:27.641Z"
+        "lastUpdated": "2025-06-19T13:49:40.180Z"
       },
       "510924": {
         "teamCode": "510924",
@@ -1136,8 +1144,12 @@
             "awayTeam": "Orangeville Bengals 12U A",
             "awayTeamCode": "510924",
             "location": "Stroud Community Centre",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 11,
+              "scoreText": "11-9"
+            }
           }
         ],
         "nextGames": [
@@ -1202,7 +1214,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T13:10:27.641Z"
+        "lastUpdated": "2025-06-19T13:49:40.180Z"
       },
       "510925": {
         "teamCode": "510925",
@@ -1283,8 +1295,12 @@
             "awayTeam": "Innisfil Cardinals 12U A",
             "awayTeamCode": "510921",
             "location": "YEO Diamond",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 7,
+              "scoreText": "7-11"
+            }
           }
         ],
         "nextGames": [
@@ -1349,7 +1365,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T13:10:27.641Z"
+        "lastUpdated": "2025-06-19T13:49:40.180Z"
       },
       "510926": {
         "teamCode": "510926",
@@ -1500,7 +1516,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T13:10:27.642Z"
+        "lastUpdated": "2025-06-19T13:49:40.180Z"
       },
       "510927": {
         "teamCode": "510927",
@@ -1647,7 +1663,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T13:10:27.642Z"
+        "lastUpdated": "2025-06-19T13:49:40.180Z"
       },
       "510928": {
         "teamCode": "510928",
@@ -1794,7 +1810,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T13:10:27.642Z"
+        "lastUpdated": "2025-06-19T13:49:40.180Z"
       },
       "510929": {
         "teamCode": "510929",
@@ -1941,7 +1957,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T13:10:27.642Z"
+        "lastUpdated": "2025-06-19T13:49:40.180Z"
       },
       "510930": {
         "teamCode": "510930",
@@ -2092,7 +2108,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T13:10:27.642Z"
+        "lastUpdated": "2025-06-19T13:49:40.180Z"
       },
       "510931": {
         "teamCode": "510931",
@@ -2243,7 +2259,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T13:10:27.642Z"
+        "lastUpdated": "2025-06-19T13:49:40.180Z"
       },
       "510932": {
         "teamCode": "510932",
@@ -2394,7 +2410,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T13:10:27.642Z"
+        "lastUpdated": "2025-06-19T13:49:40.180Z"
       },
       "510933": {
         "teamCode": "510933",
@@ -2545,7 +2561,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T13:10:27.642Z"
+        "lastUpdated": "2025-06-19T13:49:40.180Z"
       },
       "510934": {
         "teamCode": "510934",
@@ -2692,7 +2708,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T13:10:27.642Z"
+        "lastUpdated": "2025-06-19T13:49:40.180Z"
       },
       "510935": {
         "teamCode": "510935",
@@ -2835,7 +2851,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T13:10:27.642Z"
+        "lastUpdated": "2025-06-19T13:49:40.180Z"
       },
       "510939": {
         "teamCode": "510939",
@@ -2982,7 +2998,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T13:10:27.642Z"
+        "lastUpdated": "2025-06-19T13:49:40.180Z"
       }
     },
     "allGames": [
@@ -4031,8 +4047,12 @@
         "awayTeam": "Orangeville Bengals 12U A",
         "awayTeamCode": "510924",
         "location": "Stroud Community Centre",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 11,
+          "scoreText": "11-9"
+        }
       },
       {
         "date": "2025-06-17T18:00:00.000Z",
@@ -4131,8 +4151,12 @@
         "awayTeam": "Innisfil Cardinals 12U A",
         "awayTeamCode": "510921",
         "location": "YEO Diamond",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 7,
+          "scoreText": "7-11"
+        }
       },
       {
         "date": "2025-06-19T18:15:00.000Z",
@@ -5213,8 +5237,12 @@
         "awayTeam": "Innisfil Cardinals 12U A",
         "awayTeamCode": "510921",
         "location": "YEO Diamond",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 7,
+          "scoreText": "7-11"
+        }
       },
       {
         "date": "2025-06-18T18:00:00.000Z",
@@ -5273,8 +5301,12 @@
         "awayTeam": "Orangeville Bengals 12U A",
         "awayTeamCode": "510924",
         "location": "Stroud Community Centre",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 11,
+          "scoreText": "11-9"
+        }
       },
       {
         "date": "2025-06-17T18:00:00.000Z",
@@ -5447,19 +5479,19 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-19T13:10:27.642Z",
+    "lastUpdated": "2025-06-19T13:49:40.180Z",
     "totalGames": 162
   },
   "summary": {
     "totalTeams": 10,
     "totalGames": 162,
-    "completedGames": 62,
-    "upcomingGames": 100,
+    "completedGames": 64,
+    "upcomingGames": 98,
     "topTeam": {
-      "team": "Innisfil Cardinals 12U A",
-      "teamCode": "510921",
-      "wins": 3,
-      "losses": 0,
+      "team": "Orangeville Bengals 12U A",
+      "teamCode": "510924",
+      "wins": 7,
+      "losses": 1,
       "winPercentage": "0.875"
     },
     "highestScoringGame": {
@@ -5471,6 +5503,6 @@
       "date": "Wed, Jun 11",
       "location": "Barrie Community Sports Complex - Diamond 12"
     },
-    "lastUpdated": "2025-06-19T13:14:32.978Z"
+    "lastUpdated": "2025-06-19T13:53:27.559Z"
   }
 }
