@@ -1,12 +1,18 @@
 {
   "source": "GitHub Actions",
-  "successCount": 52,
-  "errorCount": 0,
-  "errors": [],
-  "divisionsScraped": 52,
+  "successCount": 51,
+  "errorCount": 1,
+  "errors": [
+    {
+      "division": "8U-rep",
+      "tier": "no-tier",
+      "error": "net::ERR_CONNECTION_REFUSED at https://www.yorksimcoebaseball.com/Club/xStanding.aspx"
+    }
+  ],
+  "divisionsScraped": 51,
   "totalDivisions": 52,
-  "duration": 362233,
-  "generatedAt": "2025-06-19T07:44:12.216Z",
+  "duration": 415688,
+  "generatedAt": "2025-06-19T08:26:33.451Z",
   "worker": {
     "version": "1.0.0",
     "nodeVersion": "v18.20.8",
