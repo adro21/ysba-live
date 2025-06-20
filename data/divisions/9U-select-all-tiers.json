@@ -20,6 +20,24 @@
         }
       },
       {
+        "position": 7,
+        "team": "Innisfil Cardinals 9U DS",
+        "teamCode": "511110",
+        "record": {
+          "gamesPlayed": 5,
+          "wins": 4,
+          "losses": 1,
+          "ties": 0,
+          "winPercentage": "0.800"
+        },
+        "stats": {
+          "points": 8,
+          "runsFor": 88,
+          "runsAgainst": 44,
+          "runDifferential": 44
+        }
+      },
+      {
         "position": 2,
         "team": "Richmond Hill Phoenix 9U DS",
         "teamCode": "511113",
@@ -57,24 +75,6 @@
       },
       {
         "position": 8,
-        "team": "Innisfil Cardinals 9U DS",
-        "teamCode": "511110",
-        "record": {
-          "gamesPlayed": 4,
-          "wins": 3,
-          "losses": 1,
-          "ties": 0,
-          "winPercentage": "0.750"
-        },
-        "stats": {
-          "points": 6,
-          "runsFor": 74,
-          "runsAgainst": 37,
-          "runDifferential": 37
-        }
-      },
-      {
-        "position": 7,
         "team": "Collingwood Jays 9U DS",
         "teamCode": "511109",
         "record": {
@@ -240,21 +240,21 @@
         "team": "Bradford Tigers 9U DS",
         "teamCode": "511108",
         "record": {
-          "gamesPlayed": 5,
+          "gamesPlayed": 6,
           "wins": 0,
-          "losses": 5,
+          "losses": 6,
           "ties": 0,
           "winPercentage": "0.000"
         },
         "stats": {
           "points": 0,
-          "runsFor": 27,
-          "runsAgainst": 97,
-          "runDifferential": -70
+          "runsFor": 34,
+          "runsAgainst": 111,
+          "runDifferential": -77
         }
       }
     ],
-    "lastUpdated": "2025-06-19T23:44:19.673Z",
+    "lastUpdated": "2025-06-20T01:03:23.366Z",
     "totalTeams": 14
   },
   "schedule": {
@@ -396,7 +396,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T23:44:24.019Z"
+        "lastUpdated": "2025-06-20T01:03:27.687Z"
       },
       "511106": {
         "teamCode": "511106",
@@ -547,7 +547,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T23:44:24.019Z"
+        "lastUpdated": "2025-06-20T01:03:27.687Z"
       },
       "511107": {
         "teamCode": "511107",
@@ -698,7 +698,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T23:44:24.019Z"
+        "lastUpdated": "2025-06-20T01:03:27.687Z"
       },
       "511108": {
         "teamCode": "511108",
@@ -779,8 +779,12 @@
             "awayTeam": "Innisfil Cardinals 9U DS",
             "awayTeamCode": "511110",
             "location": "Nantyr Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 14,
+              "scoreText": "14-7"
+            }
           }
         ],
         "nextGames": [
@@ -845,7 +849,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T23:44:24.019Z"
+        "lastUpdated": "2025-06-20T01:03:27.687Z"
       },
       "511109": {
         "teamCode": "511109",
@@ -996,7 +1000,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T23:44:24.019Z"
+        "lastUpdated": "2025-06-20T01:03:27.687Z"
       },
       "511110": {
         "teamCode": "511110",
@@ -1077,8 +1081,12 @@
             "awayTeam": "Innisfil Cardinals 9U DS",
             "awayTeamCode": "511110",
             "location": "Nantyr Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 14,
+              "scoreText": "14-7"
+            }
           }
         ],
         "nextGames": [
@@ -1143,7 +1151,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T23:44:24.019Z"
+        "lastUpdated": "2025-06-20T01:03:27.687Z"
       },
       "511111": {
         "teamCode": "511111",
@@ -1294,7 +1302,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T23:44:24.019Z"
+        "lastUpdated": "2025-06-20T01:03:27.687Z"
       },
       "511112": {
         "teamCode": "511112",
@@ -1433,7 +1441,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T23:44:24.019Z"
+        "lastUpdated": "2025-06-20T01:03:27.687Z"
       },
       "511113": {
         "teamCode": "511113",
@@ -1584,7 +1592,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T23:44:24.019Z"
+        "lastUpdated": "2025-06-20T01:03:27.687Z"
       },
       "511114": {
         "teamCode": "511114",
@@ -1735,7 +1743,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T23:44:24.019Z"
+        "lastUpdated": "2025-06-20T01:03:27.688Z"
       },
       "511115": {
         "teamCode": "511115",
@@ -1886,7 +1894,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T23:44:24.019Z"
+        "lastUpdated": "2025-06-20T01:03:27.688Z"
       },
       "511116": {
         "teamCode": "511116",
@@ -2037,7 +2045,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T23:44:24.019Z"
+        "lastUpdated": "2025-06-20T01:03:27.688Z"
       },
       "518965": {
         "teamCode": "518965",
@@ -2188,7 +2196,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T23:44:24.019Z"
+        "lastUpdated": "2025-06-20T01:03:27.688Z"
       },
       "518966": {
         "teamCode": "518966",
@@ -2339,7 +2347,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T23:44:24.019Z"
+        "lastUpdated": "2025-06-20T01:03:27.688Z"
       }
     },
     "allGames": [
@@ -3200,8 +3208,12 @@
         "awayTeam": "Innisfil Cardinals 9U DS",
         "awayTeamCode": "511110",
         "location": "Nantyr Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 14,
+          "scoreText": "14-7"
+        }
       },
       {
         "date": "2025-06-21T10:00:00.000Z",
@@ -3910,8 +3922,12 @@
         "awayTeam": "Innisfil Cardinals 9U DS",
         "awayTeamCode": "511110",
         "location": "Nantyr Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 14,
+          "scoreText": "14-7"
+        }
       },
       {
         "date": "2025-06-15T14:00:00.000Z",
@@ -4180,14 +4196,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-19T23:44:24.019Z",
+    "lastUpdated": "2025-06-20T01:03:27.688Z",
     "totalGames": 112
   },
   "summary": {
     "totalTeams": 14,
     "totalGames": 112,
-    "completedGames": 53,
-    "upcomingGames": 59,
+    "completedGames": 54,
+    "upcomingGames": 58,
     "topTeam": {
       "team": "Midland Penetang Twins 9U DS",
       "teamCode": "511105",
@@ -4204,6 +4220,6 @@
       "date": "Sat, May 31",
       "location": "Maple Community Centre"
     },
-    "lastUpdated": "2025-06-19T23:44:46.364Z"
+    "lastUpdated": "2025-06-20T01:03:49.651Z"
   }
 }
