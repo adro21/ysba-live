@@ -56,6 +56,24 @@
         }
       },
       {
+        "position": 7,
+        "team": "Orillia Royals 15U DS",
+        "teamCode": "511102",
+        "record": {
+          "gamesPlayed": 1,
+          "wins": 1,
+          "losses": 0,
+          "ties": 0,
+          "winPercentage": "1.000"
+        },
+        "stats": {
+          "points": 2,
+          "runsFor": 14,
+          "runsAgainst": 4,
+          "runDifferential": 10
+        }
+      },
+      {
         "position": 2,
         "team": "TNT Thunder 15U DS",
         "teamCode": "511104",
@@ -96,39 +114,21 @@
         "team": "Stouffville Yankees 15U DS",
         "teamCode": "511103",
         "record": {
-          "gamesPlayed": 5,
+          "gamesPlayed": 6,
           "wins": 1,
-          "losses": 4,
+          "losses": 5,
           "ties": 0,
-          "winPercentage": "0.200"
+          "winPercentage": "0.167"
         },
         "stats": {
           "points": 2,
-          "runsFor": 26,
-          "runsAgainst": 66,
-          "runDifferential": -40
-        }
-      },
-      {
-        "position": 7,
-        "team": "Orillia Royals 15U DS",
-        "teamCode": "511102",
-        "record": {
-          "gamesPlayed": 0,
-          "wins": 0,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": ".000"
-        },
-        "stats": {
-          "points": 0,
-          "runsFor": 0,
-          "runsAgainst": 0,
-          "runDifferential": 0
+          "runsFor": 30,
+          "runsAgainst": 80,
+          "runDifferential": -50
         }
       }
     ],
-    "lastUpdated": "2025-06-20T18:25:26.003Z",
+    "lastUpdated": "2025-06-20T18:54:07.561Z",
     "totalTeams": 7
   },
   "schedule": {
@@ -258,7 +258,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T18:25:28.535Z"
+        "lastUpdated": "2025-06-20T18:54:10.540Z"
       },
       "511100": {
         "teamCode": "511100",
@@ -397,7 +397,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T18:25:28.535Z"
+        "lastUpdated": "2025-06-20T18:54:10.540Z"
       },
       "511101": {
         "teamCode": "511101",
@@ -544,7 +544,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T18:25:28.535Z"
+        "lastUpdated": "2025-06-20T18:54:10.540Z"
       },
       "511102": {
         "teamCode": "511102",
@@ -597,8 +597,12 @@
             "awayTeam": "Stouffville Yankees 15U DS",
             "awayTeamCode": "511103",
             "location": "Udell field",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 4,
+              "scoreText": "4-14"
+            }
           },
           {
             "date": "2025-06-18T18:00:00.000Z",
@@ -675,7 +679,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T18:25:28.535Z"
+        "lastUpdated": "2025-06-20T18:54:10.540Z"
       },
       "511103": {
         "teamCode": "511103",
@@ -756,8 +760,12 @@
             "awayTeam": "Stouffville Yankees 15U DS",
             "awayTeamCode": "511103",
             "location": "Udell field",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 4,
+              "scoreText": "4-14"
+            }
           }
         ],
         "nextGames": [
@@ -822,7 +830,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T18:25:28.535Z"
+        "lastUpdated": "2025-06-20T18:54:10.540Z"
       },
       "511104": {
         "teamCode": "511104",
@@ -969,7 +977,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T18:25:28.535Z"
+        "lastUpdated": "2025-06-20T18:54:10.540Z"
       },
       "511524": {
         "teamCode": "511524",
@@ -1116,7 +1124,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T18:25:28.535Z"
+        "lastUpdated": "2025-06-20T18:54:10.540Z"
       }
     },
     "allGames": [
@@ -1417,8 +1425,12 @@
         "awayTeam": "Stouffville Yankees 15U DS",
         "awayTeamCode": "511103",
         "location": "Udell field",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 4,
+          "scoreText": "4-14"
+        }
       },
       {
         "date": "2025-06-18T18:00:00.000Z",
@@ -1875,8 +1887,12 @@
         "awayTeam": "Stouffville Yankees 15U DS",
         "awayTeamCode": "511103",
         "location": "Udell field",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 4,
+          "scoreText": "4-14"
+        }
       },
       {
         "date": "2025-06-14T12:00:00.000Z",
@@ -2121,14 +2137,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-20T18:25:28.535Z",
+    "lastUpdated": "2025-06-20T18:54:10.540Z",
     "totalGames": 57
   },
   "summary": {
     "totalTeams": 7,
     "totalGames": 57,
-    "completedGames": 12,
-    "upcomingGames": 45,
+    "completedGames": 13,
+    "upcomingGames": 44,
     "topTeam": {
       "team": "Barrie Baycats 15U DS",
       "teamCode": "511524",
@@ -2145,6 +2161,6 @@
       "date": "Sat, Jun 14",
       "location": "Bethesda 2"
     },
-    "lastUpdated": "2025-06-20T18:25:28.541Z"
+    "lastUpdated": "2025-06-20T18:54:10.547Z"
   }
 }

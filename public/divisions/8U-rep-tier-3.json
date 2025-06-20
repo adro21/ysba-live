@@ -3,6 +3,24 @@
     "teams": [
       {
         "position": 1,
+        "team": "Orangeville Bengals 8U B",
+        "teamCode": "511052",
+        "record": {
+          "gamesPlayed": 7,
+          "wins": 6,
+          "losses": 1,
+          "ties": 0,
+          "winPercentage": "0.857"
+        },
+        "stats": {
+          "points": 12,
+          "runsFor": 137,
+          "runsAgainst": 87,
+          "runDifferential": 50
+        }
+      },
+      {
+        "position": 2,
         "team": "Vaughan Vikings 8U A",
         "teamCode": "518946",
         "record": {
@@ -20,25 +38,7 @@
         }
       },
       {
-        "position": 2,
-        "team": "Orangeville Bengals 8U B",
-        "teamCode": "511052",
-        "record": {
-          "gamesPlayed": 6,
-          "wins": 5,
-          "losses": 1,
-          "ties": 0,
-          "winPercentage": "0.833"
-        },
-        "stats": {
-          "points": 10,
-          "runsFor": 115,
-          "runsAgainst": 76,
-          "runDifferential": 39
-        }
-      },
-      {
-        "position": 4,
+        "position": 5,
         "team": "Markham Mariners 8U A",
         "teamCode": "511057",
         "record": {
@@ -57,6 +57,24 @@
       },
       {
         "position": 3,
+        "team": "Newmarket Hawks 8U A",
+        "teamCode": "511051",
+        "record": {
+          "gamesPlayed": 6,
+          "wins": 4,
+          "losses": 2,
+          "ties": 0,
+          "winPercentage": "0.667"
+        },
+        "stats": {
+          "points": 8,
+          "runsFor": 112,
+          "runsAgainst": 92,
+          "runDifferential": 20
+        }
+      },
+      {
+        "position": 4,
         "team": "Aurora-King Jays 8U A",
         "teamCode": "511050",
         "record": {
@@ -74,39 +92,21 @@
         }
       },
       {
-        "position": 5,
-        "team": "Newmarket Hawks 8U A",
-        "teamCode": "511051",
-        "record": {
-          "gamesPlayed": 6,
-          "wins": 3,
-          "losses": 3,
-          "ties": 0,
-          "winPercentage": "0.500"
-        },
-        "stats": {
-          "points": 6,
-          "runsFor": 106,
-          "runsAgainst": 98,
-          "runDifferential": 8
-        }
-      },
-      {
         "position": 6,
-        "team": "Richmond Hill Phoenix 8U A",
-        "teamCode": "511053",
+        "team": "Georgina Bulldogs 8U B",
+        "teamCode": "511060",
         "record": {
-          "gamesPlayed": 5,
+          "gamesPlayed": 7,
           "wins": 2,
-          "losses": 3,
+          "losses": 5,
           "ties": 0,
-          "winPercentage": "0.400"
+          "winPercentage": "0.286"
         },
         "stats": {
           "points": 4,
-          "runsFor": 66,
-          "runsAgainst": 98,
-          "runDifferential": -32
+          "runsFor": 90,
+          "runsAgainst": 112,
+          "runDifferential": -22
         }
       },
       {
@@ -129,8 +129,8 @@
       },
       {
         "position": 8,
-        "team": "Georgina Bulldogs 8U B",
-        "teamCode": "511060",
+        "team": "Richmond Hill Phoenix 8U A",
+        "teamCode": "511053",
         "record": {
           "gamesPlayed": 6,
           "wins": 1,
@@ -140,9 +140,9 @@
         },
         "stats": {
           "points": 2,
-          "runsFor": 73,
-          "runsAgainst": 105,
-          "runDifferential": -32
+          "runsFor": 71,
+          "runsAgainst": 126,
+          "runDifferential": -55
         }
       },
       {
@@ -150,21 +150,21 @@
         "team": "TNT Thunder 8U A",
         "teamCode": "511054",
         "record": {
-          "gamesPlayed": 7,
+          "gamesPlayed": 8,
           "wins": 1,
-          "losses": 6,
+          "losses": 7,
           "ties": 0,
-          "winPercentage": "0.143"
+          "winPercentage": "0.125"
         },
         "stats": {
           "points": 2,
-          "runsFor": 87,
-          "runsAgainst": 176,
-          "runDifferential": -89
+          "runsFor": 94,
+          "runsAgainst": 193,
+          "runDifferential": -99
         }
       }
     ],
-    "lastUpdated": "2025-06-20T18:19:34.983Z",
+    "lastUpdated": "2025-06-20T18:47:59.073Z",
     "totalTeams": 9
   },
   "schedule": {
@@ -310,7 +310,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T18:19:37.574Z"
+        "lastUpdated": "2025-06-20T18:48:02.016Z"
       },
       "511051": {
         "teamCode": "511051",
@@ -373,9 +373,9 @@
             "location": "Richmond Green 3",
             "isCompleted": true,
             "score": {
-              "home": 20,
-              "away": 14,
-              "scoreText": "14-20"
+              "home": 14,
+              "away": 20,
+              "scoreText": "20-14"
             }
           },
           {
@@ -453,7 +453,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T18:19:37.574Z"
+        "lastUpdated": "2025-06-20T18:48:02.016Z"
       },
       "511052": {
         "teamCode": "511052",
@@ -534,8 +534,12 @@
             "awayTeam": "Orangeville Bengals 8U B",
             "awayTeamCode": "511052",
             "location": "Richmond Green 3",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 22,
+              "scoreText": "22-11"
+            }
           }
         ],
         "nextGames": [
@@ -600,7 +604,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T18:19:37.574Z"
+        "lastUpdated": "2025-06-20T18:48:02.016Z"
       },
       "511053": {
         "teamCode": "511053",
@@ -651,9 +655,9 @@
             "location": "Richmond Green 3",
             "isCompleted": true,
             "score": {
-              "home": 20,
-              "away": 14,
-              "scoreText": "14-20"
+              "home": 14,
+              "away": 20,
+              "scoreText": "20-14"
             }
           },
           {
@@ -665,8 +669,12 @@
             "awayTeam": "Orangeville Bengals 8U B",
             "awayTeamCode": "511052",
             "location": "Richmond Green 3",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 22,
+              "scoreText": "22-11"
+            }
           },
           {
             "date": "2025-06-19T18:00:00.000Z",
@@ -743,7 +751,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T18:19:37.574Z"
+        "lastUpdated": "2025-06-20T18:48:02.016Z"
       },
       "511054": {
         "teamCode": "511054",
@@ -824,8 +832,12 @@
             "awayTeam": "Georgina Bulldogs 8U B",
             "awayTeamCode": "511060",
             "location": "Mclean diamond",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 17,
+              "scoreText": "17-7"
+            }
           }
         ],
         "nextGames": [
@@ -890,7 +902,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T18:19:37.574Z"
+        "lastUpdated": "2025-06-20T18:48:02.016Z"
       },
       "511057": {
         "teamCode": "511057",
@@ -1037,7 +1049,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T18:19:37.574Z"
+        "lastUpdated": "2025-06-20T18:48:02.016Z"
       },
       "511059": {
         "teamCode": "511059",
@@ -1184,7 +1196,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T18:19:37.574Z"
+        "lastUpdated": "2025-06-20T18:48:02.016Z"
       },
       "511060": {
         "teamCode": "511060",
@@ -1249,8 +1261,12 @@
             "awayTeam": "Georgina Bulldogs 8U B",
             "awayTeamCode": "511060",
             "location": "Mclean diamond",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 17,
+              "scoreText": "17-7"
+            }
           },
           {
             "date": "2025-06-19T18:00:00.000Z",
@@ -1327,7 +1343,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T18:19:37.574Z"
+        "lastUpdated": "2025-06-20T18:48:02.016Z"
       },
       "518946": {
         "teamCode": "518946",
@@ -1478,7 +1494,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T18:19:37.574Z"
+        "lastUpdated": "2025-06-20T18:48:02.016Z"
       }
     },
     "allGames": [
@@ -1877,9 +1893,9 @@
         "location": "Richmond Green 3",
         "isCompleted": true,
         "score": {
-          "home": 20,
-          "away": 14,
-          "scoreText": "14-20"
+          "home": 14,
+          "away": 20,
+          "scoreText": "20-14"
         }
       },
       {
@@ -1939,8 +1955,12 @@
         "awayTeam": "Georgina Bulldogs 8U B",
         "awayTeamCode": "511060",
         "location": "Mclean diamond",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 17,
+          "scoreText": "17-7"
+        }
       },
       {
         "date": "2025-06-17T18:00:00.000Z",
@@ -1951,8 +1971,12 @@
         "awayTeam": "Orangeville Bengals 8U B",
         "awayTeamCode": "511052",
         "location": "Richmond Green 3",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 22,
+          "scoreText": "22-11"
+        }
       },
       {
         "date": "2025-06-17T18:00:00.000Z",
@@ -2509,8 +2533,12 @@
         "awayTeam": "Orangeville Bengals 8U B",
         "awayTeamCode": "511052",
         "location": "Richmond Green 3",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 22,
+          "scoreText": "22-11"
+        }
       },
       {
         "date": "2025-06-17T18:00:00.000Z",
@@ -2537,8 +2565,12 @@
         "awayTeam": "Georgina Bulldogs 8U B",
         "awayTeamCode": "511060",
         "location": "Mclean diamond",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 17,
+          "scoreText": "17-7"
+        }
       },
       {
         "date": "2025-06-12T18:30:00.000Z",
@@ -2599,9 +2631,9 @@
         "location": "Richmond Green 3",
         "isCompleted": true,
         "score": {
-          "home": 20,
-          "away": 14,
-          "scoreText": "14-20"
+          "home": 14,
+          "away": 20,
+          "scoreText": "20-14"
         }
       }
     ],
@@ -2727,20 +2759,20 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-20T18:19:37.574Z",
+    "lastUpdated": "2025-06-20T18:48:02.016Z",
     "totalGames": 73
   },
   "summary": {
     "totalTeams": 9,
     "totalGames": 73,
-    "completedGames": 26,
-    "upcomingGames": 47,
+    "completedGames": 28,
+    "upcomingGames": 45,
     "topTeam": {
-      "team": "Vaughan Vikings 8U A",
-      "teamCode": "518946",
-      "wins": 5,
+      "team": "Orangeville Bengals 8U B",
+      "teamCode": "511052",
+      "wins": 6,
       "losses": 1,
-      "winPercentage": "0.833"
+      "winPercentage": "0.857"
     },
     "highestScoringGame": {
       "homeTeam": "Orangeville Bengals 8U B",
@@ -2751,6 +2783,6 @@
       "date": "Thu, May 29",
       "location": "Caledon Fairgrounds"
     },
-    "lastUpdated": "2025-06-20T18:25:28.541Z"
+    "lastUpdated": "2025-06-20T18:54:10.547Z"
   }
 }
