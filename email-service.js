@@ -689,16 +689,16 @@ class EmailService {
             return changes;
         }
 
-        // Create lookup maps for easier comparison
+        // Create lookup maps for easier comparison using team name as key
         const oldTeams = {};
         const newTeams = {};
         
-        oldStandings.forEach(team => oldTeams[team.teamCode] = team);
-        newStandings.forEach(team => newTeams[team.teamCode] = team);
+        oldStandings.forEach(team => oldTeams[team.team] = team);
+        newStandings.forEach(team => newTeams[team.team] = team);
 
         // Check each team for changes
         newStandings.forEach(newTeam => {
-            const oldTeam = oldTeams[newTeam.teamCode];
+            const oldTeam = oldTeams[newTeam.team];
             
             if (!oldTeam) {
                 // New team added (shouldn't happen during season, but just in case)
