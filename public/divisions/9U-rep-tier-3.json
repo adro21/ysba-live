@@ -78,21 +78,21 @@
         "team": "Vaughan Vikings 9U A",
         "teamCode": "518948",
         "record": {
-          "gamesPlayed": 7,
+          "gamesPlayed": 8,
           "wins": 2,
-          "losses": 4,
+          "losses": 5,
           "ties": 1,
-          "winPercentage": "0.357"
+          "winPercentage": "0.313"
         },
         "stats": {
           "points": 5,
-          "runsFor": 84,
-          "runsAgainst": 115,
-          "runDifferential": -31
+          "runsFor": 100,
+          "runsAgainst": 133,
+          "runDifferential": -33
         }
       },
       {
-        "position": 6,
+        "position": 7,
         "team": "Stouffville Yankees 9U A",
         "teamCode": "511065",
         "record": {
@@ -110,25 +110,25 @@
         }
       },
       {
-        "position": 7,
+        "position": 6,
         "team": "Orangeville Bengals 9U A",
         "teamCode": "511063",
         "record": {
-          "gamesPlayed": 6,
-          "wins": 0,
+          "gamesPlayed": 7,
+          "wins": 1,
           "losses": 6,
           "ties": 0,
-          "winPercentage": "0.000"
+          "winPercentage": "0.143"
         },
         "stats": {
-          "points": 0,
-          "runsFor": 21,
-          "runsAgainst": 111,
-          "runDifferential": -90
+          "points": 2,
+          "runsFor": 39,
+          "runsAgainst": 127,
+          "runDifferential": -88
         }
       }
     ],
-    "lastUpdated": "2025-06-20T10:16:01.114Z",
+    "lastUpdated": "2025-06-20T10:44:58.138Z",
     "totalTeams": 7
   },
   "schedule": {
@@ -278,7 +278,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T10:16:03.797Z"
+        "lastUpdated": "2025-06-20T10:45:00.821Z"
       },
       "511062": {
         "teamCode": "511062",
@@ -429,7 +429,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T10:16:03.797Z"
+        "lastUpdated": "2025-06-20T10:45:00.821Z"
       },
       "511063": {
         "teamCode": "511063",
@@ -510,8 +510,12 @@
             "awayTeam": "Vaughan Vikings 9U A",
             "awayTeamCode": "518948",
             "location": "Alton Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 18,
+              "away": 16,
+              "scoreText": "16-18"
+            }
           }
         ],
         "nextGames": [
@@ -576,7 +580,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T10:16:03.797Z"
+        "lastUpdated": "2025-06-20T10:45:00.821Z"
       },
       "511064": {
         "teamCode": "511064",
@@ -727,7 +731,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T10:16:03.797Z"
+        "lastUpdated": "2025-06-20T10:45:00.821Z"
       },
       "511065": {
         "teamCode": "511065",
@@ -874,7 +878,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T10:16:03.797Z"
+        "lastUpdated": "2025-06-20T10:45:00.821Z"
       },
       "516247": {
         "teamCode": "516247",
@@ -977,7 +981,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T10:16:03.797Z"
+        "lastUpdated": "2025-06-20T10:45:00.821Z"
       },
       "518948": {
         "teamCode": "518948",
@@ -1058,8 +1062,12 @@
             "awayTeam": "Vaughan Vikings 9U A",
             "awayTeamCode": "518948",
             "location": "Alton Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 18,
+              "away": 16,
+              "scoreText": "16-18"
+            }
           }
         ],
         "nextGames": [
@@ -1124,7 +1132,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T10:16:03.797Z"
+        "lastUpdated": "2025-06-20T10:45:00.821Z"
       }
     },
     "allGames": [
@@ -1449,8 +1457,12 @@
         "awayTeam": "Vaughan Vikings 9U A",
         "awayTeamCode": "518948",
         "location": "Alton Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 18,
+          "away": 16,
+          "scoreText": "16-18"
+        }
       },
       {
         "date": "2025-06-21T11:00:00.000Z",
@@ -1883,8 +1895,12 @@
         "awayTeam": "Vaughan Vikings 9U A",
         "awayTeamCode": "518948",
         "location": "Alton Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 18,
+          "away": 16,
+          "scoreText": "16-18"
+        }
       },
       {
         "date": "2025-06-18T18:30:00.000Z",
@@ -2149,14 +2165,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-20T10:16:03.797Z",
+    "lastUpdated": "2025-06-20T10:45:00.821Z",
     "totalGames": 56
   },
   "summary": {
     "totalTeams": 7,
     "totalGames": 56,
-    "completedGames": 18,
-    "upcomingGames": 38,
+    "completedGames": 19,
+    "upcomingGames": 37,
     "topTeam": {
       "team": "Muskoka Hornets 9U A",
       "teamCode": "516247",
@@ -2173,6 +2189,6 @@
       "date": "Sat, Jun 14",
       "location": "Dean Heliotis Diamond"
     },
-    "lastUpdated": "2025-06-20T10:21:24.239Z"
+    "lastUpdated": "2025-06-20T10:50:27.721Z"
   }
 }

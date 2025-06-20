@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-06-20T10:21:24.239Z",
+  "lastUpdated": "2025-06-20T10:50:27.721Z",
   "totalGames": 190,
   "games": [
     {
@@ -293,8 +293,12 @@
       "awayTeam": "Vaughan Vikings 9U A",
       "awayTeamCode": "518948",
       "location": "Alton Park",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 18,
+        "away": 16,
+        "scoreText": "16-18"
+      },
       "division": "9U",
       "tier": "rep-tier-3"
     },
