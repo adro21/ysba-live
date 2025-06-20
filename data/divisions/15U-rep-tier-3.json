@@ -2,7 +2,7 @@
   "standings": {
     "teams": [
       {
-        "position": 4,
+        "position": 5,
         "team": "Stouffville Yankees 15U A",
         "teamCode": "510985",
         "record": {
@@ -38,7 +38,7 @@
         }
       },
       {
-        "position": 3,
+        "position": 4,
         "team": "Aurora-King Jays 15U A",
         "teamCode": "510980",
         "record": {
@@ -110,6 +110,24 @@
         }
       },
       {
+        "position": 3,
+        "team": "Bradford Tigers 15U A",
+        "teamCode": "510982",
+        "record": {
+          "gamesPlayed": 9,
+          "wins": 4,
+          "losses": 5,
+          "ties": 0,
+          "winPercentage": "0.444"
+        },
+        "stats": {
+          "points": 8,
+          "runsFor": 74,
+          "runsAgainst": 78,
+          "runDifferential": -4
+        }
+      },
+      {
         "position": 9,
         "team": "Barrie Baycats 15U A",
         "teamCode": "510981",
@@ -128,39 +146,21 @@
         }
       },
       {
-        "position": 5,
-        "team": "Bradford Tigers 15U A",
-        "teamCode": "510982",
-        "record": {
-          "gamesPlayed": 8,
-          "wins": 3,
-          "losses": 5,
-          "ties": 0,
-          "winPercentage": "0.375"
-        },
-        "stats": {
-          "points": 6,
-          "runsFor": 63,
-          "runsAgainst": 71,
-          "runDifferential": -8
-        }
-      },
-      {
         "position": 8,
         "team": "Vaughan Vikings 15U A",
         "teamCode": "518959",
         "record": {
-          "gamesPlayed": 7,
+          "gamesPlayed": 8,
           "wins": 2,
-          "losses": 5,
+          "losses": 6,
           "ties": 0,
-          "winPercentage": "0.286"
+          "winPercentage": "0.250"
         },
         "stats": {
           "points": 4,
-          "runsFor": 56,
-          "runsAgainst": 80,
-          "runDifferential": -24
+          "runsFor": 63,
+          "runsAgainst": 91,
+          "runDifferential": -28
         }
       },
       {
@@ -182,7 +182,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-06-20T13:11:46.761Z",
+    "lastUpdated": "2025-06-20T13:50:07.504Z",
     "totalTeams": 10
   },
   "schedule": {
@@ -336,7 +336,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T13:11:51.311Z"
+        "lastUpdated": "2025-06-20T13:50:11.705Z"
       },
       "510981": {
         "teamCode": "510981",
@@ -483,7 +483,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T13:11:51.311Z"
+        "lastUpdated": "2025-06-20T13:50:11.705Z"
       },
       "510982": {
         "teamCode": "510982",
@@ -564,8 +564,12 @@
             "awayTeam": "Vaughan Vikings 15U A",
             "awayTeamCode": "518959",
             "location": "Joe Magani #4",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 7,
+              "scoreText": "7-11"
+            }
           }
         ],
         "nextGames": [
@@ -630,7 +634,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T13:11:51.311Z"
+        "lastUpdated": "2025-06-20T13:50:11.705Z"
       },
       "510983": {
         "teamCode": "510983",
@@ -781,7 +785,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T13:11:51.311Z"
+        "lastUpdated": "2025-06-20T13:50:11.705Z"
       },
       "510984": {
         "teamCode": "510984",
@@ -928,7 +932,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T13:11:51.311Z"
+        "lastUpdated": "2025-06-20T13:50:11.706Z"
       },
       "510985": {
         "teamCode": "510985",
@@ -1063,7 +1067,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T13:11:51.311Z"
+        "lastUpdated": "2025-06-20T13:50:11.706Z"
       },
       "510986": {
         "teamCode": "510986",
@@ -1210,7 +1214,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T13:11:51.311Z"
+        "lastUpdated": "2025-06-20T13:50:11.706Z"
       },
       "510987": {
         "teamCode": "510987",
@@ -1361,7 +1365,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T13:11:51.311Z"
+        "lastUpdated": "2025-06-20T13:50:11.706Z"
       },
       "510988": {
         "teamCode": "510988",
@@ -1508,7 +1512,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T13:11:51.311Z"
+        "lastUpdated": "2025-06-20T13:50:11.706Z"
       },
       "510989": {
         "teamCode": "510989",
@@ -1647,7 +1651,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T13:11:51.311Z"
+        "lastUpdated": "2025-06-20T13:50:11.706Z"
       },
       "510990": {
         "teamCode": "510990",
@@ -1798,7 +1802,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T13:11:51.311Z"
+        "lastUpdated": "2025-06-20T13:50:11.706Z"
       },
       "510991": {
         "teamCode": "510991",
@@ -1945,7 +1949,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T13:11:51.311Z"
+        "lastUpdated": "2025-06-20T13:50:11.706Z"
       },
       "510992": {
         "teamCode": "510992",
@@ -2096,7 +2100,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T13:11:51.311Z"
+        "lastUpdated": "2025-06-20T13:50:11.706Z"
       },
       "510993": {
         "teamCode": "510993",
@@ -2243,7 +2247,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T13:11:51.311Z"
+        "lastUpdated": "2025-06-20T13:50:11.706Z"
       },
       "510998": {
         "teamCode": "510998",
@@ -2326,25 +2330,25 @@
         ],
         "nextGames": [
           {
-            "date": "2025-06-24T18:00:00.000Z",
-            "dateText": "Tue, Jun 24",
-            "time": "6:00 PM",
-            "homeTeam": "Vaughan Vikings 15U A",
-            "homeTeamCode": "518959",
-            "awayTeam": "Georgina Bulldogs 15U B",
-            "awayTeamCode": "510998",
-            "location": "Sports Village",
-            "isCompleted": false,
-            "score": null
-          },
-          {
-            "date": "2025-06-25T18:30:00.000Z",
+            "date": "2025-06-25T18:00:00.000Z",
             "dateText": "Wed, Jun 25",
-            "time": "6:30 PM",
+            "time": "6:00 PM",
             "homeTeam": "Georgina Bulldogs 15U B",
             "homeTeamCode": "510998",
             "awayTeam": "Vaughan Vikings 15U A",
             "awayTeamCode": "518959",
+            "location": "ROC #1",
+            "isCompleted": false,
+            "score": null
+          },
+          {
+            "date": "2025-06-25T20:30:00.000Z",
+            "dateText": "Wed, Jun 25",
+            "time": "8:30 PM",
+            "homeTeam": "Vaughan Vikings 15U A",
+            "homeTeamCode": "518959",
+            "awayTeam": "Georgina Bulldogs 15U B",
+            "awayTeamCode": "510998",
             "location": "ROC #1",
             "isCompleted": false,
             "score": null
@@ -2386,7 +2390,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T13:11:51.311Z"
+        "lastUpdated": "2025-06-20T13:50:11.706Z"
       },
       "516244": {
         "teamCode": "516244",
@@ -2517,7 +2521,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T13:11:51.311Z"
+        "lastUpdated": "2025-06-20T13:50:11.706Z"
       },
       "518959": {
         "teamCode": "518959",
@@ -2598,31 +2602,35 @@
             "awayTeam": "Vaughan Vikings 15U A",
             "awayTeamCode": "518959",
             "location": "Joe Magani #4",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 7,
+              "scoreText": "7-11"
+            }
           }
         ],
         "nextGames": [
           {
-            "date": "2025-06-24T18:00:00.000Z",
-            "dateText": "Tue, Jun 24",
-            "time": "6:00 PM",
-            "homeTeam": "Vaughan Vikings 15U A",
-            "homeTeamCode": "518959",
-            "awayTeam": "Georgina Bulldogs 15U B",
-            "awayTeamCode": "510998",
-            "location": "Sports Village",
-            "isCompleted": false,
-            "score": null
-          },
-          {
-            "date": "2025-06-25T18:30:00.000Z",
+            "date": "2025-06-25T18:00:00.000Z",
             "dateText": "Wed, Jun 25",
-            "time": "6:30 PM",
+            "time": "6:00 PM",
             "homeTeam": "Georgina Bulldogs 15U B",
             "homeTeamCode": "510998",
             "awayTeam": "Vaughan Vikings 15U A",
             "awayTeamCode": "518959",
+            "location": "ROC #1",
+            "isCompleted": false,
+            "score": null
+          },
+          {
+            "date": "2025-06-25T20:30:00.000Z",
+            "dateText": "Wed, Jun 25",
+            "time": "8:30 PM",
+            "homeTeam": "Vaughan Vikings 15U A",
+            "homeTeamCode": "518959",
+            "awayTeam": "Georgina Bulldogs 15U B",
+            "awayTeamCode": "510998",
             "location": "ROC #1",
             "isCompleted": false,
             "score": null
@@ -2664,7 +2672,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T13:11:51.311Z"
+        "lastUpdated": "2025-06-20T13:50:11.706Z"
       },
       "546379": {
         "teamCode": "546379",
@@ -2803,7 +2811,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T13:11:51.311Z"
+        "lastUpdated": "2025-06-20T13:50:11.706Z"
       }
     },
     "allGames": [
@@ -3764,8 +3772,12 @@
         "awayTeam": "Vaughan Vikings 15U A",
         "awayTeamCode": "518959",
         "location": "Joe Magani #4",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 7,
+          "scoreText": "7-11"
+        }
       },
       {
         "date": "2025-06-20T19:00:00.000Z",
@@ -3888,18 +3900,6 @@
         "score": null
       },
       {
-        "date": "2025-06-24T18:00:00.000Z",
-        "dateText": "Tue, Jun 24",
-        "time": "6:00 PM",
-        "homeTeam": "Vaughan Vikings 15U A",
-        "homeTeamCode": "518959",
-        "awayTeam": "Georgina Bulldogs 15U B",
-        "awayTeamCode": "510998",
-        "location": "Sports Village",
-        "isCompleted": false,
-        "score": null
-      },
-      {
         "date": "2025-06-24T18:30:00.000Z",
         "dateText": "Tue, Jun 24",
         "time": "6:30 PM",
@@ -3939,6 +3939,18 @@
         "date": "2025-06-25T18:00:00.000Z",
         "dateText": "Wed, Jun 25",
         "time": "6:00 PM",
+        "homeTeam": "Georgina Bulldogs 15U B",
+        "homeTeamCode": "510998",
+        "awayTeam": "Vaughan Vikings 15U A",
+        "awayTeamCode": "518959",
+        "location": "ROC #1",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2025-06-25T18:00:00.000Z",
+        "dateText": "Wed, Jun 25",
+        "time": "6:00 PM",
         "homeTeam": "Newmarket Hawks 15U AA",
         "homeTeamCode": "510991",
         "awayTeam": "Aurora-King Jays 15U AA",
@@ -3963,23 +3975,23 @@
         "date": "2025-06-25T18:30:00.000Z",
         "dateText": "Wed, Jun 25",
         "time": "6:30 PM",
-        "homeTeam": "Georgina Bulldogs 15U B",
-        "homeTeamCode": "510998",
-        "awayTeam": "Vaughan Vikings 15U A",
-        "awayTeamCode": "518959",
-        "location": "ROC #1",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": "2025-06-25T18:30:00.000Z",
-        "dateText": "Wed, Jun 25",
-        "time": "6:30 PM",
         "homeTeam": "Collingwood Jays 15U A",
         "homeTeamCode": "510986",
         "awayTeam": "Caledon Nationals 15U A",
         "awayTeamCode": "510983",
         "location": "Legion Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2025-06-25T20:30:00.000Z",
+        "dateText": "Wed, Jun 25",
+        "time": "8:30 PM",
+        "homeTeam": "Vaughan Vikings 15U A",
+        "homeTeamCode": "518959",
+        "awayTeam": "Georgina Bulldogs 15U B",
+        "awayTeamCode": "510998",
+        "location": "ROC #1",
         "isCompleted": false,
         "score": null
       },
@@ -4966,8 +4978,12 @@
         "awayTeam": "Vaughan Vikings 15U A",
         "awayTeamCode": "518959",
         "location": "Joe Magani #4",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 7,
+          "scoreText": "7-11"
+        }
       },
       {
         "date": "2025-06-19T19:00:00.000Z",
@@ -5224,14 +5240,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-20T13:11:51.311Z",
+    "lastUpdated": "2025-06-20T13:50:11.706Z",
     "totalGames": 162
   },
   "summary": {
     "totalTeams": 10,
     "totalGames": 162,
-    "completedGames": 51,
-    "upcomingGames": 111,
+    "completedGames": 52,
+    "upcomingGames": 110,
     "topTeam": {
       "team": "Stouffville Yankees 15U A",
       "teamCode": "510985",
@@ -5248,6 +5264,6 @@
       "date": "Thu, May 29",
       "location": "Bethesda Fields #2"
     },
-    "lastUpdated": "2025-06-20T13:14:13.664Z"
+    "lastUpdated": "2025-06-20T13:52:26.760Z"
   }
 }
