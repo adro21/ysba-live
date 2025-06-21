@@ -2,21 +2,21 @@
   "standings": {
     "teams": [
       {
-        "position": 3,
+        "position": 2,
         "team": "Barrie Baycats 13U DS",
         "teamCode": "511085",
         "record": {
-          "gamesPlayed": 6,
-          "wins": 6,
+          "gamesPlayed": 8,
+          "wins": 8,
           "losses": 0,
           "ties": 0,
           "winPercentage": "1.000"
         },
         "stats": {
-          "points": 12,
-          "runsFor": 70,
-          "runsAgainst": 22,
-          "runDifferential": 48
+          "points": 16,
+          "runsFor": 96,
+          "runsAgainst": 40,
+          "runDifferential": 56
         }
       },
       {
@@ -56,7 +56,7 @@
         }
       },
       {
-        "position": 2,
+        "position": 3,
         "team": "Collingwood Jays (Grey) 13U DS",
         "teamCode": "511087",
         "record": {
@@ -71,24 +71,6 @@
           "runsFor": 97,
           "runsAgainst": 46,
           "runDifferential": 51
-        }
-      },
-      {
-        "position": 13,
-        "team": "Innisfil Cardinals 13U DS - Team 2",
-        "teamCode": "511089",
-        "record": {
-          "gamesPlayed": 3,
-          "wins": 2,
-          "losses": 1,
-          "ties": 0,
-          "winPercentage": "0.667"
-        },
-        "stats": {
-          "points": 4,
-          "runsFor": 17,
-          "runsAgainst": 27,
-          "runDifferential": -10
         }
       },
       {
@@ -179,6 +161,24 @@
           "runsFor": 32,
           "runsAgainst": 38,
           "runDifferential": -6
+        }
+      },
+      {
+        "position": 13,
+        "team": "Innisfil Cardinals 13U DS - Team 2",
+        "teamCode": "511089",
+        "record": {
+          "gamesPlayed": 5,
+          "wins": 2,
+          "losses": 3,
+          "ties": 0,
+          "winPercentage": "0.400"
+        },
+        "stats": {
+          "points": 4,
+          "runsFor": 35,
+          "runsAgainst": 53,
+          "runDifferential": -18
         }
       },
       {
@@ -290,7 +290,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-06-21T20:20:35.763Z",
+    "lastUpdated": "2025-06-21T20:44:09.516Z",
     "totalTeams": 16
   },
   "schedule": {
@@ -444,7 +444,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-21T20:20:40.200Z"
+        "lastUpdated": "2025-06-21T20:44:14.165Z"
       },
       "511085": {
         "teamCode": "511085",
@@ -509,8 +509,12 @@
             "awayTeam": "Innisfil Cardinals 13U DS - Team 2",
             "awayTeamCode": "511089",
             "location": "Lampman Lane Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 10,
+              "scoreText": "10-13"
+            }
           },
           {
             "date": "2025-06-21T12:00:00.000Z",
@@ -521,8 +525,12 @@
             "awayTeam": "Innisfil Cardinals 13U DS - Team 2",
             "awayTeamCode": "511089",
             "location": "Lampman Lane Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 8,
+              "scoreText": "8-13"
+            }
           }
         ],
         "nextGames": [
@@ -587,7 +595,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-21T20:20:40.200Z"
+        "lastUpdated": "2025-06-21T20:44:14.165Z"
       },
       "511086": {
         "teamCode": "511086",
@@ -730,7 +738,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-21T20:20:40.200Z"
+        "lastUpdated": "2025-06-21T20:44:14.165Z"
       },
       "511087": {
         "teamCode": "511087",
@@ -881,7 +889,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-21T20:20:40.200Z"
+        "lastUpdated": "2025-06-21T20:44:14.166Z"
       },
       "511088": {
         "teamCode": "511088",
@@ -1024,7 +1032,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-21T20:20:40.200Z"
+        "lastUpdated": "2025-06-21T20:44:14.166Z"
       },
       "511089": {
         "teamCode": "511089",
@@ -1085,8 +1093,12 @@
             "awayTeam": "Innisfil Cardinals 13U DS - Team 2",
             "awayTeamCode": "511089",
             "location": "Lampman Lane Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 10,
+              "scoreText": "10-13"
+            }
           },
           {
             "date": "2025-06-21T12:00:00.000Z",
@@ -1097,8 +1109,12 @@
             "awayTeam": "Innisfil Cardinals 13U DS - Team 2",
             "awayTeamCode": "511089",
             "location": "Lampman Lane Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 8,
+              "scoreText": "8-13"
+            }
           }
         ],
         "nextGames": [
@@ -1163,7 +1179,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-21T20:20:40.200Z"
+        "lastUpdated": "2025-06-21T20:44:14.166Z"
       },
       "511090": {
         "teamCode": "511090",
@@ -1310,7 +1326,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-21T20:20:40.200Z"
+        "lastUpdated": "2025-06-21T20:44:14.166Z"
       },
       "511091": {
         "teamCode": "511091",
@@ -1461,7 +1477,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-21T20:20:40.201Z"
+        "lastUpdated": "2025-06-21T20:44:14.166Z"
       },
       "511092": {
         "teamCode": "511092",
@@ -1612,7 +1628,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-21T20:20:40.201Z"
+        "lastUpdated": "2025-06-21T20:44:14.166Z"
       },
       "511093": {
         "teamCode": "511093",
@@ -1763,7 +1779,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-21T20:20:40.201Z"
+        "lastUpdated": "2025-06-21T20:44:14.166Z"
       },
       "511094": {
         "teamCode": "511094",
@@ -1914,7 +1930,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-21T20:20:40.201Z"
+        "lastUpdated": "2025-06-21T20:44:14.166Z"
       },
       "511095": {
         "teamCode": "511095",
@@ -2065,7 +2081,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-21T20:20:40.201Z"
+        "lastUpdated": "2025-06-21T20:44:14.166Z"
       },
       "511096": {
         "teamCode": "511096",
@@ -2216,7 +2232,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-21T20:20:40.201Z"
+        "lastUpdated": "2025-06-21T20:44:14.166Z"
       },
       "511097": {
         "teamCode": "511097",
@@ -2359,7 +2375,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-21T20:20:40.201Z"
+        "lastUpdated": "2025-06-21T20:44:14.166Z"
       },
       "511098": {
         "teamCode": "511098",
@@ -2510,7 +2526,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-21T20:20:40.201Z"
+        "lastUpdated": "2025-06-21T20:44:14.166Z"
       },
       "518969": {
         "teamCode": "518969",
@@ -2649,7 +2665,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-21T20:20:40.201Z"
+        "lastUpdated": "2025-06-21T20:44:14.166Z"
       }
     },
     "allGames": [
@@ -3618,8 +3634,12 @@
         "awayTeam": "Innisfil Cardinals 13U DS - Team 2",
         "awayTeamCode": "511089",
         "location": "Lampman Lane Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 10,
+          "scoreText": "10-13"
+        }
       },
       {
         "date": "2025-06-21T10:00:00.000Z",
@@ -3642,8 +3662,12 @@
         "awayTeam": "Innisfil Cardinals 13U DS - Team 2",
         "awayTeamCode": "511089",
         "location": "Lampman Lane Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 8,
+          "scoreText": "8-13"
+        }
       },
       {
         "date": "2025-06-21T12:30:00.000Z",
@@ -4460,8 +4484,12 @@
         "awayTeam": "Innisfil Cardinals 13U DS - Team 2",
         "awayTeamCode": "511089",
         "location": "Lampman Lane Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 8,
+          "scoreText": "8-13"
+        }
       },
       {
         "date": "2025-06-21T10:00:00.000Z",
@@ -4484,8 +4512,12 @@
         "awayTeam": "Innisfil Cardinals 13U DS - Team 2",
         "awayTeamCode": "511089",
         "location": "Lampman Lane Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 10,
+          "scoreText": "10-13"
+        }
       },
       {
         "date": "2025-06-18T18:30:00.000Z",
@@ -4674,18 +4706,18 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-21T20:20:40.201Z",
+    "lastUpdated": "2025-06-21T20:44:14.166Z",
     "totalGames": 128
   },
   "summary": {
     "totalTeams": 16,
     "totalGames": 128,
-    "completedGames": 56,
-    "upcomingGames": 72,
+    "completedGames": 58,
+    "upcomingGames": 70,
     "topTeam": {
       "team": "Barrie Baycats 13U DS",
       "teamCode": "511085",
-      "wins": 6,
+      "wins": 8,
       "losses": 0,
       "winPercentage": "1.000"
     },
@@ -4698,6 +4730,6 @@
       "date": "Thu, Jun 12",
       "location": "Newmarket Fairgrounds Park #1"
     },
-    "lastUpdated": "2025-06-21T20:20:48.097Z"
+    "lastUpdated": "2025-06-21T20:44:20.458Z"
   }
 }
