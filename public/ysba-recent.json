@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-06-21T18:23:39.997Z",
+  "lastUpdated": "2025-06-21T18:50:34.840Z",
   "totalGames": 190,
   "games": [
     {
@@ -509,8 +509,12 @@
       "awayTeam": "Richmond Hill Phoenix 18U A",
       "awayTeamCode": "511033",
       "location": "Beeton",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 6,
+        "away": 12,
+        "scoreText": "12-6"
+      },
       "division": "18U",
       "tier": "rep-no-tier"
     },

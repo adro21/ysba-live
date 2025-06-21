@@ -38,7 +38,7 @@
         }
       },
       {
-        "position": 6,
+        "position": 7,
         "team": "Caledon Nationals 18U AA",
         "teamCode": "511035",
         "record": {
@@ -56,25 +56,25 @@
         }
       },
       {
-        "position": 10,
+        "position": 6,
         "team": "Richmond Hill Phoenix 18U A",
         "teamCode": "511033",
         "record": {
-          "gamesPlayed": 7,
-          "wins": 4,
+          "gamesPlayed": 8,
+          "wins": 5,
           "losses": 2,
           "ties": 1,
-          "winPercentage": "0.643"
+          "winPercentage": "0.688"
         },
         "stats": {
-          "points": 9,
-          "runsFor": 51,
-          "runsAgainst": 24,
-          "runDifferential": 27
+          "points": 11,
+          "runsFor": 63,
+          "runsAgainst": 30,
+          "runDifferential": 33
         }
       },
       {
-        "position": 7,
+        "position": 8,
         "team": "Barrie Baycats 17U A",
         "teamCode": "511023",
         "record": {
@@ -128,7 +128,7 @@
         }
       },
       {
-        "position": 8,
+        "position": 9,
         "team": "Orillia Royals 18U B",
         "teamCode": "511032",
         "record": {
@@ -146,7 +146,7 @@
         }
       },
       {
-        "position": 9,
+        "position": 10,
         "team": "Collingwood Jays 18U A",
         "teamCode": "511027",
         "record": {
@@ -330,21 +330,21 @@
         "team": "TNT Thunder 18U A",
         "teamCode": "511034",
         "record": {
-          "gamesPlayed": 5,
+          "gamesPlayed": 6,
           "wins": 0,
-          "losses": 5,
+          "losses": 6,
           "ties": 0,
           "winPercentage": "0.000"
         },
         "stats": {
           "points": 0,
-          "runsFor": 6,
-          "runsAgainst": 80,
-          "runDifferential": -74
+          "runsFor": 12,
+          "runsAgainst": 92,
+          "runDifferential": -80
         }
       }
     ],
-    "lastUpdated": "2025-06-21T18:21:58.415Z",
+    "lastUpdated": "2025-06-21T18:48:47.499Z",
     "totalTeams": 19
   },
   "schedule": {
@@ -498,7 +498,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-21T18:22:02.637Z"
+        "lastUpdated": "2025-06-21T18:48:51.815Z"
       },
       "511022": {
         "teamCode": "511022",
@@ -649,7 +649,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-21T18:22:02.637Z"
+        "lastUpdated": "2025-06-21T18:48:51.815Z"
       },
       "511023": {
         "teamCode": "511023",
@@ -796,7 +796,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-21T18:22:02.637Z"
+        "lastUpdated": "2025-06-21T18:48:51.815Z"
       },
       "511024": {
         "teamCode": "511024",
@@ -947,7 +947,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-21T18:22:02.637Z"
+        "lastUpdated": "2025-06-21T18:48:51.815Z"
       },
       "511025": {
         "teamCode": "511025",
@@ -1098,7 +1098,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-21T18:22:02.637Z"
+        "lastUpdated": "2025-06-21T18:48:51.815Z"
       },
       "511026": {
         "teamCode": "511026",
@@ -1241,7 +1241,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-21T18:22:02.637Z"
+        "lastUpdated": "2025-06-21T18:48:51.815Z"
       },
       "511027": {
         "teamCode": "511027",
@@ -1392,7 +1392,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-21T18:22:02.637Z"
+        "lastUpdated": "2025-06-21T18:48:51.815Z"
       },
       "511028": {
         "teamCode": "511028",
@@ -1543,7 +1543,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-21T18:22:02.637Z"
+        "lastUpdated": "2025-06-21T18:48:51.815Z"
       },
       "511030": {
         "teamCode": "511030",
@@ -1694,7 +1694,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-21T18:22:02.637Z"
+        "lastUpdated": "2025-06-21T18:48:51.815Z"
       },
       "511031": {
         "teamCode": "511031",
@@ -1841,7 +1841,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-21T18:22:02.637Z"
+        "lastUpdated": "2025-06-21T18:48:51.815Z"
       },
       "511032": {
         "teamCode": "511032",
@@ -1992,7 +1992,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-21T18:22:02.637Z"
+        "lastUpdated": "2025-06-21T18:48:51.815Z"
       },
       "511033": {
         "teamCode": "511033",
@@ -2073,8 +2073,12 @@
             "awayTeam": "Richmond Hill Phoenix 18U A",
             "awayTeamCode": "511033",
             "location": "Beeton",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 12,
+              "scoreText": "12-6"
+            }
           }
         ],
         "nextGames": [
@@ -2139,7 +2143,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-21T18:22:02.637Z"
+        "lastUpdated": "2025-06-21T18:48:51.816Z"
       },
       "511034": {
         "teamCode": "511034",
@@ -2220,8 +2224,12 @@
             "awayTeam": "Richmond Hill Phoenix 18U A",
             "awayTeamCode": "511033",
             "location": "Beeton",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 12,
+              "scoreText": "12-6"
+            }
           }
         ],
         "nextGames": [
@@ -2286,7 +2294,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-21T18:22:02.637Z"
+        "lastUpdated": "2025-06-21T18:48:51.816Z"
       },
       "511035": {
         "teamCode": "511035",
@@ -2425,7 +2433,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-21T18:22:02.637Z"
+        "lastUpdated": "2025-06-21T18:48:51.816Z"
       },
       "516246": {
         "teamCode": "516246",
@@ -2560,7 +2568,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-21T18:22:02.637Z"
+        "lastUpdated": "2025-06-21T18:48:51.816Z"
       },
       "518960": {
         "teamCode": "518960",
@@ -2711,7 +2719,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-21T18:22:02.637Z"
+        "lastUpdated": "2025-06-21T18:48:51.816Z"
       },
       "518962": {
         "teamCode": "518962",
@@ -2862,7 +2870,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-21T18:22:02.638Z"
+        "lastUpdated": "2025-06-21T18:48:51.816Z"
       },
       "519242": {
         "teamCode": "519242",
@@ -3013,7 +3021,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-21T18:22:02.638Z"
+        "lastUpdated": "2025-06-21T18:48:51.816Z"
       },
       "546377": {
         "teamCode": "546377",
@@ -3164,7 +3172,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-21T18:22:02.638Z"
+        "lastUpdated": "2025-06-21T18:48:51.816Z"
       }
     },
     "allGames": [
@@ -4485,8 +4493,12 @@
         "awayTeam": "Richmond Hill Phoenix 18U A",
         "awayTeamCode": "511033",
         "location": "Beeton",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 12,
+          "scoreText": "12-6"
+        }
       },
       {
         "date": "2025-06-21T14:00:00.000Z",
@@ -5435,8 +5447,12 @@
         "awayTeam": "Richmond Hill Phoenix 18U A",
         "awayTeamCode": "511033",
         "location": "Beeton",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 12,
+          "scoreText": "12-6"
+        }
       },
       {
         "date": "2025-06-20T18:30:00.000Z",
@@ -5669,14 +5685,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-21T18:22:02.638Z",
+    "lastUpdated": "2025-06-21T18:48:51.816Z",
     "totalGames": 161
   },
   "summary": {
     "totalTeams": 19,
     "totalGames": 161,
-    "completedGames": 75,
-    "upcomingGames": 86,
+    "completedGames": 76,
+    "upcomingGames": 85,
     "topTeam": {
       "team": "Aurora-King Jays 18U A",
       "teamCode": "511022",
@@ -5693,6 +5709,6 @@
       "date": "Sun, Jun 1",
       "location": "David Hamilton #1"
     },
-    "lastUpdated": "2025-06-21T18:23:39.997Z"
+    "lastUpdated": "2025-06-21T18:50:34.840Z"
   }
 }
