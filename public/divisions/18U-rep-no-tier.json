@@ -38,7 +38,7 @@
         }
       },
       {
-        "position": 5,
+        "position": 6,
         "team": "Caledon Nationals 18U AA",
         "teamCode": "511035",
         "record": {
@@ -53,24 +53,6 @@
           "runsFor": 49,
           "runsAgainst": 34,
           "runDifferential": 15
-        }
-      },
-      {
-        "position": 4,
-        "team": "Aurora-King Jays 17U A",
-        "teamCode": "511021",
-        "record": {
-          "gamesPlayed": 9,
-          "wins": 6,
-          "losses": 3,
-          "ties": 0,
-          "winPercentage": "0.667"
-        },
-        "stats": {
-          "points": 12,
-          "runsFor": 59,
-          "runsAgainst": 40,
-          "runDifferential": 19
         }
       },
       {
@@ -93,6 +75,24 @@
       },
       {
         "position": 3,
+        "team": "Aurora-King Jays 17U A",
+        "teamCode": "511021",
+        "record": {
+          "gamesPlayed": 10,
+          "wins": 6,
+          "losses": 4,
+          "ties": 0,
+          "winPercentage": "0.600"
+        },
+        "stats": {
+          "points": 12,
+          "runsFor": 62,
+          "runsAgainst": 49,
+          "runDifferential": 13
+        }
+      },
+      {
+        "position": 4,
         "team": "Markham Mariners 18U A - Team 1",
         "teamCode": "511030",
         "record": {
@@ -128,21 +128,21 @@
         }
       },
       {
-        "position": 6,
+        "position": 5,
         "team": "Bradford Tigers 18U A",
         "teamCode": "511025",
         "record": {
-          "gamesPlayed": 9,
-          "wins": 4,
+          "gamesPlayed": 10,
+          "wins": 5,
           "losses": 4,
           "ties": 1,
-          "winPercentage": "0.500"
+          "winPercentage": "0.550"
         },
         "stats": {
-          "points": 9,
-          "runsFor": 77,
-          "runsAgainst": 59,
-          "runDifferential": 18
+          "points": 11,
+          "runsFor": 86,
+          "runsAgainst": 62,
+          "runDifferential": 24
         }
       },
       {
@@ -344,7 +344,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-06-20T23:42:35.323Z",
+    "lastUpdated": "2025-06-21T01:12:42.650Z",
     "totalTeams": 19
   },
   "schedule": {
@@ -428,8 +428,12 @@
             "awayTeam": "Bradford Tigers 18U A",
             "awayTeamCode": "511025",
             "location": "Lambert Wilson #4",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 3,
+              "away": 9,
+              "scoreText": "9-3"
+            }
           }
         ],
         "nextGames": [
@@ -494,7 +498,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T23:42:39.627Z"
+        "lastUpdated": "2025-06-21T01:12:46.890Z"
       },
       "511022": {
         "teamCode": "511022",
@@ -645,7 +649,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T23:42:39.627Z"
+        "lastUpdated": "2025-06-21T01:12:46.890Z"
       },
       "511023": {
         "teamCode": "511023",
@@ -788,7 +792,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T23:42:39.627Z"
+        "lastUpdated": "2025-06-21T01:12:46.890Z"
       },
       "511024": {
         "teamCode": "511024",
@@ -939,7 +943,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T23:42:39.627Z"
+        "lastUpdated": "2025-06-21T01:12:46.890Z"
       },
       "511025": {
         "teamCode": "511025",
@@ -1020,8 +1024,12 @@
             "awayTeam": "Bradford Tigers 18U A",
             "awayTeamCode": "511025",
             "location": "Lambert Wilson #4",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 3,
+              "away": 9,
+              "scoreText": "9-3"
+            }
           }
         ],
         "nextGames": [
@@ -1086,7 +1094,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T23:42:39.627Z"
+        "lastUpdated": "2025-06-21T01:12:46.890Z"
       },
       "511026": {
         "teamCode": "511026",
@@ -1229,7 +1237,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T23:42:39.627Z"
+        "lastUpdated": "2025-06-21T01:12:46.890Z"
       },
       "511027": {
         "teamCode": "511027",
@@ -1380,7 +1388,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T23:42:39.627Z"
+        "lastUpdated": "2025-06-21T01:12:46.890Z"
       },
       "511028": {
         "teamCode": "511028",
@@ -1531,7 +1539,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T23:42:39.627Z"
+        "lastUpdated": "2025-06-21T01:12:46.890Z"
       },
       "511030": {
         "teamCode": "511030",
@@ -1682,7 +1690,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T23:42:39.627Z"
+        "lastUpdated": "2025-06-21T01:12:46.890Z"
       },
       "511031": {
         "teamCode": "511031",
@@ -1829,7 +1837,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T23:42:39.627Z"
+        "lastUpdated": "2025-06-21T01:12:46.890Z"
       },
       "511032": {
         "teamCode": "511032",
@@ -1976,7 +1984,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T23:42:39.627Z"
+        "lastUpdated": "2025-06-21T01:12:46.890Z"
       },
       "511033": {
         "teamCode": "511033",
@@ -2127,7 +2135,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T23:42:39.627Z"
+        "lastUpdated": "2025-06-21T01:12:46.890Z"
       },
       "511034": {
         "teamCode": "511034",
@@ -2278,7 +2286,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T23:42:39.627Z"
+        "lastUpdated": "2025-06-21T01:12:46.890Z"
       },
       "511035": {
         "teamCode": "511035",
@@ -2425,7 +2433,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T23:42:39.627Z"
+        "lastUpdated": "2025-06-21T01:12:46.890Z"
       },
       "516246": {
         "teamCode": "516246",
@@ -2564,7 +2572,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T23:42:39.627Z"
+        "lastUpdated": "2025-06-21T01:12:46.890Z"
       },
       "518960": {
         "teamCode": "518960",
@@ -2711,7 +2719,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T23:42:39.627Z"
+        "lastUpdated": "2025-06-21T01:12:46.890Z"
       },
       "518962": {
         "teamCode": "518962",
@@ -2862,7 +2870,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T23:42:39.627Z"
+        "lastUpdated": "2025-06-21T01:12:46.890Z"
       },
       "519242": {
         "teamCode": "519242",
@@ -3013,7 +3021,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T23:42:39.627Z"
+        "lastUpdated": "2025-06-21T01:12:46.890Z"
       },
       "546377": {
         "teamCode": "546377",
@@ -3160,7 +3168,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-20T23:42:39.627Z"
+        "lastUpdated": "2025-06-21T01:12:46.890Z"
       }
     },
     "allGames": [
@@ -4429,8 +4437,12 @@
         "awayTeam": "Bradford Tigers 18U A",
         "awayTeamCode": "511025",
         "location": "Lambert Wilson #4",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 3,
+          "away": 9,
+          "scoreText": "9-3"
+        }
       },
       {
         "date": "2025-06-20T18:30:00.000Z",
@@ -5403,8 +5415,12 @@
         "awayTeam": "Bradford Tigers 18U A",
         "awayTeamCode": "511025",
         "location": "Lambert Wilson #4",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 3,
+          "away": 9,
+          "scoreText": "9-3"
+        }
       },
       {
         "date": "2025-06-18T19:15:00.000Z",
@@ -5653,14 +5669,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-20T23:42:39.627Z",
+    "lastUpdated": "2025-06-21T01:12:46.890Z",
     "totalGames": 161
   },
   "summary": {
     "totalTeams": 19,
     "totalGames": 161,
-    "completedGames": 71,
-    "upcomingGames": 90,
+    "completedGames": 72,
+    "upcomingGames": 89,
     "topTeam": {
       "team": "Aurora-King Jays 18U A",
       "teamCode": "511022",
@@ -5677,6 +5693,6 @@
       "date": "Mon, May 26",
       "location": "Cornell #1"
     },
-    "lastUpdated": "2025-06-20T23:44:21.558Z"
+    "lastUpdated": "2025-06-21T01:14:29.021Z"
   }
 }
