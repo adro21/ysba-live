@@ -2,7 +2,7 @@
   "standings": {
     "teams": [
       {
-        "position": 2,
+        "position": 3,
         "team": "Barrie Baycats 13U DS",
         "teamCode": "511085",
         "record": {
@@ -38,7 +38,7 @@
         }
       },
       {
-        "position": 1,
+        "position": 2,
         "team": "Newmarket Hawks 13U DS",
         "teamCode": "511093",
         "record": {
@@ -56,21 +56,21 @@
         }
       },
       {
-        "position": 3,
+        "position": 1,
         "team": "Collingwood Jays (Grey) 13U DS",
         "teamCode": "511087",
         "record": {
-          "gamesPlayed": 9,
-          "wins": 6,
+          "gamesPlayed": 11,
+          "wins": 8,
           "losses": 3,
           "ties": 0,
-          "winPercentage": "0.667"
+          "winPercentage": "0.727"
         },
         "stats": {
-          "points": 12,
-          "runsFor": 97,
-          "runsAgainst": 46,
-          "runDifferential": 51
+          "points": 16,
+          "runsFor": 124,
+          "runsAgainst": 51,
+          "runDifferential": 73
         }
       },
       {
@@ -258,17 +258,17 @@
         "team": "Orillia Royals 13U DS",
         "teamCode": "511094",
         "record": {
-          "gamesPlayed": 6,
+          "gamesPlayed": 8,
           "wins": 1,
-          "losses": 5,
+          "losses": 7,
           "ties": 0,
-          "winPercentage": "0.167"
+          "winPercentage": "0.125"
         },
         "stats": {
           "points": 2,
-          "runsFor": 36,
-          "runsAgainst": 57,
-          "runDifferential": -21
+          "runsFor": 41,
+          "runsAgainst": 84,
+          "runDifferential": -43
         }
       },
       {
@@ -290,7 +290,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-06-22T20:45:14.565Z",
+    "lastUpdated": "2025-06-22T21:19:13.771Z",
     "totalTeams": 16
   },
   "schedule": {
@@ -444,7 +444,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-22T20:45:18.794Z"
+        "lastUpdated": "2025-06-22T21:19:18.437Z"
       },
       "511085": {
         "teamCode": "511085",
@@ -595,7 +595,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-22T20:45:18.794Z"
+        "lastUpdated": "2025-06-22T21:19:18.437Z"
       },
       "511086": {
         "teamCode": "511086",
@@ -746,7 +746,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-22T20:45:18.794Z"
+        "lastUpdated": "2025-06-22T21:19:18.437Z"
       },
       "511087": {
         "teamCode": "511087",
@@ -811,8 +811,12 @@
             "awayTeam": "Orillia Royals 13U DS",
             "awayTeamCode": "511094",
             "location": "Central Park #1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 1,
+              "scoreText": "1-13"
+            }
           },
           {
             "date": "2025-06-22T12:00:00.000Z",
@@ -823,8 +827,12 @@
             "awayTeam": "Orillia Royals 13U DS",
             "awayTeamCode": "511094",
             "location": "Central Park #1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 4,
+              "scoreText": "4-14"
+            }
           }
         ],
         "nextGames": [
@@ -877,7 +885,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-22T20:45:18.794Z"
+        "lastUpdated": "2025-06-22T21:19:18.437Z"
       },
       "511088": {
         "teamCode": "511088",
@@ -1028,7 +1036,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-22T20:45:18.794Z"
+        "lastUpdated": "2025-06-22T21:19:18.437Z"
       },
       "511089": {
         "teamCode": "511089",
@@ -1175,7 +1183,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-22T20:45:18.794Z"
+        "lastUpdated": "2025-06-22T21:19:18.437Z"
       },
       "511090": {
         "teamCode": "511090",
@@ -1322,7 +1330,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-22T20:45:18.794Z"
+        "lastUpdated": "2025-06-22T21:19:18.437Z"
       },
       "511091": {
         "teamCode": "511091",
@@ -1473,7 +1481,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-22T20:45:18.794Z"
+        "lastUpdated": "2025-06-22T21:19:18.437Z"
       },
       "511092": {
         "teamCode": "511092",
@@ -1624,7 +1632,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-22T20:45:18.794Z"
+        "lastUpdated": "2025-06-22T21:19:18.437Z"
       },
       "511093": {
         "teamCode": "511093",
@@ -1775,7 +1783,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-22T20:45:18.794Z"
+        "lastUpdated": "2025-06-22T21:19:18.437Z"
       },
       "511094": {
         "teamCode": "511094",
@@ -1840,8 +1848,12 @@
             "awayTeam": "Orillia Royals 13U DS",
             "awayTeamCode": "511094",
             "location": "Central Park #1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 1,
+              "scoreText": "1-13"
+            }
           },
           {
             "date": "2025-06-22T12:00:00.000Z",
@@ -1852,8 +1864,12 @@
             "awayTeam": "Orillia Royals 13U DS",
             "awayTeamCode": "511094",
             "location": "Central Park #1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 4,
+              "scoreText": "4-14"
+            }
           }
         ],
         "nextGames": [
@@ -1918,7 +1934,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-22T20:45:18.794Z"
+        "lastUpdated": "2025-06-22T21:19:18.437Z"
       },
       "511095": {
         "teamCode": "511095",
@@ -2069,7 +2085,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-22T20:45:18.794Z"
+        "lastUpdated": "2025-06-22T21:19:18.437Z"
       },
       "511096": {
         "teamCode": "511096",
@@ -2220,7 +2236,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-22T20:45:18.794Z"
+        "lastUpdated": "2025-06-22T21:19:18.437Z"
       },
       "511097": {
         "teamCode": "511097",
@@ -2363,7 +2379,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-22T20:45:18.794Z"
+        "lastUpdated": "2025-06-22T21:19:18.437Z"
       },
       "511098": {
         "teamCode": "511098",
@@ -2514,7 +2530,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-22T20:45:18.795Z"
+        "lastUpdated": "2025-06-22T21:19:18.437Z"
       },
       "518969": {
         "teamCode": "518969",
@@ -2653,7 +2669,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-22T20:45:18.795Z"
+        "lastUpdated": "2025-06-22T21:19:18.437Z"
       }
     },
     "allGames": [
@@ -3710,8 +3726,12 @@
         "awayTeam": "Orillia Royals 13U DS",
         "awayTeamCode": "511094",
         "location": "Central Park #1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 1,
+          "scoreText": "1-13"
+        }
       },
       {
         "date": "2025-06-22T12:00:00.000Z",
@@ -3722,8 +3742,12 @@
         "awayTeam": "Orillia Royals 13U DS",
         "awayTeamCode": "511094",
         "location": "Central Park #1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 4,
+          "scoreText": "4-14"
+        }
       },
       {
         "date": "2025-06-24T18:00:00.000Z",
@@ -4444,8 +4468,12 @@
         "awayTeam": "Orillia Royals 13U DS",
         "awayTeamCode": "511094",
         "location": "Central Park #1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 4,
+          "scoreText": "4-14"
+        }
       },
       {
         "date": "2025-06-22T09:30:00.000Z",
@@ -4456,8 +4484,12 @@
         "awayTeam": "Orillia Royals 13U DS",
         "awayTeamCode": "511094",
         "location": "Central Park #1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 1,
+          "scoreText": "1-13"
+        }
       },
       {
         "date": "2025-06-21T15:30:00.000Z",
@@ -4702,14 +4734,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-22T20:45:18.795Z",
+    "lastUpdated": "2025-06-22T21:19:18.437Z",
     "totalGames": 128
   },
   "summary": {
     "totalTeams": 16,
     "totalGames": 128,
-    "completedGames": 60,
-    "upcomingGames": 68,
+    "completedGames": 62,
+    "upcomingGames": 66,
     "topTeam": {
       "team": "Barrie Baycats 13U DS",
       "teamCode": "511085",
@@ -4726,6 +4758,6 @@
       "date": "Thu, Jun 12",
       "location": "Newmarket Fairgrounds Park #1"
     },
-    "lastUpdated": "2025-06-22T20:45:25.068Z"
+    "lastUpdated": "2025-06-22T21:19:24.996Z"
   }
 }
