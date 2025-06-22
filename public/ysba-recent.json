@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-06-22T13:48:05.081Z",
+  "lastUpdated": "2025-06-22T14:18:30.812Z",
   "totalGames": 190,
   "games": [
     {
@@ -36,6 +36,48 @@
         "scoreText": "8-10"
       },
       "division": "10U",
+      "tier": "rep-tier-3"
+    },
+    {
+      "date": "2025-06-22T14:00:00.000Z",
+      "dateText": "Sun, Jun 22",
+      "time": "2:00 PM",
+      "homeTeam": "Stouffville Yankees 10U A",
+      "homeTeamCode": "510879",
+      "awayTeam": "Orangeville Bengals 10U A",
+      "awayTeamCode": "510877",
+      "location": "Bethesda Sports Fields",
+      "isCompleted": false,
+      "score": null,
+      "division": "10U",
+      "tier": "rep-tier-2"
+    },
+    {
+      "date": "2025-06-22T14:00:00.000Z",
+      "dateText": "Sun, Jun 22",
+      "time": "2:00 PM",
+      "homeTeam": "Stouffville Yankees 10U A",
+      "homeTeamCode": "510879",
+      "awayTeam": "Orangeville Bengals 10U A",
+      "awayTeamCode": "510877",
+      "location": "Bethesda Sports Fields",
+      "isCompleted": false,
+      "score": null,
+      "division": "10U",
+      "tier": "rep-tier-3"
+    },
+    {
+      "date": "2025-06-22T14:00:00.000Z",
+      "dateText": "Sun, Jun 22",
+      "time": "2:00 PM",
+      "homeTeam": "Muskoka Hornets 14U B",
+      "homeTeamCode": "516243",
+      "awayTeam": "Bradford Tigers 14U A",
+      "awayTeamCode": "510960",
+      "location": "McCulley Robertson",
+      "isCompleted": false,
+      "score": null,
+      "division": "14U",
       "tier": "rep-tier-3"
     },
     {
@@ -503,8 +545,12 @@
       "awayTeam": "Bradford Tigers 15U A",
       "awayTeamCode": "510982",
       "location": "David Hamilton Main Diamond",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 14,
+        "away": 4,
+        "scoreText": "4-14"
+      },
       "division": "15U",
       "tier": "rep-tier-2"
     },
@@ -517,8 +563,12 @@
       "awayTeam": "Bradford Tigers 15U A",
       "awayTeamCode": "510982",
       "location": "David Hamilton Main Diamond",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 14,
+        "away": 4,
+        "scoreText": "4-14"
+      },
       "division": "15U",
       "tier": "rep-tier-3"
     },
@@ -699,56 +749,6 @@
       "score": null,
       "division": "11U",
       "tier": "rep-tier-3"
-    },
-    {
-      "date": "2025-06-21T11:00:00.000Z",
-      "dateText": "Sat, Jun 21",
-      "time": "11:00 AM",
-      "homeTeam": "Bradford Tigers 15U AA",
-      "homeTeamCode": "510988",
-      "awayTeam": "Aurora-King Jays 15U AA",
-      "awayTeamCode": "510993",
-      "location": "Joe Magani Park #5",
-      "isCompleted": true,
-      "score": {
-        "home": 6,
-        "away": 5,
-        "scoreText": "5-6"
-      },
-      "division": "15U",
-      "tier": "rep-tier-2"
-    },
-    {
-      "date": "2025-06-21T11:00:00.000Z",
-      "dateText": "Sat, Jun 21",
-      "time": "11:00 AM",
-      "homeTeam": "Bradford Tigers 15U AA",
-      "homeTeamCode": "510988",
-      "awayTeam": "Aurora-King Jays 15U AA",
-      "awayTeamCode": "510993",
-      "location": "Joe Magani Park #5",
-      "isCompleted": true,
-      "score": {
-        "home": 6,
-        "away": 5,
-        "scoreText": "5-6"
-      },
-      "division": "15U",
-      "tier": "rep-tier-3"
-    },
-    {
-      "date": "2025-06-21T11:00:00.000Z",
-      "dateText": "Sat, Jun 21",
-      "time": "11:00 AM",
-      "homeTeam": "Muskoka Hornets 18U AA",
-      "homeTeamCode": "516246",
-      "awayTeam": "Caledon Nationals 18U AA",
-      "awayTeamCode": "511035",
-      "location": "Holm Diamond",
-      "isCompleted": false,
-      "score": null,
-      "division": "18U",
-      "tier": "rep-no-tier"
     }
   ]
 }
