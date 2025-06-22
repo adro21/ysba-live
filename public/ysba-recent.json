@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-06-22T23:19:20.441Z",
+  "lastUpdated": "2025-06-22T23:44:33.642Z",
   "totalGames": 190,
   "games": [
     {
@@ -64,6 +64,34 @@
       "isCompleted": false,
       "score": null,
       "division": "11U",
+      "tier": "rep-tier-3"
+    },
+    {
+      "date": "2025-06-22T18:30:00.000Z",
+      "dateText": "Sun, Jun 22",
+      "time": "6:30 PM",
+      "homeTeam": "Aurora-King Jays 12U AA",
+      "homeTeamCode": "510935",
+      "awayTeam": "Thornhill Reds 12U AA",
+      "awayTeamCode": "510934",
+      "location": "Lambert Wilson #3",
+      "isCompleted": false,
+      "score": null,
+      "division": "12U",
+      "tier": "rep-tier-2"
+    },
+    {
+      "date": "2025-06-22T18:30:00.000Z",
+      "dateText": "Sun, Jun 22",
+      "time": "6:30 PM",
+      "homeTeam": "Aurora-King Jays 12U AA",
+      "homeTeamCode": "510935",
+      "awayTeam": "Thornhill Reds 12U AA",
+      "awayTeamCode": "510934",
+      "location": "Lambert Wilson #3",
+      "isCompleted": false,
+      "score": null,
+      "division": "12U",
       "tier": "rep-tier-3"
     },
     {
@@ -595,8 +623,12 @@
       "awayTeam": "Newmarket Hawks 12U AA",
       "awayTeamCode": "510923",
       "location": "Bethesda Sports Complex Field 2",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 12,
+        "away": 11,
+        "scoreText": "11-12"
+      },
       "division": "12U",
       "tier": "rep-tier-2"
     },
@@ -609,8 +641,12 @@
       "awayTeam": "Newmarket Hawks 12U AA",
       "awayTeamCode": "510923",
       "location": "Bethesda Sports Complex Field 2",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 12,
+        "away": 11,
+        "scoreText": "11-12"
+      },
       "division": "12U",
       "tier": "rep-tier-3"
     },
@@ -709,42 +745,6 @@
       },
       "division": "13U",
       "tier": "select-all-tiers"
-    },
-    {
-      "date": "2025-06-21T12:30:00.000Z",
-      "dateText": "Sat, Jun 21",
-      "time": "12:30 PM",
-      "homeTeam": "Newmarket Hawks 15U AA",
-      "homeTeamCode": "510991",
-      "awayTeam": "Muskoka Hornets 15U AA",
-      "awayTeamCode": "516244",
-      "location": "McCulley-Robertson Sports Complex",
-      "isCompleted": true,
-      "score": {
-        "home": 11,
-        "away": 18,
-        "scoreText": "18-11"
-      },
-      "division": "15U",
-      "tier": "rep-tier-2"
-    },
-    {
-      "date": "2025-06-21T12:30:00.000Z",
-      "dateText": "Sat, Jun 21",
-      "time": "12:30 PM",
-      "homeTeam": "Newmarket Hawks 15U AA",
-      "homeTeamCode": "510991",
-      "awayTeam": "Muskoka Hornets 15U AA",
-      "awayTeamCode": "516244",
-      "location": "McCulley-Robertson Sports Complex",
-      "isCompleted": true,
-      "score": {
-        "home": 11,
-        "away": 18,
-        "scoreText": "18-11"
-      },
-      "division": "15U",
-      "tier": "rep-tier-3"
     }
   ]
 }
