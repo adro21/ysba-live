@@ -20,21 +20,39 @@
         }
       },
       {
-        "position": 7,
+        "position": 5,
         "team": "Innisfil Cardinals 9U DS",
         "teamCode": "511110",
         "record": {
-          "gamesPlayed": 5,
-          "wins": 4,
+          "gamesPlayed": 7,
+          "wins": 6,
           "losses": 1,
+          "ties": 0,
+          "winPercentage": "0.857"
+        },
+        "stats": {
+          "points": 12,
+          "runsFor": 116,
+          "runsAgainst": 51,
+          "runDifferential": 65
+        }
+      },
+      {
+        "position": 3,
+        "team": "Vaughan Vikings 9U DS",
+        "teamCode": "518966",
+        "record": {
+          "gamesPlayed": 10,
+          "wins": 8,
+          "losses": 2,
           "ties": 0,
           "winPercentage": "0.800"
         },
         "stats": {
-          "points": 8,
-          "runsFor": 88,
-          "runsAgainst": 44,
-          "runDifferential": 44
+          "points": 16,
+          "runsFor": 159,
+          "runsAgainst": 72,
+          "runDifferential": 87
         }
       },
       {
@@ -42,35 +60,17 @@
         "team": "Richmond Hill Phoenix 9U DS",
         "teamCode": "511113",
         "record": {
-          "gamesPlayed": 10,
-          "wins": 7,
+          "gamesPlayed": 12,
+          "wins": 9,
           "losses": 2,
           "ties": 1,
-          "winPercentage": "0.750"
+          "winPercentage": "0.792"
         },
         "stats": {
-          "points": 15,
-          "runsFor": 138,
-          "runsAgainst": 94,
-          "runDifferential": 44
-        }
-      },
-      {
-        "position": 4,
-        "team": "Vaughan Vikings 9U DS",
-        "teamCode": "518966",
-        "record": {
-          "gamesPlayed": 8,
-          "wins": 6,
-          "losses": 2,
-          "ties": 0,
-          "winPercentage": "0.750"
-        },
-        "stats": {
-          "points": 12,
-          "runsFor": 122,
-          "runsAgainst": 58,
-          "runDifferential": 64
+          "points": 19,
+          "runsFor": 168,
+          "runsAgainst": 99,
+          "runDifferential": 69
         }
       },
       {
@@ -92,7 +92,7 @@
         }
       },
       {
-        "position": 3,
+        "position": 4,
         "team": "Newmarket Hawks 9U DS",
         "teamCode": "511112",
         "record": {
@@ -110,7 +110,7 @@
         }
       },
       {
-        "position": 5,
+        "position": 6,
         "team": "Thornhill Reds 9U DS",
         "teamCode": "511114",
         "record": {
@@ -128,7 +128,7 @@
         }
       },
       {
-        "position": 6,
+        "position": 7,
         "team": "Barrie Baycats 9U DS",
         "teamCode": "511107",
         "record": {
@@ -150,17 +150,17 @@
         "team": "Markham Mariners 9U DS",
         "teamCode": "511111",
         "record": {
-          "gamesPlayed": 6,
+          "gamesPlayed": 8,
           "wins": 2,
-          "losses": 4,
+          "losses": 6,
           "ties": 0,
-          "winPercentage": "0.333"
+          "winPercentage": "0.250"
         },
         "stats": {
           "points": 4,
-          "runsFor": 57,
-          "runsAgainst": 108,
-          "runDifferential": -51
+          "runsFor": 71,
+          "runsAgainst": 145,
+          "runDifferential": -74
         }
       },
       {
@@ -204,17 +204,17 @@
         "team": "Vaughan Vikings 8U DS",
         "teamCode": "518965",
         "record": {
-          "gamesPlayed": 8,
+          "gamesPlayed": 10,
           "wins": 0,
-          "losses": 7,
+          "losses": 9,
           "ties": 1,
-          "winPercentage": "0.063"
+          "winPercentage": "0.050"
         },
         "stats": {
           "points": 1,
-          "runsFor": 77,
-          "runsAgainst": 164,
-          "runDifferential": -87
+          "runsFor": 82,
+          "runsAgainst": 194,
+          "runDifferential": -112
         }
       },
       {
@@ -222,17 +222,17 @@
         "team": "Aurora-King Jays 9U DS",
         "teamCode": "511106",
         "record": {
-          "gamesPlayed": 6,
+          "gamesPlayed": 8,
           "wins": 0,
-          "losses": 6,
+          "losses": 8,
           "ties": 0,
           "winPercentage": "0.000"
         },
         "stats": {
           "points": 0,
-          "runsFor": 37,
-          "runsAgainst": 92,
-          "runDifferential": -55
+          "runsFor": 44,
+          "runsAgainst": 120,
+          "runDifferential": -76
         }
       },
       {
@@ -254,7 +254,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-06-23T12:36:15.154Z",
+    "lastUpdated": "2025-06-23T13:16:17.799Z",
     "totalTeams": 14
   },
   "schedule": {
@@ -396,7 +396,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-23T12:36:19.843Z"
+        "lastUpdated": "2025-06-23T13:16:22.158Z"
       },
       "511106": {
         "teamCode": "511106",
@@ -461,8 +461,12 @@
             "awayTeam": "Aurora-King Jays 9U DS",
             "awayTeamCode": "511106",
             "location": "Fennels Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 3,
+              "scoreText": "3-14"
+            }
           },
           {
             "date": "2025-06-21T13:00:00.000Z",
@@ -473,8 +477,12 @@
             "awayTeam": "Aurora-King Jays 9U DS",
             "awayTeamCode": "511106",
             "location": "Fennels Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 4,
+              "scoreText": "4-14"
+            }
           }
         ],
         "nextGames": [
@@ -539,7 +547,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-23T12:36:19.843Z"
+        "lastUpdated": "2025-06-23T13:16:22.158Z"
       },
       "511107": {
         "teamCode": "511107",
@@ -682,7 +690,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-23T12:36:19.843Z"
+        "lastUpdated": "2025-06-23T13:16:22.158Z"
       },
       "511108": {
         "teamCode": "511108",
@@ -833,7 +841,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-23T12:36:19.843Z"
+        "lastUpdated": "2025-06-23T13:16:22.158Z"
       },
       "511109": {
         "teamCode": "511109",
@@ -984,7 +992,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-23T12:36:19.843Z"
+        "lastUpdated": "2025-06-23T13:16:22.158Z"
       },
       "511110": {
         "teamCode": "511110",
@@ -1049,8 +1057,12 @@
             "awayTeam": "Aurora-King Jays 9U DS",
             "awayTeamCode": "511106",
             "location": "Fennels Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 3,
+              "scoreText": "3-14"
+            }
           },
           {
             "date": "2025-06-21T13:00:00.000Z",
@@ -1061,8 +1073,12 @@
             "awayTeam": "Aurora-King Jays 9U DS",
             "awayTeamCode": "511106",
             "location": "Fennels Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 4,
+              "scoreText": "4-14"
+            }
           }
         ],
         "nextGames": [
@@ -1127,7 +1143,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-23T12:36:19.843Z"
+        "lastUpdated": "2025-06-23T13:16:22.158Z"
       },
       "511111": {
         "teamCode": "511111",
@@ -1192,8 +1208,12 @@
             "awayTeam": "Vaughan Vikings 9U DS",
             "awayTeamCode": "518966",
             "location": "Morgan Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 19,
+              "scoreText": "19-11"
+            }
           },
           {
             "date": "2025-06-21T13:00:00.000Z",
@@ -1204,8 +1224,12 @@
             "awayTeam": "Vaughan Vikings 9U DS",
             "awayTeamCode": "518966",
             "location": "Morgan Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 3,
+              "away": 18,
+              "scoreText": "18-3"
+            }
           }
         ],
         "nextGames": [
@@ -1270,7 +1294,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-23T12:36:19.843Z"
+        "lastUpdated": "2025-06-23T13:16:22.158Z"
       },
       "511112": {
         "teamCode": "511112",
@@ -1409,7 +1433,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-23T12:36:19.843Z"
+        "lastUpdated": "2025-06-23T13:16:22.158Z"
       },
       "511113": {
         "teamCode": "511113",
@@ -1474,8 +1498,12 @@
             "awayTeam": "Vaughan Vikings 8U DS",
             "awayTeamCode": "518965",
             "location": "Morgan Boyle Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 1,
+              "scoreText": "1-11"
+            }
           },
           {
             "date": "2025-06-21T12:30:00.000Z",
@@ -1486,8 +1514,12 @@
             "awayTeam": "Vaughan Vikings 8U DS",
             "awayTeamCode": "518965",
             "location": "Morgan Boyle Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 19,
+              "away": 4,
+              "scoreText": "4-19"
+            }
           }
         ],
         "nextGames": [
@@ -1540,7 +1572,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-23T12:36:19.843Z"
+        "lastUpdated": "2025-06-23T13:16:22.158Z"
       },
       "511114": {
         "teamCode": "511114",
@@ -1691,7 +1723,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-23T12:36:19.843Z"
+        "lastUpdated": "2025-06-23T13:16:22.158Z"
       },
       "511115": {
         "teamCode": "511115",
@@ -1834,7 +1866,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-23T12:36:19.843Z"
+        "lastUpdated": "2025-06-23T13:16:22.158Z"
       },
       "511116": {
         "teamCode": "511116",
@@ -1985,7 +2017,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-23T12:36:19.843Z"
+        "lastUpdated": "2025-06-23T13:16:22.158Z"
       },
       "518965": {
         "teamCode": "518965",
@@ -2050,8 +2082,12 @@
             "awayTeam": "Vaughan Vikings 8U DS",
             "awayTeamCode": "518965",
             "location": "Morgan Boyle Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 1,
+              "scoreText": "1-11"
+            }
           },
           {
             "date": "2025-06-21T12:30:00.000Z",
@@ -2062,8 +2098,12 @@
             "awayTeam": "Vaughan Vikings 8U DS",
             "awayTeamCode": "518965",
             "location": "Morgan Boyle Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 19,
+              "away": 4,
+              "scoreText": "4-19"
+            }
           }
         ],
         "nextGames": [
@@ -2128,7 +2168,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-23T12:36:19.843Z"
+        "lastUpdated": "2025-06-23T13:16:22.158Z"
       },
       "518966": {
         "teamCode": "518966",
@@ -2193,8 +2233,12 @@
             "awayTeam": "Vaughan Vikings 9U DS",
             "awayTeamCode": "518966",
             "location": "Morgan Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 19,
+              "scoreText": "19-11"
+            }
           },
           {
             "date": "2025-06-21T13:00:00.000Z",
@@ -2205,8 +2249,12 @@
             "awayTeam": "Vaughan Vikings 9U DS",
             "awayTeamCode": "518966",
             "location": "Morgan Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 3,
+              "away": 18,
+              "scoreText": "18-3"
+            }
           }
         ],
         "nextGames": [
@@ -2271,7 +2319,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-23T12:36:19.843Z"
+        "lastUpdated": "2025-06-23T13:16:22.158Z"
       }
     },
     "allGames": [
@@ -3148,8 +3196,12 @@
         "awayTeam": "Vaughan Vikings 8U DS",
         "awayTeamCode": "518965",
         "location": "Morgan Boyle Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 1,
+          "scoreText": "1-11"
+        }
       },
       {
         "date": "2025-06-21T10:30:00.000Z",
@@ -3160,8 +3212,12 @@
         "awayTeam": "Aurora-King Jays 9U DS",
         "awayTeamCode": "511106",
         "location": "Fennels Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 3,
+          "scoreText": "3-14"
+        }
       },
       {
         "date": "2025-06-21T10:30:00.000Z",
@@ -3172,8 +3228,12 @@
         "awayTeam": "Vaughan Vikings 9U DS",
         "awayTeamCode": "518966",
         "location": "Morgan Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 19,
+          "scoreText": "19-11"
+        }
       },
       {
         "date": "2025-06-21T12:30:00.000Z",
@@ -3184,8 +3244,12 @@
         "awayTeam": "Vaughan Vikings 8U DS",
         "awayTeamCode": "518965",
         "location": "Morgan Boyle Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 19,
+          "away": 4,
+          "scoreText": "4-19"
+        }
       },
       {
         "date": "2025-06-21T13:00:00.000Z",
@@ -3196,8 +3260,12 @@
         "awayTeam": "Aurora-King Jays 9U DS",
         "awayTeamCode": "511106",
         "location": "Fennels Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 4,
+          "scoreText": "4-14"
+        }
       },
       {
         "date": "2025-06-21T13:00:00.000Z",
@@ -3208,8 +3276,12 @@
         "awayTeam": "Vaughan Vikings 9U DS",
         "awayTeamCode": "518966",
         "location": "Morgan Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 3,
+          "away": 18,
+          "scoreText": "18-3"
+        }
       },
       {
         "date": "2025-06-21T15:30:00.000Z",
@@ -3870,8 +3942,12 @@
         "awayTeam": "Aurora-King Jays 9U DS",
         "awayTeamCode": "511106",
         "location": "Fennels Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 4,
+          "scoreText": "4-14"
+        }
       },
       {
         "date": "2025-06-21T13:00:00.000Z",
@@ -3882,8 +3958,12 @@
         "awayTeam": "Vaughan Vikings 9U DS",
         "awayTeamCode": "518966",
         "location": "Morgan Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 3,
+          "away": 18,
+          "scoreText": "18-3"
+        }
       },
       {
         "date": "2025-06-21T12:30:00.000Z",
@@ -3894,8 +3974,12 @@
         "awayTeam": "Vaughan Vikings 8U DS",
         "awayTeamCode": "518965",
         "location": "Morgan Boyle Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 19,
+          "away": 4,
+          "scoreText": "4-19"
+        }
       },
       {
         "date": "2025-06-21T10:30:00.000Z",
@@ -3906,8 +3990,12 @@
         "awayTeam": "Aurora-King Jays 9U DS",
         "awayTeamCode": "511106",
         "location": "Fennels Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 3,
+          "scoreText": "3-14"
+        }
       },
       {
         "date": "2025-06-21T10:30:00.000Z",
@@ -3918,8 +4006,12 @@
         "awayTeam": "Vaughan Vikings 9U DS",
         "awayTeamCode": "518966",
         "location": "Morgan Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 19,
+          "scoreText": "19-11"
+        }
       },
       {
         "date": "2025-06-21T10:00:00.000Z",
@@ -3930,8 +4022,12 @@
         "awayTeam": "Vaughan Vikings 8U DS",
         "awayTeamCode": "518965",
         "location": "Morgan Boyle Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 1,
+          "scoreText": "1-11"
+        }
       },
       {
         "date": "2025-06-16T18:00:00.000Z",
@@ -4088,14 +4184,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-23T12:36:19.843Z",
+    "lastUpdated": "2025-06-23T13:16:22.158Z",
     "totalGames": 112
   },
   "summary": {
     "totalTeams": 14,
     "totalGames": 112,
-    "completedGames": 54,
-    "upcomingGames": 58,
+    "completedGames": 60,
+    "upcomingGames": 52,
     "topTeam": {
       "team": "Midland Penetang Twins 9U DS",
       "teamCode": "511105",
@@ -4112,6 +4208,6 @@
       "date": "Sat, May 31",
       "location": "Maple Community Centre"
     },
-    "lastUpdated": "2025-06-23T12:36:43.404Z"
+    "lastUpdated": "2025-06-23T13:16:44.717Z"
   }
 }
