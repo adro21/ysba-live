@@ -39,6 +39,24 @@
       },
       {
         "position": 3,
+        "team": "Markham Mariners 11U DS",
+        "teamCode": "511079",
+        "record": {
+          "gamesPlayed": 8,
+          "wins": 6,
+          "losses": 1,
+          "ties": 1,
+          "winPercentage": "0.813"
+        },
+        "stats": {
+          "points": 13,
+          "runsFor": 75,
+          "runsAgainst": 47,
+          "runDifferential": 28
+        }
+      },
+      {
+        "position": 4,
         "team": "Midland Penetang Twins 11U DS",
         "teamCode": "511074",
         "record": {
@@ -56,25 +74,7 @@
         }
       },
       {
-        "position": 7,
-        "team": "Markham Mariners 11U DS",
-        "teamCode": "511079",
-        "record": {
-          "gamesPlayed": 6,
-          "wins": 4,
-          "losses": 1,
-          "ties": 1,
-          "winPercentage": "0.750"
-        },
-        "stats": {
-          "points": 9,
-          "runsFor": 52,
-          "runsAgainst": 33,
-          "runDifferential": 19
-        }
-      },
-      {
-        "position": 4,
+        "position": 5,
         "team": "Thornhill Reds 11U DS - Team 1",
         "teamCode": "511082",
         "record": {
@@ -114,21 +114,21 @@
         "team": "Richmond Hill Phoenix 11U DS",
         "teamCode": "511081",
         "record": {
-          "gamesPlayed": 10,
+          "gamesPlayed": 12,
           "wins": 5,
-          "losses": 5,
+          "losses": 7,
           "ties": 0,
-          "winPercentage": "0.500"
+          "winPercentage": "0.417"
         },
         "stats": {
           "points": 10,
-          "runsFor": 74,
-          "runsAgainst": 98,
-          "runDifferential": -24
+          "runsFor": 88,
+          "runsAgainst": 121,
+          "runDifferential": -33
         }
       },
       {
-        "position": 5,
+        "position": 7,
         "team": "Vaughan Vikings 10U DS",
         "teamCode": "518967",
         "record": {
@@ -236,7 +236,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-06-22T23:44:13.903Z",
+    "lastUpdated": "2025-06-23T01:19:51.626Z",
     "totalTeams": 13
   },
   "schedule": {
@@ -390,7 +390,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-22T23:44:18.574Z"
+        "lastUpdated": "2025-06-23T01:19:55.929Z"
       },
       "511075": {
         "teamCode": "511075",
@@ -541,7 +541,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-22T23:44:18.574Z"
+        "lastUpdated": "2025-06-23T01:19:55.929Z"
       },
       "511076": {
         "teamCode": "511076",
@@ -692,7 +692,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-22T23:44:18.574Z"
+        "lastUpdated": "2025-06-23T01:19:55.929Z"
       },
       "511077": {
         "teamCode": "511077",
@@ -843,7 +843,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-22T23:44:18.574Z"
+        "lastUpdated": "2025-06-23T01:19:55.930Z"
       },
       "511078": {
         "teamCode": "511078",
@@ -994,7 +994,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-22T23:44:18.574Z"
+        "lastUpdated": "2025-06-23T01:19:55.930Z"
       },
       "511079": {
         "teamCode": "511079",
@@ -1059,8 +1059,12 @@
             "awayTeam": "Markham Mariners 11U DS",
             "awayTeamCode": "511079",
             "location": "David Hamilton Park Field #2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 11,
+              "scoreText": "11-5"
+            }
           },
           {
             "date": "2025-06-22T12:15:00.000Z",
@@ -1071,8 +1075,12 @@
             "awayTeam": "Markham Mariners 11U DS",
             "awayTeamCode": "511079",
             "location": "David Hamilton Park Field #2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 12,
+              "scoreText": "12-9"
+            }
           }
         ],
         "nextGames": [
@@ -1137,7 +1145,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-22T23:44:18.574Z"
+        "lastUpdated": "2025-06-23T01:19:55.930Z"
       },
       "511080": {
         "teamCode": "511080",
@@ -1284,7 +1292,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-22T23:44:18.574Z"
+        "lastUpdated": "2025-06-23T01:19:55.930Z"
       },
       "511081": {
         "teamCode": "511081",
@@ -1349,8 +1357,12 @@
             "awayTeam": "Markham Mariners 11U DS",
             "awayTeamCode": "511079",
             "location": "David Hamilton Park Field #2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 11,
+              "scoreText": "11-5"
+            }
           },
           {
             "date": "2025-06-22T12:15:00.000Z",
@@ -1361,8 +1373,12 @@
             "awayTeam": "Markham Mariners 11U DS",
             "awayTeamCode": "511079",
             "location": "David Hamilton Park Field #2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 12,
+              "scoreText": "12-9"
+            }
           }
         ],
         "nextGames": [
@@ -1415,7 +1431,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-22T23:44:18.574Z"
+        "lastUpdated": "2025-06-23T01:19:55.930Z"
       },
       "511082": {
         "teamCode": "511082",
@@ -1566,7 +1582,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-22T23:44:18.574Z"
+        "lastUpdated": "2025-06-23T01:19:55.930Z"
       },
       "511083": {
         "teamCode": "511083",
@@ -1717,7 +1733,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-22T23:44:18.574Z"
+        "lastUpdated": "2025-06-23T01:19:55.930Z"
       },
       "518967": {
         "teamCode": "518967",
@@ -1844,7 +1860,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-22T23:44:18.574Z"
+        "lastUpdated": "2025-06-23T01:19:55.930Z"
       },
       "518968": {
         "teamCode": "518968",
@@ -1995,7 +2011,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-22T23:44:18.574Z"
+        "lastUpdated": "2025-06-23T01:19:55.930Z"
       },
       "518974": {
         "teamCode": "518974",
@@ -2146,7 +2162,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-22T23:44:18.574Z"
+        "lastUpdated": "2025-06-23T01:19:55.930Z"
       }
     },
     "allGames": [
@@ -3099,8 +3115,12 @@
         "awayTeam": "Markham Mariners 11U DS",
         "awayTeamCode": "511079",
         "location": "David Hamilton Park Field #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 5,
+          "away": 11,
+          "scoreText": "11-5"
+        }
       },
       {
         "date": "2025-06-22T12:15:00.000Z",
@@ -3111,8 +3131,12 @@
         "awayTeam": "Markham Mariners 11U DS",
         "awayTeamCode": "511079",
         "location": "David Hamilton Park Field #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 12,
+          "scoreText": "12-9"
+        }
       },
       {
         "date": "2025-06-28T10:00:00.000Z",
@@ -3653,8 +3677,12 @@
         "awayTeam": "Markham Mariners 11U DS",
         "awayTeamCode": "511079",
         "location": "David Hamilton Park Field #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 12,
+          "scoreText": "12-9"
+        }
       },
       {
         "date": "2025-06-22T10:00:00.000Z",
@@ -3665,8 +3693,12 @@
         "awayTeam": "Markham Mariners 11U DS",
         "awayTeamCode": "511079",
         "location": "David Hamilton Park Field #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 5,
+          "away": 11,
+          "scoreText": "11-5"
+        }
       },
       {
         "date": "2025-06-21T15:45:00.000Z",
@@ -3919,14 +3951,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-22T23:44:18.574Z",
+    "lastUpdated": "2025-06-23T01:19:55.930Z",
     "totalGames": 106
   },
   "summary": {
     "totalTeams": 13,
     "totalGames": 106,
-    "completedGames": 55,
-    "upcomingGames": 51,
+    "completedGames": 57,
+    "upcomingGames": 49,
     "topTeam": {
       "team": "Vaughan Vikings 11U DS",
       "teamCode": "518968",
@@ -3943,6 +3975,6 @@
       "date": "Sat, May 24",
       "location": "Mansfield Park"
     },
-    "lastUpdated": "2025-06-22T23:44:33.642Z"
+    "lastUpdated": "2025-06-23T01:20:09.837Z"
   }
 }
