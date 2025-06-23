@@ -38,25 +38,25 @@
         }
       },
       {
-        "position": 3,
+        "position": 2,
         "team": "Caledon Nationals 14U A",
         "teamCode": "510961",
         "record": {
-          "gamesPlayed": 7,
-          "wins": 5,
+          "gamesPlayed": 8,
+          "wins": 6,
           "losses": 2,
           "ties": 0,
-          "winPercentage": "0.714"
+          "winPercentage": "0.750"
         },
         "stats": {
-          "points": 10,
-          "runsFor": 72,
-          "runsAgainst": 47,
-          "runDifferential": 25
+          "points": 12,
+          "runsFor": 85,
+          "runsAgainst": 57,
+          "runDifferential": 28
         }
       },
       {
-        "position": 2,
+        "position": 3,
         "team": "Stouffville Yankees 14U A",
         "teamCode": "510966",
         "record": {
@@ -74,61 +74,61 @@
         }
       },
       {
-        "position": 4,
+        "position": 6,
         "team": "Vaughan Vikings 14U A",
         "teamCode": "518957",
         "record": {
-          "gamesPlayed": 7,
+          "gamesPlayed": 8,
           "wins": 4,
-          "losses": 2,
+          "losses": 3,
           "ties": 1,
-          "winPercentage": "0.643"
+          "winPercentage": "0.563"
         },
         "stats": {
           "points": 9,
-          "runsFor": 70,
-          "runsAgainst": 50,
-          "runDifferential": 20
+          "runsFor": 72,
+          "runsAgainst": 54,
+          "runDifferential": 18
         }
       },
       {
-        "position": 7,
+        "position": 4,
         "team": "Muskoka Hornets 14U B",
         "teamCode": "516243",
         "record": {
-          "gamesPlayed": 8,
-          "wins": 4,
+          "gamesPlayed": 9,
+          "wins": 5,
           "losses": 4,
           "ties": 0,
-          "winPercentage": "0.500"
+          "winPercentage": "0.556"
         },
         "stats": {
-          "points": 8,
-          "runsFor": 73,
-          "runsAgainst": 68,
+          "points": 10,
+          "runsFor": 88,
+          "runsAgainst": 78,
+          "runDifferential": 10
+        }
+      },
+      {
+        "position": 5,
+        "team": "Midland Penetang Twins 14U B",
+        "teamCode": "510979",
+        "record": {
+          "gamesPlayed": 9,
+          "wins": 5,
+          "losses": 4,
+          "ties": 0,
+          "winPercentage": "0.556"
+        },
+        "stats": {
+          "points": 10,
+          "runsFor": 87,
+          "runsAgainst": 82,
           "runDifferential": 5
         }
       },
       {
         "position": 8,
-        "team": "Midland Penetang Twins 14U B",
-        "teamCode": "510979",
-        "record": {
-          "gamesPlayed": 8,
-          "wins": 4,
-          "losses": 4,
-          "ties": 0,
-          "winPercentage": "0.500"
-        },
-        "stats": {
-          "points": 8,
-          "runsFor": 83,
-          "runsAgainst": 80,
-          "runDifferential": 3
-        }
-      },
-      {
-        "position": 6,
         "team": "Thornhill Reds 14U A",
         "teamCode": "510965",
         "record": {
@@ -146,7 +146,7 @@
         }
       },
       {
-        "position": 5,
+        "position": 7,
         "team": "Collingwood Jays 14U A",
         "teamCode": "510962",
         "record": {
@@ -182,24 +182,6 @@
         }
       },
       {
-        "position": 11,
-        "team": "Bradford Tigers 14U A",
-        "teamCode": "510960",
-        "record": {
-          "gamesPlayed": 6,
-          "wins": 1,
-          "losses": 5,
-          "ties": 0,
-          "winPercentage": "0.167"
-        },
-        "stats": {
-          "points": 2,
-          "runsFor": 45,
-          "runsAgainst": 88,
-          "runDifferential": -43
-        }
-      },
-      {
         "position": 12,
         "team": "Ontario Women's",
         "teamCode": "546378",
@@ -218,9 +200,9 @@
         }
       },
       {
-        "position": 10,
-        "team": "Aurora-King Jays 14U A",
-        "teamCode": "510958",
+        "position": 11,
+        "team": "Bradford Tigers 14U A",
+        "teamCode": "510960",
         "record": {
           "gamesPlayed": 7,
           "wins": 1,
@@ -230,13 +212,31 @@
         },
         "stats": {
           "points": 2,
-          "runsFor": 45,
-          "runsAgainst": 97,
-          "runDifferential": -52
+          "runsFor": 55,
+          "runsAgainst": 103,
+          "runDifferential": -48
+        }
+      },
+      {
+        "position": 10,
+        "team": "Aurora-King Jays 14U A",
+        "teamCode": "510958",
+        "record": {
+          "gamesPlayed": 8,
+          "wins": 1,
+          "losses": 7,
+          "ties": 0,
+          "winPercentage": "0.125"
+        },
+        "stats": {
+          "points": 2,
+          "runsFor": 55,
+          "runsAgainst": 110,
+          "runDifferential": -55
         }
       }
     ],
-    "lastUpdated": "2025-06-23T10:20:21.020Z",
+    "lastUpdated": "2025-06-23T10:48:51.012Z",
     "totalTeams": 13
   },
   "schedule": {
@@ -288,8 +288,12 @@
             "awayTeam": "Aurora-King Jays 14U A",
             "awayTeamCode": "510958",
             "location": "North Hill #3",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 10,
+              "scoreText": "10-13"
+            }
           },
           {
             "date": "2025-06-10T19:00:00.000Z",
@@ -386,7 +390,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-23T10:20:25.587Z"
+        "lastUpdated": "2025-06-23T10:48:55.292Z"
       },
       "510959": {
         "teamCode": "510959",
@@ -533,7 +537,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-23T10:20:25.587Z"
+        "lastUpdated": "2025-06-23T10:48:55.292Z"
       },
       "510960": {
         "teamCode": "510960",
@@ -614,8 +618,12 @@
             "awayTeam": "Bradford Tigers 14U A",
             "awayTeamCode": "510960",
             "location": "McCulley Robertson",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 15,
+              "away": 10,
+              "scoreText": "10-15"
+            }
           }
         ],
         "nextGames": [
@@ -680,7 +688,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-23T10:20:25.587Z"
+        "lastUpdated": "2025-06-23T10:48:55.292Z"
       },
       "510961": {
         "teamCode": "510961",
@@ -713,8 +721,12 @@
             "awayTeam": "Aurora-King Jays 14U A",
             "awayTeamCode": "510958",
             "location": "North Hill #3",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 10,
+              "scoreText": "10-13"
+            }
           },
           {
             "date": "2025-06-11T18:00:00.000Z",
@@ -827,7 +839,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-23T10:20:25.587Z"
+        "lastUpdated": "2025-06-23T10:48:55.292Z"
       },
       "510962": {
         "teamCode": "510962",
@@ -978,7 +990,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-23T10:20:25.587Z"
+        "lastUpdated": "2025-06-23T10:48:55.292Z"
       },
       "510963": {
         "teamCode": "510963",
@@ -1125,7 +1137,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-23T10:20:25.587Z"
+        "lastUpdated": "2025-06-23T10:48:55.292Z"
       },
       "510964": {
         "teamCode": "510964",
@@ -1276,7 +1288,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-23T10:20:25.587Z"
+        "lastUpdated": "2025-06-23T10:48:55.292Z"
       },
       "510965": {
         "teamCode": "510965",
@@ -1427,7 +1439,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-23T10:20:25.587Z"
+        "lastUpdated": "2025-06-23T10:48:55.292Z"
       },
       "510966": {
         "teamCode": "510966",
@@ -1578,7 +1590,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-23T10:20:25.587Z"
+        "lastUpdated": "2025-06-23T10:48:55.292Z"
       },
       "510979": {
         "teamCode": "510979",
@@ -1627,8 +1639,12 @@
             "awayTeam": "Vaughan Vikings 14U A",
             "awayTeamCode": "518957",
             "location": "Tiffin Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 2,
+              "scoreText": "2-4"
+            }
           },
           {
             "date": "2025-06-21T16:00:00.000Z",
@@ -1721,7 +1737,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-23T10:20:25.587Z"
+        "lastUpdated": "2025-06-23T10:48:55.292Z"
       },
       "516243": {
         "teamCode": "516243",
@@ -1802,8 +1818,12 @@
             "awayTeam": "Bradford Tigers 14U A",
             "awayTeamCode": "510960",
             "location": "McCulley Robertson",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 15,
+              "away": 10,
+              "scoreText": "10-15"
+            }
           }
         ],
         "nextGames": [
@@ -1868,7 +1888,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-23T10:20:25.588Z"
+        "lastUpdated": "2025-06-23T10:48:55.292Z"
       },
       "518957": {
         "teamCode": "518957",
@@ -1933,8 +1953,12 @@
             "awayTeam": "Vaughan Vikings 14U A",
             "awayTeamCode": "518957",
             "location": "Tiffin Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 2,
+              "scoreText": "2-4"
+            }
           },
           {
             "date": "2025-06-21T16:00:00.000Z",
@@ -2011,7 +2035,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-23T10:20:25.588Z"
+        "lastUpdated": "2025-06-23T10:48:55.292Z"
       },
       "546378": {
         "teamCode": "546378",
@@ -2158,7 +2182,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-23T10:20:25.588Z"
+        "lastUpdated": "2025-06-23T10:48:55.292Z"
       }
     },
     "allGames": [
@@ -2639,8 +2663,12 @@
         "awayTeam": "Aurora-King Jays 14U A",
         "awayTeamCode": "510958",
         "location": "North Hill #3",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 10,
+          "scoreText": "10-13"
+        }
       },
       {
         "date": "2025-06-10T19:00:00.000Z",
@@ -2919,8 +2947,12 @@
         "awayTeam": "Vaughan Vikings 14U A",
         "awayTeamCode": "518957",
         "location": "Tiffin Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 2,
+          "scoreText": "2-4"
+        }
       },
       {
         "date": "2025-06-21T16:00:00.000Z",
@@ -2959,8 +2991,12 @@
         "awayTeam": "Bradford Tigers 14U A",
         "awayTeamCode": "510960",
         "location": "McCulley Robertson",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 15,
+          "away": 10,
+          "scoreText": "10-15"
+        }
       },
       {
         "date": "2025-06-22T15:00:00.000Z",
@@ -3949,8 +3985,12 @@
         "awayTeam": "Bradford Tigers 14U A",
         "awayTeamCode": "510960",
         "location": "McCulley Robertson",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 15,
+          "away": 10,
+          "scoreText": "10-15"
+        }
       },
       {
         "date": "2025-06-22T11:00:00.000Z",
@@ -3989,8 +4029,12 @@
         "awayTeam": "Vaughan Vikings 14U A",
         "awayTeamCode": "518957",
         "location": "Tiffin Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 2,
+          "scoreText": "2-4"
+        }
       },
       {
         "date": "2025-06-20T19:00:00.000Z",
@@ -4175,14 +4219,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-23T10:20:25.588Z",
+    "lastUpdated": "2025-06-23T10:48:55.292Z",
     "totalGames": 130
   },
   "summary": {
     "totalTeams": 13,
     "totalGames": 130,
-    "completedGames": 46,
-    "upcomingGames": 84,
+    "completedGames": 49,
+    "upcomingGames": 81,
     "topTeam": {
       "team": "Richmond Hill Phoenix 14U A",
       "teamCode": "510964",
@@ -4199,6 +4243,6 @@
       "date": "Mon, May 19",
       "location": "Joe Magani Field #5"
     },
-    "lastUpdated": "2025-06-23T10:23:24.255Z"
+    "lastUpdated": "2025-06-23T10:51:40.649Z"
   }
 }

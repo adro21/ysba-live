@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-06-23T10:23:24.255Z",
+  "lastUpdated": "2025-06-23T10:51:40.649Z",
   "totalGames": 190,
   "games": [
     {
@@ -217,8 +217,12 @@
       "awayTeam": "Bradford Tigers 14U A",
       "awayTeamCode": "510960",
       "location": "McCulley Robertson",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 15,
+        "away": 10,
+        "scoreText": "10-15"
+      },
       "division": "14U",
       "tier": "rep-tier-3"
     },
@@ -701,8 +705,12 @@
       "awayTeam": "Vaughan Vikings 14U A",
       "awayTeamCode": "518957",
       "location": "Tiffin Park",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 4,
+        "away": 2,
+        "scoreText": "2-4"
+      },
       "division": "14U",
       "tier": "rep-tier-3"
     },
