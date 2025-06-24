@@ -2,39 +2,21 @@
   "standings": {
     "teams": [
       {
-        "position": 5,
-        "team": "Muskoka Hornets 9U A",
-        "teamCode": "516247",
-        "record": {
-          "gamesPlayed": 2,
-          "wins": 2,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": "1.000"
-        },
-        "stats": {
-          "points": 4,
-          "runsFor": 38,
-          "runsAgainst": 3,
-          "runDifferential": 35
-        }
-      },
-      {
         "position": 1,
         "team": "Orillia Royals 9U A",
         "teamCode": "511064",
         "record": {
-          "gamesPlayed": 6,
-          "wins": 5,
+          "gamesPlayed": 8,
+          "wins": 7,
           "losses": 1,
           "ties": 0,
-          "winPercentage": "0.833"
+          "winPercentage": "0.875"
         },
         "stats": {
-          "points": 10,
-          "runsFor": 105,
-          "runsAgainst": 52,
-          "runDifferential": 53
+          "points": 14,
+          "runsFor": 131,
+          "runsAgainst": 65,
+          "runDifferential": 66
         }
       },
       {
@@ -42,17 +24,17 @@
         "team": "Newmarket Hawks 9U A",
         "teamCode": "511062",
         "record": {
-          "gamesPlayed": 6,
-          "wins": 4,
+          "gamesPlayed": 7,
+          "wins": 5,
           "losses": 1,
           "ties": 1,
-          "winPercentage": "0.750"
+          "winPercentage": "0.786"
         },
         "stats": {
-          "points": 9,
-          "runsFor": 87,
-          "runsAgainst": 42,
-          "runDifferential": 45
+          "points": 11,
+          "runsFor": 104,
+          "runsAgainst": 44,
+          "runDifferential": 60
         }
       },
       {
@@ -74,61 +56,79 @@
         }
       },
       {
+        "position": 6,
+        "team": "Muskoka Hornets 9U A",
+        "teamCode": "516247",
+        "record": {
+          "gamesPlayed": 4,
+          "wins": 2,
+          "losses": 2,
+          "ties": 0,
+          "winPercentage": "0.500"
+        },
+        "stats": {
+          "points": 4,
+          "runsFor": 51,
+          "runsAgainst": 29,
+          "runDifferential": 22
+        }
+      },
+      {
         "position": 4,
         "team": "Vaughan Vikings 9U A",
         "teamCode": "518948",
         "record": {
-          "gamesPlayed": 7,
+          "gamesPlayed": 8,
           "wins": 2,
-          "losses": 4,
+          "losses": 5,
           "ties": 1,
-          "winPercentage": "0.357"
+          "winPercentage": "0.313"
         },
         "stats": {
           "points": 5,
-          "runsFor": 84,
-          "runsAgainst": 115,
-          "runDifferential": -31
+          "runsFor": 100,
+          "runsAgainst": 133,
+          "runDifferential": -33
         }
       },
       {
-        "position": 6,
-        "team": "Stouffville Yankees 9U A",
-        "teamCode": "511065",
+        "position": 5,
+        "team": "Orangeville Bengals 9U A",
+        "teamCode": "511063",
         "record": {
-          "gamesPlayed": 5,
-          "wins": 1,
-          "losses": 4,
+          "gamesPlayed": 9,
+          "wins": 2,
+          "losses": 7,
           "ties": 0,
-          "winPercentage": "0.200"
+          "winPercentage": "0.222"
         },
         "stats": {
-          "points": 2,
-          "runsFor": 37,
-          "runsAgainst": 78,
-          "runDifferential": -41
+          "points": 4,
+          "runsFor": 56,
+          "runsAgainst": 153,
+          "runDifferential": -97
         }
       },
       {
         "position": 7,
-        "team": "Orangeville Bengals 9U A",
-        "teamCode": "511063",
+        "team": "Stouffville Yankees 9U A",
+        "teamCode": "511065",
         "record": {
           "gamesPlayed": 6,
-          "wins": 0,
-          "losses": 6,
+          "wins": 1,
+          "losses": 5,
           "ties": 0,
-          "winPercentage": "0.000"
+          "winPercentage": "0.167"
         },
         "stats": {
-          "points": 0,
-          "runsFor": 21,
-          "runsAgainst": 111,
-          "runDifferential": -90
+          "points": 2,
+          "runsFor": 46,
+          "runsAgainst": 93,
+          "runDifferential": -47
         }
       }
     ],
-    "lastUpdated": "2025-06-19T23:39:21.792Z",
+    "lastUpdated": "2025-06-23T23:38:14.816Z",
     "totalTeams": 7
   },
   "schedule": {
@@ -278,30 +278,14 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T23:39:24.409Z"
+        "lastUpdated": "2025-06-23T23:38:17.770Z"
       },
       "511062": {
         "teamCode": "511062",
         "totalGames": 16,
-        "playedGames": 6,
-        "upcomingGames": 10,
+        "playedGames": 7,
+        "upcomingGames": 9,
         "recentGames": [
-          {
-            "date": "2025-05-28T18:30:00.000Z",
-            "dateText": "Wed, May 28",
-            "time": "6:30 PM",
-            "homeTeam": "Newmarket Hawks 9U A",
-            "homeTeamCode": "511062",
-            "awayTeam": "Orillia Royals 9U A",
-            "awayTeamCode": "511064",
-            "location": "Fairgrounds #2",
-            "isCompleted": true,
-            "score": {
-              "home": 14,
-              "away": 4,
-              "scoreText": "4-14"
-            }
-          },
           {
             "date": "2025-05-31T15:00:00.000Z",
             "dateText": "Sat, May 31",
@@ -365,9 +349,7 @@
               "away": 9,
               "scoreText": "9-20"
             }
-          }
-        ],
-        "nextGames": [
+          },
           {
             "date": "2025-06-21T15:00:00.000Z",
             "dateText": "Sat, Jun 21",
@@ -377,9 +359,15 @@
             "awayTeam": "Orangeville Bengals 9U A",
             "awayTeamCode": "511063",
             "location": "Fairgrounds #2",
-            "isCompleted": false,
-            "score": null
-          },
+            "isCompleted": true,
+            "score": {
+              "home": 17,
+              "away": 2,
+              "scoreText": "2-17"
+            }
+          }
+        ],
+        "nextGames": [
           {
             "date": "2025-06-25T18:30:00.000Z",
             "dateText": "Wed, Jun 25",
@@ -427,48 +415,28 @@
             "location": "Fairgrounds #2",
             "isCompleted": false,
             "score": null
+          },
+          {
+            "date": "2025-07-17T18:00:00.000Z",
+            "dateText": "Thu, Jul 17",
+            "time": "6:00 PM",
+            "homeTeam": "Orangeville Bengals 9U A",
+            "homeTeamCode": "511063",
+            "awayTeam": "Newmarket Hawks 9U A",
+            "awayTeamCode": "511062",
+            "location": "Alton Park",
+            "isCompleted": false,
+            "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T23:39:24.409Z"
+        "lastUpdated": "2025-06-23T23:38:17.770Z"
       },
       "511063": {
         "teamCode": "511063",
         "totalGames": 16,
-        "playedGames": 8,
-        "upcomingGames": 8,
+        "playedGames": 10,
+        "upcomingGames": 6,
         "recentGames": [
-          {
-            "date": "2025-06-12T18:00:00.000Z",
-            "dateText": "Thu, Jun 12",
-            "time": "6:00 PM",
-            "homeTeam": "Orangeville Bengals 9U A",
-            "homeTeamCode": "511063",
-            "awayTeam": "Markham Mariners 9U A",
-            "awayTeamCode": "511061",
-            "location": "Alton Park",
-            "isCompleted": true,
-            "score": {
-              "home": 2,
-              "away": 19,
-              "scoreText": "19-2"
-            }
-          },
-          {
-            "date": "2025-06-14T11:00:00.000Z",
-            "dateText": "Sat, Jun 14",
-            "time": "11:00 AM",
-            "homeTeam": "Muskoka Hornets 9U A",
-            "homeTeamCode": "516247",
-            "awayTeam": "Orangeville Bengals 9U A",
-            "awayTeamCode": "511063",
-            "location": "Wharf Field",
-            "isCompleted": true,
-            "score": {
-              "home": 20,
-              "away": 3,
-              "scoreText": "3-20"
-            }
-          },
           {
             "date": "2025-06-14T14:00:00.000Z",
             "dateText": "Sat, Jun 14",
@@ -510,11 +478,13 @@
             "awayTeam": "Vaughan Vikings 9U A",
             "awayTeamCode": "518948",
             "location": "Alton Park",
-            "isCompleted": false,
-            "score": null
-          }
-        ],
-        "nextGames": [
+            "isCompleted": true,
+            "score": {
+              "home": 18,
+              "away": 16,
+              "scoreText": "16-18"
+            }
+          },
           {
             "date": "2025-06-21T15:00:00.000Z",
             "dateText": "Sat, Jun 21",
@@ -524,8 +494,12 @@
             "awayTeam": "Orangeville Bengals 9U A",
             "awayTeamCode": "511063",
             "location": "Fairgrounds #2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 17,
+              "away": 2,
+              "scoreText": "2-17"
+            }
           },
           {
             "date": "2025-06-22T18:00:00.000Z",
@@ -536,9 +510,15 @@
             "awayTeam": "Orangeville Bengals 9U A",
             "awayTeamCode": "511063",
             "location": "Rupert Park",
-            "isCompleted": false,
-            "score": null
-          },
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 15,
+              "scoreText": "15-9"
+            }
+          }
+        ],
+        "nextGames": [
           {
             "date": "2025-07-05T11:30:00.000Z",
             "dateText": "Sat, Jul 5",
@@ -574,48 +554,40 @@
             "location": "Alton Park",
             "isCompleted": false,
             "score": null
+          },
+          {
+            "date": "2025-07-24T18:00:00.000Z",
+            "dateText": "Thu, Jul 24",
+            "time": "6:00 PM",
+            "homeTeam": "Orangeville Bengals 9U A",
+            "homeTeamCode": "511063",
+            "awayTeam": "Stouffville Yankees 9U A",
+            "awayTeamCode": "511065",
+            "location": "Alton Park",
+            "isCompleted": false,
+            "score": null
+          },
+          {
+            "date": "2025-07-28T18:00:00.000Z",
+            "dateText": "Mon, Jul 28",
+            "time": "6:00 PM",
+            "homeTeam": "Vaughan Vikings 9U A",
+            "homeTeamCode": "518948",
+            "awayTeam": "Orangeville Bengals 9U A",
+            "awayTeamCode": "511063",
+            "location": "Concord Regional #4",
+            "isCompleted": false,
+            "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T23:39:24.409Z"
+        "lastUpdated": "2025-06-23T23:38:17.770Z"
       },
       "511064": {
         "teamCode": "511064",
         "totalGames": 16,
-        "playedGames": 6,
-        "upcomingGames": 10,
+        "playedGames": 8,
+        "upcomingGames": 8,
         "recentGames": [
-          {
-            "date": "2025-06-07T13:00:00.000Z",
-            "dateText": "Sat, Jun 7",
-            "time": "1:00 PM",
-            "homeTeam": "Orillia Royals 9U A",
-            "homeTeamCode": "511064",
-            "awayTeam": "Stouffville Yankees 9U A",
-            "awayTeamCode": "511065",
-            "location": "Rupert Park",
-            "isCompleted": true,
-            "score": {
-              "home": 22,
-              "away": 7,
-              "scoreText": "7-22"
-            }
-          },
-          {
-            "date": "2025-06-07T15:30:00.000Z",
-            "dateText": "Sat, Jun 7",
-            "time": "3:30 PM",
-            "homeTeam": "Stouffville Yankees 9U A",
-            "homeTeamCode": "511065",
-            "awayTeam": "Orillia Royals 9U A",
-            "awayTeamCode": "511064",
-            "location": "Rupert Park",
-            "isCompleted": true,
-            "score": {
-              "home": 7,
-              "away": 15,
-              "scoreText": "15-7"
-            }
-          },
           {
             "date": "2025-06-11T18:30:00.000Z",
             "dateText": "Wed, Jun 11",
@@ -663,9 +635,7 @@
               "away": 25,
               "scoreText": "25-12"
             }
-          }
-        ],
-        "nextGames": [
+          },
           {
             "date": "2025-06-21T11:00:00.000Z",
             "dateText": "Sat, Jun 21",
@@ -675,8 +645,12 @@
             "awayTeam": "Orillia Royals 9U A",
             "awayTeamCode": "511064",
             "location": "Wharf Field",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 17,
+              "scoreText": "17-5"
+            }
           },
           {
             "date": "2025-06-21T14:00:00.000Z",
@@ -687,9 +661,15 @@
             "awayTeam": "Orillia Royals 9U A",
             "awayTeamCode": "511064",
             "location": "Wharf Field",
-            "isCompleted": false,
-            "score": null
-          },
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 9,
+              "scoreText": "9-8"
+            }
+          }
+        ],
+        "nextGames": [
           {
             "date": "2025-06-26T18:00:00.000Z",
             "dateText": "Thu, Jun 26",
@@ -725,32 +705,40 @@
             "location": "Kitchener Park",
             "isCompleted": false,
             "score": null
+          },
+          {
+            "date": "2025-07-10T18:00:00.000Z",
+            "dateText": "Thu, Jul 10",
+            "time": "6:00 PM",
+            "homeTeam": "Orangeville Bengals 9U A",
+            "homeTeamCode": "511063",
+            "awayTeam": "Orillia Royals 9U A",
+            "awayTeamCode": "511064",
+            "location": "Alton Park",
+            "isCompleted": false,
+            "score": null
+          },
+          {
+            "date": "2025-07-11T18:30:00.000Z",
+            "dateText": "Fri, Jul 11",
+            "time": "6:30 PM",
+            "homeTeam": "Orillia Royals 9U A",
+            "homeTeamCode": "511064",
+            "awayTeam": "Markham Mariners 9U A",
+            "awayTeamCode": "511061",
+            "location": "Dean Heliotis Diamond",
+            "isCompleted": false,
+            "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T23:39:24.409Z"
+        "lastUpdated": "2025-06-23T23:38:17.770Z"
       },
       "511065": {
         "teamCode": "511065",
         "totalGames": 16,
-        "playedGames": 6,
-        "upcomingGames": 10,
+        "playedGames": 7,
+        "upcomingGames": 9,
         "recentGames": [
-          {
-            "date": "2025-06-01T18:00:00.000Z",
-            "dateText": "Sun, Jun 1",
-            "time": "6:00 PM",
-            "homeTeam": "Stouffville Yankees 9U A",
-            "homeTeamCode": "511065",
-            "awayTeam": "Newmarket Hawks 9U A",
-            "awayTeamCode": "511062",
-            "location": "Rupert Park",
-            "isCompleted": true,
-            "score": {
-              "home": 3,
-              "away": 18,
-              "scoreText": "18-3"
-            }
-          },
           {
             "date": "2025-06-07T13:00:00.000Z",
             "dateText": "Sat, Jun 7",
@@ -810,9 +798,7 @@
             "location": "Morgan Park",
             "isCompleted": false,
             "score": null
-          }
-        ],
-        "nextGames": [
+          },
           {
             "date": "2025-06-22T18:00:00.000Z",
             "dateText": "Sun, Jun 22",
@@ -822,9 +808,15 @@
             "awayTeam": "Orangeville Bengals 9U A",
             "awayTeamCode": "511063",
             "location": "Rupert Park",
-            "isCompleted": false,
-            "score": null
-          },
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 15,
+              "scoreText": "15-9"
+            }
+          }
+        ],
+        "nextGames": [
           {
             "date": "2025-06-25T18:30:00.000Z",
             "dateText": "Wed, Jun 25",
@@ -872,15 +864,27 @@
             "location": "Concord Regional #4",
             "isCompleted": false,
             "score": null
+          },
+          {
+            "date": "2025-07-09T18:30:00.000Z",
+            "dateText": "Wed, Jul 9",
+            "time": "6:30 PM",
+            "homeTeam": "Newmarket Hawks 9U A",
+            "homeTeamCode": "511062",
+            "awayTeam": "Stouffville Yankees 9U A",
+            "awayTeamCode": "511065",
+            "location": "Fairgrounds #2",
+            "isCompleted": false,
+            "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T23:39:24.409Z"
+        "lastUpdated": "2025-06-23T23:38:17.770Z"
       },
       "516247": {
         "teamCode": "516247",
         "totalGames": 16,
-        "playedGames": 2,
-        "upcomingGames": 14,
+        "playedGames": 4,
+        "upcomingGames": 12,
         "recentGames": [
           {
             "date": "2025-06-14T11:00:00.000Z",
@@ -913,9 +917,7 @@
               "away": 18,
               "scoreText": "18-0"
             }
-          }
-        ],
-        "nextGames": [
+          },
           {
             "date": "2025-06-21T11:00:00.000Z",
             "dateText": "Sat, Jun 21",
@@ -925,8 +927,12 @@
             "awayTeam": "Orillia Royals 9U A",
             "awayTeamCode": "511064",
             "location": "Wharf Field",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 17,
+              "scoreText": "17-5"
+            }
           },
           {
             "date": "2025-06-21T14:00:00.000Z",
@@ -937,9 +943,15 @@
             "awayTeam": "Orillia Royals 9U A",
             "awayTeamCode": "511064",
             "location": "Wharf Field",
-            "isCompleted": false,
-            "score": null
-          },
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 9,
+              "scoreText": "9-8"
+            }
+          }
+        ],
+        "nextGames": [
           {
             "date": "2025-06-26T18:00:00.000Z",
             "dateText": "Thu, Jun 26",
@@ -975,9 +987,33 @@
             "location": "Rupert Park",
             "isCompleted": false,
             "score": null
+          },
+          {
+            "date": "2025-07-05T11:00:00.000Z",
+            "dateText": "Sat, Jul 5",
+            "time": "11:00 AM",
+            "homeTeam": "Muskoka Hornets 9U A",
+            "homeTeamCode": "516247",
+            "awayTeam": "Markham Mariners 9U A",
+            "awayTeamCode": "511061",
+            "location": "Wharf Field",
+            "isCompleted": false,
+            "score": null
+          },
+          {
+            "date": "2025-07-05T14:00:00.000Z",
+            "dateText": "Sat, Jul 5",
+            "time": "2:00 PM",
+            "homeTeam": "Markham Mariners 9U A",
+            "homeTeamCode": "511061",
+            "awayTeam": "Muskoka Hornets 9U A",
+            "awayTeamCode": "516247",
+            "location": "Wharf Field",
+            "isCompleted": false,
+            "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T23:39:24.409Z"
+        "lastUpdated": "2025-06-23T23:38:17.770Z"
       },
       "518948": {
         "teamCode": "518948",
@@ -1058,8 +1094,12 @@
             "awayTeam": "Vaughan Vikings 9U A",
             "awayTeamCode": "518948",
             "location": "Alton Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 18,
+              "away": 16,
+              "scoreText": "16-18"
+            }
           }
         ],
         "nextGames": [
@@ -1124,7 +1164,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-19T23:39:24.409Z"
+        "lastUpdated": "2025-06-23T23:38:17.770Z"
       }
     },
     "allGames": [
@@ -1449,8 +1489,12 @@
         "awayTeam": "Vaughan Vikings 9U A",
         "awayTeamCode": "518948",
         "location": "Alton Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 18,
+          "away": 16,
+          "scoreText": "16-18"
+        }
       },
       {
         "date": "2025-06-21T11:00:00.000Z",
@@ -1461,8 +1505,12 @@
         "awayTeam": "Orillia Royals 9U A",
         "awayTeamCode": "511064",
         "location": "Wharf Field",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 5,
+          "away": 17,
+          "scoreText": "17-5"
+        }
       },
       {
         "date": "2025-06-21T14:00:00.000Z",
@@ -1473,8 +1521,12 @@
         "awayTeam": "Orillia Royals 9U A",
         "awayTeamCode": "511064",
         "location": "Wharf Field",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 9,
+          "scoreText": "9-8"
+        }
       },
       {
         "date": "2025-06-21T15:00:00.000Z",
@@ -1485,8 +1537,12 @@
         "awayTeam": "Orangeville Bengals 9U A",
         "awayTeamCode": "511063",
         "location": "Fairgrounds #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 17,
+          "away": 2,
+          "scoreText": "2-17"
+        }
       },
       {
         "date": "2025-06-22T18:00:00.000Z",
@@ -1497,8 +1553,12 @@
         "awayTeam": "Orangeville Bengals 9U A",
         "awayTeamCode": "511063",
         "location": "Rupert Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 15,
+          "scoreText": "15-9"
+        }
       },
       {
         "date": "2025-06-25T18:30:00.000Z",
@@ -1875,6 +1935,70 @@
     ],
     "recentGames": [
       {
+        "date": "2025-06-22T18:00:00.000Z",
+        "dateText": "Sun, Jun 22",
+        "time": "6:00 PM",
+        "homeTeam": "Stouffville Yankees 9U A",
+        "homeTeamCode": "511065",
+        "awayTeam": "Orangeville Bengals 9U A",
+        "awayTeamCode": "511063",
+        "location": "Rupert Park",
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 15,
+          "scoreText": "15-9"
+        }
+      },
+      {
+        "date": "2025-06-21T15:00:00.000Z",
+        "dateText": "Sat, Jun 21",
+        "time": "3:00 PM",
+        "homeTeam": "Newmarket Hawks 9U A",
+        "homeTeamCode": "511062",
+        "awayTeam": "Orangeville Bengals 9U A",
+        "awayTeamCode": "511063",
+        "location": "Fairgrounds #2",
+        "isCompleted": true,
+        "score": {
+          "home": 17,
+          "away": 2,
+          "scoreText": "2-17"
+        }
+      },
+      {
+        "date": "2025-06-21T14:00:00.000Z",
+        "dateText": "Sat, Jun 21",
+        "time": "2:00 PM",
+        "homeTeam": "Muskoka Hornets 9U A",
+        "homeTeamCode": "516247",
+        "awayTeam": "Orillia Royals 9U A",
+        "awayTeamCode": "511064",
+        "location": "Wharf Field",
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 9,
+          "scoreText": "9-8"
+        }
+      },
+      {
+        "date": "2025-06-21T11:00:00.000Z",
+        "dateText": "Sat, Jun 21",
+        "time": "11:00 AM",
+        "homeTeam": "Muskoka Hornets 9U A",
+        "homeTeamCode": "516247",
+        "awayTeam": "Orillia Royals 9U A",
+        "awayTeamCode": "511064",
+        "location": "Wharf Field",
+        "isCompleted": true,
+        "score": {
+          "home": 5,
+          "away": 17,
+          "scoreText": "17-5"
+        }
+      },
+      {
         "date": "2025-06-19T18:00:00.000Z",
         "dateText": "Thu, Jun 19",
         "time": "6:00 PM",
@@ -1883,8 +2007,12 @@
         "awayTeam": "Vaughan Vikings 9U A",
         "awayTeamCode": "518948",
         "location": "Alton Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 18,
+          "away": 16,
+          "scoreText": "16-18"
+        }
       },
       {
         "date": "2025-06-18T18:30:00.000Z",
@@ -1961,121 +2089,9 @@
           "away": 3,
           "scoreText": "3-20"
         }
-      },
-      {
-        "date": "2025-06-14T10:30:00.000Z",
-        "dateText": "Sat, Jun 14",
-        "time": "10:30 AM",
-        "homeTeam": "Orillia Royals 9U A",
-        "homeTeamCode": "511064",
-        "awayTeam": "Vaughan Vikings 9U A",
-        "awayTeamCode": "518948",
-        "location": "Dean Heliotis Diamond",
-        "isCompleted": true,
-        "score": {
-          "home": 18,
-          "away": 2,
-          "scoreText": "2-18"
-        }
-      },
-      {
-        "date": "2025-06-12T18:00:00.000Z",
-        "dateText": "Thu, Jun 12",
-        "time": "6:00 PM",
-        "homeTeam": "Orangeville Bengals 9U A",
-        "homeTeamCode": "511063",
-        "awayTeam": "Markham Mariners 9U A",
-        "awayTeamCode": "511061",
-        "location": "Alton Park",
-        "isCompleted": true,
-        "score": {
-          "home": 2,
-          "away": 19,
-          "scoreText": "19-2"
-        }
-      },
-      {
-        "date": "2025-06-11T18:30:00.000Z",
-        "dateText": "Wed, Jun 11",
-        "time": "6:30 PM",
-        "homeTeam": "Newmarket Hawks 9U A",
-        "homeTeamCode": "511062",
-        "awayTeam": "Vaughan Vikings 9U A",
-        "awayTeamCode": "518948",
-        "location": "Fairgrounds #2",
-        "isCompleted": true,
-        "score": {
-          "home": 20,
-          "away": 9,
-          "scoreText": "9-20"
-        }
-      },
-      {
-        "date": "2025-06-11T18:30:00.000Z",
-        "dateText": "Wed, Jun 11",
-        "time": "6:30 PM",
-        "homeTeam": "Markham Mariners 9U A",
-        "homeTeamCode": "511061",
-        "awayTeam": "Orillia Royals 9U A",
-        "awayTeamCode": "511064",
-        "location": "Morgan Park",
-        "isCompleted": true,
-        "score": {
-          "home": 10,
-          "away": 21,
-          "scoreText": "21-10"
-        }
       }
     ],
     "upcomingGames": [
-      {
-        "date": "2025-06-21T11:00:00.000Z",
-        "dateText": "Sat, Jun 21",
-        "time": "11:00 AM",
-        "homeTeam": "Muskoka Hornets 9U A",
-        "homeTeamCode": "516247",
-        "awayTeam": "Orillia Royals 9U A",
-        "awayTeamCode": "511064",
-        "location": "Wharf Field",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": "2025-06-21T14:00:00.000Z",
-        "dateText": "Sat, Jun 21",
-        "time": "2:00 PM",
-        "homeTeam": "Muskoka Hornets 9U A",
-        "homeTeamCode": "516247",
-        "awayTeam": "Orillia Royals 9U A",
-        "awayTeamCode": "511064",
-        "location": "Wharf Field",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": "2025-06-21T15:00:00.000Z",
-        "dateText": "Sat, Jun 21",
-        "time": "3:00 PM",
-        "homeTeam": "Newmarket Hawks 9U A",
-        "homeTeamCode": "511062",
-        "awayTeam": "Orangeville Bengals 9U A",
-        "awayTeamCode": "511063",
-        "location": "Fairgrounds #2",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": "2025-06-22T18:00:00.000Z",
-        "dateText": "Sun, Jun 22",
-        "time": "6:00 PM",
-        "homeTeam": "Stouffville Yankees 9U A",
-        "homeTeamCode": "511065",
-        "awayTeam": "Orangeville Bengals 9U A",
-        "awayTeamCode": "511063",
-        "location": "Rupert Park",
-        "isCompleted": false,
-        "score": null
-      },
       {
         "date": "2025-06-25T18:30:00.000Z",
         "dateText": "Wed, Jun 25",
@@ -2147,22 +2163,70 @@
         "location": "Morgan Park",
         "isCompleted": false,
         "score": null
+      },
+      {
+        "date": "2025-07-04T18:30:00.000Z",
+        "dateText": "Fri, Jul 4",
+        "time": "6:30 PM",
+        "homeTeam": "Orillia Royals 9U A",
+        "homeTeamCode": "511064",
+        "awayTeam": "Newmarket Hawks 9U A",
+        "awayTeamCode": "511062",
+        "location": "Dean Heliotis Diamond",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2025-07-05T11:00:00.000Z",
+        "dateText": "Sat, Jul 5",
+        "time": "11:00 AM",
+        "homeTeam": "Muskoka Hornets 9U A",
+        "homeTeamCode": "516247",
+        "awayTeam": "Markham Mariners 9U A",
+        "awayTeamCode": "511061",
+        "location": "Wharf Field",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2025-07-05T11:30:00.000Z",
+        "dateText": "Sat, Jul 5",
+        "time": "11:30 AM",
+        "homeTeam": "Orillia Royals 9U A",
+        "homeTeamCode": "511064",
+        "awayTeam": "Orangeville Bengals 9U A",
+        "awayTeamCode": "511063",
+        "location": "Kitchener Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2025-07-05T14:00:00.000Z",
+        "dateText": "Sat, Jul 5",
+        "time": "2:00 PM",
+        "homeTeam": "Markham Mariners 9U A",
+        "homeTeamCode": "511061",
+        "awayTeam": "Muskoka Hornets 9U A",
+        "awayTeamCode": "516247",
+        "location": "Wharf Field",
+        "isCompleted": false,
+        "score": null
       }
     ],
-    "lastUpdated": "2025-06-19T23:39:24.409Z",
+    "lastUpdated": "2025-06-23T23:38:17.770Z",
     "totalGames": 56
   },
   "summary": {
     "totalTeams": 7,
     "totalGames": 56,
-    "completedGames": 18,
-    "upcomingGames": 38,
+    "completedGames": 23,
+    "upcomingGames": 33,
     "topTeam": {
-      "team": "Muskoka Hornets 9U A",
-      "teamCode": "516247",
-      "wins": 2,
-      "losses": 0,
-      "winPercentage": "1.000"
+      "team": "Orillia Royals 9U A",
+      "teamCode": "511064",
+      "wins": 7,
+      "losses": 1,
+      "winPercentage": "0.875"
     },
     "highestScoringGame": {
       "homeTeam": "Vaughan Vikings 9U A",
@@ -2173,6 +2237,6 @@
       "date": "Sat, Jun 14",
       "location": "Dean Heliotis Diamond"
     },
-    "lastUpdated": "2025-06-19T23:44:46.364Z"
+    "lastUpdated": "2025-06-23T23:43:59.682Z"
   }
 }
