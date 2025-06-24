@@ -235,7 +235,10 @@ class GitHubActionScraper {
 
   async checkAndSendNotifications(previousStandings, newStandings) {
     try {
+      console.log('📧 Starting email notification check...');
       let totalNotificationsSent = 0;
+      let divisionsChecked = 0;
+      let changesDetected = 0;
       
       // Check each division for changes
       if (previousStandings && previousStandings.divisions && newStandings && newStandings.divisions) {
@@ -249,9 +252,11 @@ class GitHubActionScraper {
           
           // Check each tier within the division
           for (const [tierKey, newTierData] of Object.entries(newDivisionData.tiers || {})) {
+            divisionsChecked++;
             const oldTierData = oldDivisionData.tiers?.[tierKey];
             
             if (!oldTierData || !newTierData.teams || !oldTierData.teams) {
+              console.log(`📧 Skipping ${divisionKey}/${tierKey} - missing data`);
               continue;
             }
             
@@ -259,11 +264,16 @@ class GitHubActionScraper {
             const oldTeams = this.convertToEmailFormat(oldTierData.teams);
             const newTeams = this.convertToEmailFormat(newTierData.teams);
             
+            // Debug: Log team counts
+            console.log(`📧 Checking ${divisionKey}/${tierKey}: ${oldTeams.length} old teams, ${newTeams.length} new teams`);
+            
             // Check for changes in this division/tier
             const changes = this.emailService.detectStandingsChanges(oldTeams, newTeams);
             
             if (changes && changes.length > 0) {
+              changesDetected += changes.length;
               console.log(`📧 Changes detected in ${divisionKey}/${tierKey}: ${changes.length} changes`);
+              console.log(`📧 Changes: ${JSON.stringify(changes)}`);
               
               // Construct division key for email service
               const emailDivisionKey = `${divisionKey}-${tierKey}`;
@@ -289,10 +299,14 @@ class GitHubActionScraper {
         }
       }
       
+      console.log(`📧 Summary: Checked ${divisionsChecked} divisions, found ${changesDetected} changes total`);
+      
       if (totalNotificationsSent > 0) {
         console.log(`✅ Total notifications sent: ${totalNotificationsSent}`);
+      } else if (changesDetected > 0) {
+        console.log(`📧 ${changesDetected} changes detected but no subscribers found for those divisions`);
       } else {
-        console.log('📧 No changes detected or no subscribers found');
+        console.log('📧 No changes detected in any division');
       }
       
     } catch (error) {

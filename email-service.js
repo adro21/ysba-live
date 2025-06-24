@@ -686,8 +686,11 @@ class EmailService {
         const changes = [];
         
         if (!oldStandings || !newStandings) {
+            console.log('📧 detectStandingsChanges: Missing standings data');
             return changes;
         }
+
+        console.log(`📧 detectStandingsChanges: Comparing ${oldStandings.length} old teams with ${newStandings.length} new teams`);
 
         // Create lookup maps for easier comparison using team name as key
         const oldTeams = {};
@@ -706,6 +709,11 @@ class EmailService {
                 return;
             }
 
+            // Debug: Log position comparison
+            if (oldTeam.position !== newTeam.position) {
+                console.log(`📧 Position change for ${newTeam.team}: ${oldTeam.position} → ${newTeam.position}`);
+            }
+
             // We'll skip the W-L record changes as requested by the user
             // Only keep position change notifications
 
@@ -719,6 +727,7 @@ class EmailService {
             }
         });
 
+        console.log(`📧 detectStandingsChanges: Found ${changes.length} changes`);
         return changes;
     }
 
