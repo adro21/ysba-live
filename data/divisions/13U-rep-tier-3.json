@@ -38,24 +38,6 @@
         }
       },
       {
-        "position": 4,
-        "team": "Aurora-King Jays 13U A",
-        "teamCode": "510940",
-        "record": {
-          "gamesPlayed": 6,
-          "wins": 4,
-          "losses": 2,
-          "ties": 0,
-          "winPercentage": "0.667"
-        },
-        "stats": {
-          "points": 8,
-          "runsFor": 56,
-          "runsAgainst": 48,
-          "runDifferential": 8
-        }
-      },
-      {
         "position": 5,
         "team": "Barrie Baycats 13U A",
         "teamCode": "510941",
@@ -71,6 +53,24 @@
           "runsFor": 48,
           "runsAgainst": 45,
           "runDifferential": 3
+        }
+      },
+      {
+        "position": 4,
+        "team": "Aurora-King Jays 13U A",
+        "teamCode": "510940",
+        "record": {
+          "gamesPlayed": 7,
+          "wins": 4,
+          "losses": 2,
+          "ties": 1,
+          "winPercentage": "0.643"
+        },
+        "stats": {
+          "points": 9,
+          "runsFor": 70,
+          "runsAgainst": 62,
+          "runDifferential": 8
         }
       },
       {
@@ -92,25 +92,25 @@
         }
       },
       {
-        "position": 7,
+        "position": 6,
         "team": "Vaughan Vikings 13U A",
         "teamCode": "518954",
         "record": {
-          "gamesPlayed": 7,
+          "gamesPlayed": 8,
           "wins": 2,
           "losses": 5,
-          "ties": 0,
-          "winPercentage": "0.286"
+          "ties": 1,
+          "winPercentage": "0.313"
         },
         "stats": {
-          "points": 4,
-          "runsFor": 48,
-          "runsAgainst": 79,
+          "points": 5,
+          "runsFor": 62,
+          "runsAgainst": 93,
           "runDifferential": -31
         }
       },
       {
-        "position": 6,
+        "position": 7,
         "team": "Midland Penetang Twins 13U B",
         "teamCode": "510957",
         "record": {
@@ -164,7 +164,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-06-25T13:53:51.963Z",
+    "lastUpdated": "2025-06-25T14:17:37.962Z",
     "totalTeams": 9
   },
   "schedule": {
@@ -244,8 +244,12 @@
             "awayTeam": "Aurora-King Jays 13U A",
             "awayTeamCode": "510940",
             "location": "CONCORD REGIONAL",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 14,
+              "scoreText": "14-14"
+            }
           }
         ],
         "nextGames": [
@@ -310,7 +314,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T13:53:56.616Z"
+        "lastUpdated": "2025-06-25T14:17:42.407Z"
       },
       "510941": {
         "teamCode": "510941",
@@ -457,7 +461,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T13:53:56.616Z"
+        "lastUpdated": "2025-06-25T14:17:42.407Z"
       },
       "510942": {
         "teamCode": "510942",
@@ -592,7 +596,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T13:53:56.616Z"
+        "lastUpdated": "2025-06-25T14:17:42.407Z"
       },
       "510943": {
         "teamCode": "510943",
@@ -735,7 +739,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T13:53:56.616Z"
+        "lastUpdated": "2025-06-25T14:17:42.407Z"
       },
       "510944": {
         "teamCode": "510944",
@@ -886,7 +890,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T13:53:56.616Z"
+        "lastUpdated": "2025-06-25T14:17:42.407Z"
       },
       "510945": {
         "teamCode": "510945",
@@ -1037,7 +1041,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T13:53:56.616Z"
+        "lastUpdated": "2025-06-25T14:17:42.407Z"
       },
       "510946": {
         "teamCode": "510946",
@@ -1188,7 +1192,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T13:53:56.616Z"
+        "lastUpdated": "2025-06-25T14:17:42.407Z"
       },
       "510947": {
         "teamCode": "510947",
@@ -1339,7 +1343,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T13:53:56.616Z"
+        "lastUpdated": "2025-06-25T14:17:42.407Z"
       },
       "510948": {
         "teamCode": "510948",
@@ -1486,7 +1490,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T13:53:56.616Z"
+        "lastUpdated": "2025-06-25T14:17:42.407Z"
       },
       "510949": {
         "teamCode": "510949",
@@ -1633,7 +1637,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T13:53:56.616Z"
+        "lastUpdated": "2025-06-25T14:17:42.407Z"
       },
       "510950": {
         "teamCode": "510950",
@@ -1776,7 +1780,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T13:53:56.616Z"
+        "lastUpdated": "2025-06-25T14:17:42.407Z"
       },
       "510951": {
         "teamCode": "510951",
@@ -1923,7 +1927,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T13:53:56.616Z"
+        "lastUpdated": "2025-06-25T14:17:42.407Z"
       },
       "510952": {
         "teamCode": "510952",
@@ -2070,7 +2074,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T13:53:56.616Z"
+        "lastUpdated": "2025-06-25T14:17:42.407Z"
       },
       "510953": {
         "teamCode": "510953",
@@ -2221,7 +2225,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T13:53:56.616Z"
+        "lastUpdated": "2025-06-25T14:17:42.407Z"
       },
       "510957": {
         "teamCode": "510957",
@@ -2368,7 +2372,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T13:53:56.616Z"
+        "lastUpdated": "2025-06-25T14:17:42.407Z"
       },
       "516242": {
         "teamCode": "516242",
@@ -2511,7 +2515,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T13:53:56.616Z"
+        "lastUpdated": "2025-06-25T14:17:42.407Z"
       },
       "518954": {
         "teamCode": "518954",
@@ -2592,8 +2596,12 @@
             "awayTeam": "Aurora-King Jays 13U A",
             "awayTeamCode": "510940",
             "location": "CONCORD REGIONAL",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 14,
+              "scoreText": "14-14"
+            }
           }
         ],
         "nextGames": [
@@ -2658,7 +2666,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T13:53:56.616Z"
+        "lastUpdated": "2025-06-25T14:17:42.407Z"
       }
     },
     "allGames": [
@@ -3863,8 +3871,12 @@
         "awayTeam": "Aurora-King Jays 13U A",
         "awayTeamCode": "510940",
         "location": "CONCORD REGIONAL",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 14,
+          "scoreText": "14-14"
+        }
       },
       {
         "date": "2025-06-25T18:30:00.000Z",
@@ -4753,8 +4765,12 @@
         "awayTeam": "Aurora-King Jays 13U A",
         "awayTeamCode": "510940",
         "location": "CONCORD REGIONAL",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 14,
+          "scoreText": "14-14"
+        }
       },
       {
         "date": "2025-06-24T19:30:00.000Z",
@@ -5015,14 +5031,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-25T13:53:56.616Z",
+    "lastUpdated": "2025-06-25T14:17:42.407Z",
     "totalGames": 151
   },
   "summary": {
     "totalTeams": 9,
     "totalGames": 151,
-    "completedGames": 67,
-    "upcomingGames": 84,
+    "completedGames": 68,
+    "upcomingGames": 83,
     "topTeam": {
       "team": "Mansfield Cubs 13U A",
       "teamCode": "510942",
@@ -5039,6 +5055,6 @@
       "date": "Mon, May 12",
       "location": "MANSFIELD"
     },
-    "lastUpdated": "2025-06-25T13:57:30.389Z"
+    "lastUpdated": "2025-06-25T14:21:12.121Z"
   }
 }
