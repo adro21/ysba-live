@@ -38,39 +38,39 @@
         }
       },
       {
-        "position": 3,
-        "team": "Barrie Baycats 15U AA",
-        "teamCode": "510987",
-        "record": {
-          "gamesPlayed": 7,
-          "wins": 4,
-          "losses": 2,
-          "ties": 1,
-          "winPercentage": "0.643"
-        },
-        "stats": {
-          "points": 9,
-          "runsFor": 59,
-          "runsAgainst": 45,
-          "runDifferential": 14
-        }
-      },
-      {
         "position": 5,
         "team": "Mansfield Cubs 15U AA",
         "teamCode": "510990",
         "record": {
-          "gamesPlayed": 5,
-          "wins": 3,
+          "gamesPlayed": 6,
+          "wins": 4,
           "losses": 2,
           "ties": 0,
-          "winPercentage": "0.600"
+          "winPercentage": "0.667"
         },
         "stats": {
-          "points": 6,
-          "runsFor": 48,
-          "runsAgainst": 45,
-          "runDifferential": 3
+          "points": 8,
+          "runsFor": 59,
+          "runsAgainst": 50,
+          "runDifferential": 9
+        }
+      },
+      {
+        "position": 3,
+        "team": "Barrie Baycats 15U AA",
+        "teamCode": "510987",
+        "record": {
+          "gamesPlayed": 8,
+          "wins": 4,
+          "losses": 3,
+          "ties": 1,
+          "winPercentage": "0.563"
+        },
+        "stats": {
+          "points": 9,
+          "runsFor": 60,
+          "runsAgainst": 48,
+          "runDifferential": 12
         }
       },
       {
@@ -78,17 +78,17 @@
         "team": "Muskoka Hornets 15U AA",
         "teamCode": "516244",
         "record": {
-          "gamesPlayed": 7,
-          "wins": 3,
+          "gamesPlayed": 8,
+          "wins": 4,
           "losses": 4,
           "ties": 0,
-          "winPercentage": "0.429"
+          "winPercentage": "0.500"
         },
         "stats": {
-          "points": 6,
-          "runsFor": 57,
-          "runsAgainst": 61,
-          "runDifferential": -4
+          "points": 8,
+          "runsFor": 60,
+          "runsAgainst": 62,
+          "runDifferential": -2
         }
       },
       {
@@ -110,24 +110,6 @@
         }
       },
       {
-        "position": 7,
-        "team": "Aurora-King Jays 15U AA",
-        "teamCode": "510993",
-        "record": {
-          "gamesPlayed": 7,
-          "wins": 1,
-          "losses": 6,
-          "ties": 0,
-          "winPercentage": "0.143"
-        },
-        "stats": {
-          "points": 2,
-          "runsFor": 40,
-          "runsAgainst": 81,
-          "runDifferential": -41
-        }
-      },
-      {
         "position": 8,
         "team": "Newmarket Hawks 15U AA",
         "teamCode": "510991",
@@ -144,9 +126,27 @@
           "runsAgainst": 97,
           "runDifferential": -44
         }
+      },
+      {
+        "position": 7,
+        "team": "Aurora-King Jays 15U AA",
+        "teamCode": "510993",
+        "record": {
+          "gamesPlayed": 8,
+          "wins": 1,
+          "losses": 7,
+          "ties": 0,
+          "winPercentage": "0.125"
+        },
+        "stats": {
+          "points": 2,
+          "runsFor": 45,
+          "runsAgainst": 92,
+          "runDifferential": -47
+        }
       }
     ],
-    "lastUpdated": "2025-06-25T08:52:37.549Z",
+    "lastUpdated": "2025-06-25T09:20:46.172Z",
     "totalTeams": 8
   },
   "schedule": {
@@ -296,7 +296,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T08:52:42.075Z"
+        "lastUpdated": "2025-06-25T09:20:50.402Z"
       },
       "510981": {
         "teamCode": "510981",
@@ -439,7 +439,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T08:52:42.075Z"
+        "lastUpdated": "2025-06-25T09:20:50.402Z"
       },
       "510982": {
         "teamCode": "510982",
@@ -590,7 +590,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T08:52:42.075Z"
+        "lastUpdated": "2025-06-25T09:20:50.402Z"
       },
       "510983": {
         "teamCode": "510983",
@@ -737,7 +737,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T08:52:42.075Z"
+        "lastUpdated": "2025-06-25T09:20:50.402Z"
       },
       "510984": {
         "teamCode": "510984",
@@ -884,7 +884,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T08:52:42.075Z"
+        "lastUpdated": "2025-06-25T09:20:50.402Z"
       },
       "510985": {
         "teamCode": "510985",
@@ -1031,7 +1031,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T08:52:42.075Z"
+        "lastUpdated": "2025-06-25T09:20:50.402Z"
       },
       "510986": {
         "teamCode": "510986",
@@ -1174,7 +1174,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T08:52:42.075Z"
+        "lastUpdated": "2025-06-25T09:20:50.402Z"
       },
       "510987": {
         "teamCode": "510987",
@@ -1255,8 +1255,12 @@
             "awayTeam": "Muskoka Hornets 15U AA",
             "awayTeamCode": "516244",
             "location": "Lennox A",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 1,
+              "away": 3,
+              "scoreText": "3-1"
+            }
           }
         ],
         "nextGames": [
@@ -1321,7 +1325,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T08:52:42.075Z"
+        "lastUpdated": "2025-06-25T09:20:50.402Z"
       },
       "510988": {
         "teamCode": "510988",
@@ -1468,7 +1472,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T08:52:42.075Z"
+        "lastUpdated": "2025-06-25T09:20:50.402Z"
       },
       "510989": {
         "teamCode": "510989",
@@ -1615,7 +1619,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T08:52:42.075Z"
+        "lastUpdated": "2025-06-25T09:20:50.402Z"
       },
       "510990": {
         "teamCode": "510990",
@@ -1696,8 +1700,12 @@
             "awayTeam": "Aurora-King Jays 15U AA",
             "awayTeamCode": "510993",
             "location": "Mansfield Baseball Diamond",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 5,
+              "scoreText": "5-11"
+            }
           }
         ],
         "nextGames": [
@@ -1762,7 +1770,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T08:52:42.075Z"
+        "lastUpdated": "2025-06-25T09:20:50.402Z"
       },
       "510991": {
         "teamCode": "510991",
@@ -1913,7 +1921,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T08:52:42.075Z"
+        "lastUpdated": "2025-06-25T09:20:50.402Z"
       },
       "510992": {
         "teamCode": "510992",
@@ -2064,7 +2072,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T08:52:42.075Z"
+        "lastUpdated": "2025-06-25T09:20:50.402Z"
       },
       "510993": {
         "teamCode": "510993",
@@ -2141,8 +2149,12 @@
             "awayTeam": "Aurora-King Jays 15U AA",
             "awayTeamCode": "510993",
             "location": "Mansfield Baseball Diamond",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 5,
+              "scoreText": "5-11"
+            }
           }
         ],
         "nextGames": [
@@ -2207,7 +2219,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T08:52:42.075Z"
+        "lastUpdated": "2025-06-25T09:20:50.402Z"
       },
       "510998": {
         "teamCode": "510998",
@@ -2350,7 +2362,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T08:52:42.075Z"
+        "lastUpdated": "2025-06-25T09:20:50.402Z"
       },
       "516244": {
         "teamCode": "516244",
@@ -2431,8 +2443,12 @@
             "awayTeam": "Muskoka Hornets 15U AA",
             "awayTeamCode": "516244",
             "location": "Lennox A",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 1,
+              "away": 3,
+              "scoreText": "3-1"
+            }
           }
         ],
         "nextGames": [
@@ -2497,7 +2513,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T08:52:42.075Z"
+        "lastUpdated": "2025-06-25T09:20:50.402Z"
       },
       "518959": {
         "teamCode": "518959",
@@ -2648,7 +2664,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T08:52:42.075Z"
+        "lastUpdated": "2025-06-25T09:20:50.402Z"
       },
       "546379": {
         "teamCode": "546379",
@@ -2791,7 +2807,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T08:52:42.075Z"
+        "lastUpdated": "2025-06-25T09:20:50.402Z"
       }
     },
     "allGames": [
@@ -3908,8 +3924,12 @@
         "awayTeam": "Aurora-King Jays 15U AA",
         "awayTeamCode": "510993",
         "location": "Mansfield Baseball Diamond",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 5,
+          "scoreText": "5-11"
+        }
       },
       {
         "date": "2025-06-24T19:30:00.000Z",
@@ -3920,8 +3940,12 @@
         "awayTeam": "Muskoka Hornets 15U AA",
         "awayTeamCode": "516244",
         "location": "Lennox A",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 1,
+          "away": 3,
+          "scoreText": "3-1"
+        }
       },
       {
         "date": "2025-06-24T20:30:00.000Z",
@@ -5002,8 +5026,12 @@
         "awayTeam": "Muskoka Hornets 15U AA",
         "awayTeamCode": "516244",
         "location": "Lennox A",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 1,
+          "away": 3,
+          "scoreText": "3-1"
+        }
       },
       {
         "date": "2025-06-24T18:30:00.000Z",
@@ -5014,8 +5042,12 @@
         "awayTeam": "Aurora-King Jays 15U AA",
         "awayTeamCode": "510993",
         "location": "Mansfield Baseball Diamond",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 5,
+          "scoreText": "5-11"
+        }
       },
       {
         "date": "2025-06-23T20:00:00.000Z",
@@ -5244,14 +5276,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-25T08:52:42.075Z",
+    "lastUpdated": "2025-06-25T09:20:50.402Z",
     "totalGames": 162
   },
   "summary": {
     "totalTeams": 8,
     "totalGames": 162,
-    "completedGames": 60,
-    "upcomingGames": 102,
+    "completedGames": 62,
+    "upcomingGames": 100,
     "topTeam": {
       "team": "Innisfil Cardinals 15U AA",
       "teamCode": "510989",
@@ -5268,6 +5300,6 @@
       "date": "Thu, May 29",
       "location": "Bethesda Fields #2"
     },
-    "lastUpdated": "2025-06-25T08:55:15.796Z"
+    "lastUpdated": "2025-06-25T09:23:16.392Z"
   }
 }
