@@ -20,7 +20,7 @@
         }
       },
       {
-        "position": 4,
+        "position": 5,
         "team": "Orangeville Bengals 11U AA",
         "teamCode": "510909",
         "record": {
@@ -74,25 +74,25 @@
         }
       },
       {
-        "position": 7,
-        "team": "Newmarket Hawks 11U AA",
-        "teamCode": "510913",
+        "position": 4,
+        "team": "Markham Mariners 11U AA",
+        "teamCode": "510908",
         "record": {
-          "gamesPlayed": 6,
-          "wins": 3,
-          "losses": 3,
-          "ties": 0,
-          "winPercentage": "0.500"
+          "gamesPlayed": 10,
+          "wins": 4,
+          "losses": 5,
+          "ties": 1,
+          "winPercentage": "0.450"
         },
         "stats": {
-          "points": 6,
-          "runsFor": 41,
-          "runsAgainst": 57,
-          "runDifferential": -16
+          "points": 9,
+          "runsFor": 84,
+          "runsAgainst": 81,
+          "runDifferential": 3
         }
       },
       {
-        "position": 5,
+        "position": 6,
         "team": "Caledon Nationals 11U AA",
         "teamCode": "510912",
         "record": {
@@ -110,21 +110,21 @@
         }
       },
       {
-        "position": 6,
-        "team": "Markham Mariners 11U AA",
-        "teamCode": "510908",
+        "position": 7,
+        "team": "Newmarket Hawks 11U AA",
+        "teamCode": "510913",
         "record": {
-          "gamesPlayed": 9,
+          "gamesPlayed": 7,
           "wins": 3,
-          "losses": 5,
-          "ties": 1,
-          "winPercentage": "0.389"
+          "losses": 4,
+          "ties": 0,
+          "winPercentage": "0.429"
         },
         "stats": {
-          "points": 7,
-          "runsFor": 70,
-          "runsAgainst": 72,
-          "runDifferential": -2
+          "points": 6,
+          "runsFor": 50,
+          "runsAgainst": 71,
+          "runDifferential": -21
         }
       },
       {
@@ -182,7 +182,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-06-25T19:37:10.748Z",
+    "lastUpdated": "2025-06-25T20:18:04.050Z",
     "totalTeams": 10
   },
   "schedule": {
@@ -332,7 +332,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T19:37:14.871Z"
+        "lastUpdated": "2025-06-25T20:18:08.565Z"
       },
       "510892": {
         "teamCode": "510892",
@@ -479,7 +479,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T19:37:14.871Z"
+        "lastUpdated": "2025-06-25T20:18:08.565Z"
       },
       "510893": {
         "teamCode": "510893",
@@ -626,7 +626,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T19:37:14.871Z"
+        "lastUpdated": "2025-06-25T20:18:08.565Z"
       },
       "510894": {
         "teamCode": "510894",
@@ -769,7 +769,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T19:37:14.871Z"
+        "lastUpdated": "2025-06-25T20:18:08.565Z"
       },
       "510897": {
         "teamCode": "510897",
@@ -912,7 +912,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T19:37:14.871Z"
+        "lastUpdated": "2025-06-25T20:18:08.565Z"
       },
       "510898": {
         "teamCode": "510898",
@@ -1059,7 +1059,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T19:37:14.871Z"
+        "lastUpdated": "2025-06-25T20:18:08.565Z"
       },
       "510903": {
         "teamCode": "510903",
@@ -1202,7 +1202,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T19:37:14.872Z"
+        "lastUpdated": "2025-06-25T20:18:08.565Z"
       },
       "510905": {
         "teamCode": "510905",
@@ -1349,7 +1349,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T19:37:14.872Z"
+        "lastUpdated": "2025-06-25T20:18:08.565Z"
       },
       "510906": {
         "teamCode": "510906",
@@ -1492,7 +1492,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T19:37:14.872Z"
+        "lastUpdated": "2025-06-25T20:18:08.565Z"
       },
       "510907": {
         "teamCode": "510907",
@@ -1635,7 +1635,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T19:37:14.872Z"
+        "lastUpdated": "2025-06-25T20:18:08.565Z"
       },
       "510908": {
         "teamCode": "510908",
@@ -1716,8 +1716,12 @@
             "awayTeam": "Markham Mariners 11U AA",
             "awayTeamCode": "510908",
             "location": "Fairgrounds #1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 14,
+              "scoreText": "14-9"
+            }
           }
         ],
         "nextGames": [
@@ -1782,7 +1786,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T19:37:14.872Z"
+        "lastUpdated": "2025-06-25T20:18:08.565Z"
       },
       "510909": {
         "teamCode": "510909",
@@ -1929,7 +1933,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T19:37:14.872Z"
+        "lastUpdated": "2025-06-25T20:18:08.565Z"
       },
       "510910": {
         "teamCode": "510910",
@@ -2076,7 +2080,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T19:37:14.872Z"
+        "lastUpdated": "2025-06-25T20:18:08.565Z"
       },
       "510911": {
         "teamCode": "510911",
@@ -2227,7 +2231,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T19:37:14.872Z"
+        "lastUpdated": "2025-06-25T20:18:08.565Z"
       },
       "510912": {
         "teamCode": "510912",
@@ -2378,7 +2382,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T19:37:14.872Z"
+        "lastUpdated": "2025-06-25T20:18:08.565Z"
       },
       "510913": {
         "teamCode": "510913",
@@ -2459,8 +2463,12 @@
             "awayTeam": "Markham Mariners 11U AA",
             "awayTeamCode": "510908",
             "location": "Fairgrounds #1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 14,
+              "scoreText": "14-9"
+            }
           }
         ],
         "nextGames": [
@@ -2525,7 +2533,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T19:37:14.872Z"
+        "lastUpdated": "2025-06-25T20:18:08.565Z"
       },
       "510916": {
         "teamCode": "510916",
@@ -2668,7 +2676,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T19:37:14.872Z"
+        "lastUpdated": "2025-06-25T20:18:08.565Z"
       },
       "510917": {
         "teamCode": "510917",
@@ -2815,7 +2823,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T19:37:14.872Z"
+        "lastUpdated": "2025-06-25T20:18:08.565Z"
       },
       "516241": {
         "teamCode": "516241",
@@ -2962,7 +2970,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T19:37:14.872Z"
+        "lastUpdated": "2025-06-25T20:18:08.565Z"
       }
     },
     "allGames": [
@@ -4107,8 +4115,12 @@
         "awayTeam": "Markham Mariners 11U AA",
         "awayTeamCode": "510908",
         "location": "Fairgrounds #1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 14,
+          "scoreText": "14-9"
+        }
       },
       {
         "date": "2025-06-24T18:30:00.000Z",
@@ -5309,8 +5321,12 @@
         "awayTeam": "Markham Mariners 11U AA",
         "awayTeamCode": "510908",
         "location": "Fairgrounds #1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 14,
+          "scoreText": "14-9"
+        }
       }
     ],
     "upcomingGames": [
@@ -5435,14 +5451,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-25T19:37:14.872Z",
+    "lastUpdated": "2025-06-25T20:18:08.565Z",
     "totalGames": 162
   },
   "summary": {
     "totalTeams": 10,
     "totalGames": 162,
-    "completedGames": 68,
-    "upcomingGames": 94,
+    "completedGames": 69,
+    "upcomingGames": 93,
     "topTeam": {
       "team": "Richmond Hill Phoenix 11U AA",
       "teamCode": "510910",
@@ -5459,6 +5475,6 @@
       "date": "Tue, Jun 24",
       "location": "Joe Magani Park"
     },
-    "lastUpdated": "2025-06-25T19:41:43.783Z"
+    "lastUpdated": "2025-06-25T20:22:54.555Z"
   }
 }
