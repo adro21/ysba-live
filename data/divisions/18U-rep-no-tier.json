@@ -92,21 +92,21 @@
         }
       },
       {
-        "position": 4,
+        "position": 3,
         "team": "Aurora-King Jays 17U A",
         "teamCode": "511021",
         "record": {
-          "gamesPlayed": 10,
-          "wins": 6,
+          "gamesPlayed": 11,
+          "wins": 7,
           "losses": 4,
           "ties": 0,
-          "winPercentage": "0.600"
+          "winPercentage": "0.636"
         },
         "stats": {
-          "points": 12,
-          "runsFor": 62,
-          "runsAgainst": 49,
-          "runDifferential": 13
+          "points": 14,
+          "runsFor": 73,
+          "runsAgainst": 50,
+          "runDifferential": 23
         }
       },
       {
@@ -128,7 +128,7 @@
         }
       },
       {
-        "position": 3,
+        "position": 4,
         "team": "Bradford Tigers 18U A",
         "teamCode": "511025",
         "record": {
@@ -330,21 +330,21 @@
         "team": "TNT Thunder 18U A",
         "teamCode": "511034",
         "record": {
-          "gamesPlayed": 7,
+          "gamesPlayed": 8,
           "wins": 0,
-          "losses": 7,
+          "losses": 8,
           "ties": 0,
           "winPercentage": "0.000"
         },
         "stats": {
           "points": 0,
-          "runsFor": 14,
-          "runsAgainst": 109,
-          "runDifferential": -95
+          "runsFor": 15,
+          "runsAgainst": 120,
+          "runDifferential": -105
         }
       }
     ],
-    "lastUpdated": "2025-06-25T01:15:19.881Z",
+    "lastUpdated": "2025-06-25T04:06:52.318Z",
     "totalTeams": 19
   },
   "schedule": {
@@ -428,8 +428,12 @@
             "awayTeam": "TNT Thunder 18U A",
             "awayTeamCode": "511034",
             "location": "Stewart Burnett Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 1,
+              "scoreText": "1-11"
+            }
           }
         ],
         "nextGames": [
@@ -494,7 +498,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T01:15:24.364Z"
+        "lastUpdated": "2025-06-25T04:06:56.635Z"
       },
       "511022": {
         "teamCode": "511022",
@@ -645,7 +649,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T01:15:24.364Z"
+        "lastUpdated": "2025-06-25T04:06:56.635Z"
       },
       "511023": {
         "teamCode": "511023",
@@ -796,7 +800,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T01:15:24.364Z"
+        "lastUpdated": "2025-06-25T04:06:56.635Z"
       },
       "511024": {
         "teamCode": "511024",
@@ -947,7 +951,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T01:15:24.364Z"
+        "lastUpdated": "2025-06-25T04:06:56.635Z"
       },
       "511025": {
         "teamCode": "511025",
@@ -1098,7 +1102,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T01:15:24.364Z"
+        "lastUpdated": "2025-06-25T04:06:56.635Z"
       },
       "511026": {
         "teamCode": "511026",
@@ -1245,7 +1249,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T01:15:24.364Z"
+        "lastUpdated": "2025-06-25T04:06:56.635Z"
       },
       "511027": {
         "teamCode": "511027",
@@ -1396,7 +1400,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T01:15:24.364Z"
+        "lastUpdated": "2025-06-25T04:06:56.635Z"
       },
       "511028": {
         "teamCode": "511028",
@@ -1543,7 +1547,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T01:15:24.364Z"
+        "lastUpdated": "2025-06-25T04:06:56.635Z"
       },
       "511030": {
         "teamCode": "511030",
@@ -1694,7 +1698,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T01:15:24.364Z"
+        "lastUpdated": "2025-06-25T04:06:56.635Z"
       },
       "511031": {
         "teamCode": "511031",
@@ -1845,7 +1849,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T01:15:24.364Z"
+        "lastUpdated": "2025-06-25T04:06:56.635Z"
       },
       "511032": {
         "teamCode": "511032",
@@ -1992,7 +1996,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T01:15:24.364Z"
+        "lastUpdated": "2025-06-25T04:06:56.635Z"
       },
       "511033": {
         "teamCode": "511033",
@@ -2143,7 +2147,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T01:15:24.364Z"
+        "lastUpdated": "2025-06-25T04:06:56.635Z"
       },
       "511034": {
         "teamCode": "511034",
@@ -2224,8 +2228,12 @@
             "awayTeam": "TNT Thunder 18U A",
             "awayTeamCode": "511034",
             "location": "Stewart Burnett Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 1,
+              "scoreText": "1-11"
+            }
           }
         ],
         "nextGames": [
@@ -2290,7 +2298,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T01:15:24.365Z"
+        "lastUpdated": "2025-06-25T04:06:56.635Z"
       },
       "511035": {
         "teamCode": "511035",
@@ -2429,7 +2437,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T01:15:24.365Z"
+        "lastUpdated": "2025-06-25T04:06:56.635Z"
       },
       "516246": {
         "teamCode": "516246",
@@ -2568,7 +2576,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T01:15:24.365Z"
+        "lastUpdated": "2025-06-25T04:06:56.635Z"
       },
       "518960": {
         "teamCode": "518960",
@@ -2719,7 +2727,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T01:15:24.365Z"
+        "lastUpdated": "2025-06-25T04:06:56.635Z"
       },
       "518962": {
         "teamCode": "518962",
@@ -2870,7 +2878,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T01:15:24.365Z"
+        "lastUpdated": "2025-06-25T04:06:56.635Z"
       },
       "519242": {
         "teamCode": "519242",
@@ -3021,7 +3029,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T01:15:24.365Z"
+        "lastUpdated": "2025-06-25T04:06:56.636Z"
       },
       "546377": {
         "teamCode": "546377",
@@ -3172,7 +3180,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-25T01:15:24.365Z"
+        "lastUpdated": "2025-06-25T04:06:56.636Z"
       }
     },
     "allGames": [
@@ -4577,8 +4585,12 @@
         "awayTeam": "TNT Thunder 18U A",
         "awayTeamCode": "511034",
         "location": "Stewart Burnett Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 1,
+          "scoreText": "1-11"
+        }
       },
       {
         "date": "2025-06-24T20:30:00.000Z",
@@ -5455,8 +5467,12 @@
         "awayTeam": "TNT Thunder 18U A",
         "awayTeamCode": "511034",
         "location": "Stewart Burnett Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 1,
+          "scoreText": "1-11"
+        }
       },
       {
         "date": "2025-06-23T20:30:00.000Z",
@@ -5701,14 +5717,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-25T01:15:24.365Z",
+    "lastUpdated": "2025-06-25T04:06:56.636Z",
     "totalGames": 161
   },
   "summary": {
     "totalTeams": 19,
     "totalGames": 161,
-    "completedGames": 81,
-    "upcomingGames": 80,
+    "completedGames": 82,
+    "upcomingGames": 79,
     "topTeam": {
       "team": "Aurora-King Jays 18U A",
       "teamCode": "511022",
@@ -5725,6 +5741,6 @@
       "date": "Sun, Jun 1",
       "location": "David Hamilton #1"
     },
-    "lastUpdated": "2025-06-25T01:17:14.046Z"
+    "lastUpdated": "2025-06-25T04:08:40.055Z"
   }
 }
