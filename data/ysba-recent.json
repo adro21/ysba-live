@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-06-25T17:20:24.047Z",
+  "lastUpdated": "2025-06-25T17:48:34.084Z",
   "totalGames": 190,
   "games": [
     {
@@ -821,8 +821,12 @@
       "awayTeam": "Stouffville Yankees 14U A",
       "awayTeamCode": "510966",
       "location": "Richmond Green #1",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 3,
+        "away": 5,
+        "scoreText": "5-3"
+      },
       "division": "14U",
       "tier": "rep-tier-3"
     }
