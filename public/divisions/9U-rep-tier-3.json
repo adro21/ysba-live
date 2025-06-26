@@ -24,17 +24,17 @@
         "team": "Newmarket Hawks 9U A",
         "teamCode": "511062",
         "record": {
-          "gamesPlayed": 7,
-          "wins": 5,
+          "gamesPlayed": 8,
+          "wins": 6,
           "losses": 1,
           "ties": 1,
-          "winPercentage": "0.786"
+          "winPercentage": "0.813"
         },
         "stats": {
-          "points": 11,
-          "runsFor": 104,
-          "runsAgainst": 44,
-          "runDifferential": 60
+          "points": 13,
+          "runsFor": 118,
+          "runsAgainst": 48,
+          "runDifferential": 70
         }
       },
       {
@@ -42,17 +42,17 @@
         "team": "Markham Mariners 9U A",
         "teamCode": "511061",
         "record": {
-          "gamesPlayed": 4,
-          "wins": 3,
+          "gamesPlayed": 5,
+          "wins": 4,
           "losses": 1,
           "ties": 0,
-          "winPercentage": "0.750"
+          "winPercentage": "0.800"
         },
         "stats": {
-          "points": 6,
-          "runsFor": 60,
-          "runsAgainst": 31,
-          "runDifferential": 29
+          "points": 8,
+          "runsFor": 74,
+          "runsAgainst": 35,
+          "runDifferential": 39
         }
       },
       {
@@ -78,17 +78,17 @@
         "team": "Vaughan Vikings 9U A",
         "teamCode": "518948",
         "record": {
-          "gamesPlayed": 8,
+          "gamesPlayed": 9,
           "wins": 2,
-          "losses": 5,
+          "losses": 6,
           "ties": 1,
-          "winPercentage": "0.313"
+          "winPercentage": "0.278"
         },
         "stats": {
           "points": 5,
-          "runsFor": 100,
-          "runsAgainst": 133,
-          "runDifferential": -33
+          "runsFor": 104,
+          "runsAgainst": 147,
+          "runDifferential": -43
         }
       },
       {
@@ -114,21 +114,21 @@
         "team": "Stouffville Yankees 9U A",
         "teamCode": "511065",
         "record": {
-          "gamesPlayed": 6,
+          "gamesPlayed": 7,
           "wins": 1,
-          "losses": 5,
+          "losses": 6,
           "ties": 0,
-          "winPercentage": "0.167"
+          "winPercentage": "0.143"
         },
         "stats": {
           "points": 2,
-          "runsFor": 46,
-          "runsAgainst": 93,
-          "runDifferential": -47
+          "runsFor": 50,
+          "runsAgainst": 107,
+          "runDifferential": -57
         }
       }
     ],
-    "lastUpdated": "2025-06-26T14:15:24.045Z",
+    "lastUpdated": "2025-06-26T14:43:48.028Z",
     "totalTeams": 7
   },
   "schedule": {
@@ -208,8 +208,12 @@
             "awayTeam": "Stouffville Yankees 9U A",
             "awayTeamCode": "511065",
             "location": "Morgan Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 4,
+              "scoreText": "4-14"
+            }
           }
         ],
         "nextGames": [
@@ -274,7 +278,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-26T14:15:26.947Z"
+        "lastUpdated": "2025-06-26T14:43:50.787Z"
       },
       "511062": {
         "teamCode": "511062",
@@ -355,8 +359,12 @@
             "awayTeam": "Vaughan Vikings 9U A",
             "awayTeamCode": "518948",
             "location": "Fairgrounds #2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 4,
+              "scoreText": "4-14"
+            }
           }
         ],
         "nextGames": [
@@ -421,7 +429,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-26T14:15:26.947Z"
+        "lastUpdated": "2025-06-26T14:43:50.787Z"
       },
       "511063": {
         "teamCode": "511063",
@@ -572,7 +580,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-26T14:15:26.947Z"
+        "lastUpdated": "2025-06-26T14:43:50.787Z"
       },
       "511064": {
         "teamCode": "511064",
@@ -723,7 +731,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-26T14:15:26.947Z"
+        "lastUpdated": "2025-06-26T14:43:50.787Z"
       },
       "511065": {
         "teamCode": "511065",
@@ -800,8 +808,12 @@
             "awayTeam": "Stouffville Yankees 9U A",
             "awayTeamCode": "511065",
             "location": "Morgan Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 4,
+              "scoreText": "4-14"
+            }
           }
         ],
         "nextGames": [
@@ -866,7 +878,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-26T14:15:26.947Z"
+        "lastUpdated": "2025-06-26T14:43:50.787Z"
       },
       "516247": {
         "teamCode": "516247",
@@ -1001,7 +1013,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-26T14:15:26.947Z"
+        "lastUpdated": "2025-06-26T14:43:50.787Z"
       },
       "518948": {
         "teamCode": "518948",
@@ -1082,8 +1094,12 @@
             "awayTeam": "Vaughan Vikings 9U A",
             "awayTeamCode": "518948",
             "location": "Fairgrounds #2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 4,
+              "scoreText": "4-14"
+            }
           }
         ],
         "nextGames": [
@@ -1148,7 +1164,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-26T14:15:26.947Z"
+        "lastUpdated": "2025-06-26T14:43:50.787Z"
       }
     },
     "allGames": [
@@ -1553,8 +1569,12 @@
         "awayTeam": "Vaughan Vikings 9U A",
         "awayTeamCode": "518948",
         "location": "Fairgrounds #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 4,
+          "scoreText": "4-14"
+        }
       },
       {
         "date": "2025-06-25T18:30:00.000Z",
@@ -1565,8 +1585,12 @@
         "awayTeam": "Stouffville Yankees 9U A",
         "awayTeamCode": "511065",
         "location": "Morgan Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 4,
+          "scoreText": "4-14"
+        }
       },
       {
         "date": "2025-06-29T15:30:00.000Z",
@@ -1927,8 +1951,12 @@
         "awayTeam": "Vaughan Vikings 9U A",
         "awayTeamCode": "518948",
         "location": "Fairgrounds #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 4,
+          "scoreText": "4-14"
+        }
       },
       {
         "date": "2025-06-25T18:30:00.000Z",
@@ -1939,8 +1967,12 @@
         "awayTeam": "Stouffville Yankees 9U A",
         "awayTeamCode": "511065",
         "location": "Morgan Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 4,
+          "scoreText": "4-14"
+        }
       },
       {
         "date": "2025-06-22T18:00:00.000Z",
@@ -2189,14 +2221,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-26T14:15:26.947Z",
+    "lastUpdated": "2025-06-26T14:43:50.787Z",
     "totalGames": 56
   },
   "summary": {
     "totalTeams": 7,
     "totalGames": 56,
-    "completedGames": 23,
-    "upcomingGames": 33,
+    "completedGames": 25,
+    "upcomingGames": 31,
     "topTeam": {
       "team": "Orillia Royals 9U A",
       "teamCode": "511064",
@@ -2213,6 +2245,6 @@
       "date": "Sat, Jun 14",
       "location": "Dean Heliotis Diamond"
     },
-    "lastUpdated": "2025-06-26T14:21:32.538Z"
+    "lastUpdated": "2025-06-26T14:49:23.264Z"
   }
 }
