@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-06-26T09:48:37.134Z",
+  "lastUpdated": "2025-06-26T10:21:34.983Z",
   "totalGames": 190,
   "games": [
     {
@@ -703,8 +703,12 @@
       "awayTeam": "Aurora-King Jays 15U AA",
       "awayTeamCode": "510993",
       "location": "Whipper Watson",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 3,
+        "away": 4,
+        "scoreText": "4-3"
+      },
       "division": "15U",
       "tier": "rep-tier-2"
     },
@@ -717,8 +721,12 @@
       "awayTeam": "Barrie Baycats 15U AA",
       "awayTeamCode": "510987",
       "location": "Kerr Park",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 5,
+        "away": 5,
+        "scoreText": "5-5"
+      },
       "division": "15U",
       "tier": "rep-tier-2"
     }
