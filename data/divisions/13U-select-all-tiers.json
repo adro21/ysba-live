@@ -150,21 +150,21 @@
         "team": "TNT Thunder 13U DS",
         "teamCode": "511097",
         "record": {
-          "gamesPlayed": 5,
+          "gamesPlayed": 6,
           "wins": 2,
           "losses": 3,
-          "ties": 0,
-          "winPercentage": "0.400"
+          "ties": 1,
+          "winPercentage": "0.417"
         },
         "stats": {
-          "points": 4,
-          "runsFor": 32,
-          "runsAgainst": 38,
+          "points": 5,
+          "runsFor": 39,
+          "runsAgainst": 45,
           "runDifferential": -6
         }
       },
       {
-        "position": 13,
+        "position": 14,
         "team": "Innisfil Cardinals 13U DS - Team 2",
         "teamCode": "511089",
         "record": {
@@ -236,20 +236,20 @@
         }
       },
       {
-        "position": 14,
+        "position": 13,
         "team": "Vaughan Vikings 12U DS",
         "teamCode": "518969",
         "record": {
-          "gamesPlayed": 5,
+          "gamesPlayed": 6,
           "wins": 1,
           "losses": 3,
-          "ties": 1,
-          "winPercentage": "0.300"
+          "ties": 2,
+          "winPercentage": "0.333"
         },
         "stats": {
-          "points": 3,
-          "runsFor": 39,
-          "runsAgainst": 43,
+          "points": 4,
+          "runsFor": 46,
+          "runsAgainst": 50,
           "runDifferential": -4
         }
       },
@@ -290,7 +290,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-06-26T19:42:11.046Z",
+    "lastUpdated": "2025-06-26T20:56:41.421Z",
     "totalTeams": 16
   },
   "schedule": {
@@ -440,7 +440,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-26T19:42:15.387Z"
+        "lastUpdated": "2025-06-26T20:56:45.749Z"
       },
       "511085": {
         "teamCode": "511085",
@@ -591,7 +591,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-26T19:42:15.387Z"
+        "lastUpdated": "2025-06-26T20:56:45.749Z"
       },
       "511086": {
         "teamCode": "511086",
@@ -742,7 +742,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-26T19:42:15.387Z"
+        "lastUpdated": "2025-06-26T20:56:45.749Z"
       },
       "511087": {
         "teamCode": "511087",
@@ -881,7 +881,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-26T19:42:15.388Z"
+        "lastUpdated": "2025-06-26T20:56:45.749Z"
       },
       "511088": {
         "teamCode": "511088",
@@ -1032,7 +1032,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-26T19:42:15.388Z"
+        "lastUpdated": "2025-06-26T20:56:45.749Z"
       },
       "511089": {
         "teamCode": "511089",
@@ -1179,7 +1179,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-26T19:42:15.388Z"
+        "lastUpdated": "2025-06-26T20:56:45.749Z"
       },
       "511090": {
         "teamCode": "511090",
@@ -1326,7 +1326,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-26T19:42:15.388Z"
+        "lastUpdated": "2025-06-26T20:56:45.749Z"
       },
       "511091": {
         "teamCode": "511091",
@@ -1457,7 +1457,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-26T19:42:15.388Z"
+        "lastUpdated": "2025-06-26T20:56:45.750Z"
       },
       "511092": {
         "teamCode": "511092",
@@ -1604,7 +1604,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-26T19:42:15.388Z"
+        "lastUpdated": "2025-06-26T20:56:45.750Z"
       },
       "511093": {
         "teamCode": "511093",
@@ -1751,7 +1751,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-26T19:42:15.388Z"
+        "lastUpdated": "2025-06-26T20:56:45.750Z"
       },
       "511094": {
         "teamCode": "511094",
@@ -1902,7 +1902,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-26T19:42:15.388Z"
+        "lastUpdated": "2025-06-26T20:56:45.750Z"
       },
       "511095": {
         "teamCode": "511095",
@@ -2053,7 +2053,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-26T19:42:15.388Z"
+        "lastUpdated": "2025-06-26T20:56:45.750Z"
       },
       "511096": {
         "teamCode": "511096",
@@ -2196,7 +2196,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-26T19:42:15.388Z"
+        "lastUpdated": "2025-06-26T20:56:45.750Z"
       },
       "511097": {
         "teamCode": "511097",
@@ -2245,8 +2245,12 @@
             "awayTeam": "Vaughan Vikings 12U DS",
             "awayTeamCode": "518969",
             "location": "Tottenham Recreation",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 7,
+              "scoreText": "7-7"
+            }
           },
           {
             "date": "2025-06-21T15:30:00.000Z",
@@ -2335,7 +2339,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-26T19:42:15.388Z"
+        "lastUpdated": "2025-06-26T20:56:45.750Z"
       },
       "511098": {
         "teamCode": "511098",
@@ -2486,7 +2490,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-26T19:42:15.388Z"
+        "lastUpdated": "2025-06-26T20:56:45.750Z"
       },
       "518969": {
         "teamCode": "518969",
@@ -2547,8 +2551,12 @@
             "awayTeam": "Vaughan Vikings 12U DS",
             "awayTeamCode": "518969",
             "location": "Tottenham Recreation",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 7,
+              "scoreText": "7-7"
+            }
           },
           {
             "date": "2025-06-21T15:30:00.000Z",
@@ -2625,7 +2633,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-26T19:42:15.388Z"
+        "lastUpdated": "2025-06-26T20:56:45.750Z"
       }
     },
     "allGames": [
@@ -3658,8 +3666,12 @@
         "awayTeam": "Vaughan Vikings 12U DS",
         "awayTeamCode": "518969",
         "location": "Tottenham Recreation",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 7,
+          "scoreText": "7-7"
+        }
       },
       {
         "date": "2025-06-21T15:30:00.000Z",
@@ -4516,8 +4528,12 @@
         "awayTeam": "Vaughan Vikings 12U DS",
         "awayTeamCode": "518969",
         "location": "Tottenham Recreation",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 7,
+          "scoreText": "7-7"
+        }
       },
       {
         "date": "2025-06-21T12:30:00.000Z",
@@ -4674,14 +4690,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-26T19:42:15.388Z",
+    "lastUpdated": "2025-06-26T20:56:45.750Z",
     "totalGames": 128
   },
   "summary": {
     "totalTeams": 16,
     "totalGames": 128,
-    "completedGames": 62,
-    "upcomingGames": 66,
+    "completedGames": 63,
+    "upcomingGames": 65,
     "topTeam": {
       "team": "Barrie Baycats 13U DS",
       "teamCode": "511085",
@@ -4698,6 +4714,6 @@
       "date": "Thu, Jun 12",
       "location": "Newmarket Fairgrounds Park #1"
     },
-    "lastUpdated": "2025-06-26T19:42:21.800Z"
+    "lastUpdated": "2025-06-26T20:56:51.839Z"
   }
 }
