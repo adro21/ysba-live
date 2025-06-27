@@ -24,24 +24,6 @@
         "team": "Aurora-King Jays 13U AA",
         "teamCode": "510946",
         "record": {
-          "gamesPlayed": 8,
-          "wins": 6,
-          "losses": 2,
-          "ties": 0,
-          "winPercentage": "0.750"
-        },
-        "stats": {
-          "points": 12,
-          "runsFor": 76,
-          "runsAgainst": 43,
-          "runDifferential": 33
-        }
-      },
-      {
-        "position": 2,
-        "team": "Caledon Nationals 13U AA",
-        "teamCode": "510948",
-        "record": {
           "gamesPlayed": 10,
           "wins": 7,
           "losses": 3,
@@ -50,9 +32,27 @@
         },
         "stats": {
           "points": 14,
-          "runsFor": 83,
-          "runsAgainst": 55,
-          "runDifferential": 28
+          "runsFor": 89,
+          "runsAgainst": 60,
+          "runDifferential": 29
+        }
+      },
+      {
+        "position": 2,
+        "team": "Caledon Nationals 13U AA",
+        "teamCode": "510948",
+        "record": {
+          "gamesPlayed": 11,
+          "wins": 7,
+          "losses": 4,
+          "ties": 0,
+          "winPercentage": "0.636"
+        },
+        "stats": {
+          "points": 14,
+          "runsFor": 85,
+          "runsAgainst": 59,
+          "runDifferential": 26
         }
       },
       {
@@ -60,17 +60,17 @@
         "team": "Barrie Baycats 13U AA",
         "teamCode": "510947",
         "record": {
-          "gamesPlayed": 9,
-          "wins": 5,
-          "losses": 4,
+          "gamesPlayed": 11,
+          "wins": 6,
+          "losses": 5,
           "ties": 0,
-          "winPercentage": "0.556"
+          "winPercentage": "0.545"
         },
         "stats": {
-          "points": 10,
-          "runsFor": 74,
-          "runsAgainst": 69,
-          "runDifferential": 5
+          "points": 12,
+          "runsFor": 91,
+          "runsAgainst": 82,
+          "runDifferential": 9
         }
       },
       {
@@ -78,17 +78,17 @@
         "team": "Markham Mariners 13U AA",
         "teamCode": "510949",
         "record": {
-          "gamesPlayed": 9,
-          "wins": 3,
+          "gamesPlayed": 10,
+          "wins": 4,
           "losses": 5,
           "ties": 1,
-          "winPercentage": "0.389"
+          "winPercentage": "0.450"
         },
         "stats": {
-          "points": 7,
-          "runsFor": 51,
-          "runsAgainst": 58,
-          "runDifferential": -7
+          "points": 9,
+          "runsFor": 55,
+          "runsAgainst": 60,
+          "runDifferential": -5
         }
       },
       {
@@ -146,7 +146,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-06-27T01:13:31.104Z",
+    "lastUpdated": "2025-06-27T03:06:55.133Z",
     "totalTeams": 8
   },
   "schedule": {
@@ -296,7 +296,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-27T01:13:35.639Z"
+        "lastUpdated": "2025-06-27T03:06:59.385Z"
       },
       "510941": {
         "teamCode": "510941",
@@ -443,7 +443,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-27T01:13:35.639Z"
+        "lastUpdated": "2025-06-27T03:06:59.385Z"
       },
       "510942": {
         "teamCode": "510942",
@@ -578,7 +578,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-27T01:13:35.639Z"
+        "lastUpdated": "2025-06-27T03:06:59.385Z"
       },
       "510943": {
         "teamCode": "510943",
@@ -721,7 +721,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-27T01:13:35.639Z"
+        "lastUpdated": "2025-06-27T03:06:59.385Z"
       },
       "510944": {
         "teamCode": "510944",
@@ -872,7 +872,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-27T01:13:35.639Z"
+        "lastUpdated": "2025-06-27T03:06:59.385Z"
       },
       "510945": {
         "teamCode": "510945",
@@ -1023,7 +1023,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-27T01:13:35.639Z"
+        "lastUpdated": "2025-06-27T03:06:59.385Z"
       },
       "510946": {
         "teamCode": "510946",
@@ -1088,8 +1088,12 @@
             "awayTeam": "Aurora-King Jays 13U AA",
             "awayTeamCode": "510946",
             "location": "Lampman Lane Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 2,
+              "scoreText": "2-11"
+            }
           },
           {
             "date": "2025-06-26T19:00:00.000Z",
@@ -1100,8 +1104,12 @@
             "awayTeam": "Barrie Baycats 13U AA",
             "awayTeamCode": "510947",
             "location": "Hallmark #1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 6,
+              "scoreText": "6-11"
+            }
           }
         ],
         "nextGames": [
@@ -1166,7 +1174,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-27T01:13:35.639Z"
+        "lastUpdated": "2025-06-27T03:06:59.385Z"
       },
       "510947": {
         "teamCode": "510947",
@@ -1231,8 +1239,12 @@
             "awayTeam": "Aurora-King Jays 13U AA",
             "awayTeamCode": "510946",
             "location": "Lampman Lane Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 2,
+              "scoreText": "2-11"
+            }
           },
           {
             "date": "2025-06-26T19:00:00.000Z",
@@ -1243,8 +1255,12 @@
             "awayTeam": "Barrie Baycats 13U AA",
             "awayTeamCode": "510947",
             "location": "Hallmark #1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 6,
+              "scoreText": "6-11"
+            }
           }
         ],
         "nextGames": [
@@ -1309,7 +1325,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-27T01:13:35.639Z"
+        "lastUpdated": "2025-06-27T03:06:59.385Z"
       },
       "510948": {
         "teamCode": "510948",
@@ -1370,8 +1386,12 @@
             "awayTeam": "Caledon Nationals 13U AA",
             "awayTeamCode": "510948",
             "location": "Milliken Mills #2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 2,
+              "scoreText": "2-4"
+            }
           },
           {
             "date": "2025-06-26T19:00:00.000Z",
@@ -1448,7 +1468,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-27T01:13:35.639Z"
+        "lastUpdated": "2025-06-27T03:06:59.385Z"
       },
       "510949": {
         "teamCode": "510949",
@@ -1509,8 +1529,12 @@
             "awayTeam": "Caledon Nationals 13U AA",
             "awayTeamCode": "510948",
             "location": "Milliken Mills #2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 2,
+              "scoreText": "2-4"
+            }
           },
           {
             "date": "2025-06-26T18:00:00.000Z",
@@ -1587,7 +1611,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-27T01:13:35.639Z"
+        "lastUpdated": "2025-06-27T03:06:59.385Z"
       },
       "510950": {
         "teamCode": "510950",
@@ -1730,7 +1754,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-27T01:13:35.640Z"
+        "lastUpdated": "2025-06-27T03:06:59.385Z"
       },
       "510951": {
         "teamCode": "510951",
@@ -1877,7 +1901,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-27T01:13:35.640Z"
+        "lastUpdated": "2025-06-27T03:06:59.385Z"
       },
       "510952": {
         "teamCode": "510952",
@@ -2020,7 +2044,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-27T01:13:35.640Z"
+        "lastUpdated": "2025-06-27T03:06:59.385Z"
       },
       "510953": {
         "teamCode": "510953",
@@ -2171,7 +2195,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-27T01:13:35.640Z"
+        "lastUpdated": "2025-06-27T03:06:59.385Z"
       },
       "510957": {
         "teamCode": "510957",
@@ -2318,7 +2342,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-27T01:13:35.640Z"
+        "lastUpdated": "2025-06-27T03:06:59.385Z"
       },
       "516242": {
         "teamCode": "516242",
@@ -2461,7 +2485,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-27T01:13:35.640Z"
+        "lastUpdated": "2025-06-27T03:06:59.385Z"
       },
       "518954": {
         "teamCode": "518954",
@@ -2612,7 +2636,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-27T01:13:35.640Z"
+        "lastUpdated": "2025-06-27T03:06:59.385Z"
       }
     },
     "allGames": [
@@ -3833,8 +3857,12 @@
         "awayTeam": "Aurora-King Jays 13U AA",
         "awayTeamCode": "510946",
         "location": "Lampman Lane Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 2,
+          "scoreText": "2-11"
+        }
       },
       {
         "date": "2025-06-25T18:30:00.000Z",
@@ -3845,8 +3873,12 @@
         "awayTeam": "Caledon Nationals 13U AA",
         "awayTeamCode": "510948",
         "location": "Milliken Mills #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 2,
+          "scoreText": "2-4"
+        }
       },
       {
         "date": "2025-06-25T20:00:00.000Z",
@@ -3885,8 +3917,12 @@
         "awayTeam": "Barrie Baycats 13U AA",
         "awayTeamCode": "510947",
         "location": "Hallmark #1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 6,
+          "scoreText": "6-11"
+        }
       },
       {
         "date": "2025-06-26T19:00:00.000Z",
@@ -4715,8 +4751,12 @@
         "awayTeam": "Barrie Baycats 13U AA",
         "awayTeamCode": "510947",
         "location": "Hallmark #1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 6,
+          "scoreText": "6-11"
+        }
       },
       {
         "date": "2025-06-26T19:00:00.000Z",
@@ -4767,8 +4807,12 @@
         "awayTeam": "Aurora-King Jays 13U AA",
         "awayTeamCode": "510946",
         "location": "Lampman Lane Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 2,
+          "scoreText": "2-11"
+        }
       },
       {
         "date": "2025-06-25T18:30:00.000Z",
@@ -4779,8 +4823,12 @@
         "awayTeam": "Caledon Nationals 13U AA",
         "awayTeamCode": "510948",
         "location": "Milliken Mills #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 2,
+          "scoreText": "2-4"
+        }
       },
       {
         "date": "2025-06-24T20:30:00.000Z",
@@ -4969,14 +5017,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-27T01:13:35.640Z",
+    "lastUpdated": "2025-06-27T03:06:59.385Z",
     "totalGames": 151
   },
   "summary": {
     "totalTeams": 8,
     "totalGames": 151,
-    "completedGames": 69,
-    "upcomingGames": 82,
+    "completedGames": 72,
+    "upcomingGames": 79,
     "topTeam": {
       "team": "Richmond Hill Phoenix 13U AA",
       "teamCode": "510952",
@@ -4993,6 +5041,6 @@
       "date": "Mon, May 12",
       "location": "MANSFIELD"
     },
-    "lastUpdated": "2025-06-27T01:17:14.812Z"
+    "lastUpdated": "2025-06-27T03:10:26.606Z"
   }
 }
