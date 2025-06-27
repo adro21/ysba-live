@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-06-27T15:21:27.904Z",
+  "lastUpdated": "2025-06-27T15:47:24.164Z",
   "totalGames": 190,
   "games": [
     {
@@ -47,8 +47,12 @@
       "awayTeam": "Vaughan Vikings 17U A",
       "awayTeamCode": "518960",
       "location": "Beeton",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 5,
+        "away": 8,
+        "scoreText": "8-5"
+      },
       "division": "18U",
       "tier": "rep-no-tier"
     },
