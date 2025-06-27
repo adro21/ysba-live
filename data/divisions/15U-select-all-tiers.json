@@ -3,6 +3,24 @@
     "teams": [
       {
         "position": 1,
+        "team": "Collingwood Jays 15U DS",
+        "teamCode": "511100",
+        "record": {
+          "gamesPlayed": 7,
+          "wins": 7,
+          "losses": 0,
+          "ties": 0,
+          "winPercentage": "1.000"
+        },
+        "stats": {
+          "points": 14,
+          "runsFor": 99,
+          "runsAgainst": 24,
+          "runDifferential": 75
+        }
+      },
+      {
+        "position": 2,
         "team": "Barrie Baycats 15U DS",
         "teamCode": "511524",
         "record": {
@@ -20,43 +38,7 @@
         }
       },
       {
-        "position": 3,
-        "team": "Collingwood Jays 15U DS",
-        "teamCode": "511100",
-        "record": {
-          "gamesPlayed": 2,
-          "wins": 2,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": "1.000"
-        },
-        "stats": {
-          "points": 4,
-          "runsFor": 21,
-          "runsAgainst": 9,
-          "runDifferential": 12
-        }
-      },
-      {
-        "position": 4,
-        "team": "Sudbury",
-        "teamCode": "500609",
-        "record": {
-          "gamesPlayed": 2,
-          "wins": 2,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": "1.000"
-        },
-        "stats": {
-          "points": 4,
-          "runsFor": 13,
-          "runsAgainst": 9,
-          "runDifferential": 4
-        }
-      },
-      {
-        "position": 7,
+        "position": 6,
         "team": "Orillia Royals 15U DS",
         "teamCode": "511102",
         "record": {
@@ -74,61 +56,79 @@
         }
       },
       {
-        "position": 2,
+        "position": 3,
         "team": "TNT Thunder 15U DS",
         "teamCode": "511104",
         "record": {
-          "gamesPlayed": 7,
+          "gamesPlayed": 6,
           "wins": 2,
-          "losses": 5,
+          "losses": 4,
           "ties": 0,
-          "winPercentage": "0.286"
+          "winPercentage": "0.333"
         },
         "stats": {
           "points": 4,
-          "runsFor": 58,
-          "runsAgainst": 46,
-          "runDifferential": 12
-        }
-      },
-      {
-        "position": 6,
-        "team": "Newmarket Hawks 15U DS",
-        "teamCode": "511101",
-        "record": {
-          "gamesPlayed": 4,
-          "wins": 1,
-          "losses": 3,
-          "ties": 0,
-          "winPercentage": "0.250"
-        },
-        "stats": {
-          "points": 2,
-          "runsFor": 27,
-          "runsAgainst": 42,
-          "runDifferential": -15
+          "runsFor": 51,
+          "runsAgainst": 49,
+          "runDifferential": 2
         }
       },
       {
         "position": 5,
-        "team": "Stouffville Yankees 15U DS",
-        "teamCode": "511103",
+        "team": "Newmarket Hawks 15U DS",
+        "teamCode": "511101",
         "record": {
-          "gamesPlayed": 6,
+          "gamesPlayed": 5,
           "wins": 1,
-          "losses": 5,
+          "losses": 4,
           "ties": 0,
-          "winPercentage": "0.167"
+          "winPercentage": "0.200"
         },
         "stats": {
           "points": 2,
-          "runsFor": 30,
-          "runsAgainst": 80,
-          "runDifferential": -50
+          "runsFor": 31,
+          "runsAgainst": 49,
+          "runDifferential": -18
+        }
+      },
+      {
+        "position": 4,
+        "team": "Stouffville Yankees 15U DS",
+        "teamCode": "511103",
+        "record": {
+          "gamesPlayed": 9,
+          "wins": 1,
+          "losses": 8,
+          "ties": 0,
+          "winPercentage": "0.111"
+        },
+        "stats": {
+          "points": 2,
+          "runsFor": 39,
+          "runsAgainst": 135,
+          "runDifferential": -96
+        }
+      },
+      {
+        "position": 7,
+        "team": "Sudbury",
+        "teamCode": "500609",
+        "record": {
+          "gamesPlayed": 0,
+          "wins": 0,
+          "losses": 0,
+          "ties": 0,
+          "winPercentage": ".000"
+        },
+        "stats": {
+          "points": 0,
+          "runsFor": 0,
+          "runsAgainst": 0,
+          "runDifferential": 0
         }
       }
     ],
-    "lastUpdated": "2025-06-27T19:17:05.057Z",
+    "lastUpdated": "2025-06-27T19:42:30.010Z",
     "totalTeams": 7
   },
   "schedule": {
@@ -148,12 +148,8 @@
             "awayTeam": "Sudbury",
             "awayTeamCode": "500609",
             "location": "Beeton South",
-            "isCompleted": true,
-            "score": {
-              "home": 4,
-              "away": 5,
-              "scoreText": "5-4"
-            }
+            "isCompleted": false,
+            "score": null
           },
           {
             "date": "2025-06-07T15:30:00.000Z",
@@ -164,12 +160,8 @@
             "awayTeam": "Sudbury",
             "awayTeamCode": "500609",
             "location": "Beeton South",
-            "isCompleted": true,
-            "score": {
-              "home": 5,
-              "away": 8,
-              "scoreText": "8-5"
-            }
+            "isCompleted": false,
+            "score": null
           },
           {
             "date": "2025-06-08T10:00:00.000Z",
@@ -258,7 +250,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-27T19:17:07.987Z"
+        "lastUpdated": "2025-06-27T19:42:33.205Z"
       },
       "511100": {
         "teamCode": "511100",
@@ -275,8 +267,12 @@
             "awayTeam": "Collingwood Jays 15U DS",
             "awayTeamCode": "511100",
             "location": "Bethesda 2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 0,
+              "away": 16,
+              "scoreText": "16-0"
+            }
           },
           {
             "date": "2025-06-21T14:30:00.000Z",
@@ -287,8 +283,12 @@
             "awayTeam": "Collingwood Jays 15U DS",
             "awayTeamCode": "511100",
             "location": "WhipperWatson",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 7,
+              "scoreText": "7-4"
+            }
           },
           {
             "date": "2025-06-22T10:00:00.000Z",
@@ -299,8 +299,12 @@
             "awayTeam": "Stouffville Yankees 15U DS",
             "awayTeamCode": "511103",
             "location": "Legion Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 19,
+              "away": 4,
+              "scoreText": "4-19"
+            }
           },
           {
             "date": "2025-06-22T12:30:00.000Z",
@@ -311,8 +315,12 @@
             "awayTeam": "Stouffville Yankees 15U DS",
             "awayTeamCode": "511103",
             "location": "Legion Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 20,
+              "away": 5,
+              "scoreText": "5-20"
+            }
           },
           {
             "date": "2025-06-25T20:00:00.000Z",
@@ -323,8 +331,12 @@
             "awayTeam": "Collingwood Jays 15U DS",
             "awayTeamCode": "511100",
             "location": "Beeton South",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 2,
+              "away": 16,
+              "scoreText": "16-2"
+            }
           }
         ],
         "nextGames": [
@@ -336,7 +348,7 @@
             "homeTeamCode": "511100",
             "awayTeam": "Orillia Royals 15U DS",
             "awayTeamCode": "511102",
-            "location": "Legion Park",
+            "location": "Large Heritage",
             "isCompleted": false,
             "score": null
           },
@@ -389,7 +401,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-27T19:17:07.987Z"
+        "lastUpdated": "2025-06-27T19:42:33.205Z"
       },
       "511101": {
         "teamCode": "511101",
@@ -438,8 +450,12 @@
             "awayTeam": "Collingwood Jays 15U DS",
             "awayTeamCode": "511100",
             "location": "WhipperWatson",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 7,
+              "scoreText": "7-4"
+            }
           },
           {
             "date": "2025-06-22T11:00:00.000Z",
@@ -528,7 +544,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-27T19:17:07.987Z"
+        "lastUpdated": "2025-06-27T19:42:33.205Z"
       },
       "511102": {
         "teamCode": "511102",
@@ -658,12 +674,12 @@
             "homeTeamCode": "511100",
             "awayTeam": "Orillia Royals 15U DS",
             "awayTeamCode": "511102",
-            "location": "Legion Park",
+            "location": "Large Heritage",
             "isCompleted": false,
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-27T19:17:07.987Z"
+        "lastUpdated": "2025-06-27T19:42:33.206Z"
       },
       "511103": {
         "teamCode": "511103",
@@ -712,8 +728,12 @@
             "awayTeam": "Collingwood Jays 15U DS",
             "awayTeamCode": "511100",
             "location": "Bethesda 2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 0,
+              "away": 16,
+              "scoreText": "16-0"
+            }
           },
           {
             "date": "2025-06-22T10:00:00.000Z",
@@ -724,8 +744,12 @@
             "awayTeam": "Stouffville Yankees 15U DS",
             "awayTeamCode": "511103",
             "location": "Legion Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 19,
+              "away": 4,
+              "scoreText": "4-19"
+            }
           },
           {
             "date": "2025-06-22T12:30:00.000Z",
@@ -736,8 +760,12 @@
             "awayTeam": "Stouffville Yankees 15U DS",
             "awayTeamCode": "511103",
             "location": "Legion Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 20,
+              "away": 5,
+              "scoreText": "5-20"
+            }
           }
         ],
         "nextGames": [
@@ -802,7 +830,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-27T19:17:07.987Z"
+        "lastUpdated": "2025-06-27T19:42:33.206Z"
       },
       "511104": {
         "teamCode": "511104",
@@ -875,8 +903,12 @@
             "awayTeam": "Collingwood Jays 15U DS",
             "awayTeamCode": "511100",
             "location": "Beeton South",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 2,
+              "away": 16,
+              "scoreText": "16-2"
+            }
           }
         ],
         "nextGames": [
@@ -941,7 +973,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-27T19:17:07.987Z"
+        "lastUpdated": "2025-06-27T19:42:33.206Z"
       },
       "511524": {
         "teamCode": "511524",
@@ -1080,7 +1112,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-27T19:17:07.987Z"
+        "lastUpdated": "2025-06-27T19:42:33.206Z"
       }
     },
     "allGames": [
@@ -1293,12 +1325,8 @@
         "awayTeam": "Sudbury",
         "awayTeamCode": "500609",
         "location": "Beeton South",
-        "isCompleted": true,
-        "score": {
-          "home": 4,
-          "away": 5,
-          "scoreText": "5-4"
-        }
+        "isCompleted": false,
+        "score": null
       },
       {
         "date": "2025-06-07T15:30:00.000Z",
@@ -1309,12 +1337,8 @@
         "awayTeam": "Sudbury",
         "awayTeamCode": "500609",
         "location": "Beeton South",
-        "isCompleted": true,
-        "score": {
-          "home": 5,
-          "away": 8,
-          "scoreText": "8-5"
-        }
+        "isCompleted": false,
+        "score": null
       },
       {
         "date": "2025-06-08T10:00:00.000Z",
@@ -1409,8 +1433,12 @@
         "awayTeam": "Collingwood Jays 15U DS",
         "awayTeamCode": "511100",
         "location": "Bethesda 2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 0,
+          "away": 16,
+          "scoreText": "16-0"
+        }
       },
       {
         "date": "2025-06-21T12:00:00.000Z",
@@ -1433,8 +1461,12 @@
         "awayTeam": "Collingwood Jays 15U DS",
         "awayTeamCode": "511100",
         "location": "WhipperWatson",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 7,
+          "scoreText": "7-4"
+        }
       },
       {
         "date": "2025-06-21T15:00:00.000Z",
@@ -1457,8 +1489,12 @@
         "awayTeam": "Stouffville Yankees 15U DS",
         "awayTeamCode": "511103",
         "location": "Legion Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 19,
+          "away": 4,
+          "scoreText": "4-19"
+        }
       },
       {
         "date": "2025-06-22T11:00:00.000Z",
@@ -1481,8 +1517,12 @@
         "awayTeam": "Stouffville Yankees 15U DS",
         "awayTeamCode": "511103",
         "location": "Legion Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 20,
+          "away": 5,
+          "scoreText": "5-20"
+        }
       },
       {
         "date": "2025-06-24T19:00:00.000Z",
@@ -1505,8 +1545,12 @@
         "awayTeam": "Collingwood Jays 15U DS",
         "awayTeamCode": "511100",
         "location": "Beeton South",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 2,
+          "away": 16,
+          "scoreText": "16-2"
+        }
       },
       {
         "date": "2025-06-28T09:30:00.000Z",
@@ -1624,7 +1668,7 @@
         "homeTeamCode": "511100",
         "awayTeam": "Orillia Royals 15U DS",
         "awayTeamCode": "511102",
-        "location": "Legion Park",
+        "location": "Large Heritage",
         "isCompleted": false,
         "score": null
       },
@@ -1831,8 +1875,12 @@
         "awayTeam": "Collingwood Jays 15U DS",
         "awayTeamCode": "511100",
         "location": "Beeton South",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 2,
+          "away": 16,
+          "scoreText": "16-2"
+        }
       },
       {
         "date": "2025-06-24T19:00:00.000Z",
@@ -1855,8 +1903,12 @@
         "awayTeam": "Stouffville Yankees 15U DS",
         "awayTeamCode": "511103",
         "location": "Legion Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 20,
+          "away": 5,
+          "scoreText": "5-20"
+        }
       },
       {
         "date": "2025-06-22T11:00:00.000Z",
@@ -1879,8 +1931,12 @@
         "awayTeam": "Stouffville Yankees 15U DS",
         "awayTeamCode": "511103",
         "location": "Legion Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 19,
+          "away": 4,
+          "scoreText": "4-19"
+        }
       },
       {
         "date": "2025-06-21T15:00:00.000Z",
@@ -1903,8 +1959,12 @@
         "awayTeam": "Collingwood Jays 15U DS",
         "awayTeamCode": "511100",
         "location": "WhipperWatson",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 7,
+          "scoreText": "7-4"
+        }
       },
       {
         "date": "2025-06-21T12:00:00.000Z",
@@ -1927,8 +1987,12 @@
         "awayTeam": "Collingwood Jays 15U DS",
         "awayTeamCode": "511100",
         "location": "Bethesda 2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 0,
+          "away": 16,
+          "scoreText": "16-0"
+        }
       },
       {
         "date": "2025-06-18T18:00:00.000Z",
@@ -2060,35 +2124,35 @@
         "homeTeamCode": "511100",
         "awayTeam": "Orillia Royals 15U DS",
         "awayTeamCode": "511102",
-        "location": "Legion Park",
+        "location": "Large Heritage",
         "isCompleted": false,
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-27T19:17:07.987Z",
+    "lastUpdated": "2025-06-27T19:42:33.206Z",
     "totalGames": 57
   },
   "summary": {
     "totalTeams": 7,
     "totalGames": 57,
-    "completedGames": 13,
-    "upcomingGames": 44,
+    "completedGames": 16,
+    "upcomingGames": 41,
     "topTeam": {
-      "team": "Barrie Baycats 15U DS",
-      "teamCode": "511524",
-      "wins": 4,
+      "team": "Collingwood Jays 15U DS",
+      "teamCode": "511100",
+      "wins": 7,
       "losses": 0,
       "winPercentage": "1.000"
     },
     "highestScoringGame": {
-      "homeTeam": "Stouffville Yankees 15U DS",
-      "awayTeam": "TNT Thunder 15U DS",
-      "homeScore": 3,
-      "awayScore": 21,
-      "totalRuns": 24,
-      "date": "Sat, Jun 14",
-      "location": "Bethesda 2"
+      "homeTeam": "Collingwood Jays 15U DS",
+      "awayTeam": "Stouffville Yankees 15U DS",
+      "homeScore": 20,
+      "awayScore": 5,
+      "totalRuns": 25,
+      "date": "Sun, Jun 22",
+      "location": "Legion Park"
     },
-    "lastUpdated": "2025-06-27T19:17:07.994Z"
+    "lastUpdated": "2025-06-27T19:42:33.217Z"
   }
 }
