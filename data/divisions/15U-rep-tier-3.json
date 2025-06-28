@@ -2,25 +2,25 @@
   "standings": {
     "teams": [
       {
-        "position": 4,
+        "position": 2,
         "team": "Stouffville Yankees 15U A",
         "teamCode": "510985",
         "record": {
-          "gamesPlayed": 5,
-          "wins": 5,
+          "gamesPlayed": 6,
+          "wins": 6,
           "losses": 0,
           "ties": 0,
           "winPercentage": "1.000"
         },
         "stats": {
-          "points": 10,
-          "runsFor": 68,
-          "runsAgainst": 39,
-          "runDifferential": 29
+          "points": 12,
+          "runsFor": 73,
+          "runsAgainst": 43,
+          "runDifferential": 30
         }
       },
       {
-        "position": 1,
+        "position": 3,
         "team": "Ontario Women",
         "teamCode": "546379",
         "record": {
@@ -38,25 +38,25 @@
         }
       },
       {
-        "position": 7,
-        "team": "Collingwood Jays 15U A",
-        "teamCode": "510986",
+        "position": 1,
+        "team": "Aurora-King Jays 15U A",
+        "teamCode": "510980",
         "record": {
-          "gamesPlayed": 6,
-          "wins": 4,
-          "losses": 2,
+          "gamesPlayed": 9,
+          "wins": 6,
+          "losses": 3,
           "ties": 0,
           "winPercentage": "0.667"
         },
         "stats": {
-          "points": 8,
-          "runsFor": 60,
-          "runsAgainst": 34,
-          "runDifferential": 26
+          "points": 12,
+          "runsFor": 80,
+          "runsAgainst": 64,
+          "runDifferential": 16
         }
       },
       {
-        "position": 2,
+        "position": 4,
         "team": "Georgina Bulldogs 15U B",
         "teamCode": "510998",
         "record": {
@@ -74,21 +74,21 @@
         }
       },
       {
-        "position": 3,
-        "team": "Aurora-King Jays 15U A",
-        "teamCode": "510980",
+        "position": 7,
+        "team": "Collingwood Jays 15U A",
+        "teamCode": "510986",
         "record": {
-          "gamesPlayed": 8,
-          "wins": 5,
+          "gamesPlayed": 7,
+          "wins": 4,
           "losses": 3,
           "ties": 0,
-          "winPercentage": "0.625"
+          "winPercentage": "0.571"
         },
         "stats": {
-          "points": 10,
-          "runsFor": 68,
-          "runsAgainst": 53,
-          "runDifferential": 15
+          "points": 8,
+          "runsFor": 64,
+          "runsAgainst": 39,
+          "runDifferential": 25
         }
       },
       {
@@ -114,17 +114,17 @@
         "team": "Barrie Baycats 15U A",
         "teamCode": "510981",
         "record": {
-          "gamesPlayed": 6,
+          "gamesPlayed": 7,
           "wins": 3,
-          "losses": 3,
+          "losses": 4,
           "ties": 0,
-          "winPercentage": "0.500"
+          "winPercentage": "0.429"
         },
         "stats": {
           "points": 6,
-          "runsFor": 44,
-          "runsAgainst": 55,
-          "runDifferential": -11
+          "runsFor": 55,
+          "runsAgainst": 67,
+          "runDifferential": -12
         }
       },
       {
@@ -182,7 +182,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-06-28T11:39:57.038Z",
+    "lastUpdated": "2025-06-28T12:29:48.661Z",
     "totalTeams": 10
   },
   "schedule": {
@@ -266,8 +266,12 @@
             "awayTeam": "Barrie Baycats 15U A",
             "awayTeamCode": "510981",
             "location": "Lambert Wilson #4",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 11,
+              "scoreText": "11-12"
+            }
           }
         ],
         "nextGames": [
@@ -332,7 +336,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-28T11:40:01.594Z"
+        "lastUpdated": "2025-06-28T12:29:53.174Z"
       },
       "510981": {
         "teamCode": "510981",
@@ -413,8 +417,12 @@
             "awayTeam": "Barrie Baycats 15U A",
             "awayTeamCode": "510981",
             "location": "Lambert Wilson #4",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 11,
+              "scoreText": "11-12"
+            }
           }
         ],
         "nextGames": [
@@ -479,7 +487,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-28T11:40:01.594Z"
+        "lastUpdated": "2025-06-28T12:29:53.174Z"
       },
       "510982": {
         "teamCode": "510982",
@@ -626,7 +634,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-28T11:40:01.594Z"
+        "lastUpdated": "2025-06-28T12:29:53.174Z"
       },
       "510983": {
         "teamCode": "510983",
@@ -773,7 +781,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-28T11:40:01.594Z"
+        "lastUpdated": "2025-06-28T12:29:53.174Z"
       },
       "510984": {
         "teamCode": "510984",
@@ -924,7 +932,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-28T11:40:01.594Z"
+        "lastUpdated": "2025-06-28T12:29:53.174Z"
       },
       "510985": {
         "teamCode": "510985",
@@ -1005,8 +1013,12 @@
             "awayTeam": "Collingwood Jays 15U A",
             "awayTeamCode": "510986",
             "location": "Bethesda Fields #2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 4,
+              "scoreText": "4-5"
+            }
           }
         ],
         "nextGames": [
@@ -1071,7 +1083,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-28T11:40:01.594Z"
+        "lastUpdated": "2025-06-28T12:29:53.174Z"
       },
       "510986": {
         "teamCode": "510986",
@@ -1148,8 +1160,12 @@
             "awayTeam": "Collingwood Jays 15U A",
             "awayTeamCode": "510986",
             "location": "Bethesda Fields #2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 4,
+              "scoreText": "4-5"
+            }
           }
         ],
         "nextGames": [
@@ -1214,7 +1230,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-28T11:40:01.594Z"
+        "lastUpdated": "2025-06-28T12:29:53.174Z"
       },
       "510987": {
         "teamCode": "510987",
@@ -1365,7 +1381,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-28T11:40:01.594Z"
+        "lastUpdated": "2025-06-28T12:29:53.174Z"
       },
       "510988": {
         "teamCode": "510988",
@@ -1516,7 +1532,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-28T11:40:01.594Z"
+        "lastUpdated": "2025-06-28T12:29:53.174Z"
       },
       "510989": {
         "teamCode": "510989",
@@ -1667,7 +1683,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-28T11:40:01.594Z"
+        "lastUpdated": "2025-06-28T12:29:53.174Z"
       },
       "510990": {
         "teamCode": "510990",
@@ -1818,7 +1834,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-28T11:40:01.594Z"
+        "lastUpdated": "2025-06-28T12:29:53.174Z"
       },
       "510991": {
         "teamCode": "510991",
@@ -1969,30 +1985,14 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-28T11:40:01.594Z"
+        "lastUpdated": "2025-06-28T12:29:53.174Z"
       },
       "510992": {
         "teamCode": "510992",
         "totalGames": 18,
-        "playedGames": 6,
-        "upcomingGames": 12,
+        "playedGames": 7,
+        "upcomingGames": 11,
         "recentGames": [
-          {
-            "date": "2025-05-27T18:00:00.000Z",
-            "dateText": "Tue, May 27",
-            "time": "6:00 PM",
-            "homeTeam": "Aurora-King Jays 15U AA",
-            "homeTeamCode": "510993",
-            "awayTeam": "Thornhill Reds 15U AA",
-            "awayTeamCode": "510992",
-            "location": "Lambert Willson #4",
-            "isCompleted": true,
-            "score": {
-              "home": 9,
-              "away": 12,
-              "scoreText": "12-9"
-            }
-          },
           {
             "date": "2025-05-31T09:00:00.000Z",
             "dateText": "Sat, May 31",
@@ -2056,9 +2056,7 @@
               "away": 9,
               "scoreText": "9-7"
             }
-          }
-        ],
-        "nextGames": [
+          },
           {
             "date": "2025-06-28T12:00:00.000Z",
             "dateText": "Sat, Jun 28",
@@ -2070,7 +2068,9 @@
             "location": "Bathurst District Park",
             "isCompleted": false,
             "score": null
-          },
+          }
+        ],
+        "nextGames": [
           {
             "date": "2025-06-28T14:30:00.000Z",
             "dateText": "Sat, Jun 28",
@@ -2118,9 +2118,21 @@
             "location": "Concord Regional Park, #1",
             "isCompleted": false,
             "score": null
+          },
+          {
+            "date": "2025-07-12T10:00:00.000Z",
+            "dateText": "Sat, Jul 12",
+            "time": "10:00 AM",
+            "homeTeam": "Thornhill Reds 15U AA",
+            "homeTeamCode": "510992",
+            "awayTeam": "Barrie Baycats 15U AA",
+            "awayTeamCode": "510987",
+            "location": "Bathurst District Park",
+            "isCompleted": false,
+            "score": null
           }
         ],
-        "lastUpdated": "2025-06-28T11:40:01.594Z"
+        "lastUpdated": "2025-06-28T12:29:53.174Z"
       },
       "510993": {
         "teamCode": "510993",
@@ -2267,7 +2279,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-28T11:40:01.594Z"
+        "lastUpdated": "2025-06-28T12:29:53.174Z"
       },
       "510998": {
         "teamCode": "510998",
@@ -2410,30 +2422,14 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-28T11:40:01.594Z"
+        "lastUpdated": "2025-06-28T12:29:53.174Z"
       },
       "516244": {
         "teamCode": "516244",
         "totalGames": 18,
-        "playedGames": 10,
-        "upcomingGames": 8,
+        "playedGames": 11,
+        "upcomingGames": 7,
         "recentGames": [
-          {
-            "date": "2025-06-21T12:30:00.000Z",
-            "dateText": "Sat, Jun 21",
-            "time": "12:30 PM",
-            "homeTeam": "Newmarket Hawks 15U AA",
-            "homeTeamCode": "510991",
-            "awayTeam": "Muskoka Hornets 15U AA",
-            "awayTeamCode": "516244",
-            "location": "McCulley-Robertson Sports Complex",
-            "isCompleted": true,
-            "score": {
-              "home": 11,
-              "away": 18,
-              "scoreText": "18-11"
-            }
-          },
           {
             "date": "2025-06-22T11:00:00.000Z",
             "dateText": "Sun, Jun 22",
@@ -2497,9 +2493,7 @@
               "away": 5,
               "scoreText": "5-5"
             }
-          }
-        ],
-        "nextGames": [
+          },
           {
             "date": "2025-06-28T12:00:00.000Z",
             "dateText": "Sat, Jun 28",
@@ -2511,7 +2505,9 @@
             "location": "Bathurst District Park",
             "isCompleted": false,
             "score": null
-          },
+          }
+        ],
+        "nextGames": [
           {
             "date": "2025-06-28T14:30:00.000Z",
             "dateText": "Sat, Jun 28",
@@ -2559,9 +2555,21 @@
             "location": "Nobleton Community Centre - West Diamont",
             "isCompleted": false,
             "score": null
+          },
+          {
+            "date": "2025-07-23T18:00:00.000Z",
+            "dateText": "Wed, Jul 23",
+            "time": "6:00 PM",
+            "homeTeam": "Muskoka Hornets 15U AA",
+            "homeTeamCode": "516244",
+            "awayTeam": "Mansfield Cubs 15U AA",
+            "awayTeamCode": "510990",
+            "location": "Kerr Park",
+            "isCompleted": false,
+            "score": null
           }
         ],
-        "lastUpdated": "2025-06-28T11:40:01.594Z"
+        "lastUpdated": "2025-06-28T12:29:53.175Z"
       },
       "518959": {
         "teamCode": "518959",
@@ -2712,7 +2720,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-28T11:40:01.594Z"
+        "lastUpdated": "2025-06-28T12:29:53.175Z"
       },
       "546379": {
         "teamCode": "546379",
@@ -2851,7 +2859,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-28T11:40:01.594Z"
+        "lastUpdated": "2025-06-28T12:29:53.175Z"
       }
     },
     "allGames": [
@@ -4120,8 +4128,12 @@
         "awayTeam": "Collingwood Jays 15U A",
         "awayTeamCode": "510986",
         "location": "Bethesda Fields #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 5,
+          "away": 4,
+          "scoreText": "4-5"
+        }
       },
       {
         "date": "2025-06-26T20:00:00.000Z",
@@ -4144,8 +4156,12 @@
         "awayTeam": "Barrie Baycats 15U A",
         "awayTeamCode": "510981",
         "location": "Lambert Wilson #4",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 11,
+          "scoreText": "11-12"
+        }
       },
       {
         "date": "2025-06-28T12:00:00.000Z",
@@ -5086,6 +5102,18 @@
     ],
     "recentGames": [
       {
+        "date": "2025-06-28T12:00:00.000Z",
+        "dateText": "Sat, Jun 28",
+        "time": "12:00 PM",
+        "homeTeam": "Thornhill Reds 15U AA",
+        "homeTeamCode": "510992",
+        "awayTeam": "Muskoka Hornets 15U AA",
+        "awayTeamCode": "516244",
+        "location": "Bathurst District Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
         "date": "2025-06-27T19:30:00.000Z",
         "dateText": "Fri, Jun 27",
         "time": "7:30 PM",
@@ -5094,8 +5122,12 @@
         "awayTeam": "Barrie Baycats 15U A",
         "awayTeamCode": "510981",
         "location": "Lambert Wilson #4",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 11,
+          "scoreText": "11-12"
+        }
       },
       {
         "date": "2025-06-26T20:00:00.000Z",
@@ -5118,8 +5150,12 @@
         "awayTeam": "Collingwood Jays 15U A",
         "awayTeamCode": "510986",
         "location": "Bethesda Fields #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 5,
+          "away": 4,
+          "scoreText": "4-5"
+        }
       },
       {
         "date": "2025-06-26T19:00:00.000Z",
@@ -5212,37 +5248,9 @@
           "away": 4,
           "scoreText": "4-3"
         }
-      },
-      {
-        "date": "2025-06-25T18:00:00.000Z",
-        "dateText": "Wed, Jun 25",
-        "time": "6:00 PM",
-        "homeTeam": "Muskoka Hornets 15U AA",
-        "homeTeamCode": "516244",
-        "awayTeam": "Barrie Baycats 15U AA",
-        "awayTeamCode": "510987",
-        "location": "Kerr Park",
-        "isCompleted": true,
-        "score": {
-          "home": 5,
-          "away": 5,
-          "scoreText": "5-5"
-        }
       }
     ],
     "upcomingGames": [
-      {
-        "date": "2025-06-28T12:00:00.000Z",
-        "dateText": "Sat, Jun 28",
-        "time": "12:00 PM",
-        "homeTeam": "Thornhill Reds 15U AA",
-        "homeTeamCode": "510992",
-        "awayTeam": "Muskoka Hornets 15U AA",
-        "awayTeamCode": "516244",
-        "location": "Bathurst District Park",
-        "isCompleted": false,
-        "score": null
-      },
       {
         "date": "2025-06-28T13:00:00.000Z",
         "dateText": "Sat, Jun 28",
@@ -5350,20 +5358,32 @@
         "location": "Innisfil Rec Centre (IRC) South",
         "isCompleted": false,
         "score": null
+      },
+      {
+        "date": "2025-07-05T18:30:00.000Z",
+        "dateText": "Sat, Jul 5",
+        "time": "6:30 PM",
+        "homeTeam": "Mansfield Cubs 15U AA",
+        "homeTeamCode": "510990",
+        "awayTeam": "Muskoka Hornets 15U AA",
+        "awayTeamCode": "516244",
+        "location": "Mansfield Baseball Diamond",
+        "isCompleted": false,
+        "score": null
       }
     ],
-    "lastUpdated": "2025-06-28T11:40:01.594Z",
+    "lastUpdated": "2025-06-28T12:29:53.175Z",
     "totalGames": 162
   },
   "summary": {
     "totalTeams": 10,
     "totalGames": 162,
-    "completedGames": 71,
-    "upcomingGames": 91,
+    "completedGames": 73,
+    "upcomingGames": 89,
     "topTeam": {
       "team": "Stouffville Yankees 15U A",
       "teamCode": "510985",
-      "wins": 5,
+      "wins": 6,
       "losses": 0,
       "winPercentage": "1.000"
     },
@@ -5376,6 +5396,6 @@
       "date": "Thu, May 29",
       "location": "Bethesda Fields #2"
     },
-    "lastUpdated": "2025-06-28T11:42:28.142Z"
+    "lastUpdated": "2025-06-28T12:32:18.742Z"
   }
 }
