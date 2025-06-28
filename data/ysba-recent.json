@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-06-28T18:24:13.828Z",
+  "lastUpdated": "2025-06-28T18:53:23.782Z",
   "totalGames": 190,
   "games": [
     {
@@ -699,8 +699,12 @@
       "awayTeam": "Bradford Tigers 14U A",
       "awayTeamCode": "510960",
       "location": "Stuart Burnett Field",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 2,
+        "away": 18,
+        "scoreText": "18-2"
+      },
       "division": "14U",
       "tier": "rep-tier-3"
     },
@@ -713,8 +717,12 @@
       "awayTeam": "Innisfil Cardinals 14U A",
       "awayTeamCode": "510963",
       "location": "Bethesda Sports Field #2",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 10,
+        "away": 9,
+        "scoreText": "9-10"
+      },
       "division": "14U",
       "tier": "rep-tier-3"
     }
