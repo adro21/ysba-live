@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-06-29T11:41:57.790Z",
+  "lastUpdated": "2025-06-29T12:32:25.146Z",
   "totalGames": 190,
   "games": [
     {
@@ -37,6 +37,62 @@
       },
       "division": "10U",
       "tier": "rep-tier-3"
+    },
+    {
+      "date": "2025-06-29T12:30:00.000Z",
+      "dateText": "Sun, Jun 29",
+      "time": "12:30 PM",
+      "homeTeam": "Orillia Royals 15U DS",
+      "homeTeamCode": "511102",
+      "awayTeam": "Sudbury",
+      "awayTeamCode": "500609",
+      "location": "Udell field",
+      "isCompleted": false,
+      "score": null,
+      "division": "15U",
+      "tier": "select-all-tiers"
+    },
+    {
+      "date": "2025-06-29T12:15:00.000Z",
+      "dateText": "Sun, Jun 29",
+      "time": "12:15 PM",
+      "homeTeam": "Mansfield Cubs 11U DS",
+      "homeTeamCode": "511078",
+      "awayTeam": "TNT Thunder 11U DS",
+      "awayTeamCode": "518974",
+      "location": "Mansfield Park",
+      "isCompleted": false,
+      "score": null,
+      "division": "11U",
+      "tier": "select-all-tiers"
+    },
+    {
+      "date": "2025-06-29T12:15:00.000Z",
+      "dateText": "Sun, Jun 29",
+      "time": "12:15 PM",
+      "homeTeam": "Mansfield Cubs 11U DS",
+      "homeTeamCode": "511078",
+      "awayTeam": "TNT Thunder 11U DS",
+      "awayTeamCode": "518974",
+      "location": "Mansfield Park",
+      "isCompleted": false,
+      "score": null,
+      "division": "11U",
+      "tier": "select-all-tiers"
+    },
+    {
+      "date": "2025-06-29T12:15:00.000Z",
+      "dateText": "Sun, Jun 29",
+      "time": "12:15 PM",
+      "homeTeam": "Richmond Hill Phoenix 11U DS",
+      "homeTeamCode": "511081",
+      "awayTeam": "Thornhill Reds 11U DS - Team 1",
+      "awayTeamCode": "511082",
+      "location": "David Hamilton Park Field #2",
+      "isCompleted": false,
+      "score": null,
+      "division": "11U",
+      "tier": "select-all-tiers"
     },
     {
       "date": "2025-06-29T11:00:00.000Z",
@@ -117,8 +173,12 @@
       "awayTeam": "Innisfil Cardinals 9U DS",
       "awayTeamCode": "511110",
       "location": "Newmarket Fairgrounds (Fairgrounds Park) - Diamond #2",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 14,
+        "away": 15,
+        "scoreText": "15-14"
+      },
       "division": "9U",
       "tier": "select-all-tiers"
     },
@@ -241,8 +301,12 @@
       "awayTeam": "Innisfil Cardinals 9U DS",
       "awayTeamCode": "511110",
       "location": "Newmarket Fairgrounds (Fairgrounds Park) - Diamond #2",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 21,
+        "away": 25,
+        "scoreText": "25-21"
+      },
       "division": "9U",
       "tier": "select-all-tiers"
     },
@@ -287,8 +351,12 @@
       "awayTeam": "Barrie Baycats 15U A",
       "awayTeamCode": "510981",
       "location": "David Hamilton Park",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 16,
+        "away": 6,
+        "scoreText": "6-16"
+      },
       "division": "15U",
       "tier": "rep-tier-2"
     },
@@ -301,8 +369,12 @@
       "awayTeam": "Barrie Baycats 15U A",
       "awayTeamCode": "510981",
       "location": "David Hamilton Park",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 16,
+        "away": 6,
+        "scoreText": "6-16"
+      },
       "division": "15U",
       "tier": "rep-tier-3"
     },
@@ -717,74 +789,6 @@
       "score": null,
       "division": "15U",
       "tier": "select-all-tiers"
-    },
-    {
-      "date": "2025-06-28T00:00:00.000Z",
-      "dateText": "Sat, Jun 28",
-      "time": "12:00 AM",
-      "homeTeam": "Vaughan Vikings 18U AA",
-      "homeTeamCode": "518962",
-      "awayTeam": "Muskoka Hornets 18U AA",
-      "awayTeamCode": "516246",
-      "location": "Vaughan Grove D1",
-      "isCompleted": true,
-      "score": {
-        "home": 0,
-        "away": 8,
-        "scoreText": "8-0"
-      },
-      "division": "18U",
-      "tier": "rep-no-tier"
-    },
-    {
-      "date": "2025-06-28T00:00:00.000Z",
-      "dateText": "Sat, Jun 28",
-      "time": "12:00 AM",
-      "homeTeam": "Vaughan Vikings 18U AA",
-      "homeTeamCode": "518962",
-      "awayTeam": "Muskoka Hornets 18U AA",
-      "awayTeamCode": "516246",
-      "location": "Vaughan Grove D1",
-      "isCompleted": true,
-      "score": {
-        "home": 4,
-        "away": 13,
-        "scoreText": "13-4"
-      },
-      "division": "18U",
-      "tier": "rep-no-tier"
-    },
-    {
-      "date": "2025-06-27T20:00:00.000Z",
-      "dateText": "Fri, Jun 27",
-      "time": "8:00 PM",
-      "homeTeam": "Caledon Nationals 9U HS",
-      "homeTeamCode": "511116",
-      "awayTeam": "Barrie Baycats 9U DS",
-      "awayTeamCode": "511107",
-      "location": "Caledon East Community Centre",
-      "isCompleted": false,
-      "score": null,
-      "division": "9U",
-      "tier": "select-all-tiers"
-    },
-    {
-      "date": "2025-06-27T19:30:00.000Z",
-      "dateText": "Fri, Jun 27",
-      "time": "7:30 PM",
-      "homeTeam": "Aurora-King Jays 15U A",
-      "homeTeamCode": "510980",
-      "awayTeam": "Barrie Baycats 15U A",
-      "awayTeamCode": "510981",
-      "location": "Lambert Wilson #4",
-      "isCompleted": true,
-      "score": {
-        "home": 12,
-        "away": 11,
-        "scoreText": "11-12"
-      },
-      "division": "15U",
-      "tier": "rep-tier-2"
     }
   ]
 }

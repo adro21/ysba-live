@@ -20,21 +20,21 @@
         }
       },
       {
-        "position": 6,
+        "position": 4,
         "team": "Innisfil Cardinals 9U DS",
         "teamCode": "511110",
         "record": {
-          "gamesPlayed": 7,
-          "wins": 6,
+          "gamesPlayed": 9,
+          "wins": 8,
           "losses": 1,
           "ties": 0,
-          "winPercentage": "0.857"
+          "winPercentage": "0.889"
         },
         "stats": {
-          "points": 12,
-          "runsFor": 116,
-          "runsAgainst": 51,
-          "runDifferential": 65
+          "points": 16,
+          "runsFor": 156,
+          "runsAgainst": 86,
+          "runDifferential": 70
         }
       },
       {
@@ -92,7 +92,7 @@
         }
       },
       {
-        "position": 4,
+        "position": 6,
         "team": "Thornhill Reds 9U DS",
         "teamCode": "511114",
         "record": {
@@ -107,24 +107,6 @@
           "runsFor": 195,
           "runsAgainst": 120,
           "runDifferential": 75
-        }
-      },
-      {
-        "position": 5,
-        "team": "Newmarket Hawks 9U DS",
-        "teamCode": "511112",
-        "record": {
-          "gamesPlayed": 12,
-          "wins": 7,
-          "losses": 5,
-          "ties": 0,
-          "winPercentage": "0.583"
-        },
-        "stats": {
-          "points": 14,
-          "runsFor": 185,
-          "runsAgainst": 158,
-          "runDifferential": 27
         }
       },
       {
@@ -143,6 +125,24 @@
           "runsFor": 128,
           "runsAgainst": 112,
           "runDifferential": 16
+        }
+      },
+      {
+        "position": 5,
+        "team": "Newmarket Hawks 9U DS",
+        "teamCode": "511112",
+        "record": {
+          "gamesPlayed": 14,
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "winPercentage": "0.500"
+        },
+        "stats": {
+          "points": 14,
+          "runsFor": 220,
+          "runsAgainst": 198,
+          "runDifferential": 22
         }
       },
       {
@@ -254,7 +254,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-06-29T11:41:31.278Z",
+    "lastUpdated": "2025-06-29T12:31:58.908Z",
     "totalTeams": 14
   },
   "schedule": {
@@ -396,7 +396,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-29T11:41:35.562Z"
+        "lastUpdated": "2025-06-29T12:32:03.248Z"
       },
       "511106": {
         "teamCode": "511106",
@@ -543,7 +543,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-29T11:41:35.562Z"
+        "lastUpdated": "2025-06-29T12:32:03.248Z"
       },
       "511107": {
         "teamCode": "511107",
@@ -670,7 +670,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-29T11:41:35.562Z"
+        "lastUpdated": "2025-06-29T12:32:03.248Z"
       },
       "511108": {
         "teamCode": "511108",
@@ -813,7 +813,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-29T11:41:35.562Z"
+        "lastUpdated": "2025-06-29T12:32:03.248Z"
       },
       "511109": {
         "teamCode": "511109",
@@ -964,7 +964,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-29T11:41:35.562Z"
+        "lastUpdated": "2025-06-29T12:32:03.248Z"
       },
       "511110": {
         "teamCode": "511110",
@@ -1029,8 +1029,12 @@
             "awayTeam": "Innisfil Cardinals 9U DS",
             "awayTeamCode": "511110",
             "location": "Newmarket Fairgrounds (Fairgrounds Park) - Diamond #2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 21,
+              "away": 25,
+              "scoreText": "25-21"
+            }
           },
           {
             "date": "2025-06-28T15:30:00.000Z",
@@ -1041,8 +1045,12 @@
             "awayTeam": "Innisfil Cardinals 9U DS",
             "awayTeamCode": "511110",
             "location": "Newmarket Fairgrounds (Fairgrounds Park) - Diamond #2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 15,
+              "scoreText": "15-14"
+            }
           }
         ],
         "nextGames": [
@@ -1107,7 +1115,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-29T11:41:35.562Z"
+        "lastUpdated": "2025-06-29T12:32:03.248Z"
       },
       "511111": {
         "teamCode": "511111",
@@ -1258,7 +1266,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-29T11:41:35.562Z"
+        "lastUpdated": "2025-06-29T12:32:03.248Z"
       },
       "511112": {
         "teamCode": "511112",
@@ -1323,8 +1331,12 @@
             "awayTeam": "Innisfil Cardinals 9U DS",
             "awayTeamCode": "511110",
             "location": "Newmarket Fairgrounds (Fairgrounds Park) - Diamond #2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 21,
+              "away": 25,
+              "scoreText": "25-21"
+            }
           },
           {
             "date": "2025-06-28T15:30:00.000Z",
@@ -1335,8 +1347,12 @@
             "awayTeam": "Innisfil Cardinals 9U DS",
             "awayTeamCode": "511110",
             "location": "Newmarket Fairgrounds (Fairgrounds Park) - Diamond #2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 15,
+              "scoreText": "15-14"
+            }
           }
         ],
         "nextGames": [
@@ -1365,7 +1381,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-29T11:41:35.562Z"
+        "lastUpdated": "2025-06-29T12:32:03.248Z"
       },
       "511113": {
         "teamCode": "511113",
@@ -1504,7 +1520,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-29T11:41:35.562Z"
+        "lastUpdated": "2025-06-29T12:32:03.248Z"
       },
       "511114": {
         "teamCode": "511114",
@@ -1643,7 +1659,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-29T11:41:35.562Z"
+        "lastUpdated": "2025-06-29T12:32:03.248Z"
       },
       "511115": {
         "teamCode": "511115",
@@ -1778,7 +1794,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-29T11:41:35.562Z"
+        "lastUpdated": "2025-06-29T12:32:03.248Z"
       },
       "511116": {
         "teamCode": "511116",
@@ -1925,7 +1941,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-29T11:41:35.562Z"
+        "lastUpdated": "2025-06-29T12:32:03.248Z"
       },
       "518965": {
         "teamCode": "518965",
@@ -2076,7 +2092,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-29T11:41:35.562Z"
+        "lastUpdated": "2025-06-29T12:32:03.248Z"
       },
       "518966": {
         "teamCode": "518966",
@@ -2223,7 +2239,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-29T11:41:35.562Z"
+        "lastUpdated": "2025-06-29T12:32:03.248Z"
       }
     },
     "allGames": [
@@ -3336,8 +3352,12 @@
         "awayTeam": "Innisfil Cardinals 9U DS",
         "awayTeamCode": "511110",
         "location": "Newmarket Fairgrounds (Fairgrounds Park) - Diamond #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 21,
+          "away": 25,
+          "scoreText": "25-21"
+        }
       },
       {
         "date": "2025-06-28T13:00:00.000Z",
@@ -3364,8 +3384,12 @@
         "awayTeam": "Innisfil Cardinals 9U DS",
         "awayTeamCode": "511110",
         "location": "Newmarket Fairgrounds (Fairgrounds Park) - Diamond #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 15,
+          "scoreText": "15-14"
+        }
       },
       {
         "date": "2025-06-29T11:00:00.000Z",
@@ -3858,8 +3882,12 @@
         "awayTeam": "Innisfil Cardinals 9U DS",
         "awayTeamCode": "511110",
         "location": "Newmarket Fairgrounds (Fairgrounds Park) - Diamond #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 15,
+          "scoreText": "15-14"
+        }
       },
       {
         "date": "2025-06-28T13:00:00.000Z",
@@ -3870,8 +3898,12 @@
         "awayTeam": "Innisfil Cardinals 9U DS",
         "awayTeamCode": "511110",
         "location": "Newmarket Fairgrounds (Fairgrounds Park) - Diamond #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 21,
+          "away": 25,
+          "scoreText": "25-21"
+        }
       },
       {
         "date": "2025-06-28T13:00:00.000Z",
@@ -4096,14 +4128,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-29T11:41:35.562Z",
+    "lastUpdated": "2025-06-29T12:32:03.248Z",
     "totalGames": 112
   },
   "summary": {
     "totalTeams": 14,
     "totalGames": 112,
-    "completedGames": 66,
-    "upcomingGames": 46,
+    "completedGames": 68,
+    "upcomingGames": 44,
     "topTeam": {
       "team": "Midland Penetang Twins 9U DS",
       "teamCode": "511105",
@@ -4120,6 +4152,6 @@
       "date": "Sat, May 31",
       "location": "Maple Community Centre"
     },
-    "lastUpdated": "2025-06-29T11:41:57.790Z"
+    "lastUpdated": "2025-06-29T12:32:25.146Z"
   }
 }

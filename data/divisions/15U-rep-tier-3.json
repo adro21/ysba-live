@@ -20,25 +20,25 @@
         }
       },
       {
-        "position": 2,
+        "position": 1,
         "team": "Ontario Women",
         "teamCode": "546379",
         "record": {
-          "gamesPlayed": 8,
-          "wins": 5,
+          "gamesPlayed": 9,
+          "wins": 6,
           "losses": 1,
           "ties": 2,
-          "winPercentage": "0.750"
+          "winPercentage": "0.778"
         },
         "stats": {
-          "points": 12,
-          "runsFor": 96,
-          "runsAgainst": 51,
-          "runDifferential": 45
+          "points": 14,
+          "runsFor": 112,
+          "runsAgainst": 57,
+          "runDifferential": 55
         }
       },
       {
-        "position": 1,
+        "position": 2,
         "team": "Aurora-King Jays 15U A",
         "teamCode": "510980",
         "record": {
@@ -110,24 +110,6 @@
         }
       },
       {
-        "position": 8,
-        "team": "Barrie Baycats 15U A",
-        "teamCode": "510981",
-        "record": {
-          "gamesPlayed": 7,
-          "wins": 3,
-          "losses": 4,
-          "ties": 0,
-          "winPercentage": "0.429"
-        },
-        "stats": {
-          "points": 6,
-          "runsFor": 55,
-          "runsAgainst": 67,
-          "runDifferential": -12
-        }
-      },
-      {
         "position": 5,
         "team": "Bradford Tigers 15U A",
         "teamCode": "510982",
@@ -143,6 +125,24 @@
           "runsFor": 87,
           "runsAgainst": 101,
           "runDifferential": -14
+        }
+      },
+      {
+        "position": 8,
+        "team": "Barrie Baycats 15U A",
+        "teamCode": "510981",
+        "record": {
+          "gamesPlayed": 8,
+          "wins": 3,
+          "losses": 5,
+          "ties": 0,
+          "winPercentage": "0.375"
+        },
+        "stats": {
+          "points": 6,
+          "runsFor": 61,
+          "runsAgainst": 83,
+          "runDifferential": -22
         }
       },
       {
@@ -182,7 +182,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-06-29T11:39:38.075Z",
+    "lastUpdated": "2025-06-29T12:30:04.308Z",
     "totalTeams": 10
   },
   "schedule": {
@@ -336,7 +336,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-29T11:39:42.281Z"
+        "lastUpdated": "2025-06-29T12:30:08.481Z"
       },
       "510981": {
         "teamCode": "510981",
@@ -417,8 +417,12 @@
             "awayTeam": "Barrie Baycats 15U A",
             "awayTeamCode": "510981",
             "location": "David Hamilton Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 16,
+              "away": 6,
+              "scoreText": "6-16"
+            }
           }
         ],
         "nextGames": [
@@ -483,7 +487,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-29T11:39:42.281Z"
+        "lastUpdated": "2025-06-29T12:30:08.481Z"
       },
       "510982": {
         "teamCode": "510982",
@@ -634,7 +638,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-29T11:39:42.281Z"
+        "lastUpdated": "2025-06-29T12:30:08.481Z"
       },
       "510983": {
         "teamCode": "510983",
@@ -781,7 +785,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-29T11:39:42.281Z"
+        "lastUpdated": "2025-06-29T12:30:08.481Z"
       },
       "510984": {
         "teamCode": "510984",
@@ -932,7 +936,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-29T11:39:42.281Z"
+        "lastUpdated": "2025-06-29T12:30:08.481Z"
       },
       "510985": {
         "teamCode": "510985",
@@ -1083,7 +1087,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-29T11:39:42.281Z"
+        "lastUpdated": "2025-06-29T12:30:08.481Z"
       },
       "510986": {
         "teamCode": "510986",
@@ -1230,7 +1234,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-29T11:39:42.281Z"
+        "lastUpdated": "2025-06-29T12:30:08.481Z"
       },
       "510987": {
         "teamCode": "510987",
@@ -1381,7 +1385,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-29T11:39:42.281Z"
+        "lastUpdated": "2025-06-29T12:30:08.481Z"
       },
       "510988": {
         "teamCode": "510988",
@@ -1532,7 +1536,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-29T11:39:42.281Z"
+        "lastUpdated": "2025-06-29T12:30:08.481Z"
       },
       "510989": {
         "teamCode": "510989",
@@ -1683,7 +1687,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-29T11:39:42.281Z"
+        "lastUpdated": "2025-06-29T12:30:08.481Z"
       },
       "510990": {
         "teamCode": "510990",
@@ -1834,7 +1838,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-29T11:39:42.281Z"
+        "lastUpdated": "2025-06-29T12:30:08.481Z"
       },
       "510991": {
         "teamCode": "510991",
@@ -1985,7 +1989,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-29T11:39:42.281Z"
+        "lastUpdated": "2025-06-29T12:30:08.481Z"
       },
       "510992": {
         "teamCode": "510992",
@@ -2136,7 +2140,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-29T11:39:42.281Z"
+        "lastUpdated": "2025-06-29T12:30:08.481Z"
       },
       "510993": {
         "teamCode": "510993",
@@ -2283,7 +2287,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-29T11:39:42.281Z"
+        "lastUpdated": "2025-06-29T12:30:08.481Z"
       },
       "510998": {
         "teamCode": "510998",
@@ -2426,7 +2430,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-29T11:39:42.281Z"
+        "lastUpdated": "2025-06-29T12:30:08.481Z"
       },
       "516244": {
         "teamCode": "516244",
@@ -2577,7 +2581,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-29T11:39:42.281Z"
+        "lastUpdated": "2025-06-29T12:30:08.481Z"
       },
       "518959": {
         "teamCode": "518959",
@@ -2728,7 +2732,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-29T11:39:42.281Z"
+        "lastUpdated": "2025-06-29T12:30:08.481Z"
       },
       "546379": {
         "teamCode": "546379",
@@ -2805,8 +2809,12 @@
             "awayTeam": "Barrie Baycats 15U A",
             "awayTeamCode": "510981",
             "location": "David Hamilton Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 16,
+              "away": 6,
+              "scoreText": "6-16"
+            }
           }
         ],
         "nextGames": [
@@ -2871,7 +2879,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-29T11:39:42.281Z"
+        "lastUpdated": "2025-06-29T12:30:08.481Z"
       }
     },
     "allGames": [
@@ -4204,8 +4212,12 @@
         "awayTeam": "Barrie Baycats 15U A",
         "awayTeamCode": "510981",
         "location": "David Hamilton Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 16,
+          "away": 6,
+          "scoreText": "6-16"
+        }
       },
       {
         "date": "2025-06-28T14:30:00.000Z",
@@ -5150,8 +5162,12 @@
         "awayTeam": "Barrie Baycats 15U A",
         "awayTeamCode": "510981",
         "location": "David Hamilton Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 16,
+          "away": 6,
+          "scoreText": "6-16"
+        }
       },
       {
         "date": "2025-06-28T12:00:00.000Z",
@@ -5400,14 +5416,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-29T11:39:42.281Z",
+    "lastUpdated": "2025-06-29T12:30:08.481Z",
     "totalGames": 162
   },
   "summary": {
     "totalTeams": 10,
     "totalGames": 162,
-    "completedGames": 76,
-    "upcomingGames": 86,
+    "completedGames": 77,
+    "upcomingGames": 85,
     "topTeam": {
       "team": "Stouffville Yankees 15U A",
       "teamCode": "510985",
@@ -5424,6 +5440,6 @@
       "date": "Thu, May 29",
       "location": "Bethesda Fields #2"
     },
-    "lastUpdated": "2025-06-29T11:41:57.790Z"
+    "lastUpdated": "2025-06-29T12:32:25.146Z"
   }
 }
