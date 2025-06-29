@@ -56,7 +56,7 @@
         }
       },
       {
-        "position": 3,
+        "position": 4,
         "team": "Markham Mariners 11U DS",
         "teamCode": "511079",
         "record": {
@@ -92,39 +92,21 @@
         }
       },
       {
-        "position": 8,
-        "team": "TNT Thunder 11U DS",
-        "teamCode": "518974",
-        "record": {
-          "gamesPlayed": 8,
-          "wins": 4,
-          "losses": 4,
-          "ties": 0,
-          "winPercentage": "0.500"
-        },
-        "stats": {
-          "points": 8,
-          "runsFor": 65,
-          "runsAgainst": 57,
-          "runDifferential": 8
-        }
-      },
-      {
-        "position": 4,
+        "position": 3,
         "team": "Vaughan Vikings 10U DS",
         "teamCode": "518967",
         "record": {
-          "gamesPlayed": 13,
-          "wins": 5,
+          "gamesPlayed": 14,
+          "wins": 6,
           "losses": 6,
           "ties": 2,
-          "winPercentage": "0.462"
+          "winPercentage": "0.500"
         },
         "stats": {
-          "points": 12,
-          "runsFor": 108,
-          "runsAgainst": 103,
-          "runDifferential": 5
+          "points": 14,
+          "runsFor": 116,
+          "runsAgainst": 107,
+          "runDifferential": 9
         }
       },
       {
@@ -146,7 +128,7 @@
         }
       },
       {
-        "position": 9,
+        "position": 10,
         "team": "Newmarket Hawks 11U DS",
         "teamCode": "511080",
         "record": {
@@ -164,25 +146,43 @@
         }
       },
       {
-        "position": 11,
-        "team": "Mansfield Cubs 11U DS",
-        "teamCode": "511078",
+        "position": 8,
+        "team": "TNT Thunder 11U DS",
+        "teamCode": "518974",
         "record": {
-          "gamesPlayed": 8,
-          "wins": 1,
+          "gamesPlayed": 11,
+          "wins": 4,
           "losses": 7,
           "ties": 0,
-          "winPercentage": "0.125"
+          "winPercentage": "0.364"
         },
         "stats": {
-          "points": 2,
-          "runsFor": 62,
+          "points": 8,
+          "runsFor": 91,
           "runsAgainst": 93,
-          "runDifferential": -31
+          "runDifferential": -2
         }
       },
       {
-        "position": 10,
+        "position": 9,
+        "team": "Mansfield Cubs 11U DS",
+        "teamCode": "511078",
+        "record": {
+          "gamesPlayed": 10,
+          "wins": 3,
+          "losses": 7,
+          "ties": 0,
+          "winPercentage": "0.300"
+        },
+        "stats": {
+          "points": 6,
+          "runsFor": 90,
+          "runsAgainst": 115,
+          "runDifferential": -25
+        }
+      },
+      {
+        "position": 11,
         "team": "Bradford Tigers 11U DS",
         "teamCode": "511076",
         "record": {
@@ -236,7 +236,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-06-29T20:20:40.127Z",
+    "lastUpdated": "2025-06-29T20:45:27.206Z",
     "totalTeams": 13
   },
   "schedule": {
@@ -390,7 +390,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-29T20:20:44.459Z"
+        "lastUpdated": "2025-06-29T20:45:31.442Z"
       },
       "511075": {
         "teamCode": "511075",
@@ -529,7 +529,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-29T20:20:44.459Z"
+        "lastUpdated": "2025-06-29T20:45:31.442Z"
       },
       "511076": {
         "teamCode": "511076",
@@ -680,7 +680,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-29T20:20:44.459Z"
+        "lastUpdated": "2025-06-29T20:45:31.442Z"
       },
       "511077": {
         "teamCode": "511077",
@@ -831,7 +831,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-29T20:20:44.459Z"
+        "lastUpdated": "2025-06-29T20:45:31.442Z"
       },
       "511078": {
         "teamCode": "511078",
@@ -880,8 +880,12 @@
             "awayTeam": "TNT Thunder 11U DS",
             "awayTeamCode": "518974",
             "location": "Mansfield Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 13,
+              "scoreText": "13-14"
+            }
           },
           {
             "date": "2025-06-29T12:15:00.000Z",
@@ -892,8 +896,12 @@
             "awayTeam": "TNT Thunder 11U DS",
             "awayTeamCode": "518974",
             "location": "Mansfield Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 9,
+              "scoreText": "9-14"
+            }
           },
           {
             "date": "2025-06-29T12:15:00.000Z",
@@ -970,7 +978,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-29T20:20:44.459Z"
+        "lastUpdated": "2025-06-29T20:45:31.442Z"
       },
       "511079": {
         "teamCode": "511079",
@@ -1121,7 +1129,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-29T20:20:44.459Z"
+        "lastUpdated": "2025-06-29T20:45:31.442Z"
       },
       "511080": {
         "teamCode": "511080",
@@ -1268,7 +1276,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-29T20:20:44.459Z"
+        "lastUpdated": "2025-06-29T20:45:31.443Z"
       },
       "511081": {
         "teamCode": "511081",
@@ -1375,7 +1383,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-29T20:20:44.459Z"
+        "lastUpdated": "2025-06-29T20:45:31.443Z"
       },
       "511082": {
         "teamCode": "511082",
@@ -1506,7 +1514,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-29T20:20:44.459Z"
+        "lastUpdated": "2025-06-29T20:45:31.443Z"
       },
       "511083": {
         "teamCode": "511083",
@@ -1657,7 +1665,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-29T20:20:44.459Z"
+        "lastUpdated": "2025-06-29T20:45:31.443Z"
       },
       "518967": {
         "teamCode": "518967",
@@ -1772,7 +1780,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-29T20:20:44.459Z"
+        "lastUpdated": "2025-06-29T20:45:31.443Z"
       },
       "518968": {
         "teamCode": "518968",
@@ -1911,7 +1919,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-29T20:20:44.460Z"
+        "lastUpdated": "2025-06-29T20:45:31.443Z"
       },
       "518974": {
         "teamCode": "518974",
@@ -1960,8 +1968,12 @@
             "awayTeam": "TNT Thunder 11U DS",
             "awayTeamCode": "518974",
             "location": "Mansfield Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 13,
+              "scoreText": "13-14"
+            }
           },
           {
             "date": "2025-06-29T12:15:00.000Z",
@@ -1972,8 +1984,12 @@
             "awayTeam": "TNT Thunder 11U DS",
             "awayTeamCode": "518974",
             "location": "Mansfield Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 9,
+              "scoreText": "9-14"
+            }
           },
           {
             "date": "2025-06-29T12:15:00.000Z",
@@ -2038,7 +2054,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-29T20:20:44.460Z"
+        "lastUpdated": "2025-06-29T20:45:31.443Z"
       }
     },
     "allGames": [
@@ -2391,8 +2407,12 @@
         "awayTeam": "Vaughan Vikings 10U DS",
         "awayTeamCode": "518967",
         "location": "Tottenham Community Centre",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 8,
+          "scoreText": "8-4"
+        }
       },
       {
         "date": "2025-05-24T14:15:00.000Z",
@@ -3115,8 +3135,12 @@
         "awayTeam": "TNT Thunder 11U DS",
         "awayTeamCode": "518974",
         "location": "Mansfield Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 13,
+          "scoreText": "13-14"
+        }
       },
       {
         "date": "2025-06-29T12:15:00.000Z",
@@ -3127,8 +3151,12 @@
         "awayTeam": "TNT Thunder 11U DS",
         "awayTeamCode": "518974",
         "location": "Mansfield Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 9,
+          "scoreText": "9-14"
+        }
       },
       {
         "date": "2025-06-29T12:15:00.000Z",
@@ -3573,8 +3601,12 @@
         "awayTeam": "TNT Thunder 11U DS",
         "awayTeamCode": "518974",
         "location": "Mansfield Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 9,
+          "scoreText": "9-14"
+        }
       },
       {
         "date": "2025-06-29T12:15:00.000Z",
@@ -3621,8 +3653,12 @@
         "awayTeam": "TNT Thunder 11U DS",
         "awayTeamCode": "518974",
         "location": "Mansfield Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 13,
+          "scoreText": "13-14"
+        }
       },
       {
         "date": "2025-06-28T13:15:00.000Z",
@@ -3827,14 +3863,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-29T20:20:44.460Z",
+    "lastUpdated": "2025-06-29T20:45:31.443Z",
     "totalGames": 106
   },
   "summary": {
     "totalTeams": 13,
     "totalGames": 106,
-    "completedGames": 62,
-    "upcomingGames": 44,
+    "completedGames": 65,
+    "upcomingGames": 41,
     "topTeam": {
       "team": "Vaughan Vikings 11U DS",
       "teamCode": "518968",
@@ -3851,6 +3887,6 @@
       "date": "Sat, May 24",
       "location": "Mansfield Park"
     },
-    "lastUpdated": "2025-06-29T20:20:58.885Z"
+    "lastUpdated": "2025-06-29T20:45:45.862Z"
   }
 }
