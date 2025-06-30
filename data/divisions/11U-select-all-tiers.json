@@ -38,25 +38,25 @@
         }
       },
       {
-        "position": 6,
+        "position": 3,
         "team": "Thornhill Reds 11U DS - Team 1",
         "teamCode": "511082",
         "record": {
-          "gamesPlayed": 8,
-          "wins": 5,
+          "gamesPlayed": 10,
+          "wins": 7,
           "losses": 2,
           "ties": 1,
-          "winPercentage": "0.688"
+          "winPercentage": "0.750"
         },
         "stats": {
-          "points": 11,
-          "runsFor": 80,
-          "runsAgainst": 56,
-          "runDifferential": 24
+          "points": 15,
+          "runsFor": 108,
+          "runsAgainst": 73,
+          "runDifferential": 35
         }
       },
       {
-        "position": 4,
+        "position": 5,
         "team": "Markham Mariners 11U DS",
         "teamCode": "511079",
         "record": {
@@ -74,7 +74,7 @@
         }
       },
       {
-        "position": 5,
+        "position": 6,
         "team": "Midland Penetang Twins 11U DS",
         "teamCode": "511074",
         "record": {
@@ -92,7 +92,7 @@
         }
       },
       {
-        "position": 3,
+        "position": 4,
         "team": "Vaughan Vikings 10U DS",
         "teamCode": "518967",
         "record": {
@@ -107,24 +107,6 @@
           "runsFor": 116,
           "runsAgainst": 107,
           "runDifferential": 9
-        }
-      },
-      {
-        "position": 7,
-        "team": "Richmond Hill Phoenix 11U DS",
-        "teamCode": "511081",
-        "record": {
-          "gamesPlayed": 12,
-          "wins": 5,
-          "losses": 7,
-          "ties": 0,
-          "winPercentage": "0.417"
-        },
-        "stats": {
-          "points": 10,
-          "runsFor": 88,
-          "runsAgainst": 121,
-          "runDifferential": -33
         }
       },
       {
@@ -161,6 +143,24 @@
           "runsFor": 91,
           "runsAgainst": 93,
           "runDifferential": -2
+        }
+      },
+      {
+        "position": 7,
+        "team": "Richmond Hill Phoenix 11U DS",
+        "teamCode": "511081",
+        "record": {
+          "gamesPlayed": 14,
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "winPercentage": "0.357"
+        },
+        "stats": {
+          "points": 10,
+          "runsFor": 105,
+          "runsAgainst": 149,
+          "runDifferential": -44
         }
       },
       {
@@ -236,7 +236,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-06-30T03:16:10.844Z",
+    "lastUpdated": "2025-06-30T04:12:12.828Z",
     "totalTeams": 13
   },
   "schedule": {
@@ -390,7 +390,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-30T03:16:15.418Z"
+        "lastUpdated": "2025-06-30T04:12:17.359Z"
       },
       "511075": {
         "teamCode": "511075",
@@ -529,7 +529,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-30T03:16:15.418Z"
+        "lastUpdated": "2025-06-30T04:12:17.359Z"
       },
       "511076": {
         "teamCode": "511076",
@@ -680,7 +680,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-30T03:16:15.418Z"
+        "lastUpdated": "2025-06-30T04:12:17.359Z"
       },
       "511077": {
         "teamCode": "511077",
@@ -831,7 +831,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-30T03:16:15.418Z"
+        "lastUpdated": "2025-06-30T04:12:17.359Z"
       },
       "511078": {
         "teamCode": "511078",
@@ -978,7 +978,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-30T03:16:15.418Z"
+        "lastUpdated": "2025-06-30T04:12:17.359Z"
       },
       "511079": {
         "teamCode": "511079",
@@ -1129,7 +1129,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-30T03:16:15.418Z"
+        "lastUpdated": "2025-06-30T04:12:17.359Z"
       },
       "511080": {
         "teamCode": "511080",
@@ -1276,7 +1276,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-30T03:16:15.418Z"
+        "lastUpdated": "2025-06-30T04:12:17.359Z"
       },
       "511081": {
         "teamCode": "511081",
@@ -1341,8 +1341,12 @@
             "awayTeam": "Thornhill Reds 11U DS - Team 1",
             "awayTeamCode": "511082",
             "location": "David Hamilton Park Field #2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 17,
+              "scoreText": "17-9"
+            }
           },
           {
             "date": "2025-06-29T12:15:00.000Z",
@@ -1353,8 +1357,12 @@
             "awayTeam": "Thornhill Reds 11U DS - Team 1",
             "awayTeamCode": "511082",
             "location": "David Hamilton Park Field #2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 11,
+              "scoreText": "11-8"
+            }
           }
         ],
         "nextGames": [
@@ -1383,7 +1391,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-30T03:16:15.418Z"
+        "lastUpdated": "2025-06-30T04:12:17.359Z"
       },
       "511082": {
         "teamCode": "511082",
@@ -1448,8 +1456,12 @@
             "awayTeam": "Thornhill Reds 11U DS - Team 1",
             "awayTeamCode": "511082",
             "location": "David Hamilton Park Field #2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 17,
+              "scoreText": "17-9"
+            }
           },
           {
             "date": "2025-06-29T12:15:00.000Z",
@@ -1460,8 +1472,12 @@
             "awayTeam": "Thornhill Reds 11U DS - Team 1",
             "awayTeamCode": "511082",
             "location": "David Hamilton Park Field #2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 11,
+              "scoreText": "11-8"
+            }
           }
         ],
         "nextGames": [
@@ -1514,7 +1530,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-30T03:16:15.418Z"
+        "lastUpdated": "2025-06-30T04:12:17.359Z"
       },
       "511083": {
         "teamCode": "511083",
@@ -1665,7 +1681,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-30T03:16:15.418Z"
+        "lastUpdated": "2025-06-30T04:12:17.359Z"
       },
       "518967": {
         "teamCode": "518967",
@@ -1780,7 +1796,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-30T03:16:15.418Z"
+        "lastUpdated": "2025-06-30T04:12:17.360Z"
       },
       "518968": {
         "teamCode": "518968",
@@ -1919,7 +1935,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-30T03:16:15.418Z"
+        "lastUpdated": "2025-06-30T04:12:17.360Z"
       },
       "518974": {
         "teamCode": "518974",
@@ -2054,7 +2070,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-30T03:16:15.418Z"
+        "lastUpdated": "2025-06-30T04:12:17.360Z"
       }
     },
     "allGames": [
@@ -3123,8 +3139,12 @@
         "awayTeam": "Thornhill Reds 11U DS - Team 1",
         "awayTeamCode": "511082",
         "location": "David Hamilton Park Field #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 17,
+          "scoreText": "17-9"
+        }
       },
       {
         "date": "2025-06-29T10:00:00.000Z",
@@ -3179,8 +3199,12 @@
         "awayTeam": "Thornhill Reds 11U DS - Team 1",
         "awayTeamCode": "511082",
         "location": "David Hamilton Park Field #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 11,
+          "scoreText": "11-8"
+        }
       },
       {
         "date": "2025-07-05T10:00:00.000Z",
@@ -3629,8 +3653,12 @@
         "awayTeam": "Thornhill Reds 11U DS - Team 1",
         "awayTeamCode": "511082",
         "location": "David Hamilton Park Field #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 11,
+          "scoreText": "11-8"
+        }
       },
       {
         "date": "2025-06-29T10:00:00.000Z",
@@ -3641,8 +3669,12 @@
         "awayTeam": "Thornhill Reds 11U DS - Team 1",
         "awayTeamCode": "511082",
         "location": "David Hamilton Park Field #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 17,
+          "scoreText": "17-9"
+        }
       },
       {
         "date": "2025-06-29T10:00:00.000Z",
@@ -3863,14 +3895,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-30T03:16:15.418Z",
+    "lastUpdated": "2025-06-30T04:12:17.360Z",
     "totalGames": 106
   },
   "summary": {
     "totalTeams": 13,
     "totalGames": 106,
-    "completedGames": 65,
-    "upcomingGames": 41,
+    "completedGames": 67,
+    "upcomingGames": 39,
     "topTeam": {
       "team": "Vaughan Vikings 11U DS",
       "teamCode": "518968",
@@ -3887,6 +3919,6 @@
       "date": "Sat, May 24",
       "location": "Mansfield Park"
     },
-    "lastUpdated": "2025-06-30T03:16:30.342Z"
+    "lastUpdated": "2025-06-30T04:12:32.190Z"
   }
 }
