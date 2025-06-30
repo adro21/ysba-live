@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-06-30T11:44:59.382Z",
+  "lastUpdated": "2025-06-30T12:35:44.141Z",
   "totalGames": 190,
   "games": [
     {
@@ -117,8 +117,12 @@
       "awayTeam": "Stouffville Yankees 9U A",
       "awayTeamCode": "511065",
       "location": "Rupert Park",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 13,
+        "away": 3,
+        "scoreText": "3-13"
+      },
       "division": "9U",
       "tier": "rep-tier-3"
     },
@@ -213,8 +217,12 @@
       "awayTeam": "Muskoka Hornets 9U A",
       "awayTeamCode": "516247",
       "location": "Rupert Park",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 12,
+        "away": 24,
+        "scoreText": "24-12"
+      },
       "division": "9U",
       "tier": "rep-tier-3"
     },
