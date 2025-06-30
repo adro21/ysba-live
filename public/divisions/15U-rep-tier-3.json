@@ -2,21 +2,21 @@
   "standings": {
     "teams": [
       {
-        "position": 3,
+        "position": 2,
         "team": "Stouffville Yankees 15U A",
         "teamCode": "510985",
         "record": {
-          "gamesPlayed": 6,
-          "wins": 6,
+          "gamesPlayed": 7,
+          "wins": 7,
           "losses": 0,
           "ties": 0,
           "winPercentage": "1.000"
         },
         "stats": {
-          "points": 12,
-          "runsFor": 73,
-          "runsAgainst": 43,
-          "runDifferential": 30
+          "points": 14,
+          "runsFor": 84,
+          "runsAgainst": 44,
+          "runDifferential": 40
         }
       },
       {
@@ -38,24 +38,6 @@
         }
       },
       {
-        "position": 2,
-        "team": "Aurora-King Jays 15U A",
-        "teamCode": "510980",
-        "record": {
-          "gamesPlayed": 9,
-          "wins": 6,
-          "losses": 3,
-          "ties": 0,
-          "winPercentage": "0.667"
-        },
-        "stats": {
-          "points": 12,
-          "runsFor": 80,
-          "runsAgainst": 64,
-          "runDifferential": 16
-        }
-      },
-      {
         "position": 4,
         "team": "Georgina Bulldogs 15U B",
         "teamCode": "510998",
@@ -71,6 +53,24 @@
           "runsFor": 87,
           "runsAgainst": 68,
           "runDifferential": 19
+        }
+      },
+      {
+        "position": 3,
+        "team": "Aurora-King Jays 15U A",
+        "teamCode": "510980",
+        "record": {
+          "gamesPlayed": 10,
+          "wins": 6,
+          "losses": 4,
+          "ties": 0,
+          "winPercentage": "0.600"
+        },
+        "stats": {
+          "points": 12,
+          "runsFor": 81,
+          "runsAgainst": 75,
+          "runDifferential": 6
         }
       },
       {
@@ -182,7 +182,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-06-30T12:33:09.095Z",
+    "lastUpdated": "2025-06-30T13:13:22.114Z",
     "totalTeams": 10
   },
   "schedule": {
@@ -266,8 +266,12 @@
             "awayTeam": "Stouffville Yankees 15U A",
             "awayTeamCode": "510985",
             "location": "Lambert Wilson #4",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 1,
+              "away": 11,
+              "scoreText": "11-1"
+            }
           }
         ],
         "nextGames": [
@@ -332,7 +336,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-30T12:33:13.785Z"
+        "lastUpdated": "2025-06-30T13:13:26.799Z"
       },
       "510981": {
         "teamCode": "510981",
@@ -483,7 +487,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-30T12:33:13.785Z"
+        "lastUpdated": "2025-06-30T13:13:26.799Z"
       },
       "510982": {
         "teamCode": "510982",
@@ -634,7 +638,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-30T12:33:13.785Z"
+        "lastUpdated": "2025-06-30T13:13:26.799Z"
       },
       "510983": {
         "teamCode": "510983",
@@ -781,7 +785,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-30T12:33:13.785Z"
+        "lastUpdated": "2025-06-30T13:13:26.799Z"
       },
       "510984": {
         "teamCode": "510984",
@@ -932,7 +936,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-30T12:33:13.785Z"
+        "lastUpdated": "2025-06-30T13:13:26.800Z"
       },
       "510985": {
         "teamCode": "510985",
@@ -1013,8 +1017,12 @@
             "awayTeam": "Stouffville Yankees 15U A",
             "awayTeamCode": "510985",
             "location": "Lambert Wilson #4",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 1,
+              "away": 11,
+              "scoreText": "11-1"
+            }
           }
         ],
         "nextGames": [
@@ -1079,7 +1087,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-30T12:33:13.785Z"
+        "lastUpdated": "2025-06-30T13:13:26.800Z"
       },
       "510986": {
         "teamCode": "510986",
@@ -1226,7 +1234,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-30T12:33:13.785Z"
+        "lastUpdated": "2025-06-30T13:13:26.800Z"
       },
       "510987": {
         "teamCode": "510987",
@@ -1377,7 +1385,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-30T12:33:13.785Z"
+        "lastUpdated": "2025-06-30T13:13:26.800Z"
       },
       "510988": {
         "teamCode": "510988",
@@ -1528,7 +1536,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-30T12:33:13.785Z"
+        "lastUpdated": "2025-06-30T13:13:26.800Z"
       },
       "510989": {
         "teamCode": "510989",
@@ -1679,7 +1687,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-30T12:33:13.785Z"
+        "lastUpdated": "2025-06-30T13:13:26.800Z"
       },
       "510990": {
         "teamCode": "510990",
@@ -1830,7 +1838,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-30T12:33:13.785Z"
+        "lastUpdated": "2025-06-30T13:13:26.800Z"
       },
       "510991": {
         "teamCode": "510991",
@@ -1981,7 +1989,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-30T12:33:13.785Z"
+        "lastUpdated": "2025-06-30T13:13:26.800Z"
       },
       "510992": {
         "teamCode": "510992",
@@ -2132,7 +2140,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-30T12:33:13.785Z"
+        "lastUpdated": "2025-06-30T13:13:26.800Z"
       },
       "510993": {
         "teamCode": "510993",
@@ -2279,7 +2287,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-30T12:33:13.785Z"
+        "lastUpdated": "2025-06-30T13:13:26.800Z"
       },
       "510998": {
         "teamCode": "510998",
@@ -2422,7 +2430,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-30T12:33:13.785Z"
+        "lastUpdated": "2025-06-30T13:13:26.800Z"
       },
       "516244": {
         "teamCode": "516244",
@@ -2573,7 +2581,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-30T12:33:13.785Z"
+        "lastUpdated": "2025-06-30T13:13:26.800Z"
       },
       "518959": {
         "teamCode": "518959",
@@ -2724,7 +2732,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-30T12:33:13.785Z"
+        "lastUpdated": "2025-06-30T13:13:26.800Z"
       },
       "546379": {
         "teamCode": "546379",
@@ -2871,7 +2879,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-06-30T12:33:13.785Z"
+        "lastUpdated": "2025-06-30T13:13:26.800Z"
       }
     },
     "allGames": [
@@ -4236,8 +4244,12 @@
         "awayTeam": "Stouffville Yankees 15U A",
         "awayTeamCode": "510985",
         "location": "Lambert Wilson #4",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 1,
+          "away": 11,
+          "scoreText": "11-1"
+        }
       },
       {
         "date": "2025-06-30T20:00:00.000Z",
@@ -5138,8 +5150,12 @@
         "awayTeam": "Stouffville Yankees 15U A",
         "awayTeamCode": "510985",
         "location": "Lambert Wilson #4",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 1,
+          "away": 11,
+          "scoreText": "11-1"
+        }
       },
       {
         "date": "2025-06-28T14:30:00.000Z",
@@ -5408,18 +5424,18 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-06-30T12:33:13.785Z",
+    "lastUpdated": "2025-06-30T13:13:26.800Z",
     "totalGames": 162
   },
   "summary": {
     "totalTeams": 10,
     "totalGames": 162,
-    "completedGames": 77,
-    "upcomingGames": 85,
+    "completedGames": 78,
+    "upcomingGames": 84,
     "topTeam": {
       "team": "Stouffville Yankees 15U A",
       "teamCode": "510985",
-      "wins": 6,
+      "wins": 7,
       "losses": 0,
       "winPercentage": "1.000"
     },
@@ -5432,6 +5448,6 @@
       "date": "Thu, May 29",
       "location": "Bethesda Fields #2"
     },
-    "lastUpdated": "2025-06-30T12:35:44.141Z"
+    "lastUpdated": "2025-06-30T13:15:54.811Z"
   }
 }
