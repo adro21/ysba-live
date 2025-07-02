@@ -20,7 +20,7 @@
         }
       },
       {
-        "position": 2,
+        "position": 3,
         "team": "Barrie Baycats 15U DS",
         "teamCode": "511524",
         "record": {
@@ -38,57 +38,39 @@
         }
       },
       {
+        "position": 2,
+        "team": "TNT Thunder 15U DS",
+        "teamCode": "511104",
+        "record": {
+          "gamesPlayed": 8,
+          "wins": 4,
+          "losses": 4,
+          "ties": 0,
+          "winPercentage": "0.500"
+        },
+        "stats": {
+          "points": 8,
+          "runsFor": 79,
+          "runsAgainst": 59,
+          "runDifferential": 20
+        }
+      },
+      {
         "position": 6,
         "team": "Orillia Royals 15U DS",
         "teamCode": "511102",
         "record": {
-          "gamesPlayed": 1,
+          "gamesPlayed": 3,
           "wins": 1,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": "1.000"
-        },
-        "stats": {
-          "points": 2,
-          "runsFor": 14,
-          "runsAgainst": 4,
-          "runDifferential": 10
-        }
-      },
-      {
-        "position": 3,
-        "team": "TNT Thunder 15U DS",
-        "teamCode": "511104",
-        "record": {
-          "gamesPlayed": 6,
-          "wins": 2,
-          "losses": 4,
+          "losses": 2,
           "ties": 0,
           "winPercentage": "0.333"
         },
         "stats": {
-          "points": 4,
-          "runsFor": 51,
-          "runsAgainst": 49,
-          "runDifferential": 2
-        }
-      },
-      {
-        "position": 5,
-        "team": "Newmarket Hawks 15U DS",
-        "teamCode": "511101",
-        "record": {
-          "gamesPlayed": 5,
-          "wins": 1,
-          "losses": 4,
-          "ties": 0,
-          "winPercentage": "0.200"
-        },
-        "stats": {
           "points": 2,
-          "runsFor": 31,
-          "runsAgainst": 49,
-          "runDifferential": -18
+          "runsFor": 15,
+          "runsAgainst": 25,
+          "runDifferential": -10
         }
       },
       {
@@ -96,17 +78,35 @@
         "team": "Stouffville Yankees 15U DS",
         "teamCode": "511103",
         "record": {
-          "gamesPlayed": 9,
-          "wins": 1,
+          "gamesPlayed": 10,
+          "wins": 2,
           "losses": 8,
           "ties": 0,
-          "winPercentage": "0.111"
+          "winPercentage": "0.200"
+        },
+        "stats": {
+          "points": 4,
+          "runsFor": 46,
+          "runsAgainst": 135,
+          "runDifferential": -89
+        }
+      },
+      {
+        "position": 5,
+        "team": "Newmarket Hawks 15U DS",
+        "teamCode": "511101",
+        "record": {
+          "gamesPlayed": 6,
+          "wins": 1,
+          "losses": 5,
+          "ties": 0,
+          "winPercentage": "0.167"
         },
         "stats": {
           "points": 2,
-          "runsFor": 39,
-          "runsAgainst": 135,
-          "runDifferential": -96
+          "runsFor": 40,
+          "runsAgainst": 63,
+          "runDifferential": -23
         }
       },
       {
@@ -128,7 +128,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-02T01:16:58.544Z",
+    "lastUpdated": "2025-07-02T03:09:11.986Z",
     "totalTeams": 7
   },
   "schedule": {
@@ -250,7 +250,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-02T01:17:01.427Z"
+        "lastUpdated": "2025-07-02T03:09:14.933Z"
       },
       "511100": {
         "teamCode": "511100",
@@ -401,7 +401,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-02T01:17:01.427Z"
+        "lastUpdated": "2025-07-02T03:09:14.933Z"
       },
       "511101": {
         "teamCode": "511101",
@@ -466,8 +466,12 @@
             "awayTeam": "Newmarket Hawks 15U DS",
             "awayTeamCode": "511101",
             "location": "Beeton South",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 9,
+              "scoreText": "9-14"
+            }
           },
           {
             "date": "2025-06-24T19:00:00.000Z",
@@ -544,7 +548,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-02T01:17:01.427Z"
+        "lastUpdated": "2025-07-02T03:09:14.933Z"
       },
       "511102": {
         "teamCode": "511102",
@@ -585,8 +589,12 @@
             "awayTeam": "Orillia Royals 15U DS",
             "awayTeamCode": "511102",
             "location": "Bethesda 2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 0,
+              "scoreText": "0-7"
+            }
           },
           {
             "date": "2025-06-29T10:00:00.000Z",
@@ -675,7 +683,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-02T01:17:01.427Z"
+        "lastUpdated": "2025-07-02T03:09:14.933Z"
       },
       "511103": {
         "teamCode": "511103",
@@ -752,8 +760,12 @@
             "awayTeam": "Orillia Royals 15U DS",
             "awayTeamCode": "511102",
             "location": "Bethesda 2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 0,
+              "scoreText": "0-7"
+            }
           }
         ],
         "nextGames": [
@@ -818,7 +830,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-02T01:17:01.427Z"
+        "lastUpdated": "2025-07-02T03:09:14.933Z"
       },
       "511104": {
         "teamCode": "511104",
@@ -867,8 +879,12 @@
             "awayTeam": "Orillia Royals 15U DS",
             "awayTeamCode": "511102",
             "location": "Beeton South",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 1,
+              "scoreText": "1-14"
+            }
           },
           {
             "date": "2025-06-22T11:00:00.000Z",
@@ -879,8 +895,12 @@
             "awayTeam": "Newmarket Hawks 15U DS",
             "awayTeamCode": "511101",
             "location": "Beeton South",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 9,
+              "scoreText": "9-14"
+            }
           },
           {
             "date": "2025-06-25T20:00:00.000Z",
@@ -961,7 +981,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-02T01:17:01.427Z"
+        "lastUpdated": "2025-07-02T03:09:14.933Z"
       },
       "511524": {
         "teamCode": "511524",
@@ -1080,7 +1100,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-02T01:17:01.427Z"
+        "lastUpdated": "2025-07-02T03:09:14.933Z"
       }
     },
     "allGames": [
@@ -1389,8 +1409,12 @@
         "awayTeam": "Orillia Royals 15U DS",
         "awayTeamCode": "511102",
         "location": "Beeton South",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 1,
+          "scoreText": "1-14"
+        }
       },
       {
         "date": "2025-06-21T09:30:00.000Z",
@@ -1473,8 +1497,12 @@
         "awayTeam": "Newmarket Hawks 15U DS",
         "awayTeamCode": "511101",
         "location": "Beeton South",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 9,
+          "scoreText": "9-14"
+        }
       },
       {
         "date": "2025-06-22T12:30:00.000Z",
@@ -1553,8 +1581,12 @@
         "awayTeam": "Orillia Royals 15U DS",
         "awayTeamCode": "511102",
         "location": "Bethesda 2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 0,
+          "scoreText": "0-7"
+        }
       },
       {
         "date": "2025-06-28T15:00:00.000Z",
@@ -1891,8 +1923,12 @@
         "awayTeam": "Orillia Royals 15U DS",
         "awayTeamCode": "511102",
         "location": "Bethesda 2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 0,
+          "scoreText": "0-7"
+        }
       },
       {
         "date": "2025-06-28T09:30:00.000Z",
@@ -1959,8 +1995,12 @@
         "awayTeam": "Newmarket Hawks 15U DS",
         "awayTeamCode": "511101",
         "location": "Beeton South",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 9,
+          "scoreText": "9-14"
+        }
       }
     ],
     "upcomingGames": [
@@ -2085,14 +2125,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-02T01:17:01.427Z",
+    "lastUpdated": "2025-07-02T03:09:14.933Z",
     "totalGames": 57
   },
   "summary": {
     "totalTeams": 7,
     "totalGames": 57,
-    "completedGames": 16,
-    "upcomingGames": 41,
+    "completedGames": 19,
+    "upcomingGames": 38,
     "topTeam": {
       "team": "Collingwood Jays 15U DS",
       "teamCode": "511100",
@@ -2109,6 +2149,6 @@
       "date": "Sun, Jun 22",
       "location": "Legion Park"
     },
-    "lastUpdated": "2025-07-02T01:17:01.434Z"
+    "lastUpdated": "2025-07-02T03:09:14.939Z"
   }
 }

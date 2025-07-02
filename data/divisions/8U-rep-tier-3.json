@@ -3,6 +3,24 @@
     "teams": [
       {
         "position": 1,
+        "team": "Vaughan Vikings 8U A",
+        "teamCode": "518946",
+        "record": {
+          "gamesPlayed": 7,
+          "wins": 6,
+          "losses": 1,
+          "ties": 0,
+          "winPercentage": "0.857"
+        },
+        "stats": {
+          "points": 12,
+          "runsFor": 127,
+          "runsAgainst": 59,
+          "runDifferential": 68
+        }
+      },
+      {
+        "position": 2,
         "team": "Orangeville Bengals 8U B",
         "teamCode": "511052",
         "record": {
@@ -20,7 +38,7 @@
         }
       },
       {
-        "position": 3,
+        "position": 5,
         "team": "Markham Mariners 8U A",
         "teamCode": "511057",
         "record": {
@@ -39,24 +57,6 @@
       },
       {
         "position": 4,
-        "team": "Vaughan Vikings 8U A",
-        "teamCode": "518946",
-        "record": {
-          "gamesPlayed": 6,
-          "wins": 5,
-          "losses": 1,
-          "ties": 0,
-          "winPercentage": "0.833"
-        },
-        "stats": {
-          "points": 10,
-          "runsFor": 109,
-          "runsAgainst": 56,
-          "runDifferential": 53
-        }
-      },
-      {
-        "position": 2,
         "team": "Newmarket Hawks 8U A",
         "teamCode": "511051",
         "record": {
@@ -74,21 +74,21 @@
         }
       },
       {
-        "position": 5,
+        "position": 3,
         "team": "Aurora-King Jays 8U A",
         "teamCode": "511050",
         "record": {
-          "gamesPlayed": 7,
-          "wins": 4,
+          "gamesPlayed": 8,
+          "wins": 5,
           "losses": 3,
           "ties": 0,
-          "winPercentage": "0.571"
+          "winPercentage": "0.625"
         },
         "stats": {
-          "points": 8,
-          "runsFor": 97,
-          "runsAgainst": 121,
-          "runDifferential": -24
+          "points": 10,
+          "runsFor": 117,
+          "runsAgainst": 132,
+          "runDifferential": -15
         }
       },
       {
@@ -132,17 +132,17 @@
         "team": "Richmond Hill Phoenix 8U A",
         "teamCode": "511053",
         "record": {
-          "gamesPlayed": 6,
+          "gamesPlayed": 8,
           "wins": 1,
-          "losses": 5,
+          "losses": 7,
           "ties": 0,
-          "winPercentage": "0.167"
+          "winPercentage": "0.125"
         },
         "stats": {
           "points": 2,
-          "runsFor": 71,
-          "runsAgainst": 126,
-          "runDifferential": -55
+          "runsFor": 85,
+          "runsAgainst": 164,
+          "runDifferential": -79
         }
       },
       {
@@ -164,7 +164,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-02T01:10:49.904Z",
+    "lastUpdated": "2025-07-02T03:02:59.287Z",
     "totalTeams": 9
   },
   "schedule": {
@@ -310,7 +310,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-02T01:10:52.789Z"
+        "lastUpdated": "2025-07-02T03:03:02.255Z"
       },
       "511051": {
         "teamCode": "511051",
@@ -453,7 +453,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-02T01:10:52.789Z"
+        "lastUpdated": "2025-07-02T03:03:02.255Z"
       },
       "511052": {
         "teamCode": "511052",
@@ -600,7 +600,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-02T01:10:52.789Z"
+        "lastUpdated": "2025-07-02T03:03:02.255Z"
       },
       "511053": {
         "teamCode": "511053",
@@ -661,8 +661,12 @@
             "awayTeam": "Vaughan Vikings 8U A",
             "awayTeamCode": "518946",
             "location": "Richmond Green 3",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 3,
+              "away": 18,
+              "scoreText": "18-3"
+            }
           },
           {
             "date": "2025-06-30T18:30:00.000Z",
@@ -739,7 +743,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-02T01:10:52.789Z"
+        "lastUpdated": "2025-07-02T03:03:02.255Z"
       },
       "511054": {
         "teamCode": "511054",
@@ -886,7 +890,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-02T01:10:52.789Z"
+        "lastUpdated": "2025-07-02T03:03:02.255Z"
       },
       "511057": {
         "teamCode": "511057",
@@ -1033,7 +1037,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-02T01:10:52.789Z"
+        "lastUpdated": "2025-07-02T03:03:02.255Z"
       },
       "511059": {
         "teamCode": "511059",
@@ -1176,7 +1180,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-02T01:10:52.789Z"
+        "lastUpdated": "2025-07-02T03:03:02.255Z"
       },
       "511060": {
         "teamCode": "511060",
@@ -1319,7 +1323,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-02T01:10:52.789Z"
+        "lastUpdated": "2025-07-02T03:03:02.255Z"
       },
       "518946": {
         "teamCode": "518946",
@@ -1384,8 +1388,12 @@
             "awayTeam": "Vaughan Vikings 8U A",
             "awayTeamCode": "518946",
             "location": "Richmond Green 3",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 3,
+              "away": 18,
+              "scoreText": "18-3"
+            }
           },
           {
             "date": "2025-06-29T18:30:00.000Z",
@@ -1462,7 +1470,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-02T01:10:52.789Z"
+        "lastUpdated": "2025-07-02T03:03:02.255Z"
       }
     },
     "allGames": [
@@ -1643,8 +1651,12 @@
         "awayTeam": "Aurora-King Jays 8U A",
         "awayTeamCode": "511050",
         "location": "Richmond Green 3",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 20,
+          "scoreText": "20-11"
+        }
       },
       {
         "date": "2025-05-29T18:00:00.000Z",
@@ -2027,8 +2039,12 @@
         "awayTeam": "Vaughan Vikings 8U A",
         "awayTeamCode": "518946",
         "location": "Richmond Green 3",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 3,
+          "away": 18,
+          "scoreText": "18-3"
+        }
       },
       {
         "date": "2025-06-26T18:00:00.000Z",
@@ -2533,8 +2549,12 @@
         "awayTeam": "Vaughan Vikings 8U A",
         "awayTeamCode": "518946",
         "location": "Richmond Green 3",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 3,
+          "away": 18,
+          "scoreText": "18-3"
+        }
       },
       {
         "date": "2025-06-23T18:00:00.000Z",
@@ -2715,17 +2735,17 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-02T01:10:52.789Z",
+    "lastUpdated": "2025-07-02T03:03:02.255Z",
     "totalGames": 73
   },
   "summary": {
     "totalTeams": 9,
     "totalGames": 73,
-    "completedGames": 30,
-    "upcomingGames": 43,
+    "completedGames": 32,
+    "upcomingGames": 41,
     "topTeam": {
-      "team": "Orangeville Bengals 8U B",
-      "teamCode": "511052",
+      "team": "Vaughan Vikings 8U A",
+      "teamCode": "518946",
       "wins": 6,
       "losses": 1,
       "winPercentage": "0.857"
@@ -2739,6 +2759,6 @@
       "date": "Thu, May 29",
       "location": "Caledon Fairgrounds"
     },
-    "lastUpdated": "2025-07-02T01:17:01.434Z"
+    "lastUpdated": "2025-07-02T03:09:14.939Z"
   }
 }
