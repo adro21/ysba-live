@@ -20,27 +20,27 @@
         }
       },
       {
-        "position": 3,
-        "team": "Newmarket Hawks 12U AA",
-        "teamCode": "510923",
-        "record": {
-          "gamesPlayed": 8,
-          "wins": 6,
-          "losses": 2,
-          "ties": 0,
-          "winPercentage": "0.750"
-        },
-        "stats": {
-          "points": 12,
-          "runsFor": 74,
-          "runsAgainst": 39,
-          "runDifferential": 35
-        }
-      },
-      {
         "position": 2,
         "team": "Collingwood Jays 12U AA",
         "teamCode": "510930",
+        "record": {
+          "gamesPlayed": 10,
+          "wins": 7,
+          "losses": 3,
+          "ties": 0,
+          "winPercentage": "0.700"
+        },
+        "stats": {
+          "points": 14,
+          "runsFor": 96,
+          "runsAgainst": 73,
+          "runDifferential": 23
+        }
+      },
+      {
+        "position": 3,
+        "team": "Newmarket Hawks 12U AA",
+        "teamCode": "510923",
         "record": {
           "gamesPlayed": 9,
           "wins": 6,
@@ -50,9 +50,9 @@
         },
         "stats": {
           "points": 12,
-          "runsFor": 84,
-          "runsAgainst": 66,
-          "runDifferential": 18
+          "runsFor": 81,
+          "runsAgainst": 51,
+          "runDifferential": 30
         }
       },
       {
@@ -92,43 +92,43 @@
         }
       },
       {
-        "position": 6,
+        "position": 7,
         "team": "Aurora-King Jays 12U AA",
         "teamCode": "510935",
         "record": {
-          "gamesPlayed": 6,
+          "gamesPlayed": 7,
           "wins": 3,
-          "losses": 3,
+          "losses": 4,
           "ties": 0,
-          "winPercentage": "0.500"
+          "winPercentage": "0.429"
         },
         "stats": {
           "points": 6,
-          "runsFor": 49,
-          "runsAgainst": 46,
-          "runDifferential": 3
+          "runsFor": 56,
+          "runsAgainst": 58,
+          "runDifferential": -2
+        }
+      },
+      {
+        "position": 6,
+        "team": "Caledon Nationals 12U AA",
+        "teamCode": "510929",
+        "record": {
+          "gamesPlayed": 9,
+          "wins": 3,
+          "losses": 5,
+          "ties": 1,
+          "winPercentage": "0.389"
+        },
+        "stats": {
+          "points": 7,
+          "runsFor": 58,
+          "runsAgainst": 71,
+          "runDifferential": -13
         }
       },
       {
         "position": 8,
-        "team": "Caledon Nationals 12U AA",
-        "teamCode": "510929",
-        "record": {
-          "gamesPlayed": 8,
-          "wins": 2,
-          "losses": 5,
-          "ties": 1,
-          "winPercentage": "0.313"
-        },
-        "stats": {
-          "points": 5,
-          "runsFor": 46,
-          "runsAgainst": 64,
-          "runDifferential": -18
-        }
-      },
-      {
-        "position": 7,
         "team": "Richmond Hill Phoenix 12U AA",
         "teamCode": "510932",
         "record": {
@@ -164,7 +164,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-03T01:12:37.114Z",
+    "lastUpdated": "2025-07-03T03:08:29.296Z",
     "totalTeams": 9
   },
   "schedule": {
@@ -306,7 +306,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-03T01:12:41.537Z"
+        "lastUpdated": "2025-07-03T03:08:33.911Z"
       },
       "510919": {
         "teamCode": "510919",
@@ -433,7 +433,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-03T01:12:41.537Z"
+        "lastUpdated": "2025-07-03T03:08:33.911Z"
       },
       "510920": {
         "teamCode": "510920",
@@ -568,7 +568,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-03T01:12:41.537Z"
+        "lastUpdated": "2025-07-03T03:08:33.911Z"
       },
       "510921": {
         "teamCode": "510921",
@@ -711,7 +711,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-03T01:12:41.537Z"
+        "lastUpdated": "2025-07-03T03:08:33.911Z"
       },
       "510922": {
         "teamCode": "510922",
@@ -858,7 +858,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-03T01:12:41.538Z"
+        "lastUpdated": "2025-07-03T03:08:33.911Z"
       },
       "510923": {
         "teamCode": "510923",
@@ -939,8 +939,12 @@
             "awayTeam": "Caledon Nationals 12U AA",
             "awayTeamCode": "510929",
             "location": "Armstrong Park Field 1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 12,
+              "scoreText": "12-7"
+            }
           }
         ],
         "nextGames": [
@@ -1005,7 +1009,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-03T01:12:41.538Z"
+        "lastUpdated": "2025-07-03T03:08:33.911Z"
       },
       "510924": {
         "teamCode": "510924",
@@ -1152,7 +1156,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-03T01:12:41.538Z"
+        "lastUpdated": "2025-07-03T03:08:33.911Z"
       },
       "510925": {
         "teamCode": "510925",
@@ -1299,7 +1303,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-03T01:12:41.538Z"
+        "lastUpdated": "2025-07-03T03:08:33.911Z"
       },
       "510926": {
         "teamCode": "510926",
@@ -1446,7 +1450,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-03T01:12:41.538Z"
+        "lastUpdated": "2025-07-03T03:08:33.911Z"
       },
       "510927": {
         "teamCode": "510927",
@@ -1593,7 +1597,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-03T01:12:41.538Z"
+        "lastUpdated": "2025-07-03T03:08:33.912Z"
       },
       "510928": {
         "teamCode": "510928",
@@ -1744,7 +1748,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-03T01:12:41.538Z"
+        "lastUpdated": "2025-07-03T03:08:33.912Z"
       },
       "510929": {
         "teamCode": "510929",
@@ -1825,8 +1829,12 @@
             "awayTeam": "Caledon Nationals 12U AA",
             "awayTeamCode": "510929",
             "location": "Armstrong Park Field 1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 12,
+              "scoreText": "12-7"
+            }
           }
         ],
         "nextGames": [
@@ -1891,7 +1899,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-03T01:12:41.538Z"
+        "lastUpdated": "2025-07-03T03:08:33.912Z"
       },
       "510930": {
         "teamCode": "510930",
@@ -1972,8 +1980,12 @@
             "awayTeam": "Collingwood Jays 12U AA",
             "awayTeamCode": "510930",
             "location": "Hallmark Field 2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 12,
+              "scoreText": "12-7"
+            }
           }
         ],
         "nextGames": [
@@ -2038,7 +2050,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-03T01:12:41.538Z"
+        "lastUpdated": "2025-07-03T03:08:33.912Z"
       },
       "510931": {
         "teamCode": "510931",
@@ -2189,7 +2201,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-03T01:12:41.538Z"
+        "lastUpdated": "2025-07-03T03:08:33.912Z"
       },
       "510932": {
         "teamCode": "510932",
@@ -2340,7 +2352,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-03T01:12:41.538Z"
+        "lastUpdated": "2025-07-03T03:08:33.912Z"
       },
       "510933": {
         "teamCode": "510933",
@@ -2491,7 +2503,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-03T01:12:41.538Z"
+        "lastUpdated": "2025-07-03T03:08:33.912Z"
       },
       "510934": {
         "teamCode": "510934",
@@ -2642,7 +2654,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-03T01:12:41.538Z"
+        "lastUpdated": "2025-07-03T03:08:33.912Z"
       },
       "510935": {
         "teamCode": "510935",
@@ -2723,8 +2735,12 @@
             "awayTeam": "Collingwood Jays 12U AA",
             "awayTeamCode": "510930",
             "location": "Hallmark Field 2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 12,
+              "scoreText": "12-7"
+            }
           }
         ],
         "nextGames": [
@@ -2789,7 +2805,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-03T01:12:41.538Z"
+        "lastUpdated": "2025-07-03T03:08:33.912Z"
       },
       "510939": {
         "teamCode": "510939",
@@ -2924,7 +2940,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-03T01:12:41.538Z"
+        "lastUpdated": "2025-07-03T03:08:33.912Z"
       }
     },
     "allGames": [
@@ -4449,8 +4465,12 @@
         "awayTeam": "Caledon Nationals 12U AA",
         "awayTeamCode": "510929",
         "location": "Armstrong Park Field 1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 12,
+          "scoreText": "12-7"
+        }
       },
       {
         "date": "2025-07-02T18:30:00.000Z",
@@ -4485,8 +4505,12 @@
         "awayTeam": "Collingwood Jays 12U AA",
         "awayTeamCode": "510930",
         "location": "Hallmark Field 2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 12,
+          "scoreText": "12-7"
+        }
       },
       {
         "date": "2025-07-03T18:30:00.000Z",
@@ -5243,8 +5267,12 @@
         "awayTeam": "Collingwood Jays 12U AA",
         "awayTeamCode": "510930",
         "location": "Hallmark Field 2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 12,
+          "scoreText": "12-7"
+        }
       },
       {
         "date": "2025-07-02T18:00:00.000Z",
@@ -5255,8 +5283,12 @@
         "awayTeam": "Caledon Nationals 12U AA",
         "awayTeamCode": "510929",
         "location": "Armstrong Park Field 1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 12,
+          "scoreText": "12-7"
+        }
       },
       {
         "date": "2025-07-01T18:00:00.000Z",
@@ -5461,14 +5493,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-03T01:12:41.538Z",
+    "lastUpdated": "2025-07-03T03:08:33.912Z",
     "totalGames": 162
   },
   "summary": {
     "totalTeams": 9,
     "totalGames": 162,
-    "completedGames": 84,
-    "upcomingGames": 78,
+    "completedGames": 86,
+    "upcomingGames": 76,
     "topTeam": {
       "team": "Markham Mariners 12U AA",
       "teamCode": "510931",
@@ -5485,6 +5517,6 @@
       "date": "Wed, Jun 11",
       "location": "Barrie Community Sports Complex - Diamond 12"
     },
-    "lastUpdated": "2025-07-03T01:16:35.835Z"
+    "lastUpdated": "2025-07-03T03:12:52.278Z"
   }
 }

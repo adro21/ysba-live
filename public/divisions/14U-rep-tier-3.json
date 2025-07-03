@@ -20,7 +20,7 @@
         }
       },
       {
-        "position": 4,
+        "position": 6,
         "team": "Barrie Baycats 14U A",
         "teamCode": "510959",
         "record": {
@@ -35,24 +35,6 @@
           "runsFor": 79,
           "runsAgainst": 47,
           "runDifferential": 32
-        }
-      },
-      {
-        "position": 5,
-        "team": "Vaughan Vikings 14U A",
-        "teamCode": "518957",
-        "record": {
-          "gamesPlayed": 8,
-          "wins": 5,
-          "losses": 2,
-          "ties": 1,
-          "winPercentage": "0.688"
-        },
-        "stats": {
-          "points": 11,
-          "runsFor": 75,
-          "runsAgainst": 54,
-          "runDifferential": 21
         }
       },
       {
@@ -75,6 +57,24 @@
       },
       {
         "position": 3,
+        "team": "Vaughan Vikings 14U A",
+        "teamCode": "518957",
+        "record": {
+          "gamesPlayed": 10,
+          "wins": 6,
+          "losses": 3,
+          "ties": 1,
+          "winPercentage": "0.650"
+        },
+        "stats": {
+          "points": 13,
+          "runsFor": 103,
+          "runsAgainst": 89,
+          "runDifferential": 14
+        }
+      },
+      {
+        "position": 5,
         "team": "Caledon Nationals 14U A",
         "teamCode": "510961",
         "record": {
@@ -92,9 +92,9 @@
         }
       },
       {
-        "position": 6,
-        "team": "Muskoka Hornets 14U B",
-        "teamCode": "516243",
+        "position": 7,
+        "team": "Midland Penetang Twins 14U B",
+        "teamCode": "510979",
         "record": {
           "gamesPlayed": 9,
           "wins": 5,
@@ -104,31 +104,31 @@
         },
         "stats": {
           "points": 10,
-          "runsFor": 88,
-          "runsAgainst": 78,
-          "runDifferential": 10
+          "runsFor": 97,
+          "runsAgainst": 93,
+          "runDifferential": 4
         }
       },
       {
-        "position": 9,
-        "team": "Midland Penetang Twins 14U B",
-        "teamCode": "510979",
+        "position": 4,
+        "team": "Muskoka Hornets 14U B",
+        "teamCode": "516243",
         "record": {
-          "gamesPlayed": 8,
-          "wins": 4,
-          "losses": 4,
+          "gamesPlayed": 11,
+          "wins": 6,
+          "losses": 5,
           "ties": 0,
-          "winPercentage": "0.500"
+          "winPercentage": "0.545"
         },
         "stats": {
-          "points": 8,
-          "runsFor": 83,
-          "runsAgainst": 80,
-          "runDifferential": 3
+          "points": 12,
+          "runsFor": 123,
+          "runsAgainst": 106,
+          "runDifferential": 17
         }
       },
       {
-        "position": 7,
+        "position": 8,
         "team": "Thornhill Reds 14U A",
         "teamCode": "510965",
         "record": {
@@ -146,7 +146,7 @@
         }
       },
       {
-        "position": 8,
+        "position": 9,
         "team": "Collingwood Jays 14U A",
         "teamCode": "510962",
         "record": {
@@ -222,21 +222,21 @@
         "team": "Bradford Tigers 14U A",
         "teamCode": "510960",
         "record": {
-          "gamesPlayed": 8,
+          "gamesPlayed": 9,
           "wins": 1,
-          "losses": 7,
+          "losses": 8,
           "ties": 0,
-          "winPercentage": "0.125"
+          "winPercentage": "0.111"
         },
         "stats": {
           "points": 2,
-          "runsFor": 57,
-          "runsAgainst": 121,
-          "runDifferential": -64
+          "runsFor": 70,
+          "runsAgainst": 135,
+          "runDifferential": -65
         }
       }
     ],
-    "lastUpdated": "2025-07-03T01:13:42.088Z",
+    "lastUpdated": "2025-07-03T03:09:43.582Z",
     "totalTeams": 13
   },
   "schedule": {
@@ -390,7 +390,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-03T01:13:46.362Z"
+        "lastUpdated": "2025-07-03T03:09:48.190Z"
       },
       "510959": {
         "teamCode": "510959",
@@ -537,7 +537,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-03T01:13:46.362Z"
+        "lastUpdated": "2025-07-03T03:09:48.190Z"
       },
       "510960": {
         "teamCode": "510960",
@@ -586,8 +586,12 @@
             "awayTeam": "Bradford Tigers 14U A",
             "awayTeamCode": "510960",
             "location": "Tiffin Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 13,
+              "scoreText": "13-14"
+            }
           },
           {
             "date": "2025-06-30T20:00:00.000Z",
@@ -676,7 +680,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-03T01:13:46.362Z"
+        "lastUpdated": "2025-07-03T03:09:48.190Z"
       },
       "510961": {
         "teamCode": "510961",
@@ -815,19 +819,19 @@
             "score": null
           },
           {
-            "date": "2025-07-22T18:00:00.000Z",
-            "dateText": "Tue, Jul 22",
+            "date": "2025-07-24T18:00:00.000Z",
+            "dateText": "Thu, Jul 24",
             "time": "6:00 PM",
             "homeTeam": "Collingwood Jays 14U A",
             "homeTeamCode": "510962",
             "awayTeam": "Caledon Nationals 14U A",
             "awayTeamCode": "510961",
-            "location": "Legion",
+            "location": "Large Heritage",
             "isCompleted": false,
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-03T01:13:46.362Z"
+        "lastUpdated": "2025-07-03T03:09:48.190Z"
       },
       "510962": {
         "teamCode": "510962",
@@ -966,19 +970,19 @@
             "score": null
           },
           {
-            "date": "2025-07-22T18:00:00.000Z",
-            "dateText": "Tue, Jul 22",
+            "date": "2025-07-24T18:00:00.000Z",
+            "dateText": "Thu, Jul 24",
             "time": "6:00 PM",
             "homeTeam": "Collingwood Jays 14U A",
             "homeTeamCode": "510962",
             "awayTeam": "Caledon Nationals 14U A",
             "awayTeamCode": "510961",
-            "location": "Legion",
+            "location": "Large Heritage",
             "isCompleted": false,
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-03T01:13:46.362Z"
+        "lastUpdated": "2025-07-03T03:09:48.190Z"
       },
       "510963": {
         "teamCode": "510963",
@@ -1125,7 +1129,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-03T01:13:46.362Z"
+        "lastUpdated": "2025-07-03T03:09:48.190Z"
       },
       "510964": {
         "teamCode": "510964",
@@ -1272,7 +1276,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-03T01:13:46.362Z"
+        "lastUpdated": "2025-07-03T03:09:48.190Z"
       },
       "510965": {
         "teamCode": "510965",
@@ -1423,7 +1427,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-03T01:13:46.362Z"
+        "lastUpdated": "2025-07-03T03:09:48.190Z"
       },
       "510966": {
         "teamCode": "510966",
@@ -1574,7 +1578,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-03T01:13:46.362Z"
+        "lastUpdated": "2025-07-03T03:09:48.190Z"
       },
       "510979": {
         "teamCode": "510979",
@@ -1647,8 +1651,12 @@
             "awayTeam": "Bradford Tigers 14U A",
             "awayTeamCode": "510960",
             "location": "Tiffin Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 13,
+              "scoreText": "13-14"
+            }
           }
         ],
         "nextGames": [
@@ -1713,7 +1721,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-03T01:13:46.362Z"
+        "lastUpdated": "2025-07-03T03:09:48.190Z"
       },
       "516243": {
         "teamCode": "516243",
@@ -1778,8 +1786,12 @@
             "awayTeam": "Vaughan Vikings 14U A",
             "awayTeamCode": "518957",
             "location": "McCulley Robertson",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 18,
+              "scoreText": "18-13"
+            }
           },
           {
             "date": "2025-06-28T14:00:00.000Z",
@@ -1790,8 +1802,12 @@
             "awayTeam": "Muskoka Hornets 14U B",
             "awayTeamCode": "516243",
             "location": "McCulley Robertson",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 22,
+              "scoreText": "22-10"
+            }
           }
         ],
         "nextGames": [
@@ -1856,7 +1872,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-03T01:13:46.362Z"
+        "lastUpdated": "2025-07-03T03:09:48.190Z"
       },
       "518957": {
         "teamCode": "518957",
@@ -1913,8 +1929,12 @@
             "awayTeam": "Vaughan Vikings 14U A",
             "awayTeamCode": "518957",
             "location": "McCulley Robertson",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 18,
+              "scoreText": "18-13"
+            }
           },
           {
             "date": "2025-06-28T14:00:00.000Z",
@@ -1925,8 +1945,12 @@
             "awayTeam": "Muskoka Hornets 14U B",
             "awayTeamCode": "516243",
             "location": "McCulley Robertson",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 22,
+              "scoreText": "22-10"
+            }
           }
         ],
         "nextGames": [
@@ -1991,7 +2015,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-03T01:13:46.362Z"
+        "lastUpdated": "2025-07-03T03:09:48.190Z"
       },
       "546378": {
         "teamCode": "546378",
@@ -2138,7 +2162,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-03T01:13:46.362Z"
+        "lastUpdated": "2025-07-03T03:09:48.190Z"
       }
     },
     "allGames": [
@@ -3123,8 +3147,12 @@
         "awayTeam": "Vaughan Vikings 14U A",
         "awayTeamCode": "518957",
         "location": "McCulley Robertson",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 18,
+          "scoreText": "18-13"
+        }
       },
       {
         "date": "2025-06-28T13:00:00.000Z",
@@ -3135,8 +3163,12 @@
         "awayTeam": "Bradford Tigers 14U A",
         "awayTeamCode": "510960",
         "location": "Tiffin Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 13,
+          "scoreText": "13-14"
+        }
       },
       {
         "date": "2025-06-28T14:00:00.000Z",
@@ -3147,8 +3179,12 @@
         "awayTeam": "Muskoka Hornets 14U B",
         "awayTeamCode": "516243",
         "location": "McCulley Robertson",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 22,
+          "scoreText": "22-10"
+        }
       },
       {
         "date": "2025-06-30T20:00:00.000Z",
@@ -3499,18 +3535,6 @@
         "score": null
       },
       {
-        "date": "2025-07-22T18:00:00.000Z",
-        "dateText": "Tue, Jul 22",
-        "time": "6:00 PM",
-        "homeTeam": "Collingwood Jays 14U A",
-        "homeTeamCode": "510962",
-        "awayTeam": "Caledon Nationals 14U A",
-        "awayTeamCode": "510961",
-        "location": "Legion",
-        "isCompleted": false,
-        "score": null
-      },
-      {
         "date": "2025-07-23T18:00:00.000Z",
         "dateText": "Wed, Jul 23",
         "time": "6:00 PM",
@@ -3555,6 +3579,18 @@
         "awayTeam": "Stouffville Yankees 14U A",
         "awayTeamCode": "510966",
         "location": "Bethesda 2",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2025-07-24T18:00:00.000Z",
+        "dateText": "Thu, Jul 24",
+        "time": "6:00 PM",
+        "homeTeam": "Collingwood Jays 14U A",
+        "homeTeamCode": "510962",
+        "awayTeam": "Caledon Nationals 14U A",
+        "awayTeamCode": "510961",
+        "location": "Large Heritage",
         "isCompleted": false,
         "score": null
       },
@@ -3965,8 +4001,12 @@
         "awayTeam": "Muskoka Hornets 14U B",
         "awayTeamCode": "516243",
         "location": "McCulley Robertson",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 22,
+          "scoreText": "22-10"
+        }
       },
       {
         "date": "2025-06-28T13:00:00.000Z",
@@ -3977,8 +4017,12 @@
         "awayTeam": "Bradford Tigers 14U A",
         "awayTeamCode": "510960",
         "location": "Tiffin Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 13,
+          "scoreText": "13-14"
+        }
       },
       {
         "date": "2025-06-28T11:00:00.000Z",
@@ -3989,8 +4033,12 @@
         "awayTeam": "Vaughan Vikings 14U A",
         "awayTeamCode": "518957",
         "location": "McCulley Robertson",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 18,
+          "scoreText": "18-13"
+        }
       },
       {
         "date": "2025-06-27T19:00:00.000Z",
@@ -4195,14 +4243,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-03T01:13:46.362Z",
+    "lastUpdated": "2025-07-03T03:09:48.190Z",
     "totalGames": 130
   },
   "summary": {
     "totalTeams": 13,
     "totalGames": 130,
-    "completedGames": 57,
-    "upcomingGames": 73,
+    "completedGames": 60,
+    "upcomingGames": 70,
     "topTeam": {
       "team": "Richmond Hill Phoenix 14U A",
       "teamCode": "510964",
@@ -4219,6 +4267,6 @@
       "date": "Mon, May 19",
       "location": "Joe Magani Field #5"
     },
-    "lastUpdated": "2025-07-03T01:16:35.835Z"
+    "lastUpdated": "2025-07-03T03:12:52.278Z"
   }
 }
