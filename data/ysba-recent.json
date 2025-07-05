@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-07-05T16:22:26.721Z",
+  "lastUpdated": "2025-07-05T16:51:17.595Z",
   "totalGames": 190,
   "games": [
     {
@@ -467,8 +467,12 @@
       "awayTeam": "Newmarket Hawks 9U A",
       "awayTeamCode": "511062",
       "location": "Dean Heliotis Diamond",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 20,
+        "away": 7,
+        "scoreText": "7-20"
+      },
       "division": "9U",
       "tier": "rep-tier-3"
     },
