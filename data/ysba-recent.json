@@ -1,7 +1,35 @@
 {
-  "lastUpdated": "2025-07-05T14:47:33.704Z",
+  "lastUpdated": "2025-07-05T15:19:28.623Z",
   "totalGames": 190,
   "games": [
+    {
+      "date": "2025-07-05T15:00:00.000Z",
+      "dateText": "Sat, Jul 5",
+      "time": "3:00 PM",
+      "homeTeam": "Muskoka Hornets 11U B",
+      "homeTeamCode": "516241",
+      "awayTeam": "Innisfil Cardinals 11U A",
+      "awayTeamCode": "510894",
+      "location": "Gull Lake (Gravenhurst)",
+      "isCompleted": false,
+      "score": null,
+      "division": "11U",
+      "tier": "rep-tier-2"
+    },
+    {
+      "date": "2025-07-05T15:00:00.000Z",
+      "dateText": "Sat, Jul 5",
+      "time": "3:00 PM",
+      "homeTeam": "Muskoka Hornets 11U B",
+      "homeTeamCode": "516241",
+      "awayTeam": "Innisfil Cardinals 11U A",
+      "awayTeamCode": "510894",
+      "location": "Gull Lake (Gravenhurst)",
+      "isCompleted": false,
+      "score": null,
+      "division": "11U",
+      "tier": "rep-tier-3"
+    },
     {
       "date": "2025-07-05T14:30:00.000Z",
       "dateText": "Sat, Jul 5",
@@ -375,8 +403,12 @@
       "awayTeam": "Muskoka Hornets 14U B",
       "awayTeamCode": "516243",
       "location": "Stuart Burnett Field",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 8,
+        "away": 7,
+        "scoreText": "7-8"
+      },
       "division": "14U",
       "tier": "rep-tier-3"
     },
@@ -403,8 +435,12 @@
       "awayTeam": "Richmond Hill Phoenix 14U A",
       "awayTeamCode": "510964",
       "location": "Bethesda Sports Field #2",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 5,
+        "away": 11,
+        "scoreText": "11-5"
+      },
       "division": "14U",
       "tier": "rep-tier-3"
     },
@@ -501,8 +537,12 @@
       "awayTeam": "Muskoka Hornets 14U B",
       "awayTeamCode": "516243",
       "location": "Stuart Burnett Field",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 15,
+        "away": 8,
+        "scoreText": "8-15"
+      },
       "division": "14U",
       "tier": "rep-tier-3"
     },
@@ -589,8 +629,12 @@
       "awayTeam": "Innisfil Cardinals 14U A",
       "awayTeamCode": "510963",
       "location": "Richmond Green #1",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 24,
+        "away": 4,
+        "scoreText": "4-24"
+      },
       "division": "14U",
       "tier": "rep-tier-3"
     },
@@ -680,38 +724,6 @@
         "scoreText": "15-3"
       },
       "division": "11U",
-      "tier": "rep-tier-2"
-    },
-    {
-      "date": "2025-07-03T18:30:00.000Z",
-      "dateText": "Thu, Jul 3",
-      "time": "6:30 PM",
-      "homeTeam": "Aurora-King Jays 11U AA",
-      "homeTeamCode": "510905",
-      "awayTeam": "Bradford Tigers 11U AA",
-      "awayTeamCode": "510907",
-      "location": "HallMark #2",
-      "isCompleted": true,
-      "score": {
-        "home": 3,
-        "away": 15,
-        "scoreText": "15-3"
-      },
-      "division": "11U",
-      "tier": "rep-tier-3"
-    },
-    {
-      "date": "2025-07-03T18:30:00.000Z",
-      "dateText": "Thu, Jul 3",
-      "time": "6:30 PM",
-      "homeTeam": "Barrie Baycats 12U A",
-      "homeTeamCode": "510919",
-      "awayTeam": "Orillia Royals 12U A",
-      "awayTeamCode": "510925",
-      "location": "Barrie Community Sports Complex - Diamond 12",
-      "isCompleted": false,
-      "score": null,
-      "division": "12U",
       "tier": "rep-tier-2"
     }
   ]
