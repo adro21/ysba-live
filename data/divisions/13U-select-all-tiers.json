@@ -38,25 +38,25 @@
         }
       },
       {
-        "position": 2,
+        "position": 1,
         "team": "Newmarket Hawks 13U DS",
         "teamCode": "511093",
         "record": {
-          "gamesPlayed": 9,
-          "wins": 8,
+          "gamesPlayed": 11,
+          "wins": 10,
           "losses": 1,
           "ties": 0,
-          "winPercentage": "0.889"
+          "winPercentage": "0.909"
         },
         "stats": {
-          "points": 16,
-          "runsFor": 105,
-          "runsAgainst": 74,
-          "runDifferential": 31
+          "points": 20,
+          "runsFor": 118,
+          "runsAgainst": 81,
+          "runDifferential": 37
         }
       },
       {
-        "position": 1,
+        "position": 2,
         "team": "Collingwood Jays (Grey) 13U DS",
         "teamCode": "511087",
         "record": {
@@ -71,24 +71,6 @@
           "runsFor": 124,
           "runsAgainst": 51,
           "runDifferential": 73
-        }
-      },
-      {
-        "position": 8,
-        "team": "Markham Mariners 13U DS -Team 1",
-        "teamCode": "511090",
-        "record": {
-          "gamesPlayed": 7,
-          "wins": 4,
-          "losses": 3,
-          "ties": 0,
-          "winPercentage": "0.571"
-        },
-        "stats": {
-          "points": 8,
-          "runsFor": 63,
-          "runsAgainst": 49,
-          "runDifferential": 14
         }
       },
       {
@@ -147,6 +129,24 @@
       },
       {
         "position": 7,
+        "team": "Markham Mariners 13U DS -Team 1",
+        "teamCode": "511090",
+        "record": {
+          "gamesPlayed": 9,
+          "wins": 4,
+          "losses": 5,
+          "ties": 0,
+          "winPercentage": "0.444"
+        },
+        "stats": {
+          "points": 8,
+          "runsFor": 70,
+          "runsAgainst": 62,
+          "runDifferential": 8
+        }
+      },
+      {
+        "position": 8,
         "team": "Richmond Hill Phoenix 13U DS",
         "teamCode": "511095",
         "record": {
@@ -290,7 +290,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-05T23:19:50.159Z",
+    "lastUpdated": "2025-07-05T23:44:56.919Z",
     "totalTeams": 16
   },
   "schedule": {
@@ -436,7 +436,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-05T23:19:54.758Z"
+        "lastUpdated": "2025-07-05T23:45:01.334Z"
       },
       "511085": {
         "teamCode": "511085",
@@ -587,7 +587,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-05T23:19:54.758Z"
+        "lastUpdated": "2025-07-05T23:45:01.334Z"
       },
       "511086": {
         "teamCode": "511086",
@@ -738,7 +738,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-05T23:19:54.758Z"
+        "lastUpdated": "2025-07-05T23:45:01.334Z"
       },
       "511087": {
         "teamCode": "511087",
@@ -877,7 +877,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-05T23:19:54.758Z"
+        "lastUpdated": "2025-07-05T23:45:01.334Z"
       },
       "511088": {
         "teamCode": "511088",
@@ -1028,7 +1028,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-05T23:19:54.758Z"
+        "lastUpdated": "2025-07-05T23:45:01.334Z"
       },
       "511089": {
         "teamCode": "511089",
@@ -1179,7 +1179,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-05T23:19:54.758Z"
+        "lastUpdated": "2025-07-05T23:45:01.334Z"
       },
       "511090": {
         "teamCode": "511090",
@@ -1244,8 +1244,12 @@
             "awayTeam": "Newmarket Hawks 13U DS",
             "awayTeamCode": "511093",
             "location": "Berczy Park (South)",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 9,
+              "scoreText": "9-4"
+            }
           },
           {
             "date": "2025-07-05T14:30:00.000Z",
@@ -1256,8 +1260,12 @@
             "awayTeam": "Newmarket Hawks 13U DS",
             "awayTeamCode": "511093",
             "location": "Berczy Park (South)",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 3,
+              "away": 4,
+              "scoreText": "4-3"
+            }
           }
         ],
         "nextGames": [
@@ -1322,7 +1330,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-05T23:19:54.758Z"
+        "lastUpdated": "2025-07-05T23:45:01.334Z"
       },
       "511091": {
         "teamCode": "511091",
@@ -1461,7 +1469,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-05T23:19:54.758Z"
+        "lastUpdated": "2025-07-05T23:45:01.334Z"
       },
       "511092": {
         "teamCode": "511092",
@@ -1612,7 +1620,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-05T23:19:54.758Z"
+        "lastUpdated": "2025-07-05T23:45:01.334Z"
       },
       "511093": {
         "teamCode": "511093",
@@ -1673,8 +1681,12 @@
             "awayTeam": "Newmarket Hawks 13U DS",
             "awayTeamCode": "511093",
             "location": "Berczy Park (South)",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 9,
+              "scoreText": "9-4"
+            }
           },
           {
             "date": "2025-07-05T14:30:00.000Z",
@@ -1685,8 +1697,12 @@
             "awayTeam": "Newmarket Hawks 13U DS",
             "awayTeamCode": "511093",
             "location": "Berczy Park (South)",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 3,
+              "away": 4,
+              "scoreText": "4-3"
+            }
           }
         ],
         "nextGames": [
@@ -1739,7 +1755,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-05T23:19:54.758Z"
+        "lastUpdated": "2025-07-05T23:45:01.334Z"
       },
       "511094": {
         "teamCode": "511094",
@@ -1890,7 +1906,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-05T23:19:54.758Z"
+        "lastUpdated": "2025-07-05T23:45:01.334Z"
       },
       "511095": {
         "teamCode": "511095",
@@ -2037,7 +2053,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-05T23:19:54.758Z"
+        "lastUpdated": "2025-07-05T23:45:01.334Z"
       },
       "511096": {
         "teamCode": "511096",
@@ -2188,7 +2204,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-05T23:19:54.758Z"
+        "lastUpdated": "2025-07-05T23:45:01.334Z"
       },
       "511097": {
         "teamCode": "511097",
@@ -2335,7 +2351,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-05T23:19:54.758Z"
+        "lastUpdated": "2025-07-05T23:45:01.334Z"
       },
       "511098": {
         "teamCode": "511098",
@@ -2486,7 +2502,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-05T23:19:54.758Z"
+        "lastUpdated": "2025-07-05T23:45:01.334Z"
       },
       "518969": {
         "teamCode": "518969",
@@ -2625,7 +2641,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-05T23:19:54.758Z"
+        "lastUpdated": "2025-07-05T23:45:01.334Z"
       }
     },
     "allGames": [
@@ -3822,8 +3838,12 @@
         "awayTeam": "Newmarket Hawks 13U DS",
         "awayTeamCode": "511093",
         "location": "Berczy Park (South)",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 9,
+          "scoreText": "9-4"
+        }
       },
       {
         "date": "2025-07-05T12:30:00.000Z",
@@ -3846,8 +3866,12 @@
         "awayTeam": "Newmarket Hawks 13U DS",
         "awayTeamCode": "511093",
         "location": "Berczy Park (South)",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 3,
+          "away": 4,
+          "scoreText": "4-3"
+        }
       },
       {
         "date": "2025-07-06T09:30:00.000Z",
@@ -4448,8 +4472,12 @@
         "awayTeam": "Newmarket Hawks 13U DS",
         "awayTeamCode": "511093",
         "location": "Berczy Park (South)",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 3,
+          "away": 4,
+          "scoreText": "4-3"
+        }
       },
       {
         "date": "2025-07-05T12:30:00.000Z",
@@ -4472,8 +4500,12 @@
         "awayTeam": "Newmarket Hawks 13U DS",
         "awayTeamCode": "511093",
         "location": "Berczy Park (South)",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 9,
+          "scoreText": "9-4"
+        }
       },
       {
         "date": "2025-07-05T10:00:00.000Z",
@@ -4702,14 +4734,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-05T23:19:54.758Z",
+    "lastUpdated": "2025-07-05T23:45:01.334Z",
     "totalGames": 128
   },
   "summary": {
     "totalTeams": 16,
     "totalGames": 128,
-    "completedGames": 68,
-    "upcomingGames": 60,
+    "completedGames": 70,
+    "upcomingGames": 58,
     "topTeam": {
       "team": "Barrie Baycats 13U DS",
       "teamCode": "511085",
@@ -4726,6 +4758,6 @@
       "date": "Thu, Jun 12",
       "location": "Newmarket Fairgrounds Park #1"
     },
-    "lastUpdated": "2025-07-05T23:20:01.195Z"
+    "lastUpdated": "2025-07-05T23:45:07.682Z"
   }
 }
