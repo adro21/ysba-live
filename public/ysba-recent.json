@@ -1,7 +1,35 @@
 {
-  "lastUpdated": "2025-07-06T18:24:45.288Z",
+  "lastUpdated": "2025-07-06T18:51:55.959Z",
   "totalGames": 190,
   "games": [
+    {
+      "date": "2025-07-06T18:30:00.000Z",
+      "dateText": "Sun, Jul 6",
+      "time": "6:30 PM",
+      "homeTeam": "Aurora-King Jays 13U A",
+      "homeTeamCode": "510940",
+      "awayTeam": "Orangeville Bengals 13U A",
+      "awayTeamCode": "510943",
+      "location": "HALLMARK 1",
+      "isCompleted": false,
+      "score": null,
+      "division": "13U",
+      "tier": "rep-tier-2"
+    },
+    {
+      "date": "2025-07-06T18:30:00.000Z",
+      "dateText": "Sun, Jul 6",
+      "time": "6:30 PM",
+      "homeTeam": "Aurora-King Jays 13U A",
+      "homeTeamCode": "510940",
+      "awayTeam": "Orangeville Bengals 13U A",
+      "awayTeamCode": "510943",
+      "location": "HALLMARK 1",
+      "isCompleted": false,
+      "score": null,
+      "division": "13U",
+      "tier": "rep-tier-3"
+    },
     {
       "date": "2025-07-06T18:00:00.000Z",
       "dateText": "Sun, Jul 6",
@@ -235,8 +263,12 @@
       "awayTeam": "Midland Penetang Twins 11U DS",
       "awayTeamCode": "511074",
       "location": "Mansfield Park",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 7,
+        "away": 8,
+        "scoreText": "8-7"
+      },
       "division": "11U",
       "tier": "select-all-tiers"
     },
@@ -319,8 +351,12 @@
       "awayTeam": "Midland Penetang Twins 11U DS",
       "awayTeamCode": "511074",
       "location": "Mansfield Park",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 3,
+        "away": 10,
+        "scoreText": "10-3"
+      },
       "division": "11U",
       "tier": "select-all-tiers"
     },
@@ -453,8 +489,12 @@
       "awayTeam": "Barrie Baycats 11U DS",
       "awayTeamCode": "511075",
       "location": "Bishops Cross Small Field",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 3,
+        "away": 8,
+        "scoreText": "8-3"
+      },
       "division": "11U",
       "tier": "select-all-tiers"
     },
@@ -611,8 +651,12 @@
       "awayTeam": "Barrie Baycats 11U DS",
       "awayTeamCode": "511075",
       "location": "Bishops Cross Small Field",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 2,
+        "away": 9,
+        "scoreText": "9-2"
+      },
       "division": "11U",
       "tier": "select-all-tiers"
     },
@@ -689,34 +733,6 @@
       "score": null,
       "division": "15U",
       "tier": "select-all-tiers"
-    },
-    {
-      "date": "2025-07-05T11:30:00.000Z",
-      "dateText": "Sat, Jul 5",
-      "time": "11:30 AM",
-      "homeTeam": "Orillia Royals 9U A",
-      "homeTeamCode": "511064",
-      "awayTeam": "Orangeville Bengals 9U A",
-      "awayTeamCode": "511063",
-      "location": "Kitchener Park",
-      "isCompleted": false,
-      "score": null,
-      "division": "9U",
-      "tier": "rep-tier-3"
-    },
-    {
-      "date": "2025-07-05T11:00:00.000Z",
-      "dateText": "Sat, Jul 5",
-      "time": "11:00 AM",
-      "homeTeam": "Muskoka Hornets 9U A",
-      "homeTeamCode": "516247",
-      "awayTeam": "Markham Mariners 9U A",
-      "awayTeamCode": "511061",
-      "location": "Wharf Field",
-      "isCompleted": false,
-      "score": null,
-      "division": "9U",
-      "tier": "rep-tier-3"
     }
   ]
 }
