@@ -74,39 +74,39 @@
         }
       },
       {
-        "position": 4,
-        "team": "Stouffville Yankees 15U DS",
-        "teamCode": "511103",
-        "record": {
-          "gamesPlayed": 10,
-          "wins": 2,
-          "losses": 8,
-          "ties": 0,
-          "winPercentage": "0.200"
-        },
-        "stats": {
-          "points": 4,
-          "runsFor": 46,
-          "runsAgainst": 135,
-          "runDifferential": -89
-        }
-      },
-      {
         "position": 5,
         "team": "Newmarket Hawks 15U DS",
         "teamCode": "511101",
         "record": {
-          "gamesPlayed": 6,
-          "wins": 1,
+          "gamesPlayed": 8,
+          "wins": 2,
           "losses": 5,
-          "ties": 0,
-          "winPercentage": "0.167"
+          "ties": 1,
+          "winPercentage": "0.313"
         },
         "stats": {
-          "points": 2,
-          "runsFor": 40,
-          "runsAgainst": 63,
-          "runDifferential": -23
+          "points": 5,
+          "runsFor": 59,
+          "runsAgainst": 76,
+          "runDifferential": -17
+        }
+      },
+      {
+        "position": 4,
+        "team": "Stouffville Yankees 15U DS",
+        "teamCode": "511103",
+        "record": {
+          "gamesPlayed": 12,
+          "wins": 2,
+          "losses": 9,
+          "ties": 1,
+          "winPercentage": "0.208"
+        },
+        "stats": {
+          "points": 5,
+          "runsFor": 59,
+          "runsAgainst": 154,
+          "runDifferential": -95
         }
       },
       {
@@ -128,7 +128,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-07T19:43:27.781Z",
+    "lastUpdated": "2025-07-07T20:22:43.482Z",
     "totalTeams": 7
   },
   "schedule": {
@@ -250,7 +250,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T19:43:30.685Z"
+        "lastUpdated": "2025-07-07T20:22:46.453Z"
       },
       "511100": {
         "teamCode": "511100",
@@ -401,7 +401,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T19:43:30.685Z"
+        "lastUpdated": "2025-07-07T20:22:46.453Z"
       },
       "511101": {
         "teamCode": "511101",
@@ -462,8 +462,12 @@
             "awayTeam": "Newmarket Hawks 15U DS",
             "awayTeamCode": "511101",
             "location": "Bethesda 2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 9,
+              "scoreText": "9-9"
+            }
           },
           {
             "date": "2025-07-05T12:00:00.000Z",
@@ -474,8 +478,12 @@
             "awayTeam": "Newmarket Hawks 15U DS",
             "awayTeamCode": "511101",
             "location": "Bethesda 2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 10,
+              "scoreText": "10-4"
+            }
           }
         ],
         "nextGames": [
@@ -540,7 +548,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T19:43:30.685Z"
+        "lastUpdated": "2025-07-07T20:22:46.453Z"
       },
       "511102": {
         "teamCode": "511102",
@@ -675,7 +683,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T19:43:30.685Z"
+        "lastUpdated": "2025-07-07T20:22:46.453Z"
       },
       "511103": {
         "teamCode": "511103",
@@ -736,8 +744,12 @@
             "awayTeam": "Newmarket Hawks 15U DS",
             "awayTeamCode": "511101",
             "location": "Bethesda 2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 9,
+              "scoreText": "9-9"
+            }
           },
           {
             "date": "2025-07-05T12:00:00.000Z",
@@ -748,8 +760,12 @@
             "awayTeam": "Newmarket Hawks 15U DS",
             "awayTeamCode": "511101",
             "location": "Bethesda 2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 10,
+              "scoreText": "10-4"
+            }
           }
         ],
         "nextGames": [
@@ -802,7 +818,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T19:43:30.685Z"
+        "lastUpdated": "2025-07-07T20:22:46.453Z"
       },
       "511104": {
         "teamCode": "511104",
@@ -953,7 +969,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T19:43:30.685Z"
+        "lastUpdated": "2025-07-07T20:22:46.453Z"
       },
       "511524": {
         "teamCode": "511524",
@@ -1072,7 +1088,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T19:43:30.685Z"
+        "lastUpdated": "2025-07-07T20:22:46.453Z"
       }
     },
     "allGames": [
@@ -1605,8 +1621,12 @@
         "awayTeam": "Newmarket Hawks 15U DS",
         "awayTeamCode": "511101",
         "location": "Bethesda 2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 9,
+          "scoreText": "9-9"
+        }
       },
       {
         "date": "2025-07-05T12:00:00.000Z",
@@ -1617,8 +1637,12 @@
         "awayTeam": "Newmarket Hawks 15U DS",
         "awayTeamCode": "511101",
         "location": "Bethesda 2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 10,
+          "scoreText": "10-4"
+        }
       },
       {
         "date": "2025-07-09T18:00:00.000Z",
@@ -1847,8 +1871,12 @@
         "awayTeam": "Newmarket Hawks 15U DS",
         "awayTeamCode": "511101",
         "location": "Bethesda 2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 10,
+          "scoreText": "10-4"
+        }
       },
       {
         "date": "2025-07-05T09:30:00.000Z",
@@ -1859,8 +1887,12 @@
         "awayTeam": "Newmarket Hawks 15U DS",
         "awayTeamCode": "511101",
         "location": "Bethesda 2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 9,
+          "scoreText": "9-9"
+        }
       },
       {
         "date": "2025-06-29T12:30:00.000Z",
@@ -2089,14 +2121,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-07T19:43:30.685Z",
+    "lastUpdated": "2025-07-07T20:22:46.453Z",
     "totalGames": 57
   },
   "summary": {
     "totalTeams": 7,
     "totalGames": 57,
-    "completedGames": 19,
-    "upcomingGames": 38,
+    "completedGames": 21,
+    "upcomingGames": 36,
     "topTeam": {
       "team": "Collingwood Jays 15U DS",
       "teamCode": "511100",
@@ -2113,6 +2145,6 @@
       "date": "Sun, Jun 22",
       "location": "Legion Park"
     },
-    "lastUpdated": "2025-07-07T19:43:30.693Z"
+    "lastUpdated": "2025-07-07T20:22:46.460Z"
   }
 }

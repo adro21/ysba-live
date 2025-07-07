@@ -6,39 +6,39 @@
         "team": "Orillia Royals 9U A",
         "teamCode": "511064",
         "record": {
-          "gamesPlayed": 10,
-          "wins": 9,
+          "gamesPlayed": 11,
+          "wins": 10,
           "losses": 1,
           "ties": 0,
-          "winPercentage": "0.900"
+          "winPercentage": "0.909"
         },
         "stats": {
-          "points": 18,
-          "runsFor": 165,
-          "runsAgainst": 73,
-          "runDifferential": 92
-        }
-      },
-      {
-        "position": 3,
-        "team": "Markham Mariners 9U A",
-        "teamCode": "511061",
-        "record": {
-          "gamesPlayed": 6,
-          "wins": 5,
-          "losses": 1,
-          "ties": 0,
-          "winPercentage": "0.833"
-        },
-        "stats": {
-          "points": 10,
-          "runsFor": 90,
-          "runsAgainst": 48,
-          "runDifferential": 42
+          "points": 20,
+          "runsFor": 181,
+          "runsAgainst": 74,
+          "runDifferential": 107
         }
       },
       {
         "position": 2,
+        "team": "Markham Mariners 9U A",
+        "teamCode": "511061",
+        "record": {
+          "gamesPlayed": 8,
+          "wins": 7,
+          "losses": 1,
+          "ties": 0,
+          "winPercentage": "0.875"
+        },
+        "stats": {
+          "points": 14,
+          "runsFor": 124,
+          "runsAgainst": 60,
+          "runDifferential": 64
+        }
+      },
+      {
+        "position": 3,
         "team": "Newmarket Hawks 9U A",
         "teamCode": "511062",
         "record": {
@@ -60,17 +60,17 @@
         "team": "Muskoka Hornets 9U A",
         "teamCode": "516247",
         "record": {
-          "gamesPlayed": 7,
+          "gamesPlayed": 9,
           "wins": 4,
-          "losses": 3,
+          "losses": 5,
           "ties": 0,
-          "winPercentage": "0.571"
+          "winPercentage": "0.444"
         },
         "stats": {
           "points": 8,
-          "runsFor": 89,
-          "runsAgainst": 58,
-          "runDifferential": 31
+          "runsFor": 101,
+          "runsAgainst": 92,
+          "runDifferential": 9
         }
       },
       {
@@ -96,17 +96,17 @@
         "team": "Orangeville Bengals 9U A",
         "teamCode": "511063",
         "record": {
-          "gamesPlayed": 9,
+          "gamesPlayed": 10,
           "wins": 2,
-          "losses": 7,
+          "losses": 8,
           "ties": 0,
-          "winPercentage": "0.222"
+          "winPercentage": "0.200"
         },
         "stats": {
           "points": 4,
-          "runsFor": 56,
-          "runsAgainst": 153,
-          "runDifferential": -97
+          "runsFor": 57,
+          "runsAgainst": 169,
+          "runDifferential": -112
         }
       },
       {
@@ -128,7 +128,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-07T19:37:42.902Z",
+    "lastUpdated": "2025-07-07T20:17:04.864Z",
     "totalTeams": 7
   },
   "schedule": {
@@ -192,8 +192,12 @@
             "awayTeam": "Markham Mariners 9U A",
             "awayTeamCode": "511061",
             "location": "Wharf Field",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 20,
+              "scoreText": "20-5"
+            }
           },
           {
             "date": "2025-07-05T14:00:00.000Z",
@@ -204,8 +208,12 @@
             "awayTeam": "Muskoka Hornets 9U A",
             "awayTeamCode": "516247",
             "location": "Wharf Field",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 7,
+              "scoreText": "7-14"
+            }
           }
         ],
         "nextGames": [
@@ -270,7 +278,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T19:37:45.963Z"
+        "lastUpdated": "2025-07-07T20:17:07.831Z"
       },
       "511062": {
         "teamCode": "511062",
@@ -421,7 +429,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T19:37:45.963Z"
+        "lastUpdated": "2025-07-07T20:17:07.831Z"
       },
       "511063": {
         "teamCode": "511063",
@@ -502,8 +510,12 @@
             "awayTeam": "Orangeville Bengals 9U A",
             "awayTeamCode": "511063",
             "location": "Kitchener Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 16,
+              "away": 1,
+              "scoreText": "1-16"
+            }
           }
         ],
         "nextGames": [
@@ -568,7 +580,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T19:37:45.963Z"
+        "lastUpdated": "2025-07-07T20:17:07.831Z"
       },
       "511064": {
         "teamCode": "511064",
@@ -649,8 +661,12 @@
             "awayTeam": "Orangeville Bengals 9U A",
             "awayTeamCode": "511063",
             "location": "Kitchener Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 16,
+              "away": 1,
+              "scoreText": "1-16"
+            }
           }
         ],
         "nextGames": [
@@ -715,7 +731,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T19:37:45.963Z"
+        "lastUpdated": "2025-07-07T20:17:07.832Z"
       },
       "511065": {
         "teamCode": "511065",
@@ -862,7 +878,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T19:37:45.963Z"
+        "lastUpdated": "2025-07-07T20:17:07.832Z"
       },
       "516247": {
         "teamCode": "516247",
@@ -927,8 +943,12 @@
             "awayTeam": "Markham Mariners 9U A",
             "awayTeamCode": "511061",
             "location": "Wharf Field",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 20,
+              "scoreText": "20-5"
+            }
           },
           {
             "date": "2025-07-05T14:00:00.000Z",
@@ -939,8 +959,12 @@
             "awayTeam": "Muskoka Hornets 9U A",
             "awayTeamCode": "516247",
             "location": "Wharf Field",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 7,
+              "scoreText": "7-14"
+            }
           }
         ],
         "nextGames": [
@@ -1005,7 +1029,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T19:37:45.963Z"
+        "lastUpdated": "2025-07-07T20:17:07.832Z"
       },
       "518948": {
         "teamCode": "518948",
@@ -1156,7 +1180,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T19:37:45.963Z"
+        "lastUpdated": "2025-07-07T20:17:07.832Z"
       }
     },
     "allGames": [
@@ -1673,8 +1697,12 @@
         "awayTeam": "Markham Mariners 9U A",
         "awayTeamCode": "511061",
         "location": "Wharf Field",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 5,
+          "away": 20,
+          "scoreText": "20-5"
+        }
       },
       {
         "date": "2025-07-05T11:30:00.000Z",
@@ -1685,8 +1713,12 @@
         "awayTeam": "Orangeville Bengals 9U A",
         "awayTeamCode": "511063",
         "location": "Kitchener Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 16,
+          "away": 1,
+          "scoreText": "1-16"
+        }
       },
       {
         "date": "2025-07-05T14:00:00.000Z",
@@ -1697,8 +1729,12 @@
         "awayTeam": "Muskoka Hornets 9U A",
         "awayTeamCode": "516247",
         "location": "Wharf Field",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 7,
+          "scoreText": "7-14"
+        }
       },
       {
         "date": "2025-07-09T18:30:00.000Z",
@@ -1963,8 +1999,12 @@
         "awayTeam": "Muskoka Hornets 9U A",
         "awayTeamCode": "516247",
         "location": "Wharf Field",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 7,
+          "scoreText": "7-14"
+        }
       },
       {
         "date": "2025-07-05T11:30:00.000Z",
@@ -1975,8 +2015,12 @@
         "awayTeam": "Orangeville Bengals 9U A",
         "awayTeamCode": "511063",
         "location": "Kitchener Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 16,
+          "away": 1,
+          "scoreText": "1-16"
+        }
       },
       {
         "date": "2025-07-05T11:00:00.000Z",
@@ -1987,8 +2031,12 @@
         "awayTeam": "Markham Mariners 9U A",
         "awayTeamCode": "511061",
         "location": "Wharf Field",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 5,
+          "away": 20,
+          "scoreText": "20-5"
+        }
       },
       {
         "date": "2025-07-04T18:30:00.000Z",
@@ -2225,20 +2273,20 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-07T19:37:45.963Z",
+    "lastUpdated": "2025-07-07T20:17:07.832Z",
     "totalGames": 56
   },
   "summary": {
     "totalTeams": 7,
     "totalGames": 56,
-    "completedGames": 30,
-    "upcomingGames": 26,
+    "completedGames": 33,
+    "upcomingGames": 23,
     "topTeam": {
       "team": "Orillia Royals 9U A",
       "teamCode": "511064",
-      "wins": 9,
+      "wins": 10,
       "losses": 1,
-      "winPercentage": "0.900"
+      "winPercentage": "0.909"
     },
     "highestScoringGame": {
       "homeTeam": "Vaughan Vikings 9U A",
@@ -2249,6 +2297,6 @@
       "date": "Sat, Jun 14",
       "location": "Dean Heliotis Diamond"
     },
-    "lastUpdated": "2025-07-07T19:43:30.693Z"
+    "lastUpdated": "2025-07-07T20:22:46.460Z"
   }
 }
