@@ -2,7 +2,7 @@
   "standings": {
     "teams": [
       {
-        "position": 2,
+        "position": 3,
         "team": "Mansfield Cubs 13U A",
         "teamCode": "510942",
         "record": {
@@ -20,7 +20,7 @@
         }
       },
       {
-        "position": 1,
+        "position": 2,
         "team": "Richmond Hill Phoenix 13U A",
         "teamCode": "510945",
         "record": {
@@ -38,7 +38,7 @@
         }
       },
       {
-        "position": 3,
+        "position": 4,
         "team": "Aurora-King Jays 13U A",
         "teamCode": "510940",
         "record": {
@@ -56,21 +56,21 @@
         }
       },
       {
-        "position": 4,
+        "position": 1,
         "team": "Orillia Royals 13U A",
         "teamCode": "510944",
         "record": {
-          "gamesPlayed": 10,
-          "wins": 6,
+          "gamesPlayed": 11,
+          "wins": 7,
           "losses": 4,
           "ties": 0,
-          "winPercentage": "0.600"
+          "winPercentage": "0.636"
         },
         "stats": {
-          "points": 12,
-          "runsFor": 132,
-          "runsAgainst": 74,
-          "runDifferential": 58
+          "points": 14,
+          "runsFor": 146,
+          "runsAgainst": 78,
+          "runDifferential": 68
         }
       },
       {
@@ -114,17 +114,17 @@
         "team": "Midland Penetang Twins 13U B",
         "teamCode": "510957",
         "record": {
-          "gamesPlayed": 11,
+          "gamesPlayed": 12,
           "wins": 3,
-          "losses": 8,
+          "losses": 9,
           "ties": 0,
-          "winPercentage": "0.273"
+          "winPercentage": "0.250"
         },
         "stats": {
           "points": 6,
-          "runsFor": 97,
-          "runsAgainst": 104,
-          "runDifferential": -7
+          "runsFor": 101,
+          "runsAgainst": 118,
+          "runDifferential": -17
         }
       },
       {
@@ -164,7 +164,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-07T12:32:11.475Z",
+    "lastUpdated": "2025-07-07T13:12:20.774Z",
     "totalTeams": 9
   },
   "schedule": {
@@ -318,7 +318,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T12:32:16.156Z"
+        "lastUpdated": "2025-07-07T13:12:25.221Z"
       },
       "510941": {
         "teamCode": "510941",
@@ -469,7 +469,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T12:32:16.156Z"
+        "lastUpdated": "2025-07-07T13:12:25.222Z"
       },
       "510942": {
         "teamCode": "510942",
@@ -604,7 +604,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T12:32:16.156Z"
+        "lastUpdated": "2025-07-07T13:12:25.222Z"
       },
       "510943": {
         "teamCode": "510943",
@@ -751,7 +751,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T12:32:16.156Z"
+        "lastUpdated": "2025-07-07T13:12:25.222Z"
       },
       "510944": {
         "teamCode": "510944",
@@ -832,8 +832,12 @@
             "awayTeam": "Midland Penetang Twins 13U B",
             "awayTeamCode": "510957",
             "location": "ROSS",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 4,
+              "scoreText": "4-14"
+            }
           }
         ],
         "nextGames": [
@@ -898,7 +902,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T12:32:16.156Z"
+        "lastUpdated": "2025-07-07T13:12:25.222Z"
       },
       "510945": {
         "teamCode": "510945",
@@ -1041,7 +1045,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T12:32:16.156Z"
+        "lastUpdated": "2025-07-07T13:12:25.222Z"
       },
       "510946": {
         "teamCode": "510946",
@@ -1192,7 +1196,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T12:32:16.156Z"
+        "lastUpdated": "2025-07-07T13:12:25.222Z"
       },
       "510947": {
         "teamCode": "510947",
@@ -1343,7 +1347,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T12:32:16.156Z"
+        "lastUpdated": "2025-07-07T13:12:25.222Z"
       },
       "510948": {
         "teamCode": "510948",
@@ -1486,7 +1490,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T12:32:16.156Z"
+        "lastUpdated": "2025-07-07T13:12:25.222Z"
       },
       "510949": {
         "teamCode": "510949",
@@ -1629,7 +1633,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T12:32:16.156Z"
+        "lastUpdated": "2025-07-07T13:12:25.222Z"
       },
       "510950": {
         "teamCode": "510950",
@@ -1772,7 +1776,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T12:32:16.156Z"
+        "lastUpdated": "2025-07-07T13:12:25.222Z"
       },
       "510951": {
         "teamCode": "510951",
@@ -1919,7 +1923,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T12:32:16.156Z"
+        "lastUpdated": "2025-07-07T13:12:25.222Z"
       },
       "510952": {
         "teamCode": "510952",
@@ -2058,7 +2062,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T12:32:16.156Z"
+        "lastUpdated": "2025-07-07T13:12:25.222Z"
       },
       "510953": {
         "teamCode": "510953",
@@ -2209,7 +2213,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T12:32:16.156Z"
+        "lastUpdated": "2025-07-07T13:12:25.222Z"
       },
       "510957": {
         "teamCode": "510957",
@@ -2290,8 +2294,12 @@
             "awayTeam": "Midland Penetang Twins 13U B",
             "awayTeamCode": "510957",
             "location": "ROSS",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 4,
+              "scoreText": "4-14"
+            }
           }
         ],
         "nextGames": [
@@ -2332,7 +2340,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T12:32:16.156Z"
+        "lastUpdated": "2025-07-07T13:12:25.222Z"
       },
       "516242": {
         "teamCode": "516242",
@@ -2451,7 +2459,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T12:32:16.156Z"
+        "lastUpdated": "2025-07-07T13:12:25.222Z"
       },
       "518954": {
         "teamCode": "518954",
@@ -2594,7 +2602,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T12:32:16.156Z"
+        "lastUpdated": "2025-07-07T13:12:25.222Z"
       }
     },
     "allGames": [
@@ -4079,8 +4087,12 @@
         "awayTeam": "Midland Penetang Twins 13U B",
         "awayTeamCode": "510957",
         "location": "ROSS",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 4,
+          "scoreText": "4-14"
+        }
       },
       {
         "date": "2025-07-06T18:30:00.000Z",
@@ -4761,8 +4773,12 @@
         "awayTeam": "Midland Penetang Twins 13U B",
         "awayTeamCode": "510957",
         "location": "ROSS",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 4,
+          "scoreText": "4-14"
+        }
       },
       {
         "date": "2025-07-05T14:00:00.000Z",
@@ -5003,14 +5019,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-07T12:32:16.156Z",
+    "lastUpdated": "2025-07-07T13:12:25.222Z",
     "totalGames": 151
   },
   "summary": {
     "totalTeams": 9,
     "totalGames": 151,
-    "completedGames": 81,
-    "upcomingGames": 70,
+    "completedGames": 82,
+    "upcomingGames": 69,
     "topTeam": {
       "team": "Mansfield Cubs 13U A",
       "teamCode": "510942",
@@ -5027,6 +5043,6 @@
       "date": "Mon, May 12",
       "location": "MANSFIELD"
     },
-    "lastUpdated": "2025-07-07T12:35:47.136Z"
+    "lastUpdated": "2025-07-07T13:15:54.617Z"
   }
 }
