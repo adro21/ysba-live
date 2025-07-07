@@ -110,7 +110,7 @@
         }
       },
       {
-        "position": 10,
+        "position": 11,
         "team": "Newmarket Hawks 11U DS",
         "teamCode": "511080",
         "record": {
@@ -164,6 +164,24 @@
         }
       },
       {
+        "position": 10,
+        "team": "Bradford Tigers 11U DS",
+        "teamCode": "511076",
+        "record": {
+          "gamesPlayed": 11,
+          "wins": 3,
+          "losses": 8,
+          "ties": 0,
+          "winPercentage": "0.273"
+        },
+        "stats": {
+          "points": 6,
+          "runsFor": 70,
+          "runsAgainst": 136,
+          "runDifferential": -66
+        }
+      },
+      {
         "position": 9,
         "team": "Mansfield Cubs 11U DS",
         "teamCode": "511078",
@@ -179,24 +197,6 @@
           "runsFor": 100,
           "runsAgainst": 133,
           "runDifferential": -33
-        }
-      },
-      {
-        "position": 11,
-        "team": "Bradford Tigers 11U DS",
-        "teamCode": "511076",
-        "record": {
-          "gamesPlayed": 9,
-          "wins": 1,
-          "losses": 8,
-          "ties": 0,
-          "winPercentage": "0.111"
-        },
-        "stats": {
-          "points": 2,
-          "runsFor": 52,
-          "runsAgainst": 126,
-          "runDifferential": -74
         }
       },
       {
@@ -222,21 +222,21 @@
         "team": "Thornhill Reds 11U DS - Team 2",
         "teamCode": "511083",
         "record": {
-          "gamesPlayed": 6,
+          "gamesPlayed": 8,
           "wins": 0,
-          "losses": 6,
+          "losses": 8,
           "ties": 0,
           "winPercentage": "0.000"
         },
         "stats": {
           "points": 0,
-          "runsFor": 20,
-          "runsAgainst": 72,
-          "runDifferential": -52
+          "runsFor": 30,
+          "runsAgainst": 90,
+          "runDifferential": -60
         }
       }
     ],
-    "lastUpdated": "2025-07-07T01:20:56.068Z",
+    "lastUpdated": "2025-07-07T03:16:09.273Z",
     "totalTeams": 13
   },
   "schedule": {
@@ -378,7 +378,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T01:21:00.525Z"
+        "lastUpdated": "2025-07-07T03:16:13.793Z"
       },
       "511075": {
         "teamCode": "511075",
@@ -493,7 +493,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T01:21:00.525Z"
+        "lastUpdated": "2025-07-07T03:16:13.793Z"
       },
       "511076": {
         "teamCode": "511076",
@@ -558,8 +558,12 @@
             "awayTeam": "Bradford Tigers 11U DS",
             "awayTeamCode": "511076",
             "location": "York Hill West Diamond",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 0,
+              "away": 7,
+              "scoreText": "7-0"
+            }
           },
           {
             "date": "2025-07-06T12:15:00.000Z",
@@ -570,8 +574,12 @@
             "awayTeam": "Bradford Tigers 11U DS",
             "awayTeamCode": "511076",
             "location": "York Hill West Diamond",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 11,
+              "scoreText": "11-10"
+            }
           }
         ],
         "nextGames": [
@@ -624,7 +632,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T01:21:00.525Z"
+        "lastUpdated": "2025-07-07T03:16:13.793Z"
       },
       "511077": {
         "teamCode": "511077",
@@ -775,7 +783,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T01:21:00.525Z"
+        "lastUpdated": "2025-07-07T03:16:13.793Z"
       },
       "511078": {
         "teamCode": "511078",
@@ -910,7 +918,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T01:21:00.525Z"
+        "lastUpdated": "2025-07-07T03:16:13.793Z"
       },
       "511079": {
         "teamCode": "511079",
@@ -1061,7 +1069,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T01:21:00.525Z"
+        "lastUpdated": "2025-07-07T03:16:13.793Z"
       },
       "511080": {
         "teamCode": "511080",
@@ -1208,7 +1216,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T01:21:00.525Z"
+        "lastUpdated": "2025-07-07T03:16:13.793Z"
       },
       "511081": {
         "teamCode": "511081",
@@ -1323,7 +1331,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T01:21:00.525Z"
+        "lastUpdated": "2025-07-07T03:16:13.793Z"
       },
       "511082": {
         "teamCode": "511082",
@@ -1438,7 +1446,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T01:21:00.525Z"
+        "lastUpdated": "2025-07-07T03:16:13.793Z"
       },
       "511083": {
         "teamCode": "511083",
@@ -1503,8 +1511,12 @@
             "awayTeam": "Bradford Tigers 11U DS",
             "awayTeamCode": "511076",
             "location": "York Hill West Diamond",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 0,
+              "away": 7,
+              "scoreText": "7-0"
+            }
           },
           {
             "date": "2025-07-06T12:15:00.000Z",
@@ -1515,8 +1527,12 @@
             "awayTeam": "Bradford Tigers 11U DS",
             "awayTeamCode": "511076",
             "location": "York Hill West Diamond",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 11,
+              "scoreText": "11-10"
+            }
           }
         ],
         "nextGames": [
@@ -1581,7 +1597,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T01:21:00.525Z"
+        "lastUpdated": "2025-07-07T03:16:13.793Z"
       },
       "518967": {
         "teamCode": "518967",
@@ -1692,7 +1708,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T01:21:00.525Z"
+        "lastUpdated": "2025-07-07T03:16:13.793Z"
       },
       "518968": {
         "teamCode": "518968",
@@ -1807,7 +1823,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T01:21:00.525Z"
+        "lastUpdated": "2025-07-07T03:16:13.793Z"
       },
       "518974": {
         "teamCode": "518974",
@@ -1938,7 +1954,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T01:21:00.525Z"
+        "lastUpdated": "2025-07-07T03:16:13.793Z"
       }
     },
     "allGames": [
@@ -3159,8 +3175,12 @@
         "awayTeam": "Bradford Tigers 11U DS",
         "awayTeamCode": "511076",
         "location": "York Hill West Diamond",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 0,
+          "away": 7,
+          "scoreText": "7-0"
+        }
       },
       {
         "date": "2025-07-06T10:00:00.000Z",
@@ -3187,8 +3207,12 @@
         "awayTeam": "Bradford Tigers 11U DS",
         "awayTeamCode": "511076",
         "location": "York Hill West Diamond",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 11,
+          "scoreText": "11-10"
+        }
       },
       {
         "date": "2025-07-06T12:15:00.000Z",
@@ -3529,8 +3553,12 @@
         "awayTeam": "Bradford Tigers 11U DS",
         "awayTeamCode": "511076",
         "location": "York Hill West Diamond",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 11,
+          "scoreText": "11-10"
+        }
       },
       {
         "date": "2025-07-06T12:15:00.000Z",
@@ -3557,8 +3585,12 @@
         "awayTeam": "Bradford Tigers 11U DS",
         "awayTeamCode": "511076",
         "location": "York Hill West Diamond",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 0,
+          "away": 7,
+          "scoreText": "7-0"
+        }
       },
       {
         "date": "2025-07-06T10:00:00.000Z",
@@ -3791,14 +3823,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-07T01:21:00.525Z",
+    "lastUpdated": "2025-07-07T03:16:13.793Z",
     "totalGames": 107
   },
   "summary": {
     "totalTeams": 13,
     "totalGames": 107,
-    "completedGames": 73,
-    "upcomingGames": 34,
+    "completedGames": 75,
+    "upcomingGames": 32,
     "topTeam": {
       "team": "Vaughan Vikings 11U DS",
       "teamCode": "518968",
@@ -3815,6 +3847,6 @@
       "date": "Sat, May 24",
       "location": "Mansfield Park"
     },
-    "lastUpdated": "2025-07-07T01:21:15.160Z"
+    "lastUpdated": "2025-07-07T03:16:28.790Z"
   }
 }
