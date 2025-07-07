@@ -1,7 +1,43 @@
 {
-  "lastUpdated": "2025-07-07T21:19:52.622Z",
+  "lastUpdated": "2025-07-07T21:43:44.660Z",
   "totalGames": 190,
   "games": [
+    {
+      "date": "2025-07-09T18:30:00.000Z",
+      "dateText": "Wed, Jul 9",
+      "time": "6:30 PM",
+      "homeTeam": "Thornhill Reds 10U A",
+      "homeTeamCode": "510880",
+      "awayTeam": "Aurora-King Jays 10U A",
+      "awayTeamCode": "510869",
+      "location": "Concord Diamond 3",
+      "isCompleted": true,
+      "score": {
+        "home": 15,
+        "away": 5,
+        "scoreText": "5-15"
+      },
+      "division": "10U",
+      "tier": "rep-tier-2"
+    },
+    {
+      "date": "2025-07-09T18:30:00.000Z",
+      "dateText": "Wed, Jul 9",
+      "time": "6:30 PM",
+      "homeTeam": "Thornhill Reds 10U A",
+      "homeTeamCode": "510880",
+      "awayTeam": "Aurora-King Jays 10U A",
+      "awayTeamCode": "510869",
+      "location": "Concord Diamond 3",
+      "isCompleted": true,
+      "score": {
+        "home": 15,
+        "away": 5,
+        "scoreText": "5-15"
+      },
+      "division": "10U",
+      "tier": "rep-tier-3"
+    },
     {
       "date": "2025-07-07T20:30:00.000Z",
       "dateText": "Mon, Jul 7",
@@ -615,8 +651,12 @@
       "awayTeam": "Markham Mariners 10U A",
       "awayTeamCode": "510875",
       "location": "Bethesda Sports Fields",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 6,
+        "away": 9,
+        "scoreText": "9-6"
+      },
       "division": "10U",
       "tier": "rep-tier-2"
     },
@@ -629,8 +669,12 @@
       "awayTeam": "Markham Mariners 10U A",
       "awayTeamCode": "510875",
       "location": "Bethesda Sports Fields",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 6,
+        "away": 9,
+        "scoreText": "9-6"
+      },
       "division": "10U",
       "tier": "rep-tier-3"
     },
@@ -740,42 +784,6 @@
         "scoreText": "8-7"
       },
       "division": "11U",
-      "tier": "select-all-tiers"
-    },
-    {
-      "date": "2025-07-06T12:00:00.000Z",
-      "dateText": "Sun, Jul 6",
-      "time": "12:00 PM",
-      "homeTeam": "Collingwood Jays (Blue) 13U DS",
-      "homeTeamCode": "511086",
-      "awayTeam": "Barrie Baycats 13U DS",
-      "awayTeamCode": "511085",
-      "location": "Central Park #1",
-      "isCompleted": true,
-      "score": {
-        "home": 6,
-        "away": 11,
-        "scoreText": "11-6"
-      },
-      "division": "13U",
-      "tier": "select-all-tiers"
-    },
-    {
-      "date": "2025-07-06T12:00:00.000Z",
-      "dateText": "Sun, Jul 6",
-      "time": "12:00 PM",
-      "homeTeam": "Markham Mariners 13U DS -Team 2",
-      "homeTeamCode": "511091",
-      "awayTeam": "Innisfil Cardinals 13U DS - Team 1",
-      "awayTeamCode": "511088",
-      "location": "Berczy Park (South)",
-      "isCompleted": true,
-      "score": {
-        "home": 0,
-        "away": 15,
-        "scoreText": "15-0"
-      },
-      "division": "13U",
       "tier": "select-all-tiers"
     }
   ]
