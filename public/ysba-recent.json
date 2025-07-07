@@ -1,7 +1,77 @@
 {
-  "lastUpdated": "2025-07-07T20:22:46.460Z",
+  "lastUpdated": "2025-07-07T20:47:59.608Z",
   "totalGames": 190,
   "games": [
+    {
+      "date": "2025-07-07T20:30:00.000Z",
+      "dateText": "Mon, Jul 7",
+      "time": "8:30 PM",
+      "homeTeam": "Newmarket Hawks 15U AA",
+      "homeTeamCode": "510991",
+      "awayTeam": "Innisfil Cardinals 15U AA",
+      "awayTeamCode": "510989",
+      "location": "Whipper Watson",
+      "isCompleted": false,
+      "score": null,
+      "division": "15U",
+      "tier": "rep-tier-2"
+    },
+    {
+      "date": "2025-07-07T20:30:00.000Z",
+      "dateText": "Mon, Jul 7",
+      "time": "8:30 PM",
+      "homeTeam": "Caledon Nationals 15U A",
+      "homeTeamCode": "510983",
+      "awayTeam": "Georgina Bulldogs 15U B",
+      "awayTeamCode": "510998",
+      "location": "North Hill #2",
+      "isCompleted": false,
+      "score": null,
+      "division": "15U",
+      "tier": "rep-tier-2"
+    },
+    {
+      "date": "2025-07-07T20:30:00.000Z",
+      "dateText": "Mon, Jul 7",
+      "time": "8:30 PM",
+      "homeTeam": "Newmarket Hawks 15U AA",
+      "homeTeamCode": "510991",
+      "awayTeam": "Innisfil Cardinals 15U AA",
+      "awayTeamCode": "510989",
+      "location": "Whipper Watson",
+      "isCompleted": false,
+      "score": null,
+      "division": "15U",
+      "tier": "rep-tier-3"
+    },
+    {
+      "date": "2025-07-07T20:30:00.000Z",
+      "dateText": "Mon, Jul 7",
+      "time": "8:30 PM",
+      "homeTeam": "Caledon Nationals 15U A",
+      "homeTeamCode": "510983",
+      "awayTeam": "Georgina Bulldogs 15U B",
+      "awayTeamCode": "510998",
+      "location": "North Hill #2",
+      "isCompleted": false,
+      "score": null,
+      "division": "15U",
+      "tier": "rep-tier-3"
+    },
+    {
+      "date": "2025-07-07T20:30:00.000Z",
+      "dateText": "Mon, Jul 7",
+      "time": "8:30 PM",
+      "homeTeam": "Caledon Nationals 18U A",
+      "homeTeamCode": "511026",
+      "awayTeam": "Aurora-King Jays 17U A",
+      "awayTeamCode": "511021",
+      "location": "Bolton North Hill D3",
+      "isCompleted": false,
+      "score": null,
+      "division": "18U",
+      "tier": "rep-no-tier"
+    },
     {
       "date": "2025-07-07T20:15:00.000Z",
       "dateText": "Mon, Jul 7",
@@ -419,8 +489,12 @@
       "awayTeam": "TNT Thunder 12U A",
       "awayTeamCode": "510927",
       "location": "YEO Diamond",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 7,
+        "away": 4,
+        "scoreText": "4-7"
+      },
       "division": "12U",
       "tier": "rep-tier-2"
     },
@@ -433,8 +507,12 @@
       "awayTeam": "TNT Thunder 12U A",
       "awayTeamCode": "510927",
       "location": "YEO Diamond",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 7,
+        "away": 4,
+        "scoreText": "4-7"
+      },
       "division": "12U",
       "tier": "rep-tier-3"
     },
@@ -696,96 +774,6 @@
         "home": 0,
         "away": 15,
         "scoreText": "15-0"
-      },
-      "division": "13U",
-      "tier": "select-all-tiers"
-    },
-    {
-      "date": "2025-07-06T11:45:00.000Z",
-      "dateText": "Sun, Jul 6",
-      "time": "11:45 AM",
-      "homeTeam": "Women's Team",
-      "homeTeamCode": "546377",
-      "awayTeam": "Markham Mariners 18U A - Team 1",
-      "awayTeamCode": "511030",
-      "location": "David Hamilton #1",
-      "isCompleted": true,
-      "score": {
-        "home": 7,
-        "away": 10,
-        "scoreText": "10-7"
-      },
-      "division": "18U",
-      "tier": "rep-no-tier"
-    },
-    {
-      "date": "2025-07-06T11:00:00.000Z",
-      "dateText": "Sun, Jul 6",
-      "time": "11:00 AM",
-      "homeTeam": "Vaughan Vikings 9U DS",
-      "homeTeamCode": "518966",
-      "awayTeam": "Thornhill Reds 9U DS",
-      "awayTeamCode": "511114",
-      "location": "Chatfield District Park",
-      "isCompleted": true,
-      "score": {
-        "home": 16,
-        "away": 13,
-        "scoreText": "13-16"
-      },
-      "division": "9U",
-      "tier": "select-all-tiers"
-    },
-    {
-      "date": "2025-07-06T10:00:00.000Z",
-      "dateText": "Sun, Jul 6",
-      "time": "10:00 AM",
-      "homeTeam": "Thornhill Reds 11U DS - Team 2",
-      "homeTeamCode": "511083",
-      "awayTeam": "Bradford Tigers 11U DS",
-      "awayTeamCode": "511076",
-      "location": "York Hill West Diamond",
-      "isCompleted": true,
-      "score": {
-        "home": 0,
-        "away": 7,
-        "scoreText": "7-0"
-      },
-      "division": "11U",
-      "tier": "select-all-tiers"
-    },
-    {
-      "date": "2025-07-06T10:00:00.000Z",
-      "dateText": "Sun, Jul 6",
-      "time": "10:00 AM",
-      "homeTeam": "Mansfield Cubs 11U DS",
-      "homeTeamCode": "511078",
-      "awayTeam": "Midland Penetang Twins 11U DS",
-      "awayTeamCode": "511074",
-      "location": "Mansfield Park",
-      "isCompleted": true,
-      "score": {
-        "home": 3,
-        "away": 10,
-        "scoreText": "10-3"
-      },
-      "division": "11U",
-      "tier": "select-all-tiers"
-    },
-    {
-      "date": "2025-07-06T10:00:00.000Z",
-      "dateText": "Sun, Jul 6",
-      "time": "10:00 AM",
-      "homeTeam": "Caledon Nationals 13U HS",
-      "homeTeamCode": "511098",
-      "awayTeam": "Richmond Hill Phoenix 13U DS",
-      "awayTeamCode": "511095",
-      "location": "Jays Care (Bolton Camp)",
-      "isCompleted": true,
-      "score": {
-        "home": 3,
-        "away": 13,
-        "scoreText": "13-3"
       },
       "division": "13U",
       "tier": "select-all-tiers"
