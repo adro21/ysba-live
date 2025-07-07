@@ -1,7 +1,21 @@
 {
-  "lastUpdated": "2025-07-07T17:48:54.217Z",
+  "lastUpdated": "2025-07-07T18:26:45.289Z",
   "totalGames": 190,
   "games": [
+    {
+      "date": "2025-07-07T18:00:00.000Z",
+      "dateText": "Mon, Jul 7",
+      "time": "6:00 PM",
+      "homeTeam": "Aurora-King Jays 18U A",
+      "homeTeamCode": "511022",
+      "awayTeam": "Women's Team",
+      "awayTeamCode": "546377",
+      "location": "Lambert Wilson #4",
+      "isCompleted": false,
+      "score": null,
+      "division": "18U",
+      "tier": "rep-no-tier"
+    },
     {
       "date": "2025-07-07T17:30:00.000Z",
       "dateText": "Mon, Jul 7",
@@ -189,8 +203,12 @@
       "awayTeam": "Thornhill Reds 9U DS",
       "awayTeamCode": "511114",
       "location": "Chatfield District Park",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 16,
+        "away": 14,
+        "scoreText": "14-16"
+      },
       "division": "9U",
       "tier": "select-all-tiers"
     },
@@ -389,8 +407,12 @@
       "awayTeam": "Thornhill Reds 9U DS",
       "awayTeamCode": "511114",
       "location": "Chatfield District Park",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 16,
+        "away": 13,
+        "scoreText": "13-16"
+      },
       "division": "9U",
       "tier": "select-all-tiers"
     },
@@ -794,24 +816,6 @@
       "isCompleted": false,
       "score": null,
       "division": "13U",
-      "tier": "select-all-tiers"
-    },
-    {
-      "date": "2025-07-05T12:15:00.000Z",
-      "dateText": "Sat, Jul 5",
-      "time": "12:15 PM",
-      "homeTeam": "Innisfil Cardinals 11U DS",
-      "homeTeamCode": "511077",
-      "awayTeam": "Vaughan Vikings 11U DS",
-      "awayTeamCode": "518968",
-      "location": "Nantyr Park",
-      "isCompleted": true,
-      "score": {
-        "home": 3,
-        "away": 13,
-        "scoreText": "13-3"
-      },
-      "division": "11U",
       "tier": "select-all-tiers"
     }
   ]
