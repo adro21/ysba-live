@@ -6,17 +6,17 @@
         "team": "Richmond Hill Phoenix 13U AA",
         "teamCode": "510952",
         "record": {
-          "gamesPlayed": 9,
+          "gamesPlayed": 10,
           "wins": 7,
-          "losses": 1,
+          "losses": 2,
           "ties": 1,
-          "winPercentage": "0.833"
+          "winPercentage": "0.750"
         },
         "stats": {
           "points": 15,
-          "runsFor": 90,
-          "runsAgainst": 44,
-          "runDifferential": 46
+          "runsFor": 91,
+          "runsAgainst": 58,
+          "runDifferential": 33
         }
       },
       {
@@ -56,6 +56,24 @@
         }
       },
       {
+        "position": 5,
+        "team": "Markham Mariners 13U AA",
+        "teamCode": "510949",
+        "record": {
+          "gamesPlayed": 12,
+          "wins": 6,
+          "losses": 5,
+          "ties": 1,
+          "winPercentage": "0.542"
+        },
+        "stats": {
+          "points": 13,
+          "runsFor": 78,
+          "runsAgainst": 65,
+          "runDifferential": 13
+        }
+      },
+      {
         "position": 2,
         "team": "Barrie Baycats 13U AA",
         "teamCode": "510947",
@@ -71,24 +89,6 @@
           "runsFor": 116,
           "runsAgainst": 98,
           "runDifferential": 18
-        }
-      },
-      {
-        "position": 5,
-        "team": "Markham Mariners 13U AA",
-        "teamCode": "510949",
-        "record": {
-          "gamesPlayed": 11,
-          "wins": 5,
-          "losses": 5,
-          "ties": 1,
-          "winPercentage": "0.500"
-        },
-        "stats": {
-          "points": 11,
-          "runsFor": 64,
-          "runsAgainst": 64,
-          "runDifferential": 0
         }
       },
       {
@@ -146,7 +146,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-07T09:46:20.302Z",
+    "lastUpdated": "2025-07-07T10:19:22.350Z",
     "totalTeams": 8
   },
   "schedule": {
@@ -296,7 +296,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T09:46:24.892Z"
+        "lastUpdated": "2025-07-07T10:19:26.703Z"
       },
       "510941": {
         "teamCode": "510941",
@@ -447,7 +447,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T09:46:24.892Z"
+        "lastUpdated": "2025-07-07T10:19:26.703Z"
       },
       "510942": {
         "teamCode": "510942",
@@ -582,7 +582,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T09:46:24.892Z"
+        "lastUpdated": "2025-07-07T10:19:26.703Z"
       },
       "510943": {
         "teamCode": "510943",
@@ -725,7 +725,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T09:46:24.892Z"
+        "lastUpdated": "2025-07-07T10:19:26.703Z"
       },
       "510944": {
         "teamCode": "510944",
@@ -872,7 +872,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T09:46:24.892Z"
+        "lastUpdated": "2025-07-07T10:19:26.703Z"
       },
       "510945": {
         "teamCode": "510945",
@@ -1015,7 +1015,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T09:46:24.892Z"
+        "lastUpdated": "2025-07-07T10:19:26.703Z"
       },
       "510946": {
         "teamCode": "510946",
@@ -1166,7 +1166,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T09:46:24.892Z"
+        "lastUpdated": "2025-07-07T10:19:26.704Z"
       },
       "510947": {
         "teamCode": "510947",
@@ -1317,7 +1317,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T09:46:24.892Z"
+        "lastUpdated": "2025-07-07T10:19:26.704Z"
       },
       "510948": {
         "teamCode": "510948",
@@ -1460,7 +1460,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T09:46:24.892Z"
+        "lastUpdated": "2025-07-07T10:19:26.704Z"
       },
       "510949": {
         "teamCode": "510949",
@@ -1533,8 +1533,12 @@
             "awayTeam": "Markham Mariners 13U AA",
             "awayTeamCode": "510949",
             "location": "David Hamilton Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 1,
+              "away": 14,
+              "scoreText": "14-1"
+            }
           }
         ],
         "nextGames": [
@@ -1599,7 +1603,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T09:46:24.892Z"
+        "lastUpdated": "2025-07-07T10:19:26.704Z"
       },
       "510950": {
         "teamCode": "510950",
@@ -1742,7 +1746,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T09:46:24.892Z"
+        "lastUpdated": "2025-07-07T10:19:26.704Z"
       },
       "510951": {
         "teamCode": "510951",
@@ -1889,7 +1893,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T09:46:24.893Z"
+        "lastUpdated": "2025-07-07T10:19:26.704Z"
       },
       "510952": {
         "teamCode": "510952",
@@ -1958,8 +1962,12 @@
             "awayTeam": "Markham Mariners 13U AA",
             "awayTeamCode": "510949",
             "location": "David Hamilton Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 1,
+              "away": 14,
+              "scoreText": "14-1"
+            }
           }
         ],
         "nextGames": [
@@ -2024,7 +2032,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T09:46:24.893Z"
+        "lastUpdated": "2025-07-07T10:19:26.704Z"
       },
       "510953": {
         "teamCode": "510953",
@@ -2175,7 +2183,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T09:46:24.893Z"
+        "lastUpdated": "2025-07-07T10:19:26.704Z"
       },
       "510957": {
         "teamCode": "510957",
@@ -2298,7 +2306,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T09:46:24.893Z"
+        "lastUpdated": "2025-07-07T10:19:26.704Z"
       },
       "516242": {
         "teamCode": "516242",
@@ -2417,7 +2425,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T09:46:24.893Z"
+        "lastUpdated": "2025-07-07T10:19:26.704Z"
       },
       "518954": {
         "teamCode": "518954",
@@ -2560,7 +2568,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-07T09:46:24.893Z"
+        "lastUpdated": "2025-07-07T10:19:26.704Z"
       }
     },
     "allGames": [
@@ -4005,8 +4013,12 @@
         "awayTeam": "Markham Mariners 13U AA",
         "awayTeamCode": "510949",
         "location": "David Hamilton Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 1,
+          "away": 14,
+          "scoreText": "14-1"
+        }
       },
       {
         "date": "2025-07-05T11:00:00.000Z",
@@ -4751,8 +4763,12 @@
         "awayTeam": "Markham Mariners 13U AA",
         "awayTeamCode": "510949",
         "location": "David Hamilton Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 1,
+          "away": 14,
+          "scoreText": "14-1"
+        }
       },
       {
         "date": "2025-07-02T20:00:00.000Z",
@@ -4953,20 +4969,20 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-07T09:46:24.893Z",
+    "lastUpdated": "2025-07-07T10:19:26.704Z",
     "totalGames": 151
   },
   "summary": {
     "totalTeams": 8,
     "totalGames": 151,
-    "completedGames": 79,
-    "upcomingGames": 72,
+    "completedGames": 80,
+    "upcomingGames": 71,
     "topTeam": {
       "team": "Richmond Hill Phoenix 13U AA",
       "teamCode": "510952",
       "wins": 7,
-      "losses": 1,
-      "winPercentage": "0.833"
+      "losses": 2,
+      "winPercentage": "0.750"
     },
     "highestScoringGame": {
       "homeTeam": "Mansfield Cubs 13U A",
@@ -4977,6 +4993,6 @@
       "date": "Mon, May 12",
       "location": "MANSFIELD"
     },
-    "lastUpdated": "2025-07-07T09:50:06.692Z"
+    "lastUpdated": "2025-07-07T10:22:54.277Z"
   }
 }
