@@ -2,25 +2,25 @@
   "standings": {
     "teams": [
       {
-        "position": 2,
+        "position": 1,
         "team": "Innisfil Cardinals 15U AA",
         "teamCode": "510989",
         "record": {
-          "gamesPlayed": 8,
-          "wins": 7,
+          "gamesPlayed": 9,
+          "wins": 8,
           "losses": 1,
           "ties": 0,
-          "winPercentage": "0.875"
+          "winPercentage": "0.889"
         },
         "stats": {
-          "points": 14,
-          "runsFor": 92,
+          "points": 16,
+          "runsFor": 106,
           "runsAgainst": 24,
-          "runDifferential": 68
+          "runDifferential": 82
         }
       },
       {
-        "position": 1,
+        "position": 2,
         "team": "Bradford Tigers 15U AA",
         "teamCode": "510988",
         "record": {
@@ -132,21 +132,21 @@
         "team": "Newmarket Hawks 15U AA",
         "teamCode": "510991",
         "record": {
-          "gamesPlayed": 9,
+          "gamesPlayed": 10,
           "wins": 1,
-          "losses": 8,
+          "losses": 9,
           "ties": 0,
-          "winPercentage": "0.111"
+          "winPercentage": "0.100"
         },
         "stats": {
           "points": 2,
           "runsFor": 65,
-          "runsAgainst": 112,
-          "runDifferential": -47
+          "runsAgainst": 126,
+          "runDifferential": -61
         }
       }
     ],
-    "lastUpdated": "2025-07-08T09:46:30.424Z",
+    "lastUpdated": "2025-07-08T10:19:50.770Z",
     "totalTeams": 8
   },
   "schedule": {
@@ -300,7 +300,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T09:46:35.062Z"
+        "lastUpdated": "2025-07-08T10:19:55.626Z"
       },
       "510981": {
         "teamCode": "510981",
@@ -447,7 +447,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T09:46:35.062Z"
+        "lastUpdated": "2025-07-08T10:19:55.626Z"
       },
       "510982": {
         "teamCode": "510982",
@@ -598,7 +598,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T09:46:35.062Z"
+        "lastUpdated": "2025-07-08T10:19:55.626Z"
       },
       "510983": {
         "teamCode": "510983",
@@ -741,7 +741,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T09:46:35.062Z"
+        "lastUpdated": "2025-07-08T10:19:55.626Z"
       },
       "510984": {
         "teamCode": "510984",
@@ -892,7 +892,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T09:46:35.062Z"
+        "lastUpdated": "2025-07-08T10:19:55.626Z"
       },
       "510985": {
         "teamCode": "510985",
@@ -1039,7 +1039,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T09:46:35.062Z"
+        "lastUpdated": "2025-07-08T10:19:55.626Z"
       },
       "510986": {
         "teamCode": "510986",
@@ -1186,7 +1186,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T09:46:35.062Z"
+        "lastUpdated": "2025-07-08T10:19:55.626Z"
       },
       "510987": {
         "teamCode": "510987",
@@ -1337,7 +1337,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T09:46:35.062Z"
+        "lastUpdated": "2025-07-08T10:19:55.626Z"
       },
       "510988": {
         "teamCode": "510988",
@@ -1488,7 +1488,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T09:46:35.062Z"
+        "lastUpdated": "2025-07-08T10:19:55.626Z"
       },
       "510989": {
         "teamCode": "510989",
@@ -1565,8 +1565,12 @@
             "awayTeam": "Innisfil Cardinals 15U AA",
             "awayTeamCode": "510989",
             "location": "Whipper Watson",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 0,
+              "away": 14,
+              "scoreText": "14-0"
+            }
           }
         ],
         "nextGames": [
@@ -1631,7 +1635,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T09:46:35.062Z"
+        "lastUpdated": "2025-07-08T10:19:55.626Z"
       },
       "510990": {
         "teamCode": "510990",
@@ -1782,7 +1786,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T09:46:35.062Z"
+        "lastUpdated": "2025-07-08T10:19:55.627Z"
       },
       "510991": {
         "teamCode": "510991",
@@ -1863,8 +1867,12 @@
             "awayTeam": "Innisfil Cardinals 15U AA",
             "awayTeamCode": "510989",
             "location": "Whipper Watson",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 0,
+              "away": 14,
+              "scoreText": "14-0"
+            }
           }
         ],
         "nextGames": [
@@ -1929,7 +1937,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T09:46:35.062Z"
+        "lastUpdated": "2025-07-08T10:19:55.627Z"
       },
       "510992": {
         "teamCode": "510992",
@@ -2076,7 +2084,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T09:46:35.062Z"
+        "lastUpdated": "2025-07-08T10:19:55.627Z"
       },
       "510993": {
         "teamCode": "510993",
@@ -2223,7 +2231,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T09:46:35.062Z"
+        "lastUpdated": "2025-07-08T10:19:55.627Z"
       },
       "510998": {
         "teamCode": "510998",
@@ -2366,7 +2374,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T09:46:35.063Z"
+        "lastUpdated": "2025-07-08T10:19:55.627Z"
       },
       "516244": {
         "teamCode": "516244",
@@ -2517,7 +2525,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T09:46:35.063Z"
+        "lastUpdated": "2025-07-08T10:19:55.627Z"
       },
       "518959": {
         "teamCode": "518959",
@@ -2668,7 +2676,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T09:46:35.063Z"
+        "lastUpdated": "2025-07-08T10:19:55.627Z"
       },
       "546379": {
         "teamCode": "546379",
@@ -2815,7 +2823,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T09:46:35.063Z"
+        "lastUpdated": "2025-07-08T10:19:55.627Z"
       }
     },
     "allGames": [
@@ -4272,8 +4280,12 @@
         "awayTeam": "Innisfil Cardinals 15U AA",
         "awayTeamCode": "510989",
         "location": "Whipper Watson",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 0,
+          "away": 14,
+          "scoreText": "14-0"
+        }
       },
       {
         "date": "2025-07-07T20:30:00.000Z",
@@ -5102,8 +5114,12 @@
         "awayTeam": "Innisfil Cardinals 15U AA",
         "awayTeamCode": "510989",
         "location": "Whipper Watson",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 0,
+          "away": 14,
+          "scoreText": "14-0"
+        }
       },
       {
         "date": "2025-07-07T20:30:00.000Z",
@@ -5360,20 +5376,20 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-08T09:46:35.063Z",
+    "lastUpdated": "2025-07-08T10:19:55.627Z",
     "totalGames": 162
   },
   "summary": {
     "totalTeams": 8,
     "totalGames": 162,
-    "completedGames": 82,
-    "upcomingGames": 80,
+    "completedGames": 83,
+    "upcomingGames": 79,
     "topTeam": {
       "team": "Innisfil Cardinals 15U AA",
       "teamCode": "510989",
-      "wins": 7,
+      "wins": 8,
       "losses": 1,
-      "winPercentage": "0.875"
+      "winPercentage": "0.889"
     },
     "highestScoringGame": {
       "homeTeam": "Stouffville Yankees 15U A",
@@ -5384,6 +5400,6 @@
       "date": "Thu, May 29",
       "location": "Bethesda Fields #2"
     },
-    "lastUpdated": "2025-07-08T09:49:09.644Z"
+    "lastUpdated": "2025-07-08T10:22:32.010Z"
   }
 }
