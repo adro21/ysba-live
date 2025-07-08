@@ -2,25 +2,25 @@
   "standings": {
     "teams": [
       {
-        "position": 3,
+        "position": 1,
         "team": "Aurora-King Jays 18U A",
         "teamCode": "511022",
         "record": {
-          "gamesPlayed": 10,
-          "wins": 9,
+          "gamesPlayed": 11,
+          "wins": 10,
           "losses": 1,
           "ties": 0,
-          "winPercentage": "0.900"
+          "winPercentage": "0.909"
         },
         "stats": {
-          "points": 18,
-          "runsFor": 85,
-          "runsAgainst": 44,
-          "runDifferential": 41
+          "points": 20,
+          "runsFor": 93,
+          "runsAgainst": 47,
+          "runDifferential": 46
         }
       },
       {
-        "position": 2,
+        "position": 4,
         "team": "Barrie Baycats 18U A",
         "teamCode": "511024",
         "record": {
@@ -56,7 +56,25 @@
         }
       },
       {
-        "position": 1,
+        "position": 3,
+        "team": "Aurora-King Jays 17U A",
+        "teamCode": "511021",
+        "record": {
+          "gamesPlayed": 13,
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "winPercentage": "0.692"
+        },
+        "stats": {
+          "points": 18,
+          "runsFor": 97,
+          "runsAgainst": 54,
+          "runDifferential": 43
+        }
+      },
+      {
+        "position": 2,
         "team": "Bradford Tigers 18U A",
         "teamCode": "511025",
         "record": {
@@ -71,24 +89,6 @@
           "runsFor": 135,
           "runsAgainst": 83,
           "runDifferential": 52
-        }
-      },
-      {
-        "position": 4,
-        "team": "Aurora-King Jays 17U A",
-        "teamCode": "511021",
-        "record": {
-          "gamesPlayed": 12,
-          "wins": 8,
-          "losses": 4,
-          "ties": 0,
-          "winPercentage": "0.667"
-        },
-        "stats": {
-          "points": 16,
-          "runsFor": 81,
-          "runsAgainst": 53,
-          "runDifferential": 28
         }
       },
       {
@@ -146,7 +146,7 @@
         }
       },
       {
-        "position": 5,
+        "position": 6,
         "team": "Orillia Royals 18U B",
         "teamCode": "511032",
         "record": {
@@ -164,21 +164,21 @@
         }
       },
       {
-        "position": 6,
+        "position": 5,
         "team": "Caledon Nationals 18U A",
         "teamCode": "511026",
         "record": {
-          "gamesPlayed": 13,
+          "gamesPlayed": 14,
           "wins": 6,
-          "losses": 4,
+          "losses": 5,
           "ties": 3,
-          "winPercentage": "0.577"
+          "winPercentage": "0.536"
         },
         "stats": {
           "points": 15,
-          "runsFor": 89,
-          "runsAgainst": 76,
-          "runDifferential": 13
+          "runsFor": 90,
+          "runsAgainst": 92,
+          "runDifferential": -2
         }
       },
       {
@@ -272,7 +272,7 @@
         }
       },
       {
-        "position": 16,
+        "position": 17,
         "team": "Innisfil Cardinals 18U A",
         "teamCode": "511028",
         "record": {
@@ -290,21 +290,21 @@
         }
       },
       {
-        "position": 17,
+        "position": 16,
         "team": "Women's Team",
         "teamCode": "546377",
         "record": {
-          "gamesPlayed": 12,
+          "gamesPlayed": 13,
           "wins": 3,
-          "losses": 8,
+          "losses": 9,
           "ties": 1,
-          "winPercentage": "0.292"
+          "winPercentage": "0.269"
         },
         "stats": {
           "points": 7,
-          "runsFor": 64,
-          "runsAgainst": 127,
-          "runDifferential": -63
+          "runsFor": 67,
+          "runsAgainst": 135,
+          "runDifferential": -68
         }
       },
       {
@@ -312,17 +312,17 @@
         "team": "Stayner White Sox 18U C",
         "teamCode": "519242",
         "record": {
-          "gamesPlayed": 13,
+          "gamesPlayed": 14,
           "wins": 2,
-          "losses": 10,
+          "losses": 11,
           "ties": 1,
-          "winPercentage": "0.192"
+          "winPercentage": "0.179"
         },
         "stats": {
           "points": 5,
-          "runsFor": 65,
-          "runsAgainst": 116,
-          "runDifferential": -51
+          "runsFor": 71,
+          "runsAgainst": 123,
+          "runDifferential": -52
         }
       },
       {
@@ -330,21 +330,21 @@
         "team": "TNT Thunder 18U A",
         "teamCode": "511034",
         "record": {
-          "gamesPlayed": 11,
-          "wins": 1,
+          "gamesPlayed": 12,
+          "wins": 2,
           "losses": 10,
           "ties": 0,
-          "winPercentage": "0.091"
+          "winPercentage": "0.167"
         },
         "stats": {
-          "points": 2,
-          "runsFor": 30,
-          "runsAgainst": 147,
-          "runDifferential": -117
+          "points": 4,
+          "runsFor": 37,
+          "runsAgainst": 153,
+          "runDifferential": -116
         }
       }
     ],
-    "lastUpdated": "2025-07-08T03:09:42.459Z",
+    "lastUpdated": "2025-07-08T04:07:21.122Z",
     "totalTeams": 19
   },
   "schedule": {
@@ -428,8 +428,12 @@
             "awayTeam": "Aurora-King Jays 17U A",
             "awayTeamCode": "511021",
             "location": "Bolton North Hill D3",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 1,
+              "away": 16,
+              "scoreText": "16-1"
+            }
           }
         ],
         "nextGames": [
@@ -482,7 +486,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T03:09:46.769Z"
+        "lastUpdated": "2025-07-08T04:07:25.685Z"
       },
       "511022": {
         "teamCode": "511022",
@@ -563,8 +567,12 @@
             "awayTeam": "Women's Team",
             "awayTeamCode": "546377",
             "location": "Lambert Wilson #4",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 3,
+              "scoreText": "3-8"
+            }
           }
         ],
         "nextGames": [
@@ -629,7 +637,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T03:09:46.769Z"
+        "lastUpdated": "2025-07-08T04:07:25.685Z"
       },
       "511023": {
         "teamCode": "511023",
@@ -780,7 +788,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T03:09:46.769Z"
+        "lastUpdated": "2025-07-08T04:07:25.685Z"
       },
       "511024": {
         "teamCode": "511024",
@@ -931,7 +939,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T03:09:46.769Z"
+        "lastUpdated": "2025-07-08T04:07:25.685Z"
       },
       "511025": {
         "teamCode": "511025",
@@ -1046,7 +1054,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T03:09:46.769Z"
+        "lastUpdated": "2025-07-08T04:07:25.685Z"
       },
       "511026": {
         "teamCode": "511026",
@@ -1127,8 +1135,12 @@
             "awayTeam": "Aurora-King Jays 17U A",
             "awayTeamCode": "511021",
             "location": "Bolton North Hill D3",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 1,
+              "away": 16,
+              "scoreText": "16-1"
+            }
           }
         ],
         "nextGames": [
@@ -1169,7 +1181,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T03:09:46.769Z"
+        "lastUpdated": "2025-07-08T04:07:25.685Z"
       },
       "511027": {
         "teamCode": "511027",
@@ -1320,7 +1332,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T03:09:46.769Z"
+        "lastUpdated": "2025-07-08T04:07:25.685Z"
       },
       "511028": {
         "teamCode": "511028",
@@ -1471,7 +1483,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T03:09:46.769Z"
+        "lastUpdated": "2025-07-08T04:07:25.685Z"
       },
       "511030": {
         "teamCode": "511030",
@@ -1622,7 +1634,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T03:09:46.769Z"
+        "lastUpdated": "2025-07-08T04:07:25.685Z"
       },
       "511031": {
         "teamCode": "511031",
@@ -1749,7 +1761,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T03:09:46.769Z"
+        "lastUpdated": "2025-07-08T04:07:25.685Z"
       },
       "511032": {
         "teamCode": "511032",
@@ -1888,7 +1900,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T03:09:46.769Z"
+        "lastUpdated": "2025-07-08T04:07:25.685Z"
       },
       "511033": {
         "teamCode": "511033",
@@ -2039,7 +2051,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T03:09:46.769Z"
+        "lastUpdated": "2025-07-08T04:07:25.685Z"
       },
       "511034": {
         "teamCode": "511034",
@@ -2116,8 +2128,12 @@
             "awayTeam": "Stayner White Sox 18U C",
             "awayTeamCode": "519242",
             "location": "Beeton",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 6,
+              "scoreText": "6-7"
+            }
           }
         ],
         "nextGames": [
@@ -2170,7 +2186,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T03:09:46.769Z"
+        "lastUpdated": "2025-07-08T04:07:25.685Z"
       },
       "511035": {
         "teamCode": "511035",
@@ -2313,7 +2329,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T03:09:46.769Z"
+        "lastUpdated": "2025-07-08T04:07:25.685Z"
       },
       "516246": {
         "teamCode": "516246",
@@ -2448,7 +2464,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T03:09:46.769Z"
+        "lastUpdated": "2025-07-08T04:07:25.685Z"
       },
       "518960": {
         "teamCode": "518960",
@@ -2587,7 +2603,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T03:09:46.769Z"
+        "lastUpdated": "2025-07-08T04:07:25.685Z"
       },
       "518962": {
         "teamCode": "518962",
@@ -2702,7 +2718,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T03:09:46.769Z"
+        "lastUpdated": "2025-07-08T04:07:25.685Z"
       },
       "519242": {
         "teamCode": "519242",
@@ -2783,8 +2799,12 @@
             "awayTeam": "Stayner White Sox 18U C",
             "awayTeamCode": "519242",
             "location": "Beeton",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 6,
+              "scoreText": "6-7"
+            }
           }
         ],
         "nextGames": [
@@ -2825,7 +2845,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T03:09:46.769Z"
+        "lastUpdated": "2025-07-08T04:07:25.685Z"
       },
       "546377": {
         "teamCode": "546377",
@@ -2906,8 +2926,12 @@
             "awayTeam": "Women's Team",
             "awayTeamCode": "546377",
             "location": "Lambert Wilson #4",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 3,
+              "scoreText": "3-8"
+            }
           }
         ],
         "nextGames": [
@@ -2960,7 +2984,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T03:09:46.769Z"
+        "lastUpdated": "2025-07-08T04:07:25.685Z"
       }
     },
     "allGames": [
@@ -4761,8 +4785,12 @@
         "awayTeam": "Women's Team",
         "awayTeamCode": "546377",
         "location": "Lambert Wilson #4",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 3,
+          "scoreText": "3-8"
+        }
       },
       {
         "date": "2025-07-07T19:00:00.000Z",
@@ -4821,8 +4849,12 @@
         "awayTeam": "Stayner White Sox 18U C",
         "awayTeamCode": "519242",
         "location": "Beeton",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 6,
+          "scoreText": "6-7"
+        }
       },
       {
         "date": "2025-07-07T20:30:00.000Z",
@@ -4833,8 +4865,12 @@
         "awayTeam": "Aurora-King Jays 17U A",
         "awayTeamCode": "511021",
         "location": "Bolton North Hill D3",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 1,
+          "away": 16,
+          "scoreText": "16-1"
+        }
       },
       {
         "date": "2025-07-08T19:00:00.000Z",
@@ -5351,8 +5387,12 @@
         "awayTeam": "Aurora-King Jays 17U A",
         "awayTeamCode": "511021",
         "location": "Bolton North Hill D3",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 1,
+          "away": 16,
+          "scoreText": "16-1"
+        }
       },
       {
         "date": "2025-07-07T20:15:00.000Z",
@@ -5363,8 +5403,12 @@
         "awayTeam": "Stayner White Sox 18U C",
         "awayTeamCode": "519242",
         "location": "Beeton",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 6,
+          "scoreText": "6-7"
+        }
       },
       {
         "date": "2025-07-07T20:00:00.000Z",
@@ -5423,8 +5467,12 @@
         "awayTeam": "Women's Team",
         "awayTeamCode": "546377",
         "location": "Lambert Wilson #4",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 3,
+          "scoreText": "3-8"
+        }
       },
       {
         "date": "2025-07-06T17:00:00.000Z",
@@ -5613,20 +5661,20 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-08T03:09:46.769Z",
+    "lastUpdated": "2025-07-08T04:07:25.685Z",
     "totalGames": 161
   },
   "summary": {
     "totalTeams": 19,
     "totalGames": 161,
-    "completedGames": 111,
-    "upcomingGames": 50,
+    "completedGames": 114,
+    "upcomingGames": 47,
     "topTeam": {
       "team": "Aurora-King Jays 18U A",
       "teamCode": "511022",
-      "wins": 9,
+      "wins": 10,
       "losses": 1,
-      "winPercentage": "0.900"
+      "winPercentage": "0.909"
     },
     "highestScoringGame": {
       "homeTeam": "Women's Team",
@@ -5637,6 +5685,6 @@
       "date": "Sun, Jun 1",
       "location": "David Hamilton #1"
     },
-    "lastUpdated": "2025-07-08T03:11:33.138Z"
+    "lastUpdated": "2025-07-08T04:09:17.155Z"
   }
 }
