@@ -20,21 +20,21 @@
         }
       },
       {
-        "position": 2,
+        "position": 1,
         "team": "Richmond Hill Phoenix 13U A",
         "teamCode": "510945",
         "record": {
-          "gamesPlayed": 9,
-          "wins": 7,
+          "gamesPlayed": 11,
+          "wins": 9,
           "losses": 2,
           "ties": 0,
-          "winPercentage": "0.778"
+          "winPercentage": "0.818"
         },
         "stats": {
-          "points": 14,
-          "runsFor": 104,
-          "runsAgainst": 52,
-          "runDifferential": 52
+          "points": 18,
+          "runsFor": 128,
+          "runsAgainst": 58,
+          "runDifferential": 70
         }
       },
       {
@@ -56,7 +56,7 @@
         }
       },
       {
-        "position": 1,
+        "position": 2,
         "team": "Orillia Royals 13U A",
         "teamCode": "510944",
         "record": {
@@ -132,17 +132,17 @@
         "team": "Muskoka Hornets 13U B",
         "teamCode": "516242",
         "record": {
-          "gamesPlayed": 6,
+          "gamesPlayed": 8,
           "wins": 1,
-          "losses": 5,
+          "losses": 7,
           "ties": 0,
-          "winPercentage": "0.167"
+          "winPercentage": "0.125"
         },
         "stats": {
           "points": 2,
-          "runsFor": 20,
-          "runsAgainst": 99,
-          "runDifferential": -79
+          "runsFor": 26,
+          "runsAgainst": 123,
+          "runDifferential": -97
         }
       },
       {
@@ -164,7 +164,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-08T13:12:50.295Z",
+    "lastUpdated": "2025-07-08T13:54:28.989Z",
     "totalTeams": 9
   },
   "schedule": {
@@ -314,7 +314,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T13:12:54.873Z"
+        "lastUpdated": "2025-07-08T13:54:33.606Z"
       },
       "510941": {
         "teamCode": "510941",
@@ -465,7 +465,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T13:12:54.873Z"
+        "lastUpdated": "2025-07-08T13:54:33.606Z"
       },
       "510942": {
         "teamCode": "510942",
@@ -588,7 +588,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T13:12:54.873Z"
+        "lastUpdated": "2025-07-08T13:54:33.607Z"
       },
       "510943": {
         "teamCode": "510943",
@@ -735,7 +735,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T13:12:54.873Z"
+        "lastUpdated": "2025-07-08T13:54:33.607Z"
       },
       "510944": {
         "teamCode": "510944",
@@ -886,7 +886,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T13:12:54.873Z"
+        "lastUpdated": "2025-07-08T13:54:33.607Z"
       },
       "510945": {
         "teamCode": "510945",
@@ -951,8 +951,12 @@
             "awayTeam": "Muskoka Hornets 13U B",
             "awayTeamCode": "516242",
             "location": "HARDING PARK",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 4,
+              "scoreText": "4-14"
+            }
           },
           {
             "date": "2025-07-05T14:00:00.000Z",
@@ -963,8 +967,12 @@
             "awayTeam": "Muskoka Hornets 13U B",
             "awayTeamCode": "516242",
             "location": "HARDING PARK",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 2,
+              "scoreText": "2-10"
+            }
           }
         ],
         "nextGames": [
@@ -1029,7 +1037,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T13:12:54.873Z"
+        "lastUpdated": "2025-07-08T13:54:33.607Z"
       },
       "510946": {
         "teamCode": "510946",
@@ -1176,7 +1184,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T13:12:54.873Z"
+        "lastUpdated": "2025-07-08T13:54:33.607Z"
       },
       "510947": {
         "teamCode": "510947",
@@ -1327,7 +1335,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T13:12:54.874Z"
+        "lastUpdated": "2025-07-08T13:54:33.607Z"
       },
       "510948": {
         "teamCode": "510948",
@@ -1466,7 +1474,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T13:12:54.874Z"
+        "lastUpdated": "2025-07-08T13:54:33.607Z"
       },
       "510949": {
         "teamCode": "510949",
@@ -1609,7 +1617,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T13:12:54.874Z"
+        "lastUpdated": "2025-07-08T13:54:33.607Z"
       },
       "510950": {
         "teamCode": "510950",
@@ -1752,7 +1760,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T13:12:54.874Z"
+        "lastUpdated": "2025-07-08T13:54:33.607Z"
       },
       "510951": {
         "teamCode": "510951",
@@ -1895,7 +1903,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T13:12:54.874Z"
+        "lastUpdated": "2025-07-08T13:54:33.607Z"
       },
       "510952": {
         "teamCode": "510952",
@@ -2034,7 +2042,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T13:12:54.874Z"
+        "lastUpdated": "2025-07-08T13:54:33.607Z"
       },
       "510953": {
         "teamCode": "510953",
@@ -2181,7 +2189,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T13:12:54.874Z"
+        "lastUpdated": "2025-07-08T13:54:33.607Z"
       },
       "510957": {
         "teamCode": "510957",
@@ -2308,7 +2316,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T13:12:54.874Z"
+        "lastUpdated": "2025-07-08T13:54:33.607Z"
       },
       "516242": {
         "teamCode": "516242",
@@ -2361,8 +2369,12 @@
             "awayTeam": "Muskoka Hornets 13U B",
             "awayTeamCode": "516242",
             "location": "HARDING PARK",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 4,
+              "scoreText": "4-14"
+            }
           },
           {
             "date": "2025-07-05T14:00:00.000Z",
@@ -2373,8 +2385,12 @@
             "awayTeam": "Muskoka Hornets 13U B",
             "awayTeamCode": "516242",
             "location": "HARDING PARK",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 2,
+              "scoreText": "2-10"
+            }
           }
         ],
         "nextGames": [
@@ -2427,7 +2443,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T13:12:54.874Z"
+        "lastUpdated": "2025-07-08T13:54:33.607Z"
       },
       "518954": {
         "teamCode": "518954",
@@ -2570,7 +2586,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T13:12:54.874Z"
+        "lastUpdated": "2025-07-08T13:54:33.607Z"
       }
     },
     "allGames": [
@@ -4031,8 +4047,12 @@
         "awayTeam": "Muskoka Hornets 13U B",
         "awayTeamCode": "516242",
         "location": "HARDING PARK",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 4,
+          "scoreText": "4-14"
+        }
       },
       {
         "date": "2025-07-05T14:00:00.000Z",
@@ -4043,8 +4063,12 @@
         "awayTeam": "Muskoka Hornets 13U B",
         "awayTeamCode": "516242",
         "location": "HARDING PARK",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 2,
+          "scoreText": "2-10"
+        }
       },
       {
         "date": "2025-07-06T15:30:00.000Z",
@@ -4793,8 +4817,12 @@
         "awayTeam": "Muskoka Hornets 13U B",
         "awayTeamCode": "516242",
         "location": "HARDING PARK",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 2,
+          "scoreText": "2-10"
+        }
       },
       {
         "date": "2025-07-05T11:00:00.000Z",
@@ -4805,8 +4833,12 @@
         "awayTeam": "Muskoka Hornets 13U B",
         "awayTeamCode": "516242",
         "location": "HARDING PARK",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 4,
+          "scoreText": "4-14"
+        }
       },
       {
         "date": "2025-07-03T19:00:00.000Z",
@@ -4979,14 +5011,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-08T13:12:54.874Z",
+    "lastUpdated": "2025-07-08T13:54:33.607Z",
     "totalGames": 151
   },
   "summary": {
     "totalTeams": 9,
     "totalGames": 151,
-    "completedGames": 82,
-    "upcomingGames": 69,
+    "completedGames": 84,
+    "upcomingGames": 67,
     "topTeam": {
       "team": "Mansfield Cubs 13U A",
       "teamCode": "510942",
@@ -5003,6 +5035,6 @@
       "date": "Mon, May 12",
       "location": "MANSFIELD"
     },
-    "lastUpdated": "2025-07-08T13:16:26.672Z"
+    "lastUpdated": "2025-07-08T13:58:06.841Z"
   }
 }
