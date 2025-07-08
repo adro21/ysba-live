@@ -38,21 +38,21 @@
         }
       },
       {
-        "position": 5,
+        "position": 4,
         "team": "Innisfil Cardinals 12U A",
         "teamCode": "510921",
         "record": {
-          "gamesPlayed": 8,
-          "wins": 5,
+          "gamesPlayed": 9,
+          "wins": 6,
           "losses": 2,
           "ties": 1,
-          "winPercentage": "0.688"
+          "winPercentage": "0.722"
         },
         "stats": {
-          "points": 11,
-          "runsFor": 78,
-          "runsAgainst": 43,
-          "runDifferential": 35
+          "points": 13,
+          "runsFor": 85,
+          "runsAgainst": 46,
+          "runDifferential": 39
         }
       },
       {
@@ -60,39 +60,39 @@
         "team": "Thornhill Reds 12U A",
         "teamCode": "510926",
         "record": {
-          "gamesPlayed": 10,
-          "wins": 6,
+          "gamesPlayed": 11,
+          "wins": 7,
           "losses": 4,
           "ties": 0,
-          "winPercentage": "0.600"
+          "winPercentage": "0.636"
         },
         "stats": {
-          "points": 12,
-          "runsFor": 91,
-          "runsAgainst": 66,
-          "runDifferential": 25
+          "points": 14,
+          "runsFor": 96,
+          "runsAgainst": 69,
+          "runDifferential": 27
         }
       },
       {
-        "position": 4,
+        "position": 5,
         "team": "TNT Thunder 12U A",
         "teamCode": "510927",
         "record": {
-          "gamesPlayed": 10,
+          "gamesPlayed": 11,
           "wins": 5,
-          "losses": 4,
+          "losses": 5,
           "ties": 1,
-          "winPercentage": "0.550"
+          "winPercentage": "0.500"
         },
         "stats": {
           "points": 11,
-          "runsFor": 92,
-          "runsAgainst": 80,
-          "runDifferential": 12
+          "runsFor": 95,
+          "runsAgainst": 87,
+          "runDifferential": 8
         }
       },
       {
-        "position": 7,
+        "position": 8,
         "team": "Markham Mariners 12U A",
         "teamCode": "510922",
         "record": {
@@ -110,7 +110,7 @@
         }
       },
       {
-        "position": 6,
+        "position": 7,
         "team": "Bradford Tigers 12U A",
         "teamCode": "510920",
         "record": {
@@ -128,21 +128,21 @@
         }
       },
       {
-        "position": 8,
+        "position": 6,
         "team": "Aurora-King Jays 12U A",
         "teamCode": "510918",
         "record": {
-          "gamesPlayed": 11,
-          "wins": 3,
+          "gamesPlayed": 12,
+          "wins": 4,
           "losses": 7,
           "ties": 1,
-          "winPercentage": "0.318"
+          "winPercentage": "0.375"
         },
         "stats": {
-          "points": 7,
-          "runsFor": 107,
-          "runsAgainst": 109,
-          "runDifferential": -2
+          "points": 9,
+          "runsFor": 120,
+          "runsAgainst": 116,
+          "runDifferential": 4
         }
       },
       {
@@ -150,17 +150,17 @@
         "team": "Barrie Baycats 12U A",
         "teamCode": "510919",
         "record": {
-          "gamesPlayed": 13,
+          "gamesPlayed": 14,
           "wins": 3,
-          "losses": 10,
+          "losses": 11,
           "ties": 0,
-          "winPercentage": "0.231"
+          "winPercentage": "0.214"
         },
         "stats": {
           "points": 6,
-          "runsFor": 95,
-          "runsAgainst": 199,
-          "runDifferential": -104
+          "runsFor": 98,
+          "runsAgainst": 204,
+          "runDifferential": -106
         }
       },
       {
@@ -168,21 +168,21 @@
         "team": "Georgina Bulldogs 12U B",
         "teamCode": "510939",
         "record": {
-          "gamesPlayed": 9,
+          "gamesPlayed": 10,
           "wins": 1,
-          "losses": 8,
+          "losses": 9,
           "ties": 0,
-          "winPercentage": "0.111"
+          "winPercentage": "0.100"
         },
         "stats": {
           "points": 2,
-          "runsFor": 47,
-          "runsAgainst": 131,
-          "runDifferential": -84
+          "runsFor": 54,
+          "runsAgainst": 144,
+          "runDifferential": -90
         }
       }
     ],
-    "lastUpdated": "2025-07-08T12:32:03.557Z",
+    "lastUpdated": "2025-07-08T13:12:16.897Z",
     "totalTeams": 10
   },
   "schedule": {
@@ -266,8 +266,12 @@
             "awayTeam": "Georgina Bulldogs 12U B",
             "awayTeamCode": "510939",
             "location": "Hallmark Diamond 1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 7,
+              "scoreText": "7-13"
+            }
           }
         ],
         "nextGames": [
@@ -320,7 +324,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T12:32:07.741Z"
+        "lastUpdated": "2025-07-08T13:12:21.385Z"
       },
       "510919": {
         "teamCode": "510919",
@@ -369,8 +373,12 @@
             "awayTeam": "Barrie Baycats 12U A",
             "awayTeamCode": "510919",
             "location": "Bishop's Cross Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 3,
+              "scoreText": "3-5"
+            }
           },
           {
             "date": "2025-07-02T18:30:00.000Z",
@@ -443,7 +451,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T12:32:07.741Z"
+        "lastUpdated": "2025-07-08T13:12:21.385Z"
       },
       "510920": {
         "teamCode": "510920",
@@ -586,7 +594,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T12:32:07.741Z"
+        "lastUpdated": "2025-07-08T13:12:21.385Z"
       },
       "510921": {
         "teamCode": "510921",
@@ -733,7 +741,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T12:32:07.741Z"
+        "lastUpdated": "2025-07-08T13:12:21.385Z"
       },
       "510922": {
         "teamCode": "510922",
@@ -884,7 +892,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T12:32:07.741Z"
+        "lastUpdated": "2025-07-08T13:12:21.385Z"
       },
       "510923": {
         "teamCode": "510923",
@@ -1035,7 +1043,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T12:32:07.741Z"
+        "lastUpdated": "2025-07-08T13:12:21.385Z"
       },
       "510924": {
         "teamCode": "510924",
@@ -1186,7 +1194,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T12:32:07.741Z"
+        "lastUpdated": "2025-07-08T13:12:21.385Z"
       },
       "510925": {
         "teamCode": "510925",
@@ -1337,7 +1345,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T12:32:07.741Z"
+        "lastUpdated": "2025-07-08T13:12:21.386Z"
       },
       "510926": {
         "teamCode": "510926",
@@ -1418,8 +1426,12 @@
             "awayTeam": "Barrie Baycats 12U A",
             "awayTeamCode": "510919",
             "location": "Bishop's Cross Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 3,
+              "scoreText": "3-5"
+            }
           }
         ],
         "nextGames": [
@@ -1484,7 +1496,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T12:32:07.741Z"
+        "lastUpdated": "2025-07-08T13:12:21.386Z"
       },
       "510927": {
         "teamCode": "510927",
@@ -1631,7 +1643,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T12:32:07.741Z"
+        "lastUpdated": "2025-07-08T13:12:21.386Z"
       },
       "510928": {
         "teamCode": "510928",
@@ -1782,7 +1794,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T12:32:07.741Z"
+        "lastUpdated": "2025-07-08T13:12:21.386Z"
       },
       "510929": {
         "teamCode": "510929",
@@ -1933,7 +1945,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T12:32:07.741Z"
+        "lastUpdated": "2025-07-08T13:12:21.386Z"
       },
       "510930": {
         "teamCode": "510930",
@@ -2084,7 +2096,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T12:32:07.741Z"
+        "lastUpdated": "2025-07-08T13:12:21.386Z"
       },
       "510931": {
         "teamCode": "510931",
@@ -2235,7 +2247,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T12:32:07.741Z"
+        "lastUpdated": "2025-07-08T13:12:21.386Z"
       },
       "510932": {
         "teamCode": "510932",
@@ -2386,7 +2398,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T12:32:07.741Z"
+        "lastUpdated": "2025-07-08T13:12:21.386Z"
       },
       "510933": {
         "teamCode": "510933",
@@ -2537,7 +2549,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T12:32:07.741Z"
+        "lastUpdated": "2025-07-08T13:12:21.386Z"
       },
       "510934": {
         "teamCode": "510934",
@@ -2688,7 +2700,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T12:32:07.741Z"
+        "lastUpdated": "2025-07-08T13:12:21.386Z"
       },
       "510935": {
         "teamCode": "510935",
@@ -2839,7 +2851,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T12:32:07.741Z"
+        "lastUpdated": "2025-07-08T13:12:21.386Z"
       },
       "510939": {
         "teamCode": "510939",
@@ -2912,8 +2924,12 @@
             "awayTeam": "Georgina Bulldogs 12U B",
             "awayTeamCode": "510939",
             "location": "Hallmark Diamond 1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 7,
+              "scoreText": "7-13"
+            }
           }
         ],
         "nextGames": [
@@ -2978,7 +2994,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T12:32:07.741Z"
+        "lastUpdated": "2025-07-08T13:12:21.386Z"
       }
     },
     "allGames": [
@@ -3663,8 +3679,12 @@
         "awayTeam": "TNT Thunder 12U A",
         "awayTeamCode": "510927",
         "location": "Fennels Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 3,
+          "scoreText": "3-7"
+        }
       },
       {
         "date": "2025-06-05T18:15:00.000Z",
@@ -4447,8 +4467,12 @@
         "awayTeam": "Barrie Baycats 12U A",
         "awayTeamCode": "510919",
         "location": "Bishop's Cross Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 5,
+          "away": 3,
+          "scoreText": "3-5"
+        }
       },
       {
         "date": "2025-06-30T18:00:00.000Z",
@@ -4615,8 +4639,12 @@
         "awayTeam": "Georgina Bulldogs 12U B",
         "awayTeamCode": "510939",
         "location": "Hallmark Diamond 1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 7,
+          "scoreText": "7-13"
+        }
       },
       {
         "date": "2025-07-08T18:00:00.000Z",
@@ -5313,8 +5341,12 @@
         "awayTeam": "Georgina Bulldogs 12U B",
         "awayTeamCode": "510939",
         "location": "Hallmark Diamond 1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 7,
+          "scoreText": "7-13"
+        }
       },
       {
         "date": "2025-07-06T16:00:00.000Z",
@@ -5583,14 +5615,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-08T12:32:07.741Z",
+    "lastUpdated": "2025-07-08T13:12:21.386Z",
     "totalGames": 162
   },
   "summary": {
     "totalTeams": 10,
     "totalGames": 162,
-    "completedGames": 94,
-    "upcomingGames": 68,
+    "completedGames": 97,
+    "upcomingGames": 65,
     "topTeam": {
       "team": "Orillia Royals 12U A",
       "teamCode": "510925",
@@ -5607,6 +5639,6 @@
       "date": "Thu, Jul 3",
       "location": "Barrie Community Sports Complex - Diamond 12"
     },
-    "lastUpdated": "2025-07-08T12:35:58.544Z"
+    "lastUpdated": "2025-07-08T13:16:26.672Z"
   }
 }
