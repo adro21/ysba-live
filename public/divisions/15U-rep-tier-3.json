@@ -2,25 +2,25 @@
   "standings": {
     "teams": [
       {
-        "position": 2,
+        "position": 1,
         "team": "Stouffville Yankees 15U A",
         "teamCode": "510985",
         "record": {
-          "gamesPlayed": 7,
-          "wins": 7,
+          "gamesPlayed": 8,
+          "wins": 8,
           "losses": 0,
           "ties": 0,
           "winPercentage": "1.000"
         },
         "stats": {
-          "points": 14,
-          "runsFor": 84,
-          "runsAgainst": 44,
-          "runDifferential": 40
+          "points": 16,
+          "runsFor": 99,
+          "runsAgainst": 46,
+          "runDifferential": 53
         }
       },
       {
-        "position": 1,
+        "position": 2,
         "team": "Ontario Women",
         "teamCode": "546379",
         "record": {
@@ -132,17 +132,17 @@
         "team": "Barrie Baycats 15U A",
         "teamCode": "510981",
         "record": {
-          "gamesPlayed": 8,
+          "gamesPlayed": 9,
           "wins": 3,
-          "losses": 5,
+          "losses": 6,
           "ties": 0,
-          "winPercentage": "0.375"
+          "winPercentage": "0.333"
         },
         "stats": {
           "points": 6,
-          "runsFor": 61,
-          "runsAgainst": 83,
-          "runDifferential": -22
+          "runsFor": 63,
+          "runsAgainst": 98,
+          "runDifferential": -35
         }
       },
       {
@@ -182,7 +182,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-08T11:41:57.766Z",
+    "lastUpdated": "2025-07-08T12:33:37.038Z",
     "totalTeams": 10
   },
   "schedule": {
@@ -336,7 +336,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T11:42:01.996Z"
+        "lastUpdated": "2025-07-08T12:33:41.322Z"
       },
       "510981": {
         "teamCode": "510981",
@@ -417,8 +417,12 @@
             "awayTeam": "Stouffville Yankees 15U A",
             "awayTeamCode": "510985",
             "location": "Dana Field / Barrie Sports Complex",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 2,
+              "away": 15,
+              "scoreText": "15-2"
+            }
           }
         ],
         "nextGames": [
@@ -483,7 +487,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T11:42:01.996Z"
+        "lastUpdated": "2025-07-08T12:33:41.322Z"
       },
       "510982": {
         "teamCode": "510982",
@@ -634,7 +638,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T11:42:01.996Z"
+        "lastUpdated": "2025-07-08T12:33:41.322Z"
       },
       "510983": {
         "teamCode": "510983",
@@ -777,7 +781,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T11:42:01.996Z"
+        "lastUpdated": "2025-07-08T12:33:41.322Z"
       },
       "510984": {
         "teamCode": "510984",
@@ -928,7 +932,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T11:42:01.996Z"
+        "lastUpdated": "2025-07-08T12:33:41.323Z"
       },
       "510985": {
         "teamCode": "510985",
@@ -1009,8 +1013,12 @@
             "awayTeam": "Stouffville Yankees 15U A",
             "awayTeamCode": "510985",
             "location": "Dana Field / Barrie Sports Complex",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 2,
+              "away": 15,
+              "scoreText": "15-2"
+            }
           }
         ],
         "nextGames": [
@@ -1075,7 +1083,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T11:42:01.996Z"
+        "lastUpdated": "2025-07-08T12:33:41.323Z"
       },
       "510986": {
         "teamCode": "510986",
@@ -1222,7 +1230,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T11:42:01.996Z"
+        "lastUpdated": "2025-07-08T12:33:41.323Z"
       },
       "510987": {
         "teamCode": "510987",
@@ -1373,7 +1381,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T11:42:01.996Z"
+        "lastUpdated": "2025-07-08T12:33:41.323Z"
       },
       "510988": {
         "teamCode": "510988",
@@ -1524,7 +1532,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T11:42:01.996Z"
+        "lastUpdated": "2025-07-08T12:33:41.323Z"
       },
       "510989": {
         "teamCode": "510989",
@@ -1671,7 +1679,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T11:42:01.996Z"
+        "lastUpdated": "2025-07-08T12:33:41.323Z"
       },
       "510990": {
         "teamCode": "510990",
@@ -1822,7 +1830,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T11:42:01.996Z"
+        "lastUpdated": "2025-07-08T12:33:41.323Z"
       },
       "510991": {
         "teamCode": "510991",
@@ -1973,7 +1981,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T11:42:01.996Z"
+        "lastUpdated": "2025-07-08T12:33:41.323Z"
       },
       "510992": {
         "teamCode": "510992",
@@ -2120,7 +2128,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T11:42:01.996Z"
+        "lastUpdated": "2025-07-08T12:33:41.323Z"
       },
       "510993": {
         "teamCode": "510993",
@@ -2267,7 +2275,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T11:42:01.996Z"
+        "lastUpdated": "2025-07-08T12:33:41.323Z"
       },
       "510998": {
         "teamCode": "510998",
@@ -2410,7 +2418,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T11:42:01.996Z"
+        "lastUpdated": "2025-07-08T12:33:41.323Z"
       },
       "516244": {
         "teamCode": "516244",
@@ -2561,7 +2569,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T11:42:01.996Z"
+        "lastUpdated": "2025-07-08T12:33:41.323Z"
       },
       "518959": {
         "teamCode": "518959",
@@ -2712,7 +2720,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T11:42:01.996Z"
+        "lastUpdated": "2025-07-08T12:33:41.323Z"
       },
       "546379": {
         "teamCode": "546379",
@@ -2859,7 +2867,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-08T11:42:01.996Z"
+        "lastUpdated": "2025-07-08T12:33:41.323Z"
       }
     },
     "allGames": [
@@ -4304,8 +4312,12 @@
         "awayTeam": "Stouffville Yankees 15U A",
         "awayTeamCode": "510985",
         "location": "Dana Field / Barrie Sports Complex",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 2,
+          "away": 15,
+          "scoreText": "15-2"
+        }
       },
       {
         "date": "2025-07-07T20:30:00.000Z",
@@ -5178,8 +5190,12 @@
         "awayTeam": "Stouffville Yankees 15U A",
         "awayTeamCode": "510985",
         "location": "Dana Field / Barrie Sports Complex",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 2,
+          "away": 15,
+          "scoreText": "15-2"
+        }
       },
       {
         "date": "2025-07-05T18:30:00.000Z",
@@ -5412,18 +5428,18 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-08T11:42:01.996Z",
+    "lastUpdated": "2025-07-08T12:33:41.323Z",
     "totalGames": 162
   },
   "summary": {
     "totalTeams": 10,
     "totalGames": 162,
-    "completedGames": 83,
-    "upcomingGames": 79,
+    "completedGames": 84,
+    "upcomingGames": 78,
     "topTeam": {
       "team": "Stouffville Yankees 15U A",
       "teamCode": "510985",
-      "wins": 7,
+      "wins": 8,
       "losses": 0,
       "winPercentage": "1.000"
     },
@@ -5436,6 +5452,6 @@
       "date": "Thu, May 29",
       "location": "Bethesda Fields #2"
     },
-    "lastUpdated": "2025-07-08T11:44:22.070Z"
+    "lastUpdated": "2025-07-08T12:35:58.544Z"
   }
 }
