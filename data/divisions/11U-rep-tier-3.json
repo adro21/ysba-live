@@ -42,17 +42,17 @@
         "team": "Collingwood Jays 11U A",
         "teamCode": "510903",
         "record": {
-          "gamesPlayed": 14,
-          "wins": 9,
+          "gamesPlayed": 15,
+          "wins": 10,
           "losses": 2,
           "ties": 3,
-          "winPercentage": "0.750"
+          "winPercentage": "0.767"
         },
         "stats": {
-          "points": 21,
-          "runsFor": 125,
-          "runsAgainst": 70,
-          "runDifferential": 55
+          "points": 23,
+          "runsFor": 141,
+          "runsAgainst": 77,
+          "runDifferential": 64
         }
       },
       {
@@ -128,24 +128,6 @@
         }
       },
       {
-        "position": 10,
-        "team": "Georgina Bulldogs 11U B",
-        "teamCode": "510916",
-        "record": {
-          "gamesPlayed": 7,
-          "wins": 2,
-          "losses": 5,
-          "ties": 0,
-          "winPercentage": "0.286"
-        },
-        "stats": {
-          "points": 4,
-          "runsFor": 64,
-          "runsAgainst": 91,
-          "runDifferential": -27
-        }
-      },
-      {
         "position": 9,
         "team": "Orangeville Bengals 11U A",
         "teamCode": "510897",
@@ -161,6 +143,24 @@
           "runsFor": 53,
           "runsAgainst": 84,
           "runDifferential": -31
+        }
+      },
+      {
+        "position": 10,
+        "team": "Georgina Bulldogs 11U B",
+        "teamCode": "510916",
+        "record": {
+          "gamesPlayed": 8,
+          "wins": 2,
+          "losses": 6,
+          "ties": 0,
+          "winPercentage": "0.250"
+        },
+        "stats": {
+          "points": 4,
+          "runsFor": 71,
+          "runsAgainst": 107,
+          "runDifferential": -36
         }
       },
       {
@@ -182,7 +182,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-09T11:14:59.700Z",
+    "lastUpdated": "2025-07-09T11:40:32.122Z",
     "totalTeams": 10
   },
   "schedule": {
@@ -332,7 +332,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-09T11:15:04.268Z"
+        "lastUpdated": "2025-07-09T11:40:36.389Z"
       },
       "510892": {
         "teamCode": "510892",
@@ -483,7 +483,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-09T11:15:04.268Z"
+        "lastUpdated": "2025-07-09T11:40:36.389Z"
       },
       "510893": {
         "teamCode": "510893",
@@ -630,7 +630,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-09T11:15:04.268Z"
+        "lastUpdated": "2025-07-09T11:40:36.389Z"
       },
       "510894": {
         "teamCode": "510894",
@@ -777,7 +777,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-09T11:15:04.268Z"
+        "lastUpdated": "2025-07-09T11:40:36.389Z"
       },
       "510897": {
         "teamCode": "510897",
@@ -924,7 +924,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-09T11:15:04.268Z"
+        "lastUpdated": "2025-07-09T11:40:36.389Z"
       },
       "510898": {
         "teamCode": "510898",
@@ -1075,7 +1075,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-09T11:15:04.268Z"
+        "lastUpdated": "2025-07-09T11:40:36.389Z"
       },
       "510903": {
         "teamCode": "510903",
@@ -1152,8 +1152,12 @@
             "awayTeam": "Georgina Bulldogs 11U B",
             "awayTeamCode": "510916",
             "location": "Heritage Park (Small)",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 16,
+              "away": 7,
+              "scoreText": "7-16"
+            }
           }
         ],
         "nextGames": [
@@ -1182,7 +1186,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-09T11:15:04.268Z"
+        "lastUpdated": "2025-07-09T11:40:36.389Z"
       },
       "510905": {
         "teamCode": "510905",
@@ -1333,7 +1337,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-09T11:15:04.268Z"
+        "lastUpdated": "2025-07-09T11:40:36.389Z"
       },
       "510906": {
         "teamCode": "510906",
@@ -1480,7 +1484,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-09T11:15:04.268Z"
+        "lastUpdated": "2025-07-09T11:40:36.389Z"
       },
       "510907": {
         "teamCode": "510907",
@@ -1561,8 +1565,12 @@
             "awayTeam": "Caledon Nationals 11U AA",
             "awayTeamCode": "510912",
             "location": "Joe Magani Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 11,
+              "scoreText": "11-9"
+            }
           }
         ],
         "nextGames": [
@@ -1627,7 +1635,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-09T11:15:04.268Z"
+        "lastUpdated": "2025-07-09T11:40:36.389Z"
       },
       "510908": {
         "teamCode": "510908",
@@ -1778,7 +1786,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-09T11:15:04.268Z"
+        "lastUpdated": "2025-07-09T11:40:36.389Z"
       },
       "510909": {
         "teamCode": "510909",
@@ -1859,8 +1867,12 @@
             "awayTeam": "Orangeville Bengals 11U AA",
             "awayTeamCode": "510909",
             "location": "Fairgrounds #1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 10,
+              "scoreText": "10-9"
+            }
           }
         ],
         "nextGames": [
@@ -1925,7 +1937,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-09T11:15:04.268Z"
+        "lastUpdated": "2025-07-09T11:40:36.389Z"
       },
       "510910": {
         "teamCode": "510910",
@@ -2076,7 +2088,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-09T11:15:04.268Z"
+        "lastUpdated": "2025-07-09T11:40:36.389Z"
       },
       "510911": {
         "teamCode": "510911",
@@ -2227,7 +2239,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-09T11:15:04.268Z"
+        "lastUpdated": "2025-07-09T11:40:36.390Z"
       },
       "510912": {
         "teamCode": "510912",
@@ -2308,8 +2320,12 @@
             "awayTeam": "Caledon Nationals 11U AA",
             "awayTeamCode": "510912",
             "location": "Joe Magani Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 11,
+              "scoreText": "11-9"
+            }
           }
         ],
         "nextGames": [
@@ -2374,7 +2390,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-09T11:15:04.268Z"
+        "lastUpdated": "2025-07-09T11:40:36.390Z"
       },
       "510913": {
         "teamCode": "510913",
@@ -2455,8 +2471,12 @@
             "awayTeam": "Orangeville Bengals 11U AA",
             "awayTeamCode": "510909",
             "location": "Fairgrounds #1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 10,
+              "scoreText": "10-9"
+            }
           }
         ],
         "nextGames": [
@@ -2521,7 +2541,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-09T11:15:04.268Z"
+        "lastUpdated": "2025-07-09T11:40:36.390Z"
       },
       "510916": {
         "teamCode": "510916",
@@ -2598,8 +2618,12 @@
             "awayTeam": "Georgina Bulldogs 11U B",
             "awayTeamCode": "510916",
             "location": "Heritage Park (Small)",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 16,
+              "away": 7,
+              "scoreText": "7-16"
+            }
           }
         ],
         "nextGames": [
@@ -2664,7 +2688,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-09T11:15:04.268Z"
+        "lastUpdated": "2025-07-09T11:40:36.390Z"
       },
       "510917": {
         "teamCode": "510917",
@@ -2815,7 +2839,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-09T11:15:04.268Z"
+        "lastUpdated": "2025-07-09T11:40:36.390Z"
       },
       "516241": {
         "teamCode": "516241",
@@ -2962,7 +2986,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-09T11:15:04.268Z"
+        "lastUpdated": "2025-07-09T11:40:36.390Z"
       }
     },
     "allGames": [
@@ -4503,8 +4527,12 @@
         "awayTeam": "Orangeville Bengals 11U AA",
         "awayTeamCode": "510909",
         "location": "Fairgrounds #1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 10,
+          "scoreText": "10-9"
+        }
       },
       {
         "date": "2025-07-08T18:00:00.000Z",
@@ -4515,8 +4543,12 @@
         "awayTeam": "Caledon Nationals 11U AA",
         "awayTeamCode": "510912",
         "location": "Joe Magani Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 11,
+          "scoreText": "11-9"
+        }
       },
       {
         "date": "2025-07-08T18:00:00.000Z",
@@ -4527,8 +4559,12 @@
         "awayTeam": "Georgina Bulldogs 11U B",
         "awayTeamCode": "510916",
         "location": "Heritage Park (Small)",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 16,
+          "away": 7,
+          "scoreText": "7-16"
+        }
       },
       {
         "date": "2025-07-09T18:15:00.000Z",
@@ -5285,8 +5321,12 @@
         "awayTeam": "Orangeville Bengals 11U AA",
         "awayTeamCode": "510909",
         "location": "Fairgrounds #1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 10,
+          "scoreText": "10-9"
+        }
       },
       {
         "date": "2025-07-08T18:00:00.000Z",
@@ -5297,8 +5337,12 @@
         "awayTeam": "Caledon Nationals 11U AA",
         "awayTeamCode": "510912",
         "location": "Joe Magani Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 11,
+          "scoreText": "11-9"
+        }
       },
       {
         "date": "2025-07-08T18:00:00.000Z",
@@ -5309,8 +5353,12 @@
         "awayTeam": "Georgina Bulldogs 11U B",
         "awayTeamCode": "510916",
         "location": "Heritage Park (Small)",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 16,
+          "away": 7,
+          "scoreText": "7-16"
+        }
       },
       {
         "date": "2025-07-07T18:30:00.000Z",
@@ -5547,14 +5595,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-09T11:15:04.268Z",
+    "lastUpdated": "2025-07-09T11:40:36.390Z",
     "totalGames": 162
   },
   "summary": {
     "totalTeams": 10,
     "totalGames": 162,
-    "completedGames": 91,
-    "upcomingGames": 71,
+    "completedGames": 94,
+    "upcomingGames": 68,
     "topTeam": {
       "team": "Midland Penetang Twins 11U A",
       "teamCode": "510891",
@@ -5571,6 +5619,6 @@
       "date": "Wed, Jun 25",
       "location": "ROC 2"
     },
-    "lastUpdated": "2025-07-09T11:19:44.009Z"
+    "lastUpdated": "2025-07-09T11:44:57.912Z"
   }
 }
