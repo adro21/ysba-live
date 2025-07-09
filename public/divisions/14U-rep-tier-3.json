@@ -6,17 +6,17 @@
         "team": "Richmond Hill Phoenix 14U A",
         "teamCode": "510964",
         "record": {
-          "gamesPlayed": 11,
-          "wins": 10,
+          "gamesPlayed": 12,
+          "wins": 11,
           "losses": 1,
           "ties": 0,
-          "winPercentage": "0.909"
+          "winPercentage": "0.917"
         },
         "stats": {
-          "points": 20,
-          "runsFor": 149,
-          "runsAgainst": 53,
-          "runDifferential": 96
+          "points": 22,
+          "runsFor": 169,
+          "runsAgainst": 54,
+          "runDifferential": 115
         }
       },
       {
@@ -74,7 +74,7 @@
         }
       },
       {
-        "position": 7,
+        "position": 8,
         "team": "Midland Penetang Twins 14U B",
         "teamCode": "510979",
         "record": {
@@ -110,24 +110,6 @@
         }
       },
       {
-        "position": 8,
-        "team": "Thornhill Reds 14U A",
-        "teamCode": "510965",
-        "record": {
-          "gamesPlayed": 10,
-          "wins": 4,
-          "losses": 5,
-          "ties": 1,
-          "winPercentage": "0.450"
-        },
-        "stats": {
-          "points": 9,
-          "runsFor": 102,
-          "runsAgainst": 107,
-          "runDifferential": -5
-        }
-      },
-      {
         "position": 5,
         "team": "Muskoka Hornets 14U B",
         "teamCode": "516243",
@@ -146,25 +128,43 @@
         }
       },
       {
-        "position": 11,
-        "team": "Ontario Women's",
-        "teamCode": "546378",
+        "position": 9,
+        "team": "Thornhill Reds 14U A",
+        "teamCode": "510965",
         "record": {
-          "gamesPlayed": 8,
-          "wins": 3,
-          "losses": 5,
-          "ties": 0,
-          "winPercentage": "0.375"
+          "gamesPlayed": 11,
+          "wins": 4,
+          "losses": 6,
+          "ties": 1,
+          "winPercentage": "0.409"
         },
         "stats": {
-          "points": 6,
-          "runsFor": 64,
-          "runsAgainst": 101,
-          "runDifferential": -37
+          "points": 9,
+          "runsFor": 103,
+          "runsAgainst": 127,
+          "runDifferential": -24
         }
       },
       {
-        "position": 9,
+        "position": 7,
+        "team": "Aurora-King Jays 14U A",
+        "teamCode": "510958",
+        "record": {
+          "gamesPlayed": 13,
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "winPercentage": "0.385"
+        },
+        "stats": {
+          "points": 10,
+          "runsFor": 119,
+          "runsAgainst": 148,
+          "runDifferential": -29
+        }
+      },
+      {
+        "position": 10,
         "team": "Collingwood Jays 14U A",
         "teamCode": "510962",
         "record": {
@@ -182,21 +182,21 @@
         }
       },
       {
-        "position": 10,
-        "team": "Aurora-King Jays 14U A",
-        "teamCode": "510958",
+        "position": 11,
+        "team": "Ontario Women's",
+        "teamCode": "546378",
         "record": {
-          "gamesPlayed": 12,
-          "wins": 4,
-          "losses": 8,
+          "gamesPlayed": 9,
+          "wins": 3,
+          "losses": 6,
           "ties": 0,
           "winPercentage": "0.333"
         },
         "stats": {
-          "points": 8,
-          "runsFor": 108,
-          "runsAgainst": 145,
-          "runDifferential": -37
+          "points": 6,
+          "runsFor": 67,
+          "runsAgainst": 112,
+          "runDifferential": -45
         }
       },
       {
@@ -236,7 +236,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-09T21:16:58.984Z",
+    "lastUpdated": "2025-07-09T21:41:47.215Z",
     "totalTeams": 13
   },
   "schedule": {
@@ -320,8 +320,12 @@
             "awayTeam": "Ontario Women's",
             "awayTeamCode": "546378",
             "location": "King Upper Field",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 3,
+              "scoreText": "3-11"
+            }
           }
         ],
         "nextGames": [
@@ -386,7 +390,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-09T21:17:03.270Z"
+        "lastUpdated": "2025-07-09T21:41:51.363Z"
       },
       "510959": {
         "teamCode": "510959",
@@ -533,7 +537,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-09T21:17:03.270Z"
+        "lastUpdated": "2025-07-09T21:41:51.363Z"
       },
       "510960": {
         "teamCode": "510960",
@@ -680,7 +684,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-09T21:17:03.270Z"
+        "lastUpdated": "2025-07-09T21:41:51.363Z"
       },
       "510961": {
         "teamCode": "510961",
@@ -827,7 +831,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-09T21:17:03.270Z"
+        "lastUpdated": "2025-07-09T21:41:51.363Z"
       },
       "510962": {
         "teamCode": "510962",
@@ -978,7 +982,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-09T21:17:03.270Z"
+        "lastUpdated": "2025-07-09T21:41:51.364Z"
       },
       "510963": {
         "teamCode": "510963",
@@ -1125,7 +1129,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-09T21:17:03.270Z"
+        "lastUpdated": "2025-07-09T21:41:51.364Z"
       },
       "510964": {
         "teamCode": "510964",
@@ -1190,8 +1194,12 @@
             "awayTeam": "Richmond Hill Phoenix 14U A",
             "awayTeamCode": "510964",
             "location": "Concord Region #1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 1,
+              "away": 20,
+              "scoreText": "20-1"
+            }
           },
           {
             "date": "2025-07-09T19:30:00.000Z",
@@ -1268,7 +1276,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-09T21:17:03.270Z"
+        "lastUpdated": "2025-07-09T21:41:51.364Z"
       },
       "510965": {
         "teamCode": "510965",
@@ -1333,8 +1341,12 @@
             "awayTeam": "Richmond Hill Phoenix 14U A",
             "awayTeamCode": "510964",
             "location": "Concord Region #1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 1,
+              "away": 20,
+              "scoreText": "20-1"
+            }
           },
           {
             "date": "2025-07-09T19:30:00.000Z",
@@ -1411,7 +1423,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-09T21:17:03.270Z"
+        "lastUpdated": "2025-07-09T21:41:51.364Z"
       },
       "510966": {
         "teamCode": "510966",
@@ -1558,7 +1570,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-09T21:17:03.270Z"
+        "lastUpdated": "2025-07-09T21:41:51.364Z"
       },
       "510979": {
         "teamCode": "510979",
@@ -1701,7 +1713,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-09T21:17:03.270Z"
+        "lastUpdated": "2025-07-09T21:41:51.364Z"
       },
       "516243": {
         "teamCode": "516243",
@@ -1852,7 +1864,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-09T21:17:03.270Z"
+        "lastUpdated": "2025-07-09T21:41:51.364Z"
       },
       "518957": {
         "teamCode": "518957",
@@ -1995,7 +2007,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-09T21:17:03.270Z"
+        "lastUpdated": "2025-07-09T21:41:51.364Z"
       },
       "546378": {
         "teamCode": "546378",
@@ -2056,8 +2068,12 @@
             "awayTeam": "Ontario Women's",
             "awayTeamCode": "546378",
             "location": "King Upper Field",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 3,
+              "scoreText": "3-11"
+            }
           },
           {
             "date": "2025-07-09T19:30:00.000Z",
@@ -2134,7 +2150,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-09T21:17:03.270Z"
+        "lastUpdated": "2025-07-09T21:41:51.364Z"
       }
     },
     "allGames": [
@@ -3295,8 +3311,12 @@
         "awayTeam": "Ontario Women's",
         "awayTeamCode": "546378",
         "location": "King Upper Field",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 3,
+          "scoreText": "3-11"
+        }
       },
       {
         "date": "2025-07-07T19:30:00.000Z",
@@ -3307,8 +3327,12 @@
         "awayTeam": "Richmond Hill Phoenix 14U A",
         "awayTeamCode": "510964",
         "location": "Concord Region #1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 1,
+          "away": 20,
+          "scoreText": "20-1"
+        }
       },
       {
         "date": "2025-07-07T20:00:00.000Z",
@@ -4029,8 +4053,12 @@
         "awayTeam": "Richmond Hill Phoenix 14U A",
         "awayTeamCode": "510964",
         "location": "Concord Region #1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 1,
+          "away": 20,
+          "scoreText": "20-1"
+        }
       },
       {
         "date": "2025-07-07T17:30:00.000Z",
@@ -4041,8 +4069,12 @@
         "awayTeam": "Ontario Women's",
         "awayTeamCode": "546378",
         "location": "King Upper Field",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 3,
+          "scoreText": "3-11"
+        }
       },
       {
         "date": "2025-07-06T18:00:00.000Z",
@@ -4231,20 +4263,20 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-09T21:17:03.270Z",
+    "lastUpdated": "2025-07-09T21:41:51.364Z",
     "totalGames": 130
   },
   "summary": {
     "totalTeams": 13,
     "totalGames": 130,
-    "completedGames": 68,
-    "upcomingGames": 62,
+    "completedGames": 70,
+    "upcomingGames": 60,
     "topTeam": {
       "team": "Richmond Hill Phoenix 14U A",
       "teamCode": "510964",
-      "wins": 10,
+      "wins": 11,
       "losses": 1,
-      "winPercentage": "0.909"
+      "winPercentage": "0.917"
     },
     "highestScoringGame": {
       "homeTeam": "Bradford Tigers 14U A",
@@ -4255,6 +4287,6 @@
       "date": "Mon, May 19",
       "location": "Joe Magani Field #5"
     },
-    "lastUpdated": "2025-07-09T21:19:59.710Z"
+    "lastUpdated": "2025-07-09T21:44:40.165Z"
   }
 }
