@@ -182,7 +182,7 @@
         }
       },
       {
-        "position": 11,
+        "position": 12,
         "team": "Markham Mariners 9U DS",
         "teamCode": "511111",
         "record": {
@@ -200,21 +200,21 @@
         }
       },
       {
-        "position": 12,
+        "position": 11,
         "team": "Vaughan Vikings 8U DS",
         "teamCode": "518965",
         "record": {
-          "gamesPlayed": 10,
-          "wins": 0,
+          "gamesPlayed": 12,
+          "wins": 1,
           "losses": 9,
-          "ties": 1,
-          "winPercentage": "0.050"
+          "ties": 2,
+          "winPercentage": "0.167"
         },
         "stats": {
-          "points": 1,
-          "runsFor": 82,
-          "runsAgainst": 194,
-          "runDifferential": -112
+          "points": 4,
+          "runsFor": 122,
+          "runsAgainst": 225,
+          "runDifferential": -103
         }
       },
       {
@@ -222,17 +222,17 @@
         "team": "Aurora-King Jays 9U DS",
         "teamCode": "511106",
         "record": {
-          "gamesPlayed": 12,
+          "gamesPlayed": 14,
           "wins": 0,
-          "losses": 12,
-          "ties": 0,
-          "winPercentage": "0.000"
+          "losses": 13,
+          "ties": 1,
+          "winPercentage": "0.036"
         },
         "stats": {
-          "points": 0,
-          "runsFor": 61,
-          "runsAgainst": 202,
-          "runDifferential": -141
+          "points": 1,
+          "runsFor": 92,
+          "runsAgainst": 242,
+          "runDifferential": -150
         }
       },
       {
@@ -254,7 +254,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-09T17:21:11.287Z",
+    "lastUpdated": "2025-07-09T17:48:22.231Z",
     "totalTeams": 14
   },
   "schedule": {
@@ -396,7 +396,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-09T17:21:15.850Z"
+        "lastUpdated": "2025-07-09T17:48:26.798Z"
       },
       "511106": {
         "teamCode": "511106",
@@ -461,8 +461,12 @@
             "awayTeam": "Vaughan Vikings 8U DS",
             "awayTeamCode": "518965",
             "location": "Aurora Town Park Diamond",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 19,
+              "scoreText": "19-10"
+            }
           },
           {
             "date": "2025-07-05T12:30:00.000Z",
@@ -473,8 +477,12 @@
             "awayTeam": "Vaughan Vikings 8U DS",
             "awayTeamCode": "518965",
             "location": "Aurora Town Park Diamond",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 21,
+              "away": 21,
+              "scoreText": "21-21"
+            }
           }
         ],
         "nextGames": [
@@ -503,7 +511,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-09T17:21:15.850Z"
+        "lastUpdated": "2025-07-09T17:48:26.798Z"
       },
       "511107": {
         "teamCode": "511107",
@@ -634,7 +642,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-09T17:21:15.850Z"
+        "lastUpdated": "2025-07-09T17:48:26.798Z"
       },
       "511108": {
         "teamCode": "511108",
@@ -785,7 +793,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-09T17:21:15.850Z"
+        "lastUpdated": "2025-07-09T17:48:26.798Z"
       },
       "511109": {
         "teamCode": "511109",
@@ -936,7 +944,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-09T17:21:15.850Z"
+        "lastUpdated": "2025-07-09T17:48:26.798Z"
       },
       "511110": {
         "teamCode": "511110",
@@ -1087,7 +1095,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-09T17:21:15.850Z"
+        "lastUpdated": "2025-07-09T17:48:26.798Z"
       },
       "511111": {
         "teamCode": "511111",
@@ -1238,7 +1246,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-09T17:21:15.850Z"
+        "lastUpdated": "2025-07-09T17:48:26.798Z"
       },
       "511112": {
         "teamCode": "511112",
@@ -1353,7 +1361,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-09T17:21:15.850Z"
+        "lastUpdated": "2025-07-09T17:48:26.798Z"
       },
       "511113": {
         "teamCode": "511113",
@@ -1464,7 +1472,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-09T17:21:15.850Z"
+        "lastUpdated": "2025-07-09T17:48:26.798Z"
       },
       "511114": {
         "teamCode": "511114",
@@ -1579,7 +1587,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-09T17:21:15.850Z"
+        "lastUpdated": "2025-07-09T17:48:26.798Z"
       },
       "511115": {
         "teamCode": "511115",
@@ -1730,7 +1738,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-09T17:21:15.850Z"
+        "lastUpdated": "2025-07-09T17:48:26.798Z"
       },
       "511116": {
         "teamCode": "511116",
@@ -1865,7 +1873,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-09T17:21:15.850Z"
+        "lastUpdated": "2025-07-09T17:48:26.798Z"
       },
       "518965": {
         "teamCode": "518965",
@@ -1930,8 +1938,12 @@
             "awayTeam": "Vaughan Vikings 8U DS",
             "awayTeamCode": "518965",
             "location": "Aurora Town Park Diamond",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 19,
+              "scoreText": "19-10"
+            }
           },
           {
             "date": "2025-07-05T12:30:00.000Z",
@@ -1942,8 +1954,12 @@
             "awayTeam": "Vaughan Vikings 8U DS",
             "awayTeamCode": "518965",
             "location": "Aurora Town Park Diamond",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 21,
+              "away": 21,
+              "scoreText": "21-21"
+            }
           }
         ],
         "nextGames": [
@@ -1996,7 +2012,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-09T17:21:15.850Z"
+        "lastUpdated": "2025-07-09T17:48:26.798Z"
       },
       "518966": {
         "teamCode": "518966",
@@ -2111,7 +2127,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-09T17:21:15.850Z"
+        "lastUpdated": "2025-07-09T17:48:26.798Z"
       }
     },
     "allGames": [
@@ -3336,8 +3352,12 @@
         "awayTeam": "Vaughan Vikings 8U DS",
         "awayTeamCode": "518965",
         "location": "Aurora Town Park Diamond",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 19,
+          "scoreText": "19-10"
+        }
       },
       {
         "date": "2025-07-05T12:30:00.000Z",
@@ -3348,8 +3368,12 @@
         "awayTeam": "Vaughan Vikings 8U DS",
         "awayTeamCode": "518965",
         "location": "Aurora Town Park Diamond",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 21,
+          "away": 21,
+          "scoreText": "21-21"
+        }
       },
       {
         "date": "2025-07-05T12:30:00.000Z",
@@ -3810,8 +3834,12 @@
         "awayTeam": "Vaughan Vikings 8U DS",
         "awayTeamCode": "518965",
         "location": "Aurora Town Park Diamond",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 21,
+          "away": 21,
+          "scoreText": "21-21"
+        }
       },
       {
         "date": "2025-07-05T12:30:00.000Z",
@@ -3850,8 +3878,12 @@
         "awayTeam": "Vaughan Vikings 8U DS",
         "awayTeamCode": "518965",
         "location": "Aurora Town Park Diamond",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 19,
+          "scoreText": "19-10"
+        }
       },
       {
         "date": "2025-07-04T20:00:00.000Z",
@@ -4040,14 +4072,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-09T17:21:15.850Z",
+    "lastUpdated": "2025-07-09T17:48:26.798Z",
     "totalGames": 112
   },
   "summary": {
     "totalTeams": 14,
     "totalGames": 112,
-    "completedGames": 77,
-    "upcomingGames": 35,
+    "completedGames": 79,
+    "upcomingGames": 33,
     "topTeam": {
       "team": "Midland Penetang Twins 9U DS",
       "teamCode": "511105",
@@ -4064,6 +4096,6 @@
       "date": "Sat, May 31",
       "location": "Maple Community Centre"
     },
-    "lastUpdated": "2025-07-09T17:21:39.362Z"
+    "lastUpdated": "2025-07-09T17:48:49.780Z"
   }
 }
