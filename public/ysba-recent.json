@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-07-10T10:52:15.419Z",
+  "lastUpdated": "2025-07-10T11:19:28.309Z",
   "totalGames": 190,
   "games": [
     {
@@ -159,8 +159,12 @@
       "awayTeam": "Collingwood Jays 18U A",
       "awayTeamCode": "511027",
       "location": "Barrie Community Sports Complex",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 6,
+        "away": 1,
+        "scoreText": "1-6"
+      },
       "division": "18U",
       "tier": "rep-no-tier"
     },
