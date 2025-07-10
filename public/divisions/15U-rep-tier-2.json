@@ -38,24 +38,6 @@
         }
       },
       {
-        "position": 2,
-        "team": "Bradford Tigers 15U AA",
-        "teamCode": "510988",
-        "record": {
-          "gamesPlayed": 11,
-          "wins": 7,
-          "losses": 3,
-          "ties": 1,
-          "winPercentage": "0.682"
-        },
-        "stats": {
-          "points": 15,
-          "runsFor": 109,
-          "runsAgainst": 73,
-          "runDifferential": 36
-        }
-      },
-      {
         "position": 3,
         "team": "Barrie Baycats 15U AA",
         "teamCode": "510987",
@@ -71,6 +53,24 @@
           "runsFor": 86,
           "runsAgainst": 69,
           "runDifferential": 17
+        }
+      },
+      {
+        "position": 2,
+        "team": "Bradford Tigers 15U AA",
+        "teamCode": "510988",
+        "record": {
+          "gamesPlayed": 12,
+          "wins": 7,
+          "losses": 4,
+          "ties": 1,
+          "winPercentage": "0.625"
+        },
+        "stats": {
+          "points": 15,
+          "runsFor": 116,
+          "runsAgainst": 86,
+          "runDifferential": 30
         }
       },
       {
@@ -92,7 +92,7 @@
         }
       },
       {
-        "position": 7,
+        "position": 8,
         "team": "Thornhill Reds 15U AA",
         "teamCode": "510992",
         "record": {
@@ -110,7 +110,7 @@
         }
       },
       {
-        "position": 6,
+        "position": 7,
         "team": "Aurora-King Jays 15U AA",
         "teamCode": "510993",
         "record": {
@@ -128,25 +128,25 @@
         }
       },
       {
-        "position": 8,
+        "position": 6,
         "team": "Newmarket Hawks 15U AA",
         "teamCode": "510991",
         "record": {
-          "gamesPlayed": 10,
-          "wins": 1,
+          "gamesPlayed": 11,
+          "wins": 2,
           "losses": 9,
           "ties": 0,
-          "winPercentage": "0.100"
+          "winPercentage": "0.182"
         },
         "stats": {
-          "points": 2,
-          "runsFor": 65,
-          "runsAgainst": 126,
-          "runDifferential": -61
+          "points": 4,
+          "runsFor": 78,
+          "runsAgainst": 133,
+          "runDifferential": -55
         }
       }
     ],
-    "lastUpdated": "2025-07-10T01:15:26.166Z",
+    "lastUpdated": "2025-07-10T03:11:15.815Z",
     "totalTeams": 8
   },
   "schedule": {
@@ -296,7 +296,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-10T01:15:30.479Z"
+        "lastUpdated": "2025-07-10T03:11:20.476Z"
       },
       "510981": {
         "teamCode": "510981",
@@ -447,7 +447,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-10T01:15:30.479Z"
+        "lastUpdated": "2025-07-10T03:11:20.476Z"
       },
       "510982": {
         "teamCode": "510982",
@@ -594,7 +594,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-10T01:15:30.480Z"
+        "lastUpdated": "2025-07-10T03:11:20.476Z"
       },
       "510983": {
         "teamCode": "510983",
@@ -741,7 +741,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-10T01:15:30.480Z"
+        "lastUpdated": "2025-07-10T03:11:20.476Z"
       },
       "510984": {
         "teamCode": "510984",
@@ -892,7 +892,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-10T01:15:30.480Z"
+        "lastUpdated": "2025-07-10T03:11:20.476Z"
       },
       "510985": {
         "teamCode": "510985",
@@ -1043,7 +1043,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-10T01:15:30.480Z"
+        "lastUpdated": "2025-07-10T03:11:20.476Z"
       },
       "510986": {
         "teamCode": "510986",
@@ -1186,7 +1186,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-10T01:15:30.480Z"
+        "lastUpdated": "2025-07-10T03:11:20.476Z"
       },
       "510987": {
         "teamCode": "510987",
@@ -1337,7 +1337,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-10T01:15:30.480Z"
+        "lastUpdated": "2025-07-10T03:11:20.476Z"
       },
       "510988": {
         "teamCode": "510988",
@@ -1418,8 +1418,12 @@
             "awayTeam": "Bradford Tigers 15U AA",
             "awayTeamCode": "510988",
             "location": "Whipper Watson",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 7,
+              "scoreText": "7-13"
+            }
           }
         ],
         "nextGames": [
@@ -1484,7 +1488,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-10T01:15:30.480Z"
+        "lastUpdated": "2025-07-10T03:11:20.476Z"
       },
       "510989": {
         "teamCode": "510989",
@@ -1631,7 +1635,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-10T01:15:30.480Z"
+        "lastUpdated": "2025-07-10T03:11:20.476Z"
       },
       "510990": {
         "teamCode": "510990",
@@ -1782,7 +1786,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-10T01:15:30.480Z"
+        "lastUpdated": "2025-07-10T03:11:20.476Z"
       },
       "510991": {
         "teamCode": "510991",
@@ -1863,8 +1867,12 @@
             "awayTeam": "Bradford Tigers 15U AA",
             "awayTeamCode": "510988",
             "location": "Whipper Watson",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 7,
+              "scoreText": "7-13"
+            }
           }
         ],
         "nextGames": [
@@ -1929,7 +1937,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-10T01:15:30.480Z"
+        "lastUpdated": "2025-07-10T03:11:20.476Z"
       },
       "510992": {
         "teamCode": "510992",
@@ -2076,7 +2084,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-10T01:15:30.480Z"
+        "lastUpdated": "2025-07-10T03:11:20.476Z"
       },
       "510993": {
         "teamCode": "510993",
@@ -2227,7 +2235,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-10T01:15:30.480Z"
+        "lastUpdated": "2025-07-10T03:11:20.476Z"
       },
       "510998": {
         "teamCode": "510998",
@@ -2374,7 +2382,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-10T01:15:30.480Z"
+        "lastUpdated": "2025-07-10T03:11:20.476Z"
       },
       "516244": {
         "teamCode": "516244",
@@ -2525,7 +2533,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-10T01:15:30.480Z"
+        "lastUpdated": "2025-07-10T03:11:20.476Z"
       },
       "518959": {
         "teamCode": "518959",
@@ -2676,7 +2684,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-10T01:15:30.480Z"
+        "lastUpdated": "2025-07-10T03:11:20.476Z"
       },
       "546379": {
         "teamCode": "546379",
@@ -2827,7 +2835,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-10T01:15:30.480Z"
+        "lastUpdated": "2025-07-10T03:11:20.476Z"
       }
     },
     "allGames": [
@@ -4400,8 +4408,12 @@
         "awayTeam": "Bradford Tigers 15U AA",
         "awayTeamCode": "510988",
         "location": "Whipper Watson",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 7,
+          "scoreText": "7-13"
+        }
       },
       {
         "date": "2025-07-10T18:00:00.000Z",
@@ -5146,8 +5158,12 @@
         "awayTeam": "Bradford Tigers 15U AA",
         "awayTeamCode": "510988",
         "location": "Whipper Watson",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 7,
+          "scoreText": "7-13"
+        }
       },
       {
         "date": "2025-07-09T18:30:00.000Z",
@@ -5408,14 +5424,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-10T01:15:30.480Z",
+    "lastUpdated": "2025-07-10T03:11:20.476Z",
     "totalGames": 162
   },
   "summary": {
     "totalTeams": 8,
     "totalGames": 162,
-    "completedGames": 90,
-    "upcomingGames": 72,
+    "completedGames": 91,
+    "upcomingGames": 71,
     "topTeam": {
       "team": "Innisfil Cardinals 15U AA",
       "teamCode": "510989",
@@ -5432,6 +5448,6 @@
       "date": "Thu, May 29",
       "location": "Bethesda Fields #2"
     },
-    "lastUpdated": "2025-07-10T01:17:59.081Z"
+    "lastUpdated": "2025-07-10T03:13:56.328Z"
   }
 }
