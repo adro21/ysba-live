@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-07-11T01:18:49.735Z",
+  "lastUpdated": "2025-07-11T03:18:08.451Z",
   "totalGames": 190,
   "games": [
     {
@@ -379,8 +379,12 @@
       "awayTeam": "Orillia Royals 13U DS",
       "awayTeamCode": "511094",
       "location": "Udell Park",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 11,
+        "away": 6,
+        "scoreText": "6-11"
+      },
       "division": "13U",
       "tier": "select-all-tiers"
     },
