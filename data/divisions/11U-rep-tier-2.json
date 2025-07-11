@@ -6,17 +6,17 @@
         "team": "Barrie Baycats 11U AA",
         "teamCode": "510906",
         "record": {
-          "gamesPlayed": 9,
-          "wins": 7,
+          "gamesPlayed": 10,
+          "wins": 8,
           "losses": 2,
           "ties": 0,
-          "winPercentage": "0.778"
+          "winPercentage": "0.800"
         },
         "stats": {
-          "points": 14,
-          "runsFor": 92,
-          "runsAgainst": 57,
-          "runDifferential": 35
+          "points": 16,
+          "runsFor": 101,
+          "runsAgainst": 60,
+          "runDifferential": 41
         }
       },
       {
@@ -38,24 +38,6 @@
         }
       },
       {
-        "position": 3,
-        "team": "Richmond Hill Phoenix 11U AA",
-        "teamCode": "510910",
-        "record": {
-          "gamesPlayed": 10,
-          "wins": 6,
-          "losses": 4,
-          "ties": 0,
-          "winPercentage": "0.600"
-        },
-        "stats": {
-          "points": 12,
-          "runsFor": 80,
-          "runsAgainst": 52,
-          "runDifferential": 28
-        }
-      },
-      {
         "position": 5,
         "team": "Aurora-King Jays 11U AA",
         "teamCode": "510905",
@@ -71,6 +53,24 @@
           "runsFor": 54,
           "runsAgainst": 67,
           "runDifferential": -13
+        }
+      },
+      {
+        "position": 3,
+        "team": "Richmond Hill Phoenix 11U AA",
+        "teamCode": "510910",
+        "record": {
+          "gamesPlayed": 11,
+          "wins": 6,
+          "losses": 5,
+          "ties": 0,
+          "winPercentage": "0.545"
+        },
+        "stats": {
+          "points": 12,
+          "runsFor": 83,
+          "runsAgainst": 61,
+          "runDifferential": 22
         }
       },
       {
@@ -182,7 +182,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-11T10:17:29.669Z",
+    "lastUpdated": "2025-07-11T10:46:49.279Z",
     "totalTeams": 10
   },
   "schedule": {
@@ -328,7 +328,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-11T10:17:33.814Z"
+        "lastUpdated": "2025-07-11T10:46:53.434Z"
       },
       "510892": {
         "teamCode": "510892",
@@ -475,7 +475,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-11T10:17:33.814Z"
+        "lastUpdated": "2025-07-11T10:46:53.434Z"
       },
       "510893": {
         "teamCode": "510893",
@@ -618,7 +618,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-11T10:17:33.814Z"
+        "lastUpdated": "2025-07-11T10:46:53.434Z"
       },
       "510894": {
         "teamCode": "510894",
@@ -765,7 +765,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-11T10:17:33.814Z"
+        "lastUpdated": "2025-07-11T10:46:53.434Z"
       },
       "510897": {
         "teamCode": "510897",
@@ -908,7 +908,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-11T10:17:33.814Z"
+        "lastUpdated": "2025-07-11T10:46:53.434Z"
       },
       "510898": {
         "teamCode": "510898",
@@ -1059,7 +1059,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-11T10:17:33.814Z"
+        "lastUpdated": "2025-07-11T10:46:53.434Z"
       },
       "510903": {
         "teamCode": "510903",
@@ -1158,7 +1158,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-11T10:17:33.814Z"
+        "lastUpdated": "2025-07-11T10:46:53.434Z"
       },
       "510905": {
         "teamCode": "510905",
@@ -1309,7 +1309,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-11T10:17:33.814Z"
+        "lastUpdated": "2025-07-11T10:46:53.434Z"
       },
       "510906": {
         "teamCode": "510906",
@@ -1369,7 +1369,7 @@
             "homeTeamCode": "510910",
             "awayTeam": "Barrie Baycats 11U AA",
             "awayTeamCode": "510906",
-            "location": "David Hamilton #2",
+            "location": "PPD",
             "isCompleted": false,
             "score": null
           },
@@ -1382,8 +1382,12 @@
             "awayTeam": "Richmond Hill Phoenix 11U AA",
             "awayTeamCode": "510910",
             "location": "Sports Complex #12",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 3,
+              "scoreText": "3-9"
+            }
           }
         ],
         "nextGames": [
@@ -1424,7 +1428,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-11T10:17:33.814Z"
+        "lastUpdated": "2025-07-11T10:46:53.434Z"
       },
       "510907": {
         "teamCode": "510907",
@@ -1575,7 +1579,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-11T10:17:33.814Z"
+        "lastUpdated": "2025-07-11T10:46:53.434Z"
       },
       "510908": {
         "teamCode": "510908",
@@ -1722,7 +1726,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-11T10:17:33.814Z"
+        "lastUpdated": "2025-07-11T10:46:53.434Z"
       },
       "510909": {
         "teamCode": "510909",
@@ -1873,7 +1877,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-11T10:17:33.814Z"
+        "lastUpdated": "2025-07-11T10:46:53.434Z"
       },
       "510910": {
         "teamCode": "510910",
@@ -1937,7 +1941,7 @@
             "homeTeamCode": "510910",
             "awayTeam": "Barrie Baycats 11U AA",
             "awayTeamCode": "510906",
-            "location": "David Hamilton #2",
+            "location": "PPD",
             "isCompleted": false,
             "score": null
           },
@@ -1950,8 +1954,12 @@
             "awayTeam": "Richmond Hill Phoenix 11U AA",
             "awayTeamCode": "510910",
             "location": "Sports Complex #12",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 3,
+              "scoreText": "3-9"
+            }
           }
         ],
         "nextGames": [
@@ -2004,7 +2012,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-11T10:17:33.814Z"
+        "lastUpdated": "2025-07-11T10:46:53.434Z"
       },
       "510911": {
         "teamCode": "510911",
@@ -2151,7 +2159,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-11T10:17:33.814Z"
+        "lastUpdated": "2025-07-11T10:46:53.434Z"
       },
       "510912": {
         "teamCode": "510912",
@@ -2302,7 +2310,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-11T10:17:33.814Z"
+        "lastUpdated": "2025-07-11T10:46:53.434Z"
       },
       "510913": {
         "teamCode": "510913",
@@ -2453,7 +2461,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-11T10:17:33.814Z"
+        "lastUpdated": "2025-07-11T10:46:53.434Z"
       },
       "510916": {
         "teamCode": "510916",
@@ -2596,7 +2604,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-11T10:17:33.815Z"
+        "lastUpdated": "2025-07-11T10:46:53.434Z"
       },
       "510917": {
         "teamCode": "510917",
@@ -2747,7 +2755,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-11T10:17:33.815Z"
+        "lastUpdated": "2025-07-11T10:46:53.434Z"
       },
       "516241": {
         "teamCode": "516241",
@@ -2894,7 +2902,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-11T10:17:33.815Z"
+        "lastUpdated": "2025-07-11T10:46:53.434Z"
       }
     },
     "allGames": [
@@ -4518,7 +4526,7 @@
         "homeTeamCode": "510910",
         "awayTeam": "Barrie Baycats 11U AA",
         "awayTeamCode": "510906",
-        "location": "David Hamilton #2",
+        "location": "PPD",
         "isCompleted": false,
         "score": null
       },
@@ -4543,8 +4551,12 @@
         "awayTeam": "Richmond Hill Phoenix 11U AA",
         "awayTeamCode": "510910",
         "location": "Sports Complex #12",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 3,
+          "scoreText": "3-9"
+        }
       },
       {
         "date": "2025-07-14T18:00:00.000Z",
@@ -5229,8 +5241,12 @@
         "awayTeam": "Richmond Hill Phoenix 11U AA",
         "awayTeamCode": "510910",
         "location": "Sports Complex #12",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 3,
+          "scoreText": "3-9"
+        }
       },
       {
         "date": "2025-07-09T19:00:00.000Z",
@@ -5240,7 +5256,7 @@
         "homeTeamCode": "510910",
         "awayTeam": "Barrie Baycats 11U AA",
         "awayTeamCode": "510906",
-        "location": "David Hamilton #2",
+        "location": "PPD",
         "isCompleted": false,
         "score": null
       },
@@ -5479,20 +5495,20 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-11T10:17:33.815Z",
+    "lastUpdated": "2025-07-11T10:46:53.434Z",
     "totalGames": 162
   },
   "summary": {
     "totalTeams": 10,
     "totalGames": 162,
-    "completedGames": 94,
-    "upcomingGames": 68,
+    "completedGames": 95,
+    "upcomingGames": 67,
     "topTeam": {
       "team": "Barrie Baycats 11U AA",
       "teamCode": "510906",
-      "wins": 7,
+      "wins": 8,
       "losses": 2,
-      "winPercentage": "0.778"
+      "winPercentage": "0.800"
     },
     "highestScoringGame": {
       "homeTeam": "Georgina Bulldogs 11U B",
@@ -5503,6 +5519,6 @@
       "date": "Wed, Jun 25",
       "location": "ROC 2"
     },
-    "lastUpdated": "2025-07-11T10:22:05.007Z"
+    "lastUpdated": "2025-07-11T10:51:22.867Z"
   }
 }
