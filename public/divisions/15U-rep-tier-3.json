@@ -2,25 +2,25 @@
   "standings": {
     "teams": [
       {
-        "position": 1,
+        "position": 2,
         "team": "Stouffville Yankees 15U A",
         "teamCode": "510985",
         "record": {
-          "gamesPlayed": 9,
+          "gamesPlayed": 10,
           "wins": 9,
-          "losses": 0,
+          "losses": 1,
           "ties": 0,
-          "winPercentage": "1.000"
+          "winPercentage": "0.900"
         },
         "stats": {
           "points": 18,
-          "runsFor": 116,
-          "runsAgainst": 49,
-          "runDifferential": 67
+          "runsFor": 117,
+          "runsAgainst": 56,
+          "runDifferential": 61
         }
       },
       {
-        "position": 2,
+        "position": 3,
         "team": "Ontario Women",
         "teamCode": "546379",
         "record": {
@@ -38,21 +38,21 @@
         }
       },
       {
-        "position": 3,
+        "position": 1,
         "team": "Georgina Bulldogs 15U B",
         "teamCode": "510998",
         "record": {
-          "gamesPlayed": 10,
-          "wins": 7,
+          "gamesPlayed": 12,
+          "wins": 9,
           "losses": 3,
           "ties": 0,
-          "winPercentage": "0.700"
+          "winPercentage": "0.750"
         },
         "stats": {
-          "points": 14,
-          "runsFor": 120,
-          "runsAgainst": 82,
-          "runDifferential": 38
+          "points": 18,
+          "runsFor": 145,
+          "runsAgainst": 91,
+          "runDifferential": 54
         }
       },
       {
@@ -60,17 +60,17 @@
         "team": "Collingwood Jays 15U A",
         "teamCode": "510986",
         "record": {
-          "gamesPlayed": 8,
-          "wins": 5,
+          "gamesPlayed": 9,
+          "wins": 6,
           "losses": 3,
           "ties": 0,
-          "winPercentage": "0.625"
+          "winPercentage": "0.667"
         },
         "stats": {
-          "points": 10,
-          "runsFor": 78,
-          "runsAgainst": 48,
-          "runDifferential": 30
+          "points": 12,
+          "runsFor": 89,
+          "runsAgainst": 49,
+          "runDifferential": 40
         }
       },
       {
@@ -78,17 +78,17 @@
         "team": "Aurora-King Jays 15U A",
         "teamCode": "510980",
         "record": {
-          "gamesPlayed": 10,
+          "gamesPlayed": 11,
           "wins": 6,
-          "losses": 4,
+          "losses": 5,
           "ties": 0,
-          "winPercentage": "0.600"
+          "winPercentage": "0.545"
         },
         "stats": {
           "points": 12,
-          "runsFor": 81,
-          "runsAgainst": 75,
-          "runDifferential": 6
+          "runsFor": 82,
+          "runsAgainst": 86,
+          "runDifferential": -4
         }
       },
       {
@@ -114,17 +114,17 @@
         "team": "Bradford Tigers 15U A",
         "teamCode": "510982",
         "record": {
-          "gamesPlayed": 11,
+          "gamesPlayed": 12,
           "wins": 4,
-          "losses": 6,
+          "losses": 7,
           "ties": 1,
-          "winPercentage": "0.409"
+          "winPercentage": "0.375"
         },
         "stats": {
           "points": 9,
-          "runsFor": 87,
-          "runsAgainst": 101,
-          "runDifferential": -14
+          "runsFor": 95,
+          "runsAgainst": 119,
+          "runDifferential": -24
         }
       },
       {
@@ -182,7 +182,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-11T15:45:39.041Z",
+    "lastUpdated": "2025-07-11T16:22:05.472Z",
     "totalTeams": 10
   },
   "schedule": {
@@ -266,8 +266,12 @@
             "awayTeam": "Aurora-King Jays 15U A",
             "awayTeamCode": "510980",
             "location": "Legion Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 1,
+              "scoreText": "1-11"
+            }
           }
         ],
         "nextGames": [
@@ -332,7 +336,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-11T15:45:43.302Z"
+        "lastUpdated": "2025-07-11T16:22:10.104Z"
       },
       "510981": {
         "teamCode": "510981",
@@ -483,7 +487,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-11T15:45:43.302Z"
+        "lastUpdated": "2025-07-11T16:22:10.104Z"
       },
       "510982": {
         "teamCode": "510982",
@@ -548,8 +552,12 @@
             "awayTeam": "Bradford Tigers 15U A",
             "awayTeamCode": "510982",
             "location": "ROC #1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 18,
+              "away": 8,
+              "scoreText": "8-18"
+            }
           },
           {
             "date": "2025-07-10T20:00:00.000Z",
@@ -626,7 +634,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-11T15:45:43.302Z"
+        "lastUpdated": "2025-07-11T16:22:10.104Z"
       },
       "510983": {
         "teamCode": "510983",
@@ -773,7 +781,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-11T15:45:43.302Z"
+        "lastUpdated": "2025-07-11T16:22:10.104Z"
       },
       "510984": {
         "teamCode": "510984",
@@ -924,7 +932,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-11T15:45:43.302Z"
+        "lastUpdated": "2025-07-11T16:22:10.104Z"
       },
       "510985": {
         "teamCode": "510985",
@@ -1005,8 +1013,12 @@
             "awayTeam": "Georgina Bulldogs 15U B",
             "awayTeamCode": "510998",
             "location": "Bethesda Fields #2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 1,
+              "away": 7,
+              "scoreText": "7-1"
+            }
           }
         ],
         "nextGames": [
@@ -1071,7 +1083,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-11T15:45:43.302Z"
+        "lastUpdated": "2025-07-11T16:22:10.104Z"
       },
       "510986": {
         "teamCode": "510986",
@@ -1132,8 +1144,12 @@
             "awayTeam": "Aurora-King Jays 15U A",
             "awayTeamCode": "510980",
             "location": "Legion Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 1,
+              "scoreText": "1-11"
+            }
           },
           {
             "date": "2025-07-10T20:00:00.000Z",
@@ -1210,7 +1226,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-11T15:45:43.302Z"
+        "lastUpdated": "2025-07-11T16:22:10.104Z"
       },
       "510987": {
         "teamCode": "510987",
@@ -1361,7 +1377,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-11T15:45:43.303Z"
+        "lastUpdated": "2025-07-11T16:22:10.104Z"
       },
       "510988": {
         "teamCode": "510988",
@@ -1512,7 +1528,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-11T15:45:43.303Z"
+        "lastUpdated": "2025-07-11T16:22:10.104Z"
       },
       "510989": {
         "teamCode": "510989",
@@ -1659,7 +1675,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-11T15:45:43.303Z"
+        "lastUpdated": "2025-07-11T16:22:10.104Z"
       },
       "510990": {
         "teamCode": "510990",
@@ -1810,7 +1826,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-11T15:45:43.303Z"
+        "lastUpdated": "2025-07-11T16:22:10.104Z"
       },
       "510991": {
         "teamCode": "510991",
@@ -1961,7 +1977,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-11T15:45:43.303Z"
+        "lastUpdated": "2025-07-11T16:22:10.104Z"
       },
       "510992": {
         "teamCode": "510992",
@@ -2108,7 +2124,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-11T15:45:43.303Z"
+        "lastUpdated": "2025-07-11T16:22:10.104Z"
       },
       "510993": {
         "teamCode": "510993",
@@ -2259,7 +2275,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-11T15:45:43.303Z"
+        "lastUpdated": "2025-07-11T16:22:10.104Z"
       },
       "510998": {
         "teamCode": "510998",
@@ -2324,8 +2340,12 @@
             "awayTeam": "Bradford Tigers 15U A",
             "awayTeamCode": "510982",
             "location": "ROC #1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 18,
+              "away": 8,
+              "scoreText": "8-18"
+            }
           },
           {
             "date": "2025-07-10T19:30:00.000Z",
@@ -2336,8 +2356,12 @@
             "awayTeam": "Georgina Bulldogs 15U B",
             "awayTeamCode": "510998",
             "location": "Bethesda Fields #2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 1,
+              "away": 7,
+              "scoreText": "7-1"
+            }
           }
         ],
         "nextGames": [
@@ -2402,7 +2426,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-11T15:45:43.303Z"
+        "lastUpdated": "2025-07-11T16:22:10.104Z"
       },
       "516244": {
         "teamCode": "516244",
@@ -2553,7 +2577,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-11T15:45:43.303Z"
+        "lastUpdated": "2025-07-11T16:22:10.104Z"
       },
       "518959": {
         "teamCode": "518959",
@@ -2704,7 +2728,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-11T15:45:43.303Z"
+        "lastUpdated": "2025-07-11T16:22:10.104Z"
       },
       "546379": {
         "teamCode": "546379",
@@ -2855,7 +2879,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-11T15:45:43.303Z"
+        "lastUpdated": "2025-07-11T16:22:10.104Z"
       }
     },
     "allGames": [
@@ -4404,8 +4428,12 @@
         "awayTeam": "Bradford Tigers 15U A",
         "awayTeamCode": "510982",
         "location": "ROC #1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 18,
+          "away": 8,
+          "scoreText": "8-18"
+        }
       },
       {
         "date": "2025-07-09T18:30:00.000Z",
@@ -4416,8 +4444,12 @@
         "awayTeam": "Aurora-King Jays 15U A",
         "awayTeamCode": "510980",
         "location": "Legion Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 1,
+          "scoreText": "1-11"
+        }
       },
       {
         "date": "2025-07-09T20:30:00.000Z",
@@ -4476,8 +4508,12 @@
         "awayTeam": "Georgina Bulldogs 15U B",
         "awayTeamCode": "510998",
         "location": "Bethesda Fields #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 1,
+          "away": 7,
+          "scoreText": "7-1"
+        }
       },
       {
         "date": "2025-07-10T20:00:00.000Z",
@@ -5198,8 +5234,12 @@
         "awayTeam": "Georgina Bulldogs 15U B",
         "awayTeamCode": "510998",
         "location": "Bethesda Fields #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 1,
+          "away": 7,
+          "scoreText": "7-1"
+        }
       },
       {
         "date": "2025-07-10T19:00:00.000Z",
@@ -5258,8 +5298,12 @@
         "awayTeam": "Bradford Tigers 15U A",
         "awayTeamCode": "510982",
         "location": "ROC #1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 18,
+          "away": 8,
+          "scoreText": "8-18"
+        }
       },
       {
         "date": "2025-07-09T18:30:00.000Z",
@@ -5270,8 +5314,12 @@
         "awayTeam": "Aurora-King Jays 15U A",
         "awayTeamCode": "510980",
         "location": "Legion Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 1,
+          "scoreText": "1-11"
+        }
       },
       {
         "date": "2025-07-08T20:30:00.000Z",
@@ -5444,20 +5492,20 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-11T15:45:43.303Z",
+    "lastUpdated": "2025-07-11T16:22:10.104Z",
     "totalGames": 162
   },
   "summary": {
     "totalTeams": 10,
     "totalGames": 162,
-    "completedGames": 93,
-    "upcomingGames": 69,
+    "completedGames": 96,
+    "upcomingGames": 66,
     "topTeam": {
       "team": "Stouffville Yankees 15U A",
       "teamCode": "510985",
       "wins": 9,
-      "losses": 0,
-      "winPercentage": "1.000"
+      "losses": 1,
+      "winPercentage": "0.900"
     },
     "highestScoringGame": {
       "homeTeam": "Stouffville Yankees 15U A",
@@ -5468,6 +5516,6 @@
       "date": "Thu, May 29",
       "location": "Bethesda Fields #2"
     },
-    "lastUpdated": "2025-07-11T15:48:00.290Z"
+    "lastUpdated": "2025-07-11T16:24:36.453Z"
   }
 }
