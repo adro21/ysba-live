@@ -6,21 +6,21 @@
         "team": "Aurora-King Jays 18U A",
         "teamCode": "511022",
         "record": {
-          "gamesPlayed": 11,
-          "wins": 10,
+          "gamesPlayed": 12,
+          "wins": 11,
           "losses": 1,
           "ties": 0,
-          "winPercentage": "0.909"
+          "winPercentage": "0.917"
         },
         "stats": {
-          "points": 20,
-          "runsFor": 93,
+          "points": 22,
+          "runsFor": 104,
           "runsAgainst": 47,
-          "runDifferential": 46
+          "runDifferential": 57
         }
       },
       {
-        "position": 3,
+        "position": 4,
         "team": "Barrie Baycats 18U A",
         "teamCode": "511024",
         "record": {
@@ -56,7 +56,7 @@
         }
       },
       {
-        "position": 2,
+        "position": 3,
         "team": "Bradford Tigers 18U A",
         "teamCode": "511025",
         "record": {
@@ -71,6 +71,24 @@
           "runsFor": 135,
           "runsAgainst": 83,
           "runDifferential": 52
+        }
+      },
+      {
+        "position": 2,
+        "team": "Aurora-King Jays 17U A",
+        "teamCode": "511021",
+        "record": {
+          "gamesPlayed": 15,
+          "wins": 10,
+          "losses": 5,
+          "ties": 0,
+          "winPercentage": "0.667"
+        },
+        "stats": {
+          "points": 20,
+          "runsFor": 114,
+          "runsAgainst": 73,
+          "runDifferential": 41
         }
       },
       {
@@ -89,24 +107,6 @@
           "runsFor": 76,
           "runsAgainst": 65,
           "runDifferential": 11
-        }
-      },
-      {
-        "position": 4,
-        "team": "Aurora-King Jays 17U A",
-        "teamCode": "511021",
-        "record": {
-          "gamesPlayed": 14,
-          "wins": 9,
-          "losses": 5,
-          "ties": 0,
-          "winPercentage": "0.643"
-        },
-        "stats": {
-          "points": 18,
-          "runsFor": 101,
-          "runsAgainst": 66,
-          "runDifferential": 35
         }
       },
       {
@@ -146,24 +146,6 @@
         }
       },
       {
-        "position": 6,
-        "team": "Orillia Royals 18U B",
-        "teamCode": "511032",
-        "record": {
-          "gamesPlayed": 14,
-          "wins": 7,
-          "losses": 6,
-          "ties": 1,
-          "winPercentage": "0.536"
-        },
-        "stats": {
-          "points": 15,
-          "runsFor": 86,
-          "runsAgainst": 73,
-          "runDifferential": 13
-        }
-      },
-      {
         "position": 7,
         "team": "Caledon Nationals 18U A",
         "teamCode": "511026",
@@ -197,6 +179,24 @@
           "runsFor": 75,
           "runsAgainst": 56,
           "runDifferential": 19
+        }
+      },
+      {
+        "position": 6,
+        "team": "Orillia Royals 18U B",
+        "teamCode": "511032",
+        "record": {
+          "gamesPlayed": 16,
+          "wins": 7,
+          "losses": 8,
+          "ties": 1,
+          "winPercentage": "0.469"
+        },
+        "stats": {
+          "points": 15,
+          "runsFor": 93,
+          "runsAgainst": 97,
+          "runDifferential": -4
         }
       },
       {
@@ -344,7 +344,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-12T01:18:43.880Z",
+    "lastUpdated": "2025-07-12T03:14:01.928Z",
     "totalTeams": 19
   },
   "schedule": {
@@ -428,8 +428,12 @@
             "awayTeam": "Orillia Royals 18U B",
             "awayTeamCode": "511032",
             "location": "Stewart Burnett Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 7,
+              "scoreText": "7-13"
+            }
           }
         ],
         "nextGames": [
@@ -458,7 +462,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-12T01:18:48.418Z"
+        "lastUpdated": "2025-07-12T03:14:06.425Z"
       },
       "511022": {
         "teamCode": "511022",
@@ -535,8 +539,12 @@
             "awayTeam": "Orillia Royals 18U B",
             "awayTeamCode": "511032",
             "location": "Stewart Burnett Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 0,
+              "scoreText": "0-11"
+            }
           }
         ],
         "nextGames": [
@@ -589,7 +597,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-12T01:18:48.418Z"
+        "lastUpdated": "2025-07-12T03:14:06.425Z"
       },
       "511023": {
         "teamCode": "511023",
@@ -728,7 +736,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-12T01:18:48.418Z"
+        "lastUpdated": "2025-07-12T03:14:06.425Z"
       },
       "511024": {
         "teamCode": "511024",
@@ -879,7 +887,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-12T01:18:48.418Z"
+        "lastUpdated": "2025-07-12T03:14:06.425Z"
       },
       "511025": {
         "teamCode": "511025",
@@ -994,7 +1002,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-12T01:18:48.418Z"
+        "lastUpdated": "2025-07-12T03:14:06.425Z"
       },
       "511026": {
         "teamCode": "511026",
@@ -1105,7 +1113,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-12T01:18:48.418Z"
+        "lastUpdated": "2025-07-12T03:14:06.425Z"
       },
       "511027": {
         "teamCode": "511027",
@@ -1252,7 +1260,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-12T01:18:48.418Z"
+        "lastUpdated": "2025-07-12T03:14:06.425Z"
       },
       "511028": {
         "teamCode": "511028",
@@ -1375,7 +1383,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-12T01:18:48.418Z"
+        "lastUpdated": "2025-07-12T03:14:06.425Z"
       },
       "511030": {
         "teamCode": "511030",
@@ -1514,7 +1522,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-12T01:18:48.418Z"
+        "lastUpdated": "2025-07-12T03:14:06.425Z"
       },
       "511031": {
         "teamCode": "511031",
@@ -1641,7 +1649,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-12T01:18:48.418Z"
+        "lastUpdated": "2025-07-12T03:14:06.425Z"
       },
       "511032": {
         "teamCode": "511032",
@@ -1706,8 +1714,12 @@
             "awayTeam": "Orillia Royals 18U B",
             "awayTeamCode": "511032",
             "location": "Stewart Burnett Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 0,
+              "scoreText": "0-11"
+            }
           },
           {
             "date": "2025-07-11T20:30:00.000Z",
@@ -1718,8 +1730,12 @@
             "awayTeam": "Orillia Royals 18U B",
             "awayTeamCode": "511032",
             "location": "Stewart Burnett Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 7,
+              "scoreText": "7-13"
+            }
           }
         ],
         "nextGames": [
@@ -1736,7 +1752,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-12T01:18:48.418Z"
+        "lastUpdated": "2025-07-12T03:14:06.425Z"
       },
       "511033": {
         "teamCode": "511033",
@@ -1887,7 +1903,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-12T01:18:48.418Z"
+        "lastUpdated": "2025-07-12T03:14:06.425Z"
       },
       "511034": {
         "teamCode": "511034",
@@ -1994,7 +2010,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-12T01:18:48.418Z"
+        "lastUpdated": "2025-07-12T03:14:06.425Z"
       },
       "511035": {
         "teamCode": "511035",
@@ -2125,7 +2141,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-12T01:18:48.418Z"
+        "lastUpdated": "2025-07-12T03:14:06.425Z"
       },
       "516246": {
         "teamCode": "516246",
@@ -2260,7 +2276,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-12T01:18:48.418Z"
+        "lastUpdated": "2025-07-12T03:14:06.425Z"
       },
       "518960": {
         "teamCode": "518960",
@@ -2383,7 +2399,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-12T01:18:48.418Z"
+        "lastUpdated": "2025-07-12T03:14:06.425Z"
       },
       "518962": {
         "teamCode": "518962",
@@ -2482,7 +2498,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-12T01:18:48.418Z"
+        "lastUpdated": "2025-07-12T03:14:06.425Z"
       },
       "519242": {
         "teamCode": "519242",
@@ -2609,7 +2625,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-12T01:18:48.418Z"
+        "lastUpdated": "2025-07-12T03:14:06.425Z"
       },
       "546377": {
         "teamCode": "546377",
@@ -2732,7 +2748,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-12T01:18:48.418Z"
+        "lastUpdated": "2025-07-12T03:14:06.425Z"
       }
     },
     "allGames": [
@@ -4761,8 +4777,12 @@
         "awayTeam": "Orillia Royals 18U B",
         "awayTeamCode": "511032",
         "location": "Stewart Burnett Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 0,
+          "scoreText": "0-11"
+        }
       },
       {
         "date": "2025-07-11T20:00:00.000Z",
@@ -4785,8 +4805,12 @@
         "awayTeam": "Orillia Royals 18U B",
         "awayTeamCode": "511032",
         "location": "Stewart Burnett Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 7,
+          "scoreText": "7-13"
+        }
       },
       {
         "date": "2025-07-12T13:00:00.000Z",
@@ -5159,8 +5183,12 @@
         "awayTeam": "Orillia Royals 18U B",
         "awayTeamCode": "511032",
         "location": "Stewart Burnett Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 7,
+          "scoreText": "7-13"
+        }
       },
       {
         "date": "2025-07-11T20:00:00.000Z",
@@ -5183,8 +5211,12 @@
         "awayTeam": "Orillia Royals 18U B",
         "awayTeamCode": "511032",
         "location": "Stewart Burnett Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 0,
+          "scoreText": "0-11"
+        }
       },
       {
         "date": "2025-07-09T20:30:00.000Z",
@@ -5409,20 +5441,20 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-12T01:18:48.418Z",
+    "lastUpdated": "2025-07-12T03:14:06.425Z",
     "totalGames": 161
   },
   "summary": {
     "totalTeams": 19,
     "totalGames": 161,
-    "completedGames": 120,
-    "upcomingGames": 41,
+    "completedGames": 122,
+    "upcomingGames": 39,
     "topTeam": {
       "team": "Aurora-King Jays 18U A",
       "teamCode": "511022",
-      "wins": 10,
+      "wins": 11,
       "losses": 1,
-      "winPercentage": "0.909"
+      "winPercentage": "0.917"
     },
     "highestScoringGame": {
       "homeTeam": "Women's Team",
@@ -5433,6 +5465,6 @@
       "date": "Sun, Jun 1",
       "location": "David Hamilton #1"
     },
-    "lastUpdated": "2025-07-12T01:20:38.699Z"
+    "lastUpdated": "2025-07-12T03:15:50.745Z"
   }
 }

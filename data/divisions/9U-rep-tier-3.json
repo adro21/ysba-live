@@ -2,39 +2,39 @@
   "standings": {
     "teams": [
       {
-        "position": 1,
-        "team": "Orillia Royals 9U A",
-        "teamCode": "511064",
-        "record": {
-          "gamesPlayed": 11,
-          "wins": 10,
-          "losses": 1,
-          "ties": 0,
-          "winPercentage": "0.909"
-        },
-        "stats": {
-          "points": 20,
-          "runsFor": 181,
-          "runsAgainst": 74,
-          "runDifferential": 107
-        }
-      },
-      {
         "position": 2,
         "team": "Markham Mariners 9U A",
         "teamCode": "511061",
         "record": {
-          "gamesPlayed": 8,
-          "wins": 7,
+          "gamesPlayed": 9,
+          "wins": 8,
           "losses": 1,
           "ties": 0,
-          "winPercentage": "0.875"
+          "winPercentage": "0.889"
         },
         "stats": {
-          "points": 14,
-          "runsFor": 124,
-          "runsAgainst": 60,
-          "runDifferential": 64
+          "points": 16,
+          "runsFor": 138,
+          "runsAgainst": 67,
+          "runDifferential": 71
+        }
+      },
+      {
+        "position": 1,
+        "team": "Orillia Royals 9U A",
+        "teamCode": "511064",
+        "record": {
+          "gamesPlayed": 13,
+          "wins": 11,
+          "losses": 2,
+          "ties": 0,
+          "winPercentage": "0.846"
+        },
+        "stats": {
+          "points": 22,
+          "runsFor": 206,
+          "runsAgainst": 88,
+          "runDifferential": 118
         }
       },
       {
@@ -96,17 +96,17 @@
         "team": "Orangeville Bengals 9U A",
         "teamCode": "511063",
         "record": {
-          "gamesPlayed": 10,
+          "gamesPlayed": 11,
           "wins": 2,
-          "losses": 8,
+          "losses": 9,
           "ties": 0,
-          "winPercentage": "0.200"
+          "winPercentage": "0.182"
         },
         "stats": {
           "points": 4,
           "runsFor": 57,
-          "runsAgainst": 169,
-          "runDifferential": -112
+          "runsAgainst": 187,
+          "runDifferential": -130
         }
       },
       {
@@ -128,7 +128,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-12T01:14:52.269Z",
+    "lastUpdated": "2025-07-12T03:10:23.067Z",
     "totalTeams": 7
   },
   "schedule": {
@@ -208,8 +208,12 @@
             "awayTeam": "Markham Mariners 9U A",
             "awayTeamCode": "511061",
             "location": "Dean Heliotis Diamond",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 14,
+              "scoreText": "14-7"
+            }
           }
         ],
         "nextGames": [
@@ -262,7 +266,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-12T01:14:55.323Z"
+        "lastUpdated": "2025-07-12T03:10:26.078Z"
       },
       "511062": {
         "teamCode": "511062",
@@ -409,7 +413,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-12T01:14:55.323Z"
+        "lastUpdated": "2025-07-12T03:10:26.078Z"
       },
       "511063": {
         "teamCode": "511063",
@@ -490,8 +494,12 @@
             "awayTeam": "Orillia Royals 9U A",
             "awayTeamCode": "511064",
             "location": "Alton Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 0,
+              "away": 18,
+              "scoreText": "18-0"
+            }
           }
         ],
         "nextGames": [
@@ -544,7 +552,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-12T01:14:55.323Z"
+        "lastUpdated": "2025-07-12T03:10:26.078Z"
       },
       "511064": {
         "teamCode": "511064",
@@ -609,8 +617,12 @@
             "awayTeam": "Orillia Royals 9U A",
             "awayTeamCode": "511064",
             "location": "Alton Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 0,
+              "away": 18,
+              "scoreText": "18-0"
+            }
           },
           {
             "date": "2025-07-11T18:30:00.000Z",
@@ -621,8 +633,12 @@
             "awayTeam": "Markham Mariners 9U A",
             "awayTeamCode": "511061",
             "location": "Dean Heliotis Diamond",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 14,
+              "scoreText": "14-7"
+            }
           }
         ],
         "nextGames": [
@@ -663,7 +679,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-12T01:14:55.323Z"
+        "lastUpdated": "2025-07-12T03:10:26.078Z"
       },
       "511065": {
         "teamCode": "511065",
@@ -810,7 +826,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-12T01:14:55.323Z"
+        "lastUpdated": "2025-07-12T03:10:26.078Z"
       },
       "516247": {
         "teamCode": "516247",
@@ -961,7 +977,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-12T01:14:55.323Z"
+        "lastUpdated": "2025-07-12T03:10:26.078Z"
       },
       "518948": {
         "teamCode": "518948",
@@ -1108,7 +1124,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-12T01:14:55.323Z"
+        "lastUpdated": "2025-07-12T03:10:26.078Z"
       }
     },
     "allGames": [
@@ -1697,8 +1713,12 @@
         "awayTeam": "Orillia Royals 9U A",
         "awayTeamCode": "511064",
         "location": "Alton Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 0,
+          "away": 18,
+          "scoreText": "18-0"
+        }
       },
       {
         "date": "2025-07-11T18:30:00.000Z",
@@ -1709,8 +1729,12 @@
         "awayTeam": "Markham Mariners 9U A",
         "awayTeamCode": "511061",
         "location": "Dean Heliotis Diamond",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 14,
+          "scoreText": "14-7"
+        }
       },
       {
         "date": "2025-07-12T11:00:00.000Z",
@@ -1927,8 +1951,12 @@
         "awayTeam": "Markham Mariners 9U A",
         "awayTeamCode": "511061",
         "location": "Dean Heliotis Diamond",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 14,
+          "scoreText": "14-7"
+        }
       },
       {
         "date": "2025-07-10T18:00:00.000Z",
@@ -1939,8 +1967,12 @@
         "awayTeam": "Orillia Royals 9U A",
         "awayTeamCode": "511064",
         "location": "Alton Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 0,
+          "away": 18,
+          "scoreText": "18-0"
+        }
       },
       {
         "date": "2025-07-09T18:30:00.000Z",
@@ -2185,20 +2217,20 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-12T01:14:55.323Z",
+    "lastUpdated": "2025-07-12T03:10:26.078Z",
     "totalGames": 56
   },
   "summary": {
     "totalTeams": 7,
     "totalGames": 56,
-    "completedGames": 33,
-    "upcomingGames": 23,
+    "completedGames": 35,
+    "upcomingGames": 21,
     "topTeam": {
-      "team": "Orillia Royals 9U A",
-      "teamCode": "511064",
-      "wins": 10,
+      "team": "Markham Mariners 9U A",
+      "teamCode": "511061",
+      "wins": 8,
       "losses": 1,
-      "winPercentage": "0.909"
+      "winPercentage": "0.889"
     },
     "highestScoringGame": {
       "homeTeam": "Vaughan Vikings 9U A",
@@ -2209,6 +2241,6 @@
       "date": "Sat, Jun 14",
       "location": "Dean Heliotis Diamond"
     },
-    "lastUpdated": "2025-07-12T01:20:38.699Z"
+    "lastUpdated": "2025-07-12T03:15:50.745Z"
   }
 }
