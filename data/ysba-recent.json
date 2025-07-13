@@ -1,7 +1,21 @@
 {
-  "lastUpdated": "2025-07-13T18:25:18.211Z",
+  "lastUpdated": "2025-07-13T18:53:15.519Z",
   "totalGames": 190,
   "games": [
+    {
+      "date": "2025-07-13T18:30:00.000Z",
+      "dateText": "Sun, Jul 13",
+      "time": "6:30 PM",
+      "homeTeam": "Aurora-King Jays 8U A",
+      "homeTeamCode": "511050",
+      "awayTeam": "Stouffville 8U A",
+      "awayTeamCode": "511059",
+      "location": "Lambert Wilson Park LC2",
+      "isCompleted": false,
+      "score": null,
+      "division": "8U",
+      "tier": "rep-tier-3"
+    },
     {
       "date": "2025-07-13T18:15:00.000Z",
       "dateText": "Sun, Jul 13",
@@ -305,8 +319,12 @@
       "awayTeam": "Collingwood Jays (Blue) 13U DS",
       "awayTeamCode": "511086",
       "location": "Cliff Yeo Diamond",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 12,
+        "away": 1,
+        "scoreText": "1-12"
+      },
       "division": "13U",
       "tier": "select-all-tiers"
     },
@@ -389,8 +407,12 @@
       "awayTeam": "Collingwood Jays (Blue) 13U DS",
       "awayTeamCode": "511086",
       "location": "Cliff Yeo Diamond",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 11,
+        "away": 1,
+        "scoreText": "1-11"
+      },
       "division": "13U",
       "tier": "select-all-tiers"
     },
@@ -623,8 +645,12 @@
       "awayTeam": "Innisfil Cardinals 13U DS - Team 2",
       "awayTeamCode": "511089",
       "location": "Tottenham Recreation",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 12,
+        "away": 1,
+        "scoreText": "1-12"
+      },
       "division": "13U",
       "tier": "select-all-tiers"
     },
@@ -637,8 +663,12 @@
       "awayTeam": "Vaughan Vikings 12U DS",
       "awayTeamCode": "518969",
       "location": "David Hamilton Park #2",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 4,
+        "away": 9,
+        "scoreText": "9-4"
+      },
       "division": "13U",
       "tier": "select-all-tiers"
     },
@@ -723,20 +753,6 @@
       "awayTeam": "Newmarket Hawks 9U DS",
       "awayTeamCode": "511112",
       "location": "Heritage Park Collingwood (Small Diamond)",
-      "isCompleted": false,
-      "score": null,
-      "division": "9U",
-      "tier": "select-all-tiers"
-    },
-    {
-      "date": "2025-07-12T12:00:00.000Z",
-      "dateText": "Sat, Jul 12",
-      "time": "12:00 PM",
-      "homeTeam": "Bradford Tigers 9U DS",
-      "homeTeamCode": "511108",
-      "awayTeam": "Markham Mariners 9U DS",
-      "awayTeamCode": "511111",
-      "location": "Joe Migani Park (Diamond #3)",
       "isCompleted": false,
       "score": null,
       "division": "9U",
