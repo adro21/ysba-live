@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-07-14T05:03:41.740Z",
+  "lastUpdated": "2025-07-14T05:31:22.868Z",
   "totalGames": 190,
   "games": [
     {
@@ -103,8 +103,12 @@
       "awayTeam": "Innisfil Cardinals 11U DS",
       "awayTeamCode": "511077",
       "location": "Carlton Park",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 11,
+        "away": 4,
+        "scoreText": "4-11"
+      },
       "division": "11U",
       "tier": "select-all-tiers"
     },
@@ -241,8 +245,12 @@
       "awayTeam": "Innisfil Cardinals 11U DS",
       "awayTeamCode": "511077",
       "location": "Carlton Park",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 9,
+        "away": 7,
+        "scoreText": "7-9"
+      },
       "division": "11U",
       "tier": "select-all-tiers"
     },
@@ -613,8 +621,12 @@
       "awayTeam": "Thornhill Reds 11U DS - Team 2",
       "awayTeamCode": "511083",
       "location": "Fairgrounds Park",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 7,
+        "away": 0,
+        "scoreText": "0-7"
+      },
       "division": "11U",
       "tier": "select-all-tiers"
     },

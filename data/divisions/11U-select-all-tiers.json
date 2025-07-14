@@ -39,6 +39,24 @@
       },
       {
         "position": 3,
+        "team": "Markham Mariners 11U DS",
+        "teamCode": "511079",
+        "record": {
+          "gamesPlayed": 12,
+          "wins": 8,
+          "losses": 3,
+          "ties": 1,
+          "winPercentage": "0.708"
+        },
+        "stats": {
+          "points": 17,
+          "runsFor": 99,
+          "runsAgainst": 79,
+          "runDifferential": 20
+        }
+      },
+      {
+        "position": 4,
         "team": "Midland Penetang Twins 11U DS",
         "teamCode": "511074",
         "record": {
@@ -56,25 +74,7 @@
         }
       },
       {
-        "position": 6,
-        "team": "Markham Mariners 11U DS",
-        "teamCode": "511079",
-        "record": {
-          "gamesPlayed": 10,
-          "wins": 6,
-          "losses": 3,
-          "ties": 1,
-          "winPercentage": "0.650"
-        },
-        "stats": {
-          "points": 13,
-          "runsFor": 79,
-          "runsAgainst": 68,
-          "runDifferential": 11
-        }
-      },
-      {
-        "position": 4,
+        "position": 5,
         "team": "Thornhill Reds 11U DS - Team 1",
         "teamCode": "511082",
         "record": {
@@ -92,7 +92,7 @@
         }
       },
       {
-        "position": 5,
+        "position": 6,
         "team": "Vaughan Vikings 10U DS",
         "teamCode": "518967",
         "record": {
@@ -110,25 +110,25 @@
         }
       },
       {
-        "position": 11,
+        "position": 8,
         "team": "Newmarket Hawks 11U DS",
         "teamCode": "511080",
         "record": {
-          "gamesPlayed": 8,
-          "wins": 3,
+          "gamesPlayed": 10,
+          "wins": 5,
           "losses": 5,
           "ties": 0,
-          "winPercentage": "0.375"
+          "winPercentage": "0.500"
         },
         "stats": {
-          "points": 6,
-          "runsFor": 57,
+          "points": 10,
+          "runsFor": 71,
           "runsAgainst": 80,
-          "runDifferential": -23
+          "runDifferential": -9
         }
       },
       {
-        "position": 8,
+        "position": 9,
         "team": "TNT Thunder 11U DS",
         "teamCode": "518974",
         "record": {
@@ -164,7 +164,7 @@
         }
       },
       {
-        "position": 10,
+        "position": 11,
         "team": "Bradford Tigers 11U DS",
         "teamCode": "511076",
         "record": {
@@ -182,7 +182,7 @@
         }
       },
       {
-        "position": 9,
+        "position": 10,
         "team": "Mansfield Cubs 11U DS",
         "teamCode": "511078",
         "record": {
@@ -204,6 +204,24 @@
         "team": "Innisfil Cardinals 11U DS",
         "teamCode": "511077",
         "record": {
+          "gamesPlayed": 12,
+          "wins": 0,
+          "losses": 12,
+          "ties": 0,
+          "winPercentage": "0.000"
+        },
+        "stats": {
+          "points": 0,
+          "runsFor": 51,
+          "runsAgainst": 157,
+          "runDifferential": -106
+        }
+      },
+      {
+        "position": 13,
+        "team": "Thornhill Reds 11U DS - Team 2",
+        "teamCode": "511083",
+        "record": {
           "gamesPlayed": 10,
           "wins": 0,
           "losses": 10,
@@ -212,31 +230,13 @@
         },
         "stats": {
           "points": 0,
-          "runsFor": 40,
-          "runsAgainst": 137,
-          "runDifferential": -97
-        }
-      },
-      {
-        "position": 13,
-        "team": "Thornhill Reds 11U DS - Team 2",
-        "teamCode": "511083",
-        "record": {
-          "gamesPlayed": 8,
-          "wins": 0,
-          "losses": 8,
-          "ties": 0,
-          "winPercentage": "0.000"
-        },
-        "stats": {
-          "points": 0,
           "runsFor": 30,
-          "runsAgainst": 90,
-          "runDifferential": -60
+          "runsAgainst": 104,
+          "runDifferential": -74
         }
       }
     ],
-    "lastUpdated": "2025-07-14T05:03:22.724Z",
+    "lastUpdated": "2025-07-14T05:31:02.836Z",
     "totalTeams": 13
   },
   "schedule": {
@@ -346,7 +346,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-14T05:03:27.036Z"
+        "lastUpdated": "2025-07-14T05:31:07.474Z"
       },
       "511075": {
         "teamCode": "511075",
@@ -461,7 +461,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-14T05:03:27.036Z"
+        "lastUpdated": "2025-07-14T05:31:07.474Z"
       },
       "511076": {
         "teamCode": "511076",
@@ -600,7 +600,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-14T05:03:27.036Z"
+        "lastUpdated": "2025-07-14T05:31:07.474Z"
       },
       "511077": {
         "teamCode": "511077",
@@ -665,8 +665,12 @@
             "awayTeam": "Innisfil Cardinals 11U DS",
             "awayTeamCode": "511077",
             "location": "Carlton Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 7,
+              "scoreText": "7-9"
+            }
           },
           {
             "date": "2025-07-13T17:15:00.000Z",
@@ -677,8 +681,12 @@
             "awayTeam": "Innisfil Cardinals 11U DS",
             "awayTeamCode": "511077",
             "location": "Carlton Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 4,
+              "scoreText": "4-11"
+            }
           }
         ],
         "nextGames": [
@@ -731,7 +739,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-14T05:03:27.036Z"
+        "lastUpdated": "2025-07-14T05:31:07.474Z"
       },
       "511078": {
         "teamCode": "511078",
@@ -866,7 +874,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-14T05:03:27.036Z"
+        "lastUpdated": "2025-07-14T05:31:07.474Z"
       },
       "511079": {
         "teamCode": "511079",
@@ -931,8 +939,12 @@
             "awayTeam": "Innisfil Cardinals 11U DS",
             "awayTeamCode": "511077",
             "location": "Carlton Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 7,
+              "scoreText": "7-9"
+            }
           },
           {
             "date": "2025-07-13T17:15:00.000Z",
@@ -943,8 +955,12 @@
             "awayTeam": "Innisfil Cardinals 11U DS",
             "awayTeamCode": "511077",
             "location": "Carlton Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 4,
+              "scoreText": "4-11"
+            }
           }
         ],
         "nextGames": [
@@ -997,7 +1013,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-14T05:03:27.036Z"
+        "lastUpdated": "2025-07-14T05:31:07.474Z"
       },
       "511080": {
         "teamCode": "511080",
@@ -1062,8 +1078,12 @@
             "awayTeam": "Thornhill Reds 11U DS - Team 2",
             "awayTeamCode": "511083",
             "location": "Fairgrounds Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 0,
+              "scoreText": "0-7"
+            }
           },
           {
             "date": "2025-07-12T14:15:00.000Z",
@@ -1074,8 +1094,12 @@
             "awayTeam": "Thornhill Reds 11U DS - Team 2",
             "awayTeamCode": "511083",
             "location": "Fairgrounds Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 0,
+              "scoreText": "0-7"
+            }
           }
         ],
         "nextGames": [
@@ -1128,7 +1152,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-14T05:03:27.036Z"
+        "lastUpdated": "2025-07-14T05:31:07.474Z"
       },
       "511081": {
         "teamCode": "511081",
@@ -1243,7 +1267,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-14T05:03:27.036Z"
+        "lastUpdated": "2025-07-14T05:31:07.474Z"
       },
       "511082": {
         "teamCode": "511082",
@@ -1358,7 +1382,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-14T05:03:27.036Z"
+        "lastUpdated": "2025-07-14T05:31:07.474Z"
       },
       "511083": {
         "teamCode": "511083",
@@ -1423,8 +1447,12 @@
             "awayTeam": "Thornhill Reds 11U DS - Team 2",
             "awayTeamCode": "511083",
             "location": "Fairgrounds Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 0,
+              "scoreText": "0-7"
+            }
           },
           {
             "date": "2025-07-12T14:15:00.000Z",
@@ -1435,8 +1463,12 @@
             "awayTeam": "Thornhill Reds 11U DS - Team 2",
             "awayTeamCode": "511083",
             "location": "Fairgrounds Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 0,
+              "scoreText": "0-7"
+            }
           }
         ],
         "nextGames": [
@@ -1501,7 +1533,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-14T05:03:27.036Z"
+        "lastUpdated": "2025-07-14T05:31:07.474Z"
       },
       "518967": {
         "teamCode": "518967",
@@ -1612,7 +1644,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-14T05:03:27.036Z"
+        "lastUpdated": "2025-07-14T05:31:07.474Z"
       },
       "518968": {
         "teamCode": "518968",
@@ -1727,7 +1759,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-14T05:03:27.036Z"
+        "lastUpdated": "2025-07-14T05:31:07.474Z"
       },
       "518974": {
         "teamCode": "518974",
@@ -1830,7 +1862,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-14T05:03:27.036Z"
+        "lastUpdated": "2025-07-14T05:31:07.475Z"
       }
     },
     "allGames": [
@@ -3115,8 +3147,12 @@
         "awayTeam": "Thornhill Reds 11U DS - Team 2",
         "awayTeamCode": "511083",
         "location": "Fairgrounds Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 0,
+          "scoreText": "0-7"
+        }
       },
       {
         "date": "2025-07-12T14:15:00.000Z",
@@ -3127,8 +3163,12 @@
         "awayTeam": "Thornhill Reds 11U DS - Team 2",
         "awayTeamCode": "511083",
         "location": "Fairgrounds Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 0,
+          "scoreText": "0-7"
+        }
       },
       {
         "date": "2025-07-12T15:00:00.000Z",
@@ -3163,8 +3203,12 @@
         "awayTeam": "Innisfil Cardinals 11U DS",
         "awayTeamCode": "511077",
         "location": "Carlton Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 7,
+          "scoreText": "7-9"
+        }
       },
       {
         "date": "2025-07-13T17:15:00.000Z",
@@ -3175,8 +3219,12 @@
         "awayTeam": "Innisfil Cardinals 11U DS",
         "awayTeamCode": "511077",
         "location": "Carlton Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 4,
+          "scoreText": "4-11"
+        }
       },
       {
         "date": "2025-07-19T10:00:00.000Z",
@@ -3429,8 +3477,12 @@
         "awayTeam": "Innisfil Cardinals 11U DS",
         "awayTeamCode": "511077",
         "location": "Carlton Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 4,
+          "scoreText": "4-11"
+        }
       },
       {
         "date": "2025-07-13T15:00:00.000Z",
@@ -3441,8 +3493,12 @@
         "awayTeam": "Innisfil Cardinals 11U DS",
         "awayTeamCode": "511077",
         "location": "Carlton Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 7,
+          "scoreText": "7-9"
+        }
       },
       {
         "date": "2025-07-12T17:15:00.000Z",
@@ -3477,8 +3533,12 @@
         "awayTeam": "Thornhill Reds 11U DS - Team 2",
         "awayTeamCode": "511083",
         "location": "Fairgrounds Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 0,
+          "scoreText": "0-7"
+        }
       },
       {
         "date": "2025-07-12T12:00:00.000Z",
@@ -3489,8 +3549,12 @@
         "awayTeam": "Thornhill Reds 11U DS - Team 2",
         "awayTeamCode": "511083",
         "location": "Fairgrounds Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 0,
+          "scoreText": "0-7"
+        }
       },
       {
         "date": "2025-07-06T12:15:00.000Z",
@@ -3679,14 +3743,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-14T05:03:27.036Z",
+    "lastUpdated": "2025-07-14T05:31:07.475Z",
     "totalGames": 107
   },
   "summary": {
     "totalTeams": 13,
     "totalGames": 107,
-    "completedGames": 75,
-    "upcomingGames": 32,
+    "completedGames": 79,
+    "upcomingGames": 28,
     "topTeam": {
       "team": "Vaughan Vikings 11U DS",
       "teamCode": "518968",
@@ -3703,6 +3767,6 @@
       "date": "Sat, May 24",
       "location": "Mansfield Park"
     },
-    "lastUpdated": "2025-07-14T05:03:41.740Z"
+    "lastUpdated": "2025-07-14T05:31:22.868Z"
   }
 }
