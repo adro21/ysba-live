@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-07-14T13:39:10.143Z",
+  "lastUpdated": "2025-07-14T14:22:16.106Z",
   "totalGames": 190,
   "games": [
     {
@@ -707,8 +707,12 @@
       "awayTeam": "Innisfil Cardinals 9U DS",
       "awayTeamCode": "511110",
       "location": "McLean Diamond",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 25,
+        "away": 26,
+        "scoreText": "26-25"
+      },
       "division": "9U",
       "tier": "select-all-tiers"
     },
