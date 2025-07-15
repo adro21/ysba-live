@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-07-15T03:21:16.729Z",
+  "lastUpdated": "2025-07-15T04:17:25.378Z",
   "totalGames": 190,
   "games": [
     {
@@ -523,8 +523,12 @@
       "awayTeam": "Innisfil Cardinals 13U DS - Team 1",
       "awayTeamCode": "511088",
       "location": "Stroud Arena",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 12,
+        "away": 6,
+        "scoreText": "6-12"
+      },
       "division": "13U",
       "tier": "select-all-tiers"
     },
