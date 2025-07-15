@@ -254,7 +254,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-14T23:40:26.051Z",
+    "lastUpdated": "2025-07-15T01:17:08.545Z",
     "totalTeams": 14
   },
   "schedule": {
@@ -384,7 +384,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-14T23:40:30.279Z"
+        "lastUpdated": "2025-07-15T01:17:13.630Z"
       },
       "510870": {
         "teamCode": "510870",
@@ -519,7 +519,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-14T23:40:30.279Z"
+        "lastUpdated": "2025-07-15T01:17:13.630Z"
       },
       "510871": {
         "teamCode": "510871",
@@ -658,7 +658,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-14T23:40:30.279Z"
+        "lastUpdated": "2025-07-15T01:17:13.630Z"
       },
       "510872": {
         "teamCode": "510872",
@@ -801,7 +801,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-14T23:40:30.279Z"
+        "lastUpdated": "2025-07-15T01:17:13.630Z"
       },
       "510873": {
         "teamCode": "510873",
@@ -936,7 +936,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-14T23:40:30.279Z"
+        "lastUpdated": "2025-07-15T01:17:13.630Z"
       },
       "510874": {
         "teamCode": "510874",
@@ -1079,7 +1079,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-14T23:40:30.279Z"
+        "lastUpdated": "2025-07-15T01:17:13.630Z"
       },
       "510875": {
         "teamCode": "510875",
@@ -1218,7 +1218,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-14T23:40:30.279Z"
+        "lastUpdated": "2025-07-15T01:17:13.630Z"
       },
       "510876": {
         "teamCode": "510876",
@@ -1345,7 +1345,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-14T23:40:30.279Z"
+        "lastUpdated": "2025-07-15T01:17:13.630Z"
       },
       "510877": {
         "teamCode": "510877",
@@ -1464,7 +1464,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-14T23:40:30.279Z"
+        "lastUpdated": "2025-07-15T01:17:13.630Z"
       },
       "510878": {
         "teamCode": "510878",
@@ -1603,7 +1603,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-14T23:40:30.279Z"
+        "lastUpdated": "2025-07-15T01:17:13.630Z"
       },
       "510879": {
         "teamCode": "510879",
@@ -1746,7 +1746,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-14T23:40:30.279Z"
+        "lastUpdated": "2025-07-15T01:17:13.630Z"
       },
       "510880": {
         "teamCode": "510880",
@@ -1873,14 +1873,30 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-14T23:40:30.279Z"
+        "lastUpdated": "2025-07-15T01:17:13.630Z"
       },
       "510881": {
         "teamCode": "510881",
         "totalGames": 20,
-        "playedGames": 13,
-        "upcomingGames": 7,
+        "playedGames": 12,
+        "upcomingGames": 8,
         "recentGames": [
+          {
+            "date": "2025-06-09T18:30:00.000Z",
+            "dateText": "Mon, Jun 9",
+            "time": "6:30 PM",
+            "homeTeam": "Aurora-King Jays 10U AA",
+            "homeTeamCode": "510881",
+            "awayTeam": "Markham Mariners 10U AA",
+            "awayTeamCode": "510883",
+            "location": "Town Park",
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 13,
+              "scoreText": "13-12"
+            }
+          },
           {
             "date": "2025-06-19T18:00:00.000Z",
             "dateText": "Thu, Jun 19",
@@ -1930,18 +1946,6 @@
             }
           },
           {
-            "date": "2025-07-09T18:15:00.000Z",
-            "dateText": "Wed, Jul 9",
-            "time": "6:15 PM",
-            "homeTeam": "Richmond Hill Phoenix 10U AA",
-            "homeTeamCode": "510885",
-            "awayTeam": "Aurora-King Jays 10U AA",
-            "awayTeamCode": "510881",
-            "location": "Morgan Boyle Park",
-            "isCompleted": false,
-            "score": null
-          },
-          {
             "date": "2025-07-14T18:30:00.000Z",
             "dateText": "Mon, Jul 14",
             "time": "6:30 PM",
@@ -1950,8 +1954,12 @@
             "awayTeam": "Barrie Baycats 10U AA",
             "awayTeamCode": "510882",
             "location": "Town Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 13,
+              "scoreText": "13-4"
+            }
           }
         ],
         "nextGames": [
@@ -2016,7 +2024,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-14T23:40:30.279Z"
+        "lastUpdated": "2025-07-15T01:17:13.630Z"
       },
       "510882": {
         "teamCode": "510882",
@@ -2097,8 +2105,12 @@
             "awayTeam": "Barrie Baycats 10U AA",
             "awayTeamCode": "510882",
             "location": "Town Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 13,
+              "scoreText": "13-4"
+            }
           }
         ],
         "nextGames": [
@@ -2163,7 +2175,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-14T23:40:30.279Z"
+        "lastUpdated": "2025-07-15T01:17:13.630Z"
       },
       "510883": {
         "teamCode": "510883",
@@ -2310,7 +2322,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-14T23:40:30.279Z"
+        "lastUpdated": "2025-07-15T01:17:13.630Z"
       },
       "510884": {
         "teamCode": "510884",
@@ -2457,14 +2469,30 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-14T23:40:30.279Z"
+        "lastUpdated": "2025-07-15T01:17:13.630Z"
       },
       "510885": {
         "teamCode": "510885",
         "totalGames": 20,
-        "playedGames": 14,
-        "upcomingGames": 6,
+        "playedGames": 13,
+        "upcomingGames": 7,
         "recentGames": [
+          {
+            "date": "2025-06-11T18:15:00.000Z",
+            "dateText": "Wed, Jun 11",
+            "time": "6:15 PM",
+            "homeTeam": "Richmond Hill Phoenix 10U AA",
+            "homeTeamCode": "510885",
+            "awayTeam": "Markham Mariners 10U AA",
+            "awayTeamCode": "510883",
+            "location": "Morgan Boyle Park",
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 3,
+              "scoreText": "3-13"
+            }
+          },
           {
             "date": "2025-06-25T18:15:00.000Z",
             "dateText": "Wed, Jun 25",
@@ -2528,18 +2556,6 @@
               "away": 11,
               "scoreText": "11-7"
             }
-          },
-          {
-            "date": "2025-07-09T18:15:00.000Z",
-            "dateText": "Wed, Jul 9",
-            "time": "6:15 PM",
-            "homeTeam": "Richmond Hill Phoenix 10U AA",
-            "homeTeamCode": "510885",
-            "awayTeam": "Aurora-King Jays 10U AA",
-            "awayTeamCode": "510881",
-            "location": "Morgan Boyle Park",
-            "isCompleted": false,
-            "score": null
           }
         ],
         "nextGames": [
@@ -2604,7 +2620,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-14T23:40:30.279Z"
+        "lastUpdated": "2025-07-15T01:17:13.630Z"
       },
       "510889": {
         "teamCode": "510889",
@@ -2731,7 +2747,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-14T23:40:30.279Z"
+        "lastUpdated": "2025-07-15T01:17:13.630Z"
       },
       "510890": {
         "teamCode": "510890",
@@ -2874,7 +2890,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-14T23:40:30.279Z"
+        "lastUpdated": "2025-07-15T01:17:13.630Z"
       },
       "518949": {
         "teamCode": "518949",
@@ -3025,7 +3041,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-14T23:40:30.279Z"
+        "lastUpdated": "2025-07-15T01:17:13.630Z"
       }
     },
     "allGames": [
@@ -4869,6 +4885,18 @@
         "date": "2025-07-08T18:00:00.000Z",
         "dateText": "Tue, Jul 8",
         "time": "6:00 PM",
+        "homeTeam": "Markham Mariners 10U A",
+        "homeTeamCode": "510875",
+        "awayTeam": "Orangeville Bengals 10U A",
+        "awayTeamCode": "510877",
+        "location": "Tomlinson Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2025-07-08T18:00:00.000Z",
+        "dateText": "Tue, Jul 8",
+        "time": "6:00 PM",
         "homeTeam": "Vaughan Vikings 10U AA",
         "homeTeamCode": "518949",
         "awayTeam": "Richmond Hill Phoenix 10U AA",
@@ -4894,18 +4922,6 @@
         "score": null
       },
       {
-        "date": "2025-07-08T18:00:00.000Z",
-        "dateText": "Tue, Jul 8",
-        "time": "6:00 PM",
-        "homeTeam": "Markham Mariners 10U A",
-        "homeTeamCode": "510875",
-        "awayTeam": "Orangeville Bengals 10U A",
-        "awayTeamCode": "510877",
-        "location": "Tomlinson Park",
-        "isCompleted": false,
-        "score": null
-      },
-      {
         "date": "2025-07-08T18:15:00.000Z",
         "dateText": "Tue, Jul 8",
         "time": "6:15 PM",
@@ -4914,18 +4930,6 @@
         "awayTeam": "Stouffville Yankees 10U A",
         "awayTeamCode": "510879",
         "location": "Udora Diamond",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": "2025-07-08T18:30:00.000Z",
-        "dateText": "Tue, Jul 8",
-        "time": "6:30 PM",
-        "homeTeam": "New Lowell Knights 10U B",
-        "homeTeamCode": "510890",
-        "awayTeam": "Innisfil Cardinals 10U A",
-        "awayTeamCode": "510873",
-        "location": "New Lowell Recreation Park",
         "isCompleted": false,
         "score": null
       },
@@ -4944,6 +4948,18 @@
           "away": 8,
           "scoreText": "8-9"
         }
+      },
+      {
+        "date": "2025-07-08T18:30:00.000Z",
+        "dateText": "Tue, Jul 8",
+        "time": "6:30 PM",
+        "homeTeam": "New Lowell Knights 10U B",
+        "homeTeamCode": "510890",
+        "awayTeam": "Innisfil Cardinals 10U A",
+        "awayTeamCode": "510873",
+        "location": "New Lowell Recreation Park",
+        "isCompleted": false,
+        "score": null
       },
       {
         "date": "2025-07-09T18:00:00.000Z",
@@ -4970,18 +4986,6 @@
         "score": null
       },
       {
-        "date": "2025-07-09T18:15:00.000Z",
-        "dateText": "Wed, Jul 9",
-        "time": "6:15 PM",
-        "homeTeam": "Richmond Hill Phoenix 10U AA",
-        "homeTeamCode": "510885",
-        "awayTeam": "Aurora-King Jays 10U AA",
-        "awayTeamCode": "510881",
-        "location": "Morgan Boyle Park",
-        "isCompleted": false,
-        "score": null
-      },
-      {
         "date": "2025-07-09T18:30:00.000Z",
         "dateText": "Wed, Jul 9",
         "time": "6:30 PM",
@@ -5001,11 +5005,11 @@
         "date": "2025-07-10T18:30:00.000Z",
         "dateText": "Thu, Jul 10",
         "time": "6:30 PM",
-        "homeTeam": "Markham Mariners 10U A",
-        "homeTeamCode": "510875",
-        "awayTeam": "Orillia Royals 10U A",
-        "awayTeamCode": "510878",
-        "location": "Carlton Park",
+        "homeTeam": "Innisfil Cardinals 10U A",
+        "homeTeamCode": "510873",
+        "awayTeam": "Bradford Tigers 10U A",
+        "awayTeamCode": "510871",
+        "location": "Nantyr Park",
         "isCompleted": false,
         "score": null
       },
@@ -5013,11 +5017,11 @@
         "date": "2025-07-10T18:30:00.000Z",
         "dateText": "Thu, Jul 10",
         "time": "6:30 PM",
-        "homeTeam": "Innisfil Cardinals 10U A",
-        "homeTeamCode": "510873",
-        "awayTeam": "Bradford Tigers 10U A",
-        "awayTeamCode": "510871",
-        "location": "Nantyr Park",
+        "homeTeam": "Markham Mariners 10U A",
+        "homeTeamCode": "510875",
+        "awayTeam": "Orillia Royals 10U A",
+        "awayTeamCode": "510878",
+        "location": "Carlton Park",
         "isCompleted": false,
         "score": null
       },
@@ -5097,35 +5101,27 @@
         "date": "2025-07-14T18:30:00.000Z",
         "dateText": "Mon, Jul 14",
         "time": "6:30 PM",
-        "homeTeam": "Newmarket Hawks 10U A",
-        "homeTeamCode": "510876",
-        "awayTeam": "Orillia Royals 10U A",
-        "awayTeamCode": "510878",
-        "location": "Armstrong Family Park",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": "2025-07-14T18:30:00.000Z",
-        "dateText": "Mon, Jul 14",
-        "time": "6:30 PM",
         "homeTeam": "Aurora-King Jays 10U AA",
         "homeTeamCode": "510881",
         "awayTeam": "Barrie Baycats 10U AA",
         "awayTeamCode": "510882",
         "location": "Town Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 13,
+          "scoreText": "13-4"
+        }
       },
       {
-        "date": "2025-07-15T18:00:00.000Z",
-        "dateText": "Tue, Jul 15",
-        "time": "6:00 PM",
-        "homeTeam": "Vaughan Vikings 10U AA",
-        "homeTeamCode": "518949",
-        "awayTeam": "Aurora-King Jays 10U AA",
-        "awayTeamCode": "510881",
-        "location": "Tudor Park #1",
+        "date": "2025-07-14T18:30:00.000Z",
+        "dateText": "Mon, Jul 14",
+        "time": "6:30 PM",
+        "homeTeam": "Newmarket Hawks 10U A",
+        "homeTeamCode": "510876",
+        "awayTeam": "Orillia Royals 10U A",
+        "awayTeamCode": "510878",
+        "location": "Armstrong Family Park",
         "isCompleted": false,
         "score": null
       },
@@ -5138,6 +5134,18 @@
         "awayTeam": "Orangeville Bengals 10U A",
         "awayTeamCode": "510877",
         "location": "Elmgrove Diamond",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2025-07-15T18:00:00.000Z",
+        "dateText": "Tue, Jul 15",
+        "time": "6:00 PM",
+        "homeTeam": "Vaughan Vikings 10U AA",
+        "homeTeamCode": "518949",
+        "awayTeam": "Aurora-King Jays 10U AA",
+        "awayTeamCode": "510881",
+        "location": "Tudor Park #1",
         "isCompleted": false,
         "score": null
       },
@@ -5217,11 +5225,11 @@
         "date": "2025-07-17T18:30:00.000Z",
         "dateText": "Thu, Jul 17",
         "time": "6:30 PM",
-        "homeTeam": "Markham Mariners 10U A",
-        "homeTeamCode": "510875",
-        "awayTeam": "Aurora-King Jays 10U A",
-        "awayTeamCode": "510869",
-        "location": "Carlton Park",
+        "homeTeam": "Barrie Baycats 10U A",
+        "homeTeamCode": "510870",
+        "awayTeam": "Ivy Jays 10U B",
+        "awayTeamCode": "510874",
+        "location": "Barrie Sports Complex - Diamond 13",
         "isCompleted": false,
         "score": null
       },
@@ -5229,11 +5237,11 @@
         "date": "2025-07-17T18:30:00.000Z",
         "dateText": "Thu, Jul 17",
         "time": "6:30 PM",
-        "homeTeam": "Barrie Baycats 10U A",
-        "homeTeamCode": "510870",
-        "awayTeam": "Ivy Jays 10U B",
-        "awayTeamCode": "510874",
-        "location": "Barrie Sports Complex - Diamond 13",
+        "homeTeam": "Markham Mariners 10U A",
+        "homeTeamCode": "510875",
+        "awayTeam": "Aurora-King Jays 10U A",
+        "awayTeamCode": "510869",
+        "location": "Carlton Park",
         "isCompleted": false,
         "score": null
       },
@@ -5289,11 +5297,11 @@
         "date": "2025-07-21T18:30:00.000Z",
         "dateText": "Mon, Jul 21",
         "time": "6:30 PM",
-        "homeTeam": "Aurora-King Jays 10U AA",
-        "homeTeamCode": "510881",
-        "awayTeam": "Markham Mariners 10U AA",
-        "awayTeamCode": "510883",
-        "location": "Town Park",
+        "homeTeam": "Newmarket Hawks 10U A",
+        "homeTeamCode": "510876",
+        "awayTeam": "Georgina Bulldogs 10U B",
+        "awayTeamCode": "510889",
+        "location": "Armstrong Family Park",
         "isCompleted": false,
         "score": null
       },
@@ -5301,11 +5309,11 @@
         "date": "2025-07-21T18:30:00.000Z",
         "dateText": "Mon, Jul 21",
         "time": "6:30 PM",
-        "homeTeam": "Newmarket Hawks 10U A",
-        "homeTeamCode": "510876",
-        "awayTeam": "Georgina Bulldogs 10U B",
-        "awayTeamCode": "510889",
-        "location": "Armstrong Family Park",
+        "homeTeam": "Aurora-King Jays 10U AA",
+        "homeTeamCode": "510881",
+        "awayTeam": "Markham Mariners 10U AA",
+        "awayTeamCode": "510883",
+        "location": "Town Park",
         "isCompleted": false,
         "score": null
       },
@@ -5373,11 +5381,11 @@
         "date": "2025-07-24T18:00:00.000Z",
         "dateText": "Thu, Jul 24",
         "time": "6:00 PM",
-        "homeTeam": "Vaughan Vikings 10U AA",
-        "homeTeamCode": "518949",
-        "awayTeam": "Aurora-King Jays 10U AA",
-        "awayTeamCode": "510881",
-        "location": "Tudor Park #1",
+        "homeTeam": "Bradford Tigers 10U A",
+        "homeTeamCode": "510871",
+        "awayTeam": "New Lowell Knights 10U B",
+        "awayTeamCode": "510890",
+        "location": "Joe Magani Park",
         "isCompleted": false,
         "score": null
       },
@@ -5385,11 +5393,11 @@
         "date": "2025-07-24T18:00:00.000Z",
         "dateText": "Thu, Jul 24",
         "time": "6:00 PM",
-        "homeTeam": "Bradford Tigers 10U A",
-        "homeTeamCode": "510871",
-        "awayTeam": "New Lowell Knights 10U B",
-        "awayTeamCode": "510890",
-        "location": "Joe Magani Park",
+        "homeTeam": "Vaughan Vikings 10U AA",
+        "homeTeamCode": "518949",
+        "awayTeam": "Aurora-King Jays 10U AA",
+        "awayTeamCode": "510881",
+        "location": "Tudor Park #1",
         "isCompleted": false,
         "score": null
       },
@@ -5517,18 +5525,6 @@
         "date": "2025-07-28T18:30:00.000Z",
         "dateText": "Mon, Jul 28",
         "time": "6:30 PM",
-        "homeTeam": "Newmarket Hawks 10U A",
-        "homeTeamCode": "510876",
-        "awayTeam": "New Lowell Knights 10U B",
-        "awayTeamCode": "510890",
-        "location": "Armstrong Family Park",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": "2025-07-28T18:30:00.000Z",
-        "dateText": "Mon, Jul 28",
-        "time": "6:30 PM",
         "homeTeam": "Markham Mariners 10U AA",
         "homeTeamCode": "510883",
         "awayTeam": "Aurora-King Jays 10U AA",
@@ -5538,14 +5534,26 @@
         "score": null
       },
       {
+        "date": "2025-07-28T18:30:00.000Z",
+        "dateText": "Mon, Jul 28",
+        "time": "6:30 PM",
+        "homeTeam": "Newmarket Hawks 10U A",
+        "homeTeamCode": "510876",
+        "awayTeam": "New Lowell Knights 10U B",
+        "awayTeamCode": "510890",
+        "location": "Armstrong Family Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
         "date": "2025-07-29T18:00:00.000Z",
         "dateText": "Tue, Jul 29",
         "time": "6:00 PM",
-        "homeTeam": "Ivy Jays 10U B",
-        "homeTeamCode": "510874",
-        "awayTeam": "Stouffville Yankees 10U A",
-        "awayTeamCode": "510879",
-        "location": "Elmgrove Diamond",
+        "homeTeam": "Orangeville Bengals 10U AA",
+        "homeTeamCode": "510884",
+        "awayTeam": "Barrie Baycats 10U AA",
+        "awayTeamCode": "510882",
+        "location": "Idlewyld Park",
         "isCompleted": false,
         "score": null
       },
@@ -5565,11 +5573,11 @@
         "date": "2025-07-29T18:00:00.000Z",
         "dateText": "Tue, Jul 29",
         "time": "6:00 PM",
-        "homeTeam": "Orangeville Bengals 10U AA",
-        "homeTeamCode": "510884",
-        "awayTeam": "Barrie Baycats 10U AA",
-        "awayTeamCode": "510882",
-        "location": "Idlewyld Park",
+        "homeTeam": "Ivy Jays 10U B",
+        "homeTeamCode": "510874",
+        "awayTeam": "Stouffville Yankees 10U A",
+        "awayTeamCode": "510879",
+        "location": "Elmgrove Diamond",
         "isCompleted": false,
         "score": null
       },
@@ -5673,11 +5681,11 @@
         "date": "2025-07-31T18:30:00.000Z",
         "dateText": "Thu, Jul 31",
         "time": "6:30 PM",
-        "homeTeam": "Barrie Baycats 10U A",
-        "homeTeamCode": "510870",
-        "awayTeam": "Orillia Royals 10U A",
-        "awayTeamCode": "510878",
-        "location": "Barrie Sports Complex - Diamond 13",
+        "homeTeam": "Markham Mariners 10U A",
+        "homeTeamCode": "510875",
+        "awayTeam": "Innisfil Cardinals 10U A",
+        "awayTeamCode": "510873",
+        "location": "Carlton Park",
         "isCompleted": false,
         "score": null
       },
@@ -5685,11 +5693,11 @@
         "date": "2025-07-31T18:30:00.000Z",
         "dateText": "Thu, Jul 31",
         "time": "6:30 PM",
-        "homeTeam": "Markham Mariners 10U A",
-        "homeTeamCode": "510875",
-        "awayTeam": "Innisfil Cardinals 10U A",
-        "awayTeamCode": "510873",
-        "location": "Carlton Park",
+        "homeTeam": "Barrie Baycats 10U A",
+        "homeTeamCode": "510870",
+        "awayTeam": "Orillia Royals 10U A",
+        "awayTeamCode": "510878",
+        "location": "Barrie Sports Complex - Diamond 13",
         "isCompleted": false,
         "score": null
       },
@@ -5745,11 +5753,11 @@
         "date": "2025-08-05T18:00:00.000Z",
         "dateText": "Tue, Aug 5",
         "time": "6:00 PM",
-        "homeTeam": "Vaughan Vikings 10U AA",
-        "homeTeamCode": "518949",
-        "awayTeam": "Barrie Baycats 10U AA",
-        "awayTeamCode": "510882",
-        "location": "Tudor Park #1",
+        "homeTeam": "Orangeville Bengals 10U AA",
+        "homeTeamCode": "510884",
+        "awayTeam": "Markham Mariners 10U AA",
+        "awayTeamCode": "510883",
+        "location": "Idlewyld Park",
         "isCompleted": false,
         "score": null
       },
@@ -5757,11 +5765,11 @@
         "date": "2025-08-05T18:00:00.000Z",
         "dateText": "Tue, Aug 5",
         "time": "6:00 PM",
-        "homeTeam": "Orangeville Bengals 10U AA",
-        "homeTeamCode": "510884",
-        "awayTeam": "Markham Mariners 10U AA",
-        "awayTeamCode": "510883",
-        "location": "Idlewyld Park",
+        "homeTeam": "Vaughan Vikings 10U AA",
+        "homeTeamCode": "518949",
+        "awayTeam": "Barrie Baycats 10U AA",
+        "awayTeamCode": "510882",
+        "location": "Tudor Park #1",
         "isCompleted": false,
         "score": null
       },
@@ -5776,21 +5784,21 @@
         "location": "Tudor Park #1",
         "isCompleted": false,
         "score": null
+      },
+      {
+        "date": "2025-08-10T18:30:00.000Z",
+        "dateText": "Sun, Aug 10",
+        "time": "6:30 PM",
+        "homeTeam": "Richmond Hill Phoenix 10U AA",
+        "homeTeamCode": "510885",
+        "awayTeam": "Aurora-King Jays 10U AA",
+        "awayTeamCode": "510881",
+        "location": "Fleury Park Aurora",
+        "isCompleted": false,
+        "score": null
       }
     ],
     "recentGames": [
-      {
-        "date": "2025-07-14T18:30:00.000Z",
-        "dateText": "Mon, Jul 14",
-        "time": "6:30 PM",
-        "homeTeam": "Newmarket Hawks 10U A",
-        "homeTeamCode": "510876",
-        "awayTeam": "Orillia Royals 10U A",
-        "awayTeamCode": "510878",
-        "location": "Armstrong Family Park",
-        "isCompleted": false,
-        "score": null
-      },
       {
         "date": "2025-07-14T18:30:00.000Z",
         "dateText": "Mon, Jul 14",
@@ -5800,6 +5808,22 @@
         "awayTeam": "Barrie Baycats 10U AA",
         "awayTeamCode": "510882",
         "location": "Town Park",
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 13,
+          "scoreText": "13-4"
+        }
+      },
+      {
+        "date": "2025-07-14T18:30:00.000Z",
+        "dateText": "Mon, Jul 14",
+        "time": "6:30 PM",
+        "homeTeam": "Newmarket Hawks 10U A",
+        "homeTeamCode": "510876",
+        "awayTeam": "Orillia Royals 10U A",
+        "awayTeamCode": "510878",
+        "location": "Armstrong Family Park",
         "isCompleted": false,
         "score": null
       },
@@ -5879,11 +5903,11 @@
         "date": "2025-07-10T18:30:00.000Z",
         "dateText": "Thu, Jul 10",
         "time": "6:30 PM",
-        "homeTeam": "Markham Mariners 10U A",
-        "homeTeamCode": "510875",
-        "awayTeam": "Orillia Royals 10U A",
-        "awayTeamCode": "510878",
-        "location": "Carlton Park",
+        "homeTeam": "Innisfil Cardinals 10U A",
+        "homeTeamCode": "510873",
+        "awayTeam": "Bradford Tigers 10U A",
+        "awayTeamCode": "510871",
+        "location": "Nantyr Park",
         "isCompleted": false,
         "score": null
       },
@@ -5891,11 +5915,11 @@
         "date": "2025-07-10T18:30:00.000Z",
         "dateText": "Thu, Jul 10",
         "time": "6:30 PM",
-        "homeTeam": "Innisfil Cardinals 10U A",
-        "homeTeamCode": "510873",
-        "awayTeam": "Bradford Tigers 10U A",
-        "awayTeamCode": "510871",
-        "location": "Nantyr Park",
+        "homeTeam": "Markham Mariners 10U A",
+        "homeTeamCode": "510875",
+        "awayTeam": "Orillia Royals 10U A",
+        "awayTeamCode": "510878",
+        "location": "Carlton Park",
         "isCompleted": false,
         "score": null
       }
@@ -5905,11 +5929,11 @@
         "date": "2025-07-15T18:00:00.000Z",
         "dateText": "Tue, Jul 15",
         "time": "6:00 PM",
-        "homeTeam": "Vaughan Vikings 10U AA",
-        "homeTeamCode": "518949",
-        "awayTeam": "Aurora-King Jays 10U AA",
-        "awayTeamCode": "510881",
-        "location": "Tudor Park #1",
+        "homeTeam": "Ivy Jays 10U B",
+        "homeTeamCode": "510874",
+        "awayTeam": "Orangeville Bengals 10U A",
+        "awayTeamCode": "510877",
+        "location": "Elmgrove Diamond",
         "isCompleted": false,
         "score": null
       },
@@ -5917,11 +5941,11 @@
         "date": "2025-07-15T18:00:00.000Z",
         "dateText": "Tue, Jul 15",
         "time": "6:00 PM",
-        "homeTeam": "Ivy Jays 10U B",
-        "homeTeamCode": "510874",
-        "awayTeam": "Orangeville Bengals 10U A",
-        "awayTeamCode": "510877",
-        "location": "Elmgrove Diamond",
+        "homeTeam": "Vaughan Vikings 10U AA",
+        "homeTeamCode": "518949",
+        "awayTeam": "Aurora-King Jays 10U AA",
+        "awayTeamCode": "510881",
+        "location": "Tudor Park #1",
         "isCompleted": false,
         "score": null
       },
@@ -6001,18 +6025,6 @@
         "date": "2025-07-17T18:30:00.000Z",
         "dateText": "Thu, Jul 17",
         "time": "6:30 PM",
-        "homeTeam": "Markham Mariners 10U A",
-        "homeTeamCode": "510875",
-        "awayTeam": "Aurora-King Jays 10U A",
-        "awayTeamCode": "510869",
-        "location": "Carlton Park",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": "2025-07-17T18:30:00.000Z",
-        "dateText": "Thu, Jul 17",
-        "time": "6:30 PM",
         "homeTeam": "Barrie Baycats 10U A",
         "homeTeamCode": "510870",
         "awayTeam": "Ivy Jays 10U B",
@@ -6020,16 +6032,28 @@
         "location": "Barrie Sports Complex - Diamond 13",
         "isCompleted": false,
         "score": null
+      },
+      {
+        "date": "2025-07-17T18:30:00.000Z",
+        "dateText": "Thu, Jul 17",
+        "time": "6:30 PM",
+        "homeTeam": "Markham Mariners 10U A",
+        "homeTeamCode": "510875",
+        "awayTeam": "Aurora-King Jays 10U A",
+        "awayTeamCode": "510869",
+        "location": "Carlton Park",
+        "isCompleted": false,
+        "score": null
       }
     ],
-    "lastUpdated": "2025-07-14T23:40:30.279Z",
+    "lastUpdated": "2025-07-15T01:17:13.630Z",
     "totalGames": 193
   },
   "summary": {
     "totalTeams": 14,
     "totalGames": 193,
-    "completedGames": 108,
-    "upcomingGames": 85,
+    "completedGames": 109,
+    "upcomingGames": 84,
     "topTeam": {
       "team": "Orillia Royals 10U A",
       "teamCode": "510878",
@@ -6046,6 +6070,6 @@
       "date": "Sun, May 25",
       "location": "West Park Diamond 1"
     },
-    "lastUpdated": "2025-07-14T23:45:24.032Z"
+    "lastUpdated": "2025-07-15T01:22:25.127Z"
   }
 }
