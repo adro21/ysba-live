@@ -6,17 +6,17 @@
         "team": "Markham Mariners 9U A",
         "teamCode": "511061",
         "record": {
-          "gamesPlayed": 9,
-          "wins": 8,
+          "gamesPlayed": 10,
+          "wins": 9,
           "losses": 1,
           "ties": 0,
-          "winPercentage": "0.889"
+          "winPercentage": "0.900"
         },
         "stats": {
-          "points": 16,
-          "runsFor": 138,
-          "runsAgainst": 67,
-          "runDifferential": 71
+          "points": 18,
+          "runsFor": 152,
+          "runsAgainst": 71,
+          "runDifferential": 81
         }
       },
       {
@@ -24,17 +24,17 @@
         "team": "Orillia Royals 9U A",
         "teamCode": "511064",
         "record": {
-          "gamesPlayed": 13,
-          "wins": 11,
+          "gamesPlayed": 15,
+          "wins": 13,
           "losses": 2,
           "ties": 0,
-          "winPercentage": "0.846"
+          "winPercentage": "0.867"
         },
         "stats": {
-          "points": 22,
-          "runsFor": 206,
-          "runsAgainst": 88,
-          "runDifferential": 118
+          "points": 26,
+          "runsFor": 225,
+          "runsAgainst": 100,
+          "runDifferential": 125
         }
       },
       {
@@ -60,17 +60,17 @@
         "team": "Muskoka Hornets 9U A",
         "teamCode": "516247",
         "record": {
-          "gamesPlayed": 9,
+          "gamesPlayed": 11,
           "wins": 4,
-          "losses": 5,
+          "losses": 7,
           "ties": 0,
-          "winPercentage": "0.444"
+          "winPercentage": "0.364"
         },
         "stats": {
           "points": 8,
-          "runsFor": 101,
-          "runsAgainst": 92,
-          "runDifferential": 9
+          "runsFor": 113,
+          "runsAgainst": 111,
+          "runDifferential": 2
         }
       },
       {
@@ -78,21 +78,39 @@
         "team": "Vaughan Vikings 9U A",
         "teamCode": "518948",
         "record": {
-          "gamesPlayed": 9,
+          "gamesPlayed": 10,
           "wins": 2,
-          "losses": 6,
+          "losses": 7,
           "ties": 1,
-          "winPercentage": "0.278"
+          "winPercentage": "0.250"
         },
         "stats": {
           "points": 5,
-          "runsFor": 104,
-          "runsAgainst": 147,
-          "runDifferential": -43
+          "runsFor": 115,
+          "runsAgainst": 167,
+          "runDifferential": -52
         }
       },
       {
         "position": 6,
+        "team": "Stouffville Yankees 9U A",
+        "teamCode": "511065",
+        "record": {
+          "gamesPlayed": 11,
+          "wins": 2,
+          "losses": 9,
+          "ties": 0,
+          "winPercentage": "0.182"
+        },
+        "stats": {
+          "points": 4,
+          "runsFor": 89,
+          "runsAgainst": 169,
+          "runDifferential": -80
+        }
+      },
+      {
+        "position": 7,
         "team": "Orangeville Bengals 9U A",
         "teamCode": "511063",
         "record": {
@@ -108,27 +126,9 @@
           "runsAgainst": 187,
           "runDifferential": -130
         }
-      },
-      {
-        "position": 7,
-        "team": "Stouffville Yankees 9U A",
-        "teamCode": "511065",
-        "record": {
-          "gamesPlayed": 9,
-          "wins": 1,
-          "losses": 8,
-          "ties": 0,
-          "winPercentage": "0.111"
-        },
-        "stats": {
-          "points": 2,
-          "runsFor": 65,
-          "runsAgainst": 144,
-          "runDifferential": -79
-        }
       }
     ],
-    "lastUpdated": "2025-07-15T01:16:36.590Z",
+    "lastUpdated": "2025-07-15T03:15:22.811Z",
     "totalTeams": 7
   },
   "schedule": {
@@ -208,8 +208,12 @@
             "awayTeam": "Markham Mariners 9U A",
             "awayTeamCode": "511061",
             "location": "Rupert Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 14,
+              "scoreText": "14-4"
+            }
           }
         ],
         "nextGames": [
@@ -250,7 +254,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-15T01:16:39.741Z"
+        "lastUpdated": "2025-07-15T03:15:25.878Z"
       },
       "511062": {
         "teamCode": "511062",
@@ -397,7 +401,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-15T01:16:39.741Z"
+        "lastUpdated": "2025-07-15T03:15:25.878Z"
       },
       "511063": {
         "teamCode": "511063",
@@ -536,7 +540,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-15T01:16:39.741Z"
+        "lastUpdated": "2025-07-15T03:15:25.879Z"
       },
       "511064": {
         "teamCode": "511064",
@@ -601,8 +605,12 @@
             "awayTeam": "Muskoka Hornets 9U A",
             "awayTeamCode": "516247",
             "location": "Heliotis Field 135 Dunedin St",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 5,
+              "scoreText": "5-9"
+            }
           },
           {
             "date": "2025-07-12T13:30:00.000Z",
@@ -613,8 +621,12 @@
             "awayTeam": "Muskoka Hornets 9U A",
             "awayTeamCode": "516247",
             "location": "Dean Heliotis Diamond - 135 Dunedin Street",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 7,
+              "scoreText": "7-10"
+            }
           }
         ],
         "nextGames": [
@@ -631,7 +643,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-15T01:16:39.741Z"
+        "lastUpdated": "2025-07-15T03:15:25.879Z"
       },
       "511065": {
         "teamCode": "511065",
@@ -692,8 +704,12 @@
             "awayTeam": "Markham Mariners 9U A",
             "awayTeamCode": "511061",
             "location": "Rupert Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 14,
+              "scoreText": "14-4"
+            }
           },
           {
             "date": "2025-07-14T18:00:00.000Z",
@@ -704,8 +720,12 @@
             "awayTeam": "Stouffville Yankees 9U A",
             "awayTeamCode": "511065",
             "location": "Concord Regional #4",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 20,
+              "scoreText": "20-11"
+            }
           }
         ],
         "nextGames": [
@@ -746,7 +766,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-15T01:16:39.741Z"
+        "lastUpdated": "2025-07-15T03:15:25.879Z"
       },
       "516247": {
         "teamCode": "516247",
@@ -811,8 +831,12 @@
             "awayTeam": "Muskoka Hornets 9U A",
             "awayTeamCode": "516247",
             "location": "Heliotis Field 135 Dunedin St",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 5,
+              "scoreText": "5-9"
+            }
           },
           {
             "date": "2025-07-12T13:30:00.000Z",
@@ -823,8 +847,12 @@
             "awayTeam": "Muskoka Hornets 9U A",
             "awayTeamCode": "516247",
             "location": "Dean Heliotis Diamond - 135 Dunedin Street",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 7,
+              "scoreText": "7-10"
+            }
           }
         ],
         "nextGames": [
@@ -889,7 +917,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-15T01:16:39.741Z"
+        "lastUpdated": "2025-07-15T03:15:25.879Z"
       },
       "518948": {
         "teamCode": "518948",
@@ -966,8 +994,12 @@
             "awayTeam": "Stouffville Yankees 9U A",
             "awayTeamCode": "511065",
             "location": "Concord Regional #4",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 20,
+              "scoreText": "20-11"
+            }
           }
         ],
         "nextGames": [
@@ -1032,7 +1064,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-15T01:16:39.741Z"
+        "lastUpdated": "2025-07-15T03:15:25.879Z"
       }
     },
     "allGames": [
@@ -1653,8 +1685,12 @@
         "awayTeam": "Muskoka Hornets 9U A",
         "awayTeamCode": "516247",
         "location": "Heliotis Field 135 Dunedin St",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 5,
+          "scoreText": "5-9"
+        }
       },
       {
         "date": "2025-07-12T13:30:00.000Z",
@@ -1665,8 +1701,12 @@
         "awayTeam": "Muskoka Hornets 9U A",
         "awayTeamCode": "516247",
         "location": "Dean Heliotis Diamond - 135 Dunedin Street",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 7,
+          "scoreText": "7-10"
+        }
       },
       {
         "date": "2025-07-13T18:00:00.000Z",
@@ -1677,8 +1717,12 @@
         "awayTeam": "Markham Mariners 9U A",
         "awayTeamCode": "511061",
         "location": "Rupert Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 14,
+          "scoreText": "14-4"
+        }
       },
       {
         "date": "2025-07-14T18:00:00.000Z",
@@ -1689,8 +1733,12 @@
         "awayTeam": "Stouffville Yankees 9U A",
         "awayTeamCode": "511065",
         "location": "Concord Regional #4",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 20,
+          "scoreText": "20-11"
+        }
       },
       {
         "date": "2025-07-17T18:00:00.000Z",
@@ -1859,8 +1907,12 @@
         "awayTeam": "Stouffville Yankees 9U A",
         "awayTeamCode": "511065",
         "location": "Concord Regional #4",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 20,
+          "scoreText": "20-11"
+        }
       },
       {
         "date": "2025-07-13T18:00:00.000Z",
@@ -1871,8 +1923,12 @@
         "awayTeam": "Markham Mariners 9U A",
         "awayTeamCode": "511061",
         "location": "Rupert Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 14,
+          "scoreText": "14-4"
+        }
       },
       {
         "date": "2025-07-12T13:30:00.000Z",
@@ -1883,8 +1939,12 @@
         "awayTeam": "Muskoka Hornets 9U A",
         "awayTeamCode": "516247",
         "location": "Dean Heliotis Diamond - 135 Dunedin Street",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 7,
+          "scoreText": "7-10"
+        }
       },
       {
         "date": "2025-07-12T11:00:00.000Z",
@@ -1895,8 +1955,12 @@
         "awayTeam": "Muskoka Hornets 9U A",
         "awayTeamCode": "516247",
         "location": "Heliotis Field 135 Dunedin St",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 5,
+          "scoreText": "5-9"
+        }
       },
       {
         "date": "2025-07-11T18:30:00.000Z",
@@ -2109,20 +2173,20 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-15T01:16:39.742Z",
+    "lastUpdated": "2025-07-15T03:15:25.879Z",
     "totalGames": 56
   },
   "summary": {
     "totalTeams": 7,
     "totalGames": 56,
-    "completedGames": 35,
-    "upcomingGames": 21,
+    "completedGames": 39,
+    "upcomingGames": 17,
     "topTeam": {
       "team": "Markham Mariners 9U A",
       "teamCode": "511061",
-      "wins": 8,
+      "wins": 9,
       "losses": 1,
-      "winPercentage": "0.889"
+      "winPercentage": "0.900"
     },
     "highestScoringGame": {
       "homeTeam": "Vaughan Vikings 9U A",
@@ -2133,6 +2197,6 @@
       "date": "Sat, Jun 14",
       "location": "Dean Heliotis Diamond"
     },
-    "lastUpdated": "2025-07-15T01:22:25.127Z"
+    "lastUpdated": "2025-07-15T03:21:16.729Z"
   }
 }

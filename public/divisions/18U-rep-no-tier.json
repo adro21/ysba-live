@@ -2,21 +2,21 @@
   "standings": {
     "teams": [
       {
-        "position": 2,
+        "position": 1,
         "team": "Aurora-King Jays 18U A",
         "teamCode": "511022",
         "record": {
-          "gamesPlayed": 12,
-          "wins": 11,
+          "gamesPlayed": 13,
+          "wins": 12,
           "losses": 1,
           "ties": 0,
-          "winPercentage": "0.917"
+          "winPercentage": "0.923"
         },
         "stats": {
-          "points": 22,
-          "runsFor": 104,
-          "runsAgainst": 47,
-          "runDifferential": 57
+          "points": 24,
+          "runsFor": 114,
+          "runsAgainst": 49,
+          "runDifferential": 65
         }
       },
       {
@@ -56,7 +56,7 @@
         }
       },
       {
-        "position": 1,
+        "position": 2,
         "team": "Aurora-King Jays 17U A",
         "teamCode": "511021",
         "record": {
@@ -96,17 +96,17 @@
         "team": "Markham Mariners 18U A - Team 1",
         "teamCode": "511030",
         "record": {
-          "gamesPlayed": 13,
+          "gamesPlayed": 14,
           "wins": 8,
-          "losses": 4,
+          "losses": 5,
           "ties": 1,
-          "winPercentage": "0.654"
+          "winPercentage": "0.607"
         },
         "stats": {
           "points": 17,
-          "runsFor": 76,
-          "runsAgainst": 65,
-          "runDifferential": 11
+          "runsFor": 78,
+          "runsAgainst": 75,
+          "runDifferential": 3
         }
       },
       {
@@ -164,7 +164,7 @@
         }
       },
       {
-        "position": 14,
+        "position": 15,
         "team": "Muskoka Hornets 18U AA",
         "teamCode": "516246",
         "record": {
@@ -237,6 +237,24 @@
       },
       {
         "position": 13,
+        "team": "Vaughan Vikings 17U A",
+        "teamCode": "518960",
+        "record": {
+          "gamesPlayed": 14,
+          "wins": 5,
+          "losses": 8,
+          "ties": 1,
+          "winPercentage": "0.393"
+        },
+        "stats": {
+          "points": 11,
+          "runsFor": 78,
+          "runsAgainst": 89,
+          "runDifferential": -11
+        }
+      },
+      {
+        "position": 14,
         "team": "Innisfil Cardinals 18U A",
         "teamCode": "511028",
         "record": {
@@ -255,24 +273,6 @@
       },
       {
         "position": 16,
-        "team": "Vaughan Vikings 17U A",
-        "teamCode": "518960",
-        "record": {
-          "gamesPlayed": 13,
-          "wins": 4,
-          "losses": 8,
-          "ties": 1,
-          "winPercentage": "0.346"
-        },
-        "stats": {
-          "points": 9,
-          "runsFor": 70,
-          "runsAgainst": 84,
-          "runDifferential": -14
-        }
-      },
-      {
-        "position": 15,
         "team": "Vaughan Vikings 18U AA",
         "teamCode": "518962",
         "record": {
@@ -294,17 +294,17 @@
         "team": "Women's Team",
         "teamCode": "546377",
         "record": {
-          "gamesPlayed": 13,
+          "gamesPlayed": 14,
           "wins": 3,
-          "losses": 9,
+          "losses": 10,
           "ties": 1,
-          "winPercentage": "0.269"
+          "winPercentage": "0.250"
         },
         "stats": {
           "points": 7,
-          "runsFor": 67,
-          "runsAgainst": 135,
-          "runDifferential": -68
+          "runsFor": 72,
+          "runsAgainst": 143,
+          "runDifferential": -71
         }
       },
       {
@@ -344,7 +344,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-15T01:20:29.572Z",
+    "lastUpdated": "2025-07-15T03:19:16.453Z",
     "totalTeams": 19
   },
   "schedule": {
@@ -450,7 +450,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-15T01:20:34.137Z"
+        "lastUpdated": "2025-07-15T03:19:21.108Z"
       },
       "511022": {
         "teamCode": "511022",
@@ -527,8 +527,12 @@
             "awayTeam": "Markham Mariners 18U A - Team 1",
             "awayTeamCode": "511030",
             "location": "Stewart Burnett",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 2,
+              "scoreText": "2-10"
+            }
           }
         ],
         "nextGames": [
@@ -569,7 +573,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-15T01:20:34.137Z"
+        "lastUpdated": "2025-07-15T03:19:21.108Z"
       },
       "511023": {
         "teamCode": "511023",
@@ -708,7 +712,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-15T01:20:34.137Z"
+        "lastUpdated": "2025-07-15T03:19:21.108Z"
       },
       "511024": {
         "teamCode": "511024",
@@ -811,7 +815,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-15T01:20:34.137Z"
+        "lastUpdated": "2025-07-15T03:19:21.108Z"
       },
       "511025": {
         "teamCode": "511025",
@@ -910,7 +914,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-15T01:20:34.137Z"
+        "lastUpdated": "2025-07-15T03:19:21.108Z"
       },
       "511026": {
         "teamCode": "511026",
@@ -1021,7 +1025,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-15T01:20:34.137Z"
+        "lastUpdated": "2025-07-15T03:19:21.108Z"
       },
       "511027": {
         "teamCode": "511027",
@@ -1160,7 +1164,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-15T01:20:34.137Z"
+        "lastUpdated": "2025-07-15T03:19:21.108Z"
       },
       "511028": {
         "teamCode": "511028",
@@ -1271,7 +1275,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-15T01:20:34.137Z"
+        "lastUpdated": "2025-07-15T03:19:21.108Z"
       },
       "511030": {
         "teamCode": "511030",
@@ -1352,8 +1356,12 @@
             "awayTeam": "Markham Mariners 18U A - Team 1",
             "awayTeamCode": "511030",
             "location": "Stewart Burnett",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 2,
+              "scoreText": "2-10"
+            }
           }
         ],
         "nextGames": [
@@ -1394,7 +1402,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-15T01:20:34.137Z"
+        "lastUpdated": "2025-07-15T03:19:21.108Z"
       },
       "511031": {
         "teamCode": "511031",
@@ -1521,7 +1529,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-15T01:20:34.137Z"
+        "lastUpdated": "2025-07-15T03:19:21.108Z"
       },
       "511032": {
         "teamCode": "511032",
@@ -1611,7 +1619,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-15T01:20:34.138Z"
+        "lastUpdated": "2025-07-15T03:19:21.108Z"
       },
       "511033": {
         "teamCode": "511033",
@@ -1750,7 +1758,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-15T01:20:34.138Z"
+        "lastUpdated": "2025-07-15T03:19:21.108Z"
       },
       "511034": {
         "teamCode": "511034",
@@ -1857,7 +1865,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-15T01:20:34.138Z"
+        "lastUpdated": "2025-07-15T03:19:21.108Z"
       },
       "511035": {
         "teamCode": "511035",
@@ -1980,7 +1988,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-15T01:20:34.138Z"
+        "lastUpdated": "2025-07-15T03:19:21.108Z"
       },
       "516246": {
         "teamCode": "516246",
@@ -2075,7 +2083,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-15T01:20:34.138Z"
+        "lastUpdated": "2025-07-15T03:19:21.108Z"
       },
       "518960": {
         "teamCode": "518960",
@@ -2152,8 +2160,12 @@
             "awayTeam": "Women's Team",
             "awayTeamCode": "546377",
             "location": "Sports Village",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 5,
+              "scoreText": "5-8"
+            }
           }
         ],
         "nextGames": [
@@ -2182,7 +2194,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-15T01:20:34.138Z"
+        "lastUpdated": "2025-07-15T03:19:21.108Z"
       },
       "518962": {
         "teamCode": "518962",
@@ -2281,7 +2293,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-15T01:20:34.138Z"
+        "lastUpdated": "2025-07-15T03:19:21.108Z"
       },
       "519242": {
         "teamCode": "519242",
@@ -2408,7 +2420,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-15T01:20:34.138Z"
+        "lastUpdated": "2025-07-15T03:19:21.108Z"
       },
       "546377": {
         "teamCode": "546377",
@@ -2481,8 +2493,12 @@
             "awayTeam": "Women's Team",
             "awayTeamCode": "546377",
             "location": "Sports Village",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 5,
+              "scoreText": "5-8"
+            }
           }
         ],
         "nextGames": [
@@ -2499,7 +2515,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-15T01:20:34.138Z"
+        "lastUpdated": "2025-07-15T03:19:21.108Z"
       }
     },
     "allGames": [
@@ -4648,8 +4664,12 @@
         "awayTeam": "Markham Mariners 18U A - Team 1",
         "awayTeamCode": "511030",
         "location": "Stewart Burnett",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 2,
+          "scoreText": "2-10"
+        }
       },
       {
         "date": "2025-07-14T20:00:00.000Z",
@@ -4672,8 +4692,12 @@
         "awayTeam": "Women's Team",
         "awayTeamCode": "546377",
         "location": "Sports Village",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 5,
+          "scoreText": "5-8"
+        }
       },
       {
         "date": "2025-07-14T20:30:00.000Z",
@@ -4974,8 +4998,12 @@
         "awayTeam": "Women's Team",
         "awayTeamCode": "546377",
         "location": "Sports Village",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 5,
+          "scoreText": "5-8"
+        }
       },
       {
         "date": "2025-07-14T19:30:00.000Z",
@@ -4986,8 +5014,12 @@
         "awayTeam": "Markham Mariners 18U A - Team 1",
         "awayTeamCode": "511030",
         "location": "Stewart Burnett",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 2,
+          "scoreText": "2-10"
+        }
       },
       {
         "date": "2025-07-14T18:00:00.000Z",
@@ -5200,20 +5232,20 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-15T01:20:34.138Z",
+    "lastUpdated": "2025-07-15T03:19:21.108Z",
     "totalGames": 161
   },
   "summary": {
     "totalTeams": 19,
     "totalGames": 161,
-    "completedGames": 126,
-    "upcomingGames": 35,
+    "completedGames": 128,
+    "upcomingGames": 33,
     "topTeam": {
       "team": "Aurora-King Jays 18U A",
       "teamCode": "511022",
-      "wins": 11,
+      "wins": 12,
       "losses": 1,
-      "winPercentage": "0.917"
+      "winPercentage": "0.923"
     },
     "highestScoringGame": {
       "homeTeam": "Women's Team",
@@ -5224,6 +5256,6 @@
       "date": "Sun, Jun 1",
       "location": "David Hamilton #1"
     },
-    "lastUpdated": "2025-07-15T01:22:25.127Z"
+    "lastUpdated": "2025-07-15T03:21:16.729Z"
   }
 }
