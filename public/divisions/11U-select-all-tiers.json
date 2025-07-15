@@ -56,24 +56,6 @@
         }
       },
       {
-        "position": 4,
-        "team": "Midland Penetang Twins 11U DS",
-        "teamCode": "511074",
-        "record": {
-          "gamesPlayed": 12,
-          "wins": 8,
-          "losses": 4,
-          "ties": 0,
-          "winPercentage": "0.667"
-        },
-        "stats": {
-          "points": 16,
-          "runsFor": 122,
-          "runsAgainst": 93,
-          "runDifferential": 29
-        }
-      },
-      {
         "position": 5,
         "team": "Thornhill Reds 11U DS - Team 1",
         "teamCode": "511082",
@@ -89,6 +71,24 @@
           "runsFor": 113,
           "runsAgainst": 90,
           "runDifferential": 23
+        }
+      },
+      {
+        "position": 4,
+        "team": "Midland Penetang Twins 11U DS",
+        "teamCode": "511074",
+        "record": {
+          "gamesPlayed": 14,
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "winPercentage": "0.571"
+        },
+        "stats": {
+          "points": 16,
+          "runsFor": 131,
+          "runsAgainst": 112,
+          "runDifferential": 19
         }
       },
       {
@@ -110,7 +110,7 @@
         }
       },
       {
-        "position": 8,
+        "position": 9,
         "team": "Newmarket Hawks 11U DS",
         "teamCode": "511080",
         "record": {
@@ -128,25 +128,25 @@
         }
       },
       {
-        "position": 9,
+        "position": 7,
         "team": "TNT Thunder 11U DS",
         "teamCode": "518974",
         "record": {
-          "gamesPlayed": 11,
-          "wins": 4,
+          "gamesPlayed": 13,
+          "wins": 6,
           "losses": 7,
           "ties": 0,
-          "winPercentage": "0.364"
+          "winPercentage": "0.462"
         },
         "stats": {
-          "points": 8,
-          "runsFor": 91,
-          "runsAgainst": 93,
-          "runDifferential": -2
+          "points": 12,
+          "runsFor": 110,
+          "runsAgainst": 102,
+          "runDifferential": 8
         }
       },
       {
-        "position": 7,
+        "position": 8,
         "team": "Richmond Hill Phoenix 11U DS",
         "teamCode": "511081",
         "record": {
@@ -236,7 +236,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-15T12:36:27.641Z",
+    "lastUpdated": "2025-07-15T13:39:18.352Z",
     "totalTeams": 13
   },
   "schedule": {
@@ -304,8 +304,12 @@
             "awayTeam": "TNT Thunder 11U DS",
             "awayTeamCode": "518974",
             "location": "Little Lake Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 10,
+              "scoreText": "10-5"
+            }
           },
           {
             "date": "2025-07-12T17:15:00.000Z",
@@ -316,8 +320,12 @@
             "awayTeam": "TNT Thunder 11U DS",
             "awayTeamCode": "518974",
             "location": "Little Lake Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 9,
+              "scoreText": "9-4"
+            }
           }
         ],
         "nextGames": [
@@ -346,7 +354,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-15T12:36:32.384Z"
+        "lastUpdated": "2025-07-15T13:39:22.901Z"
       },
       "511075": {
         "teamCode": "511075",
@@ -461,7 +469,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-15T12:36:32.384Z"
+        "lastUpdated": "2025-07-15T13:39:22.901Z"
       },
       "511076": {
         "teamCode": "511076",
@@ -600,7 +608,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-15T12:36:32.384Z"
+        "lastUpdated": "2025-07-15T13:39:22.901Z"
       },
       "511077": {
         "teamCode": "511077",
@@ -739,7 +747,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-15T12:36:32.384Z"
+        "lastUpdated": "2025-07-15T13:39:22.901Z"
       },
       "511078": {
         "teamCode": "511078",
@@ -874,7 +882,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-15T12:36:32.384Z"
+        "lastUpdated": "2025-07-15T13:39:22.901Z"
       },
       "511079": {
         "teamCode": "511079",
@@ -1013,7 +1021,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-15T12:36:32.384Z"
+        "lastUpdated": "2025-07-15T13:39:22.901Z"
       },
       "511080": {
         "teamCode": "511080",
@@ -1152,7 +1160,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-15T12:36:32.384Z"
+        "lastUpdated": "2025-07-15T13:39:22.901Z"
       },
       "511081": {
         "teamCode": "511081",
@@ -1267,7 +1275,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-15T12:36:32.384Z"
+        "lastUpdated": "2025-07-15T13:39:22.901Z"
       },
       "511082": {
         "teamCode": "511082",
@@ -1382,7 +1390,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-15T12:36:32.384Z"
+        "lastUpdated": "2025-07-15T13:39:22.901Z"
       },
       "511083": {
         "teamCode": "511083",
@@ -1533,7 +1541,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-15T12:36:32.384Z"
+        "lastUpdated": "2025-07-15T13:39:22.901Z"
       },
       "518967": {
         "teamCode": "518967",
@@ -1644,7 +1652,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-15T12:36:32.384Z"
+        "lastUpdated": "2025-07-15T13:39:22.901Z"
       },
       "518968": {
         "teamCode": "518968",
@@ -1759,7 +1767,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-15T12:36:32.384Z"
+        "lastUpdated": "2025-07-15T13:39:22.902Z"
       },
       "518974": {
         "teamCode": "518974",
@@ -1820,8 +1828,12 @@
             "awayTeam": "TNT Thunder 11U DS",
             "awayTeamCode": "518974",
             "location": "Little Lake Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 10,
+              "scoreText": "10-5"
+            }
           },
           {
             "date": "2025-07-12T17:15:00.000Z",
@@ -1832,8 +1844,12 @@
             "awayTeam": "TNT Thunder 11U DS",
             "awayTeamCode": "518974",
             "location": "Little Lake Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 9,
+              "scoreText": "9-4"
+            }
           }
         ],
         "nextGames": [
@@ -1862,7 +1878,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-15T12:36:32.384Z"
+        "lastUpdated": "2025-07-15T13:39:22.902Z"
       }
     },
     "allGames": [
@@ -3179,8 +3195,12 @@
         "awayTeam": "TNT Thunder 11U DS",
         "awayTeamCode": "518974",
         "location": "Little Lake Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 5,
+          "away": 10,
+          "scoreText": "10-5"
+        }
       },
       {
         "date": "2025-07-12T17:15:00.000Z",
@@ -3191,8 +3211,12 @@
         "awayTeam": "TNT Thunder 11U DS",
         "awayTeamCode": "518974",
         "location": "Little Lake Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 9,
+          "scoreText": "9-4"
+        }
       },
       {
         "date": "2025-07-13T15:00:00.000Z",
@@ -3509,8 +3533,12 @@
         "awayTeam": "TNT Thunder 11U DS",
         "awayTeamCode": "518974",
         "location": "Little Lake Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 9,
+          "scoreText": "9-4"
+        }
       },
       {
         "date": "2025-07-12T15:00:00.000Z",
@@ -3521,8 +3549,12 @@
         "awayTeam": "TNT Thunder 11U DS",
         "awayTeamCode": "518974",
         "location": "Little Lake Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 5,
+          "away": 10,
+          "scoreText": "10-5"
+        }
       },
       {
         "date": "2025-07-12T14:15:00.000Z",
@@ -3743,14 +3775,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-15T12:36:32.384Z",
+    "lastUpdated": "2025-07-15T13:39:22.902Z",
     "totalGames": 107
   },
   "summary": {
     "totalTeams": 13,
     "totalGames": 107,
-    "completedGames": 79,
-    "upcomingGames": 28,
+    "completedGames": 81,
+    "upcomingGames": 26,
     "topTeam": {
       "team": "Vaughan Vikings 11U DS",
       "teamCode": "518968",
@@ -3767,6 +3799,6 @@
       "date": "Sat, May 24",
       "location": "Mansfield Park"
     },
-    "lastUpdated": "2025-07-15T12:36:47.183Z"
+    "lastUpdated": "2025-07-15T13:39:38.204Z"
   }
 }
