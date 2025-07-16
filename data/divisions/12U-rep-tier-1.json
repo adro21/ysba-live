@@ -1,7 +1,7 @@
 {
   "standings": {
     "teams": [],
-    "lastUpdated": "2025-07-16T12:32:45.862Z",
+    "lastUpdated": "2025-07-16T13:35:32.220Z",
     "totalTeams": 0
   },
   "schedule": {
@@ -69,8 +69,12 @@
             "awayTeam": "Markham Mariners 12U A",
             "awayTeamCode": "510922",
             "location": "Lambert Wilson Park - Diamond 1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 3,
+              "away": 23,
+              "scoreText": "23-3"
+            }
           },
           {
             "date": "2025-07-14T18:30:00.000Z",
@@ -81,8 +85,12 @@
             "awayTeam": "Orillia Royals 12U A",
             "awayTeamCode": "510925",
             "location": "Hallmark Diamond 1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 15,
+              "scoreText": "15-9"
+            }
           }
         ],
         "nextGames": [
@@ -111,7 +119,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-16T12:32:50.335Z"
+        "lastUpdated": "2025-07-16T13:35:36.358Z"
       },
       "510919": {
         "teamCode": "510919",
@@ -222,26 +230,14 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-16T12:32:50.335Z"
+        "lastUpdated": "2025-07-16T13:35:36.358Z"
       },
       "510920": {
         "teamCode": "510920",
         "totalGames": 18,
-        "playedGames": 13,
-        "upcomingGames": 5,
+        "playedGames": 14,
+        "upcomingGames": 4,
         "recentGames": [
-          {
-            "date": "2025-06-18T18:30:00.000Z",
-            "dateText": "Wed, Jun 18",
-            "time": "6:30 PM",
-            "homeTeam": "Barrie Baycats 12U A",
-            "homeTeamCode": "510919",
-            "awayTeam": "Bradford Tigers 12U A",
-            "awayTeamCode": "510920",
-            "location": "Barrie Community Sports Complex - Diamond 12",
-            "isCompleted": false,
-            "score": null
-          },
           {
             "date": "2025-06-23T18:00:00.000Z",
             "dateText": "Mon, Jun 23",
@@ -301,6 +297,22 @@
               "away": 0,
               "scoreText": "0-18"
             }
+          },
+          {
+            "date": "2025-07-24T18:30:00.000Z",
+            "dateText": "Thu, Jul 24",
+            "time": "6:30 PM",
+            "homeTeam": "Thornhill Reds 12U A",
+            "homeTeamCode": "510926",
+            "awayTeam": "Bradford Tigers 12U A",
+            "awayTeamCode": "510920",
+            "location": "Bishop's Cross Park",
+            "isCompleted": true,
+            "score": {
+              "home": 15,
+              "away": 9,
+              "scoreText": "9-15"
+            }
           }
         ],
         "nextGames": [
@@ -329,18 +341,6 @@
             "score": null
           },
           {
-            "date": "2025-07-24T18:30:00.000Z",
-            "dateText": "Thu, Jul 24",
-            "time": "6:30 PM",
-            "homeTeam": "Thornhill Reds 12U A",
-            "homeTeamCode": "510926",
-            "awayTeam": "Bradford Tigers 12U A",
-            "awayTeamCode": "510920",
-            "location": "Bishop's Cross Park",
-            "isCompleted": false,
-            "score": null
-          },
-          {
             "date": "2025-07-28T18:00:00.000Z",
             "dateText": "Mon, Jul 28",
             "time": "6:00 PM",
@@ -365,7 +365,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-16T12:32:50.335Z"
+        "lastUpdated": "2025-07-16T13:35:36.358Z"
       },
       "510921": {
         "teamCode": "510921",
@@ -382,8 +382,12 @@
             "awayTeam": "Markham Mariners 12U A",
             "awayTeamCode": "510922",
             "location": "Stroud Community Centre",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 15,
+              "away": 5,
+              "scoreText": "5-15"
+            }
           },
           {
             "date": "2025-07-09T18:30:00.000Z",
@@ -406,8 +410,12 @@
             "awayTeam": "Innisfil Cardinals 12U A",
             "awayTeamCode": "510921",
             "location": "Bishop's Cross Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 5,
+              "scoreText": "5-6"
+            }
           },
           {
             "date": "2025-07-14T20:00:00.000Z",
@@ -418,8 +426,12 @@
             "awayTeam": "Innisfil Cardinals 12U A",
             "awayTeamCode": "510921",
             "location": "Idyllwild Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 13,
+              "scoreText": "13-14"
+            }
           },
           {
             "date": "2025-07-15T18:15:00.000Z",
@@ -430,8 +442,12 @@
             "awayTeam": "Innisfil Cardinals 12U A",
             "awayTeamCode": "510921",
             "location": "Milliken Mills Diamond 2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 17,
+              "scoreText": "17-6"
+            }
           }
         ],
         "nextGames": [
@@ -472,7 +488,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-16T12:32:50.335Z"
+        "lastUpdated": "2025-07-16T13:35:36.358Z"
       },
       "510922": {
         "teamCode": "510922",
@@ -505,8 +521,12 @@
             "awayTeam": "Markham Mariners 12U A",
             "awayTeamCode": "510922",
             "location": "Stroud Community Centre",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 15,
+              "away": 5,
+              "scoreText": "5-15"
+            }
           },
           {
             "date": "2025-07-10T18:00:00.000Z",
@@ -517,8 +537,12 @@
             "awayTeam": "Markham Mariners 12U A",
             "awayTeamCode": "510922",
             "location": "Lambert Wilson Park - Diamond 1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 3,
+              "away": 23,
+              "scoreText": "23-3"
+            }
           },
           {
             "date": "2025-07-13T16:00:00.000Z",
@@ -529,8 +553,12 @@
             "awayTeam": "Markham Mariners 12U A",
             "awayTeamCode": "510922",
             "location": "YEO Diamond",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 18,
+              "scoreText": "18-12"
+            }
           },
           {
             "date": "2025-07-15T18:15:00.000Z",
@@ -541,8 +569,12 @@
             "awayTeam": "Innisfil Cardinals 12U A",
             "awayTeamCode": "510921",
             "location": "Milliken Mills Diamond 2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 17,
+              "scoreText": "17-6"
+            }
           }
         ],
         "nextGames": [
@@ -595,7 +627,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-16T12:32:50.335Z"
+        "lastUpdated": "2025-07-16T13:35:36.358Z"
       },
       "510923": {
         "teamCode": "510923",
@@ -746,7 +778,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-16T12:32:50.335Z"
+        "lastUpdated": "2025-07-16T13:35:36.358Z"
       },
       "510924": {
         "teamCode": "510924",
@@ -811,8 +843,12 @@
             "awayTeam": "Orangeville Bengals 12U A",
             "awayTeamCode": "510924",
             "location": "ROC 2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 1,
+              "away": 19,
+              "scoreText": "19-1"
+            }
           },
           {
             "date": "2025-07-14T20:00:00.000Z",
@@ -823,8 +859,12 @@
             "awayTeam": "Innisfil Cardinals 12U A",
             "awayTeamCode": "510921",
             "location": "Idyllwild Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 13,
+              "scoreText": "13-14"
+            }
           }
         ],
         "nextGames": [
@@ -865,7 +905,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-16T12:32:50.335Z"
+        "lastUpdated": "2025-07-16T13:35:36.358Z"
       },
       "510925": {
         "teamCode": "510925",
@@ -914,8 +954,12 @@
             "awayTeam": "Orillia Royals 12U A",
             "awayTeamCode": "510925",
             "location": "Coventry Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 5,
+              "scoreText": "5-12"
+            }
           },
           {
             "date": "2025-07-13T16:00:00.000Z",
@@ -926,8 +970,12 @@
             "awayTeam": "Markham Mariners 12U A",
             "awayTeamCode": "510922",
             "location": "YEO Diamond",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 18,
+              "scoreText": "18-12"
+            }
           },
           {
             "date": "2025-07-14T18:30:00.000Z",
@@ -938,8 +986,12 @@
             "awayTeam": "Orillia Royals 12U A",
             "awayTeamCode": "510925",
             "location": "Hallmark Diamond 1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 15,
+              "scoreText": "15-9"
+            }
           }
         ],
         "nextGames": [
@@ -980,30 +1032,14 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-16T12:32:50.335Z"
+        "lastUpdated": "2025-07-16T13:35:36.358Z"
       },
       "510926": {
         "teamCode": "510926",
         "totalGames": 18,
-        "playedGames": 15,
-        "upcomingGames": 3,
+        "playedGames": 16,
+        "upcomingGames": 2,
         "recentGames": [
-          {
-            "date": "2025-06-23T18:00:00.000Z",
-            "dateText": "Mon, Jun 23",
-            "time": "6:00 PM",
-            "homeTeam": "Bradford Tigers 12U A",
-            "homeTeamCode": "510920",
-            "awayTeam": "Thornhill Reds 12U A",
-            "awayTeamCode": "510926",
-            "location": "Joe Magani Park",
-            "isCompleted": true,
-            "score": {
-              "home": 11,
-              "away": 9,
-              "scoreText": "9-11"
-            }
-          },
           {
             "date": "2025-06-24T18:00:00.000Z",
             "dateText": "Tue, Jun 24",
@@ -1045,8 +1081,12 @@
             "awayTeam": "Innisfil Cardinals 12U A",
             "awayTeamCode": "510921",
             "location": "Bishop's Cross Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 5,
+              "scoreText": "5-6"
+            }
           },
           {
             "date": "2025-07-15T18:00:00.000Z",
@@ -1059,6 +1099,22 @@
             "location": "Coventry Park",
             "isCompleted": false,
             "score": null
+          },
+          {
+            "date": "2025-07-24T18:30:00.000Z",
+            "dateText": "Thu, Jul 24",
+            "time": "6:30 PM",
+            "homeTeam": "Thornhill Reds 12U A",
+            "homeTeamCode": "510926",
+            "awayTeam": "Bradford Tigers 12U A",
+            "awayTeamCode": "510920",
+            "location": "Bishop's Cross Park",
+            "isCompleted": true,
+            "score": {
+              "home": 15,
+              "away": 9,
+              "scoreText": "9-15"
+            }
           }
         ],
         "nextGames": [
@@ -1085,21 +1141,9 @@
             "location": "Sid Coburn Diamond",
             "isCompleted": false,
             "score": null
-          },
-          {
-            "date": "2025-07-24T18:30:00.000Z",
-            "dateText": "Thu, Jul 24",
-            "time": "6:30 PM",
-            "homeTeam": "Thornhill Reds 12U A",
-            "homeTeamCode": "510926",
-            "awayTeam": "Bradford Tigers 12U A",
-            "awayTeamCode": "510920",
-            "location": "Bishop's Cross Park",
-            "isCompleted": false,
-            "score": null
           }
         ],
-        "lastUpdated": "2025-07-16T12:32:50.335Z"
+        "lastUpdated": "2025-07-16T13:35:36.358Z"
       },
       "510927": {
         "teamCode": "510927",
@@ -1116,8 +1160,12 @@
             "awayTeam": "Georgina Bulldogs 12U B",
             "awayTeamCode": "510939",
             "location": "Coventry Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 22,
+              "away": 0,
+              "scoreText": "0-22"
+            }
           },
           {
             "date": "2025-06-25T18:30:00.000Z",
@@ -1160,8 +1208,12 @@
             "awayTeam": "Orillia Royals 12U A",
             "awayTeamCode": "510925",
             "location": "Coventry Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 5,
+              "scoreText": "5-12"
+            }
           },
           {
             "date": "2025-07-15T18:00:00.000Z",
@@ -1214,7 +1266,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-16T12:32:50.335Z"
+        "lastUpdated": "2025-07-16T13:35:36.358Z"
       },
       "510928": {
         "teamCode": "510928",
@@ -1329,7 +1381,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-16T12:32:50.335Z"
+        "lastUpdated": "2025-07-16T13:35:36.359Z"
       },
       "510929": {
         "teamCode": "510929",
@@ -1464,7 +1516,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-16T12:32:50.335Z"
+        "lastUpdated": "2025-07-16T13:35:36.359Z"
       },
       "510930": {
         "teamCode": "510930",
@@ -1603,7 +1655,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-16T12:32:50.335Z"
+        "lastUpdated": "2025-07-16T13:35:36.359Z"
       },
       "510931": {
         "teamCode": "510931",
@@ -1754,7 +1806,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-16T12:32:50.336Z"
+        "lastUpdated": "2025-07-16T13:35:36.359Z"
       },
       "510932": {
         "teamCode": "510932",
@@ -1877,7 +1929,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-16T12:32:50.336Z"
+        "lastUpdated": "2025-07-16T13:35:36.359Z"
       },
       "510933": {
         "teamCode": "510933",
@@ -2012,7 +2064,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-16T12:32:50.336Z"
+        "lastUpdated": "2025-07-16T13:35:36.359Z"
       },
       "510934": {
         "teamCode": "510934",
@@ -2163,7 +2215,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-16T12:32:50.336Z"
+        "lastUpdated": "2025-07-16T13:35:36.359Z"
       },
       "510935": {
         "teamCode": "510935",
@@ -2310,7 +2362,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-16T12:32:50.336Z"
+        "lastUpdated": "2025-07-16T13:35:36.359Z"
       },
       "510939": {
         "teamCode": "510939",
@@ -2387,8 +2439,12 @@
             "awayTeam": "Orangeville Bengals 12U A",
             "awayTeamCode": "510924",
             "location": "ROC 2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 1,
+              "away": 19,
+              "scoreText": "19-1"
+            }
           }
         ],
         "nextGames": [
@@ -2441,7 +2497,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-16T12:32:50.336Z"
+        "lastUpdated": "2025-07-16T13:35:36.359Z"
       }
     },
     "allGames": [
@@ -3254,8 +3310,12 @@
         "awayTeam": "Bradford Tigers 12U A",
         "awayTeamCode": "510920",
         "location": "Stroud Community Centre",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 0,
+          "scoreText": "0-7"
+        }
       },
       {
         "date": "2025-06-10T18:00:00.000Z",
@@ -3742,8 +3802,12 @@
         "awayTeam": "Georgina Bulldogs 12U B",
         "awayTeamCode": "510939",
         "location": "Coventry Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 22,
+          "away": 0,
+          "scoreText": "0-22"
+        }
       },
       {
         "date": "2025-06-24T18:00:00.000Z",
@@ -4102,8 +4166,12 @@
         "awayTeam": "Orillia Royals 12U A",
         "awayTeamCode": "510925",
         "location": "Coventry Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 5,
+          "scoreText": "5-12"
+        }
       },
       {
         "date": "2025-07-08T18:00:00.000Z",
@@ -4114,8 +4182,12 @@
         "awayTeam": "Markham Mariners 12U A",
         "awayTeamCode": "510922",
         "location": "Stroud Community Centre",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 15,
+          "away": 5,
+          "scoreText": "5-15"
+        }
       },
       {
         "date": "2025-07-08T18:15:00.000Z",
@@ -4126,8 +4198,12 @@
         "awayTeam": "Orangeville Bengals 12U A",
         "awayTeamCode": "510924",
         "location": "ROC 2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 1,
+          "away": 19,
+          "scoreText": "19-1"
+        }
       },
       {
         "date": "2025-07-08T18:30:00.000Z",
@@ -4178,8 +4254,12 @@
         "awayTeam": "Markham Mariners 12U A",
         "awayTeamCode": "510922",
         "location": "Lambert Wilson Park - Diamond 1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 3,
+          "away": 23,
+          "scoreText": "23-3"
+        }
       },
       {
         "date": "2025-07-10T18:30:00.000Z",
@@ -4222,8 +4302,12 @@
         "awayTeam": "Innisfil Cardinals 12U A",
         "awayTeamCode": "510921",
         "location": "Bishop's Cross Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 5,
+          "scoreText": "5-6"
+        }
       },
       {
         "date": "2025-07-11T19:00:00.000Z",
@@ -4266,8 +4350,12 @@
         "awayTeam": "Markham Mariners 12U A",
         "awayTeamCode": "510922",
         "location": "YEO Diamond",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 18,
+          "scoreText": "18-12"
+        }
       },
       {
         "date": "2025-07-14T18:15:00.000Z",
@@ -4310,8 +4398,12 @@
         "awayTeam": "Orillia Royals 12U A",
         "awayTeamCode": "510925",
         "location": "Hallmark Diamond 1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 15,
+          "scoreText": "15-9"
+        }
       },
       {
         "date": "2025-07-14T18:30:00.000Z",
@@ -4338,8 +4430,12 @@
         "awayTeam": "Innisfil Cardinals 12U A",
         "awayTeamCode": "510921",
         "location": "Idyllwild Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 13,
+          "scoreText": "13-14"
+        }
       },
       {
         "date": "2025-07-15T18:00:00.000Z",
@@ -4362,8 +4458,12 @@
         "awayTeam": "Innisfil Cardinals 12U A",
         "awayTeamCode": "510921",
         "location": "Milliken Mills Diamond 2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 17,
+          "scoreText": "17-6"
+        }
       },
       {
         "date": "2025-07-15T18:30:00.000Z",
@@ -4578,8 +4678,12 @@
         "awayTeam": "Bradford Tigers 12U A",
         "awayTeamCode": "510920",
         "location": "Bishop's Cross Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 15,
+          "away": 9,
+          "scoreText": "9-15"
+        }
       },
       {
         "date": "2025-07-24T18:30:00.000Z",
@@ -4812,6 +4916,22 @@
     ],
     "recentGames": [
       {
+        "date": "2025-07-24T18:30:00.000Z",
+        "dateText": "Thu, Jul 24",
+        "time": "6:30 PM",
+        "homeTeam": "Thornhill Reds 12U A",
+        "homeTeamCode": "510926",
+        "awayTeam": "Bradford Tigers 12U A",
+        "awayTeamCode": "510920",
+        "location": "Bishop's Cross Park",
+        "isCompleted": true,
+        "score": {
+          "home": 15,
+          "away": 9,
+          "scoreText": "9-15"
+        }
+      },
+      {
         "date": "2025-07-15T18:30:00.000Z",
         "dateText": "Tue, Jul 15",
         "time": "6:30 PM",
@@ -4832,8 +4952,12 @@
         "awayTeam": "Innisfil Cardinals 12U A",
         "awayTeamCode": "510921",
         "location": "Milliken Mills Diamond 2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 17,
+          "scoreText": "17-6"
+        }
       },
       {
         "date": "2025-07-15T18:00:00.000Z",
@@ -4856,8 +4980,12 @@
         "awayTeam": "Innisfil Cardinals 12U A",
         "awayTeamCode": "510921",
         "location": "Idyllwild Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 13,
+          "scoreText": "13-14"
+        }
       },
       {
         "date": "2025-07-14T18:30:00.000Z",
@@ -4884,8 +5012,12 @@
         "awayTeam": "Orillia Royals 12U A",
         "awayTeamCode": "510925",
         "location": "Hallmark Diamond 1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 15,
+          "scoreText": "15-9"
+        }
       },
       {
         "date": "2025-07-14T18:30:00.000Z",
@@ -4928,23 +5060,11 @@
         "awayTeam": "Markham Mariners 12U A",
         "awayTeamCode": "510922",
         "location": "YEO Diamond",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": "2025-07-12T10:00:00.000Z",
-        "dateText": "Sat, Jul 12",
-        "time": "10:00 AM",
-        "homeTeam": "Stouffville Yankees 12U AA",
-        "homeTeamCode": "510933",
-        "awayTeam": "Barrie Baycats 12U AA",
-        "awayTeamCode": "510928",
-        "location": "Memorial Park",
         "isCompleted": true,
         "score": {
-          "home": 10,
-          "away": 8,
-          "scoreText": "8-10"
+          "home": 12,
+          "away": 18,
+          "scoreText": "18-12"
         }
       }
     ],
@@ -5070,14 +5190,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-16T12:32:50.336Z",
+    "lastUpdated": "2025-07-16T13:35:36.359Z",
     "totalGames": 162
   },
   "summary": {
     "totalTeams": 0,
     "totalGames": 162,
-    "completedGames": 105,
-    "upcomingGames": 57,
+    "completedGames": 117,
+    "upcomingGames": 45,
     "topTeam": null,
     "highestScoringGame": {
       "homeTeam": "Barrie Baycats 12U A",
@@ -5088,6 +5208,6 @@
       "date": "Thu, Jul 3",
       "location": "Barrie Community Sports Complex - Diamond 12"
     },
-    "lastUpdated": "2025-07-16T12:36:57.144Z"
+    "lastUpdated": "2025-07-16T13:39:40.911Z"
   }
 }

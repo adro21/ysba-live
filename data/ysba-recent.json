@@ -1,7 +1,43 @@
 {
-  "lastUpdated": "2025-07-16T12:36:57.144Z",
+  "lastUpdated": "2025-07-16T13:39:40.911Z",
   "totalGames": 190,
   "games": [
+    {
+      "date": "2025-07-24T18:30:00.000Z",
+      "dateText": "Thu, Jul 24",
+      "time": "6:30 PM",
+      "homeTeam": "Thornhill Reds 12U A",
+      "homeTeamCode": "510926",
+      "awayTeam": "Bradford Tigers 12U A",
+      "awayTeamCode": "510920",
+      "location": "Bishop's Cross Park",
+      "isCompleted": true,
+      "score": {
+        "home": 15,
+        "away": 9,
+        "scoreText": "9-15"
+      },
+      "division": "12U",
+      "tier": "rep-tier-2"
+    },
+    {
+      "date": "2025-07-24T18:30:00.000Z",
+      "dateText": "Thu, Jul 24",
+      "time": "6:30 PM",
+      "homeTeam": "Thornhill Reds 12U A",
+      "homeTeamCode": "510926",
+      "awayTeam": "Bradford Tigers 12U A",
+      "awayTeamCode": "510920",
+      "location": "Bishop's Cross Park",
+      "isCompleted": true,
+      "score": {
+        "home": 15,
+        "away": 9,
+        "scoreText": "9-15"
+      },
+      "division": "12U",
+      "tier": "rep-tier-3"
+    },
     {
       "date": "2025-07-17T18:30:00.000Z",
       "dateText": "Thu, Jul 17",
@@ -169,6 +205,24 @@
       },
       "division": "18U",
       "tier": "rep-no-tier"
+    },
+    {
+      "date": "2025-07-15T18:30:00.000Z",
+      "dateText": "Tue, Jul 15",
+      "time": "6:30 PM",
+      "homeTeam": "Markham Mariners 9U A",
+      "homeTeamCode": "511061",
+      "awayTeam": "Vaughan Vikings 9U A",
+      "awayTeamCode": "518948",
+      "location": "Morgan Park",
+      "isCompleted": true,
+      "score": {
+        "home": 19,
+        "away": 9,
+        "scoreText": "9-19"
+      },
+      "division": "9U",
+      "tier": "rep-tier-3"
     },
     {
       "date": "2025-07-15T18:30:00.000Z",
@@ -487,8 +541,12 @@
       "awayTeam": "Innisfil Cardinals 12U A",
       "awayTeamCode": "510921",
       "location": "Milliken Mills Diamond 2",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 6,
+        "away": 17,
+        "scoreText": "17-6"
+      },
       "division": "12U",
       "tier": "rep-tier-2"
     },
@@ -501,8 +559,12 @@
       "awayTeam": "Innisfil Cardinals 12U A",
       "awayTeamCode": "510921",
       "location": "Milliken Mills Diamond 2",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 6,
+        "away": 17,
+        "scoreText": "17-6"
+      },
       "division": "12U",
       "tier": "rep-tier-3"
     },
@@ -743,60 +805,6 @@
       },
       "division": "15U",
       "tier": "rep-tier-2"
-    },
-    {
-      "date": "2025-07-15T18:00:00.000Z",
-      "dateText": "Tue, Jul 15",
-      "time": "6:00 PM",
-      "homeTeam": "Aurora-King Jays 15U AA",
-      "homeTeamCode": "510993",
-      "awayTeam": "Innisfil Cardinals 15U AA",
-      "awayTeamCode": "510989",
-      "location": "Lambert Willson #4",
-      "isCompleted": true,
-      "score": {
-        "home": 9,
-        "away": 8,
-        "scoreText": "8-9"
-      },
-      "division": "15U",
-      "tier": "rep-tier-3"
-    },
-    {
-      "date": "2025-07-14T20:30:00.000Z",
-      "dateText": "Mon, Jul 14",
-      "time": "8:30 PM",
-      "homeTeam": "Caledon Nationals 15U A",
-      "homeTeamCode": "510983",
-      "awayTeam": "Orillia Royals 15U A",
-      "awayTeamCode": "510984",
-      "location": "North Hill #2",
-      "isCompleted": true,
-      "score": {
-        "home": 4,
-        "away": 10,
-        "scoreText": "10-4"
-      },
-      "division": "15U",
-      "tier": "rep-tier-2"
-    },
-    {
-      "date": "2025-07-14T20:30:00.000Z",
-      "dateText": "Mon, Jul 14",
-      "time": "8:30 PM",
-      "homeTeam": "Caledon Nationals 15U A",
-      "homeTeamCode": "510983",
-      "awayTeam": "Orillia Royals 15U A",
-      "awayTeamCode": "510984",
-      "location": "North Hill #2",
-      "isCompleted": true,
-      "score": {
-        "home": 4,
-        "away": 10,
-        "scoreText": "10-4"
-      },
-      "division": "15U",
-      "tier": "rep-tier-3"
     }
   ]
 }
