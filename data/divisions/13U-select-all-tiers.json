@@ -42,17 +42,17 @@
         "team": "Innisfil Cardinals 13U DS - Team 1",
         "teamCode": "511088",
         "record": {
-          "gamesPlayed": 10,
-          "wins": 9,
+          "gamesPlayed": 11,
+          "wins": 10,
           "losses": 1,
           "ties": 0,
-          "winPercentage": "0.900"
+          "winPercentage": "0.909"
         },
         "stats": {
-          "points": 18,
-          "runsFor": 134,
-          "runsAgainst": 33,
-          "runDifferential": 101
+          "points": 20,
+          "runsFor": 152,
+          "runsAgainst": 34,
+          "runDifferential": 118
         }
       },
       {
@@ -96,17 +96,17 @@
         "team": "TNT Thunder 13U DS",
         "teamCode": "511097",
         "record": {
-          "gamesPlayed": 10,
+          "gamesPlayed": 11,
           "wins": 6,
-          "losses": 3,
+          "losses": 4,
           "ties": 1,
-          "winPercentage": "0.650"
+          "winPercentage": "0.591"
         },
         "stats": {
           "points": 13,
-          "runsFor": 77,
-          "runsAgainst": 61,
-          "runDifferential": 16
+          "runsFor": 78,
+          "runsAgainst": 79,
+          "runDifferential": -1
         }
       },
       {
@@ -290,7 +290,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-16T15:48:57.224Z",
+    "lastUpdated": "2025-07-16T16:25:07.646Z",
     "totalTeams": 16
   },
   "schedule": {
@@ -420,7 +420,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-16T15:49:01.464Z"
+        "lastUpdated": "2025-07-16T16:25:11.899Z"
       },
       "511085": {
         "teamCode": "511085",
@@ -547,7 +547,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-16T15:49:01.464Z"
+        "lastUpdated": "2025-07-16T16:25:11.899Z"
       },
       "511086": {
         "teamCode": "511086",
@@ -662,7 +662,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-16T15:49:01.464Z"
+        "lastUpdated": "2025-07-16T16:25:11.899Z"
       },
       "511087": {
         "teamCode": "511087",
@@ -777,7 +777,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-16T15:49:01.464Z"
+        "lastUpdated": "2025-07-16T16:25:11.899Z"
       },
       "511088": {
         "teamCode": "511088",
@@ -858,8 +858,12 @@
             "awayTeam": "TNT Thunder 13U DS",
             "awayTeamCode": "511097",
             "location": "Beeton South",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 18,
+              "away": 1,
+              "scoreText": "1-18"
+            }
           }
         ],
         "nextGames": [
@@ -900,7 +904,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-16T15:49:01.464Z"
+        "lastUpdated": "2025-07-16T16:25:11.899Z"
       },
       "511089": {
         "teamCode": "511089",
@@ -1039,7 +1043,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-16T15:49:01.464Z"
+        "lastUpdated": "2025-07-16T16:25:11.899Z"
       },
       "511090": {
         "teamCode": "511090",
@@ -1178,7 +1182,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-16T15:49:01.464Z"
+        "lastUpdated": "2025-07-16T16:25:11.899Z"
       },
       "511091": {
         "teamCode": "511091",
@@ -1293,7 +1297,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-16T15:49:01.464Z"
+        "lastUpdated": "2025-07-16T16:25:11.899Z"
       },
       "511092": {
         "teamCode": "511092",
@@ -1408,7 +1412,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-16T15:49:01.464Z"
+        "lastUpdated": "2025-07-16T16:25:11.899Z"
       },
       "511093": {
         "teamCode": "511093",
@@ -1523,7 +1527,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-16T15:49:01.464Z"
+        "lastUpdated": "2025-07-16T16:25:11.899Z"
       },
       "511094": {
         "teamCode": "511094",
@@ -1650,7 +1654,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-16T15:49:01.464Z"
+        "lastUpdated": "2025-07-16T16:25:11.899Z"
       },
       "511095": {
         "teamCode": "511095",
@@ -1765,7 +1769,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-16T15:49:01.464Z"
+        "lastUpdated": "2025-07-16T16:25:11.899Z"
       },
       "511096": {
         "teamCode": "511096",
@@ -1904,7 +1908,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-16T15:49:01.464Z"
+        "lastUpdated": "2025-07-16T16:25:11.899Z"
       },
       "511097": {
         "teamCode": "511097",
@@ -1985,8 +1989,12 @@
             "awayTeam": "TNT Thunder 13U DS",
             "awayTeamCode": "511097",
             "location": "Beeton South",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 18,
+              "away": 1,
+              "scoreText": "1-18"
+            }
           }
         ],
         "nextGames": [
@@ -2051,7 +2059,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-16T15:49:01.464Z"
+        "lastUpdated": "2025-07-16T16:25:11.899Z"
       },
       "511098": {
         "teamCode": "511098",
@@ -2190,7 +2198,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-16T15:49:01.464Z"
+        "lastUpdated": "2025-07-16T16:25:11.899Z"
       },
       "518969": {
         "teamCode": "518969",
@@ -2317,7 +2325,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-16T15:49:01.464Z"
+        "lastUpdated": "2025-07-16T16:25:11.899Z"
       }
     },
     "allGames": [
@@ -3954,8 +3962,12 @@
         "awayTeam": "TNT Thunder 13U DS",
         "awayTeamCode": "511097",
         "location": "Beeton South",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 18,
+          "away": 1,
+          "scoreText": "1-18"
+        }
       },
       {
         "date": "2025-07-15T18:30:00.000Z",
@@ -4288,8 +4300,12 @@
         "awayTeam": "TNT Thunder 13U DS",
         "awayTeamCode": "511097",
         "location": "Beeton South",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 18,
+          "away": 1,
+          "scoreText": "1-18"
+        }
       },
       {
         "date": "2025-07-14T18:00:00.000Z",
@@ -4542,14 +4558,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-16T15:49:01.464Z",
+    "lastUpdated": "2025-07-16T16:25:11.899Z",
     "totalGames": 128
   },
   "summary": {
     "totalTeams": 16,
     "totalGames": 128,
-    "completedGames": 101,
-    "upcomingGames": 27,
+    "completedGames": 102,
+    "upcomingGames": 26,
     "topTeam": {
       "team": "Newmarket Hawks 13U DS",
       "teamCode": "511093",
@@ -4566,6 +4582,6 @@
       "date": "Thu, Jun 12",
       "location": "Newmarket Fairgrounds Park #1"
     },
-    "lastUpdated": "2025-07-16T15:49:07.898Z"
+    "lastUpdated": "2025-07-16T16:25:18.361Z"
   }
 }

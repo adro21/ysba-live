@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-07-16T15:49:07.898Z",
+  "lastUpdated": "2025-07-16T16:25:18.361Z",
   "totalGames": 190,
   "games": [
     {
@@ -785,8 +785,12 @@
       "awayTeam": "TNT Thunder 13U DS",
       "awayTeamCode": "511097",
       "location": "Beeton South",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 18,
+        "away": 1,
+        "scoreText": "1-18"
+      },
       "division": "13U",
       "tier": "select-all-tiers"
     },
