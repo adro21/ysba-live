@@ -24,21 +24,21 @@
         "team": "Orangeville Bengals 11U AA",
         "teamCode": "510909",
         "record": {
-          "gamesPlayed": 10,
+          "gamesPlayed": 11,
           "wins": 6,
-          "losses": 3,
+          "losses": 4,
           "ties": 1,
-          "winPercentage": "0.650"
+          "winPercentage": "0.591"
         },
         "stats": {
           "points": 13,
-          "runsFor": 86,
-          "runsAgainst": 99,
-          "runDifferential": -13
+          "runsFor": 101,
+          "runsAgainst": 117,
+          "runDifferential": -16
         }
       },
       {
-        "position": 5,
+        "position": 6,
         "team": "Aurora-King Jays 11U AA",
         "teamCode": "510905",
         "record": {
@@ -92,25 +92,25 @@
         }
       },
       {
-        "position": 8,
+        "position": 5,
         "team": "Newmarket Hawks 11U AA",
         "teamCode": "510913",
         "record": {
-          "gamesPlayed": 9,
-          "wins": 4,
+          "gamesPlayed": 10,
+          "wins": 5,
           "losses": 5,
           "ties": 0,
-          "winPercentage": "0.444"
+          "winPercentage": "0.500"
         },
         "stats": {
-          "points": 8,
-          "runsFor": 68,
-          "runsAgainst": 88,
-          "runDifferential": -20
+          "points": 10,
+          "runsFor": 86,
+          "runsAgainst": 103,
+          "runDifferential": -17
         }
       },
       {
-        "position": 6,
+        "position": 7,
         "team": "Markham Mariners 11U AA",
         "teamCode": "510908",
         "record": {
@@ -128,7 +128,7 @@
         }
       },
       {
-        "position": 7,
+        "position": 8,
         "team": "Bradford Tigers 11U AA",
         "teamCode": "510907",
         "record": {
@@ -182,7 +182,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-17T14:15:13.661Z",
+    "lastUpdated": "2025-07-17T14:46:55.841Z",
     "totalTeams": 10
   },
   "schedule": {
@@ -328,7 +328,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-17T14:15:17.824Z"
+        "lastUpdated": "2025-07-17T14:47:00.458Z"
       },
       "510892": {
         "teamCode": "510892",
@@ -471,7 +471,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-17T14:15:17.824Z"
+        "lastUpdated": "2025-07-17T14:47:00.458Z"
       },
       "510893": {
         "teamCode": "510893",
@@ -614,7 +614,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-17T14:15:17.824Z"
+        "lastUpdated": "2025-07-17T14:47:00.458Z"
       },
       "510894": {
         "teamCode": "510894",
@@ -761,7 +761,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-17T14:15:17.824Z"
+        "lastUpdated": "2025-07-17T14:47:00.458Z"
       },
       "510897": {
         "teamCode": "510897",
@@ -842,8 +842,12 @@
             "awayTeam": "Orangeville Bengals 11U A",
             "awayTeamCode": "510897",
             "location": "New Lowell Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 5,
+              "scoreText": "5-13"
+            }
           }
         ],
         "nextGames": [
@@ -908,7 +912,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-17T14:15:17.824Z"
+        "lastUpdated": "2025-07-17T14:47:00.458Z"
       },
       "510898": {
         "teamCode": "510898",
@@ -1059,7 +1063,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-17T14:15:17.824Z"
+        "lastUpdated": "2025-07-17T14:47:00.458Z"
       },
       "510903": {
         "teamCode": "510903",
@@ -1145,7 +1149,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-17T14:15:17.824Z"
+        "lastUpdated": "2025-07-17T14:47:00.458Z"
       },
       "510905": {
         "teamCode": "510905",
@@ -1296,7 +1300,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-17T14:15:17.824Z"
+        "lastUpdated": "2025-07-17T14:47:00.458Z"
       },
       "510906": {
         "teamCode": "510906",
@@ -1419,7 +1423,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-17T14:15:17.824Z"
+        "lastUpdated": "2025-07-17T14:47:00.458Z"
       },
       "510907": {
         "teamCode": "510907",
@@ -1558,7 +1562,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-17T14:15:17.824Z"
+        "lastUpdated": "2025-07-17T14:47:00.458Z"
       },
       "510908": {
         "teamCode": "510908",
@@ -1709,7 +1713,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-17T14:15:17.824Z"
+        "lastUpdated": "2025-07-17T14:47:00.458Z"
       },
       "510909": {
         "teamCode": "510909",
@@ -1790,8 +1794,12 @@
             "awayTeam": "Newmarket Hawks 11U AA",
             "awayTeamCode": "510913",
             "location": "Alton Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 15,
+              "away": 18,
+              "scoreText": "18-15"
+            }
           }
         ],
         "nextGames": [
@@ -1856,7 +1864,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-17T14:15:17.824Z"
+        "lastUpdated": "2025-07-17T14:47:00.458Z"
       },
       "510910": {
         "teamCode": "510910",
@@ -1967,7 +1975,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-17T14:15:17.824Z"
+        "lastUpdated": "2025-07-17T14:47:00.458Z"
       },
       "510911": {
         "teamCode": "510911",
@@ -2118,7 +2126,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-17T14:15:17.824Z"
+        "lastUpdated": "2025-07-17T14:47:00.458Z"
       },
       "510912": {
         "teamCode": "510912",
@@ -2257,7 +2265,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-17T14:15:17.824Z"
+        "lastUpdated": "2025-07-17T14:47:00.458Z"
       },
       "510913": {
         "teamCode": "510913",
@@ -2338,8 +2346,12 @@
             "awayTeam": "Newmarket Hawks 11U AA",
             "awayTeamCode": "510913",
             "location": "Alton Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 15,
+              "away": 18,
+              "scoreText": "18-15"
+            }
           }
         ],
         "nextGames": [
@@ -2404,7 +2416,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-17T14:15:17.824Z"
+        "lastUpdated": "2025-07-17T14:47:00.458Z"
       },
       "510916": {
         "teamCode": "510916",
@@ -2547,7 +2559,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-17T14:15:17.824Z"
+        "lastUpdated": "2025-07-17T14:47:00.458Z"
       },
       "510917": {
         "teamCode": "510917",
@@ -2628,8 +2640,12 @@
             "awayTeam": "Orangeville Bengals 11U A",
             "awayTeamCode": "510897",
             "location": "New Lowell Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 5,
+              "scoreText": "5-13"
+            }
           }
         ],
         "nextGames": [
@@ -2682,9 +2698,9 @@
             "score": null
           },
           {
-            "date": "2025-08-09T12:00:00.000Z",
+            "date": "2025-08-09T16:00:00.000Z",
             "dateText": "Sat, Aug 9",
-            "time": "12:00 PM",
+            "time": "4:00 PM",
             "homeTeam": "New Lowell Knights 11U D",
             "homeTeamCode": "510917",
             "awayTeam": "Midland Penetang Twins 11U A",
@@ -2694,7 +2710,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-17T14:15:17.824Z"
+        "lastUpdated": "2025-07-17T14:47:00.458Z"
       },
       "516241": {
         "teamCode": "516241",
@@ -2845,7 +2861,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-17T14:15:17.824Z"
+        "lastUpdated": "2025-07-17T14:47:00.458Z"
       }
     },
     "allGames": [
@@ -4558,8 +4574,12 @@
         "awayTeam": "Newmarket Hawks 11U AA",
         "awayTeamCode": "510913",
         "location": "Alton Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 15,
+          "away": 18,
+          "scoreText": "18-15"
+        }
       },
       {
         "date": "2025-07-16T18:30:00.000Z",
@@ -4570,8 +4590,12 @@
         "awayTeam": "Orangeville Bengals 11U A",
         "awayTeamCode": "510897",
         "location": "New Lowell Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 5,
+          "scoreText": "5-13"
+        }
       },
       {
         "date": "2025-07-16T18:30:00.000Z",
@@ -5106,18 +5130,6 @@
         "score": null
       },
       {
-        "date": "2025-08-09T12:00:00.000Z",
-        "dateText": "Sat, Aug 9",
-        "time": "12:00 PM",
-        "homeTeam": "New Lowell Knights 11U D",
-        "homeTeamCode": "510917",
-        "awayTeam": "Midland Penetang Twins 11U A",
-        "awayTeamCode": "510891",
-        "location": "New Lowell Park",
-        "isCompleted": false,
-        "score": null
-      },
-      {
         "date": "2025-08-09T14:00:00.000Z",
         "dateText": "Sat, Aug 9",
         "time": "2:00 PM",
@@ -5126,6 +5138,18 @@
         "awayTeam": "Caledon Nationals 11U A",
         "awayTeamCode": "510893",
         "location": "Gander Ross Field",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2025-08-09T16:00:00.000Z",
+        "dateText": "Sat, Aug 9",
+        "time": "4:00 PM",
+        "homeTeam": "New Lowell Knights 11U D",
+        "homeTeamCode": "510917",
+        "awayTeam": "Midland Penetang Twins 11U A",
+        "awayTeamCode": "510891",
+        "location": "New Lowell Park",
         "isCompleted": false,
         "score": null
       },
@@ -5228,8 +5252,12 @@
         "awayTeam": "Orangeville Bengals 11U A",
         "awayTeamCode": "510897",
         "location": "New Lowell Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 5,
+          "scoreText": "5-13"
+        }
       },
       {
         "date": "2025-07-16T18:30:00.000Z",
@@ -5264,8 +5292,12 @@
         "awayTeam": "Newmarket Hawks 11U AA",
         "awayTeamCode": "510913",
         "location": "Alton Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 15,
+          "away": 18,
+          "scoreText": "18-15"
+        }
       },
       {
         "date": "2025-07-15T18:30:00.000Z",
@@ -5466,14 +5498,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-17T14:15:17.824Z",
+    "lastUpdated": "2025-07-17T14:47:00.458Z",
     "totalGames": 162
   },
   "summary": {
     "totalTeams": 10,
     "totalGames": 162,
-    "completedGames": 102,
-    "upcomingGames": 60,
+    "completedGames": 104,
+    "upcomingGames": 58,
     "topTeam": {
       "team": "Barrie Baycats 11U AA",
       "teamCode": "510906",
@@ -5482,14 +5514,14 @@
       "winPercentage": "0.818"
     },
     "highestScoringGame": {
-      "homeTeam": "Georgina Bulldogs 11U B",
-      "awayTeam": "Caledon Nationals 11U A",
-      "homeScore": 12,
-      "awayScore": 19,
-      "totalRuns": 31,
-      "date": "Wed, Jun 25",
-      "location": "ROC 2"
+      "homeTeam": "Orangeville Bengals 11U AA",
+      "awayTeam": "Newmarket Hawks 11U AA",
+      "homeScore": 15,
+      "awayScore": 18,
+      "totalRuns": 33,
+      "date": "Wed, Jul 16",
+      "location": "Alton Park"
     },
-    "lastUpdated": "2025-07-17T14:19:50.689Z"
+    "lastUpdated": "2025-07-17T14:51:53.416Z"
   }
 }
