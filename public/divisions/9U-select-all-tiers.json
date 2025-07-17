@@ -92,7 +92,7 @@
         }
       },
       {
-        "position": 7,
+        "position": 8,
         "team": "Collingwood Jays 9U DS",
         "teamCode": "511109",
         "record": {
@@ -107,6 +107,24 @@
           "runsFor": 130,
           "runsAgainst": 127,
           "runDifferential": 3
+        }
+      },
+      {
+        "position": 7,
+        "team": "Barrie Baycats 9U DS",
+        "teamCode": "511107",
+        "record": {
+          "gamesPlayed": 11,
+          "wins": 6,
+          "losses": 5,
+          "ties": 0,
+          "winPercentage": "0.545"
+        },
+        "stats": {
+          "points": 12,
+          "runsFor": 150,
+          "runsAgainst": 132,
+          "runDifferential": 18
         }
       },
       {
@@ -125,24 +143,6 @@
           "runsFor": 222,
           "runsAgainst": 152,
           "runDifferential": 70
-        }
-      },
-      {
-        "position": 8,
-        "team": "Barrie Baycats 9U DS",
-        "teamCode": "511107",
-        "record": {
-          "gamesPlayed": 10,
-          "wins": 5,
-          "losses": 5,
-          "ties": 0,
-          "winPercentage": "0.500"
-        },
-        "stats": {
-          "points": 10,
-          "runsFor": 138,
-          "runsAgainst": 125,
-          "runDifferential": 13
         }
       },
       {
@@ -168,17 +168,17 @@
         "team": "TNT Thunder 9U DS",
         "teamCode": "511115",
         "record": {
-          "gamesPlayed": 10,
+          "gamesPlayed": 11,
           "wins": 3,
-          "losses": 5,
+          "losses": 6,
           "ties": 2,
-          "winPercentage": "0.400"
+          "winPercentage": "0.364"
         },
         "stats": {
           "points": 8,
-          "runsFor": 155,
-          "runsAgainst": 150,
-          "runDifferential": 5
+          "runsFor": 162,
+          "runsAgainst": 162,
+          "runDifferential": 0
         }
       },
       {
@@ -254,7 +254,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-17T01:20:09.953Z",
+    "lastUpdated": "2025-07-17T03:17:45.066Z",
     "totalTeams": 14
   },
   "schedule": {
@@ -396,7 +396,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-17T01:20:14.290Z"
+        "lastUpdated": "2025-07-17T03:17:49.295Z"
       },
       "511106": {
         "teamCode": "511106",
@@ -511,7 +511,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-17T01:20:14.290Z"
+        "lastUpdated": "2025-07-17T03:17:49.295Z"
       },
       "511107": {
         "teamCode": "511107",
@@ -584,8 +584,12 @@
             "awayTeam": "Barrie Baycats 9U DS",
             "awayTeamCode": "511107",
             "location": "McLean Diamond",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 12,
+              "scoreText": "12-7"
+            }
           }
         ],
         "nextGames": [
@@ -626,7 +630,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-17T01:20:14.290Z"
+        "lastUpdated": "2025-07-17T03:17:49.295Z"
       },
       "511108": {
         "teamCode": "511108",
@@ -761,7 +765,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-17T01:20:14.290Z"
+        "lastUpdated": "2025-07-17T03:17:49.295Z"
       },
       "511109": {
         "teamCode": "511109",
@@ -912,7 +916,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-17T01:20:14.290Z"
+        "lastUpdated": "2025-07-17T03:17:49.295Z"
       },
       "511110": {
         "teamCode": "511110",
@@ -1047,7 +1051,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-17T01:20:14.290Z"
+        "lastUpdated": "2025-07-17T03:17:49.295Z"
       },
       "511111": {
         "teamCode": "511111",
@@ -1186,7 +1190,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-17T01:20:14.290Z"
+        "lastUpdated": "2025-07-17T03:17:49.295Z"
       },
       "511112": {
         "teamCode": "511112",
@@ -1276,7 +1280,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-17T01:20:14.290Z"
+        "lastUpdated": "2025-07-17T03:17:49.295Z"
       },
       "511113": {
         "teamCode": "511113",
@@ -1387,7 +1391,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-17T01:20:14.290Z"
+        "lastUpdated": "2025-07-17T03:17:49.295Z"
       },
       "511114": {
         "teamCode": "511114",
@@ -1502,7 +1506,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-17T01:20:14.290Z"
+        "lastUpdated": "2025-07-17T03:17:49.295Z"
       },
       "511115": {
         "teamCode": "511115",
@@ -1579,8 +1583,12 @@
             "awayTeam": "Barrie Baycats 9U DS",
             "awayTeamCode": "511107",
             "location": "McLean Diamond",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 12,
+              "scoreText": "12-7"
+            }
           }
         ],
         "nextGames": [
@@ -1633,7 +1641,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-17T01:20:14.290Z"
+        "lastUpdated": "2025-07-17T03:17:49.295Z"
       },
       "511116": {
         "teamCode": "511116",
@@ -1756,7 +1764,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-17T01:20:14.290Z"
+        "lastUpdated": "2025-07-17T03:17:49.295Z"
       },
       "518965": {
         "teamCode": "518965",
@@ -1895,7 +1903,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-17T01:20:14.290Z"
+        "lastUpdated": "2025-07-17T03:17:49.295Z"
       },
       "518966": {
         "teamCode": "518966",
@@ -2010,7 +2018,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-17T01:20:14.290Z"
+        "lastUpdated": "2025-07-17T03:17:49.295Z"
       }
     },
     "allGames": [
@@ -3431,8 +3439,12 @@
         "awayTeam": "Barrie Baycats 9U DS",
         "awayTeamCode": "511107",
         "location": "McLean Diamond",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 12,
+          "scoreText": "12-7"
+        }
       },
       {
         "date": "2025-07-19T10:00:00.000Z",
@@ -3709,8 +3721,12 @@
         "awayTeam": "Barrie Baycats 9U DS",
         "awayTeamCode": "511107",
         "location": "McLean Diamond",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 12,
+          "scoreText": "12-7"
+        }
       },
       {
         "date": "2025-07-15T18:30:00.000Z",
@@ -3971,14 +3987,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-17T01:20:14.290Z",
+    "lastUpdated": "2025-07-17T03:17:49.295Z",
     "totalGames": 112
   },
   "summary": {
     "totalTeams": 14,
     "totalGames": 112,
-    "completedGames": 85,
-    "upcomingGames": 27,
+    "completedGames": 86,
+    "upcomingGames": 26,
     "topTeam": {
       "team": "Midland Penetang Twins 9U DS",
       "teamCode": "511105",
@@ -3995,6 +4011,6 @@
       "date": "Sat, Jul 12",
       "location": "McLean Diamond"
     },
-    "lastUpdated": "2025-07-17T01:20:37.021Z"
+    "lastUpdated": "2025-07-17T03:18:11.567Z"
   }
 }
