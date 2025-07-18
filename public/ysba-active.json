@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "lastUpdated": "2025-07-18T18:57:13.436Z",
+    "lastUpdated": "2025-07-18T19:19:26.423Z",
     "source": "YSBA Website",
     "scrapedBy": "YSBA Background Worker",
     "version": "1.0.0",
     "totalDivisions": 52,
     "activeDivisions": 10,
     "totalActiveTeams": 197,
-    "filteredAt": "2025-07-18T18:57:13.843Z"
+    "filteredAt": "2025-07-18T19:19:26.831Z"
   },
   "divisions": {
     "8U": {
@@ -22,21 +22,39 @@
                 "team": "Vaughan Vikings 8U A",
                 "teamCode": "518946",
                 "record": {
-                  "gamesPlayed": 10,
-                  "wins": 8,
+                  "gamesPlayed": 11,
+                  "wins": 9,
                   "losses": 2,
                   "ties": 0,
-                  "winPercentage": "0.800"
+                  "winPercentage": "0.818"
                 },
                 "stats": {
-                  "points": 16,
-                  "runsFor": 188,
-                  "runsAgainst": 102,
-                  "runDifferential": 86
+                  "points": 18,
+                  "runsFor": 208,
+                  "runsAgainst": 110,
+                  "runDifferential": 98
                 }
               },
               {
                 "position": 2,
+                "team": "Markham Mariners 8U A",
+                "teamCode": "511057",
+                "record": {
+                  "gamesPlayed": 10,
+                  "wins": 9,
+                  "losses": 1,
+                  "ties": 0,
+                  "winPercentage": "0.900"
+                },
+                "stats": {
+                  "points": 18,
+                  "runsFor": 209,
+                  "runsAgainst": 81,
+                  "runDifferential": 128
+                }
+              },
+              {
+                "position": 3,
                 "team": "Orangeville Bengals 8U B",
                 "teamCode": "511052",
                 "record": {
@@ -54,39 +72,21 @@
                 }
               },
               {
-                "position": 3,
-                "team": "Markham Mariners 8U A",
-                "teamCode": "511057",
-                "record": {
-                  "gamesPlayed": 8,
-                  "wins": 7,
-                  "losses": 1,
-                  "ties": 0,
-                  "winPercentage": "0.875"
-                },
-                "stats": {
-                  "points": 14,
-                  "runsFor": 173,
-                  "runsAgainst": 74,
-                  "runDifferential": 99
-                }
-              },
-              {
                 "position": 4,
                 "team": "Stouffville 8U A",
                 "teamCode": "511059",
                 "record": {
-                  "gamesPlayed": 10,
+                  "gamesPlayed": 11,
                   "wins": 6,
-                  "losses": 4,
+                  "losses": 5,
                   "ties": 0,
-                  "winPercentage": "0.600"
+                  "winPercentage": "0.545"
                 },
                 "stats": {
                   "points": 12,
-                  "runsFor": 176,
-                  "runsAgainst": 137,
-                  "runDifferential": 39
+                  "runsFor": 177,
+                  "runsAgainst": 155,
+                  "runDifferential": 22
                 }
               },
               {
@@ -94,17 +94,17 @@
                 "team": "Newmarket Hawks 8U A",
                 "teamCode": "511051",
                 "record": {
-                  "gamesPlayed": 10,
+                  "gamesPlayed": 11,
                   "wins": 5,
-                  "losses": 5,
+                  "losses": 6,
                   "ties": 0,
-                  "winPercentage": "0.500"
+                  "winPercentage": "0.455"
                 },
                 "stats": {
                   "points": 10,
-                  "runsFor": 172,
-                  "runsAgainst": 154,
-                  "runDifferential": 18
+                  "runsFor": 180,
+                  "runsAgainst": 174,
+                  "runDifferential": 6
                 }
               },
               {
@@ -130,17 +130,17 @@
                 "team": "Richmond Hill Phoenix 8U A",
                 "teamCode": "511053",
                 "record": {
-                  "gamesPlayed": 10,
+                  "gamesPlayed": 11,
                   "wins": 2,
-                  "losses": 8,
+                  "losses": 9,
                   "ties": 0,
-                  "winPercentage": "0.200"
+                  "winPercentage": "0.182"
                 },
                 "stats": {
                   "points": 4,
-                  "runsFor": 110,
-                  "runsAgainst": 190,
-                  "runDifferential": -80
+                  "runsFor": 116,
+                  "runsAgainst": 208,
+                  "runDifferential": -92
                 }
               },
               {
@@ -180,7 +180,7 @@
                 }
               }
             ],
-            "lastUpdated": "2025-07-18T18:51:23.174Z",
+            "lastUpdated": "2025-07-18T19:13:15.083Z",
             "totalTeams": 9
           },
           "schedule": {
@@ -330,7 +330,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:51:25.754Z"
+                "lastUpdated": "2025-07-18T19:13:17.916Z"
               },
               "511051": {
                 "teamCode": "511051",
@@ -391,8 +391,12 @@
                     "awayTeam": "Newmarket Hawks 8U A",
                     "awayTeamCode": "511051",
                     "location": "Maple CC",
-                    "isCompleted": false,
-                    "score": null
+                    "isCompleted": true,
+                    "score": {
+                      "home": 20,
+                      "away": 8,
+                      "scoreText": "8-20"
+                    }
                   },
                   {
                     "date": "2025-07-17T18:00:00.000Z",
@@ -433,7 +437,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:51:25.754Z"
+                "lastUpdated": "2025-07-18T19:13:17.916Z"
               },
               "511052": {
                 "teamCode": "511052",
@@ -536,7 +540,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:51:25.754Z"
+                "lastUpdated": "2025-07-18T19:13:17.916Z"
               },
               "511053": {
                 "teamCode": "511053",
@@ -597,8 +601,12 @@
                     "awayTeam": "Markham Mariners 8U A",
                     "awayTeamCode": "511057",
                     "location": "Richmond Green 3",
-                    "isCompleted": false,
-                    "score": null
+                    "isCompleted": true,
+                    "score": {
+                      "home": 6,
+                      "away": 18,
+                      "scoreText": "18-6"
+                    }
                   },
                   {
                     "date": "2025-07-17T18:00:00.000Z",
@@ -639,7 +647,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:51:25.754Z"
+                "lastUpdated": "2025-07-18T19:13:17.916Z"
               },
               "511054": {
                 "teamCode": "511054",
@@ -770,7 +778,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:51:25.754Z"
+                "lastUpdated": "2025-07-18T19:13:17.916Z"
               },
               "511057": {
                 "teamCode": "511057",
@@ -831,8 +839,12 @@
                     "awayTeam": "Markham Mariners 8U A",
                     "awayTeamCode": "511057",
                     "location": "Richmond Green 3",
-                    "isCompleted": false,
-                    "score": null
+                    "isCompleted": true,
+                    "score": {
+                      "home": 6,
+                      "away": 18,
+                      "scoreText": "18-6"
+                    }
                   },
                   {
                     "date": "2025-07-17T18:30:00.000Z",
@@ -885,7 +897,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:51:25.754Z"
+                "lastUpdated": "2025-07-18T19:13:17.916Z"
               },
               "511059": {
                 "teamCode": "511059",
@@ -1008,7 +1020,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:51:25.754Z"
+                "lastUpdated": "2025-07-18T19:13:17.916Z"
               },
               "511060": {
                 "teamCode": "511060",
@@ -1119,7 +1131,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:51:25.754Z"
+                "lastUpdated": "2025-07-18T19:13:17.916Z"
               },
               "518946": {
                 "teamCode": "518946",
@@ -1184,8 +1196,12 @@
                     "awayTeam": "Newmarket Hawks 8U A",
                     "awayTeamCode": "511051",
                     "location": "Maple CC",
-                    "isCompleted": false,
-                    "score": null
+                    "isCompleted": true,
+                    "score": {
+                      "home": 20,
+                      "away": 8,
+                      "scoreText": "8-20"
+                    }
                   },
                   {
                     "date": "2025-07-17T18:00:00.000Z",
@@ -1262,7 +1278,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:51:25.754Z"
+                "lastUpdated": "2025-07-18T19:13:17.916Z"
               }
             },
             "allGames": [
@@ -1371,8 +1387,12 @@
                 "awayTeam": "Markham Mariners 8U A",
                 "awayTeamCode": "511057",
                 "location": "Bethesda D3",
-                "isCompleted": false,
-                "score": null
+                "isCompleted": true,
+                "score": {
+                  "home": 1,
+                  "away": 18,
+                  "scoreText": "18-1"
+                }
               },
               {
                 "date": "2025-05-22T18:00:00.000Z",
@@ -2071,8 +2091,12 @@
                 "awayTeam": "Markham Mariners 8U A",
                 "awayTeamCode": "511057",
                 "location": "Richmond Green 3",
-                "isCompleted": false,
-                "score": null
+                "isCompleted": true,
+                "score": {
+                  "home": 6,
+                  "away": 18,
+                  "scoreText": "18-6"
+                }
               },
               {
                 "date": "2025-07-15T18:00:00.000Z",
@@ -2083,8 +2107,12 @@
                 "awayTeam": "Newmarket Hawks 8U A",
                 "awayTeamCode": "511051",
                 "location": "Maple CC",
-                "isCompleted": false,
-                "score": null
+                "isCompleted": true,
+                "score": {
+                  "home": 20,
+                  "away": 8,
+                  "scoreText": "8-20"
+                }
               },
               {
                 "date": "2025-07-17T18:00:00.000Z",
@@ -2373,8 +2401,12 @@
                 "awayTeam": "Markham Mariners 8U A",
                 "awayTeamCode": "511057",
                 "location": "Richmond Green 3",
-                "isCompleted": false,
-                "score": null
+                "isCompleted": true,
+                "score": {
+                  "home": 6,
+                  "away": 18,
+                  "scoreText": "18-6"
+                }
               },
               {
                 "date": "2025-07-15T18:00:00.000Z",
@@ -2385,8 +2417,12 @@
                 "awayTeam": "Newmarket Hawks 8U A",
                 "awayTeamCode": "511051",
                 "location": "Maple CC",
-                "isCompleted": false,
-                "score": null
+                "isCompleted": true,
+                "score": {
+                  "home": 20,
+                  "away": 8,
+                  "scoreText": "8-20"
+                }
               },
               {
                 "date": "2025-07-13T18:30:00.000Z",
@@ -2567,20 +2603,20 @@
                 "score": null
               }
             ],
-            "lastUpdated": "2025-07-18T18:51:25.754Z",
+            "lastUpdated": "2025-07-18T19:13:17.916Z",
             "totalGames": 73
           },
           "summary": {
             "totalTeams": 9,
             "totalGames": 73,
-            "completedGames": 43,
-            "upcomingGames": 30,
+            "completedGames": 46,
+            "upcomingGames": 27,
             "topTeam": {
               "team": "Markham Mariners 8U A",
               "teamCode": "511057",
-              "wins": 7,
+              "wins": 9,
               "losses": 1,
-              "winPercentage": "0.875"
+              "winPercentage": "0.900"
             },
             "highestScoringGame": {
               "homeTeam": "Orangeville Bengals 8U B",
@@ -2591,7 +2627,7 @@
               "date": "Thu, May 29",
               "location": "Caledon Fairgrounds"
             },
-            "lastUpdated": "2025-07-18T18:57:13.436Z"
+            "lastUpdated": "2025-07-18T19:19:26.423Z"
           }
         }
       }
@@ -2730,7 +2766,7 @@
                 }
               }
             ],
-            "lastUpdated": "2025-07-18T18:51:47.725Z",
+            "lastUpdated": "2025-07-18T19:13:41.542Z",
             "totalTeams": 7
           },
           "schedule": {
@@ -2860,7 +2896,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:51:50.286Z"
+                "lastUpdated": "2025-07-18T19:13:44.363Z"
               },
               "511062": {
                 "teamCode": "511062",
@@ -2991,7 +3027,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:51:50.286Z"
+                "lastUpdated": "2025-07-18T19:13:44.363Z"
               },
               "511063": {
                 "teamCode": "511063",
@@ -3114,7 +3150,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:51:50.286Z"
+                "lastUpdated": "2025-07-18T19:13:44.363Z"
               },
               "511064": {
                 "teamCode": "511064",
@@ -3217,7 +3253,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:51:50.286Z"
+                "lastUpdated": "2025-07-18T19:13:44.363Z"
               },
               "511065": {
                 "teamCode": "511065",
@@ -3340,7 +3376,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:51:50.286Z"
+                "lastUpdated": "2025-07-18T19:13:44.364Z"
               },
               "516247": {
                 "teamCode": "516247",
@@ -3491,7 +3527,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:51:50.286Z"
+                "lastUpdated": "2025-07-18T19:13:44.364Z"
               },
               "518948": {
                 "teamCode": "518948",
@@ -3642,7 +3678,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:51:50.286Z"
+                "lastUpdated": "2025-07-18T19:13:44.364Z"
               }
             },
             "allGames": [
@@ -4755,7 +4791,7 @@
                 "score": null
               }
             ],
-            "lastUpdated": "2025-07-18T18:51:50.286Z",
+            "lastUpdated": "2025-07-18T19:13:44.364Z",
             "totalGames": 56
           },
           "summary": {
@@ -4779,7 +4815,7 @@
               "date": "Sat, Jun 14",
               "location": "Dean Heliotis Diamond"
             },
-            "lastUpdated": "2025-07-18T18:57:13.436Z"
+            "lastUpdated": "2025-07-18T19:19:26.423Z"
           }
         },
         "select-all-tiers": {
@@ -5038,7 +5074,7 @@
                 }
               }
             ],
-            "lastUpdated": "2025-07-18T18:56:47.042Z",
+            "lastUpdated": "2025-07-18T19:18:58.395Z",
             "totalTeams": 14
           },
           "schedule": {
@@ -5180,7 +5216,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:56:51.379Z"
+                "lastUpdated": "2025-07-18T19:19:03.019Z"
               },
               "511106": {
                 "teamCode": "511106",
@@ -5295,7 +5331,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:56:51.379Z"
+                "lastUpdated": "2025-07-18T19:19:03.019Z"
               },
               "511107": {
                 "teamCode": "511107",
@@ -5414,7 +5450,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:56:51.379Z"
+                "lastUpdated": "2025-07-18T19:19:03.020Z"
               },
               "511108": {
                 "teamCode": "511108",
@@ -5549,7 +5585,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:56:51.379Z"
+                "lastUpdated": "2025-07-18T19:19:03.020Z"
               },
               "511109": {
                 "teamCode": "511109",
@@ -5700,7 +5736,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:56:51.379Z"
+                "lastUpdated": "2025-07-18T19:19:03.020Z"
               },
               "511110": {
                 "teamCode": "511110",
@@ -5835,7 +5871,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:56:51.379Z"
+                "lastUpdated": "2025-07-18T19:19:03.020Z"
               },
               "511111": {
                 "teamCode": "511111",
@@ -5974,7 +6010,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:56:51.379Z"
+                "lastUpdated": "2025-07-18T19:19:03.020Z"
               },
               "511112": {
                 "teamCode": "511112",
@@ -6064,7 +6100,7 @@
                   }
                 ],
                 "nextGames": [],
-                "lastUpdated": "2025-07-18T18:56:51.379Z"
+                "lastUpdated": "2025-07-18T19:19:03.020Z"
               },
               "511113": {
                 "teamCode": "511113",
@@ -6175,7 +6211,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:56:51.379Z"
+                "lastUpdated": "2025-07-18T19:19:03.020Z"
               },
               "511114": {
                 "teamCode": "511114",
@@ -6290,7 +6326,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:56:51.379Z"
+                "lastUpdated": "2025-07-18T19:19:03.020Z"
               },
               "511115": {
                 "teamCode": "511115",
@@ -6425,7 +6461,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:56:51.379Z"
+                "lastUpdated": "2025-07-18T19:19:03.020Z"
               },
               "511116": {
                 "teamCode": "511116",
@@ -6548,7 +6584,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:56:51.379Z"
+                "lastUpdated": "2025-07-18T19:19:03.020Z"
               },
               "518965": {
                 "teamCode": "518965",
@@ -6687,7 +6723,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:56:51.379Z"
+                "lastUpdated": "2025-07-18T19:19:03.020Z"
               },
               "518966": {
                 "teamCode": "518966",
@@ -6802,7 +6838,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:56:51.379Z"
+                "lastUpdated": "2025-07-18T19:19:03.020Z"
               }
             },
             "allGames": [
@@ -8771,7 +8807,7 @@
                 "score": null
               }
             ],
-            "lastUpdated": "2025-07-18T18:56:51.379Z",
+            "lastUpdated": "2025-07-18T19:19:03.020Z",
             "totalGames": 112
           },
           "summary": {
@@ -8795,7 +8831,7 @@
               "date": "Sat, Jul 12",
               "location": "McLean Diamond"
             },
-            "lastUpdated": "2025-07-18T18:57:13.436Z"
+            "lastUpdated": "2025-07-18T19:19:26.423Z"
           }
         }
       }
@@ -8916,7 +8952,7 @@
                 }
               }
             ],
-            "lastUpdated": "2025-07-18T18:52:09.002Z",
+            "lastUpdated": "2025-07-18T19:14:04.688Z",
             "totalTeams": 6
           },
           "schedule": {
@@ -9046,7 +9082,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:13.223Z"
+                "lastUpdated": "2025-07-18T19:14:09.222Z"
               },
               "510870": {
                 "teamCode": "510870",
@@ -9153,7 +9189,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:13.223Z"
+                "lastUpdated": "2025-07-18T19:14:09.222Z"
               },
               "510871": {
                 "teamCode": "510871",
@@ -9300,7 +9336,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:13.223Z"
+                "lastUpdated": "2025-07-18T19:14:09.222Z"
               },
               "510872": {
                 "teamCode": "510872",
@@ -9419,7 +9455,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:13.224Z"
+                "lastUpdated": "2025-07-18T19:14:09.222Z"
               },
               "510873": {
                 "teamCode": "510873",
@@ -9562,7 +9598,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:13.224Z"
+                "lastUpdated": "2025-07-18T19:14:09.222Z"
               },
               "510874": {
                 "teamCode": "510874",
@@ -9681,7 +9717,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:13.224Z"
+                "lastUpdated": "2025-07-18T19:14:09.222Z"
               },
               "510875": {
                 "teamCode": "510875",
@@ -9828,7 +9864,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:13.224Z"
+                "lastUpdated": "2025-07-18T19:14:09.222Z"
               },
               "510876": {
                 "teamCode": "510876",
@@ -9947,7 +9983,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:13.224Z"
+                "lastUpdated": "2025-07-18T19:14:09.222Z"
               },
               "510877": {
                 "teamCode": "510877",
@@ -10058,7 +10094,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:13.224Z"
+                "lastUpdated": "2025-07-18T19:14:09.222Z"
               },
               "510878": {
                 "teamCode": "510878",
@@ -10209,7 +10245,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:13.224Z"
+                "lastUpdated": "2025-07-18T19:14:09.222Z"
               },
               "510879": {
                 "teamCode": "510879",
@@ -10360,7 +10396,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:13.224Z"
+                "lastUpdated": "2025-07-18T19:14:09.222Z"
               },
               "510880": {
                 "teamCode": "510880",
@@ -10479,7 +10515,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:13.224Z"
+                "lastUpdated": "2025-07-18T19:14:09.222Z"
               },
               "510881": {
                 "teamCode": "510881",
@@ -10630,7 +10666,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:13.224Z"
+                "lastUpdated": "2025-07-18T19:14:09.222Z"
               },
               "510882": {
                 "teamCode": "510882",
@@ -10769,7 +10805,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:13.224Z"
+                "lastUpdated": "2025-07-18T19:14:09.222Z"
               },
               "510883": {
                 "teamCode": "510883",
@@ -10916,7 +10952,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:13.224Z"
+                "lastUpdated": "2025-07-18T19:14:09.222Z"
               },
               "510884": {
                 "teamCode": "510884",
@@ -11067,7 +11103,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:13.224Z"
+                "lastUpdated": "2025-07-18T19:14:09.222Z"
               },
               "510885": {
                 "teamCode": "510885",
@@ -11214,7 +11250,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:13.224Z"
+                "lastUpdated": "2025-07-18T19:14:09.222Z"
               },
               "510889": {
                 "teamCode": "510889",
@@ -11353,7 +11389,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:13.224Z"
+                "lastUpdated": "2025-07-18T19:14:09.222Z"
               },
               "510890": {
                 "teamCode": "510890",
@@ -11488,7 +11524,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:13.224Z"
+                "lastUpdated": "2025-07-18T19:14:09.222Z"
               },
               "518949": {
                 "teamCode": "518949",
@@ -11639,7 +11675,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:13.224Z"
+                "lastUpdated": "2025-07-18T19:14:09.222Z"
               }
             },
             "allGames": [
@@ -14760,7 +14796,7 @@
                 "score": null
               }
             ],
-            "lastUpdated": "2025-07-18T18:52:13.224Z",
+            "lastUpdated": "2025-07-18T19:14:09.222Z",
             "totalGames": 193
           },
           "summary": {
@@ -14784,7 +14820,7 @@
               "date": "Sun, May 25",
               "location": "West Park Diamond 1"
             },
-            "lastUpdated": "2025-07-18T18:57:13.436Z"
+            "lastUpdated": "2025-07-18T19:19:26.423Z"
           }
         },
         "rep-tier-3": {
@@ -15043,7 +15079,7 @@
                 }
               }
             ],
-            "lastUpdated": "2025-07-18T18:52:16.759Z",
+            "lastUpdated": "2025-07-18T19:14:12.772Z",
             "totalTeams": 14
           },
           "schedule": {
@@ -15173,7 +15209,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:20.824Z"
+                "lastUpdated": "2025-07-18T19:14:17.306Z"
               },
               "510870": {
                 "teamCode": "510870",
@@ -15280,7 +15316,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:20.824Z"
+                "lastUpdated": "2025-07-18T19:14:17.306Z"
               },
               "510871": {
                 "teamCode": "510871",
@@ -15427,7 +15463,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:20.824Z"
+                "lastUpdated": "2025-07-18T19:14:17.306Z"
               },
               "510872": {
                 "teamCode": "510872",
@@ -15546,7 +15582,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:20.824Z"
+                "lastUpdated": "2025-07-18T19:14:17.306Z"
               },
               "510873": {
                 "teamCode": "510873",
@@ -15689,7 +15725,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:20.824Z"
+                "lastUpdated": "2025-07-18T19:14:17.306Z"
               },
               "510874": {
                 "teamCode": "510874",
@@ -15808,7 +15844,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:20.824Z"
+                "lastUpdated": "2025-07-18T19:14:17.306Z"
               },
               "510875": {
                 "teamCode": "510875",
@@ -15955,7 +15991,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:20.824Z"
+                "lastUpdated": "2025-07-18T19:14:17.306Z"
               },
               "510876": {
                 "teamCode": "510876",
@@ -16074,7 +16110,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:20.824Z"
+                "lastUpdated": "2025-07-18T19:14:17.306Z"
               },
               "510877": {
                 "teamCode": "510877",
@@ -16185,7 +16221,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:20.824Z"
+                "lastUpdated": "2025-07-18T19:14:17.306Z"
               },
               "510878": {
                 "teamCode": "510878",
@@ -16336,7 +16372,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:20.824Z"
+                "lastUpdated": "2025-07-18T19:14:17.306Z"
               },
               "510879": {
                 "teamCode": "510879",
@@ -16487,7 +16523,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:20.824Z"
+                "lastUpdated": "2025-07-18T19:14:17.306Z"
               },
               "510880": {
                 "teamCode": "510880",
@@ -16606,7 +16642,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:20.824Z"
+                "lastUpdated": "2025-07-18T19:14:17.306Z"
               },
               "510881": {
                 "teamCode": "510881",
@@ -16757,7 +16793,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:20.825Z"
+                "lastUpdated": "2025-07-18T19:14:17.306Z"
               },
               "510882": {
                 "teamCode": "510882",
@@ -16896,7 +16932,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:20.825Z"
+                "lastUpdated": "2025-07-18T19:14:17.306Z"
               },
               "510883": {
                 "teamCode": "510883",
@@ -17043,7 +17079,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:20.825Z"
+                "lastUpdated": "2025-07-18T19:14:17.306Z"
               },
               "510884": {
                 "teamCode": "510884",
@@ -17194,7 +17230,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:20.825Z"
+                "lastUpdated": "2025-07-18T19:14:17.306Z"
               },
               "510885": {
                 "teamCode": "510885",
@@ -17341,7 +17377,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:20.825Z"
+                "lastUpdated": "2025-07-18T19:14:17.306Z"
               },
               "510889": {
                 "teamCode": "510889",
@@ -17480,7 +17516,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:20.825Z"
+                "lastUpdated": "2025-07-18T19:14:17.306Z"
               },
               "510890": {
                 "teamCode": "510890",
@@ -17615,7 +17651,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:20.825Z"
+                "lastUpdated": "2025-07-18T19:14:17.306Z"
               },
               "518949": {
                 "teamCode": "518949",
@@ -17766,7 +17802,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:20.825Z"
+                "lastUpdated": "2025-07-18T19:14:17.306Z"
               }
             },
             "allGames": [
@@ -20887,7 +20923,7 @@
                 "score": null
               }
             ],
-            "lastUpdated": "2025-07-18T18:52:20.825Z",
+            "lastUpdated": "2025-07-18T19:14:17.306Z",
             "totalGames": 193
           },
           "summary": {
@@ -20911,7 +20947,7 @@
               "date": "Sun, May 25",
               "location": "West Park Diamond 1"
             },
-            "lastUpdated": "2025-07-18T18:57:13.436Z"
+            "lastUpdated": "2025-07-18T19:19:26.423Z"
           }
         }
       }
@@ -21104,7 +21140,7 @@
                 }
               }
             ],
-            "lastUpdated": "2025-07-18T18:52:39.737Z",
+            "lastUpdated": "2025-07-18T19:14:36.683Z",
             "totalTeams": 10
           },
           "schedule": {
@@ -21246,7 +21282,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:43.898Z"
+                "lastUpdated": "2025-07-18T19:14:41.161Z"
               },
               "510892": {
                 "teamCode": "510892",
@@ -21389,7 +21425,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:43.898Z"
+                "lastUpdated": "2025-07-18T19:14:41.161Z"
               },
               "510893": {
                 "teamCode": "510893",
@@ -21532,7 +21568,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:43.898Z"
+                "lastUpdated": "2025-07-18T19:14:41.161Z"
               },
               "510894": {
                 "teamCode": "510894",
@@ -21679,7 +21715,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:43.898Z"
+                "lastUpdated": "2025-07-18T19:14:41.161Z"
               },
               "510897": {
                 "teamCode": "510897",
@@ -21830,7 +21866,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:43.898Z"
+                "lastUpdated": "2025-07-18T19:14:41.161Z"
               },
               "510898": {
                 "teamCode": "510898",
@@ -21981,7 +22017,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:43.898Z"
+                "lastUpdated": "2025-07-18T19:14:41.161Z"
               },
               "510903": {
                 "teamCode": "510903",
@@ -22067,7 +22103,7 @@
                   }
                 ],
                 "nextGames": [],
-                "lastUpdated": "2025-07-18T18:52:43.898Z"
+                "lastUpdated": "2025-07-18T19:14:41.161Z"
               },
               "510905": {
                 "teamCode": "510905",
@@ -22218,7 +22254,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:43.898Z"
+                "lastUpdated": "2025-07-18T19:14:41.161Z"
               },
               "510906": {
                 "teamCode": "510906",
@@ -22329,7 +22365,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:43.898Z"
+                "lastUpdated": "2025-07-18T19:14:41.161Z"
               },
               "510907": {
                 "teamCode": "510907",
@@ -22468,7 +22504,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:43.898Z"
+                "lastUpdated": "2025-07-18T19:14:41.161Z"
               },
               "510908": {
                 "teamCode": "510908",
@@ -22619,7 +22655,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:43.898Z"
+                "lastUpdated": "2025-07-18T19:14:41.161Z"
               },
               "510909": {
                 "teamCode": "510909",
@@ -22770,7 +22806,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:43.898Z"
+                "lastUpdated": "2025-07-18T19:14:41.161Z"
               },
               "510910": {
                 "teamCode": "510910",
@@ -22881,7 +22917,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:43.898Z"
+                "lastUpdated": "2025-07-18T19:14:41.161Z"
               },
               "510911": {
                 "teamCode": "510911",
@@ -23032,7 +23068,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:43.899Z"
+                "lastUpdated": "2025-07-18T19:14:41.161Z"
               },
               "510912": {
                 "teamCode": "510912",
@@ -23171,7 +23207,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:43.899Z"
+                "lastUpdated": "2025-07-18T19:14:41.161Z"
               },
               "510913": {
                 "teamCode": "510913",
@@ -23322,7 +23358,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:43.899Z"
+                "lastUpdated": "2025-07-18T19:14:41.161Z"
               },
               "510916": {
                 "teamCode": "510916",
@@ -23465,7 +23501,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:43.899Z"
+                "lastUpdated": "2025-07-18T19:14:41.161Z"
               },
               "510917": {
                 "teamCode": "510917",
@@ -23612,7 +23648,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:43.899Z"
+                "lastUpdated": "2025-07-18T19:14:41.161Z"
               },
               "516241": {
                 "teamCode": "516241",
@@ -23763,7 +23799,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:43.899Z"
+                "lastUpdated": "2025-07-18T19:14:41.161Z"
               }
             },
             "allGames": [
@@ -26400,7 +26436,7 @@
                 "score": null
               }
             ],
-            "lastUpdated": "2025-07-18T18:52:43.899Z",
+            "lastUpdated": "2025-07-18T19:14:41.161Z",
             "totalGames": 162
           },
           "summary": {
@@ -26424,7 +26460,7 @@
               "date": "Wed, Jul 16",
               "location": "Alton Park"
             },
-            "lastUpdated": "2025-07-18T18:57:13.436Z"
+            "lastUpdated": "2025-07-18T19:19:26.423Z"
           }
         },
         "rep-tier-3": {
@@ -26611,7 +26647,7 @@
                 }
               }
             ],
-            "lastUpdated": "2025-07-18T18:52:47.440Z",
+            "lastUpdated": "2025-07-18T19:14:44.765Z",
             "totalTeams": 10
           },
           "schedule": {
@@ -26753,7 +26789,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:51.629Z"
+                "lastUpdated": "2025-07-18T19:14:49.225Z"
               },
               "510892": {
                 "teamCode": "510892",
@@ -26896,7 +26932,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:51.629Z"
+                "lastUpdated": "2025-07-18T19:14:49.225Z"
               },
               "510893": {
                 "teamCode": "510893",
@@ -27039,7 +27075,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:51.629Z"
+                "lastUpdated": "2025-07-18T19:14:49.225Z"
               },
               "510894": {
                 "teamCode": "510894",
@@ -27186,7 +27222,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:51.629Z"
+                "lastUpdated": "2025-07-18T19:14:49.225Z"
               },
               "510897": {
                 "teamCode": "510897",
@@ -27337,7 +27373,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:51.629Z"
+                "lastUpdated": "2025-07-18T19:14:49.226Z"
               },
               "510898": {
                 "teamCode": "510898",
@@ -27488,7 +27524,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:51.629Z"
+                "lastUpdated": "2025-07-18T19:14:49.226Z"
               },
               "510903": {
                 "teamCode": "510903",
@@ -27574,7 +27610,7 @@
                   }
                 ],
                 "nextGames": [],
-                "lastUpdated": "2025-07-18T18:52:51.629Z"
+                "lastUpdated": "2025-07-18T19:14:49.226Z"
               },
               "510905": {
                 "teamCode": "510905",
@@ -27725,7 +27761,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:51.629Z"
+                "lastUpdated": "2025-07-18T19:14:49.226Z"
               },
               "510906": {
                 "teamCode": "510906",
@@ -27836,7 +27872,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:51.629Z"
+                "lastUpdated": "2025-07-18T19:14:49.226Z"
               },
               "510907": {
                 "teamCode": "510907",
@@ -27975,7 +28011,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:51.629Z"
+                "lastUpdated": "2025-07-18T19:14:49.226Z"
               },
               "510908": {
                 "teamCode": "510908",
@@ -28126,7 +28162,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:51.629Z"
+                "lastUpdated": "2025-07-18T19:14:49.226Z"
               },
               "510909": {
                 "teamCode": "510909",
@@ -28277,7 +28313,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:51.629Z"
+                "lastUpdated": "2025-07-18T19:14:49.226Z"
               },
               "510910": {
                 "teamCode": "510910",
@@ -28388,7 +28424,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:51.630Z"
+                "lastUpdated": "2025-07-18T19:14:49.226Z"
               },
               "510911": {
                 "teamCode": "510911",
@@ -28539,7 +28575,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:51.630Z"
+                "lastUpdated": "2025-07-18T19:14:49.226Z"
               },
               "510912": {
                 "teamCode": "510912",
@@ -28678,7 +28714,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:51.630Z"
+                "lastUpdated": "2025-07-18T19:14:49.226Z"
               },
               "510913": {
                 "teamCode": "510913",
@@ -28829,7 +28865,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:51.630Z"
+                "lastUpdated": "2025-07-18T19:14:49.226Z"
               },
               "510916": {
                 "teamCode": "510916",
@@ -28972,7 +29008,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:51.630Z"
+                "lastUpdated": "2025-07-18T19:14:49.226Z"
               },
               "510917": {
                 "teamCode": "510917",
@@ -29119,7 +29155,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:51.630Z"
+                "lastUpdated": "2025-07-18T19:14:49.226Z"
               },
               "516241": {
                 "teamCode": "516241",
@@ -29270,7 +29306,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:52:51.630Z"
+                "lastUpdated": "2025-07-18T19:14:49.226Z"
               }
             },
             "allGames": [
@@ -31907,7 +31943,7 @@
                 "score": null
               }
             ],
-            "lastUpdated": "2025-07-18T18:52:51.630Z",
+            "lastUpdated": "2025-07-18T19:14:49.226Z",
             "totalGames": 162
           },
           "summary": {
@@ -31931,7 +31967,7 @@
               "date": "Wed, Jul 16",
               "location": "Alton Park"
             },
-            "lastUpdated": "2025-07-18T18:57:13.436Z"
+            "lastUpdated": "2025-07-18T19:19:26.423Z"
           }
         },
         "select-all-tiers": {
@@ -32172,7 +32208,7 @@
                 }
               }
             ],
-            "lastUpdated": "2025-07-18T18:56:55.034Z",
+            "lastUpdated": "2025-07-18T19:19:06.742Z",
             "totalTeams": 13
           },
           "schedule": {
@@ -32290,7 +32326,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:56:59.209Z"
+                "lastUpdated": "2025-07-18T19:19:11.342Z"
               },
               "511075": {
                 "teamCode": "511075",
@@ -32405,7 +32441,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:56:59.209Z"
+                "lastUpdated": "2025-07-18T19:19:11.342Z"
               },
               "511076": {
                 "teamCode": "511076",
@@ -32544,7 +32580,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:56:59.209Z"
+                "lastUpdated": "2025-07-18T19:19:11.342Z"
               },
               "511077": {
                 "teamCode": "511077",
@@ -32683,7 +32719,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:56:59.209Z"
+                "lastUpdated": "2025-07-18T19:19:11.342Z"
               },
               "511078": {
                 "teamCode": "511078",
@@ -32818,7 +32854,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:56:59.209Z"
+                "lastUpdated": "2025-07-18T19:19:11.342Z"
               },
               "511079": {
                 "teamCode": "511079",
@@ -32957,7 +32993,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:56:59.209Z"
+                "lastUpdated": "2025-07-18T19:19:11.342Z"
               },
               "511080": {
                 "teamCode": "511080",
@@ -33096,7 +33132,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:56:59.209Z"
+                "lastUpdated": "2025-07-18T19:19:11.342Z"
               },
               "511081": {
                 "teamCode": "511081",
@@ -33211,7 +33247,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:56:59.209Z"
+                "lastUpdated": "2025-07-18T19:19:11.342Z"
               },
               "511082": {
                 "teamCode": "511082",
@@ -33326,7 +33362,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:56:59.209Z"
+                "lastUpdated": "2025-07-18T19:19:11.342Z"
               },
               "511083": {
                 "teamCode": "511083",
@@ -33477,7 +33513,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:56:59.209Z"
+                "lastUpdated": "2025-07-18T19:19:11.342Z"
               },
               "518967": {
                 "teamCode": "518967",
@@ -33588,7 +33624,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:56:59.209Z"
+                "lastUpdated": "2025-07-18T19:19:11.342Z"
               },
               "518968": {
                 "teamCode": "518968",
@@ -33703,7 +33739,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:56:59.209Z"
+                "lastUpdated": "2025-07-18T19:19:11.342Z"
               },
               "518974": {
                 "teamCode": "518974",
@@ -33814,7 +33850,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:56:59.209Z"
+                "lastUpdated": "2025-07-18T19:19:11.342Z"
               }
             },
             "allGames": [
@@ -35723,7 +35759,7 @@
                 "score": null
               }
             ],
-            "lastUpdated": "2025-07-18T18:56:59.209Z",
+            "lastUpdated": "2025-07-18T19:19:11.342Z",
             "totalGames": 107
           },
           "summary": {
@@ -35747,7 +35783,7 @@
               "date": "Sat, May 24",
               "location": "Mansfield Park"
             },
-            "lastUpdated": "2025-07-18T18:57:13.436Z"
+            "lastUpdated": "2025-07-18T19:19:26.423Z"
           }
         }
       }
@@ -35922,7 +35958,7 @@
                 }
               }
             ],
-            "lastUpdated": "2025-07-18T18:53:10.655Z",
+            "lastUpdated": "2025-07-18T19:15:09.578Z",
             "totalTeams": 9
           },
           "schedule": {
@@ -36040,7 +36076,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:14.863Z"
+                "lastUpdated": "2025-07-18T19:15:14.196Z"
               },
               "510919": {
                 "teamCode": "510919",
@@ -36135,7 +36171,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:14.863Z"
+                "lastUpdated": "2025-07-18T19:15:14.196Z"
               },
               "510920": {
                 "teamCode": "510920",
@@ -36254,7 +36290,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:14.864Z"
+                "lastUpdated": "2025-07-18T19:15:14.196Z"
               },
               "510921": {
                 "teamCode": "510921",
@@ -36377,7 +36413,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:14.864Z"
+                "lastUpdated": "2025-07-18T19:15:14.196Z"
               },
               "510922": {
                 "teamCode": "510922",
@@ -36516,7 +36552,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:14.864Z"
+                "lastUpdated": "2025-07-18T19:15:14.196Z"
               },
               "510923": {
                 "teamCode": "510923",
@@ -36663,7 +36699,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:14.864Z"
+                "lastUpdated": "2025-07-18T19:15:14.196Z"
               },
               "510924": {
                 "teamCode": "510924",
@@ -36790,7 +36826,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:14.864Z"
+                "lastUpdated": "2025-07-18T19:15:14.196Z"
               },
               "510925": {
                 "teamCode": "510925",
@@ -36917,7 +36953,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:14.864Z"
+                "lastUpdated": "2025-07-18T19:15:14.196Z"
               },
               "510926": {
                 "teamCode": "510926",
@@ -37012,7 +37048,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:14.864Z"
+                "lastUpdated": "2025-07-18T19:15:14.196Z"
               },
               "510927": {
                 "teamCode": "510927",
@@ -37119,7 +37155,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:14.864Z"
+                "lastUpdated": "2025-07-18T19:15:14.196Z"
               },
               "510928": {
                 "teamCode": "510928",
@@ -37234,7 +37270,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:14.864Z"
+                "lastUpdated": "2025-07-18T19:15:14.196Z"
               },
               "510929": {
                 "teamCode": "510929",
@@ -37385,7 +37421,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:14.864Z"
+                "lastUpdated": "2025-07-18T19:15:14.196Z"
               },
               "510930": {
                 "teamCode": "510930",
@@ -37508,7 +37544,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:14.864Z"
+                "lastUpdated": "2025-07-18T19:15:14.196Z"
               },
               "510931": {
                 "teamCode": "510931",
@@ -37631,7 +37667,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:14.864Z"
+                "lastUpdated": "2025-07-18T19:15:14.196Z"
               },
               "510932": {
                 "teamCode": "510932",
@@ -37758,7 +37794,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:14.864Z"
+                "lastUpdated": "2025-07-18T19:15:14.196Z"
               },
               "510933": {
                 "teamCode": "510933",
@@ -37897,7 +37933,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:14.864Z"
+                "lastUpdated": "2025-07-18T19:15:14.196Z"
               },
               "510934": {
                 "teamCode": "510934",
@@ -38032,7 +38068,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:14.864Z"
+                "lastUpdated": "2025-07-18T19:15:14.196Z"
               },
               "510935": {
                 "teamCode": "510935",
@@ -38183,7 +38219,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:14.864Z"
+                "lastUpdated": "2025-07-18T19:15:14.196Z"
               },
               "510939": {
                 "teamCode": "510939",
@@ -38318,7 +38354,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:14.864Z"
+                "lastUpdated": "2025-07-18T19:15:14.196Z"
               }
             },
             "allGames": [
@@ -41007,7 +41043,7 @@
                 "score": null
               }
             ],
-            "lastUpdated": "2025-07-18T18:53:14.864Z",
+            "lastUpdated": "2025-07-18T19:15:14.196Z",
             "totalGames": 162
           },
           "summary": {
@@ -41031,7 +41067,7 @@
               "date": "Thu, Jul 3",
               "location": "Barrie Community Sports Complex - Diamond 12"
             },
-            "lastUpdated": "2025-07-18T18:57:13.436Z"
+            "lastUpdated": "2025-07-18T19:19:26.423Z"
           }
         },
         "rep-tier-3": {
@@ -41218,7 +41254,7 @@
                 }
               }
             ],
-            "lastUpdated": "2025-07-18T18:53:18.470Z",
+            "lastUpdated": "2025-07-18T19:15:17.870Z",
             "totalTeams": 10
           },
           "schedule": {
@@ -41336,7 +41372,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:22.680Z"
+                "lastUpdated": "2025-07-18T19:15:22.283Z"
               },
               "510919": {
                 "teamCode": "510919",
@@ -41431,7 +41467,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:22.680Z"
+                "lastUpdated": "2025-07-18T19:15:22.283Z"
               },
               "510920": {
                 "teamCode": "510920",
@@ -41550,7 +41586,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:22.680Z"
+                "lastUpdated": "2025-07-18T19:15:22.283Z"
               },
               "510921": {
                 "teamCode": "510921",
@@ -41673,7 +41709,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:22.680Z"
+                "lastUpdated": "2025-07-18T19:15:22.284Z"
               },
               "510922": {
                 "teamCode": "510922",
@@ -41812,7 +41848,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:22.680Z"
+                "lastUpdated": "2025-07-18T19:15:22.284Z"
               },
               "510923": {
                 "teamCode": "510923",
@@ -41959,7 +41995,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:22.680Z"
+                "lastUpdated": "2025-07-18T19:15:22.284Z"
               },
               "510924": {
                 "teamCode": "510924",
@@ -42086,7 +42122,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:22.680Z"
+                "lastUpdated": "2025-07-18T19:15:22.284Z"
               },
               "510925": {
                 "teamCode": "510925",
@@ -42213,7 +42249,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:22.680Z"
+                "lastUpdated": "2025-07-18T19:15:22.284Z"
               },
               "510926": {
                 "teamCode": "510926",
@@ -42308,7 +42344,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:22.680Z"
+                "lastUpdated": "2025-07-18T19:15:22.284Z"
               },
               "510927": {
                 "teamCode": "510927",
@@ -42415,7 +42451,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:22.680Z"
+                "lastUpdated": "2025-07-18T19:15:22.284Z"
               },
               "510928": {
                 "teamCode": "510928",
@@ -42530,7 +42566,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:22.681Z"
+                "lastUpdated": "2025-07-18T19:15:22.284Z"
               },
               "510929": {
                 "teamCode": "510929",
@@ -42681,7 +42717,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:22.681Z"
+                "lastUpdated": "2025-07-18T19:15:22.284Z"
               },
               "510930": {
                 "teamCode": "510930",
@@ -42804,7 +42840,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:22.681Z"
+                "lastUpdated": "2025-07-18T19:15:22.284Z"
               },
               "510931": {
                 "teamCode": "510931",
@@ -42927,7 +42963,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:22.681Z"
+                "lastUpdated": "2025-07-18T19:15:22.284Z"
               },
               "510932": {
                 "teamCode": "510932",
@@ -43054,7 +43090,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:22.681Z"
+                "lastUpdated": "2025-07-18T19:15:22.284Z"
               },
               "510933": {
                 "teamCode": "510933",
@@ -43193,7 +43229,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:22.681Z"
+                "lastUpdated": "2025-07-18T19:15:22.284Z"
               },
               "510934": {
                 "teamCode": "510934",
@@ -43328,7 +43364,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:22.681Z"
+                "lastUpdated": "2025-07-18T19:15:22.284Z"
               },
               "510935": {
                 "teamCode": "510935",
@@ -43479,7 +43515,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:22.681Z"
+                "lastUpdated": "2025-07-18T19:15:22.284Z"
               },
               "510939": {
                 "teamCode": "510939",
@@ -43614,7 +43650,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:22.681Z"
+                "lastUpdated": "2025-07-18T19:15:22.284Z"
               }
             },
             "allGames": [
@@ -46303,7 +46339,7 @@
                 "score": null
               }
             ],
-            "lastUpdated": "2025-07-18T18:53:22.681Z",
+            "lastUpdated": "2025-07-18T19:15:22.284Z",
             "totalGames": 162
           },
           "summary": {
@@ -46327,7 +46363,7 @@
               "date": "Thu, Jul 3",
               "location": "Barrie Community Sports Complex - Diamond 12"
             },
-            "lastUpdated": "2025-07-18T18:57:13.436Z"
+            "lastUpdated": "2025-07-18T19:19:26.423Z"
           }
         }
       }
@@ -46484,7 +46520,7 @@
                 }
               }
             ],
-            "lastUpdated": "2025-07-18T18:53:41.604Z",
+            "lastUpdated": "2025-07-18T19:15:42.284Z",
             "totalTeams": 8
           },
           "schedule": {
@@ -46626,7 +46662,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:45.797Z"
+                "lastUpdated": "2025-07-18T19:15:46.708Z"
               },
               "510941": {
                 "teamCode": "510941",
@@ -46773,7 +46809,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:45.797Z"
+                "lastUpdated": "2025-07-18T19:15:46.708Z"
               },
               "510942": {
                 "teamCode": "510942",
@@ -46896,7 +46932,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:45.797Z"
+                "lastUpdated": "2025-07-18T19:15:46.708Z"
               },
               "510943": {
                 "teamCode": "510943",
@@ -47015,7 +47051,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:45.797Z"
+                "lastUpdated": "2025-07-18T19:15:46.708Z"
               },
               "510944": {
                 "teamCode": "510944",
@@ -47138,7 +47174,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:45.797Z"
+                "lastUpdated": "2025-07-18T19:15:46.708Z"
               },
               "510945": {
                 "teamCode": "510945",
@@ -47249,7 +47285,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:45.797Z"
+                "lastUpdated": "2025-07-18T19:15:46.708Z"
               },
               "510946": {
                 "teamCode": "510946",
@@ -47388,7 +47424,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:45.797Z"
+                "lastUpdated": "2025-07-18T19:15:46.708Z"
               },
               "510947": {
                 "teamCode": "510947",
@@ -47535,7 +47571,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:45.797Z"
+                "lastUpdated": "2025-07-18T19:15:46.708Z"
               },
               "510948": {
                 "teamCode": "510948",
@@ -47650,7 +47686,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:45.797Z"
+                "lastUpdated": "2025-07-18T19:15:46.709Z"
               },
               "510949": {
                 "teamCode": "510949",
@@ -47797,7 +47833,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:45.797Z"
+                "lastUpdated": "2025-07-18T19:15:46.709Z"
               },
               "510950": {
                 "teamCode": "510950",
@@ -47940,7 +47976,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:45.797Z"
+                "lastUpdated": "2025-07-18T19:15:46.709Z"
               },
               "510951": {
                 "teamCode": "510951",
@@ -48083,7 +48119,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:45.797Z"
+                "lastUpdated": "2025-07-18T19:15:46.709Z"
               },
               "510952": {
                 "teamCode": "510952",
@@ -48222,7 +48258,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:45.797Z"
+                "lastUpdated": "2025-07-18T19:15:46.709Z"
               },
               "510953": {
                 "teamCode": "510953",
@@ -48361,7 +48397,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:45.797Z"
+                "lastUpdated": "2025-07-18T19:15:46.709Z"
               },
               "510957": {
                 "teamCode": "510957",
@@ -48464,7 +48500,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:45.797Z"
+                "lastUpdated": "2025-07-18T19:15:46.709Z"
               },
               "516242": {
                 "teamCode": "516242",
@@ -48595,7 +48631,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:45.797Z"
+                "lastUpdated": "2025-07-18T19:15:46.709Z"
               },
               "518954": {
                 "teamCode": "518954",
@@ -48726,7 +48762,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:45.797Z"
+                "lastUpdated": "2025-07-18T19:15:46.709Z"
               }
             },
             "allGames": [
@@ -51199,7 +51235,7 @@
                 "score": null
               }
             ],
-            "lastUpdated": "2025-07-18T18:53:45.797Z",
+            "lastUpdated": "2025-07-18T19:15:46.709Z",
             "totalGames": 151
           },
           "summary": {
@@ -51223,7 +51259,7 @@
               "date": "Mon, May 12",
               "location": "MANSFIELD"
             },
-            "lastUpdated": "2025-07-18T18:57:13.436Z"
+            "lastUpdated": "2025-07-18T19:19:26.423Z"
           }
         },
         "rep-tier-3": {
@@ -51392,7 +51428,7 @@
                 }
               }
             ],
-            "lastUpdated": "2025-07-18T18:53:49.321Z",
+            "lastUpdated": "2025-07-18T19:15:50.400Z",
             "totalTeams": 9
           },
           "schedule": {
@@ -51534,7 +51570,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:53.464Z"
+                "lastUpdated": "2025-07-18T19:15:54.848Z"
               },
               "510941": {
                 "teamCode": "510941",
@@ -51681,7 +51717,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:53.464Z"
+                "lastUpdated": "2025-07-18T19:15:54.848Z"
               },
               "510942": {
                 "teamCode": "510942",
@@ -51804,7 +51840,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:53.464Z"
+                "lastUpdated": "2025-07-18T19:15:54.848Z"
               },
               "510943": {
                 "teamCode": "510943",
@@ -51923,7 +51959,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:53.464Z"
+                "lastUpdated": "2025-07-18T19:15:54.848Z"
               },
               "510944": {
                 "teamCode": "510944",
@@ -52046,7 +52082,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:53.464Z"
+                "lastUpdated": "2025-07-18T19:15:54.848Z"
               },
               "510945": {
                 "teamCode": "510945",
@@ -52157,7 +52193,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:53.464Z"
+                "lastUpdated": "2025-07-18T19:15:54.848Z"
               },
               "510946": {
                 "teamCode": "510946",
@@ -52296,7 +52332,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:53.464Z"
+                "lastUpdated": "2025-07-18T19:15:54.848Z"
               },
               "510947": {
                 "teamCode": "510947",
@@ -52443,7 +52479,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:53.464Z"
+                "lastUpdated": "2025-07-18T19:15:54.848Z"
               },
               "510948": {
                 "teamCode": "510948",
@@ -52558,7 +52594,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:53.464Z"
+                "lastUpdated": "2025-07-18T19:15:54.848Z"
               },
               "510949": {
                 "teamCode": "510949",
@@ -52705,7 +52741,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:53.464Z"
+                "lastUpdated": "2025-07-18T19:15:54.848Z"
               },
               "510950": {
                 "teamCode": "510950",
@@ -52848,7 +52884,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:53.464Z"
+                "lastUpdated": "2025-07-18T19:15:54.848Z"
               },
               "510951": {
                 "teamCode": "510951",
@@ -52991,7 +53027,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:53.464Z"
+                "lastUpdated": "2025-07-18T19:15:54.848Z"
               },
               "510952": {
                 "teamCode": "510952",
@@ -53130,7 +53166,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:53.464Z"
+                "lastUpdated": "2025-07-18T19:15:54.848Z"
               },
               "510953": {
                 "teamCode": "510953",
@@ -53269,7 +53305,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:53.464Z"
+                "lastUpdated": "2025-07-18T19:15:54.848Z"
               },
               "510957": {
                 "teamCode": "510957",
@@ -53372,7 +53408,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:53.464Z"
+                "lastUpdated": "2025-07-18T19:15:54.848Z"
               },
               "516242": {
                 "teamCode": "516242",
@@ -53503,7 +53539,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:53.464Z"
+                "lastUpdated": "2025-07-18T19:15:54.848Z"
               },
               "518954": {
                 "teamCode": "518954",
@@ -53634,7 +53670,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:53:53.464Z"
+                "lastUpdated": "2025-07-18T19:15:54.848Z"
               }
             },
             "allGames": [
@@ -56107,7 +56143,7 @@
                 "score": null
               }
             ],
-            "lastUpdated": "2025-07-18T18:53:53.464Z",
+            "lastUpdated": "2025-07-18T19:15:54.848Z",
             "totalGames": 151
           },
           "summary": {
@@ -56131,7 +56167,7 @@
               "date": "Mon, May 12",
               "location": "MANSFIELD"
             },
-            "lastUpdated": "2025-07-18T18:57:13.436Z"
+            "lastUpdated": "2025-07-18T19:19:26.423Z"
           }
         },
         "select-all-tiers": {
@@ -56426,7 +56462,7 @@
                 }
               }
             ],
-            "lastUpdated": "2025-07-18T18:57:02.712Z",
+            "lastUpdated": "2025-07-18T19:19:15.136Z",
             "totalTeams": 16
           },
           "schedule": {
@@ -56556,7 +56592,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:57:06.992Z"
+                "lastUpdated": "2025-07-18T19:19:19.719Z"
               },
               "511085": {
                 "teamCode": "511085",
@@ -56683,7 +56719,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:57:06.992Z"
+                "lastUpdated": "2025-07-18T19:19:19.719Z"
               },
               "511086": {
                 "teamCode": "511086",
@@ -56798,7 +56834,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:57:06.992Z"
+                "lastUpdated": "2025-07-18T19:19:19.719Z"
               },
               "511087": {
                 "teamCode": "511087",
@@ -56913,7 +56949,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:57:06.992Z"
+                "lastUpdated": "2025-07-18T19:19:19.719Z"
               },
               "511088": {
                 "teamCode": "511088",
@@ -57040,7 +57076,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:57:06.992Z"
+                "lastUpdated": "2025-07-18T19:19:19.719Z"
               },
               "511089": {
                 "teamCode": "511089",
@@ -57179,7 +57215,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:57:06.992Z"
+                "lastUpdated": "2025-07-18T19:19:19.719Z"
               },
               "511090": {
                 "teamCode": "511090",
@@ -57318,7 +57354,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:57:06.992Z"
+                "lastUpdated": "2025-07-18T19:19:19.719Z"
               },
               "511091": {
                 "teamCode": "511091",
@@ -57433,7 +57469,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:57:06.992Z"
+                "lastUpdated": "2025-07-18T19:19:19.719Z"
               },
               "511092": {
                 "teamCode": "511092",
@@ -57548,7 +57584,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:57:06.992Z"
+                "lastUpdated": "2025-07-18T19:19:19.719Z"
               },
               "511093": {
                 "teamCode": "511093",
@@ -57663,7 +57699,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:57:06.992Z"
+                "lastUpdated": "2025-07-18T19:19:19.719Z"
               },
               "511094": {
                 "teamCode": "511094",
@@ -57790,7 +57826,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:57:06.992Z"
+                "lastUpdated": "2025-07-18T19:19:19.719Z"
               },
               "511095": {
                 "teamCode": "511095",
@@ -57905,7 +57941,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:57:06.992Z"
+                "lastUpdated": "2025-07-18T19:19:19.719Z"
               },
               "511096": {
                 "teamCode": "511096",
@@ -58044,7 +58080,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:57:06.992Z"
+                "lastUpdated": "2025-07-18T19:19:19.719Z"
               },
               "511097": {
                 "teamCode": "511097",
@@ -58195,7 +58231,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:57:06.992Z"
+                "lastUpdated": "2025-07-18T19:19:19.719Z"
               },
               "511098": {
                 "teamCode": "511098",
@@ -58334,7 +58370,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:57:06.992Z"
+                "lastUpdated": "2025-07-18T19:19:19.719Z"
               },
               "518969": {
                 "teamCode": "518969",
@@ -58461,7 +58497,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:57:06.992Z"
+                "lastUpdated": "2025-07-18T19:19:19.719Z"
               }
             },
             "allGames": [
@@ -60694,7 +60730,7 @@
                 "score": null
               }
             ],
-            "lastUpdated": "2025-07-18T18:57:06.992Z",
+            "lastUpdated": "2025-07-18T19:19:19.719Z",
             "totalGames": 128
           },
           "summary": {
@@ -60718,7 +60754,7 @@
               "date": "Thu, Jun 12",
               "location": "Newmarket Fairgrounds Park #1"
             },
-            "lastUpdated": "2025-07-18T18:57:13.436Z"
+            "lastUpdated": "2025-07-18T19:19:26.423Z"
           }
         }
       }
@@ -60965,7 +61001,7 @@
                 }
               }
             ],
-            "lastUpdated": "2025-07-18T18:54:20.075Z",
+            "lastUpdated": "2025-07-18T19:16:22.986Z",
             "totalTeams": 13
           },
           "schedule": {
@@ -60973,25 +61009,9 @@
               "510958": {
                 "teamCode": "510958",
                 "totalGames": 20,
-                "playedGames": 14,
-                "upcomingGames": 6,
+                "playedGames": 15,
+                "upcomingGames": 5,
                 "recentGames": [
-                  {
-                    "date": "2025-06-27T19:00:00.000Z",
-                    "dateText": "Fri, Jun 27",
-                    "time": "7:00 PM",
-                    "homeTeam": "Aurora-King Jays 14U A",
-                    "homeTeamCode": "510958",
-                    "awayTeam": "Bradford Tigers 14U A",
-                    "awayTeamCode": "510960",
-                    "location": "Stuart Burnett Field",
-                    "isCompleted": true,
-                    "score": {
-                      "home": 18,
-                      "away": 2,
-                      "scoreText": "2-18"
-                    }
-                  },
                   {
                     "date": "2025-07-04T18:00:00.000Z",
                     "dateText": "Fri, Jul 4",
@@ -61055,9 +61075,7 @@
                       "away": 17,
                       "scoreText": "17-9"
                     }
-                  }
-                ],
-                "nextGames": [
+                  },
                   {
                     "date": "2025-07-18T19:00:00.000Z",
                     "dateText": "Fri, Jul 18",
@@ -61069,7 +61087,9 @@
                     "location": "Stuart Burnett Field",
                     "isCompleted": false,
                     "score": null
-                  },
+                  }
+                ],
+                "nextGames": [
                   {
                     "date": "2025-07-19T10:00:00.000Z",
                     "dateText": "Sat, Jul 19",
@@ -61117,9 +61137,21 @@
                     "location": "Richmond Green #1",
                     "isCompleted": false,
                     "score": null
+                  },
+                  {
+                    "date": "2025-08-09T10:00:00.000Z",
+                    "dateText": "Sat, Aug 9",
+                    "time": "10:00 AM",
+                    "homeTeam": "Bradford Tigers 14U A",
+                    "homeTeamCode": "510960",
+                    "awayTeam": "Aurora-King Jays 14U A",
+                    "awayTeamCode": "510958",
+                    "location": "Joe Magani Field #5",
+                    "isCompleted": false,
+                    "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:54:24.294Z"
+                "lastUpdated": "2025-07-18T19:16:27.452Z"
               },
               "510959": {
                 "teamCode": "510959",
@@ -61270,7 +61302,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:54:24.294Z"
+                "lastUpdated": "2025-07-18T19:16:27.452Z"
               },
               "510960": {
                 "teamCode": "510960",
@@ -61417,7 +61449,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:54:24.294Z"
+                "lastUpdated": "2025-07-18T19:16:27.452Z"
               },
               "510961": {
                 "teamCode": "510961",
@@ -61568,7 +61600,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:54:24.294Z"
+                "lastUpdated": "2025-07-18T19:16:27.452Z"
               },
               "510962": {
                 "teamCode": "510962",
@@ -61719,7 +61751,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:54:24.294Z"
+                "lastUpdated": "2025-07-18T19:16:27.452Z"
               },
               "510963": {
                 "teamCode": "510963",
@@ -61870,7 +61902,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:54:24.294Z"
+                "lastUpdated": "2025-07-18T19:16:27.452Z"
               },
               "510964": {
                 "teamCode": "510964",
@@ -62021,7 +62053,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:54:24.294Z"
+                "lastUpdated": "2025-07-18T19:16:27.452Z"
               },
               "510965": {
                 "teamCode": "510965",
@@ -62168,7 +62200,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:54:24.294Z"
+                "lastUpdated": "2025-07-18T19:16:27.452Z"
               },
               "510966": {
                 "teamCode": "510966",
@@ -62319,7 +62351,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:54:24.294Z"
+                "lastUpdated": "2025-07-18T19:16:27.452Z"
               },
               "510979": {
                 "teamCode": "510979",
@@ -62466,7 +62498,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:54:24.294Z"
+                "lastUpdated": "2025-07-18T19:16:27.452Z"
               },
               "516243": {
                 "teamCode": "516243",
@@ -62617,26 +62649,14 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:54:24.294Z"
+                "lastUpdated": "2025-07-18T19:16:27.452Z"
               },
               "518957": {
                 "teamCode": "518957",
                 "totalGames": 20,
-                "playedGames": 13,
-                "upcomingGames": 7,
+                "playedGames": 14,
+                "upcomingGames": 6,
                 "recentGames": [
-                  {
-                    "date": "2025-06-21T16:00:00.000Z",
-                    "dateText": "Sat, Jun 21",
-                    "time": "4:00 PM",
-                    "homeTeam": "Vaughan Vikings 14U A",
-                    "homeTeamCode": "518957",
-                    "awayTeam": "Midland Penetang Twins 14U B",
-                    "awayTeamCode": "510979",
-                    "location": "Tiffin Park",
-                    "isCompleted": false,
-                    "score": null
-                  },
                   {
                     "date": "2025-06-25T20:30:00.000Z",
                     "dateText": "Wed, Jun 25",
@@ -62700,9 +62720,7 @@
                       "away": 5,
                       "scoreText": "5-1"
                     }
-                  }
-                ],
-                "nextGames": [
+                  },
                   {
                     "date": "2025-07-18T19:00:00.000Z",
                     "dateText": "Fri, Jul 18",
@@ -62714,7 +62732,9 @@
                     "location": "Stuart Burnett Field",
                     "isCompleted": false,
                     "score": null
-                  },
+                  }
+                ],
+                "nextGames": [
                   {
                     "date": "2025-07-21T18:00:00.000Z",
                     "dateText": "Mon, Jul 21",
@@ -62762,9 +62782,21 @@
                     "location": "Richmond Green #1",
                     "isCompleted": false,
                     "score": null
+                  },
+                  {
+                    "date": "2025-08-04T18:00:00.000Z",
+                    "dateText": "Mon, Aug 4",
+                    "time": "6:00 PM",
+                    "homeTeam": "Vaughan Vikings 14U A",
+                    "homeTeamCode": "518957",
+                    "awayTeam": "Richmond Hill Phoenix 14U A",
+                    "awayTeamCode": "510964",
+                    "location": "Concord Regional #2",
+                    "isCompleted": false,
+                    "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:54:24.294Z"
+                "lastUpdated": "2025-07-18T19:16:27.452Z"
               },
               "546378": {
                 "teamCode": "546378",
@@ -62907,7 +62939,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:54:24.294Z"
+                "lastUpdated": "2025-07-18T19:16:27.452Z"
               }
             },
             "allGames": [
@@ -64790,6 +64822,18 @@
             ],
             "recentGames": [
               {
+                "date": "2025-07-18T19:00:00.000Z",
+                "dateText": "Fri, Jul 18",
+                "time": "7:00 PM",
+                "homeTeam": "Aurora-King Jays 14U A",
+                "homeTeamCode": "510958",
+                "awayTeam": "Vaughan Vikings 14U A",
+                "awayTeamCode": "518957",
+                "location": "Stuart Burnett Field",
+                "isCompleted": false,
+                "score": null
+              },
+              {
                 "date": "2025-07-16T20:00:00.000Z",
                 "dateText": "Wed, Jul 16",
                 "time": "8:00 PM",
@@ -64928,33 +64972,9 @@
                   "away": 10,
                   "scoreText": "10-10"
                 }
-              },
-              {
-                "date": "2025-07-09T19:30:00.000Z",
-                "dateText": "Wed, Jul 9",
-                "time": "7:30 PM",
-                "homeTeam": "Thornhill Reds 14U A",
-                "homeTeamCode": "510965",
-                "awayTeam": "Ontario Women's",
-                "awayTeamCode": "546378",
-                "location": "Benjamin Vaughan Park (Westmount High school)",
-                "isCompleted": false,
-                "score": null
               }
             ],
             "upcomingGames": [
-              {
-                "date": "2025-07-18T19:00:00.000Z",
-                "dateText": "Fri, Jul 18",
-                "time": "7:00 PM",
-                "homeTeam": "Aurora-King Jays 14U A",
-                "homeTeamCode": "510958",
-                "awayTeam": "Vaughan Vikings 14U A",
-                "awayTeamCode": "518957",
-                "location": "Stuart Burnett Field",
-                "isCompleted": false,
-                "score": null
-              },
               {
                 "date": "2025-07-19T10:00:00.000Z",
                 "dateText": "Sat, Jul 19",
@@ -65062,9 +65082,21 @@
                 "location": "Bethesda 2",
                 "isCompleted": false,
                 "score": null
+              },
+              {
+                "date": "2025-07-24T18:00:00.000Z",
+                "dateText": "Thu, Jul 24",
+                "time": "6:00 PM",
+                "homeTeam": "Collingwood Jays 14U A",
+                "homeTeamCode": "510962",
+                "awayTeam": "Caledon Nationals 14U A",
+                "awayTeamCode": "510961",
+                "location": "Large Heritage",
+                "isCompleted": false,
+                "score": null
               }
             ],
-            "lastUpdated": "2025-07-18T18:54:24.294Z",
+            "lastUpdated": "2025-07-18T19:16:27.452Z",
             "totalGames": 130
           },
           "summary": {
@@ -65088,7 +65120,7 @@
               "date": "Mon, Jul 7",
               "location": "Joe Magani Field #5"
             },
-            "lastUpdated": "2025-07-18T18:57:13.436Z"
+            "lastUpdated": "2025-07-18T19:19:26.423Z"
           }
         }
       }
@@ -65245,7 +65277,7 @@
                 }
               }
             ],
-            "lastUpdated": "2025-07-18T18:54:43.804Z",
+            "lastUpdated": "2025-07-18T19:16:47.794Z",
             "totalTeams": 8
           },
           "schedule": {
@@ -65383,7 +65415,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:54:48.137Z"
+                "lastUpdated": "2025-07-18T19:16:52.390Z"
               },
               "510981": {
                 "teamCode": "510981",
@@ -65534,7 +65566,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:54:48.137Z"
+                "lastUpdated": "2025-07-18T19:16:52.390Z"
               },
               "510982": {
                 "teamCode": "510982",
@@ -65669,7 +65701,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:54:48.137Z"
+                "lastUpdated": "2025-07-18T19:16:52.390Z"
               },
               "510983": {
                 "teamCode": "510983",
@@ -65804,7 +65836,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:54:48.137Z"
+                "lastUpdated": "2025-07-18T19:16:52.390Z"
               },
               "510984": {
                 "teamCode": "510984",
@@ -65955,7 +65987,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:54:48.137Z"
+                "lastUpdated": "2025-07-18T19:16:52.390Z"
               },
               "510985": {
                 "teamCode": "510985",
@@ -66106,7 +66138,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:54:48.137Z"
+                "lastUpdated": "2025-07-18T19:16:52.390Z"
               },
               "510986": {
                 "teamCode": "510986",
@@ -66233,7 +66265,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:54:48.137Z"
+                "lastUpdated": "2025-07-18T19:16:52.390Z"
               },
               "510987": {
                 "teamCode": "510987",
@@ -66360,7 +66392,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:54:48.137Z"
+                "lastUpdated": "2025-07-18T19:16:52.390Z"
               },
               "510988": {
                 "teamCode": "510988",
@@ -66511,7 +66543,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:54:48.137Z"
+                "lastUpdated": "2025-07-18T19:16:52.390Z"
               },
               "510989": {
                 "teamCode": "510989",
@@ -66658,7 +66690,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:54:48.137Z"
+                "lastUpdated": "2025-07-18T19:16:52.390Z"
               },
               "510990": {
                 "teamCode": "510990",
@@ -66809,7 +66841,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:54:48.137Z"
+                "lastUpdated": "2025-07-18T19:16:52.390Z"
               },
               "510991": {
                 "teamCode": "510991",
@@ -66960,7 +66992,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:54:48.137Z"
+                "lastUpdated": "2025-07-18T19:16:52.390Z"
               },
               "510992": {
                 "teamCode": "510992",
@@ -67107,7 +67139,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:54:48.137Z"
+                "lastUpdated": "2025-07-18T19:16:52.390Z"
               },
               "510993": {
                 "teamCode": "510993",
@@ -67234,7 +67266,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:54:48.137Z"
+                "lastUpdated": "2025-07-18T19:16:52.390Z"
               },
               "510998": {
                 "teamCode": "510998",
@@ -67373,7 +67405,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:54:48.137Z"
+                "lastUpdated": "2025-07-18T19:16:52.390Z"
               },
               "516244": {
                 "teamCode": "516244",
@@ -67500,7 +67532,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:54:48.137Z"
+                "lastUpdated": "2025-07-18T19:16:52.390Z"
               },
               "518959": {
                 "teamCode": "518959",
@@ -67639,7 +67671,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:54:48.137Z"
+                "lastUpdated": "2025-07-18T19:16:52.390Z"
               },
               "546379": {
                 "teamCode": "546379",
@@ -67766,7 +67798,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:54:48.137Z"
+                "lastUpdated": "2025-07-18T19:16:52.390Z"
               }
             },
             "allGames": [
@@ -70451,7 +70483,7 @@
                 "score": null
               }
             ],
-            "lastUpdated": "2025-07-18T18:54:48.137Z",
+            "lastUpdated": "2025-07-18T19:16:52.390Z",
             "totalGames": 162
           },
           "summary": {
@@ -70475,7 +70507,7 @@
               "date": "Thu, May 29",
               "location": "Bethesda Fields #2"
             },
-            "lastUpdated": "2025-07-18T18:57:13.436Z"
+            "lastUpdated": "2025-07-18T19:19:26.423Z"
           }
         },
         "rep-tier-3": {
@@ -70662,7 +70694,7 @@
                 }
               }
             ],
-            "lastUpdated": "2025-07-18T18:54:51.915Z",
+            "lastUpdated": "2025-07-18T19:16:56.066Z",
             "totalTeams": 10
           },
           "schedule": {
@@ -70800,7 +70832,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:54:56.175Z"
+                "lastUpdated": "2025-07-18T19:17:00.636Z"
               },
               "510981": {
                 "teamCode": "510981",
@@ -70951,7 +70983,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:54:56.175Z"
+                "lastUpdated": "2025-07-18T19:17:00.636Z"
               },
               "510982": {
                 "teamCode": "510982",
@@ -71086,7 +71118,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:54:56.175Z"
+                "lastUpdated": "2025-07-18T19:17:00.636Z"
               },
               "510983": {
                 "teamCode": "510983",
@@ -71221,7 +71253,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:54:56.175Z"
+                "lastUpdated": "2025-07-18T19:17:00.636Z"
               },
               "510984": {
                 "teamCode": "510984",
@@ -71372,7 +71404,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:54:56.176Z"
+                "lastUpdated": "2025-07-18T19:17:00.636Z"
               },
               "510985": {
                 "teamCode": "510985",
@@ -71523,7 +71555,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:54:56.176Z"
+                "lastUpdated": "2025-07-18T19:17:00.636Z"
               },
               "510986": {
                 "teamCode": "510986",
@@ -71650,7 +71682,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:54:56.176Z"
+                "lastUpdated": "2025-07-18T19:17:00.636Z"
               },
               "510987": {
                 "teamCode": "510987",
@@ -71777,7 +71809,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:54:56.176Z"
+                "lastUpdated": "2025-07-18T19:17:00.636Z"
               },
               "510988": {
                 "teamCode": "510988",
@@ -71928,7 +71960,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:54:56.176Z"
+                "lastUpdated": "2025-07-18T19:17:00.636Z"
               },
               "510989": {
                 "teamCode": "510989",
@@ -72075,7 +72107,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:54:56.176Z"
+                "lastUpdated": "2025-07-18T19:17:00.636Z"
               },
               "510990": {
                 "teamCode": "510990",
@@ -72226,7 +72258,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:54:56.176Z"
+                "lastUpdated": "2025-07-18T19:17:00.636Z"
               },
               "510991": {
                 "teamCode": "510991",
@@ -72377,7 +72409,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:54:56.176Z"
+                "lastUpdated": "2025-07-18T19:17:00.636Z"
               },
               "510992": {
                 "teamCode": "510992",
@@ -72524,7 +72556,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:54:56.176Z"
+                "lastUpdated": "2025-07-18T19:17:00.636Z"
               },
               "510993": {
                 "teamCode": "510993",
@@ -72651,7 +72683,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:54:56.176Z"
+                "lastUpdated": "2025-07-18T19:17:00.636Z"
               },
               "510998": {
                 "teamCode": "510998",
@@ -72790,7 +72822,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:54:56.176Z"
+                "lastUpdated": "2025-07-18T19:17:00.636Z"
               },
               "516244": {
                 "teamCode": "516244",
@@ -72917,7 +72949,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:54:56.176Z"
+                "lastUpdated": "2025-07-18T19:17:00.636Z"
               },
               "518959": {
                 "teamCode": "518959",
@@ -73056,7 +73088,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:54:56.176Z"
+                "lastUpdated": "2025-07-18T19:17:00.636Z"
               },
               "546379": {
                 "teamCode": "546379",
@@ -73183,7 +73215,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:54:56.176Z"
+                "lastUpdated": "2025-07-18T19:17:00.636Z"
               }
             },
             "allGames": [
@@ -75868,7 +75900,7 @@
                 "score": null
               }
             ],
-            "lastUpdated": "2025-07-18T18:54:56.176Z",
+            "lastUpdated": "2025-07-18T19:17:00.636Z",
             "totalGames": 162
           },
           "summary": {
@@ -75892,7 +75924,7 @@
               "date": "Thu, May 29",
               "location": "Bethesda Fields #2"
             },
-            "lastUpdated": "2025-07-18T18:57:13.436Z"
+            "lastUpdated": "2025-07-18T19:19:26.423Z"
           }
         },
         "select-all-tiers": {
@@ -75939,17 +75971,17 @@
                 "team": "TNT Thunder 15U DS",
                 "teamCode": "511104",
                 "record": {
-                  "gamesPlayed": 9,
-                  "wins": 4,
+                  "gamesPlayed": 11,
+                  "wins": 6,
                   "losses": 5,
                   "ties": 0,
-                  "winPercentage": "0.444"
+                  "winPercentage": "0.545"
                 },
                 "stats": {
-                  "points": 8,
-                  "runsFor": 84,
-                  "runsAgainst": 66,
-                  "runDifferential": 18
+                  "points": 12,
+                  "runsFor": 124,
+                  "runsAgainst": 78,
+                  "runDifferential": 46
                 }
               },
               {
@@ -75993,17 +76025,17 @@
                 "team": "Orillia Royals 15U DS",
                 "teamCode": "511102",
                 "record": {
-                  "gamesPlayed": 7,
+                  "gamesPlayed": 9,
                   "wins": 1,
-                  "losses": 6,
+                  "losses": 8,
                   "ties": 0,
-                  "winPercentage": "0.143"
+                  "winPercentage": "0.111"
                 },
                 "stats": {
                   "points": 2,
-                  "runsFor": 30,
-                  "runsAgainst": 114,
-                  "runDifferential": -84
+                  "runsFor": 42,
+                  "runsAgainst": 154,
+                  "runDifferential": -112
                 }
               },
               {
@@ -76025,7 +76057,7 @@
                 }
               }
             ],
-            "lastUpdated": "2025-07-18T18:57:10.596Z",
+            "lastUpdated": "2025-07-18T19:19:23.405Z",
             "totalTeams": 7
           },
           "schedule": {
@@ -76098,7 +76130,7 @@
                   }
                 ],
                 "nextGames": [],
-                "lastUpdated": "2025-07-18T18:57:13.429Z"
+                "lastUpdated": "2025-07-18T19:19:26.415Z"
               },
               "511100": {
                 "teamCode": "511100",
@@ -76221,7 +76253,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:57:13.429Z"
+                "lastUpdated": "2025-07-18T19:19:26.415Z"
               },
               "511101": {
                 "teamCode": "511101",
@@ -76336,7 +76368,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:57:13.429Z"
+                "lastUpdated": "2025-07-18T19:19:26.415Z"
               },
               "511102": {
                 "teamCode": "511102",
@@ -76377,8 +76409,12 @@
                     "awayTeam": "TNT Thunder 15U DS",
                     "awayTeamCode": "511104",
                     "location": "Udell field",
-                    "isCompleted": false,
-                    "score": null
+                    "isCompleted": true,
+                    "score": {
+                      "home": 0,
+                      "away": 21,
+                      "scoreText": "21-0"
+                    }
                   },
                   {
                     "date": "2025-07-13T17:00:00.000Z",
@@ -76389,8 +76425,12 @@
                     "awayTeam": "TNT Thunder 15U DS",
                     "awayTeamCode": "511104",
                     "location": "Udell field",
-                    "isCompleted": false,
-                    "score": null
+                    "isCompleted": true,
+                    "score": {
+                      "home": 12,
+                      "away": 19,
+                      "scoreText": "19-12"
+                    }
                   },
                   {
                     "date": "2025-07-14T18:00:00.000Z",
@@ -76435,7 +76475,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:57:13.429Z"
+                "lastUpdated": "2025-07-18T19:19:26.415Z"
               },
               "511103": {
                 "teamCode": "511103",
@@ -76526,7 +76566,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:57:13.429Z"
+                "lastUpdated": "2025-07-18T19:19:26.415Z"
               },
               "511104": {
                 "teamCode": "511104",
@@ -76575,8 +76615,12 @@
                     "awayTeam": "TNT Thunder 15U DS",
                     "awayTeamCode": "511104",
                     "location": "Udell field",
-                    "isCompleted": false,
-                    "score": null
+                    "isCompleted": true,
+                    "score": {
+                      "home": 0,
+                      "away": 21,
+                      "scoreText": "21-0"
+                    }
                   },
                   {
                     "date": "2025-07-13T17:00:00.000Z",
@@ -76587,8 +76631,12 @@
                     "awayTeam": "TNT Thunder 15U DS",
                     "awayTeamCode": "511104",
                     "location": "Udell field",
-                    "isCompleted": false,
-                    "score": null
+                    "isCompleted": true,
+                    "score": {
+                      "home": 12,
+                      "away": 19,
+                      "scoreText": "19-12"
+                    }
                   },
                   {
                     "date": "2025-07-16T18:00:00.000Z",
@@ -76641,7 +76689,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:57:13.429Z"
+                "lastUpdated": "2025-07-18T19:19:26.415Z"
               },
               "511524": {
                 "teamCode": "511524",
@@ -76748,7 +76796,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:57:13.429Z"
+                "lastUpdated": "2025-07-18T19:19:26.415Z"
               }
             },
             "allGames": [
@@ -77421,8 +77469,12 @@
                 "awayTeam": "TNT Thunder 15U DS",
                 "awayTeamCode": "511104",
                 "location": "Udell field",
-                "isCompleted": false,
-                "score": null
+                "isCompleted": true,
+                "score": {
+                  "home": 0,
+                  "away": 21,
+                  "scoreText": "21-0"
+                }
               },
               {
                 "date": "2025-07-13T17:00:00.000Z",
@@ -77433,8 +77485,12 @@
                 "awayTeam": "TNT Thunder 15U DS",
                 "awayTeamCode": "511104",
                 "location": "Udell field",
-                "isCompleted": false,
-                "score": null
+                "isCompleted": true,
+                "score": {
+                  "home": 12,
+                  "away": 19,
+                  "scoreText": "19-12"
+                }
               },
               {
                 "date": "2025-07-14T18:00:00.000Z",
@@ -77587,8 +77643,12 @@
                 "awayTeam": "TNT Thunder 15U DS",
                 "awayTeamCode": "511104",
                 "location": "Udell field",
-                "isCompleted": false,
-                "score": null
+                "isCompleted": true,
+                "score": {
+                  "home": 12,
+                  "away": 19,
+                  "scoreText": "19-12"
+                }
               },
               {
                 "date": "2025-07-13T14:30:00.000Z",
@@ -77599,8 +77659,12 @@
                 "awayTeam": "TNT Thunder 15U DS",
                 "awayTeamCode": "511104",
                 "location": "Udell field",
-                "isCompleted": false,
-                "score": null
+                "isCompleted": true,
+                "score": {
+                  "home": 0,
+                  "away": 21,
+                  "scoreText": "21-0"
+                }
               },
               {
                 "date": "2025-07-13T12:30:00.000Z",
@@ -77769,14 +77833,14 @@
                 "score": null
               }
             ],
-            "lastUpdated": "2025-07-18T18:57:13.429Z",
+            "lastUpdated": "2025-07-18T19:19:26.415Z",
             "totalGames": 57
           },
           "summary": {
             "totalTeams": 7,
             "totalGames": 57,
-            "completedGames": 28,
-            "upcomingGames": 29,
+            "completedGames": 30,
+            "upcomingGames": 27,
             "topTeam": {
               "team": "Collingwood Jays 15U DS",
               "teamCode": "511100",
@@ -77793,7 +77857,7 @@
               "date": "Sat, Jun 21",
               "location": "Lennox (field b)"
             },
-            "lastUpdated": "2025-07-18T18:57:13.436Z"
+            "lastUpdated": "2025-07-18T19:19:26.423Z"
           }
         }
       }
@@ -77896,7 +77960,7 @@
                 }
               }
             ],
-            "lastUpdated": "2025-07-18T18:55:12.747Z",
+            "lastUpdated": "2025-07-18T19:17:17.712Z",
             "totalTeams": 5
           },
           "schedule": {
@@ -78034,7 +78098,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:55:15.598Z"
+                "lastUpdated": "2025-07-18T19:17:20.635Z"
               },
               "511010": {
                 "teamCode": "511010",
@@ -78161,7 +78225,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:55:15.598Z"
+                "lastUpdated": "2025-07-18T19:17:20.635Z"
               },
               "511011": {
                 "teamCode": "511011",
@@ -78304,7 +78368,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:55:15.598Z"
+                "lastUpdated": "2025-07-18T19:17:20.635Z"
               },
               "511012": {
                 "teamCode": "511012",
@@ -78439,7 +78503,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:55:15.598Z"
+                "lastUpdated": "2025-07-18T19:17:20.635Z"
               },
               "511013": {
                 "teamCode": "511013",
@@ -78562,7 +78626,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:55:15.598Z"
+                "lastUpdated": "2025-07-18T19:17:20.635Z"
               }
             },
             "allGames": [
@@ -79387,7 +79451,7 @@
                 "score": null
               }
             ],
-            "lastUpdated": "2025-07-18T18:55:15.598Z",
+            "lastUpdated": "2025-07-18T19:17:20.635Z",
             "totalGames": 40
           },
           "summary": {
@@ -79411,7 +79475,7 @@
               "date": "Sat, Jul 5",
               "location": "Cornell 1"
             },
-            "lastUpdated": "2025-07-18T18:57:13.436Z"
+            "lastUpdated": "2025-07-18T19:19:26.423Z"
           }
         }
       }
@@ -79766,7 +79830,7 @@
                 }
               }
             ],
-            "lastUpdated": "2025-07-18T18:55:25.432Z",
+            "lastUpdated": "2025-07-18T19:17:31.276Z",
             "totalTeams": 19
           },
           "schedule": {
@@ -79872,7 +79936,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:55:29.801Z"
+                "lastUpdated": "2025-07-18T19:17:35.802Z"
               },
               "511022": {
                 "teamCode": "511022",
@@ -79983,7 +80047,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:55:29.801Z"
+                "lastUpdated": "2025-07-18T19:17:35.802Z"
               },
               "511023": {
                 "teamCode": "511023",
@@ -80110,7 +80174,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:55:29.801Z"
+                "lastUpdated": "2025-07-18T19:17:35.802Z"
               },
               "511024": {
                 "teamCode": "511024",
@@ -80209,7 +80273,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:55:29.801Z"
+                "lastUpdated": "2025-07-18T19:17:35.802Z"
               },
               "511025": {
                 "teamCode": "511025",
@@ -80336,7 +80400,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:55:29.801Z"
+                "lastUpdated": "2025-07-18T19:17:35.802Z"
               },
               "511026": {
                 "teamCode": "511026",
@@ -80435,7 +80499,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:55:29.801Z"
+                "lastUpdated": "2025-07-18T19:17:35.802Z"
               },
               "511027": {
                 "teamCode": "511027",
@@ -80562,7 +80626,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:55:29.801Z"
+                "lastUpdated": "2025-07-18T19:17:35.802Z"
               },
               "511028": {
                 "teamCode": "511028",
@@ -80677,7 +80741,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:55:29.801Z"
+                "lastUpdated": "2025-07-18T19:17:35.802Z"
               },
               "511030": {
                 "teamCode": "511030",
@@ -80792,7 +80856,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:55:29.801Z"
+                "lastUpdated": "2025-07-18T19:17:35.802Z"
               },
               "511031": {
                 "teamCode": "511031",
@@ -80907,7 +80971,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:55:29.801Z"
+                "lastUpdated": "2025-07-18T19:17:35.802Z"
               },
               "511032": {
                 "teamCode": "511032",
@@ -80997,7 +81061,7 @@
                   }
                 ],
                 "nextGames": [],
-                "lastUpdated": "2025-07-18T18:55:29.801Z"
+                "lastUpdated": "2025-07-18T19:17:35.802Z"
               },
               "511033": {
                 "teamCode": "511033",
@@ -81124,7 +81188,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:55:29.801Z"
+                "lastUpdated": "2025-07-18T19:17:35.802Z"
               },
               "511034": {
                 "teamCode": "511034",
@@ -81231,7 +81295,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:55:29.801Z"
+                "lastUpdated": "2025-07-18T19:17:35.802Z"
               },
               "511035": {
                 "teamCode": "511035",
@@ -81346,7 +81410,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:55:29.801Z"
+                "lastUpdated": "2025-07-18T19:17:35.802Z"
               },
               "516246": {
                 "teamCode": "516246",
@@ -81449,7 +81513,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:55:29.802Z"
+                "lastUpdated": "2025-07-18T19:17:35.802Z"
               },
               "518960": {
                 "teamCode": "518960",
@@ -81560,7 +81624,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:55:29.802Z"
+                "lastUpdated": "2025-07-18T19:17:35.802Z"
               },
               "518962": {
                 "teamCode": "518962",
@@ -81659,7 +81723,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:55:29.802Z"
+                "lastUpdated": "2025-07-18T19:17:35.802Z"
               },
               "519242": {
                 "teamCode": "519242",
@@ -81774,7 +81838,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:55:29.802Z"
+                "lastUpdated": "2025-07-18T19:17:35.802Z"
               },
               "546377": {
                 "teamCode": "546377",
@@ -81869,7 +81933,7 @@
                     "score": null
                   }
                 ],
-                "lastUpdated": "2025-07-18T18:55:29.802Z"
+                "lastUpdated": "2025-07-18T19:17:35.802Z"
               }
             },
             "allGames": [
@@ -84634,7 +84698,7 @@
                 "score": null
               }
             ],
-            "lastUpdated": "2025-07-18T18:55:29.802Z",
+            "lastUpdated": "2025-07-18T19:17:35.802Z",
             "totalGames": 161
           },
           "summary": {
@@ -84658,7 +84722,7 @@
               "date": "Sun, Jun 1",
               "location": "David Hamilton #1"
             },
-            "lastUpdated": "2025-07-18T18:57:13.436Z"
+            "lastUpdated": "2025-07-18T19:19:26.423Z"
           }
         }
       }
