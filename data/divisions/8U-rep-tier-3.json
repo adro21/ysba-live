@@ -56,25 +56,25 @@
         }
       },
       {
-        "position": 6,
+        "position": 4,
         "team": "Stouffville 8U A",
         "teamCode": "511059",
         "record": {
-          "gamesPlayed": 9,
-          "wins": 5,
+          "gamesPlayed": 10,
+          "wins": 6,
           "losses": 4,
           "ties": 0,
-          "winPercentage": "0.556"
+          "winPercentage": "0.600"
         },
         "stats": {
-          "points": 10,
-          "runsFor": 153,
-          "runsAgainst": 128,
-          "runDifferential": 25
+          "points": 12,
+          "runsFor": 176,
+          "runsAgainst": 137,
+          "runDifferential": 39
         }
       },
       {
-        "position": 4,
+        "position": 5,
         "team": "Newmarket Hawks 8U A",
         "teamCode": "511051",
         "record": {
@@ -92,7 +92,7 @@
         }
       },
       {
-        "position": 5,
+        "position": 6,
         "team": "Aurora-King Jays 8U A",
         "teamCode": "511050",
         "record": {
@@ -132,17 +132,17 @@
         "team": "Richmond Hill Phoenix 8U A",
         "teamCode": "511053",
         "record": {
-          "gamesPlayed": 9,
+          "gamesPlayed": 10,
           "wins": 2,
-          "losses": 7,
+          "losses": 8,
           "ties": 0,
-          "winPercentage": "0.222"
+          "winPercentage": "0.200"
         },
         "stats": {
           "points": 4,
-          "runsFor": 101,
-          "runsAgainst": 167,
-          "runDifferential": -66
+          "runsFor": 110,
+          "runsAgainst": 190,
+          "runDifferential": -80
         }
       },
       {
@@ -164,7 +164,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-18T17:16:38.810Z",
+    "lastUpdated": "2025-07-18T17:44:07.001Z",
     "totalTeams": 9
   },
   "schedule": {
@@ -314,7 +314,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T17:16:41.445Z"
+        "lastUpdated": "2025-07-18T17:44:09.859Z"
       },
       "511051": {
         "teamCode": "511051",
@@ -417,7 +417,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T17:16:41.445Z"
+        "lastUpdated": "2025-07-18T17:44:09.859Z"
       },
       "511052": {
         "teamCode": "511052",
@@ -520,7 +520,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T17:16:41.445Z"
+        "lastUpdated": "2025-07-18T17:44:09.859Z"
       },
       "511053": {
         "teamCode": "511053",
@@ -565,8 +565,12 @@
             "awayTeam": "Richmond Hill Phoenix 8U A",
             "awayTeamCode": "511053",
             "location": "Bethesda D3",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 23,
+              "away": 9,
+              "scoreText": "9-23"
+            }
           },
           {
             "date": "2025-07-15T18:00:00.000Z",
@@ -619,7 +623,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T17:16:41.445Z"
+        "lastUpdated": "2025-07-18T17:44:09.859Z"
       },
       "511054": {
         "teamCode": "511054",
@@ -750,7 +754,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T17:16:41.445Z"
+        "lastUpdated": "2025-07-18T17:44:09.859Z"
       },
       "511057": {
         "teamCode": "511057",
@@ -865,7 +869,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T17:16:41.445Z"
+        "lastUpdated": "2025-07-18T17:44:09.859Z"
       },
       "511059": {
         "teamCode": "511059",
@@ -914,8 +918,12 @@
             "awayTeam": "Richmond Hill Phoenix 8U A",
             "awayTeamCode": "511053",
             "location": "Bethesda D3",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 23,
+              "away": 9,
+              "scoreText": "9-23"
+            }
           },
           {
             "date": "2025-07-13T18:30:00.000Z",
@@ -984,7 +992,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T17:16:41.445Z"
+        "lastUpdated": "2025-07-18T17:44:09.859Z"
       },
       "511060": {
         "teamCode": "511060",
@@ -1095,7 +1103,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T17:16:41.445Z"
+        "lastUpdated": "2025-07-18T17:44:09.859Z"
       },
       "518946": {
         "teamCode": "518946",
@@ -1238,7 +1246,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T17:16:41.445Z"
+        "lastUpdated": "2025-07-18T17:44:09.860Z"
       }
     },
     "allGames": [
@@ -2003,8 +2011,12 @@
         "awayTeam": "Richmond Hill Phoenix 8U A",
         "awayTeamCode": "511053",
         "location": "Bethesda D3",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 23,
+          "away": 9,
+          "scoreText": "9-23"
+        }
       },
       {
         "date": "2025-07-10T18:00:00.000Z",
@@ -2397,8 +2409,12 @@
         "awayTeam": "Richmond Hill Phoenix 8U A",
         "awayTeamCode": "511053",
         "location": "Bethesda D3",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 23,
+          "away": 9,
+          "scoreText": "9-23"
+        }
       },
       {
         "date": "2025-07-10T18:00:00.000Z",
@@ -2535,14 +2551,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-18T17:16:41.445Z",
+    "lastUpdated": "2025-07-18T17:44:09.860Z",
     "totalGames": 73
   },
   "summary": {
     "totalTeams": 9,
     "totalGames": 73,
-    "completedGames": 42,
-    "upcomingGames": 31,
+    "completedGames": 43,
+    "upcomingGames": 30,
     "topTeam": {
       "team": "Markham Mariners 8U A",
       "teamCode": "511057",
@@ -2559,6 +2575,6 @@
       "date": "Thu, May 29",
       "location": "Caledon Fairgrounds"
     },
-    "lastUpdated": "2025-07-18T17:22:27.485Z"
+    "lastUpdated": "2025-07-18T17:50:22.072Z"
   }
 }

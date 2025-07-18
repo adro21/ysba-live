@@ -6,17 +6,17 @@
         "team": "Collingwood Jays 15U DS",
         "teamCode": "511100",
         "record": {
-          "gamesPlayed": 10,
-          "wins": 10,
+          "gamesPlayed": 11,
+          "wins": 11,
           "losses": 0,
           "ties": 0,
           "winPercentage": "1.000"
         },
         "stats": {
-          "points": 20,
-          "runsFor": 131,
-          "runsAgainst": 38,
-          "runDifferential": 93
+          "points": 22,
+          "runsFor": 151,
+          "runsAgainst": 42,
+          "runDifferential": 109
         }
       },
       {
@@ -96,17 +96,17 @@
         "team": "Orillia Royals 15U DS",
         "teamCode": "511102",
         "record": {
-          "gamesPlayed": 6,
+          "gamesPlayed": 7,
           "wins": 1,
-          "losses": 5,
+          "losses": 6,
           "ties": 0,
-          "winPercentage": "0.167"
+          "winPercentage": "0.143"
         },
         "stats": {
           "points": 2,
-          "runsFor": 26,
-          "runsAgainst": 94,
-          "runDifferential": -68
+          "runsFor": 30,
+          "runsAgainst": 114,
+          "runDifferential": -84
         }
       },
       {
@@ -128,7 +128,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-18T17:22:24.717Z",
+    "lastUpdated": "2025-07-18T17:50:19.073Z",
     "totalTeams": 7
   },
   "schedule": {
@@ -201,7 +201,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-18T17:22:27.478Z"
+        "lastUpdated": "2025-07-18T17:50:22.066Z"
       },
       "511100": {
         "teamCode": "511100",
@@ -278,8 +278,12 @@
             "awayTeam": "Collingwood Jays 15U DS",
             "awayTeamCode": "511100",
             "location": "Udell field",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 20,
+              "scoreText": "20-4"
+            }
           }
         ],
         "nextGames": [
@@ -320,7 +324,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T17:22:27.478Z"
+        "lastUpdated": "2025-07-18T17:50:22.066Z"
       },
       "511101": {
         "teamCode": "511101",
@@ -435,7 +439,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T17:22:27.478Z"
+        "lastUpdated": "2025-07-18T17:50:22.066Z"
       },
       "511102": {
         "teamCode": "511102",
@@ -500,8 +504,12 @@
             "awayTeam": "Collingwood Jays 15U DS",
             "awayTeamCode": "511100",
             "location": "Udell field",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 20,
+              "scoreText": "20-4"
+            }
           }
         ],
         "nextGames": [
@@ -530,7 +538,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T17:22:27.478Z"
+        "lastUpdated": "2025-07-18T17:50:22.066Z"
       },
       "511103": {
         "teamCode": "511103",
@@ -621,7 +629,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T17:22:27.478Z"
+        "lastUpdated": "2025-07-18T17:50:22.066Z"
       },
       "511104": {
         "teamCode": "511104",
@@ -736,7 +744,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T17:22:27.478Z"
+        "lastUpdated": "2025-07-18T17:50:22.066Z"
       },
       "511524": {
         "teamCode": "511524",
@@ -843,7 +851,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T17:22:27.478Z"
+        "lastUpdated": "2025-07-18T17:50:22.066Z"
       }
     },
     "allGames": [
@@ -1540,8 +1548,12 @@
         "awayTeam": "Collingwood Jays 15U DS",
         "awayTeamCode": "511100",
         "location": "Udell field",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 20,
+          "scoreText": "20-4"
+        }
       },
       {
         "date": "2025-07-16T18:00:00.000Z",
@@ -1662,8 +1674,12 @@
         "awayTeam": "Collingwood Jays 15U DS",
         "awayTeamCode": "511100",
         "location": "Udell field",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 20,
+          "scoreText": "20-4"
+        }
       },
       {
         "date": "2025-07-13T17:00:00.000Z",
@@ -1856,18 +1872,18 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-18T17:22:27.478Z",
+    "lastUpdated": "2025-07-18T17:50:22.066Z",
     "totalGames": 57
   },
   "summary": {
     "totalTeams": 7,
     "totalGames": 57,
-    "completedGames": 27,
-    "upcomingGames": 30,
+    "completedGames": 28,
+    "upcomingGames": 29,
     "topTeam": {
       "team": "Collingwood Jays 15U DS",
       "teamCode": "511100",
-      "wins": 10,
+      "wins": 11,
       "losses": 0,
       "winPercentage": "1.000"
     },
@@ -1880,6 +1896,6 @@
       "date": "Sat, Jun 21",
       "location": "Lennox (field b)"
     },
-    "lastUpdated": "2025-07-18T17:22:27.485Z"
+    "lastUpdated": "2025-07-18T17:50:22.072Z"
   }
 }
