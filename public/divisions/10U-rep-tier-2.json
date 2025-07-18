@@ -2,7 +2,7 @@
   "standings": {
     "teams": [
       {
-        "position": 1,
+        "position": 2,
         "team": "Richmond Hill Phoenix 10U AA",
         "teamCode": "510885",
         "record": {
@@ -20,21 +20,21 @@
         }
       },
       {
-        "position": 2,
+        "position": 1,
         "team": "Barrie Baycats 10U AA",
         "teamCode": "510882",
         "record": {
-          "gamesPlayed": 15,
-          "wins": 11,
+          "gamesPlayed": 16,
+          "wins": 12,
           "losses": 4,
           "ties": 0,
-          "winPercentage": "0.733"
+          "winPercentage": "0.750"
         },
         "stats": {
-          "points": 22,
-          "runsFor": 149,
-          "runsAgainst": 101,
-          "runDifferential": 48
+          "points": 24,
+          "runsFor": 157,
+          "runsAgainst": 107,
+          "runDifferential": 50
         }
       },
       {
@@ -78,17 +78,17 @@
         "team": "Vaughan Vikings 10U AA",
         "teamCode": "518949",
         "record": {
-          "gamesPlayed": 12,
+          "gamesPlayed": 13,
           "wins": 2,
-          "losses": 9,
+          "losses": 10,
           "ties": 1,
-          "winPercentage": "0.208"
+          "winPercentage": "0.192"
         },
         "stats": {
           "points": 5,
-          "runsFor": 76,
-          "runsAgainst": 133,
-          "runDifferential": -57
+          "runsFor": 82,
+          "runsAgainst": 141,
+          "runDifferential": -59
         }
       },
       {
@@ -110,7 +110,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-18T01:14:54.085Z",
+    "lastUpdated": "2025-07-18T03:15:36.569Z",
     "totalTeams": 6
   },
   "schedule": {
@@ -240,7 +240,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T01:14:59.089Z"
+        "lastUpdated": "2025-07-18T03:15:41.056Z"
       },
       "510870": {
         "teamCode": "510870",
@@ -347,7 +347,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T01:14:59.089Z"
+        "lastUpdated": "2025-07-18T03:15:41.056Z"
       },
       "510871": {
         "teamCode": "510871",
@@ -494,7 +494,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T01:14:59.089Z"
+        "lastUpdated": "2025-07-18T03:15:41.056Z"
       },
       "510872": {
         "teamCode": "510872",
@@ -613,7 +613,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T01:14:59.089Z"
+        "lastUpdated": "2025-07-18T03:15:41.056Z"
       },
       "510873": {
         "teamCode": "510873",
@@ -756,7 +756,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T01:14:59.089Z"
+        "lastUpdated": "2025-07-18T03:15:41.056Z"
       },
       "510874": {
         "teamCode": "510874",
@@ -875,7 +875,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T01:14:59.089Z"
+        "lastUpdated": "2025-07-18T03:15:41.056Z"
       },
       "510875": {
         "teamCode": "510875",
@@ -1022,7 +1022,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T01:14:59.089Z"
+        "lastUpdated": "2025-07-18T03:15:41.056Z"
       },
       "510876": {
         "teamCode": "510876",
@@ -1141,7 +1141,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T01:14:59.089Z"
+        "lastUpdated": "2025-07-18T03:15:41.056Z"
       },
       "510877": {
         "teamCode": "510877",
@@ -1252,7 +1252,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T01:14:59.089Z"
+        "lastUpdated": "2025-07-18T03:15:41.056Z"
       },
       "510878": {
         "teamCode": "510878",
@@ -1403,7 +1403,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T01:14:59.089Z"
+        "lastUpdated": "2025-07-18T03:15:41.056Z"
       },
       "510879": {
         "teamCode": "510879",
@@ -1554,7 +1554,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T01:14:59.089Z"
+        "lastUpdated": "2025-07-18T03:15:41.056Z"
       },
       "510880": {
         "teamCode": "510880",
@@ -1673,7 +1673,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T01:14:59.089Z"
+        "lastUpdated": "2025-07-18T03:15:41.056Z"
       },
       "510881": {
         "teamCode": "510881",
@@ -1824,7 +1824,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T01:14:59.089Z"
+        "lastUpdated": "2025-07-18T03:15:41.056Z"
       },
       "510882": {
         "teamCode": "510882",
@@ -1889,8 +1889,12 @@
             "awayTeam": "Barrie Baycats 10U AA",
             "awayTeamCode": "510882",
             "location": "Tudor Park #1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 8,
+              "scoreText": "8-6"
+            }
           },
           {
             "date": "2025-07-19T18:00:00.000Z",
@@ -1959,7 +1963,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T01:14:59.089Z"
+        "lastUpdated": "2025-07-18T03:15:41.056Z"
       },
       "510883": {
         "teamCode": "510883",
@@ -2110,7 +2114,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T01:14:59.089Z"
+        "lastUpdated": "2025-07-18T03:15:41.056Z"
       },
       "510884": {
         "teamCode": "510884",
@@ -2261,7 +2265,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T01:14:59.089Z"
+        "lastUpdated": "2025-07-18T03:15:41.056Z"
       },
       "510885": {
         "teamCode": "510885",
@@ -2412,7 +2416,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T01:14:59.089Z"
+        "lastUpdated": "2025-07-18T03:15:41.056Z"
       },
       "510889": {
         "teamCode": "510889",
@@ -2551,7 +2555,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T01:14:59.089Z"
+        "lastUpdated": "2025-07-18T03:15:41.056Z"
       },
       "510890": {
         "teamCode": "510890",
@@ -2686,7 +2690,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T01:14:59.089Z"
+        "lastUpdated": "2025-07-18T03:15:41.056Z"
       },
       "518949": {
         "teamCode": "518949",
@@ -2767,8 +2771,12 @@
             "awayTeam": "Barrie Baycats 10U AA",
             "awayTeamCode": "510882",
             "location": "Tudor Park #1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 8,
+              "scoreText": "8-6"
+            }
           }
         ],
         "nextGames": [
@@ -2833,7 +2841,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T01:14:59.089Z"
+        "lastUpdated": "2025-07-18T03:15:41.056Z"
       }
     },
     "allGames": [
@@ -5098,8 +5106,12 @@
         "awayTeam": "Barrie Baycats 10U AA",
         "awayTeamCode": "510882",
         "location": "Tudor Park #1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 8,
+          "scoreText": "8-6"
+        }
       },
       {
         "date": "2025-07-17T18:30:00.000Z",
@@ -5752,8 +5764,12 @@
         "awayTeam": "Barrie Baycats 10U AA",
         "awayTeamCode": "510882",
         "location": "Tudor Park #1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 8,
+          "scoreText": "8-6"
+        }
       },
       {
         "date": "2025-07-16T18:15:00.000Z",
@@ -5950,14 +5966,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-18T01:14:59.089Z",
+    "lastUpdated": "2025-07-18T03:15:41.056Z",
     "totalGames": 193
   },
   "summary": {
     "totalTeams": 6,
     "totalGames": 193,
-    "completedGames": 133,
-    "upcomingGames": 60,
+    "completedGames": 134,
+    "upcomingGames": 59,
     "topTeam": {
       "team": "Richmond Hill Phoenix 10U AA",
       "teamCode": "510885",
@@ -5974,6 +5990,6 @@
       "date": "Sun, May 25",
       "location": "West Park Diamond 1"
     },
-    "lastUpdated": "2025-07-18T01:20:22.473Z"
+    "lastUpdated": "2025-07-18T03:21:06.236Z"
   }
 }

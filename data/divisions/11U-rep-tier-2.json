@@ -6,17 +6,17 @@
         "team": "Barrie Baycats 11U AA",
         "teamCode": "510906",
         "record": {
-          "gamesPlayed": 11,
-          "wins": 9,
+          "gamesPlayed": 12,
+          "wins": 10,
           "losses": 2,
           "ties": 0,
-          "winPercentage": "0.818"
+          "winPercentage": "0.833"
         },
         "stats": {
-          "points": 18,
-          "runsFor": 113,
-          "runsAgainst": 67,
-          "runDifferential": 46
+          "points": 20,
+          "runsFor": 123,
+          "runsAgainst": 75,
+          "runDifferential": 48
         }
       },
       {
@@ -35,24 +35,6 @@
           "runsFor": 101,
           "runsAgainst": 117,
           "runDifferential": -16
-        }
-      },
-      {
-        "position": 6,
-        "team": "Aurora-King Jays 11U AA",
-        "teamCode": "510905",
-        "record": {
-          "gamesPlayed": 9,
-          "wins": 5,
-          "losses": 4,
-          "ties": 0,
-          "winPercentage": "0.556"
-        },
-        "stats": {
-          "points": 10,
-          "runsFor": 54,
-          "runsAgainst": 67,
-          "runDifferential": -13
         }
       },
       {
@@ -93,6 +75,24 @@
       },
       {
         "position": 5,
+        "team": "Aurora-King Jays 11U AA",
+        "teamCode": "510905",
+        "record": {
+          "gamesPlayed": 10,
+          "wins": 5,
+          "losses": 5,
+          "ties": 0,
+          "winPercentage": "0.500"
+        },
+        "stats": {
+          "points": 10,
+          "runsFor": 62,
+          "runsAgainst": 77,
+          "runDifferential": -15
+        }
+      },
+      {
+        "position": 6,
         "team": "Newmarket Hawks 11U AA",
         "teamCode": "510913",
         "record": {
@@ -182,7 +182,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-18T01:15:28.116Z",
+    "lastUpdated": "2025-07-18T03:16:09.530Z",
     "totalTeams": 10
   },
   "schedule": {
@@ -328,7 +328,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T01:15:32.767Z"
+        "lastUpdated": "2025-07-18T03:16:14.006Z"
       },
       "510892": {
         "teamCode": "510892",
@@ -471,7 +471,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T01:15:32.767Z"
+        "lastUpdated": "2025-07-18T03:16:14.006Z"
       },
       "510893": {
         "teamCode": "510893",
@@ -614,7 +614,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T01:15:32.767Z"
+        "lastUpdated": "2025-07-18T03:16:14.006Z"
       },
       "510894": {
         "teamCode": "510894",
@@ -761,7 +761,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T01:15:32.767Z"
+        "lastUpdated": "2025-07-18T03:16:14.006Z"
       },
       "510897": {
         "teamCode": "510897",
@@ -912,7 +912,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T01:15:32.767Z"
+        "lastUpdated": "2025-07-18T03:16:14.006Z"
       },
       "510898": {
         "teamCode": "510898",
@@ -1063,7 +1063,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T01:15:32.767Z"
+        "lastUpdated": "2025-07-18T03:16:14.006Z"
       },
       "510903": {
         "teamCode": "510903",
@@ -1149,7 +1149,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-18T01:15:32.767Z"
+        "lastUpdated": "2025-07-18T03:16:14.006Z"
       },
       "510905": {
         "teamCode": "510905",
@@ -1230,8 +1230,12 @@
             "awayTeam": "Aurora-King Jays 11U AA",
             "awayTeamCode": "510905",
             "location": "Sports Complex #12",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 8,
+              "scoreText": "8-10"
+            }
           }
         ],
         "nextGames": [
@@ -1296,7 +1300,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T01:15:32.767Z"
+        "lastUpdated": "2025-07-18T03:16:14.006Z"
       },
       "510906": {
         "teamCode": "510906",
@@ -1373,8 +1377,12 @@
             "awayTeam": "Aurora-King Jays 11U AA",
             "awayTeamCode": "510905",
             "location": "Sports Complex #12",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 8,
+              "scoreText": "8-10"
+            }
           }
         ],
         "nextGames": [
@@ -1403,7 +1411,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T01:15:32.767Z"
+        "lastUpdated": "2025-07-18T03:16:14.006Z"
       },
       "510907": {
         "teamCode": "510907",
@@ -1542,7 +1550,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T01:15:32.767Z"
+        "lastUpdated": "2025-07-18T03:16:14.006Z"
       },
       "510908": {
         "teamCode": "510908",
@@ -1693,7 +1701,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T01:15:32.767Z"
+        "lastUpdated": "2025-07-18T03:16:14.006Z"
       },
       "510909": {
         "teamCode": "510909",
@@ -1844,7 +1852,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T01:15:32.767Z"
+        "lastUpdated": "2025-07-18T03:16:14.006Z"
       },
       "510910": {
         "teamCode": "510910",
@@ -1955,7 +1963,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T01:15:32.767Z"
+        "lastUpdated": "2025-07-18T03:16:14.006Z"
       },
       "510911": {
         "teamCode": "510911",
@@ -2106,7 +2114,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T01:15:32.767Z"
+        "lastUpdated": "2025-07-18T03:16:14.006Z"
       },
       "510912": {
         "teamCode": "510912",
@@ -2245,7 +2253,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T01:15:32.767Z"
+        "lastUpdated": "2025-07-18T03:16:14.006Z"
       },
       "510913": {
         "teamCode": "510913",
@@ -2396,7 +2404,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T01:15:32.767Z"
+        "lastUpdated": "2025-07-18T03:16:14.006Z"
       },
       "510916": {
         "teamCode": "510916",
@@ -2539,7 +2547,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T01:15:32.767Z"
+        "lastUpdated": "2025-07-18T03:16:14.006Z"
       },
       "510917": {
         "teamCode": "510917",
@@ -2690,7 +2698,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T01:15:32.767Z"
+        "lastUpdated": "2025-07-18T03:16:14.006Z"
       },
       "516241": {
         "teamCode": "516241",
@@ -2841,7 +2849,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-18T01:15:32.767Z"
+        "lastUpdated": "2025-07-18T03:16:14.006Z"
       }
     },
     "allGames": [
@@ -4638,8 +4646,12 @@
         "awayTeam": "Aurora-King Jays 11U AA",
         "awayTeamCode": "510905",
         "location": "Sports Complex #12",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 8,
+          "scoreText": "8-10"
+        }
       },
       {
         "date": "2025-07-18T18:30:00.000Z",
@@ -5216,8 +5228,12 @@
         "awayTeam": "Aurora-King Jays 11U AA",
         "awayTeamCode": "510905",
         "location": "Sports Complex #12",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 8,
+          "scoreText": "8-10"
+        }
       },
       {
         "date": "2025-07-17T18:15:00.000Z",
@@ -5470,20 +5486,20 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-18T01:15:32.767Z",
+    "lastUpdated": "2025-07-18T03:16:14.006Z",
     "totalGames": 162
   },
   "summary": {
     "totalTeams": 10,
     "totalGames": 162,
-    "completedGames": 104,
-    "upcomingGames": 58,
+    "completedGames": 105,
+    "upcomingGames": 57,
     "topTeam": {
       "team": "Barrie Baycats 11U AA",
       "teamCode": "510906",
-      "wins": 9,
+      "wins": 10,
       "losses": 2,
-      "winPercentage": "0.818"
+      "winPercentage": "0.833"
     },
     "highestScoringGame": {
       "homeTeam": "Orangeville Bengals 11U AA",
@@ -5494,6 +5510,6 @@
       "date": "Wed, Jul 16",
       "location": "Alton Park"
     },
-    "lastUpdated": "2025-07-18T01:20:22.473Z"
+    "lastUpdated": "2025-07-18T03:21:06.236Z"
   }
 }
