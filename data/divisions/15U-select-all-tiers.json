@@ -6,7 +6,7 @@
         "team": "Collingwood Jays 15U DS",
         "teamCode": "511100",
         "record": {
-          "gamesPlayed": 11,
+          "gamesPlayed": 12,
           "wins": 11,
           "losses": 0,
           "ties": 0,
@@ -56,57 +56,57 @@
         }
       },
       {
-        "position": 5,
+        "position": 4,
         "team": "Newmarket Hawks 15U DS",
         "teamCode": "511101",
         "record": {
-          "gamesPlayed": 8,
-          "wins": 2,
+          "gamesPlayed": 9,
+          "wins": 3,
           "losses": 5,
           "ties": 1,
-          "winPercentage": "0.313"
+          "winPercentage": "0.389"
         },
         "stats": {
-          "points": 5,
-          "runsFor": 59,
-          "runsAgainst": 76,
-          "runDifferential": -17
+          "points": 7,
+          "runsFor": 69,
+          "runsAgainst": 85,
+          "runDifferential": -16
         }
       },
       {
-        "position": 4,
-        "team": "Stouffville Yankees 15U DS",
-        "teamCode": "511103",
+        "position": 5,
+        "team": "Orillia Royals 15U DS",
+        "teamCode": "511102",
         "record": {
           "gamesPlayed": 12,
-          "wins": 2,
-          "losses": 9,
-          "ties": 1,
-          "winPercentage": "0.208"
+          "wins": 3,
+          "losses": 8,
+          "ties": 0,
+          "winPercentage": "0.273"
         },
         "stats": {
-          "points": 5,
-          "runsFor": 59,
-          "runsAgainst": 154,
-          "runDifferential": -95
+          "points": 6,
+          "runsFor": 65,
+          "runsAgainst": 157,
+          "runDifferential": -92
         }
       },
       {
         "position": 6,
-        "team": "Orillia Royals 15U DS",
-        "teamCode": "511102",
+        "team": "Stouffville Yankees 15U DS",
+        "teamCode": "511103",
         "record": {
-          "gamesPlayed": 9,
+          "gamesPlayed": 13,
           "wins": 1,
-          "losses": 8,
-          "ties": 0,
-          "winPercentage": "0.111"
+          "losses": 11,
+          "ties": 1,
+          "winPercentage": "0.115"
         },
         "stats": {
-          "points": 2,
-          "runsFor": 42,
-          "runsAgainst": 154,
-          "runDifferential": -112
+          "points": 3,
+          "runsFor": 52,
+          "runsAgainst": 168,
+          "runDifferential": -116
         }
       },
       {
@@ -128,7 +128,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-19T16:53:49.522Z",
+    "lastUpdated": "2025-07-19T17:20:38.665Z",
     "totalTeams": 7
   },
   "schedule": {
@@ -201,7 +201,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-19T16:53:52.495Z"
+        "lastUpdated": "2025-07-19T17:20:41.647Z"
       },
       "511100": {
         "teamCode": "511100",
@@ -218,12 +218,8 @@
             "awayTeam": "Collingwood Jays 15U DS",
             "awayTeamCode": "511100",
             "location": "Udell field",
-            "isCompleted": true,
-            "score": {
-              "home": 4,
-              "away": 19,
-              "scoreText": "19-4"
-            }
+            "isCompleted": false,
+            "score": null
           },
           {
             "date": "2025-07-09T18:30:00.000Z",
@@ -234,8 +230,12 @@
             "awayTeam": "Orillia Royals 15U DS",
             "awayTeamCode": "511102",
             "location": "Large Heritage",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 19,
+              "away": 4,
+              "scoreText": "4-19"
+            }
           },
           {
             "date": "2025-07-13T10:00:00.000Z",
@@ -324,7 +324,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-19T16:53:52.495Z"
+        "lastUpdated": "2025-07-19T17:20:41.647Z"
       },
       "511101": {
         "teamCode": "511101",
@@ -373,8 +373,12 @@
             "awayTeam": "Orillia Royals 15U DS",
             "awayTeamCode": "511102",
             "location": "WhipperWatson",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 9,
+              "scoreText": "9-10"
+            }
           },
           {
             "date": "2025-07-13T09:30:00.000Z",
@@ -439,7 +443,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-19T16:53:52.495Z"
+        "lastUpdated": "2025-07-19T17:20:41.647Z"
       },
       "511102": {
         "teamCode": "511102",
@@ -456,8 +460,12 @@
             "awayTeam": "Orillia Royals 15U DS",
             "awayTeamCode": "511102",
             "location": "Large Heritage",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 19,
+              "away": 4,
+              "scoreText": "4-19"
+            }
           },
           {
             "date": "2025-07-12T02:30:00.000Z",
@@ -468,8 +476,12 @@
             "awayTeam": "Orillia Royals 15U DS",
             "awayTeamCode": "511102",
             "location": "WhipperWatson",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 9,
+              "scoreText": "9-10"
+            }
           },
           {
             "date": "2025-07-13T14:30:00.000Z",
@@ -546,7 +558,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-19T16:53:52.495Z"
+        "lastUpdated": "2025-07-19T17:20:41.647Z"
       },
       "511103": {
         "teamCode": "511103",
@@ -637,7 +649,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-19T16:53:52.495Z"
+        "lastUpdated": "2025-07-19T17:20:41.647Z"
       },
       "511104": {
         "teamCode": "511104",
@@ -760,7 +772,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-19T16:53:52.495Z"
+        "lastUpdated": "2025-07-19T17:20:41.647Z"
       },
       "511524": {
         "teamCode": "511524",
@@ -867,7 +879,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-19T16:53:52.495Z"
+        "lastUpdated": "2025-07-19T17:20:41.647Z"
       }
     },
     "allGames": [
@@ -1296,8 +1308,12 @@
         "awayTeam": "Orillia Royals 15U DS",
         "awayTeamCode": "511102",
         "location": "Bethesda 2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 0,
+          "away": 7,
+          "scoreText": "7-0"
+        }
       },
       {
         "date": "2025-06-28T12:00:00.000Z",
@@ -1310,9 +1326,9 @@
         "location": "Bethesda 2",
         "isCompleted": true,
         "score": {
-          "home": 7,
-          "away": 0,
-          "scoreText": "0-7"
+          "home": 0,
+          "away": 7,
+          "scoreText": "7-0"
         }
       },
       {
@@ -1404,12 +1420,8 @@
         "awayTeam": "Collingwood Jays 15U DS",
         "awayTeamCode": "511100",
         "location": "Udell field",
-        "isCompleted": true,
-        "score": {
-          "home": 4,
-          "away": 19,
-          "scoreText": "19-4"
-        }
+        "isCompleted": false,
+        "score": null
       },
       {
         "date": "2025-07-09T18:00:00.000Z",
@@ -1436,8 +1448,12 @@
         "awayTeam": "Orillia Royals 15U DS",
         "awayTeamCode": "511102",
         "location": "Large Heritage",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 19,
+          "away": 4,
+          "scoreText": "4-19"
+        }
       },
       {
         "date": "2025-07-12T02:30:00.000Z",
@@ -1460,8 +1476,12 @@
         "awayTeam": "Orillia Royals 15U DS",
         "awayTeamCode": "511102",
         "location": "WhipperWatson",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 9,
+          "scoreText": "9-10"
+        }
       },
       {
         "date": "2025-07-12T12:00:00.000Z",
@@ -1904,14 +1924,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-19T16:53:52.495Z",
+    "lastUpdated": "2025-07-19T17:20:41.647Z",
     "totalGames": 57
   },
   "summary": {
     "totalTeams": 7,
     "totalGames": 57,
-    "completedGames": 30,
-    "upcomingGames": 27,
+    "completedGames": 32,
+    "upcomingGames": 25,
     "topTeam": {
       "team": "Collingwood Jays 15U DS",
       "teamCode": "511100",
@@ -1928,6 +1948,6 @@
       "date": "Sat, Jun 21",
       "location": "Lennox (field b)"
     },
-    "lastUpdated": "2025-07-19T16:53:52.503Z"
+    "lastUpdated": "2025-07-19T17:20:41.662Z"
   }
 }
