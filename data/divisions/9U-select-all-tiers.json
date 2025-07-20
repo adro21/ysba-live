@@ -2,25 +2,25 @@
   "standings": {
     "teams": [
       {
-        "position": 3,
+        "position": 1,
         "team": "Midland Penetang Twins 9U DS",
         "teamCode": "511105",
         "record": {
-          "gamesPlayed": 12,
-          "wins": 12,
+          "gamesPlayed": 16,
+          "wins": 16,
           "losses": 0,
           "ties": 0,
           "winPercentage": "1.000"
         },
         "stats": {
-          "points": 24,
-          "runsFor": 195,
-          "runsAgainst": 64,
-          "runDifferential": 131
+          "points": 32,
+          "runsFor": 257,
+          "runsAgainst": 84,
+          "runDifferential": 173
         }
       },
       {
-        "position": 2,
+        "position": 3,
         "team": "Richmond Hill Phoenix 9U DS",
         "teamCode": "511113",
         "record": {
@@ -38,25 +38,7 @@
         }
       },
       {
-        "position": 4,
-        "team": "Innisfil Cardinals 9U DS",
-        "teamCode": "511110",
-        "record": {
-          "gamesPlayed": 12,
-          "wins": 10,
-          "losses": 2,
-          "ties": 0,
-          "winPercentage": "0.833"
-        },
-        "stats": {
-          "points": 20,
-          "runsFor": 223,
-          "runsAgainst": 143,
-          "runDifferential": 80
-        }
-      },
-      {
-        "position": 1,
+        "position": 2,
         "team": "Vaughan Vikings 9U DS",
         "teamCode": "518966",
         "record": {
@@ -71,6 +53,24 @@
           "runsFor": 264,
           "runsAgainst": 129,
           "runDifferential": 135
+        }
+      },
+      {
+        "position": 4,
+        "team": "Innisfil Cardinals 9U DS",
+        "teamCode": "511110",
+        "record": {
+          "gamesPlayed": 14,
+          "wins": 10,
+          "losses": 4,
+          "ties": 0,
+          "winPercentage": "0.714"
+        },
+        "stats": {
+          "points": 20,
+          "runsFor": 231,
+          "runsAgainst": 178,
+          "runDifferential": 53
         }
       },
       {
@@ -93,24 +93,6 @@
       },
       {
         "position": 8,
-        "team": "Collingwood Jays 9U DS",
-        "teamCode": "511109",
-        "record": {
-          "gamesPlayed": 10,
-          "wins": 5,
-          "losses": 4,
-          "ties": 1,
-          "winPercentage": "0.550"
-        },
-        "stats": {
-          "points": 11,
-          "runsFor": 130,
-          "runsAgainst": 127,
-          "runDifferential": 3
-        }
-      },
-      {
-        "position": 7,
         "team": "Barrie Baycats 9U DS",
         "teamCode": "511107",
         "record": {
@@ -129,6 +111,24 @@
       },
       {
         "position": 6,
+        "team": "Collingwood Jays 9U DS",
+        "teamCode": "511109",
+        "record": {
+          "gamesPlayed": 14,
+          "wins": 7,
+          "losses": 6,
+          "ties": 1,
+          "winPercentage": "0.536"
+        },
+        "stats": {
+          "points": 15,
+          "runsFor": 182,
+          "runsAgainst": 175,
+          "runDifferential": 7
+        }
+      },
+      {
+        "position": 7,
         "team": "Thornhill Reds 9U DS",
         "teamCode": "511114",
         "record": {
@@ -204,17 +204,17 @@
         "team": "Vaughan Vikings 8U DS",
         "teamCode": "518965",
         "record": {
-          "gamesPlayed": 12,
+          "gamesPlayed": 14,
           "wins": 1,
-          "losses": 9,
+          "losses": 11,
           "ties": 2,
-          "winPercentage": "0.167"
+          "winPercentage": "0.143"
         },
         "stats": {
           "points": 4,
-          "runsFor": 122,
-          "runsAgainst": 225,
-          "runDifferential": -103
+          "runsFor": 143,
+          "runsAgainst": 265,
+          "runDifferential": -122
         }
       },
       {
@@ -254,7 +254,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-20T21:44:28.096Z",
+    "lastUpdated": "2025-07-20T22:19:46.825Z",
     "totalTeams": 14
   },
   "schedule": {
@@ -290,8 +290,12 @@
             "awayTeam": "Midland Penetang Twins 9U DS",
             "awayTeamCode": "511105",
             "location": "Fennels Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 18,
+              "scoreText": "18-5"
+            }
           },
           {
             "date": "2025-07-19T13:00:00.000Z",
@@ -302,8 +306,12 @@
             "awayTeam": "Midland Penetang Twins 9U DS",
             "awayTeamCode": "511105",
             "location": "Fennels Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 3,
+              "away": 17,
+              "scoreText": "17-3"
+            }
           },
           {
             "date": "2025-07-20T10:00:00.000Z",
@@ -314,8 +322,12 @@
             "awayTeam": "Collingwood Jays 9U DS",
             "awayTeamCode": "511109",
             "location": "Little Lake Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 7,
+              "scoreText": "7-12"
+            }
           },
           {
             "date": "2025-07-20T12:30:00.000Z",
@@ -326,12 +338,16 @@
             "awayTeam": "Collingwood Jays 9U DS",
             "awayTeamCode": "511109",
             "location": "Little Lake Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 15,
+              "away": 5,
+              "scoreText": "5-15"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-20T21:44:32.679Z"
+        "lastUpdated": "2025-07-20T22:19:51.138Z"
       },
       "511106": {
         "teamCode": "511106",
@@ -446,7 +462,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-20T21:44:32.679Z"
+        "lastUpdated": "2025-07-20T22:19:51.138Z"
       },
       "511107": {
         "teamCode": "511107",
@@ -565,7 +581,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-20T21:44:32.679Z"
+        "lastUpdated": "2025-07-20T22:19:51.138Z"
       },
       "511108": {
         "teamCode": "511108",
@@ -672,7 +688,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-20T21:44:32.679Z"
+        "lastUpdated": "2025-07-20T22:19:51.138Z"
       },
       "511109": {
         "teamCode": "511109",
@@ -705,8 +721,12 @@
             "awayTeam": "Collingwood Jays 9U DS",
             "awayTeamCode": "511109",
             "location": "Maple Community Centre",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 15,
+              "away": 24,
+              "scoreText": "24-15"
+            }
           },
           {
             "date": "2025-07-19T14:00:00.000Z",
@@ -717,8 +737,12 @@
             "awayTeam": "Collingwood Jays 9U DS",
             "awayTeamCode": "511109",
             "location": "Maple Community Centre",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 16,
+              "scoreText": "16-6"
+            }
           },
           {
             "date": "2025-07-20T10:00:00.000Z",
@@ -729,8 +753,12 @@
             "awayTeam": "Collingwood Jays 9U DS",
             "awayTeamCode": "511109",
             "location": "Little Lake Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 7,
+              "scoreText": "7-12"
+            }
           },
           {
             "date": "2025-07-20T12:30:00.000Z",
@@ -741,8 +769,12 @@
             "awayTeam": "Collingwood Jays 9U DS",
             "awayTeamCode": "511109",
             "location": "Little Lake Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 15,
+              "away": 5,
+              "scoreText": "5-15"
+            }
           }
         ],
         "nextGames": [
@@ -771,7 +803,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-20T21:44:32.679Z"
+        "lastUpdated": "2025-07-20T22:19:51.138Z"
       },
       "511110": {
         "teamCode": "511110",
@@ -836,8 +868,12 @@
             "awayTeam": "Midland Penetang Twins 9U DS",
             "awayTeamCode": "511105",
             "location": "Fennels Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 18,
+              "scoreText": "18-5"
+            }
           },
           {
             "date": "2025-07-19T13:00:00.000Z",
@@ -848,8 +884,12 @@
             "awayTeam": "Midland Penetang Twins 9U DS",
             "awayTeamCode": "511105",
             "location": "Fennels Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 3,
+              "away": 17,
+              "scoreText": "17-3"
+            }
           }
         ],
         "nextGames": [
@@ -878,7 +918,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-20T21:44:32.679Z"
+        "lastUpdated": "2025-07-20T22:19:51.138Z"
       },
       "511111": {
         "teamCode": "511111",
@@ -993,7 +1033,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-20T21:44:32.679Z"
+        "lastUpdated": "2025-07-20T22:19:51.138Z"
       },
       "511112": {
         "teamCode": "511112",
@@ -1083,7 +1123,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-20T21:44:32.679Z"
+        "lastUpdated": "2025-07-20T22:19:51.138Z"
       },
       "511113": {
         "teamCode": "511113",
@@ -1169,7 +1209,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-20T21:44:32.679Z"
+        "lastUpdated": "2025-07-20T22:19:51.138Z"
       },
       "511114": {
         "teamCode": "511114",
@@ -1251,7 +1291,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-20T21:44:32.679Z"
+        "lastUpdated": "2025-07-20T22:19:51.138Z"
       },
       "511115": {
         "teamCode": "511115",
@@ -1366,7 +1406,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-20T21:44:32.679Z"
+        "lastUpdated": "2025-07-20T22:19:51.138Z"
       },
       "511116": {
         "teamCode": "511116",
@@ -1489,7 +1529,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-20T21:44:32.679Z"
+        "lastUpdated": "2025-07-20T22:19:51.138Z"
       },
       "518965": {
         "teamCode": "518965",
@@ -1554,8 +1594,12 @@
             "awayTeam": "Collingwood Jays 9U DS",
             "awayTeamCode": "511109",
             "location": "Maple Community Centre",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 15,
+              "away": 24,
+              "scoreText": "24-15"
+            }
           },
           {
             "date": "2025-07-19T14:00:00.000Z",
@@ -1566,8 +1610,12 @@
             "awayTeam": "Collingwood Jays 9U DS",
             "awayTeamCode": "511109",
             "location": "Maple Community Centre",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 16,
+              "scoreText": "16-6"
+            }
           }
         ],
         "nextGames": [
@@ -1596,7 +1644,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-20T21:44:32.679Z"
+        "lastUpdated": "2025-07-20T22:19:51.138Z"
       },
       "518966": {
         "teamCode": "518966",
@@ -1686,7 +1734,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-20T21:44:32.679Z"
+        "lastUpdated": "2025-07-20T22:19:51.138Z"
       }
     },
     "allGames": [
@@ -3159,8 +3207,12 @@
         "awayTeam": "Midland Penetang Twins 9U DS",
         "awayTeamCode": "511105",
         "location": "Fennels Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 5,
+          "away": 18,
+          "scoreText": "18-5"
+        }
       },
       {
         "date": "2025-07-19T11:00:00.000Z",
@@ -3171,8 +3223,12 @@
         "awayTeam": "Collingwood Jays 9U DS",
         "awayTeamCode": "511109",
         "location": "Maple Community Centre",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 15,
+          "away": 24,
+          "scoreText": "24-15"
+        }
       },
       {
         "date": "2025-07-19T12:30:00.000Z",
@@ -3215,8 +3271,12 @@
         "awayTeam": "Midland Penetang Twins 9U DS",
         "awayTeamCode": "511105",
         "location": "Fennels Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 3,
+          "away": 17,
+          "scoreText": "17-3"
+        }
       },
       {
         "date": "2025-07-19T14:00:00.000Z",
@@ -3227,8 +3287,12 @@
         "awayTeam": "Collingwood Jays 9U DS",
         "awayTeamCode": "511109",
         "location": "Maple Community Centre",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 16,
+          "scoreText": "16-6"
+        }
       },
       {
         "date": "2025-07-20T10:00:00.000Z",
@@ -3239,8 +3303,12 @@
         "awayTeam": "Collingwood Jays 9U DS",
         "awayTeamCode": "511109",
         "location": "Little Lake Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 7,
+          "scoreText": "7-12"
+        }
       },
       {
         "date": "2025-07-20T12:00:00.000Z",
@@ -3263,8 +3331,12 @@
         "awayTeam": "Collingwood Jays 9U DS",
         "awayTeamCode": "511109",
         "location": "Little Lake Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 15,
+          "away": 5,
+          "scoreText": "5-15"
+        }
       },
       {
         "date": "2025-07-20T14:00:00.000Z",
@@ -3421,8 +3493,12 @@
         "awayTeam": "Collingwood Jays 9U DS",
         "awayTeamCode": "511109",
         "location": "Little Lake Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 15,
+          "away": 5,
+          "scoreText": "5-15"
+        }
       },
       {
         "date": "2025-07-20T12:00:00.000Z",
@@ -3445,8 +3521,12 @@
         "awayTeam": "Collingwood Jays 9U DS",
         "awayTeamCode": "511109",
         "location": "Little Lake Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 7,
+          "scoreText": "7-12"
+        }
       },
       {
         "date": "2025-07-19T14:00:00.000Z",
@@ -3457,8 +3537,12 @@
         "awayTeam": "Collingwood Jays 9U DS",
         "awayTeamCode": "511109",
         "location": "Maple Community Centre",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 16,
+          "scoreText": "16-6"
+        }
       },
       {
         "date": "2025-07-19T13:00:00.000Z",
@@ -3485,8 +3569,12 @@
         "awayTeam": "Midland Penetang Twins 9U DS",
         "awayTeamCode": "511105",
         "location": "Fennels Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 3,
+          "away": 17,
+          "scoreText": "17-3"
+        }
       },
       {
         "date": "2025-07-19T12:30:00.000Z",
@@ -3513,8 +3601,12 @@
         "awayTeam": "Collingwood Jays 9U DS",
         "awayTeamCode": "511109",
         "location": "Maple Community Centre",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 15,
+          "away": 24,
+          "scoreText": "24-15"
+        }
       },
       {
         "date": "2025-07-19T10:30:00.000Z",
@@ -3655,18 +3747,18 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-20T21:44:32.679Z",
+    "lastUpdated": "2025-07-20T22:19:51.138Z",
     "totalGames": 112
   },
   "summary": {
     "totalTeams": 14,
     "totalGames": 112,
-    "completedGames": 91,
-    "upcomingGames": 21,
+    "completedGames": 97,
+    "upcomingGames": 15,
     "topTeam": {
       "team": "Midland Penetang Twins 9U DS",
       "teamCode": "511105",
-      "wins": 12,
+      "wins": 16,
       "losses": 0,
       "winPercentage": "1.000"
     },
@@ -3679,6 +3771,6 @@
       "date": "Sat, Jul 12",
       "location": "McLean Diamond"
     },
-    "lastUpdated": "2025-07-20T21:44:55.799Z"
+    "lastUpdated": "2025-07-20T22:20:14.150Z"
   }
 }
