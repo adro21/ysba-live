@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-07-21T01:24:17.705Z",
+  "lastUpdated": "2025-07-21T03:26:08.138Z",
   "totalGames": 190,
   "games": [
     {
@@ -278,20 +278,6 @@
       "date": "2025-07-20T14:00:00.000Z",
       "dateText": "Sun, Jul 20",
       "time": "2:00 PM",
-      "homeTeam": "Thornhill Reds 9U DS",
-      "homeTeamCode": "511114",
-      "awayTeam": "Bradford Tigers 9U DS",
-      "awayTeamCode": "511108",
-      "location": "Thornhill Park",
-      "isCompleted": false,
-      "score": null,
-      "division": "9U",
-      "tier": "select-all-tiers"
-    },
-    {
-      "date": "2025-07-20T14:00:00.000Z",
-      "dateText": "Sun, Jul 20",
-      "time": "2:00 PM",
       "homeTeam": "Stouffville Yankees 10U A",
       "homeTeamCode": "510879",
       "awayTeam": "Bradford Tigers 10U A",
@@ -398,27 +384,17 @@
       "date": "2025-07-20T12:00:00.000Z",
       "dateText": "Sun, Jul 20",
       "time": "12:00 PM",
-      "homeTeam": "Thornhill Reds 9U DS",
-      "homeTeamCode": "511114",
-      "awayTeam": "Bradford Tigers 9U DS",
-      "awayTeamCode": "511108",
-      "location": "Thornhill Park",
-      "isCompleted": false,
-      "score": null,
-      "division": "9U",
-      "tier": "select-all-tiers"
-    },
-    {
-      "date": "2025-07-20T12:00:00.000Z",
-      "dateText": "Sun, Jul 20",
-      "time": "12:00 PM",
       "homeTeam": "Collingwood Jays (Blue) 13U DS",
       "homeTeamCode": "511086",
       "awayTeam": "TNT Thunder 13U DS",
       "awayTeamCode": "511097",
       "location": "Central Park #1",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 5,
+        "away": 12,
+        "scoreText": "12-5"
+      },
       "division": "13U",
       "tier": "select-all-tiers"
     },
@@ -481,8 +457,12 @@
       "awayTeam": "TNT Thunder 13U DS",
       "awayTeamCode": "511097",
       "location": "Central Park #1",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 5,
+        "away": 12,
+        "scoreText": "12-5"
+      },
       "division": "13U",
       "tier": "select-all-tiers"
     },
@@ -762,6 +742,24 @@
       "date": "2025-07-19T10:30:00.000Z",
       "dateText": "Sat, Jul 19",
       "time": "10:30 AM",
+      "homeTeam": "Innisfil Cardinals 9U DS",
+      "homeTeamCode": "511110",
+      "awayTeam": "Midland Penetang Twins 9U DS",
+      "awayTeamCode": "511105",
+      "location": "Fennels Park",
+      "isCompleted": true,
+      "score": {
+        "home": 5,
+        "away": 18,
+        "scoreText": "18-5"
+      },
+      "division": "9U",
+      "tier": "select-all-tiers"
+    },
+    {
+      "date": "2025-07-19T10:30:00.000Z",
+      "dateText": "Sat, Jul 19",
+      "time": "10:30 AM",
       "homeTeam": "Markham Mariners 9U DS",
       "homeTeamCode": "511111",
       "awayTeam": "Richmond Hill Phoenix 9U DS",
@@ -772,6 +770,24 @@
         "home": 11,
         "away": 25,
         "scoreText": "25-11"
+      },
+      "division": "9U",
+      "tier": "select-all-tiers"
+    },
+    {
+      "date": "2025-07-19T10:00:00.000Z",
+      "dateText": "Sat, Jul 19",
+      "time": "10:00 AM",
+      "homeTeam": "TNT Thunder 9U DS",
+      "homeTeamCode": "511115",
+      "awayTeam": "Vaughan Vikings 9U DS",
+      "awayTeamCode": "518966",
+      "location": "McLean Diamond",
+      "isCompleted": true,
+      "score": {
+        "home": 16,
+        "away": 4,
+        "scoreText": "4-16"
       },
       "division": "9U",
       "tier": "select-all-tiers"
