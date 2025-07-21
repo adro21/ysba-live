@@ -74,7 +74,7 @@
         }
       },
       {
-        "position": 9,
+        "position": 10,
         "team": "Midland Penetang Twins 14U B",
         "teamCode": "510979",
         "record": {
@@ -110,21 +110,21 @@
         }
       },
       {
-        "position": 10,
+        "position": 7,
         "team": "Thornhill Reds 14U A",
         "teamCode": "510965",
         "record": {
-          "gamesPlayed": 12,
-          "wins": 5,
-          "losses": 6,
+          "gamesPlayed": 14,
+          "wins": 6,
+          "losses": 7,
           "ties": 1,
-          "winPercentage": "0.458"
+          "winPercentage": "0.464"
         },
         "stats": {
-          "points": 11,
-          "runsFor": 120,
-          "runsAgainst": 136,
-          "runDifferential": -16
+          "points": 13,
+          "runsFor": 134,
+          "runsAgainst": 153,
+          "runDifferential": -19
         }
       },
       {
@@ -146,7 +146,7 @@
         }
       },
       {
-        "position": 8,
+        "position": 9,
         "team": "Muskoka Hornets 14U B",
         "teamCode": "516243",
         "record": {
@@ -164,7 +164,25 @@
         }
       },
       {
-        "position": 7,
+        "position": 11,
+        "team": "Ontario Women's",
+        "teamCode": "546378",
+        "record": {
+          "gamesPlayed": 13,
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "winPercentage": "0.385"
+        },
+        "stats": {
+          "points": 10,
+          "runsFor": 104,
+          "runsAgainst": 153,
+          "runDifferential": -49
+        }
+      },
+      {
+        "position": 8,
         "team": "Aurora-King Jays 14U A",
         "teamCode": "510958",
         "record": {
@@ -179,24 +197,6 @@
           "runsFor": 154,
           "runsAgainst": 181,
           "runDifferential": -27
-        }
-      },
-      {
-        "position": 11,
-        "team": "Ontario Women's",
-        "teamCode": "546378",
-        "record": {
-          "gamesPlayed": 11,
-          "wins": 4,
-          "losses": 7,
-          "ties": 0,
-          "winPercentage": "0.364"
-        },
-        "stats": {
-          "points": 8,
-          "runsFor": 87,
-          "runsAgainst": 139,
-          "runDifferential": -52
         }
       },
       {
@@ -236,7 +236,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-20T23:43:41.197Z",
+    "lastUpdated": "2025-07-21T01:21:26.738Z",
     "totalTeams": 13
   },
   "schedule": {
@@ -378,7 +378,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-20T23:43:45.464Z"
+        "lastUpdated": "2025-07-21T01:21:30.641Z"
       },
       "510959": {
         "teamCode": "510959",
@@ -529,7 +529,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-20T23:43:45.464Z"
+        "lastUpdated": "2025-07-21T01:21:30.641Z"
       },
       "510960": {
         "teamCode": "510960",
@@ -676,7 +676,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-20T23:43:45.464Z"
+        "lastUpdated": "2025-07-21T01:21:30.641Z"
       },
       "510961": {
         "teamCode": "510961",
@@ -827,7 +827,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-20T23:43:45.464Z"
+        "lastUpdated": "2025-07-21T01:21:30.641Z"
       },
       "510962": {
         "teamCode": "510962",
@@ -978,7 +978,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-20T23:43:45.464Z"
+        "lastUpdated": "2025-07-21T01:21:30.641Z"
       },
       "510963": {
         "teamCode": "510963",
@@ -1129,7 +1129,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-20T23:43:45.464Z"
+        "lastUpdated": "2025-07-21T01:21:30.641Z"
       },
       "510964": {
         "teamCode": "510964",
@@ -1280,7 +1280,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-20T23:43:45.464Z"
+        "lastUpdated": "2025-07-21T01:21:30.641Z"
       },
       "510965": {
         "teamCode": "510965",
@@ -1329,8 +1329,12 @@
             "awayTeam": "Ontario Women's",
             "awayTeamCode": "546378",
             "location": "Benjamin Vaughan Park (Westmount High school)",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 5,
+              "scoreText": "5-8"
+            }
           },
           {
             "date": "2025-07-16T19:30:00.000Z",
@@ -1357,8 +1361,12 @@
             "awayTeam": "Thornhill Reds 14U A",
             "awayTeamCode": "510965",
             "location": "David Hamilton #1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 6,
+              "scoreText": "6-12"
+            }
           }
         ],
         "nextGames": [
@@ -1423,7 +1431,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-20T23:43:45.464Z"
+        "lastUpdated": "2025-07-21T01:21:30.641Z"
       },
       "510966": {
         "teamCode": "510966",
@@ -1574,7 +1582,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-20T23:43:45.464Z"
+        "lastUpdated": "2025-07-21T01:21:30.641Z"
       },
       "510979": {
         "teamCode": "510979",
@@ -1721,7 +1729,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-20T23:43:45.464Z"
+        "lastUpdated": "2025-07-21T01:21:30.641Z"
       },
       "516243": {
         "teamCode": "516243",
@@ -1872,7 +1880,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-20T23:43:45.464Z"
+        "lastUpdated": "2025-07-21T01:21:30.641Z"
       },
       "518957": {
         "teamCode": "518957",
@@ -2023,7 +2031,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-20T23:43:45.464Z"
+        "lastUpdated": "2025-07-21T01:21:30.641Z"
       },
       "546378": {
         "teamCode": "546378",
@@ -2040,8 +2048,12 @@
             "awayTeam": "Ontario Women's",
             "awayTeamCode": "546378",
             "location": "Benjamin Vaughan Park (Westmount High school)",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 5,
+              "scoreText": "5-8"
+            }
           },
           {
             "date": "2025-07-13T15:00:00.000Z",
@@ -2096,8 +2108,12 @@
             "awayTeam": "Thornhill Reds 14U A",
             "awayTeamCode": "510965",
             "location": "David Hamilton #1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 6,
+              "scoreText": "6-12"
+            }
           }
         ],
         "nextGames": [
@@ -2162,7 +2178,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-20T23:43:45.464Z"
+        "lastUpdated": "2025-07-21T01:21:30.641Z"
       }
     },
     "allGames": [
@@ -3371,8 +3387,12 @@
         "awayTeam": "Ontario Women's",
         "awayTeamCode": "546378",
         "location": "Benjamin Vaughan Park (Westmount High school)",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 5,
+          "scoreText": "5-8"
+        }
       },
       {
         "date": "2025-07-11T19:00:00.000Z",
@@ -3555,8 +3575,12 @@
         "awayTeam": "Thornhill Reds 14U A",
         "awayTeamCode": "510965",
         "location": "David Hamilton #1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 6,
+          "scoreText": "6-12"
+        }
       },
       {
         "date": "2025-07-21T18:00:00.000Z",
@@ -4061,8 +4085,12 @@
         "awayTeam": "Thornhill Reds 14U A",
         "awayTeamCode": "510965",
         "location": "David Hamilton #1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 6,
+          "scoreText": "6-12"
+        }
       },
       {
         "date": "2025-07-19T10:00:00.000Z",
@@ -4327,14 +4355,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-20T23:43:45.464Z",
+    "lastUpdated": "2025-07-21T01:21:30.641Z",
     "totalGames": 130
   },
   "summary": {
     "totalTeams": 13,
     "totalGames": 130,
-    "completedGames": 81,
-    "upcomingGames": 49,
+    "completedGames": 83,
+    "upcomingGames": 47,
     "topTeam": {
       "team": "Barrie Baycats 14U A",
       "teamCode": "510959",
@@ -4351,6 +4379,6 @@
       "date": "Mon, Jul 7",
       "location": "Joe Magani Field #5"
     },
-    "lastUpdated": "2025-07-20T23:46:32.876Z"
+    "lastUpdated": "2025-07-21T01:24:17.705Z"
   }
 }

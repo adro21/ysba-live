@@ -38,24 +38,6 @@
         }
       },
       {
-        "position": 4,
-        "team": "Markham Mariners 11U DS",
-        "teamCode": "511079",
-        "record": {
-          "gamesPlayed": 12,
-          "wins": 8,
-          "losses": 3,
-          "ties": 1,
-          "winPercentage": "0.708"
-        },
-        "stats": {
-          "points": 17,
-          "runsFor": 99,
-          "runsAgainst": 79,
-          "runDifferential": 20
-        }
-      },
-      {
         "position": 3,
         "team": "Thornhill Reds 11U DS - Team 1",
         "teamCode": "511082",
@@ -71,6 +53,24 @@
           "runsFor": 133,
           "runsAgainst": 104,
           "runDifferential": 29
+        }
+      },
+      {
+        "position": 4,
+        "team": "Markham Mariners 11U DS",
+        "teamCode": "511079",
+        "record": {
+          "gamesPlayed": 14,
+          "wins": 8,
+          "losses": 4,
+          "ties": 2,
+          "winPercentage": "0.643"
+        },
+        "stats": {
+          "points": 18,
+          "runsFor": 114,
+          "runsAgainst": 97,
+          "runDifferential": 17
         }
       },
       {
@@ -128,25 +128,25 @@
         }
       },
       {
-        "position": 9,
+        "position": 8,
         "team": "Newmarket Hawks 11U DS",
         "teamCode": "511080",
         "record": {
-          "gamesPlayed": 12,
-          "wins": 5,
+          "gamesPlayed": 14,
+          "wins": 6,
           "losses": 7,
-          "ties": 0,
-          "winPercentage": "0.417"
+          "ties": 1,
+          "winPercentage": "0.464"
         },
         "stats": {
-          "points": 10,
-          "runsFor": 85,
-          "runsAgainst": 100,
-          "runDifferential": -15
+          "points": 13,
+          "runsFor": 103,
+          "runsAgainst": 115,
+          "runDifferential": -12
         }
       },
       {
-        "position": 8,
+        "position": 9,
         "team": "Richmond Hill Phoenix 11U DS",
         "teamCode": "511081",
         "record": {
@@ -236,7 +236,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-20T23:46:14.114Z",
+    "lastUpdated": "2025-07-21T01:23:59.308Z",
     "totalTeams": 13
   },
   "schedule": {
@@ -321,7 +321,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-20T23:46:18.445Z"
+        "lastUpdated": "2025-07-21T01:24:03.456Z"
       },
       "511075": {
         "teamCode": "511075",
@@ -403,7 +403,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-20T23:46:18.445Z"
+        "lastUpdated": "2025-07-21T01:24:03.456Z"
       },
       "511076": {
         "teamCode": "511076",
@@ -510,7 +510,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-20T23:46:18.445Z"
+        "lastUpdated": "2025-07-21T01:24:03.456Z"
       },
       "511077": {
         "teamCode": "511077",
@@ -625,7 +625,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-20T23:46:18.446Z"
+        "lastUpdated": "2025-07-21T01:24:03.456Z"
       },
       "511078": {
         "teamCode": "511078",
@@ -736,7 +736,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-20T23:46:18.446Z"
+        "lastUpdated": "2025-07-21T01:24:03.456Z"
       },
       "511079": {
         "teamCode": "511079",
@@ -801,8 +801,12 @@
             "awayTeam": "Newmarket Hawks 11U DS",
             "awayTeamCode": "511080",
             "location": "Carlton Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 9,
+              "scoreText": "9-6"
+            }
           },
           {
             "date": "2025-07-20T17:15:00.000Z",
@@ -813,8 +817,12 @@
             "awayTeam": "Newmarket Hawks 11U DS",
             "awayTeamCode": "511080",
             "location": "Carlton Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 9,
+              "scoreText": "9-9"
+            }
           }
         ],
         "nextGames": [
@@ -843,7 +851,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-20T23:46:18.446Z"
+        "lastUpdated": "2025-07-21T01:24:03.456Z"
       },
       "511080": {
         "teamCode": "511080",
@@ -908,8 +916,12 @@
             "awayTeam": "Newmarket Hawks 11U DS",
             "awayTeamCode": "511080",
             "location": "Carlton Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 9,
+              "scoreText": "9-6"
+            }
           },
           {
             "date": "2025-07-20T17:15:00.000Z",
@@ -920,8 +932,12 @@
             "awayTeam": "Newmarket Hawks 11U DS",
             "awayTeamCode": "511080",
             "location": "Carlton Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 9,
+              "scoreText": "9-9"
+            }
           }
         ],
         "nextGames": [
@@ -950,7 +966,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-20T23:46:18.446Z"
+        "lastUpdated": "2025-07-21T01:24:03.456Z"
       },
       "511081": {
         "teamCode": "511081",
@@ -1065,7 +1081,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-20T23:46:18.446Z"
+        "lastUpdated": "2025-07-21T01:24:03.456Z"
       },
       "511082": {
         "teamCode": "511082",
@@ -1180,7 +1196,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-20T23:46:18.446Z"
+        "lastUpdated": "2025-07-21T01:24:03.456Z"
       },
       "511083": {
         "teamCode": "511083",
@@ -1311,7 +1327,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-20T23:46:18.446Z"
+        "lastUpdated": "2025-07-21T01:24:03.456Z"
       },
       "518967": {
         "teamCode": "518967",
@@ -1422,7 +1438,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-20T23:46:18.446Z"
+        "lastUpdated": "2025-07-21T01:24:03.456Z"
       },
       "518968": {
         "teamCode": "518968",
@@ -1537,7 +1553,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-20T23:46:18.446Z"
+        "lastUpdated": "2025-07-21T01:24:03.456Z"
       },
       "518974": {
         "teamCode": "518974",
@@ -1648,7 +1664,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-20T23:46:18.446Z"
+        "lastUpdated": "2025-07-21T01:24:03.456Z"
       }
     },
     "allGames": [
@@ -3097,8 +3113,12 @@
         "awayTeam": "Newmarket Hawks 11U DS",
         "awayTeamCode": "511080",
         "location": "Carlton Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 9,
+          "scoreText": "9-6"
+        }
       },
       {
         "date": "2025-07-20T15:00:00.000Z",
@@ -3133,8 +3153,12 @@
         "awayTeam": "Newmarket Hawks 11U DS",
         "awayTeamCode": "511080",
         "location": "Carlton Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 9,
+          "scoreText": "9-9"
+        }
       },
       {
         "date": "2025-07-27T10:00:00.000Z",
@@ -3303,8 +3327,12 @@
         "awayTeam": "Newmarket Hawks 11U DS",
         "awayTeamCode": "511080",
         "location": "Carlton Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 9,
+          "scoreText": "9-9"
+        }
       },
       {
         "date": "2025-07-20T15:00:00.000Z",
@@ -3315,8 +3343,12 @@
         "awayTeam": "Newmarket Hawks 11U DS",
         "awayTeamCode": "511080",
         "location": "Carlton Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 9,
+          "scoreText": "9-6"
+        }
       },
       {
         "date": "2025-07-20T15:00:00.000Z",
@@ -3541,14 +3573,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-20T23:46:18.446Z",
+    "lastUpdated": "2025-07-21T01:24:03.456Z",
     "totalGames": 107
   },
   "summary": {
     "totalTeams": 13,
     "totalGames": 107,
-    "completedGames": 86,
-    "upcomingGames": 21,
+    "completedGames": 88,
+    "upcomingGames": 19,
     "topTeam": {
       "team": "Vaughan Vikings 11U DS",
       "teamCode": "518968",
@@ -3565,6 +3597,6 @@
       "date": "Sat, May 24",
       "location": "Mansfield Park"
     },
-    "lastUpdated": "2025-07-20T23:46:32.876Z"
+    "lastUpdated": "2025-07-21T01:24:17.705Z"
   }
 }
