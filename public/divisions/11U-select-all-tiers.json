@@ -38,7 +38,7 @@
         }
       },
       {
-        "position": 3,
+        "position": 4,
         "team": "Thornhill Reds 11U DS - Team 1",
         "teamCode": "511082",
         "record": {
@@ -56,7 +56,7 @@
         }
       },
       {
-        "position": 4,
+        "position": 5,
         "team": "Markham Mariners 11U DS",
         "teamCode": "511079",
         "record": {
@@ -74,21 +74,21 @@
         }
       },
       {
-        "position": 5,
+        "position": 3,
         "team": "Midland Penetang Twins 11U DS",
         "teamCode": "511074",
         "record": {
-          "gamesPlayed": 14,
-          "wins": 8,
+          "gamesPlayed": 16,
+          "wins": 10,
           "losses": 6,
           "ties": 0,
-          "winPercentage": "0.571"
+          "winPercentage": "0.625"
         },
         "stats": {
-          "points": 16,
-          "runsFor": 131,
-          "runsAgainst": 112,
-          "runDifferential": 19
+          "points": 20,
+          "runsFor": 161,
+          "runsAgainst": 128,
+          "runDifferential": 33
         }
       },
       {
@@ -186,17 +186,17 @@
         "team": "Bradford Tigers 11U DS",
         "teamCode": "511076",
         "record": {
-          "gamesPlayed": 12,
+          "gamesPlayed": 14,
           "wins": 3,
-          "losses": 9,
+          "losses": 11,
           "ties": 0,
-          "winPercentage": "0.250"
+          "winPercentage": "0.214"
         },
         "stats": {
           "points": 6,
-          "runsFor": 83,
-          "runsAgainst": 150,
-          "runDifferential": -67
+          "runsFor": 99,
+          "runsAgainst": 180,
+          "runDifferential": -81
         }
       },
       {
@@ -236,7 +236,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-22T15:50:43.131Z",
+    "lastUpdated": "2025-07-22T16:24:58.019Z",
     "totalTeams": 13
   },
   "schedule": {
@@ -304,8 +304,12 @@
             "awayTeam": "Bradford Tigers 11U DS",
             "awayTeamCode": "511076",
             "location": "Little Lake Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 15,
+              "away": 5,
+              "scoreText": "5-15"
+            }
           },
           {
             "date": "2025-07-20T17:15:00.000Z",
@@ -316,12 +320,16 @@
             "awayTeam": "Bradford Tigers 11U DS",
             "awayTeamCode": "511076",
             "location": "Little Lake Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 15,
+              "away": 11,
+              "scoreText": "11-15"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-22T15:50:47.677Z"
+        "lastUpdated": "2025-07-22T16:25:02.286Z"
       },
       "511075": {
         "teamCode": "511075",
@@ -403,7 +411,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-22T15:50:47.677Z"
+        "lastUpdated": "2025-07-22T16:25:02.286Z"
       },
       "511076": {
         "teamCode": "511076",
@@ -468,8 +476,12 @@
             "awayTeam": "Bradford Tigers 11U DS",
             "awayTeamCode": "511076",
             "location": "Little Lake Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 15,
+              "away": 5,
+              "scoreText": "5-15"
+            }
           },
           {
             "date": "2025-07-20T17:15:00.000Z",
@@ -480,8 +492,12 @@
             "awayTeam": "Bradford Tigers 11U DS",
             "awayTeamCode": "511076",
             "location": "Little Lake Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 15,
+              "away": 11,
+              "scoreText": "11-15"
+            }
           }
         ],
         "nextGames": [
@@ -510,7 +526,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T15:50:47.677Z"
+        "lastUpdated": "2025-07-22T16:25:02.286Z"
       },
       "511077": {
         "teamCode": "511077",
@@ -625,7 +641,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T15:50:47.677Z"
+        "lastUpdated": "2025-07-22T16:25:02.286Z"
       },
       "511078": {
         "teamCode": "511078",
@@ -736,7 +752,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T15:50:47.677Z"
+        "lastUpdated": "2025-07-22T16:25:02.286Z"
       },
       "511079": {
         "teamCode": "511079",
@@ -851,7 +867,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T15:50:47.677Z"
+        "lastUpdated": "2025-07-22T16:25:02.286Z"
       },
       "511080": {
         "teamCode": "511080",
@@ -966,7 +982,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T15:50:47.677Z"
+        "lastUpdated": "2025-07-22T16:25:02.286Z"
       },
       "511081": {
         "teamCode": "511081",
@@ -1081,7 +1097,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T15:50:47.677Z"
+        "lastUpdated": "2025-07-22T16:25:02.286Z"
       },
       "511082": {
         "teamCode": "511082",
@@ -1196,7 +1212,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T15:50:47.677Z"
+        "lastUpdated": "2025-07-22T16:25:02.286Z"
       },
       "511083": {
         "teamCode": "511083",
@@ -1327,7 +1343,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T15:50:47.677Z"
+        "lastUpdated": "2025-07-22T16:25:02.286Z"
       },
       "518967": {
         "teamCode": "518967",
@@ -1438,7 +1454,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T15:50:47.677Z"
+        "lastUpdated": "2025-07-22T16:25:02.286Z"
       },
       "518968": {
         "teamCode": "518968",
@@ -1553,7 +1569,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T15:50:47.677Z"
+        "lastUpdated": "2025-07-22T16:25:02.286Z"
       },
       "518974": {
         "teamCode": "518974",
@@ -1664,7 +1680,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T15:50:47.677Z"
+        "lastUpdated": "2025-07-22T16:25:02.286Z"
       }
     },
     "allGames": [
@@ -3129,8 +3145,12 @@
         "awayTeam": "Bradford Tigers 11U DS",
         "awayTeamCode": "511076",
         "location": "Little Lake Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 15,
+          "away": 5,
+          "scoreText": "5-15"
+        }
       },
       {
         "date": "2025-07-20T17:15:00.000Z",
@@ -3141,8 +3161,12 @@
         "awayTeam": "Bradford Tigers 11U DS",
         "awayTeamCode": "511076",
         "location": "Little Lake Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 15,
+          "away": 11,
+          "scoreText": "11-15"
+        }
       },
       {
         "date": "2025-07-20T17:15:00.000Z",
@@ -3315,8 +3339,12 @@
         "awayTeam": "Bradford Tigers 11U DS",
         "awayTeamCode": "511076",
         "location": "Little Lake Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 15,
+          "away": 11,
+          "scoreText": "11-15"
+        }
       },
       {
         "date": "2025-07-20T17:15:00.000Z",
@@ -3359,8 +3387,12 @@
         "awayTeam": "Bradford Tigers 11U DS",
         "awayTeamCode": "511076",
         "location": "Little Lake Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 15,
+          "away": 5,
+          "scoreText": "5-15"
+        }
       },
       {
         "date": "2025-07-20T12:15:00.000Z",
@@ -3573,14 +3605,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-22T15:50:47.677Z",
+    "lastUpdated": "2025-07-22T16:25:02.286Z",
     "totalGames": 107
   },
   "summary": {
     "totalTeams": 13,
     "totalGames": 107,
-    "completedGames": 88,
-    "upcomingGames": 19,
+    "completedGames": 90,
+    "upcomingGames": 17,
     "topTeam": {
       "team": "Vaughan Vikings 11U DS",
       "teamCode": "518968",
@@ -3597,6 +3629,6 @@
       "date": "Sat, May 24",
       "location": "Mansfield Park"
     },
-    "lastUpdated": "2025-07-22T15:51:03.379Z"
+    "lastUpdated": "2025-07-22T16:25:16.283Z"
   }
 }

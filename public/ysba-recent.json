@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-07-22T15:51:03.379Z",
+  "lastUpdated": "2025-07-22T16:25:16.283Z",
   "totalGames": 190,
   "games": [
     {
@@ -661,8 +661,12 @@
       "awayTeam": "Bradford Tigers 11U DS",
       "awayTeamCode": "511076",
       "location": "Little Lake Park",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 15,
+        "away": 11,
+        "scoreText": "11-15"
+      },
       "division": "11U",
       "tier": "select-all-tiers"
     },
