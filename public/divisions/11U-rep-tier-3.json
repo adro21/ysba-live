@@ -2,25 +2,25 @@
   "standings": {
     "teams": [
       {
-        "position": 3,
+        "position": 2,
         "team": "Midland Penetang Twins 11U A",
         "teamCode": "510891",
         "record": {
-          "gamesPlayed": 10,
-          "wins": 8,
+          "gamesPlayed": 12,
+          "wins": 10,
           "losses": 1,
           "ties": 1,
-          "winPercentage": "0.850"
+          "winPercentage": "0.875"
         },
         "stats": {
-          "points": 17,
-          "runsFor": 89,
-          "runsAgainst": 59,
-          "runDifferential": 30
+          "points": 21,
+          "runsFor": 123,
+          "runsAgainst": 69,
+          "runDifferential": 54
         }
       },
       {
-        "position": 2,
+        "position": 3,
         "team": "Barrie Baycats 11U A",
         "teamCode": "510892",
         "record": {
@@ -128,7 +128,7 @@
         }
       },
       {
-        "position": 9,
+        "position": 10,
         "team": "Orangeville Bengals 11U A",
         "teamCode": "510897",
         "record": {
@@ -146,27 +146,9 @@
         }
       },
       {
-        "position": 10,
+        "position": 9,
         "team": "Georgina Bulldogs 11U B",
         "teamCode": "510916",
-        "record": {
-          "gamesPlayed": 10,
-          "wins": 2,
-          "losses": 8,
-          "ties": 0,
-          "winPercentage": "0.200"
-        },
-        "stats": {
-          "points": 4,
-          "runsFor": 73,
-          "runsAgainst": 130,
-          "runDifferential": -57
-        }
-      },
-      {
-        "position": 8,
-        "team": "Caledon Nationals 11U A",
-        "teamCode": "510893",
         "record": {
           "gamesPlayed": 11,
           "wins": 2,
@@ -176,13 +158,31 @@
         },
         "stats": {
           "points": 4,
-          "runsFor": 72,
-          "runsAgainst": 136,
-          "runDifferential": -64
+          "runsFor": 82,
+          "runsAgainst": 148,
+          "runDifferential": -66
+        }
+      },
+      {
+        "position": 8,
+        "team": "Caledon Nationals 11U A",
+        "teamCode": "510893",
+        "record": {
+          "gamesPlayed": 12,
+          "wins": 2,
+          "losses": 10,
+          "ties": 0,
+          "winPercentage": "0.167"
+        },
+        "stats": {
+          "points": 4,
+          "runsFor": 73,
+          "runsAgainst": 152,
+          "runDifferential": -79
         }
       }
     ],
-    "lastUpdated": "2025-07-22T17:46:13.329Z",
+    "lastUpdated": "2025-07-22T18:23:11.067Z",
     "totalTeams": 10
   },
   "schedule": {
@@ -234,8 +234,12 @@
             "awayTeam": "Midland Penetang Twins 11U A",
             "awayTeamCode": "510891",
             "location": "Caledon East",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 1,
+              "away": 16,
+              "scoreText": "16-1"
+            }
           },
           {
             "date": "2025-07-17T18:15:00.000Z",
@@ -246,8 +250,12 @@
             "awayTeam": "Midland Penetang Twins 11U A",
             "awayTeamCode": "510891",
             "location": "ROC 2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 18,
+              "scoreText": "18-9"
+            }
           },
           {
             "date": "2025-07-18T18:30:00.000Z",
@@ -328,7 +336,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T17:46:17.720Z"
+        "lastUpdated": "2025-07-22T18:23:15.249Z"
       },
       "510892": {
         "teamCode": "510892",
@@ -475,7 +483,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T17:46:17.720Z"
+        "lastUpdated": "2025-07-22T18:23:15.249Z"
       },
       "510893": {
         "teamCode": "510893",
@@ -552,8 +560,12 @@
             "awayTeam": "Midland Penetang Twins 11U A",
             "awayTeamCode": "510891",
             "location": "Caledon East",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 1,
+              "away": 16,
+              "scoreText": "16-1"
+            }
           }
         ],
         "nextGames": [
@@ -618,7 +630,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T17:46:17.720Z"
+        "lastUpdated": "2025-07-22T18:23:15.249Z"
       },
       "510894": {
         "teamCode": "510894",
@@ -765,7 +777,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T17:46:17.720Z"
+        "lastUpdated": "2025-07-22T18:23:15.250Z"
       },
       "510897": {
         "teamCode": "510897",
@@ -916,7 +928,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T17:46:17.720Z"
+        "lastUpdated": "2025-07-22T18:23:15.250Z"
       },
       "510898": {
         "teamCode": "510898",
@@ -1067,7 +1079,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T17:46:17.720Z"
+        "lastUpdated": "2025-07-22T18:23:15.250Z"
       },
       "510903": {
         "teamCode": "510903",
@@ -1166,30 +1178,14 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T17:46:17.720Z"
+        "lastUpdated": "2025-07-22T18:23:15.250Z"
       },
       "510905": {
         "teamCode": "510905",
         "totalGames": 16,
-        "playedGames": 12,
-        "upcomingGames": 4,
+        "playedGames": 13,
+        "upcomingGames": 3,
         "recentGames": [
-          {
-            "date": "2025-06-19T18:30:00.000Z",
-            "dateText": "Thu, Jun 19",
-            "time": "6:30 PM",
-            "homeTeam": "Aurora-King Jays 11U AA",
-            "homeTeamCode": "510905",
-            "awayTeam": "Caledon Nationals 11U AA",
-            "awayTeamCode": "510912",
-            "location": "HallMark #2",
-            "isCompleted": true,
-            "score": {
-              "home": 6,
-              "away": 4,
-              "scoreText": "4-6"
-            }
-          },
           {
             "date": "2025-06-22T18:30:00.000Z",
             "dateText": "Sun, Jun 22",
@@ -1253,9 +1249,7 @@
               "away": 15,
               "scoreText": "15-1"
             }
-          }
-        ],
-        "nextGames": [
+          },
           {
             "date": "2025-07-22T17:50:00.000Z",
             "dateText": "Tue, Jul 22",
@@ -1267,7 +1261,9 @@
             "location": "Coventry #2",
             "isCompleted": false,
             "score": null
-          },
+          }
+        ],
+        "nextGames": [
           {
             "date": "2025-07-30T18:00:00.000Z",
             "dateText": "Wed, Jul 30",
@@ -1305,7 +1301,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T17:46:17.720Z"
+        "lastUpdated": "2025-07-22T18:23:15.250Z"
       },
       "510906": {
         "teamCode": "510906",
@@ -1416,30 +1412,14 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T17:46:17.720Z"
+        "lastUpdated": "2025-07-22T18:23:15.250Z"
       },
       "510907": {
         "teamCode": "510907",
         "totalGames": 16,
-        "playedGames": 12,
-        "upcomingGames": 4,
+        "playedGames": 13,
+        "upcomingGames": 3,
         "recentGames": [
-          {
-            "date": "2025-06-25T19:00:00.000Z",
-            "dateText": "Wed, Jun 25",
-            "time": "7:00 PM",
-            "homeTeam": "Richmond Hill Phoenix 11U AA",
-            "homeTeamCode": "510910",
-            "awayTeam": "Bradford Tigers 11U AA",
-            "awayTeamCode": "510907",
-            "location": "David Hamilton #2",
-            "isCompleted": true,
-            "score": {
-              "home": 8,
-              "away": 9,
-              "scoreText": "9-8"
-            }
-          },
           {
             "date": "2025-07-03T18:30:00.000Z",
             "dateText": "Thu, Jul 3",
@@ -1503,9 +1483,7 @@
               "away": 8,
               "scoreText": "8-5"
             }
-          }
-        ],
-        "nextGames": [
+          },
           {
             "date": "2025-07-22T18:00:00.000Z",
             "dateText": "Tue, Jul 22",
@@ -1517,7 +1495,9 @@
             "location": "Joe Magani Park",
             "isCompleted": false,
             "score": null
-          },
+          }
+        ],
+        "nextGames": [
           {
             "date": "2025-07-23T18:00:00.000Z",
             "dateText": "Wed, Jul 23",
@@ -1555,7 +1535,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T17:46:17.720Z"
+        "lastUpdated": "2025-07-22T18:23:15.250Z"
       },
       "510908": {
         "teamCode": "510908",
@@ -1694,7 +1674,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T17:46:17.720Z"
+        "lastUpdated": "2025-07-22T18:23:15.250Z"
       },
       "510909": {
         "teamCode": "510909",
@@ -1845,7 +1825,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T17:46:17.720Z"
+        "lastUpdated": "2025-07-22T18:23:15.250Z"
       },
       "510910": {
         "teamCode": "510910",
@@ -1956,30 +1936,14 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T17:46:17.720Z"
+        "lastUpdated": "2025-07-22T18:23:15.250Z"
       },
       "510911": {
         "teamCode": "510911",
         "totalGames": 16,
-        "playedGames": 10,
-        "upcomingGames": 6,
+        "playedGames": 11,
+        "upcomingGames": 5,
         "recentGames": [
-          {
-            "date": "2025-06-04T18:00:00.000Z",
-            "dateText": "Wed, Jun 4",
-            "time": "6:00 PM",
-            "homeTeam": "Orangeville Bengals 11U AA",
-            "homeTeamCode": "510909",
-            "awayTeam": "TNT Thunder 11U AA",
-            "awayTeamCode": "510911",
-            "location": "Alton Park",
-            "isCompleted": true,
-            "score": {
-              "home": 11,
-              "away": 10,
-              "scoreText": "10-11"
-            }
-          },
           {
             "date": "2025-06-10T17:50:00.000Z",
             "dateText": "Tue, Jun 10",
@@ -2043,9 +2007,7 @@
               "away": 7,
               "scoreText": "7-9"
             }
-          }
-        ],
-        "nextGames": [
+          },
           {
             "date": "2025-07-22T17:50:00.000Z",
             "dateText": "Tue, Jul 22",
@@ -2057,7 +2019,9 @@
             "location": "Coventry #2",
             "isCompleted": false,
             "score": null
-          },
+          }
+        ],
+        "nextGames": [
           {
             "date": "2025-07-29T17:50:00.000Z",
             "dateText": "Tue, Jul 29",
@@ -2105,9 +2069,21 @@
             "location": "Carlton Park",
             "isCompleted": false,
             "score": null
+          },
+          {
+            "date": "2025-08-12T17:50:00.000Z",
+            "dateText": "Tue, Aug 12",
+            "time": "5:50 PM",
+            "homeTeam": "TNT Thunder 11U AA",
+            "homeTeamCode": "510911",
+            "awayTeam": "Orangeville Bengals 11U AA",
+            "awayTeamCode": "510909",
+            "location": "Coventry #2",
+            "isCompleted": false,
+            "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T17:46:17.720Z"
+        "lastUpdated": "2025-07-22T18:23:15.250Z"
       },
       "510912": {
         "teamCode": "510912",
@@ -2246,30 +2222,14 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T17:46:17.720Z"
+        "lastUpdated": "2025-07-22T18:23:15.250Z"
       },
       "510913": {
         "teamCode": "510913",
         "totalGames": 16,
-        "playedGames": 11,
-        "upcomingGames": 5,
+        "playedGames": 12,
+        "upcomingGames": 4,
         "recentGames": [
-          {
-            "date": "2025-06-24T18:00:00.000Z",
-            "dateText": "Tue, Jun 24",
-            "time": "6:00 PM",
-            "homeTeam": "Newmarket Hawks 11U AA",
-            "homeTeamCode": "510913",
-            "awayTeam": "Markham Mariners 11U AA",
-            "awayTeamCode": "510908",
-            "location": "Fairgrounds #1",
-            "isCompleted": true,
-            "score": {
-              "home": 9,
-              "away": 14,
-              "scoreText": "14-9"
-            }
-          },
           {
             "date": "2025-07-08T18:00:00.000Z",
             "dateText": "Tue, Jul 8",
@@ -2333,9 +2293,7 @@
               "away": 6,
               "scoreText": "6-9"
             }
-          }
-        ],
-        "nextGames": [
+          },
           {
             "date": "2025-07-22T18:00:00.000Z",
             "dateText": "Tue, Jul 22",
@@ -2347,7 +2305,9 @@
             "location": "Joe Magani Park",
             "isCompleted": false,
             "score": null
-          },
+          }
+        ],
+        "nextGames": [
           {
             "date": "2025-07-29T18:00:00.000Z",
             "dateText": "Tue, Jul 29",
@@ -2397,7 +2357,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T17:46:17.720Z"
+        "lastUpdated": "2025-07-22T18:23:15.250Z"
       },
       "510916": {
         "teamCode": "510916",
@@ -2478,8 +2438,12 @@
             "awayTeam": "Midland Penetang Twins 11U A",
             "awayTeamCode": "510891",
             "location": "ROC 2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 18,
+              "scoreText": "18-9"
+            }
           }
         ],
         "nextGames": [
@@ -2544,7 +2508,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T17:46:17.720Z"
+        "lastUpdated": "2025-07-22T18:23:15.250Z"
       },
       "510917": {
         "teamCode": "510917",
@@ -2683,7 +2647,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T17:46:17.720Z"
+        "lastUpdated": "2025-07-22T18:23:15.250Z"
       },
       "516241": {
         "teamCode": "516241",
@@ -2834,7 +2798,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T17:46:17.720Z"
+        "lastUpdated": "2025-07-22T18:23:15.250Z"
       }
     },
     "allGames": [
@@ -4583,8 +4547,12 @@
         "awayTeam": "Midland Penetang Twins 11U A",
         "awayTeamCode": "510891",
         "location": "Caledon East",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 1,
+          "away": 16,
+          "scoreText": "16-1"
+        }
       },
       {
         "date": "2025-07-16T19:00:00.000Z",
@@ -4611,8 +4579,12 @@
         "awayTeam": "Midland Penetang Twins 11U A",
         "awayTeamCode": "510891",
         "location": "ROC 2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 18,
+          "scoreText": "18-9"
+        }
       },
       {
         "date": "2025-07-17T18:30:00.000Z",
@@ -5233,6 +5205,18 @@
     ],
     "recentGames": [
       {
+        "date": "2025-07-22T18:00:00.000Z",
+        "dateText": "Tue, Jul 22",
+        "time": "6:00 PM",
+        "homeTeam": "Bradford Tigers 11U AA",
+        "homeTeamCode": "510907",
+        "awayTeam": "Newmarket Hawks 11U AA",
+        "awayTeamCode": "510913",
+        "location": "Joe Magani Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
         "date": "2025-07-22T17:50:00.000Z",
         "dateText": "Tue, Jul 22",
         "time": "5:50 PM",
@@ -5365,39 +5349,15 @@
         "awayTeam": "Midland Penetang Twins 11U A",
         "awayTeamCode": "510891",
         "location": "ROC 2",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": "2025-07-16T19:00:00.000Z",
-        "dateText": "Wed, Jul 16",
-        "time": "7:00 PM",
-        "homeTeam": "Richmond Hill Phoenix 11U AA",
-        "homeTeamCode": "510910",
-        "awayTeam": "Markham Mariners 11U AA",
-        "awayTeamCode": "510908",
-        "location": "David Hamilton #2",
         "isCompleted": true,
         "score": {
-          "home": 14,
-          "away": 4,
-          "scoreText": "4-14"
+          "home": 9,
+          "away": 18,
+          "scoreText": "18-9"
         }
       }
     ],
     "upcomingGames": [
-      {
-        "date": "2025-07-22T18:00:00.000Z",
-        "dateText": "Tue, Jul 22",
-        "time": "6:00 PM",
-        "homeTeam": "Bradford Tigers 11U AA",
-        "homeTeamCode": "510907",
-        "awayTeam": "Newmarket Hawks 11U AA",
-        "awayTeamCode": "510913",
-        "location": "Joe Magani Park",
-        "isCompleted": false,
-        "score": null
-      },
       {
         "date": "2025-07-23T18:00:00.000Z",
         "dateText": "Wed, Jul 23",
@@ -5505,22 +5465,34 @@
         "location": "Coventry #2",
         "isCompleted": false,
         "score": null
+      },
+      {
+        "date": "2025-07-29T18:00:00.000Z",
+        "dateText": "Tue, Jul 29",
+        "time": "6:00 PM",
+        "homeTeam": "Newmarket Hawks 11U AA",
+        "homeTeamCode": "510913",
+        "awayTeam": "Bradford Tigers 11U AA",
+        "awayTeamCode": "510907",
+        "location": "Fairgrounds #1",
+        "isCompleted": false,
+        "score": null
       }
     ],
-    "lastUpdated": "2025-07-22T17:46:17.720Z",
+    "lastUpdated": "2025-07-22T18:23:15.250Z",
     "totalGames": 162
   },
   "summary": {
     "totalTeams": 10,
     "totalGames": 162,
-    "completedGames": 112,
-    "upcomingGames": 50,
+    "completedGames": 114,
+    "upcomingGames": 48,
     "topTeam": {
       "team": "Midland Penetang Twins 11U A",
       "teamCode": "510891",
-      "wins": 8,
+      "wins": 10,
       "losses": 1,
-      "winPercentage": "0.850"
+      "winPercentage": "0.875"
     },
     "highestScoringGame": {
       "homeTeam": "Orangeville Bengals 11U AA",
@@ -5531,6 +5503,6 @@
       "date": "Wed, Jul 16",
       "location": "Alton Park"
     },
-    "lastUpdated": "2025-07-22T17:50:43.690Z"
+    "lastUpdated": "2025-07-22T18:27:39.141Z"
   }
 }
