@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-07-22T20:49:32.554Z",
+  "lastUpdated": "2025-07-22T21:21:05.342Z",
   "totalGames": 190,
   "games": [
     {
@@ -685,8 +685,12 @@
       "awayTeam": "Barrie Baycats 14U A",
       "awayTeamCode": "510959",
       "location": "Joe Magani Field #5",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 3,
+        "away": 22,
+        "scoreText": "22-3"
+      },
       "division": "14U",
       "tier": "rep-tier-3"
     },

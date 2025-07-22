@@ -6,17 +6,17 @@
         "team": "Barrie Baycats 14U A",
         "teamCode": "510959",
         "record": {
-          "gamesPlayed": 9,
-          "wins": 8,
+          "gamesPlayed": 10,
+          "wins": 9,
           "losses": 1,
           "ties": 0,
-          "winPercentage": "0.889"
+          "winPercentage": "0.900"
         },
         "stats": {
-          "points": 16,
-          "runsFor": 120,
-          "runsAgainst": 64,
-          "runDifferential": 56
+          "points": 18,
+          "runsFor": 142,
+          "runsAgainst": 67,
+          "runDifferential": 75
         }
       },
       {
@@ -56,21 +56,39 @@
         }
       },
       {
-        "position": 4,
+        "position": 6,
         "team": "Vaughan Vikings 14U A",
         "teamCode": "518957",
         "record": {
-          "gamesPlayed": 12,
+          "gamesPlayed": 13,
           "wins": 7,
-          "losses": 4,
+          "losses": 5,
           "ties": 1,
-          "winPercentage": "0.625"
+          "winPercentage": "0.577"
         },
         "stats": {
           "points": 15,
-          "runsFor": 113,
-          "runsAgainst": 101,
-          "runDifferential": 12
+          "runsFor": 115,
+          "runsAgainst": 113,
+          "runDifferential": 2
+        }
+      },
+      {
+        "position": 4,
+        "team": "Caledon Nationals 14U A",
+        "teamCode": "510961",
+        "record": {
+          "gamesPlayed": 14,
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "winPercentage": "0.571"
+        },
+        "stats": {
+          "points": 16,
+          "runsFor": 144,
+          "runsAgainst": 120,
+          "runDifferential": 24
         }
       },
       {
@@ -93,42 +111,24 @@
       },
       {
         "position": 5,
-        "team": "Caledon Nationals 14U A",
-        "teamCode": "510961",
+        "team": "Thornhill Reds 14U A",
+        "teamCode": "510965",
         "record": {
-          "gamesPlayed": 13,
+          "gamesPlayed": 15,
           "wins": 7,
-          "losses": 6,
-          "ties": 0,
-          "winPercentage": "0.538"
+          "losses": 7,
+          "ties": 1,
+          "winPercentage": "0.500"
         },
         "stats": {
-          "points": 14,
-          "runsFor": 132,
-          "runsAgainst": 118,
-          "runDifferential": 14
+          "points": 15,
+          "runsFor": 149,
+          "runsAgainst": 161,
+          "runDifferential": -12
         }
       },
       {
         "position": 7,
-        "team": "Thornhill Reds 14U A",
-        "teamCode": "510965",
-        "record": {
-          "gamesPlayed": 14,
-          "wins": 6,
-          "losses": 7,
-          "ties": 1,
-          "winPercentage": "0.464"
-        },
-        "stats": {
-          "points": 13,
-          "runsFor": 134,
-          "runsAgainst": 153,
-          "runDifferential": -19
-        }
-      },
-      {
-        "position": 6,
         "team": "Collingwood Jays 14U A",
         "teamCode": "510962",
         "record": {
@@ -204,17 +204,17 @@
         "team": "Innisfil Cardinals 14U A",
         "teamCode": "510963",
         "record": {
-          "gamesPlayed": 10,
+          "gamesPlayed": 11,
           "wins": 2,
-          "losses": 7,
+          "losses": 8,
           "ties": 1,
-          "winPercentage": "0.250"
+          "winPercentage": "0.227"
         },
         "stats": {
           "points": 5,
-          "runsFor": 90,
-          "runsAgainst": 138,
-          "runDifferential": -48
+          "runsFor": 98,
+          "runsAgainst": 153,
+          "runDifferential": -55
         }
       },
       {
@@ -222,21 +222,21 @@
         "team": "Bradford Tigers 14U A",
         "teamCode": "510960",
         "record": {
-          "gamesPlayed": 12,
+          "gamesPlayed": 13,
           "wins": 2,
-          "losses": 10,
+          "losses": 11,
           "ties": 0,
-          "winPercentage": "0.167"
+          "winPercentage": "0.154"
         },
         "stats": {
           "points": 4,
-          "runsFor": 104,
-          "runsAgainst": 189,
-          "runDifferential": -85
+          "runsFor": 107,
+          "runsAgainst": 211,
+          "runDifferential": -104
         }
       }
     ],
-    "lastUpdated": "2025-07-22T20:46:39.013Z",
+    "lastUpdated": "2025-07-22T21:18:03.520Z",
     "totalTeams": 13
   },
   "schedule": {
@@ -378,7 +378,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T20:46:43.215Z"
+        "lastUpdated": "2025-07-22T21:18:08.016Z"
       },
       "510959": {
         "teamCode": "510959",
@@ -459,8 +459,12 @@
             "awayTeam": "Barrie Baycats 14U A",
             "awayTeamCode": "510959",
             "location": "Joe Magani Field #5",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 3,
+              "away": 22,
+              "scoreText": "22-3"
+            }
           }
         ],
         "nextGames": [
@@ -525,7 +529,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T20:46:43.215Z"
+        "lastUpdated": "2025-07-22T21:18:08.016Z"
       },
       "510960": {
         "teamCode": "510960",
@@ -602,8 +606,12 @@
             "awayTeam": "Barrie Baycats 14U A",
             "awayTeamCode": "510959",
             "location": "Joe Magani Field #5",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 3,
+              "away": 22,
+              "scoreText": "22-3"
+            }
           }
         ],
         "nextGames": [
@@ -668,7 +676,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T20:46:43.215Z"
+        "lastUpdated": "2025-07-22T21:18:08.016Z"
       },
       "510961": {
         "teamCode": "510961",
@@ -749,8 +757,12 @@
             "awayTeam": "Vaughan Vikings 14U A",
             "awayTeamCode": "518957",
             "location": "Caledon Rec & Wellness Centre #1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 2,
+              "scoreText": "2-12"
+            }
           }
         ],
         "nextGames": [
@@ -815,7 +827,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T20:46:43.215Z"
+        "lastUpdated": "2025-07-22T21:18:08.016Z"
       },
       "510962": {
         "teamCode": "510962",
@@ -966,7 +978,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T20:46:43.216Z"
+        "lastUpdated": "2025-07-22T21:18:08.016Z"
       },
       "510963": {
         "teamCode": "510963",
@@ -1047,8 +1059,12 @@
             "awayTeam": "Innisfil Cardinals 14U A",
             "awayTeamCode": "510963",
             "location": "Concord Regional #1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 15,
+              "away": 8,
+              "scoreText": "8-15"
+            }
           }
         ],
         "nextGames": [
@@ -1113,7 +1129,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T20:46:43.216Z"
+        "lastUpdated": "2025-07-22T21:18:08.016Z"
       },
       "510964": {
         "teamCode": "510964",
@@ -1264,7 +1280,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T20:46:43.216Z"
+        "lastUpdated": "2025-07-22T21:18:08.016Z"
       },
       "510965": {
         "teamCode": "510965",
@@ -1345,8 +1361,12 @@
             "awayTeam": "Innisfil Cardinals 14U A",
             "awayTeamCode": "510963",
             "location": "Concord Regional #1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 15,
+              "away": 8,
+              "scoreText": "8-15"
+            }
           }
         ],
         "nextGames": [
@@ -1411,7 +1431,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T20:46:43.216Z"
+        "lastUpdated": "2025-07-22T21:18:08.016Z"
       },
       "510966": {
         "teamCode": "510966",
@@ -1562,7 +1582,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T20:46:43.216Z"
+        "lastUpdated": "2025-07-22T21:18:08.016Z"
       },
       "510979": {
         "teamCode": "510979",
@@ -1709,7 +1729,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T20:46:43.216Z"
+        "lastUpdated": "2025-07-22T21:18:08.016Z"
       },
       "516243": {
         "teamCode": "516243",
@@ -1860,7 +1880,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T20:46:43.216Z"
+        "lastUpdated": "2025-07-22T21:18:08.016Z"
       },
       "518957": {
         "teamCode": "518957",
@@ -1941,8 +1961,12 @@
             "awayTeam": "Vaughan Vikings 14U A",
             "awayTeamCode": "518957",
             "location": "Caledon Rec & Wellness Centre #1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 2,
+              "scoreText": "2-12"
+            }
           }
         ],
         "nextGames": [
@@ -2007,7 +2031,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T20:46:43.216Z"
+        "lastUpdated": "2025-07-22T21:18:08.016Z"
       },
       "546378": {
         "teamCode": "546378",
@@ -2154,7 +2178,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T20:46:43.216Z"
+        "lastUpdated": "2025-07-22T21:18:08.016Z"
       }
     },
     "allGames": [
@@ -3567,8 +3591,12 @@
         "awayTeam": "Vaughan Vikings 14U A",
         "awayTeamCode": "518957",
         "location": "Caledon Rec & Wellness Centre #1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 2,
+          "scoreText": "2-12"
+        }
       },
       {
         "date": "2025-07-21T19:30:00.000Z",
@@ -3579,8 +3607,12 @@
         "awayTeam": "Innisfil Cardinals 14U A",
         "awayTeamCode": "510963",
         "location": "Concord Regional #1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 15,
+          "away": 8,
+          "scoreText": "8-15"
+        }
       },
       {
         "date": "2025-07-21T20:00:00.000Z",
@@ -3591,8 +3623,12 @@
         "awayTeam": "Barrie Baycats 14U A",
         "awayTeamCode": "510959",
         "location": "Joe Magani Field #5",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 3,
+          "away": 22,
+          "scoreText": "22-3"
+        }
       },
       {
         "date": "2025-07-23T18:00:00.000Z",
@@ -4061,8 +4097,12 @@
         "awayTeam": "Barrie Baycats 14U A",
         "awayTeamCode": "510959",
         "location": "Joe Magani Field #5",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 3,
+          "away": 22,
+          "scoreText": "22-3"
+        }
       },
       {
         "date": "2025-07-21T19:30:00.000Z",
@@ -4073,8 +4113,12 @@
         "awayTeam": "Innisfil Cardinals 14U A",
         "awayTeamCode": "510963",
         "location": "Concord Regional #1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 15,
+          "away": 8,
+          "scoreText": "8-15"
+        }
       },
       {
         "date": "2025-07-21T18:00:00.000Z",
@@ -4085,8 +4129,12 @@
         "awayTeam": "Vaughan Vikings 14U A",
         "awayTeamCode": "518957",
         "location": "Caledon Rec & Wellness Centre #1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 2,
+          "scoreText": "2-12"
+        }
       },
       {
         "date": "2025-07-20T15:00:00.000Z",
@@ -4323,20 +4371,20 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-22T20:46:43.216Z",
+    "lastUpdated": "2025-07-22T21:18:08.016Z",
     "totalGames": 130
   },
   "summary": {
     "totalTeams": 13,
     "totalGames": 130,
-    "completedGames": 83,
-    "upcomingGames": 47,
+    "completedGames": 86,
+    "upcomingGames": 44,
     "topTeam": {
       "team": "Barrie Baycats 14U A",
       "teamCode": "510959",
-      "wins": 8,
+      "wins": 9,
       "losses": 1,
-      "winPercentage": "0.889"
+      "winPercentage": "0.900"
     },
     "highestScoringGame": {
       "homeTeam": "Bradford Tigers 14U A",
@@ -4347,6 +4395,6 @@
       "date": "Mon, Jul 7",
       "location": "Joe Magani Field #5"
     },
-    "lastUpdated": "2025-07-22T20:49:32.554Z"
+    "lastUpdated": "2025-07-22T21:21:05.342Z"
   }
 }
