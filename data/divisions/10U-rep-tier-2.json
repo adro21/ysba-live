@@ -60,17 +60,17 @@
         "team": "Markham Mariners 10U AA",
         "teamCode": "510883",
         "record": {
-          "gamesPlayed": 13,
-          "wins": 5,
+          "gamesPlayed": 14,
+          "wins": 6,
           "losses": 8,
           "ties": 0,
-          "winPercentage": "0.385"
+          "winPercentage": "0.429"
         },
         "stats": {
-          "points": 10,
-          "runsFor": 102,
-          "runsAgainst": 132,
-          "runDifferential": -30
+          "points": 12,
+          "runsFor": 114,
+          "runsAgainst": 141,
+          "runDifferential": -27
         }
       },
       {
@@ -96,21 +96,21 @@
         "team": "Aurora-King Jays 10U AA",
         "teamCode": "510881",
         "record": {
-          "gamesPlayed": 13,
+          "gamesPlayed": 14,
           "wins": 2,
-          "losses": 11,
+          "losses": 12,
           "ties": 0,
-          "winPercentage": "0.154"
+          "winPercentage": "0.143"
         },
         "stats": {
           "points": 4,
-          "runsFor": 84,
-          "runsAgainst": 127,
-          "runDifferential": -43
+          "runsFor": 93,
+          "runsAgainst": 139,
+          "runDifferential": -46
         }
       }
     ],
-    "lastUpdated": "2025-07-22T01:15:15.894Z",
+    "lastUpdated": "2025-07-22T03:15:10.619Z",
     "totalTeams": 6
   },
   "schedule": {
@@ -240,7 +240,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T01:15:20.277Z"
+        "lastUpdated": "2025-07-22T03:15:15.478Z"
       },
       "510870": {
         "teamCode": "510870",
@@ -347,7 +347,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T01:15:20.277Z"
+        "lastUpdated": "2025-07-22T03:15:15.478Z"
       },
       "510871": {
         "teamCode": "510871",
@@ -478,7 +478,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T01:15:20.277Z"
+        "lastUpdated": "2025-07-22T03:15:15.478Z"
       },
       "510872": {
         "teamCode": "510872",
@@ -597,7 +597,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T01:15:20.277Z"
+        "lastUpdated": "2025-07-22T03:15:15.478Z"
       },
       "510873": {
         "teamCode": "510873",
@@ -728,7 +728,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T01:15:20.277Z"
+        "lastUpdated": "2025-07-22T03:15:15.478Z"
       },
       "510874": {
         "teamCode": "510874",
@@ -847,7 +847,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T01:15:20.277Z"
+        "lastUpdated": "2025-07-22T03:15:15.478Z"
       },
       "510875": {
         "teamCode": "510875",
@@ -994,7 +994,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T01:15:20.277Z"
+        "lastUpdated": "2025-07-22T03:15:15.478Z"
       },
       "510876": {
         "teamCode": "510876",
@@ -1097,7 +1097,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T01:15:20.277Z"
+        "lastUpdated": "2025-07-22T03:15:15.479Z"
       },
       "510877": {
         "teamCode": "510877",
@@ -1192,7 +1192,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T01:15:20.277Z"
+        "lastUpdated": "2025-07-22T03:15:15.479Z"
       },
       "510878": {
         "teamCode": "510878",
@@ -1343,7 +1343,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T01:15:20.277Z"
+        "lastUpdated": "2025-07-22T03:15:15.479Z"
       },
       "510879": {
         "teamCode": "510879",
@@ -1478,7 +1478,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T01:15:20.277Z"
+        "lastUpdated": "2025-07-22T03:15:15.479Z"
       },
       "510880": {
         "teamCode": "510880",
@@ -1597,7 +1597,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T01:15:20.277Z"
+        "lastUpdated": "2025-07-22T03:15:15.479Z"
       },
       "510881": {
         "teamCode": "510881",
@@ -1678,8 +1678,12 @@
             "awayTeam": "Markham Mariners 10U AA",
             "awayTeamCode": "510883",
             "location": "Town Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 12,
+              "scoreText": "12-9"
+            }
           }
         ],
         "nextGames": [
@@ -1703,19 +1707,19 @@
             "homeTeamCode": "510881",
             "awayTeam": "Orangeville Bengals 10U AA",
             "awayTeamCode": "510884",
-            "location": "Hallmark Diamond 2",
+            "location": "Orangeville",
             "isCompleted": false,
             "score": null
           },
           {
-            "date": "2025-07-26T12:30:00.000Z",
+            "date": "2025-07-26T13:00:00.000Z",
             "dateText": "Sat, Jul 26",
-            "time": "12:30 PM",
+            "time": "1:00 PM",
             "homeTeam": "Orangeville Bengals 10U AA",
             "homeTeamCode": "510884",
             "awayTeam": "Aurora-King Jays 10U AA",
             "awayTeamCode": "510881",
-            "location": "Hallmark Diamond 2",
+            "location": "Orangeville",
             "isCompleted": false,
             "score": null
           },
@@ -1744,7 +1748,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T01:15:20.277Z"
+        "lastUpdated": "2025-07-22T03:15:15.479Z"
       },
       "510882": {
         "teamCode": "510882",
@@ -1883,7 +1887,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T01:15:20.277Z"
+        "lastUpdated": "2025-07-22T03:15:15.479Z"
       },
       "510883": {
         "teamCode": "510883",
@@ -1964,8 +1968,12 @@
             "awayTeam": "Markham Mariners 10U AA",
             "awayTeamCode": "510883",
             "location": "Town Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 12,
+              "scoreText": "12-9"
+            }
           }
         ],
         "nextGames": [
@@ -2030,7 +2038,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T01:15:20.277Z"
+        "lastUpdated": "2025-07-22T03:15:15.479Z"
       },
       "510884": {
         "teamCode": "510884",
@@ -2140,19 +2148,19 @@
             "homeTeamCode": "510881",
             "awayTeam": "Orangeville Bengals 10U AA",
             "awayTeamCode": "510884",
-            "location": "Hallmark Diamond 2",
+            "location": "Orangeville",
             "isCompleted": false,
             "score": null
           },
           {
-            "date": "2025-07-26T12:30:00.000Z",
+            "date": "2025-07-26T13:00:00.000Z",
             "dateText": "Sat, Jul 26",
-            "time": "12:30 PM",
+            "time": "1:00 PM",
             "homeTeam": "Orangeville Bengals 10U AA",
             "homeTeamCode": "510884",
             "awayTeam": "Aurora-King Jays 10U AA",
             "awayTeamCode": "510881",
-            "location": "Hallmark Diamond 2",
+            "location": "Orangeville",
             "isCompleted": false,
             "score": null
           },
@@ -2181,7 +2189,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T01:15:20.277Z"
+        "lastUpdated": "2025-07-22T03:15:15.479Z"
       },
       "510885": {
         "teamCode": "510885",
@@ -2332,7 +2340,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T01:15:20.277Z"
+        "lastUpdated": "2025-07-22T03:15:15.479Z"
       },
       "510889": {
         "teamCode": "510889",
@@ -2455,7 +2463,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T01:15:20.277Z"
+        "lastUpdated": "2025-07-22T03:15:15.479Z"
       },
       "510890": {
         "teamCode": "510890",
@@ -2590,7 +2598,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T01:15:20.277Z"
+        "lastUpdated": "2025-07-22T03:15:15.479Z"
       },
       "518949": {
         "teamCode": "518949",
@@ -2741,7 +2749,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T01:15:20.277Z"
+        "lastUpdated": "2025-07-22T03:15:15.479Z"
       }
     },
     "allGames": [
@@ -5118,8 +5126,12 @@
         "awayTeam": "Markham Mariners 10U AA",
         "awayTeamCode": "510883",
         "location": "Town Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 12,
+          "scoreText": "12-9"
+        }
       },
       {
         "date": "2025-07-22T18:00:00.000Z",
@@ -5261,19 +5273,19 @@
         "homeTeamCode": "510881",
         "awayTeam": "Orangeville Bengals 10U AA",
         "awayTeamCode": "510884",
-        "location": "Hallmark Diamond 2",
+        "location": "Orangeville",
         "isCompleted": false,
         "score": null
       },
       {
-        "date": "2025-07-26T12:30:00.000Z",
+        "date": "2025-07-26T13:00:00.000Z",
         "dateText": "Sat, Jul 26",
-        "time": "12:30 PM",
+        "time": "1:00 PM",
         "homeTeam": "Orangeville Bengals 10U AA",
         "homeTeamCode": "510884",
         "awayTeam": "Aurora-King Jays 10U AA",
         "awayTeamCode": "510881",
-        "location": "Hallmark Diamond 2",
+        "location": "Orangeville",
         "isCompleted": false,
         "score": null
       },
@@ -5624,8 +5636,12 @@
         "awayTeam": "Markham Mariners 10U AA",
         "awayTeamCode": "510883",
         "location": "Town Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 12,
+          "scoreText": "12-9"
+        }
       },
       {
         "date": "2025-07-21T18:00:00.000Z",
@@ -5862,14 +5878,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-22T01:15:20.277Z",
+    "lastUpdated": "2025-07-22T03:15:15.479Z",
     "totalGames": 193
   },
   "summary": {
     "totalTeams": 6,
     "totalGames": 193,
-    "completedGames": 135,
-    "upcomingGames": 58,
+    "completedGames": 136,
+    "upcomingGames": 57,
     "topTeam": {
       "team": "Richmond Hill Phoenix 10U AA",
       "teamCode": "510885",
@@ -5886,6 +5902,6 @@
       "date": "Sun, May 25",
       "location": "West Park Diamond 1"
     },
-    "lastUpdated": "2025-07-22T01:20:21.523Z"
+    "lastUpdated": "2025-07-22T03:20:36.828Z"
   }
 }
