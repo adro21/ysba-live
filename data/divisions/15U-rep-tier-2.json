@@ -2,21 +2,21 @@
   "standings": {
     "teams": [
       {
-        "position": 4,
+        "position": 3,
         "team": "Innisfil Cardinals 15U AA",
         "teamCode": "510989",
         "record": {
-          "gamesPlayed": 10,
-          "wins": 8,
+          "gamesPlayed": 11,
+          "wins": 9,
           "losses": 2,
           "ties": 0,
-          "winPercentage": "0.800"
+          "winPercentage": "0.818"
         },
         "stats": {
-          "points": 16,
-          "runsFor": 114,
-          "runsAgainst": 33,
-          "runDifferential": 81
+          "points": 18,
+          "runsFor": 125,
+          "runsAgainst": 34,
+          "runDifferential": 91
         }
       },
       {
@@ -38,7 +38,7 @@
         }
       },
       {
-        "position": 3,
+        "position": 4,
         "team": "Muskoka Hornets 15U AA",
         "teamCode": "516244",
         "record": {
@@ -53,24 +53,6 @@
           "runsFor": 126,
           "runsAgainst": 96,
           "runDifferential": 30
-        }
-      },
-      {
-        "position": 1,
-        "team": "Barrie Baycats 15U AA",
-        "teamCode": "510987",
-        "record": {
-          "gamesPlayed": 15,
-          "wins": 8,
-          "losses": 5,
-          "ties": 2,
-          "winPercentage": "0.600"
-        },
-        "stats": {
-          "points": 18,
-          "runsFor": 127,
-          "runsAgainst": 99,
-          "runDifferential": 28
         }
       },
       {
@@ -89,6 +71,24 @@
           "runsFor": 123,
           "runsAgainst": 96,
           "runDifferential": 27
+        }
+      },
+      {
+        "position": 1,
+        "team": "Barrie Baycats 15U AA",
+        "teamCode": "510987",
+        "record": {
+          "gamesPlayed": 16,
+          "wins": 8,
+          "losses": 6,
+          "ties": 2,
+          "winPercentage": "0.563"
+        },
+        "stats": {
+          "points": 18,
+          "runsFor": 128,
+          "runsAgainst": 110,
+          "runDifferential": 18
         }
       },
       {
@@ -146,7 +146,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-22T11:16:47.017Z",
+    "lastUpdated": "2025-07-22T11:42:06.877Z",
     "totalTeams": 8
   },
   "schedule": {
@@ -256,7 +256,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T11:16:51.343Z"
+        "lastUpdated": "2025-07-22T11:42:11.200Z"
       },
       "510981": {
         "teamCode": "510981",
@@ -403,7 +403,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T11:16:51.343Z"
+        "lastUpdated": "2025-07-22T11:42:11.200Z"
       },
       "510982": {
         "teamCode": "510982",
@@ -526,7 +526,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T11:16:51.343Z"
+        "lastUpdated": "2025-07-22T11:42:11.200Z"
       },
       "510983": {
         "teamCode": "510983",
@@ -649,7 +649,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T11:16:51.343Z"
+        "lastUpdated": "2025-07-22T11:42:11.200Z"
       },
       "510984": {
         "teamCode": "510984",
@@ -796,7 +796,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T11:16:51.343Z"
+        "lastUpdated": "2025-07-22T11:42:11.200Z"
       },
       "510985": {
         "teamCode": "510985",
@@ -943,7 +943,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T11:16:51.343Z"
+        "lastUpdated": "2025-07-22T11:42:11.200Z"
       },
       "510986": {
         "teamCode": "510986",
@@ -1054,7 +1054,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T11:16:51.343Z"
+        "lastUpdated": "2025-07-22T11:42:11.200Z"
       },
       "510987": {
         "teamCode": "510987",
@@ -1135,8 +1135,12 @@
             "awayTeam": "Barrie Baycats 15U AA",
             "awayTeamCode": "510987",
             "location": "Innisfil Rec Centre (IRC) North",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 1,
+              "scoreText": "1-11"
+            }
           }
         ],
         "nextGames": [
@@ -1165,7 +1169,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T11:16:51.343Z"
+        "lastUpdated": "2025-07-22T11:42:11.200Z"
       },
       "510988": {
         "teamCode": "510988",
@@ -1316,7 +1320,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T11:16:51.343Z"
+        "lastUpdated": "2025-07-22T11:42:11.201Z"
       },
       "510989": {
         "teamCode": "510989",
@@ -1393,8 +1397,12 @@
             "awayTeam": "Barrie Baycats 15U AA",
             "awayTeamCode": "510987",
             "location": "Innisfil Rec Centre (IRC) North",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 1,
+              "scoreText": "1-11"
+            }
           }
         ],
         "nextGames": [
@@ -1459,7 +1467,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T11:16:51.343Z"
+        "lastUpdated": "2025-07-22T11:42:11.201Z"
       },
       "510990": {
         "teamCode": "510990",
@@ -1610,7 +1618,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T11:16:51.343Z"
+        "lastUpdated": "2025-07-22T11:42:11.201Z"
       },
       "510991": {
         "teamCode": "510991",
@@ -1761,7 +1769,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T11:16:51.343Z"
+        "lastUpdated": "2025-07-22T11:42:11.201Z"
       },
       "510992": {
         "teamCode": "510992",
@@ -1908,7 +1916,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T11:16:51.343Z"
+        "lastUpdated": "2025-07-22T11:42:11.201Z"
       },
       "510993": {
         "teamCode": "510993",
@@ -2035,7 +2043,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T11:16:51.343Z"
+        "lastUpdated": "2025-07-22T11:42:11.201Z"
       },
       "510998": {
         "teamCode": "510998",
@@ -2174,7 +2182,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T11:16:51.343Z"
+        "lastUpdated": "2025-07-22T11:42:11.201Z"
       },
       "516244": {
         "teamCode": "516244",
@@ -2301,7 +2309,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T11:16:51.343Z"
+        "lastUpdated": "2025-07-22T11:42:11.201Z"
       },
       "518959": {
         "teamCode": "518959",
@@ -2440,7 +2448,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T11:16:51.343Z"
+        "lastUpdated": "2025-07-22T11:42:11.201Z"
       },
       "546379": {
         "teamCode": "546379",
@@ -2535,7 +2543,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T11:16:51.343Z"
+        "lastUpdated": "2025-07-22T11:42:11.201Z"
       }
     },
     "allGames": [
@@ -4532,8 +4540,12 @@
         "awayTeam": "Barrie Baycats 15U AA",
         "awayTeamCode": "510987",
         "location": "Innisfil Rec Centre (IRC) North",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 1,
+          "scoreText": "1-11"
+        }
       },
       {
         "date": "2025-07-22T18:30:00.000Z",
@@ -4966,8 +4978,12 @@
         "awayTeam": "Barrie Baycats 15U AA",
         "awayTeamCode": "510987",
         "location": "Innisfil Rec Centre (IRC) North",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 1,
+          "scoreText": "1-11"
+        }
       },
       {
         "date": "2025-07-21T20:00:00.000Z",
@@ -5204,20 +5220,20 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-22T11:16:51.343Z",
+    "lastUpdated": "2025-07-22T11:42:11.201Z",
     "totalGames": 162
   },
   "summary": {
     "totalTeams": 8,
     "totalGames": 162,
-    "completedGames": 115,
-    "upcomingGames": 47,
+    "completedGames": 116,
+    "upcomingGames": 46,
     "topTeam": {
       "team": "Innisfil Cardinals 15U AA",
       "teamCode": "510989",
-      "wins": 8,
+      "wins": 9,
       "losses": 2,
-      "winPercentage": "0.800"
+      "winPercentage": "0.818"
     },
     "highestScoringGame": {
       "homeTeam": "Stouffville Yankees 15U A",
@@ -5228,6 +5244,6 @@
       "date": "Thu, May 29",
       "location": "Bethesda Fields #2"
     },
-    "lastUpdated": "2025-07-22T11:19:17.237Z"
+    "lastUpdated": "2025-07-22T11:44:38.857Z"
   }
 }
