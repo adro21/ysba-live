@@ -3,6 +3,24 @@
     "teams": [
       {
         "position": 1,
+        "team": "Barrie Baycats 11U DS",
+        "teamCode": "511075",
+        "record": {
+          "gamesPlayed": 16,
+          "wins": 16,
+          "losses": 0,
+          "ties": 0,
+          "winPercentage": "1.000"
+        },
+        "stats": {
+          "points": 32,
+          "runsFor": 180,
+          "runsAgainst": 67,
+          "runDifferential": 113
+        }
+      },
+      {
+        "position": 2,
         "team": "Vaughan Vikings 11U DS",
         "teamCode": "518968",
         "record": {
@@ -17,24 +35,6 @@
           "runsFor": 189,
           "runsAgainst": 35,
           "runDifferential": 154
-        }
-      },
-      {
-        "position": 2,
-        "team": "Barrie Baycats 11U DS",
-        "teamCode": "511075",
-        "record": {
-          "gamesPlayed": 14,
-          "wins": 14,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": "1.000"
-        },
-        "stats": {
-          "points": 28,
-          "runsFor": 166,
-          "runsAgainst": 67,
-          "runDifferential": 99
         }
       },
       {
@@ -222,21 +222,21 @@
         "team": "Thornhill Reds 11U DS - Team 2",
         "teamCode": "511083",
         "record": {
-          "gamesPlayed": 10,
+          "gamesPlayed": 12,
           "wins": 0,
-          "losses": 10,
+          "losses": 12,
           "ties": 0,
           "winPercentage": "0.000"
         },
         "stats": {
           "points": 0,
           "runsFor": 30,
-          "runsAgainst": 104,
-          "runDifferential": -74
+          "runsAgainst": 118,
+          "runDifferential": -88
         }
       }
     ],
-    "lastUpdated": "2025-07-22T17:22:05.896Z",
+    "lastUpdated": "2025-07-22T17:50:24.479Z",
     "totalTeams": 13
   },
   "schedule": {
@@ -329,7 +329,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-22T17:22:10.183Z"
+        "lastUpdated": "2025-07-22T17:50:28.897Z"
       },
       "511075": {
         "teamCode": "511075",
@@ -394,8 +394,12 @@
             "awayTeam": "Barrie Baycats 11U DS",
             "awayTeamCode": "511075",
             "location": "York Hill West Diamond",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 0,
+              "away": 7,
+              "scoreText": "7-0"
+            }
           },
           {
             "date": "2025-07-20T12:15:00.000Z",
@@ -406,12 +410,16 @@
             "awayTeam": "Barrie Baycats 11U DS",
             "awayTeamCode": "511075",
             "location": "York Hill West Diamond",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 0,
+              "away": 7,
+              "scoreText": "7-0"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-22T17:22:10.183Z"
+        "lastUpdated": "2025-07-22T17:50:28.897Z"
       },
       "511076": {
         "teamCode": "511076",
@@ -526,7 +534,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T17:22:10.183Z"
+        "lastUpdated": "2025-07-22T17:50:28.897Z"
       },
       "511077": {
         "teamCode": "511077",
@@ -641,7 +649,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T17:22:10.183Z"
+        "lastUpdated": "2025-07-22T17:50:28.897Z"
       },
       "511078": {
         "teamCode": "511078",
@@ -752,7 +760,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T17:22:10.183Z"
+        "lastUpdated": "2025-07-22T17:50:28.897Z"
       },
       "511079": {
         "teamCode": "511079",
@@ -867,7 +875,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T17:22:10.183Z"
+        "lastUpdated": "2025-07-22T17:50:28.897Z"
       },
       "511080": {
         "teamCode": "511080",
@@ -982,7 +990,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T17:22:10.183Z"
+        "lastUpdated": "2025-07-22T17:50:28.897Z"
       },
       "511081": {
         "teamCode": "511081",
@@ -1097,7 +1105,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T17:22:10.183Z"
+        "lastUpdated": "2025-07-22T17:50:28.898Z"
       },
       "511082": {
         "teamCode": "511082",
@@ -1212,7 +1220,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T17:22:10.183Z"
+        "lastUpdated": "2025-07-22T17:50:28.898Z"
       },
       "511083": {
         "teamCode": "511083",
@@ -1277,8 +1285,12 @@
             "awayTeam": "Barrie Baycats 11U DS",
             "awayTeamCode": "511075",
             "location": "York Hill West Diamond",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 0,
+              "away": 7,
+              "scoreText": "7-0"
+            }
           },
           {
             "date": "2025-07-20T12:15:00.000Z",
@@ -1289,8 +1301,12 @@
             "awayTeam": "Barrie Baycats 11U DS",
             "awayTeamCode": "511075",
             "location": "York Hill West Diamond",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 0,
+              "away": 7,
+              "scoreText": "7-0"
+            }
           }
         ],
         "nextGames": [
@@ -1343,7 +1359,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T17:22:10.183Z"
+        "lastUpdated": "2025-07-22T17:50:28.898Z"
       },
       "518967": {
         "teamCode": "518967",
@@ -1454,7 +1470,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T17:22:10.183Z"
+        "lastUpdated": "2025-07-22T17:50:28.898Z"
       },
       "518968": {
         "teamCode": "518968",
@@ -1569,7 +1585,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T17:22:10.183Z"
+        "lastUpdated": "2025-07-22T17:50:28.898Z"
       },
       "518974": {
         "teamCode": "518974",
@@ -1680,7 +1696,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T17:22:10.183Z"
+        "lastUpdated": "2025-07-22T17:50:28.898Z"
       }
     },
     "allGames": [
@@ -3105,8 +3121,12 @@
         "awayTeam": "Barrie Baycats 11U DS",
         "awayTeamCode": "511075",
         "location": "York Hill West Diamond",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 0,
+          "away": 7,
+          "scoreText": "7-0"
+        }
       },
       {
         "date": "2025-07-20T12:15:00.000Z",
@@ -3117,8 +3137,12 @@
         "awayTeam": "Barrie Baycats 11U DS",
         "awayTeamCode": "511075",
         "location": "York Hill West Diamond",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 0,
+          "away": 7,
+          "scoreText": "7-0"
+        }
       },
       {
         "date": "2025-07-20T15:00:00.000Z",
@@ -3403,8 +3427,12 @@
         "awayTeam": "Barrie Baycats 11U DS",
         "awayTeamCode": "511075",
         "location": "York Hill West Diamond",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 0,
+          "away": 7,
+          "scoreText": "7-0"
+        }
       },
       {
         "date": "2025-07-20T10:00:00.000Z",
@@ -3415,8 +3443,12 @@
         "awayTeam": "Barrie Baycats 11U DS",
         "awayTeamCode": "511075",
         "location": "York Hill West Diamond",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 0,
+          "away": 7,
+          "scoreText": "7-0"
+        }
       },
       {
         "date": "2025-07-19T12:15:00.000Z",
@@ -3605,18 +3637,18 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-22T17:22:10.183Z",
+    "lastUpdated": "2025-07-22T17:50:28.898Z",
     "totalGames": 107
   },
   "summary": {
     "totalTeams": 13,
     "totalGames": 107,
-    "completedGames": 90,
-    "upcomingGames": 17,
+    "completedGames": 92,
+    "upcomingGames": 15,
     "topTeam": {
-      "team": "Vaughan Vikings 11U DS",
-      "teamCode": "518968",
-      "wins": 14,
+      "team": "Barrie Baycats 11U DS",
+      "teamCode": "511075",
+      "wins": 16,
       "losses": 0,
       "winPercentage": "1.000"
     },
@@ -3629,6 +3661,6 @@
       "date": "Sat, May 24",
       "location": "Mansfield Park"
     },
-    "lastUpdated": "2025-07-22T17:22:24.675Z"
+    "lastUpdated": "2025-07-22T17:50:43.690Z"
   }
 }
