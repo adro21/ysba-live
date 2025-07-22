@@ -146,7 +146,7 @@
         }
       },
       {
-        "position": 10,
+        "position": 11,
         "team": "Caledon Nationals 18U A",
         "teamCode": "511026",
         "record": {
@@ -182,6 +182,24 @@
         }
       },
       {
+        "position": 10,
+        "team": "Markham Mariners 18U A - Team 2",
+        "teamCode": "511031",
+        "record": {
+          "gamesPlayed": 16,
+          "wins": 6,
+          "losses": 7,
+          "ties": 3,
+          "winPercentage": "0.469"
+        },
+        "stats": {
+          "points": 15,
+          "runsFor": 104,
+          "runsAgainst": 122,
+          "runDifferential": -18
+        }
+      },
+      {
         "position": 9,
         "team": "Orillia Royals 18U B",
         "teamCode": "511032",
@@ -197,24 +215,6 @@
           "runsFor": 93,
           "runsAgainst": 108,
           "runDifferential": -15
-        }
-      },
-      {
-        "position": 11,
-        "team": "Markham Mariners 18U A - Team 2",
-        "teamCode": "511031",
-        "record": {
-          "gamesPlayed": 15,
-          "wins": 5,
-          "losses": 7,
-          "ties": 3,
-          "winPercentage": "0.433"
-        },
-        "stats": {
-          "points": 13,
-          "runsFor": 84,
-          "runsAgainst": 111,
-          "runDifferential": -27
         }
       },
       {
@@ -240,17 +240,17 @@
         "team": "Vaughan Vikings 17U A",
         "teamCode": "518960",
         "record": {
-          "gamesPlayed": 14,
+          "gamesPlayed": 15,
           "wins": 5,
-          "losses": 8,
+          "losses": 9,
           "ties": 1,
-          "winPercentage": "0.393"
+          "winPercentage": "0.367"
         },
         "stats": {
           "points": 11,
-          "runsFor": 78,
-          "runsAgainst": 89,
-          "runDifferential": -11
+          "runsFor": 89,
+          "runsAgainst": 109,
+          "runDifferential": -20
         }
       },
       {
@@ -344,7 +344,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-22T03:18:39.988Z",
+    "lastUpdated": "2025-07-22T04:16:24.299Z",
     "totalTeams": 19
   },
   "schedule": {
@@ -450,7 +450,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T03:18:44.544Z"
+        "lastUpdated": "2025-07-22T04:16:28.869Z"
       },
       "511022": {
         "teamCode": "511022",
@@ -549,7 +549,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T03:18:44.544Z"
+        "lastUpdated": "2025-07-22T04:16:28.870Z"
       },
       "511023": {
         "teamCode": "511023",
@@ -676,7 +676,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T03:18:44.544Z"
+        "lastUpdated": "2025-07-22T04:16:28.870Z"
       },
       "511024": {
         "teamCode": "511024",
@@ -775,7 +775,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T03:18:44.544Z"
+        "lastUpdated": "2025-07-22T04:16:28.870Z"
       },
       "511025": {
         "teamCode": "511025",
@@ -902,7 +902,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T03:18:44.544Z"
+        "lastUpdated": "2025-07-22T04:16:28.870Z"
       },
       "511026": {
         "teamCode": "511026",
@@ -1001,7 +1001,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T03:18:44.544Z"
+        "lastUpdated": "2025-07-22T04:16:28.870Z"
       },
       "511027": {
         "teamCode": "511027",
@@ -1128,7 +1128,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T03:18:44.544Z"
+        "lastUpdated": "2025-07-22T04:16:28.870Z"
       },
       "511028": {
         "teamCode": "511028",
@@ -1243,7 +1243,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T03:18:44.544Z"
+        "lastUpdated": "2025-07-22T04:16:28.870Z"
       },
       "511030": {
         "teamCode": "511030",
@@ -1358,7 +1358,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T03:18:44.544Z"
+        "lastUpdated": "2025-07-22T04:16:28.870Z"
       },
       "511031": {
         "teamCode": "511031",
@@ -1439,8 +1439,12 @@
             "awayTeam": "Markham Mariners 18U A - Team 2",
             "awayTeamCode": "511031",
             "location": "Sports Village",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 20,
+              "scoreText": "20-11"
+            }
           }
         ],
         "nextGames": [
@@ -1457,7 +1461,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T03:18:44.544Z"
+        "lastUpdated": "2025-07-22T04:16:28.870Z"
       },
       "511032": {
         "teamCode": "511032",
@@ -1547,7 +1551,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-22T03:18:44.544Z"
+        "lastUpdated": "2025-07-22T04:16:28.870Z"
       },
       "511033": {
         "teamCode": "511033",
@@ -1674,7 +1678,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T03:18:44.544Z"
+        "lastUpdated": "2025-07-22T04:16:28.870Z"
       },
       "511034": {
         "teamCode": "511034",
@@ -1773,7 +1777,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T03:18:44.544Z"
+        "lastUpdated": "2025-07-22T04:16:28.870Z"
       },
       "511035": {
         "teamCode": "511035",
@@ -1888,7 +1892,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T03:18:44.544Z"
+        "lastUpdated": "2025-07-22T04:16:28.870Z"
       },
       "516246": {
         "teamCode": "516246",
@@ -1991,7 +1995,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T03:18:44.544Z"
+        "lastUpdated": "2025-07-22T04:16:28.870Z"
       },
       "518960": {
         "teamCode": "518960",
@@ -2068,8 +2072,12 @@
             "awayTeam": "Markham Mariners 18U A - Team 2",
             "awayTeamCode": "511031",
             "location": "Sports Village",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 20,
+              "scoreText": "20-11"
+            }
           }
         ],
         "nextGames": [
@@ -2086,7 +2094,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T03:18:44.544Z"
+        "lastUpdated": "2025-07-22T04:16:28.870Z"
       },
       "518962": {
         "teamCode": "518962",
@@ -2185,7 +2193,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T03:18:44.544Z"
+        "lastUpdated": "2025-07-22T04:16:28.870Z"
       },
       "519242": {
         "teamCode": "519242",
@@ -2300,7 +2308,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T03:18:44.544Z"
+        "lastUpdated": "2025-07-22T04:16:28.870Z"
       },
       "546377": {
         "teamCode": "546377",
@@ -2395,7 +2403,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-22T03:18:44.544Z"
+        "lastUpdated": "2025-07-22T04:16:28.870Z"
       }
     },
     "allGames": [
@@ -4696,8 +4704,12 @@
         "awayTeam": "Markham Mariners 18U A - Team 2",
         "awayTeamCode": "511031",
         "location": "Sports Village",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 20,
+          "scoreText": "20-11"
+        }
       },
       {
         "date": "2025-07-22T18:30:00.000Z",
@@ -4890,8 +4902,12 @@
         "awayTeam": "Markham Mariners 18U A - Team 2",
         "awayTeamCode": "511031",
         "location": "Sports Village",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 20,
+          "scoreText": "20-11"
+        }
       },
       {
         "date": "2025-07-21T19:30:00.000Z",
@@ -5160,14 +5176,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-22T03:18:44.544Z",
+    "lastUpdated": "2025-07-22T04:16:28.870Z",
     "totalGames": 161
   },
   "summary": {
     "totalTeams": 19,
     "totalGames": 161,
-    "completedGames": 137,
-    "upcomingGames": 24,
+    "completedGames": 138,
+    "upcomingGames": 23,
     "topTeam": {
       "team": "Aurora-King Jays 18U A",
       "teamCode": "511022",
@@ -5184,6 +5200,6 @@
       "date": "Sun, Jun 1",
       "location": "David Hamilton #1"
     },
-    "lastUpdated": "2025-07-22T03:20:36.828Z"
+    "lastUpdated": "2025-07-22T04:18:21.587Z"
   }
 }
