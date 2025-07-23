@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-07-23T21:21:11.138Z",
+  "lastUpdated": "2025-07-23T21:47:12.682Z",
   "totalGames": 190,
   "games": [
     {
@@ -691,8 +691,12 @@
       "awayTeam": "Muskoka Hornets 18U AA",
       "awayTeamCode": "516246",
       "location": "IRC North",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 10,
+        "away": 9,
+        "scoreText": "9-10"
+      },
       "division": "18U",
       "tier": "rep-no-tier"
     },
