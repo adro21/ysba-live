@@ -39,6 +39,24 @@
       },
       {
         "position": 4,
+        "team": "Bradford Tigers 15U AA",
+        "teamCode": "510988",
+        "record": {
+          "gamesPlayed": 14,
+          "wins": 8,
+          "losses": 5,
+          "ties": 1,
+          "winPercentage": "0.607"
+        },
+        "stats": {
+          "points": 17,
+          "runsFor": 143,
+          "runsAgainst": 98,
+          "runDifferential": 45
+        }
+      },
+      {
+        "position": 5,
         "team": "Muskoka Hornets 15U AA",
         "teamCode": "516244",
         "record": {
@@ -53,24 +71,6 @@
           "runsFor": 126,
           "runsAgainst": 96,
           "runDifferential": 30
-        }
-      },
-      {
-        "position": 5,
-        "team": "Bradford Tigers 15U AA",
-        "teamCode": "510988",
-        "record": {
-          "gamesPlayed": 13,
-          "wins": 7,
-          "losses": 5,
-          "ties": 1,
-          "winPercentage": "0.577"
-        },
-        "stats": {
-          "points": 15,
-          "runsFor": 123,
-          "runsAgainst": 96,
-          "runDifferential": 27
         }
       },
       {
@@ -132,21 +132,21 @@
         "team": "Thornhill Reds 15U AA",
         "teamCode": "510992",
         "record": {
-          "gamesPlayed": 12,
+          "gamesPlayed": 13,
           "wins": 2,
-          "losses": 10,
+          "losses": 11,
           "ties": 0,
-          "winPercentage": "0.167"
+          "winPercentage": "0.154"
         },
         "stats": {
           "points": 4,
-          "runsFor": 63,
-          "runsAgainst": 139,
-          "runDifferential": -76
+          "runsFor": 65,
+          "runsAgainst": 159,
+          "runDifferential": -94
         }
       }
     ],
-    "lastUpdated": "2025-07-23T01:18:55.967Z",
+    "lastUpdated": "2025-07-23T03:18:51.748Z",
     "totalTeams": 8
   },
   "schedule": {
@@ -256,7 +256,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-23T01:19:00.264Z"
+        "lastUpdated": "2025-07-23T03:18:55.985Z"
       },
       "510981": {
         "teamCode": "510981",
@@ -403,7 +403,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-23T01:19:00.264Z"
+        "lastUpdated": "2025-07-23T03:18:55.985Z"
       },
       "510982": {
         "teamCode": "510982",
@@ -526,7 +526,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-23T01:19:00.265Z"
+        "lastUpdated": "2025-07-23T03:18:55.985Z"
       },
       "510983": {
         "teamCode": "510983",
@@ -649,7 +649,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-23T01:19:00.265Z"
+        "lastUpdated": "2025-07-23T03:18:55.985Z"
       },
       "510984": {
         "teamCode": "510984",
@@ -780,7 +780,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-23T01:19:00.265Z"
+        "lastUpdated": "2025-07-23T03:18:55.986Z"
       },
       "510985": {
         "teamCode": "510985",
@@ -927,7 +927,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-23T01:19:00.265Z"
+        "lastUpdated": "2025-07-23T03:18:55.986Z"
       },
       "510986": {
         "teamCode": "510986",
@@ -1038,7 +1038,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-23T01:19:00.265Z"
+        "lastUpdated": "2025-07-23T03:18:55.986Z"
       },
       "510987": {
         "teamCode": "510987",
@@ -1137,7 +1137,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-23T01:19:00.265Z"
+        "lastUpdated": "2025-07-23T03:18:55.986Z"
       },
       "510988": {
         "teamCode": "510988",
@@ -1218,8 +1218,12 @@
             "awayTeam": "Thornhill Reds 15U AA",
             "awayTeamCode": "510992",
             "location": "Joe Magani Park #5",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 20,
+              "away": 2,
+              "scoreText": "2-20"
+            }
           }
         ],
         "nextGames": [
@@ -1272,7 +1276,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-23T01:19:00.265Z"
+        "lastUpdated": "2025-07-23T03:18:55.986Z"
       },
       "510989": {
         "teamCode": "510989",
@@ -1403,7 +1407,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-23T01:19:00.265Z"
+        "lastUpdated": "2025-07-23T03:18:55.986Z"
       },
       "510990": {
         "teamCode": "510990",
@@ -1550,7 +1554,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-23T01:19:00.265Z"
+        "lastUpdated": "2025-07-23T03:18:55.986Z"
       },
       "510991": {
         "teamCode": "510991",
@@ -1685,7 +1689,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-23T01:19:00.265Z"
+        "lastUpdated": "2025-07-23T03:18:55.986Z"
       },
       "510992": {
         "teamCode": "510992",
@@ -1762,8 +1766,12 @@
             "awayTeam": "Thornhill Reds 15U AA",
             "awayTeamCode": "510992",
             "location": "Joe Magani Park #5",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 20,
+              "away": 2,
+              "scoreText": "2-20"
+            }
           }
         ],
         "nextGames": [
@@ -1816,7 +1824,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-23T01:19:00.265Z"
+        "lastUpdated": "2025-07-23T03:18:55.986Z"
       },
       "510993": {
         "teamCode": "510993",
@@ -1943,7 +1951,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-23T01:19:00.265Z"
+        "lastUpdated": "2025-07-23T03:18:55.986Z"
       },
       "510998": {
         "teamCode": "510998",
@@ -2066,7 +2074,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-23T01:19:00.265Z"
+        "lastUpdated": "2025-07-23T03:18:55.986Z"
       },
       "516244": {
         "teamCode": "516244",
@@ -2193,7 +2201,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-23T01:19:00.265Z"
+        "lastUpdated": "2025-07-23T03:18:55.986Z"
       },
       "518959": {
         "teamCode": "518959",
@@ -2332,7 +2340,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-23T01:19:00.265Z"
+        "lastUpdated": "2025-07-23T03:18:55.986Z"
       },
       "546379": {
         "teamCode": "546379",
@@ -2427,7 +2435,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-23T01:19:00.265Z"
+        "lastUpdated": "2025-07-23T03:18:55.986Z"
       }
     },
     "allGames": [
@@ -4464,8 +4472,12 @@
         "awayTeam": "Thornhill Reds 15U AA",
         "awayTeamCode": "510992",
         "location": "Joe Magani Park #5",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 20,
+          "away": 2,
+          "scoreText": "2-20"
+        }
       },
       {
         "date": "2025-07-22T20:00:00.000Z",
@@ -4850,8 +4862,12 @@
         "awayTeam": "Thornhill Reds 15U AA",
         "awayTeamCode": "510992",
         "location": "Joe Magani Park #5",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 20,
+          "away": 2,
+          "scoreText": "2-20"
+        }
       },
       {
         "date": "2025-07-22T20:00:00.000Z",
@@ -5088,14 +5104,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-23T01:19:00.265Z",
+    "lastUpdated": "2025-07-23T03:18:55.986Z",
     "totalGames": 162
   },
   "summary": {
     "totalTeams": 8,
     "totalGames": 162,
-    "completedGames": 116,
-    "upcomingGames": 46,
+    "completedGames": 117,
+    "upcomingGames": 45,
     "topTeam": {
       "team": "Innisfil Cardinals 15U AA",
       "teamCode": "510989",
@@ -5112,6 +5128,6 @@
       "date": "Thu, May 29",
       "location": "Bethesda Fields #2"
     },
-    "lastUpdated": "2025-07-23T01:21:29.181Z"
+    "lastUpdated": "2025-07-23T03:21:25.916Z"
   }
 }
