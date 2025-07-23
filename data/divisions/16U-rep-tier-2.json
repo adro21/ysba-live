@@ -92,7 +92,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-23T19:18:20.999Z",
+    "lastUpdated": "2025-07-23T19:41:47.468Z",
     "totalTeams": 5
   },
   "schedule": {
@@ -100,21 +100,9 @@
       "511009": {
         "teamCode": "511009",
         "totalGames": 16,
-        "playedGames": 11,
-        "upcomingGames": 5,
+        "playedGames": 12,
+        "upcomingGames": 4,
         "recentGames": [
-          {
-            "date": "2025-07-07T19:30:00.000Z",
-            "dateText": "Mon, Jul 7",
-            "time": "7:30 PM",
-            "homeTeam": "Barrie Baycats 16U AA",
-            "homeTeamCode": "511009",
-            "awayTeam": "Richmond Hill Phoenix 16U AA",
-            "awayTeamCode": "511012",
-            "location": "Vintage Throne Stadium",
-            "isCompleted": false,
-            "score": null
-          },
           {
             "date": "2025-07-11T19:30:00.000Z",
             "dateText": "Fri, Jul 11",
@@ -162,9 +150,7 @@
             "location": "Vintage Throne Stadium",
             "isCompleted": false,
             "score": null
-          }
-        ],
-        "nextGames": [
+          },
           {
             "date": "2025-07-23T19:30:00.000Z",
             "dateText": "Wed, Jul 23",
@@ -176,7 +162,9 @@
             "location": "Lennox A",
             "isCompleted": false,
             "score": null
-          },
+          }
+        ],
+        "nextGames": [
           {
             "date": "2025-07-28T19:30:00.000Z",
             "dateText": "Mon, Jul 28",
@@ -226,7 +214,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-23T19:18:23.690Z"
+        "lastUpdated": "2025-07-23T19:41:50.107Z"
       },
       "511010": {
         "teamCode": "511010",
@@ -321,7 +309,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-23T19:18:23.690Z"
+        "lastUpdated": "2025-07-23T19:41:50.107Z"
       },
       "511011": {
         "teamCode": "511011",
@@ -464,30 +452,14 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-23T19:18:23.690Z"
+        "lastUpdated": "2025-07-23T19:41:50.107Z"
       },
       "511012": {
         "teamCode": "511012",
         "totalGames": 16,
-        "playedGames": 11,
-        "upcomingGames": 5,
+        "playedGames": 12,
+        "upcomingGames": 4,
         "recentGames": [
-          {
-            "date": "2025-07-05T10:00:00.000Z",
-            "dateText": "Sat, Jul 5",
-            "time": "10:00 AM",
-            "homeTeam": "Markham Mariners 16U AA",
-            "homeTeamCode": "511010",
-            "awayTeam": "Richmond Hill Phoenix 16U AA",
-            "awayTeamCode": "511012",
-            "location": "Cornell 1",
-            "isCompleted": true,
-            "score": {
-              "home": 10,
-              "away": 12,
-              "scoreText": "12-10"
-            }
-          },
           {
             "date": "2025-07-07T19:30:00.000Z",
             "dateText": "Mon, Jul 7",
@@ -535,9 +507,7 @@
             "location": "David Hamilton 1",
             "isCompleted": false,
             "score": null
-          }
-        ],
-        "nextGames": [
+          },
           {
             "date": "2025-07-23T19:30:00.000Z",
             "dateText": "Wed, Jul 23",
@@ -549,7 +519,9 @@
             "location": "Lennox A",
             "isCompleted": false,
             "score": null
-          },
+          }
+        ],
+        "nextGames": [
           {
             "date": "2025-07-24T18:00:00.000Z",
             "dateText": "Thu, Jul 24",
@@ -599,7 +571,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-23T19:18:23.690Z"
+        "lastUpdated": "2025-07-23T19:41:50.107Z"
       },
       "511013": {
         "teamCode": "511013",
@@ -706,7 +678,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-23T19:18:23.690Z"
+        "lastUpdated": "2025-07-23T19:41:50.107Z"
       }
     },
     "allGames": [
@@ -1277,6 +1249,18 @@
     ],
     "recentGames": [
       {
+        "date": "2025-07-23T19:30:00.000Z",
+        "dateText": "Wed, Jul 23",
+        "time": "7:30 PM",
+        "homeTeam": "Barrie Baycats 16U AA",
+        "homeTeamCode": "511009",
+        "awayTeam": "Richmond Hill Phoenix 16U AA",
+        "awayTeamCode": "511012",
+        "location": "Lennox A",
+        "isCompleted": false,
+        "score": null
+      },
+      {
         "date": "2025-07-22T19:00:00.000Z",
         "dateText": "Tue, Jul 22",
         "time": "7:00 PM",
@@ -1383,37 +1367,9 @@
         "location": "Vintage Throne Stadium",
         "isCompleted": false,
         "score": null
-      },
-      {
-        "date": "2025-07-05T10:00:00.000Z",
-        "dateText": "Sat, Jul 5",
-        "time": "10:00 AM",
-        "homeTeam": "Markham Mariners 16U AA",
-        "homeTeamCode": "511010",
-        "awayTeam": "Richmond Hill Phoenix 16U AA",
-        "awayTeamCode": "511012",
-        "location": "Cornell 1",
-        "isCompleted": true,
-        "score": {
-          "home": 10,
-          "away": 12,
-          "scoreText": "12-10"
-        }
       }
     ],
     "upcomingGames": [
-      {
-        "date": "2025-07-23T19:30:00.000Z",
-        "dateText": "Wed, Jul 23",
-        "time": "7:30 PM",
-        "homeTeam": "Barrie Baycats 16U AA",
-        "homeTeamCode": "511009",
-        "awayTeam": "Richmond Hill Phoenix 16U AA",
-        "awayTeamCode": "511012",
-        "location": "Lennox A",
-        "isCompleted": false,
-        "score": null
-      },
       {
         "date": "2025-07-24T18:00:00.000Z",
         "dateText": "Thu, Jul 24",
@@ -1523,7 +1479,7 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-23T19:18:23.690Z",
+    "lastUpdated": "2025-07-23T19:41:50.107Z",
     "totalGames": 40
   },
   "summary": {
@@ -1547,6 +1503,6 @@
       "date": "Sat, Jul 5",
       "location": "Cornell 1"
     },
-    "lastUpdated": "2025-07-23T19:20:23.778Z"
+    "lastUpdated": "2025-07-23T19:43:49.736Z"
   }
 }
