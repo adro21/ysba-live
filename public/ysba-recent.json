@@ -1,7 +1,91 @@
 {
-  "lastUpdated": "2025-07-24T18:27:35.850Z",
+  "lastUpdated": "2025-07-24T18:58:55.701Z",
   "totalGames": 190,
   "games": [
+    {
+      "date": "2025-07-24T18:30:00.000Z",
+      "dateText": "Thu, Jul 24",
+      "time": "6:30 PM",
+      "homeTeam": "Markham Mariners 10U A",
+      "homeTeamCode": "510875",
+      "awayTeam": "Thornhill Reds 10U A",
+      "awayTeamCode": "510880",
+      "location": "Carlton Park",
+      "isCompleted": false,
+      "score": null,
+      "division": "10U",
+      "tier": "rep-tier-2"
+    },
+    {
+      "date": "2025-07-24T18:30:00.000Z",
+      "dateText": "Thu, Jul 24",
+      "time": "6:30 PM",
+      "homeTeam": "Innisfil Cardinals 10U A",
+      "homeTeamCode": "510873",
+      "awayTeam": "Orillia Royals 10U A",
+      "awayTeamCode": "510878",
+      "location": "Nantyr Park",
+      "isCompleted": false,
+      "score": null,
+      "division": "10U",
+      "tier": "rep-tier-2"
+    },
+    {
+      "date": "2025-07-24T18:30:00.000Z",
+      "dateText": "Thu, Jul 24",
+      "time": "6:30 PM",
+      "homeTeam": "Markham Mariners 10U A",
+      "homeTeamCode": "510875",
+      "awayTeam": "Thornhill Reds 10U A",
+      "awayTeamCode": "510880",
+      "location": "Carlton Park",
+      "isCompleted": false,
+      "score": null,
+      "division": "10U",
+      "tier": "rep-tier-3"
+    },
+    {
+      "date": "2025-07-24T18:30:00.000Z",
+      "dateText": "Thu, Jul 24",
+      "time": "6:30 PM",
+      "homeTeam": "Innisfil Cardinals 10U A",
+      "homeTeamCode": "510873",
+      "awayTeam": "Orillia Royals 10U A",
+      "awayTeamCode": "510878",
+      "location": "Nantyr Park",
+      "isCompleted": false,
+      "score": null,
+      "division": "10U",
+      "tier": "rep-tier-3"
+    },
+    {
+      "date": "2025-07-24T18:30:00.000Z",
+      "dateText": "Thu, Jul 24",
+      "time": "6:30 PM",
+      "homeTeam": "Caledon Nationals 12U AA",
+      "homeTeamCode": "510929",
+      "awayTeam": "Aurora-King Jays 12U AA",
+      "awayTeamCode": "510935",
+      "location": "North Hill Field 3",
+      "isCompleted": false,
+      "score": null,
+      "division": "12U",
+      "tier": "rep-tier-2"
+    },
+    {
+      "date": "2025-07-24T18:30:00.000Z",
+      "dateText": "Thu, Jul 24",
+      "time": "6:30 PM",
+      "homeTeam": "Collingwood Jays 12U AA",
+      "homeTeamCode": "510930",
+      "awayTeam": "Newmarket Hawks 12U AA",
+      "awayTeamCode": "510923",
+      "location": "Heritage Park Small",
+      "isCompleted": false,
+      "score": null,
+      "division": "12U",
+      "tier": "rep-tier-2"
+    },
     {
       "date": "2025-07-24T18:30:00.000Z",
       "dateText": "Thu, Jul 24",
@@ -24,6 +108,34 @@
       "date": "2025-07-24T18:30:00.000Z",
       "dateText": "Thu, Jul 24",
       "time": "6:30 PM",
+      "homeTeam": "Caledon Nationals 12U AA",
+      "homeTeamCode": "510929",
+      "awayTeam": "Aurora-King Jays 12U AA",
+      "awayTeamCode": "510935",
+      "location": "North Hill Field 3",
+      "isCompleted": false,
+      "score": null,
+      "division": "12U",
+      "tier": "rep-tier-3"
+    },
+    {
+      "date": "2025-07-24T18:30:00.000Z",
+      "dateText": "Thu, Jul 24",
+      "time": "6:30 PM",
+      "homeTeam": "Collingwood Jays 12U AA",
+      "homeTeamCode": "510930",
+      "awayTeam": "Newmarket Hawks 12U AA",
+      "awayTeamCode": "510923",
+      "location": "Heritage Park Small",
+      "isCompleted": false,
+      "score": null,
+      "division": "12U",
+      "tier": "rep-tier-3"
+    },
+    {
+      "date": "2025-07-24T18:30:00.000Z",
+      "dateText": "Thu, Jul 24",
+      "time": "6:30 PM",
       "homeTeam": "Thornhill Reds 12U A",
       "homeTeamCode": "510926",
       "awayTeam": "Bradford Tigers 12U A",
@@ -37,6 +149,20 @@
       },
       "division": "12U",
       "tier": "rep-tier-3"
+    },
+    {
+      "date": "2025-07-24T18:30:00.000Z",
+      "dateText": "Thu, Jul 24",
+      "time": "6:30 PM",
+      "homeTeam": "Stayner White Sox 18U C",
+      "homeTeamCode": "519242",
+      "awayTeam": "Richmond Hill Phoenix 18U A",
+      "awayTeamCode": "511033",
+      "location": "Stayner Collegiate",
+      "isCompleted": false,
+      "score": null,
+      "division": "18U",
+      "tier": "rep-no-tier"
     },
     {
       "date": "2025-07-24T18:15:00.000Z",
@@ -385,8 +511,12 @@
       "awayTeam": "Caledon Nationals 11U A",
       "awayTeamCode": "510893",
       "location": "Vasey Park",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 16,
+        "away": 4,
+        "scoreText": "4-16"
+      },
       "division": "11U",
       "tier": "rep-tier-2"
     },
@@ -399,8 +529,12 @@
       "awayTeam": "Caledon Nationals 11U A",
       "awayTeamCode": "510893",
       "location": "Vasey Park",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 16,
+        "away": 4,
+        "scoreText": "4-16"
+      },
       "division": "11U",
       "tier": "rep-tier-3"
     },
@@ -626,152 +760,6 @@
       "isCompleted": false,
       "score": null,
       "division": "15U",
-      "tier": "rep-tier-2"
-    },
-    {
-      "date": "2025-07-23T18:30:00.000Z",
-      "dateText": "Wed, Jul 23",
-      "time": "6:30 PM",
-      "homeTeam": "Collingwood Jays 15U A",
-      "homeTeamCode": "510986",
-      "awayTeam": "Stouffville Yankees 15U A",
-      "awayTeamCode": "510985",
-      "location": "Legion Park",
-      "isCompleted": true,
-      "score": {
-        "home": 8,
-        "away": 8,
-        "scoreText": "8-8"
-      },
-      "division": "15U",
-      "tier": "rep-tier-2"
-    },
-    {
-      "date": "2025-07-23T18:30:00.000Z",
-      "dateText": "Wed, Jul 23",
-      "time": "6:30 PM",
-      "homeTeam": "Georgina Bulldogs 15U B",
-      "homeTeamCode": "510998",
-      "awayTeam": "Barrie Baycats 15U A",
-      "awayTeamCode": "510981",
-      "location": "POSTPONED",
-      "isCompleted": false,
-      "score": null,
-      "division": "15U",
-      "tier": "rep-tier-3"
-    },
-    {
-      "date": "2025-07-23T18:30:00.000Z",
-      "dateText": "Wed, Jul 23",
-      "time": "6:30 PM",
-      "homeTeam": "Collingwood Jays 15U A",
-      "homeTeamCode": "510986",
-      "awayTeam": "Stouffville Yankees 15U A",
-      "awayTeamCode": "510985",
-      "location": "Legion Park",
-      "isCompleted": true,
-      "score": {
-        "home": 8,
-        "away": 8,
-        "scoreText": "8-8"
-      },
-      "division": "15U",
-      "tier": "rep-tier-3"
-    },
-    {
-      "date": "2025-07-23T18:15:00.000Z",
-      "dateText": "Wed, Jul 23",
-      "time": "6:15 PM",
-      "homeTeam": "Georgina Bulldogs 11U B",
-      "homeTeamCode": "510916",
-      "awayTeam": "Barrie Baycats 11U A",
-      "awayTeamCode": "510892",
-      "location": "ROC 2",
-      "isCompleted": false,
-      "score": null,
-      "division": "11U",
-      "tier": "rep-tier-2"
-    },
-    {
-      "date": "2025-07-23T18:15:00.000Z",
-      "dateText": "Wed, Jul 23",
-      "time": "6:15 PM",
-      "homeTeam": "Georgina Bulldogs 11U B",
-      "homeTeamCode": "510916",
-      "awayTeam": "Barrie Baycats 11U A",
-      "awayTeamCode": "510892",
-      "location": "ROC 2",
-      "isCompleted": false,
-      "score": null,
-      "division": "11U",
-      "tier": "rep-tier-3"
-    },
-    {
-      "date": "2025-07-23T18:00:00.000Z",
-      "dateText": "Wed, Jul 23",
-      "time": "6:00 PM",
-      "homeTeam": "TNT Thunder 9U DS",
-      "homeTeamCode": "511115",
-      "awayTeam": "Caledon Nationals 9U HS",
-      "awayTeamCode": "511116",
-      "location": "McLean Diamond",
-      "isCompleted": true,
-      "score": {
-        "home": 17,
-        "away": 9,
-        "scoreText": "9-17"
-      },
-      "division": "9U",
-      "tier": "select-all-tiers"
-    },
-    {
-      "date": "2025-07-23T18:00:00.000Z",
-      "dateText": "Wed, Jul 23",
-      "time": "6:00 PM",
-      "homeTeam": "Collingwood Jays 10U A",
-      "homeTeamCode": "510872",
-      "awayTeam": "Markham Mariners 10U A",
-      "awayTeamCode": "510875",
-      "location": "Heritage Park",
-      "isCompleted": true,
-      "score": {
-        "home": 6,
-        "away": 14,
-        "scoreText": "14-6"
-      },
-      "division": "10U",
-      "tier": "rep-tier-2"
-    },
-    {
-      "date": "2025-07-23T18:00:00.000Z",
-      "dateText": "Wed, Jul 23",
-      "time": "6:00 PM",
-      "homeTeam": "Collingwood Jays 10U A",
-      "homeTeamCode": "510872",
-      "awayTeam": "Markham Mariners 10U A",
-      "awayTeamCode": "510875",
-      "location": "Heritage Park",
-      "isCompleted": true,
-      "score": {
-        "home": 6,
-        "away": 14,
-        "scoreText": "14-6"
-      },
-      "division": "10U",
-      "tier": "rep-tier-3"
-    },
-    {
-      "date": "2025-07-23T18:00:00.000Z",
-      "dateText": "Wed, Jul 23",
-      "time": "6:00 PM",
-      "homeTeam": "Orangeville Bengals 11U A",
-      "homeTeamCode": "510897",
-      "awayTeam": "New Lowell Knights 11U D",
-      "awayTeamCode": "510917",
-      "location": "Barbour Field",
-      "isCompleted": false,
-      "score": null,
-      "division": "11U",
       "tier": "rep-tier-2"
     }
   ]

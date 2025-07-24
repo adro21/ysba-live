@@ -6,17 +6,17 @@
         "team": "Midland Penetang Twins 11U A",
         "teamCode": "510891",
         "record": {
-          "gamesPlayed": 12,
-          "wins": 10,
+          "gamesPlayed": 13,
+          "wins": 11,
           "losses": 1,
           "ties": 1,
-          "winPercentage": "0.875"
+          "winPercentage": "0.885"
         },
         "stats": {
-          "points": 21,
-          "runsFor": 123,
-          "runsAgainst": 69,
-          "runDifferential": 54
+          "points": 23,
+          "runsFor": 139,
+          "runsAgainst": 73,
+          "runDifferential": 66
         }
       },
       {
@@ -24,17 +24,17 @@
         "team": "Barrie Baycats 11U A",
         "teamCode": "510892",
         "record": {
-          "gamesPlayed": 12,
-          "wins": 10,
+          "gamesPlayed": 13,
+          "wins": 11,
           "losses": 2,
           "ties": 0,
-          "winPercentage": "0.833"
+          "winPercentage": "0.846"
         },
         "stats": {
-          "points": 20,
-          "runsFor": 156,
-          "runsAgainst": 67,
-          "runDifferential": 89
+          "points": 22,
+          "runsFor": 172,
+          "runsAgainst": 72,
+          "runDifferential": 100
         }
       },
       {
@@ -78,17 +78,17 @@
         "team": "New Lowell Knights 11U D",
         "teamCode": "510917",
         "record": {
-          "gamesPlayed": 14,
-          "wins": 6,
+          "gamesPlayed": 15,
+          "wins": 7,
           "losses": 7,
           "ties": 1,
-          "winPercentage": "0.464"
+          "winPercentage": "0.500"
         },
         "stats": {
-          "points": 13,
-          "runsFor": 128,
-          "runsAgainst": 141,
-          "runDifferential": -13
+          "points": 15,
+          "runsFor": 148,
+          "runsAgainst": 146,
+          "runDifferential": 2
         }
       },
       {
@@ -132,24 +132,6 @@
         "team": "Orangeville Bengals 11U A",
         "teamCode": "510897",
         "record": {
-          "gamesPlayed": 10,
-          "wins": 2,
-          "losses": 8,
-          "ties": 0,
-          "winPercentage": "0.200"
-        },
-        "stats": {
-          "points": 4,
-          "runsFor": 65,
-          "runsAgainst": 106,
-          "runDifferential": -41
-        }
-      },
-      {
-        "position": 9,
-        "team": "Georgina Bulldogs 11U B",
-        "teamCode": "510916",
-        "record": {
           "gamesPlayed": 11,
           "wins": 2,
           "losses": 9,
@@ -158,15 +140,15 @@
         },
         "stats": {
           "points": 4,
-          "runsFor": 82,
-          "runsAgainst": 148,
-          "runDifferential": -66
+          "runsFor": 70,
+          "runsAgainst": 126,
+          "runDifferential": -56
         }
       },
       {
-        "position": 8,
-        "team": "Caledon Nationals 11U A",
-        "teamCode": "510893",
+        "position": 9,
+        "team": "Georgina Bulldogs 11U B",
+        "teamCode": "510916",
         "record": {
           "gamesPlayed": 12,
           "wins": 2,
@@ -176,13 +158,31 @@
         },
         "stats": {
           "points": 4,
-          "runsFor": 73,
-          "runsAgainst": 152,
-          "runDifferential": -79
+          "runsFor": 87,
+          "runsAgainst": 164,
+          "runDifferential": -77
+        }
+      },
+      {
+        "position": 8,
+        "team": "Caledon Nationals 11U A",
+        "teamCode": "510893",
+        "record": {
+          "gamesPlayed": 13,
+          "wins": 2,
+          "losses": 11,
+          "ties": 0,
+          "winPercentage": "0.154"
+        },
+        "stats": {
+          "points": 4,
+          "runsFor": 77,
+          "runsAgainst": 168,
+          "runDifferential": -91
         }
       }
     ],
-    "lastUpdated": "2025-07-24T18:23:12.626Z",
+    "lastUpdated": "2025-07-24T18:54:29.770Z",
     "totalTeams": 10
   },
   "schedule": {
@@ -266,8 +266,12 @@
             "awayTeam": "Caledon Nationals 11U A",
             "awayTeamCode": "510893",
             "location": "Vasey Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 16,
+              "away": 4,
+              "scoreText": "4-16"
+            }
           }
         ],
         "nextGames": [
@@ -320,7 +324,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T18:23:16.807Z"
+        "lastUpdated": "2025-07-24T18:54:34.164Z"
       },
       "510892": {
         "teamCode": "510892",
@@ -397,8 +401,12 @@
             "awayTeam": "Barrie Baycats 11U A",
             "awayTeamCode": "510892",
             "location": "ROC 2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 16,
+              "scoreText": "16-5"
+            }
           }
         ],
         "nextGames": [
@@ -451,7 +459,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T18:23:16.807Z"
+        "lastUpdated": "2025-07-24T18:54:34.164Z"
       },
       "510893": {
         "teamCode": "510893",
@@ -528,8 +536,12 @@
             "awayTeam": "Caledon Nationals 11U A",
             "awayTeamCode": "510893",
             "location": "Vasey Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 16,
+              "away": 4,
+              "scoreText": "4-16"
+            }
           }
         ],
         "nextGames": [
@@ -582,7 +594,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T18:23:16.807Z"
+        "lastUpdated": "2025-07-24T18:54:34.164Z"
       },
       "510894": {
         "teamCode": "510894",
@@ -729,7 +741,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T18:23:16.807Z"
+        "lastUpdated": "2025-07-24T18:54:34.164Z"
       },
       "510897": {
         "teamCode": "510897",
@@ -810,8 +822,12 @@
             "awayTeam": "New Lowell Knights 11U D",
             "awayTeamCode": "510917",
             "location": "Barbour Field",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 20,
+              "scoreText": "20-5"
+            }
           }
         ],
         "nextGames": [
@@ -876,7 +892,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T18:23:16.807Z"
+        "lastUpdated": "2025-07-24T18:54:34.164Z"
       },
       "510898": {
         "teamCode": "510898",
@@ -1027,7 +1043,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T18:23:16.807Z"
+        "lastUpdated": "2025-07-24T18:54:34.164Z"
       },
       "510903": {
         "teamCode": "510903",
@@ -1126,7 +1142,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T18:23:16.807Z"
+        "lastUpdated": "2025-07-24T18:54:34.164Z"
       },
       "510905": {
         "teamCode": "510905",
@@ -1253,7 +1269,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T18:23:16.807Z"
+        "lastUpdated": "2025-07-24T18:54:34.164Z"
       },
       "510906": {
         "teamCode": "510906",
@@ -1364,7 +1380,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T18:23:16.807Z"
+        "lastUpdated": "2025-07-24T18:54:34.164Z"
       },
       "510907": {
         "teamCode": "510907",
@@ -1479,7 +1495,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T18:23:16.807Z"
+        "lastUpdated": "2025-07-24T18:54:34.164Z"
       },
       "510908": {
         "teamCode": "510908",
@@ -1606,7 +1622,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T18:23:16.807Z"
+        "lastUpdated": "2025-07-24T18:54:34.164Z"
       },
       "510909": {
         "teamCode": "510909",
@@ -1745,7 +1761,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T18:23:16.807Z"
+        "lastUpdated": "2025-07-24T18:54:34.164Z"
       },
       "510910": {
         "teamCode": "510910",
@@ -1844,7 +1860,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T18:23:16.807Z"
+        "lastUpdated": "2025-07-24T18:54:34.164Z"
       },
       "510911": {
         "teamCode": "510911",
@@ -1995,7 +2011,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T18:23:16.807Z"
+        "lastUpdated": "2025-07-24T18:54:34.164Z"
       },
       "510912": {
         "teamCode": "510912",
@@ -2134,7 +2150,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T18:23:16.807Z"
+        "lastUpdated": "2025-07-24T18:54:34.164Z"
       },
       "510913": {
         "teamCode": "510913",
@@ -2273,7 +2289,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T18:23:16.807Z"
+        "lastUpdated": "2025-07-24T18:54:34.164Z"
       },
       "510916": {
         "teamCode": "510916",
@@ -2354,8 +2370,12 @@
             "awayTeam": "Barrie Baycats 11U A",
             "awayTeamCode": "510892",
             "location": "ROC 2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 16,
+              "scoreText": "16-5"
+            }
           }
         ],
         "nextGames": [
@@ -2408,7 +2428,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T18:23:16.807Z"
+        "lastUpdated": "2025-07-24T18:54:34.164Z"
       },
       "510917": {
         "teamCode": "510917",
@@ -2489,8 +2509,12 @@
             "awayTeam": "New Lowell Knights 11U D",
             "awayTeamCode": "510917",
             "location": "Barbour Field",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 20,
+              "scoreText": "20-5"
+            }
           }
         ],
         "nextGames": [
@@ -2531,7 +2555,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T18:23:16.807Z"
+        "lastUpdated": "2025-07-24T18:54:34.164Z"
       },
       "516241": {
         "teamCode": "516241",
@@ -2682,7 +2706,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T18:23:16.807Z"
+        "lastUpdated": "2025-07-24T18:54:34.164Z"
       }
     },
     "allGames": [
@@ -4623,8 +4647,12 @@
         "awayTeam": "New Lowell Knights 11U D",
         "awayTeamCode": "510917",
         "location": "Barbour Field",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 5,
+          "away": 20,
+          "scoreText": "20-5"
+        }
       },
       {
         "date": "2025-07-23T18:00:00.000Z",
@@ -4651,8 +4679,12 @@
         "awayTeam": "Barrie Baycats 11U A",
         "awayTeamCode": "510892",
         "location": "ROC 2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 5,
+          "away": 16,
+          "scoreText": "16-5"
+        }
       },
       {
         "date": "2025-07-23T18:30:00.000Z",
@@ -4679,8 +4711,12 @@
         "awayTeam": "Caledon Nationals 11U A",
         "awayTeamCode": "510893",
         "location": "Vasey Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 16,
+          "away": 4,
+          "scoreText": "4-16"
+        }
       },
       {
         "date": "2025-07-26T16:00:00.000Z",
@@ -5113,8 +5149,12 @@
         "awayTeam": "Caledon Nationals 11U A",
         "awayTeamCode": "510893",
         "location": "Vasey Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 16,
+          "away": 4,
+          "scoreText": "4-16"
+        }
       },
       {
         "date": "2025-07-23T18:30:00.000Z",
@@ -5141,8 +5181,12 @@
         "awayTeam": "Barrie Baycats 11U A",
         "awayTeamCode": "510892",
         "location": "ROC 2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 5,
+          "away": 16,
+          "scoreText": "16-5"
+        }
       },
       {
         "date": "2025-07-23T18:00:00.000Z",
@@ -5153,8 +5197,12 @@
         "awayTeam": "New Lowell Knights 11U D",
         "awayTeamCode": "510917",
         "location": "Barbour Field",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 5,
+          "away": 20,
+          "scoreText": "20-5"
+        }
       },
       {
         "date": "2025-07-23T18:00:00.000Z",
@@ -5375,20 +5423,20 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-24T18:23:16.807Z",
+    "lastUpdated": "2025-07-24T18:54:34.164Z",
     "totalGames": 162
   },
   "summary": {
     "totalTeams": 10,
     "totalGames": 162,
-    "completedGames": 118,
-    "upcomingGames": 44,
+    "completedGames": 121,
+    "upcomingGames": 41,
     "topTeam": {
       "team": "Midland Penetang Twins 11U A",
       "teamCode": "510891",
-      "wins": 10,
+      "wins": 11,
       "losses": 1,
-      "winPercentage": "0.875"
+      "winPercentage": "0.885"
     },
     "highestScoringGame": {
       "homeTeam": "Orangeville Bengals 11U AA",
@@ -5399,6 +5447,6 @@
       "date": "Wed, Jul 16",
       "location": "Alton Park"
     },
-    "lastUpdated": "2025-07-24T18:27:35.850Z"
+    "lastUpdated": "2025-07-24T18:58:55.701Z"
   }
 }
