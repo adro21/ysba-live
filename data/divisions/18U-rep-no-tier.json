@@ -6,17 +6,17 @@
         "team": "Aurora-King Jays 18U A",
         "teamCode": "511022",
         "record": {
-          "gamesPlayed": 15,
-          "wins": 13,
+          "gamesPlayed": 16,
+          "wins": 14,
           "losses": 2,
           "ties": 0,
-          "winPercentage": "0.867"
+          "winPercentage": "0.875"
         },
         "stats": {
-          "points": 26,
-          "runsFor": 130,
-          "runsAgainst": 62,
-          "runDifferential": 68
+          "points": 28,
+          "runsFor": 143,
+          "runsAgainst": 71,
+          "runDifferential": 72
         }
       },
       {
@@ -110,24 +110,6 @@
         }
       },
       {
-        "position": 8,
-        "team": "Barrie Baycats 17U A",
-        "teamCode": "511023",
-        "record": {
-          "gamesPlayed": 14,
-          "wins": 8,
-          "losses": 6,
-          "ties": 0,
-          "winPercentage": "0.571"
-        },
-        "stats": {
-          "points": 16,
-          "runsFor": 103,
-          "runsAgainst": 87,
-          "runDifferential": 16
-        }
-      },
-      {
         "position": 6,
         "team": "Markham Mariners 18U A - Team 1",
         "teamCode": "511030",
@@ -143,6 +125,24 @@
           "runsFor": 90,
           "runsAgainst": 90,
           "runDifferential": 0
+        }
+      },
+      {
+        "position": 8,
+        "team": "Barrie Baycats 17U A",
+        "teamCode": "511023",
+        "record": {
+          "gamesPlayed": 15,
+          "wins": 8,
+          "losses": 7,
+          "ties": 0,
+          "winPercentage": "0.533"
+        },
+        "stats": {
+          "points": 16,
+          "runsFor": 112,
+          "runsAgainst": 100,
+          "runDifferential": 12
         }
       },
       {
@@ -344,7 +344,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-23T23:44:59.439Z",
+    "lastUpdated": "2025-07-24T01:18:44.539Z",
     "totalTeams": 19
   },
   "schedule": {
@@ -433,7 +433,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-23T23:45:03.764Z"
+        "lastUpdated": "2025-07-24T01:18:48.912Z"
       },
       "511022": {
         "teamCode": "511022",
@@ -514,12 +514,16 @@
             "awayTeam": "Aurora-King Jays 18U A",
             "awayTeamCode": "511022",
             "location": "Barrie Community Sports Complex",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 13,
+              "scoreText": "13-9"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-23T23:45:03.764Z"
+        "lastUpdated": "2025-07-24T01:18:48.912Z"
       },
       "511023": {
         "teamCode": "511023",
@@ -584,8 +588,12 @@
             "awayTeam": "Aurora-King Jays 18U A",
             "awayTeamCode": "511022",
             "location": "Barrie Community Sports Complex",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 13,
+              "scoreText": "13-9"
+            }
           },
           {
             "date": "2025-07-23T20:30:00.000Z",
@@ -614,7 +622,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-23T23:45:03.764Z"
+        "lastUpdated": "2025-07-24T01:18:48.912Z"
       },
       "511024": {
         "teamCode": "511024",
@@ -696,7 +704,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-23T23:45:03.764Z"
+        "lastUpdated": "2025-07-24T01:18:48.912Z"
       },
       "511025": {
         "teamCode": "511025",
@@ -811,7 +819,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-23T23:45:03.764Z"
+        "lastUpdated": "2025-07-24T01:18:48.912Z"
       },
       "511026": {
         "teamCode": "511026",
@@ -910,7 +918,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-23T23:45:03.764Z"
+        "lastUpdated": "2025-07-24T01:18:48.912Z"
       },
       "511027": {
         "teamCode": "511027",
@@ -1021,7 +1029,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-23T23:45:03.765Z"
+        "lastUpdated": "2025-07-24T01:18:48.912Z"
       },
       "511028": {
         "teamCode": "511028",
@@ -1124,7 +1132,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-23T23:45:03.765Z"
+        "lastUpdated": "2025-07-24T01:18:48.912Z"
       },
       "511030": {
         "teamCode": "511030",
@@ -1227,7 +1235,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-23T23:45:03.765Z"
+        "lastUpdated": "2025-07-24T01:18:48.912Z"
       },
       "511031": {
         "teamCode": "511031",
@@ -1313,7 +1321,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-23T23:45:03.765Z"
+        "lastUpdated": "2025-07-24T01:18:48.912Z"
       },
       "511032": {
         "teamCode": "511032",
@@ -1403,7 +1411,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-23T23:45:03.765Z"
+        "lastUpdated": "2025-07-24T01:18:48.912Z"
       },
       "511033": {
         "teamCode": "511033",
@@ -1502,7 +1510,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-23T23:45:03.765Z"
+        "lastUpdated": "2025-07-24T01:18:48.912Z"
       },
       "511034": {
         "teamCode": "511034",
@@ -1601,7 +1609,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-23T23:45:03.765Z"
+        "lastUpdated": "2025-07-24T01:18:48.912Z"
       },
       "511035": {
         "teamCode": "511035",
@@ -1687,7 +1695,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-23T23:45:03.765Z"
+        "lastUpdated": "2025-07-24T01:18:48.912Z"
       },
       "516246": {
         "teamCode": "516246",
@@ -1777,7 +1785,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-23T23:45:03.765Z"
+        "lastUpdated": "2025-07-24T01:18:48.912Z"
       },
       "518960": {
         "teamCode": "518960",
@@ -1876,7 +1884,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-23T23:45:03.765Z"
+        "lastUpdated": "2025-07-24T01:18:48.912Z"
       },
       "518962": {
         "teamCode": "518962",
@@ -1958,7 +1966,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-23T23:45:03.765Z"
+        "lastUpdated": "2025-07-24T01:18:48.912Z"
       },
       "519242": {
         "teamCode": "519242",
@@ -2061,7 +2069,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-23T23:45:03.765Z"
+        "lastUpdated": "2025-07-24T01:18:48.912Z"
       },
       "546377": {
         "teamCode": "546377",
@@ -2143,7 +2151,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-23T23:45:03.765Z"
+        "lastUpdated": "2025-07-24T01:18:48.912Z"
       }
     },
     "allGames": [
@@ -4524,8 +4532,12 @@
         "awayTeam": "Aurora-King Jays 18U A",
         "awayTeamCode": "511022",
         "location": "Barrie Community Sports Complex",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 13,
+          "scoreText": "13-9"
+        }
       },
       {
         "date": "2025-07-23T19:00:00.000Z",
@@ -4706,8 +4718,12 @@
         "awayTeam": "Aurora-King Jays 18U A",
         "awayTeamCode": "511022",
         "location": "Barrie Community Sports Complex",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 13,
+          "scoreText": "13-9"
+        }
       },
       {
         "date": "2025-07-22T20:30:00.000Z",
@@ -4864,20 +4880,20 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-23T23:45:03.765Z",
+    "lastUpdated": "2025-07-24T01:18:48.912Z",
     "totalGames": 161
   },
   "summary": {
     "totalTeams": 19,
     "totalGames": 161,
-    "completedGames": 142,
-    "upcomingGames": 19,
+    "completedGames": 143,
+    "upcomingGames": 18,
     "topTeam": {
       "team": "Aurora-King Jays 18U A",
       "teamCode": "511022",
-      "wins": 13,
+      "wins": 14,
       "losses": 2,
-      "winPercentage": "0.867"
+      "winPercentage": "0.875"
     },
     "highestScoringGame": {
       "homeTeam": "Women's Team",
@@ -4888,6 +4904,6 @@
       "date": "Sun, Jun 1",
       "location": "David Hamilton #1"
     },
-    "lastUpdated": "2025-07-23T23:46:49.492Z"
+    "lastUpdated": "2025-07-24T01:20:34.347Z"
   }
 }
