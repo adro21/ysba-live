@@ -6,17 +6,17 @@
         "team": "Aurora-King Jays 13U AA",
         "teamCode": "510946",
         "record": {
-          "gamesPlayed": 12,
-          "wins": 9,
+          "gamesPlayed": 13,
+          "wins": 10,
           "losses": 3,
           "ties": 0,
-          "winPercentage": "0.750"
+          "winPercentage": "0.769"
         },
         "stats": {
-          "points": 18,
-          "runsFor": 114,
+          "points": 20,
+          "runsFor": 137,
           "runsAgainst": 69,
-          "runDifferential": 45
+          "runDifferential": 68
         }
       },
       {
@@ -38,7 +38,7 @@
         }
       },
       {
-        "position": 4,
+        "position": 5,
         "team": "Caledon Nationals 13U AA",
         "teamCode": "510948",
         "record": {
@@ -60,35 +60,35 @@
         "team": "Markham Mariners 13U AA",
         "teamCode": "510949",
         "record": {
-          "gamesPlayed": 14,
-          "wins": 8,
+          "gamesPlayed": 15,
+          "wins": 9,
           "losses": 5,
           "ties": 1,
-          "winPercentage": "0.607"
+          "winPercentage": "0.633"
         },
         "stats": {
-          "points": 17,
-          "runsFor": 105,
-          "runsAgainst": 65,
-          "runDifferential": 40
+          "points": 19,
+          "runsFor": 118,
+          "runsAgainst": 68,
+          "runDifferential": 50
         }
       },
       {
-        "position": 5,
+        "position": 4,
         "team": "Barrie Baycats 13U AA",
         "teamCode": "510947",
         "record": {
-          "gamesPlayed": 13,
-          "wins": 7,
-          "losses": 6,
+          "gamesPlayed": 15,
+          "wins": 8,
+          "losses": 7,
           "ties": 0,
-          "winPercentage": "0.538"
+          "winPercentage": "0.533"
         },
         "stats": {
-          "points": 14,
-          "runsFor": 116,
-          "runsAgainst": 98,
-          "runDifferential": 18
+          "points": 16,
+          "runsFor": 140,
+          "runsAgainst": 116,
+          "runDifferential": 24
         }
       },
       {
@@ -96,17 +96,17 @@
         "team": "Orangeville Bengals 13U AA",
         "teamCode": "510951",
         "record": {
-          "gamesPlayed": 13,
-          "wins": 4,
-          "losses": 8,
+          "gamesPlayed": 15,
+          "wins": 5,
+          "losses": 9,
           "ties": 1,
-          "winPercentage": "0.346"
+          "winPercentage": "0.367"
         },
         "stats": {
-          "points": 9,
-          "runsFor": 93,
-          "runsAgainst": 136,
-          "runDifferential": -43
+          "points": 11,
+          "runsFor": 111,
+          "runsAgainst": 160,
+          "runDifferential": -49
         }
       },
       {
@@ -114,17 +114,17 @@
         "team": "Newmarket Hawks 13U AA",
         "teamCode": "510950",
         "record": {
-          "gamesPlayed": 12,
+          "gamesPlayed": 14,
           "wins": 2,
-          "losses": 9,
+          "losses": 11,
           "ties": 1,
-          "winPercentage": "0.208"
+          "winPercentage": "0.179"
         },
         "stats": {
           "points": 5,
-          "runsFor": 67,
-          "runsAgainst": 130,
-          "runDifferential": -63
+          "runsFor": 70,
+          "runsAgainst": 166,
+          "runDifferential": -96
         }
       },
       {
@@ -146,7 +146,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-24T01:17:00.944Z",
+    "lastUpdated": "2025-07-24T03:16:33.944Z",
     "totalTeams": 8
   },
   "schedule": {
@@ -276,7 +276,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T01:17:05.038Z"
+        "lastUpdated": "2025-07-24T03:16:38.514Z"
       },
       "510941": {
         "teamCode": "510941",
@@ -403,7 +403,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T01:17:05.038Z"
+        "lastUpdated": "2025-07-24T03:16:38.514Z"
       },
       "510942": {
         "teamCode": "510942",
@@ -514,7 +514,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T01:17:05.038Z"
+        "lastUpdated": "2025-07-24T03:16:38.514Z"
       },
       "510943": {
         "teamCode": "510943",
@@ -621,7 +621,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T01:17:05.038Z"
+        "lastUpdated": "2025-07-24T03:16:38.514Z"
       },
       "510944": {
         "teamCode": "510944",
@@ -732,7 +732,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T01:17:05.038Z"
+        "lastUpdated": "2025-07-24T03:16:38.514Z"
       },
       "510945": {
         "teamCode": "510945",
@@ -835,7 +835,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T01:17:05.038Z"
+        "lastUpdated": "2025-07-24T03:16:38.514Z"
       },
       "510946": {
         "teamCode": "510946",
@@ -892,8 +892,12 @@
             "awayTeam": "Aurora-King Jays 13U AA",
             "awayTeamCode": "510946",
             "location": "Armstrong Park #1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 0,
+              "away": 23,
+              "scoreText": "23-0"
+            }
           },
           {
             "date": "2025-07-22T19:00:00.000Z",
@@ -934,7 +938,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T01:17:05.038Z"
+        "lastUpdated": "2025-07-24T03:16:38.514Z"
       },
       "510947": {
         "teamCode": "510947",
@@ -995,8 +999,12 @@
             "awayTeam": "Barrie Baycats 13U AA",
             "awayTeamCode": "510947",
             "location": "Rotary Park South",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 15,
+              "away": 11,
+              "scoreText": "11-15"
+            }
           },
           {
             "date": "2025-07-23T18:30:00.000Z",
@@ -1007,8 +1015,12 @@
             "awayTeam": "Newmarket Hawks 13U AA",
             "awayTeamCode": "510950",
             "location": "Lampman Lane Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 3,
+              "scoreText": "3-13"
+            }
           }
         ],
         "nextGames": [
@@ -1061,7 +1073,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T01:17:05.038Z"
+        "lastUpdated": "2025-07-24T03:16:38.514Z"
       },
       "510948": {
         "teamCode": "510948",
@@ -1160,7 +1172,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T01:17:05.038Z"
+        "lastUpdated": "2025-07-24T03:16:38.514Z"
       },
       "510949": {
         "teamCode": "510949",
@@ -1237,8 +1249,12 @@
             "awayTeam": "Orangeville Bengals 13U AA",
             "awayTeamCode": "510951",
             "location": "Milliken Mills #2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 3,
+              "scoreText": "3-13"
+            }
           }
         ],
         "nextGames": [
@@ -1291,7 +1307,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T01:17:05.038Z"
+        "lastUpdated": "2025-07-24T03:16:38.514Z"
       },
       "510950": {
         "teamCode": "510950",
@@ -1352,8 +1368,12 @@
             "awayTeam": "Aurora-King Jays 13U AA",
             "awayTeamCode": "510946",
             "location": "Armstrong Park #1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 0,
+              "away": 23,
+              "scoreText": "23-0"
+            }
           },
           {
             "date": "2025-07-23T18:30:00.000Z",
@@ -1364,8 +1384,12 @@
             "awayTeam": "Newmarket Hawks 13U AA",
             "awayTeamCode": "510950",
             "location": "Lampman Lane Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 3,
+              "scoreText": "3-13"
+            }
           }
         ],
         "nextGames": [
@@ -1418,7 +1442,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T01:17:05.038Z"
+        "lastUpdated": "2025-07-24T03:16:38.514Z"
       },
       "510951": {
         "teamCode": "510951",
@@ -1479,8 +1503,12 @@
             "awayTeam": "Barrie Baycats 13U AA",
             "awayTeamCode": "510947",
             "location": "Rotary Park South",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 15,
+              "away": 11,
+              "scoreText": "11-15"
+            }
           },
           {
             "date": "2025-07-23T18:30:00.000Z",
@@ -1491,8 +1519,12 @@
             "awayTeam": "Orangeville Bengals 13U AA",
             "awayTeamCode": "510951",
             "location": "Milliken Mills #2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 3,
+              "scoreText": "3-13"
+            }
           }
         ],
         "nextGames": [
@@ -1521,7 +1553,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T01:17:05.038Z"
+        "lastUpdated": "2025-07-24T03:16:38.514Z"
       },
       "510952": {
         "teamCode": "510952",
@@ -1664,7 +1696,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T01:17:05.038Z"
+        "lastUpdated": "2025-07-24T03:16:38.514Z"
       },
       "510953": {
         "teamCode": "510953",
@@ -1803,7 +1835,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T01:17:05.038Z"
+        "lastUpdated": "2025-07-24T03:16:38.514Z"
       },
       "510957": {
         "teamCode": "510957",
@@ -1906,7 +1938,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T01:17:05.038Z"
+        "lastUpdated": "2025-07-24T03:16:38.514Z"
       },
       "516242": {
         "teamCode": "516242",
@@ -2037,7 +2069,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T01:17:05.038Z"
+        "lastUpdated": "2025-07-24T03:16:38.514Z"
       },
       "518954": {
         "teamCode": "518954",
@@ -2152,7 +2184,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T01:17:05.038Z"
+        "lastUpdated": "2025-07-24T03:16:38.514Z"
       }
     },
     "allGames": [
@@ -3969,8 +4001,12 @@
         "awayTeam": "Aurora-King Jays 13U AA",
         "awayTeamCode": "510946",
         "location": "Armstrong Park #1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 0,
+          "away": 23,
+          "scoreText": "23-0"
+        }
       },
       {
         "date": "2025-07-21T18:30:00.000Z",
@@ -3993,8 +4029,12 @@
         "awayTeam": "Barrie Baycats 13U AA",
         "awayTeamCode": "510947",
         "location": "Rotary Park South",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 15,
+          "away": 11,
+          "scoreText": "11-15"
+        }
       },
       {
         "date": "2025-07-22T18:30:00.000Z",
@@ -4061,8 +4101,12 @@
         "awayTeam": "Newmarket Hawks 13U AA",
         "awayTeamCode": "510950",
         "location": "Lampman Lane Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 3,
+          "scoreText": "3-13"
+        }
       },
       {
         "date": "2025-07-23T18:30:00.000Z",
@@ -4073,8 +4117,12 @@
         "awayTeam": "Orangeville Bengals 13U AA",
         "awayTeamCode": "510951",
         "location": "Milliken Mills #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 3,
+          "scoreText": "3-13"
+        }
       },
       {
         "date": "2025-07-25T17:00:00.000Z",
@@ -4387,8 +4435,12 @@
         "awayTeam": "Newmarket Hawks 13U AA",
         "awayTeamCode": "510950",
         "location": "Lampman Lane Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 3,
+          "scoreText": "3-13"
+        }
       },
       {
         "date": "2025-07-23T18:30:00.000Z",
@@ -4399,8 +4451,12 @@
         "awayTeam": "Orangeville Bengals 13U AA",
         "awayTeamCode": "510951",
         "location": "Milliken Mills #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 3,
+          "scoreText": "3-13"
+        }
       },
       {
         "date": "2025-07-22T20:30:00.000Z",
@@ -4467,8 +4523,12 @@
         "awayTeam": "Barrie Baycats 13U AA",
         "awayTeamCode": "510947",
         "location": "Rotary Park South",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 15,
+          "away": 11,
+          "scoreText": "11-15"
+        }
       },
       {
         "date": "2025-07-21T18:30:00.000Z",
@@ -4491,8 +4551,12 @@
         "awayTeam": "Aurora-King Jays 13U AA",
         "awayTeamCode": "510946",
         "location": "Armstrong Park #1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 0,
+          "away": 23,
+          "scoreText": "23-0"
+        }
       },
       {
         "date": "2025-07-19T10:00:00.000Z",
@@ -4633,20 +4697,20 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-24T01:17:05.038Z",
+    "lastUpdated": "2025-07-24T03:16:38.514Z",
     "totalGames": 151
   },
   "summary": {
     "totalTeams": 8,
     "totalGames": 151,
-    "completedGames": 102,
-    "upcomingGames": 49,
+    "completedGames": 106,
+    "upcomingGames": 45,
     "topTeam": {
       "team": "Aurora-King Jays 13U AA",
       "teamCode": "510946",
-      "wins": 9,
+      "wins": 10,
       "losses": 3,
-      "winPercentage": "0.750"
+      "winPercentage": "0.769"
     },
     "highestScoringGame": {
       "homeTeam": "Mansfield Cubs 13U A",
@@ -4657,6 +4721,6 @@
       "date": "Mon, May 12",
       "location": "MANSFIELD"
     },
-    "lastUpdated": "2025-07-24T01:20:34.347Z"
+    "lastUpdated": "2025-07-24T03:20:15.149Z"
   }
 }

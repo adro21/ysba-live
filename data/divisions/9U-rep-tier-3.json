@@ -2,24 +2,6 @@
   "standings": {
     "teams": [
       {
-        "position": 2,
-        "team": "Markham Mariners 9U A",
-        "teamCode": "511061",
-        "record": {
-          "gamesPlayed": 11,
-          "wins": 10,
-          "losses": 1,
-          "ties": 0,
-          "winPercentage": "0.909"
-        },
-        "stats": {
-          "points": 20,
-          "runsFor": 171,
-          "runsAgainst": 80,
-          "runDifferential": 91
-        }
-      },
-      {
         "position": 1,
         "team": "Orillia Royals 9U A",
         "teamCode": "511064",
@@ -35,6 +17,24 @@
           "runsFor": 225,
           "runsAgainst": 100,
           "runDifferential": 125
+        }
+      },
+      {
+        "position": 2,
+        "team": "Markham Mariners 9U A",
+        "teamCode": "511061",
+        "record": {
+          "gamesPlayed": 12,
+          "wins": 10,
+          "losses": 2,
+          "ties": 0,
+          "winPercentage": "0.833"
+        },
+        "stats": {
+          "points": 20,
+          "runsFor": 176,
+          "runsAgainst": 91,
+          "runDifferential": 85
         }
       },
       {
@@ -57,6 +57,24 @@
       },
       {
         "position": 4,
+        "team": "Vaughan Vikings 9U A",
+        "teamCode": "518948",
+        "record": {
+          "gamesPlayed": 13,
+          "wins": 4,
+          "losses": 8,
+          "ties": 1,
+          "winPercentage": "0.346"
+        },
+        "stats": {
+          "points": 9,
+          "runsFor": 157,
+          "runsAgainst": 202,
+          "runDifferential": -45
+        }
+      },
+      {
+        "position": 5,
         "team": "Muskoka Hornets 9U A",
         "teamCode": "516247",
         "record": {
@@ -71,24 +89,6 @@
           "runsFor": 147,
           "runsAgainst": 157,
           "runDifferential": -10
-        }
-      },
-      {
-        "position": 5,
-        "team": "Vaughan Vikings 9U A",
-        "teamCode": "518948",
-        "record": {
-          "gamesPlayed": 12,
-          "wins": 3,
-          "losses": 8,
-          "ties": 1,
-          "winPercentage": "0.292"
-        },
-        "stats": {
-          "points": 7,
-          "runsFor": 146,
-          "runsAgainst": 197,
-          "runDifferential": -51
         }
       },
       {
@@ -128,7 +128,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-24T01:15:05.510Z",
+    "lastUpdated": "2025-07-24T03:14:34.402Z",
     "totalTeams": 7
   },
   "schedule": {
@@ -212,8 +212,12 @@
             "awayTeam": "Vaughan Vikings 9U A",
             "awayTeamCode": "518948",
             "location": "Morgan Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 11,
+              "scoreText": "11-5"
+            }
           }
         ],
         "nextGames": [
@@ -242,7 +246,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T01:15:08.164Z"
+        "lastUpdated": "2025-07-24T03:14:37.160Z"
       },
       "511062": {
         "teamCode": "511062",
@@ -369,7 +373,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T01:15:08.164Z"
+        "lastUpdated": "2025-07-24T03:14:37.160Z"
       },
       "511063": {
         "teamCode": "511063",
@@ -496,7 +500,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T01:15:08.164Z"
+        "lastUpdated": "2025-07-24T03:14:37.160Z"
       },
       "511064": {
         "teamCode": "511064",
@@ -599,7 +603,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T01:15:08.164Z"
+        "lastUpdated": "2025-07-24T03:14:37.160Z"
       },
       "511065": {
         "teamCode": "511065",
@@ -726,7 +730,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T01:15:08.164Z"
+        "lastUpdated": "2025-07-24T03:14:37.160Z"
       },
       "516247": {
         "teamCode": "516247",
@@ -853,7 +857,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T01:15:08.164Z"
+        "lastUpdated": "2025-07-24T03:14:37.160Z"
       },
       "518948": {
         "teamCode": "518948",
@@ -934,8 +938,12 @@
             "awayTeam": "Vaughan Vikings 9U A",
             "awayTeamCode": "518948",
             "location": "Morgan Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 11,
+              "scoreText": "11-5"
+            }
           }
         ],
         "nextGames": [
@@ -976,7 +984,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T01:15:08.164Z"
+        "lastUpdated": "2025-07-24T03:14:37.160Z"
       }
     },
     "allGames": [
@@ -1717,8 +1725,12 @@
         "awayTeam": "Vaughan Vikings 9U A",
         "awayTeamCode": "518948",
         "location": "Morgan Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 5,
+          "away": 11,
+          "scoreText": "11-5"
+        }
       },
       {
         "date": "2025-07-24T18:00:00.000Z",
@@ -1839,8 +1851,12 @@
         "awayTeam": "Vaughan Vikings 9U A",
         "awayTeamCode": "518948",
         "location": "Morgan Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 5,
+          "away": 11,
+          "scoreText": "11-5"
+        }
       },
       {
         "date": "2025-07-21T18:00:00.000Z",
@@ -2097,20 +2113,20 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-24T01:15:08.164Z",
+    "lastUpdated": "2025-07-24T03:14:37.160Z",
     "totalGames": 56
   },
   "summary": {
     "totalTeams": 7,
     "totalGames": 56,
-    "completedGames": 44,
-    "upcomingGames": 12,
+    "completedGames": 45,
+    "upcomingGames": 11,
     "topTeam": {
-      "team": "Markham Mariners 9U A",
-      "teamCode": "511061",
-      "wins": 10,
-      "losses": 1,
-      "winPercentage": "0.909"
+      "team": "Orillia Royals 9U A",
+      "teamCode": "511064",
+      "wins": 13,
+      "losses": 2,
+      "winPercentage": "0.867"
     },
     "highestScoringGame": {
       "homeTeam": "Newmarket Hawks 9U A",
@@ -2121,6 +2137,6 @@
       "date": "Sat, Jul 19",
       "location": "Fairgrounds #2"
     },
-    "lastUpdated": "2025-07-24T01:20:34.347Z"
+    "lastUpdated": "2025-07-24T03:20:15.149Z"
   }
 }

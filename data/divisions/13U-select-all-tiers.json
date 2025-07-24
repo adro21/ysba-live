@@ -21,6 +21,24 @@
       },
       {
         "position": 3,
+        "team": "Innisfil Cardinals 13U DS - Team 1",
+        "teamCode": "511088",
+        "record": {
+          "gamesPlayed": 12,
+          "wins": 11,
+          "losses": 1,
+          "ties": 0,
+          "winPercentage": "0.917"
+        },
+        "stats": {
+          "points": 22,
+          "runsFor": 162,
+          "runsAgainst": 43,
+          "runDifferential": 119
+        }
+      },
+      {
+        "position": 4,
         "team": "Barrie Baycats 13U DS",
         "teamCode": "511085",
         "record": {
@@ -35,24 +53,6 @@
           "runsFor": 134,
           "runsAgainst": 76,
           "runDifferential": 58
-        }
-      },
-      {
-        "position": 4,
-        "team": "Innisfil Cardinals 13U DS - Team 1",
-        "teamCode": "511088",
-        "record": {
-          "gamesPlayed": 11,
-          "wins": 10,
-          "losses": 1,
-          "ties": 0,
-          "winPercentage": "0.909"
-        },
-        "stats": {
-          "points": 20,
-          "runsFor": 152,
-          "runsAgainst": 34,
-          "runDifferential": 118
         }
       },
       {
@@ -71,24 +71,6 @@
           "runsFor": 173,
           "runsAgainst": 67,
           "runDifferential": 106
-        }
-      },
-      {
-        "position": 6,
-        "team": "TNT Thunder 13U DS",
-        "teamCode": "511097",
-        "record": {
-          "gamesPlayed": 13,
-          "wins": 8,
-          "losses": 4,
-          "ties": 1,
-          "winPercentage": "0.654"
-        },
-        "stats": {
-          "points": 17,
-          "runsFor": 102,
-          "runsAgainst": 89,
-          "runDifferential": 13
         }
       },
       {
@@ -125,6 +107,24 @@
           "runsFor": 126,
           "runsAgainst": 87,
           "runDifferential": 39
+        }
+      },
+      {
+        "position": 6,
+        "team": "TNT Thunder 13U DS",
+        "teamCode": "511097",
+        "record": {
+          "gamesPlayed": 14,
+          "wins": 8,
+          "losses": 5,
+          "ties": 1,
+          "winPercentage": "0.607"
+        },
+        "stats": {
+          "points": 17,
+          "runsFor": 111,
+          "runsAgainst": 99,
+          "runDifferential": 12
         }
       },
       {
@@ -290,7 +290,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-24T01:20:23.505Z",
+    "lastUpdated": "2025-07-24T03:20:03.966Z",
     "totalTeams": 16
   },
   "schedule": {
@@ -420,7 +420,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T01:20:27.797Z"
+        "lastUpdated": "2025-07-24T03:20:08.446Z"
       },
       "511085": {
         "teamCode": "511085",
@@ -547,7 +547,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T01:20:27.797Z"
+        "lastUpdated": "2025-07-24T03:20:08.446Z"
       },
       "511086": {
         "teamCode": "511086",
@@ -637,7 +637,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-24T01:20:27.797Z"
+        "lastUpdated": "2025-07-24T03:20:08.446Z"
       },
       "511087": {
         "teamCode": "511087",
@@ -752,7 +752,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T01:20:27.797Z"
+        "lastUpdated": "2025-07-24T03:20:08.446Z"
       },
       "511088": {
         "teamCode": "511088",
@@ -833,8 +833,12 @@
             "awayTeam": "TNT Thunder 13U DS",
             "awayTeamCode": "511097",
             "location": "Stroud Arena",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 9,
+              "scoreText": "9-10"
+            }
           }
         ],
         "nextGames": [
@@ -863,7 +867,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T01:20:27.797Z"
+        "lastUpdated": "2025-07-24T03:20:08.446Z"
       },
       "511089": {
         "teamCode": "511089",
@@ -978,7 +982,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T01:20:27.797Z"
+        "lastUpdated": "2025-07-24T03:20:08.446Z"
       },
       "511090": {
         "teamCode": "511090",
@@ -1093,7 +1097,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T01:20:27.797Z"
+        "lastUpdated": "2025-07-24T03:20:08.446Z"
       },
       "511091": {
         "teamCode": "511091",
@@ -1183,7 +1187,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-24T01:20:27.797Z"
+        "lastUpdated": "2025-07-24T03:20:08.446Z"
       },
       "511092": {
         "teamCode": "511092",
@@ -1273,7 +1277,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-24T01:20:27.797Z"
+        "lastUpdated": "2025-07-24T03:20:08.446Z"
       },
       "511093": {
         "teamCode": "511093",
@@ -1388,7 +1392,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T01:20:27.797Z"
+        "lastUpdated": "2025-07-24T03:20:08.446Z"
       },
       "511094": {
         "teamCode": "511094",
@@ -1515,7 +1519,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T01:20:27.797Z"
+        "lastUpdated": "2025-07-24T03:20:08.446Z"
       },
       "511095": {
         "teamCode": "511095",
@@ -1630,7 +1634,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T01:20:27.797Z"
+        "lastUpdated": "2025-07-24T03:20:08.446Z"
       },
       "511096": {
         "teamCode": "511096",
@@ -1745,7 +1749,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T01:20:27.797Z"
+        "lastUpdated": "2025-07-24T03:20:08.446Z"
       },
       "511097": {
         "teamCode": "511097",
@@ -1826,8 +1830,12 @@
             "awayTeam": "TNT Thunder 13U DS",
             "awayTeamCode": "511097",
             "location": "Stroud Arena",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 9,
+              "scoreText": "9-10"
+            }
           }
         ],
         "nextGames": [
@@ -1856,7 +1864,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T01:20:27.797Z"
+        "lastUpdated": "2025-07-24T03:20:08.446Z"
       },
       "511098": {
         "teamCode": "511098",
@@ -1971,7 +1979,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T01:20:27.797Z"
+        "lastUpdated": "2025-07-24T03:20:08.446Z"
       },
       "518969": {
         "teamCode": "518969",
@@ -2098,7 +2106,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T01:20:27.797Z"
+        "lastUpdated": "2025-07-24T03:20:08.446Z"
       }
     },
     "allGames": [
@@ -3895,8 +3903,12 @@
         "awayTeam": "TNT Thunder 13U DS",
         "awayTeamCode": "511097",
         "location": "Stroud Arena",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 9,
+          "scoreText": "9-10"
+        }
       },
       {
         "date": "2025-07-24T20:30:00.000Z",
@@ -4089,8 +4101,12 @@
         "awayTeam": "TNT Thunder 13U DS",
         "awayTeamCode": "511097",
         "location": "Stroud Arena",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 9,
+          "scoreText": "9-10"
+        }
       },
       {
         "date": "2025-07-20T12:30:00.000Z",
@@ -4359,14 +4375,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-24T01:20:27.797Z",
+    "lastUpdated": "2025-07-24T03:20:08.446Z",
     "totalGames": 128
   },
   "summary": {
     "totalTeams": 16,
     "totalGames": 128,
-    "completedGames": 110,
-    "upcomingGames": 18,
+    "completedGames": 111,
+    "upcomingGames": 17,
     "topTeam": {
       "team": "Newmarket Hawks 13U DS",
       "teamCode": "511093",
@@ -4383,6 +4399,6 @@
       "date": "Thu, Jun 12",
       "location": "Newmarket Fairgrounds Park #1"
     },
-    "lastUpdated": "2025-07-24T01:20:34.347Z"
+    "lastUpdated": "2025-07-24T03:20:15.149Z"
   }
 }
