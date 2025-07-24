@@ -20,21 +20,21 @@
         }
       },
       {
-        "position": 3,
+        "position": 2,
         "team": "Barrie Baycats 18U A",
         "teamCode": "511024",
         "record": {
-          "gamesPlayed": 15,
-          "wins": 11,
+          "gamesPlayed": 16,
+          "wins": 12,
           "losses": 3,
           "ties": 1,
-          "winPercentage": "0.767"
+          "winPercentage": "0.781"
         },
         "stats": {
-          "points": 23,
-          "runsFor": 123,
-          "runsAgainst": 49,
-          "runDifferential": 74
+          "points": 25,
+          "runsFor": 133,
+          "runsAgainst": 57,
+          "runDifferential": 76
         }
       },
       {
@@ -56,7 +56,7 @@
         }
       },
       {
-        "position": 2,
+        "position": 3,
         "team": "Aurora-King Jays 17U A",
         "teamCode": "511021",
         "record": {
@@ -222,17 +222,17 @@
         "team": "Collingwood Jays 18U A",
         "teamCode": "511027",
         "record": {
-          "gamesPlayed": 14,
+          "gamesPlayed": 15,
           "wins": 5,
-          "losses": 7,
+          "losses": 8,
           "ties": 2,
-          "winPercentage": "0.429"
+          "winPercentage": "0.400"
         },
         "stats": {
           "points": 12,
-          "runsFor": 95,
-          "runsAgainst": 87,
-          "runDifferential": 8
+          "runsFor": 103,
+          "runsAgainst": 97,
+          "runDifferential": 6
         }
       },
       {
@@ -344,7 +344,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-24T10:21:10.798Z",
+    "lastUpdated": "2025-07-24T10:52:31.417Z",
     "totalTeams": 19
   },
   "schedule": {
@@ -437,7 +437,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-24T10:21:15.073Z"
+        "lastUpdated": "2025-07-24T10:52:36.114Z"
       },
       "511022": {
         "teamCode": "511022",
@@ -527,7 +527,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-24T10:21:15.073Z"
+        "lastUpdated": "2025-07-24T10:52:36.114Z"
       },
       "511023": {
         "teamCode": "511023",
@@ -630,7 +630,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T10:21:15.073Z"
+        "lastUpdated": "2025-07-24T10:52:36.114Z"
       },
       "511024": {
         "teamCode": "511024",
@@ -707,12 +707,16 @@
             "awayTeam": "Collingwood Jays 18U A",
             "awayTeamCode": "511027",
             "location": "Barrie Community Sports Complex",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 8,
+              "scoreText": "8-10"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-24T10:21:15.073Z"
+        "lastUpdated": "2025-07-24T10:52:36.114Z"
       },
       "511025": {
         "teamCode": "511025",
@@ -827,7 +831,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T10:21:15.073Z"
+        "lastUpdated": "2025-07-24T10:52:36.114Z"
       },
       "511026": {
         "teamCode": "511026",
@@ -926,7 +930,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T10:21:15.073Z"
+        "lastUpdated": "2025-07-24T10:52:36.114Z"
       },
       "511027": {
         "teamCode": "511027",
@@ -1007,8 +1011,12 @@
             "awayTeam": "Collingwood Jays 18U A",
             "awayTeamCode": "511027",
             "location": "Barrie Community Sports Complex",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 8,
+              "scoreText": "8-10"
+            }
           }
         ],
         "nextGames": [
@@ -1037,7 +1045,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T10:21:15.073Z"
+        "lastUpdated": "2025-07-24T10:52:36.114Z"
       },
       "511028": {
         "teamCode": "511028",
@@ -1140,7 +1148,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T10:21:15.073Z"
+        "lastUpdated": "2025-07-24T10:52:36.114Z"
       },
       "511030": {
         "teamCode": "511030",
@@ -1243,7 +1251,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T10:21:15.073Z"
+        "lastUpdated": "2025-07-24T10:52:36.114Z"
       },
       "511031": {
         "teamCode": "511031",
@@ -1333,7 +1341,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-24T10:21:15.073Z"
+        "lastUpdated": "2025-07-24T10:52:36.114Z"
       },
       "511032": {
         "teamCode": "511032",
@@ -1423,7 +1431,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-24T10:21:15.073Z"
+        "lastUpdated": "2025-07-24T10:52:36.114Z"
       },
       "511033": {
         "teamCode": "511033",
@@ -1526,7 +1534,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T10:21:15.073Z"
+        "lastUpdated": "2025-07-24T10:52:36.114Z"
       },
       "511034": {
         "teamCode": "511034",
@@ -1625,7 +1633,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T10:21:15.073Z"
+        "lastUpdated": "2025-07-24T10:52:36.114Z"
       },
       "511035": {
         "teamCode": "511035",
@@ -1715,7 +1723,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-24T10:21:15.073Z"
+        "lastUpdated": "2025-07-24T10:52:36.114Z"
       },
       "516246": {
         "teamCode": "516246",
@@ -1805,7 +1813,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-24T10:21:15.073Z"
+        "lastUpdated": "2025-07-24T10:52:36.114Z"
       },
       "518960": {
         "teamCode": "518960",
@@ -1904,7 +1912,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T10:21:15.073Z"
+        "lastUpdated": "2025-07-24T10:52:36.114Z"
       },
       "518962": {
         "teamCode": "518962",
@@ -1990,7 +1998,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-24T10:21:15.073Z"
+        "lastUpdated": "2025-07-24T10:52:36.114Z"
       },
       "519242": {
         "teamCode": "519242",
@@ -2093,7 +2101,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T10:21:15.073Z"
+        "lastUpdated": "2025-07-24T10:52:36.115Z"
       },
       "546377": {
         "teamCode": "546377",
@@ -2175,7 +2183,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-24T10:21:15.073Z"
+        "lastUpdated": "2025-07-24T10:52:36.115Z"
       }
     },
     "allGames": [
@@ -4588,8 +4596,12 @@
         "awayTeam": "Collingwood Jays 18U A",
         "awayTeamCode": "511027",
         "location": "Barrie Community Sports Complex",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 8,
+          "scoreText": "8-10"
+        }
       },
       {
         "date": "2025-07-23T20:00:00.000Z",
@@ -4738,8 +4750,12 @@
         "awayTeam": "Collingwood Jays 18U A",
         "awayTeamCode": "511027",
         "location": "Barrie Community Sports Complex",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 8,
+          "scoreText": "8-10"
+        }
       },
       {
         "date": "2025-07-23T19:00:00.000Z",
@@ -4928,14 +4944,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-24T10:21:15.073Z",
+    "lastUpdated": "2025-07-24T10:52:36.115Z",
     "totalGames": 161
   },
   "summary": {
     "totalTeams": 19,
     "totalGames": 161,
-    "completedGames": 146,
-    "upcomingGames": 15,
+    "completedGames": 147,
+    "upcomingGames": 14,
     "topTeam": {
       "team": "Aurora-King Jays 18U A",
       "teamCode": "511022",
@@ -4952,6 +4968,6 @@
       "date": "Sun, Jun 1",
       "location": "David Hamilton #1"
     },
-    "lastUpdated": "2025-07-24T10:23:00.342Z"
+    "lastUpdated": "2025-07-24T10:54:31.327Z"
   }
 }
