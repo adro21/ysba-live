@@ -20,25 +20,43 @@
         }
       },
       {
-        "position": 3,
+        "position": 4,
         "team": "Mansfield Cubs 15U AA",
         "teamCode": "510990",
         "record": {
-          "gamesPlayed": 13,
+          "gamesPlayed": 14,
           "wins": 9,
-          "losses": 4,
+          "losses": 5,
           "ties": 0,
-          "winPercentage": "0.692"
+          "winPercentage": "0.643"
         },
         "stats": {
           "points": 18,
-          "runsFor": 113,
-          "runsAgainst": 92,
-          "runDifferential": 21
+          "runsFor": 116,
+          "runsAgainst": 100,
+          "runDifferential": 16
         }
       },
       {
-        "position": 4,
+        "position": 2,
+        "team": "Muskoka Hornets 15U AA",
+        "teamCode": "516244",
+        "record": {
+          "gamesPlayed": 15,
+          "wins": 9,
+          "losses": 5,
+          "ties": 1,
+          "winPercentage": "0.633"
+        },
+        "stats": {
+          "points": 19,
+          "runsFor": 134,
+          "runsAgainst": 99,
+          "runDifferential": 35
+        }
+      },
+      {
+        "position": 5,
         "team": "Bradford Tigers 15U AA",
         "teamCode": "510988",
         "record": {
@@ -56,25 +74,7 @@
         }
       },
       {
-        "position": 5,
-        "team": "Muskoka Hornets 15U AA",
-        "teamCode": "516244",
-        "record": {
-          "gamesPlayed": 14,
-          "wins": 8,
-          "losses": 5,
-          "ties": 1,
-          "winPercentage": "0.607"
-        },
-        "stats": {
-          "points": 17,
-          "runsFor": 126,
-          "runsAgainst": 96,
-          "runDifferential": 30
-        }
-      },
-      {
-        "position": 2,
+        "position": 3,
         "team": "Barrie Baycats 15U AA",
         "teamCode": "510987",
         "record": {
@@ -146,7 +146,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-24T09:49:13.177Z",
+    "lastUpdated": "2025-07-24T10:20:29.983Z",
     "totalTeams": 8
   },
   "schedule": {
@@ -256,7 +256,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T09:49:17.531Z"
+        "lastUpdated": "2025-07-24T10:20:34.222Z"
       },
       "510981": {
         "teamCode": "510981",
@@ -387,7 +387,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T09:49:17.531Z"
+        "lastUpdated": "2025-07-24T10:20:34.222Z"
       },
       "510982": {
         "teamCode": "510982",
@@ -510,7 +510,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T09:49:17.531Z"
+        "lastUpdated": "2025-07-24T10:20:34.222Z"
       },
       "510983": {
         "teamCode": "510983",
@@ -633,7 +633,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T09:49:17.531Z"
+        "lastUpdated": "2025-07-24T10:20:34.222Z"
       },
       "510984": {
         "teamCode": "510984",
@@ -764,7 +764,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T09:49:17.531Z"
+        "lastUpdated": "2025-07-24T10:20:34.222Z"
       },
       "510985": {
         "teamCode": "510985",
@@ -895,7 +895,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T09:49:17.531Z"
+        "lastUpdated": "2025-07-24T10:20:34.222Z"
       },
       "510986": {
         "teamCode": "510986",
@@ -990,7 +990,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T09:49:17.531Z"
+        "lastUpdated": "2025-07-24T10:20:34.222Z"
       },
       "510987": {
         "teamCode": "510987",
@@ -1093,7 +1093,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T09:49:17.531Z"
+        "lastUpdated": "2025-07-24T10:20:34.222Z"
       },
       "510988": {
         "teamCode": "510988",
@@ -1232,7 +1232,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T09:49:17.531Z"
+        "lastUpdated": "2025-07-24T10:20:34.222Z"
       },
       "510989": {
         "teamCode": "510989",
@@ -1367,7 +1367,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T09:49:17.531Z"
+        "lastUpdated": "2025-07-24T10:20:34.222Z"
       },
       "510990": {
         "teamCode": "510990",
@@ -1448,8 +1448,12 @@
             "awayTeam": "Mansfield Cubs 15U AA",
             "awayTeamCode": "510990",
             "location": "Kerr Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 3,
+              "scoreText": "3-8"
+            }
           }
         ],
         "nextGames": [
@@ -1502,7 +1506,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T09:49:17.531Z"
+        "lastUpdated": "2025-07-24T10:20:34.222Z"
       },
       "510991": {
         "teamCode": "510991",
@@ -1641,7 +1645,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T09:49:17.531Z"
+        "lastUpdated": "2025-07-24T10:20:34.222Z"
       },
       "510992": {
         "teamCode": "510992",
@@ -1776,7 +1780,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T09:49:17.531Z"
+        "lastUpdated": "2025-07-24T10:20:34.222Z"
       },
       "510993": {
         "teamCode": "510993",
@@ -1903,7 +1907,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T09:49:17.531Z"
+        "lastUpdated": "2025-07-24T10:20:34.222Z"
       },
       "510998": {
         "teamCode": "510998",
@@ -2010,7 +2014,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T09:49:17.531Z"
+        "lastUpdated": "2025-07-24T10:20:34.222Z"
       },
       "516244": {
         "teamCode": "516244",
@@ -2091,8 +2095,12 @@
             "awayTeam": "Mansfield Cubs 15U AA",
             "awayTeamCode": "510990",
             "location": "Kerr Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 3,
+              "scoreText": "3-8"
+            }
           }
         ],
         "nextGames": [
@@ -2121,7 +2129,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T09:49:17.531Z"
+        "lastUpdated": "2025-07-24T10:20:34.222Z"
       },
       "518959": {
         "teamCode": "518959",
@@ -2260,7 +2268,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T09:49:17.531Z"
+        "lastUpdated": "2025-07-24T10:20:34.222Z"
       },
       "546379": {
         "teamCode": "546379",
@@ -2355,7 +2363,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-24T09:49:17.531Z"
+        "lastUpdated": "2025-07-24T10:20:34.222Z"
       }
     },
     "allGames": [
@@ -4428,8 +4436,12 @@
         "awayTeam": "Mansfield Cubs 15U AA",
         "awayTeamCode": "510990",
         "location": "Kerr Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 3,
+          "scoreText": "3-8"
+        }
       },
       {
         "date": "2025-07-23T18:30:00.000Z",
@@ -4814,8 +4826,12 @@
         "awayTeam": "Mansfield Cubs 15U AA",
         "awayTeamCode": "510990",
         "location": "Kerr Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 3,
+          "scoreText": "3-8"
+        }
       },
       {
         "date": "2025-07-22T20:00:00.000Z",
@@ -5040,14 +5056,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-24T09:49:17.531Z",
+    "lastUpdated": "2025-07-24T10:20:34.222Z",
     "totalGames": 162
   },
   "summary": {
     "totalTeams": 8,
     "totalGames": 162,
-    "completedGames": 119,
-    "upcomingGames": 43,
+    "completedGames": 120,
+    "upcomingGames": 42,
     "topTeam": {
       "team": "Innisfil Cardinals 15U AA",
       "teamCode": "510989",
@@ -5064,6 +5080,6 @@
       "date": "Thu, May 29",
       "location": "Bethesda Fields #2"
     },
-    "lastUpdated": "2025-07-24T09:51:43.985Z"
+    "lastUpdated": "2025-07-24T10:23:00.342Z"
   }
 }
