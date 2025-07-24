@@ -1,7 +1,49 @@
 {
-  "lastUpdated": "2025-07-24T20:21:38.476Z",
+  "lastUpdated": "2025-07-24T20:48:19.879Z",
   "totalGames": 190,
   "games": [
+    {
+      "date": "2025-07-24T20:30:00.000Z",
+      "dateText": "Thu, Jul 24",
+      "time": "8:30 PM",
+      "homeTeam": "Newmarket Hawks 13U DS",
+      "homeTeamCode": "511093",
+      "awayTeam": "Innisfil Cardinals 13U DS - Team 2",
+      "awayTeamCode": "511089",
+      "location": "Newmarket Fairgrounds Park #1",
+      "isCompleted": false,
+      "score": null,
+      "division": "13U",
+      "tier": "select-all-tiers"
+    },
+    {
+      "date": "2025-07-24T20:30:00.000Z",
+      "dateText": "Thu, Jul 24",
+      "time": "8:30 PM",
+      "homeTeam": "Innisfil Cardinals 15U AA",
+      "homeTeamCode": "510989",
+      "awayTeam": "Muskoka Hornets 15U AA",
+      "awayTeamCode": "516244",
+      "location": "Innisfil Rec Centre (IRC) South",
+      "isCompleted": false,
+      "score": null,
+      "division": "15U",
+      "tier": "rep-tier-2"
+    },
+    {
+      "date": "2025-07-24T20:30:00.000Z",
+      "dateText": "Thu, Jul 24",
+      "time": "8:30 PM",
+      "homeTeam": "Innisfil Cardinals 15U AA",
+      "homeTeamCode": "510989",
+      "awayTeam": "Muskoka Hornets 15U AA",
+      "awayTeamCode": "516244",
+      "location": "Innisfil Rec Centre (IRC) South",
+      "isCompleted": false,
+      "score": null,
+      "division": "15U",
+      "tier": "rep-tier-3"
+    },
     {
       "date": "2025-07-24T20:15:00.000Z",
       "dateText": "Thu, Jul 24",
@@ -434,6 +476,20 @@
       "date": "2025-07-24T18:00:00.000Z",
       "dateText": "Thu, Jul 24",
       "time": "6:00 PM",
+      "homeTeam": "Barrie Baycats 14U A",
+      "homeTeamCode": "510959",
+      "awayTeam": "Ontario Women's",
+      "awayTeamCode": "546378",
+      "location": "Painswick B",
+      "isCompleted": false,
+      "score": null,
+      "division": "14U",
+      "tier": "rep-tier-3"
+    },
+    {
+      "date": "2025-07-24T18:00:00.000Z",
+      "dateText": "Thu, Jul 24",
+      "time": "6:00 PM",
       "homeTeam": "Newmarket Hawks 16U AA",
       "homeTeamCode": "511011",
       "awayTeam": "Richmond Hill Phoenix 16U AA",
@@ -467,8 +523,12 @@
       "awayTeam": "Stouffville Yankees 14U A",
       "awayTeamCode": "510966",
       "location": "Bethesda 2",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 12,
+        "away": 10,
+        "scoreText": "10-12"
+      },
       "division": "14U",
       "tier": "rep-tier-3"
     },
@@ -540,13 +600,17 @@
       "date": "2025-07-23T19:30:00.000Z",
       "dateText": "Wed, Jul 23",
       "time": "7:30 PM",
-      "homeTeam": "Barrie Baycats 14U A",
-      "homeTeamCode": "510959",
-      "awayTeam": "Muskoka Hornets 14U B",
-      "awayTeamCode": "516243",
-      "location": "Lennox Park B",
-      "isCompleted": false,
-      "score": null,
+      "homeTeam": "Thornhill Reds 14U A",
+      "homeTeamCode": "510965",
+      "awayTeam": "Vaughan Vikings 14U A",
+      "awayTeamCode": "518957",
+      "location": "St Jean Augustine (Westmount C.I.)",
+      "isCompleted": true,
+      "score": {
+        "home": 8,
+        "away": 8,
+        "scoreText": "8-8"
+      },
       "division": "14U",
       "tier": "rep-tier-3"
     },
@@ -554,13 +618,17 @@
       "date": "2025-07-23T19:30:00.000Z",
       "dateText": "Wed, Jul 23",
       "time": "7:30 PM",
-      "homeTeam": "Thornhill Reds 14U A",
-      "homeTeamCode": "510965",
-      "awayTeam": "Vaughan Vikings 14U A",
-      "awayTeamCode": "518957",
-      "location": "St Jean Augustine (Westmount C.I.)",
-      "isCompleted": false,
-      "score": null,
+      "homeTeam": "Barrie Baycats 14U A",
+      "homeTeamCode": "510959",
+      "awayTeam": "Muskoka Hornets 14U B",
+      "awayTeamCode": "516243",
+      "location": "Lennox Park B",
+      "isCompleted": true,
+      "score": {
+        "home": 10,
+        "away": 3,
+        "scoreText": "3-10"
+      },
       "division": "14U",
       "tier": "rep-tier-3"
     },
@@ -685,74 +753,6 @@
       },
       "division": "9U",
       "tier": "rep-tier-3"
-    },
-    {
-      "date": "2025-07-23T18:30:00.000Z",
-      "dateText": "Wed, Jul 23",
-      "time": "6:30 PM",
-      "homeTeam": "Markham Mariners 11U AA",
-      "homeTeamCode": "510908",
-      "awayTeam": "Richmond Hill Phoenix 11U AA",
-      "awayTeamCode": "510910",
-      "location": "Carlton Park",
-      "isCompleted": true,
-      "score": {
-        "home": 10,
-        "away": 13,
-        "scoreText": "13-10"
-      },
-      "division": "11U",
-      "tier": "rep-tier-2"
-    },
-    {
-      "date": "2025-07-23T18:30:00.000Z",
-      "dateText": "Wed, Jul 23",
-      "time": "6:30 PM",
-      "homeTeam": "Markham Mariners 11U AA",
-      "homeTeamCode": "510908",
-      "awayTeam": "Richmond Hill Phoenix 11U AA",
-      "awayTeamCode": "510910",
-      "location": "Carlton Park",
-      "isCompleted": true,
-      "score": {
-        "home": 10,
-        "away": 13,
-        "scoreText": "13-10"
-      },
-      "division": "11U",
-      "tier": "rep-tier-3"
-    },
-    {
-      "date": "2025-07-23T18:30:00.000Z",
-      "dateText": "Wed, Jul 23",
-      "time": "6:30 PM",
-      "homeTeam": "Aurora-King Jays 12U AA",
-      "homeTeamCode": "510935",
-      "awayTeam": "Barrie Baycats 12U AA",
-      "awayTeamCode": "510928",
-      "location": "Hallmark Field 2",
-      "isCompleted": true,
-      "score": {
-        "home": 2,
-        "away": 6,
-        "scoreText": "6-2"
-      },
-      "division": "12U",
-      "tier": "rep-tier-2"
-    },
-    {
-      "date": "2025-07-23T18:30:00.000Z",
-      "dateText": "Wed, Jul 23",
-      "time": "6:30 PM",
-      "homeTeam": "Orillia Royals 12U A",
-      "homeTeamCode": "510925",
-      "awayTeam": "Georgina Bulldogs 12U B",
-      "awayTeamCode": "510939",
-      "location": "YEO Diamond",
-      "isCompleted": false,
-      "score": null,
-      "division": "12U",
-      "tier": "rep-tier-2"
     }
   ]
 }
