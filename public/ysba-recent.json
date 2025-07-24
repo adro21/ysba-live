@@ -1,7 +1,35 @@
 {
-  "lastUpdated": "2025-07-24T19:20:13.296Z",
+  "lastUpdated": "2025-07-24T19:44:17.152Z",
   "totalGames": 190,
   "games": [
+    {
+      "date": "2025-07-24T19:30:00.000Z",
+      "dateText": "Thu, Jul 24",
+      "time": "7:30 PM",
+      "homeTeam": "Stouffville Yankees 15U A",
+      "homeTeamCode": "510985",
+      "awayTeam": "Orillia Royals 15U A",
+      "awayTeamCode": "510984",
+      "location": "Bethesda Fields #2",
+      "isCompleted": false,
+      "score": null,
+      "division": "15U",
+      "tier": "rep-tier-2"
+    },
+    {
+      "date": "2025-07-24T19:30:00.000Z",
+      "dateText": "Thu, Jul 24",
+      "time": "7:30 PM",
+      "homeTeam": "Stouffville Yankees 15U A",
+      "homeTeamCode": "510985",
+      "awayTeam": "Orillia Royals 15U A",
+      "awayTeamCode": "510984",
+      "location": "Bethesda Fields #2",
+      "isCompleted": false,
+      "score": null,
+      "division": "15U",
+      "tier": "rep-tier-3"
+    },
     {
       "date": "2025-07-24T19:00:00.000Z",
       "dateText": "Thu, Jul 24",
@@ -647,8 +675,12 @@
       "awayTeam": "Barrie Baycats 12U AA",
       "awayTeamCode": "510928",
       "location": "Hallmark Field 2",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 2,
+        "away": 6,
+        "scoreText": "6-2"
+      },
       "division": "12U",
       "tier": "rep-tier-2"
     },
@@ -675,8 +707,12 @@
       "awayTeam": "Barrie Baycats 12U AA",
       "awayTeamCode": "510928",
       "location": "Hallmark Field 2",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 2,
+        "away": 6,
+        "scoreText": "6-2"
+      },
       "division": "12U",
       "tier": "rep-tier-3"
     },
@@ -725,38 +761,6 @@
       "score": null,
       "division": "13U",
       "tier": "rep-tier-2"
-    },
-    {
-      "date": "2025-07-23T18:30:00.000Z",
-      "dateText": "Wed, Jul 23",
-      "time": "6:30 PM",
-      "homeTeam": "Barrie Baycats 13U AA",
-      "homeTeamCode": "510947",
-      "awayTeam": "Newmarket Hawks 13U AA",
-      "awayTeamCode": "510950",
-      "location": "Lampman Lane Park",
-      "isCompleted": true,
-      "score": {
-        "home": 13,
-        "away": 3,
-        "scoreText": "3-13"
-      },
-      "division": "13U",
-      "tier": "rep-tier-3"
-    },
-    {
-      "date": "2025-07-23T18:30:00.000Z",
-      "dateText": "Wed, Jul 23",
-      "time": "6:30 PM",
-      "homeTeam": "Markham Mariners 13U AA",
-      "homeTeamCode": "510949",
-      "awayTeam": "Orangeville Bengals 13U AA",
-      "awayTeamCode": "510951",
-      "location": "Milliken Mills #2",
-      "isCompleted": false,
-      "score": null,
-      "division": "13U",
-      "tier": "rep-tier-3"
     }
   ]
 }
