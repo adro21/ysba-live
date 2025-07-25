@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-07-25T11:19:59.621Z",
+  "lastUpdated": "2025-07-25T11:45:01.737Z",
   "totalGames": 190,
   "games": [
     {
@@ -24,7 +24,7 @@
       "homeTeamCode": "510989",
       "awayTeam": "Muskoka Hornets 15U AA",
       "awayTeamCode": "516244",
-      "location": "Innisfil Rec Centre (IRC) South",
+      "location": "RAINOUT - Innisfil Rec Centre (IRC) South",
       "isCompleted": false,
       "score": null,
       "division": "15U",
@@ -38,7 +38,7 @@
       "homeTeamCode": "510989",
       "awayTeam": "Muskoka Hornets 15U AA",
       "awayTeamCode": "516244",
-      "location": "Innisfil Rec Centre (IRC) South",
+      "location": "RAINOUT - Innisfil Rec Centre (IRC) South",
       "isCompleted": false,
       "score": null,
       "division": "15U",
@@ -145,8 +145,12 @@
       "awayTeam": "Aurora-King Jays 15U AA",
       "awayTeamCode": "510993",
       "location": "Concord Regional Park, #1",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 2,
+        "away": 1,
+        "scoreText": "1-2"
+      },
       "division": "15U",
       "tier": "rep-tier-2"
     },
@@ -159,8 +163,12 @@
       "awayTeam": "Aurora-King Jays 15U AA",
       "awayTeamCode": "510993",
       "location": "Concord Regional Park, #1",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 2,
+        "away": 1,
+        "scoreText": "1-2"
+      },
       "division": "15U",
       "tier": "rep-tier-3"
     },
