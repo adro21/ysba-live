@@ -128,7 +128,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-26T12:34:09.940Z",
+    "lastUpdated": "2025-07-26T13:12:57.450Z",
     "totalTeams": 7
   },
   "schedule": {
@@ -201,7 +201,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-26T12:34:12.950Z"
+        "lastUpdated": "2025-07-26T13:13:00.243Z"
       },
       "511100": {
         "teamCode": "511100",
@@ -324,7 +324,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T12:34:12.950Z"
+        "lastUpdated": "2025-07-26T13:13:00.243Z"
       },
       "511101": {
         "teamCode": "511101",
@@ -443,7 +443,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T12:34:12.950Z"
+        "lastUpdated": "2025-07-26T13:13:00.244Z"
       },
       "511102": {
         "teamCode": "511102",
@@ -558,30 +558,14 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T12:34:12.950Z"
+        "lastUpdated": "2025-07-26T13:13:00.244Z"
       },
       "511103": {
         "teamCode": "511103",
         "totalGames": 17,
-        "playedGames": 16,
-        "upcomingGames": 1,
+        "playedGames": 17,
+        "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": "2025-07-05T09:30:00.000Z",
-            "dateText": "Sat, Jul 5",
-            "time": "9:30 AM",
-            "homeTeam": "Stouffville Yankees 15U DS",
-            "homeTeamCode": "511103",
-            "awayTeam": "Newmarket Hawks 15U DS",
-            "awayTeamCode": "511101",
-            "location": "Bethesda 2",
-            "isCompleted": true,
-            "score": {
-              "home": 9,
-              "away": 9,
-              "scoreText": "9-9"
-            }
-          },
           {
             "date": "2025-07-05T12:00:00.000Z",
             "dateText": "Sat, Jul 5",
@@ -633,9 +617,7 @@
             "location": "Beeton South",
             "isCompleted": false,
             "score": null
-          }
-        ],
-        "nextGames": [
+          },
           {
             "date": "2025-07-26T13:00:00.000Z",
             "dateText": "Sat, Jul 26",
@@ -649,7 +631,8 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T12:34:12.950Z"
+        "nextGames": [],
+        "lastUpdated": "2025-07-26T13:13:00.244Z"
       },
       "511104": {
         "teamCode": "511104",
@@ -772,26 +755,14 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T12:34:12.950Z"
+        "lastUpdated": "2025-07-26T13:13:00.244Z"
       },
       "511524": {
         "teamCode": "511524",
         "totalGames": 17,
-        "playedGames": 15,
-        "upcomingGames": 2,
+        "playedGames": 16,
+        "upcomingGames": 1,
         "recentGames": [
-          {
-            "date": "2025-06-28T12:00:00.000Z",
-            "dateText": "Sat, Jun 28",
-            "time": "12:00 PM",
-            "homeTeam": "Barrie Baycats 15U DS",
-            "homeTeamCode": "511524",
-            "awayTeam": "Sudbury",
-            "awayTeamCode": "500609",
-            "location": "Dana Field",
-            "isCompleted": false,
-            "score": null
-          },
           {
             "date": "2025-06-28T15:00:00.000Z",
             "dateText": "Sat, Jun 28",
@@ -851,9 +822,7 @@
               "away": 7,
               "scoreText": "7-8"
             }
-          }
-        ],
-        "nextGames": [
+          },
           {
             "date": "2025-07-26T13:00:00.000Z",
             "dateText": "Sat, Jul 26",
@@ -865,7 +834,9 @@
             "location": "Legion Park",
             "isCompleted": false,
             "score": null
-          },
+          }
+        ],
+        "nextGames": [
           {
             "date": "2025-07-26T16:00:00.000Z",
             "dateText": "Sat, Jul 26",
@@ -879,7 +850,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T12:34:12.950Z"
+        "lastUpdated": "2025-07-26T13:13:00.244Z"
       }
     },
     "allGames": [
@@ -1698,6 +1669,18 @@
     ],
     "recentGames": [
       {
+        "date": "2025-07-26T13:00:00.000Z",
+        "dateText": "Sat, Jul 26",
+        "time": "1:00 PM",
+        "homeTeam": "Barrie Baycats 15U DS",
+        "homeTeamCode": "511524",
+        "awayTeam": "Stouffville Yankees 15U DS",
+        "awayTeamCode": "511103",
+        "location": "Legion Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
         "date": "2025-07-16T18:00:00.000Z",
         "dateText": "Wed, Jul 16",
         "time": "6:00 PM",
@@ -1824,33 +1807,9 @@
         "location": "Bethesda 2",
         "isCompleted": false,
         "score": null
-      },
-      {
-        "date": "2025-07-12T02:30:00.000Z",
-        "dateText": "Sat, Jul 12",
-        "time": "2:30 AM",
-        "homeTeam": "Stouffville Yankees 15U DS",
-        "homeTeamCode": "511103",
-        "awayTeam": "Sudbury",
-        "awayTeamCode": "500609",
-        "location": "Bethesda 2",
-        "isCompleted": false,
-        "score": null
       }
     ],
     "upcomingGames": [
-      {
-        "date": "2025-07-26T13:00:00.000Z",
-        "dateText": "Sat, Jul 26",
-        "time": "1:00 PM",
-        "homeTeam": "Barrie Baycats 15U DS",
-        "homeTeamCode": "511524",
-        "awayTeam": "Stouffville Yankees 15U DS",
-        "awayTeamCode": "511103",
-        "location": "Legion Park",
-        "isCompleted": false,
-        "score": null
-      },
       {
         "date": "2025-07-26T16:00:00.000Z",
         "dateText": "Sat, Jul 26",
@@ -1924,7 +1883,7 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-26T12:34:12.950Z",
+    "lastUpdated": "2025-07-26T13:13:00.244Z",
     "totalGames": 57
   },
   "summary": {
@@ -1948,6 +1907,6 @@
       "date": "Sat, Jun 21",
       "location": "Lennox (field b)"
     },
-    "lastUpdated": "2025-07-26T12:34:12.964Z"
+    "lastUpdated": "2025-07-26T13:13:00.251Z"
   }
 }
