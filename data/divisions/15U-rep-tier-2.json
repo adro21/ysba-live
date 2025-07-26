@@ -20,7 +20,7 @@
         }
       },
       {
-        "position": 4,
+        "position": 5,
         "team": "Mansfield Cubs 15U AA",
         "teamCode": "510990",
         "record": {
@@ -39,6 +39,24 @@
       },
       {
         "position": 2,
+        "team": "Bradford Tigers 15U AA",
+        "teamCode": "510988",
+        "record": {
+          "gamesPlayed": 15,
+          "wins": 9,
+          "losses": 5,
+          "ties": 1,
+          "winPercentage": "0.633"
+        },
+        "stats": {
+          "points": 19,
+          "runsFor": 157,
+          "runsAgainst": 102,
+          "runDifferential": 55
+        }
+      },
+      {
+        "position": 3,
         "team": "Muskoka Hornets 15U AA",
         "teamCode": "516244",
         "record": {
@@ -56,25 +74,7 @@
         }
       },
       {
-        "position": 5,
-        "team": "Bradford Tigers 15U AA",
-        "teamCode": "510988",
-        "record": {
-          "gamesPlayed": 14,
-          "wins": 8,
-          "losses": 5,
-          "ties": 1,
-          "winPercentage": "0.607"
-        },
-        "stats": {
-          "points": 17,
-          "runsFor": 143,
-          "runsAgainst": 98,
-          "runDifferential": 45
-        }
-      },
-      {
-        "position": 3,
+        "position": 4,
         "team": "Barrie Baycats 15U AA",
         "teamCode": "510987",
         "record": {
@@ -92,25 +92,25 @@
         }
       },
       {
-        "position": 7,
+        "position": 6,
         "team": "Newmarket Hawks 15U AA",
         "teamCode": "510991",
         "record": {
-          "gamesPlayed": 13,
+          "gamesPlayed": 14,
           "wins": 4,
-          "losses": 9,
+          "losses": 10,
           "ties": 0,
-          "winPercentage": "0.308"
+          "winPercentage": "0.286"
         },
         "stats": {
           "points": 8,
-          "runsFor": 115,
-          "runsAgainst": 149,
-          "runDifferential": -34
+          "runsFor": 119,
+          "runsAgainst": 163,
+          "runDifferential": -44
         }
       },
       {
-        "position": 6,
+        "position": 7,
         "team": "Aurora-King Jays 15U AA",
         "teamCode": "510993",
         "record": {
@@ -146,7 +146,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-26T16:51:04.819Z",
+    "lastUpdated": "2025-07-26T17:17:08.023Z",
     "totalTeams": 8
   },
   "schedule": {
@@ -264,7 +264,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T16:51:09.103Z"
+        "lastUpdated": "2025-07-26T17:17:12.735Z"
       },
       "510981": {
         "teamCode": "510981",
@@ -399,7 +399,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T16:51:09.103Z"
+        "lastUpdated": "2025-07-26T17:17:12.735Z"
       },
       "510982": {
         "teamCode": "510982",
@@ -510,7 +510,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T16:51:09.103Z"
+        "lastUpdated": "2025-07-26T17:17:12.735Z"
       },
       "510983": {
         "teamCode": "510983",
@@ -621,7 +621,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T16:51:09.103Z"
+        "lastUpdated": "2025-07-26T17:17:12.735Z"
       },
       "510984": {
         "teamCode": "510984",
@@ -712,7 +712,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T16:51:09.103Z"
+        "lastUpdated": "2025-07-26T17:17:12.735Z"
       },
       "510985": {
         "teamCode": "510985",
@@ -819,7 +819,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T16:51:09.103Z"
+        "lastUpdated": "2025-07-26T17:17:12.735Z"
       },
       "510986": {
         "teamCode": "510986",
@@ -922,7 +922,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T16:51:09.103Z"
+        "lastUpdated": "2025-07-26T17:17:12.735Z"
       },
       "510987": {
         "teamCode": "510987",
@@ -1025,7 +1025,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T16:51:09.103Z"
+        "lastUpdated": "2025-07-26T17:17:12.735Z"
       },
       "510988": {
         "teamCode": "510988",
@@ -1106,8 +1106,12 @@
             "awayTeam": "Newmarket Hawks 15U AA",
             "awayTeamCode": "510991",
             "location": "Joe Magani Park #4",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 4,
+              "scoreText": "4-14"
+            }
           }
         ],
         "nextGames": [
@@ -1148,7 +1152,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T16:51:09.103Z"
+        "lastUpdated": "2025-07-26T17:17:12.735Z"
       },
       "510989": {
         "teamCode": "510989",
@@ -1271,7 +1275,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T16:51:09.103Z"
+        "lastUpdated": "2025-07-26T17:17:12.735Z"
       },
       "510990": {
         "teamCode": "510990",
@@ -1378,7 +1382,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T16:51:09.103Z"
+        "lastUpdated": "2025-07-26T17:17:12.735Z"
       },
       "510991": {
         "teamCode": "510991",
@@ -1459,8 +1463,12 @@
             "awayTeam": "Newmarket Hawks 15U AA",
             "awayTeamCode": "510991",
             "location": "Joe Magani Park #4",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 4,
+              "scoreText": "4-14"
+            }
           }
         ],
         "nextGames": [
@@ -1501,7 +1509,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T16:51:09.103Z"
+        "lastUpdated": "2025-07-26T17:17:12.735Z"
       },
       "510992": {
         "teamCode": "510992",
@@ -1592,7 +1600,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T16:51:09.103Z"
+        "lastUpdated": "2025-07-26T17:17:12.735Z"
       },
       "510993": {
         "teamCode": "510993",
@@ -1703,7 +1711,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T16:51:09.103Z"
+        "lastUpdated": "2025-07-26T17:17:12.735Z"
       },
       "510998": {
         "teamCode": "510998",
@@ -1814,7 +1822,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T16:51:09.103Z"
+        "lastUpdated": "2025-07-26T17:17:12.735Z"
       },
       "516244": {
         "teamCode": "516244",
@@ -1913,7 +1921,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T16:51:09.103Z"
+        "lastUpdated": "2025-07-26T17:17:12.735Z"
       },
       "518959": {
         "teamCode": "518959",
@@ -2020,7 +2028,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T16:51:09.103Z"
+        "lastUpdated": "2025-07-26T17:17:12.735Z"
       },
       "546379": {
         "teamCode": "546379",
@@ -2106,7 +2114,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-26T16:51:09.103Z"
+        "lastUpdated": "2025-07-26T17:17:12.735Z"
       }
     },
     "allGames": [
@@ -4327,8 +4335,12 @@
         "awayTeam": "Newmarket Hawks 15U AA",
         "awayTeamCode": "510991",
         "location": "Joe Magani Park #4",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 4,
+          "scoreText": "4-14"
+        }
       },
       {
         "date": "2025-07-26T13:00:00.000Z",
@@ -4629,8 +4641,12 @@
         "awayTeam": "Newmarket Hawks 15U AA",
         "awayTeamCode": "510991",
         "location": "Joe Magani Park #4",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 4,
+          "scoreText": "4-14"
+        }
       },
       {
         "date": "2025-07-26T10:30:00.000Z",
@@ -4815,14 +4831,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-26T16:51:09.103Z",
+    "lastUpdated": "2025-07-26T17:17:12.735Z",
     "totalGames": 162
   },
   "summary": {
     "totalTeams": 8,
     "totalGames": 162,
-    "completedGames": 129,
-    "upcomingGames": 33,
+    "completedGames": 130,
+    "upcomingGames": 32,
     "topTeam": {
       "team": "Innisfil Cardinals 15U AA",
       "teamCode": "510989",
@@ -4839,6 +4855,6 @@
       "date": "Mon, Jul 21",
       "location": "Dana Field / Barrie Sports Complex"
     },
-    "lastUpdated": "2025-07-26T16:53:44.005Z"
+    "lastUpdated": "2025-07-26T17:19:39.275Z"
   }
 }
