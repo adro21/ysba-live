@@ -24,35 +24,17 @@
         "team": "Newmarket Hawks 12U AA",
         "teamCode": "510923",
         "record": {
-          "gamesPlayed": 12,
-          "wins": 9,
+          "gamesPlayed": 13,
+          "wins": 10,
           "losses": 3,
           "ties": 0,
-          "winPercentage": "0.750"
+          "winPercentage": "0.769"
         },
         "stats": {
-          "points": 18,
-          "runsFor": 104,
+          "points": 20,
+          "runsFor": 110,
           "runsAgainst": 61,
-          "runDifferential": 43
-        }
-      },
-      {
-        "position": 3,
-        "team": "Stouffville Yankees 12U AA",
-        "teamCode": "510933",
-        "record": {
-          "gamesPlayed": 13,
-          "wins": 8,
-          "losses": 5,
-          "ties": 0,
-          "winPercentage": "0.615"
-        },
-        "stats": {
-          "points": 16,
-          "runsFor": 108,
-          "runsAgainst": 93,
-          "runDifferential": 15
+          "runDifferential": 49
         }
       },
       {
@@ -74,25 +56,43 @@
         }
       },
       {
-        "position": 5,
+        "position": 3,
         "team": "Thornhill Reds 12U AA",
         "teamCode": "510934",
         "record": {
-          "gamesPlayed": 13,
-          "wins": 7,
+          "gamesPlayed": 14,
+          "wins": 8,
           "losses": 6,
           "ties": 0,
-          "winPercentage": "0.538"
+          "winPercentage": "0.571"
         },
         "stats": {
-          "points": 14,
-          "runsFor": 95,
-          "runsAgainst": 93,
-          "runDifferential": 2
+          "points": 16,
+          "runsFor": 106,
+          "runsAgainst": 97,
+          "runDifferential": 9
         }
       },
       {
         "position": 4,
+        "team": "Stouffville Yankees 12U AA",
+        "teamCode": "510933",
+        "record": {
+          "gamesPlayed": 14,
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "winPercentage": "0.571"
+        },
+        "stats": {
+          "points": 16,
+          "runsFor": 112,
+          "runsAgainst": 104,
+          "runDifferential": 8
+        }
+      },
+      {
+        "position": 5,
         "team": "Collingwood Jays 12U AA",
         "teamCode": "510930",
         "record": {
@@ -114,17 +114,17 @@
         "team": "Caledon Nationals 12U AA",
         "teamCode": "510929",
         "record": {
-          "gamesPlayed": 11,
+          "gamesPlayed": 12,
           "wins": 4,
-          "losses": 6,
+          "losses": 7,
           "ties": 1,
-          "winPercentage": "0.409"
+          "winPercentage": "0.375"
         },
         "stats": {
           "points": 9,
           "runsFor": 74,
-          "runsAgainst": 89,
-          "runDifferential": -15
+          "runsAgainst": 95,
+          "runDifferential": -21
         }
       },
       {
@@ -164,7 +164,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-26T03:10:41.564Z",
+    "lastUpdated": "2025-07-26T04:11:32.962Z",
     "totalTeams": 9
   },
   "schedule": {
@@ -266,7 +266,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T03:10:45.737Z"
+        "lastUpdated": "2025-07-26T04:11:37.496Z"
       },
       "510919": {
         "teamCode": "510919",
@@ -361,7 +361,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T03:10:45.737Z"
+        "lastUpdated": "2025-07-26T04:11:37.497Z"
       },
       "510920": {
         "teamCode": "510920",
@@ -464,7 +464,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T03:10:45.737Z"
+        "lastUpdated": "2025-07-26T04:11:37.497Z"
       },
       "510921": {
         "teamCode": "510921",
@@ -571,7 +571,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T03:10:45.737Z"
+        "lastUpdated": "2025-07-26T04:11:37.497Z"
       },
       "510922": {
         "teamCode": "510922",
@@ -678,7 +678,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T03:10:45.737Z"
+        "lastUpdated": "2025-07-26T04:11:37.497Z"
       },
       "510923": {
         "teamCode": "510923",
@@ -759,8 +759,12 @@
             "awayTeam": "Newmarket Hawks 12U AA",
             "awayTeamCode": "510923",
             "location": "JAYS CARE (BOLTON CAMP) diamond in Bolton",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 0,
+              "away": 6,
+              "scoreText": "6-0"
+            }
           }
         ],
         "nextGames": [
@@ -801,7 +805,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T03:10:45.737Z"
+        "lastUpdated": "2025-07-26T04:11:37.497Z"
       },
       "510924": {
         "teamCode": "510924",
@@ -912,7 +916,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T03:10:45.737Z"
+        "lastUpdated": "2025-07-26T04:11:37.497Z"
       },
       "510925": {
         "teamCode": "510925",
@@ -1023,7 +1027,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T03:10:45.737Z"
+        "lastUpdated": "2025-07-26T04:11:37.497Z"
       },
       "510926": {
         "teamCode": "510926",
@@ -1101,7 +1105,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-26T03:10:45.737Z"
+        "lastUpdated": "2025-07-26T04:11:37.497Z"
       },
       "510927": {
         "teamCode": "510927",
@@ -1175,7 +1179,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-26T03:10:45.737Z"
+        "lastUpdated": "2025-07-26T04:11:37.497Z"
       },
       "510928": {
         "teamCode": "510928",
@@ -1278,7 +1282,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T03:10:45.737Z"
+        "lastUpdated": "2025-07-26T04:11:37.497Z"
       },
       "510929": {
         "teamCode": "510929",
@@ -1355,8 +1359,12 @@
             "awayTeam": "Newmarket Hawks 12U AA",
             "awayTeamCode": "510923",
             "location": "JAYS CARE (BOLTON CAMP) diamond in Bolton",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 0,
+              "away": 6,
+              "scoreText": "6-0"
+            }
           }
         ],
         "nextGames": [
@@ -1397,7 +1405,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T03:10:45.737Z"
+        "lastUpdated": "2025-07-26T04:11:37.497Z"
       },
       "510930": {
         "teamCode": "510930",
@@ -1512,7 +1520,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T03:10:45.737Z"
+        "lastUpdated": "2025-07-26T04:11:37.497Z"
       },
       "510931": {
         "teamCode": "510931",
@@ -1627,7 +1635,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T03:10:45.737Z"
+        "lastUpdated": "2025-07-26T04:11:37.497Z"
       },
       "510932": {
         "teamCode": "510932",
@@ -1742,7 +1750,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T03:10:45.737Z"
+        "lastUpdated": "2025-07-26T04:11:37.497Z"
       },
       "510933": {
         "teamCode": "510933",
@@ -1823,8 +1831,12 @@
             "awayTeam": "Thornhill Reds 12U AA",
             "awayTeamCode": "510934",
             "location": "Memorial Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 11,
+              "scoreText": "11-4"
+            }
           }
         ],
         "nextGames": [
@@ -1853,7 +1865,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T03:10:45.737Z"
+        "lastUpdated": "2025-07-26T04:11:37.497Z"
       },
       "510934": {
         "teamCode": "510934",
@@ -1934,8 +1946,12 @@
             "awayTeam": "Thornhill Reds 12U AA",
             "awayTeamCode": "510934",
             "location": "Memorial Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 11,
+              "scoreText": "11-4"
+            }
           }
         ],
         "nextGames": [
@@ -1964,7 +1980,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T03:10:45.737Z"
+        "lastUpdated": "2025-07-26T04:11:37.497Z"
       },
       "510935": {
         "teamCode": "510935",
@@ -2087,7 +2103,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T03:10:45.737Z"
+        "lastUpdated": "2025-07-26T04:11:37.497Z"
       },
       "510939": {
         "teamCode": "510939",
@@ -2194,7 +2210,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T03:10:45.737Z"
+        "lastUpdated": "2025-07-26T04:11:37.497Z"
       }
     },
     "allGames": [
@@ -4427,8 +4443,12 @@
         "awayTeam": "Thornhill Reds 12U AA",
         "awayTeamCode": "510934",
         "location": "Memorial Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 11,
+          "scoreText": "11-4"
+        }
       },
       {
         "date": "2025-07-25T18:15:00.000Z",
@@ -4439,8 +4459,12 @@
         "awayTeam": "Newmarket Hawks 12U AA",
         "awayTeamCode": "510923",
         "location": "JAYS CARE (BOLTON CAMP) diamond in Bolton",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 0,
+          "away": 6,
+          "scoreText": "6-0"
+        }
       },
       {
         "date": "2025-07-26T10:00:00.000Z",
@@ -4657,8 +4681,12 @@
         "awayTeam": "Newmarket Hawks 12U AA",
         "awayTeamCode": "510923",
         "location": "JAYS CARE (BOLTON CAMP) diamond in Bolton",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 0,
+          "away": 6,
+          "scoreText": "6-0"
+        }
       },
       {
         "date": "2025-07-25T18:00:00.000Z",
@@ -4669,8 +4697,12 @@
         "awayTeam": "Thornhill Reds 12U AA",
         "awayTeamCode": "510934",
         "location": "Memorial Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 11,
+          "scoreText": "11-4"
+        }
       },
       {
         "date": "2025-07-24T18:30:00.000Z",
@@ -4903,14 +4935,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-26T03:10:45.737Z",
+    "lastUpdated": "2025-07-26T04:11:37.497Z",
     "totalGames": 162
   },
   "summary": {
     "totalTeams": 9,
     "totalGames": 162,
-    "completedGames": 126,
-    "upcomingGames": 36,
+    "completedGames": 128,
+    "upcomingGames": 34,
     "topTeam": {
       "team": "Markham Mariners 12U AA",
       "teamCode": "510931",
@@ -4927,6 +4959,6 @@
       "date": "Thu, Jul 3",
       "location": "Barrie Community Sports Complex - Diamond 12"
     },
-    "lastUpdated": "2025-07-26T03:14:41.628Z"
+    "lastUpdated": "2025-07-26T04:15:51.876Z"
   }
 }

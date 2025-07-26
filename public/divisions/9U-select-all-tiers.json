@@ -74,7 +74,7 @@
         }
       },
       {
-        "position": 8,
+        "position": 9,
         "team": "Barrie Baycats 9U DS",
         "teamCode": "511107",
         "record": {
@@ -110,7 +110,7 @@
         }
       },
       {
-        "position": 6,
+        "position": 7,
         "team": "Collingwood Jays 9U DS",
         "teamCode": "511109",
         "record": {
@@ -128,7 +128,25 @@
         }
       },
       {
-        "position": 7,
+        "position": 6,
+        "team": "Caledon Nationals 9U HS",
+        "teamCode": "511116",
+        "record": {
+          "gamesPlayed": 15,
+          "wins": 7,
+          "losses": 7,
+          "ties": 1,
+          "winPercentage": "0.500"
+        },
+        "stats": {
+          "points": 15,
+          "runsFor": 178,
+          "runsAgainst": 226,
+          "runDifferential": -48
+        }
+      },
+      {
+        "position": 8,
         "team": "Thornhill Reds 9U DS",
         "teamCode": "511114",
         "record": {
@@ -147,24 +165,6 @@
       },
       {
         "position": 10,
-        "team": "Caledon Nationals 9U HS",
-        "teamCode": "511116",
-        "record": {
-          "gamesPlayed": 13,
-          "wins": 5,
-          "losses": 7,
-          "ties": 1,
-          "winPercentage": "0.423"
-        },
-        "stats": {
-          "points": 11,
-          "runsFor": 139,
-          "runsAgainst": 205,
-          "runDifferential": -66
-        }
-      },
-      {
-        "position": 9,
         "team": "TNT Thunder 9U DS",
         "teamCode": "511115",
         "record": {
@@ -222,17 +222,17 @@
         "team": "Bradford Tigers 9U DS",
         "teamCode": "511108",
         "record": {
-          "gamesPlayed": 12,
+          "gamesPlayed": 14,
           "wins": 1,
-          "losses": 10,
+          "losses": 12,
           "ties": 1,
-          "winPercentage": "0.125"
+          "winPercentage": "0.107"
         },
         "stats": {
           "points": 3,
-          "runsFor": 119,
-          "runsAgainst": 248,
-          "runDifferential": -129
+          "runsFor": 140,
+          "runsAgainst": 287,
+          "runDifferential": -147
         }
       },
       {
@@ -254,7 +254,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-26T03:14:15.062Z",
+    "lastUpdated": "2025-07-26T04:15:24.024Z",
     "totalTeams": 14
   },
   "schedule": {
@@ -347,7 +347,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-26T03:14:19.302Z"
+        "lastUpdated": "2025-07-26T04:15:28.553Z"
       },
       "511106": {
         "teamCode": "511106",
@@ -462,7 +462,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T03:14:19.302Z"
+        "lastUpdated": "2025-07-26T04:15:28.553Z"
       },
       "511107": {
         "teamCode": "511107",
@@ -601,7 +601,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T03:14:19.302Z"
+        "lastUpdated": "2025-07-26T04:15:28.553Z"
       },
       "511108": {
         "teamCode": "511108",
@@ -666,8 +666,12 @@
             "awayTeam": "Bradford Tigers 9U DS",
             "awayTeamCode": "511108",
             "location": "Caledon East Community Centre",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 17,
+              "away": 4,
+              "scoreText": "4-17"
+            }
           },
           {
             "date": "2025-07-25T20:00:00.000Z",
@@ -678,8 +682,12 @@
             "awayTeam": "Bradford Tigers 9U DS",
             "awayTeamCode": "511108",
             "location": "Caledon East Community Centre",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 22,
+              "away": 17,
+              "scoreText": "17-22"
+            }
           }
         ],
         "nextGames": [
@@ -708,7 +716,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T03:14:19.302Z"
+        "lastUpdated": "2025-07-26T04:15:28.553Z"
       },
       "511109": {
         "teamCode": "511109",
@@ -823,7 +831,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T03:14:19.302Z"
+        "lastUpdated": "2025-07-26T04:15:28.553Z"
       },
       "511110": {
         "teamCode": "511110",
@@ -938,7 +946,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T03:14:19.302Z"
+        "lastUpdated": "2025-07-26T04:15:28.553Z"
       },
       "511111": {
         "teamCode": "511111",
@@ -1053,7 +1061,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T03:14:19.302Z"
+        "lastUpdated": "2025-07-26T04:15:28.553Z"
       },
       "511112": {
         "teamCode": "511112",
@@ -1143,7 +1151,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-26T03:14:19.302Z"
+        "lastUpdated": "2025-07-26T04:15:28.553Z"
       },
       "511113": {
         "teamCode": "511113",
@@ -1233,7 +1241,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-26T03:14:19.302Z"
+        "lastUpdated": "2025-07-26T04:15:28.553Z"
       },
       "511114": {
         "teamCode": "511114",
@@ -1348,7 +1356,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T03:14:19.302Z"
+        "lastUpdated": "2025-07-26T04:15:28.553Z"
       },
       "511115": {
         "teamCode": "511115",
@@ -1451,7 +1459,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T03:14:19.302Z"
+        "lastUpdated": "2025-07-26T04:15:28.553Z"
       },
       "511116": {
         "teamCode": "511116",
@@ -1516,8 +1524,12 @@
             "awayTeam": "Bradford Tigers 9U DS",
             "awayTeamCode": "511108",
             "location": "Caledon East Community Centre",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 17,
+              "away": 4,
+              "scoreText": "4-17"
+            }
           },
           {
             "date": "2025-07-25T20:00:00.000Z",
@@ -1528,8 +1540,12 @@
             "awayTeam": "Bradford Tigers 9U DS",
             "awayTeamCode": "511108",
             "location": "Caledon East Community Centre",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 22,
+              "away": 17,
+              "scoreText": "17-22"
+            }
           }
         ],
         "nextGames": [
@@ -1546,7 +1562,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T03:14:19.302Z"
+        "lastUpdated": "2025-07-26T04:15:28.553Z"
       },
       "518965": {
         "teamCode": "518965",
@@ -1661,7 +1677,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T03:14:19.302Z"
+        "lastUpdated": "2025-07-26T04:15:28.553Z"
       },
       "518966": {
         "teamCode": "518966",
@@ -1751,7 +1767,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-26T03:14:19.302Z"
+        "lastUpdated": "2025-07-26T04:15:28.553Z"
       }
     },
     "allGames": [
@@ -3364,8 +3380,12 @@
         "awayTeam": "Bradford Tigers 9U DS",
         "awayTeamCode": "511108",
         "location": "Caledon East Community Centre",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 17,
+          "away": 4,
+          "scoreText": "4-17"
+        }
       },
       {
         "date": "2025-07-25T20:00:00.000Z",
@@ -3376,8 +3396,12 @@
         "awayTeam": "Bradford Tigers 9U DS",
         "awayTeamCode": "511108",
         "location": "Caledon East Community Centre",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 22,
+          "away": 17,
+          "scoreText": "17-22"
+        }
       },
       {
         "date": "2025-07-26T10:30:00.000Z",
@@ -3510,8 +3534,12 @@
         "awayTeam": "Bradford Tigers 9U DS",
         "awayTeamCode": "511108",
         "location": "Caledon East Community Centre",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 22,
+          "away": 17,
+          "scoreText": "17-22"
+        }
       },
       {
         "date": "2025-07-25T18:00:00.000Z",
@@ -3522,8 +3550,12 @@
         "awayTeam": "Bradford Tigers 9U DS",
         "awayTeamCode": "511108",
         "location": "Caledon East Community Centre",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 17,
+          "away": 4,
+          "scoreText": "4-17"
+        }
       },
       {
         "date": "2025-07-24T18:00:00.000Z",
@@ -3776,14 +3808,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-26T03:14:19.302Z",
+    "lastUpdated": "2025-07-26T04:15:28.553Z",
     "totalGames": 112
   },
   "summary": {
     "totalTeams": 14,
     "totalGames": 112,
-    "completedGames": 100,
-    "upcomingGames": 12,
+    "completedGames": 102,
+    "upcomingGames": 10,
     "topTeam": {
       "team": "Midland Penetang Twins 9U DS",
       "teamCode": "511105",
@@ -3800,6 +3832,6 @@
       "date": "Sat, Jul 12",
       "location": "McLean Diamond"
     },
-    "lastUpdated": "2025-07-26T03:14:41.628Z"
+    "lastUpdated": "2025-07-26T04:15:51.876Z"
   }
 }
