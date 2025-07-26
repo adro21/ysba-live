@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-07-26T16:22:48.358Z",
+  "lastUpdated": "2025-07-26T16:53:44.005Z",
   "totalGames": 190,
   "games": [
     {
@@ -291,8 +291,12 @@
       "awayTeam": "Barrie Baycats 9U DS",
       "awayTeamCode": "511107",
       "location": "Aurora Town Park Diamond",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 17,
+        "away": 17,
+        "scoreText": "17-17"
+      },
       "division": "9U",
       "tier": "select-all-tiers"
     },

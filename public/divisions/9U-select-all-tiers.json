@@ -74,20 +74,20 @@
         }
       },
       {
-        "position": 9,
+        "position": 8,
         "team": "Barrie Baycats 9U DS",
         "teamCode": "511107",
         "record": {
-          "gamesPlayed": 12,
+          "gamesPlayed": 13,
           "wins": 7,
           "losses": 5,
-          "ties": 0,
-          "winPercentage": "0.583"
+          "ties": 1,
+          "winPercentage": "0.577"
         },
         "stats": {
-          "points": 14,
-          "runsFor": 169,
-          "runsAgainst": 148,
+          "points": 15,
+          "runsFor": 186,
+          "runsAgainst": 165,
           "runDifferential": 21
         }
       },
@@ -146,7 +146,7 @@
         }
       },
       {
-        "position": 8,
+        "position": 9,
         "team": "Thornhill Reds 9U DS",
         "teamCode": "511114",
         "record": {
@@ -240,21 +240,21 @@
         "team": "Aurora-King Jays 9U DS",
         "teamCode": "511106",
         "record": {
-          "gamesPlayed": 14,
+          "gamesPlayed": 15,
           "wins": 0,
           "losses": 13,
-          "ties": 1,
-          "winPercentage": "0.036"
+          "ties": 2,
+          "winPercentage": "0.067"
         },
         "stats": {
-          "points": 1,
-          "runsFor": 92,
-          "runsAgainst": 242,
+          "points": 2,
+          "runsFor": 109,
+          "runsAgainst": 259,
           "runDifferential": -150
         }
       }
     ],
-    "lastUpdated": "2025-07-26T16:22:22.225Z",
+    "lastUpdated": "2025-07-26T16:53:17.492Z",
     "totalTeams": 14
   },
   "schedule": {
@@ -347,7 +347,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-26T16:22:26.407Z"
+        "lastUpdated": "2025-07-26T16:53:21.743Z"
       },
       "511106": {
         "teamCode": "511106",
@@ -412,8 +412,12 @@
             "awayTeam": "Barrie Baycats 9U DS",
             "awayTeamCode": "511107",
             "location": "Aurora Town Park Diamond",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 17,
+              "away": 17,
+              "scoreText": "17-17"
+            }
           },
           {
             "date": "2025-07-26T13:00:00.000Z",
@@ -429,7 +433,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-26T16:22:26.407Z"
+        "lastUpdated": "2025-07-26T16:53:21.743Z"
       },
       "511107": {
         "teamCode": "511107",
@@ -494,8 +498,12 @@
             "awayTeam": "Barrie Baycats 9U DS",
             "awayTeamCode": "511107",
             "location": "Aurora Town Park Diamond",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 17,
+              "away": 17,
+              "scoreText": "17-17"
+            }
           },
           {
             "date": "2025-07-26T13:00:00.000Z",
@@ -536,7 +544,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T16:22:26.407Z"
+        "lastUpdated": "2025-07-26T16:53:21.743Z"
       },
       "511108": {
         "teamCode": "511108",
@@ -651,7 +659,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T16:22:26.407Z"
+        "lastUpdated": "2025-07-26T16:53:21.743Z"
       },
       "511109": {
         "teamCode": "511109",
@@ -766,7 +774,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T16:22:26.407Z"
+        "lastUpdated": "2025-07-26T16:53:21.743Z"
       },
       "511110": {
         "teamCode": "511110",
@@ -881,7 +889,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T16:22:26.407Z"
+        "lastUpdated": "2025-07-26T16:53:21.743Z"
       },
       "511111": {
         "teamCode": "511111",
@@ -996,7 +1004,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T16:22:26.407Z"
+        "lastUpdated": "2025-07-26T16:53:21.743Z"
       },
       "511112": {
         "teamCode": "511112",
@@ -1086,7 +1094,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-26T16:22:26.407Z"
+        "lastUpdated": "2025-07-26T16:53:21.743Z"
       },
       "511113": {
         "teamCode": "511113",
@@ -1176,7 +1184,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-26T16:22:26.407Z"
+        "lastUpdated": "2025-07-26T16:53:21.743Z"
       },
       "511114": {
         "teamCode": "511114",
@@ -1291,7 +1299,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T16:22:26.407Z"
+        "lastUpdated": "2025-07-26T16:53:21.743Z"
       },
       "511115": {
         "teamCode": "511115",
@@ -1394,7 +1402,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T16:22:26.407Z"
+        "lastUpdated": "2025-07-26T16:53:21.743Z"
       },
       "511116": {
         "teamCode": "511116",
@@ -1497,7 +1505,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T16:22:26.407Z"
+        "lastUpdated": "2025-07-26T16:53:21.743Z"
       },
       "518965": {
         "teamCode": "518965",
@@ -1612,7 +1620,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-26T16:22:26.407Z"
+        "lastUpdated": "2025-07-26T16:53:21.743Z"
       },
       "518966": {
         "teamCode": "518966",
@@ -1702,7 +1710,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-26T16:22:26.407Z"
+        "lastUpdated": "2025-07-26T16:53:21.743Z"
       }
     },
     "allGames": [
@@ -3347,8 +3355,12 @@
         "awayTeam": "Barrie Baycats 9U DS",
         "awayTeamCode": "511107",
         "location": "Aurora Town Park Diamond",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 17,
+          "away": 17,
+          "scoreText": "17-17"
+        }
       },
       {
         "date": "2025-07-26T13:00:00.000Z",
@@ -3481,8 +3493,12 @@
         "awayTeam": "Barrie Baycats 9U DS",
         "awayTeamCode": "511107",
         "location": "Aurora Town Park Diamond",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 17,
+          "away": 17,
+          "scoreText": "17-17"
+        }
       },
       {
         "date": "2025-07-25T20:00:00.000Z",
@@ -3711,14 +3727,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-26T16:22:26.407Z",
+    "lastUpdated": "2025-07-26T16:53:21.743Z",
     "totalGames": 112
   },
   "summary": {
     "totalTeams": 14,
     "totalGames": 112,
-    "completedGames": 102,
-    "upcomingGames": 10,
+    "completedGames": 103,
+    "upcomingGames": 9,
     "topTeam": {
       "team": "Midland Penetang Twins 9U DS",
       "teamCode": "511105",
@@ -3735,6 +3751,6 @@
       "date": "Sat, Jul 12",
       "location": "McLean Diamond"
     },
-    "lastUpdated": "2025-07-26T16:22:48.358Z"
+    "lastUpdated": "2025-07-26T16:53:44.005Z"
   }
 }
