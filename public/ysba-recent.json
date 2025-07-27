@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-07-26T23:46:02.213Z",
+  "lastUpdated": "2025-07-27T01:27:30.903Z",
   "totalGames": 190,
   "games": [
     {
@@ -11,8 +11,12 @@
       "awayTeam": "Collingwood Jays (Grey) 13U DS",
       "awayTeamCode": "511087",
       "location": "Lampman Lane Park",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 7,
+        "away": 8,
+        "scoreText": "8-7"
+      },
       "division": "13U",
       "tier": "select-all-tiers"
     },
@@ -95,8 +99,12 @@
       "awayTeam": "Collingwood Jays (Grey) 13U DS",
       "awayTeamCode": "511087",
       "location": "Lampman Lane Park",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 1,
+        "away": 11,
+        "scoreText": "11-1"
+      },
       "division": "13U",
       "tier": "select-all-tiers"
     },
@@ -109,8 +117,12 @@
       "awayTeam": "Mansfield Cubs 15U AA",
       "awayTeamCode": "510990",
       "location": "Mansfield Baseball Diamond",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 3,
+        "away": 9,
+        "scoreText": "9-3"
+      },
       "division": "15U",
       "tier": "rep-tier-2"
     },
@@ -123,8 +135,12 @@
       "awayTeam": "Mansfield Cubs 15U AA",
       "awayTeamCode": "510990",
       "location": "Mansfield Baseball Diamond",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 3,
+        "away": 9,
+        "scoreText": "9-3"
+      },
       "division": "15U",
       "tier": "rep-tier-3"
     },
@@ -200,20 +216,6 @@
       "date": "2025-07-26T13:00:00.000Z",
       "dateText": "Sat, Jul 26",
       "time": "1:00 PM",
-      "homeTeam": "Vaughan Vikings 15U A",
-      "homeTeamCode": "518959",
-      "awayTeam": "Orillia Royals 15U A",
-      "awayTeamCode": "510984",
-      "location": "Gander Ross",
-      "isCompleted": false,
-      "score": null,
-      "division": "15U",
-      "tier": "rep-tier-2"
-    },
-    {
-      "date": "2025-07-26T13:00:00.000Z",
-      "dateText": "Sat, Jul 26",
-      "time": "1:00 PM",
       "homeTeam": "Ontario Women",
       "homeTeamCode": "546379",
       "awayTeam": "Stouffville Yankees 15U A",
@@ -233,6 +235,20 @@
       "awayTeam": "Orillia Royals 15U A",
       "awayTeamCode": "510984",
       "location": "Gander Ross",
+      "isCompleted": false,
+      "score": null,
+      "division": "15U",
+      "tier": "rep-tier-2"
+    },
+    {
+      "date": "2025-07-26T13:00:00.000Z",
+      "dateText": "Sat, Jul 26",
+      "time": "1:00 PM",
+      "homeTeam": "Ontario Women",
+      "homeTeamCode": "546379",
+      "awayTeam": "Stouffville Yankees 15U A",
+      "awayTeamCode": "510985",
+      "location": "David Hamilton Main Diamond",
       "isCompleted": false,
       "score": null,
       "division": "15U",
@@ -242,11 +258,11 @@
       "date": "2025-07-26T13:00:00.000Z",
       "dateText": "Sat, Jul 26",
       "time": "1:00 PM",
-      "homeTeam": "Ontario Women",
-      "homeTeamCode": "546379",
-      "awayTeam": "Stouffville Yankees 15U A",
-      "awayTeamCode": "510985",
-      "location": "David Hamilton Main Diamond",
+      "homeTeam": "Vaughan Vikings 15U A",
+      "homeTeamCode": "518959",
+      "awayTeam": "Orillia Royals 15U A",
+      "awayTeamCode": "510984",
+      "location": "Gander Ross",
       "isCompleted": false,
       "score": null,
       "division": "15U",
@@ -275,24 +291,14 @@
       "awayTeam": "Aurora-King Jays 13U DS",
       "awayTeamCode": "511084",
       "location": "David Hamilton Park #2",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 14,
+        "away": 8,
+        "scoreText": "8-14"
+      },
       "division": "13U",
       "tier": "select-all-tiers"
-    },
-    {
-      "date": "2025-07-26T11:00:00.000Z",
-      "dateText": "Sat, Jul 26",
-      "time": "11:00 AM",
-      "homeTeam": "Mansfield Cubs 15U AA",
-      "homeTeamCode": "510990",
-      "awayTeam": "Thornhill Reds 15U AA",
-      "awayTeamCode": "510992",
-      "location": "Mansfield Baseball Diamond",
-      "isCompleted": false,
-      "score": null,
-      "division": "15U",
-      "tier": "rep-tier-2"
     },
     {
       "date": "2025-07-26T11:00:00.000Z",
@@ -321,10 +327,14 @@
       "awayTeam": "Thornhill Reds 15U AA",
       "awayTeamCode": "510992",
       "location": "Mansfield Baseball Diamond",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 15,
+        "away": 0,
+        "scoreText": "0-15"
+      },
       "division": "15U",
-      "tier": "rep-tier-3"
+      "tier": "rep-tier-2"
     },
     {
       "date": "2025-07-26T11:00:00.000Z",
@@ -340,6 +350,24 @@
         "home": 14,
         "away": 4,
         "scoreText": "4-14"
+      },
+      "division": "15U",
+      "tier": "rep-tier-3"
+    },
+    {
+      "date": "2025-07-26T11:00:00.000Z",
+      "dateText": "Sat, Jul 26",
+      "time": "11:00 AM",
+      "homeTeam": "Mansfield Cubs 15U AA",
+      "homeTeamCode": "510990",
+      "awayTeam": "Thornhill Reds 15U AA",
+      "awayTeamCode": "510992",
+      "location": "Mansfield Baseball Diamond",
+      "isCompleted": true,
+      "score": {
+        "home": 15,
+        "away": 0,
+        "scoreText": "0-15"
       },
       "division": "15U",
       "tier": "rep-tier-3"
@@ -463,8 +491,12 @@
       "awayTeam": "Aurora-King Jays 13U DS",
       "awayTeamCode": "511084",
       "location": "David Hamilton Park #2",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 7,
+        "away": 6,
+        "scoreText": "6-7"
+      },
       "division": "13U",
       "tier": "select-all-tiers"
     },
