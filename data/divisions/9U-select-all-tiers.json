@@ -74,25 +74,25 @@
         }
       },
       {
-        "position": 6,
+        "position": 5,
         "team": "Barrie Baycats 9U DS",
         "teamCode": "511107",
         "record": {
-          "gamesPlayed": 14,
-          "wins": 8,
+          "gamesPlayed": 15,
+          "wins": 9,
           "losses": 5,
           "ties": 1,
-          "winPercentage": "0.607"
+          "winPercentage": "0.633"
         },
         "stats": {
-          "points": 17,
-          "runsFor": 202,
-          "runsAgainst": 169,
-          "runDifferential": 33
+          "points": 19,
+          "runsFor": 223,
+          "runsAgainst": 177,
+          "runDifferential": 46
         }
       },
       {
-        "position": 5,
+        "position": 6,
         "team": "Newmarket Hawks 9U DS",
         "teamCode": "511112",
         "record": {
@@ -128,24 +128,6 @@
         }
       },
       {
-        "position": 7,
-        "team": "Caledon Nationals 9U HS",
-        "teamCode": "511116",
-        "record": {
-          "gamesPlayed": 15,
-          "wins": 7,
-          "losses": 7,
-          "ties": 1,
-          "winPercentage": "0.500"
-        },
-        "stats": {
-          "points": 15,
-          "runsFor": 178,
-          "runsAgainst": 226,
-          "runDifferential": -48
-        }
-      },
-      {
         "position": 9,
         "team": "Thornhill Reds 9U DS",
         "teamCode": "511114",
@@ -161,6 +143,24 @@
           "runsFor": 222,
           "runsAgainst": 152,
           "runDifferential": 70
+        }
+      },
+      {
+        "position": 7,
+        "team": "Caledon Nationals 9U HS",
+        "teamCode": "511116",
+        "record": {
+          "gamesPlayed": 16,
+          "wins": 7,
+          "losses": 8,
+          "ties": 1,
+          "winPercentage": "0.469"
+        },
+        "stats": {
+          "points": 15,
+          "runsFor": 186,
+          "runsAgainst": 247,
+          "runDifferential": -61
         }
       },
       {
@@ -254,7 +254,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-27T15:46:01.905Z",
+    "lastUpdated": "2025-07-27T16:23:21.469Z",
     "totalTeams": 14
   },
   "schedule": {
@@ -347,7 +347,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-27T15:46:06.298Z"
+        "lastUpdated": "2025-07-27T16:23:26.013Z"
       },
       "511106": {
         "teamCode": "511106",
@@ -437,7 +437,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-27T15:46:06.298Z"
+        "lastUpdated": "2025-07-27T16:23:26.013Z"
       },
       "511107": {
         "teamCode": "511107",
@@ -518,8 +518,12 @@
             "awayTeam": "Barrie Baycats 9U DS",
             "awayTeamCode": "511107",
             "location": "Lampman Lane Community Centre",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 21,
+              "scoreText": "21-8"
+            }
           }
         ],
         "nextGames": [
@@ -536,7 +540,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-27T15:46:06.298Z"
+        "lastUpdated": "2025-07-27T16:23:26.013Z"
       },
       "511108": {
         "teamCode": "511108",
@@ -651,7 +655,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-27T15:46:06.298Z"
+        "lastUpdated": "2025-07-27T16:23:26.013Z"
       },
       "511109": {
         "teamCode": "511109",
@@ -766,7 +770,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-27T15:46:06.298Z"
+        "lastUpdated": "2025-07-27T16:23:26.013Z"
       },
       "511110": {
         "teamCode": "511110",
@@ -881,7 +885,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-27T15:46:06.298Z"
+        "lastUpdated": "2025-07-27T16:23:26.013Z"
       },
       "511111": {
         "teamCode": "511111",
@@ -996,7 +1000,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-27T15:46:06.298Z"
+        "lastUpdated": "2025-07-27T16:23:26.013Z"
       },
       "511112": {
         "teamCode": "511112",
@@ -1086,7 +1090,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-27T15:46:06.298Z"
+        "lastUpdated": "2025-07-27T16:23:26.013Z"
       },
       "511113": {
         "teamCode": "511113",
@@ -1176,7 +1180,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-27T15:46:06.298Z"
+        "lastUpdated": "2025-07-27T16:23:26.013Z"
       },
       "511114": {
         "teamCode": "511114",
@@ -1291,7 +1295,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-27T15:46:06.298Z"
+        "lastUpdated": "2025-07-27T16:23:26.013Z"
       },
       "511115": {
         "teamCode": "511115",
@@ -1394,7 +1398,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-27T15:46:06.298Z"
+        "lastUpdated": "2025-07-27T16:23:26.013Z"
       },
       "511116": {
         "teamCode": "511116",
@@ -1475,12 +1479,16 @@
             "awayTeam": "Barrie Baycats 9U DS",
             "awayTeamCode": "511107",
             "location": "Lampman Lane Community Centre",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 21,
+              "scoreText": "21-8"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-27T15:46:06.298Z"
+        "lastUpdated": "2025-07-27T16:23:26.014Z"
       },
       "518965": {
         "teamCode": "518965",
@@ -1595,7 +1603,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-27T15:46:06.298Z"
+        "lastUpdated": "2025-07-27T16:23:26.014Z"
       },
       "518966": {
         "teamCode": "518966",
@@ -1685,7 +1693,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-27T15:46:06.298Z"
+        "lastUpdated": "2025-07-27T16:23:26.014Z"
       }
     },
     "allGames": [
@@ -3362,8 +3370,12 @@
         "awayTeam": "Barrie Baycats 9U DS",
         "awayTeamCode": "511107",
         "location": "Lampman Lane Community Centre",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 21,
+          "scoreText": "21-8"
+        }
       },
       {
         "date": "2025-07-28T18:00:00.000Z",
@@ -3460,8 +3472,12 @@
         "awayTeam": "Barrie Baycats 9U DS",
         "awayTeamCode": "511107",
         "location": "Lampman Lane Community Centre",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 21,
+          "scoreText": "21-8"
+        }
       },
       {
         "date": "2025-07-26T13:00:00.000Z",
@@ -3694,14 +3710,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-27T15:46:06.298Z",
+    "lastUpdated": "2025-07-27T16:23:26.014Z",
     "totalGames": 112
   },
   "summary": {
     "totalTeams": 14,
     "totalGames": 112,
-    "completedGames": 104,
-    "upcomingGames": 8,
+    "completedGames": 105,
+    "upcomingGames": 7,
     "topTeam": {
       "team": "Midland Penetang Twins 9U DS",
       "teamCode": "511105",
@@ -3718,6 +3734,6 @@
       "date": "Sat, Jul 12",
       "location": "McLean Diamond"
     },
-    "lastUpdated": "2025-07-27T15:46:28.562Z"
+    "lastUpdated": "2025-07-27T16:23:49.282Z"
   }
 }
