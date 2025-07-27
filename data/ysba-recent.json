@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-07-27T21:45:08.452Z",
+  "lastUpdated": "2025-07-27T22:20:49.767Z",
   "totalGames": 190,
   "games": [
     {
@@ -553,8 +553,12 @@
       "awayTeam": "Collingwood Jays 15U DS",
       "awayTeamCode": "511100",
       "location": "Legion Park",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 4,
+        "away": 7,
+        "scoreText": "7-4"
+      },
       "division": "15U",
       "tier": "select-all-tiers"
     },
@@ -761,8 +765,12 @@
       "awayTeam": "Stouffville Yankees 15U DS",
       "awayTeamCode": "511103",
       "location": "Legion Park",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 9,
+        "away": 9,
+        "scoreText": "9-9"
+      },
       "division": "15U",
       "tier": "select-all-tiers"
     }
