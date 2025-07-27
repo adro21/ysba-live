@@ -6,39 +6,39 @@
         "team": "Ontario Women",
         "teamCode": "546379",
         "record": {
-          "gamesPlayed": 17,
-          "wins": 12,
+          "gamesPlayed": 18,
+          "wins": 13,
           "losses": 2,
           "ties": 3,
-          "winPercentage": "0.794"
+          "winPercentage": "0.806"
         },
         "stats": {
-          "points": 27,
-          "runsFor": 205,
-          "runsAgainst": 115,
-          "runDifferential": 90
-        }
-      },
-      {
-        "position": 3,
-        "team": "Stouffville Yankees 15U A",
-        "teamCode": "510985",
-        "record": {
-          "gamesPlayed": 14,
-          "wins": 10,
-          "losses": 2,
-          "ties": 2,
-          "winPercentage": "0.786"
-        },
-        "stats": {
-          "points": 22,
-          "runsFor": 153,
-          "runsAgainst": 81,
-          "runDifferential": 72
+          "points": 29,
+          "runsFor": 213,
+          "runsAgainst": 122,
+          "runDifferential": 91
         }
       },
       {
         "position": 2,
+        "team": "Stouffville Yankees 15U A",
+        "teamCode": "510985",
+        "record": {
+          "gamesPlayed": 16,
+          "wins": 11,
+          "losses": 3,
+          "ties": 2,
+          "winPercentage": "0.750"
+        },
+        "stats": {
+          "points": 24,
+          "runsFor": 174,
+          "runsAgainst": 92,
+          "runDifferential": 82
+        }
+      },
+      {
+        "position": 4,
         "team": "Collingwood Jays 15U A",
         "teamCode": "510986",
         "record": {
@@ -56,25 +56,25 @@
         }
       },
       {
-        "position": 5,
+        "position": 3,
         "team": "Orillia Royals 15U A",
         "teamCode": "510984",
         "record": {
-          "gamesPlayed": 14,
-          "wins": 8,
-          "losses": 4,
+          "gamesPlayed": 17,
+          "wins": 10,
+          "losses": 5,
           "ties": 2,
-          "winPercentage": "0.643"
+          "winPercentage": "0.647"
         },
         "stats": {
-          "points": 18,
-          "runsFor": 139,
-          "runsAgainst": 108,
-          "runDifferential": 31
+          "points": 22,
+          "runsFor": 162,
+          "runsAgainst": 123,
+          "runDifferential": 39
         }
       },
       {
-        "position": 4,
+        "position": 5,
         "team": "Georgina Bulldogs 15U B",
         "teamCode": "510998",
         "record": {
@@ -150,17 +150,17 @@
         "team": "Vaughan Vikings 15U A",
         "teamCode": "518959",
         "record": {
-          "gamesPlayed": 13,
+          "gamesPlayed": 15,
           "wins": 3,
-          "losses": 10,
+          "losses": 12,
           "ties": 0,
-          "winPercentage": "0.231"
+          "winPercentage": "0.200"
         },
         "stats": {
           "points": 6,
-          "runsFor": 99,
-          "runsAgainst": 149,
-          "runDifferential": -50
+          "runsFor": 100,
+          "runsAgainst": 169,
+          "runDifferential": -69
         }
       },
       {
@@ -182,7 +182,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-27T10:48:24.432Z",
+    "lastUpdated": "2025-07-27T11:16:16.692Z",
     "totalTeams": 10
   },
   "schedule": {
@@ -300,7 +300,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-27T10:48:29.052Z"
+        "lastUpdated": "2025-07-27T11:16:21.313Z"
       },
       "510981": {
         "teamCode": "510981",
@@ -419,7 +419,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-27T10:48:29.052Z"
+        "lastUpdated": "2025-07-27T11:16:21.313Z"
       },
       "510982": {
         "teamCode": "510982",
@@ -514,7 +514,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-27T10:48:29.053Z"
+        "lastUpdated": "2025-07-27T11:16:21.313Z"
       },
       "510983": {
         "teamCode": "510983",
@@ -625,7 +625,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-27T10:48:29.053Z"
+        "lastUpdated": "2025-07-27T11:16:21.313Z"
       },
       "510984": {
         "teamCode": "510984",
@@ -674,8 +674,12 @@
             "awayTeam": "Orillia Royals 15U A",
             "awayTeamCode": "510984",
             "location": "Bethesda Fields #2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 3,
+              "scoreText": "3-14"
+            }
           },
           {
             "date": "2025-07-26T10:30:00.000Z",
@@ -686,8 +690,12 @@
             "awayTeam": "Vaughan Vikings 15U A",
             "awayTeamCode": "518959",
             "location": "Gander Ross",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 1,
+              "scoreText": "1-8"
+            }
           },
           {
             "date": "2025-07-26T13:00:00.000Z",
@@ -698,8 +706,12 @@
             "awayTeam": "Orillia Royals 15U A",
             "awayTeamCode": "510984",
             "location": "Gander Ross",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 0,
+              "away": 12,
+              "scoreText": "12-0"
+            }
           }
         ],
         "nextGames": [
@@ -716,7 +728,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-27T10:48:29.053Z"
+        "lastUpdated": "2025-07-27T11:16:21.313Z"
       },
       "510985": {
         "teamCode": "510985",
@@ -781,8 +793,12 @@
             "awayTeam": "Orillia Royals 15U A",
             "awayTeamCode": "510984",
             "location": "Bethesda Fields #2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 3,
+              "scoreText": "3-14"
+            }
           },
           {
             "date": "2025-07-26T13:00:00.000Z",
@@ -793,8 +809,12 @@
             "awayTeam": "Stouffville Yankees 15U A",
             "awayTeamCode": "510985",
             "location": "David Hamilton Main Diamond",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 7,
+              "scoreText": "7-8"
+            }
           }
         ],
         "nextGames": [
@@ -823,7 +843,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-27T10:48:29.053Z"
+        "lastUpdated": "2025-07-27T11:16:21.313Z"
       },
       "510986": {
         "teamCode": "510986",
@@ -926,7 +946,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-27T10:48:29.053Z"
+        "lastUpdated": "2025-07-27T11:16:21.313Z"
       },
       "510987": {
         "teamCode": "510987",
@@ -1029,7 +1049,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-27T10:48:29.053Z"
+        "lastUpdated": "2025-07-27T11:16:21.313Z"
       },
       "510988": {
         "teamCode": "510988",
@@ -1156,7 +1176,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-27T10:48:29.053Z"
+        "lastUpdated": "2025-07-27T11:16:21.313Z"
       },
       "510989": {
         "teamCode": "510989",
@@ -1279,7 +1299,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-27T10:48:29.053Z"
+        "lastUpdated": "2025-07-27T11:16:21.313Z"
       },
       "510990": {
         "teamCode": "510990",
@@ -1394,7 +1414,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-27T10:48:29.053Z"
+        "lastUpdated": "2025-07-27T11:16:21.314Z"
       },
       "510991": {
         "teamCode": "510991",
@@ -1521,7 +1541,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-27T10:48:29.053Z"
+        "lastUpdated": "2025-07-27T11:16:21.314Z"
       },
       "510992": {
         "teamCode": "510992",
@@ -1636,7 +1656,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-27T10:48:29.053Z"
+        "lastUpdated": "2025-07-27T11:16:21.314Z"
       },
       "510993": {
         "teamCode": "510993",
@@ -1763,7 +1783,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-27T10:48:29.053Z"
+        "lastUpdated": "2025-07-27T11:16:21.314Z"
       },
       "510998": {
         "teamCode": "510998",
@@ -1874,7 +1894,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-27T10:48:29.053Z"
+        "lastUpdated": "2025-07-27T11:16:21.314Z"
       },
       "516244": {
         "teamCode": "516244",
@@ -1973,7 +1993,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-27T10:48:29.053Z"
+        "lastUpdated": "2025-07-27T11:16:21.314Z"
       },
       "518959": {
         "teamCode": "518959",
@@ -2038,8 +2058,12 @@
             "awayTeam": "Vaughan Vikings 15U A",
             "awayTeamCode": "518959",
             "location": "Gander Ross",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 1,
+              "scoreText": "1-8"
+            }
           },
           {
             "date": "2025-07-26T13:00:00.000Z",
@@ -2050,8 +2074,12 @@
             "awayTeam": "Orillia Royals 15U A",
             "awayTeamCode": "510984",
             "location": "Gander Ross",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 0,
+              "away": 12,
+              "scoreText": "12-0"
+            }
           }
         ],
         "nextGames": [
@@ -2080,7 +2108,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-27T10:48:29.053Z"
+        "lastUpdated": "2025-07-27T11:16:21.314Z"
       },
       "546379": {
         "teamCode": "546379",
@@ -2161,12 +2189,16 @@
             "awayTeam": "Stouffville Yankees 15U A",
             "awayTeamCode": "510985",
             "location": "David Hamilton Main Diamond",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 7,
+              "scoreText": "7-8"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-27T10:48:29.053Z"
+        "lastUpdated": "2025-07-27T11:16:21.314Z"
       }
     },
     "allGames": [
@@ -4315,8 +4347,12 @@
         "awayTeam": "Orillia Royals 15U A",
         "awayTeamCode": "510984",
         "location": "Bethesda Fields #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 3,
+          "scoreText": "3-14"
+        }
       },
       {
         "date": "2025-07-24T20:00:00.000Z",
@@ -4351,8 +4387,12 @@
         "awayTeam": "Vaughan Vikings 15U A",
         "awayTeamCode": "518959",
         "location": "Gander Ross",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 1,
+          "scoreText": "1-8"
+        }
       },
       {
         "date": "2025-07-26T11:00:00.000Z",
@@ -4395,8 +4435,12 @@
         "awayTeam": "Stouffville Yankees 15U A",
         "awayTeamCode": "510985",
         "location": "David Hamilton Main Diamond",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 7,
+          "scoreText": "7-8"
+        }
       },
       {
         "date": "2025-07-26T13:00:00.000Z",
@@ -4407,8 +4451,12 @@
         "awayTeam": "Orillia Royals 15U A",
         "awayTeamCode": "510984",
         "location": "Gander Ross",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 0,
+          "away": 12,
+          "scoreText": "12-0"
+        }
       },
       {
         "date": "2025-07-26T14:00:00.000Z",
@@ -4681,8 +4729,12 @@
         "awayTeam": "Stouffville Yankees 15U A",
         "awayTeamCode": "510985",
         "location": "David Hamilton Main Diamond",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 7,
+          "scoreText": "7-8"
+        }
       },
       {
         "date": "2025-07-26T13:00:00.000Z",
@@ -4693,8 +4745,12 @@
         "awayTeam": "Orillia Royals 15U A",
         "awayTeamCode": "510984",
         "location": "Gander Ross",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 0,
+          "away": 12,
+          "scoreText": "12-0"
+        }
       },
       {
         "date": "2025-07-26T11:00:00.000Z",
@@ -4737,8 +4793,12 @@
         "awayTeam": "Vaughan Vikings 15U A",
         "awayTeamCode": "518959",
         "location": "Gander Ross",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 1,
+          "scoreText": "1-8"
+        }
       },
       {
         "date": "2025-07-24T20:30:00.000Z",
@@ -4773,8 +4833,12 @@
         "awayTeam": "Orillia Royals 15U A",
         "awayTeamCode": "510984",
         "location": "Bethesda Fields #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 3,
+          "scoreText": "3-14"
+        }
       }
     ],
     "upcomingGames": [
@@ -4899,20 +4963,20 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-27T10:48:29.053Z",
+    "lastUpdated": "2025-07-27T11:16:21.314Z",
     "totalGames": 162
   },
   "summary": {
     "totalTeams": 10,
     "totalGames": 162,
-    "completedGames": 132,
-    "upcomingGames": 30,
+    "completedGames": 136,
+    "upcomingGames": 26,
     "topTeam": {
       "team": "Ontario Women",
       "teamCode": "546379",
-      "wins": 12,
+      "wins": 13,
       "losses": 2,
-      "winPercentage": "0.794"
+      "winPercentage": "0.806"
     },
     "highestScoringGame": {
       "homeTeam": "Barrie Baycats 15U A",
@@ -4923,6 +4987,6 @@
       "date": "Mon, Jul 21",
       "location": "Dana Field / Barrie Sports Complex"
     },
-    "lastUpdated": "2025-07-27T10:50:56.958Z"
+    "lastUpdated": "2025-07-27T11:18:49.993Z"
   }
 }
