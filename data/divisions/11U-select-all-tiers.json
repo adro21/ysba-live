@@ -146,7 +146,7 @@
         }
       },
       {
-        "position": 9,
+        "position": 10,
         "team": "Richmond Hill Phoenix 11U DS",
         "teamCode": "511081",
         "record": {
@@ -164,21 +164,21 @@
         }
       },
       {
-        "position": 10,
+        "position": 9,
         "team": "Mansfield Cubs 11U DS",
         "teamCode": "511078",
         "record": {
-          "gamesPlayed": 14,
-          "wins": 4,
-          "losses": 10,
+          "gamesPlayed": 16,
+          "wins": 5,
+          "losses": 11,
           "ties": 0,
-          "winPercentage": "0.286"
+          "winPercentage": "0.313"
         },
         "stats": {
-          "points": 8,
-          "runsFor": 117,
-          "runsAgainst": 149,
-          "runDifferential": -32
+          "points": 10,
+          "runsFor": 139,
+          "runsAgainst": 166,
+          "runDifferential": -27
         }
       },
       {
@@ -201,6 +201,24 @@
       },
       {
         "position": 12,
+        "team": "Thornhill Reds 11U DS - Team 2",
+        "teamCode": "511083",
+        "record": {
+          "gamesPlayed": 14,
+          "wins": 1,
+          "losses": 13,
+          "ties": 0,
+          "winPercentage": "0.071"
+        },
+        "stats": {
+          "points": 2,
+          "runsFor": 47,
+          "runsAgainst": 140,
+          "runDifferential": -93
+        }
+      },
+      {
+        "position": 13,
         "team": "Innisfil Cardinals 11U DS",
         "teamCode": "511077",
         "record": {
@@ -216,27 +234,9 @@
           "runsAgainst": 174,
           "runDifferential": -107
         }
-      },
-      {
-        "position": 13,
-        "team": "Thornhill Reds 11U DS - Team 2",
-        "teamCode": "511083",
-        "record": {
-          "gamesPlayed": 12,
-          "wins": 0,
-          "losses": 12,
-          "ties": 0,
-          "winPercentage": "0.000"
-        },
-        "stats": {
-          "points": 0,
-          "runsFor": 30,
-          "runsAgainst": 118,
-          "runDifferential": -88
-        }
       }
     ],
-    "lastUpdated": "2025-07-28T11:45:06.216Z",
+    "lastUpdated": "2025-07-28T12:37:51.064Z",
     "totalTeams": 13
   },
   "schedule": {
@@ -329,7 +329,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-28T11:45:10.478Z"
+        "lastUpdated": "2025-07-28T12:37:55.431Z"
       },
       "511075": {
         "teamCode": "511075",
@@ -419,7 +419,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-28T11:45:10.478Z"
+        "lastUpdated": "2025-07-28T12:37:55.431Z"
       },
       "511076": {
         "teamCode": "511076",
@@ -534,7 +534,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-28T11:45:10.478Z"
+        "lastUpdated": "2025-07-28T12:37:55.431Z"
       },
       "511077": {
         "teamCode": "511077",
@@ -649,7 +649,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-28T11:45:10.478Z"
+        "lastUpdated": "2025-07-28T12:37:55.431Z"
       },
       "511078": {
         "teamCode": "511078",
@@ -714,8 +714,12 @@
             "awayTeam": "Mansfield Cubs 11U DS",
             "awayTeamCode": "511078",
             "location": "York Hill West Diamond",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 10,
+              "scoreText": "10-11"
+            }
           },
           {
             "date": "2025-07-27T12:15:00.000Z",
@@ -726,12 +730,16 @@
             "awayTeam": "Mansfield Cubs 11U DS",
             "awayTeamCode": "511078",
             "location": "York Hill West Diamond",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 12,
+              "scoreText": "12-6"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-28T11:45:10.478Z"
+        "lastUpdated": "2025-07-28T12:37:55.431Z"
       },
       "511079": {
         "teamCode": "511079",
@@ -846,7 +854,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-28T11:45:10.478Z"
+        "lastUpdated": "2025-07-28T12:37:55.431Z"
       },
       "511080": {
         "teamCode": "511080",
@@ -961,7 +969,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-28T11:45:10.478Z"
+        "lastUpdated": "2025-07-28T12:37:55.431Z"
       },
       "511081": {
         "teamCode": "511081",
@@ -1076,7 +1084,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-28T11:45:10.478Z"
+        "lastUpdated": "2025-07-28T12:37:55.431Z"
       },
       "511082": {
         "teamCode": "511082",
@@ -1191,7 +1199,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-28T11:45:10.478Z"
+        "lastUpdated": "2025-07-28T12:37:55.431Z"
       },
       "511083": {
         "teamCode": "511083",
@@ -1256,8 +1264,12 @@
             "awayTeam": "Mansfield Cubs 11U DS",
             "awayTeamCode": "511078",
             "location": "York Hill West Diamond",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 10,
+              "scoreText": "10-11"
+            }
           },
           {
             "date": "2025-07-27T12:15:00.000Z",
@@ -1268,8 +1280,12 @@
             "awayTeam": "Mansfield Cubs 11U DS",
             "awayTeamCode": "511078",
             "location": "York Hill West Diamond",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 12,
+              "scoreText": "12-6"
+            }
           }
         ],
         "nextGames": [
@@ -1298,7 +1314,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-28T11:45:10.478Z"
+        "lastUpdated": "2025-07-28T12:37:55.431Z"
       },
       "518967": {
         "teamCode": "518967",
@@ -1409,7 +1425,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-28T11:45:10.478Z"
+        "lastUpdated": "2025-07-28T12:37:55.431Z"
       },
       "518968": {
         "teamCode": "518968",
@@ -1524,7 +1540,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-28T11:45:10.478Z"
+        "lastUpdated": "2025-07-28T12:37:55.431Z"
       },
       "518974": {
         "teamCode": "518974",
@@ -1635,7 +1651,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-28T11:45:10.478Z"
+        "lastUpdated": "2025-07-28T12:37:55.431Z"
       }
     },
     "allGames": [
@@ -3156,8 +3172,12 @@
         "awayTeam": "Mansfield Cubs 11U DS",
         "awayTeamCode": "511078",
         "location": "York Hill West Diamond",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 10,
+          "scoreText": "10-11"
+        }
       },
       {
         "date": "2025-07-27T12:15:00.000Z",
@@ -3168,8 +3188,12 @@
         "awayTeam": "Mansfield Cubs 11U DS",
         "awayTeamCode": "511078",
         "location": "York Hill West Diamond",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 12,
+          "scoreText": "12-6"
+        }
       },
       {
         "date": "2025-08-02T10:00:00.000Z",
@@ -3302,8 +3326,12 @@
         "awayTeam": "Mansfield Cubs 11U DS",
         "awayTeamCode": "511078",
         "location": "York Hill West Diamond",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 12,
+          "scoreText": "12-6"
+        }
       },
       {
         "date": "2025-07-27T10:00:00.000Z",
@@ -3314,8 +3342,12 @@
         "awayTeam": "Mansfield Cubs 11U DS",
         "awayTeamCode": "511078",
         "location": "York Hill West Diamond",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 10,
+          "scoreText": "10-11"
+        }
       },
       {
         "date": "2025-07-20T17:15:00.000Z",
@@ -3568,14 +3600,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-28T11:45:10.478Z",
+    "lastUpdated": "2025-07-28T12:37:55.431Z",
     "totalGames": 107
   },
   "summary": {
     "totalTeams": 13,
     "totalGames": 107,
-    "completedGames": 92,
-    "upcomingGames": 15,
+    "completedGames": 94,
+    "upcomingGames": 13,
     "topTeam": {
       "team": "Barrie Baycats 11U DS",
       "teamCode": "511075",
@@ -3592,6 +3624,6 @@
       "date": "Sat, May 24",
       "location": "Mansfield Park"
     },
-    "lastUpdated": "2025-07-28T11:45:25.021Z"
+    "lastUpdated": "2025-07-28T12:38:10.085Z"
   }
 }
