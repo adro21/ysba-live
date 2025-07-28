@@ -6,16 +6,16 @@
         "team": "Collingwood Jays 15U DS",
         "teamCode": "511100",
         "record": {
-          "gamesPlayed": 13,
-          "wins": 12,
-          "losses": 0,
+          "gamesPlayed": 15,
+          "wins": 13,
+          "losses": 1,
           "ties": 0,
-          "winPercentage": "1.000"
+          "winPercentage": "0.929"
         },
         "stats": {
-          "points": 24,
-          "runsFor": 158,
-          "runsAgainst": 46,
+          "points": 26,
+          "runsFor": 173,
+          "runsAgainst": 61,
           "runDifferential": 112
         }
       },
@@ -42,16 +42,16 @@
         "team": "TNT Thunder 15U DS",
         "teamCode": "511104",
         "record": {
-          "gamesPlayed": 11,
-          "wins": 6,
-          "losses": 5,
+          "gamesPlayed": 13,
+          "wins": 7,
+          "losses": 6,
           "ties": 0,
-          "winPercentage": "0.545"
+          "winPercentage": "0.538"
         },
         "stats": {
-          "points": 12,
-          "runsFor": 124,
-          "runsAgainst": 78,
+          "points": 14,
+          "runsFor": 139,
+          "runsAgainst": 93,
           "runDifferential": 46
         }
       },
@@ -128,7 +128,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-27T23:47:09.778Z",
+    "lastUpdated": "2025-07-28T01:25:35.518Z",
     "totalTeams": 7
   },
   "schedule": {
@@ -201,7 +201,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-27T23:47:12.908Z"
+        "lastUpdated": "2025-07-28T01:25:38.657Z"
       },
       "511100": {
         "teamCode": "511100",
@@ -266,8 +266,12 @@
             "awayTeam": "TNT Thunder 15U DS",
             "awayTeamCode": "511104",
             "location": "Legion Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 10,
+              "scoreText": "10-6"
+            }
           },
           {
             "date": "2025-07-27T12:30:00.000Z",
@@ -278,12 +282,16 @@
             "awayTeam": "TNT Thunder 15U DS",
             "awayTeamCode": "511104",
             "location": "Legion Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 5,
+              "scoreText": "5-9"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-27T23:47:12.908Z"
+        "lastUpdated": "2025-07-28T01:25:38.657Z"
       },
       "511101": {
         "teamCode": "511101",
@@ -402,7 +410,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-27T23:47:12.908Z"
+        "lastUpdated": "2025-07-28T01:25:38.657Z"
       },
       "511102": {
         "teamCode": "511102",
@@ -517,7 +525,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-27T23:47:12.908Z"
+        "lastUpdated": "2025-07-28T01:25:38.657Z"
       },
       "511103": {
         "teamCode": "511103",
@@ -595,7 +603,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-27T23:47:12.908Z"
+        "lastUpdated": "2025-07-28T01:25:38.657Z"
       },
       "511104": {
         "teamCode": "511104",
@@ -656,8 +664,12 @@
             "awayTeam": "TNT Thunder 15U DS",
             "awayTeamCode": "511104",
             "location": "Legion Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 10,
+              "scoreText": "10-6"
+            }
           },
           {
             "date": "2025-07-27T12:30:00.000Z",
@@ -668,8 +680,12 @@
             "awayTeam": "TNT Thunder 15U DS",
             "awayTeamCode": "511104",
             "location": "Legion Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 5,
+              "scoreText": "5-9"
+            }
           }
         ],
         "nextGames": [
@@ -686,7 +702,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-27T23:47:12.908Z"
+        "lastUpdated": "2025-07-28T01:25:38.657Z"
       },
       "511524": {
         "teamCode": "511524",
@@ -776,7 +792,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-27T23:47:12.908Z"
+        "lastUpdated": "2025-07-28T01:25:38.657Z"
       }
     },
     "allGames": [
@@ -1549,8 +1565,12 @@
         "awayTeam": "TNT Thunder 15U DS",
         "awayTeamCode": "511104",
         "location": "Legion Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 10,
+          "scoreText": "10-6"
+        }
       },
       {
         "date": "2025-07-27T12:30:00.000Z",
@@ -1561,8 +1581,12 @@
         "awayTeam": "TNT Thunder 15U DS",
         "awayTeamCode": "511104",
         "location": "Legion Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 5,
+          "scoreText": "5-9"
+        }
       },
       {
         "date": "2025-07-30T20:00:00.000Z",
@@ -1611,8 +1635,12 @@
         "awayTeam": "TNT Thunder 15U DS",
         "awayTeamCode": "511104",
         "location": "Legion Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 5,
+          "scoreText": "5-9"
+        }
       },
       {
         "date": "2025-07-27T10:00:00.000Z",
@@ -1623,8 +1651,12 @@
         "awayTeam": "TNT Thunder 15U DS",
         "awayTeamCode": "511104",
         "location": "Legion Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 10,
+          "scoreText": "10-6"
+        }
       },
       {
         "date": "2025-07-26T16:00:00.000Z",
@@ -1785,20 +1817,20 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-27T23:47:12.908Z",
+    "lastUpdated": "2025-07-28T01:25:38.657Z",
     "totalGames": 57
   },
   "summary": {
     "totalTeams": 7,
     "totalGames": 57,
-    "completedGames": 34,
-    "upcomingGames": 23,
+    "completedGames": 36,
+    "upcomingGames": 21,
     "topTeam": {
       "team": "Collingwood Jays 15U DS",
       "teamCode": "511100",
-      "wins": 12,
-      "losses": 0,
-      "winPercentage": "1.000"
+      "wins": 13,
+      "losses": 1,
+      "winPercentage": "0.929"
     },
     "highestScoringGame": {
       "homeTeam": "Barrie Baycats 15U DS",
@@ -1809,6 +1841,6 @@
       "date": "Sat, Jun 21",
       "location": "Lennox (field b)"
     },
-    "lastUpdated": "2025-07-27T23:47:12.915Z"
+    "lastUpdated": "2025-07-28T01:25:38.664Z"
   }
 }
