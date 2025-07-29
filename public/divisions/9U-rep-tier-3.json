@@ -60,17 +60,17 @@
         "team": "Vaughan Vikings 9U A",
         "teamCode": "518948",
         "record": {
-          "gamesPlayed": 13,
-          "wins": 4,
+          "gamesPlayed": 14,
+          "wins": 5,
           "losses": 8,
           "ties": 1,
-          "winPercentage": "0.346"
+          "winPercentage": "0.393"
         },
         "stats": {
-          "points": 9,
-          "runsFor": 157,
-          "runsAgainst": 202,
-          "runDifferential": -45
+          "points": 11,
+          "runsFor": 177,
+          "runsAgainst": 206,
+          "runDifferential": -29
         }
       },
       {
@@ -92,7 +92,7 @@
         }
       },
       {
-        "position": 6,
+        "position": 7,
         "team": "Stouffville Yankees 9U A",
         "teamCode": "511065",
         "record": {
@@ -110,25 +110,25 @@
         }
       },
       {
-        "position": 7,
+        "position": 6,
         "team": "Orangeville Bengals 9U A",
         "teamCode": "511063",
         "record": {
-          "gamesPlayed": 12,
+          "gamesPlayed": 13,
           "wins": 2,
-          "losses": 10,
+          "losses": 11,
           "ties": 0,
-          "winPercentage": "0.167"
+          "winPercentage": "0.154"
         },
         "stats": {
           "points": 4,
-          "runsFor": 58,
-          "runsAgainst": 211,
-          "runDifferential": -153
+          "runsFor": 62,
+          "runsAgainst": 231,
+          "runDifferential": -169
         }
       }
     ],
-    "lastUpdated": "2025-07-28T23:43:36.426Z",
+    "lastUpdated": "2025-07-29T01:23:33.973Z",
     "totalTeams": 7
   },
   "schedule": {
@@ -246,7 +246,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-28T23:43:39.078Z"
+        "lastUpdated": "2025-07-29T01:23:36.677Z"
       },
       "511062": {
         "teamCode": "511062",
@@ -373,7 +373,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-28T23:43:39.079Z"
+        "lastUpdated": "2025-07-29T01:23:36.677Z"
       },
       "511063": {
         "teamCode": "511063",
@@ -450,8 +450,12 @@
             "awayTeam": "Orangeville Bengals 9U A",
             "awayTeamCode": "511063",
             "location": "Concord Regional #4",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 20,
+              "away": 4,
+              "scoreText": "4-20"
+            }
           }
         ],
         "nextGames": [
@@ -468,7 +472,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-28T23:43:39.079Z"
+        "lastUpdated": "2025-07-29T01:23:36.677Z"
       },
       "511064": {
         "teamCode": "511064",
@@ -571,7 +575,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-28T23:43:39.079Z"
+        "lastUpdated": "2025-07-29T01:23:36.677Z"
       },
       "511065": {
         "teamCode": "511065",
@@ -682,7 +686,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-28T23:43:39.079Z"
+        "lastUpdated": "2025-07-29T01:23:36.677Z"
       },
       "516247": {
         "teamCode": "516247",
@@ -809,7 +813,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-28T23:43:39.079Z"
+        "lastUpdated": "2025-07-29T01:23:36.677Z"
       },
       "518948": {
         "teamCode": "518948",
@@ -890,8 +894,12 @@
             "awayTeam": "Orangeville Bengals 9U A",
             "awayTeamCode": "511063",
             "location": "Concord Regional #4",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 20,
+              "away": 4,
+              "scoreText": "4-20"
+            }
           }
         ],
         "nextGames": [
@@ -920,7 +928,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-28T23:43:39.079Z"
+        "lastUpdated": "2025-07-29T01:23:36.677Z"
       }
     },
     "allGames": [
@@ -1689,8 +1697,12 @@
         "awayTeam": "Orangeville Bengals 9U A",
         "awayTeamCode": "511063",
         "location": "Concord Regional #4",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 20,
+          "away": 4,
+          "scoreText": "4-20"
+        }
       },
       {
         "date": "2025-07-30T18:30:00.000Z",
@@ -1787,8 +1799,12 @@
         "awayTeam": "Orangeville Bengals 9U A",
         "awayTeamCode": "511063",
         "location": "Concord Regional #4",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 20,
+          "away": 4,
+          "scoreText": "4-20"
+        }
       },
       {
         "date": "2025-07-24T18:00:00.000Z",
@@ -2017,14 +2033,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-28T23:43:39.079Z",
+    "lastUpdated": "2025-07-29T01:23:36.677Z",
     "totalGames": 56
   },
   "summary": {
     "totalTeams": 7,
     "totalGames": 56,
-    "completedGames": 45,
-    "upcomingGames": 11,
+    "completedGames": 46,
+    "upcomingGames": 10,
     "topTeam": {
       "team": "Orillia Royals 9U A",
       "teamCode": "511064",
@@ -2041,6 +2057,6 @@
       "date": "Sat, Jul 19",
       "location": "Fairgrounds #2"
     },
-    "lastUpdated": "2025-07-28T23:49:06.638Z"
+    "lastUpdated": "2025-07-29T01:29:04.615Z"
   }
 }
