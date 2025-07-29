@@ -6,17 +6,17 @@
         "team": "Markham Mariners 12U AA",
         "teamCode": "510931",
         "record": {
-          "gamesPlayed": 14,
-          "wins": 11,
+          "gamesPlayed": 15,
+          "wins": 12,
           "losses": 2,
           "ties": 1,
-          "winPercentage": "0.821"
+          "winPercentage": "0.833"
         },
         "stats": {
-          "points": 23,
-          "runsFor": 180,
+          "points": 25,
+          "runsFor": 195,
           "runsAgainst": 73,
-          "runDifferential": 107
+          "runDifferential": 122
         }
       },
       {
@@ -96,17 +96,17 @@
         "team": "Collingwood Jays 12U AA",
         "teamCode": "510930",
         "record": {
-          "gamesPlayed": 15,
+          "gamesPlayed": 16,
           "wins": 7,
-          "losses": 7,
+          "losses": 8,
           "ties": 1,
-          "winPercentage": "0.500"
+          "winPercentage": "0.469"
         },
         "stats": {
           "points": 15,
           "runsFor": 119,
-          "runsAgainst": 125,
-          "runDifferential": -6
+          "runsAgainst": 140,
+          "runDifferential": -21
         }
       },
       {
@@ -164,7 +164,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-29T01:24:59.141Z",
+    "lastUpdated": "2025-07-29T03:27:02.203Z",
     "totalTeams": 9
   },
   "schedule": {
@@ -249,7 +249,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-29T01:25:03.479Z"
+        "lastUpdated": "2025-07-29T03:27:06.510Z"
       },
       "510919": {
         "teamCode": "510919",
@@ -344,7 +344,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T01:25:03.479Z"
+        "lastUpdated": "2025-07-29T03:27:06.510Z"
       },
       "510920": {
         "teamCode": "510920",
@@ -435,7 +435,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T01:25:03.479Z"
+        "lastUpdated": "2025-07-29T03:27:06.510Z"
       },
       "510921": {
         "teamCode": "510921",
@@ -530,7 +530,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T01:25:03.479Z"
+        "lastUpdated": "2025-07-29T03:27:06.510Z"
       },
       "510922": {
         "teamCode": "510922",
@@ -637,7 +637,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T01:25:03.479Z"
+        "lastUpdated": "2025-07-29T03:27:06.510Z"
       },
       "510923": {
         "teamCode": "510923",
@@ -736,7 +736,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T01:25:03.479Z"
+        "lastUpdated": "2025-07-29T03:27:06.510Z"
       },
       "510924": {
         "teamCode": "510924",
@@ -831,7 +831,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T01:25:03.479Z"
+        "lastUpdated": "2025-07-29T03:27:06.510Z"
       },
       "510925": {
         "teamCode": "510925",
@@ -942,7 +942,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T01:25:03.480Z"
+        "lastUpdated": "2025-07-29T03:27:06.510Z"
       },
       "510926": {
         "teamCode": "510926",
@@ -1020,7 +1020,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-29T01:25:03.480Z"
+        "lastUpdated": "2025-07-29T03:27:06.510Z"
       },
       "510927": {
         "teamCode": "510927",
@@ -1094,7 +1094,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-29T01:25:03.480Z"
+        "lastUpdated": "2025-07-29T03:27:06.510Z"
       },
       "510928": {
         "teamCode": "510928",
@@ -1197,7 +1197,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T01:25:03.480Z"
+        "lastUpdated": "2025-07-29T03:27:06.510Z"
       },
       "510929": {
         "teamCode": "510929",
@@ -1308,7 +1308,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T01:25:03.480Z"
+        "lastUpdated": "2025-07-29T03:27:06.510Z"
       },
       "510930": {
         "teamCode": "510930",
@@ -1389,12 +1389,16 @@
             "awayTeam": "Collingwood Jays 12U AA",
             "awayTeamCode": "510930",
             "location": "Berczy Park South",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 15,
+              "away": 0,
+              "scoreText": "0-15"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-29T01:25:03.480Z"
+        "lastUpdated": "2025-07-29T03:27:06.510Z"
       },
       "510931": {
         "teamCode": "510931",
@@ -1475,8 +1479,12 @@
             "awayTeam": "Collingwood Jays 12U AA",
             "awayTeamCode": "510930",
             "location": "Berczy Park South",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 15,
+              "away": 0,
+              "scoreText": "0-15"
+            }
           }
         ],
         "nextGames": [
@@ -1493,7 +1501,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T01:25:03.480Z"
+        "lastUpdated": "2025-07-29T03:27:06.510Z"
       },
       "510932": {
         "teamCode": "510932",
@@ -1608,7 +1616,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T01:25:03.480Z"
+        "lastUpdated": "2025-07-29T03:27:06.510Z"
       },
       "510933": {
         "teamCode": "510933",
@@ -1723,7 +1731,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T01:25:03.480Z"
+        "lastUpdated": "2025-07-29T03:27:06.510Z"
       },
       "510934": {
         "teamCode": "510934",
@@ -1822,7 +1830,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T01:25:03.480Z"
+        "lastUpdated": "2025-07-29T03:27:06.510Z"
       },
       "510935": {
         "teamCode": "510935",
@@ -1933,7 +1941,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T01:25:03.480Z"
+        "lastUpdated": "2025-07-29T03:27:06.510Z"
       },
       "510939": {
         "teamCode": "510939",
@@ -2040,7 +2048,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T01:25:03.480Z"
+        "lastUpdated": "2025-07-29T03:27:06.510Z"
       }
     },
     "allGames": [
@@ -4349,8 +4357,12 @@
         "awayTeam": "Collingwood Jays 12U AA",
         "awayTeamCode": "510930",
         "location": "Berczy Park South",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 15,
+          "away": 0,
+          "scoreText": "0-15"
+        }
       },
       {
         "date": "2025-07-28T18:30:00.000Z",
@@ -4519,8 +4531,12 @@
         "awayTeam": "Collingwood Jays 12U AA",
         "awayTeamCode": "510930",
         "location": "Berczy Park South",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 15,
+          "away": 0,
+          "scoreText": "0-15"
+        }
       },
       {
         "date": "2025-07-28T18:30:00.000Z",
@@ -4773,20 +4789,20 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-29T01:25:03.480Z",
+    "lastUpdated": "2025-07-29T03:27:06.510Z",
     "totalGames": 162
   },
   "summary": {
     "totalTeams": 9,
     "totalGames": 162,
-    "completedGames": 130,
-    "upcomingGames": 32,
+    "completedGames": 131,
+    "upcomingGames": 31,
     "topTeam": {
       "team": "Markham Mariners 12U AA",
       "teamCode": "510931",
-      "wins": 11,
+      "wins": 12,
       "losses": 2,
-      "winPercentage": "0.821"
+      "winPercentage": "0.833"
     },
     "highestScoringGame": {
       "homeTeam": "Barrie Baycats 12U A",
@@ -4797,6 +4813,6 @@
       "date": "Thu, Jul 3",
       "location": "Barrie Community Sports Complex - Diamond 12"
     },
-    "lastUpdated": "2025-07-29T01:29:04.615Z"
+    "lastUpdated": "2025-07-29T03:31:09.498Z"
   }
 }
