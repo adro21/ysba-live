@@ -2,7 +2,7 @@
   "standings": {
     "teams": [
       {
-        "position": 2,
+        "position": 3,
         "team": "Innisfil Cardinals 13U DS - Team 1",
         "teamCode": "511088",
         "record": {
@@ -20,25 +20,25 @@
         }
       },
       {
-        "position": 3,
+        "position": 1,
         "team": "Newmarket Hawks 13U DS",
         "teamCode": "511093",
         "record": {
-          "gamesPlayed": 14,
+          "gamesPlayed": 15,
           "wins": 13,
           "losses": 1,
-          "ties": 0,
-          "winPercentage": "0.929"
+          "ties": 1,
+          "winPercentage": "0.900"
         },
         "stats": {
-          "points": 26,
-          "runsFor": 152,
-          "runsAgainst": 108,
+          "points": 27,
+          "runsFor": 161,
+          "runsAgainst": 117,
           "runDifferential": 44
         }
       },
       {
-        "position": 1,
+        "position": 2,
         "team": "Collingwood Jays (Grey) 13U DS",
         "teamCode": "511087",
         "record": {
@@ -60,17 +60,17 @@
         "team": "Barrie Baycats 13U DS",
         "teamCode": "511085",
         "record": {
-          "gamesPlayed": 14,
+          "gamesPlayed": 15,
           "wins": 11,
-          "losses": 3,
+          "losses": 4,
           "ties": 0,
-          "winPercentage": "0.786"
+          "winPercentage": "0.733"
         },
         "stats": {
           "points": 22,
-          "runsFor": 142,
-          "runsAgainst": 95,
-          "runDifferential": 47
+          "runsFor": 149,
+          "runsAgainst": 105,
+          "runDifferential": 44
         }
       },
       {
@@ -164,20 +164,20 @@
         }
       },
       {
-        "position": 13,
+        "position": 11,
         "team": "Innisfil Cardinals 13U DS - Team 2",
         "teamCode": "511089",
         "record": {
-          "gamesPlayed": 13,
+          "gamesPlayed": 14,
           "wins": 5,
           "losses": 8,
-          "ties": 0,
-          "winPercentage": "0.385"
+          "ties": 1,
+          "winPercentage": "0.393"
         },
         "stats": {
-          "points": 10,
-          "runsFor": 88,
-          "runsAgainst": 130,
+          "points": 11,
+          "runsFor": 97,
+          "runsAgainst": 139,
           "runDifferential": -42
         }
       },
@@ -200,7 +200,7 @@
         }
       },
       {
-        "position": 12,
+        "position": 13,
         "team": "Caledon Nationals 13U HS",
         "teamCode": "511098",
         "record": {
@@ -218,7 +218,7 @@
         }
       },
       {
-        "position": 11,
+        "position": 12,
         "team": "Markham Mariners 13U DS -Team 2",
         "teamCode": "511091",
         "record": {
@@ -236,7 +236,7 @@
         }
       },
       {
-        "position": 14,
+        "position": 15,
         "team": "Orillia Royals 13U DS",
         "teamCode": "511094",
         "record": {
@@ -254,21 +254,21 @@
         }
       },
       {
-        "position": 15,
+        "position": 14,
         "team": "Aurora-King Jays 13U DS",
         "teamCode": "511084",
         "record": {
-          "gamesPlayed": 15,
-          "wins": 3,
+          "gamesPlayed": 16,
+          "wins": 4,
           "losses": 12,
           "ties": 0,
-          "winPercentage": "0.200"
+          "winPercentage": "0.250"
         },
         "stats": {
-          "points": 6,
-          "runsFor": 123,
-          "runsAgainst": 167,
-          "runDifferential": -44
+          "points": 8,
+          "runsFor": 133,
+          "runsAgainst": 174,
+          "runDifferential": -41
         }
       },
       {
@@ -290,7 +290,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-29T22:50:49.215Z",
+    "lastUpdated": "2025-07-29T23:21:23.398Z",
     "totalTeams": 16
   },
   "schedule": {
@@ -374,12 +374,16 @@
             "awayTeam": "Barrie Baycats 13U DS",
             "awayTeamCode": "511085",
             "location": "Norm Weller Baseball Field",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 7,
+              "scoreText": "7-10"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-29T22:50:53.533Z"
+        "lastUpdated": "2025-07-29T23:21:28.016Z"
       },
       "511085": {
         "teamCode": "511085",
@@ -460,12 +464,16 @@
             "awayTeam": "Barrie Baycats 13U DS",
             "awayTeamCode": "511085",
             "location": "Norm Weller Baseball Field",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 7,
+              "scoreText": "7-10"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-29T22:50:53.533Z"
+        "lastUpdated": "2025-07-29T23:21:28.016Z"
       },
       "511086": {
         "teamCode": "511086",
@@ -555,7 +563,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-29T22:50:53.533Z"
+        "lastUpdated": "2025-07-29T23:21:28.016Z"
       },
       "511087": {
         "teamCode": "511087",
@@ -645,7 +653,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-29T22:50:53.533Z"
+        "lastUpdated": "2025-07-29T23:21:28.016Z"
       },
       "511088": {
         "teamCode": "511088",
@@ -735,7 +743,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-29T22:50:53.533Z"
+        "lastUpdated": "2025-07-29T23:21:28.016Z"
       },
       "511089": {
         "teamCode": "511089",
@@ -792,18 +800,6 @@
             }
           },
           {
-            "date": "2025-07-24T20:30:00.000Z",
-            "dateText": "Thu, Jul 24",
-            "time": "8:30 PM",
-            "homeTeam": "Newmarket Hawks 13U DS",
-            "homeTeamCode": "511093",
-            "awayTeam": "Innisfil Cardinals 13U DS - Team 2",
-            "awayTeamCode": "511089",
-            "location": "Newmarket Fairgrounds Park #1",
-            "isCompleted": false,
-            "score": null
-          },
-          {
             "date": "2025-07-26T13:30:00.000Z",
             "dateText": "Sat, Jul 26",
             "time": "1:30 PM",
@@ -814,10 +810,26 @@
             "location": "Armstrong Family Park #1",
             "isCompleted": false,
             "score": null
+          },
+          {
+            "date": "2025-07-28T18:30:00.000Z",
+            "dateText": "Mon, Jul 28",
+            "time": "6:30 PM",
+            "homeTeam": "Newmarket Hawks 13U DS",
+            "homeTeamCode": "511093",
+            "awayTeam": "Innisfil Cardinals 13U DS - Team 2",
+            "awayTeamCode": "511089",
+            "location": "Newmarket Fairgrounds Park #1",
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 9,
+              "scoreText": "9-9"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-29T22:50:53.533Z"
+        "lastUpdated": "2025-07-29T23:21:28.016Z"
       },
       "511090": {
         "teamCode": "511090",
@@ -932,7 +944,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T22:50:53.533Z"
+        "lastUpdated": "2025-07-29T23:21:28.016Z"
       },
       "511091": {
         "teamCode": "511091",
@@ -1022,7 +1034,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-29T22:50:53.533Z"
+        "lastUpdated": "2025-07-29T23:21:28.016Z"
       },
       "511092": {
         "teamCode": "511092",
@@ -1112,7 +1124,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-29T22:50:53.533Z"
+        "lastUpdated": "2025-07-29T23:21:28.016Z"
       },
       "511093": {
         "teamCode": "511093",
@@ -1169,18 +1181,6 @@
             }
           },
           {
-            "date": "2025-07-24T20:30:00.000Z",
-            "dateText": "Thu, Jul 24",
-            "time": "8:30 PM",
-            "homeTeam": "Newmarket Hawks 13U DS",
-            "homeTeamCode": "511093",
-            "awayTeam": "Innisfil Cardinals 13U DS - Team 2",
-            "awayTeamCode": "511089",
-            "location": "Newmarket Fairgrounds Park #1",
-            "isCompleted": false,
-            "score": null
-          },
-          {
             "date": "2025-07-26T13:30:00.000Z",
             "dateText": "Sat, Jul 26",
             "time": "1:30 PM",
@@ -1191,10 +1191,26 @@
             "location": "Armstrong Family Park #1",
             "isCompleted": false,
             "score": null
+          },
+          {
+            "date": "2025-07-28T18:30:00.000Z",
+            "dateText": "Mon, Jul 28",
+            "time": "6:30 PM",
+            "homeTeam": "Newmarket Hawks 13U DS",
+            "homeTeamCode": "511093",
+            "awayTeam": "Innisfil Cardinals 13U DS - Team 2",
+            "awayTeamCode": "511089",
+            "location": "Newmarket Fairgrounds Park #1",
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 9,
+              "scoreText": "9-9"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-29T22:50:53.533Z"
+        "lastUpdated": "2025-07-29T23:21:28.016Z"
       },
       "511094": {
         "teamCode": "511094",
@@ -1297,7 +1313,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T22:50:53.533Z"
+        "lastUpdated": "2025-07-29T23:21:28.016Z"
       },
       "511095": {
         "teamCode": "511095",
@@ -1387,7 +1403,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-29T22:50:53.533Z"
+        "lastUpdated": "2025-07-29T23:21:28.016Z"
       },
       "511096": {
         "teamCode": "511096",
@@ -1502,7 +1518,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T22:50:53.533Z"
+        "lastUpdated": "2025-07-29T23:21:28.016Z"
       },
       "511097": {
         "teamCode": "511097",
@@ -1601,7 +1617,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T22:50:53.533Z"
+        "lastUpdated": "2025-07-29T23:21:28.016Z"
       },
       "511098": {
         "teamCode": "511098",
@@ -1716,7 +1732,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T22:50:53.533Z"
+        "lastUpdated": "2025-07-29T23:21:28.016Z"
       },
       "518969": {
         "teamCode": "518969",
@@ -1827,7 +1843,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T22:50:53.533Z"
+        "lastUpdated": "2025-07-29T23:21:28.016Z"
       }
     },
     "allGames": [
@@ -3107,22 +3123,6 @@
         "date": "2025-07-06T12:00:00.000Z",
         "dateText": "Sun, Jul 6",
         "time": "12:00 PM",
-        "homeTeam": "Collingwood Jays (Blue) 13U DS",
-        "homeTeamCode": "511086",
-        "awayTeam": "Barrie Baycats 13U DS",
-        "awayTeamCode": "511085",
-        "location": "Central Park #1",
-        "isCompleted": true,
-        "score": {
-          "home": 6,
-          "away": 11,
-          "scoreText": "11-6"
-        }
-      },
-      {
-        "date": "2025-07-06T12:00:00.000Z",
-        "dateText": "Sun, Jul 6",
-        "time": "12:00 PM",
         "homeTeam": "Markham Mariners 13U DS -Team 2",
         "homeTeamCode": "511091",
         "awayTeam": "Innisfil Cardinals 13U DS - Team 1",
@@ -3136,19 +3136,19 @@
         }
       },
       {
-        "date": "2025-07-06T12:30:00.000Z",
+        "date": "2025-07-06T12:00:00.000Z",
         "dateText": "Sun, Jul 6",
-        "time": "12:30 PM",
-        "homeTeam": "Orillia Royals 13U DS",
-        "homeTeamCode": "511094",
-        "awayTeam": "New Lowell Knights 13U DS",
-        "awayTeamCode": "511092",
-        "location": "Cliff Yeo Diamond",
+        "time": "12:00 PM",
+        "homeTeam": "Collingwood Jays (Blue) 13U DS",
+        "homeTeamCode": "511086",
+        "awayTeam": "Barrie Baycats 13U DS",
+        "awayTeamCode": "511085",
+        "location": "Central Park #1",
         "isCompleted": true,
         "score": {
-          "home": 12,
+          "home": 6,
           "away": 11,
-          "scoreText": "11-12"
+          "scoreText": "11-6"
         }
       },
       {
@@ -3165,6 +3165,22 @@
           "home": 0,
           "away": 5,
           "scoreText": "5-0"
+        }
+      },
+      {
+        "date": "2025-07-06T12:30:00.000Z",
+        "dateText": "Sun, Jul 6",
+        "time": "12:30 PM",
+        "homeTeam": "Orillia Royals 13U DS",
+        "homeTeamCode": "511094",
+        "awayTeam": "New Lowell Knights 13U DS",
+        "awayTeamCode": "511092",
+        "location": "Cliff Yeo Diamond",
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 11,
+          "scoreText": "11-12"
         }
       },
       {
@@ -3315,22 +3331,6 @@
         "date": "2025-07-12T12:30:00.000Z",
         "dateText": "Sat, Jul 12",
         "time": "12:30 PM",
-        "homeTeam": "TNT Thunder 13U DS",
-        "homeTeamCode": "511097",
-        "awayTeam": "Innisfil Cardinals 13U DS - Team 2",
-        "awayTeamCode": "511089",
-        "location": "Tottenham Recreation",
-        "isCompleted": true,
-        "score": {
-          "home": 12,
-          "away": 1,
-          "scoreText": "1-12"
-        }
-      },
-      {
-        "date": "2025-07-12T12:30:00.000Z",
-        "dateText": "Sat, Jul 12",
-        "time": "12:30 PM",
         "homeTeam": "Richmond Hill Phoenix 13U DS",
         "homeTeamCode": "511095",
         "awayTeam": "Vaughan Vikings 12U DS",
@@ -3344,19 +3344,19 @@
         }
       },
       {
-        "date": "2025-07-13T10:00:00.000Z",
-        "dateText": "Sun, Jul 13",
-        "time": "10:00 AM",
-        "homeTeam": "Caledon Nationals 13U HS",
-        "homeTeamCode": "511098",
-        "awayTeam": "Markham Mariners 13U DS -Team 1",
-        "awayTeamCode": "511090",
-        "location": "Jays Care (Bolton Camp)",
+        "date": "2025-07-12T12:30:00.000Z",
+        "dateText": "Sat, Jul 12",
+        "time": "12:30 PM",
+        "homeTeam": "TNT Thunder 13U DS",
+        "homeTeamCode": "511097",
+        "awayTeam": "Innisfil Cardinals 13U DS - Team 2",
+        "awayTeamCode": "511089",
+        "location": "Tottenham Recreation",
         "isCompleted": true,
         "score": {
-          "home": 4,
-          "away": 10,
-          "scoreText": "10-4"
+          "home": 12,
+          "away": 1,
+          "scoreText": "1-12"
         }
       },
       {
@@ -3373,6 +3373,22 @@
           "home": 11,
           "away": 1,
           "scoreText": "1-11"
+        }
+      },
+      {
+        "date": "2025-07-13T10:00:00.000Z",
+        "dateText": "Sun, Jul 13",
+        "time": "10:00 AM",
+        "homeTeam": "Caledon Nationals 13U HS",
+        "homeTeamCode": "511098",
+        "awayTeam": "Markham Mariners 13U DS -Team 1",
+        "awayTeamCode": "511090",
+        "location": "Jays Care (Bolton Camp)",
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 10,
+          "scoreText": "10-4"
         }
       },
       {
@@ -3395,22 +3411,6 @@
         "date": "2025-07-13T12:30:00.000Z",
         "dateText": "Sun, Jul 13",
         "time": "12:30 PM",
-        "homeTeam": "Orillia Royals 13U DS",
-        "homeTeamCode": "511094",
-        "awayTeam": "Collingwood Jays (Blue) 13U DS",
-        "awayTeamCode": "511086",
-        "location": "Cliff Yeo Diamond",
-        "isCompleted": true,
-        "score": {
-          "home": 12,
-          "away": 1,
-          "scoreText": "1-12"
-        }
-      },
-      {
-        "date": "2025-07-13T12:30:00.000Z",
-        "dateText": "Sun, Jul 13",
-        "time": "12:30 PM",
         "homeTeam": "Caledon Nationals 13U HS",
         "homeTeamCode": "511098",
         "awayTeam": "Markham Mariners 13U DS -Team 1",
@@ -3421,6 +3421,22 @@
           "home": 1,
           "away": 11,
           "scoreText": "11-1"
+        }
+      },
+      {
+        "date": "2025-07-13T12:30:00.000Z",
+        "dateText": "Sun, Jul 13",
+        "time": "12:30 PM",
+        "homeTeam": "Orillia Royals 13U DS",
+        "homeTeamCode": "511094",
+        "awayTeam": "Collingwood Jays (Blue) 13U DS",
+        "awayTeamCode": "511086",
+        "location": "Cliff Yeo Diamond",
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 1,
+          "scoreText": "1-12"
         }
       },
       {
@@ -3491,22 +3507,6 @@
         "date": "2025-07-19T10:00:00.000Z",
         "dateText": "Sat, Jul 19",
         "time": "10:00 AM",
-        "homeTeam": "Innisfil Cardinals 13U DS - Team 2",
-        "homeTeamCode": "511089",
-        "awayTeam": "New Lowell Knights 13U DS",
-        "awayTeamCode": "511092",
-        "location": "Stroud Arena",
-        "isCompleted": true,
-        "score": {
-          "home": 1,
-          "away": 11,
-          "scoreText": "11-1"
-        }
-      },
-      {
-        "date": "2025-07-19T10:00:00.000Z",
-        "dateText": "Sat, Jul 19",
-        "time": "10:00 AM",
         "homeTeam": "Markham Mariners 13U DS -Team 1",
         "homeTeamCode": "511090",
         "awayTeam": "Markham Mariners 13U DS -Team 2",
@@ -3517,6 +3517,22 @@
           "home": 11,
           "away": 5,
           "scoreText": "5-11"
+        }
+      },
+      {
+        "date": "2025-07-19T10:00:00.000Z",
+        "dateText": "Sat, Jul 19",
+        "time": "10:00 AM",
+        "homeTeam": "Innisfil Cardinals 13U DS - Team 2",
+        "homeTeamCode": "511089",
+        "awayTeam": "New Lowell Knights 13U DS",
+        "awayTeamCode": "511092",
+        "location": "Stroud Arena",
+        "isCompleted": true,
+        "score": {
+          "home": 1,
+          "away": 11,
+          "scoreText": "11-1"
         }
       },
       {
@@ -3632,18 +3648,6 @@
         }
       },
       {
-        "date": "2025-07-24T20:30:00.000Z",
-        "dateText": "Thu, Jul 24",
-        "time": "8:30 PM",
-        "homeTeam": "Newmarket Hawks 13U DS",
-        "homeTeamCode": "511093",
-        "awayTeam": "Innisfil Cardinals 13U DS - Team 2",
-        "awayTeamCode": "511089",
-        "location": "Newmarket Fairgrounds Park #1",
-        "isCompleted": false,
-        "score": null
-      },
-      {
         "date": "2025-07-26T10:00:00.000Z",
         "dateText": "Sat, Jul 26",
         "time": "10:00 AM",
@@ -3755,13 +3759,33 @@
         "date": "2025-07-28T18:30:00.000Z",
         "dateText": "Mon, Jul 28",
         "time": "6:30 PM",
+        "homeTeam": "Newmarket Hawks 13U DS",
+        "homeTeamCode": "511093",
+        "awayTeam": "Innisfil Cardinals 13U DS - Team 2",
+        "awayTeamCode": "511089",
+        "location": "Newmarket Fairgrounds Park #1",
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 9,
+          "scoreText": "9-9"
+        }
+      },
+      {
+        "date": "2025-07-28T18:30:00.000Z",
+        "dateText": "Mon, Jul 28",
+        "time": "6:30 PM",
         "homeTeam": "Aurora-King Jays 13U DS",
         "homeTeamCode": "511084",
         "awayTeam": "Barrie Baycats 13U DS",
         "awayTeamCode": "511085",
         "location": "Norm Weller Baseball Field",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 7,
+          "scoreText": "7-10"
+        }
       },
       {
         "date": "2025-07-29T18:00:00.000Z",
@@ -3853,13 +3877,33 @@
         "date": "2025-07-28T18:30:00.000Z",
         "dateText": "Mon, Jul 28",
         "time": "6:30 PM",
+        "homeTeam": "Newmarket Hawks 13U DS",
+        "homeTeamCode": "511093",
+        "awayTeam": "Innisfil Cardinals 13U DS - Team 2",
+        "awayTeamCode": "511089",
+        "location": "Newmarket Fairgrounds Park #1",
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 9,
+          "scoreText": "9-9"
+        }
+      },
+      {
+        "date": "2025-07-28T18:30:00.000Z",
+        "dateText": "Mon, Jul 28",
+        "time": "6:30 PM",
         "homeTeam": "Aurora-King Jays 13U DS",
         "homeTeamCode": "511084",
         "awayTeam": "Barrie Baycats 13U DS",
         "awayTeamCode": "511085",
         "location": "Norm Weller Baseball Field",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 7,
+          "scoreText": "7-10"
+        }
       },
       {
         "date": "2025-07-27T15:30:00.000Z",
@@ -3968,18 +4012,6 @@
           "away": 6,
           "scoreText": "6-7"
         }
-      },
-      {
-        "date": "2025-07-24T20:30:00.000Z",
-        "dateText": "Thu, Jul 24",
-        "time": "8:30 PM",
-        "homeTeam": "Newmarket Hawks 13U DS",
-        "homeTeamCode": "511093",
-        "awayTeam": "Innisfil Cardinals 13U DS - Team 2",
-        "awayTeamCode": "511089",
-        "location": "Newmarket Fairgrounds Park #1",
-        "isCompleted": false,
-        "score": null
       }
     ],
     "upcomingGames": [
@@ -4044,14 +4076,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-29T22:50:53.533Z",
+    "lastUpdated": "2025-07-29T23:21:28.016Z",
     "totalGames": 128
   },
   "summary": {
     "totalTeams": 16,
     "totalGames": 128,
-    "completedGames": 117,
-    "upcomingGames": 11,
+    "completedGames": 119,
+    "upcomingGames": 9,
     "topTeam": {
       "team": "Innisfil Cardinals 13U DS - Team 1",
       "teamCode": "511088",
@@ -4068,6 +4100,6 @@
       "date": "Thu, Jun 12",
       "location": "Newmarket Fairgrounds Park #1"
     },
-    "lastUpdated": "2025-07-29T22:51:00.016Z"
+    "lastUpdated": "2025-07-29T23:21:34.815Z"
   }
 }
