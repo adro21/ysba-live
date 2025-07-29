@@ -1,7 +1,7 @@
 {
   "standings": {
     "teams": [],
-    "lastUpdated": "2025-07-29T12:35:11.546Z",
+    "lastUpdated": "2025-07-29T13:39:35.412Z",
     "totalTeams": 0
   },
   "schedule": {
@@ -143,7 +143,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T12:35:15.723Z"
+        "lastUpdated": "2025-07-29T13:39:39.587Z"
       },
       "510959": {
         "teamCode": "510959",
@@ -204,8 +204,12 @@
             "awayTeam": "Barrie Baycats 14U A",
             "awayTeamCode": "510959",
             "location": "Richmond Green #4",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 16,
+              "away": 12,
+              "scoreText": "12-16"
+            }
           },
           {
             "date": "2025-07-28T18:00:00.000Z",
@@ -216,8 +220,12 @@
             "awayTeam": "Collingwood Jays 14U A",
             "awayTeamCode": "510962",
             "location": "Painswick Park B",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 15,
+              "away": 5,
+              "scoreText": "5-15"
+            }
           }
         ],
         "nextGames": [
@@ -282,7 +290,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T12:35:15.723Z"
+        "lastUpdated": "2025-07-29T13:39:39.587Z"
       },
       "510960": {
         "teamCode": "510960",
@@ -343,8 +351,12 @@
             "awayTeam": "Midland Penetang Twins 14U B",
             "awayTeamCode": "510979",
             "location": "Joe Magani Field #5",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 11,
+              "scoreText": "11-12"
+            }
           },
           {
             "date": "2025-07-28T20:00:00.000Z",
@@ -355,8 +367,12 @@
             "awayTeam": "Muskoka Hornets 14U B",
             "awayTeamCode": "516243",
             "location": "Joe Magani Field #5",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 6,
+              "scoreText": "6-12"
+            }
           }
         ],
         "nextGames": [
@@ -409,14 +425,30 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T12:35:15.723Z"
+        "lastUpdated": "2025-07-29T13:39:39.587Z"
       },
       "510961": {
         "teamCode": "510961",
         "totalGames": 20,
-        "playedGames": 17,
-        "upcomingGames": 3,
+        "playedGames": 16,
+        "upcomingGames": 4,
         "recentGames": [
+          {
+            "date": "2025-07-07T20:00:00.000Z",
+            "dateText": "Mon, Jul 7",
+            "time": "8:00 PM",
+            "homeTeam": "Bradford Tigers 14U A",
+            "homeTeamCode": "510960",
+            "awayTeam": "Caledon Nationals 14U A",
+            "awayTeamCode": "510961",
+            "location": "Joe Magani Field #5",
+            "isCompleted": true,
+            "score": {
+              "home": 18,
+              "away": 17,
+              "scoreText": "17-18"
+            }
+          },
           {
             "date": "2025-07-16T18:00:00.000Z",
             "dateText": "Wed, Jul 16",
@@ -450,18 +482,6 @@
             }
           },
           {
-            "date": "2025-07-24T18:00:00.000Z",
-            "dateText": "Thu, Jul 24",
-            "time": "6:00 PM",
-            "homeTeam": "Collingwood Jays 14U A",
-            "homeTeamCode": "510962",
-            "awayTeam": "Caledon Nationals 14U A",
-            "awayTeamCode": "510961",
-            "location": "Large Heritage",
-            "isCompleted": false,
-            "score": null
-          },
-          {
             "date": "2025-07-27T18:00:00.000Z",
             "dateText": "Sun, Jul 27",
             "time": "6:00 PM",
@@ -470,8 +490,12 @@
             "awayTeam": "Midland Penetang Twins 14U B",
             "awayTeamCode": "510979",
             "location": "North Hill #3",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 18,
+              "away": 7,
+              "scoreText": "7-18"
+            }
           },
           {
             "date": "2025-07-28T18:00:00.000Z",
@@ -482,8 +506,12 @@
             "awayTeam": "Ontario Women's",
             "awayTeamCode": "546378",
             "location": "Caledon Rec & Wellness Centre #1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 16,
+              "away": 3,
+              "scoreText": "3-16"
+            }
           }
         ],
         "nextGames": [
@@ -512,6 +540,18 @@
             "score": null
           },
           {
+            "date": "2025-08-05T18:00:00.000Z",
+            "dateText": "Tue, Aug 5",
+            "time": "6:00 PM",
+            "homeTeam": "Collingwood Jays 14U A",
+            "homeTeamCode": "510962",
+            "awayTeam": "Caledon Nationals 14U A",
+            "awayTeamCode": "510961",
+            "location": "Large Heritage",
+            "isCompleted": false,
+            "score": null
+          },
+          {
             "date": "2025-08-10T18:00:00.000Z",
             "dateText": "Sun, Aug 10",
             "time": "6:00 PM",
@@ -524,14 +564,30 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T12:35:15.723Z"
+        "lastUpdated": "2025-07-29T13:39:39.587Z"
       },
       "510962": {
         "teamCode": "510962",
         "totalGames": 20,
-        "playedGames": 17,
-        "upcomingGames": 3,
+        "playedGames": 16,
+        "upcomingGames": 4,
         "recentGames": [
+          {
+            "date": "2025-07-06T15:00:00.000Z",
+            "dateText": "Sun, Jul 6",
+            "time": "3:00 PM",
+            "homeTeam": "Ontario Women's",
+            "homeTeamCode": "546378",
+            "awayTeam": "Collingwood Jays 14U A",
+            "awayTeamCode": "510962",
+            "location": "David Hamilton #1",
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 7,
+              "scoreText": "7-10"
+            }
+          },
           {
             "date": "2025-07-11T19:00:00.000Z",
             "dateText": "Fri, Jul 11",
@@ -581,18 +637,6 @@
             }
           },
           {
-            "date": "2025-07-24T18:00:00.000Z",
-            "dateText": "Thu, Jul 24",
-            "time": "6:00 PM",
-            "homeTeam": "Collingwood Jays 14U A",
-            "homeTeamCode": "510962",
-            "awayTeam": "Caledon Nationals 14U A",
-            "awayTeamCode": "510961",
-            "location": "Large Heritage",
-            "isCompleted": false,
-            "score": null
-          },
-          {
             "date": "2025-07-28T18:00:00.000Z",
             "dateText": "Mon, Jul 28",
             "time": "6:00 PM",
@@ -601,8 +645,12 @@
             "awayTeam": "Collingwood Jays 14U A",
             "awayTeamCode": "510962",
             "location": "Painswick Park B",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 15,
+              "away": 5,
+              "scoreText": "5-15"
+            }
           }
         ],
         "nextGames": [
@@ -631,6 +679,18 @@
             "score": null
           },
           {
+            "date": "2025-08-05T18:00:00.000Z",
+            "dateText": "Tue, Aug 5",
+            "time": "6:00 PM",
+            "homeTeam": "Collingwood Jays 14U A",
+            "homeTeamCode": "510962",
+            "awayTeam": "Caledon Nationals 14U A",
+            "awayTeamCode": "510961",
+            "location": "Large Heritage",
+            "isCompleted": false,
+            "score": null
+          },
+          {
             "date": "2025-08-06T18:00:00.000Z",
             "dateText": "Wed, Aug 6",
             "time": "6:00 PM",
@@ -643,7 +703,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T12:35:15.723Z"
+        "lastUpdated": "2025-07-29T13:39:39.587Z"
       },
       "510963": {
         "teamCode": "510963",
@@ -724,8 +784,12 @@
             "awayTeam": "Stouffville Yankees 14U A",
             "awayTeamCode": "510966",
             "location": "Innisfill Rec Centre- North",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 23,
+              "scoreText": "23-4"
+            }
           }
         ],
         "nextGames": [
@@ -790,7 +854,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T12:35:15.723Z"
+        "lastUpdated": "2025-07-29T13:39:39.587Z"
       },
       "510964": {
         "teamCode": "510964",
@@ -941,7 +1005,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T12:35:15.723Z"
+        "lastUpdated": "2025-07-29T13:39:39.588Z"
       },
       "510965": {
         "teamCode": "510965",
@@ -1080,14 +1144,30 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T12:35:15.723Z"
+        "lastUpdated": "2025-07-29T13:39:39.588Z"
       },
       "510966": {
         "teamCode": "510966",
         "totalGames": 20,
-        "playedGames": 17,
-        "upcomingGames": 3,
+        "playedGames": 16,
+        "upcomingGames": 4,
         "recentGames": [
+          {
+            "date": "2025-07-04T19:00:00.000Z",
+            "dateText": "Fri, Jul 4",
+            "time": "7:00 PM",
+            "homeTeam": "Stouffville Yankees 14U A",
+            "homeTeamCode": "510966",
+            "awayTeam": "Richmond Hill Phoenix 14U A",
+            "awayTeamCode": "510964",
+            "location": "Bethesda Sports Field #2",
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 11,
+              "scoreText": "11-5"
+            }
+          },
           {
             "date": "2025-07-06T18:00:00.000Z",
             "dateText": "Sun, Jul 6",
@@ -1137,18 +1217,6 @@
             }
           },
           {
-            "date": "2025-07-25T19:00:00.000Z",
-            "dateText": "Fri, Jul 25",
-            "time": "7:00 PM",
-            "homeTeam": "Stouffville Yankees 14U A",
-            "homeTeamCode": "510966",
-            "awayTeam": "Muskoka Hornets 14U B",
-            "awayTeamCode": "516243",
-            "location": "Bethesda Sports Field #2",
-            "isCompleted": false,
-            "score": null
-          },
-          {
             "date": "2025-07-28T18:00:00.000Z",
             "dateText": "Mon, Jul 28",
             "time": "6:00 PM",
@@ -1157,8 +1225,12 @@
             "awayTeam": "Stouffville Yankees 14U A",
             "awayTeamCode": "510966",
             "location": "Innisfill Rec Centre- North",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 23,
+              "scoreText": "23-4"
+            }
           }
         ],
         "nextGames": [
@@ -1197,9 +1269,21 @@
             "location": "Bethesda Sports Field #2",
             "isCompleted": false,
             "score": null
+          },
+          {
+            "date": "2025-08-08T19:00:00.000Z",
+            "dateText": "Fri, Aug 8",
+            "time": "7:00 PM",
+            "homeTeam": "Stouffville Yankees 14U A",
+            "homeTeamCode": "510966",
+            "awayTeam": "Muskoka Hornets 14U B",
+            "awayTeamCode": "516243",
+            "location": "Bethesda Sports Field #2",
+            "isCompleted": false,
+            "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T12:35:15.723Z"
+        "lastUpdated": "2025-07-29T13:39:39.588Z"
       },
       "510979": {
         "teamCode": "510979",
@@ -1264,8 +1348,12 @@
             "awayTeam": "Midland Penetang Twins 14U B",
             "awayTeamCode": "510979",
             "location": "Joe Magani Field #5",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 11,
+              "scoreText": "11-12"
+            }
           },
           {
             "date": "2025-07-27T18:00:00.000Z",
@@ -1276,8 +1364,12 @@
             "awayTeam": "Midland Penetang Twins 14U B",
             "awayTeamCode": "510979",
             "location": "North Hill #3",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 18,
+              "away": 7,
+              "scoreText": "7-18"
+            }
           }
         ],
         "nextGames": [
@@ -1318,14 +1410,30 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T12:35:15.723Z"
+        "lastUpdated": "2025-07-29T13:39:39.588Z"
       },
       "516243": {
         "teamCode": "516243",
         "totalGames": 20,
-        "playedGames": 18,
-        "upcomingGames": 2,
+        "playedGames": 17,
+        "upcomingGames": 3,
         "recentGames": [
+          {
+            "date": "2025-07-04T18:00:00.000Z",
+            "dateText": "Fri, Jul 4",
+            "time": "6:00 PM",
+            "homeTeam": "Aurora-King Jays 14U A",
+            "homeTeamCode": "510958",
+            "awayTeam": "Muskoka Hornets 14U B",
+            "awayTeamCode": "516243",
+            "location": "Stuart Burnett Field",
+            "isCompleted": true,
+            "score": {
+              "home": 15,
+              "away": 8,
+              "scoreText": "8-15"
+            }
+          },
           {
             "date": "2025-07-04T20:30:00.000Z",
             "dateText": "Fri, Jul 4",
@@ -1375,8 +1483,26 @@
             }
           },
           {
-            "date": "2025-07-25T19:00:00.000Z",
-            "dateText": "Fri, Jul 25",
+            "date": "2025-07-28T20:00:00.000Z",
+            "dateText": "Mon, Jul 28",
+            "time": "8:00 PM",
+            "homeTeam": "Bradford Tigers 14U A",
+            "homeTeamCode": "510960",
+            "awayTeam": "Muskoka Hornets 14U B",
+            "awayTeamCode": "516243",
+            "location": "Joe Magani Field #5",
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 6,
+              "scoreText": "6-12"
+            }
+          }
+        ],
+        "nextGames": [
+          {
+            "date": "2025-08-08T19:00:00.000Z",
+            "dateText": "Fri, Aug 8",
             "time": "7:00 PM",
             "homeTeam": "Stouffville Yankees 14U A",
             "homeTeamCode": "510966",
@@ -1386,20 +1512,6 @@
             "isCompleted": false,
             "score": null
           },
-          {
-            "date": "2025-07-28T20:00:00.000Z",
-            "dateText": "Mon, Jul 28",
-            "time": "8:00 PM",
-            "homeTeam": "Bradford Tigers 14U A",
-            "homeTeamCode": "510960",
-            "awayTeam": "Muskoka Hornets 14U B",
-            "awayTeamCode": "516243",
-            "location": "Joe Magani Field #5",
-            "isCompleted": false,
-            "score": null
-          }
-        ],
-        "nextGames": [
           {
             "date": "2025-08-09T11:00:00.000Z",
             "dateText": "Sat, Aug 9",
@@ -1425,7 +1537,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T12:35:15.723Z"
+        "lastUpdated": "2025-07-29T13:39:39.588Z"
       },
       "518957": {
         "teamCode": "518957",
@@ -1564,7 +1676,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T12:35:15.723Z"
+        "lastUpdated": "2025-07-29T13:39:39.588Z"
       },
       "546378": {
         "teamCode": "546378",
@@ -1625,8 +1737,12 @@
             "awayTeam": "Barrie Baycats 14U A",
             "awayTeamCode": "510959",
             "location": "Richmond Green #4",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 16,
+              "away": 12,
+              "scoreText": "12-16"
+            }
           },
           {
             "date": "2025-07-28T18:00:00.000Z",
@@ -1637,8 +1753,12 @@
             "awayTeam": "Ontario Women's",
             "awayTeamCode": "546378",
             "location": "Caledon Rec & Wellness Centre #1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 16,
+              "away": 3,
+              "scoreText": "3-16"
+            }
           }
         ],
         "nextGames": [
@@ -1667,7 +1787,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T12:35:15.723Z"
+        "lastUpdated": "2025-07-29T13:39:39.588Z"
       }
     },
     "allGames": [
@@ -2507,22 +2627,6 @@
         "date": "2025-06-24T18:00:00.000Z",
         "dateText": "Tue, Jun 24",
         "time": "6:00 PM",
-        "homeTeam": "Richmond Hill Phoenix 14U A",
-        "homeTeamCode": "510964",
-        "awayTeam": "Stouffville Yankees 14U A",
-        "awayTeamCode": "510966",
-        "location": "Richmond Green #1",
-        "isCompleted": true,
-        "score": {
-          "home": 3,
-          "away": 5,
-          "scoreText": "5-3"
-        }
-      },
-      {
-        "date": "2025-06-24T18:00:00.000Z",
-        "dateText": "Tue, Jun 24",
-        "time": "6:00 PM",
         "homeTeam": "Collingwood Jays 14U A",
         "homeTeamCode": "510962",
         "awayTeam": "Barrie Baycats 14U A",
@@ -2533,6 +2637,22 @@
           "home": 4,
           "away": 11,
           "scoreText": "11-4"
+        }
+      },
+      {
+        "date": "2025-06-24T18:00:00.000Z",
+        "dateText": "Tue, Jun 24",
+        "time": "6:00 PM",
+        "homeTeam": "Richmond Hill Phoenix 14U A",
+        "homeTeamCode": "510964",
+        "awayTeam": "Stouffville Yankees 14U A",
+        "awayTeamCode": "510966",
+        "location": "Richmond Green #1",
+        "isCompleted": true,
+        "score": {
+          "home": 3,
+          "away": 5,
+          "scoreText": "5-3"
         }
       },
       {
@@ -2603,22 +2723,6 @@
         "date": "2025-06-27T19:00:00.000Z",
         "dateText": "Fri, Jun 27",
         "time": "7:00 PM",
-        "homeTeam": "Aurora-King Jays 14U A",
-        "homeTeamCode": "510958",
-        "awayTeam": "Bradford Tigers 14U A",
-        "awayTeamCode": "510960",
-        "location": "Stuart Burnett Field",
-        "isCompleted": true,
-        "score": {
-          "home": 18,
-          "away": 2,
-          "scoreText": "2-18"
-        }
-      },
-      {
-        "date": "2025-06-27T19:00:00.000Z",
-        "dateText": "Fri, Jun 27",
-        "time": "7:00 PM",
         "homeTeam": "Stouffville Yankees 14U A",
         "homeTeamCode": "510966",
         "awayTeam": "Innisfil Cardinals 14U A",
@@ -2629,6 +2733,22 @@
           "home": 10,
           "away": 9,
           "scoreText": "9-10"
+        }
+      },
+      {
+        "date": "2025-06-27T19:00:00.000Z",
+        "dateText": "Fri, Jun 27",
+        "time": "7:00 PM",
+        "homeTeam": "Aurora-King Jays 14U A",
+        "homeTeamCode": "510958",
+        "awayTeam": "Bradford Tigers 14U A",
+        "awayTeamCode": "510960",
+        "location": "Stuart Burnett Field",
+        "isCompleted": true,
+        "score": {
+          "home": 18,
+          "away": 2,
+          "scoreText": "2-18"
         }
       },
       {
@@ -3175,35 +3295,11 @@
         "date": "2025-07-24T18:00:00.000Z",
         "dateText": "Thu, Jul 24",
         "time": "6:00 PM",
-        "homeTeam": "Collingwood Jays 14U A",
-        "homeTeamCode": "510962",
-        "awayTeam": "Caledon Nationals 14U A",
-        "awayTeamCode": "510961",
-        "location": "Large Heritage",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": "2025-07-24T18:00:00.000Z",
-        "dateText": "Thu, Jul 24",
-        "time": "6:00 PM",
         "homeTeam": "Barrie Baycats 14U A",
         "homeTeamCode": "510959",
         "awayTeam": "Ontario Women's",
         "awayTeamCode": "546378",
         "location": "Painswick B",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": "2025-07-25T19:00:00.000Z",
-        "dateText": "Fri, Jul 25",
-        "time": "7:00 PM",
-        "homeTeam": "Stouffville Yankees 14U A",
-        "homeTeamCode": "510966",
-        "awayTeam": "Muskoka Hornets 14U B",
-        "awayTeamCode": "516243",
-        "location": "Bethesda Sports Field #2",
         "isCompleted": false,
         "score": null
       },
@@ -3216,8 +3312,12 @@
         "awayTeam": "Midland Penetang Twins 14U B",
         "awayTeamCode": "510979",
         "location": "Joe Magani Field #5",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 11,
+          "scoreText": "11-12"
+        }
       },
       {
         "date": "2025-07-27T15:00:00.000Z",
@@ -3228,8 +3328,12 @@
         "awayTeam": "Barrie Baycats 14U A",
         "awayTeamCode": "510959",
         "location": "Richmond Green #4",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 16,
+          "away": 12,
+          "scoreText": "12-16"
+        }
       },
       {
         "date": "2025-07-27T18:00:00.000Z",
@@ -3240,32 +3344,12 @@
         "awayTeam": "Midland Penetang Twins 14U B",
         "awayTeamCode": "510979",
         "location": "North Hill #3",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": "2025-07-28T18:00:00.000Z",
-        "dateText": "Mon, Jul 28",
-        "time": "6:00 PM",
-        "homeTeam": "Caledon Nationals 14U A",
-        "homeTeamCode": "510961",
-        "awayTeam": "Ontario Women's",
-        "awayTeamCode": "546378",
-        "location": "Caledon Rec & Wellness Centre #1",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": "2025-07-28T18:00:00.000Z",
-        "dateText": "Mon, Jul 28",
-        "time": "6:00 PM",
-        "homeTeam": "Barrie Baycats 14U A",
-        "homeTeamCode": "510959",
-        "awayTeam": "Collingwood Jays 14U A",
-        "awayTeamCode": "510962",
-        "location": "Painswick Park B",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 18,
+          "away": 7,
+          "scoreText": "7-18"
+        }
       },
       {
         "date": "2025-07-28T18:00:00.000Z",
@@ -3276,8 +3360,44 @@
         "awayTeam": "Stouffville Yankees 14U A",
         "awayTeamCode": "510966",
         "location": "Innisfill Rec Centre- North",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 23,
+          "scoreText": "23-4"
+        }
+      },
+      {
+        "date": "2025-07-28T18:00:00.000Z",
+        "dateText": "Mon, Jul 28",
+        "time": "6:00 PM",
+        "homeTeam": "Barrie Baycats 14U A",
+        "homeTeamCode": "510959",
+        "awayTeam": "Collingwood Jays 14U A",
+        "awayTeamCode": "510962",
+        "location": "Painswick Park B",
+        "isCompleted": true,
+        "score": {
+          "home": 15,
+          "away": 5,
+          "scoreText": "5-15"
+        }
+      },
+      {
+        "date": "2025-07-28T18:00:00.000Z",
+        "dateText": "Mon, Jul 28",
+        "time": "6:00 PM",
+        "homeTeam": "Caledon Nationals 14U A",
+        "homeTeamCode": "510961",
+        "awayTeam": "Ontario Women's",
+        "awayTeamCode": "546378",
+        "location": "Caledon Rec & Wellness Centre #1",
+        "isCompleted": true,
+        "score": {
+          "home": 16,
+          "away": 3,
+          "scoreText": "3-16"
+        }
       },
       {
         "date": "2025-07-28T20:00:00.000Z",
@@ -3288,8 +3408,12 @@
         "awayTeam": "Muskoka Hornets 14U B",
         "awayTeamCode": "516243",
         "location": "Joe Magani Field #5",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 6,
+          "scoreText": "6-12"
+        }
       },
       {
         "date": "2025-07-29T18:00:00.000Z",
@@ -3415,11 +3539,11 @@
         "date": "2025-08-04T18:00:00.000Z",
         "dateText": "Mon, Aug 4",
         "time": "6:00 PM",
-        "homeTeam": "Vaughan Vikings 14U A",
-        "homeTeamCode": "518957",
-        "awayTeam": "Richmond Hill Phoenix 14U A",
-        "awayTeamCode": "510964",
-        "location": "Concord Regional #2",
+        "homeTeam": "Innisfil Cardinals 14U A",
+        "homeTeamCode": "510963",
+        "awayTeam": "Barrie Baycats 14U A",
+        "awayTeamCode": "510959",
+        "location": "Innisfill Rec Centre- North",
         "isCompleted": false,
         "score": null
       },
@@ -3427,11 +3551,11 @@
         "date": "2025-08-04T18:00:00.000Z",
         "dateText": "Mon, Aug 4",
         "time": "6:00 PM",
-        "homeTeam": "Innisfil Cardinals 14U A",
-        "homeTeamCode": "510963",
-        "awayTeam": "Barrie Baycats 14U A",
-        "awayTeamCode": "510959",
-        "location": "Innisfill Rec Centre- North",
+        "homeTeam": "Vaughan Vikings 14U A",
+        "homeTeamCode": "518957",
+        "awayTeam": "Richmond Hill Phoenix 14U A",
+        "awayTeamCode": "510964",
+        "location": "Concord Regional #2",
         "isCompleted": false,
         "score": null
       },
@@ -3444,6 +3568,18 @@
         "awayTeam": "Aurora-King Jays 14U A",
         "awayTeamCode": "510958",
         "location": "Concord Senior Field #1",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2025-08-05T18:00:00.000Z",
+        "dateText": "Tue, Aug 5",
+        "time": "6:00 PM",
+        "homeTeam": "Collingwood Jays 14U A",
+        "homeTeamCode": "510962",
+        "awayTeam": "Ontario Women's",
+        "awayTeamCode": "546378",
+        "location": "Legion",
         "isCompleted": false,
         "score": null
       },
@@ -3465,9 +3601,9 @@
         "time": "6:00 PM",
         "homeTeam": "Collingwood Jays 14U A",
         "homeTeamCode": "510962",
-        "awayTeam": "Ontario Women's",
-        "awayTeamCode": "546378",
-        "location": "Legion",
+        "awayTeam": "Caledon Nationals 14U A",
+        "awayTeamCode": "510961",
+        "location": "Large Heritage",
         "isCompleted": false,
         "score": null
       },
@@ -3528,6 +3664,18 @@
         "awayTeam": "Aurora-King Jays 14U A",
         "awayTeamCode": "510958",
         "location": "Richmond Green #1",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2025-08-08T19:00:00.000Z",
+        "dateText": "Fri, Aug 8",
+        "time": "7:00 PM",
+        "homeTeam": "Stouffville Yankees 14U A",
+        "homeTeamCode": "510966",
+        "awayTeam": "Muskoka Hornets 14U B",
+        "awayTeamCode": "516243",
+        "location": "Bethesda Sports Field #2",
         "isCompleted": false,
         "score": null
       },
@@ -3602,32 +3750,12 @@
         "awayTeam": "Muskoka Hornets 14U B",
         "awayTeamCode": "516243",
         "location": "Joe Magani Field #5",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": "2025-07-28T18:00:00.000Z",
-        "dateText": "Mon, Jul 28",
-        "time": "6:00 PM",
-        "homeTeam": "Caledon Nationals 14U A",
-        "homeTeamCode": "510961",
-        "awayTeam": "Ontario Women's",
-        "awayTeamCode": "546378",
-        "location": "Caledon Rec & Wellness Centre #1",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": "2025-07-28T18:00:00.000Z",
-        "dateText": "Mon, Jul 28",
-        "time": "6:00 PM",
-        "homeTeam": "Barrie Baycats 14U A",
-        "homeTeamCode": "510959",
-        "awayTeam": "Collingwood Jays 14U A",
-        "awayTeamCode": "510962",
-        "location": "Painswick Park B",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 6,
+          "scoreText": "6-12"
+        }
       },
       {
         "date": "2025-07-28T18:00:00.000Z",
@@ -3638,8 +3766,44 @@
         "awayTeam": "Stouffville Yankees 14U A",
         "awayTeamCode": "510966",
         "location": "Innisfill Rec Centre- North",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 23,
+          "scoreText": "23-4"
+        }
+      },
+      {
+        "date": "2025-07-28T18:00:00.000Z",
+        "dateText": "Mon, Jul 28",
+        "time": "6:00 PM",
+        "homeTeam": "Barrie Baycats 14U A",
+        "homeTeamCode": "510959",
+        "awayTeam": "Collingwood Jays 14U A",
+        "awayTeamCode": "510962",
+        "location": "Painswick Park B",
+        "isCompleted": true,
+        "score": {
+          "home": 15,
+          "away": 5,
+          "scoreText": "5-15"
+        }
+      },
+      {
+        "date": "2025-07-28T18:00:00.000Z",
+        "dateText": "Mon, Jul 28",
+        "time": "6:00 PM",
+        "homeTeam": "Caledon Nationals 14U A",
+        "homeTeamCode": "510961",
+        "awayTeam": "Ontario Women's",
+        "awayTeamCode": "546378",
+        "location": "Caledon Rec & Wellness Centre #1",
+        "isCompleted": true,
+        "score": {
+          "home": 16,
+          "away": 3,
+          "scoreText": "3-16"
+        }
       },
       {
         "date": "2025-07-27T18:00:00.000Z",
@@ -3650,8 +3814,12 @@
         "awayTeam": "Midland Penetang Twins 14U B",
         "awayTeamCode": "510979",
         "location": "North Hill #3",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 18,
+          "away": 7,
+          "scoreText": "7-18"
+        }
       },
       {
         "date": "2025-07-27T15:00:00.000Z",
@@ -3662,8 +3830,12 @@
         "awayTeam": "Barrie Baycats 14U A",
         "awayTeamCode": "510959",
         "location": "Richmond Green #4",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 16,
+          "away": 12,
+          "scoreText": "12-16"
+        }
       },
       {
         "date": "2025-07-26T10:00:00.000Z",
@@ -3674,32 +3846,12 @@
         "awayTeam": "Midland Penetang Twins 14U B",
         "awayTeamCode": "510979",
         "location": "Joe Magani Field #5",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": "2025-07-25T19:00:00.000Z",
-        "dateText": "Fri, Jul 25",
-        "time": "7:00 PM",
-        "homeTeam": "Stouffville Yankees 14U A",
-        "homeTeamCode": "510966",
-        "awayTeam": "Muskoka Hornets 14U B",
-        "awayTeamCode": "516243",
-        "location": "Bethesda Sports Field #2",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": "2025-07-24T18:00:00.000Z",
-        "dateText": "Thu, Jul 24",
-        "time": "6:00 PM",
-        "homeTeam": "Collingwood Jays 14U A",
-        "homeTeamCode": "510962",
-        "awayTeam": "Caledon Nationals 14U A",
-        "awayTeamCode": "510961",
-        "location": "Large Heritage",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 11,
+          "scoreText": "11-12"
+        }
       },
       {
         "date": "2025-07-24T18:00:00.000Z",
@@ -3712,6 +3864,38 @@
         "location": "Painswick B",
         "isCompleted": false,
         "score": null
+      },
+      {
+        "date": "2025-07-23T20:30:00.000Z",
+        "dateText": "Wed, Jul 23",
+        "time": "8:30 PM",
+        "homeTeam": "Ontario Women's",
+        "homeTeamCode": "546378",
+        "awayTeam": "Stouffville Yankees 14U A",
+        "awayTeamCode": "510966",
+        "location": "Bethesda 2",
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 10,
+          "scoreText": "10-12"
+        }
+      },
+      {
+        "date": "2025-07-23T19:30:00.000Z",
+        "dateText": "Wed, Jul 23",
+        "time": "7:30 PM",
+        "homeTeam": "Thornhill Reds 14U A",
+        "homeTeamCode": "510965",
+        "awayTeam": "Vaughan Vikings 14U A",
+        "awayTeamCode": "518957",
+        "location": "St Jean Augustine (Westmount C.I.)",
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 8,
+          "scoreText": "8-8"
+        }
       }
     ],
     "upcomingGames": [
@@ -3836,14 +4020,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-29T12:35:15.723Z",
+    "lastUpdated": "2025-07-29T13:39:39.588Z",
     "totalGames": 130
   },
   "summary": {
     "totalTeams": 0,
     "totalGames": 130,
-    "completedGames": 90,
-    "upcomingGames": 40,
+    "completedGames": 97,
+    "upcomingGames": 33,
     "topTeam": null,
     "highestScoringGame": {
       "homeTeam": "Bradford Tigers 14U A",
@@ -3854,6 +4038,6 @@
       "date": "Mon, Jul 7",
       "location": "Joe Magani Field #5"
     },
-    "lastUpdated": "2025-07-29T12:38:29.556Z"
+    "lastUpdated": "2025-07-29T13:42:56.015Z"
   }
 }

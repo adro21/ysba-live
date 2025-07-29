@@ -20,7 +20,7 @@
         }
       },
       {
-        "position": 2,
+        "position": 3,
         "team": "Stouffville Yankees 15U A",
         "teamCode": "510985",
         "record": {
@@ -38,25 +38,43 @@
         }
       },
       {
-        "position": 4,
+        "position": 2,
         "team": "Collingwood Jays 15U A",
         "teamCode": "510986",
         "record": {
-          "gamesPlayed": 16,
-          "wins": 10,
+          "gamesPlayed": 17,
+          "wins": 11,
           "losses": 4,
           "ties": 2,
-          "winPercentage": "0.688"
+          "winPercentage": "0.706"
+        },
+        "stats": {
+          "points": 24,
+          "runsFor": 179,
+          "runsAgainst": 95,
+          "runDifferential": 84
+        }
+      },
+      {
+        "position": 4,
+        "team": "Georgina Bulldogs 15U B",
+        "teamCode": "510998",
+        "record": {
+          "gamesPlayed": 17,
+          "wins": 11,
+          "losses": 6,
+          "ties": 0,
+          "winPercentage": "0.647"
         },
         "stats": {
           "points": 22,
-          "runsFor": 164,
-          "runsAgainst": 92,
+          "runsFor": 200,
+          "runsAgainst": 128,
           "runDifferential": 72
         }
       },
       {
-        "position": 3,
+        "position": 5,
         "team": "Orillia Royals 15U A",
         "teamCode": "510984",
         "record": {
@@ -75,24 +93,6 @@
       },
       {
         "position": 6,
-        "team": "Georgina Bulldogs 15U B",
-        "teamCode": "510998",
-        "record": {
-          "gamesPlayed": 15,
-          "wins": 9,
-          "losses": 6,
-          "ties": 0,
-          "winPercentage": "0.600"
-        },
-        "stats": {
-          "points": 18,
-          "runsFor": 168,
-          "runsAgainst": 122,
-          "runDifferential": 46
-        }
-      },
-      {
-        "position": 5,
         "team": "Aurora-King Jays 15U A",
         "teamCode": "510980",
         "record": {
@@ -128,24 +128,6 @@
         }
       },
       {
-        "position": 9,
-        "team": "Barrie Baycats 15U A",
-        "teamCode": "510981",
-        "record": {
-          "gamesPlayed": 13,
-          "wins": 3,
-          "losses": 10,
-          "ties": 0,
-          "winPercentage": "0.231"
-        },
-        "stats": {
-          "points": 6,
-          "runsFor": 99,
-          "runsAgainst": 167,
-          "runDifferential": -68
-        }
-      },
-      {
         "position": 8,
         "team": "Vaughan Vikings 15U A",
         "teamCode": "518959",
@@ -164,25 +146,43 @@
         }
       },
       {
+        "position": 9,
+        "team": "Barrie Baycats 15U A",
+        "teamCode": "510981",
+        "record": {
+          "gamesPlayed": 15,
+          "wins": 3,
+          "losses": 12,
+          "ties": 0,
+          "winPercentage": "0.200"
+        },
+        "stats": {
+          "points": 6,
+          "runsFor": 105,
+          "runsAgainst": 199,
+          "runDifferential": -94
+        }
+      },
+      {
         "position": 10,
         "team": "Caledon Nationals 15U A",
         "teamCode": "510983",
         "record": {
-          "gamesPlayed": 15,
+          "gamesPlayed": 16,
           "wins": 0,
-          "losses": 15,
+          "losses": 16,
           "ties": 0,
           "winPercentage": "0.000"
         },
         "stats": {
           "points": 0,
-          "runsFor": 92,
-          "runsAgainst": 268,
-          "runDifferential": -176
+          "runsFor": 95,
+          "runsAgainst": 283,
+          "runDifferential": -188
         }
       }
     ],
-    "lastUpdated": "2025-07-29T12:36:06.343Z",
+    "lastUpdated": "2025-07-29T13:40:30.449Z",
     "totalTeams": 10
   },
   "schedule": {
@@ -288,7 +288,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T12:36:10.556Z"
+        "lastUpdated": "2025-07-29T13:40:34.709Z"
       },
       "510981": {
         "teamCode": "510981",
@@ -337,8 +337,12 @@
             "awayTeam": "Barrie Baycats 15U A",
             "awayTeamCode": "510981",
             "location": "POSTPONED",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 16,
+              "away": 6,
+              "scoreText": "6-16"
+            }
           },
           {
             "date": "2025-07-26T18:00:00.000Z",
@@ -365,8 +369,12 @@
             "awayTeam": "Georgina Bulldogs 15U B",
             "awayTeamCode": "510998",
             "location": "Dana Field / Barrie Sports Complex",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 0,
+              "away": 16,
+              "scoreText": "16-0"
+            }
           }
         ],
         "nextGames": [
@@ -395,7 +403,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T12:36:10.556Z"
+        "lastUpdated": "2025-07-29T13:40:34.709Z"
       },
       "510982": {
         "teamCode": "510982",
@@ -510,7 +518,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T12:36:10.556Z"
+        "lastUpdated": "2025-07-29T13:40:34.709Z"
       },
       "510983": {
         "teamCode": "510983",
@@ -591,8 +599,12 @@
             "awayTeam": "Collingwood Jays 15U A",
             "awayTeamCode": "510986",
             "location": "North Hill #2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 3,
+              "away": 15,
+              "scoreText": "15-3"
+            }
           }
         ],
         "nextGames": [
@@ -609,7 +621,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T12:36:10.556Z"
+        "lastUpdated": "2025-07-29T13:40:34.709Z"
       },
       "510984": {
         "teamCode": "510984",
@@ -712,7 +724,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T12:36:10.556Z"
+        "lastUpdated": "2025-07-29T13:40:34.709Z"
       },
       "510985": {
         "teamCode": "510985",
@@ -827,7 +839,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T12:36:10.556Z"
+        "lastUpdated": "2025-07-29T13:40:34.709Z"
       },
       "510986": {
         "teamCode": "510986",
@@ -908,12 +920,16 @@
             "awayTeam": "Collingwood Jays 15U A",
             "awayTeamCode": "510986",
             "location": "North Hill #2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 3,
+              "away": 15,
+              "scoreText": "15-3"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-29T12:36:10.556Z"
+        "lastUpdated": "2025-07-29T13:40:34.709Z"
       },
       "510987": {
         "teamCode": "510987",
@@ -1016,7 +1032,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T12:36:10.556Z"
+        "lastUpdated": "2025-07-29T13:40:34.709Z"
       },
       "510988": {
         "teamCode": "510988",
@@ -1131,7 +1147,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T12:36:10.556Z"
+        "lastUpdated": "2025-07-29T13:40:34.709Z"
       },
       "510989": {
         "teamCode": "510989",
@@ -1258,7 +1274,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T12:36:10.556Z"
+        "lastUpdated": "2025-07-29T13:40:34.709Z"
       },
       "510990": {
         "teamCode": "510990",
@@ -1373,7 +1389,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T12:36:10.556Z"
+        "lastUpdated": "2025-07-29T13:40:34.709Z"
       },
       "510991": {
         "teamCode": "510991",
@@ -1500,7 +1516,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T12:36:10.556Z"
+        "lastUpdated": "2025-07-29T13:40:34.709Z"
       },
       "510992": {
         "teamCode": "510992",
@@ -1615,7 +1631,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T12:36:10.556Z"
+        "lastUpdated": "2025-07-29T13:40:34.709Z"
       },
       "510993": {
         "teamCode": "510993",
@@ -1742,7 +1758,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T12:36:10.557Z"
+        "lastUpdated": "2025-07-29T13:40:34.709Z"
       },
       "510998": {
         "teamCode": "510998",
@@ -1807,8 +1823,12 @@
             "awayTeam": "Barrie Baycats 15U A",
             "awayTeamCode": "510981",
             "location": "POSTPONED",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 16,
+              "away": 6,
+              "scoreText": "6-16"
+            }
           },
           {
             "date": "2025-07-28T20:00:00.000Z",
@@ -1819,8 +1839,12 @@
             "awayTeam": "Georgina Bulldogs 15U B",
             "awayTeamCode": "510998",
             "location": "Dana Field / Barrie Sports Complex",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 0,
+              "away": 16,
+              "scoreText": "16-0"
+            }
           }
         ],
         "nextGames": [
@@ -1837,7 +1861,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T12:36:10.557Z"
+        "lastUpdated": "2025-07-29T13:40:34.709Z"
       },
       "516244": {
         "teamCode": "516244",
@@ -1952,7 +1976,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T12:36:10.557Z"
+        "lastUpdated": "2025-07-29T13:40:34.709Z"
       },
       "518959": {
         "teamCode": "518959",
@@ -2067,7 +2091,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-29T12:36:10.557Z"
+        "lastUpdated": "2025-07-29T13:40:34.709Z"
       },
       "546379": {
         "teamCode": "546379",
@@ -2157,7 +2181,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-29T12:36:10.557Z"
+        "lastUpdated": "2025-07-29T13:40:34.709Z"
       }
     },
     "allGames": [
@@ -4278,8 +4302,12 @@
         "awayTeam": "Barrie Baycats 15U A",
         "awayTeamCode": "510981",
         "location": "POSTPONED",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 16,
+          "away": 6,
+          "scoreText": "6-16"
+        }
       },
       {
         "date": "2025-07-23T18:30:00.000Z",
@@ -4450,8 +4478,12 @@
         "awayTeam": "Georgina Bulldogs 15U B",
         "awayTeamCode": "510998",
         "location": "Dana Field / Barrie Sports Complex",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 0,
+          "away": 16,
+          "scoreText": "16-0"
+        }
       },
       {
         "date": "2025-07-28T20:30:00.000Z",
@@ -4478,8 +4510,12 @@
         "awayTeam": "Collingwood Jays 15U A",
         "awayTeamCode": "510986",
         "location": "North Hill #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 3,
+          "away": 15,
+          "scoreText": "15-3"
+        }
       },
       {
         "date": "2025-07-29T18:00:00.000Z",
@@ -4688,8 +4724,12 @@
         "awayTeam": "Collingwood Jays 15U A",
         "awayTeamCode": "510986",
         "location": "North Hill #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 3,
+          "away": 15,
+          "scoreText": "15-3"
+        }
       },
       {
         "date": "2025-07-28T20:00:00.000Z",
@@ -4700,8 +4740,12 @@
         "awayTeam": "Georgina Bulldogs 15U B",
         "awayTeamCode": "510998",
         "location": "Dana Field / Barrie Sports Complex",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 0,
+          "away": 16,
+          "scoreText": "16-0"
+        }
       },
       {
         "date": "2025-07-27T17:00:00.000Z",
@@ -4938,14 +4982,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-29T12:36:10.557Z",
+    "lastUpdated": "2025-07-29T13:40:34.709Z",
     "totalGames": 162
   },
   "summary": {
     "totalTeams": 10,
     "totalGames": 162,
-    "completedGames": 139,
-    "upcomingGames": 23,
+    "completedGames": 142,
+    "upcomingGames": 20,
     "topTeam": {
       "team": "Ontario Women",
       "teamCode": "546379",
@@ -4962,6 +5006,6 @@
       "date": "Sun, Jul 27",
       "location": "Lambert Wilson #4"
     },
-    "lastUpdated": "2025-07-29T12:38:29.556Z"
+    "lastUpdated": "2025-07-29T13:42:56.015Z"
   }
 }
