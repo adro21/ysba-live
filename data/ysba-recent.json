@@ -1,7 +1,35 @@
 {
-  "lastUpdated": "2025-07-30T19:21:23.629Z",
+  "lastUpdated": "2025-07-30T19:44:46.749Z",
   "totalGames": 190,
   "games": [
+    {
+      "date": "2025-07-30T19:30:00.000Z",
+      "dateText": "Wed, Jul 30",
+      "time": "7:30 PM",
+      "homeTeam": "Barrie Baycats 14U A",
+      "homeTeamCode": "510959",
+      "awayTeam": "Midland Penetang Twins 14U B",
+      "awayTeamCode": "510979",
+      "location": "Lennox Park B",
+      "isCompleted": false,
+      "score": null,
+      "division": "14U",
+      "tier": "rep-tier-3"
+    },
+    {
+      "date": "2025-07-30T19:30:00.000Z",
+      "dateText": "Wed, Jul 30",
+      "time": "7:30 PM",
+      "homeTeam": "Barrie Baycats 16U AA",
+      "homeTeamCode": "511009",
+      "awayTeam": "Newmarket Hawks 16U AA",
+      "awayTeamCode": "511011",
+      "location": "Lennox A",
+      "isCompleted": false,
+      "score": null,
+      "division": "16U",
+      "tier": "rep-tier-2"
+    },
     {
       "date": "2025-07-30T18:30:00.000Z",
       "dateText": "Wed, Jul 30",
@@ -623,8 +651,12 @@
       "awayTeam": "Barrie Baycats 13U A",
       "awayTeamCode": "510941",
       "location": "DAVID HAMILTON #2",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 6,
+        "away": 5,
+        "scoreText": "5-6"
+      },
       "division": "13U",
       "tier": "rep-tier-2"
     },
@@ -637,8 +669,12 @@
       "awayTeam": "Barrie Baycats 13U A",
       "awayTeamCode": "510941",
       "location": "DAVID HAMILTON #2",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 6,
+        "away": 5,
+        "scoreText": "5-6"
+      },
       "division": "13U",
       "tier": "rep-tier-3"
     },
@@ -701,42 +737,6 @@
       },
       "division": "11U",
       "tier": "rep-tier-2"
-    },
-    {
-      "date": "2025-07-29T18:30:00.000Z",
-      "dateText": "Tue, Jul 29",
-      "time": "6:30 PM",
-      "homeTeam": "Barrie Baycats 11U A",
-      "homeTeamCode": "510892",
-      "awayTeam": "Orangeville Bengals 11U A",
-      "awayTeamCode": "510897",
-      "location": "Sports Complex #13",
-      "isCompleted": true,
-      "score": {
-        "home": 16,
-        "away": 7,
-        "scoreText": "7-16"
-      },
-      "division": "11U",
-      "tier": "rep-tier-2"
-    },
-    {
-      "date": "2025-07-29T18:30:00.000Z",
-      "dateText": "Tue, Jul 29",
-      "time": "6:30 PM",
-      "homeTeam": "Caledon Nationals 11U AA",
-      "homeTeamCode": "510912",
-      "awayTeam": "Barrie Baycats 11U AA",
-      "awayTeamCode": "510906",
-      "location": "North Hill #3",
-      "isCompleted": true,
-      "score": {
-        "home": 7,
-        "away": 5,
-        "scoreText": "5-7"
-      },
-      "division": "11U",
-      "tier": "rep-tier-3"
     }
   ]
 }
