@@ -20,25 +20,25 @@
         }
       },
       {
-        "position": 3,
+        "position": 2,
         "team": "Stouffville Yankees 15U A",
         "teamCode": "510985",
         "record": {
-          "gamesPlayed": 16,
-          "wins": 11,
+          "gamesPlayed": 17,
+          "wins": 12,
           "losses": 3,
           "ties": 2,
-          "winPercentage": "0.750"
+          "winPercentage": "0.765"
         },
         "stats": {
-          "points": 24,
-          "runsFor": 174,
-          "runsAgainst": 92,
-          "runDifferential": 82
+          "points": 26,
+          "runsFor": 184,
+          "runsAgainst": 99,
+          "runDifferential": 85
         }
       },
       {
-        "position": 2,
+        "position": 3,
         "team": "Collingwood Jays 15U A",
         "teamCode": "510986",
         "record": {
@@ -128,24 +128,6 @@
         }
       },
       {
-        "position": 8,
-        "team": "Vaughan Vikings 15U A",
-        "teamCode": "518959",
-        "record": {
-          "gamesPlayed": 15,
-          "wins": 3,
-          "losses": 12,
-          "ties": 0,
-          "winPercentage": "0.200"
-        },
-        "stats": {
-          "points": 6,
-          "runsFor": 100,
-          "runsAgainst": 169,
-          "runDifferential": -69
-        }
-      },
-      {
         "position": 9,
         "team": "Barrie Baycats 15U A",
         "teamCode": "510981",
@@ -161,6 +143,24 @@
           "runsFor": 105,
           "runsAgainst": 199,
           "runDifferential": -94
+        }
+      },
+      {
+        "position": 8,
+        "team": "Vaughan Vikings 15U A",
+        "teamCode": "518959",
+        "record": {
+          "gamesPlayed": 16,
+          "wins": 3,
+          "losses": 13,
+          "ties": 0,
+          "winPercentage": "0.188"
+        },
+        "stats": {
+          "points": 6,
+          "runsFor": 107,
+          "runsAgainst": 179,
+          "runDifferential": -72
         }
       },
       {
@@ -182,7 +182,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-30T11:43:20.634Z",
+    "lastUpdated": "2025-07-30T12:35:55.489Z",
     "totalTeams": 10
   },
   "schedule": {
@@ -288,7 +288,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-30T11:43:25.124Z"
+        "lastUpdated": "2025-07-30T12:36:00.082Z"
       },
       "510981": {
         "teamCode": "510981",
@@ -403,7 +403,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-30T11:43:25.124Z"
+        "lastUpdated": "2025-07-30T12:36:00.082Z"
       },
       "510982": {
         "teamCode": "510982",
@@ -518,7 +518,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-30T11:43:25.124Z"
+        "lastUpdated": "2025-07-30T12:36:00.082Z"
       },
       "510983": {
         "teamCode": "510983",
@@ -621,7 +621,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-30T11:43:25.124Z"
+        "lastUpdated": "2025-07-30T12:36:00.082Z"
       },
       "510984": {
         "teamCode": "510984",
@@ -724,7 +724,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-30T11:43:25.124Z"
+        "lastUpdated": "2025-07-30T12:36:00.082Z"
       },
       "510985": {
         "teamCode": "510985",
@@ -805,8 +805,12 @@
             "awayTeam": "Vaughan Vikings 15U A",
             "awayTeamCode": "518959",
             "location": "Bethesda Fields #2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 7,
+              "scoreText": "7-10"
+            }
           }
         ],
         "nextGames": [
@@ -823,7 +827,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-30T11:43:25.124Z"
+        "lastUpdated": "2025-07-30T12:36:00.082Z"
       },
       "510986": {
         "teamCode": "510986",
@@ -913,7 +917,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-30T11:43:25.124Z"
+        "lastUpdated": "2025-07-30T12:36:00.082Z"
       },
       "510987": {
         "teamCode": "510987",
@@ -1003,7 +1007,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-30T11:43:25.124Z"
+        "lastUpdated": "2025-07-30T12:36:00.082Z"
       },
       "510988": {
         "teamCode": "510988",
@@ -1106,7 +1110,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-30T11:43:25.125Z"
+        "lastUpdated": "2025-07-30T12:36:00.082Z"
       },
       "510989": {
         "teamCode": "510989",
@@ -1221,7 +1225,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-30T11:43:25.125Z"
+        "lastUpdated": "2025-07-30T12:36:00.082Z"
       },
       "510990": {
         "teamCode": "510990",
@@ -1324,7 +1328,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-30T11:43:25.125Z"
+        "lastUpdated": "2025-07-30T12:36:00.082Z"
       },
       "510991": {
         "teamCode": "510991",
@@ -1435,7 +1439,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-30T11:43:25.125Z"
+        "lastUpdated": "2025-07-30T12:36:00.082Z"
       },
       "510992": {
         "teamCode": "510992",
@@ -1550,7 +1554,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-30T11:43:25.125Z"
+        "lastUpdated": "2025-07-30T12:36:00.082Z"
       },
       "510993": {
         "teamCode": "510993",
@@ -1661,7 +1665,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-30T11:43:25.125Z"
+        "lastUpdated": "2025-07-30T12:36:00.082Z"
       },
       "510998": {
         "teamCode": "510998",
@@ -1764,7 +1768,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-30T11:43:25.125Z"
+        "lastUpdated": "2025-07-30T12:36:00.082Z"
       },
       "516244": {
         "teamCode": "516244",
@@ -1879,7 +1883,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-30T11:43:25.125Z"
+        "lastUpdated": "2025-07-30T12:36:00.082Z"
       },
       "518959": {
         "teamCode": "518959",
@@ -1960,8 +1964,12 @@
             "awayTeam": "Vaughan Vikings 15U A",
             "awayTeamCode": "518959",
             "location": "Bethesda Fields #2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 7,
+              "scoreText": "7-10"
+            }
           }
         ],
         "nextGames": [
@@ -1978,7 +1986,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-30T11:43:25.125Z"
+        "lastUpdated": "2025-07-30T12:36:00.082Z"
       },
       "546379": {
         "teamCode": "546379",
@@ -2068,7 +2076,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-30T11:43:25.125Z"
+        "lastUpdated": "2025-07-30T12:36:00.082Z"
       }
     },
     "allGames": [
@@ -4457,8 +4465,12 @@
         "awayTeam": "Vaughan Vikings 15U A",
         "awayTeamCode": "518959",
         "location": "Bethesda Fields #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 7,
+          "scoreText": "7-10"
+        }
       },
       {
         "date": "2025-07-30T18:00:00.000Z",
@@ -4603,8 +4615,12 @@
         "awayTeam": "Vaughan Vikings 15U A",
         "awayTeamCode": "518959",
         "location": "Bethesda Fields #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 7,
+          "scoreText": "7-10"
+        }
       },
       {
         "date": "2025-07-29T20:00:00.000Z",
@@ -4869,14 +4885,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-30T11:43:25.125Z",
+    "lastUpdated": "2025-07-30T12:36:00.082Z",
     "totalGames": 162
   },
   "summary": {
     "totalTeams": 10,
     "totalGames": 162,
-    "completedGames": 144,
-    "upcomingGames": 18,
+    "completedGames": 145,
+    "upcomingGames": 17,
     "topTeam": {
       "team": "Ontario Women",
       "teamCode": "546379",
@@ -4893,6 +4909,6 @@
       "date": "Sun, Jul 27",
       "location": "Lambert Wilson #4"
     },
-    "lastUpdated": "2025-07-30T11:45:45.462Z"
+    "lastUpdated": "2025-07-30T12:38:17.654Z"
   }
 }
