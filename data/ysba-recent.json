@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-07-31T15:50:38.551Z",
+  "lastUpdated": "2025-07-31T16:25:36.485Z",
   "totalGames": 190,
   "games": [
     {
@@ -125,8 +125,12 @@
       "awayTeam": "Newmarket Hawks 15U DS",
       "awayTeamCode": "511101",
       "location": "Beeton South",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 13,
+        "away": 11,
+        "scoreText": "11-13"
+      },
       "division": "15U",
       "tier": "select-all-tiers"
     },

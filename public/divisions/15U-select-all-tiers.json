@@ -20,7 +20,7 @@
         }
       },
       {
-        "position": 2,
+        "position": 3,
         "team": "Barrie Baycats 15U DS",
         "teamCode": "511524",
         "record": {
@@ -38,21 +38,21 @@
         }
       },
       {
-        "position": 3,
+        "position": 2,
         "team": "TNT Thunder 15U DS",
         "teamCode": "511104",
         "record": {
-          "gamesPlayed": 13,
-          "wins": 7,
+          "gamesPlayed": 15,
+          "wins": 9,
           "losses": 6,
           "ties": 0,
-          "winPercentage": "0.538"
+          "winPercentage": "0.600"
         },
         "stats": {
-          "points": 14,
-          "runsFor": 139,
-          "runsAgainst": 93,
-          "runDifferential": 46
+          "points": 18,
+          "runsFor": 168,
+          "runsAgainst": 109,
+          "runDifferential": 59
         }
       },
       {
@@ -60,17 +60,17 @@
         "team": "Newmarket Hawks 15U DS",
         "teamCode": "511101",
         "record": {
-          "gamesPlayed": 9,
+          "gamesPlayed": 10,
           "wins": 3,
-          "losses": 5,
+          "losses": 6,
           "ties": 1,
-          "winPercentage": "0.389"
+          "winPercentage": "0.350"
         },
         "stats": {
           "points": 7,
-          "runsFor": 69,
-          "runsAgainst": 85,
-          "runDifferential": -16
+          "runsFor": 80,
+          "runsAgainst": 98,
+          "runDifferential": -18
         }
       },
       {
@@ -96,17 +96,17 @@
         "team": "Stouffville Yankees 15U DS",
         "teamCode": "511103",
         "record": {
-          "gamesPlayed": 14,
+          "gamesPlayed": 15,
           "wins": 1,
-          "losses": 11,
+          "losses": 12,
           "ties": 2,
-          "winPercentage": "0.143"
+          "winPercentage": "0.133"
         },
         "stats": {
           "points": 4,
-          "runsFor": 61,
-          "runsAgainst": 177,
-          "runDifferential": -116
+          "runsFor": 66,
+          "runsAgainst": 193,
+          "runDifferential": -127
         }
       },
       {
@@ -128,7 +128,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-07-31T15:50:35.786Z",
+    "lastUpdated": "2025-07-31T16:25:33.754Z",
     "totalTeams": 7
   },
   "schedule": {
@@ -201,7 +201,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-31T15:50:38.544Z"
+        "lastUpdated": "2025-07-31T16:25:36.478Z"
       },
       "511100": {
         "teamCode": "511100",
@@ -291,7 +291,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-31T15:50:38.544Z"
+        "lastUpdated": "2025-07-31T16:25:36.478Z"
       },
       "511101": {
         "teamCode": "511101",
@@ -364,8 +364,12 @@
             "awayTeam": "Newmarket Hawks 15U DS",
             "awayTeamCode": "511101",
             "location": "Beeton South",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 11,
+              "scoreText": "11-13"
+            }
           }
         ],
         "nextGames": [
@@ -394,7 +398,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-31T15:50:38.545Z"
+        "lastUpdated": "2025-07-31T16:25:36.478Z"
       },
       "511102": {
         "teamCode": "511102",
@@ -509,7 +513,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-07-31T15:50:38.545Z"
+        "lastUpdated": "2025-07-31T16:25:36.478Z"
       },
       "511103": {
         "teamCode": "511103",
@@ -566,8 +570,12 @@
             "awayTeam": "Stouffville Yankees 15U DS",
             "awayTeamCode": "511103",
             "location": "Beeton South",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 16,
+              "away": 5,
+              "scoreText": "5-16"
+            }
           },
           {
             "date": "2025-07-26T13:00:00.000Z",
@@ -587,7 +595,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-31T15:50:38.545Z"
+        "lastUpdated": "2025-07-31T16:25:36.478Z"
       },
       "511104": {
         "teamCode": "511104",
@@ -620,8 +628,12 @@
             "awayTeam": "Stouffville Yankees 15U DS",
             "awayTeamCode": "511103",
             "location": "Beeton South",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 16,
+              "away": 5,
+              "scoreText": "5-16"
+            }
           },
           {
             "date": "2025-07-27T10:00:00.000Z",
@@ -664,12 +676,16 @@
             "awayTeam": "Newmarket Hawks 15U DS",
             "awayTeamCode": "511101",
             "location": "Beeton South",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 11,
+              "scoreText": "11-13"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-31T15:50:38.545Z"
+        "lastUpdated": "2025-07-31T16:25:36.478Z"
       },
       "511524": {
         "teamCode": "511524",
@@ -759,7 +775,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-07-31T15:50:38.545Z"
+        "lastUpdated": "2025-07-31T16:25:36.478Z"
       }
     },
     "allGames": [
@@ -1476,8 +1492,12 @@
         "awayTeam": "Stouffville Yankees 15U DS",
         "awayTeamCode": "511103",
         "location": "Beeton South",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 16,
+          "away": 5,
+          "scoreText": "5-16"
+        }
       },
       {
         "date": "2025-07-26T13:00:00.000Z",
@@ -1568,8 +1588,12 @@
         "awayTeam": "Newmarket Hawks 15U DS",
         "awayTeamCode": "511101",
         "location": "Beeton South",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 11,
+          "scoreText": "11-13"
+        }
       },
       {
         "date": "2025-08-03T02:30:00.000Z",
@@ -1606,8 +1630,12 @@
         "awayTeam": "Newmarket Hawks 15U DS",
         "awayTeamCode": "511101",
         "location": "Beeton South",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 11,
+          "scoreText": "11-13"
+        }
       },
       {
         "date": "2025-07-27T12:30:00.000Z",
@@ -1698,8 +1726,12 @@
         "awayTeam": "Stouffville Yankees 15U DS",
         "awayTeamCode": "511103",
         "location": "Beeton South",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 16,
+          "away": 5,
+          "scoreText": "5-16"
+        }
       },
       {
         "date": "2025-07-14T18:00:00.000Z",
@@ -1776,14 +1808,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-07-31T15:50:38.545Z",
+    "lastUpdated": "2025-07-31T16:25:36.478Z",
     "totalGames": 57
   },
   "summary": {
     "totalTeams": 7,
     "totalGames": 57,
-    "completedGames": 37,
-    "upcomingGames": 20,
+    "completedGames": 39,
+    "upcomingGames": 18,
     "topTeam": {
       "team": "Collingwood Jays 15U DS",
       "teamCode": "511100",
@@ -1800,6 +1832,6 @@
       "date": "Sat, Jun 21",
       "location": "Lennox (field b)"
     },
-    "lastUpdated": "2025-07-31T15:50:38.551Z"
+    "lastUpdated": "2025-07-31T16:25:36.485Z"
   }
 }
