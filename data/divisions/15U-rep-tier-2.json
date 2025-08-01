@@ -114,17 +114,17 @@
         "team": "Aurora-King Jays 15U AA",
         "teamCode": "510993",
         "record": {
-          "gamesPlayed": 15,
-          "wins": 4,
+          "gamesPlayed": 16,
+          "wins": 5,
           "losses": 11,
           "ties": 0,
-          "winPercentage": "0.267"
+          "winPercentage": "0.313"
         },
         "stats": {
-          "points": 8,
-          "runsFor": 85,
-          "runsAgainst": 163,
-          "runDifferential": -78
+          "points": 10,
+          "runsFor": 89,
+          "runsAgainst": 166,
+          "runDifferential": -77
         }
       },
       {
@@ -132,21 +132,21 @@
         "team": "Thornhill Reds 15U AA",
         "teamCode": "510992",
         "record": {
-          "gamesPlayed": 16,
+          "gamesPlayed": 17,
           "wins": 2,
-          "losses": 14,
+          "losses": 15,
           "ties": 0,
-          "winPercentage": "0.125"
+          "winPercentage": "0.118"
         },
         "stats": {
           "points": 4,
-          "runsFor": 69,
-          "runsAgainst": 194,
-          "runDifferential": -125
+          "runsFor": 72,
+          "runsAgainst": 198,
+          "runDifferential": -126
         }
       }
     ],
-    "lastUpdated": "2025-08-01T13:37:55.987Z",
+    "lastUpdated": "2025-08-01T14:21:19.406Z",
     "totalTeams": 8
   },
   "schedule": {
@@ -239,7 +239,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-01T13:38:00.670Z"
+        "lastUpdated": "2025-08-01T14:21:24.067Z"
       },
       "510981": {
         "teamCode": "510981",
@@ -342,7 +342,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-01T13:38:00.670Z"
+        "lastUpdated": "2025-08-01T14:21:24.067Z"
       },
       "510982": {
         "teamCode": "510982",
@@ -441,7 +441,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-01T13:38:00.670Z"
+        "lastUpdated": "2025-08-01T14:21:24.067Z"
       },
       "510983": {
         "teamCode": "510983",
@@ -544,7 +544,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-01T13:38:00.670Z"
+        "lastUpdated": "2025-08-01T14:21:24.067Z"
       },
       "510984": {
         "teamCode": "510984",
@@ -647,7 +647,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-01T13:38:00.670Z"
+        "lastUpdated": "2025-08-01T14:21:24.067Z"
       },
       "510985": {
         "teamCode": "510985",
@@ -733,7 +733,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-01T13:38:00.671Z"
+        "lastUpdated": "2025-08-01T14:21:24.067Z"
       },
       "510986": {
         "teamCode": "510986",
@@ -823,7 +823,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-01T13:38:00.671Z"
+        "lastUpdated": "2025-08-01T14:21:24.067Z"
       },
       "510987": {
         "teamCode": "510987",
@@ -913,7 +913,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-01T13:38:00.671Z"
+        "lastUpdated": "2025-08-01T14:21:24.067Z"
       },
       "510988": {
         "teamCode": "510988",
@@ -1016,7 +1016,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-01T13:38:00.671Z"
+        "lastUpdated": "2025-08-01T14:21:24.067Z"
       },
       "510989": {
         "teamCode": "510989",
@@ -1119,7 +1119,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-01T13:38:00.671Z"
+        "lastUpdated": "2025-08-01T14:21:24.067Z"
       },
       "510990": {
         "teamCode": "510990",
@@ -1222,7 +1222,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-01T13:38:00.671Z"
+        "lastUpdated": "2025-08-01T14:21:24.067Z"
       },
       "510991": {
         "teamCode": "510991",
@@ -1325,7 +1325,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-01T13:38:00.671Z"
+        "lastUpdated": "2025-08-01T14:21:24.067Z"
       },
       "510992": {
         "teamCode": "510992",
@@ -1406,12 +1406,16 @@
             "awayTeam": "Aurora-King Jays 15U AA",
             "awayTeamCode": "510993",
             "location": "Concord Regional Park, #1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 3,
+              "away": 4,
+              "scoreText": "4-3"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-01T13:38:00.671Z"
+        "lastUpdated": "2025-08-01T14:21:24.067Z"
       },
       "510993": {
         "teamCode": "510993",
@@ -1492,8 +1496,12 @@
             "awayTeam": "Aurora-King Jays 15U AA",
             "awayTeamCode": "510993",
             "location": "Concord Regional Park, #1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 3,
+              "away": 4,
+              "scoreText": "4-3"
+            }
           }
         ],
         "nextGames": [
@@ -1510,7 +1518,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-01T13:38:00.671Z"
+        "lastUpdated": "2025-08-01T14:21:24.067Z"
       },
       "510998": {
         "teamCode": "510998",
@@ -1600,7 +1608,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-01T13:38:00.671Z"
+        "lastUpdated": "2025-08-01T14:21:24.067Z"
       },
       "516244": {
         "teamCode": "516244",
@@ -1703,7 +1711,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-01T13:38:00.671Z"
+        "lastUpdated": "2025-08-01T14:21:24.067Z"
       },
       "518959": {
         "teamCode": "518959",
@@ -1793,7 +1801,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-01T13:38:00.671Z"
+        "lastUpdated": "2025-08-01T14:21:24.067Z"
       },
       "546379": {
         "teamCode": "546379",
@@ -1883,7 +1891,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-01T13:38:00.671Z"
+        "lastUpdated": "2025-08-01T14:21:24.067Z"
       }
     },
     "allGames": [
@@ -4340,8 +4348,12 @@
         "awayTeam": "Aurora-King Jays 15U AA",
         "awayTeamCode": "510993",
         "location": "Concord Regional Park, #1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 3,
+          "away": 4,
+          "scoreText": "4-3"
+        }
       },
       {
         "date": "2025-07-31T19:30:00.000Z",
@@ -4470,8 +4482,12 @@
         "awayTeam": "Aurora-King Jays 15U AA",
         "awayTeamCode": "510993",
         "location": "Concord Regional Park, #1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 3,
+          "away": 4,
+          "scoreText": "4-3"
+        }
       },
       {
         "date": "2025-07-30T20:00:00.000Z",
@@ -4648,14 +4664,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-08-01T13:38:00.671Z",
+    "lastUpdated": "2025-08-01T14:21:24.067Z",
     "totalGames": 162
   },
   "summary": {
     "totalTeams": 8,
     "totalGames": 162,
-    "completedGames": 150,
-    "upcomingGames": 12,
+    "completedGames": 151,
+    "upcomingGames": 11,
     "topTeam": {
       "team": "Innisfil Cardinals 15U AA",
       "teamCode": "510989",
@@ -4672,6 +4688,6 @@
       "date": "Sun, Jul 27",
       "location": "Lambert Wilson #4"
     },
-    "lastUpdated": "2025-08-01T13:40:37.806Z"
+    "lastUpdated": "2025-08-01T14:24:02.311Z"
   }
 }
