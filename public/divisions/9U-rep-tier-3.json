@@ -3,6 +3,24 @@
     "teams": [
       {
         "position": 1,
+        "team": "Markham Mariners 9U A",
+        "teamCode": "511061",
+        "record": {
+          "gamesPlayed": 16,
+          "wins": 14,
+          "losses": 2,
+          "ties": 0,
+          "winPercentage": "0.875"
+        },
+        "stats": {
+          "points": 28,
+          "runsFor": 236,
+          "runsAgainst": 103,
+          "runDifferential": 133
+        }
+      },
+      {
+        "position": 2,
         "team": "Orillia Royals 9U A",
         "teamCode": "511064",
         "record": {
@@ -17,24 +35,6 @@
           "runsFor": 225,
           "runsAgainst": 100,
           "runDifferential": 125
-        }
-      },
-      {
-        "position": 2,
-        "team": "Markham Mariners 9U A",
-        "teamCode": "511061",
-        "record": {
-          "gamesPlayed": 13,
-          "wins": 11,
-          "losses": 2,
-          "ties": 0,
-          "winPercentage": "0.846"
-        },
-        "stats": {
-          "points": 22,
-          "runsFor": 196,
-          "runsAgainst": 94,
-          "runDifferential": 102
         }
       },
       {
@@ -96,24 +96,6 @@
         "team": "Stouffville Yankees 9U A",
         "teamCode": "511065",
         "record": {
-          "gamesPlayed": 12,
-          "wins": 2,
-          "losses": 10,
-          "ties": 0,
-          "winPercentage": "0.167"
-        },
-        "stats": {
-          "points": 4,
-          "runsFor": 100,
-          "runsAgainst": 191,
-          "runDifferential": -91
-        }
-      },
-      {
-        "position": 6,
-        "team": "Orangeville Bengals 9U A",
-        "teamCode": "511063",
-        "record": {
           "gamesPlayed": 13,
           "wins": 2,
           "losses": 11,
@@ -122,13 +104,31 @@
         },
         "stats": {
           "points": 4,
-          "runsFor": 62,
-          "runsAgainst": 231,
-          "runDifferential": -169
+          "runsFor": 104,
+          "runsAgainst": 208,
+          "runDifferential": -104
+        }
+      },
+      {
+        "position": 6,
+        "team": "Orangeville Bengals 9U A",
+        "teamCode": "511063",
+        "record": {
+          "gamesPlayed": 15,
+          "wins": 2,
+          "losses": 13,
+          "ties": 0,
+          "winPercentage": "0.133"
+        },
+        "stats": {
+          "points": 4,
+          "runsFor": 67,
+          "runsAgainst": 254,
+          "runDifferential": -187
         }
       }
     ],
-    "lastUpdated": "2025-08-01T15:17:02.758Z",
+    "lastUpdated": "2025-08-01T15:44:25.086Z",
     "totalTeams": 7
   },
   "schedule": {
@@ -140,35 +140,19 @@
         "upcomingGames": 0,
         "recentGames": [
           {
-            "date": "2025-07-13T18:00:00.000Z",
-            "dateText": "Sun, Jul 13",
-            "time": "6:00 PM",
-            "homeTeam": "Stouffville Yankees 9U A",
-            "homeTeamCode": "511065",
-            "awayTeam": "Markham Mariners 9U A",
-            "awayTeamCode": "511061",
-            "location": "Rupert Park",
-            "isCompleted": true,
-            "score": {
-              "home": 4,
-              "away": 14,
-              "scoreText": "14-4"
-            }
-          },
-          {
-            "date": "2025-07-15T18:30:00.000Z",
-            "dateText": "Tue, Jul 15",
-            "time": "6:30 PM",
+            "date": "2025-07-20T19:00:00.000Z",
+            "dateText": "Sun, Jul 20",
+            "time": "7:00 PM",
             "homeTeam": "Markham Mariners 9U A",
             "homeTeamCode": "511061",
-            "awayTeam": "Vaughan Vikings 9U A",
-            "awayTeamCode": "518948",
+            "awayTeam": "Orangeville Bengals 9U A",
+            "awayTeamCode": "511063",
             "location": "Morgan Park",
             "isCompleted": true,
             "score": {
-              "home": 19,
-              "away": 9,
-              "scoreText": "9-19"
+              "home": 1,
+              "away": 0,
+              "scoreText": "0-1"
             }
           },
           {
@@ -185,6 +169,22 @@
               "home": 5,
               "away": 11,
               "scoreText": "11-5"
+            }
+          },
+          {
+            "date": "2025-07-28T18:30:00.000Z",
+            "dateText": "Mon, Jul 28",
+            "time": "6:30 PM",
+            "homeTeam": "Markham Mariners 9U A",
+            "homeTeamCode": "511061",
+            "awayTeam": "Stouffville Yankees 9U A",
+            "awayTeamCode": "511065",
+            "location": "Morgan Park",
+            "isCompleted": true,
+            "score": {
+              "home": 17,
+              "away": 4,
+              "scoreText": "4-17"
             }
           },
           {
@@ -212,12 +212,16 @@
             "awayTeam": "Markham Mariners 9U A",
             "awayTeamCode": "511061",
             "location": "Alton Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 22,
+              "scoreText": "22-5"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-01T15:17:05.447Z"
+        "lastUpdated": "2025-08-01T15:44:27.732Z"
       },
       "511062": {
         "teamCode": "511062",
@@ -332,7 +336,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-01T15:17:05.447Z"
+        "lastUpdated": "2025-08-01T15:44:27.732Z"
       },
       "511063": {
         "teamCode": "511063",
@@ -340,22 +344,6 @@
         "playedGames": 16,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": "2025-07-10T18:00:00.000Z",
-            "dateText": "Thu, Jul 10",
-            "time": "6:00 PM",
-            "homeTeam": "Orangeville Bengals 9U A",
-            "homeTeamCode": "511063",
-            "awayTeam": "Orillia Royals 9U A",
-            "awayTeamCode": "511064",
-            "location": "Alton Park",
-            "isCompleted": true,
-            "score": {
-              "home": 0,
-              "away": 18,
-              "scoreText": "18-0"
-            }
-          },
           {
             "date": "2025-07-17T18:00:00.000Z",
             "dateText": "Thu, Jul 17",
@@ -370,6 +358,22 @@
               "home": 1,
               "away": 24,
               "scoreText": "24-1"
+            }
+          },
+          {
+            "date": "2025-07-20T19:00:00.000Z",
+            "dateText": "Sun, Jul 20",
+            "time": "7:00 PM",
+            "homeTeam": "Markham Mariners 9U A",
+            "homeTeamCode": "511061",
+            "awayTeam": "Orangeville Bengals 9U A",
+            "awayTeamCode": "511063",
+            "location": "Morgan Park",
+            "isCompleted": true,
+            "score": {
+              "home": 1,
+              "away": 0,
+              "scoreText": "0-1"
             }
           },
           {
@@ -409,12 +413,16 @@
             "awayTeam": "Markham Mariners 9U A",
             "awayTeamCode": "511061",
             "location": "Alton Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 22,
+              "scoreText": "22-5"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-01T15:17:05.447Z"
+        "lastUpdated": "2025-08-01T15:44:27.732Z"
       },
       "511064": {
         "teamCode": "511064",
@@ -517,7 +525,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-01T15:17:05.447Z"
+        "lastUpdated": "2025-08-01T15:44:27.732Z"
       },
       "511065": {
         "teamCode": "511065",
@@ -525,22 +533,6 @@
         "playedGames": 14,
         "upcomingGames": 2,
         "recentGames": [
-          {
-            "date": "2025-06-29T18:00:00.000Z",
-            "dateText": "Sun, Jun 29",
-            "time": "6:00 PM",
-            "homeTeam": "Muskoka Hornets 9U A",
-            "homeTeamCode": "516247",
-            "awayTeam": "Stouffville Yankees 9U A",
-            "awayTeamCode": "511065",
-            "location": "Rupert Park",
-            "isCompleted": true,
-            "score": {
-              "home": 13,
-              "away": 3,
-              "scoreText": "3-13"
-            }
-          },
           {
             "date": "2025-07-13T18:00:00.000Z",
             "dateText": "Sun, Jul 13",
@@ -600,6 +592,22 @@
             "location": "Alton Park",
             "isCompleted": false,
             "score": null
+          },
+          {
+            "date": "2025-07-28T18:30:00.000Z",
+            "dateText": "Mon, Jul 28",
+            "time": "6:30 PM",
+            "homeTeam": "Markham Mariners 9U A",
+            "homeTeamCode": "511061",
+            "awayTeam": "Stouffville Yankees 9U A",
+            "awayTeamCode": "511065",
+            "location": "Morgan Park",
+            "isCompleted": true,
+            "score": {
+              "home": 17,
+              "away": 4,
+              "scoreText": "4-17"
+            }
           }
         ],
         "nextGames": [
@@ -628,7 +636,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-01T15:17:05.447Z"
+        "lastUpdated": "2025-08-01T15:44:27.732Z"
       },
       "516247": {
         "teamCode": "516247",
@@ -755,7 +763,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-01T15:17:05.447Z"
+        "lastUpdated": "2025-08-01T15:44:27.732Z"
       },
       "518948": {
         "teamCode": "518948",
@@ -870,7 +878,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-01T15:17:05.447Z"
+        "lastUpdated": "2025-08-01T15:44:27.732Z"
       }
     },
     "allGames": [
@@ -921,18 +929,6 @@
           "away": 4,
           "scoreText": "4-14"
         }
-      },
-      {
-        "date": "2025-05-28T19:00:00.000Z",
-        "dateText": "Wed, May 28",
-        "time": "7:00 PM",
-        "homeTeam": "Markham Mariners 9U A",
-        "homeTeamCode": "511061",
-        "awayTeam": "Orangeville Bengals 9U A",
-        "awayTeamCode": "511063",
-        "location": "Morgan Park",
-        "isCompleted": false,
-        "score": null
       },
       {
         "date": "2025-05-31T15:00:00.000Z",
@@ -1175,18 +1171,6 @@
         }
       },
       {
-        "date": "2025-06-18T18:30:00.000Z",
-        "dateText": "Wed, Jun 18",
-        "time": "6:30 PM",
-        "homeTeam": "Markham Mariners 9U A",
-        "homeTeamCode": "511061",
-        "awayTeam": "Stouffville Yankees 9U A",
-        "awayTeamCode": "511065",
-        "location": "Morgan Park",
-        "isCompleted": false,
-        "score": null
-      },
-      {
         "date": "2025-06-19T18:00:00.000Z",
         "dateText": "Thu, Jun 19",
         "time": "6:00 PM",
@@ -1270,11 +1254,11 @@
         "date": "2025-06-25T18:30:00.000Z",
         "dateText": "Wed, Jun 25",
         "time": "6:30 PM",
-        "homeTeam": "Newmarket Hawks 9U A",
-        "homeTeamCode": "511062",
-        "awayTeam": "Vaughan Vikings 9U A",
-        "awayTeamCode": "518948",
-        "location": "Fairgrounds #2",
+        "homeTeam": "Markham Mariners 9U A",
+        "homeTeamCode": "511061",
+        "awayTeam": "Stouffville Yankees 9U A",
+        "awayTeamCode": "511065",
+        "location": "Morgan Park",
         "isCompleted": true,
         "score": {
           "home": 14,
@@ -1286,11 +1270,11 @@
         "date": "2025-06-25T18:30:00.000Z",
         "dateText": "Wed, Jun 25",
         "time": "6:30 PM",
-        "homeTeam": "Markham Mariners 9U A",
-        "homeTeamCode": "511061",
-        "awayTeam": "Stouffville Yankees 9U A",
-        "awayTeamCode": "511065",
-        "location": "Morgan Park",
+        "homeTeam": "Newmarket Hawks 9U A",
+        "homeTeamCode": "511062",
+        "awayTeam": "Vaughan Vikings 9U A",
+        "awayTeamCode": "518948",
+        "location": "Fairgrounds #2",
         "isCompleted": true,
         "score": {
           "home": 14,
@@ -1587,6 +1571,22 @@
         }
       },
       {
+        "date": "2025-07-20T19:00:00.000Z",
+        "dateText": "Sun, Jul 20",
+        "time": "7:00 PM",
+        "homeTeam": "Markham Mariners 9U A",
+        "homeTeamCode": "511061",
+        "awayTeam": "Orangeville Bengals 9U A",
+        "awayTeamCode": "511063",
+        "location": "Morgan Park",
+        "isCompleted": true,
+        "score": {
+          "home": 1,
+          "away": 0,
+          "scoreText": "0-1"
+        }
+      },
+      {
         "date": "2025-07-21T18:00:00.000Z",
         "dateText": "Mon, Jul 21",
         "time": "6:00 PM",
@@ -1647,6 +1647,22 @@
         }
       },
       {
+        "date": "2025-07-28T18:30:00.000Z",
+        "dateText": "Mon, Jul 28",
+        "time": "6:30 PM",
+        "homeTeam": "Markham Mariners 9U A",
+        "homeTeamCode": "511061",
+        "awayTeam": "Stouffville Yankees 9U A",
+        "awayTeamCode": "511065",
+        "location": "Morgan Park",
+        "isCompleted": true,
+        "score": {
+          "home": 17,
+          "away": 4,
+          "scoreText": "4-17"
+        }
+      },
+      {
         "date": "2025-07-30T18:30:00.000Z",
         "dateText": "Wed, Jul 30",
         "time": "6:30 PM",
@@ -1671,8 +1687,12 @@
         "awayTeam": "Markham Mariners 9U A",
         "awayTeamCode": "511061",
         "location": "Alton Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 5,
+          "away": 22,
+          "scoreText": "22-5"
+        }
       },
       {
         "date": "2025-08-01T18:00:00.000Z",
@@ -1745,8 +1765,12 @@
         "awayTeam": "Markham Mariners 9U A",
         "awayTeamCode": "511061",
         "location": "Alton Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 5,
+          "away": 22,
+          "scoreText": "22-5"
+        }
       },
       {
         "date": "2025-07-30T18:30:00.000Z",
@@ -1762,6 +1786,22 @@
           "home": 3,
           "away": 20,
           "scoreText": "20-3"
+        }
+      },
+      {
+        "date": "2025-07-28T18:30:00.000Z",
+        "dateText": "Mon, Jul 28",
+        "time": "6:30 PM",
+        "homeTeam": "Markham Mariners 9U A",
+        "homeTeamCode": "511061",
+        "awayTeam": "Stouffville Yankees 9U A",
+        "awayTeamCode": "511065",
+        "location": "Morgan Park",
+        "isCompleted": true,
+        "score": {
+          "home": 17,
+          "away": 4,
+          "scoreText": "4-17"
         }
       },
       {
@@ -1825,6 +1865,22 @@
         }
       },
       {
+        "date": "2025-07-20T19:00:00.000Z",
+        "dateText": "Sun, Jul 20",
+        "time": "7:00 PM",
+        "homeTeam": "Markham Mariners 9U A",
+        "homeTeamCode": "511061",
+        "awayTeam": "Orangeville Bengals 9U A",
+        "awayTeamCode": "511063",
+        "location": "Morgan Park",
+        "isCompleted": true,
+        "score": {
+          "home": 1,
+          "away": 0,
+          "scoreText": "0-1"
+        }
+      },
+      {
         "date": "2025-07-19T16:00:00.000Z",
         "dateText": "Sat, Jul 19",
         "time": "4:00 PM",
@@ -1854,38 +1910,6 @@
           "home": 23,
           "away": 20,
           "scoreText": "20-23"
-        }
-      },
-      {
-        "date": "2025-07-17T18:00:00.000Z",
-        "dateText": "Thu, Jul 17",
-        "time": "6:00 PM",
-        "homeTeam": "Orangeville Bengals 9U A",
-        "homeTeamCode": "511063",
-        "awayTeam": "Newmarket Hawks 9U A",
-        "awayTeamCode": "511062",
-        "location": "Alton Park",
-        "isCompleted": true,
-        "score": {
-          "home": 1,
-          "away": 24,
-          "scoreText": "24-1"
-        }
-      },
-      {
-        "date": "2025-07-15T18:30:00.000Z",
-        "dateText": "Tue, Jul 15",
-        "time": "6:30 PM",
-        "homeTeam": "Markham Mariners 9U A",
-        "homeTeamCode": "511061",
-        "awayTeam": "Vaughan Vikings 9U A",
-        "awayTeamCode": "518948",
-        "location": "Morgan Park",
-        "isCompleted": true,
-        "score": {
-          "home": 19,
-          "away": 9,
-          "scoreText": "9-19"
         }
       }
     ],
@@ -1951,20 +1975,20 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-08-01T15:17:05.447Z",
+    "lastUpdated": "2025-08-01T15:44:27.732Z",
     "totalGames": 56
   },
   "summary": {
     "totalTeams": 7,
     "totalGames": 56,
-    "completedGames": 47,
-    "upcomingGames": 9,
+    "completedGames": 50,
+    "upcomingGames": 6,
     "topTeam": {
-      "team": "Orillia Royals 9U A",
-      "teamCode": "511064",
-      "wins": 13,
+      "team": "Markham Mariners 9U A",
+      "teamCode": "511061",
+      "wins": 14,
       "losses": 2,
-      "winPercentage": "0.867"
+      "winPercentage": "0.875"
     },
     "highestScoringGame": {
       "homeTeam": "Newmarket Hawks 9U A",
@@ -1975,6 +1999,6 @@
       "date": "Sat, Jul 19",
       "location": "Fairgrounds #2"
     },
-    "lastUpdated": "2025-08-01T15:22:33.322Z"
+    "lastUpdated": "2025-08-01T15:49:56.883Z"
   }
 }
