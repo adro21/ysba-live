@@ -56,6 +56,24 @@
         }
       },
       {
+        "position": 5,
+        "team": "Stouffville 8U A",
+        "teamCode": "511059",
+        "record": {
+          "gamesPlayed": 15,
+          "wins": 8,
+          "losses": 7,
+          "ties": 0,
+          "winPercentage": "0.533"
+        },
+        "stats": {
+          "points": 16,
+          "runsFor": 229,
+          "runsAgainst": 199,
+          "runDifferential": 30
+        }
+      },
+      {
         "position": 4,
         "team": "Newmarket Hawks 8U A",
         "teamCode": "511051",
@@ -71,24 +89,6 @@
           "runsFor": 259,
           "runsAgainst": 236,
           "runDifferential": 23
-        }
-      },
-      {
-        "position": 5,
-        "team": "Stouffville 8U A",
-        "teamCode": "511059",
-        "record": {
-          "gamesPlayed": 14,
-          "wins": 7,
-          "losses": 7,
-          "ties": 0,
-          "winPercentage": "0.500"
-        },
-        "stats": {
-          "points": 14,
-          "runsFor": 217,
-          "runsAgainst": 191,
-          "runDifferential": 26
         }
       },
       {
@@ -132,17 +132,17 @@
         "team": "Georgina Bulldogs 8U B",
         "teamCode": "511060",
         "record": {
-          "gamesPlayed": 14,
+          "gamesPlayed": 15,
           "wins": 2,
-          "losses": 12,
+          "losses": 13,
           "ties": 0,
-          "winPercentage": "0.143"
+          "winPercentage": "0.133"
         },
         "stats": {
           "points": 4,
-          "runsFor": 150,
-          "runsAgainst": 240,
-          "runDifferential": -90
+          "runsFor": 158,
+          "runsAgainst": 252,
+          "runDifferential": -94
         }
       },
       {
@@ -164,7 +164,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-08-01T20:17:00.101Z",
+    "lastUpdated": "2025-08-01T20:43:55.312Z",
     "totalTeams": 9
   },
   "schedule": {
@@ -262,7 +262,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-01T20:17:03.023Z"
+        "lastUpdated": "2025-08-01T20:43:58.106Z"
       },
       "511051": {
         "teamCode": "511051",
@@ -352,7 +352,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-01T20:17:03.023Z"
+        "lastUpdated": "2025-08-01T20:43:58.106Z"
       },
       "511052": {
         "teamCode": "511052",
@@ -438,7 +438,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-01T20:17:03.023Z"
+        "lastUpdated": "2025-08-01T20:43:58.106Z"
       },
       "511053": {
         "teamCode": "511053",
@@ -528,7 +528,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-01T20:17:03.023Z"
+        "lastUpdated": "2025-08-01T20:43:58.106Z"
       },
       "511054": {
         "teamCode": "511054",
@@ -631,7 +631,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-01T20:17:03.023Z"
+        "lastUpdated": "2025-08-01T20:43:58.106Z"
       },
       "511057": {
         "teamCode": "511057",
@@ -717,7 +717,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-01T20:17:03.023Z"
+        "lastUpdated": "2025-08-01T20:43:58.106Z"
       },
       "511059": {
         "teamCode": "511059",
@@ -794,12 +794,16 @@
             "awayTeam": "Georgina Bulldogs 8U B",
             "awayTeamCode": "511060",
             "location": "Bethesda D3",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 8,
+              "scoreText": "8-12"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-01T20:17:03.023Z"
+        "lastUpdated": "2025-08-01T20:43:58.106Z"
       },
       "511060": {
         "teamCode": "511060",
@@ -880,12 +884,16 @@
             "awayTeam": "Georgina Bulldogs 8U B",
             "awayTeamCode": "511060",
             "location": "Bethesda D3",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 8,
+              "scoreText": "8-12"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-01T20:17:03.023Z"
+        "lastUpdated": "2025-08-01T20:43:58.106Z"
       },
       "518946": {
         "teamCode": "518946",
@@ -971,7 +979,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-01T20:17:03.023Z"
+        "lastUpdated": "2025-08-01T20:43:58.106Z"
       }
     },
     "allGames": [
@@ -2072,8 +2080,12 @@
         "awayTeam": "Georgina Bulldogs 8U B",
         "awayTeamCode": "511060",
         "location": "Bethesda D3",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 8,
+          "scoreText": "8-12"
+        }
       },
       {
         "date": "2025-07-31T18:30:00.000Z",
@@ -2134,8 +2146,12 @@
         "awayTeam": "Georgina Bulldogs 8U B",
         "awayTeamCode": "511060",
         "location": "Bethesda D3",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 8,
+          "scoreText": "8-12"
+        }
       },
       {
         "date": "2025-07-29T18:00:00.000Z",
@@ -2260,14 +2276,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-08-01T20:17:03.023Z",
+    "lastUpdated": "2025-08-01T20:43:58.106Z",
     "totalGames": 72
   },
   "summary": {
     "totalTeams": 9,
     "totalGames": 72,
-    "completedGames": 65,
-    "upcomingGames": 7,
+    "completedGames": 66,
+    "upcomingGames": 6,
     "topTeam": {
       "team": "Markham Mariners 8U A",
       "teamCode": "511057",
@@ -2284,6 +2300,6 @@
       "date": "Thu, May 29",
       "location": "Caledon Fairgrounds"
     },
-    "lastUpdated": "2025-08-01T20:23:18.699Z"
+    "lastUpdated": "2025-08-01T20:49:47.890Z"
   }
 }

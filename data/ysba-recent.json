@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-08-01T20:23:18.699Z",
+  "lastUpdated": "2025-08-01T20:49:47.890Z",
   "totalGames": 190,
   "games": [
     {
@@ -649,8 +649,12 @@
       "awayTeam": "Georgina Bulldogs 8U B",
       "awayTeamCode": "511060",
       "location": "Bethesda D3",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 12,
+        "away": 8,
+        "scoreText": "8-12"
+      },
       "division": "8U",
       "tier": "rep-tier-3"
     },
