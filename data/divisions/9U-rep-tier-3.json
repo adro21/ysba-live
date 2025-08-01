@@ -128,7 +128,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-08-01T17:45:28.270Z",
+    "lastUpdated": "2025-08-01T18:22:17.537Z",
     "totalTeams": 7
   },
   "schedule": {
@@ -221,7 +221,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-01T17:45:30.947Z"
+        "lastUpdated": "2025-08-01T18:22:20.181Z"
       },
       "511062": {
         "teamCode": "511062",
@@ -336,7 +336,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-01T17:45:30.947Z"
+        "lastUpdated": "2025-08-01T18:22:20.181Z"
       },
       "511063": {
         "teamCode": "511063",
@@ -422,30 +422,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-01T17:45:30.947Z"
+        "lastUpdated": "2025-08-01T18:22:20.181Z"
       },
       "511064": {
         "teamCode": "511064",
         "totalGames": 16,
-        "playedGames": 15,
-        "upcomingGames": 1,
+        "playedGames": 16,
+        "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": "2025-07-05T11:30:00.000Z",
-            "dateText": "Sat, Jul 5",
-            "time": "11:30 AM",
-            "homeTeam": "Orillia Royals 9U A",
-            "homeTeamCode": "511064",
-            "awayTeam": "Orangeville Bengals 9U A",
-            "awayTeamCode": "511063",
-            "location": "Kitchener Park",
-            "isCompleted": true,
-            "score": {
-              "home": 16,
-              "away": 1,
-              "scoreText": "1-16"
-            }
-          },
           {
             "date": "2025-07-10T18:00:00.000Z",
             "dateText": "Thu, Jul 10",
@@ -509,9 +493,7 @@
               "away": 7,
               "scoreText": "7-10"
             }
-          }
-        ],
-        "nextGames": [
+          },
           {
             "date": "2025-08-01T18:00:00.000Z",
             "dateText": "Fri, Aug 1",
@@ -525,7 +507,8 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-01T17:45:30.947Z"
+        "nextGames": [],
+        "lastUpdated": "2025-08-01T18:22:20.181Z"
       },
       "511065": {
         "teamCode": "511065",
@@ -636,30 +619,14 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-01T17:45:30.947Z"
+        "lastUpdated": "2025-08-01T18:22:20.181Z"
       },
       "516247": {
         "teamCode": "516247",
         "totalGames": 16,
-        "playedGames": 13,
-        "upcomingGames": 3,
+        "playedGames": 14,
+        "upcomingGames": 2,
         "recentGames": [
-          {
-            "date": "2025-07-05T14:00:00.000Z",
-            "dateText": "Sat, Jul 5",
-            "time": "2:00 PM",
-            "homeTeam": "Markham Mariners 9U A",
-            "homeTeamCode": "511061",
-            "awayTeam": "Muskoka Hornets 9U A",
-            "awayTeamCode": "516247",
-            "location": "Wharf Field",
-            "isCompleted": true,
-            "score": {
-              "home": 14,
-              "away": 7,
-              "scoreText": "7-14"
-            }
-          },
           {
             "date": "2025-07-12T11:00:00.000Z",
             "dateText": "Sat, Jul 12",
@@ -723,9 +690,7 @@
               "away": 23,
               "scoreText": "23-14"
             }
-          }
-        ],
-        "nextGames": [
+          },
           {
             "date": "2025-08-01T18:00:00.000Z",
             "dateText": "Fri, Aug 1",
@@ -737,7 +702,9 @@
             "location": "Dean Heliotis Diamond",
             "isCompleted": false,
             "score": null
-          },
+          }
+        ],
+        "nextGames": [
           {
             "date": "2025-08-02T11:00:00.000Z",
             "dateText": "Sat, Aug 2",
@@ -763,7 +730,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-01T17:45:30.947Z"
+        "lastUpdated": "2025-08-01T18:22:20.181Z"
       },
       "518948": {
         "teamCode": "518948",
@@ -878,7 +845,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-01T17:45:30.947Z"
+        "lastUpdated": "2025-08-01T18:22:20.181Z"
       }
     },
     "allGames": [
@@ -1757,6 +1724,18 @@
     ],
     "recentGames": [
       {
+        "date": "2025-08-01T18:00:00.000Z",
+        "dateText": "Fri, Aug 1",
+        "time": "6:00 PM",
+        "homeTeam": "Orillia Royals 9U A",
+        "homeTeamCode": "511064",
+        "awayTeam": "Muskoka Hornets 9U A",
+        "awayTeamCode": "516247",
+        "location": "Dean Heliotis Diamond",
+        "isCompleted": false,
+        "score": null
+      },
+      {
         "date": "2025-07-31T18:00:00.000Z",
         "dateText": "Thu, Jul 31",
         "time": "6:00 PM",
@@ -1895,37 +1874,9 @@
           "away": 23,
           "scoreText": "23-14"
         }
-      },
-      {
-        "date": "2025-07-19T13:30:00.000Z",
-        "dateText": "Sat, Jul 19",
-        "time": "1:30 PM",
-        "homeTeam": "Newmarket Hawks 9U A",
-        "homeTeamCode": "511062",
-        "awayTeam": "Muskoka Hornets 9U A",
-        "awayTeamCode": "516247",
-        "location": "Fairgrounds #2",
-        "isCompleted": true,
-        "score": {
-          "home": 23,
-          "away": 20,
-          "scoreText": "20-23"
-        }
       }
     ],
     "upcomingGames": [
-      {
-        "date": "2025-08-01T18:00:00.000Z",
-        "dateText": "Fri, Aug 1",
-        "time": "6:00 PM",
-        "homeTeam": "Orillia Royals 9U A",
-        "homeTeamCode": "511064",
-        "awayTeam": "Muskoka Hornets 9U A",
-        "awayTeamCode": "516247",
-        "location": "Dean Heliotis Diamond",
-        "isCompleted": false,
-        "score": null
-      },
       {
         "date": "2025-08-02T11:00:00.000Z",
         "dateText": "Sat, Aug 2",
@@ -1975,7 +1926,7 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-08-01T17:45:30.947Z",
+    "lastUpdated": "2025-08-01T18:22:20.181Z",
     "totalGames": 56
   },
   "summary": {
@@ -1999,6 +1950,6 @@
       "date": "Sat, Jul 19",
       "location": "Fairgrounds #2"
     },
-    "lastUpdated": "2025-08-01T17:51:01.129Z"
+    "lastUpdated": "2025-08-01T18:27:51.909Z"
   }
 }
