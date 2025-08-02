@@ -60,17 +60,17 @@
         "team": "Vaughan Vikings 9U A",
         "teamCode": "518948",
         "record": {
-          "gamesPlayed": 14,
-          "wins": 5,
+          "gamesPlayed": 16,
+          "wins": 7,
           "losses": 8,
           "ties": 1,
-          "winPercentage": "0.393"
+          "winPercentage": "0.469"
         },
         "stats": {
-          "points": 11,
-          "runsFor": 177,
-          "runsAgainst": 206,
-          "runDifferential": -29
+          "points": 15,
+          "runsFor": 203,
+          "runsAgainst": 219,
+          "runDifferential": -16
         }
       },
       {
@@ -78,17 +78,17 @@
         "team": "Muskoka Hornets 9U A",
         "teamCode": "516247",
         "record": {
-          "gamesPlayed": 13,
+          "gamesPlayed": 15,
           "wins": 4,
-          "losses": 9,
+          "losses": 11,
           "ties": 0,
-          "winPercentage": "0.308"
+          "winPercentage": "0.267"
         },
         "stats": {
           "points": 8,
-          "runsFor": 147,
-          "runsAgainst": 157,
-          "runDifferential": -10
+          "runsFor": 160,
+          "runsAgainst": 183,
+          "runDifferential": -23
         }
       },
       {
@@ -128,7 +128,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-08-02T20:16:08.616Z",
+    "lastUpdated": "2025-08-02T20:42:18.934Z",
     "totalTeams": 7
   },
   "schedule": {
@@ -221,7 +221,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-02T20:16:11.384Z"
+        "lastUpdated": "2025-08-02T20:42:21.880Z"
       },
       "511062": {
         "teamCode": "511062",
@@ -336,7 +336,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-02T20:16:11.385Z"
+        "lastUpdated": "2025-08-02T20:42:21.880Z"
       },
       "511063": {
         "teamCode": "511063",
@@ -422,7 +422,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-02T20:16:11.385Z"
+        "lastUpdated": "2025-08-02T20:42:21.880Z"
       },
       "511064": {
         "teamCode": "511064",
@@ -508,7 +508,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-02T20:16:11.385Z"
+        "lastUpdated": "2025-08-02T20:42:21.880Z"
       },
       "511065": {
         "teamCode": "511065",
@@ -619,7 +619,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-02T20:16:11.385Z"
+        "lastUpdated": "2025-08-02T20:42:21.880Z"
       },
       "516247": {
         "teamCode": "516247",
@@ -680,8 +680,12 @@
             "awayTeam": "Muskoka Hornets 9U A",
             "awayTeamCode": "516247",
             "location": "Concord Regional #4",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 7,
+              "scoreText": "7-8"
+            }
           },
           {
             "date": "2025-08-02T14:00:00.000Z",
@@ -692,12 +696,16 @@
             "awayTeam": "Vaughan Vikings 9U A",
             "awayTeamCode": "518948",
             "location": "Concord Regional #4",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 18,
+              "scoreText": "18-6"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-02T20:16:11.385Z"
+        "lastUpdated": "2025-08-02T20:42:21.880Z"
       },
       "518948": {
         "teamCode": "518948",
@@ -762,8 +770,12 @@
             "awayTeam": "Muskoka Hornets 9U A",
             "awayTeamCode": "516247",
             "location": "Concord Regional #4",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 7,
+              "scoreText": "7-8"
+            }
           },
           {
             "date": "2025-08-02T14:00:00.000Z",
@@ -774,12 +786,16 @@
             "awayTeam": "Vaughan Vikings 9U A",
             "awayTeamCode": "518948",
             "location": "Concord Regional #4",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 18,
+              "scoreText": "18-6"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-02T20:16:11.385Z"
+        "lastUpdated": "2025-08-02T20:42:21.880Z"
       }
     },
     "allGames": [
@@ -1616,8 +1632,12 @@
         "awayTeam": "Muskoka Hornets 9U A",
         "awayTeamCode": "516247",
         "location": "Concord Regional #4",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 7,
+          "scoreText": "7-8"
+        }
       },
       {
         "date": "2025-08-02T14:00:00.000Z",
@@ -1628,8 +1648,12 @@
         "awayTeam": "Vaughan Vikings 9U A",
         "awayTeamCode": "518948",
         "location": "Concord Regional #4",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 18,
+          "scoreText": "18-6"
+        }
       },
       {
         "date": "2025-08-03T15:00:00.000Z",
@@ -1666,8 +1690,12 @@
         "awayTeam": "Vaughan Vikings 9U A",
         "awayTeamCode": "518948",
         "location": "Concord Regional #4",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 18,
+          "scoreText": "18-6"
+        }
       },
       {
         "date": "2025-08-02T11:00:00.000Z",
@@ -1678,8 +1706,12 @@
         "awayTeam": "Muskoka Hornets 9U A",
         "awayTeamCode": "516247",
         "location": "Concord Regional #4",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 7,
+          "scoreText": "7-8"
+        }
       },
       {
         "date": "2025-08-01T18:00:00.000Z",
@@ -1828,14 +1860,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-08-02T20:16:11.385Z",
+    "lastUpdated": "2025-08-02T20:42:21.880Z",
     "totalGames": 56
   },
   "summary": {
     "totalTeams": 7,
     "totalGames": 56,
-    "completedGames": 50,
-    "upcomingGames": 6,
+    "completedGames": 52,
+    "upcomingGames": 4,
     "topTeam": {
       "team": "Markham Mariners 9U A",
       "teamCode": "511061",
@@ -1852,6 +1884,6 @@
       "date": "Sat, Jul 19",
       "location": "Fairgrounds #2"
     },
-    "lastUpdated": "2025-08-02T20:21:56.994Z"
+    "lastUpdated": "2025-08-02T20:48:17.580Z"
   }
 }
