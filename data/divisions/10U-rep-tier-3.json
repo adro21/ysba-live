@@ -2,7 +2,7 @@
   "standings": {
     "teams": [
       {
-        "position": 3,
+        "position": 4,
         "team": "Thornhill Reds 10U A",
         "teamCode": "510880",
         "record": {
@@ -38,21 +38,21 @@
         }
       },
       {
-        "position": 6,
+        "position": 3,
         "team": "Orillia Royals 10U A",
         "teamCode": "510878",
         "record": {
-          "gamesPlayed": 16,
-          "wins": 11,
+          "gamesPlayed": 17,
+          "wins": 12,
           "losses": 4,
           "ties": 1,
-          "winPercentage": "0.719"
+          "winPercentage": "0.735"
         },
         "stats": {
-          "points": 23,
-          "runsFor": 157,
-          "runsAgainst": 113,
-          "runDifferential": 44
+          "points": 25,
+          "runsFor": 168,
+          "runsAgainst": 121,
+          "runDifferential": 47
         }
       },
       {
@@ -74,7 +74,7 @@
         }
       },
       {
-        "position": 4,
+        "position": 5,
         "team": "Markham Mariners 10U A",
         "teamCode": "510875",
         "record": {
@@ -110,7 +110,7 @@
         }
       },
       {
-        "position": 5,
+        "position": 6,
         "team": "Barrie Baycats 10U A",
         "teamCode": "510870",
         "record": {
@@ -186,17 +186,17 @@
         "team": "Bradford Tigers 10U A",
         "teamCode": "510871",
         "record": {
-          "gamesPlayed": 17,
+          "gamesPlayed": 18,
           "wins": 4,
-          "losses": 13,
+          "losses": 14,
           "ties": 0,
-          "winPercentage": "0.235"
+          "winPercentage": "0.222"
         },
         "stats": {
           "points": 8,
-          "runsFor": 134,
-          "runsAgainst": 241,
-          "runDifferential": -107
+          "runsFor": 142,
+          "runsAgainst": 252,
+          "runDifferential": -110
         }
       },
       {
@@ -254,7 +254,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-08-02T01:13:39.003Z",
+    "lastUpdated": "2025-08-02T03:10:35.657Z",
     "totalTeams": 14
   },
   "schedule": {
@@ -339,7 +339,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-02T01:13:43.146Z"
+        "lastUpdated": "2025-08-02T03:10:40.286Z"
       },
       "510870": {
         "teamCode": "510870",
@@ -429,7 +429,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-02T01:13:43.146Z"
+        "lastUpdated": "2025-08-02T03:10:40.286Z"
       },
       "510871": {
         "teamCode": "510871",
@@ -506,12 +506,16 @@
             "awayTeam": "Bradford Tigers 10U A",
             "awayTeamCode": "510871",
             "location": "YEO Diamond",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 8,
+              "scoreText": "8-11"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-02T01:13:43.146Z"
+        "lastUpdated": "2025-08-02T03:10:40.286Z"
       },
       "510872": {
         "teamCode": "510872",
@@ -597,7 +601,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-02T01:13:43.146Z"
+        "lastUpdated": "2025-08-02T03:10:40.286Z"
       },
       "510873": {
         "teamCode": "510873",
@@ -687,7 +691,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-02T01:13:43.146Z"
+        "lastUpdated": "2025-08-02T03:10:40.286Z"
       },
       "510874": {
         "teamCode": "510874",
@@ -777,7 +781,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-02T01:13:43.146Z"
+        "lastUpdated": "2025-08-02T03:10:40.286Z"
       },
       "510875": {
         "teamCode": "510875",
@@ -863,7 +867,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-02T01:13:43.146Z"
+        "lastUpdated": "2025-08-02T03:10:40.286Z"
       },
       "510876": {
         "teamCode": "510876",
@@ -949,7 +953,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-02T01:13:43.146Z"
+        "lastUpdated": "2025-08-02T03:10:40.286Z"
       },
       "510877": {
         "teamCode": "510877",
@@ -1039,7 +1043,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-02T01:13:43.146Z"
+        "lastUpdated": "2025-08-02T03:10:40.286Z"
       },
       "510878": {
         "teamCode": "510878",
@@ -1120,12 +1124,16 @@
             "awayTeam": "Bradford Tigers 10U A",
             "awayTeamCode": "510871",
             "location": "YEO Diamond",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 8,
+              "scoreText": "8-11"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-02T01:13:43.146Z"
+        "lastUpdated": "2025-08-02T03:10:40.286Z"
       },
       "510879": {
         "teamCode": "510879",
@@ -1203,7 +1211,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-02T01:13:43.146Z"
+        "lastUpdated": "2025-08-02T03:10:40.286Z"
       },
       "510880": {
         "teamCode": "510880",
@@ -1289,7 +1297,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-02T01:13:43.146Z"
+        "lastUpdated": "2025-08-02T03:10:40.286Z"
       },
       "510881": {
         "teamCode": "510881",
@@ -1392,7 +1400,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-02T01:13:43.146Z"
+        "lastUpdated": "2025-08-02T03:10:40.286Z"
       },
       "510882": {
         "teamCode": "510882",
@@ -1495,7 +1503,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-02T01:13:43.146Z"
+        "lastUpdated": "2025-08-02T03:10:40.286Z"
       },
       "510883": {
         "teamCode": "510883",
@@ -1622,7 +1630,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-02T01:13:43.146Z"
+        "lastUpdated": "2025-08-02T03:10:40.286Z"
       },
       "510884": {
         "teamCode": "510884",
@@ -1725,7 +1733,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-02T01:13:43.147Z"
+        "lastUpdated": "2025-08-02T03:10:40.286Z"
       },
       "510885": {
         "teamCode": "510885",
@@ -1840,7 +1848,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-02T01:13:43.147Z"
+        "lastUpdated": "2025-08-02T03:10:40.286Z"
       },
       "510889": {
         "teamCode": "510889",
@@ -1930,7 +1938,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-02T01:13:43.147Z"
+        "lastUpdated": "2025-08-02T03:10:40.286Z"
       },
       "510890": {
         "teamCode": "510890",
@@ -2020,7 +2028,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-02T01:13:43.147Z"
+        "lastUpdated": "2025-08-02T03:10:40.286Z"
       },
       "518949": {
         "teamCode": "518949",
@@ -2135,7 +2143,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-02T01:13:43.147Z"
+        "lastUpdated": "2025-08-02T03:10:40.286Z"
       }
     },
     "allGames": [
@@ -5100,8 +5108,12 @@
         "awayTeam": "Bradford Tigers 10U A",
         "awayTeamCode": "510871",
         "location": "YEO Diamond",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 8,
+          "scoreText": "8-11"
+        }
       },
       {
         "date": "2025-08-04T18:30:00.000Z",
@@ -5174,8 +5186,12 @@
         "awayTeam": "Bradford Tigers 10U A",
         "awayTeamCode": "510871",
         "location": "YEO Diamond",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 8,
+          "scoreText": "8-11"
+        }
       },
       {
         "date": "2025-08-01T18:00:00.000Z",
@@ -5376,14 +5392,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-08-02T01:13:43.147Z",
+    "lastUpdated": "2025-08-02T03:10:40.286Z",
     "totalGames": 193
   },
   "summary": {
     "totalTeams": 14,
     "totalGames": 193,
-    "completedGames": 177,
-    "upcomingGames": 16,
+    "completedGames": 178,
+    "upcomingGames": 15,
     "topTeam": {
       "team": "Thornhill Reds 10U A",
       "teamCode": "510880",
@@ -5400,6 +5416,6 @@
       "date": "Sun, May 25",
       "location": "West Park Diamond 1"
     },
-    "lastUpdated": "2025-08-02T01:18:41.227Z"
+    "lastUpdated": "2025-08-02T03:15:58.335Z"
   }
 }
