@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-08-02T23:21:27.478Z",
+  "lastUpdated": "2025-08-02T23:48:58.435Z",
   "totalGames": 190,
   "games": [
     {
@@ -165,8 +165,12 @@
       "awayTeam": "Markham Mariners 9U DS",
       "awayTeamCode": "511111",
       "location": "Maple Community Centre",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 11,
+        "away": 19,
+        "scoreText": "19-11"
+      },
       "division": "9U",
       "tier": "select-all-tiers"
     },
