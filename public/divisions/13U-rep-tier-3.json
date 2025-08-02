@@ -2,25 +2,25 @@
   "standings": {
     "teams": [
       {
-        "position": 2,
+        "position": 1,
         "team": "Mansfield Cubs 13U A",
         "teamCode": "510942",
         "record": {
-          "gamesPlayed": 13,
-          "wins": 12,
+          "gamesPlayed": 16,
+          "wins": 15,
           "losses": 1,
           "ties": 0,
-          "winPercentage": "0.923"
+          "winPercentage": "0.938"
         },
         "stats": {
-          "points": 24,
-          "runsFor": 236,
-          "runsAgainst": 53,
-          "runDifferential": 183
+          "points": 30,
+          "runsFor": 283,
+          "runsAgainst": 55,
+          "runDifferential": 228
         }
       },
       {
-        "position": 1,
+        "position": 2,
         "team": "Richmond Hill Phoenix 13U A",
         "teamCode": "510945",
         "record": {
@@ -96,17 +96,17 @@
         "team": "Vaughan Vikings 13U A",
         "teamCode": "518954",
         "record": {
-          "gamesPlayed": 14,
+          "gamesPlayed": 15,
           "wins": 5,
-          "losses": 8,
+          "losses": 9,
           "ties": 1,
-          "winPercentage": "0.393"
+          "winPercentage": "0.367"
         },
         "stats": {
           "points": 11,
           "runsFor": 137,
-          "runsAgainst": 151,
-          "runDifferential": -14
+          "runsAgainst": 169,
+          "runDifferential": -32
         }
       },
       {
@@ -114,17 +114,17 @@
         "team": "Midland Penetang Twins 13U B",
         "teamCode": "510957",
         "record": {
-          "gamesPlayed": 14,
+          "gamesPlayed": 16,
           "wins": 3,
-          "losses": 11,
+          "losses": 13,
           "ties": 0,
-          "winPercentage": "0.214"
+          "winPercentage": "0.188"
         },
         "stats": {
           "points": 6,
-          "runsFor": 109,
-          "runsAgainst": 142,
-          "runDifferential": -33
+          "runsFor": 111,
+          "runsAgainst": 171,
+          "runDifferential": -60
         }
       },
       {
@@ -164,7 +164,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-08-02T16:19:57.688Z",
+    "lastUpdated": "2025-08-02T16:50:59.658Z",
     "totalTeams": 9
   },
   "schedule": {
@@ -278,7 +278,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-02T16:20:01.808Z"
+        "lastUpdated": "2025-08-02T16:51:03.972Z"
       },
       "510941": {
         "teamCode": "510941",
@@ -389,7 +389,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-02T16:20:01.808Z"
+        "lastUpdated": "2025-08-02T16:51:03.972Z"
       },
       "510942": {
         "teamCode": "510942",
@@ -438,8 +438,12 @@
             "awayTeam": "Mansfield Cubs 13U A",
             "awayTeamCode": "510942",
             "location": "Mansfield",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 1,
+              "away": 17,
+              "scoreText": "17-1"
+            }
           },
           {
             "date": "2025-07-27T12:30:00.000Z",
@@ -450,8 +454,12 @@
             "awayTeam": "Midland Penetang Twins 13U B",
             "awayTeamCode": "510957",
             "location": "MANSFIELD",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 1,
+              "scoreText": "1-12"
+            }
           },
           {
             "date": "2025-07-28T18:30:00.000Z",
@@ -462,12 +470,16 @@
             "awayTeam": "Vaughan Vikings 13U A",
             "awayTeamCode": "518954",
             "location": "MANSFIELD",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 18,
+              "away": 0,
+              "scoreText": "0-18"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-02T16:20:01.808Z"
+        "lastUpdated": "2025-08-02T16:51:03.972Z"
       },
       "510943": {
         "teamCode": "510943",
@@ -594,7 +606,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-02T16:20:01.808Z"
+        "lastUpdated": "2025-08-02T16:51:03.972Z"
       },
       "510944": {
         "teamCode": "510944",
@@ -684,7 +696,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-02T16:20:01.808Z"
+        "lastUpdated": "2025-08-02T16:51:03.972Z"
       },
       "510945": {
         "teamCode": "510945",
@@ -774,7 +786,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-02T16:20:01.808Z"
+        "lastUpdated": "2025-08-02T16:51:03.972Z"
       },
       "510946": {
         "teamCode": "510946",
@@ -869,7 +881,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-02T16:20:01.809Z"
+        "lastUpdated": "2025-08-02T16:51:03.972Z"
       },
       "510947": {
         "teamCode": "510947",
@@ -976,7 +988,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-02T16:20:01.809Z"
+        "lastUpdated": "2025-08-02T16:51:03.972Z"
       },
       "510948": {
         "teamCode": "510948",
@@ -1087,7 +1099,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-02T16:20:01.809Z"
+        "lastUpdated": "2025-08-02T16:51:03.972Z"
       },
       "510949": {
         "teamCode": "510949",
@@ -1190,7 +1202,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-02T16:20:01.809Z"
+        "lastUpdated": "2025-08-02T16:51:03.972Z"
       },
       "510950": {
         "teamCode": "510950",
@@ -1285,7 +1297,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-02T16:20:01.809Z"
+        "lastUpdated": "2025-08-02T16:51:03.972Z"
       },
       "510951": {
         "teamCode": "510951",
@@ -1400,7 +1412,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-02T16:20:01.809Z"
+        "lastUpdated": "2025-08-02T16:51:03.972Z"
       },
       "510952": {
         "teamCode": "510952",
@@ -1523,7 +1535,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-02T16:20:01.809Z"
+        "lastUpdated": "2025-08-02T16:51:03.972Z"
       },
       "510953": {
         "teamCode": "510953",
@@ -1610,7 +1622,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-02T16:20:01.809Z"
+        "lastUpdated": "2025-08-02T16:51:03.972Z"
       },
       "510957": {
         "teamCode": "510957",
@@ -1675,8 +1687,12 @@
             "awayTeam": "Mansfield Cubs 13U A",
             "awayTeamCode": "510942",
             "location": "Mansfield",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 1,
+              "away": 17,
+              "scoreText": "17-1"
+            }
           },
           {
             "date": "2025-07-27T12:30:00.000Z",
@@ -1687,12 +1703,16 @@
             "awayTeam": "Midland Penetang Twins 13U B",
             "awayTeamCode": "510957",
             "location": "MANSFIELD",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 1,
+              "scoreText": "1-12"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-02T16:20:01.809Z"
+        "lastUpdated": "2025-08-02T16:51:03.972Z"
       },
       "516242": {
         "teamCode": "516242",
@@ -1831,7 +1851,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-02T16:20:01.809Z"
+        "lastUpdated": "2025-08-02T16:51:03.972Z"
       },
       "518954": {
         "teamCode": "518954",
@@ -1896,8 +1916,12 @@
             "awayTeam": "Vaughan Vikings 13U A",
             "awayTeamCode": "518954",
             "location": "MANSFIELD",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 18,
+              "away": 0,
+              "scoreText": "0-18"
+            }
           },
           {
             "date": "2025-07-29T18:30:00.000Z",
@@ -1930,7 +1954,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-02T16:20:01.809Z"
+        "lastUpdated": "2025-08-02T16:51:03.972Z"
       }
     },
     "allGames": [
@@ -3875,8 +3899,12 @@
         "awayTeam": "Mansfield Cubs 13U A",
         "awayTeamCode": "510942",
         "location": "Mansfield",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 1,
+          "away": 17,
+          "scoreText": "17-1"
+        }
       },
       {
         "date": "2025-07-27T12:30:00.000Z",
@@ -3887,8 +3915,12 @@
         "awayTeam": "Midland Penetang Twins 13U B",
         "awayTeamCode": "510957",
         "location": "MANSFIELD",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 1,
+          "scoreText": "1-12"
+        }
       },
       {
         "date": "2025-07-27T13:00:00.000Z",
@@ -3971,8 +4003,12 @@
         "awayTeam": "Vaughan Vikings 13U A",
         "awayTeamCode": "518954",
         "location": "MANSFIELD",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 18,
+          "away": 0,
+          "scoreText": "0-18"
+        }
       },
       {
         "date": "2025-07-28T20:00:00.000Z",
@@ -4511,20 +4547,20 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-08-02T16:20:01.809Z",
+    "lastUpdated": "2025-08-02T16:51:03.972Z",
     "totalGames": 152
   },
   "summary": {
     "totalTeams": 9,
     "totalGames": 152,
-    "completedGames": 123,
-    "upcomingGames": 29,
+    "completedGames": 126,
+    "upcomingGames": 26,
     "topTeam": {
       "team": "Mansfield Cubs 13U A",
       "teamCode": "510942",
-      "wins": 12,
+      "wins": 15,
       "losses": 1,
-      "winPercentage": "0.923"
+      "winPercentage": "0.938"
     },
     "highestScoringGame": {
       "homeTeam": "Orangeville Bengals 13U A",
@@ -4535,6 +4571,6 @@
       "date": "Mon, Jul 28",
       "location": "???"
     },
-    "lastUpdated": "2025-08-02T16:23:22.509Z"
+    "lastUpdated": "2025-08-02T16:54:28.860Z"
   }
 }
