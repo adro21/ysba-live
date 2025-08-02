@@ -1,7 +1,63 @@
 {
-  "lastUpdated": "2025-08-02T11:43:40.748Z",
+  "lastUpdated": "2025-08-02T12:35:03.460Z",
   "totalGames": 190,
   "games": [
+    {
+      "date": "2025-08-02T12:15:00.000Z",
+      "dateText": "Sat, Aug 2",
+      "time": "12:15 PM",
+      "homeTeam": "TNT Thunder 11U DS",
+      "homeTeamCode": "518974",
+      "awayTeam": "Richmond Hill Phoenix 11U DS",
+      "awayTeamCode": "511081",
+      "location": "Tottenham Community Centre",
+      "isCompleted": false,
+      "score": null,
+      "division": "11U",
+      "tier": "select-all-tiers"
+    },
+    {
+      "date": "2025-08-02T12:15:00.000Z",
+      "dateText": "Sat, Aug 2",
+      "time": "12:15 PM",
+      "homeTeam": "Bradford Tigers 11U DS",
+      "homeTeamCode": "511076",
+      "awayTeam": "Innisfil Cardinals 11U DS",
+      "awayTeamCode": "511077",
+      "location": "Joe Magani Park Field #3",
+      "isCompleted": false,
+      "score": null,
+      "division": "11U",
+      "tier": "select-all-tiers"
+    },
+    {
+      "date": "2025-08-02T12:00:00.000Z",
+      "dateText": "Sat, Aug 2",
+      "time": "12:00 PM",
+      "homeTeam": "Collingwood Jays 9U DS",
+      "homeTeamCode": "511109",
+      "awayTeam": "Innisfil Cardinals 9U DS",
+      "awayTeamCode": "511110",
+      "location": "Heritage Park Collingwood (Small Diamond)",
+      "isCompleted": false,
+      "score": null,
+      "division": "9U",
+      "tier": "select-all-tiers"
+    },
+    {
+      "date": "2025-08-02T12:00:00.000Z",
+      "dateText": "Sat, Aug 2",
+      "time": "12:00 PM",
+      "homeTeam": "Vaughan Vikings 12U DS",
+      "homeTeamCode": "518969",
+      "awayTeam": "Caledon Nationals 13U HS",
+      "awayTeamCode": "511098",
+      "location": "Vellore (Matthew Park)",
+      "isCompleted": false,
+      "score": null,
+      "division": "13U",
+      "tier": "select-all-tiers"
+    },
     {
       "date": "2025-08-02T11:15:00.000Z",
       "dateText": "Sat, Aug 2",
@@ -201,8 +257,12 @@
       "awayTeam": "Caledon Nationals 15U A",
       "awayTeamCode": "510983",
       "location": "Joe Magani #4",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 14,
+        "away": 11,
+        "scoreText": "11-14"
+      },
       "division": "15U",
       "tier": "rep-tier-2"
     },
@@ -215,8 +275,12 @@
       "awayTeam": "Caledon Nationals 15U A",
       "awayTeamCode": "510983",
       "location": "Joe Magani #4",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 14,
+        "away": 11,
+        "scoreText": "11-14"
+      },
       "division": "15U",
       "tier": "rep-tier-3"
     },
@@ -741,70 +805,6 @@
       },
       "division": "11U",
       "tier": "rep-tier-2"
-    },
-    {
-      "date": "2025-07-31T18:15:00.000Z",
-      "dateText": "Thu, Jul 31",
-      "time": "6:15 PM",
-      "homeTeam": "Georgina Bulldogs 11U B",
-      "homeTeamCode": "510916",
-      "awayTeam": "Innisfil Cardinals 11U A",
-      "awayTeamCode": "510894",
-      "location": "ROC 2",
-      "isCompleted": true,
-      "score": {
-        "home": 7,
-        "away": 6,
-        "scoreText": "6-7"
-      },
-      "division": "11U",
-      "tier": "rep-tier-3"
-    },
-    {
-      "date": "2025-07-31T18:15:00.000Z",
-      "dateText": "Thu, Jul 31",
-      "time": "6:15 PM",
-      "homeTeam": "Markham Mariners 12U A",
-      "homeTeamCode": "510922",
-      "awayTeam": "Georgina Bulldogs 12U B",
-      "awayTeamCode": "510939",
-      "location": "Milliken Mills Diamond 2",
-      "isCompleted": false,
-      "score": null,
-      "division": "12U",
-      "tier": "rep-tier-2"
-    },
-    {
-      "date": "2025-07-31T18:15:00.000Z",
-      "dateText": "Thu, Jul 31",
-      "time": "6:15 PM",
-      "homeTeam": "Markham Mariners 12U A",
-      "homeTeamCode": "510922",
-      "awayTeam": "Georgina Bulldogs 12U B",
-      "awayTeamCode": "510939",
-      "location": "Milliken Mills Diamond 2",
-      "isCompleted": false,
-      "score": null,
-      "division": "12U",
-      "tier": "rep-tier-3"
-    },
-    {
-      "date": "2025-07-31T18:00:00.000Z",
-      "dateText": "Thu, Jul 31",
-      "time": "6:00 PM",
-      "homeTeam": "Orangeville Bengals 8U B",
-      "homeTeamCode": "511052",
-      "awayTeam": "Aurora-King Jays 8U A",
-      "awayTeamCode": "511050",
-      "location": "Caledon Fairgrounds",
-      "isCompleted": true,
-      "score": {
-        "home": 24,
-        "away": 10,
-        "scoreText": "10-24"
-      },
-      "division": "8U",
-      "tier": "rep-tier-3"
     }
   ]
 }
