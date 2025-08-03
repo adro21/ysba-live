@@ -93,6 +93,24 @@
       },
       {
         "position": 6,
+        "team": "Thornhill Reds 9U DS",
+        "teamCode": "511114",
+        "record": {
+          "gamesPlayed": 16,
+          "wins": 9,
+          "losses": 7,
+          "ties": 0,
+          "winPercentage": "0.563"
+        },
+        "stats": {
+          "points": 18,
+          "runsFor": 263,
+          "runsAgainst": 167,
+          "runDifferential": 96
+        }
+      },
+      {
+        "position": 7,
         "team": "Newmarket Hawks 9U DS",
         "teamCode": "511112",
         "record": {
@@ -110,25 +128,7 @@
         }
       },
       {
-        "position": 10,
-        "team": "Thornhill Reds 9U DS",
-        "teamCode": "511114",
-        "record": {
-          "gamesPlayed": 14,
-          "wins": 7,
-          "losses": 7,
-          "ties": 0,
-          "winPercentage": "0.500"
-        },
-        "stats": {
-          "points": 14,
-          "runsFor": 222,
-          "runsAgainst": 152,
-          "runDifferential": 70
-        }
-      },
-      {
-        "position": 7,
+        "position": 8,
         "team": "Collingwood Jays 9U DS",
         "teamCode": "511109",
         "record": {
@@ -146,7 +146,7 @@
         }
       },
       {
-        "position": 8,
+        "position": 9,
         "team": "Caledon Nationals 9U HS",
         "teamCode": "511116",
         "record": {
@@ -164,7 +164,7 @@
         }
       },
       {
-        "position": 9,
+        "position": 10,
         "team": "TNT Thunder 9U DS",
         "teamCode": "511115",
         "record": {
@@ -222,17 +222,17 @@
         "team": "Bradford Tigers 9U DS",
         "teamCode": "511108",
         "record": {
-          "gamesPlayed": 14,
+          "gamesPlayed": 16,
           "wins": 1,
-          "losses": 12,
+          "losses": 14,
           "ties": 1,
-          "winPercentage": "0.107"
+          "winPercentage": "0.094"
         },
         "stats": {
           "points": 3,
-          "runsFor": 140,
-          "runsAgainst": 287,
-          "runDifferential": -147
+          "runsFor": 155,
+          "runsAgainst": 328,
+          "runDifferential": -173
         }
       },
       {
@@ -254,7 +254,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-08-03T21:19:52.238Z",
+    "lastUpdated": "2025-08-03T21:45:08.579Z",
     "totalTeams": 14
   },
   "schedule": {
@@ -347,7 +347,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-03T21:19:56.598Z"
+        "lastUpdated": "2025-08-03T21:45:12.928Z"
       },
       "511106": {
         "teamCode": "511106",
@@ -437,7 +437,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-03T21:19:56.598Z"
+        "lastUpdated": "2025-08-03T21:45:12.928Z"
       },
       "511107": {
         "teamCode": "511107",
@@ -527,7 +527,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-03T21:19:56.598Z"
+        "lastUpdated": "2025-08-03T21:45:12.928Z"
       },
       "511108": {
         "teamCode": "511108",
@@ -592,8 +592,12 @@
             "awayTeam": "Bradford Tigers 9U DS",
             "awayTeamCode": "511108",
             "location": "Thornhill Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 19,
+              "away": 5,
+              "scoreText": "5-19"
+            }
           },
           {
             "date": "2025-08-03T14:00:00.000Z",
@@ -604,12 +608,16 @@
             "awayTeam": "Bradford Tigers 9U DS",
             "awayTeamCode": "511108",
             "location": "Thornhill Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 22,
+              "away": 10,
+              "scoreText": "10-22"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-03T21:19:56.598Z"
+        "lastUpdated": "2025-08-03T21:45:12.928Z"
       },
       "511109": {
         "teamCode": "511109",
@@ -699,7 +707,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-03T21:19:56.598Z"
+        "lastUpdated": "2025-08-03T21:45:12.928Z"
       },
       "511110": {
         "teamCode": "511110",
@@ -789,7 +797,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-03T21:19:56.598Z"
+        "lastUpdated": "2025-08-03T21:45:12.928Z"
       },
       "511111": {
         "teamCode": "511111",
@@ -879,7 +887,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-03T21:19:56.598Z"
+        "lastUpdated": "2025-08-03T21:45:12.928Z"
       },
       "511112": {
         "teamCode": "511112",
@@ -969,7 +977,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-03T21:19:56.598Z"
+        "lastUpdated": "2025-08-03T21:45:12.928Z"
       },
       "511113": {
         "teamCode": "511113",
@@ -1059,7 +1067,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-03T21:19:56.598Z"
+        "lastUpdated": "2025-08-03T21:45:12.928Z"
       },
       "511114": {
         "teamCode": "511114",
@@ -1124,8 +1132,12 @@
             "awayTeam": "Bradford Tigers 9U DS",
             "awayTeamCode": "511108",
             "location": "Thornhill Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 19,
+              "away": 5,
+              "scoreText": "5-19"
+            }
           },
           {
             "date": "2025-08-03T14:00:00.000Z",
@@ -1136,12 +1148,16 @@
             "awayTeam": "Bradford Tigers 9U DS",
             "awayTeamCode": "511108",
             "location": "Thornhill Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 22,
+              "away": 10,
+              "scoreText": "10-22"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-03T21:19:56.598Z"
+        "lastUpdated": "2025-08-03T21:45:12.928Z"
       },
       "511115": {
         "teamCode": "511115",
@@ -1231,7 +1247,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-03T21:19:56.598Z"
+        "lastUpdated": "2025-08-03T21:45:12.928Z"
       },
       "511116": {
         "teamCode": "511116",
@@ -1321,7 +1337,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-03T21:19:56.598Z"
+        "lastUpdated": "2025-08-03T21:45:12.928Z"
       },
       "518965": {
         "teamCode": "518965",
@@ -1411,7 +1427,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-03T21:19:56.598Z"
+        "lastUpdated": "2025-08-03T21:45:12.928Z"
       },
       "518966": {
         "teamCode": "518966",
@@ -1501,7 +1517,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-03T21:19:56.598Z"
+        "lastUpdated": "2025-08-03T21:45:12.928Z"
       }
     },
     "allGames": [
@@ -3274,8 +3290,12 @@
         "awayTeam": "Bradford Tigers 9U DS",
         "awayTeamCode": "511108",
         "location": "Thornhill Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 19,
+          "away": 5,
+          "scoreText": "5-19"
+        }
       },
       {
         "date": "2025-08-03T14:00:00.000Z",
@@ -3286,8 +3306,12 @@
         "awayTeam": "Bradford Tigers 9U DS",
         "awayTeamCode": "511108",
         "location": "Thornhill Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 22,
+          "away": 10,
+          "scoreText": "10-22"
+        }
       }
     ],
     "recentGames": [
@@ -3300,8 +3324,12 @@
         "awayTeam": "Bradford Tigers 9U DS",
         "awayTeamCode": "511108",
         "location": "Thornhill Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 22,
+          "away": 10,
+          "scoreText": "10-22"
+        }
       },
       {
         "date": "2025-08-03T12:00:00.000Z",
@@ -3312,8 +3340,12 @@
         "awayTeam": "Bradford Tigers 9U DS",
         "awayTeamCode": "511108",
         "location": "Thornhill Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 19,
+          "away": 5,
+          "scoreText": "5-19"
+        }
       },
       {
         "date": "2025-08-02T14:00:00.000Z",
@@ -3445,14 +3477,14 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2025-08-03T21:19:56.598Z",
+    "lastUpdated": "2025-08-03T21:45:12.928Z",
     "totalGames": 112
   },
   "summary": {
     "totalTeams": 14,
     "totalGames": 112,
-    "completedGames": 110,
-    "upcomingGames": 2,
+    "completedGames": 112,
+    "upcomingGames": 0,
     "topTeam": {
       "team": "Midland Penetang Twins 9U DS",
       "teamCode": "511105",
@@ -3469,6 +3501,6 @@
       "date": "Sat, Jul 12",
       "location": "McLean Diamond"
     },
-    "lastUpdated": "2025-08-03T21:20:19.631Z"
+    "lastUpdated": "2025-08-03T21:45:35.727Z"
   }
 }

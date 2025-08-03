@@ -24,17 +24,17 @@
         "team": "Barrie Baycats 15U DS",
         "teamCode": "511524",
         "record": {
-          "gamesPlayed": 11,
+          "gamesPlayed": 12,
           "wins": 7,
-          "losses": 3,
+          "losses": 4,
           "ties": 1,
-          "winPercentage": "0.682"
+          "winPercentage": "0.625"
         },
         "stats": {
           "points": 15,
-          "runsFor": 123,
-          "runsAgainst": 57,
-          "runDifferential": 66
+          "runsFor": 129,
+          "runsAgainst": 71,
+          "runDifferential": 58
         }
       },
       {
@@ -60,17 +60,17 @@
         "team": "Newmarket Hawks 15U DS",
         "teamCode": "511101",
         "record": {
-          "gamesPlayed": 10,
-          "wins": 3,
+          "gamesPlayed": 11,
+          "wins": 4,
           "losses": 6,
           "ties": 1,
-          "winPercentage": "0.350"
+          "winPercentage": "0.409"
         },
         "stats": {
-          "points": 7,
-          "runsFor": 80,
-          "runsAgainst": 98,
-          "runDifferential": -18
+          "points": 9,
+          "runsFor": 94,
+          "runsAgainst": 104,
+          "runDifferential": -10
         }
       },
       {
@@ -128,7 +128,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-08-03T21:20:16.735Z",
+    "lastUpdated": "2025-08-03T21:45:32.927Z",
     "totalTeams": 7
   },
   "schedule": {
@@ -201,7 +201,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-03T21:20:19.625Z"
+        "lastUpdated": "2025-08-03T21:45:35.720Z"
       },
       "511100": {
         "teamCode": "511100",
@@ -291,7 +291,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-03T21:20:19.625Z"
+        "lastUpdated": "2025-08-03T21:45:35.720Z"
       },
       "511101": {
         "teamCode": "511101",
@@ -365,7 +365,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-03T21:20:19.625Z"
+        "lastUpdated": "2025-08-03T21:45:35.720Z"
       },
       "511102": {
         "teamCode": "511102",
@@ -447,7 +447,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-03T21:20:19.625Z"
+        "lastUpdated": "2025-08-03T21:45:35.720Z"
       },
       "511103": {
         "teamCode": "511103",
@@ -529,7 +529,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-03T21:20:19.625Z"
+        "lastUpdated": "2025-08-03T21:45:35.720Z"
       },
       "511104": {
         "teamCode": "511104",
@@ -619,7 +619,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-03T21:20:19.625Z"
+        "lastUpdated": "2025-08-03T21:45:35.720Z"
       },
       "511524": {
         "teamCode": "511524",
@@ -709,7 +709,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-03T21:20:19.625Z"
+        "lastUpdated": "2025-08-03T21:45:35.720Z"
       }
     },
     "allGames": [
@@ -1110,8 +1110,12 @@
         "awayTeam": "Newmarket Hawks 15U DS",
         "awayTeamCode": "511101",
         "location": "TBD",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 14,
+          "scoreText": "14-6"
+        }
       },
       {
         "date": "2025-06-25T20:00:00.000Z",
@@ -1709,14 +1713,14 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2025-08-03T21:20:19.625Z",
+    "lastUpdated": "2025-08-03T21:45:35.720Z",
     "totalGames": 57
   },
   "summary": {
     "totalTeams": 7,
     "totalGames": 57,
-    "completedGames": 39,
-    "upcomingGames": 18,
+    "completedGames": 40,
+    "upcomingGames": 17,
     "topTeam": {
       "team": "Collingwood Jays 15U DS",
       "teamCode": "511100",
@@ -1733,6 +1737,6 @@
       "date": "Sat, Jun 21",
       "location": "Lennox (field b)"
     },
-    "lastUpdated": "2025-08-03T21:20:19.631Z"
+    "lastUpdated": "2025-08-03T21:45:35.727Z"
   }
 }
