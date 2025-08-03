@@ -2,39 +2,39 @@
   "standings": {
     "teams": [
       {
-        "position": 1,
-        "team": "Richmond Hill Phoenix 14U A",
-        "teamCode": "510964",
-        "record": {
-          "gamesPlayed": 16,
-          "wins": 14,
-          "losses": 2,
-          "ties": 0,
-          "winPercentage": "0.875"
-        },
-        "stats": {
-          "points": 28,
-          "runsFor": 225,
-          "runsAgainst": 85,
-          "runDifferential": 140
-        }
-      },
-      {
         "position": 2,
         "team": "Barrie Baycats 14U A",
         "teamCode": "510959",
         "record": {
-          "gamesPlayed": 14,
-          "wins": 12,
+          "gamesPlayed": 15,
+          "wins": 13,
           "losses": 2,
           "ties": 0,
-          "winPercentage": "0.857"
+          "winPercentage": "0.867"
         },
         "stats": {
-          "points": 24,
-          "runsFor": 197,
-          "runsAgainst": 96,
-          "runDifferential": 101
+          "points": 26,
+          "runsFor": 207,
+          "runsAgainst": 105,
+          "runDifferential": 102
+        }
+      },
+      {
+        "position": 1,
+        "team": "Richmond Hill Phoenix 14U A",
+        "teamCode": "510964",
+        "record": {
+          "gamesPlayed": 17,
+          "wins": 14,
+          "losses": 3,
+          "ties": 0,
+          "winPercentage": "0.824"
+        },
+        "stats": {
+          "points": 28,
+          "runsFor": 233,
+          "runsAgainst": 95,
+          "runDifferential": 138
         }
       },
       {
@@ -60,17 +60,17 @@
         "team": "Stouffville Yankees 14U A",
         "teamCode": "510966",
         "record": {
-          "gamesPlayed": 17,
+          "gamesPlayed": 18,
           "wins": 9,
-          "losses": 6,
+          "losses": 7,
           "ties": 2,
-          "winPercentage": "0.588"
+          "winPercentage": "0.556"
         },
         "stats": {
           "points": 20,
-          "runsFor": 187,
-          "runsAgainst": 153,
-          "runDifferential": 34
+          "runsFor": 196,
+          "runsAgainst": 163,
+          "runDifferential": 33
         }
       },
       {
@@ -204,17 +204,17 @@
         "team": "Bradford Tigers 14U A",
         "teamCode": "510960",
         "record": {
-          "gamesPlayed": 15,
-          "wins": 4,
+          "gamesPlayed": 16,
+          "wins": 5,
           "losses": 11,
           "ties": 0,
-          "winPercentage": "0.267"
+          "winPercentage": "0.313"
         },
         "stats": {
-          "points": 8,
-          "runsFor": 131,
-          "runsAgainst": 228,
-          "runDifferential": -97
+          "points": 10,
+          "runsFor": 141,
+          "runsAgainst": 236,
+          "runDifferential": -95
         }
       },
       {
@@ -236,7 +236,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-08-03T20:46:02.272Z",
+    "lastUpdated": "2025-08-03T21:17:22.385Z",
     "totalTeams": 13
   },
   "schedule": {
@@ -378,7 +378,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-03T20:46:06.533Z"
+        "lastUpdated": "2025-08-03T21:17:26.671Z"
       },
       "510959": {
         "teamCode": "510959",
@@ -455,8 +455,12 @@
             "awayTeam": "Barrie Baycats 14U A",
             "awayTeamCode": "510959",
             "location": "Bethesda Sports Field #2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 10,
+              "scoreText": "10-9"
+            }
           }
         ],
         "nextGames": [
@@ -509,7 +513,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-03T20:46:06.533Z"
+        "lastUpdated": "2025-08-03T21:17:26.671Z"
       },
       "510960": {
         "teamCode": "510960",
@@ -574,8 +578,12 @@
             "awayTeam": "Richmond Hill Phoenix 14U A",
             "awayTeamCode": "510964",
             "location": "Joe Magani Field #5",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 8,
+              "scoreText": "8-10"
+            }
           },
           {
             "date": "2025-08-03T18:00:00.000Z",
@@ -616,7 +624,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-03T20:46:06.533Z"
+        "lastUpdated": "2025-08-03T21:17:26.671Z"
       },
       "510961": {
         "teamCode": "510961",
@@ -727,7 +735,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-03T20:46:06.533Z"
+        "lastUpdated": "2025-08-03T21:17:26.671Z"
       },
       "510962": {
         "teamCode": "510962",
@@ -854,7 +862,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-03T20:46:06.533Z"
+        "lastUpdated": "2025-08-03T21:17:26.671Z"
       },
       "510963": {
         "teamCode": "510963",
@@ -993,7 +1001,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-03T20:46:06.533Z"
+        "lastUpdated": "2025-08-03T21:17:26.671Z"
       },
       "510964": {
         "teamCode": "510964",
@@ -1074,8 +1082,12 @@
             "awayTeam": "Richmond Hill Phoenix 14U A",
             "awayTeamCode": "510964",
             "location": "Joe Magani Field #5",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 8,
+              "scoreText": "8-10"
+            }
           }
         ],
         "nextGames": [
@@ -1116,7 +1128,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-03T20:46:06.533Z"
+        "lastUpdated": "2025-08-03T21:17:26.671Z"
       },
       "510965": {
         "teamCode": "510965",
@@ -1243,7 +1255,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-03T20:46:06.533Z"
+        "lastUpdated": "2025-08-03T21:17:26.671Z"
       },
       "510966": {
         "teamCode": "510966",
@@ -1324,8 +1336,12 @@
             "awayTeam": "Barrie Baycats 14U A",
             "awayTeamCode": "510959",
             "location": "Bethesda Sports Field #2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 10,
+              "scoreText": "10-9"
+            }
           }
         ],
         "nextGames": [
@@ -1354,7 +1370,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-03T20:46:06.533Z"
+        "lastUpdated": "2025-08-03T21:17:26.671Z"
       },
       "510979": {
         "teamCode": "510979",
@@ -1453,7 +1469,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-03T20:46:06.533Z"
+        "lastUpdated": "2025-08-03T21:17:26.671Z"
       },
       "516243": {
         "teamCode": "516243",
@@ -1580,7 +1596,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-03T20:46:06.533Z"
+        "lastUpdated": "2025-08-03T21:17:26.671Z"
       },
       "518957": {
         "teamCode": "518957",
@@ -1695,7 +1711,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-03T20:46:06.533Z"
+        "lastUpdated": "2025-08-03T21:17:26.671Z"
       },
       "546378": {
         "teamCode": "546378",
@@ -1790,7 +1806,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-03T20:46:06.533Z"
+        "lastUpdated": "2025-08-03T21:17:26.671Z"
       }
     },
     "allGames": [
@@ -3531,8 +3547,12 @@
         "awayTeam": "Barrie Baycats 14U A",
         "awayTeamCode": "510959",
         "location": "Bethesda Sports Field #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 10,
+          "scoreText": "10-9"
+        }
       },
       {
         "date": "2025-08-01T19:00:00.000Z",
@@ -3543,8 +3563,12 @@
         "awayTeam": "Richmond Hill Phoenix 14U A",
         "awayTeamCode": "510964",
         "location": "Joe Magani Field #5",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 8,
+          "scoreText": "8-10"
+        }
       },
       {
         "date": "2025-08-03T15:00:00.000Z",
@@ -3809,8 +3833,12 @@
         "awayTeam": "Barrie Baycats 14U A",
         "awayTeamCode": "510959",
         "location": "Bethesda Sports Field #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 10,
+          "scoreText": "10-9"
+        }
       },
       {
         "date": "2025-08-01T19:00:00.000Z",
@@ -3821,8 +3849,12 @@
         "awayTeam": "Richmond Hill Phoenix 14U A",
         "awayTeamCode": "510964",
         "location": "Joe Magani Field #5",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 8,
+          "scoreText": "8-10"
+        }
       },
       {
         "date": "2025-07-31T19:00:00.000Z",
@@ -4043,20 +4075,20 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-08-03T20:46:06.533Z",
+    "lastUpdated": "2025-08-03T21:17:26.671Z",
     "totalGames": 130
   },
   "summary": {
     "totalTeams": 13,
     "totalGames": 130,
-    "completedGames": 105,
-    "upcomingGames": 25,
+    "completedGames": 107,
+    "upcomingGames": 23,
     "topTeam": {
-      "team": "Richmond Hill Phoenix 14U A",
-      "teamCode": "510964",
-      "wins": 14,
+      "team": "Barrie Baycats 14U A",
+      "teamCode": "510959",
+      "wins": 13,
       "losses": 2,
-      "winPercentage": "0.875"
+      "winPercentage": "0.867"
     },
     "highestScoringGame": {
       "homeTeam": "Bradford Tigers 14U A",
@@ -4067,6 +4099,6 @@
       "date": "Mon, Jul 7",
       "location": "Joe Magani Field #5"
     },
-    "lastUpdated": "2025-08-03T20:48:58.665Z"
+    "lastUpdated": "2025-08-03T21:20:19.631Z"
   }
 }
