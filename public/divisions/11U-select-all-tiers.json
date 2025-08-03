@@ -38,25 +38,25 @@
         }
       },
       {
-        "position": 7,
+        "position": 3,
         "team": "Markham Mariners 11U DS",
         "teamCode": "511079",
         "record": {
-          "gamesPlayed": 14,
-          "wins": 8,
+          "gamesPlayed": 16,
+          "wins": 10,
           "losses": 4,
           "ties": 2,
-          "winPercentage": "0.643"
+          "winPercentage": "0.688"
         },
         "stats": {
-          "points": 18,
-          "runsFor": 114,
-          "runsAgainst": 97,
-          "runDifferential": 17
+          "points": 22,
+          "runsFor": 136,
+          "runsAgainst": 103,
+          "runDifferential": 33
         }
       },
       {
-        "position": 3,
+        "position": 4,
         "team": "Midland Penetang Twins 11U DS",
         "teamCode": "511074",
         "record": {
@@ -74,7 +74,7 @@
         }
       },
       {
-        "position": 4,
+        "position": 5,
         "team": "Thornhill Reds 11U DS - Team 1",
         "teamCode": "511082",
         "record": {
@@ -92,7 +92,7 @@
         }
       },
       {
-        "position": 5,
+        "position": 6,
         "team": "TNT Thunder 11U DS",
         "teamCode": "518974",
         "record": {
@@ -110,7 +110,7 @@
         }
       },
       {
-        "position": 6,
+        "position": 7,
         "team": "Vaughan Vikings 10U DS",
         "teamCode": "518967",
         "record": {
@@ -222,21 +222,21 @@
         "team": "Thornhill Reds 11U DS - Team 2",
         "teamCode": "511083",
         "record": {
-          "gamesPlayed": 14,
+          "gamesPlayed": 16,
           "wins": 1,
-          "losses": 13,
+          "losses": 15,
           "ties": 0,
-          "winPercentage": "0.071"
+          "winPercentage": "0.063"
         },
         "stats": {
           "points": 2,
-          "runsFor": 47,
-          "runsAgainst": 140,
-          "runDifferential": -93
+          "runsFor": 53,
+          "runsAgainst": 162,
+          "runDifferential": -109
         }
       }
     ],
-    "lastUpdated": "2025-08-03T23:20:43.773Z",
+    "lastUpdated": "2025-08-03T23:47:21.283Z",
     "totalTeams": 13
   },
   "schedule": {
@@ -329,7 +329,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-03T23:20:48.079Z"
+        "lastUpdated": "2025-08-03T23:47:26.018Z"
       },
       "511075": {
         "teamCode": "511075",
@@ -419,7 +419,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-03T23:20:48.079Z"
+        "lastUpdated": "2025-08-03T23:47:26.018Z"
       },
       "511076": {
         "teamCode": "511076",
@@ -509,7 +509,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-03T23:20:48.079Z"
+        "lastUpdated": "2025-08-03T23:47:26.018Z"
       },
       "511077": {
         "teamCode": "511077",
@@ -599,7 +599,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-03T23:20:48.079Z"
+        "lastUpdated": "2025-08-03T23:47:26.018Z"
       },
       "511078": {
         "teamCode": "511078",
@@ -689,7 +689,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-03T23:20:48.079Z"
+        "lastUpdated": "2025-08-03T23:47:26.018Z"
       },
       "511079": {
         "teamCode": "511079",
@@ -754,8 +754,12 @@
             "awayTeam": "Thornhill Reds 11U DS - Team 2",
             "awayTeamCode": "511083",
             "location": "Carlton Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 1,
+              "scoreText": "1-7"
+            }
           },
           {
             "date": "2025-08-03T17:15:00.000Z",
@@ -766,12 +770,16 @@
             "awayTeam": "Thornhill Reds 11U DS - Team 2",
             "awayTeamCode": "511083",
             "location": "Carlton Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 15,
+              "away": 5,
+              "scoreText": "5-15"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-03T23:20:48.079Z"
+        "lastUpdated": "2025-08-03T23:47:26.018Z"
       },
       "511080": {
         "teamCode": "511080",
@@ -861,7 +869,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-03T23:20:48.079Z"
+        "lastUpdated": "2025-08-03T23:47:26.018Z"
       },
       "511081": {
         "teamCode": "511081",
@@ -951,7 +959,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-03T23:20:48.079Z"
+        "lastUpdated": "2025-08-03T23:47:26.018Z"
       },
       "511082": {
         "teamCode": "511082",
@@ -1041,7 +1049,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-03T23:20:48.079Z"
+        "lastUpdated": "2025-08-03T23:47:26.018Z"
       },
       "511083": {
         "teamCode": "511083",
@@ -1106,8 +1114,12 @@
             "awayTeam": "Thornhill Reds 11U DS - Team 2",
             "awayTeamCode": "511083",
             "location": "Carlton Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 1,
+              "scoreText": "1-7"
+            }
           },
           {
             "date": "2025-08-03T17:15:00.000Z",
@@ -1118,12 +1130,16 @@
             "awayTeam": "Thornhill Reds 11U DS - Team 2",
             "awayTeamCode": "511083",
             "location": "Carlton Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 15,
+              "away": 5,
+              "scoreText": "5-15"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-03T23:20:48.079Z"
+        "lastUpdated": "2025-08-03T23:47:26.018Z"
       },
       "518967": {
         "teamCode": "518967",
@@ -1209,7 +1225,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-03T23:20:48.079Z"
+        "lastUpdated": "2025-08-03T23:47:26.018Z"
       },
       "518968": {
         "teamCode": "518968",
@@ -1299,7 +1315,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-03T23:20:48.079Z"
+        "lastUpdated": "2025-08-03T23:47:26.018Z"
       },
       "518974": {
         "teamCode": "518974",
@@ -1385,7 +1401,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-03T23:20:48.079Z"
+        "lastUpdated": "2025-08-03T23:47:26.018Z"
       }
     },
     "allGames": [
@@ -3066,8 +3082,12 @@
         "awayTeam": "Thornhill Reds 11U DS - Team 2",
         "awayTeamCode": "511083",
         "location": "Carlton Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 1,
+          "scoreText": "1-7"
+        }
       },
       {
         "date": "2025-08-03T17:15:00.000Z",
@@ -3078,8 +3098,12 @@
         "awayTeam": "Thornhill Reds 11U DS - Team 2",
         "awayTeamCode": "511083",
         "location": "Carlton Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 15,
+          "away": 5,
+          "scoreText": "5-15"
+        }
       }
     ],
     "recentGames": [
@@ -3092,8 +3116,12 @@
         "awayTeam": "Thornhill Reds 11U DS - Team 2",
         "awayTeamCode": "511083",
         "location": "Carlton Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 15,
+          "away": 5,
+          "scoreText": "5-15"
+        }
       },
       {
         "date": "2025-08-03T15:00:00.000Z",
@@ -3104,8 +3132,12 @@
         "awayTeam": "Thornhill Reds 11U DS - Team 2",
         "awayTeamCode": "511083",
         "location": "Carlton Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 1,
+          "scoreText": "1-7"
+        }
       },
       {
         "date": "2025-08-03T13:15:00.000Z",
@@ -3237,14 +3269,14 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2025-08-03T23:20:48.079Z",
+    "lastUpdated": "2025-08-03T23:47:26.018Z",
     "totalGames": 107
   },
   "summary": {
     "totalTeams": 13,
     "totalGames": 107,
-    "completedGames": 102,
-    "upcomingGames": 5,
+    "completedGames": 104,
+    "upcomingGames": 3,
     "topTeam": {
       "team": "Vaughan Vikings 11U DS",
       "teamCode": "518968",
@@ -3261,6 +3293,6 @@
       "date": "Sat, May 24",
       "location": "Mansfield Park"
     },
-    "lastUpdated": "2025-08-03T23:21:02.588Z"
+    "lastUpdated": "2025-08-03T23:47:41.482Z"
   }
 }
