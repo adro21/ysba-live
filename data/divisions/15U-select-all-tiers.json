@@ -25,16 +25,16 @@
         "teamCode": "511524",
         "record": {
           "gamesPlayed": 12,
-          "wins": 7,
-          "losses": 4,
+          "wins": 8,
+          "losses": 3,
           "ties": 1,
-          "winPercentage": "0.625"
+          "winPercentage": "0.708"
         },
         "stats": {
-          "points": 15,
-          "runsFor": 129,
-          "runsAgainst": 71,
-          "runDifferential": 58
+          "points": 17,
+          "runsFor": 137,
+          "runsAgainst": 63,
+          "runDifferential": 74
         }
       },
       {
@@ -61,16 +61,16 @@
         "teamCode": "511101",
         "record": {
           "gamesPlayed": 11,
-          "wins": 4,
-          "losses": 6,
+          "wins": 3,
+          "losses": 7,
           "ties": 1,
-          "winPercentage": "0.409"
+          "winPercentage": "0.318"
         },
         "stats": {
-          "points": 9,
-          "runsFor": 94,
-          "runsAgainst": 104,
-          "runDifferential": -10
+          "points": 7,
+          "runsFor": 86,
+          "runsAgainst": 112,
+          "runDifferential": -26
         }
       },
       {
@@ -128,7 +128,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-08-03T22:21:00.621Z",
+    "lastUpdated": "2025-08-03T22:50:58.303Z",
     "totalTeams": 7
   },
   "schedule": {
@@ -201,7 +201,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-03T22:21:03.695Z"
+        "lastUpdated": "2025-08-03T22:51:01.355Z"
       },
       "511100": {
         "teamCode": "511100",
@@ -291,7 +291,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-03T22:21:03.695Z"
+        "lastUpdated": "2025-08-03T22:51:01.355Z"
       },
       "511101": {
         "teamCode": "511101",
@@ -365,7 +365,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-03T22:21:03.695Z"
+        "lastUpdated": "2025-08-03T22:51:01.355Z"
       },
       "511102": {
         "teamCode": "511102",
@@ -447,7 +447,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-03T22:21:03.695Z"
+        "lastUpdated": "2025-08-03T22:51:01.355Z"
       },
       "511103": {
         "teamCode": "511103",
@@ -529,7 +529,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-03T22:21:03.695Z"
+        "lastUpdated": "2025-08-03T22:51:01.355Z"
       },
       "511104": {
         "teamCode": "511104",
@@ -619,7 +619,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-03T22:21:03.695Z"
+        "lastUpdated": "2025-08-03T22:51:01.355Z"
       },
       "511524": {
         "teamCode": "511524",
@@ -709,7 +709,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-03T22:21:03.695Z"
+        "lastUpdated": "2025-08-03T22:51:01.355Z"
       }
     },
     "allGames": [
@@ -734,8 +734,12 @@
         "awayTeam": "Barrie Baycats 15U DS",
         "awayTeamCode": "511524",
         "location": "WhipperWatson",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 14,
+          "scoreText": "14-6"
+        }
       },
       {
         "date": "2025-05-24T14:30:00.000Z",
@@ -1110,12 +1114,8 @@
         "awayTeam": "Newmarket Hawks 15U DS",
         "awayTeamCode": "511101",
         "location": "TBD",
-        "isCompleted": true,
-        "score": {
-          "home": 6,
-          "away": 14,
-          "scoreText": "14-6"
-        }
+        "isCompleted": false,
+        "score": null
       },
       {
         "date": "2025-06-25T20:00:00.000Z",
@@ -1713,7 +1713,7 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2025-08-03T22:21:03.695Z",
+    "lastUpdated": "2025-08-03T22:51:01.355Z",
     "totalGames": 57
   },
   "summary": {
@@ -1737,6 +1737,6 @@
       "date": "Sat, Jun 21",
       "location": "Lennox (field b)"
     },
-    "lastUpdated": "2025-08-03T22:21:03.703Z"
+    "lastUpdated": "2025-08-03T22:51:01.362Z"
   }
 }
