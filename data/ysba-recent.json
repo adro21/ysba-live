@@ -1,7 +1,35 @@
 {
-  "lastUpdated": "2025-08-04T19:45:59.332Z",
+  "lastUpdated": "2025-08-04T20:23:40.027Z",
   "totalGames": 190,
   "games": [
+    {
+      "date": "2025-08-04T20:00:00.000Z",
+      "dateText": "Mon, Aug 4",
+      "time": "8:00 PM",
+      "homeTeam": "Orangeville Bengals 13U AA",
+      "homeTeamCode": "510951",
+      "awayTeam": "Richmond Hill Phoenix 13U AA",
+      "awayTeamCode": "510952",
+      "location": "Rotary Park South",
+      "isCompleted": false,
+      "score": null,
+      "division": "13U",
+      "tier": "rep-tier-2"
+    },
+    {
+      "date": "2025-08-04T20:00:00.000Z",
+      "dateText": "Mon, Aug 4",
+      "time": "8:00 PM",
+      "homeTeam": "Orangeville Bengals 13U AA",
+      "homeTeamCode": "510951",
+      "awayTeam": "Richmond Hill Phoenix 13U AA",
+      "awayTeamCode": "510952",
+      "location": "Rotary Park South",
+      "isCompleted": false,
+      "score": null,
+      "division": "13U",
+      "tier": "rep-tier-3"
+    },
     {
       "date": "2025-08-04T19:30:00.000Z",
       "dateText": "Mon, Aug 4",
@@ -387,8 +415,12 @@
       "awayTeam": "Newmarket Hawks 15U DS",
       "awayTeamCode": "511101",
       "location": "Udell field",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 9,
+        "away": 19,
+        "scoreText": "19-9"
+      },
       "division": "15U",
       "tier": "select-all-tiers"
     },
@@ -401,8 +433,12 @@
       "awayTeam": "Newmarket Hawks 15U DS",
       "awayTeamCode": "511101",
       "location": "Udell field",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 8,
+        "away": 29,
+        "scoreText": "29-8"
+      },
       "division": "15U",
       "tier": "select-all-tiers"
     },
@@ -800,42 +836,6 @@
         "scoreText": "11-14"
       },
       "division": "15U",
-      "tier": "rep-tier-3"
-    },
-    {
-      "date": "2025-08-01T18:30:00.000Z",
-      "dateText": "Fri, Aug 1",
-      "time": "6:30 PM",
-      "homeTeam": "Orillia Royals 10U A",
-      "homeTeamCode": "510878",
-      "awayTeam": "Bradford Tigers 10U A",
-      "awayTeamCode": "510871",
-      "location": "YEO Diamond",
-      "isCompleted": true,
-      "score": {
-        "home": 11,
-        "away": 8,
-        "scoreText": "8-11"
-      },
-      "division": "10U",
-      "tier": "rep-tier-2"
-    },
-    {
-      "date": "2025-08-01T18:30:00.000Z",
-      "dateText": "Fri, Aug 1",
-      "time": "6:30 PM",
-      "homeTeam": "Orillia Royals 10U A",
-      "homeTeamCode": "510878",
-      "awayTeam": "Bradford Tigers 10U A",
-      "awayTeamCode": "510871",
-      "location": "YEO Diamond",
-      "isCompleted": true,
-      "score": {
-        "home": 11,
-        "away": 8,
-        "scoreText": "8-11"
-      },
-      "division": "10U",
       "tier": "rep-tier-3"
     }
   ]

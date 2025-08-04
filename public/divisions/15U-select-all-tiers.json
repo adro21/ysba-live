@@ -60,17 +60,17 @@
         "team": "Newmarket Hawks 15U DS",
         "teamCode": "511101",
         "record": {
-          "gamesPlayed": 11,
-          "wins": 3,
+          "gamesPlayed": 13,
+          "wins": 5,
           "losses": 7,
           "ties": 1,
-          "winPercentage": "0.318"
+          "winPercentage": "0.423"
         },
         "stats": {
-          "points": 7,
-          "runsFor": 86,
-          "runsAgainst": 112,
-          "runDifferential": -26
+          "points": 11,
+          "runsFor": 134,
+          "runsAgainst": 129,
+          "runDifferential": 5
         }
       },
       {
@@ -78,17 +78,17 @@
         "team": "Orillia Royals 15U DS",
         "teamCode": "511102",
         "record": {
-          "gamesPlayed": 12,
+          "gamesPlayed": 14,
           "wins": 3,
-          "losses": 9,
+          "losses": 11,
           "ties": 0,
-          "winPercentage": "0.250"
+          "winPercentage": "0.214"
         },
         "stats": {
           "points": 6,
-          "runsFor": 65,
-          "runsAgainst": 164,
-          "runDifferential": -99
+          "runsFor": 82,
+          "runsAgainst": 212,
+          "runDifferential": -130
         }
       },
       {
@@ -128,7 +128,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-08-04T19:45:56.475Z",
+    "lastUpdated": "2025-08-04T20:23:37.275Z",
     "totalTeams": 7
   },
   "schedule": {
@@ -201,7 +201,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-04T19:45:59.323Z"
+        "lastUpdated": "2025-08-04T20:23:40.021Z"
       },
       "511100": {
         "teamCode": "511100",
@@ -291,7 +291,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-04T19:45:59.323Z"
+        "lastUpdated": "2025-08-04T20:23:40.021Z"
       },
       "511101": {
         "teamCode": "511101",
@@ -348,8 +348,12 @@
             "awayTeam": "Newmarket Hawks 15U DS",
             "awayTeamCode": "511101",
             "location": "Udell field",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 29,
+              "scoreText": "29-8"
+            }
           },
           {
             "date": "2025-08-03T05:00:00.000Z",
@@ -360,12 +364,16 @@
             "awayTeam": "Newmarket Hawks 15U DS",
             "awayTeamCode": "511101",
             "location": "Udell field",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 19,
+              "scoreText": "19-9"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-04T19:45:59.323Z"
+        "lastUpdated": "2025-08-04T20:23:40.021Z"
       },
       "511102": {
         "teamCode": "511102",
@@ -430,8 +438,12 @@
             "awayTeam": "Newmarket Hawks 15U DS",
             "awayTeamCode": "511101",
             "location": "Udell field",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 29,
+              "scoreText": "29-8"
+            }
           },
           {
             "date": "2025-08-03T05:00:00.000Z",
@@ -442,12 +454,16 @@
             "awayTeam": "Newmarket Hawks 15U DS",
             "awayTeamCode": "511101",
             "location": "Udell field",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 19,
+              "scoreText": "19-9"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-04T19:45:59.323Z"
+        "lastUpdated": "2025-08-04T20:23:40.021Z"
       },
       "511103": {
         "teamCode": "511103",
@@ -529,7 +545,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-04T19:45:59.323Z"
+        "lastUpdated": "2025-08-04T20:23:40.021Z"
       },
       "511104": {
         "teamCode": "511104",
@@ -619,7 +635,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-04T19:45:59.323Z"
+        "lastUpdated": "2025-08-04T20:23:40.021Z"
       },
       "511524": {
         "teamCode": "511524",
@@ -709,7 +725,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-04T19:45:59.323Z"
+        "lastUpdated": "2025-08-04T20:23:40.021Z"
       }
     },
     "allGames": [
@@ -1542,8 +1558,12 @@
         "awayTeam": "Newmarket Hawks 15U DS",
         "awayTeamCode": "511101",
         "location": "Udell field",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 29,
+          "scoreText": "29-8"
+        }
       },
       {
         "date": "2025-08-03T05:00:00.000Z",
@@ -1554,8 +1574,12 @@
         "awayTeam": "Newmarket Hawks 15U DS",
         "awayTeamCode": "511101",
         "location": "Udell field",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 19,
+          "scoreText": "19-9"
+        }
       }
     ],
     "recentGames": [
@@ -1568,8 +1592,12 @@
         "awayTeam": "Newmarket Hawks 15U DS",
         "awayTeamCode": "511101",
         "location": "Udell field",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 19,
+          "scoreText": "19-9"
+        }
       },
       {
         "date": "2025-08-03T02:30:00.000Z",
@@ -1580,8 +1608,12 @@
         "awayTeam": "Newmarket Hawks 15U DS",
         "awayTeamCode": "511101",
         "location": "Udell field",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 29,
+          "scoreText": "29-8"
+        }
       },
       {
         "date": "2025-07-30T20:00:00.000Z",
@@ -1713,14 +1745,14 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2025-08-04T19:45:59.323Z",
+    "lastUpdated": "2025-08-04T20:23:40.021Z",
     "totalGames": 57
   },
   "summary": {
     "totalTeams": 7,
     "totalGames": 57,
-    "completedGames": 40,
-    "upcomingGames": 17,
+    "completedGames": 42,
+    "upcomingGames": 15,
     "topTeam": {
       "team": "Collingwood Jays 15U DS",
       "teamCode": "511100",
@@ -1729,14 +1761,14 @@
       "winPercentage": "0.933"
     },
     "highestScoringGame": {
-      "homeTeam": "Barrie Baycats 15U DS",
-      "awayTeam": "Orillia Royals 15U DS",
-      "homeScore": 29,
-      "awayScore": 5,
-      "totalRuns": 34,
-      "date": "Sat, Jun 21",
-      "location": "Lennox (field b)"
+      "homeTeam": "Orillia Royals 15U DS",
+      "awayTeam": "Newmarket Hawks 15U DS",
+      "homeScore": 8,
+      "awayScore": 29,
+      "totalRuns": 37,
+      "date": "Sun, Aug 3",
+      "location": "Udell field"
     },
-    "lastUpdated": "2025-08-04T19:45:59.332Z"
+    "lastUpdated": "2025-08-04T20:23:40.027Z"
   }
 }
