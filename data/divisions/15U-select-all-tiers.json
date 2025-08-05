@@ -20,25 +20,25 @@
         }
       },
       {
-        "position": 3,
+        "position": 2,
         "team": "Barrie Baycats 15U DS",
         "teamCode": "511524",
         "record": {
-          "gamesPlayed": 12,
-          "wins": 8,
+          "gamesPlayed": 13,
+          "wins": 9,
           "losses": 3,
           "ties": 1,
-          "winPercentage": "0.708"
+          "winPercentage": "0.731"
         },
         "stats": {
-          "points": 17,
-          "runsFor": 137,
-          "runsAgainst": 63,
-          "runDifferential": 74
+          "points": 19,
+          "runsFor": 155,
+          "runsAgainst": 64,
+          "runDifferential": 91
         }
       },
       {
-        "position": 2,
+        "position": 3,
         "team": "TNT Thunder 15U DS",
         "teamCode": "511104",
         "record": {
@@ -78,17 +78,17 @@
         "team": "Orillia Royals 15U DS",
         "teamCode": "511102",
         "record": {
-          "gamesPlayed": 14,
+          "gamesPlayed": 15,
           "wins": 3,
-          "losses": 11,
+          "losses": 12,
           "ties": 0,
-          "winPercentage": "0.214"
+          "winPercentage": "0.200"
         },
         "stats": {
           "points": 6,
-          "runsFor": 82,
-          "runsAgainst": 212,
-          "runDifferential": -130
+          "runsFor": 83,
+          "runsAgainst": 230,
+          "runDifferential": -147
         }
       },
       {
@@ -128,7 +128,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-08-05T09:27:56.598Z",
+    "lastUpdated": "2025-08-05T09:54:50.023Z",
     "totalTeams": 7
   },
   "schedule": {
@@ -201,7 +201,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-05T09:27:59.312Z"
+        "lastUpdated": "2025-08-05T09:54:52.772Z"
       },
       "511100": {
         "teamCode": "511100",
@@ -291,7 +291,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-05T09:27:59.312Z"
+        "lastUpdated": "2025-08-05T09:54:52.772Z"
       },
       "511101": {
         "teamCode": "511101",
@@ -373,7 +373,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-05T09:27:59.312Z"
+        "lastUpdated": "2025-08-05T09:54:52.772Z"
       },
       "511102": {
         "teamCode": "511102",
@@ -463,7 +463,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-05T09:27:59.312Z"
+        "lastUpdated": "2025-08-05T09:54:52.772Z"
       },
       "511103": {
         "teamCode": "511103",
@@ -545,7 +545,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-05T09:27:59.312Z"
+        "lastUpdated": "2025-08-05T09:54:52.772Z"
       },
       "511104": {
         "teamCode": "511104",
@@ -635,7 +635,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-05T09:27:59.312Z"
+        "lastUpdated": "2025-08-05T09:54:52.772Z"
       },
       "511524": {
         "teamCode": "511524",
@@ -725,7 +725,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-05T09:27:59.312Z"
+        "lastUpdated": "2025-08-05T09:54:52.772Z"
       }
     },
     "allGames": [
@@ -738,8 +738,12 @@
         "awayTeam": "Barrie Baycats 15U DS",
         "awayTeamCode": "511524",
         "location": "Udell field",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 1,
+          "away": 18,
+          "scoreText": "18-1"
+        }
       },
       {
         "date": "2025-05-24T12:00:00.000Z",
@@ -1745,14 +1749,14 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2025-08-05T09:27:59.312Z",
+    "lastUpdated": "2025-08-05T09:54:52.772Z",
     "totalGames": 57
   },
   "summary": {
     "totalTeams": 7,
     "totalGames": 57,
-    "completedGames": 42,
-    "upcomingGames": 15,
+    "completedGames": 43,
+    "upcomingGames": 14,
     "topTeam": {
       "team": "Collingwood Jays 15U DS",
       "teamCode": "511100",
@@ -1769,6 +1773,6 @@
       "date": "Sun, Aug 3",
       "location": "Udell field"
     },
-    "lastUpdated": "2025-08-05T09:27:59.319Z"
+    "lastUpdated": "2025-08-05T09:54:52.779Z"
   }
 }
