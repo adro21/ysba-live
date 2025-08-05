@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-08-05T11:46:34.362Z",
+  "lastUpdated": "2025-08-05T12:39:10.481Z",
   "totalGames": 190,
   "games": [
     {
@@ -92,13 +92,17 @@
       "date": "2025-08-04T18:30:00.000Z",
       "dateText": "Mon, Aug 4",
       "time": "6:30 PM",
-      "homeTeam": "Innisfil Cardinals 11U A",
-      "homeTeamCode": "510894",
-      "awayTeam": "Orangeville Bengals 11U A",
-      "awayTeamCode": "510897",
-      "location": "Nantyr Park",
-      "isCompleted": false,
-      "score": null,
+      "homeTeam": "Caledon Nationals 11U A",
+      "homeTeamCode": "510893",
+      "awayTeam": "Barrie Baycats 11U A",
+      "awayTeamCode": "510892",
+      "location": "Caledon East",
+      "isCompleted": true,
+      "score": {
+        "home": 2,
+        "away": 13,
+        "scoreText": "13-2"
+      },
       "division": "11U",
       "tier": "rep-tier-2"
     },
@@ -111,8 +115,48 @@
       "awayTeam": "Orangeville Bengals 11U A",
       "awayTeamCode": "510897",
       "location": "Nantyr Park",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 10,
+        "away": 3,
+        "scoreText": "3-10"
+      },
+      "division": "11U",
+      "tier": "rep-tier-2"
+    },
+    {
+      "date": "2025-08-04T18:30:00.000Z",
+      "dateText": "Mon, Aug 4",
+      "time": "6:30 PM",
+      "homeTeam": "Caledon Nationals 11U A",
+      "homeTeamCode": "510893",
+      "awayTeam": "Barrie Baycats 11U A",
+      "awayTeamCode": "510892",
+      "location": "Caledon East",
+      "isCompleted": true,
+      "score": {
+        "home": 2,
+        "away": 13,
+        "scoreText": "13-2"
+      },
+      "division": "11U",
+      "tier": "rep-tier-3"
+    },
+    {
+      "date": "2025-08-04T18:30:00.000Z",
+      "dateText": "Mon, Aug 4",
+      "time": "6:30 PM",
+      "homeTeam": "Innisfil Cardinals 11U A",
+      "homeTeamCode": "510894",
+      "awayTeam": "Orangeville Bengals 11U A",
+      "awayTeamCode": "510897",
+      "location": "Nantyr Park",
+      "isCompleted": true,
+      "score": {
+        "home": 10,
+        "away": 3,
+        "scoreText": "3-10"
+      },
       "division": "11U",
       "tier": "rep-tier-3"
     },
@@ -824,42 +868,6 @@
         "scoreText": "8-10"
       },
       "division": "14U",
-      "tier": "rep-tier-3"
-    },
-    {
-      "date": "2025-08-01T19:00:00.000Z",
-      "dateText": "Fri, Aug 1",
-      "time": "7:00 PM",
-      "homeTeam": "Bradford Tigers 15U A",
-      "homeTeamCode": "510982",
-      "awayTeam": "Caledon Nationals 15U A",
-      "awayTeamCode": "510983",
-      "location": "Joe Magani #4",
-      "isCompleted": true,
-      "score": {
-        "home": 14,
-        "away": 11,
-        "scoreText": "11-14"
-      },
-      "division": "15U",
-      "tier": "rep-tier-2"
-    },
-    {
-      "date": "2025-08-01T19:00:00.000Z",
-      "dateText": "Fri, Aug 1",
-      "time": "7:00 PM",
-      "homeTeam": "Bradford Tigers 15U A",
-      "homeTeamCode": "510982",
-      "awayTeam": "Caledon Nationals 15U A",
-      "awayTeamCode": "510983",
-      "location": "Joe Magani #4",
-      "isCompleted": true,
-      "score": {
-        "home": 14,
-        "away": 11,
-        "scoreText": "11-14"
-      },
-      "division": "15U",
       "tier": "rep-tier-3"
     }
   ]
