@@ -20,7 +20,7 @@
         }
       },
       {
-        "position": 3,
+        "position": 4,
         "team": "Aurora-King Jays 13U AA",
         "teamCode": "510946",
         "record": {
@@ -56,6 +56,24 @@
         }
       },
       {
+        "position": 3,
+        "team": "Richmond Hill Phoenix 13U AA",
+        "teamCode": "510952",
+        "record": {
+          "gamesPlayed": 19,
+          "wins": 10,
+          "losses": 7,
+          "ties": 2,
+          "winPercentage": "0.579"
+        },
+        "stats": {
+          "points": 22,
+          "runsFor": 158,
+          "runsAgainst": 127,
+          "runDifferential": 31
+        }
+      },
+      {
         "position": 5,
         "team": "Barrie Baycats 13U AA",
         "teamCode": "510947",
@@ -71,24 +89,6 @@
           "runsFor": 151,
           "runsAgainst": 123,
           "runDifferential": 28
-        }
-      },
-      {
-        "position": 4,
-        "team": "Richmond Hill Phoenix 13U AA",
-        "teamCode": "510952",
-        "record": {
-          "gamesPlayed": 18,
-          "wins": 9,
-          "losses": 7,
-          "ties": 2,
-          "winPercentage": "0.556"
-        },
-        "stats": {
-          "points": 20,
-          "runsFor": 151,
-          "runsAgainst": 127,
-          "runDifferential": 24
         }
       },
       {
@@ -114,17 +114,17 @@
         "team": "Newmarket Hawks 13U AA",
         "teamCode": "510950",
         "record": {
-          "gamesPlayed": 17,
+          "gamesPlayed": 18,
           "wins": 3,
-          "losses": 13,
+          "losses": 14,
           "ties": 1,
-          "winPercentage": "0.206"
+          "winPercentage": "0.194"
         },
         "stats": {
           "points": 7,
           "runsFor": 94,
-          "runsAgainst": 193,
-          "runDifferential": -99
+          "runsAgainst": 200,
+          "runDifferential": -106
         }
       },
       {
@@ -146,7 +146,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-08-06T01:18:48.964Z",
+    "lastUpdated": "2025-08-06T03:21:58.040Z",
     "totalTeams": 8
   },
   "schedule": {
@@ -252,7 +252,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-06T01:18:53.197Z"
+        "lastUpdated": "2025-08-06T03:22:02.666Z"
       },
       "510941": {
         "teamCode": "510941",
@@ -367,7 +367,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-06T01:18:53.198Z"
+        "lastUpdated": "2025-08-06T03:22:02.666Z"
       },
       "510942": {
         "teamCode": "510942",
@@ -457,7 +457,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-06T01:18:53.198Z"
+        "lastUpdated": "2025-08-06T03:22:02.666Z"
       },
       "510943": {
         "teamCode": "510943",
@@ -584,7 +584,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-06T01:18:53.198Z"
+        "lastUpdated": "2025-08-06T03:22:02.666Z"
       },
       "510944": {
         "teamCode": "510944",
@@ -674,7 +674,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-06T01:18:53.198Z"
+        "lastUpdated": "2025-08-06T03:22:02.666Z"
       },
       "510945": {
         "teamCode": "510945",
@@ -764,7 +764,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-06T01:18:53.198Z"
+        "lastUpdated": "2025-08-06T03:22:02.666Z"
       },
       "510946": {
         "teamCode": "510946",
@@ -850,7 +850,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-06T01:18:53.198Z"
+        "lastUpdated": "2025-08-06T03:22:02.666Z"
       },
       "510947": {
         "teamCode": "510947",
@@ -957,7 +957,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-06T01:18:53.198Z"
+        "lastUpdated": "2025-08-06T03:22:02.667Z"
       },
       "510948": {
         "teamCode": "510948",
@@ -1060,7 +1060,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-06T01:18:53.198Z"
+        "lastUpdated": "2025-08-06T03:22:02.667Z"
       },
       "510949": {
         "teamCode": "510949",
@@ -1159,7 +1159,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-06T01:18:53.198Z"
+        "lastUpdated": "2025-08-06T03:22:02.667Z"
       },
       "510950": {
         "teamCode": "510950",
@@ -1240,12 +1240,16 @@
             "awayTeam": "Richmond Hill Phoenix 13U AA",
             "awayTeamCode": "510952",
             "location": "Armstrong Park #1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 0,
+              "away": 7,
+              "scoreText": "7-0"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-06T01:18:53.198Z"
+        "lastUpdated": "2025-08-06T03:22:02.667Z"
       },
       "510951": {
         "teamCode": "510951",
@@ -1348,7 +1352,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-06T01:18:53.198Z"
+        "lastUpdated": "2025-08-06T03:22:02.667Z"
       },
       "510952": {
         "teamCode": "510952",
@@ -1413,8 +1417,12 @@
             "awayTeam": "Richmond Hill Phoenix 13U AA",
             "awayTeamCode": "510952",
             "location": "Armstrong Park #1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 0,
+              "away": 7,
+              "scoreText": "7-0"
+            }
           },
           {
             "date": "2025-08-04T20:00:00.000Z",
@@ -1447,7 +1455,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-06T01:18:53.198Z"
+        "lastUpdated": "2025-08-06T03:22:02.667Z"
       },
       "510953": {
         "teamCode": "510953",
@@ -1533,7 +1541,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-06T01:18:53.198Z"
+        "lastUpdated": "2025-08-06T03:22:02.667Z"
       },
       "510957": {
         "teamCode": "510957",
@@ -1623,7 +1631,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-06T01:18:53.198Z"
+        "lastUpdated": "2025-08-06T03:22:02.667Z"
       },
       "516242": {
         "teamCode": "516242",
@@ -1762,7 +1770,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-06T01:18:53.198Z"
+        "lastUpdated": "2025-08-06T03:22:02.667Z"
       },
       "518954": {
         "teamCode": "518954",
@@ -1852,7 +1860,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-06T01:18:53.198Z"
+        "lastUpdated": "2025-08-06T03:22:02.667Z"
       }
     },
     "allGames": [
@@ -4065,8 +4073,12 @@
         "awayTeam": "Richmond Hill Phoenix 13U AA",
         "awayTeamCode": "510952",
         "location": "Armstrong Park #1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 0,
+          "away": 7,
+          "scoreText": "7-0"
+        }
       },
       {
         "date": "2025-08-03T18:30:00.000Z",
@@ -4295,8 +4307,12 @@
         "awayTeam": "Richmond Hill Phoenix 13U AA",
         "awayTeamCode": "510952",
         "location": "Armstrong Park #1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 0,
+          "away": 7,
+          "scoreText": "7-0"
+        }
       },
       {
         "date": "2025-07-31T19:00:00.000Z",
@@ -4477,14 +4493,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-08-06T01:18:53.198Z",
+    "lastUpdated": "2025-08-06T03:22:02.667Z",
     "totalGames": 152
   },
   "summary": {
     "totalTeams": 8,
     "totalGames": 152,
-    "completedGames": 136,
-    "upcomingGames": 16,
+    "completedGames": 137,
+    "upcomingGames": 15,
     "topTeam": {
       "team": "Caledon Nationals 13U AA",
       "teamCode": "510948",
@@ -4501,6 +4517,6 @@
       "date": "Mon, Jul 28",
       "location": "???"
     },
-    "lastUpdated": "2025-08-06T01:22:28.817Z"
+    "lastUpdated": "2025-08-06T03:25:46.826Z"
   }
 }
