@@ -56,7 +56,7 @@
         }
       },
       {
-        "position": 4,
+        "position": 5,
         "team": "Barrie Baycats 13U A",
         "teamCode": "510941",
         "record": {
@@ -74,21 +74,21 @@
         }
       },
       {
-        "position": 5,
+        "position": 4,
         "team": "Aurora-King Jays 13U A",
         "teamCode": "510940",
         "record": {
-          "gamesPlayed": 15,
-          "wins": 7,
+          "gamesPlayed": 16,
+          "wins": 8,
           "losses": 7,
           "ties": 1,
-          "winPercentage": "0.500"
+          "winPercentage": "0.531"
         },
         "stats": {
-          "points": 15,
-          "runsFor": 139,
+          "points": 17,
+          "runsFor": 160,
           "runsAgainst": 128,
-          "runDifferential": 11
+          "runDifferential": 32
         }
       },
       {
@@ -150,21 +150,21 @@
         "team": "Orangeville Bengals 13U A",
         "teamCode": "510943",
         "record": {
-          "gamesPlayed": 13,
+          "gamesPlayed": 14,
           "wins": 0,
-          "losses": 13,
+          "losses": 14,
           "ties": 0,
           "winPercentage": "0.000"
         },
         "stats": {
           "points": 0,
           "runsFor": 45,
-          "runsAgainst": 265,
-          "runDifferential": -220
+          "runsAgainst": 286,
+          "runDifferential": -241
         }
       }
     ],
-    "lastUpdated": "2025-08-07T14:22:31.262Z",
+    "lastUpdated": "2025-08-07T14:51:59.808Z",
     "totalTeams": 9
   },
   "schedule": {
@@ -248,12 +248,16 @@
             "awayTeam": "Aurora-King Jays 13U A",
             "awayTeamCode": "510940",
             "location": "ROTORY PARK SOUTH",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 0,
+              "away": 21,
+              "scoreText": "21-0"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-07T14:22:35.548Z"
+        "lastUpdated": "2025-08-07T14:52:04.431Z"
       },
       "510941": {
         "teamCode": "510941",
@@ -368,7 +372,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-07T14:22:35.548Z"
+        "lastUpdated": "2025-08-07T14:52:04.431Z"
       },
       "510942": {
         "teamCode": "510942",
@@ -458,7 +462,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-07T14:22:35.548Z"
+        "lastUpdated": "2025-08-07T14:52:04.431Z"
       },
       "510943": {
         "teamCode": "510943",
@@ -539,8 +543,12 @@
             "awayTeam": "Aurora-King Jays 13U A",
             "awayTeamCode": "510940",
             "location": "ROTORY PARK SOUTH",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 0,
+              "away": 21,
+              "scoreText": "21-0"
+            }
           }
         ],
         "nextGames": [
@@ -569,7 +577,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-07T14:22:35.548Z"
+        "lastUpdated": "2025-08-07T14:52:04.431Z"
       },
       "510944": {
         "teamCode": "510944",
@@ -659,7 +667,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-07T14:22:35.548Z"
+        "lastUpdated": "2025-08-07T14:52:04.431Z"
       },
       "510945": {
         "teamCode": "510945",
@@ -749,7 +757,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-07T14:22:35.548Z"
+        "lastUpdated": "2025-08-07T14:52:04.431Z"
       },
       "510946": {
         "teamCode": "510946",
@@ -835,7 +843,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-07T14:22:35.548Z"
+        "lastUpdated": "2025-08-07T14:52:04.431Z"
       },
       "510947": {
         "teamCode": "510947",
@@ -930,7 +938,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-07T14:22:35.548Z"
+        "lastUpdated": "2025-08-07T14:52:04.431Z"
       },
       "510948": {
         "teamCode": "510948",
@@ -1033,7 +1041,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-07T14:22:35.548Z"
+        "lastUpdated": "2025-08-07T14:52:04.431Z"
       },
       "510949": {
         "teamCode": "510949",
@@ -1115,7 +1123,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-07T14:22:35.548Z"
+        "lastUpdated": "2025-08-07T14:52:04.431Z"
       },
       "510950": {
         "teamCode": "510950",
@@ -1205,7 +1213,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-07T14:22:35.548Z"
+        "lastUpdated": "2025-08-07T14:52:04.431Z"
       },
       "510951": {
         "teamCode": "510951",
@@ -1308,7 +1316,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-07T14:22:35.548Z"
+        "lastUpdated": "2025-08-07T14:52:04.431Z"
       },
       "510952": {
         "teamCode": "510952",
@@ -1411,7 +1419,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-07T14:22:35.548Z"
+        "lastUpdated": "2025-08-07T14:52:04.431Z"
       },
       "510953": {
         "teamCode": "510953",
@@ -1497,7 +1505,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-07T14:22:35.548Z"
+        "lastUpdated": "2025-08-07T14:52:04.431Z"
       },
       "510957": {
         "teamCode": "510957",
@@ -1587,7 +1595,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-07T14:22:35.548Z"
+        "lastUpdated": "2025-08-07T14:52:04.432Z"
       },
       "516242": {
         "teamCode": "516242",
@@ -1726,7 +1734,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-07T14:22:35.548Z"
+        "lastUpdated": "2025-08-07T14:52:04.432Z"
       },
       "518954": {
         "teamCode": "518954",
@@ -1816,7 +1824,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-07T14:22:35.548Z"
+        "lastUpdated": "2025-08-07T14:52:04.432Z"
       }
     },
     "allGames": [
@@ -4117,8 +4125,12 @@
         "awayTeam": "Aurora-King Jays 13U A",
         "awayTeamCode": "510940",
         "location": "ROTORY PARK SOUTH",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 0,
+          "away": 21,
+          "scoreText": "21-0"
+        }
       },
       {
         "date": "2025-08-07T19:00:00.000Z",
@@ -4203,8 +4215,12 @@
         "awayTeam": "Aurora-King Jays 13U A",
         "awayTeamCode": "510940",
         "location": "ROTORY PARK SOUTH",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 0,
+          "away": 21,
+          "scoreText": "21-0"
+        }
       },
       {
         "date": "2025-08-06T18:30:00.000Z",
@@ -4417,14 +4433,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-08-07T14:22:35.548Z",
+    "lastUpdated": "2025-08-07T14:52:04.432Z",
     "totalGames": 152
   },
   "summary": {
     "totalTeams": 9,
     "totalGames": 152,
-    "completedGames": 137,
-    "upcomingGames": 15,
+    "completedGames": 138,
+    "upcomingGames": 14,
     "topTeam": {
       "team": "Mansfield Cubs 13U A",
       "teamCode": "510942",
@@ -4441,6 +4457,6 @@
       "date": "Mon, Jul 28",
       "location": "???"
     },
-    "lastUpdated": "2025-08-07T14:25:55.652Z"
+    "lastUpdated": "2025-08-07T14:55:39.732Z"
   }
 }
