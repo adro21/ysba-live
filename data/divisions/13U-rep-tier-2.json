@@ -42,17 +42,17 @@
         "team": "Markham Mariners 13U AA",
         "teamCode": "510949",
         "record": {
-          "gamesPlayed": 18,
-          "wins": 11,
+          "gamesPlayed": 19,
+          "wins": 12,
           "losses": 6,
           "ties": 1,
-          "winPercentage": "0.639"
+          "winPercentage": "0.658"
         },
         "stats": {
-          "points": 23,
-          "runsFor": 144,
-          "runsAgainst": 83,
-          "runDifferential": 61
+          "points": 25,
+          "runsFor": 151,
+          "runsAgainst": 85,
+          "runDifferential": 66
         }
       },
       {
@@ -78,17 +78,17 @@
         "team": "Barrie Baycats 13U AA",
         "teamCode": "510947",
         "record": {
-          "gamesPlayed": 16,
-          "wins": 9,
-          "losses": 7,
+          "gamesPlayed": 18,
+          "wins": 10,
+          "losses": 8,
           "ties": 0,
-          "winPercentage": "0.563"
+          "winPercentage": "0.556"
         },
         "stats": {
-          "points": 18,
-          "runsFor": 151,
-          "runsAgainst": 123,
-          "runDifferential": 28
+          "points": 20,
+          "runsFor": 160,
+          "runsAgainst": 130,
+          "runDifferential": 30
         }
       },
       {
@@ -132,21 +132,21 @@
         "team": "Stouffville Yankees 13U AA",
         "teamCode": "510953",
         "record": {
-          "gamesPlayed": 17,
+          "gamesPlayed": 18,
           "wins": 3,
-          "losses": 14,
+          "losses": 15,
           "ties": 0,
-          "winPercentage": "0.176"
+          "winPercentage": "0.167"
         },
         "stats": {
           "points": 6,
           "runsFor": 110,
-          "runsAgainst": 191,
-          "runDifferential": -81
+          "runsAgainst": 198,
+          "runDifferential": -88
         }
       }
     ],
-    "lastUpdated": "2025-08-07T23:18:05.278Z",
+    "lastUpdated": "2025-08-07T23:44:00.199Z",
     "totalTeams": 8
   },
   "schedule": {
@@ -239,7 +239,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-07T23:18:09.846Z"
+        "lastUpdated": "2025-08-07T23:44:04.531Z"
       },
       "510941": {
         "teamCode": "510941",
@@ -354,7 +354,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-07T23:18:09.846Z"
+        "lastUpdated": "2025-08-07T23:44:04.531Z"
       },
       "510942": {
         "teamCode": "510942",
@@ -444,7 +444,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-07T23:18:09.846Z"
+        "lastUpdated": "2025-08-07T23:44:04.531Z"
       },
       "510943": {
         "teamCode": "510943",
@@ -559,7 +559,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-07T23:18:09.846Z"
+        "lastUpdated": "2025-08-07T23:44:04.531Z"
       },
       "510944": {
         "teamCode": "510944",
@@ -649,7 +649,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-07T23:18:09.846Z"
+        "lastUpdated": "2025-08-07T23:44:04.531Z"
       },
       "510945": {
         "teamCode": "510945",
@@ -739,7 +739,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-07T23:18:09.846Z"
+        "lastUpdated": "2025-08-07T23:44:04.531Z"
       },
       "510946": {
         "teamCode": "510946",
@@ -825,7 +825,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-07T23:18:09.846Z"
+        "lastUpdated": "2025-08-07T23:44:04.531Z"
       },
       "510947": {
         "teamCode": "510947",
@@ -874,8 +874,12 @@
             "awayTeam": "Barrie Baycats 13U AA",
             "awayTeamCode": "510947",
             "location": "Memorial Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 0,
+              "away": 7,
+              "scoreText": "7-0"
+            }
           },
           {
             "date": "2025-08-06T18:30:00.000Z",
@@ -886,8 +890,12 @@
             "awayTeam": "Markham Mariners 13U AA",
             "awayTeamCode": "510949",
             "location": "Lampman Lane Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 2,
+              "away": 7,
+              "scoreText": "7-2"
+            }
           },
           {
             "date": "2025-08-07T19:00:00.000Z",
@@ -903,7 +911,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-07T23:18:09.846Z"
+        "lastUpdated": "2025-08-07T23:44:04.531Z"
       },
       "510948": {
         "teamCode": "510948",
@@ -989,7 +997,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-07T23:18:09.846Z"
+        "lastUpdated": "2025-08-07T23:44:04.531Z"
       },
       "510949": {
         "teamCode": "510949",
@@ -1066,12 +1074,16 @@
             "awayTeam": "Markham Mariners 13U AA",
             "awayTeamCode": "510949",
             "location": "Lampman Lane Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 2,
+              "away": 7,
+              "scoreText": "7-2"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-07T23:18:09.846Z"
+        "lastUpdated": "2025-08-07T23:44:04.531Z"
       },
       "510950": {
         "teamCode": "510950",
@@ -1161,7 +1173,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-07T23:18:09.846Z"
+        "lastUpdated": "2025-08-07T23:44:04.531Z"
       },
       "510951": {
         "teamCode": "510951",
@@ -1247,7 +1259,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-07T23:18:09.846Z"
+        "lastUpdated": "2025-08-07T23:44:04.531Z"
       },
       "510952": {
         "teamCode": "510952",
@@ -1333,7 +1345,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-07T23:18:09.846Z"
+        "lastUpdated": "2025-08-07T23:44:04.531Z"
       },
       "510953": {
         "teamCode": "510953",
@@ -1350,8 +1362,12 @@
             "awayTeam": "Barrie Baycats 13U AA",
             "awayTeamCode": "510947",
             "location": "Memorial Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 0,
+              "away": 7,
+              "scoreText": "7-0"
+            }
           },
           {
             "date": "2025-07-30T18:00:00.000Z",
@@ -1419,7 +1435,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-07T23:18:09.846Z"
+        "lastUpdated": "2025-08-07T23:44:04.531Z"
       },
       "510957": {
         "teamCode": "510957",
@@ -1509,7 +1525,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-07T23:18:09.846Z"
+        "lastUpdated": "2025-08-07T23:44:04.531Z"
       },
       "516242": {
         "teamCode": "516242",
@@ -1648,7 +1664,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-07T23:18:09.846Z"
+        "lastUpdated": "2025-08-07T23:44:04.531Z"
       },
       "518954": {
         "teamCode": "518954",
@@ -1738,7 +1754,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-07T23:18:09.846Z"
+        "lastUpdated": "2025-08-07T23:44:04.531Z"
       }
     },
     "allGames": [
@@ -3747,8 +3763,12 @@
         "awayTeam": "Barrie Baycats 13U AA",
         "awayTeamCode": "510947",
         "location": "Memorial Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 0,
+          "away": 7,
+          "scoreText": "7-0"
+        }
       },
       {
         "date": "2025-07-28T18:30:00.000Z",
@@ -4027,8 +4047,12 @@
         "awayTeam": "Markham Mariners 13U AA",
         "awayTeamCode": "510949",
         "location": "Lampman Lane Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 2,
+          "away": 7,
+          "scoreText": "7-2"
+        }
       },
       {
         "date": "2025-08-06T20:00:00.000Z",
@@ -4169,8 +4193,12 @@
         "awayTeam": "Markham Mariners 13U AA",
         "awayTeamCode": "510949",
         "location": "Lampman Lane Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 2,
+          "away": 7,
+          "scoreText": "7-2"
+        }
       },
       {
         "date": "2025-08-05T19:00:00.000Z",
@@ -4315,14 +4343,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-08-07T23:18:09.846Z",
+    "lastUpdated": "2025-08-07T23:44:04.531Z",
     "totalGames": 152
   },
   "summary": {
     "totalTeams": 8,
     "totalGames": 152,
-    "completedGames": 138,
-    "upcomingGames": 14,
+    "completedGames": 140,
+    "upcomingGames": 12,
     "topTeam": {
       "team": "Caledon Nationals 13U AA",
       "teamCode": "510948",
@@ -4339,6 +4367,6 @@
       "date": "Mon, Jul 28",
       "location": "???"
     },
-    "lastUpdated": "2025-08-07T23:21:48.922Z"
+    "lastUpdated": "2025-08-07T23:47:37.035Z"
   }
 }
