@@ -2,7 +2,7 @@
   "standings": {
     "teams": [
       {
-        "position": 1,
+        "position": 2,
         "team": "Barrie Baycats 14U A",
         "teamCode": "510959",
         "record": {
@@ -20,21 +20,21 @@
         }
       },
       {
-        "position": 2,
+        "position": 1,
         "team": "Richmond Hill Phoenix 14U A",
         "teamCode": "510964",
         "record": {
-          "gamesPlayed": 18,
-          "wins": 15,
+          "gamesPlayed": 19,
+          "wins": 16,
           "losses": 3,
           "ties": 0,
-          "winPercentage": "0.833"
+          "winPercentage": "0.842"
         },
         "stats": {
-          "points": 30,
-          "runsFor": 241,
-          "runsAgainst": 100,
-          "runDifferential": 141
+          "points": 32,
+          "runsFor": 253,
+          "runsAgainst": 110,
+          "runDifferential": 143
         }
       },
       {
@@ -74,7 +74,7 @@
         }
       },
       {
-        "position": 5,
+        "position": 6,
         "team": "Thornhill Reds 14U A",
         "teamCode": "510965",
         "record": {
@@ -92,21 +92,21 @@
         }
       },
       {
-        "position": 6,
+        "position": 5,
         "team": "Collingwood Jays 14U A",
         "teamCode": "510962",
         "record": {
-          "gamesPlayed": 18,
-          "wins": 8,
+          "gamesPlayed": 20,
+          "wins": 10,
           "losses": 9,
           "ties": 1,
-          "winPercentage": "0.472"
+          "winPercentage": "0.525"
         },
         "stats": {
-          "points": 17,
-          "runsFor": 174,
-          "runsAgainst": 166,
-          "runDifferential": 8
+          "points": 21,
+          "runsFor": 199,
+          "runsAgainst": 178,
+          "runDifferential": 21
         }
       },
       {
@@ -132,17 +132,17 @@
         "team": "Ontario Women's",
         "teamCode": "546378",
         "record": {
-          "gamesPlayed": 16,
+          "gamesPlayed": 17,
           "wins": 7,
-          "losses": 9,
+          "losses": 10,
           "ties": 0,
-          "winPercentage": "0.438"
+          "winPercentage": "0.412"
         },
         "stats": {
           "points": 14,
           "runsFor": 135,
-          "runsAgainst": 191,
-          "runDifferential": -56
+          "runsAgainst": 198,
+          "runDifferential": -63
         }
       },
       {
@@ -186,17 +186,17 @@
         "team": "Aurora-King Jays 14U A",
         "teamCode": "510958",
         "record": {
-          "gamesPlayed": 18,
+          "gamesPlayed": 19,
           "wins": 6,
-          "losses": 12,
+          "losses": 13,
           "ties": 0,
-          "winPercentage": "0.333"
+          "winPercentage": "0.316"
         },
         "stats": {
           "points": 12,
-          "runsFor": 165,
-          "runsAgainst": 204,
-          "runDifferential": -39
+          "runsFor": 175,
+          "runsAgainst": 216,
+          "runDifferential": -41
         }
       },
       {
@@ -222,21 +222,21 @@
         "team": "Innisfil Cardinals 14U A",
         "teamCode": "510963",
         "record": {
-          "gamesPlayed": 16,
+          "gamesPlayed": 17,
           "wins": 3,
-          "losses": 12,
+          "losses": 13,
           "ties": 1,
-          "winPercentage": "0.219"
+          "winPercentage": "0.206"
         },
         "stats": {
           "points": 7,
-          "runsFor": 126,
-          "runsAgainst": 227,
-          "runDifferential": -101
+          "runsFor": 138,
+          "runsAgainst": 245,
+          "runDifferential": -107
         }
       }
     ],
-    "lastUpdated": "2025-08-08T13:38:12.496Z",
+    "lastUpdated": "2025-08-08T14:20:55.300Z",
     "totalTeams": 13
   },
   "schedule": {
@@ -320,8 +320,12 @@
             "awayTeam": "Aurora-King Jays 14U A",
             "awayTeamCode": "510958",
             "location": "Richmond Green #1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 10,
+              "scoreText": "10-12"
+            }
           }
         ],
         "nextGames": [
@@ -338,7 +342,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-08T13:38:16.961Z"
+        "lastUpdated": "2025-08-08T14:20:59.771Z"
       },
       "510959": {
         "teamCode": "510959",
@@ -429,9 +433,9 @@
         ],
         "nextGames": [
           {
-            "date": "2025-08-09T09:00:00.000Z",
-            "dateText": "Sat, Aug 9",
-            "time": "9:00 AM",
+            "date": "2025-08-10T10:00:00.000Z",
+            "dateText": "Sun, Aug 10",
+            "time": "10:00 AM",
             "homeTeam": "Barrie Baycats 14U A",
             "homeTeamCode": "510959",
             "awayTeam": "Richmond Hill Phoenix 14U A",
@@ -441,7 +445,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-08T13:38:16.961Z"
+        "lastUpdated": "2025-08-08T14:20:59.771Z"
       },
       "510960": {
         "teamCode": "510960",
@@ -544,7 +548,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-08T13:38:16.961Z"
+        "lastUpdated": "2025-08-08T14:20:59.771Z"
       },
       "510961": {
         "teamCode": "510961",
@@ -647,7 +651,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-08T13:38:16.961Z"
+        "lastUpdated": "2025-08-08T14:20:59.771Z"
       },
       "510962": {
         "teamCode": "510962",
@@ -696,8 +700,12 @@
             "awayTeam": "Ontario Women's",
             "awayTeamCode": "546378",
             "location": "Legion",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 0,
+              "scoreText": "0-7"
+            }
           },
           {
             "date": "2025-08-05T18:00:00.000Z",
@@ -724,12 +732,16 @@
             "awayTeam": "Collingwood Jays 14U A",
             "awayTeamCode": "510962",
             "location": "Innisfill Rec Centre- North",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 18,
+              "scoreText": "18-12"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-08T13:38:16.961Z"
+        "lastUpdated": "2025-08-08T14:20:59.771Z"
       },
       "510963": {
         "teamCode": "510963",
@@ -810,8 +822,12 @@
             "awayTeam": "Collingwood Jays 14U A",
             "awayTeamCode": "510962",
             "location": "Innisfill Rec Centre- North",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 18,
+              "scoreText": "18-12"
+            }
           }
         ],
         "nextGames": [
@@ -840,7 +856,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-08T13:38:16.961Z"
+        "lastUpdated": "2025-08-08T14:20:59.771Z"
       },
       "510964": {
         "teamCode": "510964",
@@ -921,15 +937,19 @@
             "awayTeam": "Aurora-King Jays 14U A",
             "awayTeamCode": "510958",
             "location": "Richmond Green #1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 10,
+              "scoreText": "10-12"
+            }
           }
         ],
         "nextGames": [
           {
-            "date": "2025-08-09T09:00:00.000Z",
-            "dateText": "Sat, Aug 9",
-            "time": "9:00 AM",
+            "date": "2025-08-10T10:00:00.000Z",
+            "dateText": "Sun, Aug 10",
+            "time": "10:00 AM",
             "homeTeam": "Barrie Baycats 14U A",
             "homeTeamCode": "510959",
             "awayTeam": "Richmond Hill Phoenix 14U A",
@@ -939,7 +959,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-08T13:38:16.961Z"
+        "lastUpdated": "2025-08-08T14:20:59.771Z"
       },
       "510965": {
         "teamCode": "510965",
@@ -1042,7 +1062,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-08T13:38:16.961Z"
+        "lastUpdated": "2025-08-08T14:20:59.771Z"
       },
       "510966": {
         "teamCode": "510966",
@@ -1145,7 +1165,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-08T13:38:16.961Z"
+        "lastUpdated": "2025-08-08T14:20:59.771Z"
       },
       "510979": {
         "teamCode": "510979",
@@ -1231,7 +1251,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-08T13:38:16.961Z"
+        "lastUpdated": "2025-08-08T14:20:59.771Z"
       },
       "516243": {
         "teamCode": "516243",
@@ -1358,7 +1378,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-08T13:38:16.961Z"
+        "lastUpdated": "2025-08-08T14:20:59.771Z"
       },
       "518957": {
         "teamCode": "518957",
@@ -1448,7 +1468,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-08T13:38:16.961Z"
+        "lastUpdated": "2025-08-08T14:20:59.771Z"
       },
       "546378": {
         "teamCode": "546378",
@@ -1521,12 +1541,16 @@
             "awayTeam": "Ontario Women's",
             "awayTeamCode": "546378",
             "location": "Legion",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 0,
+              "scoreText": "0-7"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-08T13:38:16.961Z"
+        "lastUpdated": "2025-08-08T14:20:59.771Z"
       }
     },
     "allGames": [
@@ -3375,8 +3399,12 @@
         "awayTeam": "Ontario Women's",
         "awayTeamCode": "546378",
         "location": "Legion",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 0,
+          "scoreText": "0-7"
+        }
       },
       {
         "date": "2025-08-05T18:00:00.000Z",
@@ -3419,8 +3447,12 @@
         "awayTeam": "Collingwood Jays 14U A",
         "awayTeamCode": "510962",
         "location": "Innisfill Rec Centre- North",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 18,
+          "scoreText": "18-12"
+        }
       },
       {
         "date": "2025-08-06T19:30:00.000Z",
@@ -3479,8 +3511,12 @@
         "awayTeam": "Aurora-King Jays 14U A",
         "awayTeamCode": "510958",
         "location": "Richmond Green #1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 10,
+          "scoreText": "10-12"
+        }
       },
       {
         "date": "2025-08-08T19:00:00.000Z",
@@ -3491,18 +3527,6 @@
         "awayTeam": "Muskoka Hornets 14U B",
         "awayTeamCode": "516243",
         "location": "Bethesda Sports Field #2",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": "2025-08-09T09:00:00.000Z",
-        "dateText": "Sat, Aug 9",
-        "time": "9:00 AM",
-        "homeTeam": "Barrie Baycats 14U A",
-        "homeTeamCode": "510959",
-        "awayTeam": "Richmond Hill Phoenix 14U A",
-        "awayTeamCode": "510964",
-        "location": "Lennox Park A",
         "isCompleted": false,
         "score": null
       },
@@ -3543,6 +3567,18 @@
         "score": null
       },
       {
+        "date": "2025-08-10T10:00:00.000Z",
+        "dateText": "Sun, Aug 10",
+        "time": "10:00 AM",
+        "homeTeam": "Barrie Baycats 14U A",
+        "homeTeamCode": "510959",
+        "awayTeam": "Richmond Hill Phoenix 14U A",
+        "awayTeamCode": "510964",
+        "location": "Lennox Park A",
+        "isCompleted": false,
+        "score": null
+      },
+      {
         "date": "2025-08-10T18:00:00.000Z",
         "dateText": "Sun, Aug 10",
         "time": "6:00 PM",
@@ -3565,8 +3601,12 @@
         "awayTeam": "Aurora-King Jays 14U A",
         "awayTeamCode": "510958",
         "location": "Richmond Green #1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 10,
+          "scoreText": "10-12"
+        }
       },
       {
         "date": "2025-08-06T20:15:00.000Z",
@@ -3625,8 +3665,12 @@
         "awayTeam": "Collingwood Jays 14U A",
         "awayTeamCode": "510962",
         "location": "Innisfill Rec Centre- North",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 18,
+          "scoreText": "18-12"
+        }
       },
       {
         "date": "2025-08-05T18:00:00.000Z",
@@ -3637,8 +3681,12 @@
         "awayTeam": "Ontario Women's",
         "awayTeamCode": "546378",
         "location": "Legion",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 0,
+          "scoreText": "0-7"
+        }
       },
       {
         "date": "2025-08-05T18:00:00.000Z",
@@ -3719,18 +3767,6 @@
         "score": null
       },
       {
-        "date": "2025-08-09T09:00:00.000Z",
-        "dateText": "Sat, Aug 9",
-        "time": "9:00 AM",
-        "homeTeam": "Barrie Baycats 14U A",
-        "homeTeamCode": "510959",
-        "awayTeam": "Richmond Hill Phoenix 14U A",
-        "awayTeamCode": "510964",
-        "location": "Lennox Park A",
-        "isCompleted": false,
-        "score": null
-      },
-      {
         "date": "2025-08-09T10:00:00.000Z",
         "dateText": "Sat, Aug 9",
         "time": "10:00 AM",
@@ -3767,6 +3803,18 @@
         "score": null
       },
       {
+        "date": "2025-08-10T10:00:00.000Z",
+        "dateText": "Sun, Aug 10",
+        "time": "10:00 AM",
+        "homeTeam": "Barrie Baycats 14U A",
+        "homeTeamCode": "510959",
+        "awayTeam": "Richmond Hill Phoenix 14U A",
+        "awayTeamCode": "510964",
+        "location": "Lennox Park A",
+        "isCompleted": false,
+        "score": null
+      },
+      {
         "date": "2025-08-10T18:00:00.000Z",
         "dateText": "Sun, Aug 10",
         "time": "6:00 PM",
@@ -3779,14 +3827,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-08-08T13:38:16.961Z",
+    "lastUpdated": "2025-08-08T14:20:59.771Z",
     "totalGames": 130
   },
   "summary": {
     "totalTeams": 13,
     "totalGames": 130,
-    "completedGames": 116,
-    "upcomingGames": 14,
+    "completedGames": 119,
+    "upcomingGames": 11,
     "topTeam": {
       "team": "Barrie Baycats 14U A",
       "teamCode": "510959",
@@ -3803,6 +3851,6 @@
       "date": "Mon, Jul 7",
       "location": "Joe Magani Field #5"
     },
-    "lastUpdated": "2025-08-08T13:41:07.853Z"
+    "lastUpdated": "2025-08-08T14:23:52.648Z"
   }
 }
