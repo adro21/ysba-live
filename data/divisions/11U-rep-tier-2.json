@@ -78,17 +78,17 @@
         "team": "Markham Mariners 11U AA",
         "teamCode": "510908",
         "record": {
-          "gamesPlayed": 15,
+          "gamesPlayed": 16,
           "wins": 6,
-          "losses": 8,
+          "losses": 9,
           "ties": 1,
-          "winPercentage": "0.433"
+          "winPercentage": "0.406"
         },
         "stats": {
           "points": 13,
-          "runsFor": 120,
-          "runsAgainst": 122,
-          "runDifferential": -2
+          "runsFor": 125,
+          "runsAgainst": 129,
+          "runDifferential": -4
         }
       },
       {
@@ -129,6 +129,24 @@
       },
       {
         "position": 8,
+        "team": "TNT Thunder 11U AA",
+        "teamCode": "510911",
+        "record": {
+          "gamesPlayed": 15,
+          "wins": 5,
+          "losses": 10,
+          "ties": 0,
+          "winPercentage": "0.333"
+        },
+        "stats": {
+          "points": 10,
+          "runsFor": 108,
+          "runsAgainst": 125,
+          "runDifferential": -17
+        }
+      },
+      {
+        "position": 9,
         "team": "Newmarket Hawks 11U AA",
         "teamCode": "510913",
         "record": {
@@ -144,27 +162,9 @@
           "runsAgainst": 151,
           "runDifferential": -37
         }
-      },
-      {
-        "position": 9,
-        "team": "TNT Thunder 11U AA",
-        "teamCode": "510911",
-        "record": {
-          "gamesPlayed": 14,
-          "wins": 4,
-          "losses": 10,
-          "ties": 0,
-          "winPercentage": "0.286"
-        },
-        "stats": {
-          "points": 8,
-          "runsFor": 101,
-          "runsAgainst": 120,
-          "runDifferential": -19
-        }
       }
     ],
-    "lastUpdated": "2025-08-09T03:04:16.806Z",
+    "lastUpdated": "2025-08-09T04:03:46.939Z",
     "totalTeams": 9
   },
   "schedule": {
@@ -270,7 +270,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-09T03:04:21.314Z"
+        "lastUpdated": "2025-08-09T04:03:51.464Z"
       },
       "510892": {
         "teamCode": "510892",
@@ -360,7 +360,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-09T03:04:21.314Z"
+        "lastUpdated": "2025-08-09T04:03:51.464Z"
       },
       "510893": {
         "teamCode": "510893",
@@ -463,7 +463,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-09T03:04:21.314Z"
+        "lastUpdated": "2025-08-09T04:03:51.464Z"
       },
       "510894": {
         "teamCode": "510894",
@@ -578,7 +578,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-09T03:04:21.314Z"
+        "lastUpdated": "2025-08-09T04:03:51.464Z"
       },
       "510897": {
         "teamCode": "510897",
@@ -681,7 +681,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-09T03:04:21.314Z"
+        "lastUpdated": "2025-08-09T04:03:51.464Z"
       },
       "510898": {
         "teamCode": "510898",
@@ -796,7 +796,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-09T03:04:21.314Z"
+        "lastUpdated": "2025-08-09T04:03:51.464Z"
       },
       "510903": {
         "teamCode": "510903",
@@ -886,7 +886,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-09T03:04:21.314Z"
+        "lastUpdated": "2025-08-09T04:03:51.464Z"
       },
       "510905": {
         "teamCode": "510905",
@@ -989,7 +989,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-09T03:04:21.314Z"
+        "lastUpdated": "2025-08-09T04:03:51.464Z"
       },
       "510906": {
         "teamCode": "510906",
@@ -1079,7 +1079,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-09T03:04:21.314Z"
+        "lastUpdated": "2025-08-09T04:03:51.464Z"
       },
       "510907": {
         "teamCode": "510907",
@@ -1182,7 +1182,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-09T03:04:21.314Z"
+        "lastUpdated": "2025-08-09T04:03:51.464Z"
       },
       "510908": {
         "teamCode": "510908",
@@ -1263,12 +1263,16 @@
             "awayTeam": "TNT Thunder 11U AA",
             "awayTeamCode": "510911",
             "location": "Carlton Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 7,
+              "scoreText": "7-5"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-09T03:04:21.314Z"
+        "lastUpdated": "2025-08-09T04:03:51.464Z"
       },
       "510909": {
         "teamCode": "510909",
@@ -1371,7 +1375,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-09T03:04:21.314Z"
+        "lastUpdated": "2025-08-09T04:03:51.464Z"
       },
       "510910": {
         "teamCode": "510910",
@@ -1461,7 +1465,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-09T03:04:21.314Z"
+        "lastUpdated": "2025-08-09T04:03:51.464Z"
       },
       "510911": {
         "teamCode": "510911",
@@ -1542,8 +1546,12 @@
             "awayTeam": "TNT Thunder 11U AA",
             "awayTeamCode": "510911",
             "location": "Carlton Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 7,
+              "scoreText": "7-5"
+            }
           }
         ],
         "nextGames": [
@@ -1560,7 +1568,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-09T03:04:21.314Z"
+        "lastUpdated": "2025-08-09T04:03:51.464Z"
       },
       "510912": {
         "teamCode": "510912",
@@ -1663,7 +1671,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-09T03:04:21.314Z"
+        "lastUpdated": "2025-08-09T04:03:51.464Z"
       },
       "510913": {
         "teamCode": "510913",
@@ -1766,7 +1774,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-09T03:04:21.314Z"
+        "lastUpdated": "2025-08-09T04:03:51.464Z"
       },
       "510916": {
         "teamCode": "510916",
@@ -1881,7 +1889,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-09T03:04:21.314Z"
+        "lastUpdated": "2025-08-09T04:03:51.464Z"
       },
       "510917": {
         "teamCode": "510917",
@@ -1996,7 +2004,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-09T03:04:21.314Z"
+        "lastUpdated": "2025-08-09T04:03:51.464Z"
       },
       "516241": {
         "teamCode": "516241",
@@ -2099,7 +2107,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-09T03:04:21.314Z"
+        "lastUpdated": "2025-08-09T04:03:51.464Z"
       }
     },
     "allGames": [
@@ -4540,8 +4548,12 @@
         "awayTeam": "TNT Thunder 11U AA",
         "awayTeamCode": "510911",
         "location": "Carlton Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 5,
+          "away": 7,
+          "scoreText": "7-5"
+        }
       },
       {
         "date": "2025-08-09T11:00:00.000Z",
@@ -4662,8 +4674,12 @@
         "awayTeam": "TNT Thunder 11U AA",
         "awayTeamCode": "510911",
         "location": "Carlton Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 5,
+          "away": 7,
+          "scoreText": "7-5"
+        }
       },
       {
         "date": "2025-08-07T18:30:00.000Z",
@@ -4920,14 +4936,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-08-09T03:04:21.314Z",
+    "lastUpdated": "2025-08-09T04:03:51.464Z",
     "totalGames": 162
   },
   "summary": {
     "totalTeams": 9,
     "totalGames": 162,
-    "completedGames": 151,
-    "upcomingGames": 11,
+    "completedGames": 152,
+    "upcomingGames": 10,
     "topTeam": {
       "team": "Barrie Baycats 11U AA",
       "teamCode": "510906",
@@ -4944,6 +4960,6 @@
       "date": "Wed, Jul 16",
       "location": "Alton Park"
     },
-    "lastUpdated": "2025-08-09T03:09:14.876Z"
+    "lastUpdated": "2025-08-09T04:08:40.995Z"
   }
 }
