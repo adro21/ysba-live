@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-08-09T15:20:02.913Z",
+  "lastUpdated": "2025-08-09T15:45:56.343Z",
   "totalGames": 190,
   "games": [
     {
@@ -165,8 +165,12 @@
       "awayTeam": "Muskoka Hornets 14U B",
       "awayTeamCode": "516243",
       "location": "Bethesda Sports Field #2",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 11,
+        "away": 1,
+        "scoreText": "1-11"
+      },
       "division": "14U",
       "tier": "rep-tier-3"
     },

@@ -38,7 +38,7 @@
         }
       },
       {
-        "position": 3,
+        "position": 4,
         "team": "Caledon Nationals 14U A",
         "teamCode": "510961",
         "record": {
@@ -56,21 +56,21 @@
         }
       },
       {
-        "position": 4,
+        "position": 3,
         "team": "Stouffville Yankees 14U A",
         "teamCode": "510966",
         "record": {
-          "gamesPlayed": 19,
-          "wins": 10,
+          "gamesPlayed": 20,
+          "wins": 11,
           "losses": 7,
           "ties": 2,
-          "winPercentage": "0.579"
+          "winPercentage": "0.600"
         },
         "stats": {
-          "points": 22,
-          "runsFor": 211,
-          "runsAgainst": 168,
-          "runDifferential": 43
+          "points": 24,
+          "runsFor": 222,
+          "runsAgainst": 169,
+          "runDifferential": 53
         }
       },
       {
@@ -168,17 +168,17 @@
         "team": "Muskoka Hornets 14U B",
         "teamCode": "516243",
         "record": {
-          "gamesPlayed": 16,
+          "gamesPlayed": 17,
           "wins": 6,
-          "losses": 10,
+          "losses": 11,
           "ties": 0,
-          "winPercentage": "0.375"
+          "winPercentage": "0.353"
         },
         "stats": {
           "points": 12,
-          "runsFor": 155,
-          "runsAgainst": 171,
-          "runDifferential": -16
+          "runsFor": 156,
+          "runsAgainst": 182,
+          "runDifferential": -26
         }
       },
       {
@@ -236,7 +236,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-08-09T15:17:08.556Z",
+    "lastUpdated": "2025-08-09T15:42:59.303Z",
     "totalTeams": 13
   },
   "schedule": {
@@ -325,7 +325,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-09T15:17:12.726Z"
+        "lastUpdated": "2025-08-09T15:43:03.509Z"
       },
       "510959": {
         "teamCode": "510959",
@@ -428,7 +428,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-09T15:17:12.726Z"
+        "lastUpdated": "2025-08-09T15:43:03.509Z"
       },
       "510960": {
         "teamCode": "510960",
@@ -514,7 +514,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-09T15:17:12.726Z"
+        "lastUpdated": "2025-08-09T15:43:03.509Z"
       },
       "510961": {
         "teamCode": "510961",
@@ -617,7 +617,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-09T15:17:12.726Z"
+        "lastUpdated": "2025-08-09T15:43:03.509Z"
       },
       "510962": {
         "teamCode": "510962",
@@ -707,7 +707,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-09T15:17:12.726Z"
+        "lastUpdated": "2025-08-09T15:43:03.509Z"
       },
       "510963": {
         "teamCode": "510963",
@@ -789,7 +789,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-09T15:17:12.726Z"
+        "lastUpdated": "2025-08-09T15:43:03.509Z"
       },
       "510964": {
         "teamCode": "510964",
@@ -892,7 +892,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-09T15:17:12.726Z"
+        "lastUpdated": "2025-08-09T15:43:03.509Z"
       },
       "510965": {
         "teamCode": "510965",
@@ -995,7 +995,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-09T15:17:12.726Z"
+        "lastUpdated": "2025-08-09T15:43:03.509Z"
       },
       "510966": {
         "teamCode": "510966",
@@ -1076,12 +1076,16 @@
             "awayTeam": "Muskoka Hornets 14U B",
             "awayTeamCode": "516243",
             "location": "Bethesda Sports Field #2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 1,
+              "scoreText": "1-11"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-09T15:17:12.726Z"
+        "lastUpdated": "2025-08-09T15:43:03.509Z"
       },
       "510979": {
         "teamCode": "510979",
@@ -1167,7 +1171,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-09T15:17:12.726Z"
+        "lastUpdated": "2025-08-09T15:43:03.509Z"
       },
       "516243": {
         "teamCode": "516243",
@@ -1216,8 +1220,12 @@
             "awayTeam": "Muskoka Hornets 14U B",
             "awayTeamCode": "516243",
             "location": "Bethesda Sports Field #2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 1,
+              "scoreText": "1-11"
+            }
           },
           {
             "date": "2025-08-09T11:00:00.000Z",
@@ -1245,7 +1253,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-09T15:17:12.726Z"
+        "lastUpdated": "2025-08-09T15:43:03.509Z"
       },
       "518957": {
         "teamCode": "518957",
@@ -1335,7 +1343,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-09T15:17:12.726Z"
+        "lastUpdated": "2025-08-09T15:43:03.509Z"
       },
       "546378": {
         "teamCode": "546378",
@@ -1417,7 +1425,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-09T15:17:12.726Z"
+        "lastUpdated": "2025-08-09T15:43:03.509Z"
       }
     },
     "allGames": [
@@ -3394,8 +3402,12 @@
         "awayTeam": "Muskoka Hornets 14U B",
         "awayTeamCode": "516243",
         "location": "Bethesda Sports Field #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 1,
+          "scoreText": "1-11"
+        }
       },
       {
         "date": "2025-08-09T10:00:00.000Z",
@@ -3504,8 +3516,12 @@
         "awayTeam": "Muskoka Hornets 14U B",
         "awayTeamCode": "516243",
         "location": "Bethesda Sports Field #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 1,
+          "scoreText": "1-11"
+        }
       },
       {
         "date": "2025-08-07T19:00:00.000Z",
@@ -3630,14 +3646,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-08-09T15:17:12.726Z",
+    "lastUpdated": "2025-08-09T15:43:03.509Z",
     "totalGames": 130
   },
   "summary": {
     "totalTeams": 13,
     "totalGames": 130,
-    "completedGames": 119,
-    "upcomingGames": 11,
+    "completedGames": 120,
+    "upcomingGames": 10,
     "topTeam": {
       "team": "Barrie Baycats 14U A",
       "teamCode": "510959",
@@ -3654,6 +3670,6 @@
       "date": "Mon, Jul 7",
       "location": "Joe Magani Field #5"
     },
-    "lastUpdated": "2025-08-09T15:20:02.913Z"
+    "lastUpdated": "2025-08-09T15:45:56.343Z"
   }
 }
