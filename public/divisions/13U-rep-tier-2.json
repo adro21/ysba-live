@@ -6,17 +6,17 @@
         "team": "Caledon Nationals 13U AA",
         "teamCode": "510948",
         "record": {
-          "gamesPlayed": 18,
-          "wins": 14,
+          "gamesPlayed": 19,
+          "wins": 15,
           "losses": 4,
           "ties": 0,
-          "winPercentage": "0.778"
+          "winPercentage": "0.789"
         },
         "stats": {
-          "points": 28,
-          "runsFor": 159,
+          "points": 30,
+          "runsFor": 169,
           "runsAgainst": 91,
-          "runDifferential": 68
+          "runDifferential": 78
         }
       },
       {
@@ -24,17 +24,17 @@
         "team": "Aurora-King Jays 13U AA",
         "teamCode": "510946",
         "record": {
-          "gamesPlayed": 19,
-          "wins": 14,
+          "gamesPlayed": 20,
+          "wins": 15,
           "losses": 5,
           "ties": 0,
-          "winPercentage": "0.737"
+          "winPercentage": "0.750"
         },
         "stats": {
-          "points": 28,
-          "runsFor": 195,
-          "runsAgainst": 100,
-          "runDifferential": 95
+          "points": 30,
+          "runsFor": 207,
+          "runsAgainst": 102,
+          "runDifferential": 105
         }
       },
       {
@@ -42,17 +42,17 @@
         "team": "Markham Mariners 13U AA",
         "teamCode": "510949",
         "record": {
-          "gamesPlayed": 19,
+          "gamesPlayed": 20,
           "wins": 12,
-          "losses": 6,
+          "losses": 7,
           "ties": 1,
-          "winPercentage": "0.658"
+          "winPercentage": "0.625"
         },
         "stats": {
           "points": 25,
-          "runsFor": 151,
-          "runsAgainst": 85,
-          "runDifferential": 66
+          "runsFor": 153,
+          "runsAgainst": 97,
+          "runDifferential": 56
         }
       },
       {
@@ -96,17 +96,17 @@
         "team": "Orangeville Bengals 13U AA",
         "teamCode": "510951",
         "record": {
-          "gamesPlayed": 18,
+          "gamesPlayed": 19,
           "wins": 6,
-          "losses": 10,
+          "losses": 11,
           "ties": 2,
-          "winPercentage": "0.389"
+          "winPercentage": "0.368"
         },
         "stats": {
           "points": 14,
           "runsFor": 127,
-          "runsAgainst": 184,
-          "runDifferential": -57
+          "runsAgainst": 194,
+          "runDifferential": -67
         }
       },
       {
@@ -146,7 +146,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-08-09T11:39:09.642Z",
+    "lastUpdated": "2025-08-09T12:30:12.141Z",
     "totalTeams": 8
   },
   "schedule": {
@@ -239,7 +239,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-09T11:39:13.934Z"
+        "lastUpdated": "2025-08-09T12:30:16.369Z"
       },
       "510941": {
         "teamCode": "510941",
@@ -338,7 +338,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-09T11:39:13.934Z"
+        "lastUpdated": "2025-08-09T12:30:16.369Z"
       },
       "510942": {
         "teamCode": "510942",
@@ -428,7 +428,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-09T11:39:13.934Z"
+        "lastUpdated": "2025-08-09T12:30:16.369Z"
       },
       "510943": {
         "teamCode": "510943",
@@ -543,7 +543,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-09T11:39:13.934Z"
+        "lastUpdated": "2025-08-09T12:30:16.369Z"
       },
       "510944": {
         "teamCode": "510944",
@@ -633,7 +633,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-09T11:39:13.934Z"
+        "lastUpdated": "2025-08-09T12:30:16.369Z"
       },
       "510945": {
         "teamCode": "510945",
@@ -723,7 +723,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-09T11:39:13.934Z"
+        "lastUpdated": "2025-08-09T12:30:16.369Z"
       },
       "510946": {
         "teamCode": "510946",
@@ -756,8 +756,12 @@
             "awayTeam": "Markham Mariners 13U AA",
             "awayTeamCode": "510949",
             "location": "Hallmark #1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 2,
+              "scoreText": "2-12"
+            }
           },
           {
             "date": "2025-08-06T18:00:00.000Z",
@@ -809,7 +813,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-09T11:39:13.934Z"
+        "lastUpdated": "2025-08-09T12:30:16.369Z"
       },
       "510947": {
         "teamCode": "510947",
@@ -899,7 +903,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-09T11:39:13.934Z"
+        "lastUpdated": "2025-08-09T12:30:16.369Z"
       },
       "510948": {
         "teamCode": "510948",
@@ -980,12 +984,16 @@
             "awayTeam": "Caledon Nationals 13U AA",
             "awayTeamCode": "510948",
             "location": "Rotary Park South",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 0,
+              "away": 10,
+              "scoreText": "10-0"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-09T11:39:13.934Z"
+        "lastUpdated": "2025-08-09T12:30:16.369Z"
       },
       "510949": {
         "teamCode": "510949",
@@ -1050,8 +1058,12 @@
             "awayTeam": "Markham Mariners 13U AA",
             "awayTeamCode": "510949",
             "location": "Hallmark #1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 2,
+              "scoreText": "2-12"
+            }
           },
           {
             "date": "2025-08-06T18:30:00.000Z",
@@ -1071,7 +1083,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-09T11:39:13.934Z"
+        "lastUpdated": "2025-08-09T12:30:16.369Z"
       },
       "510950": {
         "teamCode": "510950",
@@ -1161,7 +1173,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-09T11:39:13.934Z"
+        "lastUpdated": "2025-08-09T12:30:16.369Z"
       },
       "510951": {
         "teamCode": "510951",
@@ -1242,12 +1254,16 @@
             "awayTeam": "Caledon Nationals 13U AA",
             "awayTeamCode": "510948",
             "location": "Rotary Park South",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 0,
+              "away": 10,
+              "scoreText": "10-0"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-09T11:39:13.934Z"
+        "lastUpdated": "2025-08-09T12:30:16.369Z"
       },
       "510952": {
         "teamCode": "510952",
@@ -1337,7 +1353,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-09T11:39:13.934Z"
+        "lastUpdated": "2025-08-09T12:30:16.369Z"
       },
       "510953": {
         "teamCode": "510953",
@@ -1427,7 +1443,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-09T11:39:13.934Z"
+        "lastUpdated": "2025-08-09T12:30:16.370Z"
       },
       "510957": {
         "teamCode": "510957",
@@ -1517,7 +1533,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-09T11:39:13.934Z"
+        "lastUpdated": "2025-08-09T12:30:16.370Z"
       },
       "516242": {
         "teamCode": "516242",
@@ -1640,7 +1656,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2025-08-09T11:39:13.934Z"
+        "lastUpdated": "2025-08-09T12:30:16.370Z"
       },
       "518954": {
         "teamCode": "518954",
@@ -1730,7 +1746,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-09T11:39:13.934Z"
+        "lastUpdated": "2025-08-09T12:30:16.370Z"
       }
     },
     "allGames": [
@@ -3975,8 +3991,12 @@
         "awayTeam": "Markham Mariners 13U AA",
         "awayTeamCode": "510949",
         "location": "Hallmark #1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 2,
+          "scoreText": "2-12"
+        }
       },
       {
         "date": "2025-08-06T18:00:00.000Z",
@@ -4067,8 +4087,12 @@
         "awayTeam": "Caledon Nationals 13U AA",
         "awayTeamCode": "510948",
         "location": "Rotary Park South",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 0,
+          "away": 10,
+          "scoreText": "10-0"
+        }
       },
       {
         "date": "2025-08-07T20:30:00.000Z",
@@ -4173,8 +4197,12 @@
         "awayTeam": "Caledon Nationals 13U AA",
         "awayTeamCode": "510948",
         "location": "Rotary Park South",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 0,
+          "away": 10,
+          "scoreText": "10-0"
+        }
       },
       {
         "date": "2025-08-07T19:00:00.000Z",
@@ -4265,8 +4293,12 @@
         "awayTeam": "Markham Mariners 13U AA",
         "awayTeamCode": "510949",
         "location": "Hallmark #1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 2,
+          "scoreText": "2-12"
+        }
       },
       {
         "date": "2025-08-04T20:00:00.000Z",
@@ -4323,20 +4355,20 @@
         "score": null
       }
     ],
-    "lastUpdated": "2025-08-09T11:39:13.934Z",
+    "lastUpdated": "2025-08-09T12:30:16.370Z",
     "totalGames": 152
   },
   "summary": {
     "totalTeams": 8,
     "totalGames": 152,
-    "completedGames": 144,
-    "upcomingGames": 8,
+    "completedGames": 146,
+    "upcomingGames": 6,
     "topTeam": {
       "team": "Caledon Nationals 13U AA",
       "teamCode": "510948",
-      "wins": 14,
+      "wins": 15,
       "losses": 4,
-      "winPercentage": "0.778"
+      "winPercentage": "0.789"
     },
     "highestScoringGame": {
       "homeTeam": "Orangeville Bengals 13U A",
@@ -4347,6 +4379,6 @@
       "date": "Mon, Jul 28",
       "location": "???"
     },
-    "lastUpdated": "2025-08-09T11:42:46.461Z"
+    "lastUpdated": "2025-08-09T12:33:45.622Z"
   }
 }
