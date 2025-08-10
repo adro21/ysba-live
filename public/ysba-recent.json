@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-08-10T19:41:51.844Z",
+  "lastUpdated": "2025-08-10T20:21:50.153Z",
   "totalGames": 190,
   "games": [
     {
@@ -109,8 +109,12 @@
       "awayTeam": "Richmond Hill Phoenix 14U A",
       "awayTeamCode": "510964",
       "location": "Lennox Park A",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 8,
+        "away": 11,
+        "scoreText": "11-8"
+      },
       "division": "14U",
       "tier": "rep-tier-3"
     },
