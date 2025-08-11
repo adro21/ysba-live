@@ -38,25 +38,25 @@
         }
       },
       {
-        "position": 4,
+        "position": 3,
         "team": "Caledon Nationals 14U A",
         "teamCode": "510961",
         "record": {
-          "gamesPlayed": 19,
-          "wins": 11,
+          "gamesPlayed": 20,
+          "wins": 12,
           "losses": 7,
           "ties": 1,
-          "winPercentage": "0.605"
+          "winPercentage": "0.625"
         },
         "stats": {
-          "points": 23,
-          "runsFor": 217,
-          "runsAgainst": 159,
-          "runDifferential": 58
+          "points": 25,
+          "runsFor": 238,
+          "runsAgainst": 168,
+          "runDifferential": 70
         }
       },
       {
-        "position": 3,
+        "position": 4,
         "team": "Stouffville Yankees 14U A",
         "teamCode": "510966",
         "record": {
@@ -71,24 +71,6 @@
           "runsFor": 222,
           "runsAgainst": 169,
           "runDifferential": 53
-        }
-      },
-      {
-        "position": 6,
-        "team": "Thornhill Reds 14U A",
-        "teamCode": "510965",
-        "record": {
-          "gamesPlayed": 19,
-          "wins": 9,
-          "losses": 8,
-          "ties": 2,
-          "winPercentage": "0.526"
-        },
-        "stats": {
-          "points": 20,
-          "runsFor": 177,
-          "runsAgainst": 204,
-          "runDifferential": -27
         }
       },
       {
@@ -107,6 +89,24 @@
           "runsFor": 199,
           "runsAgainst": 178,
           "runDifferential": 21
+        }
+      },
+      {
+        "position": 6,
+        "team": "Thornhill Reds 14U A",
+        "teamCode": "510965",
+        "record": {
+          "gamesPlayed": 20,
+          "wins": 9,
+          "losses": 9,
+          "ties": 2,
+          "winPercentage": "0.500"
+        },
+        "stats": {
+          "points": 20,
+          "runsFor": 186,
+          "runsAgainst": 225,
+          "runDifferential": -39
         }
       },
       {
@@ -236,7 +236,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-08-10T23:41:50.644Z",
+    "lastUpdated": "2025-08-11T01:20:27.374Z",
     "totalTeams": 13
   },
   "schedule": {
@@ -329,7 +329,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-10T23:41:54.903Z"
+        "lastUpdated": "2025-08-11T01:20:31.975Z"
       },
       "510959": {
         "teamCode": "510959",
@@ -419,7 +419,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-10T23:41:54.903Z"
+        "lastUpdated": "2025-08-11T01:20:31.975Z"
       },
       "510960": {
         "teamCode": "510960",
@@ -509,7 +509,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-10T23:41:54.903Z"
+        "lastUpdated": "2025-08-11T01:20:31.975Z"
       },
       "510961": {
         "teamCode": "510961",
@@ -590,12 +590,16 @@
             "awayTeam": "Thornhill Reds 14U A",
             "awayTeamCode": "510965",
             "location": "North Hill #3",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 21,
+              "away": 9,
+              "scoreText": "9-21"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-10T23:41:54.903Z"
+        "lastUpdated": "2025-08-11T01:20:31.975Z"
       },
       "510962": {
         "teamCode": "510962",
@@ -685,7 +689,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-10T23:41:54.903Z"
+        "lastUpdated": "2025-08-11T01:20:31.975Z"
       },
       "510963": {
         "teamCode": "510963",
@@ -767,7 +771,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-10T23:41:54.903Z"
+        "lastUpdated": "2025-08-11T01:20:31.975Z"
       },
       "510964": {
         "teamCode": "510964",
@@ -857,7 +861,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-10T23:41:54.903Z"
+        "lastUpdated": "2025-08-11T01:20:31.975Z"
       },
       "510965": {
         "teamCode": "510965",
@@ -938,12 +942,16 @@
             "awayTeam": "Thornhill Reds 14U A",
             "awayTeamCode": "510965",
             "location": "North Hill #3",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 21,
+              "away": 9,
+              "scoreText": "9-21"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-10T23:41:54.903Z"
+        "lastUpdated": "2025-08-11T01:20:31.975Z"
       },
       "510966": {
         "teamCode": "510966",
@@ -1033,7 +1041,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-10T23:41:54.903Z"
+        "lastUpdated": "2025-08-11T01:20:31.975Z"
       },
       "510979": {
         "teamCode": "510979",
@@ -1119,7 +1127,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-10T23:41:54.903Z"
+        "lastUpdated": "2025-08-11T01:20:31.975Z"
       },
       "516243": {
         "teamCode": "516243",
@@ -1201,7 +1209,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-10T23:41:54.903Z"
+        "lastUpdated": "2025-08-11T01:20:31.975Z"
       },
       "518957": {
         "teamCode": "518957",
@@ -1291,7 +1299,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-10T23:41:54.903Z"
+        "lastUpdated": "2025-08-11T01:20:31.975Z"
       },
       "546378": {
         "teamCode": "546378",
@@ -1373,7 +1381,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-10T23:41:54.903Z"
+        "lastUpdated": "2025-08-11T01:20:31.975Z"
       }
     },
     "allGames": [
@@ -3422,8 +3430,12 @@
         "awayTeam": "Thornhill Reds 14U A",
         "awayTeamCode": "510965",
         "location": "North Hill #3",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 21,
+          "away": 9,
+          "scoreText": "9-21"
+        }
       }
     ],
     "recentGames": [
@@ -3436,8 +3448,12 @@
         "awayTeam": "Thornhill Reds 14U A",
         "awayTeamCode": "510965",
         "location": "North Hill #3",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 21,
+          "away": 9,
+          "scoreText": "9-21"
+        }
       },
       {
         "date": "2025-08-10T10:00:00.000Z",
@@ -3577,14 +3593,14 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2025-08-10T23:41:54.903Z",
+    "lastUpdated": "2025-08-11T01:20:31.975Z",
     "totalGames": 130
   },
   "summary": {
     "totalTeams": 13,
     "totalGames": 130,
-    "completedGames": 122,
-    "upcomingGames": 8,
+    "completedGames": 123,
+    "upcomingGames": 7,
     "topTeam": {
       "team": "Richmond Hill Phoenix 14U A",
       "teamCode": "510964",
@@ -3601,6 +3617,6 @@
       "date": "Mon, Jul 7",
       "location": "Joe Magani Field #5"
     },
-    "lastUpdated": "2025-08-10T23:44:46.850Z"
+    "lastUpdated": "2025-08-11T01:23:33.906Z"
   }
 }
