@@ -2,39 +2,39 @@
   "standings": {
     "teams": [
       {
-        "position": 2,
+        "position": 1,
         "team": "Thornhill Reds 16U AA",
         "teamCode": "511013",
         "record": {
-          "gamesPlayed": 14,
-          "wins": 9,
-          "losses": 4,
+          "gamesPlayed": 16,
+          "wins": 10,
+          "losses": 5,
           "ties": 1,
-          "winPercentage": "0.679"
+          "winPercentage": "0.656"
         },
         "stats": {
-          "points": 19,
-          "runsFor": 90,
-          "runsAgainst": 75,
+          "points": 21,
+          "runsFor": 103,
+          "runsAgainst": 88,
           "runDifferential": 15
         }
       },
       {
-        "position": 1,
+        "position": 2,
         "team": "Barrie Baycats 16U AA",
         "teamCode": "511009",
         "record": {
-          "gamesPlayed": 15,
+          "gamesPlayed": 16,
           "wins": 10,
-          "losses": 5,
+          "losses": 6,
           "ties": 0,
-          "winPercentage": "0.667"
+          "winPercentage": "0.625"
         },
         "stats": {
           "points": 20,
-          "runsFor": 121,
-          "runsAgainst": 78,
-          "runDifferential": 43
+          "runsFor": 124,
+          "runsAgainst": 82,
+          "runDifferential": 42
         }
       },
       {
@@ -42,17 +42,17 @@
         "team": "Newmarket Hawks 16U AA",
         "teamCode": "511011",
         "record": {
-          "gamesPlayed": 14,
+          "gamesPlayed": 16,
           "wins": 7,
-          "losses": 7,
+          "losses": 9,
           "ties": 0,
-          "winPercentage": "0.500"
+          "winPercentage": "0.438"
         },
         "stats": {
           "points": 14,
-          "runsFor": 63,
-          "runsAgainst": 79,
-          "runDifferential": -16
+          "runsFor": 73,
+          "runsAgainst": 94,
+          "runDifferential": -21
         }
       },
       {
@@ -60,17 +60,17 @@
         "team": "Markham Mariners 16U AA",
         "teamCode": "511010",
         "record": {
-          "gamesPlayed": 15,
-          "wins": 5,
+          "gamesPlayed": 16,
+          "wins": 6,
           "losses": 8,
           "ties": 2,
-          "winPercentage": "0.400"
+          "winPercentage": "0.438"
         },
         "stats": {
-          "points": 12,
-          "runsFor": 77,
-          "runsAgainst": 94,
-          "runDifferential": -17
+          "points": 14,
+          "runsFor": 86,
+          "runsAgainst": 100,
+          "runDifferential": -14
         }
       },
       {
@@ -78,21 +78,21 @@
         "team": "Richmond Hill Phoenix 16U AA",
         "teamCode": "511012",
         "record": {
-          "gamesPlayed": 14,
-          "wins": 3,
+          "gamesPlayed": 16,
+          "wins": 5,
           "losses": 10,
           "ties": 1,
-          "winPercentage": "0.250"
+          "winPercentage": "0.344"
         },
         "stats": {
-          "points": 7,
-          "runsFor": 73,
-          "runsAgainst": 98,
-          "runDifferential": -25
+          "points": 11,
+          "runsFor": 89,
+          "runsAgainst": 111,
+          "runDifferential": -22
         }
       }
     ],
-    "lastUpdated": "2025-08-11T15:47:58.346Z",
+    "lastUpdated": "2025-08-11T16:23:32.893Z",
     "totalTeams": 5
   },
   "schedule": {
@@ -176,12 +176,16 @@
             "awayTeam": "Thornhill Reds 16U AA",
             "awayTeamCode": "511013",
             "location": "Lennox A",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 3,
+              "away": 4,
+              "scoreText": "4-3"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-11T15:48:01.302Z"
+        "lastUpdated": "2025-08-11T16:23:35.587Z"
       },
       "511010": {
         "teamCode": "511010",
@@ -262,12 +266,16 @@
             "awayTeam": "Markham Mariners 16U AA",
             "awayTeamCode": "511010",
             "location": "Whipper Billy Watson",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 9,
+              "scoreText": "9-6"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-11T15:48:01.302Z"
+        "lastUpdated": "2025-08-11T16:23:35.587Z"
       },
       "511011": {
         "teamCode": "511011",
@@ -332,8 +340,12 @@
             "awayTeam": "Newmarket Hawks 16U AA",
             "awayTeamCode": "511011",
             "location": "David Hamilton 1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 4,
+              "scoreText": "4-6"
+            }
           },
           {
             "date": "2025-08-07T18:00:00.000Z",
@@ -344,12 +356,16 @@
             "awayTeam": "Markham Mariners 16U AA",
             "awayTeamCode": "511010",
             "location": "Whipper Billy Watson",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 9,
+              "scoreText": "9-6"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-11T15:48:01.302Z"
+        "lastUpdated": "2025-08-11T16:23:35.588Z"
       },
       "511012": {
         "teamCode": "511012",
@@ -414,8 +430,12 @@
             "awayTeam": "Thornhill Reds 16U AA",
             "awayTeamCode": "511013",
             "location": "David Hamilton 1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 9,
+              "scoreText": "9-10"
+            }
           },
           {
             "date": "2025-08-06T19:30:00.000Z",
@@ -426,12 +446,16 @@
             "awayTeam": "Newmarket Hawks 16U AA",
             "awayTeamCode": "511011",
             "location": "David Hamilton 1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 4,
+              "scoreText": "4-6"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-11T15:48:01.302Z"
+        "lastUpdated": "2025-08-11T16:23:35.588Z"
       },
       "511013": {
         "teamCode": "511013",
@@ -496,8 +520,12 @@
             "awayTeam": "Thornhill Reds 16U AA",
             "awayTeamCode": "511013",
             "location": "David Hamilton 1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 9,
+              "scoreText": "9-10"
+            }
           },
           {
             "date": "2025-08-06T19:30:00.000Z",
@@ -508,12 +536,16 @@
             "awayTeam": "Thornhill Reds 16U AA",
             "awayTeamCode": "511013",
             "location": "Lennox A",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 3,
+              "away": 4,
+              "scoreText": "4-3"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-11T15:48:01.302Z"
+        "lastUpdated": "2025-08-11T16:23:35.588Z"
       }
     },
     "allGames": [
@@ -1102,8 +1134,12 @@
         "awayTeam": "Thornhill Reds 16U AA",
         "awayTeamCode": "511013",
         "location": "David Hamilton 1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 9,
+          "scoreText": "9-10"
+        }
       },
       {
         "date": "2025-08-06T19:30:00.000Z",
@@ -1114,8 +1150,12 @@
         "awayTeam": "Thornhill Reds 16U AA",
         "awayTeamCode": "511013",
         "location": "Lennox A",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 3,
+          "away": 4,
+          "scoreText": "4-3"
+        }
       },
       {
         "date": "2025-08-06T19:30:00.000Z",
@@ -1126,8 +1166,12 @@
         "awayTeam": "Newmarket Hawks 16U AA",
         "awayTeamCode": "511011",
         "location": "David Hamilton 1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 4,
+          "scoreText": "4-6"
+        }
       },
       {
         "date": "2025-08-07T18:00:00.000Z",
@@ -1138,8 +1182,12 @@
         "awayTeam": "Markham Mariners 16U AA",
         "awayTeamCode": "511010",
         "location": "Whipper Billy Watson",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 9,
+          "scoreText": "9-6"
+        }
       }
     ],
     "recentGames": [
@@ -1152,8 +1200,12 @@
         "awayTeam": "Markham Mariners 16U AA",
         "awayTeamCode": "511010",
         "location": "Whipper Billy Watson",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 9,
+          "scoreText": "9-6"
+        }
       },
       {
         "date": "2025-08-06T19:30:00.000Z",
@@ -1164,8 +1216,12 @@
         "awayTeam": "Thornhill Reds 16U AA",
         "awayTeamCode": "511013",
         "location": "Lennox A",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 3,
+          "away": 4,
+          "scoreText": "4-3"
+        }
       },
       {
         "date": "2025-08-06T19:30:00.000Z",
@@ -1176,8 +1232,12 @@
         "awayTeam": "Newmarket Hawks 16U AA",
         "awayTeamCode": "511011",
         "location": "David Hamilton 1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 4,
+          "scoreText": "4-6"
+        }
       },
       {
         "date": "2025-08-05T19:30:00.000Z",
@@ -1188,8 +1248,12 @@
         "awayTeam": "Thornhill Reds 16U AA",
         "awayTeamCode": "511013",
         "location": "David Hamilton 1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 9,
+          "scoreText": "9-10"
+        }
       },
       {
         "date": "2025-07-31T19:30:00.000Z",
@@ -1289,20 +1353,20 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2025-08-11T15:48:01.302Z",
+    "lastUpdated": "2025-08-11T16:23:35.588Z",
     "totalGames": 40
   },
   "summary": {
     "totalTeams": 5,
     "totalGames": 40,
-    "completedGames": 36,
-    "upcomingGames": 4,
+    "completedGames": 40,
+    "upcomingGames": 0,
     "topTeam": {
       "team": "Thornhill Reds 16U AA",
       "teamCode": "511013",
-      "wins": 9,
-      "losses": 4,
-      "winPercentage": "0.679"
+      "wins": 10,
+      "losses": 5,
+      "winPercentage": "0.656"
     },
     "highestScoringGame": {
       "homeTeam": "Markham Mariners 16U AA",
@@ -1313,6 +1377,6 @@
       "date": "Sat, Jul 5",
       "location": "Cornell 1"
     },
-    "lastUpdated": "2025-08-11T15:50:08.358Z"
+    "lastUpdated": "2025-08-11T16:25:36.772Z"
   }
 }
