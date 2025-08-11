@@ -132,17 +132,17 @@
         "team": "Muskoka Hornets 13U B",
         "teamCode": "516242",
         "record": {
-          "gamesPlayed": 14,
-          "wins": 2,
-          "losses": 12,
+          "gamesPlayed": 16,
+          "wins": 3,
+          "losses": 13,
           "ties": 0,
-          "winPercentage": "0.143"
+          "winPercentage": "0.188"
         },
         "stats": {
-          "points": 4,
-          "runsFor": 55,
-          "runsAgainst": 232,
-          "runDifferential": -177
+          "points": 6,
+          "runsFor": 75,
+          "runsAgainst": 255,
+          "runDifferential": -180
         }
       },
       {
@@ -150,21 +150,21 @@
         "team": "Orangeville Bengals 13U A",
         "teamCode": "510943",
         "record": {
-          "gamesPlayed": 14,
-          "wins": 0,
-          "losses": 14,
+          "gamesPlayed": 16,
+          "wins": 1,
+          "losses": 15,
           "ties": 0,
-          "winPercentage": "0.000"
+          "winPercentage": "0.063"
         },
         "stats": {
-          "points": 0,
-          "runsFor": 45,
-          "runsAgainst": 286,
-          "runDifferential": -241
+          "points": 2,
+          "runsFor": 68,
+          "runsAgainst": 306,
+          "runDifferential": -238
         }
       }
     ],
-    "lastUpdated": "2025-08-11T20:43:05.339Z",
+    "lastUpdated": "2025-08-11T21:16:55.269Z",
     "totalTeams": 9
   },
   "schedule": {
@@ -257,7 +257,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-11T20:43:09.469Z"
+        "lastUpdated": "2025-08-11T21:16:59.545Z"
       },
       "510941": {
         "teamCode": "510941",
@@ -347,7 +347,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-11T20:43:09.469Z"
+        "lastUpdated": "2025-08-11T21:16:59.545Z"
       },
       "510942": {
         "teamCode": "510942",
@@ -437,7 +437,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-11T20:43:09.469Z"
+        "lastUpdated": "2025-08-11T21:16:59.545Z"
       },
       "510943": {
         "teamCode": "510943",
@@ -502,8 +502,12 @@
             "awayTeam": "Muskoka Hornets 13U B",
             "awayTeamCode": "516242",
             "location": "Rotary South",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 16,
+              "scoreText": "16-6"
+            }
           },
           {
             "date": "2025-08-10T13:30:00.000Z",
@@ -514,12 +518,16 @@
             "awayTeam": "Muskoka Hornets 13U B",
             "awayTeamCode": "516242",
             "location": "Rotary South",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 17,
+              "away": 4,
+              "scoreText": "4-17"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-11T20:43:09.469Z"
+        "lastUpdated": "2025-08-11T21:16:59.545Z"
       },
       "510944": {
         "teamCode": "510944",
@@ -609,7 +617,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-11T20:43:09.469Z"
+        "lastUpdated": "2025-08-11T21:16:59.545Z"
       },
       "510945": {
         "teamCode": "510945",
@@ -699,7 +707,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-11T20:43:09.469Z"
+        "lastUpdated": "2025-08-11T21:16:59.545Z"
       },
       "510946": {
         "teamCode": "510946",
@@ -789,7 +797,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-11T20:43:09.469Z"
+        "lastUpdated": "2025-08-11T21:16:59.545Z"
       },
       "510947": {
         "teamCode": "510947",
@@ -879,7 +887,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-11T20:43:09.469Z"
+        "lastUpdated": "2025-08-11T21:16:59.546Z"
       },
       "510948": {
         "teamCode": "510948",
@@ -969,7 +977,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-11T20:43:09.469Z"
+        "lastUpdated": "2025-08-11T21:16:59.546Z"
       },
       "510949": {
         "teamCode": "510949",
@@ -1059,7 +1067,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-11T20:43:09.469Z"
+        "lastUpdated": "2025-08-11T21:16:59.546Z"
       },
       "510950": {
         "teamCode": "510950",
@@ -1149,7 +1157,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-11T20:43:09.469Z"
+        "lastUpdated": "2025-08-11T21:16:59.546Z"
       },
       "510951": {
         "teamCode": "510951",
@@ -1239,7 +1247,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-11T20:43:09.469Z"
+        "lastUpdated": "2025-08-11T21:16:59.546Z"
       },
       "510952": {
         "teamCode": "510952",
@@ -1329,7 +1337,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-11T20:43:09.469Z"
+        "lastUpdated": "2025-08-11T21:16:59.546Z"
       },
       "510953": {
         "teamCode": "510953",
@@ -1419,7 +1427,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-11T20:43:09.469Z"
+        "lastUpdated": "2025-08-11T21:16:59.546Z"
       },
       "510957": {
         "teamCode": "510957",
@@ -1509,7 +1517,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-11T20:43:09.469Z"
+        "lastUpdated": "2025-08-11T21:16:59.546Z"
       },
       "516242": {
         "teamCode": "516242",
@@ -1574,8 +1582,12 @@
             "awayTeam": "Muskoka Hornets 13U B",
             "awayTeamCode": "516242",
             "location": "Rotary South",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 16,
+              "scoreText": "16-6"
+            }
           },
           {
             "date": "2025-08-10T13:30:00.000Z",
@@ -1586,12 +1598,16 @@
             "awayTeam": "Muskoka Hornets 13U B",
             "awayTeamCode": "516242",
             "location": "Rotary South",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 17,
+              "away": 4,
+              "scoreText": "4-17"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-11T20:43:09.469Z"
+        "lastUpdated": "2025-08-11T21:16:59.546Z"
       },
       "518954": {
         "teamCode": "518954",
@@ -1681,7 +1697,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-11T20:43:09.469Z"
+        "lastUpdated": "2025-08-11T21:16:59.546Z"
       }
     },
     "allGames": [
@@ -4086,8 +4102,12 @@
         "awayTeam": "Muskoka Hornets 13U B",
         "awayTeamCode": "516242",
         "location": "Rotary South",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 16,
+          "scoreText": "16-6"
+        }
       },
       {
         "date": "2025-08-10T13:30:00.000Z",
@@ -4098,8 +4118,12 @@
         "awayTeam": "Muskoka Hornets 13U B",
         "awayTeamCode": "516242",
         "location": "Rotary South",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 17,
+          "away": 4,
+          "scoreText": "4-17"
+        }
       }
     ],
     "recentGames": [
@@ -4112,8 +4136,12 @@
         "awayTeam": "Muskoka Hornets 13U B",
         "awayTeamCode": "516242",
         "location": "Rotary South",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 17,
+          "away": 4,
+          "scoreText": "4-17"
+        }
       },
       {
         "date": "2025-08-10T11:00:00.000Z",
@@ -4124,8 +4152,12 @@
         "awayTeam": "Muskoka Hornets 13U B",
         "awayTeamCode": "516242",
         "location": "Rotary South",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 16,
+          "scoreText": "16-6"
+        }
       },
       {
         "date": "2025-08-09T13:00:00.000Z",
@@ -4257,14 +4289,14 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2025-08-11T20:43:09.469Z",
+    "lastUpdated": "2025-08-11T21:16:59.546Z",
     "totalGames": 152
   },
   "summary": {
     "totalTeams": 9,
     "totalGames": 152,
-    "completedGames": 148,
-    "upcomingGames": 4,
+    "completedGames": 150,
+    "upcomingGames": 2,
     "topTeam": {
       "team": "Mansfield Cubs 13U A",
       "teamCode": "510942",
@@ -4281,6 +4313,6 @@
       "date": "Mon, Jul 28",
       "location": "???"
     },
-    "lastUpdated": "2025-08-11T20:46:29.358Z"
+    "lastUpdated": "2025-08-11T21:20:24.651Z"
   }
 }
