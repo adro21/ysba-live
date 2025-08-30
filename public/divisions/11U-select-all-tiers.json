@@ -236,7 +236,7 @@
         }
       }
     ],
-    "lastUpdated": "2025-08-30T04:00:57.260Z",
+    "lastUpdated": "2025-08-30T04:21:50.483Z",
     "totalTeams": 13
   },
   "schedule": {
@@ -329,7 +329,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-30T04:01:01.767Z"
+        "lastUpdated": "2025-08-30T04:21:55.143Z"
       },
       "511075": {
         "teamCode": "511075",
@@ -419,7 +419,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-30T04:01:01.767Z"
+        "lastUpdated": "2025-08-30T04:21:55.143Z"
       },
       "511076": {
         "teamCode": "511076",
@@ -509,7 +509,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-30T04:01:01.767Z"
+        "lastUpdated": "2025-08-30T04:21:55.143Z"
       },
       "511077": {
         "teamCode": "511077",
@@ -599,7 +599,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-30T04:01:01.767Z"
+        "lastUpdated": "2025-08-30T04:21:55.143Z"
       },
       "511078": {
         "teamCode": "511078",
@@ -689,7 +689,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-30T04:01:01.767Z"
+        "lastUpdated": "2025-08-30T04:21:55.143Z"
       },
       "511079": {
         "teamCode": "511079",
@@ -779,7 +779,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-30T04:01:01.768Z"
+        "lastUpdated": "2025-08-30T04:21:55.143Z"
       },
       "511080": {
         "teamCode": "511080",
@@ -869,7 +869,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-30T04:01:01.768Z"
+        "lastUpdated": "2025-08-30T04:21:55.143Z"
       },
       "511081": {
         "teamCode": "511081",
@@ -959,7 +959,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-30T04:01:01.768Z"
+        "lastUpdated": "2025-08-30T04:21:55.143Z"
       },
       "511082": {
         "teamCode": "511082",
@@ -1049,7 +1049,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-30T04:01:01.768Z"
+        "lastUpdated": "2025-08-30T04:21:55.143Z"
       },
       "511083": {
         "teamCode": "511083",
@@ -1139,7 +1139,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-30T04:01:01.768Z"
+        "lastUpdated": "2025-08-30T04:21:55.143Z"
       },
       "518967": {
         "teamCode": "518967",
@@ -1225,7 +1225,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-30T04:01:01.768Z"
+        "lastUpdated": "2025-08-30T04:21:55.143Z"
       },
       "518968": {
         "teamCode": "518968",
@@ -1315,7 +1315,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-30T04:01:01.768Z"
+        "lastUpdated": "2025-08-30T04:21:55.143Z"
       },
       "518974": {
         "teamCode": "518974",
@@ -1332,8 +1332,12 @@
             "awayTeam": "TNT Thunder 11U DS",
             "awayTeamCode": "518974",
             "location": "Mansfield Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 9,
+              "scoreText": "9-14"
+            }
           },
           {
             "date": "2025-07-12T15:00:00.000Z",
@@ -1401,7 +1405,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2025-08-30T04:01:01.768Z"
+        "lastUpdated": "2025-08-30T04:21:55.143Z"
       }
     },
     "allGames": [
@@ -1729,6 +1733,18 @@
         "date": "2025-05-24T12:15:00.000Z",
         "dateText": "Sat, May 24",
         "time": "12:15 PM",
+        "homeTeam": "Mansfield Cubs 11U DS",
+        "homeTeamCode": "511078",
+        "awayTeam": "Bradford Tigers 11U DS",
+        "awayTeamCode": "511076",
+        "location": "Mansfield Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2025-05-24T12:15:00.000Z",
+        "dateText": "Sat, May 24",
+        "time": "12:15 PM",
         "homeTeam": "TNT Thunder 11U DS",
         "homeTeamCode": "518974",
         "awayTeam": "Vaughan Vikings 10U DS",
@@ -1740,18 +1756,6 @@
           "away": 8,
           "scoreText": "8-4"
         }
-      },
-      {
-        "date": "2025-05-24T12:15:00.000Z",
-        "dateText": "Sat, May 24",
-        "time": "12:15 PM",
-        "homeTeam": "Mansfield Cubs 11U DS",
-        "homeTeamCode": "511078",
-        "awayTeam": "Bradford Tigers 11U DS",
-        "awayTeamCode": "511076",
-        "location": "Mansfield Park",
-        "isCompleted": false,
-        "score": null
       },
       {
         "date": "2025-05-24T12:15:00.000Z",
@@ -2269,22 +2273,6 @@
         "date": "2025-06-21T10:00:00.000Z",
         "dateText": "Sat, Jun 21",
         "time": "10:00 AM",
-        "homeTeam": "Innisfil Cardinals 11U DS",
-        "homeTeamCode": "511077",
-        "awayTeam": "Vaughan Vikings 10U DS",
-        "awayTeamCode": "518967",
-        "location": "Nantyr Park",
-        "isCompleted": true,
-        "score": {
-          "home": 6,
-          "away": 15,
-          "scoreText": "15-6"
-        }
-      },
-      {
-        "date": "2025-06-21T10:00:00.000Z",
-        "dateText": "Sat, Jun 21",
-        "time": "10:00 AM",
         "homeTeam": "Bradford Tigers 11U DS",
         "homeTeamCode": "511076",
         "awayTeam": "Vaughan Vikings 11U DS",
@@ -2295,6 +2283,22 @@
           "home": 6,
           "away": 18,
           "scoreText": "18-6"
+        }
+      },
+      {
+        "date": "2025-06-21T10:00:00.000Z",
+        "dateText": "Sat, Jun 21",
+        "time": "10:00 AM",
+        "homeTeam": "Innisfil Cardinals 11U DS",
+        "homeTeamCode": "511077",
+        "awayTeam": "Vaughan Vikings 10U DS",
+        "awayTeamCode": "518967",
+        "location": "Nantyr Park",
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 15,
+          "scoreText": "15-6"
         }
       },
       {
@@ -2521,16 +2525,16 @@
         "date": "2025-06-29T12:15:00.000Z",
         "dateText": "Sun, Jun 29",
         "time": "12:15 PM",
-        "homeTeam": "Mansfield Cubs 11U DS",
-        "homeTeamCode": "511078",
-        "awayTeam": "TNT Thunder 11U DS",
-        "awayTeamCode": "518974",
-        "location": "Mansfield Park",
+        "homeTeam": "Richmond Hill Phoenix 11U DS",
+        "homeTeamCode": "511081",
+        "awayTeam": "Thornhill Reds 11U DS - Team 1",
+        "awayTeamCode": "511082",
+        "location": "David Hamilton Park Field #2",
         "isCompleted": true,
         "score": {
-          "home": 14,
-          "away": 9,
-          "scoreText": "9-14"
+          "home": 8,
+          "away": 11,
+          "scoreText": "11-8"
         }
       },
       {
@@ -2549,16 +2553,16 @@
         "date": "2025-06-29T12:15:00.000Z",
         "dateText": "Sun, Jun 29",
         "time": "12:15 PM",
-        "homeTeam": "Richmond Hill Phoenix 11U DS",
-        "homeTeamCode": "511081",
-        "awayTeam": "Thornhill Reds 11U DS - Team 1",
-        "awayTeamCode": "511082",
-        "location": "David Hamilton Park Field #2",
+        "homeTeam": "Mansfield Cubs 11U DS",
+        "homeTeamCode": "511078",
+        "awayTeam": "TNT Thunder 11U DS",
+        "awayTeamCode": "518974",
+        "location": "Mansfield Park",
         "isCompleted": true,
         "score": {
-          "home": 8,
-          "away": 11,
-          "scoreText": "11-8"
+          "home": 14,
+          "away": 9,
+          "scoreText": "9-14"
         }
       },
       {
@@ -2629,22 +2633,6 @@
         "date": "2025-07-06T10:00:00.000Z",
         "dateText": "Sun, Jul 6",
         "time": "10:00 AM",
-        "homeTeam": "Thornhill Reds 11U DS - Team 2",
-        "homeTeamCode": "511083",
-        "awayTeam": "Bradford Tigers 11U DS",
-        "awayTeamCode": "511076",
-        "location": "York Hill West Diamond",
-        "isCompleted": true,
-        "score": {
-          "home": 0,
-          "away": 7,
-          "scoreText": "7-0"
-        }
-      },
-      {
-        "date": "2025-07-06T10:00:00.000Z",
-        "dateText": "Sun, Jul 6",
-        "time": "10:00 AM",
         "homeTeam": "Mansfield Cubs 11U DS",
         "homeTeamCode": "511078",
         "awayTeam": "Midland Penetang Twins 11U DS",
@@ -2658,19 +2646,19 @@
         }
       },
       {
-        "date": "2025-07-06T12:15:00.000Z",
+        "date": "2025-07-06T10:00:00.000Z",
         "dateText": "Sun, Jul 6",
-        "time": "12:15 PM",
-        "homeTeam": "Mansfield Cubs 11U DS",
-        "homeTeamCode": "511078",
-        "awayTeam": "Midland Penetang Twins 11U DS",
-        "awayTeamCode": "511074",
-        "location": "Mansfield Park",
+        "time": "10:00 AM",
+        "homeTeam": "Thornhill Reds 11U DS - Team 2",
+        "homeTeamCode": "511083",
+        "awayTeam": "Bradford Tigers 11U DS",
+        "awayTeamCode": "511076",
+        "location": "York Hill West Diamond",
         "isCompleted": true,
         "score": {
-          "home": 7,
-          "away": 8,
-          "scoreText": "8-7"
+          "home": 0,
+          "away": 7,
+          "scoreText": "7-0"
         }
       },
       {
@@ -2687,6 +2675,22 @@
           "home": 10,
           "away": 11,
           "scoreText": "11-10"
+        }
+      },
+      {
+        "date": "2025-07-06T12:15:00.000Z",
+        "dateText": "Sun, Jul 6",
+        "time": "12:15 PM",
+        "homeTeam": "Mansfield Cubs 11U DS",
+        "homeTeamCode": "511078",
+        "awayTeam": "Midland Penetang Twins 11U DS",
+        "awayTeamCode": "511074",
+        "location": "Mansfield Park",
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 8,
+          "scoreText": "8-7"
         }
       },
       {
@@ -3269,7 +3273,7 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2025-08-30T04:01:01.768Z",
+    "lastUpdated": "2025-08-30T04:21:55.143Z",
     "totalGames": 107
   },
   "summary": {
@@ -3293,6 +3297,6 @@
       "date": "Sat, May 24",
       "location": "Mansfield Park"
     },
-    "lastUpdated": "2025-08-30T04:01:16.635Z"
+    "lastUpdated": "2025-08-30T04:22:10.459Z"
   }
 }
