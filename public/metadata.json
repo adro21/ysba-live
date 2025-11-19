@@ -1,53 +1,12 @@
 {
   "source": "GitHub Actions",
-  "successCount": 44,
-  "errorCount": 8,
-  "errors": [
-    {
-      "division": "13U-rep",
-      "tier": "tier-1",
-      "error": "net::ERR_CONNECTION_REFUSED at https://www.yorksimcoebaseball.com/Club/xStanding.aspx"
-    },
-    {
-      "division": "15U-rep",
-      "tier": "no-tier",
-      "error": "net::ERR_CONNECTION_TIMED_OUT at https://www.yorksimcoebaseball.com/Club/xStanding.aspx"
-    },
-    {
-      "division": "15U-rep",
-      "tier": "tier-1",
-      "error": "net::ERR_CONNECTION_TIMED_OUT at https://www.yorksimcoebaseball.com/Club/xStanding.aspx"
-    },
-    {
-      "division": "15U-rep",
-      "tier": "tier-2",
-      "error": "net::ERR_CONNECTION_TIMED_OUT at https://www.yorksimcoebaseball.com/Club/xStanding.aspx"
-    },
-    {
-      "division": "15U-rep",
-      "tier": "tier-3",
-      "error": "net::ERR_CONNECTION_TIMED_OUT at https://www.yorksimcoebaseball.com/Club/xStanding.aspx"
-    },
-    {
-      "division": "16U-rep",
-      "tier": "no-tier",
-      "error": "net::ERR_CONNECTION_TIMED_OUT at https://www.yorksimcoebaseball.com/Club/xStanding.aspx"
-    },
-    {
-      "division": "16U-rep",
-      "tier": "tier-1",
-      "error": "net::ERR_CONNECTION_REFUSED at https://www.yorksimcoebaseball.com/Club/xStanding.aspx"
-    },
-    {
-      "division": "16U-rep",
-      "tier": "tier-2",
-      "error": "net::ERR_CONNECTION_REFUSED at https://www.yorksimcoebaseball.com/Club/xStanding.aspx"
-    }
-  ],
-  "divisionsScraped": 44,
+  "successCount": 52,
+  "errorCount": 0,
+  "errors": [],
+  "divisionsScraped": 52,
   "totalDivisions": 52,
-  "duration": 1386214,
-  "generatedAt": "2025-11-19T05:38:22.688Z",
+  "duration": 425657,
+  "generatedAt": "2025-11-19T05:48:28.218Z",
   "worker": {
     "version": "1.0.0",
     "nodeVersion": "v18.20.8",
