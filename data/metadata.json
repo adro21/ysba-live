@@ -1,12 +1,28 @@
 {
   "source": "GitHub Actions",
-  "successCount": 52,
-  "errorCount": 0,
-  "errors": [],
-  "divisionsScraped": 52,
+  "successCount": 49,
+  "errorCount": 3,
+  "errors": [
+    {
+      "division": "8U-rep",
+      "tier": "no-tier",
+      "error": "net::ERR_CONNECTION_TIMED_OUT at https://www.yorksimcoebaseball.com/Club/xStanding.aspx"
+    },
+    {
+      "division": "8U-rep",
+      "tier": "tier-1",
+      "error": "net::ERR_CONNECTION_TIMED_OUT at https://www.yorksimcoebaseball.com/Club/xStanding.aspx"
+    },
+    {
+      "division": "8U-rep",
+      "tier": "tier-2",
+      "error": "net::ERR_CONNECTION_TIMED_OUT at https://www.yorksimcoebaseball.com/Club/xStanding.aspx"
+    }
+  ],
+  "divisionsScraped": 49,
   "totalDivisions": 52,
-  "duration": 398517,
-  "generatedAt": "2026-01-23T04:33:48.359Z",
+  "duration": 1019409,
+  "generatedAt": "2026-01-23T05:16:33.621Z",
   "worker": {
     "version": "1.0.0",
     "nodeVersion": "v18.20.8",
