@@ -3556,13 +3556,12 @@
 
 /* Make homepage a centered layout */
 #home {
-  height: 100vh;
-  overflow: hidden;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding-top: 25vh;
+  padding-top: 20vh;
   background: #f8f9fa;
   box-sizing: border-box;
 }
