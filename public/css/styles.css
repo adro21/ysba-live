@@ -3549,3 +3549,82 @@
     text-align:left;
   }
 }
+
+/* ====================================
+   HOMEPAGE CENTERED LAYOUT
+   ==================================== */
+
+/* Make homepage a centered layout */
+#home {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f8f9fa;
+}
+
+/* Hide main content and footer on homepage */
+#home main,
+#home .modern-footer {
+  display: none !important;
+}
+
+/* Center the header on homepage */
+#home .clean-header {
+  position: static;
+  width: auto;
+  padding: 0;
+  margin-bottom: 10vh; /* Push slightly above center */
+}
+
+#home .clean-header .container {
+  width: auto;
+  padding: 0;
+  max-width: none;
+}
+
+#home .clean-header .header-content {
+  justify-content: center;
+  align-items: center;
+}
+
+#home .clean-header .header-top {
+  justify-content: center;
+  padding: 0;
+  border: none;
+}
+
+#home .clean-header .brand-section {
+  justify-content: center;
+}
+
+#home .clean-header .brand-text {
+  align-items: center;
+  text-align: center;
+}
+
+#home .clean-header .brand-title {
+  font-size: 2rem;
+}
+
+#home .clean-header .brand-subtitle-btn {
+  font-size: 0.85rem;
+  padding: 0.75rem 1.25rem;
+}
+
+/* Mobile adjustments for centered homepage */
+@media (max-width: 768px) {
+  #home .clean-header .brand-title {
+    font-size: 1.75rem;
+  }
+
+  #home .clean-header .brand-subtitle-btn {
+    font-size: 0.8rem;
+    padding: 0.65rem 1rem;
+  }
+
+  #home {
+    margin-bottom: 5vh;
+  }
+}
