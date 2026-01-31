@@ -15,6 +15,10 @@ on:
       - 'src/scraper/**'
       - '.github/workflows/scraper.yml'
 
+concurrency:
+  group: scraper
+  cancel-in-progress: false
+
 jobs:
   scrape-and-update:
     runs-on: ubuntu-latest
@@ -65,14 +69,14 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git pull --rebase origin main || git pull origin main
         git commit -m "🤖 Update YSBA data - $(date -u '+%Y-%m-%d %H:%M:%S UTC')
 
         - Scraped $(date -u '+%Y-%m-%d at %H:%M UTC')
         - Updated standings and schedules
         - Generated optimized JSON files
-        
-        🤖 Generated with GitHub Actions" || exit 0
+
+        🤖 Generated with GitHub Actions"
+        git pull --rebase origin main
         git push
     
     - name: Trigger Render deployment
