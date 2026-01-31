@@ -3554,6 +3554,26 @@
    HOMEPAGE CENTERED LAYOUT
    ==================================== */
 
+/*
+ * TODO (Summer 2026): Re-enable homepage content
+ *
+ * The following elements are HIDDEN but still exist in index.html:
+ * - Magazine section (#magazineSection) - AI-generated stories/headlines
+ * - Division grids (.category-section) - Rep and Select division cards
+ * - Footer (.modern-footer)
+ *
+ * The story generation system (ai-story-service.js, /api/stories) still works
+ * but stories weren't updating properly. To re-enable:
+ * 1. Remove the "#home main, #home .modern-footer { display: none }" rule below
+ * 2. Remove or adjust the centered layout styles for #home
+ * 3. Debug the story generation/display in MagazineSection class (index.html)
+ *
+ * Related files:
+ * - public/index.html (MagazineSection class, story rendering)
+ * - ai-story-service.js (OpenAI story generation)
+ * - scripts/github-action-scraper.js (triggers story generation)
+ */
+
 /* Make homepage a centered layout */
 #home {
   min-height: 100vh;
