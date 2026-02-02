@@ -54,21 +54,36 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GIST_GITHUB_TOKEN }}
         GIST_ID: ${{ secrets.GIST_ID }}
     
-    - name: Check for changes
-      id: git-check
-      run: |
-        git add public/ data/ || true
-        if git diff --staged --quiet; then
-          echo "No changes to commit"
-        else
-          echo "changes=true" >> $GITHUB_OUTPUT
-        fi
-    
     - name: Commit and push changes
-      if: steps.git-check.outputs.changes == 'true'
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
+
+        # Backup freshly scraped data before any git operations
+        cp -r public/ /tmp/public_backup/
+        cp -r data/ /tmp/data_backup/
+
+        # Fetch latest from origin to get any changes that happened during scraping
+        git fetch origin main
+
+        # Stash our freshly scraped data files
+        git stash push --include-untracked -- public/ data/
+
+        # Reset to whatever is currently on origin/main
+        git reset --hard origin/main
+
+        # Apply our freshly scraped data back on top
+        git stash pop || true
+
+        # Stage and check for actual changes
+        git add public/ data/ || true
+
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+          exit 0
+        fi
+
+        # Commit and push
         git commit -m "🤖 Update YSBA data - $(date -u '+%Y-%m-%d %H:%M:%S UTC')
 
         - Scraped $(date -u '+%Y-%m-%d at %H:%M UTC')
@@ -76,11 +91,43 @@ jobs:
         - Generated optimized JSON files
 
         🤖 Generated with GitHub Actions"
-        git pull --rebase origin main
-        git push
-    
+
+        # Push with retry in case of race condition
+        for i in 1 2 3; do
+          if git push; then
+            echo "✅ Push successful"
+            exit 0
+          fi
+          echo "Push failed, retrying... (attempt $i/3)"
+          sleep 2
+
+          # Save our freshly scraped data before resetting
+          cp -r public/ /tmp/public_backup/
+          cp -r data/ /tmp/data_backup/
+
+          # Abort any failed rebase and reset to origin
+          git rebase --abort 2>/dev/null || true
+          git fetch origin main
+          git reset --hard origin/main
+
+          # Restore our freshly scraped data
+          cp -r /tmp/public_backup/* public/
+          cp -r /tmp/data_backup/* data/
+
+          # Recommit
+          git add public/ data/
+          git commit -m "🤖 Update YSBA data - $(date -u '+%Y-%m-%d %H:%M:%S UTC')
+
+        - Scraped $(date -u '+%Y-%m-%d at %H:%M UTC')
+        - Updated standings and schedules
+        - Generated optimized JSON files
+
+        🤖 Generated with GitHub Actions"
+        done
+        echo "❌ Push failed after 3 attempts"
+        exit 1
+
     - name: Trigger Render deployment
-      if: steps.git-check.outputs.changes == 'true'
       run: |
         echo "✅ Data updated and pushed to repository"
         echo "🚀 Render will automatically redeploy with new data"
