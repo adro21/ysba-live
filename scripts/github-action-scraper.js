@@ -21,6 +21,11 @@ const config = require('../config');
 const fs = require('fs').promises;
 const path = require('path');
 
+// Maximum time for the entire script (12 minutes to leave buffer for git operations)
+const SCRIPT_TIMEOUT_MS = 12 * 60 * 1000;
+// Maximum time for a single division scrape (90 seconds)
+const DIVISION_TIMEOUT_MS = 90 * 1000;
+
 class GitHubActionScraper {
   constructor() {
     this.scraper = new YSBAScraper();
@@ -30,6 +35,13 @@ class GitHubActionScraper {
     this.emailService = new EmailService();
     this.aiStoryService = new AIStoryService();
     this.startTime = Date.now();
+
+    // Set up script-level timeout failsafe
+    this.scriptTimeout = setTimeout(() => {
+      console.error('❌ SCRIPT TIMEOUT: Scraper exceeded maximum time limit');
+      console.error(`   Script has been running for ${(Date.now() - this.startTime) / 1000}s`);
+      process.exit(1);
+    }, SCRIPT_TIMEOUT_MS);
   }
 
   async run() {
@@ -57,16 +69,20 @@ class GitHubActionScraper {
         
         try {
           console.log(`📊 ${progress} Scraping ${division}/${tier}...`);
-          
-          // Scrape with retry logic
-          const [standingsData, scheduleData] = await Promise.all([
-            this.scrapeWithRetry(() => 
-              this.scraper.scrapeStandingsForDivision(division, tier)
-            ),
-            this.scrapeWithRetry(() => 
-              this.scraper.scrapeScheduleForDivision(division, tier)
-            )
-          ]);
+
+          // Scrape with retry logic and per-division timeout
+          const [standingsData, scheduleData] = await this.withTimeout(
+            Promise.all([
+              this.scrapeWithRetry(() =>
+                this.scraper.scrapeStandingsForDivision(division, tier)
+              ),
+              this.scrapeWithRetry(() =>
+                this.scraper.scrapeScheduleForDivision(division, tier)
+              )
+            ]),
+            DIVISION_TIMEOUT_MS,
+            `Division ${division}/${tier} timed out after ${DIVISION_TIMEOUT_MS / 1000}s`
+          );
           
           const divisionKey = `${division}-${tier}`;
           allDivisionData[divisionKey] = {
@@ -151,19 +167,22 @@ class GitHubActionScraper {
         }
         
         const duration = Date.now() - this.startTime;
-        
+
+        // Clear the script timeout since we finished successfully
+        clearTimeout(this.scriptTimeout);
+
         console.log('\n✅ GitHub Actions Scraper Completed Successfully!');
         console.log(`📊 Results: ${successCount} success, ${errorCount} errors`);
         console.log(`⏱️  Duration: ${(duration / 1000).toFixed(1)}s`);
         console.log(`📄 Files written to public/ and data/ directories`);
-        
+
         if (errorCount > 0) {
           console.log('\n⚠️  Some divisions failed:');
           errors.forEach(({ division, tier, error }) => {
             console.log(`   • ${division}/${tier}: ${error}`);
           });
         }
-        
+
         process.exit(0);
         
       } else {
@@ -171,14 +190,17 @@ class GitHubActionScraper {
       }
       
     } catch (error) {
+      // Clear the script timeout
+      clearTimeout(this.scriptTimeout);
+
       console.error('\n❌ GitHub Actions Scraper Failed!');
       console.error('Error:', error.message);
-      
+
       await this.writer.writeErrorLog(error, {
         source: 'GitHub Actions',
         totalDivisions: this.getDivisionsToScrape().length
       });
-      
+
       process.exit(1);
     } finally {
       await this.scraper.cleanup();
@@ -220,6 +242,23 @@ class GitHubActionScraper {
 
   async sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
+  }
+
+  // Timeout wrapper for async operations
+  async withTimeout(promise, timeoutMs, errorMessage) {
+    let timeoutId;
+    const timeoutPromise = new Promise((_, reject) => {
+      timeoutId = setTimeout(() => reject(new Error(errorMessage)), timeoutMs);
+    });
+
+    try {
+      const result = await Promise.race([promise, timeoutPromise]);
+      clearTimeout(timeoutId);
+      return result;
+    } catch (error) {
+      clearTimeout(timeoutId);
+      throw error;
+    }
   }
 
   async loadPreviousStandings() {
