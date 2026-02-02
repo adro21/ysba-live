@@ -1,12 +1,18 @@
 {
   "source": "GitHub Actions",
-  "successCount": 52,
-  "errorCount": 0,
-  "errors": [],
-  "divisionsScraped": 52,
+  "successCount": 51,
+  "errorCount": 1,
+  "errors": [
+    {
+      "division": "8U-rep",
+      "tier": "no-tier",
+      "error": "Navigation timeout of 45000 ms exceeded"
+    }
+  ],
+  "divisionsScraped": 51,
   "totalDivisions": 52,
-  "duration": 371972,
-  "generatedAt": "2026-02-02T08:41:53.849Z",
+  "duration": 5181476,
+  "generatedAt": "2026-02-02T11:06:27.817Z",
   "worker": {
     "version": "1.0.0",
     "nodeVersion": "v18.20.8",
