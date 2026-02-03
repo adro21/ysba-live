@@ -21,10 +21,18 @@ const config = require('../config');
 const fs = require('fs').promises;
 const path = require('path');
 
-// Maximum time for the entire script (12 minutes to leave buffer for git operations)
-const SCRIPT_TIMEOUT_MS = 12 * 60 * 1000;
-// Maximum time for a single division scrape (90 seconds)
-const DIVISION_TIMEOUT_MS = 90 * 1000;
+// Maximum time for the entire script (10 minutes to leave buffer for git operations)
+const SCRIPT_TIMEOUT_MS = 10 * 60 * 1000;
+// Time to reserve for file writing and cleanup (60 seconds)
+const RESERVED_TIME_MS = 60 * 1000;
+// Maximum time for a single division scrape - standings only (45 seconds)
+const STANDINGS_TIMEOUT_MS = 45 * 1000;
+// Maximum time for schedule scrape (30 seconds) - schedule is optional
+const SCHEDULE_TIMEOUT_MS = 30 * 1000;
+// Circuit breaker: abort if this many consecutive failures
+const CIRCUIT_BREAKER_THRESHOLD = 3;
+// Navigation timeout - reduced from 60s since YSBA is either fast or down
+const NAVIGATION_TIMEOUT_MS = 30 * 1000;
 
 class GitHubActionScraper {
   constructor() {
@@ -35,6 +43,8 @@ class GitHubActionScraper {
     this.emailService = new EmailService();
     this.aiStoryService = new AIStoryService();
     this.startTime = Date.now();
+    this.consecutiveFailures = 0;
+    this.circuitBroken = false;
 
     // Set up script-level timeout failsafe
     this.scriptTimeout = setTimeout(() => {
@@ -42,6 +52,18 @@ class GitHubActionScraper {
       console.error(`   Script has been running for ${(Date.now() - this.startTime) / 1000}s`);
       process.exit(1);
     }, SCRIPT_TIMEOUT_MS);
+  }
+
+  // Check if we have enough time remaining to continue
+  hasTimeRemaining() {
+    const elapsed = Date.now() - this.startTime;
+    const remaining = SCRIPT_TIMEOUT_MS - elapsed - RESERVED_TIME_MS;
+    return remaining > STANDINGS_TIMEOUT_MS;
+  }
+
+  getRemainingTime() {
+    const elapsed = Date.now() - this.startTime;
+    return Math.max(0, SCRIPT_TIMEOUT_MS - elapsed - RESERVED_TIME_MS);
   }
 
   async run() {
@@ -62,46 +84,92 @@ class GitHubActionScraper {
       let errorCount = 0;
       const errors = [];
 
-      // Scrape each division
+      // Scrape each division with circuit breaker and time budget
       for (let i = 0; i < divisionsToScrape.length; i++) {
         const { division, tier } = divisionsToScrape[i];
         const progress = `(${i + 1}/${divisionsToScrape.length})`;
-        
-        try {
-          console.log(`📊 ${progress} Scraping ${division}/${tier}...`);
 
-          // Scrape with retry logic and per-division timeout
-          const [standingsData, scheduleData] = await this.withTimeout(
-            Promise.all([
+        // Check circuit breaker
+        if (this.circuitBroken) {
+          console.log(`⚡ ${progress} Skipping ${division}/${tier} - circuit breaker tripped`);
+          errors.push({ division, tier, error: 'Skipped due to circuit breaker' });
+          continue;
+        }
+
+        // Check time budget
+        if (!this.hasTimeRemaining()) {
+          console.log(`⏰ ${progress} Skipping ${division}/${tier} - time budget exhausted (${Math.round(this.getRemainingTime() / 1000)}s remaining)`);
+          errors.push({ division, tier, error: 'Skipped due to time budget' });
+          continue;
+        }
+
+        try {
+          console.log(`📊 ${progress} Scraping ${division}/${tier}... (${Math.round(this.getRemainingTime() / 1000)}s remaining)`);
+
+          // SEQUENTIAL scraping: standings first (critical), then schedule (optional)
+          // This prevents queue buildup when YSBA is slow
+
+          // 1. Scrape standings (required)
+          let standingsData;
+          try {
+            standingsData = await this.withTimeout(
               this.scrapeWithRetry(() =>
-                this.scraper.scrapeStandingsForDivision(division, tier)
+                this.scraper.scrapeStandingsForDivision(division, tier),
+                2 // Only 2 retries for faster failure
               ),
+              STANDINGS_TIMEOUT_MS,
+              `Standings timeout after ${STANDINGS_TIMEOUT_MS / 1000}s`
+            );
+          } catch (standingsError) {
+            // Standings failed - this is a critical failure
+            throw new Error(`Standings failed: ${standingsError.message}`);
+          }
+
+          // 2. Scrape schedule (optional - don't fail the whole division if this fails)
+          let scheduleData = null;
+          try {
+            scheduleData = await this.withTimeout(
               this.scrapeWithRetry(() =>
-                this.scraper.scrapeScheduleForDivision(division, tier)
-              )
-            ]),
-            DIVISION_TIMEOUT_MS,
-            `Division ${division}/${tier} timed out after ${DIVISION_TIMEOUT_MS / 1000}s`
-          );
-          
+                this.scraper.scrapeScheduleForDivision(division, tier),
+                1 // Only 1 retry for schedule - it's optional
+              ),
+              SCHEDULE_TIMEOUT_MS,
+              `Schedule timeout after ${SCHEDULE_TIMEOUT_MS / 1000}s`
+            );
+          } catch (scheduleError) {
+            console.log(`⚠️  ${progress} Schedule failed for ${division}/${tier}, continuing with standings only: ${scheduleError.message}`);
+            // Continue without schedule data - standings are more important
+          }
+
           const divisionKey = `${division}-${tier}`;
           allDivisionData[divisionKey] = {
             standings: standingsData,
             schedule: scheduleData
           };
-          
+
           successCount++;
-          console.log(`✅ ${progress} ${division}/${tier} completed`);
-          
+          this.consecutiveFailures = 0; // Reset circuit breaker counter on success
+          console.log(`✅ ${progress} ${division}/${tier} completed${scheduleData ? '' : ' (standings only)'}`);
+
           // Small delay between divisions
           if (i < divisionsToScrape.length - 1) {
-            await this.sleep(1000);
+            await this.sleep(500);
           }
-          
+
         } catch (error) {
           errorCount++;
+          this.consecutiveFailures++;
           errors.push({ division, tier, error: error.message });
           console.error(`❌ ${progress} ${division}/${tier} failed:`, error.message);
+
+          // Check circuit breaker threshold
+          if (this.consecutiveFailures >= CIRCUIT_BREAKER_THRESHOLD) {
+            console.error(`\n⚡ CIRCUIT BREAKER TRIPPED: ${CIRCUIT_BREAKER_THRESHOLD} consecutive failures`);
+            console.error(`   YSBA website appears to be down or unresponsive`);
+            console.error(`   Aborting remaining divisions to save time\n`);
+            this.circuitBroken = true;
+          }
+
           continue;
         }
       }
@@ -176,11 +244,34 @@ class GitHubActionScraper {
         console.log(`⏱️  Duration: ${(duration / 1000).toFixed(1)}s`);
         console.log(`📄 Files written to public/ and data/ directories`);
 
+        if (this.circuitBroken) {
+          console.log('\n⚡ Note: Circuit breaker was triggered - some divisions were skipped');
+          console.log('   This usually means the YSBA website was temporarily unresponsive');
+        }
+
         if (errorCount > 0) {
-          console.log('\n⚠️  Some divisions failed:');
-          errors.forEach(({ division, tier, error }) => {
-            console.log(`   • ${division}/${tier}: ${error}`);
-          });
+          // Categorize errors
+          const skippedCircuit = errors.filter(e => e.error.includes('circuit breaker'));
+          const skippedTime = errors.filter(e => e.error.includes('time budget'));
+          const actualFailures = errors.filter(e => !e.error.includes('circuit breaker') && !e.error.includes('time budget'));
+
+          if (actualFailures.length > 0) {
+            console.log(`\n⚠️  ${actualFailures.length} divisions failed:`);
+            actualFailures.slice(0, 5).forEach(({ division, tier, error }) => {
+              console.log(`   • ${division}/${tier}: ${error}`);
+            });
+            if (actualFailures.length > 5) {
+              console.log(`   ... and ${actualFailures.length - 5} more`);
+            }
+          }
+
+          if (skippedCircuit.length > 0) {
+            console.log(`\n⚡ ${skippedCircuit.length} divisions skipped (circuit breaker)`);
+          }
+
+          if (skippedTime.length > 0) {
+            console.log(`\n⏰ ${skippedTime.length} divisions skipped (time budget)`);
+          }
         }
 
         process.exit(0);
@@ -219,24 +310,33 @@ class GitHubActionScraper {
     return divisions;
   }
 
-  async scrapeWithRetry(scrapeFunction, maxRetries = 3) {
+  async scrapeWithRetry(scrapeFunction, maxRetries = 2) {
     let lastError;
-    
+    const startTime = Date.now();
+
     for (let attempt = 1; attempt <= maxRetries; attempt++) {
       try {
         return await scrapeFunction();
       } catch (error) {
         lastError = error;
-        console.log(`⚠️  Attempt ${attempt}/${maxRetries} failed: ${error.message}`);
-        
+        const elapsed = Date.now() - startTime;
+        console.log(`⚠️  Attempt ${attempt}/${maxRetries} failed after ${Math.round(elapsed / 1000)}s: ${error.message}`);
+
+        // If the error happened very quickly (< 5s), it's likely a network/DNS issue
+        // Don't bother retrying - the site is probably down
+        if (elapsed < 5000 && error.message.includes('net::')) {
+          console.log(`🚫 Fast failure detected (network error) - skipping retries`);
+          break;
+        }
+
         if (attempt < maxRetries) {
-          const delay = attempt * 2000;
+          const delay = attempt * 1500; // Slightly shorter delays
           console.log(`⏳ Retrying in ${delay/1000}s...`);
           await this.sleep(delay);
         }
       }
     }
-    
+
     throw lastError;
   }
 

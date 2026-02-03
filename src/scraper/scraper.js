@@ -24,6 +24,23 @@ class YSBAScraper {
     this.browser = null;
     this.isBrowserBusy = false;
     this.browserOperationQueue = [];
+    this.consecutiveBrowserErrors = 0;
+    this.maxConsecutiveErrors = 2;
+  }
+
+  // Force restart the browser if it's in a bad state
+  async restartBrowser() {
+    console.log('🔄 Restarting browser due to errors...');
+    if (this.browser) {
+      try {
+        await this.browser.close();
+      } catch (e) {
+        // Ignore close errors
+      }
+      this.browser = null;
+    }
+    this.consecutiveBrowserErrors = 0;
+    return await this.initBrowser();
   }
 
   async initBrowser() {
@@ -75,22 +92,35 @@ class YSBAScraper {
     if (this.isBrowserBusy || this.browserOperationQueue.length === 0) {
       return;
     }
-    
+
     this.isBrowserBusy = true;
-    
+
     while (this.browserOperationQueue.length > 0) {
       const { operation, operationName, resolve, reject } = this.browserOperationQueue.shift();
-      
+
       try {
         console.log(`🔄 Executing browser operation: ${operationName}`);
         const result = await operation();
+        this.consecutiveBrowserErrors = 0; // Reset on success
         resolve(result);
       } catch (error) {
         console.error(`❌ Browser operation failed: ${operationName}:`, error.message);
+        this.consecutiveBrowserErrors++;
+
+        // If we've had too many consecutive errors, restart browser for next operation
+        if (this.consecutiveBrowserErrors >= this.maxConsecutiveErrors) {
+          console.log(`⚠️  ${this.consecutiveBrowserErrors} consecutive browser errors - will restart browser`);
+          try {
+            await this.restartBrowser();
+          } catch (restartError) {
+            console.error('Failed to restart browser:', restartError.message);
+          }
+        }
+
         reject(error);
       }
     }
-    
+
     this.isBrowserBusy = false;
   }
 
@@ -133,9 +163,11 @@ class YSBAScraper {
         }
 
         console.log('Navigating to YSBA standings page...');
-        await page.goto(config.YSBA_URL, { 
+        // Use shorter timeout - YSBA is either responsive (< 15s) or completely down
+        const navigationTimeout = isProduction ? 30000 : config.REQUEST_TIMEOUT;
+        await page.goto(config.YSBA_URL, {
           waitUntil: isProduction ? 'domcontentloaded' : 'networkidle2',
-          timeout: config.REQUEST_TIMEOUT 
+          timeout: navigationTimeout
         });
 
         await page.waitForSelector('select[name="ddlDivision"]', { timeout: 10000 });
@@ -324,9 +356,10 @@ class YSBAScraper {
         await page.setViewport({ width: 1366, height: 768 });
 
         console.log('Navigating to YSBA schedule page...');
-        const navigationTimeout = isProduction ? 45000 : config.REQUEST_TIMEOUT;
-        
-        await page.goto('https://www.yorksimcoebaseball.com/Club/xScheduleMM.aspx', { 
+        // Use shorter timeout - YSBA is either responsive (< 15s) or completely down
+        const navigationTimeout = isProduction ? 25000 : config.REQUEST_TIMEOUT;
+
+        await page.goto('https://www.yorksimcoebaseball.com/Club/xScheduleMM.aspx', {
           waitUntil: isProduction ? 'domcontentloaded' : 'networkidle2',
           timeout: navigationTimeout
         });
