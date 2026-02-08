@@ -277,7 +277,21 @@ class GitHubActionScraper {
         process.exit(0);
         
       } else {
-        throw new Error(`All ${divisionsToScrape.length} division scrapes failed`);
+        // Clear the script timeout
+        clearTimeout(this.scriptTimeout);
+
+        if (this.circuitBroken) {
+          // Circuit breaker tripped = YSBA site is down. This is not our fault.
+          // Exit gracefully so GitHub Actions doesn't send failure emails.
+          // Previous data files are still valid and being served.
+          console.log('\n⚡ YSBA website appears to be down or unresponsive');
+          console.log('   Circuit breaker tripped - no data could be scraped');
+          console.log('   Previous data files remain valid. Exiting gracefully.');
+          console.log(`⏱️  Duration: ${((Date.now() - this.startTime) / 1000).toFixed(1)}s`);
+          process.exit(0);
+        } else {
+          throw new Error(`All ${divisionsToScrape.length} division scrapes failed`);
+        }
       }
       
     } catch (error) {
