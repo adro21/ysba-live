@@ -105,6 +105,7 @@ Scraping operations use `withBrowserSession()` to coordinate Puppeteer instances
 - Sends email notifications for standings changes
 - Generates new stories when story-worthy events occur (first wins, hot streaks, etc.)
 - Generates JSON files that the application serves
+- **Circuit breaker**: After 3 consecutive scrape failures, assumes the YSBA site is down and exits gracefully (code 0) to avoid GitHub Actions failure emails. Previous data files remain valid.
 
 ## Key API Endpoints
 
