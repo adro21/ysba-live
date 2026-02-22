@@ -1,12 +1,18 @@
 {
   "source": "GitHub Actions",
-  "successCount": 52,
-  "errorCount": 0,
-  "errors": [],
-  "divisionsScraped": 52,
+  "successCount": 51,
+  "errorCount": 1,
+  "errors": [
+    {
+      "division": "8U-rep",
+      "tier": "no-tier",
+      "error": "Standings failed: net::ERR_NETWORK_CHANGED at https://www.yorksimcoebaseball.com/Club/xStanding.aspx"
+    }
+  ],
+  "divisionsScraped": 51,
   "totalDivisions": 52,
-  "duration": 358403,
-  "generatedAt": "2026-02-22T22:23:35.531Z",
+  "duration": 361361,
+  "generatedAt": "2026-02-22T22:55:35.747Z",
   "worker": {
     "version": "1.0.0",
     "nodeVersion": "v18.20.8",
