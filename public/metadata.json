@@ -1,12 +1,18 @@
 {
   "source": "GitHub Actions",
-  "successCount": 52,
-  "errorCount": 0,
-  "errors": [],
-  "divisionsScraped": 52,
+  "successCount": 51,
+  "errorCount": 1,
+  "errors": [
+    {
+      "division": "13U-rep",
+      "tier": "tier-1",
+      "error": "Standings failed: Waiting for selector `select[name=\"ddlDivision\"]` failed: Waiting failed: 10000ms exceeded"
+    }
+  ],
+  "divisionsScraped": 51,
   "totalDivisions": 52,
-  "duration": 368677,
-  "generatedAt": "2026-03-20T01:34:52.008Z",
+  "duration": 362242,
+  "generatedAt": "2026-03-20T04:01:20.067Z",
   "worker": {
     "version": "1.0.0",
     "nodeVersion": "v18.20.8",
