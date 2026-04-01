@@ -1,12 +1,18 @@
 {
   "source": "GitHub Actions",
-  "successCount": 52,
-  "errorCount": 0,
-  "errors": [],
-  "divisionsScraped": 52,
+  "successCount": 51,
+  "errorCount": 1,
+  "errors": [
+    {
+      "division": "13U-rep",
+      "tier": "tier-2",
+      "error": "Standings failed: Standings timeout after 45s"
+    }
+  ],
+  "divisionsScraped": 51,
   "totalDivisions": 52,
-  "duration": 354106,
-  "generatedAt": "2026-04-01T05:16:13.474Z",
+  "duration": 409983,
+  "generatedAt": "2026-04-01T07:04:17.026Z",
   "worker": {
     "version": "1.0.0",
     "nodeVersion": "v18.20.8",
