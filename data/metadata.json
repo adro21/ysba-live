@@ -1,88 +1,12 @@
 {
   "source": "GitHub Actions",
-  "successCount": 37,
-  "errorCount": 3,
-  "errors": [
-    {
-      "division": "18U-rep",
-      "tier": "tier-1",
-      "error": "Standings failed: Standings timeout after 45s"
-    },
-    {
-      "division": "18U-rep",
-      "tier": "tier-2",
-      "error": "Standings failed: Standings timeout after 45s"
-    },
-    {
-      "division": "18U-rep",
-      "tier": "tier-3",
-      "error": "Standings failed: Standings timeout after 45s"
-    },
-    {
-      "division": "22U-rep",
-      "tier": "no-tier",
-      "error": "Skipped due to circuit breaker"
-    },
-    {
-      "division": "22U-rep",
-      "tier": "tier-1",
-      "error": "Skipped due to circuit breaker"
-    },
-    {
-      "division": "22U-rep",
-      "tier": "tier-2",
-      "error": "Skipped due to circuit breaker"
-    },
-    {
-      "division": "22U-rep",
-      "tier": "tier-3",
-      "error": "Skipped due to circuit breaker"
-    },
-    {
-      "division": "senior-rep",
-      "tier": "no-tier",
-      "error": "Skipped due to circuit breaker"
-    },
-    {
-      "division": "senior-rep",
-      "tier": "tier-1",
-      "error": "Skipped due to circuit breaker"
-    },
-    {
-      "division": "senior-rep",
-      "tier": "tier-2",
-      "error": "Skipped due to circuit breaker"
-    },
-    {
-      "division": "senior-rep",
-      "tier": "tier-3",
-      "error": "Skipped due to circuit breaker"
-    },
-    {
-      "division": "9U-select",
-      "tier": "all-tiers",
-      "error": "Skipped due to circuit breaker"
-    },
-    {
-      "division": "11U-select",
-      "tier": "all-tiers",
-      "error": "Skipped due to circuit breaker"
-    },
-    {
-      "division": "13U-select",
-      "tier": "all-tiers",
-      "error": "Skipped due to circuit breaker"
-    },
-    {
-      "division": "15U-select",
-      "tier": "all-tiers",
-      "error": "Skipped due to circuit breaker"
-    }
-  ],
-  "divisionsScraped": 37,
+  "successCount": 52,
+  "errorCount": 0,
+  "errors": [],
+  "divisionsScraped": 52,
   "totalDivisions": 52,
-  "duration": 414882,
-  "generatedAt": "2026-04-15T11:58:54.364Z",
+  "duration": 348504,
+  "generatedAt": "2026-04-15T13:16:28.269Z",
   "worker": {
     "version": "1.0.0",
     "nodeVersion": "v18.20.8",
