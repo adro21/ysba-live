@@ -1,24 +1,1074 @@
 {
   "standings": {
-    "teams": [],
-    "lastUpdated": "2026-04-22T17:35:23.794Z",
-    "totalTeams": 0
+    "teams": [
+      {
+        "position": 1,
+        "team": "Barrie Baycats 15U DS",
+        "teamCode": "unknown-1",
+        "record": {
+          "gamesPlayed": 0,
+          "wins": 0,
+          "losses": 0,
+          "ties": 0,
+          "winPercentage": ".000"
+        },
+        "stats": {
+          "points": 0,
+          "runsFor": 0,
+          "runsAgainst": 0,
+          "runDifferential": 0
+        }
+      },
+      {
+        "position": 2,
+        "team": "Markham Mariners 15U DS",
+        "teamCode": "unknown-2",
+        "record": {
+          "gamesPlayed": 0,
+          "wins": 0,
+          "losses": 0,
+          "ties": 0,
+          "winPercentage": ".000"
+        },
+        "stats": {
+          "points": 0,
+          "runsFor": 0,
+          "runsAgainst": 0,
+          "runDifferential": 0
+        }
+      },
+      {
+        "position": 3,
+        "team": "New Lowell Knights 15U DS",
+        "teamCode": "unknown-3",
+        "record": {
+          "gamesPlayed": 0,
+          "wins": 0,
+          "losses": 0,
+          "ties": 0,
+          "winPercentage": ".000"
+        },
+        "stats": {
+          "points": 0,
+          "runsFor": 0,
+          "runsAgainst": 0,
+          "runDifferential": 0
+        }
+      },
+      {
+        "position": 4,
+        "team": "Newmarket Hawks 15U DS",
+        "teamCode": "unknown-4",
+        "record": {
+          "gamesPlayed": 0,
+          "wins": 0,
+          "losses": 0,
+          "ties": 0,
+          "winPercentage": ".000"
+        },
+        "stats": {
+          "points": 0,
+          "runsFor": 0,
+          "runsAgainst": 0,
+          "runDifferential": 0
+        }
+      },
+      {
+        "position": 5,
+        "team": "Thornhill Reds 15U DS",
+        "teamCode": "unknown-5",
+        "record": {
+          "gamesPlayed": 0,
+          "wins": 0,
+          "losses": 0,
+          "ties": 0,
+          "winPercentage": ".000"
+        },
+        "stats": {
+          "points": 0,
+          "runsFor": 0,
+          "runsAgainst": 0,
+          "runDifferential": 0
+        }
+      }
+    ],
+    "lastUpdated": "2026-04-22T20:34:05.161Z",
+    "totalTeams": 5
   },
   "schedule": {
-    "teamSchedules": {},
-    "allGames": [],
+    "teamSchedules": {
+      "612800": {
+        "teamCode": "612800",
+        "totalGames": 16,
+        "playedGames": 0,
+        "upcomingGames": 16,
+        "recentGames": [],
+        "nextGames": [
+          {
+            "date": "2026-05-09T12:00:00.000Z",
+            "dateText": "Sat, May 9",
+            "time": "12:00 PM",
+            "homeTeam": "Newmarket Hawks 15U DS",
+            "homeTeamCode": "617919",
+            "awayTeam": "Barrie Baycats 15U DS",
+            "awayTeamCode": "612800",
+            "location": "Whipper Billy Watson",
+            "isCompleted": false,
+            "score": null
+          },
+          {
+            "date": "2026-05-09T14:30:00.000Z",
+            "dateText": "Sat, May 9",
+            "time": "2:30 PM",
+            "homeTeam": "Newmarket Hawks 15U DS",
+            "homeTeamCode": "617919",
+            "awayTeam": "Barrie Baycats 15U DS",
+            "awayTeamCode": "612800",
+            "location": "Whipper Billy Watson",
+            "isCompleted": false,
+            "score": null
+          },
+          {
+            "date": "2026-05-16T12:00:00.000Z",
+            "dateText": "Sat, May 16",
+            "time": "12:00 PM",
+            "homeTeam": "Barrie Baycats 15U DS",
+            "homeTeamCode": "612800",
+            "awayTeam": "Markham Mariners 15U DS",
+            "awayTeamCode": "617895",
+            "location": "Lennox Park",
+            "isCompleted": false,
+            "score": null
+          },
+          {
+            "date": "2026-05-16T14:30:00.000Z",
+            "dateText": "Sat, May 16",
+            "time": "2:30 PM",
+            "homeTeam": "Barrie Baycats 15U DS",
+            "homeTeamCode": "612800",
+            "awayTeam": "Markham Mariners 15U DS",
+            "awayTeamCode": "617895",
+            "location": "Lennox Park",
+            "isCompleted": false,
+            "score": null
+          },
+          {
+            "date": "2026-05-23T12:00:00.000Z",
+            "dateText": "Sat, May 23",
+            "time": "12:00 PM",
+            "homeTeam": "Barrie Baycats 15U DS",
+            "homeTeamCode": "612800",
+            "awayTeam": "Newmarket Hawks 15U DS",
+            "awayTeamCode": "617919",
+            "location": "Lennox Park",
+            "isCompleted": false,
+            "score": null
+          }
+        ],
+        "lastUpdated": "2026-04-22T20:34:07.933Z"
+      },
+      "617895": {
+        "teamCode": "617895",
+        "totalGames": 16,
+        "playedGames": 0,
+        "upcomingGames": 16,
+        "recentGames": [],
+        "nextGames": [
+          {
+            "date": "2026-05-16T12:00:00.000Z",
+            "dateText": "Sat, May 16",
+            "time": "12:00 PM",
+            "homeTeam": "Barrie Baycats 15U DS",
+            "homeTeamCode": "612800",
+            "awayTeam": "Markham Mariners 15U DS",
+            "awayTeamCode": "617895",
+            "location": "Lennox Park",
+            "isCompleted": false,
+            "score": null
+          },
+          {
+            "date": "2026-05-16T14:30:00.000Z",
+            "dateText": "Sat, May 16",
+            "time": "2:30 PM",
+            "homeTeam": "Barrie Baycats 15U DS",
+            "homeTeamCode": "612800",
+            "awayTeam": "Markham Mariners 15U DS",
+            "awayTeamCode": "617895",
+            "location": "Lennox Park",
+            "isCompleted": false,
+            "score": null
+          },
+          {
+            "date": "2026-05-23T10:00:00.000Z",
+            "dateText": "Sat, May 23",
+            "time": "10:00 AM",
+            "homeTeam": "Markham Mariners 15U DS",
+            "homeTeamCode": "617895",
+            "awayTeam": "Thornhill Reds 15U DS",
+            "awayTeamCode": "618002",
+            "location": "Cornell",
+            "isCompleted": false,
+            "score": null
+          },
+          {
+            "date": "2026-05-23T13:00:00.000Z",
+            "dateText": "Sat, May 23",
+            "time": "1:00 PM",
+            "homeTeam": "Markham Mariners 15U DS",
+            "homeTeamCode": "617895",
+            "awayTeam": "Thornhill Reds 15U DS",
+            "awayTeamCode": "618002",
+            "location": "Cornell",
+            "isCompleted": false,
+            "score": null
+          },
+          {
+            "date": "2026-05-31T15:30:00.000Z",
+            "dateText": "Sun, May 31",
+            "time": "3:30 PM",
+            "homeTeam": "New Lowell Knights 15U DS",
+            "homeTeamCode": "618070",
+            "awayTeam": "Markham Mariners 15U DS",
+            "awayTeamCode": "617895",
+            "location": "New Lowell",
+            "isCompleted": false,
+            "score": null
+          }
+        ],
+        "lastUpdated": "2026-04-22T20:34:07.933Z"
+      },
+      "617919": {
+        "teamCode": "617919",
+        "totalGames": 16,
+        "playedGames": 0,
+        "upcomingGames": 16,
+        "recentGames": [],
+        "nextGames": [
+          {
+            "date": "2026-05-09T12:00:00.000Z",
+            "dateText": "Sat, May 9",
+            "time": "12:00 PM",
+            "homeTeam": "Newmarket Hawks 15U DS",
+            "homeTeamCode": "617919",
+            "awayTeam": "Barrie Baycats 15U DS",
+            "awayTeamCode": "612800",
+            "location": "Whipper Billy Watson",
+            "isCompleted": false,
+            "score": null
+          },
+          {
+            "date": "2026-05-09T14:30:00.000Z",
+            "dateText": "Sat, May 9",
+            "time": "2:30 PM",
+            "homeTeam": "Newmarket Hawks 15U DS",
+            "homeTeamCode": "617919",
+            "awayTeam": "Barrie Baycats 15U DS",
+            "awayTeamCode": "612800",
+            "location": "Whipper Billy Watson",
+            "isCompleted": false,
+            "score": null
+          },
+          {
+            "date": "2026-05-16T12:00:00.000Z",
+            "dateText": "Sat, May 16",
+            "time": "12:00 PM",
+            "homeTeam": "Newmarket Hawks 15U DS",
+            "homeTeamCode": "617919",
+            "awayTeam": "Thornhill Reds 15U DS",
+            "awayTeamCode": "618002",
+            "location": "Whipper Billy Watson",
+            "isCompleted": false,
+            "score": null
+          },
+          {
+            "date": "2026-05-16T14:30:00.000Z",
+            "dateText": "Sat, May 16",
+            "time": "2:30 PM",
+            "homeTeam": "Newmarket Hawks 15U DS",
+            "homeTeamCode": "617919",
+            "awayTeam": "Thornhill Reds 15U DS",
+            "awayTeamCode": "618002",
+            "location": "Whipper Billy Watson",
+            "isCompleted": false,
+            "score": null
+          },
+          {
+            "date": "2026-05-23T12:00:00.000Z",
+            "dateText": "Sat, May 23",
+            "time": "12:00 PM",
+            "homeTeam": "Barrie Baycats 15U DS",
+            "homeTeamCode": "612800",
+            "awayTeam": "Newmarket Hawks 15U DS",
+            "awayTeamCode": "617919",
+            "location": "Lennox Park",
+            "isCompleted": false,
+            "score": null
+          }
+        ],
+        "lastUpdated": "2026-04-22T20:34:07.933Z"
+      },
+      "618002": {
+        "teamCode": "618002",
+        "totalGames": 16,
+        "playedGames": 0,
+        "upcomingGames": 16,
+        "recentGames": [],
+        "nextGames": [
+          {
+            "date": "2026-05-09T10:00:00.000Z",
+            "dateText": "Sat, May 9",
+            "time": "10:00 AM",
+            "homeTeam": "Thornhill Reds 15U DS",
+            "homeTeamCode": "618002",
+            "awayTeam": "New Lowell Knights 15U DS",
+            "awayTeamCode": "618070",
+            "location": "Thornhill Park",
+            "isCompleted": false,
+            "score": null
+          },
+          {
+            "date": "2026-05-09T12:30:00.000Z",
+            "dateText": "Sat, May 9",
+            "time": "12:30 PM",
+            "homeTeam": "Thornhill Reds 15U DS",
+            "homeTeamCode": "618002",
+            "awayTeam": "New Lowell Knights 15U DS",
+            "awayTeamCode": "618070",
+            "location": "Thornhill Park",
+            "isCompleted": false,
+            "score": null
+          },
+          {
+            "date": "2026-05-16T12:00:00.000Z",
+            "dateText": "Sat, May 16",
+            "time": "12:00 PM",
+            "homeTeam": "Newmarket Hawks 15U DS",
+            "homeTeamCode": "617919",
+            "awayTeam": "Thornhill Reds 15U DS",
+            "awayTeamCode": "618002",
+            "location": "Whipper Billy Watson",
+            "isCompleted": false,
+            "score": null
+          },
+          {
+            "date": "2026-05-16T14:30:00.000Z",
+            "dateText": "Sat, May 16",
+            "time": "2:30 PM",
+            "homeTeam": "Newmarket Hawks 15U DS",
+            "homeTeamCode": "617919",
+            "awayTeam": "Thornhill Reds 15U DS",
+            "awayTeamCode": "618002",
+            "location": "Whipper Billy Watson",
+            "isCompleted": false,
+            "score": null
+          },
+          {
+            "date": "2026-05-23T10:00:00.000Z",
+            "dateText": "Sat, May 23",
+            "time": "10:00 AM",
+            "homeTeam": "Markham Mariners 15U DS",
+            "homeTeamCode": "617895",
+            "awayTeam": "Thornhill Reds 15U DS",
+            "awayTeamCode": "618002",
+            "location": "Cornell",
+            "isCompleted": false,
+            "score": null
+          }
+        ],
+        "lastUpdated": "2026-04-22T20:34:07.933Z"
+      },
+      "618070": {
+        "teamCode": "618070",
+        "totalGames": 16,
+        "playedGames": 0,
+        "upcomingGames": 16,
+        "recentGames": [],
+        "nextGames": [
+          {
+            "date": "2026-05-09T10:00:00.000Z",
+            "dateText": "Sat, May 9",
+            "time": "10:00 AM",
+            "homeTeam": "Thornhill Reds 15U DS",
+            "homeTeamCode": "618002",
+            "awayTeam": "New Lowell Knights 15U DS",
+            "awayTeamCode": "618070",
+            "location": "Thornhill Park",
+            "isCompleted": false,
+            "score": null
+          },
+          {
+            "date": "2026-05-09T12:30:00.000Z",
+            "dateText": "Sat, May 9",
+            "time": "12:30 PM",
+            "homeTeam": "Thornhill Reds 15U DS",
+            "homeTeamCode": "618002",
+            "awayTeam": "New Lowell Knights 15U DS",
+            "awayTeamCode": "618070",
+            "location": "Thornhill Park",
+            "isCompleted": false,
+            "score": null
+          },
+          {
+            "date": "2026-05-31T15:30:00.000Z",
+            "dateText": "Sun, May 31",
+            "time": "3:30 PM",
+            "homeTeam": "New Lowell Knights 15U DS",
+            "homeTeamCode": "618070",
+            "awayTeam": "Markham Mariners 15U DS",
+            "awayTeamCode": "617895",
+            "location": "New Lowell",
+            "isCompleted": false,
+            "score": null
+          },
+          {
+            "date": "2026-05-31T18:00:00.000Z",
+            "dateText": "Sun, May 31",
+            "time": "6:00 PM",
+            "homeTeam": "New Lowell Knights 15U DS",
+            "homeTeamCode": "618070",
+            "awayTeam": "Markham Mariners 15U DS",
+            "awayTeamCode": "617895",
+            "location": "New Lowell",
+            "isCompleted": false,
+            "score": null
+          },
+          {
+            "date": "2026-06-13T12:00:00.000Z",
+            "dateText": "Sat, Jun 13",
+            "time": "12:00 PM",
+            "homeTeam": "Barrie Baycats 15U DS",
+            "homeTeamCode": "612800",
+            "awayTeam": "New Lowell Knights 15U DS",
+            "awayTeamCode": "618070",
+            "location": "Lennox Park",
+            "isCompleted": false,
+            "score": null
+          }
+        ],
+        "lastUpdated": "2026-04-22T20:34:07.933Z"
+      }
+    },
+    "allGames": [
+      {
+        "date": "2026-05-09T10:00:00.000Z",
+        "dateText": "Sat, May 9",
+        "time": "10:00 AM",
+        "homeTeam": "Thornhill Reds 15U DS",
+        "homeTeamCode": "618002",
+        "awayTeam": "New Lowell Knights 15U DS",
+        "awayTeamCode": "618070",
+        "location": "Thornhill Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-05-09T12:00:00.000Z",
+        "dateText": "Sat, May 9",
+        "time": "12:00 PM",
+        "homeTeam": "Newmarket Hawks 15U DS",
+        "homeTeamCode": "617919",
+        "awayTeam": "Barrie Baycats 15U DS",
+        "awayTeamCode": "612800",
+        "location": "Whipper Billy Watson",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-05-09T12:30:00.000Z",
+        "dateText": "Sat, May 9",
+        "time": "12:30 PM",
+        "homeTeam": "Thornhill Reds 15U DS",
+        "homeTeamCode": "618002",
+        "awayTeam": "New Lowell Knights 15U DS",
+        "awayTeamCode": "618070",
+        "location": "Thornhill Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-05-09T14:30:00.000Z",
+        "dateText": "Sat, May 9",
+        "time": "2:30 PM",
+        "homeTeam": "Newmarket Hawks 15U DS",
+        "homeTeamCode": "617919",
+        "awayTeam": "Barrie Baycats 15U DS",
+        "awayTeamCode": "612800",
+        "location": "Whipper Billy Watson",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-05-16T12:00:00.000Z",
+        "dateText": "Sat, May 16",
+        "time": "12:00 PM",
+        "homeTeam": "Newmarket Hawks 15U DS",
+        "homeTeamCode": "617919",
+        "awayTeam": "Thornhill Reds 15U DS",
+        "awayTeamCode": "618002",
+        "location": "Whipper Billy Watson",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-05-16T12:00:00.000Z",
+        "dateText": "Sat, May 16",
+        "time": "12:00 PM",
+        "homeTeam": "Barrie Baycats 15U DS",
+        "homeTeamCode": "612800",
+        "awayTeam": "Markham Mariners 15U DS",
+        "awayTeamCode": "617895",
+        "location": "Lennox Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-05-16T14:30:00.000Z",
+        "dateText": "Sat, May 16",
+        "time": "2:30 PM",
+        "homeTeam": "Barrie Baycats 15U DS",
+        "homeTeamCode": "612800",
+        "awayTeam": "Markham Mariners 15U DS",
+        "awayTeamCode": "617895",
+        "location": "Lennox Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-05-16T14:30:00.000Z",
+        "dateText": "Sat, May 16",
+        "time": "2:30 PM",
+        "homeTeam": "Newmarket Hawks 15U DS",
+        "homeTeamCode": "617919",
+        "awayTeam": "Thornhill Reds 15U DS",
+        "awayTeamCode": "618002",
+        "location": "Whipper Billy Watson",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-05-23T10:00:00.000Z",
+        "dateText": "Sat, May 23",
+        "time": "10:00 AM",
+        "homeTeam": "Markham Mariners 15U DS",
+        "homeTeamCode": "617895",
+        "awayTeam": "Thornhill Reds 15U DS",
+        "awayTeamCode": "618002",
+        "location": "Cornell",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-05-23T12:00:00.000Z",
+        "dateText": "Sat, May 23",
+        "time": "12:00 PM",
+        "homeTeam": "Barrie Baycats 15U DS",
+        "homeTeamCode": "612800",
+        "awayTeam": "Newmarket Hawks 15U DS",
+        "awayTeamCode": "617919",
+        "location": "Lennox Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-05-23T13:00:00.000Z",
+        "dateText": "Sat, May 23",
+        "time": "1:00 PM",
+        "homeTeam": "Markham Mariners 15U DS",
+        "homeTeamCode": "617895",
+        "awayTeam": "Thornhill Reds 15U DS",
+        "awayTeamCode": "618002",
+        "location": "Cornell",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-05-23T14:30:00.000Z",
+        "dateText": "Sat, May 23",
+        "time": "2:30 PM",
+        "homeTeam": "Barrie Baycats 15U DS",
+        "homeTeamCode": "612800",
+        "awayTeam": "Newmarket Hawks 15U DS",
+        "awayTeamCode": "617919",
+        "location": "Lennox Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-05-30T10:00:00.000Z",
+        "dateText": "Sat, May 30",
+        "time": "10:00 AM",
+        "homeTeam": "Thornhill Reds 15U DS",
+        "homeTeamCode": "618002",
+        "awayTeam": "Barrie Baycats 15U DS",
+        "awayTeamCode": "612800",
+        "location": "Thornhill Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-05-30T12:30:00.000Z",
+        "dateText": "Sat, May 30",
+        "time": "12:30 PM",
+        "homeTeam": "Thornhill Reds 15U DS",
+        "homeTeamCode": "618002",
+        "awayTeam": "Barrie Baycats 15U DS",
+        "awayTeamCode": "612800",
+        "location": "Thornhill Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-05-31T15:30:00.000Z",
+        "dateText": "Sun, May 31",
+        "time": "3:30 PM",
+        "homeTeam": "New Lowell Knights 15U DS",
+        "homeTeamCode": "618070",
+        "awayTeam": "Markham Mariners 15U DS",
+        "awayTeamCode": "617895",
+        "location": "New Lowell",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-05-31T18:00:00.000Z",
+        "dateText": "Sun, May 31",
+        "time": "6:00 PM",
+        "homeTeam": "New Lowell Knights 15U DS",
+        "homeTeamCode": "618070",
+        "awayTeam": "Markham Mariners 15U DS",
+        "awayTeamCode": "617895",
+        "location": "New Lowell",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-06-13T12:00:00.000Z",
+        "dateText": "Sat, Jun 13",
+        "time": "12:00 PM",
+        "homeTeam": "Barrie Baycats 15U DS",
+        "homeTeamCode": "612800",
+        "awayTeam": "New Lowell Knights 15U DS",
+        "awayTeamCode": "618070",
+        "location": "Lennox Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-06-13T12:00:00.000Z",
+        "dateText": "Sat, Jun 13",
+        "time": "12:00 PM",
+        "homeTeam": "Newmarket Hawks 15U DS",
+        "homeTeamCode": "617919",
+        "awayTeam": "Markham Mariners 15U DS",
+        "awayTeamCode": "617895",
+        "location": "Whipper Billy Watson",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-06-13T14:30:00.000Z",
+        "dateText": "Sat, Jun 13",
+        "time": "2:30 PM",
+        "homeTeam": "Newmarket Hawks 15U DS",
+        "homeTeamCode": "617919",
+        "awayTeam": "Markham Mariners 15U DS",
+        "awayTeamCode": "617895",
+        "location": "Whipper Billy Watson",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-06-13T14:30:00.000Z",
+        "dateText": "Sat, Jun 13",
+        "time": "2:30 PM",
+        "homeTeam": "Barrie Baycats 15U DS",
+        "homeTeamCode": "612800",
+        "awayTeam": "New Lowell Knights 15U DS",
+        "awayTeamCode": "618070",
+        "location": "Lennox Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-06-14T15:30:00.000Z",
+        "dateText": "Sun, Jun 14",
+        "time": "3:30 PM",
+        "homeTeam": "New Lowell Knights 15U DS",
+        "homeTeamCode": "618070",
+        "awayTeam": "Thornhill Reds 15U DS",
+        "awayTeamCode": "618002",
+        "location": "New Lowell",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-06-14T18:00:00.000Z",
+        "dateText": "Sun, Jun 14",
+        "time": "6:00 PM",
+        "homeTeam": "New Lowell Knights 15U DS",
+        "homeTeamCode": "618070",
+        "awayTeam": "Thornhill Reds 15U DS",
+        "awayTeamCode": "618002",
+        "location": "New Lowell",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-06-20T10:00:00.000Z",
+        "dateText": "Sat, Jun 20",
+        "time": "10:00 AM",
+        "homeTeam": "Markham Mariners 15U DS",
+        "homeTeamCode": "617895",
+        "awayTeam": "New Lowell Knights 15U DS",
+        "awayTeamCode": "618070",
+        "location": "Milliken",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-06-20T13:00:00.000Z",
+        "dateText": "Sat, Jun 20",
+        "time": "1:00 PM",
+        "homeTeam": "Markham Mariners 15U DS",
+        "homeTeamCode": "617895",
+        "awayTeam": "New Lowell Knights 15U DS",
+        "awayTeamCode": "618070",
+        "location": "Milliken",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-06-27T10:00:00.000Z",
+        "dateText": "Sat, Jun 27",
+        "time": "10:00 AM",
+        "homeTeam": "Markham Mariners 15U DS",
+        "homeTeamCode": "617895",
+        "awayTeam": "Barrie Baycats 15U DS",
+        "awayTeamCode": "612800",
+        "location": "Cornell",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-06-27T12:00:00.000Z",
+        "dateText": "Sat, Jun 27",
+        "time": "12:00 PM",
+        "homeTeam": "Newmarket Hawks 15U DS",
+        "homeTeamCode": "617919",
+        "awayTeam": "New Lowell Knights 15U DS",
+        "awayTeamCode": "618070",
+        "location": "Whipper Billy Watson",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-06-27T13:00:00.000Z",
+        "dateText": "Sat, Jun 27",
+        "time": "1:00 PM",
+        "homeTeam": "Markham Mariners 15U DS",
+        "homeTeamCode": "617895",
+        "awayTeam": "Barrie Baycats 15U DS",
+        "awayTeamCode": "612800",
+        "location": "Cornell",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-06-27T14:30:00.000Z",
+        "dateText": "Sat, Jun 27",
+        "time": "2:30 PM",
+        "homeTeam": "Newmarket Hawks 15U DS",
+        "homeTeamCode": "617919",
+        "awayTeam": "New Lowell Knights 15U DS",
+        "awayTeamCode": "618070",
+        "location": "Whipper Billy Watson",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-07-04T10:00:00.000Z",
+        "dateText": "Sat, Jul 4",
+        "time": "10:00 AM",
+        "homeTeam": "Markham Mariners 15U DS",
+        "homeTeamCode": "617895",
+        "awayTeam": "Newmarket Hawks 15U DS",
+        "awayTeamCode": "617919",
+        "location": "Cornell",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-07-04T13:00:00.000Z",
+        "dateText": "Sat, Jul 4",
+        "time": "1:00 PM",
+        "homeTeam": "Markham Mariners 15U DS",
+        "homeTeamCode": "617895",
+        "awayTeam": "Newmarket Hawks 15U DS",
+        "awayTeamCode": "617919",
+        "location": "Cornell",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-07-12T15:30:00.000Z",
+        "dateText": "Sun, Jul 12",
+        "time": "3:30 PM",
+        "homeTeam": "New Lowell Knights 15U DS",
+        "homeTeamCode": "618070",
+        "awayTeam": "Newmarket Hawks 15U DS",
+        "awayTeamCode": "617919",
+        "location": "New Lowell",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-07-12T18:00:00.000Z",
+        "dateText": "Sun, Jul 12",
+        "time": "6:00 PM",
+        "homeTeam": "New Lowell Knights 15U DS",
+        "homeTeamCode": "618070",
+        "awayTeam": "Newmarket Hawks 15U DS",
+        "awayTeamCode": "617919",
+        "location": "New Lowell",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-07-26T15:30:00.000Z",
+        "dateText": "Sun, Jul 26",
+        "time": "3:30 PM",
+        "homeTeam": "New Lowell Knights 15U DS",
+        "homeTeamCode": "618070",
+        "awayTeam": "Barrie Baycats 15U DS",
+        "awayTeamCode": "612800",
+        "location": "New Lowell",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-07-26T18:00:00.000Z",
+        "dateText": "Sun, Jul 26",
+        "time": "6:00 PM",
+        "homeTeam": "New Lowell Knights 15U DS",
+        "homeTeamCode": "618070",
+        "awayTeam": "Barrie Baycats 15U DS",
+        "awayTeamCode": "612800",
+        "location": "New Lowell",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-08-01T10:00:00.000Z",
+        "dateText": "Sat, Aug 1",
+        "time": "10:00 AM",
+        "homeTeam": "Thornhill Reds 15U DS",
+        "homeTeamCode": "618002",
+        "awayTeam": "Markham Mariners 15U DS",
+        "awayTeamCode": "617895",
+        "location": "Thornhill Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-08-01T12:30:00.000Z",
+        "dateText": "Sat, Aug 1",
+        "time": "12:30 PM",
+        "homeTeam": "Thornhill Reds 15U DS",
+        "homeTeamCode": "618002",
+        "awayTeam": "Markham Mariners 15U DS",
+        "awayTeamCode": "617895",
+        "location": "Thornhill Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-08-08T12:00:00.000Z",
+        "dateText": "Sat, Aug 8",
+        "time": "12:00 PM",
+        "homeTeam": "Barrie Baycats 15U DS",
+        "homeTeamCode": "612800",
+        "awayTeam": "Thornhill Reds 15U DS",
+        "awayTeamCode": "618002",
+        "location": "Lennox Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-08-08T14:30:00.000Z",
+        "dateText": "Sat, Aug 8",
+        "time": "2:30 PM",
+        "homeTeam": "Barrie Baycats 15U DS",
+        "homeTeamCode": "612800",
+        "awayTeam": "Thornhill Reds 15U DS",
+        "awayTeamCode": "618002",
+        "location": "Lennox Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-08-31T10:00:00.000Z",
+        "dateText": "Mon, Aug 31",
+        "time": "10:00 AM",
+        "homeTeam": "Thornhill Reds 15U DS",
+        "homeTeamCode": "618002",
+        "awayTeam": "Newmarket Hawks 15U DS",
+        "awayTeamCode": "617919",
+        "location": "Thornhill Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-08-31T12:30:00.000Z",
+        "dateText": "Mon, Aug 31",
+        "time": "12:30 PM",
+        "homeTeam": "Thornhill Reds 15U DS",
+        "homeTeamCode": "618002",
+        "awayTeam": "Newmarket Hawks 15U DS",
+        "awayTeamCode": "617919",
+        "location": "Thornhill Park",
+        "isCompleted": false,
+        "score": null
+      }
+    ],
     "recentGames": [],
-    "upcomingGames": [],
-    "lastUpdated": "2026-04-22T17:35:26.407Z",
-    "totalGames": 0
+    "upcomingGames": [
+      {
+        "date": "2026-05-09T10:00:00.000Z",
+        "dateText": "Sat, May 9",
+        "time": "10:00 AM",
+        "homeTeam": "Thornhill Reds 15U DS",
+        "homeTeamCode": "618002",
+        "awayTeam": "New Lowell Knights 15U DS",
+        "awayTeamCode": "618070",
+        "location": "Thornhill Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-05-09T12:00:00.000Z",
+        "dateText": "Sat, May 9",
+        "time": "12:00 PM",
+        "homeTeam": "Newmarket Hawks 15U DS",
+        "homeTeamCode": "617919",
+        "awayTeam": "Barrie Baycats 15U DS",
+        "awayTeamCode": "612800",
+        "location": "Whipper Billy Watson",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-05-09T12:30:00.000Z",
+        "dateText": "Sat, May 9",
+        "time": "12:30 PM",
+        "homeTeam": "Thornhill Reds 15U DS",
+        "homeTeamCode": "618002",
+        "awayTeam": "New Lowell Knights 15U DS",
+        "awayTeamCode": "618070",
+        "location": "Thornhill Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-05-09T14:30:00.000Z",
+        "dateText": "Sat, May 9",
+        "time": "2:30 PM",
+        "homeTeam": "Newmarket Hawks 15U DS",
+        "homeTeamCode": "617919",
+        "awayTeam": "Barrie Baycats 15U DS",
+        "awayTeamCode": "612800",
+        "location": "Whipper Billy Watson",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-05-16T12:00:00.000Z",
+        "dateText": "Sat, May 16",
+        "time": "12:00 PM",
+        "homeTeam": "Newmarket Hawks 15U DS",
+        "homeTeamCode": "617919",
+        "awayTeam": "Thornhill Reds 15U DS",
+        "awayTeamCode": "618002",
+        "location": "Whipper Billy Watson",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-05-16T12:00:00.000Z",
+        "dateText": "Sat, May 16",
+        "time": "12:00 PM",
+        "homeTeam": "Barrie Baycats 15U DS",
+        "homeTeamCode": "612800",
+        "awayTeam": "Markham Mariners 15U DS",
+        "awayTeamCode": "617895",
+        "location": "Lennox Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-05-16T14:30:00.000Z",
+        "dateText": "Sat, May 16",
+        "time": "2:30 PM",
+        "homeTeam": "Barrie Baycats 15U DS",
+        "homeTeamCode": "612800",
+        "awayTeam": "Markham Mariners 15U DS",
+        "awayTeamCode": "617895",
+        "location": "Lennox Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-05-16T14:30:00.000Z",
+        "dateText": "Sat, May 16",
+        "time": "2:30 PM",
+        "homeTeam": "Newmarket Hawks 15U DS",
+        "homeTeamCode": "617919",
+        "awayTeam": "Thornhill Reds 15U DS",
+        "awayTeamCode": "618002",
+        "location": "Whipper Billy Watson",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-05-23T10:00:00.000Z",
+        "dateText": "Sat, May 23",
+        "time": "10:00 AM",
+        "homeTeam": "Markham Mariners 15U DS",
+        "homeTeamCode": "617895",
+        "awayTeam": "Thornhill Reds 15U DS",
+        "awayTeamCode": "618002",
+        "location": "Cornell",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-05-23T12:00:00.000Z",
+        "dateText": "Sat, May 23",
+        "time": "12:00 PM",
+        "homeTeam": "Barrie Baycats 15U DS",
+        "homeTeamCode": "612800",
+        "awayTeam": "Newmarket Hawks 15U DS",
+        "awayTeamCode": "617919",
+        "location": "Lennox Park",
+        "isCompleted": false,
+        "score": null
+      }
+    ],
+    "lastUpdated": "2026-04-22T20:34:07.933Z",
+    "totalGames": 40
   },
   "summary": {
-    "totalTeams": 0,
-    "totalGames": 0,
+    "totalTeams": 5,
+    "totalGames": 40,
     "completedGames": 0,
-    "upcomingGames": 0,
-    "topTeam": null,
+    "upcomingGames": 40,
+    "topTeam": {
+      "team": "Barrie Baycats 15U DS",
+      "teamCode": "unknown-1",
+      "wins": 0,
+      "losses": 0,
+      "winPercentage": ".000"
+    },
     "highestScoringGame": null,
-    "lastUpdated": "2026-04-22T17:35:26.413Z"
+    "lastUpdated": "2026-04-22T20:34:07.939Z"
   }
 }
