@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-05-07T05:49:44.850Z",
+  "lastUpdated": "2026-05-07T08:30:00.178Z",
   "totals": {
     "divisions": 52,
     "teams": 187,
     "games": 5288,
-    "completed": 0,
-    "upcoming": 5288
+    "completed": 4,
+    "upcoming": 5284
   },
   "recentActivity": [
     {
@@ -65,8 +65,12 @@
       "awayTeam": "Thornhill Reds 10U A",
       "awayTeamCode": "617985",
       "location": "Barrie Sports Complex Pinwheel 12",
-      "isCompleted": false,
-      "score": null
+      "isCompleted": true,
+      "score": {
+        "home": 13,
+        "away": 6,
+        "scoreText": "6-13"
+      }
     }
   ],
   "upcomingGames": [
