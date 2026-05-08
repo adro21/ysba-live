@@ -6,23 +6,23 @@
         "team": "Royal York",
         "teamCode": "892633",
         "record": {
-          "gamesPlayed": 1,
-          "wins": 1,
+          "gamesPlayed": 2,
+          "wins": 2,
           "losses": 0,
           "ties": 0,
           "winPercentage": "1.000"
         },
         "stats": {
-          "points": 2,
-          "runsFor": 12,
-          "runsAgainst": 10,
-          "runDifferential": 2
+          "points": 4,
+          "runsFor": 22,
+          "runsAgainst": 19,
+          "runDifferential": 3
         }
       },
       {
         "position": 2,
-        "team": "East York",
-        "teamCode": "892640",
+        "team": "Stouffville",
+        "teamCode": "892639",
         "record": {
           "gamesPlayed": 1,
           "wins": 1,
@@ -32,13 +32,31 @@
         },
         "stats": {
           "points": 2,
-          "runsFor": 13,
-          "runsAgainst": 5,
-          "runDifferential": 8
+          "runsFor": 14,
+          "runsAgainst": 4,
+          "runDifferential": 10
         }
       },
       {
         "position": 3,
+        "team": "East York",
+        "teamCode": "892640",
+        "record": {
+          "gamesPlayed": 2,
+          "wins": 1,
+          "losses": 1,
+          "ties": 0,
+          "winPercentage": "0.500"
+        },
+        "stats": {
+          "points": 2,
+          "runsFor": 22,
+          "runsAgainst": 15,
+          "runDifferential": 7
+        }
+      },
+      {
+        "position": 4,
         "team": "Barrie",
         "teamCode": "892634",
         "record": {
@@ -56,7 +74,25 @@
         }
       },
       {
-        "position": 4,
+        "position": 5,
+        "team": "Bloordale",
+        "teamCode": "892638",
+        "record": {
+          "gamesPlayed": 1,
+          "wins": 0,
+          "losses": 1,
+          "ties": 0,
+          "winPercentage": "0.000"
+        },
+        "stats": {
+          "points": 0,
+          "runsFor": 4,
+          "runsAgainst": 14,
+          "runDifferential": -10
+        }
+      },
+      {
+        "position": 6,
         "team": "Aurora-King",
         "teamCode": "892642",
         "record": {
@@ -74,7 +110,7 @@
         }
       },
       {
-        "position": 5,
+        "position": 7,
         "team": "Richmond Hill",
         "teamCode": "892636",
         "record": {
@@ -92,45 +128,9 @@
         }
       },
       {
-        "position": 6,
+        "position": 8,
         "team": "Newmarket",
         "teamCode": "892637",
-        "record": {
-          "gamesPlayed": 0,
-          "wins": 0,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": ".000"
-        },
-        "stats": {
-          "points": 0,
-          "runsFor": 0,
-          "runsAgainst": 0,
-          "runDifferential": 0
-        }
-      },
-      {
-        "position": 7,
-        "team": "Bloordale",
-        "teamCode": "892638",
-        "record": {
-          "gamesPlayed": 0,
-          "wins": 0,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": ".000"
-        },
-        "stats": {
-          "points": 0,
-          "runsFor": 0,
-          "runsAgainst": 0,
-          "runDifferential": 0
-        }
-      },
-      {
-        "position": 8,
-        "team": "Stouffville",
-        "teamCode": "892639",
         "record": {
           "gamesPlayed": 0,
           "wins": 0,
@@ -254,7 +254,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-05-08T11:56:23.194Z",
+    "lastUpdated": "2026-05-08T13:23:00.475Z",
     "totalTeams": 14
   },
   "schedule": {
@@ -290,8 +290,12 @@
             "awayTeam": "Royal York",
             "awayTeamCode": "892633",
             "location": "Rotary Peace Park — Diamond South — Toronto",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 10,
+              "scoreText": "10-9"
+            }
           }
         ],
         "nextGames": [
@@ -356,7 +360,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-08T11:56:23.223Z"
+        "lastUpdated": "2026-05-08T13:23:00.504Z"
       },
       "892634": {
         "teamCode": "892634",
@@ -443,7 +447,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-08T11:56:23.223Z"
+        "lastUpdated": "2026-05-08T13:23:00.504Z"
       },
       "892636": {
         "teamCode": "892636",
@@ -526,7 +530,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-08T11:56:23.223Z"
+        "lastUpdated": "2026-05-08T13:23:00.504Z"
       },
       "892637": {
         "teamCode": "892637",
@@ -596,7 +600,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-08T11:56:23.223Z"
+        "lastUpdated": "2026-05-08T13:23:00.504Z"
       },
       "892638": {
         "teamCode": "892638",
@@ -613,8 +617,12 @@
             "awayTeam": "Bloordale",
             "awayTeamCode": "892638",
             "location": "Millwood — Diamond 2 — Toronto",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 4,
+              "scoreText": "4-14"
+            }
           }
         ],
         "nextGames": [
@@ -679,7 +687,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-08T11:56:23.223Z"
+        "lastUpdated": "2026-05-08T13:23:00.504Z"
       },
       "892639": {
         "teamCode": "892639",
@@ -696,8 +704,12 @@
             "awayTeam": "Bloordale",
             "awayTeamCode": "892638",
             "location": "Millwood — Diamond 2 — Toronto",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 4,
+              "scoreText": "4-14"
+            }
           }
         ],
         "nextGames": [
@@ -762,7 +774,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-08T11:56:23.223Z"
+        "lastUpdated": "2026-05-08T13:23:00.504Z"
       },
       "892640": {
         "teamCode": "892640",
@@ -795,8 +807,12 @@
             "awayTeam": "Royal York",
             "awayTeamCode": "892633",
             "location": "Rotary Peace Park — Diamond South — Toronto",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 10,
+              "scoreText": "10-9"
+            }
           }
         ],
         "nextGames": [
@@ -861,7 +877,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-08T11:56:23.223Z"
+        "lastUpdated": "2026-05-08T13:23:00.504Z"
       },
       "892642": {
         "teamCode": "892642",
@@ -948,7 +964,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-08T11:56:23.223Z"
+        "lastUpdated": "2026-05-08T13:23:00.504Z"
       },
       "892643": {
         "teamCode": "892643",
@@ -1018,7 +1034,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-08T11:56:23.223Z"
+        "lastUpdated": "2026-05-08T13:23:00.504Z"
       },
       "892644": {
         "teamCode": "892644",
@@ -1088,7 +1104,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-08T11:56:23.223Z"
+        "lastUpdated": "2026-05-08T13:23:00.505Z"
       },
       "892645": {
         "teamCode": "892645",
@@ -1158,7 +1174,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-08T11:56:23.223Z"
+        "lastUpdated": "2026-05-08T13:23:00.505Z"
       },
       "892646": {
         "teamCode": "892646",
@@ -1228,7 +1244,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-08T11:56:23.223Z"
+        "lastUpdated": "2026-05-08T13:23:00.505Z"
       },
       "892647": {
         "teamCode": "892647",
@@ -1298,7 +1314,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-08T11:56:23.224Z"
+        "lastUpdated": "2026-05-08T13:23:00.505Z"
       },
       "892648": {
         "teamCode": "892648",
@@ -1381,7 +1397,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-08T11:56:23.224Z"
+        "lastUpdated": "2026-05-08T13:23:00.505Z"
       }
     },
     "allGames": [
@@ -1434,8 +1450,12 @@
         "awayTeam": "Bloordale",
         "awayTeamCode": "892638",
         "location": "Millwood — Diamond 2 — Toronto",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 4,
+          "scoreText": "4-14"
+        }
       },
       {
         "date": "2026-05-07T18:30:00.000Z",
@@ -1446,8 +1466,12 @@
         "awayTeam": "Royal York",
         "awayTeamCode": "892633",
         "location": "Rotary Peace Park — Diamond South — Toronto",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 10,
+          "scoreText": "10-9"
+        }
       },
       {
         "date": "2026-05-02T17:00:00.000Z",
@@ -3168,8 +3192,12 @@
         "awayTeam": "Royal York",
         "awayTeamCode": "892633",
         "location": "Rotary Peace Park — Diamond South — Toronto",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 10,
+          "scoreText": "10-9"
+        }
       },
       {
         "date": "2026-05-07T18:00:00.000Z",
@@ -3180,8 +3208,12 @@
         "awayTeam": "Bloordale",
         "awayTeamCode": "892638",
         "location": "Millwood — Diamond 2 — Toronto",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 4,
+          "scoreText": "4-14"
+        }
       },
       {
         "date": "2026-05-05T18:00:00.000Z",
@@ -3350,18 +3382,18 @@
         "score": null
       }
     ],
-    "lastUpdated": "2026-05-08T11:56:23.224Z",
+    "lastUpdated": "2026-05-08T13:23:00.505Z",
     "totalGames": 147
   },
   "summary": {
     "totalTeams": 14,
     "totalGames": 147,
-    "completedGames": 2,
-    "upcomingGames": 145,
+    "completedGames": 4,
+    "upcomingGames": 143,
     "topTeam": {
       "team": "Royal York",
       "teamCode": "892633",
-      "wins": 1,
+      "wins": 2,
       "losses": 0,
       "winPercentage": "1.000"
     },
@@ -3374,6 +3406,6 @@
       "date": "Sun, May 3",
       "location": "Westway — Toronto"
     },
-    "lastUpdated": "2026-05-08T11:56:23.224Z"
+    "lastUpdated": "2026-05-08T13:23:00.505Z"
   }
 }
