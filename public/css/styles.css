@@ -268,8 +268,8 @@
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
   padding: 0;
   margin-top: var(--spacing-xs);
-  min-width: 600px;
-  max-width: 750px;
+  min-width: 760px;
+  max-width: 940px;
   z-index: 1050;
   opacity: 0;
   visibility: hidden;
@@ -307,7 +307,7 @@
 
 .mega-menu-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   gap: var(--spacing-lg);
 }
 
@@ -548,6 +548,8 @@
   padding: var(--spacing-lg);
   overflow-y: auto;
   flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .division-modal-section {
@@ -688,6 +690,13 @@
   border-radius: var(--radius-lg);
   transition: none;
   border-bottom: 1px solid #f3f4f6;
+}
+
+/* On mobile, the modal stacks all three sections vertically. Pull the
+   Interlock section to the top so it's the first thing users see. */
+.division-modal-section:has(#mobile-interlock-divisions) {
+  order: -1;
+  margin-bottom: 2rem;
 }
 
 /* Remove bottom border from last division items in both sections */
@@ -2661,9 +2670,9 @@
   background: white;
   border: 1px solid #d1d5db;
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.15), 0 10px 10px -5px rgba(0, 0, 0, 0.08);
-  /* Force same positioning and size as standings pages */
-  min-width: 600px !important;
-  max-width: 750px !important;
+  /* Wide enough to fit Rep | Select | Interlock columns side-by-side */
+  min-width: 880px !important;
+  max-width: 1180px !important;
   left: 0 !important;
   right: 0 !important;
 }
@@ -3575,14 +3584,14 @@
  * - scripts/github-action-scraper.js (triggers story generation)
  */
 
-/* Make homepage a centered layout */
+/* Homepage layout — header pinned to the top-left corner */
 #home {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
-  padding-top: 10vh;
+  align-items: stretch;
+  padding-top: 0;
   background: #f8f9fa;
   box-sizing: border-box;
 }
@@ -3593,42 +3602,42 @@
   display: none !important;
 }
 
-/* Center the header on homepage */
+/* Pin the header to the top-left corner on the homepage */
 #home .clean-header {
   position: static;
-  width: auto;
-  padding: 0;
+  width: 100%;
+  padding: var(--spacing-md);
 }
 
 #home .clean-header .container {
-  width: auto;
+  width: 100%;
   padding: 0;
+  margin: 0;
   max-width: none;
 }
 
 #home .clean-header .header-content {
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 #home .clean-header .header-top {
-  justify-content: center;
+  justify-content: flex-start;
   padding: 0;
   border: none;
 }
 
 #home .clean-header .brand-section {
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 #home .clean-header .brand-text {
-  align-items: center;
-  text-align: center;
+  align-items: flex-start;
+  text-align: left;
 }
 
-/* Mobile adjustments for centered homepage */
 @media (max-width: 768px) {
   #home {
-    padding-top: 30vh;
+    padding-top: 0;
   }
 }

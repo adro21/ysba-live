@@ -51,6 +51,8 @@ The application now includes a background worker system (`src/scraper/`) that:
 
 **`src/scraper/scraper.js`** - Modular Puppeteer-based scraping engine (extracted from original scraper.js)
 
+**`src/scraper/interlock-scraper.js`** - HTTP-only scraper for the Toronto Baseball Association "Rep Interlock" league. Mirrors `YSBAScraper`'s public interface (`scrapeStandingsForDivision`, `scrapeScheduleForDivision`) but reads from the TeamSnap Tournaments public JSON API instead of driving Puppeteer. Selected automatically by `github-action-scraper.js` and `worker.js` whenever a division has `source: 'interlock'` in `config.js`.
+
 **`src/scraper/formatter.js`** - Data formatting and structuring for clean JSON output
 
 **`src/scraper/writer.js`** - File writing operations for JSON output to data/ and public/ directories
@@ -66,11 +68,12 @@ The application now includes a background worker system (`src/scraper/`) that:
 ### Multi-Division System
 
 The application supports multiple divisions with dynamic routing:
-- **Rep Divisions**: 8U through 22U and Senior (with A/AA/AAA tiers)
-- **Select Divisions**: 9U, 11U, 13U, 15U (all teams)
-- **URL structure**: `/{division}/{tier}` (e.g., `/13U-rep/A` or `/9U-select/all-tiers`)
+- **Rep Divisions**: 8U through 22U and Senior (with A/AA/AAA tiers) — scraped from YSBA via Puppeteer
+- **Select Divisions**: 9U, 11U, 13U, 15U (all teams) — scraped from YSBA via Puppeteer
+- **Interlock Divisions**: 10U AA — pulled from the Toronto Baseball Association TeamSnap Tournaments API (`events.teamsnap.com/events/48913`). The page at `torontobaseball.ca/schedules-standings/schedule/` is just an iframe over that SPA; scraping the iframe's `divisionSelect` dropdown would be brittle, so we hit the underlying public JSON API directly using the API key extracted from the SPA bundle (stored in `config.INTERLOCK_TEAMSNAP`).
+- **URL structure**: `/{division}/{tier}` (e.g., `/13U-rep/A`, `/9U-select/all-tiers`, `/10U-interlock/all-tiers`)
 
-Division configuration is centralized in `config.js` using `getDivisionConfig(division, tier)`.
+Division configuration is centralized in `config.js` using `getDivisionConfig(division, tier)`. Interlock divisions are flagged with `source: 'interlock'` and `tsDivisionId: <id>`; the GitHub Actions worker dispatches to `InterlockScraper` for those, and to `YSBAScraper` (Puppeteer) for everything else.
 
 ### Caching Strategy
 
