@@ -42,7 +42,7 @@ class DataFormatter {
       }
 
       formattedData.divisions[division].tiers[reconstructedTier] = {
-        standings: this.formatStandings(tierData.standings),
+        standings: this.formatStandings(tierData.standings, tierData.schedule),
         schedule: this.formatSchedule(tierData.schedule),
         summary: this.generateDivisionSummary(tierData.standings, tierData.schedule)
       };
@@ -51,8 +51,23 @@ class DataFormatter {
     return formattedData;
   }
 
+  // Build a team-name -> team-code map from raw schedule games. Used to
+  // backfill standings teamCodes when the standings page no longer surfaces
+  // them (we still get real codes from the schedule grid's "(123456) Name"
+  // cell text).
+  buildNameToCodeMap(scheduleData) {
+    const map = new Map();
+    const games = scheduleData?.allGames;
+    if (!Array.isArray(games)) return map;
+    for (const game of games) {
+      if (game.homeTeam && game.homeTeamCode) map.set(game.homeTeam, game.homeTeamCode);
+      if (game.awayTeam && game.awayTeamCode) map.set(game.awayTeam, game.awayTeamCode);
+    }
+    return map;
+  }
+
   // Format standings data
-  formatStandings(standingsData) {
+  formatStandings(standingsData, scheduleData = null) {
     if (!standingsData || !standingsData.teams) {
       return {
         teams: [],
@@ -61,25 +76,34 @@ class DataFormatter {
       };
     }
 
+    const nameToCode = this.buildNameToCodeMap(scheduleData);
+
     return {
-      teams: standingsData.teams.map(team => ({
-        position: team.position,
-        team: team.team,
-        teamCode: team.teamCode,
-        record: {
-          gamesPlayed: team.gamesPlayed,
-          wins: team.wins,
-          losses: team.losses,
-          ties: team.ties,
-          winPercentage: team.winPercentage
-        },
-        stats: {
-          points: team.points,
-          runsFor: team.runsFor,
-          runsAgainst: team.runsAgainst,
-          runDifferential: team.runsFor - team.runsAgainst
+      teams: standingsData.teams.map(team => {
+        let teamCode = team.teamCode;
+        if (typeof teamCode === 'string' && teamCode.startsWith('unknown-')) {
+          const resolved = nameToCode.get(team.team);
+          if (resolved) teamCode = resolved;
         }
-      })),
+        return {
+          position: team.position,
+          team: team.team,
+          teamCode,
+          record: {
+            gamesPlayed: team.gamesPlayed,
+            wins: team.wins,
+            losses: team.losses,
+            ties: team.ties,
+            winPercentage: team.winPercentage
+          },
+          stats: {
+            points: team.points,
+            runsFor: team.runsFor,
+            runsAgainst: team.runsAgainst,
+            runDifferential: team.runsFor - team.runsAgainst
+          }
+        };
+      }),
       lastUpdated: standingsData.lastUpdated || (this.lastUpdated || new Date().toISOString()),
       totalTeams: standingsData.teams.length
     };

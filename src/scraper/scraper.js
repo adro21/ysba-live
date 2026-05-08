@@ -231,27 +231,38 @@ class YSBAScraper {
               return null;
             }
 
-            // Extract team code from link
-            const firstCellLink = cells[0].querySelector('a');
-            const secondCellLink = cells[1] ? cells[1].querySelector('a') : null;
+            // Team code extraction. As of mid-2026 the YSBA standings page
+            // renders the code as plain text in cell[0] (the cell anchor is a
+            // sort postback, not a team link). Cell[1] also carries it on the
+            // mobile popover anchor via data-content. Older formats had the
+            // code in a tmcd= query string, so we keep that as a fallback.
             let teamCode = null;
-            
-            if (firstCellLink) {
-              const href = firstCellLink.getAttribute('href') || '';
-              const codeMatch = href.match(/tmcd=(\d+)/);
-              teamCode = codeMatch ? codeMatch[1] : null;
+
+            const firstCellText = cells[0].textContent.trim();
+            if (/^\d{4,8}$/.test(firstCellText)) {
+              teamCode = firstCellText;
             }
-            
-            if (!teamCode && secondCellLink) {
-              const href = secondCellLink.getAttribute('href') || '';
-              const codeMatch = href.match(/tmcd=(\d+)/);
-              teamCode = codeMatch ? codeMatch[1] : null;
+
+            if (!teamCode && cells[1]) {
+              const popover = cells[1].querySelector('a[data-content]');
+              const dataContent = popover && popover.getAttribute('data-content');
+              if (dataContent && /^\d{4,8}$/.test(dataContent.trim())) {
+                teamCode = dataContent.trim();
+              }
             }
-            
+
+            if (!teamCode) {
+              const tmcdLink = row.querySelector('a[href*="tmcd="]');
+              if (tmcdLink) {
+                const codeMatch = (tmcdLink.getAttribute('href') || '').match(/tmcd=(\d+)/);
+                if (codeMatch) teamCode = codeMatch[1];
+              }
+            }
+
             if (!teamCode) {
               for (let i = 0; i < Math.min(cells.length, 3); i++) {
                 const cellText = cells[i].textContent.trim();
-                const textCodeMatch = cellText.match(/\b(5\d{5})\b/);
+                const textCodeMatch = cellText.match(/\b(\d{5,7})\b/);
                 if (textCodeMatch) {
                   teamCode = textCodeMatch[1];
                   break;

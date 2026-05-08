@@ -141,7 +141,7 @@ class YSBAWorker {
           const tier = tierParts.join('-');
           
           const divisionFormatted = {
-            standings: this.formatter.formatStandings(data.standings),
+            standings: this.formatter.formatStandings(data.standings, data.schedule),
             schedule: this.formatter.formatSchedule(data.schedule),
             summary: this.formatter.generateDivisionSummary(data.standings, data.schedule)
           };

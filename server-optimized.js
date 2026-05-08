@@ -558,30 +558,49 @@ app.get('/api/last-ysba-update', async (req, res) => {
 // API endpoint to get team schedule
 app.get('/api/team/:teamCode/schedule', async (req, res) => {
   try {
-    const { teamCode } = req.params;
-    const { division = '9U-select', tier = 'all-tiers' } = req.query;
-    
+    const { teamCode: rawTeamCode } = req.params;
+    const { division = '9U-select', tier = 'all-tiers', team: teamNameParam } = req.query;
+    let teamCode = rawTeamCode;
+
     // Use same path construction logic as standings
     const targetDivision = division || '9U-select';
     const targetTier = tier || 'all-tiers';
-    
+
     // Normalize tier key - remove redundant prefixes if they exist
     let normalizedTier = targetTier;
     if (targetDivision.endsWith('-rep') && targetTier.startsWith('rep-')) {
       normalizedTier = targetTier.substring(4); // Remove "rep-" prefix
     } else if (targetDivision.endsWith('-select') && targetTier.startsWith('select-')) {
-      normalizedTier = targetTier.substring(7); // Remove "select-" prefix  
+      normalizedTier = targetTier.substring(7); // Remove "select-" prefix
     }
-    
+
     // Division files use clean naming: 8U-rep-tier-3.json, 9U-select-all-tiers.json
     const fileName = `${targetDivision}-${normalizedTier}.json`;
-    
+
     // Try to get from individual division file
     try {
       const divisionPath = path.join(__dirname, 'public', 'divisions', fileName);
       console.log(`Looking for schedule in: ${divisionPath}`);
       const divisionData = JSON.parse(await fs.readFile(divisionPath, 'utf8'));
-      
+
+      // Existing JSON files may carry placeholder teamCodes (e.g. "unknown-1") for
+      // YSBA-scraped standings while the schedule still has real codes. If the
+      // teamCode misses but the client passed the team name, resolve via allGames.
+      const teamSchedules = divisionData.schedule?.teamSchedules;
+      const allGames = divisionData.schedule?.allGames;
+      if (teamSchedules && !teamSchedules[teamCode] && teamNameParam && Array.isArray(allGames)) {
+        for (const game of allGames) {
+          if (game.homeTeam === teamNameParam && game.homeTeamCode && teamSchedules[game.homeTeamCode]) {
+            teamCode = game.homeTeamCode;
+            break;
+          }
+          if (game.awayTeam === teamNameParam && game.awayTeamCode && teamSchedules[game.awayTeamCode]) {
+            teamCode = game.awayTeamCode;
+            break;
+          }
+        }
+      }
+
       if (divisionData.schedule && divisionData.schedule.teamSchedules && divisionData.schedule.teamSchedules[teamCode]) {
         const scheduleData = divisionData.schedule.teamSchedules[teamCode];
         

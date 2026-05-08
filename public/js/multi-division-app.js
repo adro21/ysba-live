@@ -1032,8 +1032,11 @@ class MultiDivisionYSBAApp {
             // NEW: Use fast cache-aware endpoint with current division/tier
             const divisionKey = this.currentDivision || '9U-select';
             const tierKey = this.currentTier || 'all-tiers';
-            
-            const response = await fetch(`/api/team/${teamCode}/schedule?division=${divisionKey}&tier=${tierKey}`);
+
+            // Pass teamName so the server can resolve placeholder teamCodes
+            // (e.g. "unknown-1") against the schedule's real codes.
+            const teamParam = encodeURIComponent(teamName || '');
+            const response = await fetch(`/api/team/${teamCode}/schedule?division=${divisionKey}&tier=${tierKey}&team=${teamParam}`);
             const loadTime = Date.now() - startTime;
             
             if (!response.ok) {
