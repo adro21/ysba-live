@@ -207,6 +207,10 @@ class MultiDivisionYSBAApp {
                         <h4 class="mega-menu-section-title">Select Divisions</h4>
                         <div class="mega-menu-items" id="select-divisions"></div>
                     </div>
+                    <div class="mega-menu-section interlock-section">
+                        <h4 class="mega-menu-section-title">Interlock</h4>
+                        <div class="mega-menu-items" id="interlock-divisions"></div>
+                    </div>
                 </div>
             </div>
         `;
@@ -214,14 +218,16 @@ class MultiDivisionYSBAApp {
         // Populate divisions
         const repContainer = megaMenu.querySelector('#rep-divisions');
         const selectContainer = megaMenu.querySelector('#select-divisions');
+        const interlockContainer = megaMenu.querySelector('#interlock-divisions');
 
         Object.entries(divisions).forEach(([key, division]) => {
             const isRep = key.includes('-rep');
-            const container = isRep ? repContainer : selectContainer;
-            
+            const isInterlock = key.includes('-interlock');
+            const container = isRep ? repContainer : isInterlock ? interlockContainer : selectContainer;
+
             const item = document.createElement('div');
             item.className = 'mega-menu-item';
-            
+
             if (isRep) {
                 // Rep divisions: Show all tiers as clickable badges
                 const tierKeys = Object.keys(division.tiers);
@@ -247,23 +253,24 @@ class MultiDivisionYSBAApp {
                     </div>
                 `;
             } else {
-                // Select divisions: Badge clickable like rep divisions
+                // Select / Interlock divisions: Badge clickable like rep divisions
                 const mainTierKey = Object.keys(division.tiers)[0];
                 const isActive = this.currentDivision === key && this.currentTier === mainTierKey;
-                
+                const subtitle = isInterlock ? 'Interlock Division' : 'Select Division';
+
                 item.innerHTML = `
                     <div class="mega-menu-item-content">
                         <div class="mega-menu-item-title">${division.displayName}</div>
-                        <div class="mega-menu-item-subtitle">Select Division</div>
+                        <div class="mega-menu-item-subtitle">${subtitle}</div>
                     </div>
-                    <button class="mega-menu-item-badge ${isActive ? 'active' : ''}" 
-                            data-division="${key}" 
+                    <button class="mega-menu-item-badge ${isActive ? 'active' : ''}"
+                            data-division="${key}"
                             data-tier="${mainTierKey}">
                         All Teams
                     </button>
                 `;
             }
-            
+
             container.appendChild(item);
         });
 
@@ -303,6 +310,10 @@ class MultiDivisionYSBAApp {
                         <h4 class="division-modal-section-title">Select Divisions</h4>
                         <div class="division-modal-items" id="mobile-select-divisions"></div>
                     </div>
+                    <div class="division-modal-section">
+                        <h4 class="division-modal-section-title">Interlock</h4>
+                        <div class="division-modal-items" id="mobile-interlock-divisions"></div>
+                    </div>
                 </div>
             </div>
         `;
@@ -310,11 +321,13 @@ class MultiDivisionYSBAApp {
         // Populate divisions
         const repContainer = modal.querySelector('#mobile-rep-divisions');
         const selectContainer = modal.querySelector('#mobile-select-divisions');
+        const interlockContainer = modal.querySelector('#mobile-interlock-divisions');
 
         Object.entries(divisions).forEach(([key, division]) => {
             const isRep = key.includes('-rep');
-            const container = isRep ? repContainer : selectContainer;
-            
+            const isInterlock = key.includes('-interlock');
+            const container = isRep ? repContainer : isInterlock ? interlockContainer : selectContainer;
+
             if (isRep) {
                 // Rep divisions: Create container with tier badges
                 const item = document.createElement('div');
@@ -345,28 +358,29 @@ class MultiDivisionYSBAApp {
                 
                 container.appendChild(item);
             } else {
-                // Select divisions: Non-clickable container with clickable badge (like Rep divisions)
+                // Select / Interlock divisions: Non-clickable container with clickable badge (like Rep divisions)
                 const tierKeys = Object.keys(division.tiers);
                 const mainTierKey = tierKeys[0];
                 const isActive = this.currentDivision === key && this.currentTier === mainTierKey;
-                
+                const subtitle = isInterlock ? 'Interlock Division' : 'Select Division';
+
                 const item = document.createElement('div');
-                item.className = 'division-modal-item select-division';
-                
+                item.className = `division-modal-item ${isInterlock ? 'interlock-division' : 'select-division'}`;
+
                 item.innerHTML = `
                     <div class="division-modal-item-content">
                         <div class="division-modal-item-title">${division.displayName}</div>
-                        <div class="division-modal-item-subtitle">Select Division</div>
+                        <div class="division-modal-item-subtitle">${subtitle}</div>
                     </div>
                     <div class="division-modal-tier-badges">
-                        <button class="division-modal-tier-badge ${isActive ? 'active' : ''}" 
-                                data-division="${key}" 
+                        <button class="division-modal-tier-badge ${isActive ? 'active' : ''}"
+                                data-division="${key}"
                                 data-tier="${mainTierKey}">
                             All Teams
                         </button>
                     </div>
                 `;
-                
+
                 container.appendChild(item);
             }
         });

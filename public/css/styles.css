@@ -680,8 +680,9 @@
   border-bottom: 1px solid #f3f4f6;
 }
 
-/* Select division container styling (matches rep divisions) */
-.division-modal-item.select-division {
+/* Select / Interlock division container styling (matches rep divisions) */
+.division-modal-item.select-division,
+.division-modal-item.interlock-division {
   cursor: default;
   padding: var(--spacing-md) 0;
   border-radius: var(--radius-lg);

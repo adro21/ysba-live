@@ -12,6 +12,7 @@
  */
 
 const YSBAScraper = require('../src/scraper/scraper');
+const InterlockScraper = require('../src/scraper/interlock-scraper');
 const DataFormatter = require('../src/scraper/formatter');
 const DataWriter = require('../src/scraper/writer');
 const DataOptimizer = require('../src/scraper/optimizer');
@@ -37,6 +38,7 @@ const NAVIGATION_TIMEOUT_MS = 30 * 1000;
 class GitHubActionScraper {
   constructor() {
     this.scraper = new YSBAScraper();
+    this.interlockScraper = new InterlockScraper();
     this.formatter = new DataFormatter();
     this.writer = new DataWriter();
     this.optimizer = new DataOptimizer();
@@ -109,12 +111,14 @@ class GitHubActionScraper {
           // SEQUENTIAL scraping: standings first (critical), then schedule (optional)
           // This prevents queue buildup when YSBA is slow
 
+          const scraperForDivision = this.getScraperFor(division);
+
           // 1. Scrape standings (required)
           let standingsData;
           try {
             standingsData = await this.withTimeout(
               this.scrapeWithRetry(() =>
-                this.scraper.scrapeStandingsForDivision(division, tier),
+                scraperForDivision.scrapeStandingsForDivision(division, tier),
                 2 // Only 2 retries for faster failure
               ),
               STANDINGS_TIMEOUT_MS,
@@ -130,7 +134,7 @@ class GitHubActionScraper {
           try {
             scheduleData = await this.withTimeout(
               this.scrapeWithRetry(() =>
-                this.scraper.scrapeScheduleForDivision(division, tier),
+                scraperForDivision.scrapeScheduleForDivision(division, tier),
                 1 // Only 1 retry for schedule - it's optional
               ),
               SCHEDULE_TIMEOUT_MS,
@@ -309,7 +313,18 @@ class GitHubActionScraper {
       process.exit(1);
     } finally {
       await this.scraper.cleanup();
+      await this.interlockScraper.cleanup();
     }
+  }
+
+  // Pick the right scraper for a division. Interlock divisions have
+  // source: 'interlock' in config and use the TeamSnap public API.
+  getScraperFor(division) {
+    const divisionConfig = config.DIVISIONS[division];
+    if (divisionConfig?.source === 'interlock') {
+      return this.interlockScraper;
+    }
+    return this.scraper;
   }
 
   getDivisionsToScrape() {

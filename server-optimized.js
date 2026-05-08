@@ -226,13 +226,15 @@ app.get('/api/standings', async (req, res) => {
       // Use the lastUpdated from JSON content (more reliable than file mtime after git operations)
       const standingsFileModTime = standingsData.lastUpdated || new Date().toISOString();
       
-      // Parse division name (remove -select/-rep suffix for lookup)
-      let divisionKey = targetDivision.replace('-select', '').replace('-rep', '');
+      // Parse division name (remove -select/-rep/-interlock suffix for lookup)
+      let divisionKey = targetDivision.replace('-select', '').replace('-rep', '').replace('-interlock', '');
       let tierKey = targetTier;
-      
+
       // Handle special cases for tier mapping - ensure we use the correct keys for data lookup
       if (targetDivision.includes('select')) {
         tierKey = 'select-all-tiers';
+      } else if (targetDivision.includes('interlock')) {
+        tierKey = 'interlock-all-tiers';
       } else if (targetDivision.includes('rep')) {
         // For rep divisions, check if the tier already has rep- prefix, if not add it for data lookup
         if (!targetTier.startsWith('rep-') && targetTier !== 'no-tier') {
@@ -345,28 +347,32 @@ app.get('/api/divisions', async (req, res) => {
           division.tiers.forEach(tier => {
             // Improve display names for better UX
             let displayName;
-            if (tier.key === 'select-all-tiers') {
-              displayName = 'All Teams'; // More friendly than "All Tiers" for select
+            if (tier.key === 'select-all-tiers' || tier.key === 'interlock-all-tiers') {
+              displayName = 'All Teams'; // More friendly than "All Tiers" for select/interlock
             } else {
-              // Remove redundant rep/select prefixes from tier display names
+              // Remove redundant rep/select/interlock prefixes from tier display names
               let cleanKey = tier.key;
               if (cleanKey.startsWith('rep-')) {
                 cleanKey = cleanKey.substring(4); // Remove "rep-" prefix
               } else if (cleanKey.startsWith('select-')) {
                 cleanKey = cleanKey.substring(7); // Remove "select-" prefix
+              } else if (cleanKey.startsWith('interlock-')) {
+                cleanKey = cleanKey.substring(10); // Remove "interlock-" prefix
               }
-              
-              displayName = cleanKey.split('-').map(word => 
+
+              displayName = cleanKey.split('-').map(word =>
                 word.charAt(0).toUpperCase() + word.slice(1)
               ).join(' ');
             }
-            
+
             // Generate clean tier key for API response (remove redundant prefixes)
             let cleanTierKey = tier.key;
             if (cleanTierKey.startsWith('rep-')) {
               cleanTierKey = cleanTierKey.substring(4); // Remove "rep-" prefix
             } else if (cleanTierKey.startsWith('select-')) {
               cleanTierKey = cleanTierKey.substring(7); // Remove "select-" prefix
+            } else if (cleanTierKey.startsWith('interlock-')) {
+              cleanTierKey = cleanTierKey.substring(10); // Remove "interlock-" prefix
             }
             
             tiers[cleanTierKey] = {
@@ -386,7 +392,32 @@ app.get('/api/divisions', async (req, res) => {
         // Add division type suffixes for proper routing
         const repDivision = division.tiers && Array.isArray(division.tiers) && division.tiers.some(t => t.key.includes('rep'));
         const selectDivision = division.tiers && Array.isArray(division.tiers) && division.tiers.some(t => t.key.includes('select'));
-        
+        const interlockDivision = division.tiers && Array.isArray(division.tiers) && division.tiers.some(t => t.key.includes('interlock'));
+
+        if (interlockDivision) {
+          const configDivision = config.DIVISIONS[`${key}-interlock`];
+
+          divisions[`${key}-interlock`] = {
+            displayName: configDivision?.displayName || `${division.displayName} Interlock`,
+            shortName: configDivision?.shortName || `${key.toUpperCase()} Inter`,
+            theme: {
+              primary: '#024220',
+              secondary: '#015c2a',
+              accent: '#facc15'
+            },
+            tiers: Object.fromEntries(
+              Object.entries(tiers).filter(([tierKey, tierData]) =>
+                tierData.originalKey && tierData.originalKey.includes('interlock')
+              )
+            ),
+            features: configDivision?.features || {
+              divisionFilter: false,
+              emailNotifications: false,
+              schedules: true
+            }
+          };
+        }
+
         if (repDivision) {
           // Get the config division for this key to access shortName and other properties
           const configDivision = config.DIVISIONS[`${key}-rep`];
@@ -969,8 +1000,8 @@ app.use('/api/*', (req, res) => {
 app.get('*', (req, res) => {
   const requestPath = req.path;
   
-  // Check if this is a division/tier route (e.g., /11U-select/all-tiers, /8U-rep/tier-3, /senior-rep/tier-1)
-  const divisionRoutePattern = /^\/(\d+u|senior)-(rep|select)\/[^\/]+$/i;
+  // Check if this is a division/tier route (e.g., /11U-select/all-tiers, /8U-rep/tier-3, /senior-rep/tier-1, /10U-interlock/all-tiers)
+  const divisionRoutePattern = /^\/(\d+u|senior)-(rep|select|interlock)\/[^\/]+$/i;
   const isMatchingRoute = divisionRoutePattern.test(requestPath);
   
   console.log(`🌐 Route request: ${requestPath}, matches pattern: ${isMatchingRoute}`);

@@ -35,7 +35,7 @@
     <link rel="manifest" href="/manifest.json?v=321200">
     
     <!-- Default Icon -->
-    <link rel="icon" type="image/svg+xml" href="/icons/icon.svg?v=708749">
+    <link rel="icon" type="image/svg+xml" href="/icons/icon.svg?v=014179">
     
     <!-- iOS App Icons -->
     <link rel="apple-touch-icon" href="/icons/ios/AppIcon@3x.png?v=321200">
@@ -71,7 +71,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="stylesheet" href="/css/styles.css?v=708749">
+    <link rel="stylesheet" href="/css/styles.css?v=014179">
     
 </head>
 <body id="home" class="modern-body">
@@ -158,6 +158,13 @@
                 </div>
             </div>
 
+            <!-- Interlock Divisions -->
+            <div class="category-section">
+                <h2 class="category-header">🔗 Interlock</h2>
+                <div class="division-grid" id="interlockDivisions">
+                    <!-- Interlock divisions will be populated by JavaScript -->
+                </div>
+            </div>
 
         </div>
     </main>
@@ -221,17 +228,20 @@
             renderDivisions() {
                 const categories = {
                     rep: document.getElementById('repDivisions'),
-                    select: document.getElementById('selectDivisions')
+                    select: document.getElementById('selectDivisions'),
+                    interlock: document.getElementById('interlockDivisions')
                 };
 
                 Object.entries(this.divisions).forEach(([key, division]) => {
                     const card = this.createDivisionCard(key, division);
-                    
+
                     // Determine category based on division key
                     if (key.includes('-rep')) {
                         categories.rep.appendChild(card);
                     } else if (key.includes('-select')) {
                         categories.select.appendChild(card);
+                    } else if (key.includes('-interlock')) {
+                        categories.interlock.appendChild(card);
                     }
                 });
             }
@@ -265,7 +275,8 @@
             getDivisionDescription(key, division) {
                 const descriptions = {
                     'rep': 'Competitive representative baseball',
-                    'select': 'Competitive select division play'
+                    'select': 'Competitive select division play',
+                    'interlock': 'Toronto Baseball Association interlock play'
                 };
 
                 const type = key.split('-')[1];
@@ -734,6 +745,10 @@
                                 <h4 class="mega-menu-section-title">Select Divisions</h4>
                                 <div class="mega-menu-items" id="select-divisions"></div>
                             </div>
+                            <div class="mega-menu-section interlock-section">
+                                <h4 class="mega-menu-section-title">Interlock</h4>
+                                <div class="mega-menu-items" id="interlock-divisions"></div>
+                            </div>
                         </div>
                     </div>
                 `;
@@ -741,14 +756,16 @@
                 // Populate divisions
                 const repContainer = megaMenu.querySelector('#rep-divisions');
                 const selectContainer = megaMenu.querySelector('#select-divisions');
+                const interlockContainer = megaMenu.querySelector('#interlock-divisions');
 
                 Object.entries(this.allDivisions).forEach(([key, division]) => {
                     const isRep = key.includes('-rep');
-                    const container = isRep ? repContainer : selectContainer;
-                    
+                    const isInterlock = key.includes('-interlock');
+                    const container = isRep ? repContainer : isInterlock ? interlockContainer : selectContainer;
+
                     const item = document.createElement('div');
                     item.className = 'mega-menu-item';
-                    
+
                     if (isRep) {
                         // Rep divisions: Show all tiers as clickable badges
                         const tierKeys = Object.keys(division.tiers);
@@ -773,22 +790,23 @@
                             </div>
                         `;
                     } else {
-                        // Select divisions: Badge clickable like rep divisions
+                        // Select / Interlock divisions: Badge clickable like rep divisions
                         const mainTierKey = Object.keys(division.tiers)[0];
-                        
+                        const subtitle = isInterlock ? 'Interlock Division' : 'Select Division';
+
                         item.innerHTML = `
                             <div class="mega-menu-item-content">
                                 <div class="mega-menu-item-title">${division.displayName}</div>
-                                <div class="mega-menu-item-subtitle">Select Division</div>
+                                <div class="mega-menu-item-subtitle">${subtitle}</div>
                             </div>
-                            <button class="mega-menu-item-badge" 
-                                    data-division="${key}" 
+                            <button class="mega-menu-item-badge"
+                                    data-division="${key}"
                                     data-tier="${mainTierKey}">
                                 All Teams
                             </button>
                         `;
                     }
-                    
+
                     container.appendChild(item);
                 });
 
@@ -828,6 +846,10 @@
                                 <h4 class="division-modal-section-title">Select Divisions</h4>
                                 <div class="division-modal-items" id="mobile-select-divisions"></div>
                             </div>
+                            <div class="division-modal-section">
+                                <h4 class="division-modal-section-title">Interlock</h4>
+                                <div class="division-modal-items" id="mobile-interlock-divisions"></div>
+                            </div>
                         </div>
                     </div>
                 `;
@@ -835,11 +857,13 @@
                 // Populate divisions
                 const repContainer = modal.querySelector('#mobile-rep-divisions');
                 const selectContainer = modal.querySelector('#mobile-select-divisions');
+                const interlockContainer = modal.querySelector('#mobile-interlock-divisions');
 
                 Object.entries(this.allDivisions).forEach(([key, division]) => {
                     const isRep = key.includes('-rep');
-                    const container = isRep ? repContainer : selectContainer;
-                    
+                    const isInterlock = key.includes('-interlock');
+                    const container = isRep ? repContainer : isInterlock ? interlockContainer : selectContainer;
+
                     if (isRep) {
                         // Rep divisions: Create container with tier badges
                         const item = document.createElement('div');
@@ -869,27 +893,28 @@
                         
                         container.appendChild(item);
                     } else {
-                        // Select divisions: Non-clickable container with clickable badge (like Rep divisions)
+                        // Select / Interlock divisions: Non-clickable container with clickable badge (like Rep divisions)
                         const tierKeys = Object.keys(division.tiers);
                         const mainTierKey = tierKeys[0];
-                        
+                        const subtitle = isInterlock ? 'Interlock Division' : 'Select Division';
+
                         const item = document.createElement('div');
-                        item.className = 'division-modal-item select-division';
-                        
+                        item.className = `division-modal-item ${isInterlock ? 'interlock-division' : 'select-division'}`;
+
                         item.innerHTML = `
                             <div class="division-modal-item-content">
                                 <div class="division-modal-item-title">${division.displayName}</div>
-                                <div class="division-modal-item-subtitle">Select Division</div>
+                                <div class="division-modal-item-subtitle">${subtitle}</div>
                             </div>
                             <div class="division-modal-tier-badges">
-                                <button class="division-modal-tier-badge" 
-                                        data-division="${key}" 
+                                <button class="division-modal-tier-badge"
+                                        data-division="${key}"
                                         data-tier="${mainTierKey}">
                                     All Teams
                                 </button>
                             </div>
                         `;
-                        
+
                         container.appendChild(item);
                     }
                 });

@@ -7,6 +7,18 @@ module.exports = {
   USER_AGENT: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
   YSBA_URL: 'https://www.yorksimcoebaseball.com/Club/xStanding.aspx',
   YSBA_SCHEDULE_URL: 'https://www.yorksimcoebaseball.com/Club/xScheduleMM.aspx',
+
+  // Toronto Baseball Association "Rep Interlock" league (TeamSnap Tournaments).
+  // Embedded at https://torontobaseball.ca/schedules-standings/schedule/
+  // The page is just an iframe over events.teamsnap.com/events/48913 — we hit
+  // the underlying public JSON API directly instead of DOM-scraping the iframe.
+  INTERLOCK_TEAMSNAP: {
+    apiBase: 'https://tournaments-api.teamsnap.com/public',
+    eventId: 48913,
+    organizationId: 26378,
+    apiKey: 'ipB4urBalkSVyuNx8Zq6mM2HX1dt7M94', // public key extracted from the SPA bundle
+    referer: 'https://events.teamsnap.com/'
+  },
   
   // Standardized theme - green primary with yellow accent
   STANDARD_THEME: {
@@ -429,6 +441,31 @@ module.exports = {
         divisionFilter: false,
         schedules: true,
         emailNotifications: true
+      }
+    },
+
+    // Interlock Divisions (Toronto Baseball Association — TeamSnap Tournaments source)
+    '10U-interlock': {
+      displayName: '10U Interlock AA',
+      shortName: '10U Inter',
+      source: 'interlock',
+      tsDivisionId: 169686, // "10U AA (Male)" inside event 48913
+      tiers: {
+        'all-tiers': { displayName: 'All Teams' }
+      },
+      theme: {
+        primary: '#024220',
+        secondary: '#015c2a',
+        accent: '#facc15',
+        text: '#14532d',
+        background: '#f0fdf4',
+        headerBg: 'linear-gradient(135deg, #024220, #015c2a)',
+        brandSubtitle: '#6b7280'
+      },
+      features: {
+        divisionFilter: false,
+        schedules: true,
+        emailNotifications: false
       }
     }
   },

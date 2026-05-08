@@ -1,5 +1,6 @@
 const cron = require('node-cron');
 const YSBAScraper = require('./scraper');
+const InterlockScraper = require('./interlock-scraper');
 const DataFormatter = require('./formatter');
 const DataWriter = require('./writer');
 const DataOptimizer = require('./optimizer');
@@ -8,6 +9,7 @@ const config = require('../../config');
 class YSBAWorker {
   constructor() {
     this.scraper = new YSBAScraper();
+    this.interlockScraper = new InterlockScraper();
     this.formatter = new DataFormatter();
     this.writer = new DataWriter();
     this.optimizer = new DataOptimizer();
@@ -66,13 +68,19 @@ class YSBAWorker {
         try {
           console.log(`\n📊 ${progress} Scraping ${division}/${tier}...`);
           
+          // Pick the right scraper for this division (YSBA vs Interlock).
+          const divisionConfig = config.DIVISIONS[division];
+          const scraperForDivision = divisionConfig?.source === 'interlock'
+            ? this.interlockScraper
+            : this.scraper;
+
           // Scrape standings and schedule in parallel for speed
           const [standingsData, scheduleData] = await Promise.all([
-            this.scrapeWithRetry(() => 
-              this.scraper.scrapeStandingsForDivision(division, tier)
+            this.scrapeWithRetry(() =>
+              scraperForDivision.scrapeStandingsForDivision(division, tier)
             ),
-            this.scrapeWithRetry(() => 
-              this.scraper.scrapeScheduleForDivision(division, tier)
+            this.scrapeWithRetry(() =>
+              scraperForDivision.scrapeScheduleForDivision(division, tier)
             )
           ]);
           
@@ -195,6 +203,7 @@ class YSBAWorker {
     } finally {
       // Clean up browser resources
       await this.scraper.cleanup();
+    await this.interlockScraper.cleanup();
       this.isRunning = false;
     }
   }
@@ -271,6 +280,7 @@ class YSBAWorker {
     }
     
     await this.scraper.cleanup();
+    await this.interlockScraper.cleanup();
     console.log('✅ YSBA Background Worker shut down gracefully');
     process.exit(0);
   }
