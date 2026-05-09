@@ -3,38 +3,38 @@
     "teams": [
       {
         "position": 1,
-        "team": "Newmarket Hawks 11U AA",
-        "teamCode": "617904",
+        "team": "Orillia 11U AA",
+        "teamCode": "618382",
         "record": {
-          "gamesPlayed": 0,
-          "wins": 0,
+          "gamesPlayed": 1,
+          "wins": 1,
           "losses": 0,
           "ties": 0,
-          "winPercentage": ".000"
+          "winPercentage": "1.000"
         },
         "stats": {
-          "points": 0,
-          "runsFor": 0,
-          "runsAgainst": 0,
-          "runDifferential": 0
+          "points": 2,
+          "runsFor": 13,
+          "runsAgainst": 4,
+          "runDifferential": 9
         }
       },
       {
         "position": 2,
-        "team": "Orillia 11U AA",
-        "teamCode": "618382",
+        "team": "Newmarket Hawks 11U AA",
+        "teamCode": "617904",
         "record": {
-          "gamesPlayed": 0,
+          "gamesPlayed": 1,
           "wins": 0,
-          "losses": 0,
+          "losses": 1,
           "ties": 0,
-          "winPercentage": ".000"
+          "winPercentage": "0.000"
         },
         "stats": {
           "points": 0,
-          "runsFor": 0,
-          "runsAgainst": 0,
-          "runDifferential": 0
+          "runsFor": 4,
+          "runsAgainst": 13,
+          "runDifferential": -9
         }
       },
       {
@@ -182,7 +182,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-05-09T02:25:02.390Z",
+    "lastUpdated": "2026-05-09T05:34:53.580Z",
     "totalTeams": 10
   },
   "schedule": {
@@ -255,7 +255,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-09T02:25:06.582Z"
+        "lastUpdated": "2026-05-09T05:34:57.759Z"
       },
       "612781": {
         "teamCode": "612781",
@@ -325,7 +325,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-09T02:25:06.582Z"
+        "lastUpdated": "2026-05-09T05:34:57.759Z"
       },
       "617175": {
         "teamCode": "617175",
@@ -395,7 +395,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-09T02:25:06.582Z"
+        "lastUpdated": "2026-05-09T05:34:57.759Z"
       },
       "617202": {
         "teamCode": "617202",
@@ -465,7 +465,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-09T02:25:06.582Z"
+        "lastUpdated": "2026-05-09T05:34:57.759Z"
       },
       "617850": {
         "teamCode": "617850",
@@ -535,7 +535,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-09T02:25:06.582Z"
+        "lastUpdated": "2026-05-09T05:34:57.759Z"
       },
       "617876": {
         "teamCode": "617876",
@@ -605,7 +605,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-09T02:25:06.582Z"
+        "lastUpdated": "2026-05-09T05:34:57.759Z"
       },
       "617877": {
         "teamCode": "617877",
@@ -675,7 +675,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-09T02:25:06.582Z"
+        "lastUpdated": "2026-05-09T05:34:57.759Z"
       },
       "617903": {
         "teamCode": "617903",
@@ -745,7 +745,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-09T02:25:06.582Z"
+        "lastUpdated": "2026-05-09T05:34:57.759Z"
       },
       "617904": {
         "teamCode": "617904",
@@ -762,8 +762,12 @@
             "awayTeam": "Newmarket Hawks 11U AA",
             "awayTeamCode": "617904",
             "location": "Cliff Yeo Diamond",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 4,
+              "scoreText": "4-13"
+            }
           }
         ],
         "nextGames": [
@@ -828,7 +832,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-09T02:25:06.582Z"
+        "lastUpdated": "2026-05-09T05:34:57.759Z"
       },
       "617945": {
         "teamCode": "617945",
@@ -898,7 +902,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-09T02:25:06.582Z"
+        "lastUpdated": "2026-05-09T05:34:57.759Z"
       },
       "617971": {
         "teamCode": "617971",
@@ -968,7 +972,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-09T02:25:06.583Z"
+        "lastUpdated": "2026-05-09T05:34:57.759Z"
       },
       "617972": {
         "teamCode": "617972",
@@ -1038,7 +1042,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-09T02:25:06.583Z"
+        "lastUpdated": "2026-05-09T05:34:57.759Z"
       },
       "617986": {
         "teamCode": "617986",
@@ -1108,7 +1112,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-09T02:25:06.583Z"
+        "lastUpdated": "2026-05-09T05:34:57.759Z"
       },
       "618006": {
         "teamCode": "618006",
@@ -1178,7 +1182,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-09T02:25:06.583Z"
+        "lastUpdated": "2026-05-09T05:34:57.759Z"
       },
       "618020": {
         "teamCode": "618020",
@@ -1248,7 +1252,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-09T02:25:06.583Z"
+        "lastUpdated": "2026-05-09T05:34:57.759Z"
       },
       "618042": {
         "teamCode": "618042",
@@ -1318,7 +1322,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-09T02:25:06.583Z"
+        "lastUpdated": "2026-05-09T05:34:57.759Z"
       },
       "618043": {
         "teamCode": "618043",
@@ -1388,7 +1392,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-09T02:25:06.583Z"
+        "lastUpdated": "2026-05-09T05:34:57.759Z"
       },
       "618058": {
         "teamCode": "618058",
@@ -1458,7 +1462,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-09T02:25:06.583Z"
+        "lastUpdated": "2026-05-09T05:34:57.759Z"
       },
       "618067": {
         "teamCode": "618067",
@@ -1528,7 +1532,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-09T02:25:06.583Z"
+        "lastUpdated": "2026-05-09T05:34:57.759Z"
       },
       "618382": {
         "teamCode": "618382",
@@ -1545,8 +1549,12 @@
             "awayTeam": "Newmarket Hawks 11U AA",
             "awayTeamCode": "617904",
             "location": "Cliff Yeo Diamond",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 4,
+              "scoreText": "4-13"
+            }
           }
         ],
         "nextGames": [
@@ -1611,7 +1619,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-09T02:25:06.583Z"
+        "lastUpdated": "2026-05-09T05:34:57.759Z"
       },
       "618470": {
         "teamCode": "618470",
@@ -1681,7 +1689,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-09T02:25:06.583Z"
+        "lastUpdated": "2026-05-09T05:34:57.759Z"
       },
       "625726": {
         "teamCode": "625726",
@@ -1751,7 +1759,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-09T02:25:06.583Z"
+        "lastUpdated": "2026-05-09T05:34:57.760Z"
       },
       "628933": {
         "teamCode": "628933",
@@ -1821,7 +1829,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-09T02:25:06.583Z"
+        "lastUpdated": "2026-05-09T05:34:57.760Z"
       }
     },
     "allGames": [
@@ -1834,8 +1842,12 @@
         "awayTeam": "Newmarket Hawks 11U AA",
         "awayTeamCode": "617904",
         "location": "Cliff Yeo Diamond",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 4,
+          "scoreText": "4-13"
+        }
       },
       {
         "date": "2026-05-11T18:00:00.000Z",
@@ -4236,8 +4248,12 @@
         "awayTeam": "Newmarket Hawks 11U AA",
         "awayTeamCode": "617904",
         "location": "Cliff Yeo Diamond",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 4,
+          "scoreText": "4-13"
+        }
       }
     ],
     "upcomingGames": [
@@ -4362,22 +4378,30 @@
         "score": null
       }
     ],
-    "lastUpdated": "2026-05-09T02:25:06.583Z",
+    "lastUpdated": "2026-05-09T05:34:57.760Z",
     "totalGames": 200
   },
   "summary": {
     "totalTeams": 10,
     "totalGames": 200,
-    "completedGames": 0,
-    "upcomingGames": 200,
+    "completedGames": 1,
+    "upcomingGames": 199,
     "topTeam": {
-      "team": "Newmarket Hawks 11U AA",
-      "teamCode": "617904",
-      "wins": 0,
+      "team": "Orillia 11U AA",
+      "teamCode": "618382",
+      "wins": 1,
       "losses": 0,
-      "winPercentage": ".000"
+      "winPercentage": "1.000"
     },
-    "highestScoringGame": null,
-    "lastUpdated": "2026-05-09T02:28:58.531Z"
+    "highestScoringGame": {
+      "homeTeam": "Orillia 11U AA",
+      "awayTeam": "Newmarket Hawks 11U AA",
+      "homeScore": 13,
+      "awayScore": 4,
+      "totalRuns": 17,
+      "date": "Fri, May 8",
+      "location": "Cliff Yeo Diamond"
+    },
+    "lastUpdated": "2026-05-09T05:38:50.777Z"
   }
 }
