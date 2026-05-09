@@ -92,7 +92,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-05-09T09:17:50.827Z",
+    "lastUpdated": "2026-05-09T10:36:17.621Z",
     "totalTeams": 5
   },
   "schedule": {
@@ -165,7 +165,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-09T09:17:53.581Z"
+        "lastUpdated": "2026-05-09T10:36:20.283Z"
       },
       "617895": {
         "teamCode": "617895",
@@ -235,7 +235,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-09T09:17:53.581Z"
+        "lastUpdated": "2026-05-09T10:36:20.283Z"
       },
       "617919": {
         "teamCode": "617919",
@@ -305,15 +305,14 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-09T09:17:53.581Z"
+        "lastUpdated": "2026-05-09T10:36:20.283Z"
       },
       "618002": {
         "teamCode": "618002",
         "totalGames": 16,
-        "playedGames": 0,
-        "upcomingGames": 16,
-        "recentGames": [],
-        "nextGames": [
+        "playedGames": 1,
+        "upcomingGames": 15,
+        "recentGames": [
           {
             "date": "2026-05-09T10:00:00.000Z",
             "dateText": "Sat, May 9",
@@ -325,7 +324,9 @@
             "location": "Thornhill Park",
             "isCompleted": false,
             "score": null
-          },
+          }
+        ],
+        "nextGames": [
           {
             "date": "2026-05-09T12:30:00.000Z",
             "dateText": "Sat, May 9",
@@ -373,17 +374,28 @@
             "location": "Cornell",
             "isCompleted": false,
             "score": null
+          },
+          {
+            "date": "2026-05-23T13:00:00.000Z",
+            "dateText": "Sat, May 23",
+            "time": "1:00 PM",
+            "homeTeam": "Markham Mariners 15U DS",
+            "homeTeamCode": "617895",
+            "awayTeam": "Thornhill Reds 15U DS",
+            "awayTeamCode": "618002",
+            "location": "Cornell",
+            "isCompleted": false,
+            "score": null
           }
         ],
-        "lastUpdated": "2026-05-09T09:17:53.581Z"
+        "lastUpdated": "2026-05-09T10:36:20.283Z"
       },
       "618070": {
         "teamCode": "618070",
         "totalGames": 16,
-        "playedGames": 0,
-        "upcomingGames": 16,
-        "recentGames": [],
-        "nextGames": [
+        "playedGames": 1,
+        "upcomingGames": 15,
+        "recentGames": [
           {
             "date": "2026-05-09T10:00:00.000Z",
             "dateText": "Sat, May 9",
@@ -395,7 +407,9 @@
             "location": "Thornhill Park",
             "isCompleted": false,
             "score": null
-          },
+          }
+        ],
+        "nextGames": [
           {
             "date": "2026-05-09T12:30:00.000Z",
             "dateText": "Sat, May 9",
@@ -443,9 +457,21 @@
             "location": "Lennox Park",
             "isCompleted": false,
             "score": null
+          },
+          {
+            "date": "2026-06-13T14:30:00.000Z",
+            "dateText": "Sat, Jun 13",
+            "time": "2:30 PM",
+            "homeTeam": "Barrie Baycats 15U DS",
+            "homeTeamCode": "612800",
+            "awayTeam": "New Lowell Knights 15U DS",
+            "awayTeamCode": "618070",
+            "location": "Lennox Park",
+            "isCompleted": false,
+            "score": null
           }
         ],
-        "lastUpdated": "2026-05-09T09:17:53.581Z"
+        "lastUpdated": "2026-05-09T10:36:20.283Z"
       }
     },
     "allGames": [
@@ -930,8 +956,7 @@
         "score": null
       }
     ],
-    "recentGames": [],
-    "upcomingGames": [
+    "recentGames": [
       {
         "date": "2026-05-09T10:00:00.000Z",
         "dateText": "Sat, May 9",
@@ -943,7 +968,9 @@
         "location": "Thornhill Park",
         "isCompleted": false,
         "score": null
-      },
+      }
+    ],
+    "upcomingGames": [
       {
         "date": "2026-05-09T12:00:00.000Z",
         "dateText": "Sat, May 9",
@@ -1051,9 +1078,21 @@
         "location": "Lennox Park",
         "isCompleted": false,
         "score": null
+      },
+      {
+        "date": "2026-05-23T13:00:00.000Z",
+        "dateText": "Sat, May 23",
+        "time": "1:00 PM",
+        "homeTeam": "Markham Mariners 15U DS",
+        "homeTeamCode": "617895",
+        "awayTeam": "Thornhill Reds 15U DS",
+        "awayTeamCode": "618002",
+        "location": "Cornell",
+        "isCompleted": false,
+        "score": null
       }
     ],
-    "lastUpdated": "2026-05-09T09:17:53.581Z",
+    "lastUpdated": "2026-05-09T10:36:20.283Z",
     "totalGames": 40
   },
   "summary": {
@@ -1069,6 +1108,6 @@
       "winPercentage": ".000"
     },
     "highestScoringGame": null,
-    "lastUpdated": "2026-05-09T09:17:54.821Z"
+    "lastUpdated": "2026-05-09T10:36:21.373Z"
   }
 }
