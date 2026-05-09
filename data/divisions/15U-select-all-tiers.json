@@ -3,6 +3,42 @@
     "teams": [
       {
         "position": 1,
+        "team": "Thornhill Reds 15U DS",
+        "teamCode": "618002",
+        "record": {
+          "gamesPlayed": 2,
+          "wins": 1,
+          "losses": 0,
+          "ties": 1,
+          "winPercentage": "0.750"
+        },
+        "stats": {
+          "points": 3,
+          "runsFor": 22,
+          "runsAgainst": 13,
+          "runDifferential": 9
+        }
+      },
+      {
+        "position": 2,
+        "team": "New Lowell Knights 15U DS",
+        "teamCode": "618070",
+        "record": {
+          "gamesPlayed": 2,
+          "wins": 0,
+          "losses": 1,
+          "ties": 1,
+          "winPercentage": "0.250"
+        },
+        "stats": {
+          "points": 1,
+          "runsFor": 13,
+          "runsAgainst": 22,
+          "runDifferential": -9
+        }
+      },
+      {
+        "position": 3,
         "team": "Barrie Baycats 15U DS",
         "teamCode": "612800",
         "record": {
@@ -20,7 +56,7 @@
         }
       },
       {
-        "position": 2,
+        "position": 4,
         "team": "Markham Mariners 15U DS",
         "teamCode": "617895",
         "record": {
@@ -38,25 +74,7 @@
         }
       },
       {
-        "position": 3,
-        "team": "New Lowell Knights 15U DS",
-        "teamCode": "618070",
-        "record": {
-          "gamesPlayed": 0,
-          "wins": 0,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": ".000"
-        },
-        "stats": {
-          "points": 0,
-          "runsFor": 0,
-          "runsAgainst": 0,
-          "runDifferential": 0
-        }
-      },
-      {
-        "position": 4,
+        "position": 5,
         "team": "Newmarket Hawks 15U DS",
         "teamCode": "617919",
         "record": {
@@ -72,27 +90,9 @@
           "runsAgainst": 0,
           "runDifferential": 0
         }
-      },
-      {
-        "position": 5,
-        "team": "Thornhill Reds 15U DS",
-        "teamCode": "618002",
-        "record": {
-          "gamesPlayed": 0,
-          "wins": 0,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": ".000"
-        },
-        "stats": {
-          "points": 0,
-          "runsFor": 0,
-          "runsAgainst": 0,
-          "runDifferential": 0
-        }
       }
     ],
-    "lastUpdated": "2026-05-09T21:42:49.444Z",
+    "lastUpdated": "2026-05-09T22:41:40.148Z",
     "totalTeams": 5
   },
   "schedule": {
@@ -178,9 +178,9 @@
             "score": null
           },
           {
-            "date": "2026-05-30T10:00:00.000Z",
+            "date": "2026-05-30T09:30:00.000Z",
             "dateText": "Sat, May 30",
-            "time": "10:00 AM",
+            "time": "9:30 AM",
             "homeTeam": "Thornhill Reds 15U DS",
             "homeTeamCode": "618002",
             "awayTeam": "Barrie Baycats 15U DS",
@@ -190,7 +190,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-09T21:42:52.197Z"
+        "lastUpdated": "2026-05-09T22:41:42.872Z"
       },
       "617895": {
         "teamCode": "617895",
@@ -260,7 +260,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-09T21:42:52.197Z"
+        "lastUpdated": "2026-05-09T22:41:42.873Z"
       },
       "617919": {
         "teamCode": "617919",
@@ -355,7 +355,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-09T21:42:52.197Z"
+        "lastUpdated": "2026-05-09T22:41:42.873Z"
       },
       "618002": {
         "teamCode": "618002",
@@ -364,16 +364,20 @@
         "upcomingGames": 14,
         "recentGames": [
           {
-            "date": "2026-05-09T10:00:00.000Z",
+            "date": "2026-05-09T09:30:00.000Z",
             "dateText": "Sat, May 9",
-            "time": "10:00 AM",
+            "time": "9:30 AM",
             "homeTeam": "Thornhill Reds 15U DS",
             "homeTeamCode": "618002",
             "awayTeam": "New Lowell Knights 15U DS",
             "awayTeamCode": "618070",
             "location": "Thornhill Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 8,
+              "scoreText": "8-8"
+            }
           },
           {
             "date": "2026-05-09T12:30:00.000Z",
@@ -384,8 +388,12 @@
             "awayTeam": "New Lowell Knights 15U DS",
             "awayTeamCode": "618070",
             "location": "Thornhill Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 5,
+              "scoreText": "5-14"
+            }
           }
         ],
         "nextGames": [
@@ -438,9 +446,9 @@
             "score": null
           },
           {
-            "date": "2026-05-30T10:00:00.000Z",
+            "date": "2026-05-30T09:30:00.000Z",
             "dateText": "Sat, May 30",
-            "time": "10:00 AM",
+            "time": "9:30 AM",
             "homeTeam": "Thornhill Reds 15U DS",
             "homeTeamCode": "618002",
             "awayTeam": "Barrie Baycats 15U DS",
@@ -450,7 +458,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-09T21:42:52.197Z"
+        "lastUpdated": "2026-05-09T22:41:42.873Z"
       },
       "618070": {
         "teamCode": "618070",
@@ -459,16 +467,20 @@
         "upcomingGames": 14,
         "recentGames": [
           {
-            "date": "2026-05-09T10:00:00.000Z",
+            "date": "2026-05-09T09:30:00.000Z",
             "dateText": "Sat, May 9",
-            "time": "10:00 AM",
+            "time": "9:30 AM",
             "homeTeam": "Thornhill Reds 15U DS",
             "homeTeamCode": "618002",
             "awayTeam": "New Lowell Knights 15U DS",
             "awayTeamCode": "618070",
             "location": "Thornhill Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 8,
+              "scoreText": "8-8"
+            }
           },
           {
             "date": "2026-05-09T12:30:00.000Z",
@@ -479,8 +491,12 @@
             "awayTeam": "New Lowell Knights 15U DS",
             "awayTeamCode": "618070",
             "location": "Thornhill Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 5,
+              "scoreText": "5-14"
+            }
           }
         ],
         "nextGames": [
@@ -545,21 +561,25 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-09T21:42:52.197Z"
+        "lastUpdated": "2026-05-09T22:41:42.873Z"
       }
     },
     "allGames": [
       {
-        "date": "2026-05-09T10:00:00.000Z",
+        "date": "2026-05-09T09:30:00.000Z",
         "dateText": "Sat, May 9",
-        "time": "10:00 AM",
+        "time": "9:30 AM",
         "homeTeam": "Thornhill Reds 15U DS",
         "homeTeamCode": "618002",
         "awayTeam": "New Lowell Knights 15U DS",
         "awayTeamCode": "618070",
         "location": "Thornhill Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 8,
+          "scoreText": "8-8"
+        }
       },
       {
         "date": "2026-05-09T12:00:00.000Z",
@@ -582,8 +602,12 @@
         "awayTeam": "New Lowell Knights 15U DS",
         "awayTeamCode": "618070",
         "location": "Thornhill Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 5,
+          "scoreText": "5-14"
+        }
       },
       {
         "date": "2026-05-09T14:30:00.000Z",
@@ -694,9 +718,9 @@
         "score": null
       },
       {
-        "date": "2026-05-30T10:00:00.000Z",
+        "date": "2026-05-30T09:30:00.000Z",
         "dateText": "Sat, May 30",
-        "time": "10:00 AM",
+        "time": "9:30 AM",
         "homeTeam": "Thornhill Reds 15U DS",
         "homeTeamCode": "618002",
         "awayTeam": "Barrie Baycats 15U DS",
@@ -706,9 +730,9 @@
         "score": null
       },
       {
-        "date": "2026-05-30T12:30:00.000Z",
+        "date": "2026-05-30T12:00:00.000Z",
         "dateText": "Sat, May 30",
-        "time": "12:30 PM",
+        "time": "12:00 PM",
         "homeTeam": "Thornhill Reds 15U DS",
         "homeTeamCode": "618002",
         "awayTeam": "Barrie Baycats 15U DS",
@@ -814,6 +838,18 @@
         "score": null
       },
       {
+        "date": "2026-06-20T09:30:00.000Z",
+        "dateText": "Sat, Jun 20",
+        "time": "9:30 AM",
+        "homeTeam": "Thornhill Reds 15U DS",
+        "homeTeamCode": "618002",
+        "awayTeam": "Newmarket Hawks 15U DS",
+        "awayTeamCode": "617919",
+        "location": "Thornhill Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
         "date": "2026-06-20T10:00:00.000Z",
         "dateText": "Sat, Jun 20",
         "time": "10:00 AM",
@@ -826,21 +862,9 @@
         "score": null
       },
       {
-        "date": "2026-06-20T10:00:00.000Z",
+        "date": "2026-06-20T12:00:00.000Z",
         "dateText": "Sat, Jun 20",
-        "time": "10:00 AM",
-        "homeTeam": "Thornhill Reds 15U DS",
-        "homeTeamCode": "618002",
-        "awayTeam": "Newmarket Hawks 15U DS",
-        "awayTeamCode": "617919",
-        "location": "Thornhill Park",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": "2026-06-20T12:30:00.000Z",
-        "dateText": "Sat, Jun 20",
-        "time": "12:30 PM",
+        "time": "12:00 PM",
         "homeTeam": "Thornhill Reds 15U DS",
         "homeTeamCode": "618002",
         "awayTeam": "Newmarket Hawks 15U DS",
@@ -982,9 +1006,9 @@
         "score": null
       },
       {
-        "date": "2026-08-01T10:00:00.000Z",
+        "date": "2026-08-01T09:30:00.000Z",
         "dateText": "Sat, Aug 1",
-        "time": "10:00 AM",
+        "time": "9:30 AM",
         "homeTeam": "Thornhill Reds 15U DS",
         "homeTeamCode": "618002",
         "awayTeam": "Markham Mariners 15U DS",
@@ -994,9 +1018,9 @@
         "score": null
       },
       {
-        "date": "2026-08-01T12:30:00.000Z",
+        "date": "2026-08-01T12:00:00.000Z",
         "dateText": "Sat, Aug 1",
-        "time": "12:30 PM",
+        "time": "12:00 PM",
         "homeTeam": "Thornhill Reds 15U DS",
         "homeTeamCode": "618002",
         "awayTeam": "Markham Mariners 15U DS",
@@ -1052,8 +1076,12 @@
         "awayTeam": "New Lowell Knights 15U DS",
         "awayTeamCode": "618070",
         "location": "Thornhill Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 5,
+          "scoreText": "5-14"
+        }
       },
       {
         "date": "2026-05-09T12:00:00.000Z",
@@ -1068,16 +1096,20 @@
         "score": null
       },
       {
-        "date": "2026-05-09T10:00:00.000Z",
+        "date": "2026-05-09T09:30:00.000Z",
         "dateText": "Sat, May 9",
-        "time": "10:00 AM",
+        "time": "9:30 AM",
         "homeTeam": "Thornhill Reds 15U DS",
         "homeTeamCode": "618002",
         "awayTeam": "New Lowell Knights 15U DS",
         "awayTeamCode": "618070",
         "location": "Thornhill Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 8,
+          "scoreText": "8-8"
+        }
       }
     ],
     "upcomingGames": [
@@ -1178,9 +1210,9 @@
         "score": null
       },
       {
-        "date": "2026-05-30T10:00:00.000Z",
+        "date": "2026-05-30T09:30:00.000Z",
         "dateText": "Sat, May 30",
-        "time": "10:00 AM",
+        "time": "9:30 AM",
         "homeTeam": "Thornhill Reds 15U DS",
         "homeTeamCode": "618002",
         "awayTeam": "Barrie Baycats 15U DS",
@@ -1190,9 +1222,9 @@
         "score": null
       },
       {
-        "date": "2026-05-30T12:30:00.000Z",
+        "date": "2026-05-30T12:00:00.000Z",
         "dateText": "Sat, May 30",
-        "time": "12:30 PM",
+        "time": "12:00 PM",
         "homeTeam": "Thornhill Reds 15U DS",
         "homeTeamCode": "618002",
         "awayTeam": "Barrie Baycats 15U DS",
@@ -1202,22 +1234,30 @@
         "score": null
       }
     ],
-    "lastUpdated": "2026-05-09T21:42:52.197Z",
+    "lastUpdated": "2026-05-09T22:41:42.873Z",
     "totalGames": 40
   },
   "summary": {
     "totalTeams": 5,
     "totalGames": 40,
-    "completedGames": 0,
-    "upcomingGames": 40,
+    "completedGames": 2,
+    "upcomingGames": 38,
     "topTeam": {
-      "team": "Barrie Baycats 15U DS",
-      "teamCode": "612800",
-      "wins": 0,
+      "team": "Thornhill Reds 15U DS",
+      "teamCode": "618002",
+      "wins": 1,
       "losses": 0,
-      "winPercentage": ".000"
+      "winPercentage": "0.750"
     },
-    "highestScoringGame": null,
-    "lastUpdated": "2026-05-09T21:42:53.408Z"
+    "highestScoringGame": {
+      "homeTeam": "Thornhill Reds 15U DS",
+      "awayTeam": "New Lowell Knights 15U DS",
+      "homeScore": 14,
+      "awayScore": 5,
+      "totalRuns": 19,
+      "date": "Sat, May 9",
+      "location": "Thornhill Park"
+    },
+    "lastUpdated": "2026-05-09T22:41:43.984Z"
   }
 }

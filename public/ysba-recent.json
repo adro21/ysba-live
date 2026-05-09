@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-09T21:42:53.408Z",
+  "lastUpdated": "2026-05-09T22:41:43.984Z",
   "totalGames": 38,
   "games": [
     {
@@ -179,8 +179,12 @@
       "awayTeam": "New Lowell Knights 15U DS",
       "awayTeamCode": "618070",
       "location": "Thornhill Park",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 14,
+        "away": 5,
+        "scoreText": "5-14"
+      },
       "division": "15U",
       "tier": "select-all-tiers"
     },
@@ -269,16 +273,20 @@
       "tier": "select-all-tiers"
     },
     {
-      "date": "2026-05-09T10:00:00.000Z",
+      "date": "2026-05-09T09:30:00.000Z",
       "dateText": "Sat, May 9",
-      "time": "10:00 AM",
+      "time": "9:30 AM",
       "homeTeam": "Thornhill Reds 15U DS",
       "homeTeamCode": "618002",
       "awayTeam": "New Lowell Knights 15U DS",
       "awayTeamCode": "618070",
       "location": "Thornhill Park",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 8,
+        "away": 8,
+        "scoreText": "8-8"
+      },
       "division": "15U",
       "tier": "select-all-tiers"
     },
