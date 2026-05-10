@@ -3,6 +3,42 @@
     "teams": [
       {
         "position": 1,
+        "team": "Vaughan Vikings 11U DS",
+        "teamCode": "617190",
+        "record": {
+          "gamesPlayed": 2,
+          "wins": 2,
+          "losses": 0,
+          "ties": 0,
+          "winPercentage": "1.000"
+        },
+        "stats": {
+          "points": 4,
+          "runsFor": 26,
+          "runsAgainst": 8,
+          "runDifferential": 18
+        }
+      },
+      {
+        "position": 2,
+        "team": "Orillia 11U DS",
+        "teamCode": "618391",
+        "record": {
+          "gamesPlayed": 2,
+          "wins": 0,
+          "losses": 2,
+          "ties": 0,
+          "winPercentage": "0.000"
+        },
+        "stats": {
+          "points": 0,
+          "runsFor": 8,
+          "runsAgainst": 26,
+          "runDifferential": -18
+        }
+      },
+      {
+        "position": 3,
         "team": "Barrie Baycats 11U DS",
         "teamCode": "612798",
         "record": {
@@ -20,7 +56,7 @@
         }
       },
       {
-        "position": 2,
+        "position": 4,
         "team": "Caledon Nationals 11U DS",
         "teamCode": "618476",
         "record": {
@@ -38,7 +74,7 @@
         }
       },
       {
-        "position": 3,
+        "position": 5,
         "team": "Collingwood Jays 11U DS",
         "teamCode": "618014",
         "record": {
@@ -56,7 +92,7 @@
         }
       },
       {
-        "position": 4,
+        "position": 6,
         "team": "Innisfil Cardinals 11U DS",
         "teamCode": "618053",
         "record": {
@@ -74,7 +110,7 @@
         }
       },
       {
-        "position": 5,
+        "position": 7,
         "team": "Markham Mariners 11U DS",
         "teamCode": "617892",
         "record": {
@@ -92,7 +128,7 @@
         }
       },
       {
-        "position": 6,
+        "position": 8,
         "team": "Newmarket Hawks 11U DS",
         "teamCode": "617917",
         "record": {
@@ -110,7 +146,7 @@
         }
       },
       {
-        "position": 7,
+        "position": 9,
         "team": "Orangeville Bengals 11U DS",
         "teamCode": "618027",
         "record": {
@@ -128,25 +164,7 @@
         }
       },
       {
-        "position": 8,
-        "team": "Orillia 11U DS",
-        "teamCode": "618391",
-        "record": {
-          "gamesPlayed": 0,
-          "wins": 0,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": ".000"
-        },
-        "stats": {
-          "points": 0,
-          "runsFor": 0,
-          "runsAgainst": 0,
-          "runDifferential": 0
-        }
-      },
-      {
-        "position": 9,
+        "position": 10,
         "team": "Thornhill Reds 11U DS",
         "teamCode": "618000",
         "record": {
@@ -164,7 +182,7 @@
         }
       },
       {
-        "position": 10,
+        "position": 11,
         "team": "Vaughan Vikings 10U DS",
         "teamCode": "617189",
         "record": {
@@ -180,27 +198,9 @@
           "runsAgainst": 0,
           "runDifferential": 0
         }
-      },
-      {
-        "position": 11,
-        "team": "Vaughan Vikings 11U DS",
-        "teamCode": "617190",
-        "record": {
-          "gamesPlayed": 0,
-          "wins": 0,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": ".000"
-        },
-        "stats": {
-          "points": 0,
-          "runsFor": 0,
-          "runsAgainst": 0,
-          "runDifferential": 0
-        }
       }
     ],
-    "lastUpdated": "2026-05-10T02:31:24.405Z",
+    "lastUpdated": "2026-05-10T05:53:33.092Z",
     "totalTeams": 11
   },
   "schedule": {
@@ -273,7 +273,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-10T02:31:27.182Z"
+        "lastUpdated": "2026-05-10T05:53:35.861Z"
       },
       "617189": {
         "teamCode": "617189",
@@ -343,7 +343,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-10T02:31:27.182Z"
+        "lastUpdated": "2026-05-10T05:53:35.861Z"
       },
       "617190": {
         "teamCode": "617190",
@@ -360,8 +360,12 @@
             "awayTeam": "Orillia 11U DS",
             "awayTeamCode": "618391",
             "location": "Chatfield District Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 4,
+              "scoreText": "4-8"
+            }
           },
           {
             "date": "2026-05-09T13:30:00.000Z",
@@ -372,8 +376,12 @@
             "awayTeam": "Orillia 11U DS",
             "awayTeamCode": "618391",
             "location": "Chatfield District Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 18,
+              "away": 4,
+              "scoreText": "4-18"
+            }
           }
         ],
         "nextGames": [
@@ -438,7 +446,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-10T02:31:27.182Z"
+        "lastUpdated": "2026-05-10T05:53:35.861Z"
       },
       "617892": {
         "teamCode": "617892",
@@ -451,6 +459,18 @@
             "date": "2026-05-16T10:00:00.000Z",
             "dateText": "Sat, May 16",
             "time": "10:00 AM",
+            "homeTeam": "Innisfil Cardinals 11U DS",
+            "homeTeamCode": "618053",
+            "awayTeam": "Markham Mariners 11U DS",
+            "awayTeamCode": "617892",
+            "location": "Stroud",
+            "isCompleted": false,
+            "score": null
+          },
+          {
+            "date": "2026-05-16T12:00:00.000Z",
+            "dateText": "Sat, May 16",
+            "time": "12:00 PM",
             "homeTeam": "Innisfil Cardinals 11U DS",
             "homeTeamCode": "618053",
             "awayTeam": "Markham Mariners 11U DS",
@@ -494,21 +514,9 @@
             "location": "Fairgrounds #1",
             "isCompleted": false,
             "score": null
-          },
-          {
-            "date": "2026-05-30T14:30:00.000Z",
-            "dateText": "Sat, May 30",
-            "time": "2:30 PM",
-            "homeTeam": "Newmarket Hawks 11U DS",
-            "homeTeamCode": "617917",
-            "awayTeam": "Markham Mariners 11U DS",
-            "awayTeamCode": "617892",
-            "location": "Fairgrounds #1",
-            "isCompleted": false,
-            "score": null
           }
         ],
-        "lastUpdated": "2026-05-10T02:31:27.182Z"
+        "lastUpdated": "2026-05-10T05:53:35.862Z"
       },
       "617917": {
         "teamCode": "617917",
@@ -578,7 +586,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-10T02:31:27.182Z"
+        "lastUpdated": "2026-05-10T05:53:35.862Z"
       },
       "618000": {
         "teamCode": "618000",
@@ -648,7 +656,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-10T02:31:27.182Z"
+        "lastUpdated": "2026-05-10T05:53:35.862Z"
       },
       "618014": {
         "teamCode": "618014",
@@ -718,7 +726,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-10T02:31:27.182Z"
+        "lastUpdated": "2026-05-10T05:53:35.862Z"
       },
       "618027": {
         "teamCode": "618027",
@@ -788,7 +796,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-10T02:31:27.182Z"
+        "lastUpdated": "2026-05-10T05:53:35.862Z"
       },
       "618053": {
         "teamCode": "618053",
@@ -801,6 +809,18 @@
             "date": "2026-05-16T10:00:00.000Z",
             "dateText": "Sat, May 16",
             "time": "10:00 AM",
+            "homeTeam": "Innisfil Cardinals 11U DS",
+            "homeTeamCode": "618053",
+            "awayTeam": "Markham Mariners 11U DS",
+            "awayTeamCode": "617892",
+            "location": "Stroud",
+            "isCompleted": false,
+            "score": null
+          },
+          {
+            "date": "2026-05-16T12:00:00.000Z",
+            "dateText": "Sat, May 16",
+            "time": "12:00 PM",
             "homeTeam": "Innisfil Cardinals 11U DS",
             "homeTeamCode": "618053",
             "awayTeam": "Markham Mariners 11U DS",
@@ -844,21 +864,9 @@
             "location": "Central Diamond #2",
             "isCompleted": false,
             "score": null
-          },
-          {
-            "date": "2026-05-24T13:00:00.000Z",
-            "dateText": "Sun, May 24",
-            "time": "1:00 PM",
-            "homeTeam": "Caledon Nationals 11U DS",
-            "homeTeamCode": "618476",
-            "awayTeam": "Innisfil Cardinals 11U DS",
-            "awayTeamCode": "618053",
-            "location": "Caledon East Park #1",
-            "isCompleted": false,
-            "score": null
           }
         ],
-        "lastUpdated": "2026-05-10T02:31:27.183Z"
+        "lastUpdated": "2026-05-10T05:53:35.862Z"
       },
       "618391": {
         "teamCode": "618391",
@@ -875,8 +883,12 @@
             "awayTeam": "Orillia 11U DS",
             "awayTeamCode": "618391",
             "location": "Chatfield District Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 4,
+              "scoreText": "4-8"
+            }
           },
           {
             "date": "2026-05-09T13:30:00.000Z",
@@ -887,8 +899,12 @@
             "awayTeam": "Orillia 11U DS",
             "awayTeamCode": "618391",
             "location": "Chatfield District Park",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 18,
+              "away": 4,
+              "scoreText": "4-18"
+            }
           }
         ],
         "nextGames": [
@@ -953,7 +969,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-10T02:31:27.183Z"
+        "lastUpdated": "2026-05-10T05:53:35.862Z"
       },
       "618476": {
         "teamCode": "618476",
@@ -1023,7 +1039,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-10T02:31:27.183Z"
+        "lastUpdated": "2026-05-10T05:53:35.862Z"
       }
     },
     "allGames": [
@@ -1036,8 +1052,12 @@
         "awayTeam": "Orillia 11U DS",
         "awayTeamCode": "618391",
         "location": "Chatfield District Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 4,
+          "scoreText": "4-8"
+        }
       },
       {
         "date": "2026-05-09T13:30:00.000Z",
@@ -1048,8 +1068,12 @@
         "awayTeam": "Orillia 11U DS",
         "awayTeamCode": "618391",
         "location": "Chatfield District Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 18,
+          "away": 4,
+          "scoreText": "4-18"
+        }
       },
       {
         "date": "2026-05-10T12:00:00.000Z",
@@ -1096,6 +1120,18 @@
         "awayTeam": "Collingwood Jays 11U DS",
         "awayTeamCode": "618014",
         "location": "Chatfield District Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-05-16T12:00:00.000Z",
+        "dateText": "Sat, May 16",
+        "time": "12:00 PM",
+        "homeTeam": "Innisfil Cardinals 11U DS",
+        "homeTeamCode": "618053",
+        "awayTeam": "Markham Mariners 11U DS",
+        "awayTeamCode": "617892",
+        "location": "Stroud",
         "isCompleted": false,
         "score": null
       },
@@ -1652,18 +1688,6 @@
         "score": null
       },
       {
-        "date": "2026-06-16T18:30:00.000Z",
-        "dateText": "Tue, Jun 16",
-        "time": "6:30 PM",
-        "homeTeam": "Innisfil Cardinals 11U DS",
-        "homeTeamCode": "618053",
-        "awayTeam": "Markham Mariners 11U DS",
-        "awayTeamCode": "617892",
-        "location": "Innisfil Beach L.",
-        "isCompleted": false,
-        "score": null
-      },
-      {
         "date": "2026-06-21T11:00:00.000Z",
         "dateText": "Sun, Jun 21",
         "time": "11:00 AM",
@@ -2094,8 +2118,12 @@
         "awayTeam": "Orillia 11U DS",
         "awayTeamCode": "618391",
         "location": "Chatfield District Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 18,
+          "away": 4,
+          "scoreText": "4-18"
+        }
       },
       {
         "date": "2026-05-09T11:00:00.000Z",
@@ -2106,8 +2134,12 @@
         "awayTeam": "Orillia 11U DS",
         "awayTeamCode": "618391",
         "location": "Chatfield District Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 4,
+          "scoreText": "4-8"
+        }
       }
     ],
     "upcomingGames": [
@@ -2156,6 +2188,18 @@
         "awayTeam": "Collingwood Jays 11U DS",
         "awayTeamCode": "618014",
         "location": "Chatfield District Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-05-16T12:00:00.000Z",
+        "dateText": "Sat, May 16",
+        "time": "12:00 PM",
+        "homeTeam": "Innisfil Cardinals 11U DS",
+        "homeTeamCode": "618053",
+        "awayTeam": "Markham Mariners 11U DS",
+        "awayTeamCode": "617892",
+        "location": "Stroud",
         "isCompleted": false,
         "score": null
       },
@@ -2218,36 +2262,32 @@
         "location": "Thornhill Park",
         "isCompleted": false,
         "score": null
-      },
-      {
-        "date": "2026-05-23T10:00:00.000Z",
-        "dateText": "Sat, May 23",
-        "time": "10:00 AM",
-        "homeTeam": "Collingwood Jays 11U DS",
-        "homeTeamCode": "618014",
-        "awayTeam": "Innisfil Cardinals 11U DS",
-        "awayTeamCode": "618053",
-        "location": "Central Diamond #2",
-        "isCompleted": false,
-        "score": null
       }
     ],
-    "lastUpdated": "2026-05-10T02:31:27.183Z",
+    "lastUpdated": "2026-05-10T05:53:35.862Z",
     "totalGames": 88
   },
   "summary": {
     "totalTeams": 11,
     "totalGames": 88,
-    "completedGames": 0,
-    "upcomingGames": 88,
+    "completedGames": 2,
+    "upcomingGames": 86,
     "topTeam": {
-      "team": "Barrie Baycats 11U DS",
-      "teamCode": "612798",
-      "wins": 0,
+      "team": "Vaughan Vikings 11U DS",
+      "teamCode": "617190",
+      "wins": 2,
       "losses": 0,
-      "winPercentage": ".000"
+      "winPercentage": "1.000"
     },
-    "highestScoringGame": null,
-    "lastUpdated": "2026-05-10T02:31:41.441Z"
+    "highestScoringGame": {
+      "homeTeam": "Vaughan Vikings 11U DS",
+      "awayTeam": "Orillia 11U DS",
+      "homeScore": 18,
+      "awayScore": 4,
+      "totalRuns": 22,
+      "date": "Sat, May 9",
+      "location": "Chatfield District Park"
+    },
+    "lastUpdated": "2026-05-10T05:53:50.016Z"
   }
 }
