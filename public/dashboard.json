@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-05-10T20:46:55.475Z",
+  "lastUpdated": "2026-05-10T21:46:48.963Z",
   "totals": {
     "divisions": 53,
     "teams": 201,
     "games": 5435,
-    "completed": 39,
-    "upcoming": 5396
+    "completed": 47,
+    "upcoming": 5388
   },
   "recentActivity": [
     {
@@ -29,8 +29,12 @@
       "awayTeam": "Bradford Tigers 9U DS",
       "awayTeamCode": "617954",
       "location": "Matthew Park",
-      "isCompleted": false,
-      "score": null
+      "isCompleted": true,
+      "score": {
+        "home": 13,
+        "away": 14,
+        "scoreText": "14-13"
+      }
     },
     {
       "date": "2026-05-10T14:30:00.000Z",
@@ -65,8 +69,12 @@
       "awayTeam": "Vaughan Vikings 9U DS",
       "awayTeamCode": "617188",
       "location": "Thornhill Park",
-      "isCompleted": false,
-      "score": null
+      "isCompleted": true,
+      "score": {
+        "home": 10,
+        "away": 16,
+        "scoreText": "16-10"
+      }
     }
   ],
   "upcomingGames": [
