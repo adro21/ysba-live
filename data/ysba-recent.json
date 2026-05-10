@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-09T23:45:42.478Z",
+  "lastUpdated": "2026-05-10T02:31:41.441Z",
   "totalGames": 38,
   "games": [
     {
@@ -39,8 +39,12 @@
       "awayTeam": "Markham Mariners 9U DS",
       "awayTeamCode": "617891",
       "location": "225 pine street, newmarket",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 4,
+        "away": 11,
+        "scoreText": "11-4"
+      },
       "division": "9U",
       "tier": "select-all-tiers"
     },
@@ -81,8 +85,12 @@
       "awayTeam": "Barrie Baycats 15U DS",
       "awayTeamCode": "612800",
       "location": "Whipper Billy Watson",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 4,
+        "away": 14,
+        "scoreText": "14-4"
+      },
       "division": "15U",
       "tier": "select-all-tiers"
     },
@@ -211,8 +219,12 @@
       "awayTeam": "Barrie Baycats 15U DS",
       "awayTeamCode": "612800",
       "location": "Whipper Billy Watson",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 11,
+        "away": 18,
+        "scoreText": "18-11"
+      },
       "division": "15U",
       "tier": "select-all-tiers"
     },
