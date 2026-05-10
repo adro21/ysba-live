@@ -2,7 +2,7 @@
   "standings": {
     "teams": [
       {
-        "position": 1,
+        "position": 2,
         "team": "Barrie Baycats 10U A",
         "teamCode": "612779",
         "record": {
@@ -20,9 +20,27 @@
         }
       },
       {
-        "position": 2,
+        "position": 1,
         "team": "Thornhill Reds 10U A",
         "teamCode": "617985",
+        "record": {
+          "gamesPlayed": 2,
+          "wins": 1,
+          "losses": 1,
+          "ties": 0,
+          "winPercentage": "0.500"
+        },
+        "stats": {
+          "points": 2,
+          "runsFor": 17,
+          "runsAgainst": 23,
+          "runDifferential": -6
+        }
+      },
+      {
+        "position": 3,
+        "team": "Stouffville 10U A",
+        "teamCode": "627209",
         "record": {
           "gamesPlayed": 1,
           "wins": 0,
@@ -32,13 +50,13 @@
         },
         "stats": {
           "points": 0,
-          "runsFor": 6,
-          "runsAgainst": 13,
-          "runDifferential": -7
+          "runsFor": 10,
+          "runsAgainst": 11,
+          "runDifferential": -1
         }
       },
       {
-        "position": 3,
+        "position": 4,
         "team": "Aurora-King Jays 10U A",
         "teamCode": "617970",
         "record": {
@@ -56,7 +74,7 @@
         }
       },
       {
-        "position": 4,
+        "position": 5,
         "team": "Bradford Tigers 10U A",
         "teamCode": "617944",
         "record": {
@@ -74,7 +92,7 @@
         }
       },
       {
-        "position": 5,
+        "position": 6,
         "team": "Collingwood Jays 10U A",
         "teamCode": "618005",
         "record": {
@@ -92,7 +110,7 @@
         }
       },
       {
-        "position": 6,
+        "position": 7,
         "team": "Georgina Bulldogs 10U B",
         "teamCode": "625725",
         "record": {
@@ -110,7 +128,7 @@
         }
       },
       {
-        "position": 7,
+        "position": 8,
         "team": "Innisfil Cardinals 10U A",
         "teamCode": "618041",
         "record": {
@@ -128,7 +146,7 @@
         }
       },
       {
-        "position": 8,
+        "position": 9,
         "team": "Midland Penetang Twins 10U B",
         "teamCode": "618394",
         "record": {
@@ -146,7 +164,7 @@
         }
       },
       {
-        "position": 9,
+        "position": 10,
         "team": "Newmarket Hawks 10U A",
         "teamCode": "617900",
         "record": {
@@ -164,7 +182,7 @@
         }
       },
       {
-        "position": 10,
+        "position": 11,
         "team": "Orangeville Bengals 10U A",
         "teamCode": "618019",
         "record": {
@@ -182,7 +200,7 @@
         }
       },
       {
-        "position": 11,
+        "position": 12,
         "team": "Orillia 10U B",
         "teamCode": "618381",
         "record": {
@@ -200,27 +218,9 @@
         }
       },
       {
-        "position": 12,
+        "position": 13,
         "team": "Richmond Hill Phoenix 10U A",
         "teamCode": "617848",
-        "record": {
-          "gamesPlayed": 0,
-          "wins": 0,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": ".000"
-        },
-        "stats": {
-          "points": 0,
-          "runsFor": 0,
-          "runsAgainst": 0,
-          "runDifferential": 0
-        }
-      },
-      {
-        "position": 13,
-        "team": "Stouffville 10U A",
-        "teamCode": "627209",
         "record": {
           "gamesPlayed": 0,
           "wins": 0,
@@ -290,7 +290,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-05-10T13:05:17.442Z",
+    "lastUpdated": "2026-05-10T14:35:34.539Z",
     "totalTeams": 16
   },
   "schedule": {
@@ -380,7 +380,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-10T13:05:21.735Z"
+        "lastUpdated": "2026-05-10T14:35:38.741Z"
       },
       "617173": {
         "teamCode": "617173",
@@ -450,7 +450,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-10T13:05:21.735Z"
+        "lastUpdated": "2026-05-10T14:35:38.741Z"
       },
       "617174": {
         "teamCode": "617174",
@@ -520,7 +520,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-10T13:05:21.735Z"
+        "lastUpdated": "2026-05-10T14:35:38.741Z"
       },
       "617848": {
         "teamCode": "617848",
@@ -590,7 +590,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-10T13:05:21.735Z"
+        "lastUpdated": "2026-05-10T14:35:38.741Z"
       },
       "617900": {
         "teamCode": "617900",
@@ -660,7 +660,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-10T13:05:21.735Z"
+        "lastUpdated": "2026-05-10T14:35:38.741Z"
       },
       "617944": {
         "teamCode": "617944",
@@ -730,7 +730,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-10T13:05:21.735Z"
+        "lastUpdated": "2026-05-10T14:35:38.741Z"
       },
       "617970": {
         "teamCode": "617970",
@@ -800,7 +800,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-10T13:05:21.735Z"
+        "lastUpdated": "2026-05-10T14:35:38.742Z"
       },
       "617985": {
         "teamCode": "617985",
@@ -833,8 +833,12 @@
             "awayTeam": "Stouffville 10U A",
             "awayTeamCode": "627209",
             "location": "YORK HILL EAST",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 10,
+              "scoreText": "10-11"
+            }
           }
         ],
         "nextGames": [
@@ -899,7 +903,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-10T13:05:21.735Z"
+        "lastUpdated": "2026-05-10T14:35:38.742Z"
       },
       "618005": {
         "teamCode": "618005",
@@ -969,7 +973,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-10T13:05:21.735Z"
+        "lastUpdated": "2026-05-10T14:35:38.742Z"
       },
       "618019": {
         "teamCode": "618019",
@@ -1039,7 +1043,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-10T13:05:21.735Z"
+        "lastUpdated": "2026-05-10T14:35:38.742Z"
       },
       "618041": {
         "teamCode": "618041",
@@ -1109,7 +1113,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-10T13:05:21.735Z"
+        "lastUpdated": "2026-05-10T14:35:38.742Z"
       },
       "618057": {
         "teamCode": "618057",
@@ -1179,7 +1183,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-10T13:05:21.735Z"
+        "lastUpdated": "2026-05-10T14:35:38.742Z"
       },
       "618381": {
         "teamCode": "618381",
@@ -1249,7 +1253,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-10T13:05:21.735Z"
+        "lastUpdated": "2026-05-10T14:35:38.742Z"
       },
       "618394": {
         "teamCode": "618394",
@@ -1319,7 +1323,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-10T13:05:21.735Z"
+        "lastUpdated": "2026-05-10T14:35:38.742Z"
       },
       "625725": {
         "teamCode": "625725",
@@ -1389,7 +1393,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-10T13:05:21.735Z"
+        "lastUpdated": "2026-05-10T14:35:38.742Z"
       },
       "627209": {
         "teamCode": "627209",
@@ -1406,8 +1410,12 @@
             "awayTeam": "Stouffville 10U A",
             "awayTeamCode": "627209",
             "location": "YORK HILL EAST",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 10,
+              "scoreText": "10-11"
+            }
           }
         ],
         "nextGames": [
@@ -1472,7 +1480,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-10T13:05:21.735Z"
+        "lastUpdated": "2026-05-10T14:35:38.742Z"
       }
     },
     "allGames": [
@@ -1501,8 +1509,12 @@
         "awayTeam": "Stouffville 10U A",
         "awayTeamCode": "627209",
         "location": "YORK HILL EAST",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 10,
+          "scoreText": "10-11"
+        }
       },
       {
         "date": "2026-05-11T18:00:00.000Z",
@@ -3315,8 +3327,12 @@
         "awayTeam": "Stouffville 10U A",
         "awayTeamCode": "627209",
         "location": "YORK HILL EAST",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 10,
+          "scoreText": "10-11"
+        }
       },
       {
         "date": "2026-05-06T18:30:00.000Z",
@@ -3457,14 +3473,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2026-05-10T13:05:21.735Z",
+    "lastUpdated": "2026-05-10T14:35:38.742Z",
     "totalGames": 152
   },
   "summary": {
     "totalTeams": 16,
     "totalGames": 152,
-    "completedGames": 1,
-    "upcomingGames": 151,
+    "completedGames": 2,
+    "upcomingGames": 150,
     "topTeam": {
       "team": "Barrie Baycats 10U A",
       "teamCode": "612779",
@@ -3473,14 +3489,14 @@
       "winPercentage": "1.000"
     },
     "highestScoringGame": {
-      "homeTeam": "Barrie Baycats 10U A",
-      "awayTeam": "Thornhill Reds 10U A",
-      "homeScore": 13,
-      "awayScore": 6,
-      "totalRuns": 19,
-      "date": "Wed, May 6",
-      "location": "Barrie Sports Complex Pinwheel 12"
+      "homeTeam": "Thornhill Reds 10U A",
+      "awayTeam": "Stouffville 10U A",
+      "homeScore": 11,
+      "awayScore": 10,
+      "totalRuns": 21,
+      "date": "Sat, May 9",
+      "location": "YORK HILL EAST"
     },
-    "lastUpdated": "2026-05-10T13:09:40.346Z"
+    "lastUpdated": "2026-05-10T14:39:51.154Z"
   }
 }

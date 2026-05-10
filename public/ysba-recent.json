@@ -1,7 +1,63 @@
 {
-  "lastUpdated": "2026-05-10T13:09:40.346Z",
-  "totalGames": 45,
+  "lastUpdated": "2026-05-10T14:39:51.154Z",
+  "totalGames": 46,
   "games": [
+    {
+      "date": "2026-05-10T14:30:00.000Z",
+      "dateText": "Sun, May 10",
+      "time": "2:30 PM",
+      "homeTeam": "Vaughan Vikings 8U DS",
+      "homeTeamCode": "617187",
+      "awayTeam": "Bradford Tigers 9U DS",
+      "awayTeamCode": "617954",
+      "location": "Matthew Park",
+      "isCompleted": false,
+      "score": null,
+      "division": "9U",
+      "tier": "select-all-tiers"
+    },
+    {
+      "date": "2026-05-10T14:30:00.000Z",
+      "dateText": "Sun, May 10",
+      "time": "2:30 PM",
+      "homeTeam": "Thornhill Reds 11U DS",
+      "homeTeamCode": "618000",
+      "awayTeam": "Barrie Baycats 11U DS",
+      "awayTeamCode": "612798",
+      "location": "Yorkhill West",
+      "isCompleted": false,
+      "score": null,
+      "division": "11U",
+      "tier": "select-all-tiers"
+    },
+    {
+      "date": "2026-05-10T14:30:00.000Z",
+      "dateText": "Sun, May 10",
+      "time": "2:30 PM",
+      "homeTeam": "New Lowell Knights 13U DS",
+      "homeTeamCode": "618069",
+      "awayTeam": "Markham Mariners 13U DS Team 2",
+      "awayTeamCode": "617894",
+      "location": "New Lowell Recreation Park #3",
+      "isCompleted": false,
+      "score": null,
+      "division": "13U",
+      "tier": "select-all-tiers"
+    },
+    {
+      "date": "2026-05-10T13:30:00.000Z",
+      "dateText": "Sun, May 10",
+      "time": "1:30 PM",
+      "homeTeam": "Thornhill Reds 9U DS",
+      "homeTeamCode": "617998",
+      "awayTeam": "Vaughan Vikings 9U DS",
+      "awayTeamCode": "617188",
+      "location": "Thornhill Park",
+      "isCompleted": false,
+      "score": null,
+      "division": "9U",
+      "tier": "select-all-tiers"
+    },
     {
       "date": "2026-05-10T13:00:00.000Z",
       "dateText": "Sun, May 10",
@@ -137,38 +193,6 @@
       "awayTeam": "Markham Mariners 9U DS",
       "awayTeamCode": "617891",
       "location": "225 pine street, newmarket",
-      "isCompleted": false,
-      "score": null,
-      "division": "9U",
-      "tier": "select-all-tiers"
-    },
-    {
-      "date": "2026-05-09T16:00:00.000Z",
-      "dateText": "Sat, May 9",
-      "time": "4:00 PM",
-      "homeTeam": "Newmarket Hawks 9U DS",
-      "homeTeamCode": "617916",
-      "awayTeam": "Markham Mariners 9U DS",
-      "awayTeamCode": "617891",
-      "location": "225 pine street, newmarket",
-      "isCompleted": true,
-      "score": {
-        "home": 4,
-        "away": 11,
-        "scoreText": "11-4"
-      },
-      "division": "9U",
-      "tier": "select-all-tiers"
-    },
-    {
-      "date": "2026-05-09T15:30:00.000Z",
-      "dateText": "Sat, May 9",
-      "time": "3:30 PM",
-      "homeTeam": "Barrie Baycats 9U DS",
-      "homeTeamCode": "612797",
-      "awayTeam": "Orillia 9U DS",
-      "awayTeamCode": "618390",
-      "location": "59 Lampman Lane, Barrie",
       "isCompleted": false,
       "score": null,
       "division": "9U",
@@ -321,8 +345,12 @@
       "awayTeam": "Stouffville 10U A",
       "awayTeamCode": "627209",
       "location": "YORK HILL EAST",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 11,
+        "away": 10,
+        "scoreText": "10-11"
+      },
       "division": "10U",
       "tier": "rep-tier-3"
     },
@@ -685,20 +713,6 @@
       },
       "division": "10U",
       "tier": "interlock-all-tiers"
-    },
-    {
-      "date": "2026-05-02T15:00:00.000Z",
-      "dateText": "Sat, May 2",
-      "time": "3:00 PM",
-      "homeTeam": "Midland Penetang Twins 13U DS",
-      "homeTeamCode": "618396",
-      "awayTeam": "TNT Thunder 13U DS",
-      "awayTeamCode": "618066",
-      "location": "Little Lake Park",
-      "isCompleted": false,
-      "score": null,
-      "division": "13U",
-      "tier": "select-all-tiers"
     }
   ]
 }
