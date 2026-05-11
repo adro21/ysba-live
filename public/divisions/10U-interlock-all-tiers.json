@@ -6,17 +6,17 @@
         "team": "Royal York",
         "teamCode": "892633",
         "record": {
-          "gamesPlayed": 2,
-          "wins": 2,
+          "gamesPlayed": 3,
+          "wins": 3,
           "losses": 0,
           "ties": 0,
           "winPercentage": "1.000"
         },
         "stats": {
-          "points": 4,
-          "runsFor": 22,
-          "runsAgainst": 19,
-          "runDifferential": 3
+          "points": 6,
+          "runsFor": 34,
+          "runsAgainst": 28,
+          "runDifferential": 6
         }
       },
       {
@@ -111,6 +111,24 @@
       },
       {
         "position": 7,
+        "team": "Scarborough",
+        "teamCode": "892643",
+        "record": {
+          "gamesPlayed": 1,
+          "wins": 0,
+          "losses": 1,
+          "ties": 0,
+          "winPercentage": "0.000"
+        },
+        "stats": {
+          "points": 0,
+          "runsFor": 9,
+          "runsAgainst": 12,
+          "runDifferential": -3
+        }
+      },
+      {
+        "position": 8,
         "team": "Richmond Hill",
         "teamCode": "892636",
         "record": {
@@ -128,27 +146,9 @@
         }
       },
       {
-        "position": 8,
+        "position": 9,
         "team": "Newmarket",
         "teamCode": "892637",
-        "record": {
-          "gamesPlayed": 0,
-          "wins": 0,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": ".000"
-        },
-        "stats": {
-          "points": 0,
-          "runsFor": 0,
-          "runsAgainst": 0,
-          "runDifferential": 0
-        }
-      },
-      {
-        "position": 9,
-        "team": "Scarborough",
-        "teamCode": "892643",
         "record": {
           "gamesPlayed": 0,
           "wins": 0,
@@ -254,7 +254,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-05-11T10:37:37.366Z",
+    "lastUpdated": "2026-05-11T13:46:56.080Z",
     "totalTeams": 14
   },
   "schedule": {
@@ -306,8 +306,12 @@
             "awayTeam": "Scarborough",
             "awayTeamCode": "892643",
             "location": "Neilson - Scarborough — Diamond 2 — Toronto",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 9,
+              "scoreText": "9-12"
+            }
           }
         ],
         "nextGames": [
@@ -324,14 +328,14 @@
             "score": null
           },
           {
-            "date": "2026-05-24T10:00:00.000Z",
+            "date": "2026-05-24T14:30:00.000Z",
             "dateText": "Sun, May 24",
-            "time": "10:00 AM",
+            "time": "2:30 PM",
             "homeTeam": "Georgina",
             "homeTeamCode": "892647",
             "awayTeam": "Royal York",
             "awayTeamCode": "892633",
-            "location": "Rotary Peace Park — Diamond South — Toronto",
+            "location": "Westway — Toronto",
             "isCompleted": false,
             "score": null
           },
@@ -372,7 +376,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-11T10:37:37.395Z"
+        "lastUpdated": "2026-05-11T13:46:56.106Z"
       },
       "892634": {
         "teamCode": "892634",
@@ -459,7 +463,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-11T10:37:37.395Z"
+        "lastUpdated": "2026-05-11T13:46:56.106Z"
       },
       "892636": {
         "teamCode": "892636",
@@ -542,7 +546,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-11T10:37:37.395Z"
+        "lastUpdated": "2026-05-11T13:46:56.106Z"
       },
       "892637": {
         "teamCode": "892637",
@@ -612,7 +616,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-11T10:37:37.395Z"
+        "lastUpdated": "2026-05-11T13:46:56.106Z"
       },
       "892638": {
         "teamCode": "892638",
@@ -699,7 +703,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-11T10:37:37.395Z"
+        "lastUpdated": "2026-05-11T13:46:56.106Z"
       },
       "892639": {
         "teamCode": "892639",
@@ -786,7 +790,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-11T10:37:37.395Z"
+        "lastUpdated": "2026-05-11T13:46:56.106Z"
       },
       "892640": {
         "teamCode": "892640",
@@ -889,7 +893,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-11T10:37:37.395Z"
+        "lastUpdated": "2026-05-11T13:46:56.106Z"
       },
       "892642": {
         "teamCode": "892642",
@@ -976,7 +980,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-11T10:37:37.395Z"
+        "lastUpdated": "2026-05-11T13:46:56.106Z"
       },
       "892643": {
         "teamCode": "892643",
@@ -993,8 +997,12 @@
             "awayTeam": "Scarborough",
             "awayTeamCode": "892643",
             "location": "Neilson - Scarborough — Diamond 2 — Toronto",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 9,
+              "scoreText": "9-12"
+            }
           }
         ],
         "nextGames": [
@@ -1059,7 +1067,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-11T10:37:37.395Z"
+        "lastUpdated": "2026-05-11T13:46:56.106Z"
       },
       "892644": {
         "teamCode": "892644",
@@ -1129,7 +1137,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-11T10:37:37.395Z"
+        "lastUpdated": "2026-05-11T13:46:56.107Z"
       },
       "892645": {
         "teamCode": "892645",
@@ -1199,7 +1207,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-11T10:37:37.395Z"
+        "lastUpdated": "2026-05-11T13:46:56.107Z"
       },
       "892646": {
         "teamCode": "892646",
@@ -1269,7 +1277,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-11T10:37:37.396Z"
+        "lastUpdated": "2026-05-11T13:46:56.107Z"
       },
       "892647": {
         "teamCode": "892647",
@@ -1315,14 +1323,14 @@
             "score": null
           },
           {
-            "date": "2026-05-24T10:00:00.000Z",
+            "date": "2026-05-24T14:30:00.000Z",
             "dateText": "Sun, May 24",
-            "time": "10:00 AM",
+            "time": "2:30 PM",
             "homeTeam": "Georgina",
             "homeTeamCode": "892647",
             "awayTeam": "Royal York",
             "awayTeamCode": "892633",
-            "location": "Rotary Peace Park — Diamond South — Toronto",
+            "location": "Westway — Toronto",
             "isCompleted": false,
             "score": null
           },
@@ -1339,7 +1347,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-11T10:37:37.396Z"
+        "lastUpdated": "2026-05-11T13:46:56.107Z"
       },
       "892648": {
         "teamCode": "892648",
@@ -1422,7 +1430,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-11T10:37:37.396Z"
+        "lastUpdated": "2026-05-11T13:46:56.107Z"
       }
     },
     "allGames": [
@@ -1523,8 +1531,12 @@
         "awayTeam": "Scarborough",
         "awayTeamCode": "892643",
         "location": "Neilson - Scarborough — Diamond 2 — Toronto",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 9,
+          "scoreText": "9-12"
+        }
       },
       {
         "date": "2026-05-11T18:00:00.000Z",
@@ -1719,14 +1731,14 @@
         "score": null
       },
       {
-        "date": "2026-05-24T10:00:00.000Z",
+        "date": "2026-05-24T14:30:00.000Z",
         "dateText": "Sun, May 24",
-        "time": "10:00 AM",
+        "time": "2:30 PM",
         "homeTeam": "Georgina",
         "homeTeamCode": "892647",
         "awayTeam": "Royal York",
         "awayTeamCode": "892633",
-        "location": "Rotary Peace Park — Diamond South — Toronto",
+        "location": "Westway — Toronto",
         "isCompleted": false,
         "score": null
       },
@@ -3217,8 +3229,12 @@
         "awayTeam": "Scarborough",
         "awayTeamCode": "892643",
         "location": "Neilson - Scarborough — Diamond 2 — Toronto",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 9,
+          "scoreText": "9-12"
+        }
       },
       {
         "date": "2026-05-07T18:30:00.000Z",
@@ -3419,18 +3435,18 @@
         "score": null
       }
     ],
-    "lastUpdated": "2026-05-11T10:37:37.396Z",
+    "lastUpdated": "2026-05-11T13:46:56.107Z",
     "totalGames": 147
   },
   "summary": {
     "totalTeams": 14,
     "totalGames": 147,
-    "completedGames": 4,
-    "upcomingGames": 143,
+    "completedGames": 5,
+    "upcomingGames": 142,
     "topTeam": {
       "team": "Royal York",
       "teamCode": "892633",
-      "wins": 2,
+      "wins": 3,
       "losses": 0,
       "winPercentage": "1.000"
     },
@@ -3443,6 +3459,6 @@
       "date": "Sun, May 3",
       "location": "Westway — Toronto"
     },
-    "lastUpdated": "2026-05-11T10:37:37.396Z"
+    "lastUpdated": "2026-05-11T13:46:56.107Z"
   }
 }
