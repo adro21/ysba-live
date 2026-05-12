@@ -253,11 +253,151 @@
             animation: livepulse 2s ease-out infinite;
             box-shadow: 0 0 0 0 rgba(255,255,255,0.7);
         }
+        .meta-cell.meta-refresh {
+            color: var(--ink-3);
+            font-family: var(--mono);
+            font-size: 0.72rem;
+            letter-spacing: 0.06em;
+            gap: 0.45rem;
+            min-width: 0;
+        }
+        .meta-cell.meta-refresh .age {
+            color: var(--ink);
+            font-weight: 700;
+            font-variant-numeric: tabular-nums;
+            font-family: var(--mono);
+            font-size: 0.78rem;
+        }
+        .meta-cell.meta-refresh .sep {
+            opacity: 0.4;
+            margin: 0 0.1rem;
+        }
+        .meta-cell.meta-refresh .next {
+            color: var(--ink-2);
+            font-variant-numeric: tabular-nums;
+            font-weight: 600;
+            font-family: var(--mono);
+            font-size: 0.78rem;
+        }
+        .meta-cell.meta-refresh.is-refreshing .age {
+            color: var(--green-bright);
+        }
+        .meta-cell.meta-refresh.is-refreshing .age::after {
+            content: " ⟳";
+            display: inline-block;
+            animation: spin 0.9s linear infinite;
+        }
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
         @media (max-width: 900px) {
-            .meta-cell:not(.meta-live) { display: none; }
+            .meta-cell:not(.meta-live):not(.meta-refresh) { display: none; }
         }
         @media (max-width: 560px) {
             .masthead-meta { display: none; }
+        }
+
+        /* =========================================================
+           PULSE STRIP — live counts (under ticker)
+           ========================================================= */
+        .pulse {
+            background: var(--surface);
+            border-bottom: 1px solid var(--rule);
+            padding: 0.55rem clamp(0.85rem, 2vw, 2.25rem);
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 0.75rem 1.3rem;
+            font-family: var(--display);
+            font-weight: 700;
+            font-size: 0.82rem;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            color: var(--ink-3);
+        }
+        .pulse-stat {
+            display: inline-flex;
+            align-items: baseline;
+            gap: 0.4rem;
+        }
+        .pulse-stat .num {
+            color: var(--ink);
+            font-weight: 800;
+            font-variant-numeric: tabular-nums;
+            font-size: 1rem;
+        }
+        .pulse-stat.live .num { color: var(--red); }
+        .pulse-stat.live::before {
+            content: "";
+            display: inline-block;
+            width: 0.42rem;
+            height: 0.42rem;
+            border-radius: 50%;
+            background: var(--red);
+            animation: livepulse 2s ease-out infinite;
+            margin-right: 0.35rem;
+            transform: translateY(-0.05rem);
+        }
+        .pulse-day {
+            margin-left: auto;
+            font-family: var(--mono);
+            font-size: 0.72rem;
+            letter-spacing: 0.08em;
+            color: var(--ink-3);
+            font-weight: 600;
+        }
+        @media (max-width: 480px) {
+            .pulse { padding: 0.5rem 0.85rem; gap: 0.55rem 1rem; font-size: 0.76rem; }
+            .pulse-stat .num { font-size: 0.92rem; }
+            .pulse-day { display: none; }
+        }
+
+        /* =========================================================
+           LIVE / JUST IN badges on scoreboard
+           ========================================================= */
+        .score-status.live {
+            color: white !important;
+            background: var(--red);
+            padding: 0.2rem 0.5rem 0.18rem;
+            border-radius: 2px;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+            letter-spacing: 0.1em;
+            font-weight: 800;
+        }
+        .score-status.live::before {
+            content: "";
+            width: 0.4rem;
+            height: 0.4rem;
+            border-radius: 50%;
+            background: white;
+            animation: livepulse 1.5s ease-out infinite;
+            box-shadow: 0 0 0 0 rgba(255,255,255,0.7);
+        }
+        .score-status.just-in {
+            color: var(--green-bright) !important;
+            background: rgba(16, 185, 129, 0.14);
+            padding: 0.2rem 0.5rem 0.18rem;
+            border-radius: 2px;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+            letter-spacing: 0.1em;
+            font-weight: 800;
+        }
+        .score-status.just-in::before {
+            content: "✦";
+            font-size: 0.7rem;
+        }
+        .score-card.is-live {
+            box-shadow: 0 0 0 1px var(--red), 0 4px 12px -6px rgba(220, 38, 38, 0.3);
+        }
+        .score-card.is-live .score-top {
+            background: var(--red);
+        }
+        .score-card.is-live .score-top .division-tag::before {
+            background: white;
         }
 
         /* =========================================================
@@ -1408,7 +1548,11 @@
                 <div class="meta-cell meta-live">LIVE</div>
                 <div class="meta-cell"><strong id="teamCount">—</strong> Teams</div>
                 <div class="meta-cell"><strong id="divCount">—</strong> Divisions</div>
-                <div class="meta-cell" id="todayDate">—</div>
+                <div class="meta-cell meta-refresh" id="refreshStatus" title="Auto-refreshes every 2 minutes">
+                    <span class="age" id="refreshAge">—</span>
+                    <span class="sep">·</span>
+                    <span class="next">next <span id="refreshNext">2:00</span></span>
+                </div>
             </div>
         </div>
     </header>
@@ -1423,6 +1567,15 @@
                 </div>
             </div>
         </div>
+    </section>
+
+    <!-- ============ PULSE STRIP ============ -->
+    <section class="pulse" id="pulseStrip" aria-label="Today across the league">
+        <span class="pulse-stat"><span class="num" id="pulseLive">—</span> Live now</span>
+        <span class="pulse-stat"><span class="num" id="pulseTodayFinal">—</span> Finals today</span>
+        <span class="pulse-stat"><span class="num" id="pulseTodayUpcoming">—</span> Today's slate</span>
+        <span class="pulse-stat"><span class="num" id="pulseWeekTotal">—</span> Games this week</span>
+        <span class="pulse-day" id="pulseDay">—</span>
     </section>
 
     <!-- ============ PAGE BODY ============ -->
@@ -1575,7 +1728,48 @@
             divisions: {},
             stories: [],
             recent: { games: [], lastUpdated: null },
-            standings: { divisions: {}, lastUpdated: null }
+            standings: { divisions: {}, lastUpdated: null },
+            storiesLastUpdated: null,
+            usingSynthetic: false,
+            lastRefreshAt: 0
+        };
+
+        const REFRESH_INTERVAL_MS = 2 * 60 * 1000;       // 2 min auto-refresh
+        const STORY_STALENESS_MS  = 7 * 24 * 60 * 60 * 1000; // 7 days
+        const LIVE_WINDOW_BEFORE  = 30 * 60 * 1000;      // 30 min before first pitch
+        const LIVE_WINDOW_AFTER   = 3 * 60 * 60 * 1000;  // 3 hr after first pitch
+        const JUST_IN_WINDOW      = 2 * 60 * 60 * 1000;  // 2 hr post-final = "just in"
+
+        /* ---------- Live game detection ---------- */
+        const gameLiveState = (g) => {
+            if (!g.date) return 'normal';
+            const start = new Date(g.date).getTime();
+            if (Number.isNaN(start)) return 'normal';
+            const now = Date.now();
+            if (g.isCompleted && g.score) {
+                // Finished within last 2h
+                const approxEnd = start + LIVE_WINDOW_AFTER;
+                if (now >= start && now <= approxEnd + JUST_IN_WINDOW) return 'just-in';
+                return 'normal';
+            }
+            // Not completed - is it live?
+            if (now >= start - LIVE_WINDOW_BEFORE && now <= start + LIVE_WINDOW_AFTER) return 'live';
+            return 'normal';
+        };
+
+        const isToday = (iso) => {
+            if (!iso) return false;
+            const d = new Date(iso);
+            const n = new Date();
+            return d.getFullYear() === n.getFullYear()
+                && d.getMonth() === n.getMonth()
+                && d.getDate() === n.getDate();
+        };
+        const isThisWeek = (iso) => {
+            if (!iso) return false;
+            const d = new Date(iso).getTime();
+            const now = Date.now();
+            return Math.abs(now - d) <= 7 * 24 * 60 * 60 * 1000;
         };
 
         /* ---------- Ticker ---------- */
@@ -1620,7 +1814,7 @@
         }[type] || 'Story');
 
         const renderLead = () => {
-            const stories = state.stories || [];
+            const stories = effectiveStories();
             if (!stories.length) return;
             const lead = stories[0];
             document.getElementById('leadHeadline').innerHTML = stylizeHeadline(lead.headline);
@@ -1683,11 +1877,25 @@
                 const homeClass = isFinal ? (homeWin ? 'winner' : (tie ? '' : 'loser')) : 'upcoming';
                 const where = (g.location || '').split('(')[0].trim().replace(/\s+/g, ' ').slice(0, 38) || 'TBD';
 
+                const liveState = gameLiveState(g);
+                const cardLive = liveState === 'live' ? 'is-live' : '';
+
+                let statusHtml;
+                if (liveState === 'live') {
+                    statusHtml = `<span class="score-status live">Live</span>`;
+                } else if (liveState === 'just-in') {
+                    statusHtml = `<span class="score-status just-in">Just In</span>`;
+                } else if (isFinal) {
+                    statusHtml = `<span class="score-status final">Final · ${esc(g.dateText || '')}</span>`;
+                } else {
+                    statusHtml = `<span class="score-status">${esc((g.dateText || 'Upcoming').toUpperCase())}</span>`;
+                }
+
                 return `
-                    <a class="score-card ${isFinal ? '' : 'upcoming'} reveal reveal-${(i % 5) + 1}" href="${url}">
+                    <a class="score-card ${isFinal ? '' : 'upcoming'} ${cardLive} reveal reveal-${(i % 5) + 1}" href="${url}">
                         <div class="score-top">
                             <span class="division-tag">${esc(divLabel)}</span>
-                            <span class="score-status">${isFinal ? 'Final' : (g.dateText || 'Upcoming').toUpperCase()}</span>
+                            ${statusHtml}
                         </div>
                         <div class="matchup">
                             <div class="team-row ${awayClass}">
@@ -2043,9 +2251,242 @@
             });
         };
 
+        /* ---------- Synthetic stories from standings ---------- */
+        /* If the AI stories are >7 days old (or missing), derive 4 fresh
+           stories straight from the current standings so the homepage
+           never serves a frozen headline. */
+        const buildSyntheticStories = () => {
+            const stories = [];
+            const divs = state.standings.divisions || {};
+
+            // Flatten teams across all divisions/tiers with context
+            const allTeams = [];
+            for (const [ageKey, div] of Object.entries(divs)) {
+                if (!div.tiers) continue;
+                for (const [tierKey, tier] of Object.entries(div.tiers)) {
+                    const teams = (tier.teams || []).filter(t => (t.w + t.l + t.t) > 0);
+                    for (const t of teams) {
+                        const gp = t.w + t.l + (t.t || 0);
+                        allTeams.push({
+                            ...t,
+                            gp,
+                            pctNum: gp > 0 ? t.w / gp : 0,
+                            rd: (t.rf || 0) - (t.ra || 0),
+                            divisionLabel: friendlyDivisionLabel(ageKey, tierKey),
+                        });
+                    }
+                }
+            }
+
+            if (!allTeams.length) return stories;
+
+            // 1) Undefeated leader (most wins among 0-loss teams with >=3 GP)
+            const undefeated = allTeams
+                .filter(t => t.l === 0 && t.w >= 3)
+                .sort((a, b) => b.w - a.w)[0];
+            if (undefeated) {
+                stories.push({
+                    headline: `${undefeated.team} stays perfect at ${undefeated.w}-0`,
+                    body: `${undefeated.team} is unbeaten through ${undefeated.gp} games in ${undefeated.divisionLabel}, riding a ${undefeated.rf}–${undefeated.ra} run differential.`,
+                    division: undefeated.divisionLabel,
+                    type: 'undefeated',
+                    priority: 10,
+                });
+            }
+
+            // 2) Biggest run differential (>=4 GP, dominant)
+            const bigRD = allTeams
+                .filter(t => t.gp >= 4)
+                .sort((a, b) => b.rd - a.rd)[0];
+            if (bigRD && bigRD.rd >= 10 && (!undefeated || bigRD.team !== undefeated.team)) {
+                stories.push({
+                    headline: `${bigRD.team} steamroll opponents by +${bigRD.rd}`,
+                    body: `Through ${bigRD.gp} games, ${bigRD.team} have outscored the rest of ${bigRD.divisionLabel} ${bigRD.rf}–${bigRD.ra}.`,
+                    division: bigRD.divisionLabel,
+                    type: 'scoring_machine',
+                    priority: 8,
+                });
+            }
+
+            // 3) Tight race — two top teams in same division within 1 game
+            const byDivision = {};
+            for (const t of allTeams) {
+                (byDivision[t.divisionLabel] = byDivision[t.divisionLabel] || []).push(t);
+            }
+            for (const [div, teams] of Object.entries(byDivision)) {
+                if (teams.length < 3) continue;
+                const sorted = [...teams].sort((a, b) => b.pctNum - a.pctNum || (b.w - b.l) - (a.w - a.l));
+                const lead = sorted[0], chase = sorted[1];
+                if (lead && chase && lead.w - chase.w <= 1 && lead.w >= 3) {
+                    stories.push({
+                        headline: `${div}: ${lead.team} and ${chase.team} go down to the wire`,
+                        body: `${lead.team} (${lead.w}-${lead.l}) hold the top spot, with ${chase.team} (${chase.w}-${chase.l}) breathing down their neck.`,
+                        division: div,
+                        type: 'tight_race',
+                        priority: 7,
+                    });
+                    break;
+                }
+            }
+
+            // 4) Defensive standout (lowest RA with >=4 GP)
+            const lockdown = allTeams
+                .filter(t => t.gp >= 4 && t.ra <= Math.floor(t.gp * 2.5))
+                .sort((a, b) => (a.ra / Math.max(1, a.gp)) - (b.ra / Math.max(1, b.gp)))[0];
+            if (lockdown && !stories.find(s => s.headline.startsWith(lockdown.team))) {
+                stories.push({
+                    headline: `${lockdown.team} lock it down on defense`,
+                    body: `${lockdown.team} have allowed just ${lockdown.ra} runs across ${lockdown.gp} games in ${lockdown.divisionLabel}.`,
+                    division: lockdown.divisionLabel,
+                    type: 'shutout_artist',
+                    priority: 7,
+                });
+            }
+
+            // 5) Big offense (most RF per game)
+            const offense = allTeams
+                .filter(t => t.gp >= 4)
+                .sort((a, b) => (b.rf / Math.max(1, b.gp)) - (a.rf / Math.max(1, a.gp)))[0];
+            if (offense && !stories.find(s => s.headline.startsWith(offense.team))) {
+                const rpg = (offense.rf / offense.gp).toFixed(1);
+                stories.push({
+                    headline: `${offense.team} pour it on at ${rpg} runs a game`,
+                    body: `${offense.team} have scored ${offense.rf} runs through ${offense.gp} games in ${offense.divisionLabel} — top of the league for offense.`,
+                    division: offense.divisionLabel,
+                    type: 'scoring_machine',
+                    priority: 6,
+                });
+            }
+
+            return stories.slice(0, 6);
+        };
+
+        const effectiveStories = () => {
+            // Use AI stories if fresh; fall back to synthetic if too old or empty
+            const ai = state.stories || [];
+            const lastUpdated = state.storiesLastUpdated || (ai[0] && ai[0].generatedAt) || null;
+            const ageMs = lastUpdated ? Date.now() - new Date(lastUpdated).getTime() : Infinity;
+            const isStale = ageMs > STORY_STALENESS_MS;
+
+            if (!ai.length || isStale) {
+                const synth = buildSyntheticStories();
+                if (synth.length) {
+                    state.usingSynthetic = true;
+                    return synth;
+                }
+            }
+            state.usingSynthetic = false;
+            return ai;
+        };
+
+        /* ---------- Pulse strip ---------- */
+        const renderPulse = () => {
+            const games = state.recent.games || [];
+            const liveCount = games.filter(g => gameLiveState(g) === 'live').length;
+            const todayFinals = games.filter(g => g.isCompleted && g.score && isToday(g.date)).length;
+            const todayUpcoming = games.filter(g => !g.isCompleted && isToday(g.date)).length;
+            const weekTotal = games.filter(g => isThisWeek(g.date)).length;
+            document.getElementById('pulseLive').textContent = liveCount;
+            document.getElementById('pulseTodayFinal').textContent = todayFinals;
+            document.getElementById('pulseTodayUpcoming').textContent = todayUpcoming;
+            document.getElementById('pulseWeekTotal').textContent = weekTotal;
+
+            const liveStat = document.querySelector('.pulse-stat.live') || document.querySelectorAll('.pulse-stat')[0];
+            if (liveStat) liveStat.classList.toggle('live', liveCount > 0);
+
+            // Day label
+            const dayLabel = new Date().toLocaleDateString('en-US', { weekday: 'long' }).toUpperCase();
+            document.getElementById('pulseDay').textContent = dayLabel;
+        };
+
+        /* ---------- Refresh status indicator ---------- */
+        let refreshTickHandle = null;
+        const renderRefreshStatus = () => {
+            const el = document.getElementById('refreshStatus');
+            const ageEl = document.getElementById('refreshAge');
+            const nextEl = document.getElementById('refreshNext');
+            if (!el || !ageEl || !nextEl) return;
+
+            const sinceMs = Date.now() - state.lastRefreshAt;
+            const secs = Math.max(0, Math.floor(sinceMs / 1000));
+            ageEl.textContent = secs < 60 ? `${secs}s ago` : `${Math.floor(secs / 60)}m ago`;
+
+            const nextMs = Math.max(0, REFRESH_INTERVAL_MS - sinceMs);
+            const m = Math.floor(nextMs / 60000);
+            const s = Math.floor((nextMs % 60000) / 1000);
+            nextEl.textContent = `${m}:${String(s).padStart(2, '0')}`;
+        };
+        const startRefreshTick = () => {
+            if (refreshTickHandle) clearInterval(refreshTickHandle);
+            refreshTickHandle = setInterval(renderRefreshStatus, 1000);
+            renderRefreshStatus();
+        };
+        const stopRefreshTick = () => {
+            if (refreshTickHandle) { clearInterval(refreshTickHandle); refreshTickHandle = null; }
+        };
+
+        /* ---------- Refresh — re-fetch live data and re-render ---------- */
+        let isRefreshing = false;
+        const refresh = async ({ silent = true } = {}) => {
+            if (isRefreshing) return;
+            isRefreshing = true;
+            const el = document.getElementById('refreshStatus');
+            if (el && !silent) el.classList.add('is-refreshing');
+
+            try {
+                const tasks = await Promise.allSettled([
+                    fetchJSON('/api/stories'),
+                    fetchJSON('/ysba-recent.json'),
+                    fetchJSON('/ysba-standings.json')
+                ]);
+                const [storyRes, recentRes, standingsRes] = tasks;
+                if (storyRes.status === 'fulfilled' && storyRes.value?.success && Array.isArray(storyRes.value.stories)) {
+                    state.stories = storyRes.value.stories;
+                    state.storiesLastUpdated = storyRes.value.lastUpdated || (state.stories[0] && state.stories[0].generatedAt) || null;
+                }
+                if (recentRes.status === 'fulfilled' && recentRes.value?.games) state.recent = recentRes.value;
+                if (standingsRes.status === 'fulfilled' && standingsRes.value?.divisions) state.standings = standingsRes.value;
+
+                state.lastRefreshAt = Date.now();
+                document.getElementById('footerUpdated').textContent = timeAgo(state.recent.lastUpdated || state.standings.lastUpdated);
+
+                renderTicker();
+                renderLead();
+                renderScores();
+                renderStandings();
+                renderPulse();
+                renderRefreshStatus();
+            } finally {
+                isRefreshing = false;
+                if (el) el.classList.remove('is-refreshing');
+            }
+        };
+
+        let refreshIntervalHandle = null;
+        const startAutoRefresh = () => {
+            if (refreshIntervalHandle) clearInterval(refreshIntervalHandle);
+            refreshIntervalHandle = setInterval(() => refresh({ silent: true }), REFRESH_INTERVAL_MS);
+        };
+        const stopAutoRefresh = () => {
+            if (refreshIntervalHandle) { clearInterval(refreshIntervalHandle); refreshIntervalHandle = null; }
+        };
+
+        document.addEventListener('visibilitychange', () => {
+            if (document.visibilityState === 'visible') {
+                // If we've been hidden longer than one interval, refresh immediately
+                if (Date.now() - state.lastRefreshAt > REFRESH_INTERVAL_MS) {
+                    refresh({ silent: false });
+                }
+                startAutoRefresh();
+                startRefreshTick();
+            } else {
+                stopAutoRefresh();
+                stopRefreshTick();
+            }
+        });
+
         /* ---------- Boot ---------- */
         const boot = async () => {
-            document.getElementById('todayDate').textContent = fmtToday();
             document.getElementById('footerDate').textContent = fmtToday();
 
             const tasks = await Promise.allSettled([
@@ -2057,7 +2498,10 @@
             const [divRes, storyRes, recentRes, standingsRes] = tasks;
 
             if (divRes.status === 'fulfilled' && divRes.value?.success && divRes.value?.divisions) state.divisions = divRes.value.divisions;
-            if (storyRes.status === 'fulfilled' && storyRes.value?.success && Array.isArray(storyRes.value.stories)) state.stories = storyRes.value.stories;
+            if (storyRes.status === 'fulfilled' && storyRes.value?.success && Array.isArray(storyRes.value.stories)) {
+                state.stories = storyRes.value.stories;
+                state.storiesLastUpdated = storyRes.value.lastUpdated || (state.stories[0] && state.stories[0].generatedAt) || null;
+            }
             if (recentRes.status === 'fulfilled' && recentRes.value?.games) state.recent = recentRes.value;
             if (standingsRes.status === 'fulfilled' && standingsRes.value?.divisions) state.standings = standingsRes.value;
 
@@ -2068,6 +2512,8 @@
             document.getElementById('teamCount').textContent = teamCount;
             document.getElementById('footerUpdated').textContent = timeAgo(state.recent.lastUpdated || state.standings.lastUpdated);
 
+            state.lastRefreshAt = Date.now();
+
             buildMegaMenu();
             buildMobileModal();
             wireMenu();
@@ -2077,6 +2523,11 @@
             renderScores();
             renderStandings();
             renderDivisionGrid();
+            renderPulse();
+            renderRefreshStatus();
+
+            startAutoRefresh();
+            startRefreshTick();
         };
 
         document.addEventListener('DOMContentLoaded', boot);

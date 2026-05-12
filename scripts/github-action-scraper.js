@@ -501,22 +501,44 @@ class GitHubActionScraper {
   async checkAndGenerateStories(previousStandings, newStandings) {
     try {
       console.log('📰 Analyzing standings for story-worthy changes...');
-      
+
       const storyTriggers = this.detectStoryTriggers(previousStandings, newStandings);
-      
+
       // Only generate new stories if we have significant, quality triggers
-      const qualityTriggers = storyTriggers.filter(t => 
+      const qualityTriggers = storyTriggers.filter(t =>
         ['first_win', 'undefeated_milestone', 'hot_streak', 'breakthrough', 'tight_race', 'position_change'].includes(t.type)
       );
-      
-      if (qualityTriggers.length >= 1) {
-        console.log(`📰 Found ${qualityTriggers.length} quality story triggers:`, qualityTriggers.map(t => t.type));
-        
+
+      // Freshness guard: if the stories file hasn't been updated in >24h,
+      // force a regen even without quality triggers so the homepage doesn't
+      // serve stale headlines during quiet weeks.
+      const STALENESS_MS = 24 * 60 * 60 * 1000;
+      let isStale = false;
+      try {
+        const storiesPath = path.join(__dirname, '..', 'data', 'ai-stories.json');
+        const stat = await fs.stat(storiesPath);
+        const ageMs = Date.now() - stat.mtimeMs;
+        isStale = ageMs > STALENESS_MS;
+        if (isStale) {
+          const ageHours = Math.round(ageMs / (60 * 60 * 1000));
+          console.log(`⏰ Stories file is ${ageHours}h old (>24h) — forcing regen for freshness`);
+        }
+      } catch (e) {
+        // File missing — definitely needs initial generation
+        console.log('📰 No existing stories file found — forcing regen');
+        isStale = true;
+      }
+
+      if (qualityTriggers.length >= 1 || isStale) {
+        if (qualityTriggers.length >= 1) {
+          console.log(`📰 Found ${qualityTriggers.length} quality story triggers:`, qualityTriggers.map(t => t.type));
+        }
+
         // Generate new stories based on current standings
         const stories = await this.aiStoryService.generateStories();
-        
+
         if (stories && stories.length > 0) {
-          console.log(`✅ Generated ${stories.length} new stories based on recent changes`);
+          console.log(`✅ Generated ${stories.length} new stories${isStale && qualityTriggers.length === 0 ? ' (freshness regen)' : ''}`);
         } else {
           console.log('⚠️ Story generation failed or returned empty results');
         }
@@ -525,7 +547,7 @@ class GitHubActionScraper {
       } else {
         console.log('📰 No significant story-worthy changes detected - keeping existing stories');
       }
-      
+
     } catch (error) {
       console.error('❌ Error checking/generating stories:', error.message);
     }
