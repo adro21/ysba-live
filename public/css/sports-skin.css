@@ -1,0 +1,615 @@
+/* =================================================================
+   YSBA LIVE — SPORTS SKIN OVERLAY
+   Aesthetic-only overlay loaded AFTER styles.css.
+   - Reuses every existing class & ID. No JS-bound markup touched.
+   - Brings the standings/schedule pages in line with the homepage:
+     Barlow Condensed display · Barlow body · JetBrains Mono numerals.
+   ================================================================= */
+
+:root {
+    /* Sports skin tokens (mirror the homepage) */
+    --ss-bg:        #f4f5f7;
+    --ss-surface:   #ffffff;
+    --ss-surface-2: #fafafa;
+    --ss-surface-3: #f3f4f6;
+    --ss-ink:       #0a0a0a;
+    --ss-ink-2:     #404040;
+    --ss-ink-3:     #6b7280;
+    --ss-ink-4:     #9ca3af;
+    --ss-dark:      #0f0f12;
+    --ss-dark-2:    #18181c;
+    --ss-rule:      #e5e7eb;
+    --ss-rule-2:    #d1d5db;
+    --ss-green:     #024220;
+    --ss-green-2:   #015c2a;
+    --ss-green-bright: #10b981;
+    --ss-green-soft:   #ecfdf5;
+    --ss-amber:     #fbbf24;
+    --ss-red:       #dc2626;
+    --ss-red-bg:    #fef2f2;
+
+    --ss-display: "Barlow Condensed", "Arial Narrow", "Plus Jakarta Sans", sans-serif;
+    --ss-sans:    "Barlow", "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+    --ss-mono:    "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+
+/* -----------------------------------------------------------------
+   Base type & page surface
+   ----------------------------------------------------------------- */
+html, body, .modern-body {
+    font-family: var(--ss-sans) !important;
+    background: var(--ss-bg) !important;
+    color: var(--ss-ink) !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+::selection { background: var(--ss-green); color: #fff; }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--ss-display);
+    letter-spacing: 0.005em;
+}
+
+/* -----------------------------------------------------------------
+   Header — white background, green wordmark (match homepage exactly)
+   ----------------------------------------------------------------- */
+.modern-header,
+.modern-header[id="dynamicHeader"] {
+    background: var(--ss-surface) !important;
+    border-bottom: 1px solid var(--ss-rule) !important;
+    box-shadow: 0 1px 0 rgba(14, 14, 12, 0.04) !important;
+    padding: 0 !important;
+}
+.modern-header .container { padding-top: 0; padding-bottom: 0; }
+.modern-header .header-content { color: var(--ss-ink) !important; gap: 0 !important; }
+
+.modern-header .header-top {
+    padding: 0.85rem 0 0.75rem !important;
+    border-bottom: 1px solid var(--ss-rule) !important;
+    align-items: center !important;
+}
+
+.modern-header .brand-section { gap: 0.85rem !important; align-items: center !important; }
+
+.modern-header .title-icon svg path {
+    fill: var(--ss-green) !important;
+}
+.modern-header .title-icon svg { width: 22px !important; height: 22px !important; vertical-align: middle; }
+
+.modern-header .brand-title {
+    font-family: var(--ss-sans) !important;
+    font-size: clamp(1.35rem, 1.3vw + 0.95rem, 1.7rem) !important;
+    font-weight: 800 !important;
+    text-transform: uppercase !important;
+    color: var(--ss-green) !important;
+    line-height: 1 !important;
+    margin: 0 !important;
+    letter-spacing: 0.01em !important;
+    text-shadow: none !important;
+}
+.modern-header .brand-title .fw-light { font-weight: 300 !important; color: var(--ss-green) !important; }
+.modern-header .brand-title a,
+.modern-header .brand-title a:hover,
+.modern-header .brand-title a:visited,
+.modern-header .brand-title a:focus { color: var(--ss-green) !important; }
+.modern-header .brand-title a:hover { opacity: 0.85; }
+
+/* Amber dropdown — already "perfect"; just tighten the type */
+.brand-subtitle-btn {
+    font-family: var(--ss-sans) !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.06em !important;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.06) !important;
+}
+.brand-subtitle-btn:hover { transform: translateY(-1px); }
+
+/* -----------------------------------------------------------------
+   Status bar (Last synced + notifications)
+   ----------------------------------------------------------------- */
+.status-bar {
+    color: var(--ss-ink-3) !important;
+    border-top: none !important;
+    padding: 0.55rem 0 !important;
+    font-family: var(--ss-display) !important;
+    font-size: 0.78rem !important;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--ss-rule);
+}
+.status-item, .status-item i,
+.status-actions, .status-action-link,
+.status-action-link i, .status-action-link span {
+    color: var(--ss-ink-3) !important;
+}
+.status-action-link:hover i,
+.status-action-link:hover span { color: var(--ss-green) !important; }
+.status-action-link:active i,
+.status-action-link:active span { color: var(--ss-green-2) !important; }
+.status-item i { font-size: 0.85rem !important; }
+#lastUpdated { color: var(--ss-ink) !important; font-weight: 700; font-family: var(--ss-mono); font-size: 0.78rem; letter-spacing: 0.02em; }
+
+/* -----------------------------------------------------------------
+   Main content surface
+   ----------------------------------------------------------------- */
+.main-content { background: var(--ss-bg) !important; padding-top: 1.25rem !important; }
+
+/* Standings card — sharper edges, less drop shadow */
+.standings-card {
+    background: var(--ss-surface) !important;
+    box-shadow: 0 1px 2px rgba(14, 14, 12, 0.04), 0 4px 12px -6px rgba(14, 14, 12, 0.06) !important;
+    border: 1px solid var(--ss-rule);
+    border-radius: 6px !important;
+    overflow: hidden;
+}
+
+/* -----------------------------------------------------------------
+   Standings table — scoreboard styling
+   ----------------------------------------------------------------- */
+.standings-table {
+    font-family: var(--ss-sans) !important;
+}
+.standings-table thead th {
+    background: var(--ss-ink) !important;
+    color: #fff !important;
+    border-bottom: none !important;
+    font-family: var(--ss-display) !important;
+    font-weight: 700 !important;
+    font-size: 0.72rem !important;
+    letter-spacing: 0.12em !important;
+    text-transform: uppercase !important;
+    padding: 0.85rem 0.75rem !important;
+    box-shadow: none !important;
+}
+.standings-table.sticky-header th,
+.sticky-header-fixed .standings-table th {
+    background: var(--ss-ink) !important;
+    color: #fff !important;
+    border-bottom: none !important;
+}
+.sticky-header-fixed {
+    background: var(--ss-ink) !important;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.25) !important;
+    border-bottom: none !important;
+}
+
+.standings-table td {
+    padding: 0.8rem 0.6rem !important;
+    border-bottom: 1px solid var(--ss-rule) !important;
+    vertical-align: middle;
+    font-family: var(--ss-sans);
+}
+.standings-table tbody tr:nth-child(even) {
+    background: var(--ss-surface-2) !important;
+}
+.standings-table tbody tr:hover {
+    background: rgba(2, 66, 32, 0.05) !important;
+}
+.standings-table tbody tr:nth-child(even):hover {
+    background: rgba(2, 66, 32, 0.06) !important;
+}
+
+/* Team name styling */
+.standings-table .team-name,
+.standings-table .team-col,
+.standings-table td.team-col {
+    font-family: var(--ss-display) !important;
+    font-weight: 600 !important;
+    font-size: 1.02rem !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.005em !important;
+    color: var(--ss-ink) !important;
+    line-height: 1.1;
+}
+.standings-table .team-name { color: var(--ss-ink) !important; }
+.standings-table .team-name:hover { color: var(--ss-green) !important; }
+
+/* Position badge — jersey number style */
+.position-badge {
+    width: 1.85rem !important;
+    height: 1.85rem !important;
+    border-radius: 4px !important;
+    background: var(--ss-surface-3) !important;
+    color: var(--ss-ink-2) !important;
+    font-family: var(--ss-display) !important;
+    font-weight: 800 !important;
+    font-size: 0.95rem !important;
+    line-height: 1 !important;
+    margin: 0 auto;
+}
+.position-badge.position-1 {
+    background: var(--ss-green) !important;
+    color: #fff !important;
+}
+.position-badge.position-2,
+.position-badge.position-3 {
+    background: var(--ss-green-soft) !important;
+    color: var(--ss-green) !important;
+}
+.position-other {
+    background: var(--ss-surface-3) !important;
+    color: var(--ss-ink-2) !important;
+}
+
+/* Add a tiny green "TOP" pill next to the leader's name */
+.standings-table tbody tr:first-child .team-name::after {
+    content: "TOP";
+    display: inline-block;
+    margin-left: 0.5rem;
+    background: var(--ss-green-bright);
+    color: #fff;
+    font-family: var(--ss-mono);
+    font-size: 0.55rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    padding: 0.14rem 0.34rem;
+    border-radius: 2px;
+    vertical-align: middle;
+    transform: translateY(-1px);
+}
+
+/* Number columns use mono numerals for that scoreboard feel */
+.standings-table td.stat-col,
+.standings-table td:not(.team-col):not(.pos-col) {
+    font-family: var(--ss-mono) !important;
+    font-variant-numeric: tabular-nums !important;
+    font-weight: 600 !important;
+    font-size: 0.88rem !important;
+    color: var(--ss-ink-2) !important;
+}
+.standings-table th.stat-col { font-family: var(--ss-display) !important; }
+
+/* W, L, PTS get a slightly bolder treatment */
+.standings-table td:nth-child(4),
+.standings-table td:nth-child(5),
+.standings-table td:nth-child(7) {
+    color: var(--ss-ink) !important;
+    font-weight: 700 !important;
+}
+
+/* Win percentage pills — refined */
+.win-percentage {
+    font-family: var(--ss-mono) !important;
+    font-weight: 700 !important;
+    font-size: 0.76rem !important;
+    letter-spacing: 0.02em !important;
+    padding: 0.32rem 0.55rem !important;
+    border-radius: 3px !important;
+    display: inline-block;
+    min-width: 3.2rem;
+    text-align: center;
+}
+.win-percentage.high       { background: rgba(16, 185, 129, 0.14) !important; color: var(--ss-green) !important; }
+.win-percentage.medium-high{ background: rgba(16, 185, 129, 0.10) !important; color: var(--ss-green-2) !important; }
+.win-percentage.medium     { background: rgba(251, 191, 36, 0.18) !important; color: #92400e !important; }
+.win-percentage.low-medium { background: rgba(251, 191, 36, 0.22) !important; color: #92400e !important; }
+.win-percentage.low        { background: rgba(220, 38, 38, 0.10) !important; color: var(--ss-red) !important; }
+
+/* Stat color helpers */
+.text-success { color: var(--ss-green-2) !important; font-weight: 700 !important; }
+.text-danger  { color: var(--ss-red) !important; font-weight: 700 !important; }
+
+/* Swipe indicator on mobile — refined chip */
+.swipe-indicator {
+    background: var(--ss-surface) !important;
+    border-top: 1px dashed var(--ss-rule);
+}
+.swipe-content {
+    font-family: var(--ss-display) !important;
+    font-weight: 600 !important;
+    color: var(--ss-ink-3) !important;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+/* -----------------------------------------------------------------
+   Loading / error cards
+   ----------------------------------------------------------------- */
+.loading-card,
+.error-card {
+    background: var(--ss-surface) !important;
+    border: 1px solid var(--ss-rule) !important;
+    border-radius: 6px !important;
+    box-shadow: 0 1px 2px rgba(14,14,12,0.04) !important;
+    padding: 2rem 1.5rem !important;
+}
+.loading-card h3,
+.error-card h4 {
+    font-family: var(--ss-display);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    color: var(--ss-ink);
+}
+.loading-card p,
+.error-card p { color: var(--ss-ink-3); }
+.loading-spinner {
+    border-color: var(--ss-rule) !important;
+    border-top-color: var(--ss-green) !important;
+}
+
+/* -----------------------------------------------------------------
+   Footer — dark band like the homepage
+   ----------------------------------------------------------------- */
+.modern-footer {
+    background: var(--ss-dark) !important;
+    color: #f5f5f5 !important;
+    padding: 2.2rem 0 !important;
+    margin-top: 1.5rem !important;
+    height: auto !important;
+}
+.modern-footer .container { padding-top: 0 !important; }
+.modern-footer .footer-content p {
+    font-family: var(--ss-display);
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-size: 0.95rem;
+}
+.modern-footer .footer-note {
+    font-family: var(--ss-mono) !important;
+    font-size: 0.72rem !important;
+    letter-spacing: 0.08em;
+    opacity: 0.7 !important;
+    text-transform: uppercase;
+}
+.modern-footer .footer-note i { display: none !important; }
+.modern-footer .footer-note a { color: var(--ss-amber) !important; }
+.modern-footer #lastYsbaUpdate { color: #fff !important; font-weight: 700 !important; }
+
+/* -----------------------------------------------------------------
+   Modal (schedule + notifications)
+   ----------------------------------------------------------------- */
+.modern-modal {
+    border: 1px solid var(--ss-rule);
+    border-radius: 6px !important;
+    overflow: hidden;
+    box-shadow: 0 24px 48px -16px rgba(14, 14, 12, 0.25) !important;
+}
+.modern-modal .modal-header {
+    background: var(--ss-ink) !important;
+    color: #fff !important;
+    border-bottom: none !important;
+    padding: 1rem 1.25rem !important;
+}
+.modern-modal .modal-title {
+    font-family: var(--ss-display) !important;
+    font-weight: 800 !important;
+    color: #fff !important;
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+    font-size: 1.15rem !important;
+}
+.modern-modal .modal-header .btn-close {
+    filter: invert(1) brightness(2);
+    opacity: 0.7;
+}
+.modern-modal .modal-header .btn-close:hover { opacity: 1; }
+.modern-modal .modal-title-section .team-record {
+    font-family: var(--ss-mono);
+    font-size: 0.75rem;
+    color: rgba(255,255,255,0.7);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-top: 0.2rem;
+}
+.modern-modal .modal-body { padding: 1.25rem 1.25rem 0 !important; background: var(--ss-surface) !important; }
+
+/* Schedule tabs */
+.schedule-tabs {
+    border-bottom: 1px solid var(--ss-rule) !important;
+    gap: 0 !important;
+    background: var(--ss-surface);
+}
+.schedule-tab {
+    font-family: var(--ss-display) !important;
+    font-weight: 700 !important;
+    font-size: 0.82rem !important;
+    color: var(--ss-ink-3) !important;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 0.7rem 0.85rem !important;
+    border-bottom: 2px solid transparent !important;
+    transition: all 150ms ease;
+}
+.schedule-tab:hover { color: var(--ss-ink) !important; }
+.schedule-tab.active {
+    color: var(--ss-green) !important;
+    border-bottom-color: var(--ss-green) !important;
+}
+
+/* Schedule game cards */
+.schedule-games { background: var(--ss-bg); }
+.game-card {
+    background: var(--ss-surface) !important;
+    border-bottom: 1px solid var(--ss-rule) !important;
+    padding: 1.1rem 1.25rem !important;
+    transition: background 150ms ease;
+}
+.game-card:hover { background: var(--ss-surface-2) !important; }
+.game-card.win    { border-left-color: var(--ss-green-bright) !important; }
+.game-card.loss   { border-left-color: var(--ss-red) !important; }
+.game-card.tie    { border-left-color: var(--ss-amber) !important; }
+.game-card.upcoming { border-left-color: #60a5fa !important; }
+.game-card.no-result,
+.game-card.mixed { border-left-color: var(--ss-ink-4) !important; }
+
+.game-result {
+    font-family: var(--ss-display) !important;
+    font-weight: 800 !important;
+    font-size: 0.66rem !important;
+    letter-spacing: 0.12em !important;
+    border-radius: 2px !important;
+    padding: 0.22rem 0.5rem !important;
+}
+.game-result.win    { background: var(--ss-green-bright) !important; }
+.game-result.loss   { background: var(--ss-red) !important; }
+.game-result.tie    { background: var(--ss-amber) !important; color: #422006 !important; }
+.game-result.upcoming { background: #60a5fa !important; }
+
+.game-opponent {
+    font-family: var(--ss-display) !important;
+    font-weight: 700 !important;
+    font-size: 1.05rem !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.005em;
+    color: var(--ss-ink) !important;
+    line-height: 1.1;
+}
+.game-score {
+    background: var(--ss-ink) !important;
+    color: #fff !important;
+    border: none !important;
+    box-shadow: 0 4px 10px -4px rgba(14, 14, 12, 0.35) !important;
+    font-family: var(--ss-mono) !important;
+    font-weight: 700 !important;
+    font-size: 1.1rem !important;
+    font-variant-numeric: tabular-nums;
+    border-radius: 4px !important;
+    padding: 14px !important;
+    letter-spacing: 0.02em;
+}
+.score-labels,
+.score-labels small,
+.score-labels .text-muted,
+.game-score .text-muted {
+    font-family: var(--ss-mono) !important;
+    font-size: 0.62rem !important;
+    color: rgba(255,255,255,0.65) !important;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+.game-details {
+    font-family: var(--ss-mono) !important;
+    font-size: 0.72rem !important;
+    color: var(--ss-ink-3) !important;
+    letter-spacing: 0.03em;
+}
+.game-details i { color: var(--ss-ink-4) !important; }
+
+/* Notifications modal form */
+#notificationsModal .modal-body { padding: 1.5rem 1.25rem !important; }
+#notificationsModal .form-label {
+    font-family: var(--ss-display);
+    font-weight: 700;
+    font-size: 0.78rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ss-ink-2);
+}
+#notificationsModal .form-control {
+    border-radius: 4px !important;
+    border-color: var(--ss-rule) !important;
+    font-family: var(--ss-sans);
+    font-size: 0.95rem;
+    padding: 0.65rem 0.8rem;
+}
+#notificationsModal .form-control:focus {
+    border-color: var(--ss-green) !important;
+    box-shadow: 0 0 0 3px rgba(2, 66, 32, 0.12) !important;
+}
+#notificationsModal .btn-primary {
+    background: var(--ss-green) !important;
+    border-color: var(--ss-green) !important;
+    font-family: var(--ss-display) !important;
+    font-weight: 800 !important;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.85rem;
+    padding: 0.85rem 1rem !important;
+    border-radius: 4px !important;
+    transition: all 150ms ease;
+}
+#notificationsModal .btn-primary:hover {
+    background: var(--ss-green-2) !important;
+    border-color: var(--ss-green-2) !important;
+    transform: translateY(-1px);
+}
+
+/* -----------------------------------------------------------------
+   Mobile polish
+   ----------------------------------------------------------------- */
+@media (max-width: 480px) {
+    .modern-header .header-top { padding: 0.75rem 0 0.6rem !important; }
+    .modern-header .brand-title { font-size: 1.25rem !important; }
+    .status-bar { padding: 0.45rem 0 !important; font-size: 0.7rem !important; }
+    .standings-table thead th { padding: 0.65rem 0.45rem !important; font-size: 0.65rem !important; }
+    .standings-table td { padding: 0.65rem 0.4rem !important; }
+    .standings-table .team-name,
+    .standings-table .team-col { font-size: 0.95rem !important; }
+    .position-badge { width: 1.65rem !important; height: 1.65rem !important; font-size: 0.85rem !important; }
+    .game-card { padding: 0.9rem 1rem !important; }
+    .game-opponent { font-size: 0.95rem !important; }
+    .game-score { font-size: 1rem !important; padding: 10px !important; }
+}
+
+/* Bootstrap dropdown menu (legacy fallback) — give it the skin */
+.dropdown-menu {
+    border: 1px solid var(--ss-rule) !important;
+    border-radius: 4px !important;
+    box-shadow: 0 10px 24px -8px rgba(14, 14, 12, 0.18) !important;
+    padding: 0.35rem 0 !important;
+}
+.dropdown-item {
+    font-family: var(--ss-sans);
+    font-size: 0.9rem;
+    color: var(--ss-ink-2) !important;
+}
+.dropdown-item:hover {
+    background: var(--ss-surface-2) !important;
+    color: var(--ss-green) !important;
+}
+.dropdown-item.active,
+.dropdown-item:active {
+    background: var(--ss-green) !important;
+    color: #fff !important;
+}
+
+/* Make the mega menu match the homepage tone subtly */
+.mega-menu {
+    border-radius: 4px !important;
+}
+.mega-menu-tier-badge {
+    font-family: var(--ss-display) !important;
+    font-size: 0.7rem !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.05em !important;
+    padding: 0.35rem 0.55rem !important;
+    border-radius: 3px !important;
+}
+.mega-menu-tier-badge:hover {
+    background: var(--ss-green) !important;
+    color: #fff !important;
+    border-color: var(--ss-green) !important;
+}
+.mega-menu-item-title {
+    font-family: var(--ss-display);
+    font-weight: 700;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+    color: var(--ss-ink) !important;
+}
+.mega-menu-item-subtitle {
+    font-family: var(--ss-mono);
+    font-size: 0.65rem;
+    letter-spacing: 0.08em;
+    color: var(--ss-ink-3) !important;
+}
+
+/* Mobile modal: match home aesthetic */
+.division-modal-title { font-family: var(--ss-display); font-weight: 800; text-transform: uppercase; letter-spacing: 0.01em; color: var(--ss-ink) !important; }
+.division-modal-subtitle { font-family: var(--ss-mono); font-size: 0.75rem; letter-spacing: 0.06em; color: var(--ss-ink-3) !important; text-transform: uppercase; }
+.division-modal-section-title { font-family: var(--ss-display); font-weight: 700; letter-spacing: 0.06em; color: var(--ss-ink) !important; }
+.division-modal-item-title { font-family: var(--ss-display); font-weight: 700; text-transform: uppercase; color: var(--ss-ink) !important; }
+.division-modal-tier-badge {
+    font-family: var(--ss-display) !important;
+    font-weight: 700 !important;
+    border-radius: 3px !important;
+    letter-spacing: 0.05em !important;
+}
+.division-modal-tier-badge:hover {
+    background: var(--ss-green) !important;
+    color: #fff !important;
+    border-color: var(--ss-green) !important;
+}
