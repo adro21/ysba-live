@@ -318,10 +318,36 @@ class InterlockScraper {
 
 function parseGameDate(scheduleItem) {
   if (!scheduleItem || !scheduleItem.startDate) return null;
-  // startDate is "YYYY-MM-DD" and startTime is "HH:MM:SS" in venue-local time.
-  // We treat them as local Eastern; for sorting purposes we just attach them.
+  // startDate is "YYYY-MM-DD" and startTime is "HH:MM:SS" in Eastern (venue-local).
+  // Build a UTC timestamp anchored to America/Toronto, since this script may run
+  // on a non-ET host (GitHub Actions = UTC).
   const time = scheduleItem.startTime || '00:00:00';
-  const dt = new Date(`${scheduleItem.startDate}T${time}`);
+  const m = scheduleItem.startDate.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  const t = time.match(/^(\d{2}):(\d{2})(?::(\d{2}))?$/);
+  if (!m || !t) {
+    const fallback = new Date(`${scheduleItem.startDate}T${time}`);
+    return isNaN(fallback.getTime()) ? null : fallback;
+  }
+  const year = parseInt(m[1], 10);
+  const monthIdx = parseInt(m[2], 10) - 1;
+  const day = parseInt(m[3], 10);
+  const hh = parseInt(t[1], 10);
+  const mm = parseInt(t[2], 10);
+  const ss = t[3] ? parseInt(t[3], 10) : 0;
+  // Get ET offset for this date (handles EDT/EST)
+  let offset = 240;
+  try {
+    const fmt = new Intl.DateTimeFormat('en-US', {
+      timeZone: 'America/Toronto',
+      timeZoneName: 'short',
+      year: 'numeric', month: 'numeric', day: 'numeric', hour: 'numeric'
+    });
+    const parts = fmt.formatToParts(new Date(Date.UTC(year, monthIdx, day, 16)));
+    const tz = parts.find(p => p.type === 'timeZoneName')?.value;
+    if (tz === 'EST') offset = 300;
+  } catch {}
+  const utcMs = Date.UTC(year, monthIdx, day, hh, mm, ss) + offset * 60 * 1000;
+  const dt = new Date(utcMs);
   return isNaN(dt.getTime()) ? null : dt;
 }
 

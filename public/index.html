@@ -1820,51 +1820,104 @@
             lastRefreshAt: 0
         };
 
-        const REFRESH_INTERVAL_MS = 2 * 60 * 1000;       // 2 min auto-refresh
-        const STORY_STALENESS_MS  = 7 * 24 * 60 * 60 * 1000; // 7 days
-        const LIVE_WINDOW_BEFORE  = 30 * 60 * 1000;      // 30 min before first pitch
-        const LIVE_WINDOW_AFTER   = 3 * 60 * 60 * 1000;  // 3 hr after first pitch
-        const JUST_IN_WINDOW      = 2 * 60 * 60 * 1000;  // 2 hr post-final = "just in"
+        const REFRESH_INTERVAL_MS = 2 * 60 * 1000;        // 2 min auto-refresh
+        const STORY_STALENESS_MS  = 7 * 24 * 60 * 60 * 1000;  // 7 days
+        const GAME_LENGTH_MS      = 2.5 * 60 * 60 * 1000; // typical baseball game
+        const JUST_IN_WINDOW_MS   = 2 * 60 * 60 * 1000;   // 2 hr after expected end
+
+        /* ---------- ET-aware game-start timestamp ----------
+           Upstream scraper runs on a UTC GitHub runner and uses
+           `new Date("Thu May 12, 2026 6:00 PM").toISOString()`, which
+           interprets the local time as if the runner were in ET — but
+           it's not, so stored timestamps come out ~4-5h earlier than
+           reality. We recompute from the human-readable fields
+           (`dateText` + `time`) and anchor to America/Toronto, which
+           handles EDT/EST automatically. */
+        const MONTHS = { Jan:0,Feb:1,Mar:2,Apr:3,May:4,Jun:5,Jul:6,Aug:7,Sep:8,Oct:9,Nov:10,Dec:11 };
+
+        const etOffsetMinutes = (year, monthIdx, day) => {
+            try {
+                const fmt = new Intl.DateTimeFormat('en-US', {
+                    timeZone: 'America/Toronto',
+                    timeZoneName: 'short',
+                    year: 'numeric', month: 'numeric', day: 'numeric', hour: 'numeric'
+                });
+                // Noon UTC on that calendar day puts us comfortably inside the day in ET
+                const parts = fmt.formatToParts(new Date(Date.UTC(year, monthIdx, day, 16)));
+                const tz = parts.find(p => p.type === 'timeZoneName')?.value;
+                return tz === 'EST' ? 300 : 240;  // 240 = EDT, 300 = EST
+            } catch { return 240; }
+        };
+
+        const gameStartMs = (g) => {
+            // Preferred path: parse dateText + time as ET wall-clock
+            if (g && g.dateText && g.time) {
+                const refYear = g.date ? new Date(g.date).getUTCFullYear() : new Date().getFullYear();
+                const md = g.dateText.match(/([A-Z][a-z]+)\s+(\d+)/);
+                const tm = g.time.match(/(\d+):(\d+)\s*(AM|PM)/i);
+                if (md && tm) {
+                    const monthIdx = MONTHS[md[1].slice(0, 3)];
+                    const day = parseInt(md[2], 10);
+                    let hh = parseInt(tm[1], 10);
+                    const mm = parseInt(tm[2], 10);
+                    if (tm[3].toUpperCase() === 'PM' && hh !== 12) hh += 12;
+                    if (tm[3].toUpperCase() === 'AM' && hh === 12) hh = 0;
+                    if (Number.isFinite(monthIdx) && Number.isFinite(day) && Number.isFinite(hh)) {
+                        const offset = etOffsetMinutes(refYear, monthIdx, day);
+                        // ET wall-clock → UTC ms = (UTC of wall-clock) + offset
+                        return Date.UTC(refYear, monthIdx, day, hh, mm) + offset * 60 * 1000;
+                    }
+                }
+            }
+            // Fallback: assume stored g.date is ET-wall-clock-mis-labeled-as-UTC
+            if (g && g.date) {
+                const d = new Date(g.date);
+                if (!Number.isNaN(d.getTime())) {
+                    const offset = etOffsetMinutes(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate());
+                    return d.getTime() + offset * 60 * 1000;
+                }
+            }
+            return null;
+        };
 
         /* ---------- Live game detection ---------- */
         const gameLiveState = (g) => {
-            if (!g.date) return 'normal';
-            const start = new Date(g.date).getTime();
-            if (Number.isNaN(start)) return 'normal';
+            const start = gameStartMs(g);
+            if (start == null) return 'normal';
             const now = Date.now();
+            const elapsed = now - start;
+
             if (g.isCompleted && g.score) {
-                // Finished within last 2h
-                const approxEnd = start + LIVE_WINDOW_AFTER;
-                if (now >= start && now <= approxEnd + JUST_IN_WINDOW) return 'just-in';
+                // Posted finals: "Just In" if posted within ~2h of expected end
+                if (elapsed >= 0 && elapsed <= GAME_LENGTH_MS + JUST_IN_WINDOW_MS) return 'just-in';
                 return 'normal';
             }
-            // Not completed - is it live?
-            if (now >= start - LIVE_WINDOW_BEFORE && now <= start + LIVE_WINDOW_AFTER) return 'live';
+            // Not completed
+            if (elapsed >= 0 && elapsed <= GAME_LENGTH_MS) return 'live';
             return 'normal';
         };
 
-        const isToday = (iso) => {
-            if (!iso) return false;
-            const d = new Date(iso);
+        const sameLocalDay = (ms) => {
+            if (ms == null) return false;
+            const d = new Date(ms);
             const n = new Date();
             return d.getFullYear() === n.getFullYear()
                 && d.getMonth() === n.getMonth()
                 && d.getDate() === n.getDate();
         };
-        const isThisWeek = (iso) => {
-            if (!iso) return false;
-            const d = new Date(iso).getTime();
-            const now = Date.now();
-            return Math.abs(now - d) <= 7 * 24 * 60 * 60 * 1000;
+        const isToday = (g) => sameLocalDay(gameStartMs(g));
+        const isThisWeek = (g) => {
+            const ms = gameStartMs(g);
+            if (ms == null) return false;
+            return Math.abs(Date.now() - ms) <= 7 * 24 * 60 * 60 * 1000;
         };
 
         /* ---------- Countdown to first pitch ---------- */
-        const formatCountdown = (iso) => {
-            if (!iso) return null;
-            const t = new Date(iso).getTime();
-            if (Number.isNaN(t)) return null;
+        const formatCountdown = (g) => {
+            const t = gameStartMs(g);
+            if (t == null) return null;
             const diff = t - Date.now();
-            if (diff < 0) return null;
+            if (diff <= 0) return null;
             const hours = Math.floor(diff / 3600000);
             const mins  = Math.floor((diff % 3600000) / 60000);
             if (hours >= 24) {
@@ -1880,11 +1933,10 @@
         const bucketFor = (g) => {
             if (gameLiveState(g) === 'live') return 'live';
             if (g.isCompleted && g.score) {
-                if (isToday(g.date)) return 'today';
+                if (isToday(g)) return 'today';
                 return 'recent';
             }
-            // Not completed
-            if (isToday(g.date)) return 'today';
+            if (isToday(g)) return 'today';
             return 'upcoming';
         };
 
@@ -2013,7 +2065,7 @@
             // Countdown for upcoming games (replaces "when" text)
             let bottomLeft = isFinal ? (g.dateText || '') : (g.time || '');
             if (!isFinal && liveState !== 'live') {
-                const cd = formatCountdown(g.date);
+                const cd = formatCountdown(g);
                 if (cd) {
                     bottomLeft = `<span class="countdown ${cd.imminent ? 'imminent' : ''}">${esc(cd.text)}</span>`;
                 }
@@ -2553,7 +2605,9 @@
         };
 
         const effectiveStories = () => {
-            // Use AI stories if fresh; fall back to synthetic if too old or empty
+            // Strategy: when the AI stories file is stale, lead with synthetic
+            // (always current-data-based), then top up with AI to guarantee
+            // at least 4 stories so the rail never goes empty.
             const ai = state.stories || [];
             const lastUpdated = state.storiesLastUpdated || (ai[0] && ai[0].generatedAt) || null;
             const ageMs = lastUpdated ? Date.now() - new Date(lastUpdated).getTime() : Infinity;
@@ -2563,7 +2617,13 @@
                 const synth = buildSyntheticStories();
                 if (synth.length) {
                     state.usingSynthetic = true;
-                    return synth;
+                    // Dedupe AI stories whose headline mentions a team already in synthetic
+                    const synthTeams = synth.map(s => (s.headline || '').toLowerCase());
+                    const aiTopUp = ai.filter(s => {
+                        const h = (s.headline || '').toLowerCase();
+                        return !synthTeams.some(name => name && h.includes(name.split(' ')[0]));
+                    });
+                    return synth.concat(aiTopUp).slice(0, 8);
                 }
             }
             state.usingSynthetic = false;
@@ -2574,9 +2634,9 @@
         const renderPulse = () => {
             const games = state.recent.games || [];
             const liveCount = games.filter(g => gameLiveState(g) === 'live').length;
-            const todayFinals = games.filter(g => g.isCompleted && g.score && isToday(g.date)).length;
-            const todayUpcoming = games.filter(g => !g.isCompleted && isToday(g.date)).length;
-            const weekTotal = games.filter(g => isThisWeek(g.date)).length;
+            const todayFinals = games.filter(g => g.isCompleted && g.score && isToday(g)).length;
+            const todayUpcoming = games.filter(g => !g.isCompleted && isToday(g)).length;
+            const weekTotal = games.filter(g => isThisWeek(g)).length;
             document.getElementById('pulseLive').textContent = liveCount;
             document.getElementById('pulseTodayFinal').textContent = todayFinals;
             document.getElementById('pulseTodayUpcoming').textContent = todayUpcoming;

@@ -1,6 +1,52 @@
 const puppeteer = require('puppeteer');
 const config = require('../../config');
 
+/**
+ * Construct a UTC Date for an Eastern-Time wall-clock moment.
+ * Handles EDT (UTC-4) / EST (UTC-5) automatically via Intl.
+ * The scraper runs on GitHub Actions in UTC, so naïve
+ * `new Date("May 12, 2026 6:00 PM")` produces a UTC-anchored time
+ * instead of the ET-anchored time YSBA actually publishes.
+ */
+const MONTH_INDEX = { Jan:0,Feb:1,Mar:2,Apr:3,May:4,Jun:5,Jul:6,Aug:7,Sep:8,Oct:9,Nov:10,Dec:11 };
+function etOffsetMinutes(year, monthIdx, day) {
+  try {
+    const fmt = new Intl.DateTimeFormat('en-US', {
+      timeZone: 'America/Toronto',
+      timeZoneName: 'short',
+      year: 'numeric', month: 'numeric', day: 'numeric', hour: 'numeric'
+    });
+    const parts = fmt.formatToParts(new Date(Date.UTC(year, monthIdx, day, 16)));
+    const tz = parts.find(p => p.type === 'timeZoneName')?.value;
+    return tz === 'EST' ? 300 : 240;
+  } catch { return 240; }
+}
+function buildEasternDate(dateText, timeText) {
+  // dateText is something like "Thu, May 12, 2026" (year may already be appended).
+  // timeText is something like "6:30 PM".
+  if (!dateText) return null;
+  const md = dateText.match(/([A-Z][a-z]+)\s+(\d{1,2})(?:,\s*(\d{4}))?/);
+  if (!md) return null;
+  const monthIdx = MONTH_INDEX[md[1].slice(0, 3)];
+  const day = parseInt(md[2], 10);
+  const year = md[3] ? parseInt(md[3], 10) : new Date().getUTCFullYear();
+  if (!Number.isFinite(monthIdx) || !Number.isFinite(day)) return null;
+
+  let hh = 0, mm = 0;
+  if (timeText) {
+    const tm = timeText.match(/(\d{1,2}):(\d{2})\s*(AM|PM)/i);
+    if (tm) {
+      hh = parseInt(tm[1], 10);
+      mm = parseInt(tm[2], 10);
+      const isPM = tm[3].toUpperCase() === 'PM';
+      if (hh === 12) hh = 0;
+      if (isPM) hh += 12;
+    }
+  }
+  const offset = etOffsetMinutes(year, monthIdx, day);
+  return new Date(Date.UTC(year, monthIdx, day, hh, mm) + offset * 60 * 1000);
+}
+
 // Team name mapping for teams based on YSBA team listings
 const TEAM_NAME_MAPPING = {
   '511105': 'Midland Penetang Twins 9U DS',
@@ -468,27 +514,20 @@ class YSBAScraper {
             if (dateText && dateText !== '-') {
               const currentYear = new Date().getFullYear();
               let fullDateText = dateText;
-              
+
               if (!dateText.includes(currentYear.toString()) && !dateText.includes((currentYear+1).toString())) {
                 fullDateText = `${dateText}, ${currentYear}`;
               }
-              
-              let tempDate = new Date(fullDateText);
-              if (!isNaN(tempDate.getTime())) {
-                if (timeText && timeText !== '-') {
-                  try {
-                    const fullDateTimeText = `${fullDateText} ${timeText}`;
-                    gameDate = new Date(fullDateTimeText);
-                    
-                    if (isNaN(gameDate.getTime())) {
-                      gameDate = tempDate;
-                    }
-                  } catch (e) {
-                    gameDate = tempDate;
-                  }
-                } else {
-                  gameDate = tempDate;
-                }
+
+              // Build the timestamp anchored to America/Toronto (EDT/EST),
+              // not to whatever timezone Node thinks "local" is (UTC on CI).
+              const etDate = buildEasternDate(fullDateText, timeText !== '-' ? timeText : null);
+              if (etDate && !isNaN(etDate.getTime())) {
+                gameDate = etDate;
+              } else {
+                // Fallback to permissive parse so we don't drop the game outright
+                const tempDate = new Date(fullDateText);
+                if (!isNaN(tempDate.getTime())) gameDate = tempDate;
               }
             }
           } catch (e) {
