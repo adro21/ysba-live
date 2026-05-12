@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T08:36:20.196Z",
+  "lastUpdated": "2026-05-12T13:23:22.244Z",
   "totalGames": 82,
   "games": [
     {
@@ -201,8 +201,12 @@
       "awayTeam": "Vaughan Vikings 10U A Team 1",
       "awayTeamCode": "617173",
       "location": "Armstrong Park (Diamond 1)",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 16,
+        "away": 5,
+        "scoreText": "5-16"
+      },
       "division": "10U",
       "tier": "rep-tier-3"
     },

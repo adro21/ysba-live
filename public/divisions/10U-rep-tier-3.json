@@ -3,6 +3,24 @@
     "teams": [
       {
         "position": 2,
+        "team": "Newmarket Hawks 10U A",
+        "teamCode": "617900",
+        "record": {
+          "gamesPlayed": 1,
+          "wins": 1,
+          "losses": 0,
+          "ties": 0,
+          "winPercentage": "1.000"
+        },
+        "stats": {
+          "points": 2,
+          "runsFor": 16,
+          "runsAgainst": 5,
+          "runDifferential": 11
+        }
+      },
+      {
+        "position": 3,
         "team": "Barrie Baycats 10U A",
         "teamCode": "612779",
         "record": {
@@ -38,7 +56,7 @@
         }
       },
       {
-        "position": 3,
+        "position": 4,
         "team": "Stouffville 10U A",
         "teamCode": "627209",
         "record": {
@@ -56,7 +74,25 @@
         }
       },
       {
-        "position": 4,
+        "position": 5,
+        "team": "Vaughan Vikings 10U A Team 1",
+        "teamCode": "617173",
+        "record": {
+          "gamesPlayed": 1,
+          "wins": 0,
+          "losses": 1,
+          "ties": 0,
+          "winPercentage": "0.000"
+        },
+        "stats": {
+          "points": 0,
+          "runsFor": 5,
+          "runsAgainst": 16,
+          "runDifferential": -11
+        }
+      },
+      {
+        "position": 6,
         "team": "Aurora-King Jays 10U A",
         "teamCode": "617970",
         "record": {
@@ -74,7 +110,7 @@
         }
       },
       {
-        "position": 5,
+        "position": 7,
         "team": "Bradford Tigers 10U A",
         "teamCode": "617944",
         "record": {
@@ -92,7 +128,7 @@
         }
       },
       {
-        "position": 6,
+        "position": 8,
         "team": "Collingwood Jays 10U A",
         "teamCode": "618005",
         "record": {
@@ -110,7 +146,7 @@
         }
       },
       {
-        "position": 7,
+        "position": 9,
         "team": "Georgina Bulldogs 10U B",
         "teamCode": "625725",
         "record": {
@@ -128,7 +164,7 @@
         }
       },
       {
-        "position": 8,
+        "position": 10,
         "team": "Innisfil Cardinals 10U A",
         "teamCode": "618041",
         "record": {
@@ -146,7 +182,7 @@
         }
       },
       {
-        "position": 9,
+        "position": 11,
         "team": "Midland Penetang Twins 10U B",
         "teamCode": "618394",
         "record": {
@@ -164,25 +200,7 @@
         }
       },
       {
-        "position": 10,
-        "team": "Newmarket Hawks 10U A",
-        "teamCode": "617900",
-        "record": {
-          "gamesPlayed": 0,
-          "wins": 0,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": ".000"
-        },
-        "stats": {
-          "points": 0,
-          "runsFor": 0,
-          "runsAgainst": 0,
-          "runDifferential": 0
-        }
-      },
-      {
-        "position": 11,
+        "position": 12,
         "team": "Orangeville Bengals 10U A",
         "teamCode": "618019",
         "record": {
@@ -200,7 +218,7 @@
         }
       },
       {
-        "position": 12,
+        "position": 13,
         "team": "Orillia 10U B",
         "teamCode": "618381",
         "record": {
@@ -218,7 +236,7 @@
         }
       },
       {
-        "position": 13,
+        "position": 14,
         "team": "Richmond Hill Phoenix 10U A",
         "teamCode": "617848",
         "record": {
@@ -236,27 +254,9 @@
         }
       },
       {
-        "position": 14,
+        "position": 15,
         "team": "TNT Thunder 10U A",
         "teamCode": "618057",
-        "record": {
-          "gamesPlayed": 0,
-          "wins": 0,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": ".000"
-        },
-        "stats": {
-          "points": 0,
-          "runsFor": 0,
-          "runsAgainst": 0,
-          "runDifferential": 0
-        }
-      },
-      {
-        "position": 15,
-        "team": "Vaughan Vikings 10U A Team 1",
-        "teamCode": "617173",
         "record": {
           "gamesPlayed": 0,
           "wins": 0,
@@ -290,7 +290,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-05-12T08:31:50.295Z",
+    "lastUpdated": "2026-05-12T13:18:59.800Z",
     "totalTeams": 16
   },
   "schedule": {
@@ -380,7 +380,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-12T08:31:54.823Z"
+        "lastUpdated": "2026-05-12T13:19:04.247Z"
       },
       "617173": {
         "teamCode": "617173",
@@ -397,8 +397,12 @@
             "awayTeam": "Vaughan Vikings 10U A Team 1",
             "awayTeamCode": "617173",
             "location": "Armstrong Park (Diamond 1)",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 16,
+              "away": 5,
+              "scoreText": "5-16"
+            }
           }
         ],
         "nextGames": [
@@ -463,7 +467,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-12T08:31:54.823Z"
+        "lastUpdated": "2026-05-12T13:19:04.247Z"
       },
       "617174": {
         "teamCode": "617174",
@@ -546,7 +550,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-12T08:31:54.824Z"
+        "lastUpdated": "2026-05-12T13:19:04.247Z"
       },
       "617848": {
         "teamCode": "617848",
@@ -629,7 +633,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-12T08:31:54.824Z"
+        "lastUpdated": "2026-05-12T13:19:04.247Z"
       },
       "617900": {
         "teamCode": "617900",
@@ -646,8 +650,12 @@
             "awayTeam": "Vaughan Vikings 10U A Team 1",
             "awayTeamCode": "617173",
             "location": "Armstrong Park (Diamond 1)",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 16,
+              "away": 5,
+              "scoreText": "5-16"
+            }
           }
         ],
         "nextGames": [
@@ -712,7 +720,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-12T08:31:54.824Z"
+        "lastUpdated": "2026-05-12T13:19:04.247Z"
       },
       "617944": {
         "teamCode": "617944",
@@ -795,7 +803,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-12T08:31:54.824Z"
+        "lastUpdated": "2026-05-12T13:19:04.247Z"
       },
       "617970": {
         "teamCode": "617970",
@@ -865,7 +873,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-12T08:31:54.824Z"
+        "lastUpdated": "2026-05-12T13:19:04.247Z"
       },
       "617985": {
         "teamCode": "617985",
@@ -968,7 +976,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-12T08:31:54.824Z"
+        "lastUpdated": "2026-05-12T13:19:04.247Z"
       },
       "618005": {
         "teamCode": "618005",
@@ -1038,7 +1046,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-12T08:31:54.824Z"
+        "lastUpdated": "2026-05-12T13:19:04.247Z"
       },
       "618019": {
         "teamCode": "618019",
@@ -1108,7 +1116,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-12T08:31:54.824Z"
+        "lastUpdated": "2026-05-12T13:19:04.247Z"
       },
       "618041": {
         "teamCode": "618041",
@@ -1178,7 +1186,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-12T08:31:54.824Z"
+        "lastUpdated": "2026-05-12T13:19:04.247Z"
       },
       "618057": {
         "teamCode": "618057",
@@ -1248,7 +1256,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-12T08:31:54.824Z"
+        "lastUpdated": "2026-05-12T13:19:04.247Z"
       },
       "618381": {
         "teamCode": "618381",
@@ -1331,7 +1339,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-12T08:31:54.824Z"
+        "lastUpdated": "2026-05-12T13:19:04.247Z"
       },
       "618394": {
         "teamCode": "618394",
@@ -1401,7 +1409,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-12T08:31:54.824Z"
+        "lastUpdated": "2026-05-12T13:19:04.247Z"
       },
       "625725": {
         "teamCode": "625725",
@@ -1471,7 +1479,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-12T08:31:54.824Z"
+        "lastUpdated": "2026-05-12T13:19:04.247Z"
       },
       "627209": {
         "teamCode": "627209",
@@ -1558,7 +1566,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-12T08:31:54.824Z"
+        "lastUpdated": "2026-05-12T13:19:04.247Z"
       }
     },
     "allGames": [
@@ -1627,8 +1635,12 @@
         "awayTeam": "Vaughan Vikings 10U A Team 1",
         "awayTeamCode": "617173",
         "location": "Armstrong Park (Diamond 1)",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 16,
+          "away": 5,
+          "scoreText": "5-16"
+        }
       },
       {
         "date": "2026-05-12T18:00:00.000Z",
@@ -3405,8 +3417,12 @@
         "awayTeam": "Vaughan Vikings 10U A Team 1",
         "awayTeamCode": "617173",
         "location": "Armstrong Park (Diamond 1)",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 16,
+          "away": 5,
+          "scoreText": "5-16"
+        }
       },
       {
         "date": "2026-05-11T18:00:00.000Z",
@@ -3587,17 +3603,17 @@
         "score": null
       }
     ],
-    "lastUpdated": "2026-05-12T08:31:54.824Z",
+    "lastUpdated": "2026-05-12T13:19:04.247Z",
     "totalGames": 152
   },
   "summary": {
     "totalTeams": 16,
     "totalGames": 152,
-    "completedGames": 2,
-    "upcomingGames": 150,
+    "completedGames": 3,
+    "upcomingGames": 149,
     "topTeam": {
-      "team": "Barrie Baycats 10U A",
-      "teamCode": "612779",
+      "team": "Newmarket Hawks 10U A",
+      "teamCode": "617900",
       "wins": 1,
       "losses": 0,
       "winPercentage": "1.000"
@@ -3611,6 +3627,6 @@
       "date": "Sat, May 9",
       "location": "YORK HILL EAST"
     },
-    "lastUpdated": "2026-05-12T08:36:20.196Z"
+    "lastUpdated": "2026-05-12T13:23:22.244Z"
   }
 }
