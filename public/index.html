@@ -549,7 +549,9 @@
         .ticker-strip {
             display: flex;
             flex-shrink: 0;
-            animation: tickerScroll 140s linear infinite;
+            /* duration is set by JS for constant px/sec on every device.
+               This fallback keeps the marquee working if JS is slow / off. */
+            animation: tickerScroll 240s linear infinite;
             will-change: transform;
         }
         .ticker:hover .ticker-strip { animation-play-state: paused; }
@@ -1941,11 +1943,37 @@
         };
 
         /* ---------- Ticker ---------- */
+        /* Constant scroll velocity across devices. Tune this one number.
+           ~50 px/s feels good for sports tickers — slow enough to read on
+           a 360px phone, still fluid on a 1600px desktop. */
+        const TICKER_PX_PER_SEC = 50;
+
+        const calibrateTicker = () => {
+            const strip = document.getElementById('tickerStrip');
+            if (!strip) return;
+            // Strip contains the unique cards duplicated for a seamless loop.
+            // The animation translates from 0 to -50% (one unique pass), so
+            // distance traveled in one full animation = scrollWidth / 2.
+            const halfWidth = strip.scrollWidth / 2;
+            if (!halfWidth) return;
+            const seconds = Math.max(20, halfWidth / TICKER_PX_PER_SEC);
+            strip.style.animationDuration = `${seconds}s`;
+        };
+
+        // Re-calibrate on resize (debounced) so rotating a phone or
+        // resizing a desktop window keeps the same velocity.
+        let tickerResizeHandle = null;
+        window.addEventListener('resize', () => {
+            clearTimeout(tickerResizeHandle);
+            tickerResizeHandle = setTimeout(calibrateTicker, 150);
+        });
+
         const renderTicker = () => {
             const strip = document.getElementById('tickerStrip');
             const finals = (state.recent.games || []).filter(g => g.isCompleted && g.score);
             if (!finals.length) {
                 strip.innerHTML = `<div class="ticker-game"><span>No final scores yet — first pitch coming soon.</span></div>`;
+                strip.style.animationDuration = '0s';
                 return;
             }
             const cell = (g) => {
@@ -1967,6 +1995,8 @@
             };
             const all = finals.concat(finals);
             strip.innerHTML = all.map(cell).join('');
+            // After paint, measure and set duration for constant velocity.
+            requestAnimationFrame(() => calibrateTicker());
         };
 
         /* ---------- Lead ---------- */
