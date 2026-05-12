@@ -1922,11 +1922,11 @@
             const mins  = Math.floor((diff % 3600000) / 60000);
             if (hours >= 24) {
                 const days = Math.floor(hours / 24);
-                return { text: `FIRST PITCH IN ${days}D`, imminent: false };
+                return { text: `IN ${days}D`, imminent: false };
             }
-            if (hours >= 1) return { text: `FIRST PITCH IN ${hours}H ${mins}M`, imminent: hours < 2 };
-            if (mins > 0)   return { text: `FIRST PITCH IN ${mins}M`, imminent: true };
-            return { text: `FIRST PITCH ANY MINUTE`, imminent: true };
+            if (hours >= 1) return { text: `IN ${hours}H ${mins}M`, imminent: hours < 2 };
+            if (mins > 1)   return { text: `IN ${mins}M`, imminent: true };
+            return { text: `STARTING SOON`, imminent: true };
         };
 
         /* ---------- Date bucket helpers ---------- */
@@ -2494,15 +2494,15 @@
             });
         };
 
-        /* ---------- Synthetic stories from standings ---------- */
-        /* If the AI stories are >7 days old (or missing), derive 4 fresh
-           stories straight from the current standings so the homepage
-           never serves a frozen headline. */
+        /* ---------- Synthetic stories from standings ----------
+           Built fresh from `state.standings` every render. Designed to
+           always produce 4+ stories — even with sparse early-season
+           data — so the rail never goes empty and the homepage never
+           serves a frozen headline. */
         const buildSyntheticStories = () => {
             const stories = [];
             const divs = state.standings.divisions || {};
 
-            // Flatten teams across all divisions/tiers with context
             const allTeams = [];
             for (const [ageKey, div] of Object.entries(divs)) {
                 if (!div.tiers) continue;
@@ -2520,38 +2520,44 @@
                     }
                 }
             }
-
             if (!allTeams.length) return stories;
 
-            // 1) Undefeated leader (most wins among 0-loss teams with >=3 GP)
+            // Helper — track teams we've already featured so the rail isn't repetitive
+            const used = new Set();
+            const featured = (team) => used.has(team);
+            const claim = (team) => used.add(team);
+
+            // 1) Undefeated leader — >=2 wins, 0 losses
             const undefeated = allTeams
-                .filter(t => t.l === 0 && t.w >= 3)
-                .sort((a, b) => b.w - a.w)[0];
+                .filter(t => t.l === 0 && t.w >= 2)
+                .sort((a, b) => b.w - a.w || b.rd - a.rd)[0];
             if (undefeated) {
+                claim(undefeated.team);
                 stories.push({
                     headline: `${undefeated.team} stays perfect at ${undefeated.w}-0`,
-                    body: `${undefeated.team} is unbeaten through ${undefeated.gp} games in ${undefeated.divisionLabel}, riding a ${undefeated.rf}–${undefeated.ra} run differential.`,
+                    body: `${undefeated.team} is unbeaten through ${undefeated.gp} ${undefeated.gp === 1 ? 'game' : 'games'} in ${undefeated.divisionLabel}, riding a ${undefeated.rf}–${undefeated.ra} run differential.`,
                     division: undefeated.divisionLabel,
                     type: 'undefeated',
                     priority: 10,
                 });
             }
 
-            // 2) Biggest run differential (>=4 GP, dominant)
+            // 2) Biggest run differential (>=2 GP)
             const bigRD = allTeams
-                .filter(t => t.gp >= 4)
+                .filter(t => t.gp >= 2 && !featured(t.team))
                 .sort((a, b) => b.rd - a.rd)[0];
-            if (bigRD && bigRD.rd >= 10 && (!undefeated || bigRD.team !== undefeated.team)) {
+            if (bigRD && bigRD.rd >= 5) {
+                claim(bigRD.team);
                 stories.push({
-                    headline: `${bigRD.team} steamroll opponents by +${bigRD.rd}`,
-                    body: `Through ${bigRD.gp} games, ${bigRD.team} have outscored the rest of ${bigRD.divisionLabel} ${bigRD.rf}–${bigRD.ra}.`,
+                    headline: `${bigRD.team} outscore opponents by +${bigRD.rd}`,
+                    body: `Through ${bigRD.gp} games, ${bigRD.team} have a +${bigRD.rd} run differential (${bigRD.rf}–${bigRD.ra}) in ${bigRD.divisionLabel}.`,
                     division: bigRD.divisionLabel,
                     type: 'scoring_machine',
                     priority: 8,
                 });
             }
 
-            // 3) Tight race — two top teams in same division within 1 game
+            // 3) Tight race — top two teams in any division within 1 game
             const byDivision = {};
             for (const t of allTeams) {
                 (byDivision[t.divisionLabel] = byDivision[t.divisionLabel] || []).push(t);
@@ -2560,10 +2566,10 @@
                 if (teams.length < 3) continue;
                 const sorted = [...teams].sort((a, b) => b.pctNum - a.pctNum || (b.w - b.l) - (a.w - a.l));
                 const lead = sorted[0], chase = sorted[1];
-                if (lead && chase && lead.w - chase.w <= 1 && lead.w >= 3) {
+                if (lead && chase && lead.w - chase.w <= 1 && lead.w >= 2) {
                     stories.push({
-                        headline: `${div}: ${lead.team} and ${chase.team} go down to the wire`,
-                        body: `${lead.team} (${lead.w}-${lead.l}) hold the top spot, with ${chase.team} (${chase.w}-${chase.l}) breathing down their neck.`,
+                        headline: `Two-team race tightens in ${div}`,
+                        body: `${lead.team} (${lead.w}-${lead.l}) lead by a hair over ${chase.team} (${chase.w}-${chase.l}) — every game from here matters.`,
                         division: div,
                         type: 'tight_race',
                         priority: 7,
@@ -2572,32 +2578,58 @@
                 }
             }
 
-            // 4) Defensive standout (lowest RA with >=4 GP)
+            // 4) Defensive standout — fewest runs allowed per game (>=2 GP)
             const lockdown = allTeams
-                .filter(t => t.gp >= 4 && t.ra <= Math.floor(t.gp * 2.5))
-                .sort((a, b) => (a.ra / Math.max(1, a.gp)) - (b.ra / Math.max(1, b.gp)))[0];
-            if (lockdown && !stories.find(s => s.headline.startsWith(lockdown.team))) {
+                .filter(t => t.gp >= 2 && !featured(t.team))
+                .sort((a, b) => (a.ra / a.gp) - (b.ra / b.gp))[0];
+            if (lockdown && (lockdown.ra / lockdown.gp) < 4) {
+                claim(lockdown.team);
+                const rapg = (lockdown.ra / lockdown.gp).toFixed(1);
                 stories.push({
                     headline: `${lockdown.team} lock it down on defense`,
-                    body: `${lockdown.team} have allowed just ${lockdown.ra} runs across ${lockdown.gp} games in ${lockdown.divisionLabel}.`,
+                    body: `${lockdown.team} have allowed just ${lockdown.ra} runs over ${lockdown.gp} games (${rapg} per game) in ${lockdown.divisionLabel}.`,
                     division: lockdown.divisionLabel,
                     type: 'shutout_artist',
                     priority: 7,
                 });
             }
 
-            // 5) Big offense (most RF per game)
+            // 5) Big offense — most runs per game (>=2 GP)
             const offense = allTeams
-                .filter(t => t.gp >= 4)
-                .sort((a, b) => (b.rf / Math.max(1, b.gp)) - (a.rf / Math.max(1, a.gp)))[0];
-            if (offense && !stories.find(s => s.headline.startsWith(offense.team))) {
+                .filter(t => t.gp >= 2 && !featured(t.team))
+                .sort((a, b) => (b.rf / b.gp) - (a.rf / a.gp))[0];
+            if (offense && (offense.rf / offense.gp) >= 7) {
+                claim(offense.team);
                 const rpg = (offense.rf / offense.gp).toFixed(1);
                 stories.push({
                     headline: `${offense.team} pour it on at ${rpg} runs a game`,
-                    body: `${offense.team} have scored ${offense.rf} runs through ${offense.gp} games in ${offense.divisionLabel} — top of the league for offense.`,
+                    body: `${offense.team} have scored ${offense.rf} runs over ${offense.gp} games in ${offense.divisionLabel} — the league's most prolific offense right now.`,
                     division: offense.divisionLabel,
                     type: 'scoring_machine',
                     priority: 6,
+                });
+            }
+
+            // 6+) Division leaders — pick the leader of the 3 most-active divisions
+            const divisionLeaders = Object.entries(byDivision)
+                .map(([div, teams]) => {
+                    const totalGames = teams.reduce((a, t) => a + t.gp, 0);
+                    const leader = [...teams].sort((a, b) => b.pctNum - a.pctNum || (b.w - b.l) - (a.w - a.l))[0];
+                    return { div, leader, totalGames };
+                })
+                .filter(x => x.leader && x.leader.w >= 1 && !featured(x.leader.team))
+                .sort((a, b) => b.totalGames - a.totalGames);
+
+            for (const { div, leader } of divisionLeaders) {
+                if (stories.length >= 6) break;
+                claim(leader.team);
+                const record = `${leader.w}-${leader.l}${leader.t ? '-' + leader.t : ''}`;
+                stories.push({
+                    headline: `${leader.team} lead ${div} at ${record}`,
+                    body: `${leader.team} sit atop ${div} with a ${record} record and a ${leader.rd >= 0 ? '+' : ''}${leader.rd} run differential.`,
+                    division: div,
+                    type: 'division_leader',
+                    priority: 5,
                 });
             }
 
@@ -2605,26 +2637,17 @@
         };
 
         const effectiveStories = () => {
-            // Strategy: when the AI stories file is stale, lead with synthetic
-            // (always current-data-based), then top up with AI to guarantee
-            // at least 4 stories so the rail never goes empty.
+            // Rule: never serve stale AI headlines. If the AI file is older
+            // than STORY_STALENESS_MS, use only synthetic stories built from
+            // the current standings — even if that means fewer items.
             const ai = state.stories || [];
             const lastUpdated = state.storiesLastUpdated || (ai[0] && ai[0].generatedAt) || null;
             const ageMs = lastUpdated ? Date.now() - new Date(lastUpdated).getTime() : Infinity;
             const isStale = ageMs > STORY_STALENESS_MS;
 
-            if (!ai.length || isStale) {
-                const synth = buildSyntheticStories();
-                if (synth.length) {
-                    state.usingSynthetic = true;
-                    // Dedupe AI stories whose headline mentions a team already in synthetic
-                    const synthTeams = synth.map(s => (s.headline || '').toLowerCase());
-                    const aiTopUp = ai.filter(s => {
-                        const h = (s.headline || '').toLowerCase();
-                        return !synthTeams.some(name => name && h.includes(name.split(' ')[0]));
-                    });
-                    return synth.concat(aiTopUp).slice(0, 8);
-                }
+            if (isStale || !ai.length) {
+                state.usingSynthetic = true;
+                return buildSyntheticStories();
             }
             state.usingSynthetic = false;
             return ai;
