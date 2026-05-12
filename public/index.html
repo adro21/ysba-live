@@ -601,11 +601,15 @@
             letter-spacing: 0.1em;
             text-transform: uppercase;
         }
+        @media (max-width: 900px) {
+            .ticker-strip { animation-duration: 140s; }
+        }
         @media (max-width: 600px) {
             .ticker-label { padding: 0.6rem 0.7rem; font-size: 0.78rem; letter-spacing: 0.1em; }
             .ticker-label::after { border-top-width: 19px; border-bottom-width: 19px; }
             .ticker-game { padding: 0.6rem 0.9rem; gap: 0.55rem; font-size: 0.86rem; }
             .ticker-game .div-tag { font-size: 0.6rem; }
+            .ticker-strip { animation-duration: 180s; }
         }
 
         /* =========================================================
