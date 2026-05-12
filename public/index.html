@@ -399,6 +399,92 @@
         .score-card.is-live .score-top .division-tag::before {
             background: white;
         }
+        /* Countdown text on upcoming cards */
+        .score-card .countdown {
+            font-family: var(--mono);
+            font-weight: 700;
+            font-size: 0.78rem;
+            color: var(--green);
+            letter-spacing: 0.04em;
+            font-variant-numeric: tabular-nums;
+        }
+        .score-card .countdown::before {
+            content: "⟶ ";
+            color: var(--ink-4);
+            font-weight: 500;
+            margin-right: 0.15rem;
+        }
+        .score-card .countdown.imminent {
+            color: var(--red);
+            animation: countdownPulse 2s ease-in-out infinite;
+        }
+        @keyframes countdownPulse {
+            0%, 100% { opacity: 1; }
+            50%      { opacity: 0.55; }
+        }
+
+        /* =========================================================
+           Scoreboard date buckets
+           ========================================================= */
+        .score-bucket + .score-bucket { margin-top: 1.3rem; }
+        .bucket-head {
+            display: flex;
+            align-items: baseline;
+            gap: 0.7rem;
+            padding: 0 0 0.65rem;
+            margin-bottom: 0.6rem;
+            border-bottom: 1px solid var(--rule);
+        }
+        .bucket-title {
+            font-family: var(--display);
+            font-weight: 800;
+            font-size: 0.92rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--ink);
+        }
+        .bucket-title.live { color: var(--red); display: inline-flex; align-items: center; gap: 0.4rem; }
+        .bucket-title.live::before {
+            content: "";
+            width: 0.42rem; height: 0.42rem;
+            background: var(--red);
+            border-radius: 50%;
+            animation: livepulse 2s ease-out infinite;
+        }
+        .bucket-count {
+            font-family: var(--mono);
+            font-size: 0.7rem;
+            letter-spacing: 0.08em;
+            color: var(--ink-3);
+            font-weight: 600;
+        }
+
+        /* =========================================================
+           BREAKING tag (replaces TOP STORY when stories are fresh)
+           ========================================================= */
+        .top-tag.breaking {
+            background: linear-gradient(90deg, var(--red) 0%, #ff5a52 100%);
+            box-shadow: 0 0 0 1px rgba(220, 38, 38, 0.4), 0 4px 14px -6px rgba(220, 38, 38, 0.45);
+            animation: breakShimmer 3s ease-in-out infinite;
+        }
+        @keyframes breakShimmer {
+            0%, 100% { box-shadow: 0 0 0 1px rgba(220, 38, 38, 0.4), 0 4px 14px -6px rgba(220, 38, 38, 0.45); }
+            50%      { box-shadow: 0 0 0 1px rgba(220, 38, 38, 0.65), 0 6px 22px -8px rgba(220, 38, 38, 0.6); }
+        }
+
+        /* =========================================================
+           Reduced-motion safety
+           ========================================================= */
+        @media (prefers-reduced-motion: reduce) {
+            .ticker-strip { animation: none !important; transform: translateX(0) !important; }
+            .live-dot, .meta-cell.meta-live::before, .ticker-label::before,
+            .pulse-stat.live::before, .top-tag::before, .score-status.live::before,
+            .bucket-title.live::before, .countdown.imminent {
+                animation: none !important;
+            }
+            .top-tag.breaking { animation: none !important; }
+            .reveal { opacity: 1 !important; transform: none !important; animation: none !important; }
+        }
 
         /* =========================================================
            SCORE TICKER — black with red LIVE tag
@@ -1584,7 +1670,7 @@
         <!-- LEAD STORY -->
         <section class="lead reveal reveal-1" aria-label="Lead headlines">
             <div class="lead-main">
-                <div class="top-tag">Top Story</div>
+                <div class="top-tag" id="topTag">Top Story</div>
                 <h2 class="lead-headline" id="leadHeadline">Loading the latest from around the league.</h2>
                 <p class="lead-body" id="leadBody">Stories from across the league are loading — wins, streaks, breakthroughs and the slow grind of a brand-new season.</p>
                 <div class="lead-meta">
@@ -1602,7 +1688,7 @@
                 <h2 class="sec-title">Around the <span class="accent">League</span></h2>
                 <div class="sec-meta"><span class="dot"></span><span id="scoresMeta">Updated continuously</span></div>
             </div>
-            <div class="scoreboard" id="scoresGrid">
+            <div id="scoresGrid">
                 <div class="placeholder">Loading the latest from the diamond…</div>
             </div>
         </section>
@@ -1612,7 +1698,7 @@
             <div class="sec-head">
                 <span class="sec-kicker">The Race</span>
                 <h2 class="sec-title">Standings <span class="accent">Snapshot</span></h2>
-                <div class="sec-meta"><span class="dot"></span><span>Top of the table</span></div>
+                <div class="sec-meta"><span class="dot"></span><span id="standingsMeta">Top of the table</span></div>
             </div>
             <div class="standings-strip" id="standingsStrip">
                 <div class="placeholder">Pulling division leaders…</div>
@@ -1624,7 +1710,7 @@
             <div class="sec-head">
                 <span class="sec-kicker">The Index</span>
                 <h2 class="sec-title">All <span class="accent">Divisions</span></h2>
-                <div class="sec-meta"><span class="dot"></span><span>Tap a tier to dive in</span></div>
+                <div class="sec-meta"><span class="dot"></span><span id="divisionsMeta">Tap a tier to dive in</span></div>
             </div>
             <div class="division-grid" id="divisionGrid">
                 <div class="placeholder">Loading divisions…</div>
@@ -1772,6 +1858,36 @@
             return Math.abs(now - d) <= 7 * 24 * 60 * 60 * 1000;
         };
 
+        /* ---------- Countdown to first pitch ---------- */
+        const formatCountdown = (iso) => {
+            if (!iso) return null;
+            const t = new Date(iso).getTime();
+            if (Number.isNaN(t)) return null;
+            const diff = t - Date.now();
+            if (diff < 0) return null;
+            const hours = Math.floor(diff / 3600000);
+            const mins  = Math.floor((diff % 3600000) / 60000);
+            if (hours >= 24) {
+                const days = Math.floor(hours / 24);
+                return { text: `FIRST PITCH IN ${days}D`, imminent: false };
+            }
+            if (hours >= 1) return { text: `FIRST PITCH IN ${hours}H ${mins}M`, imminent: hours < 2 };
+            if (mins > 0)   return { text: `FIRST PITCH IN ${mins}M`, imminent: true };
+            return { text: `FIRST PITCH ANY MINUTE`, imminent: true };
+        };
+
+        /* ---------- Date bucket helpers ---------- */
+        const bucketFor = (g) => {
+            if (gameLiveState(g) === 'live') return 'live';
+            if (g.isCompleted && g.score) {
+                if (isToday(g.date)) return 'today';
+                return 'recent';
+            }
+            // Not completed
+            if (isToday(g.date)) return 'today';
+            return 'upcoming';
+        };
+
         /* ---------- Ticker ---------- */
         const renderTicker = () => {
             const strip = document.getElementById('tickerStrip');
@@ -1817,6 +1933,21 @@
             const stories = effectiveStories();
             if (!stories.length) return;
             const lead = stories[0];
+
+            // BREAKING tag if AI stories regenerated in last 6h (skip on synthetic — synthetic is always "current")
+            const topTag = document.getElementById('topTag');
+            if (topTag) {
+                const ts = state.storiesLastUpdated ? new Date(state.storiesLastUpdated).getTime() : 0;
+                const isFresh = ts && (Date.now() - ts) < (6 * 60 * 60 * 1000);
+                if (isFresh && !state.usingSynthetic) {
+                    topTag.textContent = 'Breaking';
+                    topTag.classList.add('breaking');
+                } else {
+                    topTag.textContent = 'Top Story';
+                    topTag.classList.remove('breaking');
+                }
+            }
+
             document.getElementById('leadHeadline').innerHTML = stylizeHeadline(lead.headline);
             document.getElementById('leadBody').textContent = lead.body || '';
             document.getElementById('leadDivision').textContent = lead.division || 'YSBA';
@@ -1847,77 +1978,124 @@
             return safe;
         };
 
-        /* ---------- Scoreboard ---------- */
+        /* ---------- Scoreboard (bucketed by date) ---------- */
+        const renderScoreCard = (g, i) => {
+            const isFinal = g.isCompleted && g.score;
+            const divLabel = `${g.division || ''} ${tierKeyToLabel(g.tier)}`.trim();
+            const type = (g.tier || '').startsWith('rep') ? 'rep' : (g.tier || '').startsWith('select') ? 'select' : 'interlock';
+            const tierPath =
+                g.tier === 'rep-tier-1' ? 'tier-1' :
+                g.tier === 'rep-tier-2' ? 'tier-2' :
+                g.tier === 'rep-tier-3' ? 'tier-3' : 'all-tiers';
+            const url = `/${g.division}-${type}/${tierPath}`;
+
+            const homeWin = isFinal && g.score.home > g.score.away;
+            const awayWin = isFinal && g.score.away > g.score.home;
+            const tie     = isFinal && g.score.home === g.score.away;
+            const awayClass = isFinal ? (awayWin ? 'winner' : (tie ? '' : 'loser')) : 'upcoming';
+            const homeClass = isFinal ? (homeWin ? 'winner' : (tie ? '' : 'loser')) : 'upcoming';
+            const where = (g.location || '').split('(')[0].trim().replace(/\s+/g, ' ').slice(0, 38) || 'TBD';
+
+            const liveState = gameLiveState(g);
+            const cardLive = liveState === 'live' ? 'is-live' : '';
+
+            let statusHtml;
+            if (liveState === 'live') {
+                statusHtml = `<span class="score-status live">Live</span>`;
+            } else if (liveState === 'just-in') {
+                statusHtml = `<span class="score-status just-in">Just In</span>`;
+            } else if (isFinal) {
+                statusHtml = `<span class="score-status final">Final · ${esc(g.dateText || '')}</span>`;
+            } else {
+                statusHtml = `<span class="score-status">${esc((g.dateText || 'Upcoming').toUpperCase())}</span>`;
+            }
+
+            // Countdown for upcoming games (replaces "when" text)
+            let bottomLeft = isFinal ? (g.dateText || '') : (g.time || '');
+            if (!isFinal && liveState !== 'live') {
+                const cd = formatCountdown(g.date);
+                if (cd) {
+                    bottomLeft = `<span class="countdown ${cd.imminent ? 'imminent' : ''}">${esc(cd.text)}</span>`;
+                }
+            }
+
+            return `
+                <a class="score-card ${isFinal ? '' : 'upcoming'} ${cardLive} reveal reveal-${(i % 5) + 1}" href="${url}">
+                    <div class="score-top">
+                        <span class="division-tag">${esc(divLabel)}</span>
+                        ${statusHtml}
+                    </div>
+                    <div class="matchup">
+                        <div class="team-row ${awayClass}">
+                            <span class="winner-arrow"></span>
+                            <span class="pos-marker"></span>
+                            <span class="team-name">${esc(g.awayTeam || 'Away')}</span>
+                            <span class="runs">${isFinal ? g.score.away : '—'}</span>
+                        </div>
+                        <div class="team-row ${homeClass}">
+                            <span class="winner-arrow"></span>
+                            <span class="pos-marker"></span>
+                            <span class="team-name">${esc(g.homeTeam || 'Home')}</span>
+                            <span class="runs">${isFinal ? g.score.home : '—'}</span>
+                        </div>
+                    </div>
+                    <div class="score-bottom">
+                        <span class="when">${bottomLeft.startsWith('<') ? bottomLeft : esc(bottomLeft)}</span>
+                        <span class="where">${esc(where)}</span>
+                    </div>
+                </a>
+            `;
+        };
+
         const renderScores = () => {
-            const grid = document.getElementById('scoresGrid');
+            const container = document.getElementById('scoresGrid');
             const meta = document.getElementById('scoresMeta');
-            const games = (state.recent.games || []).slice(0, 12);
-            if (!games.length) {
-                grid.innerHTML = `<div class="placeholder">No games on the wire yet — check back after first pitch.</div>`;
+            const allGames = (state.recent.games || []).slice(0, 16);
+
+            if (!allGames.length) {
+                container.innerHTML = `<div class="placeholder">No games on the wire just yet — the league is quiet. We'll light this up the second the next pitch is logged.</div>`;
+                if (meta) meta.textContent = 'No games on the wire';
                 return;
             }
-            meta.textContent = state.recent.lastUpdated
-                ? `Updated ${timeAgo(state.recent.lastUpdated)}`
-                : 'Updated continuously';
 
-            grid.innerHTML = games.map((g, i) => {
-                const isFinal = g.isCompleted && g.score;
-                const divLabel = `${g.division || ''} ${tierKeyToLabel(g.tier)}`.trim();
-                const type = (g.tier || '').startsWith('rep') ? 'rep' : (g.tier || '').startsWith('select') ? 'select' : 'interlock';
-                const tierPath =
-                    g.tier === 'rep-tier-1' ? 'tier-1' :
-                    g.tier === 'rep-tier-2' ? 'tier-2' :
-                    g.tier === 'rep-tier-3' ? 'tier-3' : 'all-tiers';
-                const url = `/${g.division}-${type}/${tierPath}`;
+            // Group by bucket while preserving original chronological order from feed
+            const buckets = { live: [], today: [], recent: [], upcoming: [] };
+            allGames.forEach(g => { buckets[bucketFor(g)].push(g); });
 
-                const homeWin = isFinal && g.score.home > g.score.away;
-                const awayWin = isFinal && g.score.away > g.score.home;
-                const tie     = isFinal && g.score.home === g.score.away;
-                const awayClass = isFinal ? (awayWin ? 'winner' : (tie ? '' : 'loser')) : 'upcoming';
-                const homeClass = isFinal ? (homeWin ? 'winner' : (tie ? '' : 'loser')) : 'upcoming';
-                const where = (g.location || '').split('(')[0].trim().replace(/\s+/g, ' ').slice(0, 38) || 'TBD';
+            const bucketDefs = [
+                { key: 'live',     label: 'Live Now',  cls: 'live' },
+                { key: 'today',    label: 'Today',     cls: '' },
+                { key: 'upcoming', label: 'Coming Up', cls: '' },
+                { key: 'recent',   label: 'Recent',    cls: '' },
+            ];
 
-                const liveState = gameLiveState(g);
-                const cardLive = liveState === 'live' ? 'is-live' : '';
-
-                let statusHtml;
-                if (liveState === 'live') {
-                    statusHtml = `<span class="score-status live">Live</span>`;
-                } else if (liveState === 'just-in') {
-                    statusHtml = `<span class="score-status just-in">Just In</span>`;
-                } else if (isFinal) {
-                    statusHtml = `<span class="score-status final">Final · ${esc(g.dateText || '')}</span>`;
-                } else {
-                    statusHtml = `<span class="score-status">${esc((g.dateText || 'Upcoming').toUpperCase())}</span>`;
-                }
-
-                return `
-                    <a class="score-card ${isFinal ? '' : 'upcoming'} ${cardLive} reveal reveal-${(i % 5) + 1}" href="${url}">
-                        <div class="score-top">
-                            <span class="division-tag">${esc(divLabel)}</span>
-                            ${statusHtml}
+            let html = '';
+            let i = 0;
+            for (const def of bucketDefs) {
+                const arr = buckets[def.key];
+                if (!arr.length) continue;
+                html += `
+                    <div class="score-bucket">
+                        <div class="bucket-head">
+                            <span class="bucket-title ${def.cls}">${def.label}</span>
+                            <span class="bucket-count">${arr.length} ${arr.length === 1 ? 'game' : 'games'}</span>
                         </div>
-                        <div class="matchup">
-                            <div class="team-row ${awayClass}">
-                                <span class="winner-arrow"></span>
-                                <span class="pos-marker"></span>
-                                <span class="team-name">${esc(g.awayTeam || 'Away')}</span>
-                                <span class="runs">${isFinal ? g.score.away : '—'}</span>
-                            </div>
-                            <div class="team-row ${homeClass}">
-                                <span class="winner-arrow"></span>
-                                <span class="pos-marker"></span>
-                                <span class="team-name">${esc(g.homeTeam || 'Home')}</span>
-                                <span class="runs">${isFinal ? g.score.home : '—'}</span>
-                            </div>
+                        <div class="scoreboard">
+                            ${arr.map(g => renderScoreCard(g, i++)).join('')}
                         </div>
-                        <div class="score-bottom">
-                            <span class="when">${esc(isFinal ? (g.dateText || '') : (g.time || ''))}</span>
-                            <span class="where">${esc(where)}</span>
-                        </div>
-                    </a>
+                    </div>
                 `;
-            }).join('');
+            }
+            container.innerHTML = html;
+
+            if (meta) {
+                const live = buckets.live.length, today = buckets.today.length;
+                const parts = [];
+                if (live) parts.push(`${live} live`);
+                if (today) parts.push(`${today} today`);
+                if (!parts.length) parts.push(`${allGames.length} on the wire`);
+                meta.textContent = parts.join(' · ').toUpperCase();
+            }
         };
 
         /* ---------- Standings ---------- */
@@ -1937,9 +2115,15 @@
             picks.sort((a, b) => b.totalGames - a.totalGames);
             const top3 = picks.slice(0, 3);
 
+            const meta = document.getElementById('standingsMeta');
             if (!top3.length) {
                 strip.innerHTML = `<div class="placeholder">Season is just getting underway — standings unfurl with every first pitch.</div>`;
+                if (meta) meta.textContent = 'Awaiting first pitch';
                 return;
+            }
+            if (meta) {
+                const activeDivisions = picks.length;
+                meta.textContent = `${activeDivisions} ${activeDivisions === 1 ? 'division' : 'divisions'} live`;
             }
 
             strip.innerHTML = top3.map((p, idx) => {
@@ -2005,6 +2189,13 @@
                 if (orderTypes[ta] !== orderTypes[tb]) return (orderTypes[ta] ?? 9) - (orderTypes[tb] ?? 9);
                 return ageNum(ka) - ageNum(kb);
             });
+
+            const divMeta = document.getElementById('divisionsMeta');
+            if (divMeta) {
+                const totalTeamsAll = sorted.reduce((acc, [, d]) =>
+                    acc + Object.values(d.tiers || {}).reduce((s, t) => s + (t.teams || 0), 0), 0);
+                divMeta.textContent = `${sorted.length} divisions · ${totalTeamsAll} teams`;
+            }
 
             grid.innerHTML = sorted.map((entry, i) => {
                 const [key, division] = entry;
