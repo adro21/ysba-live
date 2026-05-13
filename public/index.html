@@ -1009,6 +1009,216 @@
         }
 
         /* =========================================================
+           Sub-section heads (Schedule + Latest Scores)
+           ========================================================= */
+        .sub-sec + .sub-sec { margin-top: 1.6rem; }
+        .sub-sec-head {
+            display: flex;
+            align-items: baseline;
+            gap: 0.85rem;
+            padding: 0 0 0.6rem;
+            margin-bottom: 0.75rem;
+            border-bottom: 1px solid var(--rule);
+        }
+        .sub-sec-title {
+            font-family: var(--display);
+            font-weight: 800;
+            font-size: 0.95rem;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: var(--ink);
+        }
+        .sub-sec-count {
+            font-family: var(--mono);
+            font-size: 0.7rem;
+            letter-spacing: 0.08em;
+            color: var(--ink-3);
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.55rem;
+        }
+        .sub-sec-count .live-tag {
+            color: var(--green-bright);
+            font-weight: 800;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            letter-spacing: 0.12em;
+        }
+        .sub-sec-count .live-tag::before {
+            content: "";
+            width: 0.42rem; height: 0.42rem;
+            background: var(--green-bright);
+            border-radius: 50%;
+            animation: schedPulse 1.4s ease-out infinite;
+            flex-shrink: 0;
+        }
+        .sub-sec-count .sep {
+            color: var(--rule-2);
+        }
+
+        /* =========================================================
+           SCHEDULE STRIP — compact rows for live + upcoming games
+           ========================================================= */
+        .schedule-strip {
+            background: var(--surface);
+            border: 1px solid var(--rule);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        .schedule-row {
+            display: grid;
+            grid-template-columns: 0.9rem 4.1rem auto 1fr auto auto 0.7rem;
+            align-items: center;
+            gap: 0.95rem;
+            padding: 0.78rem 1.05rem;
+            border-bottom: 1px solid var(--rule);
+            text-decoration: none;
+            color: inherit;
+            transition: background 150ms ease;
+            position: relative;
+        }
+        .schedule-row:last-child { border-bottom: none; }
+        .schedule-row:hover { background: var(--surface-2); }
+        .schedule-row::before {
+            content: "";
+            position: absolute;
+            left: 0; top: 0; bottom: 0;
+            width: 2px;
+            background: transparent;
+            transition: background 150ms ease;
+        }
+        .schedule-row.is-live::before { background: var(--green-bright); }
+        .schedule-row.is-today:not(.is-live)::before { background: var(--amber); }
+
+        .schedule-row .sr-dot {
+            width: 7px; height: 7px;
+            border-radius: 50%;
+            background: var(--ink-4);
+            justify-self: center;
+            position: relative;
+        }
+        .schedule-row.is-live .sr-dot {
+            background: var(--green-bright);
+            box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.55);
+            animation: schedPulse 1.4s ease-out infinite;
+        }
+        .schedule-row.is-today:not(.is-live) .sr-dot {
+            background: var(--amber);
+        }
+        @keyframes schedPulse {
+            0%   { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.55); }
+            70%  { box-shadow: 0 0 0 6px rgba(16, 185, 129, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+        }
+
+        .schedule-row .sr-status {
+            font-family: var(--mono);
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: var(--ink-3);
+            font-variant-numeric: tabular-nums;
+            white-space: nowrap;
+        }
+        .schedule-row .sr-status.live { color: var(--green-bright); font-weight: 800; }
+        .schedule-row .sr-status.today { color: #92400e; }
+
+        .schedule-row .sr-division {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-family: var(--display);
+            font-weight: 700;
+            font-size: 0.78rem;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--ink-2);
+            white-space: nowrap;
+        }
+        .schedule-row .sr-division::before {
+            content: "";
+            width: 0.22rem;
+            height: 0.95rem;
+            background: var(--green-bright);
+            border-radius: 1px;
+            flex-shrink: 0;
+        }
+
+        .schedule-row .sr-matchup {
+            font-family: var(--display);
+            font-size: 1.02rem;
+            font-weight: 600;
+            color: var(--ink);
+            min-width: 0;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            letter-spacing: 0.005em;
+        }
+        .schedule-row .sr-matchup .vs {
+            color: var(--ink-4);
+            font-weight: 400;
+            font-style: italic;
+            margin: 0 0.5rem;
+            font-size: 0.92rem;
+        }
+
+        .schedule-row .sr-time {
+            font-family: var(--mono);
+            font-weight: 700;
+            font-size: 0.82rem;
+            color: var(--ink-2);
+            font-variant-numeric: tabular-nums;
+            white-space: nowrap;
+            letter-spacing: 0.01em;
+        }
+
+        .schedule-row .sr-venue {
+            font-family: var(--display);
+            font-size: 0.8rem;
+            color: var(--ink-3);
+            max-width: 11rem;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .schedule-row .sr-arrow {
+            color: var(--ink-4);
+            font-family: var(--mono);
+            font-size: 0.95rem;
+            opacity: 0;
+            transform: translateX(-3px);
+            transition: opacity 160ms ease, transform 160ms ease, color 160ms ease;
+            justify-self: center;
+        }
+        .schedule-row:hover .sr-arrow {
+            opacity: 1;
+            transform: translateX(0);
+            color: var(--green);
+        }
+
+        @media (max-width: 720px) {
+            .schedule-row {
+                grid-template-columns: 0.9rem 1fr auto;
+                grid-template-rows: auto auto;
+                gap: 0.35rem 0.7rem;
+                padding: 0.7rem 0.9rem 0.75rem;
+            }
+            .schedule-row .sr-dot { grid-column: 1; grid-row: 1; }
+            .schedule-row .sr-status { grid-column: 2; grid-row: 1; }
+            .schedule-row .sr-division { grid-column: 3; grid-row: 1; font-size: 0.72rem; letter-spacing: 0.06em; }
+            .schedule-row .sr-division::before { height: 0.8rem; }
+            .schedule-row .sr-matchup { grid-column: 1 / 3; grid-row: 2; font-size: 0.95rem; padding-left: 1.3rem; margin-top: 0.05rem; }
+            .schedule-row .sr-time { grid-column: 3; grid-row: 2; }
+            .schedule-row .sr-venue { display: none; }
+            .schedule-row .sr-arrow { display: none; }
+        }
+
+        /* =========================================================
            STANDINGS SNAPSHOT
            ========================================================= */
         .standings-strip {
@@ -1686,11 +1896,10 @@
         </section>
 
         <!-- AROUND THE LEAGUE -->
-        <section aria-label="Recent scores">
+        <section aria-label="Around the league">
             <div class="sec-head">
-                <span class="sec-kicker">Box Score</span>
                 <h2 class="sec-title">Around the <span class="accent">League</span></h2>
-                <div class="sec-meta"><span class="dot"></span><span id="scoresMeta">Updated continuously</span></div>
+                <div class="sec-meta"><span class="dot"></span><span id="scoresMeta">Loading…</span></div>
             </div>
             <div id="scoresGrid">
                 <div class="placeholder">Loading the latest from the diamond…</div>
@@ -2062,51 +2271,63 @@
             return safe;
         };
 
-        /* ---------- Scoreboard (bucketed by date) ---------- */
-        const renderScoreCard = (g, i) => {
-            const isFinal = g.isCompleted && g.score;
-            const divLabel = `${g.division || ''} ${tierKeyToLabel(g.tier)}`.trim();
+        /* ---------- Game routing helpers ---------- */
+        const gameUrl = (g) => {
             const type = (g.tier || '').startsWith('rep') ? 'rep' : (g.tier || '').startsWith('select') ? 'select' : 'interlock';
             const tierPath =
                 g.tier === 'rep-tier-1' ? 'tier-1' :
                 g.tier === 'rep-tier-2' ? 'tier-2' :
                 g.tier === 'rep-tier-3' ? 'tier-3' : 'all-tiers';
-            const url = `/${g.division}-${type}/${tierPath}`;
+            return `/${g.division}-${type}/${tierPath}`;
+        };
+        const gameDivLabel = (g) => `${g.division || ''} ${tierKeyToLabel(g.tier)}`.trim();
 
-            const homeWin = isFinal && g.score.home > g.score.away;
-            const awayWin = isFinal && g.score.away > g.score.home;
-            const tie     = isFinal && g.score.home === g.score.away;
-            const awayClass = isFinal ? (awayWin ? 'winner' : (tie ? '' : 'loser')) : 'upcoming';
-            const homeClass = isFinal ? (homeWin ? 'winner' : (tie ? '' : 'loser')) : 'upcoming';
-            const where = (g.location || '').split('(')[0].trim().replace(/\s+/g, ' ').slice(0, 38) || 'TBD';
-
+        /* ---------- Schedule row (live + upcoming, no score area) ---------- */
+        const renderScheduleRow = (g, i) => {
             const liveState = gameLiveState(g);
-            const cardLive = liveState === 'live' ? 'is-live' : '';
+            const isLive = liveState === 'live';
+            const today = isToday(g);
 
-            let statusHtml;
-            if (liveState === 'live') {
-                statusHtml = `<span class="score-status live">Live</span>`;
-            } else if (liveState === 'just-in') {
-                statusHtml = `<span class="score-status just-in">Just In</span>`;
-            } else if (isFinal) {
-                statusHtml = `<span class="score-status final">Final · ${esc(g.dateText || '')}</span>`;
-            } else {
-                statusHtml = `<span class="score-status">${esc((g.dateText || 'Upcoming').toUpperCase())}</span>`;
-            }
+            let statusText, statusCls = '';
+            if (isLive)       { statusText = 'LIVE';  statusCls = 'live'; }
+            else if (today)   { statusText = 'TODAY'; statusCls = 'today'; }
+            else              { statusText = (g.dateText || 'TBD').toUpperCase(); }
 
-            // Countdown for upcoming games (replaces "when" text)
-            let bottomLeft = isFinal ? (g.dateText || '') : (g.time || '');
-            if (!isFinal && liveState !== 'live') {
-                const cd = formatCountdown(g);
-                if (cd) {
-                    bottomLeft = `<span class="countdown ${cd.imminent ? 'imminent' : ''}">${esc(cd.text)}</span>`;
-                }
-            }
+            const where  = (g.location || '').split('(')[0].trim().replace(/\s+/g, ' ').slice(0, 30) || '';
+            const matchup = `${esc(g.awayTeam || 'Away')}<span class="vs">@</span>${esc(g.homeTeam || 'Home')}`;
+            const rowCls = `${isLive ? 'is-live' : ''} ${today && !isLive ? 'is-today' : ''}`.trim();
 
             return `
-                <a class="score-card ${isFinal ? '' : 'upcoming'} ${cardLive} reveal reveal-${(i % 5) + 1}" href="${url}">
+                <a class="schedule-row ${rowCls} reveal reveal-${(i % 5) + 1}" href="${gameUrl(g)}">
+                    <span class="sr-dot" aria-hidden="true"></span>
+                    <span class="sr-status ${statusCls}">${esc(statusText)}</span>
+                    <span class="sr-division">${esc(gameDivLabel(g))}</span>
+                    <span class="sr-matchup">${matchup}</span>
+                    <span class="sr-time">${esc(g.time || '')}</span>
+                    <span class="sr-venue">${esc(where)}</span>
+                    <span class="sr-arrow" aria-hidden="true">→</span>
+                </a>
+            `;
+        };
+
+        /* ---------- Score card (finals only — game has a real score) ---------- */
+        const renderScoreCard = (g, i) => {
+            const homeWin = g.score.home > g.score.away;
+            const awayWin = g.score.away > g.score.home;
+            const tie     = g.score.home === g.score.away;
+            const awayClass = awayWin ? 'winner' : (tie ? '' : 'loser');
+            const homeClass = homeWin ? 'winner' : (tie ? '' : 'loser');
+            const where = (g.location || '').split('(')[0].trim().replace(/\s+/g, ' ').slice(0, 38) || '';
+
+            const justIn = gameLiveState(g) === 'just-in';
+            const statusHtml = justIn
+                ? `<span class="score-status just-in">Just In</span>`
+                : `<span class="score-status final">Final</span>`;
+
+            return `
+                <a class="score-card reveal reveal-${(i % 5) + 1}" href="${gameUrl(g)}">
                     <div class="score-top">
-                        <span class="division-tag">${esc(divLabel)}</span>
+                        <span class="division-tag">${esc(gameDivLabel(g))}</span>
                         ${statusHtml}
                     </div>
                     <div class="matchup">
@@ -2114,17 +2335,17 @@
                             <span class="winner-arrow"></span>
                             <span class="pos-marker"></span>
                             <span class="team-name">${esc(g.awayTeam || 'Away')}</span>
-                            <span class="runs">${isFinal ? g.score.away : '—'}</span>
+                            <span class="runs">${g.score.away}</span>
                         </div>
                         <div class="team-row ${homeClass}">
                             <span class="winner-arrow"></span>
                             <span class="pos-marker"></span>
                             <span class="team-name">${esc(g.homeTeam || 'Home')}</span>
-                            <span class="runs">${isFinal ? g.score.home : '—'}</span>
+                            <span class="runs">${g.score.home}</span>
                         </div>
                     </div>
                     <div class="score-bottom">
-                        <span class="when">${bottomLeft.startsWith('<') ? bottomLeft : esc(bottomLeft)}</span>
+                        <span class="when">${esc(g.dateText || '')}</span>
                         <span class="where">${esc(where)}</span>
                     </div>
                 </a>
@@ -2134,51 +2355,84 @@
         const renderScores = () => {
             const container = document.getElementById('scoresGrid');
             const meta = document.getElementById('scoresMeta');
-            const allGames = (state.recent.games || []).slice(0, 16);
+            const all = state.recent.games || [];
 
-            if (!allGames.length) {
+            if (!all.length) {
                 container.innerHTML = `<div class="placeholder">No games on the wire just yet — the league is quiet. We'll light this up the second the next pitch is logged.</div>`;
-                if (meta) meta.textContent = 'No games on the wire';
+                if (meta) meta.textContent = 'QUIET ON THE WIRE';
                 return;
             }
 
-            // Group by bucket while preserving original chronological order from feed
-            const buckets = { live: [], today: [], recent: [], upcoming: [] };
-            allGames.forEach(g => { buckets[bucketFor(g)].push(g); });
+            const now = Date.now();
+            const horizonMs = 7 * 24 * 60 * 60 * 1000;
+            const scheduled = [];
+            const finals = [];
 
-            const bucketDefs = [
-                { key: 'live',     label: 'Live Now',  cls: 'live' },
-                { key: 'today',    label: 'Today',     cls: '' },
-                { key: 'upcoming', label: 'Coming Up', cls: '' },
-                { key: 'recent',   label: 'Recent',    cls: '' },
-            ];
+            for (const g of all) {
+                if (g.isCompleted && g.score) {
+                    finals.push(g);
+                    continue;
+                }
+                const ms = gameStartMs(g);
+                if (ms == null) continue;
+                const live = gameLiveState(g) === 'live';
+                if (live || (ms - now > 0 && ms - now <= horizonMs)) {
+                    scheduled.push(g);
+                }
+            }
+
+            scheduled.sort((a, b) => {
+                const la = gameLiveState(a) === 'live' ? 0 : 1;
+                const lb = gameLiveState(b) === 'live' ? 0 : 1;
+                if (la !== lb) return la - lb;
+                return (gameStartMs(a) || 0) - (gameStartMs(b) || 0);
+            });
+
+            const scheduledShown = scheduled.slice(0, 8);
+            const finalsShown    = finals.slice(0, 12);
+            const liveCount = scheduled.filter(g => gameLiveState(g) === 'live').length;
 
             let html = '';
             let i = 0;
-            for (const def of bucketDefs) {
-                const arr = buckets[def.key];
-                if (!arr.length) continue;
+
+            if (scheduledShown.length) {
+                const total = scheduled.length;
+                const countParts = [`${total} ${total === 1 ? 'game' : 'games'}`];
+                if (liveCount) countParts.push(`<span class="live-tag">${liveCount} live</span>`);
                 html += `
-                    <div class="score-bucket">
-                        <div class="bucket-head">
-                            <span class="bucket-title ${def.cls}">${def.label}</span>
-                            <span class="bucket-count">${arr.length} ${arr.length === 1 ? 'game' : 'games'}</span>
+                    <div class="sub-sec sched reveal reveal-1">
+                        <div class="sub-sec-head">
+                            <span class="sub-sec-title">On the Schedule</span>
+                            <span class="sub-sec-count">${countParts.join(' <span class="sep">·</span> ')}</span>
                         </div>
-                        <div class="scoreboard">
-                            ${arr.map(g => renderScoreCard(g, i++)).join('')}
+                        <div class="schedule-strip">
+                            ${scheduledShown.map(g => renderScheduleRow(g, i++)).join('')}
                         </div>
                     </div>
                 `;
             }
-            container.innerHTML = html;
+
+            if (finalsShown.length) {
+                html += `
+                    <div class="sub-sec finals reveal reveal-2">
+                        <div class="sub-sec-head">
+                            <span class="sub-sec-title">Latest Scores</span>
+                            <span class="sub-sec-count">${finalsShown.length} ${finalsShown.length === 1 ? 'game' : 'games'}</span>
+                        </div>
+                        <div class="scoreboard">
+                            ${finalsShown.map(g => renderScoreCard(g, i++)).join('')}
+                        </div>
+                    </div>
+                `;
+            }
+
+            container.innerHTML = html || `<div class="placeholder">No games on the wire just yet — the league is quiet.</div>`;
 
             if (meta) {
-                const live = buckets.live.length, today = buckets.today.length;
                 const parts = [];
-                if (live) parts.push(`${live} live`);
-                if (today) parts.push(`${today} today`);
-                if (!parts.length) parts.push(`${allGames.length} on the wire`);
-                meta.textContent = parts.join(' · ').toUpperCase();
+                if (liveCount) parts.push(`${liveCount} LIVE`);
+                if (finalsShown.length) parts.push(`${finalsShown.length} FINAL`);
+                meta.textContent = parts.length ? parts.join(' · ') : 'QUIET ON THE WIRE';
             }
         };
 
