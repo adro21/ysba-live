@@ -21,6 +21,42 @@
       },
       {
         "position": 2,
+        "team": "Markham Mariners 12U AA",
+        "teamCode": "617879",
+        "record": {
+          "gamesPlayed": 1,
+          "wins": 1,
+          "losses": 0,
+          "ties": 0,
+          "winPercentage": "1.000"
+        },
+        "stats": {
+          "points": 2,
+          "runsFor": 12,
+          "runsAgainst": 10,
+          "runDifferential": 2
+        }
+      },
+      {
+        "position": 3,
+        "team": "Newmarket Hawks 12U AA",
+        "teamCode": "617907",
+        "record": {
+          "gamesPlayed": 1,
+          "wins": 0,
+          "losses": 1,
+          "ties": 0,
+          "winPercentage": "0.000"
+        },
+        "stats": {
+          "points": 0,
+          "runsFor": 10,
+          "runsAgainst": 12,
+          "runDifferential": -2
+        }
+      },
+      {
+        "position": 4,
         "team": "Richmond Hill Phoenix 12U AA",
         "teamCode": "617852",
         "record": {
@@ -38,7 +74,7 @@
         }
       },
       {
-        "position": 3,
+        "position": 5,
         "team": "Aurora-King Jays 12U AA",
         "teamCode": "617973",
         "record": {
@@ -56,7 +92,7 @@
         }
       },
       {
-        "position": 4,
+        "position": 6,
         "team": "Bradford Tigers 12U AA",
         "teamCode": "617946",
         "record": {
@@ -74,45 +110,9 @@
         }
       },
       {
-        "position": 5,
-        "team": "Markham Mariners 12U AA",
-        "teamCode": "617879",
-        "record": {
-          "gamesPlayed": 0,
-          "wins": 0,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": ".000"
-        },
-        "stats": {
-          "points": 0,
-          "runsFor": 0,
-          "runsAgainst": 0,
-          "runDifferential": 0
-        }
-      },
-      {
-        "position": 6,
+        "position": 7,
         "team": "Muskoka Hornets 12U AA",
         "teamCode": "628934",
-        "record": {
-          "gamesPlayed": 0,
-          "wins": 0,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": ".000"
-        },
-        "stats": {
-          "points": 0,
-          "runsFor": 0,
-          "runsAgainst": 0,
-          "runDifferential": 0
-        }
-      },
-      {
-        "position": 7,
-        "team": "Newmarket Hawks 12U AA",
-        "teamCode": "617907",
         "record": {
           "gamesPlayed": 0,
           "wins": 0,
@@ -164,7 +164,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-05-13T11:40:40.357Z",
+    "lastUpdated": "2026-05-13T14:16:26.918Z",
     "totalTeams": 9
   },
   "schedule": {
@@ -193,7 +193,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-13T11:40:44.531Z"
+        "lastUpdated": "2026-05-13T14:16:31.127Z"
       },
       "612784": {
         "teamCode": "612784",
@@ -202,7 +202,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-13T11:40:44.532Z"
+        "lastUpdated": "2026-05-13T14:16:31.127Z"
       },
       "617177": {
         "teamCode": "617177",
@@ -211,7 +211,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-13T11:40:44.532Z"
+        "lastUpdated": "2026-05-13T14:16:31.127Z"
       },
       "617178": {
         "teamCode": "617178",
@@ -220,7 +220,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-13T11:40:44.532Z"
+        "lastUpdated": "2026-05-13T14:16:31.127Z"
       },
       "617204": {
         "teamCode": "617204",
@@ -229,7 +229,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-13T11:40:44.532Z"
+        "lastUpdated": "2026-05-13T14:16:31.127Z"
       },
       "617852": {
         "teamCode": "617852",
@@ -255,16 +255,33 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-13T11:40:44.532Z"
+        "lastUpdated": "2026-05-13T14:16:31.127Z"
       },
       "617879": {
         "teamCode": "617879",
         "totalGames": 15,
-        "playedGames": 0,
+        "playedGames": 1,
         "upcomingGames": 0,
-        "recentGames": [],
+        "recentGames": [
+          {
+            "date": null,
+            "dateText": "Tue, May 12",
+            "time": "6:00 PM",
+            "homeTeam": "Newmarket Hawks 12U AA",
+            "homeTeamCode": "617907",
+            "awayTeam": "Markham Mariners 12U AA",
+            "awayTeamCode": "617879",
+            "location": "Fairgrounds Park Diamond # 1",
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 12,
+              "scoreText": "12-10"
+            }
+          }
+        ],
         "nextGames": [],
-        "lastUpdated": "2026-05-13T11:40:44.532Z"
+        "lastUpdated": "2026-05-13T14:16:31.127Z"
       },
       "617880": {
         "teamCode": "617880",
@@ -273,7 +290,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-13T11:40:44.532Z"
+        "lastUpdated": "2026-05-13T14:16:31.127Z"
       },
       "617906": {
         "teamCode": "617906",
@@ -299,16 +316,33 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-13T11:40:44.532Z"
+        "lastUpdated": "2026-05-13T14:16:31.127Z"
       },
       "617907": {
         "teamCode": "617907",
         "totalGames": 16,
-        "playedGames": 0,
+        "playedGames": 1,
         "upcomingGames": 0,
-        "recentGames": [],
+        "recentGames": [
+          {
+            "date": null,
+            "dateText": "Tue, May 12",
+            "time": "6:00 PM",
+            "homeTeam": "Newmarket Hawks 12U AA",
+            "homeTeamCode": "617907",
+            "awayTeam": "Markham Mariners 12U AA",
+            "awayTeamCode": "617879",
+            "location": "Fairgrounds Park Diamond # 1",
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 12,
+              "scoreText": "12-10"
+            }
+          }
+        ],
         "nextGames": [],
-        "lastUpdated": "2026-05-13T11:40:44.532Z"
+        "lastUpdated": "2026-05-13T14:16:31.127Z"
       },
       "617946": {
         "teamCode": "617946",
@@ -317,7 +351,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-13T11:40:44.532Z"
+        "lastUpdated": "2026-05-13T14:16:31.127Z"
       },
       "617973": {
         "teamCode": "617973",
@@ -326,7 +360,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-13T11:40:44.532Z"
+        "lastUpdated": "2026-05-13T14:16:31.127Z"
       },
       "617974": {
         "teamCode": "617974",
@@ -352,7 +386,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-13T11:40:44.532Z"
+        "lastUpdated": "2026-05-13T14:16:31.127Z"
       },
       "617987": {
         "teamCode": "617987",
@@ -361,7 +395,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-13T11:40:44.532Z"
+        "lastUpdated": "2026-05-13T14:16:31.127Z"
       },
       "617988": {
         "teamCode": "617988",
@@ -370,7 +404,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-13T11:40:44.532Z"
+        "lastUpdated": "2026-05-13T14:16:31.127Z"
       },
       "618007": {
         "teamCode": "618007",
@@ -379,7 +413,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-13T11:40:44.532Z"
+        "lastUpdated": "2026-05-13T14:16:31.127Z"
       },
       "618021": {
         "teamCode": "618021",
@@ -388,7 +422,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-13T11:40:44.532Z"
+        "lastUpdated": "2026-05-13T14:16:31.127Z"
       },
       "618022": {
         "teamCode": "618022",
@@ -397,7 +431,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-13T11:40:44.532Z"
+        "lastUpdated": "2026-05-13T14:16:31.127Z"
       },
       "618044": {
         "teamCode": "618044",
@@ -406,7 +440,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-13T11:40:44.532Z"
+        "lastUpdated": "2026-05-13T14:16:31.127Z"
       },
       "618059": {
         "teamCode": "618059",
@@ -415,7 +449,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-13T11:40:44.532Z"
+        "lastUpdated": "2026-05-13T14:16:31.127Z"
       },
       "618068": {
         "teamCode": "618068",
@@ -424,7 +458,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-13T11:40:44.532Z"
+        "lastUpdated": "2026-05-13T14:16:31.127Z"
       },
       "618383": {
         "teamCode": "618383",
@@ -433,7 +467,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-13T11:40:44.532Z"
+        "lastUpdated": "2026-05-13T14:16:31.127Z"
       },
       "618395": {
         "teamCode": "618395",
@@ -442,7 +476,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-13T11:40:44.532Z"
+        "lastUpdated": "2026-05-13T14:16:31.127Z"
       },
       "618468": {
         "teamCode": "618468",
@@ -451,7 +485,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-13T11:40:44.532Z"
+        "lastUpdated": "2026-05-13T14:16:31.127Z"
       },
       "625727": {
         "teamCode": "625727",
@@ -460,7 +494,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-13T11:40:44.532Z"
+        "lastUpdated": "2026-05-13T14:16:31.127Z"
       },
       "628934": {
         "teamCode": "628934",
@@ -469,7 +503,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-13T11:40:44.532Z"
+        "lastUpdated": "2026-05-13T14:16:31.127Z"
       }
     },
     "allGames": [
@@ -510,8 +544,12 @@
         "awayTeam": "Markham Mariners 12U AA",
         "awayTeamCode": "617879",
         "location": "Fairgrounds Park Diamond # 1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 12,
+          "scoreText": "12-10"
+        }
       },
       {
         "date": null,
@@ -2902,6 +2940,22 @@
       {
         "date": null,
         "dateText": "Tue, May 12",
+        "time": "6:00 PM",
+        "homeTeam": "Newmarket Hawks 12U AA",
+        "homeTeamCode": "617907",
+        "awayTeam": "Markham Mariners 12U AA",
+        "awayTeamCode": "617879",
+        "location": "Fairgrounds Park Diamond # 1",
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 12,
+          "scoreText": "12-10"
+        }
+      },
+      {
+        "date": null,
+        "dateText": "Tue, May 12",
         "time": "6:30 PM",
         "homeTeam": "Barrie Baycats 12U AA",
         "homeTeamCode": "612783",
@@ -2917,14 +2971,14 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-05-13T11:40:44.532Z",
+    "lastUpdated": "2026-05-13T14:16:31.127Z",
     "totalGames": 200
   },
   "summary": {
     "totalTeams": 9,
     "totalGames": 200,
-    "completedGames": 2,
-    "upcomingGames": 198,
+    "completedGames": 3,
+    "upcomingGames": 197,
     "topTeam": {
       "team": "Barrie Baycats 12U AA",
       "teamCode": "612783",
@@ -2933,14 +2987,14 @@
       "winPercentage": "1.000"
     },
     "highestScoringGame": {
-      "homeTeam": "Barrie Baycats 12U AA",
-      "awayTeam": "Richmond Hill Phoenix 12U AA",
-      "homeScore": 20,
-      "awayScore": 2,
+      "homeTeam": "Newmarket Hawks 12U AA",
+      "awayTeam": "Markham Mariners 12U AA",
+      "homeScore": 10,
+      "awayScore": 12,
       "totalRuns": 22,
       "date": "Tue, May 12",
-      "location": "Lampman Lane Community Centre"
+      "location": "Fairgrounds Park Diamond # 1"
     },
-    "lastUpdated": "2026-05-13T11:44:07.607Z"
+    "lastUpdated": "2026-05-13T14:19:56.261Z"
   }
 }

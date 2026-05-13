@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-13T11:44:07.607Z",
-  "totalGames": 73,
+  "lastUpdated": "2026-05-13T14:19:56.261Z",
+  "totalGames": 74,
   "games": [
     {
       "date": "2026-05-12T22:30:00.000Z",
@@ -25,8 +25,12 @@
       "awayTeam": "Leaside",
       "awayTeamCode": "892648",
       "location": "Rolph Road PS — Diamond East — Toronto",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 18,
+        "away": 0,
+        "scoreText": "0-18"
+      },
       "division": "10U",
       "tier": "interlock-all-tiers"
     },
@@ -99,20 +103,6 @@
         "away": 4,
         "scoreText": "4-14"
       },
-      "division": "10U",
-      "tier": "interlock-all-tiers"
-    },
-    {
-      "date": "2026-05-05T22:00:00.000Z",
-      "dateText": "Tue, May 5",
-      "time": "6:00 PM",
-      "homeTeam": "Richmond Hill",
-      "homeTeamCode": "892636",
-      "awayTeam": "Leaside",
-      "awayTeamCode": "892648",
-      "location": "Rolph Road PS — Diamond East — Toronto",
-      "isCompleted": false,
-      "score": null,
       "division": "10U",
       "tier": "interlock-all-tiers"
     },
@@ -785,6 +775,24 @@
     {
       "date": null,
       "dateText": "Tue, May 12",
+      "time": "6:00 PM",
+      "homeTeam": "Newmarket Hawks 12U AA",
+      "homeTeamCode": "617907",
+      "awayTeam": "Markham Mariners 12U AA",
+      "awayTeamCode": "617879",
+      "location": "Fairgrounds Park Diamond # 1",
+      "isCompleted": true,
+      "score": {
+        "home": 10,
+        "away": 12,
+        "scoreText": "12-10"
+      },
+      "division": "12U",
+      "tier": "rep-tier-2"
+    },
+    {
+      "date": null,
+      "dateText": "Tue, May 12",
       "time": "6:30 PM",
       "homeTeam": "Barrie Baycats 12U AA",
       "homeTeamCode": "612783",
@@ -814,6 +822,24 @@
         "home": 10,
         "away": 5,
         "scoreText": "5-10"
+      },
+      "division": "12U",
+      "tier": "rep-tier-3"
+    },
+    {
+      "date": null,
+      "dateText": "Tue, May 12",
+      "time": "6:00 PM",
+      "homeTeam": "Newmarket Hawks 12U AA",
+      "homeTeamCode": "617907",
+      "awayTeam": "Markham Mariners 12U AA",
+      "awayTeamCode": "617879",
+      "location": "Fairgrounds Park Diamond # 1",
+      "isCompleted": true,
+      "score": {
+        "home": 10,
+        "away": 12,
+        "scoreText": "12-10"
       },
       "division": "12U",
       "tier": "rep-tier-3"
@@ -868,24 +894,6 @@
         "home": 6,
         "away": 12,
         "scoreText": "12-6"
-      },
-      "division": "13U",
-      "tier": "rep-tier-2"
-    },
-    {
-      "date": null,
-      "dateText": "Tue, May 12",
-      "time": "7:00 PM",
-      "homeTeam": "Richmond Hill Phoenix 13U AA",
-      "homeTeamCode": "617853",
-      "awayTeam": "Stouffville 13U AA",
-      "awayTeamCode": "617206",
-      "location": "David Hamilton #2",
-      "isCompleted": true,
-      "score": {
-        "home": 4,
-        "away": 5,
-        "scoreText": "5-4"
       },
       "division": "13U",
       "tier": "rep-tier-2"
