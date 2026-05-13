@@ -2,25 +2,43 @@
   "standings": {
     "teams": [
       {
+        "position": 2,
+        "team": "Stouffville 13U AA",
+        "teamCode": "617206",
+        "record": {
+          "gamesPlayed": 1,
+          "wins": 1,
+          "losses": 0,
+          "ties": 0,
+          "winPercentage": "1.000"
+        },
+        "stats": {
+          "points": 2,
+          "runsFor": 5,
+          "runsAgainst": 4,
+          "runDifferential": 1
+        }
+      },
+      {
         "position": 1,
         "team": "Aurora-King Jays 13U AA",
         "teamCode": "617975",
         "record": {
-          "gamesPlayed": 1,
-          "wins": 0,
+          "gamesPlayed": 2,
+          "wins": 1,
           "losses": 0,
           "ties": 1,
-          "winPercentage": "0.500"
+          "winPercentage": "0.750"
         },
         "stats": {
-          "points": 1,
-          "runsFor": 5,
-          "runsAgainst": 5,
-          "runDifferential": 0
+          "points": 3,
+          "runsFor": 17,
+          "runsAgainst": 11,
+          "runDifferential": 6
         }
       },
       {
-        "position": 2,
+        "position": 3,
         "team": "Thornhill Reds 13U AA",
         "teamCode": "617990",
         "record": {
@@ -38,7 +56,43 @@
         }
       },
       {
-        "position": 3,
+        "position": 4,
+        "team": "Richmond Hill Phoenix 13U AA",
+        "teamCode": "617853",
+        "record": {
+          "gamesPlayed": 1,
+          "wins": 0,
+          "losses": 1,
+          "ties": 0,
+          "winPercentage": "0.000"
+        },
+        "stats": {
+          "points": 0,
+          "runsFor": 4,
+          "runsAgainst": 5,
+          "runDifferential": -1
+        }
+      },
+      {
+        "position": 5,
+        "team": "Newmarket Hawks 13U AA",
+        "teamCode": "617909",
+        "record": {
+          "gamesPlayed": 1,
+          "wins": 0,
+          "losses": 1,
+          "ties": 0,
+          "winPercentage": "0.000"
+        },
+        "stats": {
+          "points": 0,
+          "runsFor": 6,
+          "runsAgainst": 12,
+          "runDifferential": -6
+        }
+      },
+      {
+        "position": 6,
         "team": "Barrie Baycats 13U AA",
         "teamCode": "612786",
         "record": {
@@ -56,7 +110,7 @@
         }
       },
       {
-        "position": 4,
+        "position": 7,
         "team": "Caledon Nationals 13U AA",
         "teamCode": "618466",
         "record": {
@@ -72,63 +126,9 @@
           "runsAgainst": 0,
           "runDifferential": 0
         }
-      },
-      {
-        "position": 5,
-        "team": "Newmarket Hawks 13U AA",
-        "teamCode": "617909",
-        "record": {
-          "gamesPlayed": 0,
-          "wins": 0,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": ".000"
-        },
-        "stats": {
-          "points": 0,
-          "runsFor": 0,
-          "runsAgainst": 0,
-          "runDifferential": 0
-        }
-      },
-      {
-        "position": 6,
-        "team": "Richmond Hill Phoenix 13U AA",
-        "teamCode": "617853",
-        "record": {
-          "gamesPlayed": 0,
-          "wins": 0,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": ".000"
-        },
-        "stats": {
-          "points": 0,
-          "runsFor": 0,
-          "runsAgainst": 0,
-          "runDifferential": 0
-        }
-      },
-      {
-        "position": 7,
-        "team": "Stouffville 13U AA",
-        "teamCode": "617206",
-        "record": {
-          "gamesPlayed": 0,
-          "wins": 0,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": ".000"
-        },
-        "stats": {
-          "points": 0,
-          "runsFor": 0,
-          "runsAgainst": 0,
-          "runDifferential": 0
-        }
       }
     ],
-    "lastUpdated": "2026-05-13T02:37:54.185Z",
+    "lastUpdated": "2026-05-13T06:23:56.414Z",
     "totalTeams": 7
   },
   "schedule": {
@@ -140,7 +140,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-13T02:37:58.402Z"
+        "lastUpdated": "2026-05-13T06:24:00.626Z"
       },
       "612787": {
         "teamCode": "612787",
@@ -149,7 +149,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-13T02:37:58.402Z"
+        "lastUpdated": "2026-05-13T06:24:00.626Z"
       },
       "617180": {
         "teamCode": "617180",
@@ -158,25 +158,59 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-13T02:37:58.402Z"
+        "lastUpdated": "2026-05-13T06:24:00.626Z"
       },
       "617206": {
         "teamCode": "617206",
         "totalGames": 18,
-        "playedGames": 0,
+        "playedGames": 1,
         "upcomingGames": 0,
-        "recentGames": [],
+        "recentGames": [
+          {
+            "date": null,
+            "dateText": "Tue, May 12",
+            "time": "7:00 PM",
+            "homeTeam": "Richmond Hill Phoenix 13U AA",
+            "homeTeamCode": "617853",
+            "awayTeam": "Stouffville 13U AA",
+            "awayTeamCode": "617206",
+            "location": "David Hamilton #2",
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 5,
+              "scoreText": "5-4"
+            }
+          }
+        ],
         "nextGames": [],
-        "lastUpdated": "2026-05-13T02:37:58.402Z"
+        "lastUpdated": "2026-05-13T06:24:00.626Z"
       },
       "617853": {
         "teamCode": "617853",
         "totalGames": 17,
-        "playedGames": 0,
+        "playedGames": 1,
         "upcomingGames": 0,
-        "recentGames": [],
+        "recentGames": [
+          {
+            "date": null,
+            "dateText": "Tue, May 12",
+            "time": "7:00 PM",
+            "homeTeam": "Richmond Hill Phoenix 13U AA",
+            "homeTeamCode": "617853",
+            "awayTeam": "Stouffville 13U AA",
+            "awayTeamCode": "617206",
+            "location": "David Hamilton #2",
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 5,
+              "scoreText": "5-4"
+            }
+          }
+        ],
         "nextGames": [],
-        "lastUpdated": "2026-05-13T02:37:58.402Z"
+        "lastUpdated": "2026-05-13T06:24:00.626Z"
       },
       "617854": {
         "teamCode": "617854",
@@ -185,7 +219,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-13T02:37:58.402Z"
+        "lastUpdated": "2026-05-13T06:24:00.626Z"
       },
       "617882": {
         "teamCode": "617882",
@@ -194,21 +228,38 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-13T02:37:58.402Z"
+        "lastUpdated": "2026-05-13T06:24:00.627Z"
       },
       "617909": {
         "teamCode": "617909",
         "totalGames": 18,
-        "playedGames": 0,
+        "playedGames": 1,
         "upcomingGames": 0,
-        "recentGames": [],
+        "recentGames": [
+          {
+            "date": null,
+            "dateText": "Tue, May 12",
+            "time": "6:00 PM",
+            "homeTeam": "Newmarket Hawks 13U AA",
+            "homeTeamCode": "617909",
+            "awayTeam": "Aurora-King Jays 13U AA",
+            "awayTeamCode": "617975",
+            "location": "Armstrong #2",
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 12,
+              "scoreText": "12-6"
+            }
+          }
+        ],
         "nextGames": [],
-        "lastUpdated": "2026-05-13T02:37:58.402Z"
+        "lastUpdated": "2026-05-13T06:24:00.627Z"
       },
       "617975": {
         "teamCode": "617975",
         "totalGames": 18,
-        "playedGames": 1,
+        "playedGames": 2,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -226,10 +277,26 @@
               "away": 5,
               "scoreText": "5-5"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Tue, May 12",
+            "time": "6:00 PM",
+            "homeTeam": "Newmarket Hawks 13U AA",
+            "homeTeamCode": "617909",
+            "awayTeam": "Aurora-King Jays 13U AA",
+            "awayTeamCode": "617975",
+            "location": "Armstrong #2",
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 12,
+              "scoreText": "12-6"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-13T02:37:58.402Z"
+        "lastUpdated": "2026-05-13T06:24:00.627Z"
       },
       "617976": {
         "teamCode": "617976",
@@ -238,7 +305,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-13T02:37:58.402Z"
+        "lastUpdated": "2026-05-13T06:24:00.627Z"
       },
       "617989": {
         "teamCode": "617989",
@@ -247,7 +314,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-13T02:37:58.402Z"
+        "lastUpdated": "2026-05-13T06:24:00.627Z"
       },
       "617990": {
         "teamCode": "617990",
@@ -273,7 +340,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-13T02:37:58.402Z"
+        "lastUpdated": "2026-05-13T06:24:00.627Z"
       },
       "618008": {
         "teamCode": "618008",
@@ -282,7 +349,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-13T02:37:58.402Z"
+        "lastUpdated": "2026-05-13T06:24:00.627Z"
       },
       "618023": {
         "teamCode": "618023",
@@ -291,7 +358,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-13T02:37:58.402Z"
+        "lastUpdated": "2026-05-13T06:24:00.627Z"
       },
       "618045": {
         "teamCode": "618045",
@@ -300,7 +367,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-13T02:37:58.402Z"
+        "lastUpdated": "2026-05-13T06:24:00.627Z"
       },
       "618060": {
         "teamCode": "618060",
@@ -309,7 +376,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-13T02:37:58.403Z"
+        "lastUpdated": "2026-05-13T06:24:00.627Z"
       },
       "618384": {
         "teamCode": "618384",
@@ -318,7 +385,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-13T02:37:58.403Z"
+        "lastUpdated": "2026-05-13T06:24:00.627Z"
       },
       "618466": {
         "teamCode": "618466",
@@ -327,7 +394,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-13T02:37:58.403Z"
+        "lastUpdated": "2026-05-13T06:24:00.627Z"
       }
     },
     "allGames": [
@@ -380,8 +447,12 @@
         "awayTeam": "Aurora-King Jays 13U AA",
         "awayTeamCode": "617975",
         "location": "Armstrong #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 12,
+          "scoreText": "12-6"
+        }
       },
       {
         "date": null,
@@ -392,8 +463,12 @@
         "awayTeam": "Stouffville 13U AA",
         "awayTeamCode": "617206",
         "location": "David Hamilton #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 5,
+          "scoreText": "5-4"
+        }
       },
       {
         "date": null,
@@ -2416,33 +2491,65 @@
           "away": 5,
           "scoreText": "5-5"
         }
+      },
+      {
+        "date": null,
+        "dateText": "Tue, May 12",
+        "time": "6:00 PM",
+        "homeTeam": "Newmarket Hawks 13U AA",
+        "homeTeamCode": "617909",
+        "awayTeam": "Aurora-King Jays 13U AA",
+        "awayTeamCode": "617975",
+        "location": "Armstrong #2",
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 12,
+          "scoreText": "12-6"
+        }
+      },
+      {
+        "date": null,
+        "dateText": "Tue, May 12",
+        "time": "7:00 PM",
+        "homeTeam": "Richmond Hill Phoenix 13U AA",
+        "homeTeamCode": "617853",
+        "awayTeam": "Stouffville 13U AA",
+        "awayTeamCode": "617206",
+        "location": "David Hamilton #2",
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 5,
+          "scoreText": "5-4"
+        }
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-05-13T02:37:58.403Z",
+    "lastUpdated": "2026-05-13T06:24:00.627Z",
     "totalGames": 172
   },
   "summary": {
     "totalTeams": 7,
     "totalGames": 172,
-    "completedGames": 1,
-    "upcomingGames": 171,
+    "completedGames": 3,
+    "upcomingGames": 169,
     "topTeam": {
-      "team": "Aurora-King Jays 13U AA",
-      "teamCode": "617975",
-      "wins": 0,
+      "team": "Stouffville 13U AA",
+      "teamCode": "617206",
+      "wins": 1,
       "losses": 0,
-      "winPercentage": "0.500"
+      "winPercentage": "1.000"
     },
     "highestScoringGame": {
-      "homeTeam": "Thornhill Reds 13U AA",
+      "homeTeam": "Newmarket Hawks 13U AA",
       "awayTeam": "Aurora-King Jays 13U AA",
-      "homeScore": 5,
-      "awayScore": 5,
-      "totalRuns": 10,
-      "date": "Mon, May 11",
-      "location": "Bishops Cross"
+      "homeScore": 6,
+      "awayScore": 12,
+      "totalRuns": 18,
+      "date": "Tue, May 12",
+      "location": "Armstrong #2"
     },
-    "lastUpdated": "2026-05-13T02:40:52.851Z"
+    "lastUpdated": "2026-05-13T06:26:55.530Z"
   }
 }
