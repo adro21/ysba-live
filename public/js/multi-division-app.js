@@ -50,12 +50,58 @@ class MultiDivisionYSBAApp {
         
         // Setup event listeners
         this.setupEventListeners();
-        
+
+        // Wire up the cards/table view switcher (mobile)
+        this.initViewSwitcher();
+
         // Start background processes
         this.startAutoRefresh();
         this.startStatusUpdates();
         this.initSubscriptionForm();
         this.updateLastYsbaUpdateTime();
+    }
+
+    initViewSwitcher() {
+        const switcher = document.getElementById('viewSwitcher');
+        if (!switcher) return;
+
+        let saved = 'cards';
+        try { saved = localStorage.getItem('standingsView') || 'cards'; } catch (_) {}
+        this.applyStandingsView(saved);
+
+        switcher.querySelectorAll('.view-switcher-btn').forEach((btn) => {
+            btn.addEventListener('click', () => {
+                const view = btn.dataset.view;
+                if (!view) return;
+                this.applyStandingsView(view);
+                try { localStorage.setItem('standingsView', view); } catch (_) {}
+
+                // When switching INTO classic mode, the sticky-header may need
+                // to re-measure now that the table is back in the DOM flow.
+                if (view === 'table') {
+                    requestAnimationFrame(() => {
+                        if (typeof this.precalculateColumnWidths === 'function') {
+                            this.precalculateColumnWidths();
+                        }
+                        if (typeof this.handleStickyHeader === 'function') {
+                            this.handleStickyHeader();
+                        }
+                    });
+                } else if (this.fixedHeader && typeof this.hideFixedHeader === 'function') {
+                    this.hideFixedHeader();
+                }
+            });
+        });
+    }
+
+    applyStandingsView(view) {
+        const isClassic = view === 'table';
+        document.documentElement.classList.toggle('view-classic', isClassic);
+        document.querySelectorAll('.view-switcher-btn').forEach((btn) => {
+            const active = btn.dataset.view === view;
+            btn.classList.toggle('active', active);
+            btn.setAttribute('aria-selected', active ? 'true' : 'false');
+        });
     }
 
     async parseCurrentPath() {
@@ -867,7 +913,7 @@ class MultiDivisionYSBAApp {
         const row = document.createElement('tr');
         row.className = 'team-row-clickable';
         row.setAttribute('data-team-code', team.teamCode);
-        
+
         // Add click handler for team schedule
         row.addEventListener('click', () => {
             this.showTeamSchedule(team.teamCode, team.team);
@@ -881,6 +927,16 @@ class MultiDivisionYSBAApp {
         else if (winPct >= 0.30) winPctClass += 'low-medium';
         else winPctClass += 'low';
 
+        // Rank tier drives the left-stripe color on mobile cards
+        const rankTier = position === 1 ? 'top' : position <= 3 ? 'high' : 'rest';
+        row.classList.add(`rank-${rankTier}`);
+
+        const record = `${team.wins}-${team.losses}-${team.ties}`;
+        const runDiff = Number.isFinite(team.runDifferential)
+            ? team.runDifferential
+            : (Number(team.runsFor) - Number(team.runsAgainst));
+        const diffSign = runDiff > 0 ? '+' : '';
+
         row.innerHTML = `
             <td class="pos-col">
                 ${this.createPositionBadge(position)}
@@ -888,15 +944,25 @@ class MultiDivisionYSBAApp {
             <td class="team-col">
                 <div class="team-name">${this.escapeHtml(team.team)}</div>
             </td>
-            <td class="stat-col">${team.gamesPlayed}</td>
-            <td class="stat-col text-success">${team.wins}</td>
-            <td class="stat-col text-danger">${team.losses}</td>
-            <td class="stat-col">${team.ties}</td>
-            <td class="stat-col">${team.points}</td>
-            <td class="stat-col">${team.runsFor}</td>
-            <td class="stat-col">${team.runsAgainst}</td>
-            <td class="stat-col">
+            <td class="stat-col" data-stat="GP">${team.gamesPlayed}</td>
+            <td class="stat-col text-success" data-stat="W">${team.wins}</td>
+            <td class="stat-col text-danger" data-stat="L">${team.losses}</td>
+            <td class="stat-col" data-stat="T">${team.ties}</td>
+            <td class="stat-col" data-stat="PTS">${team.points}</td>
+            <td class="stat-col" data-stat="RF">${team.runsFor}</td>
+            <td class="stat-col" data-stat="RA">${team.runsAgainst}</td>
+            <td class="stat-col pct-col">
                 <span class="${winPctClass}">${team.winPercentage}</span>
+            </td>
+            <td class="mobile-stats-strip" aria-hidden="true">
+                <div class="mss-record">
+                    <span class="mss-record-label">REC</span>
+                    <span class="mss-record-value">${record}</span>
+                </div>
+                <span class="mss-divider" aria-hidden="true"></span>
+                <div class="mss-stat"><span class="mss-stat-label">PTS</span><span class="mss-stat-value mss-stat-value--strong">${team.points}</span></div>
+                <div class="mss-stat"><span class="mss-stat-label">GP</span><span class="mss-stat-value">${team.gamesPlayed}</span></div>
+                <div class="mss-stat"><span class="mss-stat-label">DIFF</span><span class="mss-stat-value mss-stat-diff" data-sign="${runDiff > 0 ? 'pos' : runDiff < 0 ? 'neg' : 'zero'}">${diffSign}${runDiff}</span></div>
             </td>
         `;
 
@@ -904,7 +970,14 @@ class MultiDivisionYSBAApp {
     }
 
     createPositionBadge(position) {
-        return `<span class="position-badge">${position}</span>`;
+        const tierClass = position === 1
+            ? 'position-1'
+            : position === 2
+                ? 'position-2'
+                : position === 3
+                    ? 'position-3'
+                    : 'position-other';
+        return `<span class="position-badge ${tierClass}">${position}</span>`;
     }
 
     // ... [Include all the rest of the methods from the original app.js file]
@@ -1123,9 +1196,9 @@ class MultiDivisionYSBAApp {
             const winsText = teamData.wins > 0 ? `${teamData.wins}W` : '';
             const lossesText = `${teamData.losses}L`;
             const tiesText = teamData.ties > 0 ? `${teamData.ties}T` : '';
-            
+
             const recordParts = [winsText, lossesText, tiesText].filter(part => part !== '');
-            recordText = `${recordParts.join(' - ')} <span style="margin: 0 8px;">⚾</span> ${teamData.gamesPlayed} games played`;
+            recordText = `${recordParts.join(' – ')}<span class="record-sep">·</span>${teamData.gamesPlayed} GP`;
         }
 
         document.getElementById('teamRecord').innerHTML = recordText;
@@ -1237,22 +1310,26 @@ class MultiDivisionYSBAApp {
         // Score display
         let scoreDisplay = '';
         if (game.isCompleted && game.teamScore !== null && game.opponentScore !== null) {
-            // Game has scores - show actual score with FINAL label
-            scoreDisplay = `<strong>${game.teamScore} - ${game.opponentScore}</strong>
+            // W / L / T letter for the meta line under the score
+            let resultLetter = 'T';
+            if (game.teamScore > game.opponentScore) resultLetter = 'W';
+            else if (game.teamScore < game.opponentScore) resultLetter = 'L';
+
+            scoreDisplay = `<strong>${game.teamScore}<span class="score-dash">–</span>${game.opponentScore}</strong>
                     <div class="score-labels">
-                        <small class="text-muted">Final</small>
+                        <small>Final<span class="score-result-tag result-${resultLetter.toLowerCase()}">${resultLetter}</span></small>
                     </div>`;
         } else if (isFutureGame) {
-            // Future game - show time or TBD with Game Time label
+            // Future game — time-of-day above an "UPCOMING" caption
             scoreDisplay = `<strong>${game.time || 'TBD'}</strong>
                     <div class="score-labels">
-                        <small class="text-muted">Game Time</small>
+                        <small>Upcoming</small>
                     </div>`;
         } else {
-            // Past game without scores - show special "No Result" HTML
-            scoreDisplay = `<strong>-</strong>
+            // Past game without scores
+            scoreDisplay = `<strong>—</strong>
                     <div class="score-labels">
-                        <small class="text-muted">No Score</small>
+                        <small>No Score</small>
                     </div>`;
         }
 

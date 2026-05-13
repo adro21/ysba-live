@@ -167,10 +167,10 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: none !important;
     font-family: var(--ss-display) !important;
     font-weight: 700 !important;
-    font-size: 0.72rem !important;
-    letter-spacing: 0.12em !important;
+    font-size: 0.74rem !important;
+    letter-spacing: 0.14em !important;
     text-transform: uppercase !important;
-    padding: 0.85rem 0.75rem !important;
+    padding: 1rem 0.75rem !important;
     box-shadow: none !important;
 }
 .standings-table.sticky-header th,
@@ -186,7 +186,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .standings-table td {
-    padding: 0.8rem 0.6rem !important;
+    padding: 1.05rem 0.7rem !important;
     border-bottom: 1px solid var(--ss-rule) !important;
     vertical-align: middle;
     font-family: var(--ss-sans);
@@ -207,7 +207,7 @@ h1, h2, h3, h4, h5, h6 {
 .standings-table td.team-col {
     font-family: var(--ss-display) !important;
     font-weight: 600 !important;
-    font-size: 1.02rem !important;
+    font-size: 1.1rem !important;
     text-transform: uppercase !important;
     letter-spacing: 0.005em !important;
     color: var(--ss-ink) !important;
@@ -218,14 +218,14 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Position badge — jersey number style */
 .position-badge {
-    width: 1.85rem !important;
-    height: 1.85rem !important;
+    width: 2.05rem !important;
+    height: 2.05rem !important;
     border-radius: 4px !important;
     background: var(--ss-surface-3) !important;
     color: var(--ss-ink-2) !important;
     font-family: var(--ss-display) !important;
     font-weight: 800 !important;
-    font-size: 0.95rem !important;
+    font-size: 1rem !important;
     line-height: 1 !important;
     margin: 0 auto;
 }
@@ -262,11 +262,11 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Number columns use mono numerals for that scoreboard feel */
 .standings-table td.stat-col,
-.standings-table td:not(.team-col):not(.pos-col) {
+.standings-table td:not(.team-col):not(.pos-col):not(.mobile-stats-strip) {
     font-family: var(--ss-mono) !important;
     font-variant-numeric: tabular-nums !important;
     font-weight: 600 !important;
-    font-size: 0.88rem !important;
+    font-size: 0.98rem !important;
     color: var(--ss-ink-2) !important;
 }
 .standings-table th.stat-col { font-family: var(--ss-display) !important; }
@@ -283,12 +283,12 @@ h1, h2, h3, h4, h5, h6 {
 .win-percentage {
     font-family: var(--ss-mono) !important;
     font-weight: 700 !important;
-    font-size: 0.76rem !important;
+    font-size: 0.82rem !important;
     letter-spacing: 0.02em !important;
-    padding: 0.32rem 0.55rem !important;
+    padding: 0.36rem 0.6rem !important;
     border-radius: 3px !important;
     display: inline-block;
-    min-width: 3.2rem;
+    min-width: 3.4rem;
     text-align: center;
 }
 .win-percentage.high       { background: rgba(16, 185, 129, 0.14) !important; color: var(--ss-green) !important; }
@@ -372,46 +372,76 @@ h1, h2, h3, h4, h5, h6 {
 /* -----------------------------------------------------------------
    Modal (schedule + notifications)
    ----------------------------------------------------------------- */
+/* -----------------------------------------------------------------
+   Schedule modal — light, editorial, breathable
+   - Header: white surface, BIG team name, mono-caps record below
+   - Game rows: left result stripe, big opponent name, clean mono
+     score on the right with a "Final · [L]" caption (the W/L/T
+     letter is a tiny colored chip). Upcoming rows show the time
+     and an UPCOMING caption.
+   ----------------------------------------------------------------- */
 .modern-modal {
     border: 1px solid var(--ss-rule);
-    border-radius: 6px !important;
+    border-radius: 8px !important;
     overflow: hidden;
-    box-shadow: 0 24px 48px -16px rgba(14, 14, 12, 0.25) !important;
+    box-shadow: 0 24px 56px -18px rgba(14, 14, 12, 0.28) !important;
 }
 .modern-modal .modal-header {
-    background: var(--ss-ink) !important;
-    color: #fff !important;
-    border-bottom: none !important;
-    padding: 1rem 1.25rem !important;
+    background: var(--ss-surface) !important;
+    color: var(--ss-ink) !important;
+    border-bottom: 1px solid var(--ss-rule) !important;
+    padding: 1.35rem 1.4rem 1.15rem !important;
+    align-items: flex-start !important;
+    gap: 0.85rem;
+}
+.modern-modal .modal-title-section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    min-width: 0;
+    flex: 1;
 }
 .modern-modal .modal-title {
     font-family: var(--ss-display) !important;
     font-weight: 800 !important;
-    color: #fff !important;
+    color: var(--ss-ink) !important;
     text-transform: uppercase;
-    letter-spacing: 0.01em;
-    font-size: 1.15rem !important;
+    letter-spacing: 0.005em;
+    font-size: 1.7rem !important;
+    line-height: 1.04 !important;
+    margin: 0 !important;
+}
+.modern-modal .modal-title-section .team-record {
+    font-family: var(--ss-mono) !important;
+    font-size: 0.74rem !important;
+    color: var(--ss-ink-3) !important;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    margin-top: 0 !important;
+    line-height: 1.4;
+}
+.modern-modal .team-record .record-sep {
+    color: var(--ss-ink-4);
+    margin: 0 0.55rem;
+    font-weight: 700;
 }
 .modern-modal .modal-header .btn-close {
-    filter: invert(1) brightness(2);
-    opacity: 0.7;
+    filter: none !important;
+    opacity: 0.5 !important;
+    margin-top: 0.45rem !important;
+    align-self: flex-start;
+    transition: opacity 150ms ease;
 }
-.modern-modal .modal-header .btn-close:hover { opacity: 1; }
-.modern-modal .modal-title-section .team-record {
-    font-family: var(--ss-mono);
-    font-size: 0.75rem;
-    color: rgba(255,255,255,0.7);
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    margin-top: 0.2rem;
-}
-.modern-modal .modal-body { padding: 1.25rem 1.25rem 0 !important; background: var(--ss-surface) !important; }
+.modern-modal .modal-header .btn-close:hover { opacity: 1 !important; }
+.modern-modal .modal-body { padding: 0 !important; background: var(--ss-surface) !important; }
 
 /* Schedule tabs */
 .schedule-tabs {
     border-bottom: 1px solid var(--ss-rule) !important;
     gap: 0 !important;
     background: var(--ss-surface);
+    padding: 0 !important;
+    margin: 0 !important;
 }
 .schedule-tab {
     font-family: var(--ss-display) !important;
@@ -419,85 +449,200 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 0.82rem !important;
     color: var(--ss-ink-3) !important;
     text-transform: uppercase;
-    letter-spacing: 0.06em;
-    padding: 0.7rem 0.85rem !important;
+    letter-spacing: 0.08em;
+    padding: 0.9rem 1rem !important;
     border-bottom: 2px solid transparent !important;
-    transition: all 150ms ease;
+    transition: color 150ms ease, border-color 150ms ease;
+    flex: 1;
 }
 .schedule-tab:hover { color: var(--ss-ink) !important; }
 .schedule-tab.active {
-    color: var(--ss-green) !important;
+    color: var(--ss-ink) !important;
     border-bottom-color: var(--ss-green) !important;
 }
 
-/* Schedule game cards */
-.schedule-games { background: var(--ss-bg); }
+/* Schedule game list */
+.schedule-games {
+    background: var(--ss-surface) !important;
+    margin: 0 !important;
+    max-height: 65vh !important;
+}
+
+/* Each game row */
 .game-card {
     background: var(--ss-surface) !important;
     border-bottom: 1px solid var(--ss-rule) !important;
-    padding: 1.1rem 1.25rem !important;
+    padding: 1.15rem 1.25rem !important;
     transition: background 150ms ease;
+    border-radius: 0 !important;
+    margin: 0 !important;
+    position: relative;
 }
+.game-card:last-child { border-bottom: none !important; }
 .game-card:hover { background: var(--ss-surface-2) !important; }
-.game-card.win    { border-left-color: var(--ss-green-bright) !important; }
-.game-card.loss   { border-left-color: var(--ss-red) !important; }
-.game-card.tie    { border-left-color: var(--ss-amber) !important; }
-.game-card.upcoming { border-left-color: #60a5fa !important; }
+
+/* Left stripe — communicates result at a glance */
+.game-card.win        { border-left: 4px solid var(--ss-green-bright) !important; }
+.game-card.loss       { border-left: 4px solid var(--ss-red) !important; }
+.game-card.tie        { border-left: 4px solid var(--ss-amber) !important; }
+.game-card.upcoming   { border-left: 4px solid #60a5fa !important; }
 .game-card.no-result,
-.game-card.mixed { border-left-color: var(--ss-ink-4) !important; }
+.game-card.mixed      { border-left: 4px solid var(--ss-ink-4) !important; }
 
-.game-result {
-    font-family: var(--ss-display) !important;
-    font-weight: 800 !important;
-    font-size: 0.66rem !important;
-    letter-spacing: 0.12em !important;
-    border-radius: 2px !important;
-    padding: 0.22rem 0.5rem !important;
+/* Row layout — opponent on the left, score on the right */
+.game-card .game-content {
+    display: flex !important;
+    align-items: center !important;
+    gap: 1rem !important;
+    width: 100%;
 }
-.game-result.win    { background: var(--ss-green-bright) !important; }
-.game-result.loss   { background: var(--ss-red) !important; }
-.game-result.tie    { background: var(--ss-amber) !important; color: #422006 !important; }
-.game-result.upcoming { background: #60a5fa !important; }
+.game-card .game-left-column {
+    flex: 1 1 auto;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem !important;
+    margin-top: 0 !important;
+}
+.game-card .game-right-column {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    min-width: 0;
+}
 
+/* Hide the loud colored badge — the stripe + tiny "FINAL · L" chip
+   in the score caption carry that information now. */
+.game-card .game-result {
+    display: none !important;
+}
+
+/* Opponent name — big, display font, the row's primary content */
 .game-opponent {
     font-family: var(--ss-display) !important;
-    font-weight: 700 !important;
-    font-size: 1.05rem !important;
+    font-weight: 800 !important;
+    font-size: 1.2rem !important;
     text-transform: uppercase !important;
     letter-spacing: 0.005em;
     color: var(--ss-ink) !important;
-    line-height: 1.1;
+    line-height: 1.06;
+    word-break: break-word;
 }
-.game-score {
-    background: var(--ss-ink) !important;
-    color: #fff !important;
-    border: none !important;
-    box-shadow: 0 4px 10px -4px rgba(14, 14, 12, 0.35) !important;
-    font-family: var(--ss-mono) !important;
-    font-weight: 700 !important;
-    font-size: 1.1rem !important;
-    font-variant-numeric: tabular-nums;
-    border-radius: 4px !important;
-    padding: 14px !important;
-    letter-spacing: 0.02em;
-}
-.score-labels,
-.score-labels small,
-.score-labels .text-muted,
-.game-score .text-muted {
-    font-family: var(--ss-mono) !important;
-    font-size: 0.62rem !important;
-    color: rgba(255,255,255,0.65) !important;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-}
+
+/* Date / home-away — mono small caps */
 .game-details {
     font-family: var(--ss-mono) !important;
     font-size: 0.72rem !important;
     color: var(--ss-ink-3) !important;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
 }
-.game-details i { color: var(--ss-ink-4) !important; }
+.game-detail {
+    display: inline-flex !important;
+    align-items: center;
+    gap: 0.4rem !important;
+}
+.game-detail i {
+    color: var(--ss-ink-4) !important;
+    font-size: 0.78rem !important;
+    opacity: 1 !important;
+}
+.game-detail i.bi-house-fill,
+.game-detail i.bi-airplane-fill { margin-left: 0.45rem !important; }
+
+/* Score — clean mono numerals, no chrome, no shadow */
+.game-score {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    width: auto !important;
+    min-width: 0 !important;
+    border-radius: 0 !important;
+    text-align: right !important;
+    line-height: 1 !important;
+    font-family: var(--ss-mono) !important;
+    color: var(--ss-ink) !important;
+}
+.game-score strong {
+    font-family: var(--ss-mono) !important;
+    font-weight: 700 !important;
+    font-size: 1.5rem !important;
+    color: var(--ss-ink) !important;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.01em;
+    line-height: 1 !important;
+    display: inline-flex;
+    align-items: baseline;
+}
+.game-score .score-dash {
+    color: var(--ss-ink-4);
+    margin: 0 0.32rem;
+    font-weight: 500;
+}
+
+/* Upcoming games show a time (6:30 PM), not a numeric score */
+.game-card.upcoming .game-score strong {
+    font-size: 1.18rem !important;
+    color: var(--ss-ink) !important;
+    letter-spacing: 0.04em;
+}
+
+/* No-result / TBD games — em-dash */
+.game-card.no-result .game-score strong,
+.game-card.mixed .game-score strong {
+    color: var(--ss-ink-3) !important;
+    font-weight: 500 !important;
+}
+
+/* Caption line under the score: "Final · L" / "Upcoming" / "No Score" */
+.score-labels {
+    font-family: var(--ss-mono) !important;
+    font-size: 0.64rem !important;
+    color: var(--ss-ink-4) !important;
+    letter-spacing: 0.16em !important;
+    text-transform: uppercase !important;
+    margin-top: 0.4rem !important;
+    text-align: right !important;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0;
+}
+.score-labels small,
+.score-labels .text-muted,
+.game-score .text-muted {
+    font-family: var(--ss-mono) !important;
+    font-size: inherit !important;
+    color: var(--ss-ink-4) !important;
+    letter-spacing: inherit !important;
+    text-transform: inherit !important;
+    display: inline-flex;
+    align-items: center;
+    gap: 0;
+}
+
+/* Tiny W / L / T chip after "Final" — colored by result */
+.score-result-tag {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--ss-display);
+    font-weight: 800;
+    font-size: 0.66rem;
+    line-height: 1;
+    letter-spacing: 0.04em;
+    padding: 0.22rem 0.36rem;
+    border-radius: 2px;
+    margin-left: 0.5rem;
+    min-width: 1.1rem;
+    transform: translateY(0);
+}
+.score-result-tag.result-w { background: var(--ss-green-bright); color: #fff; }
+.score-result-tag.result-l { background: var(--ss-red);          color: #fff; }
+.score-result-tag.result-t { background: var(--ss-amber);        color: #422006; }
 
 /* Notifications modal form */
 #notificationsModal .modal-body { padding: 1.5rem 1.25rem !important; }
@@ -539,20 +684,417 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* -----------------------------------------------------------------
-   Mobile polish
+   Notifications — hidden until the email backend is reconnected.
+   The link is left in the DOM so it can be re-enabled by removing
+   this class. Don't delete the markup.
    ----------------------------------------------------------------- */
-@media (max-width: 480px) {
+.status-action-link--hidden { display: none !important; }
+
+/* -----------------------------------------------------------------
+   View switcher (Cards / Table) — sits inline in the status bar
+   on phones, replacing the (currently hidden) notifications bell.
+   Two icon-only buttons. No chrome. The active icon goes ink-dark
+   with a thin green underline accent — quiet on the page but
+   unambiguous about state.
+   ----------------------------------------------------------------- */
+.view-switcher { display: none; } /* desktop: hidden */
+
+@media (max-width: 640px) {
+    .view-switcher {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.05rem;
+        background: transparent;
+        border: 0;
+        padding: 0;
+        box-shadow: none;
+        margin-left: 0.1rem;
+    }
+}
+
+.view-switcher-btn {
+    appearance: none;
+    border: 0;
+    background: transparent;
+    padding: 0.35rem 0.45rem;
+    color: var(--ss-ink-4);
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    position: relative;
+    transition: color 150ms ease;
+    -webkit-tap-highlight-color: transparent;
+}
+.view-switcher-btn i {
+    font-size: 0.98rem;
+    line-height: 1;
+    transition: color 150ms ease;
+}
+.view-switcher-btn:hover { color: var(--ss-ink-2); }
+.view-switcher-btn:focus-visible {
+    outline: 2px solid var(--ss-green);
+    outline-offset: 1px;
+    border-radius: 3px;
+}
+.view-switcher-btn.active {
+    color: var(--ss-ink);
+}
+.view-switcher-btn.active i { color: var(--ss-ink); }
+.view-switcher-btn.active::after {
+    content: "";
+    position: absolute;
+    left: 28%;
+    right: 28%;
+    bottom: -2px;
+    height: 2px;
+    background: var(--ss-green);
+    border-radius: 1px;
+}
+
+/* -----------------------------------------------------------------
+   Mobile standings — card-stack layout (default)
+   The 10-column table doesn't fit a phone gracefully. At ≤640px we
+   reflow each table row into a breathing card: rank stripe + jersey
+   pill on the left, team name + win% on the top line, a stat strip
+   (record, points, GP, run diff) on a second line. No horizontal
+   scrolling, much bigger type, full-width tap target.
+
+   The user can opt into a classic scrollable table via the view
+   switcher — those overrides live in the html.view-classic block
+   farther down.
+   ----------------------------------------------------------------- */
+
+/* The mobile stats strip td is hidden by default; the desktop table
+   never renders it visually. */
+.standings-table td.mobile-stats-strip { display: none; }
+
+@media (max-width: 640px) {
+    /* Card surface — flatten the table's outer chrome on phones */
+    .standings-card {
+        border-radius: 6px !important;
+        border: 1px solid var(--ss-rule) !important;
+        box-shadow: 0 1px 2px rgba(14, 14, 12, 0.04) !important;
+        background: var(--ss-surface) !important;
+    }
+    .standings-card::after { display: none !important; } /* kill the right-edge fade */
+    .swipe-indicator { display: none !important; }       /* no more "swipe" */
+    .sticky-header-fixed { display: none !important; }   /* no sticky header in card mode */
+
+    .table-container {
+        overflow: visible !important;
+        -webkit-overflow-scrolling: auto !important;
+    }
+    .standings-table {
+        min-width: 0 !important;
+        width: 100% !important;
+        table-layout: auto !important;
+    }
+    .standings-table thead { display: none !important; }
+
+    .standings-table,
+    .standings-table tbody {
+        display: block !important;
+        width: 100% !important;
+    }
+
+    /* Each row becomes a 2-row CSS grid card */
+    .standings-table tbody tr {
+        display: grid !important;
+        grid-template-columns: auto minmax(0, 1fr) auto;
+        grid-template-areas:
+            "pos  team   pct"
+            "pos  stats  stats";
+        column-gap: 0.85rem !important;
+        row-gap: 0.6rem !important;
+        align-items: center;
+        padding: 1rem 1rem 0.95rem 1.1rem !important;
+        border-bottom: 1px solid var(--ss-rule) !important;
+        background: var(--ss-surface) !important;
+        position: relative;
+    }
+    .standings-table tbody tr:last-child { border-bottom: none !important; }
+
+    /* Kill per-cell borders inside the card — the row itself is the divider */
+    .standings-table tbody tr > td {
+        border-bottom: none !important;
+        border-top: none !important;
+    }
+    .standings-table tbody tr:nth-child(even) { background: var(--ss-surface) !important; }
+    .standings-table tbody tr:hover,
+    .standings-table tbody tr:nth-child(even):hover {
+        background: var(--ss-surface-2) !important;
+    }
+
+    /* Left-edge rank stripe */
+    .standings-table tbody tr::before {
+        content: "";
+        position: absolute;
+        left: 0; top: 0; bottom: 0;
+        width: 3px;
+        background: var(--ss-rule-2);
+    }
+    .standings-table tbody tr.rank-top::before    { background: var(--ss-green-bright); width: 4px; }
+    .standings-table tbody tr.rank-high::before   { background: rgba(16, 185, 129, 0.55); }
+
+    /* Position pill — bigger jersey number, left of name on both rows */
+    .standings-table tbody tr td.pos-col {
+        grid-area: pos;
+        padding: 0 !important;
+        width: auto !important;
+        min-width: 0 !important;
+        text-align: left !important;
+        align-self: center;
+    }
+    .standings-table tbody tr td.pos-col .position-badge {
+        width: 2.2rem !important;
+        height: 2.2rem !important;
+        font-size: 1.05rem !important;
+        border-radius: 4px !important;
+        margin: 0 !important;
+    }
+
+    /* Team name — large, allowed to wrap on small phones */
+    .standings-table tbody tr td.team-col {
+        grid-area: team;
+        padding: 0 !important;
+        text-align: left !important;
+        min-width: 0 !important;
+        max-width: none !important;
+    }
+    .standings-table tbody tr td.team-col .team-name {
+        font-family: var(--ss-display) !important;
+        font-size: 1.1rem !important;
+        font-weight: 700 !important;
+        line-height: 1.12 !important;
+        letter-spacing: 0.005em !important;
+        color: var(--ss-ink) !important;
+        white-space: normal !important;
+        overflow: visible !important;
+        text-overflow: clip !important;
+        max-width: none !important;
+        word-break: break-word;
+    }
+
+    /* The TOP pill is redundant with the green rank stripe on mobile */
+    .standings-table tbody tr:first-child .team-name::after { display: none !important; }
+
+    /* Win-percentage chip — top-right, prominent */
+    .standings-table tbody tr td.pct-col {
+        grid-area: pct;
+        padding: 0 !important;
+        width: auto !important;
+        min-width: 0 !important;
+        text-align: right !important;
+    }
+    .standings-table tbody tr td.pct-col .win-percentage {
+        font-size: 0.95rem !important;
+        padding: 0.42rem 0.65rem !important;
+        min-width: 3.6rem;
+        letter-spacing: 0.03em !important;
+    }
+
+    /* Hide the individual stat cells; the mobile strip replaces them */
+    .standings-table tbody tr td[data-stat] { display: none !important; }
+
+    /* The mobile stats strip — labeled chips below the team name */
+    .standings-table tbody tr td.mobile-stats-strip {
+        display: flex !important;
+        grid-area: stats;
+        flex-wrap: wrap;
+        align-items: baseline;
+        gap: 0.35rem 0.95rem;
+        padding: 0 !important;
+        width: 100% !important;
+        min-width: 0 !important;
+        text-align: left !important;
+        background: transparent !important;
+        border: none !important;
+        font-family: var(--ss-sans) !important;
+    }
+
+    .mobile-stats-strip .mss-record {
+        display: inline-flex;
+        align-items: baseline;
+        gap: 0.42rem;
+    }
+    .mobile-stats-strip .mss-record-label {
+        font-family: var(--ss-display);
+        font-size: 0.66rem;
+        font-weight: 700;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--ss-ink-4);
+    }
+    .mobile-stats-strip .mss-record-value {
+        font-family: var(--ss-mono);
+        font-weight: 700;
+        font-size: 1.1rem;
+        line-height: 1;
+        color: var(--ss-ink);
+        font-variant-numeric: tabular-nums;
+        letter-spacing: 0.02em;
+    }
+
+    .mobile-stats-strip .mss-divider {
+        display: inline-block;
+        width: 1px;
+        height: 0.95rem;
+        background: var(--ss-rule);
+        transform: translateY(0.05rem);
+    }
+
+    .mobile-stats-strip .mss-stat {
+        display: inline-flex;
+        align-items: baseline;
+        gap: 0.32rem;
+    }
+    .mobile-stats-strip .mss-stat-label {
+        font-family: var(--ss-display);
+        font-size: 0.62rem;
+        font-weight: 700;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--ss-ink-4);
+    }
+    .mobile-stats-strip .mss-stat-value {
+        font-family: var(--ss-mono);
+        font-weight: 600;
+        font-size: 0.92rem;
+        color: var(--ss-ink-2);
+        font-variant-numeric: tabular-nums;
+        letter-spacing: 0.01em;
+    }
+    .mobile-stats-strip .mss-stat-value--strong { color: var(--ss-ink); font-weight: 700; }
+    .mobile-stats-strip .mss-stat-diff[data-sign="pos"]  { color: var(--ss-green-2); font-weight: 700; }
+    .mobile-stats-strip .mss-stat-diff[data-sign="neg"]  { color: var(--ss-red);     font-weight: 700; }
+    .mobile-stats-strip .mss-stat-diff[data-sign="zero"] { color: var(--ss-ink-3); }
+    .mobile-stats-strip .mss-stat--muted .mss-stat-value { color: var(--ss-ink-3); font-weight: 500; }
+
+    /* Header & status bar stay tidy */
     .modern-header .header-top { padding: 0.75rem 0 0.6rem !important; }
     .modern-header .brand-title { font-size: 1.25rem !important; }
     .status-bar { padding: 0.45rem 0 !important; font-size: 0.7rem !important; }
-    .standings-table thead th { padding: 0.65rem 0.45rem !important; font-size: 0.65rem !important; }
-    .standings-table td { padding: 0.65rem 0.4rem !important; }
-    .standings-table .team-name,
-    .standings-table .team-col { font-size: 0.95rem !important; }
-    .position-badge { width: 1.65rem !important; height: 1.65rem !important; font-size: 0.85rem !important; }
-    .game-card { padding: 0.9rem 1rem !important; }
-    .game-opponent { font-size: 0.95rem !important; }
-    .game-score { font-size: 1rem !important; padding: 10px !important; }
+
+    /* Schedule modal cards — tighter on phones */
+    .modern-modal .modal-header { padding: 1.15rem 1.15rem 0.95rem !important; }
+    .modern-modal .modal-title { font-size: 1.45rem !important; }
+    .modern-modal .modal-title-section .team-record { font-size: 0.7rem !important; letter-spacing: 0.12em; }
+    .schedule-tab { padding: 0.85rem 0.75rem !important; font-size: 0.78rem !important; }
+    .game-card { padding: 1rem 1.05rem !important; }
+    .game-card .game-content { gap: 0.85rem !important; }
+    .game-opponent { font-size: 1.08rem !important; }
+    .game-score strong { font-size: 1.35rem !important; }
+    .game-card.upcoming .game-score strong { font-size: 1.08rem !important; }
+    .score-labels { font-size: 0.6rem !important; margin-top: 0.32rem !important; }
+    .game-details { font-size: 0.68rem !important; }
+
+    /* -------------------------------------------------------------
+       Classic mode override — restore the scrollable table on phones
+       when the user picks "Table" in the view switcher. Keeps all the
+       breathability improvements (bigger type, taller rows, dark
+       header) — just brings back the 10-column row layout.
+       ------------------------------------------------------------- */
+    html.view-classic .standings-card {
+        border-radius: 6px !important;
+        overflow: hidden !important;
+    }
+    html.view-classic .table-container {
+        overflow-x: auto !important;
+        -webkit-overflow-scrolling: touch !important;
+    }
+    html.view-classic .standings-table {
+        min-width: 640px !important;
+        width: auto !important;
+        table-layout: auto !important;
+        display: table !important;
+    }
+    html.view-classic .standings-table thead {
+        display: table-header-group !important;
+    }
+    html.view-classic .standings-table tbody {
+        display: table-row-group !important;
+    }
+    html.view-classic .standings-table tbody tr {
+        display: table-row !important;
+        grid-template-columns: initial !important;
+        grid-template-areas: initial !important;
+        padding: 0 !important;
+        background: var(--ss-surface) !important;
+        column-gap: 0 !important;
+        row-gap: 0 !important;
+    }
+    html.view-classic .standings-table tbody tr:nth-child(even) {
+        background: var(--ss-surface-2) !important;
+    }
+    html.view-classic .standings-table tbody tr::before {
+        display: none !important;
+        content: none !important;
+    }
+    html.view-classic .standings-table tbody tr > td {
+        display: table-cell !important;
+        padding: 0.95rem 0.6rem !important;
+        border-bottom: 1px solid var(--ss-rule) !important;
+        text-align: center;
+        vertical-align: middle;
+        width: auto !important;
+        min-width: 0 !important;
+    }
+    html.view-classic .standings-table tbody tr td.pos-col {
+        width: 56px !important;
+        min-width: 56px !important;
+    }
+    html.view-classic .standings-table tbody tr td.team-col {
+        text-align: left !important;
+        padding-left: 0.85rem !important;
+        min-width: 170px !important;
+    }
+    html.view-classic .standings-table tbody tr td.pos-col .position-badge {
+        width: 1.85rem !important;
+        height: 1.85rem !important;
+        font-size: 0.95rem !important;
+        margin: 0 auto !important;
+    }
+    html.view-classic .standings-table tbody tr td.team-col .team-name {
+        font-size: 1rem !important;
+        white-space: nowrap !important;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+        max-width: 220px !important;
+        font-weight: 700 !important;
+    }
+    /* Show stat cells, hide the mobile strip */
+    html.view-classic .standings-table tbody tr td[data-stat] { display: table-cell !important; }
+    html.view-classic .standings-table tbody tr td.mobile-stats-strip { display: none !important; }
+
+    /* Restore the right-edge fade hint and swipe indicator */
+    html.view-classic .standings-card::after { display: block !important; }
+    html.view-classic .swipe-indicator { display: flex !important; }
+
+    /* The "TOP" pill returns next to the leader */
+    html.view-classic .standings-table tbody tr:first-child .team-name::after {
+        display: inline-block !important;
+        content: "TOP" !important;
+    }
+}
+
+/* Tighten further on very small phones (iPhone SE etc.) */
+@media (max-width: 380px) {
+    .standings-table tbody tr {
+        padding: 0.9rem 0.85rem 0.85rem 1rem !important;
+        column-gap: 0.7rem !important;
+    }
+    .standings-table tbody tr td.team-col .team-name { font-size: 1.02rem !important; }
+    .standings-table tbody tr td.pos-col .position-badge {
+        width: 2rem !important; height: 2rem !important; font-size: 0.98rem !important;
+    }
+    .standings-table tbody tr td.pct-col .win-percentage {
+        font-size: 0.85rem !important; padding: 0.34rem 0.55rem !important; min-width: 3.2rem;
+    }
+    .mobile-stats-strip { gap: 0.3rem 0.75rem !important; }
+    .mobile-stats-strip .mss-record-value { font-size: 1.02rem; }
+    .mobile-stats-strip .mss-stat-value { font-size: 0.86rem; }
 }
 
 /* Bootstrap dropdown menu (legacy fallback) — give it the skin */

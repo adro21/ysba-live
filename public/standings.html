@@ -63,6 +63,17 @@
     <link rel="stylesheet" href="/css/styles.css?v=898971">
     <link rel="stylesheet" href="/css/sports-skin.css?v=1">
 
+    <!-- Restore saved standings view (cards|table) before render to avoid a flash -->
+    <script>
+        (function () {
+            try {
+                var v = localStorage.getItem('standingsView');
+                if (v === 'table') {
+                    document.documentElement.classList.add('view-classic');
+                }
+            } catch (e) { /* private mode etc. */ }
+        })();
+    </script>
 </head>
 <body class="modern-body">
     <!-- Header -->
@@ -121,7 +132,17 @@
                                 <!-- Populated by JavaScript -->
                             </ul>
                         </div>
-                        <a href="#" id="notificationsBtn" class="status-action-link" data-bs-toggle="modal" data-bs-target="#notificationsModal">
+                        <!-- View Switcher: Cards / Table (phones only) -->
+                        <div class="view-switcher" id="viewSwitcher" role="tablist" aria-label="Standings view">
+                            <button class="view-switcher-btn" data-view="cards" type="button" role="tab" aria-label="Card view" title="Card view">
+                                <i class="bi bi-list-ul" aria-hidden="true"></i>
+                            </button>
+                            <button class="view-switcher-btn" data-view="table" type="button" role="tab" aria-label="Table view" title="Table view">
+                                <i class="bi bi-table" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <!-- Notifications: hidden until the backend is back online; do NOT remove. -->
+                        <a href="#" id="notificationsBtn" class="status-action-link status-action-link--hidden" data-bs-toggle="modal" data-bs-target="#notificationsModal" aria-hidden="true" tabindex="-1">
                             <i class="bi bi-bell"></i>
                             <span class="d-none d-lg-inline">Notifications</span>
                         </a>
