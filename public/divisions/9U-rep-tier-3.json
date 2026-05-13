@@ -3,42 +3,78 @@
     "teams": [
       {
         "position": 1,
-        "team": "Aurora-King Jays 9U A",
-        "teamCode": "617968",
+        "team": "Richmond Hill Phoenix 9U A",
+        "teamCode": "617846",
         "record": {
-          "gamesPlayed": 0,
-          "wins": 0,
+          "gamesPlayed": 1,
+          "wins": 1,
           "losses": 0,
           "ties": 0,
-          "winPercentage": ".000"
+          "winPercentage": "1.000"
         },
         "stats": {
-          "points": 0,
-          "runsFor": 0,
-          "runsAgainst": 0,
-          "runDifferential": 0
+          "points": 2,
+          "runsFor": 21,
+          "runsAgainst": 6,
+          "runDifferential": 15
         }
       },
       {
         "position": 2,
-        "team": "Barrie Baycats 9U A",
-        "teamCode": "612777",
+        "team": "Newmarket Hawks 9U A",
+        "teamCode": "617898",
         "record": {
-          "gamesPlayed": 0,
-          "wins": 0,
+          "gamesPlayed": 1,
+          "wins": 1,
           "losses": 0,
           "ties": 0,
-          "winPercentage": ".000"
+          "winPercentage": "1.000"
         },
         "stats": {
-          "points": 0,
-          "runsFor": 0,
-          "runsAgainst": 0,
-          "runDifferential": 0
+          "points": 2,
+          "runsFor": 25,
+          "runsAgainst": 15,
+          "runDifferential": 10
         }
       },
       {
         "position": 3,
+        "team": "Barrie Baycats 9U A",
+        "teamCode": "612777",
+        "record": {
+          "gamesPlayed": 1,
+          "wins": 0,
+          "losses": 1,
+          "ties": 0,
+          "winPercentage": "0.000"
+        },
+        "stats": {
+          "points": 0,
+          "runsFor": 15,
+          "runsAgainst": 25,
+          "runDifferential": -10
+        }
+      },
+      {
+        "position": 4,
+        "team": "Aurora-King Jays 9U A",
+        "teamCode": "617968",
+        "record": {
+          "gamesPlayed": 1,
+          "wins": 0,
+          "losses": 1,
+          "ties": 0,
+          "winPercentage": "0.000"
+        },
+        "stats": {
+          "points": 0,
+          "runsFor": 6,
+          "runsAgainst": 21,
+          "runDifferential": -15
+        }
+      },
+      {
+        "position": 5,
         "team": "Bradford Tigers 9U A",
         "teamCode": "617943",
         "record": {
@@ -56,7 +92,7 @@
         }
       },
       {
-        "position": 4,
+        "position": 6,
         "team": "Georgina Bulldogs 9U B",
         "teamCode": "625731",
         "record": {
@@ -74,7 +110,7 @@
         }
       },
       {
-        "position": 5,
+        "position": 7,
         "team": "Muskoka Hornets 9U A",
         "teamCode": "628932",
         "record": {
@@ -92,25 +128,7 @@
         }
       },
       {
-        "position": 6,
-        "team": "Newmarket Hawks 9U A",
-        "teamCode": "617898",
-        "record": {
-          "gamesPlayed": 0,
-          "wins": 0,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": ".000"
-        },
-        "stats": {
-          "points": 0,
-          "runsFor": 0,
-          "runsAgainst": 0,
-          "runDifferential": 0
-        }
-      },
-      {
-        "position": 7,
+        "position": 8,
         "team": "Orangeville Bengals 9U A",
         "teamCode": "618018",
         "record": {
@@ -128,7 +146,7 @@
         }
       },
       {
-        "position": 8,
+        "position": 9,
         "team": "Orillia 9U A",
         "teamCode": "618380",
         "record": {
@@ -144,27 +162,9 @@
           "runsAgainst": 0,
           "runDifferential": 0
         }
-      },
-      {
-        "position": 9,
-        "team": "Richmond Hill Phoenix 9U A",
-        "teamCode": "617846",
-        "record": {
-          "gamesPlayed": 0,
-          "wins": 0,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": ".000"
-        },
-        "stats": {
-          "points": 0,
-          "runsFor": 0,
-          "runsAgainst": 0,
-          "runDifferential": 0
-        }
       }
     ],
-    "lastUpdated": "2026-05-12T23:55:10.791Z",
+    "lastUpdated": "2026-05-13T02:36:07.692Z",
     "totalTeams": 9
   },
   "schedule": {
@@ -176,16 +176,33 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-12T23:55:15.262Z"
+        "lastUpdated": "2026-05-13T02:36:11.878Z"
       },
       "612777": {
         "teamCode": "612777",
         "totalGames": 16,
-        "playedGames": 0,
+        "playedGames": 1,
         "upcomingGames": 0,
-        "recentGames": [],
+        "recentGames": [
+          {
+            "date": null,
+            "dateText": "Tue, May 12",
+            "time": "6:30 PM",
+            "homeTeam": "Barrie Baycats 9U A",
+            "homeTeamCode": "612777",
+            "awayTeam": "Newmarket Hawks 9U A",
+            "awayTeamCode": "617898",
+            "location": "Barrie Sports Complex, Diamond 12",
+            "isCompleted": true,
+            "score": {
+              "home": 15,
+              "away": 25,
+              "scoreText": "25-15"
+            }
+          }
+        ],
         "nextGames": [],
-        "lastUpdated": "2026-05-12T23:55:15.262Z"
+        "lastUpdated": "2026-05-13T02:36:11.878Z"
       },
       "617171": {
         "teamCode": "617171",
@@ -194,7 +211,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-12T23:55:15.262Z"
+        "lastUpdated": "2026-05-13T02:36:11.878Z"
       },
       "617212": {
         "teamCode": "617212",
@@ -203,16 +220,33 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-12T23:55:15.262Z"
+        "lastUpdated": "2026-05-13T02:36:11.878Z"
       },
       "617846": {
         "teamCode": "617846",
         "totalGames": 16,
-        "playedGames": 0,
+        "playedGames": 1,
         "upcomingGames": 0,
-        "recentGames": [],
+        "recentGames": [
+          {
+            "date": null,
+            "dateText": "Tue, May 12",
+            "time": "6:00 PM",
+            "homeTeam": "Richmond Hill Phoenix 9U A",
+            "homeTeamCode": "617846",
+            "awayTeam": "Aurora-King Jays 9U A",
+            "awayTeamCode": "617968",
+            "location": "Richmond Green #3",
+            "isCompleted": true,
+            "score": {
+              "home": 21,
+              "away": 6,
+              "scoreText": "6-21"
+            }
+          }
+        ],
         "nextGames": [],
-        "lastUpdated": "2026-05-12T23:55:15.262Z"
+        "lastUpdated": "2026-05-13T02:36:11.878Z"
       },
       "617874": {
         "teamCode": "617874",
@@ -221,16 +255,33 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-12T23:55:15.262Z"
+        "lastUpdated": "2026-05-13T02:36:11.878Z"
       },
       "617898": {
         "teamCode": "617898",
         "totalGames": 16,
-        "playedGames": 0,
+        "playedGames": 1,
         "upcomingGames": 0,
-        "recentGames": [],
+        "recentGames": [
+          {
+            "date": null,
+            "dateText": "Tue, May 12",
+            "time": "6:30 PM",
+            "homeTeam": "Barrie Baycats 9U A",
+            "homeTeamCode": "612777",
+            "awayTeam": "Newmarket Hawks 9U A",
+            "awayTeamCode": "617898",
+            "location": "Barrie Sports Complex, Diamond 12",
+            "isCompleted": true,
+            "score": {
+              "home": 15,
+              "away": 25,
+              "scoreText": "25-15"
+            }
+          }
+        ],
         "nextGames": [],
-        "lastUpdated": "2026-05-12T23:55:15.262Z"
+        "lastUpdated": "2026-05-13T02:36:11.878Z"
       },
       "617899": {
         "teamCode": "617899",
@@ -239,7 +290,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-12T23:55:15.262Z"
+        "lastUpdated": "2026-05-13T02:36:11.878Z"
       },
       "617943": {
         "teamCode": "617943",
@@ -248,7 +299,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-12T23:55:15.262Z"
+        "lastUpdated": "2026-05-13T02:36:11.878Z"
       },
       "617967": {
         "teamCode": "617967",
@@ -257,16 +308,33 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-12T23:55:15.262Z"
+        "lastUpdated": "2026-05-13T02:36:11.878Z"
       },
       "617968": {
         "teamCode": "617968",
         "totalGames": 16,
-        "playedGames": 0,
+        "playedGames": 1,
         "upcomingGames": 0,
-        "recentGames": [],
+        "recentGames": [
+          {
+            "date": null,
+            "dateText": "Tue, May 12",
+            "time": "6:00 PM",
+            "homeTeam": "Richmond Hill Phoenix 9U A",
+            "homeTeamCode": "617846",
+            "awayTeam": "Aurora-King Jays 9U A",
+            "awayTeamCode": "617968",
+            "location": "Richmond Green #3",
+            "isCompleted": true,
+            "score": {
+              "home": 21,
+              "away": 6,
+              "scoreText": "6-21"
+            }
+          }
+        ],
         "nextGames": [],
-        "lastUpdated": "2026-05-12T23:55:15.262Z"
+        "lastUpdated": "2026-05-13T02:36:11.878Z"
       },
       "618018": {
         "teamCode": "618018",
@@ -275,7 +343,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-12T23:55:15.262Z"
+        "lastUpdated": "2026-05-13T02:36:11.878Z"
       },
       "618380": {
         "teamCode": "618380",
@@ -284,7 +352,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-12T23:55:15.262Z"
+        "lastUpdated": "2026-05-13T02:36:11.878Z"
       },
       "618472": {
         "teamCode": "618472",
@@ -293,7 +361,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-12T23:55:15.262Z"
+        "lastUpdated": "2026-05-13T02:36:11.878Z"
       },
       "625731": {
         "teamCode": "625731",
@@ -302,7 +370,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-12T23:55:15.262Z"
+        "lastUpdated": "2026-05-13T02:36:11.878Z"
       },
       "628932": {
         "teamCode": "628932",
@@ -311,7 +379,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-12T23:55:15.262Z"
+        "lastUpdated": "2026-05-13T02:36:11.878Z"
       }
     },
     "allGames": [
@@ -348,8 +416,12 @@
         "awayTeam": "Aurora-King Jays 9U A",
         "awayTeamCode": "617968",
         "location": "Richmond Green #3",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 21,
+          "away": 6,
+          "scoreText": "6-21"
+        }
       },
       {
         "date": null,
@@ -372,8 +444,12 @@
         "awayTeam": "Newmarket Hawks 9U A",
         "awayTeamCode": "617898",
         "location": "Barrie Sports Complex, Diamond 12",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 15,
+          "away": 25,
+          "scoreText": "25-15"
+        }
       },
       {
         "date": null,
@@ -1936,24 +2012,65 @@
         "score": null
       }
     ],
-    "recentGames": [],
+    "recentGames": [
+      {
+        "date": null,
+        "dateText": "Tue, May 12",
+        "time": "6:00 PM",
+        "homeTeam": "Richmond Hill Phoenix 9U A",
+        "homeTeamCode": "617846",
+        "awayTeam": "Aurora-King Jays 9U A",
+        "awayTeamCode": "617968",
+        "location": "Richmond Green #3",
+        "isCompleted": true,
+        "score": {
+          "home": 21,
+          "away": 6,
+          "scoreText": "6-21"
+        }
+      },
+      {
+        "date": null,
+        "dateText": "Tue, May 12",
+        "time": "6:30 PM",
+        "homeTeam": "Barrie Baycats 9U A",
+        "homeTeamCode": "612777",
+        "awayTeam": "Newmarket Hawks 9U A",
+        "awayTeamCode": "617898",
+        "location": "Barrie Sports Complex, Diamond 12",
+        "isCompleted": true,
+        "score": {
+          "home": 15,
+          "away": 25,
+          "scoreText": "25-15"
+        }
+      }
+    ],
     "upcomingGames": [],
-    "lastUpdated": "2026-05-12T23:55:15.262Z",
+    "lastUpdated": "2026-05-13T02:36:11.878Z",
     "totalGames": 135
   },
   "summary": {
     "totalTeams": 9,
     "totalGames": 135,
-    "completedGames": 0,
-    "upcomingGames": 135,
+    "completedGames": 2,
+    "upcomingGames": 133,
     "topTeam": {
-      "team": "Aurora-King Jays 9U A",
-      "teamCode": "617968",
-      "wins": 0,
+      "team": "Richmond Hill Phoenix 9U A",
+      "teamCode": "617846",
+      "wins": 1,
       "losses": 0,
-      "winPercentage": ".000"
+      "winPercentage": "1.000"
     },
-    "highestScoringGame": null,
-    "lastUpdated": "2026-05-13T00:00:17.020Z"
+    "highestScoringGame": {
+      "homeTeam": "Barrie Baycats 9U A",
+      "awayTeam": "Newmarket Hawks 9U A",
+      "homeScore": 15,
+      "awayScore": 25,
+      "totalRuns": 40,
+      "date": "Tue, May 12",
+      "location": "Barrie Sports Complex, Diamond 12"
+    },
+    "lastUpdated": "2026-05-13T02:40:52.851Z"
   }
 }

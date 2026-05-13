@@ -3,6 +3,42 @@
     "teams": [
       {
         "position": 1,
+        "team": "Barrie Baycats 12U AA",
+        "teamCode": "612783",
+        "record": {
+          "gamesPlayed": 1,
+          "wins": 1,
+          "losses": 0,
+          "ties": 0,
+          "winPercentage": "1.000"
+        },
+        "stats": {
+          "points": 2,
+          "runsFor": 20,
+          "runsAgainst": 2,
+          "runDifferential": 18
+        }
+      },
+      {
+        "position": 2,
+        "team": "Richmond Hill Phoenix 12U AA",
+        "teamCode": "617852",
+        "record": {
+          "gamesPlayed": 1,
+          "wins": 0,
+          "losses": 1,
+          "ties": 0,
+          "winPercentage": "0.000"
+        },
+        "stats": {
+          "points": 0,
+          "runsFor": 2,
+          "runsAgainst": 20,
+          "runDifferential": -18
+        }
+      },
+      {
+        "position": 3,
         "team": "Aurora-King Jays 12U AA",
         "teamCode": "617973",
         "record": {
@@ -20,25 +56,7 @@
         }
       },
       {
-        "position": 2,
-        "team": "Barrie Baycats 12U AA",
-        "teamCode": "612783",
-        "record": {
-          "gamesPlayed": 0,
-          "wins": 0,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": ".000"
-        },
-        "stats": {
-          "points": 0,
-          "runsFor": 0,
-          "runsAgainst": 0,
-          "runDifferential": 0
-        }
-      },
-      {
-        "position": 3,
+        "position": 4,
         "team": "Bradford Tigers 12U AA",
         "teamCode": "617946",
         "record": {
@@ -56,7 +74,7 @@
         }
       },
       {
-        "position": 4,
+        "position": 5,
         "team": "Markham Mariners 12U AA",
         "teamCode": "617879",
         "record": {
@@ -74,7 +92,7 @@
         }
       },
       {
-        "position": 5,
+        "position": 6,
         "team": "Muskoka Hornets 12U AA",
         "teamCode": "628934",
         "record": {
@@ -92,7 +110,7 @@
         }
       },
       {
-        "position": 6,
+        "position": 7,
         "team": "Newmarket Hawks 12U AA",
         "teamCode": "617907",
         "record": {
@@ -110,27 +128,9 @@
         }
       },
       {
-        "position": 7,
+        "position": 8,
         "team": "Orangeville Bengals 12U AA",
         "teamCode": "618022",
-        "record": {
-          "gamesPlayed": 0,
-          "wins": 0,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": ".000"
-        },
-        "stats": {
-          "points": 0,
-          "runsFor": 0,
-          "runsAgainst": 0,
-          "runDifferential": 0
-        }
-      },
-      {
-        "position": 8,
-        "team": "Richmond Hill Phoenix 12U AA",
-        "teamCode": "617852",
         "record": {
           "gamesPlayed": 0,
           "wins": 0,
@@ -164,7 +164,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-05-12T23:56:34.167Z",
+    "lastUpdated": "2026-05-13T02:37:25.616Z",
     "totalTeams": 9
   },
   "schedule": {
@@ -172,11 +172,28 @@
       "612783": {
         "teamCode": "612783",
         "totalGames": 16,
-        "playedGames": 0,
+        "playedGames": 1,
         "upcomingGames": 0,
-        "recentGames": [],
+        "recentGames": [
+          {
+            "date": null,
+            "dateText": "Tue, May 12",
+            "time": "6:30 PM",
+            "homeTeam": "Barrie Baycats 12U AA",
+            "homeTeamCode": "612783",
+            "awayTeam": "Richmond Hill Phoenix 12U AA",
+            "awayTeamCode": "617852",
+            "location": "Lampman Lane Community Centre",
+            "isCompleted": true,
+            "score": {
+              "home": 20,
+              "away": 2,
+              "scoreText": "2-20"
+            }
+          }
+        ],
         "nextGames": [],
-        "lastUpdated": "2026-05-12T23:56:38.838Z"
+        "lastUpdated": "2026-05-13T02:37:29.908Z"
       },
       "612784": {
         "teamCode": "612784",
@@ -185,7 +202,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-12T23:56:38.838Z"
+        "lastUpdated": "2026-05-13T02:37:29.908Z"
       },
       "617177": {
         "teamCode": "617177",
@@ -194,7 +211,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-12T23:56:38.838Z"
+        "lastUpdated": "2026-05-13T02:37:29.908Z"
       },
       "617178": {
         "teamCode": "617178",
@@ -203,7 +220,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-12T23:56:38.838Z"
+        "lastUpdated": "2026-05-13T02:37:29.908Z"
       },
       "617204": {
         "teamCode": "617204",
@@ -212,16 +229,33 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-12T23:56:38.838Z"
+        "lastUpdated": "2026-05-13T02:37:29.908Z"
       },
       "617852": {
         "teamCode": "617852",
         "totalGames": 16,
-        "playedGames": 0,
+        "playedGames": 1,
         "upcomingGames": 0,
-        "recentGames": [],
+        "recentGames": [
+          {
+            "date": null,
+            "dateText": "Tue, May 12",
+            "time": "6:30 PM",
+            "homeTeam": "Barrie Baycats 12U AA",
+            "homeTeamCode": "612783",
+            "awayTeam": "Richmond Hill Phoenix 12U AA",
+            "awayTeamCode": "617852",
+            "location": "Lampman Lane Community Centre",
+            "isCompleted": true,
+            "score": {
+              "home": 20,
+              "away": 2,
+              "scoreText": "2-20"
+            }
+          }
+        ],
         "nextGames": [],
-        "lastUpdated": "2026-05-12T23:56:38.838Z"
+        "lastUpdated": "2026-05-13T02:37:29.908Z"
       },
       "617879": {
         "teamCode": "617879",
@@ -230,7 +264,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-12T23:56:38.838Z"
+        "lastUpdated": "2026-05-13T02:37:29.908Z"
       },
       "617880": {
         "teamCode": "617880",
@@ -239,7 +273,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-12T23:56:38.838Z"
+        "lastUpdated": "2026-05-13T02:37:29.908Z"
       },
       "617906": {
         "teamCode": "617906",
@@ -265,7 +299,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-12T23:56:38.838Z"
+        "lastUpdated": "2026-05-13T02:37:29.908Z"
       },
       "617907": {
         "teamCode": "617907",
@@ -274,7 +308,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-12T23:56:38.838Z"
+        "lastUpdated": "2026-05-13T02:37:29.908Z"
       },
       "617946": {
         "teamCode": "617946",
@@ -283,7 +317,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-12T23:56:38.838Z"
+        "lastUpdated": "2026-05-13T02:37:29.908Z"
       },
       "617973": {
         "teamCode": "617973",
@@ -292,7 +326,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-12T23:56:38.838Z"
+        "lastUpdated": "2026-05-13T02:37:29.908Z"
       },
       "617974": {
         "teamCode": "617974",
@@ -318,7 +352,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-12T23:56:38.838Z"
+        "lastUpdated": "2026-05-13T02:37:29.908Z"
       },
       "617987": {
         "teamCode": "617987",
@@ -327,7 +361,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-12T23:56:38.838Z"
+        "lastUpdated": "2026-05-13T02:37:29.908Z"
       },
       "617988": {
         "teamCode": "617988",
@@ -336,7 +370,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-12T23:56:38.838Z"
+        "lastUpdated": "2026-05-13T02:37:29.908Z"
       },
       "618007": {
         "teamCode": "618007",
@@ -345,7 +379,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-12T23:56:38.838Z"
+        "lastUpdated": "2026-05-13T02:37:29.908Z"
       },
       "618021": {
         "teamCode": "618021",
@@ -354,7 +388,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-12T23:56:38.838Z"
+        "lastUpdated": "2026-05-13T02:37:29.908Z"
       },
       "618022": {
         "teamCode": "618022",
@@ -363,7 +397,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-12T23:56:38.838Z"
+        "lastUpdated": "2026-05-13T02:37:29.908Z"
       },
       "618044": {
         "teamCode": "618044",
@@ -372,7 +406,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-12T23:56:38.838Z"
+        "lastUpdated": "2026-05-13T02:37:29.908Z"
       },
       "618059": {
         "teamCode": "618059",
@@ -381,7 +415,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-12T23:56:38.838Z"
+        "lastUpdated": "2026-05-13T02:37:29.908Z"
       },
       "618068": {
         "teamCode": "618068",
@@ -390,7 +424,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-12T23:56:38.838Z"
+        "lastUpdated": "2026-05-13T02:37:29.908Z"
       },
       "618383": {
         "teamCode": "618383",
@@ -399,7 +433,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-12T23:56:38.838Z"
+        "lastUpdated": "2026-05-13T02:37:29.908Z"
       },
       "618395": {
         "teamCode": "618395",
@@ -408,7 +442,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-12T23:56:38.838Z"
+        "lastUpdated": "2026-05-13T02:37:29.908Z"
       },
       "618468": {
         "teamCode": "618468",
@@ -417,7 +451,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-12T23:56:38.838Z"
+        "lastUpdated": "2026-05-13T02:37:29.908Z"
       },
       "625727": {
         "teamCode": "625727",
@@ -426,7 +460,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-12T23:56:38.838Z"
+        "lastUpdated": "2026-05-13T02:37:29.908Z"
       },
       "628934": {
         "teamCode": "628934",
@@ -435,7 +469,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-12T23:56:38.838Z"
+        "lastUpdated": "2026-05-13T02:37:29.908Z"
       }
     },
     "allGames": [
@@ -512,8 +546,12 @@
         "awayTeam": "Richmond Hill Phoenix 12U AA",
         "awayTeamCode": "617852",
         "location": "Lampman Lane Community Centre",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 20,
+          "away": 2,
+          "scoreText": "2-20"
+        }
       },
       {
         "date": null,
@@ -2860,33 +2898,49 @@
           "away": 5,
           "scoreText": "5-10"
         }
+      },
+      {
+        "date": null,
+        "dateText": "Tue, May 12",
+        "time": "6:30 PM",
+        "homeTeam": "Barrie Baycats 12U AA",
+        "homeTeamCode": "612783",
+        "awayTeam": "Richmond Hill Phoenix 12U AA",
+        "awayTeamCode": "617852",
+        "location": "Lampman Lane Community Centre",
+        "isCompleted": true,
+        "score": {
+          "home": 20,
+          "away": 2,
+          "scoreText": "2-20"
+        }
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-05-12T23:56:38.838Z",
+    "lastUpdated": "2026-05-13T02:37:29.908Z",
     "totalGames": 200
   },
   "summary": {
     "totalTeams": 9,
     "totalGames": 200,
-    "completedGames": 1,
-    "upcomingGames": 199,
+    "completedGames": 2,
+    "upcomingGames": 198,
     "topTeam": {
-      "team": "Aurora-King Jays 12U AA",
-      "teamCode": "617973",
-      "wins": 0,
+      "team": "Barrie Baycats 12U AA",
+      "teamCode": "612783",
+      "wins": 1,
       "losses": 0,
-      "winPercentage": ".000"
+      "winPercentage": "1.000"
     },
     "highestScoringGame": {
-      "homeTeam": "Newmarket Hawks 12U A",
-      "awayTeam": "Aurora-King Jays 12U A",
-      "homeScore": 10,
-      "awayScore": 5,
-      "totalRuns": 15,
-      "date": "Mon, May 11",
-      "location": "Fairgrounds #1"
+      "homeTeam": "Barrie Baycats 12U AA",
+      "awayTeam": "Richmond Hill Phoenix 12U AA",
+      "homeScore": 20,
+      "awayScore": 2,
+      "totalRuns": 22,
+      "date": "Tue, May 12",
+      "location": "Lampman Lane Community Centre"
     },
-    "lastUpdated": "2026-05-13T00:00:17.020Z"
+    "lastUpdated": "2026-05-13T02:40:52.851Z"
   }
 }
