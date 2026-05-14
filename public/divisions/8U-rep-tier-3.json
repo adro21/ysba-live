@@ -57,6 +57,24 @@
       },
       {
         "position": 4,
+        "team": "Georgina Bulldogs 8U B",
+        "teamCode": "625730",
+        "record": {
+          "gamesPlayed": 1,
+          "wins": 1,
+          "losses": 0,
+          "ties": 0,
+          "winPercentage": "1.000"
+        },
+        "stats": {
+          "points": 2,
+          "runsFor": 10,
+          "runsAgainst": 9,
+          "runDifferential": 1
+        }
+      },
+      {
+        "position": 5,
         "team": "Newmarket Hawks 8U A",
         "teamCode": "617896",
         "record": {
@@ -74,7 +92,7 @@
         }
       },
       {
-        "position": 5,
+        "position": 6,
         "team": "TNT Thunder 8U A",
         "teamCode": "618056",
         "record": {
@@ -92,25 +110,25 @@
         }
       },
       {
-        "position": 6,
+        "position": 7,
         "team": "Orillia 8U B",
         "teamCode": "618379",
         "record": {
-          "gamesPlayed": 1,
+          "gamesPlayed": 2,
           "wins": 0,
-          "losses": 1,
+          "losses": 2,
           "ties": 0,
           "winPercentage": "0.000"
         },
         "stats": {
           "points": 0,
-          "runsFor": 15,
-          "runsAgainst": 17,
-          "runDifferential": -2
+          "runsFor": 24,
+          "runsAgainst": 27,
+          "runDifferential": -3
         }
       },
       {
-        "position": 7,
+        "position": 8,
         "team": "Stouffville 8U A",
         "teamCode": "617210",
         "record": {
@@ -128,7 +146,7 @@
         }
       },
       {
-        "position": 8,
+        "position": 9,
         "team": "Caledon Nationals 8U A",
         "teamCode": "618474",
         "record": {
@@ -143,24 +161,6 @@
           "runsFor": 2,
           "runsAgainst": 25,
           "runDifferential": -23
-        }
-      },
-      {
-        "position": 9,
-        "team": "Georgina Bulldogs 8U B",
-        "teamCode": "625730",
-        "record": {
-          "gamesPlayed": 0,
-          "wins": 0,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": ".000"
-        },
-        "stats": {
-          "points": 0,
-          "runsFor": 0,
-          "runsAgainst": 0,
-          "runDifferential": 0
         }
       },
       {
@@ -182,7 +182,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-05-14T11:46:36.915Z",
+    "lastUpdated": "2026-05-14T13:54:28.041Z",
     "totalTeams": 10
   },
   "schedule": {
@@ -211,7 +211,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-14T11:46:39.806Z"
+        "lastUpdated": "2026-05-14T13:54:30.967Z"
       },
       "617170": {
         "teamCode": "617170",
@@ -220,7 +220,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-14T11:46:39.806Z"
+        "lastUpdated": "2026-05-14T13:54:30.967Z"
       },
       "617210": {
         "teamCode": "617210",
@@ -246,7 +246,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-14T11:46:39.806Z"
+        "lastUpdated": "2026-05-14T13:54:30.967Z"
       },
       "617845": {
         "teamCode": "617845",
@@ -272,7 +272,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-14T11:46:39.806Z"
+        "lastUpdated": "2026-05-14T13:54:30.967Z"
       },
       "617873": {
         "teamCode": "617873",
@@ -298,7 +298,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-14T11:46:39.806Z"
+        "lastUpdated": "2026-05-14T13:54:30.967Z"
       },
       "617896": {
         "teamCode": "617896",
@@ -324,7 +324,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-14T11:46:39.806Z"
+        "lastUpdated": "2026-05-14T13:54:30.967Z"
       },
       "618056": {
         "teamCode": "618056",
@@ -350,12 +350,12 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-14T11:46:39.806Z"
+        "lastUpdated": "2026-05-14T13:54:30.967Z"
       },
       "618379": {
         "teamCode": "618379",
         "totalGames": 15,
-        "playedGames": 1,
+        "playedGames": 2,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -373,10 +373,26 @@
               "away": 15,
               "scoreText": "15-17"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Tue, May 12",
+            "time": "6:00 PM",
+            "homeTeam": "Orillia 8U B",
+            "homeTeamCode": "618379",
+            "awayTeam": "Georgina Bulldogs 8U B",
+            "awayTeamCode": "625730",
+            "location": "Dean Heliotis",
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 10,
+              "scoreText": "10-9"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-14T11:46:39.806Z"
+        "lastUpdated": "2026-05-14T13:54:30.967Z"
       },
       "618474": {
         "teamCode": "618474",
@@ -402,16 +418,33 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-14T11:46:39.806Z"
+        "lastUpdated": "2026-05-14T13:54:30.967Z"
       },
       "625730": {
         "teamCode": "625730",
         "totalGames": 15,
-        "playedGames": 0,
+        "playedGames": 1,
         "upcomingGames": 0,
-        "recentGames": [],
+        "recentGames": [
+          {
+            "date": null,
+            "dateText": "Tue, May 12",
+            "time": "6:00 PM",
+            "homeTeam": "Orillia 8U B",
+            "homeTeamCode": "618379",
+            "awayTeam": "Georgina Bulldogs 8U B",
+            "awayTeamCode": "625730",
+            "location": "Dean Heliotis",
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 10,
+              "scoreText": "10-9"
+            }
+          }
+        ],
         "nextGames": [],
-        "lastUpdated": "2026-05-14T11:46:39.806Z"
+        "lastUpdated": "2026-05-14T13:54:30.967Z"
       }
     },
     "allGames": [
@@ -500,8 +533,12 @@
         "awayTeam": "Georgina Bulldogs 8U B",
         "awayTeamCode": "625730",
         "location": "Dean Heliotis",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 10,
+          "scoreText": "10-9"
+        }
       },
       {
         "date": null,
@@ -1396,17 +1433,33 @@
           "away": 2,
           "scoreText": "2-25"
         }
+      },
+      {
+        "date": null,
+        "dateText": "Tue, May 12",
+        "time": "6:00 PM",
+        "homeTeam": "Orillia 8U B",
+        "homeTeamCode": "618379",
+        "awayTeam": "Georgina Bulldogs 8U B",
+        "awayTeamCode": "625730",
+        "location": "Dean Heliotis",
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 10,
+          "scoreText": "10-9"
+        }
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-05-14T11:46:39.806Z",
+    "lastUpdated": "2026-05-14T13:54:30.967Z",
     "totalGames": 75
   },
   "summary": {
     "totalTeams": 10,
     "totalGames": 75,
-    "completedGames": 4,
-    "upcomingGames": 71,
+    "completedGames": 5,
+    "upcomingGames": 70,
     "topTeam": {
       "team": "Markham Mariners 8U A",
       "teamCode": "617873",
@@ -1423,6 +1476,6 @@
       "date": "Mon, May 11",
       "location": "Barrie Sports Complex - Diamond 12"
     },
-    "lastUpdated": "2026-05-14T11:52:10.576Z"
+    "lastUpdated": "2026-05-14T14:00:03.491Z"
   }
 }
