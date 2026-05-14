@@ -92,6 +92,24 @@
         }
       },
       {
+        "position": 7,
+        "team": "Georgina",
+        "teamCode": "892647",
+        "record": {
+          "gamesPlayed": 1,
+          "wins": 1,
+          "losses": 0,
+          "ties": 0,
+          "winPercentage": "1.000"
+        },
+        "stats": {
+          "points": 2,
+          "runsFor": 17,
+          "runsAgainst": 3,
+          "runDifferential": 14
+        }
+      },
+      {
         "position": 5,
         "team": "East York",
         "teamCode": "892640",
@@ -110,7 +128,7 @@
         }
       },
       {
-        "position": 7,
+        "position": 8,
         "team": "Barrie",
         "teamCode": "892634",
         "record": {
@@ -128,7 +146,25 @@
         }
       },
       {
-        "position": 8,
+        "position": 9,
+        "team": "Richmond Hill",
+        "teamCode": "892636",
+        "record": {
+          "gamesPlayed": 1,
+          "wins": 0,
+          "losses": 1,
+          "ties": 0,
+          "winPercentage": "0.000"
+        },
+        "stats": {
+          "points": 0,
+          "runsFor": 3,
+          "runsAgainst": 17,
+          "runDifferential": -14
+        }
+      },
+      {
+        "position": 10,
         "team": "Bloordale",
         "teamCode": "892638",
         "record": {
@@ -146,7 +182,7 @@
         }
       },
       {
-        "position": 9,
+        "position": 11,
         "team": "Aurora-King",
         "teamCode": "892642",
         "record": {
@@ -164,7 +200,7 @@
         }
       },
       {
-        "position": 10,
+        "position": 12,
         "team": "Scarborough",
         "teamCode": "892643",
         "record": {
@@ -182,7 +218,7 @@
         }
       },
       {
-        "position": 11,
+        "position": 13,
         "team": "Caledon",
         "teamCode": "892646",
         "record": {
@@ -200,7 +236,7 @@
         }
       },
       {
-        "position": 12,
+        "position": 14,
         "team": "Leaside",
         "teamCode": "892648",
         "record": {
@@ -216,45 +252,9 @@
           "runsAgainst": 18,
           "runDifferential": -18
         }
-      },
-      {
-        "position": 13,
-        "team": "Richmond Hill",
-        "teamCode": "892636",
-        "record": {
-          "gamesPlayed": 0,
-          "wins": 0,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": ".000"
-        },
-        "stats": {
-          "points": 0,
-          "runsFor": 0,
-          "runsAgainst": 0,
-          "runDifferential": 0
-        }
-      },
-      {
-        "position": 14,
-        "team": "Georgina",
-        "teamCode": "892647",
-        "record": {
-          "gamesPlayed": 0,
-          "wins": 0,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": ".000"
-        },
-        "stats": {
-          "points": 0,
-          "runsFor": 0,
-          "runsAgainst": 0,
-          "runDifferential": 0
-        }
       }
     ],
-    "lastUpdated": "2026-05-14T16:12:43.469Z",
+    "lastUpdated": "2026-05-14T18:20:00.051Z",
     "totalTeams": 14
   },
   "schedule": {
@@ -376,7 +376,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-14T16:12:43.513Z"
+        "lastUpdated": "2026-05-14T18:20:00.092Z"
       },
       "892634": {
         "teamCode": "892634",
@@ -475,7 +475,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-14T16:12:43.513Z"
+        "lastUpdated": "2026-05-14T18:20:00.092Z"
       },
       "892636": {
         "teamCode": "892636",
@@ -492,8 +492,12 @@
             "awayTeam": "Richmond Hill",
             "awayTeamCode": "892636",
             "location": "Morgan — Markham",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 17,
+              "away": 3,
+              "scoreText": "3-17"
+            }
           }
         ],
         "nextGames": [
@@ -558,7 +562,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-14T16:12:43.514Z"
+        "lastUpdated": "2026-05-14T18:20:00.093Z"
       },
       "892637": {
         "teamCode": "892637",
@@ -645,7 +649,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-14T16:12:43.514Z"
+        "lastUpdated": "2026-05-14T18:20:00.093Z"
       },
       "892638": {
         "teamCode": "892638",
@@ -732,7 +736,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-14T16:12:43.514Z"
+        "lastUpdated": "2026-05-14T18:20:00.093Z"
       },
       "892639": {
         "teamCode": "892639",
@@ -819,7 +823,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-14T16:12:43.514Z"
+        "lastUpdated": "2026-05-14T18:20:00.093Z"
       },
       "892640": {
         "teamCode": "892640",
@@ -922,7 +926,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-14T16:12:43.514Z"
+        "lastUpdated": "2026-05-14T18:20:00.093Z"
       },
       "892642": {
         "teamCode": "892642",
@@ -1025,7 +1029,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-14T16:12:43.514Z"
+        "lastUpdated": "2026-05-14T18:20:00.093Z"
       },
       "892643": {
         "teamCode": "892643",
@@ -1112,7 +1116,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-14T16:12:43.514Z"
+        "lastUpdated": "2026-05-14T18:20:00.093Z"
       },
       "892644": {
         "teamCode": "892644",
@@ -1215,7 +1219,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-14T16:12:43.514Z"
+        "lastUpdated": "2026-05-14T18:20:00.093Z"
       },
       "892645": {
         "teamCode": "892645",
@@ -1314,7 +1318,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-14T16:12:43.514Z"
+        "lastUpdated": "2026-05-14T18:20:00.093Z"
       },
       "892646": {
         "teamCode": "892646",
@@ -1417,7 +1421,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-14T16:12:43.514Z"
+        "lastUpdated": "2026-05-14T18:20:00.093Z"
       },
       "892647": {
         "teamCode": "892647",
@@ -1434,8 +1438,12 @@
             "awayTeam": "Richmond Hill",
             "awayTeamCode": "892636",
             "location": "Morgan — Markham",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 17,
+              "away": 3,
+              "scoreText": "3-17"
+            }
           }
         ],
         "nextGames": [
@@ -1500,7 +1508,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-14T16:12:43.514Z"
+        "lastUpdated": "2026-05-14T18:20:00.093Z"
       },
       "892648": {
         "teamCode": "892648",
@@ -1587,7 +1595,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-05-14T16:12:43.514Z"
+        "lastUpdated": "2026-05-14T18:20:00.093Z"
       }
     },
     "allGames": [
@@ -1780,8 +1788,12 @@
         "awayTeam": "Richmond Hill",
         "awayTeamCode": "892636",
         "location": "Morgan — Markham",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 17,
+          "away": 3,
+          "scoreText": "3-17"
+        }
       },
       {
         "date": "2026-05-14T22:00:00.000Z",
@@ -3402,8 +3414,12 @@
         "awayTeam": "Richmond Hill",
         "awayTeamCode": "892636",
         "location": "Morgan — Markham",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 17,
+          "away": 3,
+          "scoreText": "3-17"
+        }
       },
       {
         "date": "2026-05-13T22:30:00.000Z",
@@ -3668,14 +3684,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2026-05-14T16:12:43.514Z",
+    "lastUpdated": "2026-05-14T18:20:00.093Z",
     "totalGames": 147
   },
   "summary": {
     "totalTeams": 14,
     "totalGames": 147,
-    "completedGames": 9,
-    "upcomingGames": 138,
+    "completedGames": 10,
+    "upcomingGames": 137,
     "topTeam": {
       "team": "Royal York",
       "teamCode": "892633",
@@ -3692,6 +3708,6 @@
       "date": "Sun, May 3",
       "location": "Westway — Toronto"
     },
-    "lastUpdated": "2026-05-14T16:12:43.515Z"
+    "lastUpdated": "2026-05-14T18:20:00.094Z"
   }
 }
