@@ -21,6 +21,24 @@
       },
       {
         "position": 2,
+        "team": "Markham Mariners 11U DS",
+        "teamCode": "617892",
+        "record": {
+          "gamesPlayed": 2,
+          "wins": 2,
+          "losses": 0,
+          "ties": 0,
+          "winPercentage": "1.000"
+        },
+        "stats": {
+          "points": 4,
+          "runsFor": 33,
+          "runsAgainst": 19,
+          "runDifferential": 14
+        }
+      },
+      {
+        "position": 3,
         "team": "Thornhill Reds 11U DS",
         "teamCode": "618000",
         "record": {
@@ -38,7 +56,7 @@
         }
       },
       {
-        "position": 3,
+        "position": 4,
         "team": "Barrie Baycats 11U DS",
         "teamCode": "612798",
         "record": {
@@ -56,7 +74,7 @@
         }
       },
       {
-        "position": 4,
+        "position": 5,
         "team": "Collingwood Jays 11U DS",
         "teamCode": "618014",
         "record": {
@@ -74,7 +92,25 @@
         }
       },
       {
-        "position": 5,
+        "position": 6,
+        "team": "Innisfil Cardinals 11U DS",
+        "teamCode": "618053",
+        "record": {
+          "gamesPlayed": 2,
+          "wins": 0,
+          "losses": 2,
+          "ties": 0,
+          "winPercentage": "0.000"
+        },
+        "stats": {
+          "points": 0,
+          "runsFor": 19,
+          "runsAgainst": 33,
+          "runDifferential": -14
+        }
+      },
+      {
+        "position": 7,
         "team": "Orillia 11U DS",
         "teamCode": "618391",
         "record": {
@@ -92,45 +128,9 @@
         }
       },
       {
-        "position": 6,
+        "position": 8,
         "team": "Caledon Nationals 11U DS",
         "teamCode": "618476",
-        "record": {
-          "gamesPlayed": 0,
-          "wins": 0,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": ".000"
-        },
-        "stats": {
-          "points": 0,
-          "runsFor": 0,
-          "runsAgainst": 0,
-          "runDifferential": 0
-        }
-      },
-      {
-        "position": 7,
-        "team": "Innisfil Cardinals 11U DS",
-        "teamCode": "618053",
-        "record": {
-          "gamesPlayed": 0,
-          "wins": 0,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": ".000"
-        },
-        "stats": {
-          "points": 0,
-          "runsFor": 0,
-          "runsAgainst": 0,
-          "runDifferential": 0
-        }
-      },
-      {
-        "position": 8,
-        "team": "Markham Mariners 11U DS",
-        "teamCode": "617892",
         "record": {
           "gamesPlayed": 0,
           "wins": 0,
@@ -200,7 +200,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-05-17T13:10:36.175Z",
+    "lastUpdated": "2026-05-17T14:47:31.346Z",
     "totalTeams": 11
   },
   "schedule": {
@@ -245,7 +245,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-17T13:10:38.840Z"
+        "lastUpdated": "2026-05-17T14:47:34.229Z"
       },
       "617189": {
         "teamCode": "617189",
@@ -254,7 +254,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-17T13:10:38.840Z"
+        "lastUpdated": "2026-05-17T14:47:34.229Z"
       },
       "617190": {
         "teamCode": "617190",
@@ -328,16 +328,49 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-17T13:10:38.840Z"
+        "lastUpdated": "2026-05-17T14:47:34.229Z"
       },
       "617892": {
         "teamCode": "617892",
         "totalGames": 16,
-        "playedGames": 0,
+        "playedGames": 2,
         "upcomingGames": 0,
-        "recentGames": [],
+        "recentGames": [
+          {
+            "date": null,
+            "dateText": "Sat, May 16",
+            "time": "10:00 AM",
+            "homeTeam": "Innisfil Cardinals 11U DS",
+            "homeTeamCode": "618053",
+            "awayTeam": "Markham Mariners 11U DS",
+            "awayTeamCode": "617892",
+            "location": "Stroud",
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 21,
+              "scoreText": "21-9"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, May 16",
+            "time": "12:00 PM",
+            "homeTeam": "Innisfil Cardinals 11U DS",
+            "homeTeamCode": "618053",
+            "awayTeam": "Markham Mariners 11U DS",
+            "awayTeamCode": "617892",
+            "location": "Stroud",
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 12,
+              "scoreText": "12-10"
+            }
+          }
+        ],
         "nextGames": [],
-        "lastUpdated": "2026-05-17T13:10:38.840Z"
+        "lastUpdated": "2026-05-17T14:47:34.229Z"
       },
       "617917": {
         "teamCode": "617917",
@@ -346,7 +379,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-17T13:10:38.840Z"
+        "lastUpdated": "2026-05-17T14:47:34.229Z"
       },
       "618000": {
         "teamCode": "618000",
@@ -388,7 +421,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-17T13:10:38.840Z"
+        "lastUpdated": "2026-05-17T14:47:34.229Z"
       },
       "618014": {
         "teamCode": "618014",
@@ -430,7 +463,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-17T13:10:38.840Z"
+        "lastUpdated": "2026-05-17T14:47:34.229Z"
       },
       "618027": {
         "teamCode": "618027",
@@ -439,16 +472,49 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-17T13:10:38.840Z"
+        "lastUpdated": "2026-05-17T14:47:34.229Z"
       },
       "618053": {
         "teamCode": "618053",
         "totalGames": 16,
-        "playedGames": 0,
+        "playedGames": 2,
         "upcomingGames": 0,
-        "recentGames": [],
+        "recentGames": [
+          {
+            "date": null,
+            "dateText": "Sat, May 16",
+            "time": "10:00 AM",
+            "homeTeam": "Innisfil Cardinals 11U DS",
+            "homeTeamCode": "618053",
+            "awayTeam": "Markham Mariners 11U DS",
+            "awayTeamCode": "617892",
+            "location": "Stroud",
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 21,
+              "scoreText": "21-9"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, May 16",
+            "time": "12:00 PM",
+            "homeTeam": "Innisfil Cardinals 11U DS",
+            "homeTeamCode": "618053",
+            "awayTeam": "Markham Mariners 11U DS",
+            "awayTeamCode": "617892",
+            "location": "Stroud",
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 12,
+              "scoreText": "12-10"
+            }
+          }
+        ],
         "nextGames": [],
-        "lastUpdated": "2026-05-17T13:10:38.840Z"
+        "lastUpdated": "2026-05-17T14:47:34.229Z"
       },
       "618391": {
         "teamCode": "618391",
@@ -490,7 +556,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-17T13:10:38.840Z"
+        "lastUpdated": "2026-05-17T14:47:34.229Z"
       },
       "618476": {
         "teamCode": "618476",
@@ -499,7 +565,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-17T13:10:38.840Z"
+        "lastUpdated": "2026-05-17T14:47:34.229Z"
       }
     },
     "allGames": [
@@ -576,8 +642,12 @@
         "awayTeam": "Markham Mariners 11U DS",
         "awayTeamCode": "617892",
         "location": "Stroud",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 21,
+          "scoreText": "21-9"
+        }
       },
       {
         "date": null,
@@ -604,8 +674,12 @@
         "awayTeam": "Markham Mariners 11U DS",
         "awayTeamCode": "617892",
         "location": "Stroud",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 12,
+          "scoreText": "12-10"
+        }
       },
       {
         "date": null,
@@ -1652,6 +1726,22 @@
       {
         "date": null,
         "dateText": "Sat, May 16",
+        "time": "10:00 AM",
+        "homeTeam": "Innisfil Cardinals 11U DS",
+        "homeTeamCode": "618053",
+        "awayTeam": "Markham Mariners 11U DS",
+        "awayTeamCode": "617892",
+        "location": "Stroud",
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 21,
+          "scoreText": "21-9"
+        }
+      },
+      {
+        "date": null,
+        "dateText": "Sat, May 16",
         "time": "11:00 AM",
         "homeTeam": "Vaughan Vikings 11U DS",
         "homeTeamCode": "617190",
@@ -1663,6 +1753,22 @@
           "home": 14,
           "away": 13,
           "scoreText": "13-14"
+        }
+      },
+      {
+        "date": null,
+        "dateText": "Sat, May 16",
+        "time": "12:00 PM",
+        "homeTeam": "Innisfil Cardinals 11U DS",
+        "homeTeamCode": "618053",
+        "awayTeam": "Markham Mariners 11U DS",
+        "awayTeamCode": "617892",
+        "location": "Stroud",
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 12,
+          "scoreText": "12-10"
         }
       },
       {
@@ -1683,14 +1789,14 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-05-17T13:10:38.840Z",
+    "lastUpdated": "2026-05-17T14:47:34.229Z",
     "totalGames": 88
   },
   "summary": {
     "totalTeams": 11,
     "totalGames": 88,
-    "completedGames": 6,
-    "upcomingGames": 82,
+    "completedGames": 8,
+    "upcomingGames": 80,
     "topTeam": {
       "team": "Vaughan Vikings 11U DS",
       "teamCode": "617190",
@@ -1699,14 +1805,14 @@
       "winPercentage": "1.000"
     },
     "highestScoringGame": {
-      "homeTeam": "Vaughan Vikings 11U DS",
-      "awayTeam": "Collingwood Jays 11U DS",
-      "homeScore": 14,
-      "awayScore": 13,
-      "totalRuns": 27,
+      "homeTeam": "Innisfil Cardinals 11U DS",
+      "awayTeam": "Markham Mariners 11U DS",
+      "homeScore": 9,
+      "awayScore": 21,
+      "totalRuns": 30,
       "date": "Sat, May 16",
-      "location": "Chatfield District Park"
+      "location": "Stroud"
     },
-    "lastUpdated": "2026-05-17T13:10:53.063Z"
+    "lastUpdated": "2026-05-17T14:47:48.732Z"
   }
 }
