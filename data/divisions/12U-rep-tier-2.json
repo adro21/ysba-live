@@ -20,7 +20,7 @@
         }
       },
       {
-        "position": 2,
+        "position": 3,
         "team": "Barrie Baycats 12U AA",
         "teamCode": "612783",
         "record": {
@@ -38,9 +38,9 @@
         }
       },
       {
-        "position": 3,
-        "team": "Aurora-King Jays 12U AA",
-        "teamCode": "617973",
+        "position": 4,
+        "team": "Bradford Tigers 12U AA",
+        "teamCode": "617946",
         "record": {
           "gamesPlayed": 1,
           "wins": 1,
@@ -50,13 +50,31 @@
         },
         "stats": {
           "points": 2,
-          "runsFor": 10,
-          "runsAgainst": 4,
-          "runDifferential": 6
+          "runsFor": 13,
+          "runsAgainst": 3,
+          "runDifferential": 10
         }
       },
       {
-        "position": 4,
+        "position": 2,
+        "team": "Aurora-King Jays 12U AA",
+        "teamCode": "617973",
+        "record": {
+          "gamesPlayed": 2,
+          "wins": 1,
+          "losses": 1,
+          "ties": 0,
+          "winPercentage": "0.500"
+        },
+        "stats": {
+          "points": 2,
+          "runsFor": 13,
+          "runsAgainst": 17,
+          "runDifferential": -4
+        }
+      },
+      {
+        "position": 5,
         "team": "Newmarket Hawks 12U AA",
         "teamCode": "617907",
         "record": {
@@ -74,7 +92,7 @@
         }
       },
       {
-        "position": 5,
+        "position": 6,
         "team": "Vaughan Vikings 12U AA",
         "teamCode": "617177",
         "record": {
@@ -92,7 +110,7 @@
         }
       },
       {
-        "position": 6,
+        "position": 7,
         "team": "Richmond Hill Phoenix 12U AA",
         "teamCode": "617852",
         "record": {
@@ -107,24 +125,6 @@
           "runsFor": 2,
           "runsAgainst": 20,
           "runDifferential": -18
-        }
-      },
-      {
-        "position": 7,
-        "team": "Bradford Tigers 12U AA",
-        "teamCode": "617946",
-        "record": {
-          "gamesPlayed": 0,
-          "wins": 0,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": ".000"
-        },
-        "stats": {
-          "points": 0,
-          "runsFor": 0,
-          "runsAgainst": 0,
-          "runDifferential": 0
         }
       },
       {
@@ -164,7 +164,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-05-16T23:46:16.278Z",
+    "lastUpdated": "2026-05-17T02:35:25.628Z",
     "totalTeams": 9
   },
   "schedule": {
@@ -193,7 +193,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-16T23:46:20.425Z"
+        "lastUpdated": "2026-05-17T02:35:30.134Z"
       },
       "612784": {
         "teamCode": "612784",
@@ -202,7 +202,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-16T23:46:20.425Z"
+        "lastUpdated": "2026-05-17T02:35:30.134Z"
       },
       "617177": {
         "teamCode": "617177",
@@ -228,7 +228,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-16T23:46:20.425Z"
+        "lastUpdated": "2026-05-17T02:35:30.134Z"
       },
       "617178": {
         "teamCode": "617178",
@@ -254,7 +254,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-16T23:46:20.425Z"
+        "lastUpdated": "2026-05-17T02:35:30.134Z"
       },
       "617204": {
         "teamCode": "617204",
@@ -280,7 +280,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-16T23:46:20.425Z"
+        "lastUpdated": "2026-05-17T02:35:30.134Z"
       },
       "617852": {
         "teamCode": "617852",
@@ -306,7 +306,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-16T23:46:20.425Z"
+        "lastUpdated": "2026-05-17T02:35:30.134Z"
       },
       "617879": {
         "teamCode": "617879",
@@ -348,7 +348,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-16T23:46:20.425Z"
+        "lastUpdated": "2026-05-17T02:35:30.134Z"
       },
       "617880": {
         "teamCode": "617880",
@@ -374,7 +374,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-16T23:46:20.425Z"
+        "lastUpdated": "2026-05-17T02:35:30.134Z"
       },
       "617906": {
         "teamCode": "617906",
@@ -400,7 +400,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-16T23:46:20.425Z"
+        "lastUpdated": "2026-05-17T02:35:30.134Z"
       },
       "617907": {
         "teamCode": "617907",
@@ -442,23 +442,56 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-16T23:46:20.425Z"
+        "lastUpdated": "2026-05-17T02:35:30.134Z"
       },
       "617946": {
         "teamCode": "617946",
         "totalGames": 16,
-        "playedGames": 0,
+        "playedGames": 1,
         "upcomingGames": 0,
-        "recentGames": [],
+        "recentGames": [
+          {
+            "date": null,
+            "dateText": "Wed, May 13",
+            "time": "6:00 PM",
+            "homeTeam": "Bradford Tigers 12U AA",
+            "homeTeamCode": "617946",
+            "awayTeam": "Aurora-King Jays 12U AA",
+            "awayTeamCode": "617973",
+            "location": "Joe Magani Park Field # 2",
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 3,
+              "scoreText": "3-13"
+            }
+          }
+        ],
         "nextGames": [],
-        "lastUpdated": "2026-05-16T23:46:20.425Z"
+        "lastUpdated": "2026-05-17T02:35:30.134Z"
       },
       "617973": {
         "teamCode": "617973",
         "totalGames": 16,
-        "playedGames": 1,
+        "playedGames": 2,
         "upcomingGames": 0,
         "recentGames": [
+          {
+            "date": null,
+            "dateText": "Wed, May 13",
+            "time": "6:00 PM",
+            "homeTeam": "Bradford Tigers 12U AA",
+            "homeTeamCode": "617946",
+            "awayTeam": "Aurora-King Jays 12U AA",
+            "awayTeamCode": "617973",
+            "location": "Joe Magani Park Field # 2",
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 3,
+              "scoreText": "3-13"
+            }
+          },
           {
             "date": null,
             "dateText": "Thu, May 14",
@@ -477,7 +510,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-16T23:46:20.425Z"
+        "lastUpdated": "2026-05-17T02:35:30.134Z"
       },
       "617974": {
         "teamCode": "617974",
@@ -503,7 +536,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-16T23:46:20.425Z"
+        "lastUpdated": "2026-05-17T02:35:30.134Z"
       },
       "617987": {
         "teamCode": "617987",
@@ -529,7 +562,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-16T23:46:20.425Z"
+        "lastUpdated": "2026-05-17T02:35:30.134Z"
       },
       "617988": {
         "teamCode": "617988",
@@ -555,7 +588,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-16T23:46:20.425Z"
+        "lastUpdated": "2026-05-17T02:35:30.134Z"
       },
       "618007": {
         "teamCode": "618007",
@@ -564,7 +597,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-16T23:46:20.425Z"
+        "lastUpdated": "2026-05-17T02:35:30.134Z"
       },
       "618021": {
         "teamCode": "618021",
@@ -573,7 +606,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-16T23:46:20.425Z"
+        "lastUpdated": "2026-05-17T02:35:30.134Z"
       },
       "618022": {
         "teamCode": "618022",
@@ -582,7 +615,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-16T23:46:20.425Z"
+        "lastUpdated": "2026-05-17T02:35:30.134Z"
       },
       "618044": {
         "teamCode": "618044",
@@ -591,7 +624,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-16T23:46:20.425Z"
+        "lastUpdated": "2026-05-17T02:35:30.134Z"
       },
       "618059": {
         "teamCode": "618059",
@@ -600,7 +633,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-16T23:46:20.425Z"
+        "lastUpdated": "2026-05-17T02:35:30.134Z"
       },
       "618068": {
         "teamCode": "618068",
@@ -626,7 +659,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-16T23:46:20.425Z"
+        "lastUpdated": "2026-05-17T02:35:30.134Z"
       },
       "618383": {
         "teamCode": "618383",
@@ -635,7 +668,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-16T23:46:20.425Z"
+        "lastUpdated": "2026-05-17T02:35:30.134Z"
       },
       "618395": {
         "teamCode": "618395",
@@ -661,7 +694,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-16T23:46:20.425Z"
+        "lastUpdated": "2026-05-17T02:35:30.134Z"
       },
       "618468": {
         "teamCode": "618468",
@@ -670,7 +703,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-16T23:46:20.425Z"
+        "lastUpdated": "2026-05-17T02:35:30.134Z"
       },
       "625727": {
         "teamCode": "625727",
@@ -696,7 +729,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-16T23:46:20.425Z"
+        "lastUpdated": "2026-05-17T02:35:30.134Z"
       },
       "628934": {
         "teamCode": "628934",
@@ -705,7 +738,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-16T23:46:20.425Z"
+        "lastUpdated": "2026-05-17T02:35:30.134Z"
       }
     },
     "allGames": [
@@ -826,8 +859,12 @@
         "awayTeam": "Aurora-King Jays 12U AA",
         "awayTeamCode": "617973",
         "location": "Joe Magani Park Field # 2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 3,
+          "scoreText": "3-13"
+        }
       },
       {
         "date": null,
@@ -3246,6 +3283,22 @@
       {
         "date": null,
         "dateText": "Wed, May 13",
+        "time": "6:00 PM",
+        "homeTeam": "Bradford Tigers 12U AA",
+        "homeTeamCode": "617946",
+        "awayTeam": "Aurora-King Jays 12U AA",
+        "awayTeamCode": "617973",
+        "location": "Joe Magani Park Field # 2",
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 3,
+          "scoreText": "3-13"
+        }
+      },
+      {
+        "date": null,
+        "dateText": "Wed, May 13",
         "time": "6:30 PM",
         "homeTeam": "New Lowell Knights 12U B",
         "homeTeamCode": "618068",
@@ -3293,14 +3346,14 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-05-16T23:46:20.425Z",
+    "lastUpdated": "2026-05-17T02:35:30.134Z",
     "totalGames": 200
   },
   "summary": {
     "totalTeams": 9,
     "totalGames": 200,
-    "completedGames": 9,
-    "upcomingGames": 191,
+    "completedGames": 10,
+    "upcomingGames": 190,
     "topTeam": {
       "team": "Markham Mariners 12U AA",
       "teamCode": "617879",
@@ -3317,6 +3370,6 @@
       "date": "Tue, May 12",
       "location": "Chatfield District"
     },
-    "lastUpdated": "2026-05-16T23:49:45.740Z"
+    "lastUpdated": "2026-05-17T02:39:05.347Z"
   }
 }
