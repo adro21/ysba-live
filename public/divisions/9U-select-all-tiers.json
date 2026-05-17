@@ -3,42 +3,24 @@
     "teams": [
       {
         "position": 1,
-        "team": "Caledon Nationals 9U DS",
-        "teamCode": "618477",
-        "record": {
-          "gamesPlayed": 2,
-          "wins": 2,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": "1.000"
-        },
-        "stats": {
-          "points": 4,
-          "runsFor": 49,
-          "runsAgainst": 25,
-          "runDifferential": 24
-        }
-      },
-      {
-        "position": 2,
         "team": "Vaughan Vikings 9U DS",
         "teamCode": "617188",
         "record": {
-          "gamesPlayed": 2,
-          "wins": 2,
+          "gamesPlayed": 6,
+          "wins": 6,
           "losses": 0,
           "ties": 0,
           "winPercentage": "1.000"
         },
         "stats": {
-          "points": 4,
-          "runsFor": 30,
-          "runsAgainst": 11,
-          "runDifferential": 19
+          "points": 12,
+          "runsFor": 103,
+          "runsAgainst": 27,
+          "runDifferential": 76
         }
       },
       {
-        "position": 3,
+        "position": 4,
         "team": "Collingwood Jays 9U DS",
         "teamCode": "618013",
         "record": {
@@ -56,7 +38,7 @@
         }
       },
       {
-        "position": 4,
+        "position": 5,
         "team": "Midland Penetang Twins 9U DS",
         "teamCode": "618393",
         "record": {
@@ -71,24 +53,6 @@
           "runsFor": 26,
           "runsAgainst": 10,
           "runDifferential": 16
-        }
-      },
-      {
-        "position": 5,
-        "team": "Bradford Tigers 9U DS",
-        "teamCode": "617954",
-        "record": {
-          "gamesPlayed": 2,
-          "wins": 2,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": "1.000"
-        },
-        "stats": {
-          "points": 4,
-          "runsFor": 31,
-          "runsAgainst": 18,
-          "runDifferential": 13
         }
       },
       {
@@ -107,6 +71,42 @@
           "runsFor": 11,
           "runsAgainst": 4,
           "runDifferential": 7
+        }
+      },
+      {
+        "position": 2,
+        "team": "Caledon Nationals 9U DS",
+        "teamCode": "618477",
+        "record": {
+          "gamesPlayed": 4,
+          "wins": 2,
+          "losses": 2,
+          "ties": 0,
+          "winPercentage": "0.500"
+        },
+        "stats": {
+          "points": 4,
+          "runsFor": 61,
+          "runsAgainst": 61,
+          "runDifferential": 0
+        }
+      },
+      {
+        "position": 3,
+        "team": "Bradford Tigers 9U DS",
+        "teamCode": "617954",
+        "record": {
+          "gamesPlayed": 4,
+          "wins": 2,
+          "losses": 2,
+          "ties": 0,
+          "winPercentage": "0.500"
+        },
+        "stats": {
+          "points": 4,
+          "runsFor": 35,
+          "runsAgainst": 55,
+          "runDifferential": -20
         }
       },
       {
@@ -254,7 +254,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-05-17T20:10:36.617Z",
+    "lastUpdated": "2026-05-17T21:18:15.688Z",
     "totalTeams": 14
   },
   "schedule": {
@@ -266,7 +266,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-17T20:10:40.861Z"
+        "lastUpdated": "2026-05-17T21:18:19.973Z"
       },
       "617187": {
         "teamCode": "617187",
@@ -308,30 +308,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-17T20:10:40.861Z"
+        "lastUpdated": "2026-05-17T21:18:19.973Z"
       },
       "617188": {
         "teamCode": "617188",
         "totalGames": 16,
-        "playedGames": 2,
+        "playedGames": 6,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sun, May 10",
-            "time": "11:00 AM",
-            "homeTeam": "Thornhill Reds 9U DS",
-            "homeTeamCode": "617998",
-            "awayTeam": "Vaughan Vikings 9U DS",
-            "awayTeamCode": "617188",
-            "location": "Thornhill Park",
-            "isCompleted": true,
-            "score": {
-              "home": 1,
-              "away": 14,
-              "scoreText": "14-1"
-            }
-          },
           {
             "date": null,
             "dateText": "Sun, May 10",
@@ -347,10 +331,74 @@
               "away": 16,
               "scoreText": "16-10"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, May 16",
+            "time": "11:00 AM",
+            "homeTeam": "Vaughan Vikings 9U DS",
+            "homeTeamCode": "617188",
+            "awayTeam": "Bradford Tigers 9U DS",
+            "awayTeamCode": "617954",
+            "location": "Maple Community Centre",
+            "isCompleted": true,
+            "score": {
+              "home": 19,
+              "away": 2,
+              "scoreText": "2-19"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, May 16",
+            "time": "1:45 PM",
+            "homeTeam": "Vaughan Vikings 9U DS",
+            "homeTeamCode": "617188",
+            "awayTeam": "Bradford Tigers 9U DS",
+            "awayTeamCode": "617954",
+            "location": "Maple Community Centre",
+            "isCompleted": true,
+            "score": {
+              "home": 18,
+              "away": 2,
+              "scoreText": "2-18"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sun, May 17",
+            "time": "10:00 AM",
+            "homeTeam": "Caledon Nationals 9U DS",
+            "homeTeamCode": "618477",
+            "awayTeam": "Vaughan Vikings 9U DS",
+            "awayTeamCode": "617188",
+            "location": "13540 Caledon King Townline S. Palgrave Ontario L7E 3R2",
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 16,
+              "scoreText": "16-7"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sun, May 17",
+            "time": "1:00 PM",
+            "homeTeam": "Caledon Nationals 9U DS",
+            "homeTeamCode": "618477",
+            "awayTeam": "Vaughan Vikings 9U DS",
+            "awayTeamCode": "617188",
+            "location": "13540 Caledon King Townline S. Palgrave Ontario L7E 3R2",
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 20,
+              "scoreText": "20-5"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-17T20:10:40.861Z"
+        "lastUpdated": "2026-05-17T21:18:19.973Z"
       },
       "617891": {
         "teamCode": "617891",
@@ -376,7 +424,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-17T20:10:40.861Z"
+        "lastUpdated": "2026-05-17T21:18:19.973Z"
       },
       "617916": {
         "teamCode": "617916",
@@ -402,12 +450,12 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-17T20:10:40.861Z"
+        "lastUpdated": "2026-05-17T21:18:19.973Z"
       },
       "617954": {
         "teamCode": "617954",
         "totalGames": 16,
-        "playedGames": 2,
+        "playedGames": 4,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -441,10 +489,42 @@
               "away": 14,
               "scoreText": "14-13"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, May 16",
+            "time": "11:00 AM",
+            "homeTeam": "Vaughan Vikings 9U DS",
+            "homeTeamCode": "617188",
+            "awayTeam": "Bradford Tigers 9U DS",
+            "awayTeamCode": "617954",
+            "location": "Maple Community Centre",
+            "isCompleted": true,
+            "score": {
+              "home": 19,
+              "away": 2,
+              "scoreText": "2-19"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, May 16",
+            "time": "1:45 PM",
+            "homeTeam": "Vaughan Vikings 9U DS",
+            "homeTeamCode": "617188",
+            "awayTeam": "Bradford Tigers 9U DS",
+            "awayTeamCode": "617954",
+            "location": "Maple Community Centre",
+            "isCompleted": true,
+            "score": {
+              "home": 18,
+              "away": 2,
+              "scoreText": "2-18"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-17T20:10:40.861Z"
+        "lastUpdated": "2026-05-17T21:18:19.973Z"
       },
       "617998": {
         "teamCode": "617998",
@@ -518,7 +598,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-17T20:10:40.861Z"
+        "lastUpdated": "2026-05-17T21:18:19.973Z"
       },
       "618013": {
         "teamCode": "618013",
@@ -560,7 +640,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-17T20:10:40.861Z"
+        "lastUpdated": "2026-05-17T21:18:19.973Z"
       },
       "618026": {
         "teamCode": "618026",
@@ -602,7 +682,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-17T20:10:40.861Z"
+        "lastUpdated": "2026-05-17T21:18:19.973Z"
       },
       "618052": {
         "teamCode": "618052",
@@ -611,7 +691,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-17T20:10:40.861Z"
+        "lastUpdated": "2026-05-17T21:18:19.973Z"
       },
       "618065": {
         "teamCode": "618065",
@@ -653,7 +733,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-17T20:10:40.861Z"
+        "lastUpdated": "2026-05-17T21:18:19.973Z"
       },
       "618390": {
         "teamCode": "618390",
@@ -662,7 +742,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-17T20:10:40.861Z"
+        "lastUpdated": "2026-05-17T21:18:19.973Z"
       },
       "618393": {
         "teamCode": "618393",
@@ -704,12 +784,12 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-17T20:10:40.861Z"
+        "lastUpdated": "2026-05-17T21:18:19.973Z"
       },
       "618477": {
         "teamCode": "618477",
         "totalGames": 16,
-        "playedGames": 2,
+        "playedGames": 4,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -743,10 +823,42 @@
               "away": 12,
               "scoreText": "12-27"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sun, May 17",
+            "time": "10:00 AM",
+            "homeTeam": "Caledon Nationals 9U DS",
+            "homeTeamCode": "618477",
+            "awayTeam": "Vaughan Vikings 9U DS",
+            "awayTeamCode": "617188",
+            "location": "13540 Caledon King Townline S. Palgrave Ontario L7E 3R2",
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 16,
+              "scoreText": "16-7"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sun, May 17",
+            "time": "1:00 PM",
+            "homeTeam": "Caledon Nationals 9U DS",
+            "homeTeamCode": "618477",
+            "awayTeam": "Vaughan Vikings 9U DS",
+            "awayTeamCode": "617188",
+            "location": "13540 Caledon King Townline S. Palgrave Ontario L7E 3R2",
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 20,
+              "scoreText": "20-5"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-17T20:10:40.861Z"
+        "lastUpdated": "2026-05-17T21:18:19.973Z"
       }
     },
     "allGames": [
@@ -963,8 +1075,12 @@
         "awayTeam": "Bradford Tigers 9U DS",
         "awayTeamCode": "617954",
         "location": "Maple Community Centre",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 19,
+          "away": 2,
+          "scoreText": "2-19"
+        }
       },
       {
         "date": null,
@@ -999,8 +1115,12 @@
         "awayTeam": "Bradford Tigers 9U DS",
         "awayTeamCode": "617954",
         "location": "Maple Community Centre",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 18,
+          "away": 2,
+          "scoreText": "2-18"
+        }
       },
       {
         "date": null,
@@ -1011,8 +1131,12 @@
         "awayTeam": "Vaughan Vikings 9U DS",
         "awayTeamCode": "617188",
         "location": "13540 Caledon King Townline S. Palgrave Ontario L7E 3R2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 16,
+          "scoreText": "16-7"
+        }
       },
       {
         "date": null,
@@ -1039,8 +1163,12 @@
         "awayTeam": "Vaughan Vikings 9U DS",
         "awayTeamCode": "617188",
         "location": "13540 Caledon King Townline S. Palgrave Ontario L7E 3R2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 5,
+          "away": 20,
+          "scoreText": "20-5"
+        }
       },
       {
         "date": null,
@@ -2286,34 +2414,34 @@
       },
       {
         "date": null,
-        "dateText": "Sun, May 17",
+        "dateText": "Sat, May 16",
         "time": "11:00 AM",
-        "homeTeam": "Thornhill Reds 9U DS",
-        "homeTeamCode": "617998",
-        "awayTeam": "Collingwood Jays 9U DS",
-        "awayTeamCode": "618013",
-        "location": "Thornhill Park",
+        "homeTeam": "Vaughan Vikings 9U DS",
+        "homeTeamCode": "617188",
+        "awayTeam": "Bradford Tigers 9U DS",
+        "awayTeamCode": "617954",
+        "location": "Maple Community Centre",
         "isCompleted": true,
         "score": {
-          "home": 4,
-          "away": 16,
-          "scoreText": "16-4"
+          "home": 19,
+          "away": 2,
+          "scoreText": "2-19"
         }
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-05-17T20:10:40.861Z",
+    "lastUpdated": "2026-05-17T21:18:19.973Z",
     "totalGames": 112
   },
   "summary": {
     "totalTeams": 14,
     "totalGames": 112,
-    "completedGames": 11,
-    "upcomingGames": 101,
+    "completedGames": 15,
+    "upcomingGames": 97,
     "topTeam": {
-      "team": "Caledon Nationals 9U DS",
-      "teamCode": "618477",
-      "wins": 2,
+      "team": "Vaughan Vikings 9U DS",
+      "teamCode": "617188",
+      "wins": 6,
       "losses": 0,
       "winPercentage": "1.000"
     },
@@ -2326,6 +2454,6 @@
       "date": "Sun, May 10",
       "location": "North Hill Diamonds # 2"
     },
-    "lastUpdated": "2026-05-17T20:11:00.880Z"
+    "lastUpdated": "2026-05-17T21:18:40.201Z"
   }
 }
