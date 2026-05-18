@@ -21,6 +21,24 @@
       },
       {
         "position": 2,
+        "team": "Thornhill Reds 11U DS",
+        "teamCode": "618000",
+        "record": {
+          "gamesPlayed": 4,
+          "wins": 4,
+          "losses": 0,
+          "ties": 0,
+          "winPercentage": "1.000"
+        },
+        "stats": {
+          "points": 8,
+          "runsFor": 50,
+          "runsAgainst": 23,
+          "runDifferential": 27
+        }
+      },
+      {
+        "position": 3,
         "team": "Markham Mariners 11U DS",
         "teamCode": "617892",
         "record": {
@@ -35,24 +53,6 @@
           "runsFor": 33,
           "runsAgainst": 19,
           "runDifferential": 14
-        }
-      },
-      {
-        "position": 3,
-        "team": "Thornhill Reds 11U DS",
-        "teamCode": "618000",
-        "record": {
-          "gamesPlayed": 2,
-          "wins": 2,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": "1.000"
-        },
-        "stats": {
-          "points": 4,
-          "runsFor": 22,
-          "runsAgainst": 17,
-          "runDifferential": 5
         }
       },
       {
@@ -132,17 +132,17 @@
         "team": "Caledon Nationals 11U DS",
         "teamCode": "618476",
         "record": {
-          "gamesPlayed": 0,
+          "gamesPlayed": 2,
           "wins": 0,
-          "losses": 0,
+          "losses": 2,
           "ties": 0,
-          "winPercentage": ".000"
+          "winPercentage": "0.000"
         },
         "stats": {
           "points": 0,
-          "runsFor": 0,
-          "runsAgainst": 0,
-          "runDifferential": 0
+          "runsFor": 6,
+          "runsAgainst": 28,
+          "runDifferential": -22
         }
       },
       {
@@ -200,7 +200,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-05-18T13:44:55.265Z",
+    "lastUpdated": "2026-05-18T16:49:06.377Z",
     "totalTeams": 11
   },
   "schedule": {
@@ -245,7 +245,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-18T13:44:58.247Z"
+        "lastUpdated": "2026-05-18T16:49:09.154Z"
       },
       "617189": {
         "teamCode": "617189",
@@ -254,7 +254,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-18T13:44:58.247Z"
+        "lastUpdated": "2026-05-18T16:49:09.154Z"
       },
       "617190": {
         "teamCode": "617190",
@@ -328,7 +328,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-18T13:44:58.247Z"
+        "lastUpdated": "2026-05-18T16:49:09.154Z"
       },
       "617892": {
         "teamCode": "617892",
@@ -370,7 +370,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-18T13:44:58.247Z"
+        "lastUpdated": "2026-05-18T16:49:09.154Z"
       },
       "617917": {
         "teamCode": "617917",
@@ -379,12 +379,12 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-18T13:44:58.247Z"
+        "lastUpdated": "2026-05-18T16:49:09.154Z"
       },
       "618000": {
         "teamCode": "618000",
         "totalGames": 16,
-        "playedGames": 2,
+        "playedGames": 4,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -418,10 +418,42 @@
               "away": 8,
               "scoreText": "8-12"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sun, May 17",
+            "time": "1:00 PM",
+            "homeTeam": "Caledon Nationals 11U DS",
+            "homeTeamCode": "618476",
+            "awayTeam": "Thornhill Reds 11U DS",
+            "awayTeamCode": "618000",
+            "location": "Caledon East Park #1",
+            "isCompleted": true,
+            "score": {
+              "home": 3,
+              "away": 11,
+              "scoreText": "11-3"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sun, May 17",
+            "time": "3:30 PM",
+            "homeTeam": "Caledon Nationals 11U DS",
+            "homeTeamCode": "618476",
+            "awayTeam": "Thornhill Reds 11U DS",
+            "awayTeamCode": "618000",
+            "location": "Caledon East Park #1",
+            "isCompleted": true,
+            "score": {
+              "home": 3,
+              "away": 17,
+              "scoreText": "17-3"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-18T13:44:58.247Z"
+        "lastUpdated": "2026-05-18T16:49:09.154Z"
       },
       "618014": {
         "teamCode": "618014",
@@ -463,7 +495,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-18T13:44:58.247Z"
+        "lastUpdated": "2026-05-18T16:49:09.154Z"
       },
       "618027": {
         "teamCode": "618027",
@@ -472,7 +504,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-18T13:44:58.247Z"
+        "lastUpdated": "2026-05-18T16:49:09.154Z"
       },
       "618053": {
         "teamCode": "618053",
@@ -514,7 +546,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-18T13:44:58.247Z"
+        "lastUpdated": "2026-05-18T16:49:09.154Z"
       },
       "618391": {
         "teamCode": "618391",
@@ -556,16 +588,49 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-18T13:44:58.247Z"
+        "lastUpdated": "2026-05-18T16:49:09.154Z"
       },
       "618476": {
         "teamCode": "618476",
         "totalGames": 16,
-        "playedGames": 0,
+        "playedGames": 2,
         "upcomingGames": 0,
-        "recentGames": [],
+        "recentGames": [
+          {
+            "date": null,
+            "dateText": "Sun, May 17",
+            "time": "1:00 PM",
+            "homeTeam": "Caledon Nationals 11U DS",
+            "homeTeamCode": "618476",
+            "awayTeam": "Thornhill Reds 11U DS",
+            "awayTeamCode": "618000",
+            "location": "Caledon East Park #1",
+            "isCompleted": true,
+            "score": {
+              "home": 3,
+              "away": 11,
+              "scoreText": "11-3"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sun, May 17",
+            "time": "3:30 PM",
+            "homeTeam": "Caledon Nationals 11U DS",
+            "homeTeamCode": "618476",
+            "awayTeam": "Thornhill Reds 11U DS",
+            "awayTeamCode": "618000",
+            "location": "Caledon East Park #1",
+            "isCompleted": true,
+            "score": {
+              "home": 3,
+              "away": 17,
+              "scoreText": "17-3"
+            }
+          }
+        ],
         "nextGames": [],
-        "lastUpdated": "2026-05-18T13:44:58.247Z"
+        "lastUpdated": "2026-05-18T16:49:09.154Z"
       }
     },
     "allGames": [
@@ -706,8 +771,12 @@
         "awayTeam": "Thornhill Reds 11U DS",
         "awayTeamCode": "618000",
         "location": "Caledon East Park #1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 3,
+          "away": 11,
+          "scoreText": "11-3"
+        }
       },
       {
         "date": null,
@@ -718,8 +787,12 @@
         "awayTeam": "Thornhill Reds 11U DS",
         "awayTeamCode": "618000",
         "location": "Caledon East Park #1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 3,
+          "away": 17,
+          "scoreText": "17-3"
+        }
       },
       {
         "date": null,
@@ -1786,17 +1859,49 @@
           "away": 6,
           "scoreText": "6-15"
         }
+      },
+      {
+        "date": null,
+        "dateText": "Sun, May 17",
+        "time": "1:00 PM",
+        "homeTeam": "Caledon Nationals 11U DS",
+        "homeTeamCode": "618476",
+        "awayTeam": "Thornhill Reds 11U DS",
+        "awayTeamCode": "618000",
+        "location": "Caledon East Park #1",
+        "isCompleted": true,
+        "score": {
+          "home": 3,
+          "away": 11,
+          "scoreText": "11-3"
+        }
+      },
+      {
+        "date": null,
+        "dateText": "Sun, May 17",
+        "time": "3:30 PM",
+        "homeTeam": "Caledon Nationals 11U DS",
+        "homeTeamCode": "618476",
+        "awayTeam": "Thornhill Reds 11U DS",
+        "awayTeamCode": "618000",
+        "location": "Caledon East Park #1",
+        "isCompleted": true,
+        "score": {
+          "home": 3,
+          "away": 17,
+          "scoreText": "17-3"
+        }
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-05-18T13:44:58.247Z",
+    "lastUpdated": "2026-05-18T16:49:09.154Z",
     "totalGames": 88
   },
   "summary": {
     "totalTeams": 11,
     "totalGames": 88,
-    "completedGames": 8,
-    "upcomingGames": 80,
+    "completedGames": 10,
+    "upcomingGames": 78,
     "topTeam": {
       "team": "Vaughan Vikings 11U DS",
       "teamCode": "617190",
@@ -1813,6 +1918,6 @@
       "date": "Sat, May 16",
       "location": "Stroud"
     },
-    "lastUpdated": "2026-05-18T13:45:12.566Z"
+    "lastUpdated": "2026-05-18T16:49:23.408Z"
   }
 }
