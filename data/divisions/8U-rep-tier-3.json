@@ -2,7 +2,7 @@
   "standings": {
     "teams": [
       {
-        "position": 1,
+        "position": 2,
         "team": "Markham Mariners 8U A",
         "teamCode": "617873",
         "record": {
@@ -20,7 +20,7 @@
         }
       },
       {
-        "position": 2,
+        "position": 3,
         "team": "Richmond Hill Phoenix 8U A",
         "teamCode": "617845",
         "record": {
@@ -38,7 +38,7 @@
         }
       },
       {
-        "position": 3,
+        "position": 4,
         "team": "Barrie Baycats 8U A",
         "teamCode": "612775",
         "record": {
@@ -56,7 +56,7 @@
         }
       },
       {
-        "position": 4,
+        "position": 5,
         "team": "Georgina Bulldogs 8U B",
         "teamCode": "625730",
         "record": {
@@ -74,21 +74,21 @@
         }
       },
       {
-        "position": 5,
+        "position": 1,
         "team": "Newmarket Hawks 8U A",
         "teamCode": "617896",
         "record": {
-          "gamesPlayed": 1,
-          "wins": 0,
+          "gamesPlayed": 2,
+          "wins": 1,
           "losses": 0,
           "ties": 1,
-          "winPercentage": "0.500"
+          "winPercentage": "0.750"
         },
         "stats": {
-          "points": 1,
-          "runsFor": 14,
-          "runsAgainst": 14,
-          "runDifferential": 0
+          "points": 3,
+          "runsFor": 44,
+          "runsAgainst": 24,
+          "runDifferential": 20
         }
       },
       {
@@ -129,6 +129,24 @@
       },
       {
         "position": 8,
+        "team": "Caledon Nationals 8U A",
+        "teamCode": "618474",
+        "record": {
+          "gamesPlayed": 2,
+          "wins": 0,
+          "losses": 2,
+          "ties": 0,
+          "winPercentage": "0.000"
+        },
+        "stats": {
+          "points": 0,
+          "runsFor": 12,
+          "runsAgainst": 55,
+          "runDifferential": -43
+        }
+      },
+      {
+        "position": 9,
         "team": "Stouffville 8U A",
         "teamCode": "617210",
         "record": {
@@ -143,24 +161,6 @@
           "runsFor": 9,
           "runsAgainst": 18,
           "runDifferential": -9
-        }
-      },
-      {
-        "position": 9,
-        "team": "Caledon Nationals 8U A",
-        "teamCode": "618474",
-        "record": {
-          "gamesPlayed": 1,
-          "wins": 0,
-          "losses": 1,
-          "ties": 0,
-          "winPercentage": "0.000"
-        },
-        "stats": {
-          "points": 0,
-          "runsFor": 2,
-          "runsAgainst": 25,
-          "runDifferential": -23
         }
       },
       {
@@ -182,7 +182,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-05-18T09:49:23.054Z",
+    "lastUpdated": "2026-05-18T13:39:41.545Z",
     "totalTeams": 10
   },
   "schedule": {
@@ -211,7 +211,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-18T09:49:25.672Z"
+        "lastUpdated": "2026-05-18T13:39:44.422Z"
       },
       "617170": {
         "teamCode": "617170",
@@ -220,7 +220,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-18T09:49:25.672Z"
+        "lastUpdated": "2026-05-18T13:39:44.422Z"
       },
       "617210": {
         "teamCode": "617210",
@@ -246,7 +246,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-18T09:49:25.672Z"
+        "lastUpdated": "2026-05-18T13:39:44.422Z"
       },
       "617845": {
         "teamCode": "617845",
@@ -272,7 +272,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-18T09:49:25.672Z"
+        "lastUpdated": "2026-05-18T13:39:44.422Z"
       },
       "617873": {
         "teamCode": "617873",
@@ -298,12 +298,12 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-18T09:49:25.672Z"
+        "lastUpdated": "2026-05-18T13:39:44.422Z"
       },
       "617896": {
         "teamCode": "617896",
         "totalGames": 15,
-        "playedGames": 1,
+        "playedGames": 2,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -321,10 +321,26 @@
               "away": 14,
               "scoreText": "14-14"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sun, May 17",
+            "time": "5:00 PM",
+            "homeTeam": "Caledon Nationals 8U A",
+            "homeTeamCode": "618474",
+            "awayTeam": "Newmarket Hawks 8U A",
+            "awayTeamCode": "617896",
+            "location": "Jays Care (Bolton Camp)",
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 30,
+              "scoreText": "30-10"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-18T09:49:25.672Z"
+        "lastUpdated": "2026-05-18T13:39:44.422Z"
       },
       "618056": {
         "teamCode": "618056",
@@ -350,7 +366,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-18T09:49:25.672Z"
+        "lastUpdated": "2026-05-18T13:39:44.422Z"
       },
       "618379": {
         "teamCode": "618379",
@@ -392,12 +408,12 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-18T09:49:25.672Z"
+        "lastUpdated": "2026-05-18T13:39:44.422Z"
       },
       "618474": {
         "teamCode": "618474",
         "totalGames": 15,
-        "playedGames": 1,
+        "playedGames": 2,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -415,10 +431,26 @@
               "away": 2,
               "scoreText": "2-25"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sun, May 17",
+            "time": "5:00 PM",
+            "homeTeam": "Caledon Nationals 8U A",
+            "homeTeamCode": "618474",
+            "awayTeam": "Newmarket Hawks 8U A",
+            "awayTeamCode": "617896",
+            "location": "Jays Care (Bolton Camp)",
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 30,
+              "scoreText": "30-10"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-18T09:49:25.672Z"
+        "lastUpdated": "2026-05-18T13:39:44.422Z"
       },
       "625730": {
         "teamCode": "625730",
@@ -444,7 +476,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-18T09:49:25.672Z"
+        "lastUpdated": "2026-05-18T13:39:44.422Z"
       }
     },
     "allGames": [
@@ -549,8 +581,12 @@
         "awayTeam": "Newmarket Hawks 8U A",
         "awayTeamCode": "617896",
         "location": "Jays Care (Bolton Camp)",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 30,
+          "scoreText": "30-10"
+        }
       },
       {
         "date": null,
@@ -1449,17 +1485,33 @@
           "away": 10,
           "scoreText": "10-9"
         }
+      },
+      {
+        "date": null,
+        "dateText": "Sun, May 17",
+        "time": "5:00 PM",
+        "homeTeam": "Caledon Nationals 8U A",
+        "homeTeamCode": "618474",
+        "awayTeam": "Newmarket Hawks 8U A",
+        "awayTeamCode": "617896",
+        "location": "Jays Care (Bolton Camp)",
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 30,
+          "scoreText": "30-10"
+        }
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-05-18T09:49:25.672Z",
+    "lastUpdated": "2026-05-18T13:39:44.422Z",
     "totalGames": 75
   },
   "summary": {
     "totalTeams": 10,
     "totalGames": 75,
-    "completedGames": 5,
-    "upcomingGames": 70,
+    "completedGames": 6,
+    "upcomingGames": 69,
     "topTeam": {
       "team": "Markham Mariners 8U A",
       "teamCode": "617873",
@@ -1468,14 +1520,14 @@
       "winPercentage": "1.000"
     },
     "highestScoringGame": {
-      "homeTeam": "Barrie Baycats 8U A",
-      "awayTeam": "Orillia 8U B",
-      "homeScore": 17,
-      "awayScore": 15,
-      "totalRuns": 32,
-      "date": "Mon, May 11",
-      "location": "Barrie Sports Complex - Diamond 12"
+      "homeTeam": "Caledon Nationals 8U A",
+      "awayTeam": "Newmarket Hawks 8U A",
+      "homeScore": 10,
+      "awayScore": 30,
+      "totalRuns": 40,
+      "date": "Sun, May 17",
+      "location": "Jays Care (Bolton Camp)"
     },
-    "lastUpdated": "2026-05-18T09:54:32.334Z"
+    "lastUpdated": "2026-05-18T13:45:12.566Z"
   }
 }
