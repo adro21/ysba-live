@@ -21,24 +21,42 @@
       },
       {
         "position": 2,
-        "team": "Thornhill Reds 15U DS",
-        "teamCode": "618002",
+        "team": "Newmarket Hawks 15U DS",
+        "teamCode": "617919",
         "record": {
-          "gamesPlayed": 2,
-          "wins": 1,
-          "losses": 0,
-          "ties": 1,
-          "winPercentage": "0.750"
+          "gamesPlayed": 4,
+          "wins": 2,
+          "losses": 2,
+          "ties": 0,
+          "winPercentage": "0.500"
         },
         "stats": {
-          "points": 3,
-          "runsFor": 22,
-          "runsAgainst": 13,
-          "runDifferential": 9
+          "points": 4,
+          "runsFor": 50,
+          "runsAgainst": 46,
+          "runDifferential": 4
         }
       },
       {
         "position": 3,
+        "team": "Thornhill Reds 15U DS",
+        "teamCode": "618002",
+        "record": {
+          "gamesPlayed": 4,
+          "wins": 1,
+          "losses": 2,
+          "ties": 1,
+          "winPercentage": "0.375"
+        },
+        "stats": {
+          "points": 3,
+          "runsFor": 36,
+          "runsAgainst": 48,
+          "runDifferential": -12
+        }
+      },
+      {
+        "position": 4,
         "team": "New Lowell Knights 15U DS",
         "teamCode": "618070",
         "record": {
@@ -56,7 +74,7 @@
         }
       },
       {
-        "position": 4,
+        "position": 5,
         "team": "Markham Mariners 15U DS",
         "teamCode": "617895",
         "record": {
@@ -72,27 +90,9 @@
           "runsAgainst": 19,
           "runDifferential": -10
         }
-      },
-      {
-        "position": 5,
-        "team": "Newmarket Hawks 15U DS",
-        "teamCode": "617919",
-        "record": {
-          "gamesPlayed": 2,
-          "wins": 0,
-          "losses": 2,
-          "ties": 0,
-          "winPercentage": "0.000"
-        },
-        "stats": {
-          "points": 0,
-          "runsFor": 15,
-          "runsAgainst": 32,
-          "runDifferential": -17
-        }
       }
     ],
-    "lastUpdated": "2026-05-19T14:51:15.619Z",
+    "lastUpdated": "2026-05-19T17:40:33.801Z",
     "totalTeams": 5
   },
   "schedule": {
@@ -169,7 +169,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-19T14:51:18.256Z"
+        "lastUpdated": "2026-05-19T17:40:36.602Z"
       },
       "617895": {
         "teamCode": "617895",
@@ -211,12 +211,12 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-19T14:51:18.256Z"
+        "lastUpdated": "2026-05-19T17:40:36.602Z"
       },
       "617919": {
         "teamCode": "617919",
         "totalGames": 16,
-        "playedGames": 2,
+        "playedGames": 4,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -250,15 +250,47 @@
               "away": 14,
               "scoreText": "14-4"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, May 16",
+            "time": "12:00 PM",
+            "homeTeam": "Newmarket Hawks 15U DS",
+            "homeTeamCode": "617919",
+            "awayTeam": "Thornhill Reds 15U DS",
+            "awayTeamCode": "618002",
+            "location": "Whipper Billy Watson",
+            "isCompleted": true,
+            "score": {
+              "home": 18,
+              "away": 12,
+              "scoreText": "12-18"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, May 16",
+            "time": "2:30 PM",
+            "homeTeam": "Newmarket Hawks 15U DS",
+            "homeTeamCode": "617919",
+            "awayTeam": "Thornhill Reds 15U DS",
+            "awayTeamCode": "618002",
+            "location": "Whipper Billy Watson",
+            "isCompleted": true,
+            "score": {
+              "home": 17,
+              "away": 2,
+              "scoreText": "2-17"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-19T14:51:18.256Z"
+        "lastUpdated": "2026-05-19T17:40:36.602Z"
       },
       "618002": {
         "teamCode": "618002",
         "totalGames": 16,
-        "playedGames": 2,
+        "playedGames": 4,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -292,10 +324,42 @@
               "away": 5,
               "scoreText": "5-14"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, May 16",
+            "time": "12:00 PM",
+            "homeTeam": "Newmarket Hawks 15U DS",
+            "homeTeamCode": "617919",
+            "awayTeam": "Thornhill Reds 15U DS",
+            "awayTeamCode": "618002",
+            "location": "Whipper Billy Watson",
+            "isCompleted": true,
+            "score": {
+              "home": 18,
+              "away": 12,
+              "scoreText": "12-18"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, May 16",
+            "time": "2:30 PM",
+            "homeTeam": "Newmarket Hawks 15U DS",
+            "homeTeamCode": "617919",
+            "awayTeam": "Thornhill Reds 15U DS",
+            "awayTeamCode": "618002",
+            "location": "Whipper Billy Watson",
+            "isCompleted": true,
+            "score": {
+              "home": 17,
+              "away": 2,
+              "scoreText": "2-17"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-19T14:51:18.256Z"
+        "lastUpdated": "2026-05-19T17:40:36.602Z"
       },
       "618070": {
         "teamCode": "618070",
@@ -337,7 +401,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-19T14:51:18.256Z"
+        "lastUpdated": "2026-05-19T17:40:36.602Z"
       }
     },
     "allGames": [
@@ -414,8 +478,12 @@
         "awayTeam": "Thornhill Reds 15U DS",
         "awayTeamCode": "618002",
         "location": "Whipper Billy Watson",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 18,
+          "away": 12,
+          "scoreText": "12-18"
+        }
       },
       {
         "date": null,
@@ -458,8 +526,12 @@
         "awayTeam": "Thornhill Reds 15U DS",
         "awayTeamCode": "618002",
         "location": "Whipper Billy Watson",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 17,
+          "away": 2,
+          "scoreText": "2-17"
+        }
       },
       {
         "date": null,
@@ -915,6 +987,22 @@
         "date": null,
         "dateText": "Sat, May 16",
         "time": "12:00 PM",
+        "homeTeam": "Newmarket Hawks 15U DS",
+        "homeTeamCode": "617919",
+        "awayTeam": "Thornhill Reds 15U DS",
+        "awayTeamCode": "618002",
+        "location": "Whipper Billy Watson",
+        "isCompleted": true,
+        "score": {
+          "home": 18,
+          "away": 12,
+          "scoreText": "12-18"
+        }
+      },
+      {
+        "date": null,
+        "dateText": "Sat, May 16",
+        "time": "12:00 PM",
         "homeTeam": "Barrie Baycats 15U DS",
         "homeTeamCode": "612800",
         "awayTeam": "Markham Mariners 15U DS",
@@ -942,17 +1030,33 @@
           "away": 7,
           "scoreText": "7-11"
         }
+      },
+      {
+        "date": null,
+        "dateText": "Sat, May 16",
+        "time": "2:30 PM",
+        "homeTeam": "Newmarket Hawks 15U DS",
+        "homeTeamCode": "617919",
+        "awayTeam": "Thornhill Reds 15U DS",
+        "awayTeamCode": "618002",
+        "location": "Whipper Billy Watson",
+        "isCompleted": true,
+        "score": {
+          "home": 17,
+          "away": 2,
+          "scoreText": "2-17"
+        }
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-05-19T14:51:18.256Z",
+    "lastUpdated": "2026-05-19T17:40:36.602Z",
     "totalGames": 40
   },
   "summary": {
     "totalTeams": 5,
     "totalGames": 40,
-    "completedGames": 6,
-    "upcomingGames": 34,
+    "completedGames": 8,
+    "upcomingGames": 32,
     "topTeam": {
       "team": "Barrie Baycats 15U DS",
       "teamCode": "612800",
@@ -962,13 +1066,13 @@
     },
     "highestScoringGame": {
       "homeTeam": "Newmarket Hawks 15U DS",
-      "awayTeam": "Barrie Baycats 15U DS",
-      "homeScore": 11,
-      "awayScore": 18,
-      "totalRuns": 29,
-      "date": "Sat, May 9",
+      "awayTeam": "Thornhill Reds 15U DS",
+      "homeScore": 18,
+      "awayScore": 12,
+      "totalRuns": 30,
+      "date": "Sat, May 16",
       "location": "Whipper Billy Watson"
     },
-    "lastUpdated": "2026-05-19T14:51:19.534Z"
+    "lastUpdated": "2026-05-19T17:40:37.876Z"
   }
 }
