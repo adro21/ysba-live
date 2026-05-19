@@ -3,6 +3,24 @@
     "teams": [
       {
         "position": 1,
+        "team": "Stayner 18U C",
+        "teamCode": "617169",
+        "record": {
+          "gamesPlayed": 2,
+          "wins": 2,
+          "losses": 0,
+          "ties": 0,
+          "winPercentage": "1.000"
+        },
+        "stats": {
+          "points": 4,
+          "runsFor": 26,
+          "runsAgainst": 12,
+          "runDifferential": 14
+        }
+      },
+      {
+        "position": 2,
         "team": "TNT Thunder 18U A",
         "teamCode": "618063",
         "record": {
@@ -21,24 +39,6 @@
       },
       {
         "position": 6,
-        "team": "Collingwood Jays 18U A",
-        "teamCode": "618012",
-        "record": {
-          "gamesPlayed": 1,
-          "wins": 1,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": "1.000"
-        },
-        "stats": {
-          "points": 2,
-          "runsFor": 18,
-          "runsAgainst": 7,
-          "runDifferential": 11
-        }
-      },
-      {
-        "position": 7,
         "team": "Orillia 18U B",
         "teamCode": "618388",
         "record": {
@@ -56,7 +56,7 @@
         }
       },
       {
-        "position": 8,
+        "position": 7,
         "team": "Barrie Baycats 18U A",
         "teamCode": "612795",
         "record": {
@@ -74,7 +74,7 @@
         }
       },
       {
-        "position": 3,
+        "position": 4,
         "team": "Barrie Baycats 17U A",
         "teamCode": "612794",
         "record": {
@@ -92,7 +92,7 @@
         }
       },
       {
-        "position": 4,
+        "position": 5,
         "team": "Bradford Tigers 18U A - Team 1",
         "teamCode": "617951",
         "record": {
@@ -110,25 +110,7 @@
         }
       },
       {
-        "position": 5,
-        "team": "Stayner 18U C",
-        "teamCode": "617169",
-        "record": {
-          "gamesPlayed": 2,
-          "wins": 1,
-          "losses": 1,
-          "ties": 0,
-          "winPercentage": "0.500"
-        },
-        "stats": {
-          "points": 2,
-          "runsFor": 15,
-          "runsAgainst": 23,
-          "runDifferential": -8
-        }
-      },
-      {
-        "position": 2,
+        "position": 3,
         "team": "Bradford Tigers 18U A - Team 2",
         "teamCode": "625723",
         "record": {
@@ -146,7 +128,7 @@
         }
       },
       {
-        "position": 9,
+        "position": 8,
         "team": "Muskoka Hornets 18U A",
         "teamCode": "628939",
         "record": {
@@ -164,7 +146,7 @@
         }
       },
       {
-        "position": 10,
+        "position": 9,
         "team": "Innisfil Cardinals 18U A",
         "teamCode": "618049",
         "record": {
@@ -182,7 +164,7 @@
         }
       },
       {
-        "position": 11,
+        "position": 10,
         "team": "Orangeville Bengals 18U B",
         "teamCode": "618025",
         "record": {
@@ -198,9 +180,27 @@
           "runsAgainst": 10,
           "runDifferential": -9
         }
+      },
+      {
+        "position": 11,
+        "team": "Collingwood Jays 18U A",
+        "teamCode": "618012",
+        "record": {
+          "gamesPlayed": 1,
+          "wins": 0,
+          "losses": 1,
+          "ties": 0,
+          "winPercentage": "0.000"
+        },
+        "stats": {
+          "points": 0,
+          "runsFor": 7,
+          "runsAgainst": 18,
+          "runDifferential": -11
+        }
       }
     ],
-    "lastUpdated": "2026-05-19T17:39:20.326Z",
+    "lastUpdated": "2026-05-19T19:49:35.201Z",
     "totalTeams": 11
   },
   "schedule": {
@@ -245,7 +245,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-19T17:39:23.196Z"
+        "lastUpdated": "2026-05-19T19:49:37.819Z"
       },
       "612795": {
         "teamCode": "612795",
@@ -271,7 +271,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-19T17:39:23.196Z"
+        "lastUpdated": "2026-05-19T19:49:37.819Z"
       },
       "617169": {
         "teamCode": "617169",
@@ -306,14 +306,14 @@
             "location": "Large Heritage Park 451 third street Collingwood (Between 2nd and third)",
             "isCompleted": true,
             "score": {
-              "home": 18,
-              "away": 7,
-              "scoreText": "7-18"
+              "home": 7,
+              "away": 18,
+              "scoreText": "18-7"
             }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-19T17:39:23.196Z"
+        "lastUpdated": "2026-05-19T19:49:37.819Z"
       },
       "617951": {
         "teamCode": "617951",
@@ -355,7 +355,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-19T17:39:23.196Z"
+        "lastUpdated": "2026-05-19T19:49:37.819Z"
       },
       "618012": {
         "teamCode": "618012",
@@ -374,14 +374,14 @@
             "location": "Large Heritage Park 451 third street Collingwood (Between 2nd and third)",
             "isCompleted": true,
             "score": {
-              "home": 18,
-              "away": 7,
-              "scoreText": "7-18"
+              "home": 7,
+              "away": 18,
+              "scoreText": "18-7"
             }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-19T17:39:23.196Z"
+        "lastUpdated": "2026-05-19T19:49:37.819Z"
       },
       "618025": {
         "teamCode": "618025",
@@ -407,7 +407,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-19T17:39:23.196Z"
+        "lastUpdated": "2026-05-19T19:49:37.819Z"
       },
       "618049": {
         "teamCode": "618049",
@@ -433,7 +433,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-19T17:39:23.196Z"
+        "lastUpdated": "2026-05-19T19:49:37.819Z"
       },
       "618063": {
         "teamCode": "618063",
@@ -475,7 +475,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-19T17:39:23.196Z"
+        "lastUpdated": "2026-05-19T19:49:37.820Z"
       },
       "618388": {
         "teamCode": "618388",
@@ -501,7 +501,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-19T17:39:23.196Z"
+        "lastUpdated": "2026-05-19T19:49:37.820Z"
       },
       "625723": {
         "teamCode": "625723",
@@ -575,7 +575,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-19T17:39:23.196Z"
+        "lastUpdated": "2026-05-19T19:49:37.820Z"
       },
       "628939": {
         "teamCode": "628939",
@@ -601,7 +601,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-19T17:39:23.196Z"
+        "lastUpdated": "2026-05-19T19:49:37.820Z"
       }
     },
     "allGames": [
@@ -732,9 +732,9 @@
         "location": "Large Heritage Park 451 third street Collingwood (Between 2nd and third)",
         "isCompleted": true,
         "score": {
-          "home": 18,
-          "away": 7,
-          "scoreText": "7-18"
+          "home": 7,
+          "away": 18,
+          "scoreText": "18-7"
         }
       },
       {
@@ -1910,9 +1910,9 @@
         "location": "Large Heritage Park 451 third street Collingwood (Between 2nd and third)",
         "isCompleted": true,
         "score": {
-          "home": 18,
-          "away": 7,
-          "scoreText": "7-18"
+          "home": 7,
+          "away": 18,
+          "scoreText": "18-7"
         }
       },
       {
@@ -1965,7 +1965,7 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-05-19T17:39:23.196Z",
+    "lastUpdated": "2026-05-19T19:49:37.820Z",
     "totalGames": 98
   },
   "summary": {
@@ -1974,8 +1974,8 @@
     "completedGames": 9,
     "upcomingGames": 89,
     "topTeam": {
-      "team": "TNT Thunder 18U A",
-      "teamCode": "618063",
+      "team": "Stayner 18U C",
+      "teamCode": "617169",
       "wins": 2,
       "losses": 0,
       "winPercentage": "1.000"
@@ -1989,6 +1989,6 @@
       "date": "Mon, May 18",
       "location": "Beeton Diamond at 72 Prospect St. Beeton"
     },
-    "lastUpdated": "2026-05-19T17:40:37.876Z"
+    "lastUpdated": "2026-05-19T19:50:48.923Z"
   }
 }
