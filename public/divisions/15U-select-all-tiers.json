@@ -6,17 +6,17 @@
         "team": "Barrie Baycats 15U DS",
         "teamCode": "612800",
         "record": {
-          "gamesPlayed": 2,
-          "wins": 2,
+          "gamesPlayed": 4,
+          "wins": 4,
           "losses": 0,
           "ties": 0,
           "winPercentage": "1.000"
         },
         "stats": {
-          "points": 4,
-          "runsFor": 32,
-          "runsAgainst": 15,
-          "runDifferential": 17
+          "points": 8,
+          "runsFor": 51,
+          "runsAgainst": 24,
+          "runDifferential": 27
         }
       },
       {
@@ -57,6 +57,24 @@
       },
       {
         "position": 4,
+        "team": "Markham Mariners 15U DS",
+        "teamCode": "617895",
+        "record": {
+          "gamesPlayed": 2,
+          "wins": 0,
+          "losses": 2,
+          "ties": 0,
+          "winPercentage": "0.000"
+        },
+        "stats": {
+          "points": 0,
+          "runsFor": 9,
+          "runsAgainst": 19,
+          "runDifferential": -10
+        }
+      },
+      {
+        "position": 5,
         "team": "Newmarket Hawks 15U DS",
         "teamCode": "617919",
         "record": {
@@ -72,27 +90,9 @@
           "runsAgainst": 32,
           "runDifferential": -17
         }
-      },
-      {
-        "position": 5,
-        "team": "Markham Mariners 15U DS",
-        "teamCode": "617895",
-        "record": {
-          "gamesPlayed": 0,
-          "wins": 0,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": ".000"
-        },
-        "stats": {
-          "points": 0,
-          "runsFor": 0,
-          "runsAgainst": 0,
-          "runDifferential": 0
-        }
       }
     ],
-    "lastUpdated": "2026-05-19T11:42:55.382Z",
+    "lastUpdated": "2026-05-19T14:51:15.619Z",
     "totalTeams": 5
   },
   "schedule": {
@@ -100,7 +100,7 @@
       "612800": {
         "teamCode": "612800",
         "totalGames": 16,
-        "playedGames": 2,
+        "playedGames": 4,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -134,19 +134,84 @@
               "away": 14,
               "scoreText": "14-4"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, May 16",
+            "time": "12:00 PM",
+            "homeTeam": "Barrie Baycats 15U DS",
+            "homeTeamCode": "612800",
+            "awayTeam": "Markham Mariners 15U DS",
+            "awayTeamCode": "617895",
+            "location": "Lennox Park",
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 2,
+              "scoreText": "2-8"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, May 16",
+            "time": "2:30 PM",
+            "homeTeam": "Barrie Baycats 15U DS",
+            "homeTeamCode": "612800",
+            "awayTeam": "Markham Mariners 15U DS",
+            "awayTeamCode": "617895",
+            "location": "Lennox Park",
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 7,
+              "scoreText": "7-11"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-19T11:42:58.291Z"
+        "lastUpdated": "2026-05-19T14:51:18.256Z"
       },
       "617895": {
         "teamCode": "617895",
         "totalGames": 16,
-        "playedGames": 0,
+        "playedGames": 2,
         "upcomingGames": 0,
-        "recentGames": [],
+        "recentGames": [
+          {
+            "date": null,
+            "dateText": "Sat, May 16",
+            "time": "12:00 PM",
+            "homeTeam": "Barrie Baycats 15U DS",
+            "homeTeamCode": "612800",
+            "awayTeam": "Markham Mariners 15U DS",
+            "awayTeamCode": "617895",
+            "location": "Lennox Park",
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 2,
+              "scoreText": "2-8"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, May 16",
+            "time": "2:30 PM",
+            "homeTeam": "Barrie Baycats 15U DS",
+            "homeTeamCode": "612800",
+            "awayTeam": "Markham Mariners 15U DS",
+            "awayTeamCode": "617895",
+            "location": "Lennox Park",
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 7,
+              "scoreText": "7-11"
+            }
+          }
+        ],
         "nextGames": [],
-        "lastUpdated": "2026-05-19T11:42:58.291Z"
+        "lastUpdated": "2026-05-19T14:51:18.256Z"
       },
       "617919": {
         "teamCode": "617919",
@@ -188,7 +253,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-19T11:42:58.292Z"
+        "lastUpdated": "2026-05-19T14:51:18.256Z"
       },
       "618002": {
         "teamCode": "618002",
@@ -230,7 +295,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-19T11:42:58.292Z"
+        "lastUpdated": "2026-05-19T14:51:18.256Z"
       },
       "618070": {
         "teamCode": "618070",
@@ -272,7 +337,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-19T11:42:58.292Z"
+        "lastUpdated": "2026-05-19T14:51:18.256Z"
       }
     },
     "allGames": [
@@ -361,8 +426,12 @@
         "awayTeam": "Markham Mariners 15U DS",
         "awayTeamCode": "617895",
         "location": "Lennox Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 2,
+          "scoreText": "2-8"
+        }
       },
       {
         "date": null,
@@ -373,8 +442,12 @@
         "awayTeam": "Markham Mariners 15U DS",
         "awayTeamCode": "617895",
         "location": "Lennox Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 7,
+          "scoreText": "7-11"
+        }
       },
       {
         "date": null,
@@ -837,21 +910,53 @@
           "away": 14,
           "scoreText": "14-4"
         }
+      },
+      {
+        "date": null,
+        "dateText": "Sat, May 16",
+        "time": "12:00 PM",
+        "homeTeam": "Barrie Baycats 15U DS",
+        "homeTeamCode": "612800",
+        "awayTeam": "Markham Mariners 15U DS",
+        "awayTeamCode": "617895",
+        "location": "Lennox Park",
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 2,
+          "scoreText": "2-8"
+        }
+      },
+      {
+        "date": null,
+        "dateText": "Sat, May 16",
+        "time": "2:30 PM",
+        "homeTeam": "Barrie Baycats 15U DS",
+        "homeTeamCode": "612800",
+        "awayTeam": "Markham Mariners 15U DS",
+        "awayTeamCode": "617895",
+        "location": "Lennox Park",
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 7,
+          "scoreText": "7-11"
+        }
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-05-19T11:42:58.292Z",
+    "lastUpdated": "2026-05-19T14:51:18.256Z",
     "totalGames": 40
   },
   "summary": {
     "totalTeams": 5,
     "totalGames": 40,
-    "completedGames": 4,
-    "upcomingGames": 36,
+    "completedGames": 6,
+    "upcomingGames": 34,
     "topTeam": {
       "team": "Barrie Baycats 15U DS",
       "teamCode": "612800",
-      "wins": 2,
+      "wins": 4,
       "losses": 0,
       "winPercentage": "1.000"
     },
@@ -864,6 +969,6 @@
       "date": "Sat, May 9",
       "location": "Whipper Billy Watson"
     },
-    "lastUpdated": "2026-05-19T11:42:59.450Z"
+    "lastUpdated": "2026-05-19T14:51:19.534Z"
   }
 }

@@ -2,7 +2,7 @@
   "standings": {
     "teams": [
       {
-        "position": 3,
+        "position": 4,
         "team": "Richmond Hill Phoenix 8U A",
         "teamCode": "617845",
         "record": {
@@ -20,7 +20,7 @@
         }
       },
       {
-        "position": 4,
+        "position": 5,
         "team": "Vaughan Vikings 8U A",
         "teamCode": "617170",
         "record": {
@@ -35,24 +35,6 @@
           "runsFor": 13,
           "runsAgainst": 4,
           "runDifferential": 9
-        }
-      },
-      {
-        "position": 5,
-        "team": "Barrie Baycats 8U A",
-        "teamCode": "612775",
-        "record": {
-          "gamesPlayed": 1,
-          "wins": 1,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": "1.000"
-        },
-        "stats": {
-          "points": 2,
-          "runsFor": 17,
-          "runsAgainst": 15,
-          "runDifferential": 2
         }
       },
       {
@@ -78,17 +60,17 @@
         "team": "Newmarket Hawks 8U A",
         "teamCode": "617896",
         "record": {
-          "gamesPlayed": 2,
-          "wins": 1,
+          "gamesPlayed": 3,
+          "wins": 2,
           "losses": 0,
           "ties": 1,
-          "winPercentage": "0.750"
+          "winPercentage": "0.833"
         },
         "stats": {
-          "points": 3,
-          "runsFor": 44,
-          "runsAgainst": 24,
-          "runDifferential": 20
+          "points": 5,
+          "runsFor": 68,
+          "runsAgainst": 37,
+          "runDifferential": 31
         }
       },
       {
@@ -107,6 +89,24 @@
           "runsFor": 29,
           "runsAgainst": 15,
           "runDifferential": 14
+        }
+      },
+      {
+        "position": 3,
+        "team": "Barrie Baycats 8U A",
+        "teamCode": "612775",
+        "record": {
+          "gamesPlayed": 2,
+          "wins": 1,
+          "losses": 1,
+          "ties": 0,
+          "winPercentage": "0.500"
+        },
+        "stats": {
+          "points": 2,
+          "runsFor": 30,
+          "runsAgainst": 39,
+          "runDifferential": -9
         }
       },
       {
@@ -182,7 +182,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-05-19T11:37:28.979Z",
+    "lastUpdated": "2026-05-19T14:46:09.420Z",
     "totalTeams": 10
   },
   "schedule": {
@@ -190,7 +190,7 @@
       "612775": {
         "teamCode": "612775",
         "totalGames": 15,
-        "playedGames": 1,
+        "playedGames": 2,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -208,10 +208,26 @@
               "away": 15,
               "scoreText": "15-17"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, May 18",
+            "time": "6:00 PM",
+            "homeTeam": "Newmarket Hawks 8U A",
+            "homeTeamCode": "617896",
+            "awayTeam": "Barrie Baycats 8U A",
+            "awayTeamCode": "612775",
+            "location": "Fairgrounds Park",
+            "isCompleted": true,
+            "score": {
+              "home": 24,
+              "away": 13,
+              "scoreText": "13-24"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-19T11:37:31.842Z"
+        "lastUpdated": "2026-05-19T14:46:12.106Z"
       },
       "617170": {
         "teamCode": "617170",
@@ -237,7 +253,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-19T11:37:31.842Z"
+        "lastUpdated": "2026-05-19T14:46:12.106Z"
       },
       "617210": {
         "teamCode": "617210",
@@ -263,7 +279,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-19T11:37:31.842Z"
+        "lastUpdated": "2026-05-19T14:46:12.106Z"
       },
       "617845": {
         "teamCode": "617845",
@@ -289,7 +305,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-19T11:37:31.842Z"
+        "lastUpdated": "2026-05-19T14:46:12.106Z"
       },
       "617873": {
         "teamCode": "617873",
@@ -331,12 +347,12 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-19T11:37:31.842Z"
+        "lastUpdated": "2026-05-19T14:46:12.106Z"
       },
       "617896": {
         "teamCode": "617896",
         "totalGames": 15,
-        "playedGames": 2,
+        "playedGames": 3,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -370,10 +386,26 @@
               "away": 30,
               "scoreText": "30-10"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, May 18",
+            "time": "6:00 PM",
+            "homeTeam": "Newmarket Hawks 8U A",
+            "homeTeamCode": "617896",
+            "awayTeam": "Barrie Baycats 8U A",
+            "awayTeamCode": "612775",
+            "location": "Fairgrounds Park",
+            "isCompleted": true,
+            "score": {
+              "home": 24,
+              "away": 13,
+              "scoreText": "13-24"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-19T11:37:31.842Z"
+        "lastUpdated": "2026-05-19T14:46:12.106Z"
       },
       "618056": {
         "teamCode": "618056",
@@ -399,7 +431,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-19T11:37:31.842Z"
+        "lastUpdated": "2026-05-19T14:46:12.106Z"
       },
       "618379": {
         "teamCode": "618379",
@@ -441,7 +473,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-19T11:37:31.842Z"
+        "lastUpdated": "2026-05-19T14:46:12.106Z"
       },
       "618474": {
         "teamCode": "618474",
@@ -483,7 +515,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-19T11:37:31.842Z"
+        "lastUpdated": "2026-05-19T14:46:12.106Z"
       },
       "625730": {
         "teamCode": "625730",
@@ -509,7 +541,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-19T11:37:31.842Z"
+        "lastUpdated": "2026-05-19T14:46:12.106Z"
       }
     },
     "allGames": [
@@ -630,8 +662,12 @@
         "awayTeam": "Barrie Baycats 8U A",
         "awayTeamCode": "612775",
         "location": "Fairgrounds Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 24,
+          "away": 13,
+          "scoreText": "13-24"
+        }
       },
       {
         "date": null,
@@ -1543,6 +1579,22 @@
         "date": null,
         "dateText": "Mon, May 18",
         "time": "6:00 PM",
+        "homeTeam": "Newmarket Hawks 8U A",
+        "homeTeamCode": "617896",
+        "awayTeam": "Barrie Baycats 8U A",
+        "awayTeamCode": "612775",
+        "location": "Fairgrounds Park",
+        "isCompleted": true,
+        "score": {
+          "home": 24,
+          "away": 13,
+          "scoreText": "13-24"
+        }
+      },
+      {
+        "date": null,
+        "dateText": "Mon, May 18",
+        "time": "6:00 PM",
         "homeTeam": "Vaughan Vikings 8U A",
         "homeTeamCode": "617170",
         "awayTeam": "Markham Mariners 8U A",
@@ -1557,14 +1609,14 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-05-19T11:37:31.842Z",
+    "lastUpdated": "2026-05-19T14:46:12.106Z",
     "totalGames": 75
   },
   "summary": {
     "totalTeams": 10,
     "totalGames": 75,
-    "completedGames": 7,
-    "upcomingGames": 68,
+    "completedGames": 8,
+    "upcomingGames": 67,
     "topTeam": {
       "team": "Richmond Hill Phoenix 8U A",
       "teamCode": "617845",
@@ -1581,6 +1633,6 @@
       "date": "Sun, May 17",
       "location": "Jays Care (Bolton Camp)"
     },
-    "lastUpdated": "2026-05-19T11:42:59.450Z"
+    "lastUpdated": "2026-05-19T14:51:19.534Z"
   }
 }
