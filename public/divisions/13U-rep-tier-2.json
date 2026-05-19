@@ -2,7 +2,7 @@
   "standings": {
     "teams": [
       {
-        "position": 2,
+        "position": 3,
         "team": "Barrie Baycats 13U AA",
         "teamCode": "612786",
         "record": {
@@ -20,7 +20,7 @@
         }
       },
       {
-        "position": 3,
+        "position": 4,
         "team": "Stouffville 13U AA",
         "teamCode": "617206",
         "record": {
@@ -56,21 +56,21 @@
         }
       },
       {
-        "position": 4,
+        "position": 2,
         "team": "Thornhill Reds 13U AA",
         "teamCode": "617990",
         "record": {
-          "gamesPlayed": 1,
-          "wins": 0,
+          "gamesPlayed": 2,
+          "wins": 1,
           "losses": 0,
           "ties": 1,
-          "winPercentage": "0.500"
+          "winPercentage": "0.750"
         },
         "stats": {
-          "points": 1,
-          "runsFor": 5,
-          "runsAgainst": 5,
-          "runDifferential": 0
+          "points": 3,
+          "runsFor": 17,
+          "runsAgainst": 13,
+          "runDifferential": 4
         }
       },
       {
@@ -78,17 +78,17 @@
         "team": "Richmond Hill Phoenix 13U AA",
         "teamCode": "617853",
         "record": {
-          "gamesPlayed": 1,
+          "gamesPlayed": 2,
           "wins": 0,
-          "losses": 1,
+          "losses": 2,
           "ties": 0,
           "winPercentage": "0.000"
         },
         "stats": {
           "points": 0,
-          "runsFor": 4,
-          "runsAgainst": 5,
-          "runDifferential": -1
+          "runsFor": 12,
+          "runsAgainst": 17,
+          "runDifferential": -5
         }
       },
       {
@@ -128,7 +128,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-05-19T00:02:06.936Z",
+    "lastUpdated": "2026-05-19T04:05:59.289Z",
     "totalTeams": 7
   },
   "schedule": {
@@ -157,7 +157,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-19T00:02:11.219Z"
+        "lastUpdated": "2026-05-19T04:06:03.332Z"
       },
       "612787": {
         "teamCode": "612787",
@@ -166,7 +166,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-19T00:02:11.219Z"
+        "lastUpdated": "2026-05-19T04:06:03.332Z"
       },
       "617180": {
         "teamCode": "617180",
@@ -175,7 +175,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-19T00:02:11.219Z"
+        "lastUpdated": "2026-05-19T04:06:03.332Z"
       },
       "617206": {
         "teamCode": "617206",
@@ -201,12 +201,12 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-19T00:02:11.219Z"
+        "lastUpdated": "2026-05-19T04:06:03.332Z"
       },
       "617853": {
         "teamCode": "617853",
         "totalGames": 17,
-        "playedGames": 1,
+        "playedGames": 2,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -224,10 +224,26 @@
               "away": 5,
               "scoreText": "5-4"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, May 18",
+            "time": "6:30 PM",
+            "homeTeam": "Thornhill Reds 13U AA",
+            "homeTeamCode": "617990",
+            "awayTeam": "Richmond Hill Phoenix 13U AA",
+            "awayTeamCode": "617853",
+            "location": "Bishops Cross",
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 8,
+              "scoreText": "8-12"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-19T00:02:11.219Z"
+        "lastUpdated": "2026-05-19T04:06:03.332Z"
       },
       "617854": {
         "teamCode": "617854",
@@ -236,7 +252,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-19T00:02:11.219Z"
+        "lastUpdated": "2026-05-19T04:06:03.332Z"
       },
       "617882": {
         "teamCode": "617882",
@@ -245,7 +261,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-19T00:02:11.219Z"
+        "lastUpdated": "2026-05-19T04:06:03.332Z"
       },
       "617909": {
         "teamCode": "617909",
@@ -271,7 +287,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-19T00:02:11.219Z"
+        "lastUpdated": "2026-05-19T04:06:03.332Z"
       },
       "617975": {
         "teamCode": "617975",
@@ -313,7 +329,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-19T00:02:11.219Z"
+        "lastUpdated": "2026-05-19T04:06:03.332Z"
       },
       "617976": {
         "teamCode": "617976",
@@ -322,7 +338,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-19T00:02:11.219Z"
+        "lastUpdated": "2026-05-19T04:06:03.332Z"
       },
       "617989": {
         "teamCode": "617989",
@@ -331,12 +347,12 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-19T00:02:11.219Z"
+        "lastUpdated": "2026-05-19T04:06:03.332Z"
       },
       "617990": {
         "teamCode": "617990",
         "totalGames": 17,
-        "playedGames": 1,
+        "playedGames": 2,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -354,10 +370,26 @@
               "away": 5,
               "scoreText": "5-5"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, May 18",
+            "time": "6:30 PM",
+            "homeTeam": "Thornhill Reds 13U AA",
+            "homeTeamCode": "617990",
+            "awayTeam": "Richmond Hill Phoenix 13U AA",
+            "awayTeamCode": "617853",
+            "location": "Bishops Cross",
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 8,
+              "scoreText": "8-12"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-19T00:02:11.219Z"
+        "lastUpdated": "2026-05-19T04:06:03.332Z"
       },
       "618008": {
         "teamCode": "618008",
@@ -366,7 +398,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-19T00:02:11.219Z"
+        "lastUpdated": "2026-05-19T04:06:03.332Z"
       },
       "618023": {
         "teamCode": "618023",
@@ -375,7 +407,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-19T00:02:11.219Z"
+        "lastUpdated": "2026-05-19T04:06:03.332Z"
       },
       "618045": {
         "teamCode": "618045",
@@ -384,7 +416,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-19T00:02:11.219Z"
+        "lastUpdated": "2026-05-19T04:06:03.332Z"
       },
       "618060": {
         "teamCode": "618060",
@@ -393,7 +425,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-19T00:02:11.219Z"
+        "lastUpdated": "2026-05-19T04:06:03.332Z"
       },
       "618384": {
         "teamCode": "618384",
@@ -402,7 +434,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-19T00:02:11.219Z"
+        "lastUpdated": "2026-05-19T04:06:03.332Z"
       },
       "618466": {
         "teamCode": "618466",
@@ -428,7 +460,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-19T00:02:11.219Z"
+        "lastUpdated": "2026-05-19T04:06:03.332Z"
       }
     },
     "allGames": [
@@ -589,8 +621,12 @@
         "awayTeam": "Richmond Hill Phoenix 13U AA",
         "awayTeamCode": "617853",
         "location": "Bishops Cross",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 8,
+          "scoreText": "8-12"
+        }
       },
       {
         "date": null,
@@ -2577,17 +2613,33 @@
           "away": 13,
           "scoreText": "13-7"
         }
+      },
+      {
+        "date": null,
+        "dateText": "Mon, May 18",
+        "time": "6:30 PM",
+        "homeTeam": "Thornhill Reds 13U AA",
+        "homeTeamCode": "617990",
+        "awayTeam": "Richmond Hill Phoenix 13U AA",
+        "awayTeamCode": "617853",
+        "location": "Bishops Cross",
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 8,
+          "scoreText": "8-12"
+        }
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-05-19T00:02:11.219Z",
+    "lastUpdated": "2026-05-19T04:06:03.332Z",
     "totalGames": 172
   },
   "summary": {
     "totalTeams": 7,
     "totalGames": 172,
-    "completedGames": 4,
-    "upcomingGames": 168,
+    "completedGames": 5,
+    "upcomingGames": 167,
     "topTeam": {
       "team": "Barrie Baycats 13U AA",
       "teamCode": "612786",
@@ -2604,6 +2656,6 @@
       "date": "Wed, May 13",
       "location": "North Hill #3"
     },
-    "lastUpdated": "2026-05-19T00:05:08.621Z"
+    "lastUpdated": "2026-05-19T04:08:56.337Z"
   }
 }

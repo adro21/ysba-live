@@ -1,7 +1,7 @@
 {
   "standings": {
     "teams": [],
-    "lastUpdated": "2026-05-18T23:59:47.108Z",
+    "lastUpdated": "2026-05-19T04:03:41.065Z",
     "totalTeams": 0
   },
   "schedule": {
@@ -30,16 +30,33 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-18T23:59:49.770Z"
+        "lastUpdated": "2026-05-19T04:03:43.756Z"
       },
       "617170": {
         "teamCode": "617170",
         "totalGames": 15,
-        "playedGames": 0,
+        "playedGames": 1,
         "upcomingGames": 0,
-        "recentGames": [],
+        "recentGames": [
+          {
+            "date": null,
+            "dateText": "Mon, May 18",
+            "time": "6:00 PM",
+            "homeTeam": "Vaughan Vikings 8U A",
+            "homeTeamCode": "617170",
+            "awayTeam": "Markham Mariners 8U A",
+            "awayTeamCode": "617873",
+            "location": "Maple Community Centre",
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 4,
+              "scoreText": "4-13"
+            }
+          }
+        ],
         "nextGames": [],
-        "lastUpdated": "2026-05-18T23:59:49.770Z"
+        "lastUpdated": "2026-05-19T04:03:43.756Z"
       },
       "617210": {
         "teamCode": "617210",
@@ -65,7 +82,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-18T23:59:49.770Z"
+        "lastUpdated": "2026-05-19T04:03:43.756Z"
       },
       "617845": {
         "teamCode": "617845",
@@ -91,12 +108,12 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-18T23:59:49.770Z"
+        "lastUpdated": "2026-05-19T04:03:43.756Z"
       },
       "617873": {
         "teamCode": "617873",
         "totalGames": 15,
-        "playedGames": 1,
+        "playedGames": 2,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -114,10 +131,26 @@
               "away": 2,
               "scoreText": "2-25"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, May 18",
+            "time": "6:00 PM",
+            "homeTeam": "Vaughan Vikings 8U A",
+            "homeTeamCode": "617170",
+            "awayTeam": "Markham Mariners 8U A",
+            "awayTeamCode": "617873",
+            "location": "Maple Community Centre",
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 4,
+              "scoreText": "4-13"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-18T23:59:49.770Z"
+        "lastUpdated": "2026-05-19T04:03:43.756Z"
       },
       "617896": {
         "teamCode": "617896",
@@ -159,7 +192,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-18T23:59:49.770Z"
+        "lastUpdated": "2026-05-19T04:03:43.756Z"
       },
       "618056": {
         "teamCode": "618056",
@@ -185,7 +218,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-18T23:59:49.770Z"
+        "lastUpdated": "2026-05-19T04:03:43.756Z"
       },
       "618379": {
         "teamCode": "618379",
@@ -227,7 +260,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-18T23:59:49.770Z"
+        "lastUpdated": "2026-05-19T04:03:43.756Z"
       },
       "618474": {
         "teamCode": "618474",
@@ -269,7 +302,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-18T23:59:49.770Z"
+        "lastUpdated": "2026-05-19T04:03:43.756Z"
       },
       "625730": {
         "teamCode": "625730",
@@ -295,7 +328,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-18T23:59:49.770Z"
+        "lastUpdated": "2026-05-19T04:03:43.756Z"
       }
     },
     "allGames": [
@@ -428,8 +461,12 @@
         "awayTeam": "Markham Mariners 8U A",
         "awayTeamCode": "617873",
         "location": "Maple Community Centre",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 4,
+          "scoreText": "4-13"
+        }
       },
       {
         "date": null,
@@ -1320,17 +1357,33 @@
           "away": 30,
           "scoreText": "30-10"
         }
+      },
+      {
+        "date": null,
+        "dateText": "Mon, May 18",
+        "time": "6:00 PM",
+        "homeTeam": "Vaughan Vikings 8U A",
+        "homeTeamCode": "617170",
+        "awayTeam": "Markham Mariners 8U A",
+        "awayTeamCode": "617873",
+        "location": "Maple Community Centre",
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 4,
+          "scoreText": "4-13"
+        }
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-05-18T23:59:49.770Z",
+    "lastUpdated": "2026-05-19T04:03:43.756Z",
     "totalGames": 75
   },
   "summary": {
     "totalTeams": 0,
     "totalGames": 75,
-    "completedGames": 6,
-    "upcomingGames": 69,
+    "completedGames": 7,
+    "upcomingGames": 68,
     "topTeam": null,
     "highestScoringGame": {
       "homeTeam": "Caledon Nationals 8U A",
@@ -1341,6 +1394,6 @@
       "date": "Sun, May 17",
       "location": "Jays Care (Bolton Camp)"
     },
-    "lastUpdated": "2026-05-19T00:05:08.621Z"
+    "lastUpdated": "2026-05-19T04:08:56.337Z"
   }
 }

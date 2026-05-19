@@ -2,24 +2,6 @@
   "standings": {
     "teams": [
       {
-        "position": 2,
-        "team": "Markham Mariners 8U A",
-        "teamCode": "617873",
-        "record": {
-          "gamesPlayed": 1,
-          "wins": 1,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": "1.000"
-        },
-        "stats": {
-          "points": 2,
-          "runsFor": 25,
-          "runsAgainst": 2,
-          "runDifferential": 23
-        }
-      },
-      {
         "position": 3,
         "team": "Richmond Hill Phoenix 8U A",
         "teamCode": "617845",
@@ -39,6 +21,24 @@
       },
       {
         "position": 4,
+        "team": "Vaughan Vikings 8U A",
+        "teamCode": "617170",
+        "record": {
+          "gamesPlayed": 1,
+          "wins": 1,
+          "losses": 0,
+          "ties": 0,
+          "winPercentage": "1.000"
+        },
+        "stats": {
+          "points": 2,
+          "runsFor": 13,
+          "runsAgainst": 4,
+          "runDifferential": 9
+        }
+      },
+      {
+        "position": 5,
         "team": "Barrie Baycats 8U A",
         "teamCode": "612775",
         "record": {
@@ -56,7 +56,7 @@
         }
       },
       {
-        "position": 5,
+        "position": 6,
         "team": "Georgina Bulldogs 8U B",
         "teamCode": "625730",
         "record": {
@@ -92,7 +92,25 @@
         }
       },
       {
-        "position": 6,
+        "position": 2,
+        "team": "Markham Mariners 8U A",
+        "teamCode": "617873",
+        "record": {
+          "gamesPlayed": 2,
+          "wins": 1,
+          "losses": 1,
+          "ties": 0,
+          "winPercentage": "0.500"
+        },
+        "stats": {
+          "points": 2,
+          "runsFor": 29,
+          "runsAgainst": 15,
+          "runDifferential": 14
+        }
+      },
+      {
+        "position": 7,
         "team": "TNT Thunder 8U A",
         "teamCode": "618056",
         "record": {
@@ -110,7 +128,7 @@
         }
       },
       {
-        "position": 7,
+        "position": 8,
         "team": "Orillia 8U B",
         "teamCode": "618379",
         "record": {
@@ -128,7 +146,7 @@
         }
       },
       {
-        "position": 8,
+        "position": 9,
         "team": "Caledon Nationals 8U A",
         "teamCode": "618474",
         "record": {
@@ -146,7 +164,7 @@
         }
       },
       {
-        "position": 9,
+        "position": 10,
         "team": "Stouffville 8U A",
         "teamCode": "617210",
         "record": {
@@ -162,27 +180,9 @@
           "runsAgainst": 18,
           "runDifferential": -9
         }
-      },
-      {
-        "position": 10,
-        "team": "Vaughan Vikings 8U A",
-        "teamCode": "617170",
-        "record": {
-          "gamesPlayed": 0,
-          "wins": 0,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": ".000"
-        },
-        "stats": {
-          "points": 0,
-          "runsFor": 0,
-          "runsAgainst": 0,
-          "runDifferential": 0
-        }
       }
     ],
-    "lastUpdated": "2026-05-18T23:59:52.728Z",
+    "lastUpdated": "2026-05-19T04:03:46.657Z",
     "totalTeams": 10
   },
   "schedule": {
@@ -211,16 +211,33 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-18T23:59:55.399Z"
+        "lastUpdated": "2026-05-19T04:03:49.293Z"
       },
       "617170": {
         "teamCode": "617170",
         "totalGames": 15,
-        "playedGames": 0,
+        "playedGames": 1,
         "upcomingGames": 0,
-        "recentGames": [],
+        "recentGames": [
+          {
+            "date": null,
+            "dateText": "Mon, May 18",
+            "time": "6:00 PM",
+            "homeTeam": "Vaughan Vikings 8U A",
+            "homeTeamCode": "617170",
+            "awayTeam": "Markham Mariners 8U A",
+            "awayTeamCode": "617873",
+            "location": "Maple Community Centre",
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 4,
+              "scoreText": "4-13"
+            }
+          }
+        ],
         "nextGames": [],
-        "lastUpdated": "2026-05-18T23:59:55.399Z"
+        "lastUpdated": "2026-05-19T04:03:49.293Z"
       },
       "617210": {
         "teamCode": "617210",
@@ -246,7 +263,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-18T23:59:55.399Z"
+        "lastUpdated": "2026-05-19T04:03:49.293Z"
       },
       "617845": {
         "teamCode": "617845",
@@ -272,12 +289,12 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-18T23:59:55.399Z"
+        "lastUpdated": "2026-05-19T04:03:49.293Z"
       },
       "617873": {
         "teamCode": "617873",
         "totalGames": 15,
-        "playedGames": 1,
+        "playedGames": 2,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -295,10 +312,26 @@
               "away": 2,
               "scoreText": "2-25"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, May 18",
+            "time": "6:00 PM",
+            "homeTeam": "Vaughan Vikings 8U A",
+            "homeTeamCode": "617170",
+            "awayTeam": "Markham Mariners 8U A",
+            "awayTeamCode": "617873",
+            "location": "Maple Community Centre",
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 4,
+              "scoreText": "4-13"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-18T23:59:55.399Z"
+        "lastUpdated": "2026-05-19T04:03:49.293Z"
       },
       "617896": {
         "teamCode": "617896",
@@ -340,7 +373,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-18T23:59:55.399Z"
+        "lastUpdated": "2026-05-19T04:03:49.293Z"
       },
       "618056": {
         "teamCode": "618056",
@@ -366,7 +399,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-18T23:59:55.399Z"
+        "lastUpdated": "2026-05-19T04:03:49.293Z"
       },
       "618379": {
         "teamCode": "618379",
@@ -408,7 +441,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-18T23:59:55.399Z"
+        "lastUpdated": "2026-05-19T04:03:49.293Z"
       },
       "618474": {
         "teamCode": "618474",
@@ -450,7 +483,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-18T23:59:55.399Z"
+        "lastUpdated": "2026-05-19T04:03:49.293Z"
       },
       "625730": {
         "teamCode": "625730",
@@ -476,7 +509,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-18T23:59:55.399Z"
+        "lastUpdated": "2026-05-19T04:03:49.293Z"
       }
     },
     "allGames": [
@@ -609,8 +642,12 @@
         "awayTeam": "Markham Mariners 8U A",
         "awayTeamCode": "617873",
         "location": "Maple Community Centre",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 4,
+          "scoreText": "4-13"
+        }
       },
       {
         "date": null,
@@ -1501,20 +1538,36 @@
           "away": 30,
           "scoreText": "30-10"
         }
+      },
+      {
+        "date": null,
+        "dateText": "Mon, May 18",
+        "time": "6:00 PM",
+        "homeTeam": "Vaughan Vikings 8U A",
+        "homeTeamCode": "617170",
+        "awayTeam": "Markham Mariners 8U A",
+        "awayTeamCode": "617873",
+        "location": "Maple Community Centre",
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 4,
+          "scoreText": "4-13"
+        }
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-05-18T23:59:55.399Z",
+    "lastUpdated": "2026-05-19T04:03:49.293Z",
     "totalGames": 75
   },
   "summary": {
     "totalTeams": 10,
     "totalGames": 75,
-    "completedGames": 6,
-    "upcomingGames": 69,
+    "completedGames": 7,
+    "upcomingGames": 68,
     "topTeam": {
-      "team": "Markham Mariners 8U A",
-      "teamCode": "617873",
+      "team": "Richmond Hill Phoenix 8U A",
+      "teamCode": "617845",
       "wins": 1,
       "losses": 0,
       "winPercentage": "1.000"
@@ -1528,6 +1581,6 @@
       "date": "Sun, May 17",
       "location": "Jays Care (Bolton Camp)"
     },
-    "lastUpdated": "2026-05-19T00:05:08.621Z"
+    "lastUpdated": "2026-05-19T04:08:56.337Z"
   }
 }
