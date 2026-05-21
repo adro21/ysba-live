@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-21T11:51:46.410Z",
-  "totalGames": 141,
+  "lastUpdated": "2026-05-21T14:56:15.386Z",
+  "totalGames": 143,
   "games": [
     {
       "date": "2026-05-20T22:30:00.000Z",
@@ -11,8 +11,12 @@
       "awayTeam": "Newmarket",
       "awayTeamCode": "892637",
       "location": "Armstrong — Diamond 1 — Newmarket",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 10,
+        "away": 16,
+        "scoreText": "16-10"
+      },
       "division": "10U",
       "tier": "interlock-all-tiers"
     },
@@ -25,8 +29,12 @@
       "awayTeam": "Barrie",
       "awayTeamCode": "892634",
       "location": "Barrie Sports Complex — Diamond 14 — Minesing",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 6,
+        "away": 15,
+        "scoreText": "15-6"
+      },
       "division": "10U",
       "tier": "interlock-all-tiers"
     },
@@ -39,8 +47,12 @@
       "awayTeam": "Markham",
       "awayTeamCode": "892645",
       "location": "Carlton   — Toronto",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 0,
+        "away": 9,
+        "scoreText": "9-0"
+      },
       "division": "10U",
       "tier": "interlock-all-tiers"
     },
@@ -53,8 +65,12 @@
       "awayTeam": "Leaside",
       "awayTeamCode": "892648",
       "location": "Rolph Road PS — Diamond East — Toronto",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 11,
+        "away": 5,
+        "scoreText": "5-11"
+      },
       "division": "10U",
       "tier": "interlock-all-tiers"
     },
@@ -740,6 +756,24 @@
     },
     {
       "date": null,
+      "dateText": "Wed, May 20",
+      "time": "6:00 PM",
+      "homeTeam": "Thornhill Reds 10U A",
+      "homeTeamCode": "617985",
+      "awayTeam": "Bradford Tigers 10U A",
+      "awayTeamCode": "617944",
+      "location": "Concord Regional park #3",
+      "isCompleted": true,
+      "score": {
+        "home": 15,
+        "away": 5,
+        "scoreText": "5-15"
+      },
+      "division": "10U",
+      "tier": "rep-tier-3"
+    },
+    {
+      "date": null,
       "dateText": "Fri, May 8",
       "time": "6:00 PM",
       "homeTeam": "Orillia 11U AA",
@@ -860,24 +894,6 @@
         "home": 10,
         "away": 8,
         "scoreText": "8-10"
-      },
-      "division": "11U",
-      "tier": "rep-tier-2"
-    },
-    {
-      "date": null,
-      "dateText": "Wed, May 20",
-      "time": "6:30 PM",
-      "homeTeam": "Innisfil Cardinals 11U A",
-      "homeTeamCode": "618043",
-      "awayTeam": "Richmond Hill Phoenix 11U A",
-      "awayTeamCode": "617850",
-      "location": "Nantyr Diamond",
-      "isCompleted": true,
-      "score": {
-        "home": 1,
-        "away": 17,
-        "scoreText": "17-1"
       },
       "division": "11U",
       "tier": "rep-tier-2"

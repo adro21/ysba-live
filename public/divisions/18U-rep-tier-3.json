@@ -21,6 +21,24 @@
       },
       {
         "position": 2,
+        "team": "Barrie Baycats 18U A",
+        "teamCode": "612795",
+        "record": {
+          "gamesPlayed": 2,
+          "wins": 2,
+          "losses": 0,
+          "ties": 0,
+          "winPercentage": "1.000"
+        },
+        "stats": {
+          "points": 4,
+          "runsFor": 10,
+          "runsAgainst": 2,
+          "runDifferential": 8
+        }
+      },
+      {
+        "position": 3,
         "team": "TNT Thunder 18U A",
         "teamCode": "618063",
         "record": {
@@ -38,7 +56,7 @@
         }
       },
       {
-        "position": 6,
+        "position": 7,
         "team": "Orillia 18U B",
         "teamCode": "618388",
         "record": {
@@ -56,25 +74,7 @@
         }
       },
       {
-        "position": 7,
-        "team": "Barrie Baycats 18U A",
-        "teamCode": "612795",
-        "record": {
-          "gamesPlayed": 1,
-          "wins": 1,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": "1.000"
-        },
-        "stats": {
-          "points": 2,
-          "runsFor": 4,
-          "runsAgainst": 2,
-          "runDifferential": 2
-        }
-      },
-      {
-        "position": 4,
+        "position": 5,
         "team": "Barrie Baycats 17U A",
         "teamCode": "612794",
         "record": {
@@ -92,7 +92,7 @@
         }
       },
       {
-        "position": 5,
+        "position": 6,
         "team": "Bradford Tigers 18U A - Team 1",
         "teamCode": "617951",
         "record": {
@@ -110,7 +110,7 @@
         }
       },
       {
-        "position": 3,
+        "position": 4,
         "team": "Bradford Tigers 18U A - Team 2",
         "teamCode": "625723",
         "record": {
@@ -132,17 +132,17 @@
         "team": "Muskoka Hornets 18U A",
         "teamCode": "628939",
         "record": {
-          "gamesPlayed": 1,
+          "gamesPlayed": 2,
           "wins": 0,
-          "losses": 1,
+          "losses": 2,
           "ties": 0,
           "winPercentage": "0.000"
         },
         "stats": {
           "points": 0,
           "runsFor": 11,
-          "runsAgainst": 14,
-          "runDifferential": -3
+          "runsAgainst": 20,
+          "runDifferential": -9
         }
       },
       {
@@ -200,7 +200,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-05-21T11:50:30.617Z",
+    "lastUpdated": "2026-05-21T14:54:59.459Z",
     "totalTeams": 11
   },
   "schedule": {
@@ -245,12 +245,12 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-21T11:50:33.403Z"
+        "lastUpdated": "2026-05-21T14:55:02.256Z"
       },
       "612795": {
         "teamCode": "612795",
         "totalGames": 18,
-        "playedGames": 1,
+        "playedGames": 2,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -268,10 +268,26 @@
               "away": 2,
               "scoreText": "2-4"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Wed, May 20",
+            "time": "7:30 PM",
+            "homeTeam": "Barrie Baycats 18U A",
+            "homeTeamCode": "612795",
+            "awayTeam": "Muskoka Hornets 18U A",
+            "awayTeamCode": "628939",
+            "location": "Athletic Kulture Stadium aka \"The Stadium\", Barrie Community Sports Complex, 2100 Nursery Road, Minesing, ON",
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 0,
+              "scoreText": "0-6"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-21T11:50:33.403Z"
+        "lastUpdated": "2026-05-21T14:55:02.256Z"
       },
       "617169": {
         "teamCode": "617169",
@@ -313,7 +329,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-21T11:50:33.403Z"
+        "lastUpdated": "2026-05-21T14:55:02.256Z"
       },
       "617951": {
         "teamCode": "617951",
@@ -355,7 +371,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-21T11:50:33.403Z"
+        "lastUpdated": "2026-05-21T14:55:02.256Z"
       },
       "618012": {
         "teamCode": "618012",
@@ -381,7 +397,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-21T11:50:33.403Z"
+        "lastUpdated": "2026-05-21T14:55:02.256Z"
       },
       "618025": {
         "teamCode": "618025",
@@ -407,7 +423,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-21T11:50:33.404Z"
+        "lastUpdated": "2026-05-21T14:55:02.256Z"
       },
       "618049": {
         "teamCode": "618049",
@@ -433,7 +449,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-21T11:50:33.404Z"
+        "lastUpdated": "2026-05-21T14:55:02.256Z"
       },
       "618063": {
         "teamCode": "618063",
@@ -475,7 +491,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-21T11:50:33.404Z"
+        "lastUpdated": "2026-05-21T14:55:02.256Z"
       },
       "618388": {
         "teamCode": "618388",
@@ -501,7 +517,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-21T11:50:33.404Z"
+        "lastUpdated": "2026-05-21T14:55:02.256Z"
       },
       "625723": {
         "teamCode": "625723",
@@ -575,12 +591,12 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-21T11:50:33.404Z"
+        "lastUpdated": "2026-05-21T14:55:02.256Z"
       },
       "628939": {
         "teamCode": "628939",
         "totalGames": 18,
-        "playedGames": 1,
+        "playedGames": 2,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -598,10 +614,26 @@
               "away": 14,
               "scoreText": "14-11"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Wed, May 20",
+            "time": "7:30 PM",
+            "homeTeam": "Barrie Baycats 18U A",
+            "homeTeamCode": "612795",
+            "awayTeam": "Muskoka Hornets 18U A",
+            "awayTeamCode": "628939",
+            "location": "Athletic Kulture Stadium aka \"The Stadium\", Barrie Community Sports Complex, 2100 Nursery Road, Minesing, ON",
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 0,
+              "scoreText": "0-6"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-21T11:50:33.404Z"
+        "lastUpdated": "2026-05-21T14:55:02.256Z"
       }
     },
     "allGames": [
@@ -794,8 +826,12 @@
         "awayTeam": "Muskoka Hornets 18U A",
         "awayTeamCode": "628939",
         "location": "Athletic Kulture Stadium aka \"The Stadium\", Barrie Community Sports Complex, 2100 Nursery Road, Minesing, ON",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 0,
+          "scoreText": "0-6"
+        }
       },
       {
         "date": null,
@@ -1974,17 +2010,33 @@
           "away": 2,
           "scoreText": "2-10"
         }
+      },
+      {
+        "date": null,
+        "dateText": "Wed, May 20",
+        "time": "7:30 PM",
+        "homeTeam": "Barrie Baycats 18U A",
+        "homeTeamCode": "612795",
+        "awayTeam": "Muskoka Hornets 18U A",
+        "awayTeamCode": "628939",
+        "location": "Athletic Kulture Stadium aka \"The Stadium\", Barrie Community Sports Complex, 2100 Nursery Road, Minesing, ON",
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 0,
+          "scoreText": "0-6"
+        }
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-05-21T11:50:33.404Z",
+    "lastUpdated": "2026-05-21T14:55:02.256Z",
     "totalGames": 99
   },
   "summary": {
     "totalTeams": 11,
     "totalGames": 99,
-    "completedGames": 9,
-    "upcomingGames": 90,
+    "completedGames": 10,
+    "upcomingGames": 89,
     "topTeam": {
       "team": "Stayner 18U C",
       "teamCode": "617169",
@@ -2001,6 +2053,6 @@
       "date": "Mon, May 18",
       "location": "Beeton Diamond at 72 Prospect St. Beeton"
     },
-    "lastUpdated": "2026-05-21T11:51:46.410Z"
+    "lastUpdated": "2026-05-21T14:56:15.386Z"
   }
 }
