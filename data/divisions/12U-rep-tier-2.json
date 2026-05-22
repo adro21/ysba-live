@@ -6,35 +6,35 @@
         "team": "Markham Mariners 12U AA",
         "teamCode": "617879",
         "record": {
-          "gamesPlayed": 3,
-          "wins": 3,
+          "gamesPlayed": 4,
+          "wins": 4,
           "losses": 0,
           "ties": 0,
           "winPercentage": "1.000"
         },
         "stats": {
-          "points": 6,
-          "runsFor": 32,
-          "runsAgainst": 11,
-          "runDifferential": 21
+          "points": 8,
+          "runsFor": 44,
+          "runsAgainst": 18,
+          "runDifferential": 26
         }
       },
       {
-        "position": 3,
+        "position": 2,
         "team": "Barrie Baycats 12U AA",
         "teamCode": "612783",
         "record": {
-          "gamesPlayed": 1,
-          "wins": 1,
+          "gamesPlayed": 2,
+          "wins": 2,
           "losses": 0,
           "ties": 0,
           "winPercentage": "1.000"
         },
         "stats": {
-          "points": 2,
-          "runsFor": 20,
-          "runsAgainst": 2,
-          "runDifferential": 18
+          "points": 4,
+          "runsFor": 40,
+          "runsAgainst": 12,
+          "runDifferential": 28
         }
       },
       {
@@ -56,7 +56,7 @@
         }
       },
       {
-        "position": 2,
+        "position": 3,
         "team": "Aurora-King Jays 12U AA",
         "teamCode": "617973",
         "record": {
@@ -93,6 +93,24 @@
       },
       {
         "position": 6,
+        "team": "Vaughan Vikings 12U AA",
+        "teamCode": "617177",
+        "record": {
+          "gamesPlayed": 2,
+          "wins": 0,
+          "losses": 2,
+          "ties": 0,
+          "winPercentage": "0.000"
+        },
+        "stats": {
+          "points": 0,
+          "runsFor": 14,
+          "runsAgainst": 30,
+          "runDifferential": -16
+        }
+      },
+      {
+        "position": 7,
         "team": "Richmond Hill Phoenix 12U AA",
         "teamCode": "617852",
         "record": {
@@ -110,9 +128,9 @@
         }
       },
       {
-        "position": 7,
-        "team": "Vaughan Vikings 12U AA",
-        "teamCode": "617177",
+        "position": 8,
+        "team": "Orangeville Bengals 12U AA",
+        "teamCode": "618022",
         "record": {
           "gamesPlayed": 1,
           "wins": 0,
@@ -122,13 +140,13 @@
         },
         "stats": {
           "points": 0,
-          "runsFor": 4,
-          "runsAgainst": 10,
-          "runDifferential": -6
+          "runsFor": 7,
+          "runsAgainst": 12,
+          "runDifferential": -5
         }
       },
       {
-        "position": 8,
+        "position": 9,
         "team": "Muskoka Hornets 12U AA",
         "teamCode": "628934",
         "record": {
@@ -144,27 +162,9 @@
           "runsAgainst": 0,
           "runDifferential": 0
         }
-      },
-      {
-        "position": 9,
-        "team": "Orangeville Bengals 12U AA",
-        "teamCode": "618022",
-        "record": {
-          "gamesPlayed": 0,
-          "wins": 0,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": ".000"
-        },
-        "stats": {
-          "points": 0,
-          "runsFor": 0,
-          "runsAgainst": 0,
-          "runDifferential": 0
-        }
       }
     ],
-    "lastUpdated": "2026-05-22T02:54:15.074Z",
+    "lastUpdated": "2026-05-22T06:46:08.601Z",
     "totalTeams": 9
   },
   "schedule": {
@@ -172,7 +172,7 @@
       "612783": {
         "teamCode": "612783",
         "totalGames": 16,
-        "playedGames": 1,
+        "playedGames": 2,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -190,10 +190,26 @@
               "away": 2,
               "scoreText": "2-20"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Thu, May 21",
+            "time": "8:30 PM",
+            "homeTeam": "Vaughan Vikings 12U AA",
+            "homeTeamCode": "617177",
+            "awayTeam": "Barrie Baycats 12U AA",
+            "awayTeamCode": "612783",
+            "location": "Concord Regional Diamond # 4",
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 20,
+              "scoreText": "20-10"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-22T02:54:18.977Z"
+        "lastUpdated": "2026-05-22T06:46:12.945Z"
       },
       "612784": {
         "teamCode": "612784",
@@ -219,12 +235,12 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-22T02:54:18.977Z"
+        "lastUpdated": "2026-05-22T06:46:12.945Z"
       },
       "617177": {
         "teamCode": "617177",
         "totalGames": 15,
-        "playedGames": 1,
+        "playedGames": 2,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -242,10 +258,26 @@
               "away": 10,
               "scoreText": "10-4"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Thu, May 21",
+            "time": "8:30 PM",
+            "homeTeam": "Vaughan Vikings 12U AA",
+            "homeTeamCode": "617177",
+            "awayTeam": "Barrie Baycats 12U AA",
+            "awayTeamCode": "612783",
+            "location": "Concord Regional Diamond # 4",
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 20,
+              "scoreText": "20-10"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-22T02:54:18.977Z"
+        "lastUpdated": "2026-05-22T06:46:12.945Z"
       },
       "617178": {
         "teamCode": "617178",
@@ -271,7 +303,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-22T02:54:18.977Z"
+        "lastUpdated": "2026-05-22T06:46:12.945Z"
       },
       "617204": {
         "teamCode": "617204",
@@ -297,7 +329,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-22T02:54:18.977Z"
+        "lastUpdated": "2026-05-22T06:46:12.945Z"
       },
       "617852": {
         "teamCode": "617852",
@@ -339,12 +371,12 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-22T02:54:18.977Z"
+        "lastUpdated": "2026-05-22T06:46:12.945Z"
       },
       "617879": {
         "teamCode": "617879",
         "totalGames": 15,
-        "playedGames": 3,
+        "playedGames": 4,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -394,10 +426,26 @@
               "away": 14,
               "scoreText": "14-0"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Thu, May 21",
+            "time": "6:30 PM",
+            "homeTeam": "Markham Mariners 12U AA",
+            "homeTeamCode": "617879",
+            "awayTeam": "Orangeville Bengals 12U AA",
+            "awayTeamCode": "618022",
+            "location": "Millikan Mills Comm Centre Field # 5",
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 7,
+              "scoreText": "7-12"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-22T02:54:18.977Z"
+        "lastUpdated": "2026-05-22T06:46:12.945Z"
       },
       "617880": {
         "teamCode": "617880",
@@ -439,7 +487,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-22T02:54:18.977Z"
+        "lastUpdated": "2026-05-22T06:46:12.945Z"
       },
       "617906": {
         "teamCode": "617906",
@@ -481,7 +529,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-22T02:54:18.977Z"
+        "lastUpdated": "2026-05-22T06:46:12.945Z"
       },
       "617907": {
         "teamCode": "617907",
@@ -523,7 +571,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-22T02:54:18.977Z"
+        "lastUpdated": "2026-05-22T06:46:12.945Z"
       },
       "617946": {
         "teamCode": "617946",
@@ -549,7 +597,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-22T02:54:18.977Z"
+        "lastUpdated": "2026-05-22T06:46:12.945Z"
       },
       "617973": {
         "teamCode": "617973",
@@ -591,7 +639,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-22T02:54:18.977Z"
+        "lastUpdated": "2026-05-22T06:46:12.945Z"
       },
       "617974": {
         "teamCode": "617974",
@@ -617,7 +665,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-22T02:54:18.977Z"
+        "lastUpdated": "2026-05-22T06:46:12.945Z"
       },
       "617987": {
         "teamCode": "617987",
@@ -659,7 +707,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-22T02:54:18.977Z"
+        "lastUpdated": "2026-05-22T06:46:12.945Z"
       },
       "617988": {
         "teamCode": "617988",
@@ -717,7 +765,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-22T02:54:18.977Z"
+        "lastUpdated": "2026-05-22T06:46:12.945Z"
       },
       "618007": {
         "teamCode": "618007",
@@ -759,7 +807,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-22T02:54:18.977Z"
+        "lastUpdated": "2026-05-22T06:46:12.945Z"
       },
       "618021": {
         "teamCode": "618021",
@@ -785,16 +833,33 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-22T02:54:18.977Z"
+        "lastUpdated": "2026-05-22T06:46:12.945Z"
       },
       "618022": {
         "teamCode": "618022",
         "totalGames": 16,
-        "playedGames": 0,
+        "playedGames": 1,
         "upcomingGames": 0,
-        "recentGames": [],
+        "recentGames": [
+          {
+            "date": null,
+            "dateText": "Thu, May 21",
+            "time": "6:30 PM",
+            "homeTeam": "Markham Mariners 12U AA",
+            "homeTeamCode": "617879",
+            "awayTeam": "Orangeville Bengals 12U AA",
+            "awayTeamCode": "618022",
+            "location": "Millikan Mills Comm Centre Field # 5",
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 7,
+              "scoreText": "7-12"
+            }
+          }
+        ],
         "nextGames": [],
-        "lastUpdated": "2026-05-22T02:54:18.977Z"
+        "lastUpdated": "2026-05-22T06:46:12.945Z"
       },
       "618044": {
         "teamCode": "618044",
@@ -820,7 +885,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-22T02:54:18.977Z"
+        "lastUpdated": "2026-05-22T06:46:12.945Z"
       },
       "618059": {
         "teamCode": "618059",
@@ -846,7 +911,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-22T02:54:18.977Z"
+        "lastUpdated": "2026-05-22T06:46:12.945Z"
       },
       "618068": {
         "teamCode": "618068",
@@ -872,7 +937,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-22T02:54:18.977Z"
+        "lastUpdated": "2026-05-22T06:46:12.945Z"
       },
       "618383": {
         "teamCode": "618383",
@@ -881,7 +946,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-22T02:54:18.977Z"
+        "lastUpdated": "2026-05-22T06:46:12.945Z"
       },
       "618395": {
         "teamCode": "618395",
@@ -907,7 +972,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-22T02:54:18.977Z"
+        "lastUpdated": "2026-05-22T06:46:12.945Z"
       },
       "618468": {
         "teamCode": "618468",
@@ -916,7 +981,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-22T02:54:18.977Z"
+        "lastUpdated": "2026-05-22T06:46:12.945Z"
       },
       "625727": {
         "teamCode": "625727",
@@ -958,7 +1023,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-22T02:54:18.977Z"
+        "lastUpdated": "2026-05-22T06:46:12.945Z"
       },
       "628934": {
         "teamCode": "628934",
@@ -967,7 +1032,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-22T02:54:18.977Z"
+        "lastUpdated": "2026-05-22T06:46:12.945Z"
       }
     },
     "allGames": [
@@ -1288,8 +1353,12 @@
         "awayTeam": "Orangeville Bengals 12U AA",
         "awayTeamCode": "618022",
         "location": "Millikan Mills Comm Centre Field # 5",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 7,
+          "scoreText": "7-12"
+        }
       },
       {
         "date": null,
@@ -1312,8 +1381,12 @@
         "awayTeam": "Barrie Baycats 12U AA",
         "awayTeamCode": "612783",
         "location": "Concord Regional Diamond # 4",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 20,
+          "scoreText": "20-10"
+        }
       },
       {
         "date": null,
@@ -3603,18 +3676,18 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-05-22T02:54:18.977Z",
+    "lastUpdated": "2026-05-22T06:46:12.945Z",
     "totalGames": 200
   },
   "summary": {
     "totalTeams": 9,
     "totalGames": 200,
-    "completedGames": 17,
-    "upcomingGames": 183,
+    "completedGames": 19,
+    "upcomingGames": 181,
     "topTeam": {
       "team": "Markham Mariners 12U AA",
       "teamCode": "617879",
-      "wins": 3,
+      "wins": 4,
       "losses": 0,
       "winPercentage": "1.000"
     },
@@ -3627,6 +3700,6 @@
       "date": "Mon, May 18",
       "location": "Lampman Lane"
     },
-    "lastUpdated": "2026-05-22T02:57:40.595Z"
+    "lastUpdated": "2026-05-22T06:49:41.391Z"
   }
 }
