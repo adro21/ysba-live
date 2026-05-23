@@ -1,22 +1,1451 @@
 {
   "standings": {
     "teams": [],
-    "lastUpdated": "2026-05-23T22:12:52.537Z",
+    "lastUpdated": "2026-05-23T23:27:38.300Z",
     "totalTeams": 0
   },
   "schedule": {
-    "teamSchedules": {},
-    "allGames": [],
-    "lastUpdated": "2026-05-23T22:18:35.979Z",
-    "error": "No schedule data available"
+    "teamSchedules": {
+      "612775": {
+        "teamCode": "612775",
+        "totalGames": 15,
+        "playedGames": 2,
+        "upcomingGames": 0,
+        "recentGames": [
+          {
+            "date": null,
+            "dateText": "Mon, May 11",
+            "time": "6:30 PM",
+            "homeTeam": "Barrie Baycats 8U A",
+            "homeTeamCode": "612775",
+            "awayTeam": "Orillia 8U B",
+            "awayTeamCode": "618379",
+            "location": "Barrie Sports Complex - Diamond 12",
+            "isCompleted": true,
+            "score": {
+              "home": 17,
+              "away": 15,
+              "scoreText": "15-17"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, May 18",
+            "time": "6:00 PM",
+            "homeTeam": "Newmarket Hawks 8U A",
+            "homeTeamCode": "617896",
+            "awayTeam": "Barrie Baycats 8U A",
+            "awayTeamCode": "612775",
+            "location": "Fairgrounds Park",
+            "isCompleted": true,
+            "score": {
+              "home": 24,
+              "away": 13,
+              "scoreText": "13-24"
+            }
+          }
+        ],
+        "nextGames": [],
+        "lastUpdated": "2026-05-23T23:27:41.073Z"
+      },
+      "617170": {
+        "teamCode": "617170",
+        "totalGames": 15,
+        "playedGames": 1,
+        "upcomingGames": 0,
+        "recentGames": [
+          {
+            "date": null,
+            "dateText": "Mon, May 18",
+            "time": "6:00 PM",
+            "homeTeam": "Vaughan Vikings 8U A",
+            "homeTeamCode": "617170",
+            "awayTeam": "Markham Mariners 8U A",
+            "awayTeamCode": "617873",
+            "location": "Maple Community Centre",
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 4,
+              "scoreText": "4-13"
+            }
+          }
+        ],
+        "nextGames": [],
+        "lastUpdated": "2026-05-23T23:27:41.073Z"
+      },
+      "617210": {
+        "teamCode": "617210",
+        "totalGames": 15,
+        "playedGames": 1,
+        "upcomingGames": 0,
+        "recentGames": [
+          {
+            "date": null,
+            "dateText": "Mon, May 11",
+            "time": "6:00 PM",
+            "homeTeam": "Richmond Hill Phoenix 8U A",
+            "homeTeamCode": "617845",
+            "awayTeam": "Stouffville 8U A",
+            "awayTeamCode": "617210",
+            "location": "Richmond Green Sports Center - Diamond 3",
+            "isCompleted": true,
+            "score": {
+              "home": 18,
+              "away": 9,
+              "scoreText": "9-18"
+            }
+          }
+        ],
+        "nextGames": [],
+        "lastUpdated": "2026-05-23T23:27:41.073Z"
+      },
+      "617845": {
+        "teamCode": "617845",
+        "totalGames": 15,
+        "playedGames": 1,
+        "upcomingGames": 0,
+        "recentGames": [
+          {
+            "date": null,
+            "dateText": "Mon, May 11",
+            "time": "6:00 PM",
+            "homeTeam": "Richmond Hill Phoenix 8U A",
+            "homeTeamCode": "617845",
+            "awayTeam": "Stouffville 8U A",
+            "awayTeamCode": "617210",
+            "location": "Richmond Green Sports Center - Diamond 3",
+            "isCompleted": true,
+            "score": {
+              "home": 18,
+              "away": 9,
+              "scoreText": "9-18"
+            }
+          }
+        ],
+        "nextGames": [],
+        "lastUpdated": "2026-05-23T23:27:41.073Z"
+      },
+      "617873": {
+        "teamCode": "617873",
+        "totalGames": 15,
+        "playedGames": 2,
+        "upcomingGames": 0,
+        "recentGames": [
+          {
+            "date": null,
+            "dateText": "Mon, May 11",
+            "time": "6:30 PM",
+            "homeTeam": "Markham Mariners 8U A",
+            "homeTeamCode": "617873",
+            "awayTeam": "Caledon Nationals 8U A",
+            "awayTeamCode": "618474",
+            "location": "Morgan Park",
+            "isCompleted": true,
+            "score": {
+              "home": 25,
+              "away": 2,
+              "scoreText": "2-25"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, May 18",
+            "time": "6:00 PM",
+            "homeTeam": "Vaughan Vikings 8U A",
+            "homeTeamCode": "617170",
+            "awayTeam": "Markham Mariners 8U A",
+            "awayTeamCode": "617873",
+            "location": "Maple Community Centre",
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 4,
+              "scoreText": "4-13"
+            }
+          }
+        ],
+        "nextGames": [],
+        "lastUpdated": "2026-05-23T23:27:41.073Z"
+      },
+      "617896": {
+        "teamCode": "617896",
+        "totalGames": 15,
+        "playedGames": 3,
+        "upcomingGames": 0,
+        "recentGames": [
+          {
+            "date": null,
+            "dateText": "Mon, May 11",
+            "time": "6:00 PM",
+            "homeTeam": "Newmarket Hawks 8U A",
+            "homeTeamCode": "617896",
+            "awayTeam": "TNT Thunder 8U A",
+            "awayTeamCode": "618056",
+            "location": "Fairgrounds Park",
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 14,
+              "scoreText": "14-14"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sun, May 17",
+            "time": "5:00 PM",
+            "homeTeam": "Caledon Nationals 8U A",
+            "homeTeamCode": "618474",
+            "awayTeam": "Newmarket Hawks 8U A",
+            "awayTeamCode": "617896",
+            "location": "Jays Care (Bolton Camp)",
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 30,
+              "scoreText": "30-10"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, May 18",
+            "time": "6:00 PM",
+            "homeTeam": "Newmarket Hawks 8U A",
+            "homeTeamCode": "617896",
+            "awayTeam": "Barrie Baycats 8U A",
+            "awayTeamCode": "612775",
+            "location": "Fairgrounds Park",
+            "isCompleted": true,
+            "score": {
+              "home": 24,
+              "away": 13,
+              "scoreText": "13-24"
+            }
+          }
+        ],
+        "nextGames": [],
+        "lastUpdated": "2026-05-23T23:27:41.073Z"
+      },
+      "618056": {
+        "teamCode": "618056",
+        "totalGames": 15,
+        "playedGames": 1,
+        "upcomingGames": 0,
+        "recentGames": [
+          {
+            "date": null,
+            "dateText": "Mon, May 11",
+            "time": "6:00 PM",
+            "homeTeam": "Newmarket Hawks 8U A",
+            "homeTeamCode": "617896",
+            "awayTeam": "TNT Thunder 8U A",
+            "awayTeamCode": "618056",
+            "location": "Fairgrounds Park",
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 14,
+              "scoreText": "14-14"
+            }
+          }
+        ],
+        "nextGames": [],
+        "lastUpdated": "2026-05-23T23:27:41.073Z"
+      },
+      "618379": {
+        "teamCode": "618379",
+        "totalGames": 15,
+        "playedGames": 2,
+        "upcomingGames": 0,
+        "recentGames": [
+          {
+            "date": null,
+            "dateText": "Mon, May 11",
+            "time": "6:30 PM",
+            "homeTeam": "Barrie Baycats 8U A",
+            "homeTeamCode": "612775",
+            "awayTeam": "Orillia 8U B",
+            "awayTeamCode": "618379",
+            "location": "Barrie Sports Complex - Diamond 12",
+            "isCompleted": true,
+            "score": {
+              "home": 17,
+              "away": 15,
+              "scoreText": "15-17"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Tue, May 12",
+            "time": "6:00 PM",
+            "homeTeam": "Orillia 8U B",
+            "homeTeamCode": "618379",
+            "awayTeam": "Georgina Bulldogs 8U B",
+            "awayTeamCode": "625730",
+            "location": "Dean Heliotis",
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 10,
+              "scoreText": "10-9"
+            }
+          }
+        ],
+        "nextGames": [],
+        "lastUpdated": "2026-05-23T23:27:41.073Z"
+      },
+      "618474": {
+        "teamCode": "618474",
+        "totalGames": 15,
+        "playedGames": 2,
+        "upcomingGames": 0,
+        "recentGames": [
+          {
+            "date": null,
+            "dateText": "Mon, May 11",
+            "time": "6:30 PM",
+            "homeTeam": "Markham Mariners 8U A",
+            "homeTeamCode": "617873",
+            "awayTeam": "Caledon Nationals 8U A",
+            "awayTeamCode": "618474",
+            "location": "Morgan Park",
+            "isCompleted": true,
+            "score": {
+              "home": 25,
+              "away": 2,
+              "scoreText": "2-25"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sun, May 17",
+            "time": "5:00 PM",
+            "homeTeam": "Caledon Nationals 8U A",
+            "homeTeamCode": "618474",
+            "awayTeam": "Newmarket Hawks 8U A",
+            "awayTeamCode": "617896",
+            "location": "Jays Care (Bolton Camp)",
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 30,
+              "scoreText": "30-10"
+            }
+          }
+        ],
+        "nextGames": [],
+        "lastUpdated": "2026-05-23T23:27:41.073Z"
+      },
+      "625730": {
+        "teamCode": "625730",
+        "totalGames": 15,
+        "playedGames": 1,
+        "upcomingGames": 0,
+        "recentGames": [
+          {
+            "date": null,
+            "dateText": "Tue, May 12",
+            "time": "6:00 PM",
+            "homeTeam": "Orillia 8U B",
+            "homeTeamCode": "618379",
+            "awayTeam": "Georgina Bulldogs 8U B",
+            "awayTeamCode": "625730",
+            "location": "Dean Heliotis",
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 10,
+              "scoreText": "10-9"
+            }
+          }
+        ],
+        "nextGames": [],
+        "lastUpdated": "2026-05-23T23:27:41.073Z"
+      }
+    },
+    "allGames": [
+      {
+        "date": null,
+        "dateText": "Mon, May 4",
+        "time": "6:00 PM",
+        "homeTeam": "Vaughan Vikings 8U A",
+        "homeTeamCode": "617170",
+        "awayTeam": "Orillia 8U B",
+        "awayTeamCode": "618379",
+        "location": "Maple Community Centre",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Mon, May 11",
+        "time": "6:00 PM",
+        "homeTeam": "Richmond Hill Phoenix 8U A",
+        "homeTeamCode": "617845",
+        "awayTeam": "Stouffville 8U A",
+        "awayTeamCode": "617210",
+        "location": "Richmond Green Sports Center - Diamond 3",
+        "isCompleted": true,
+        "score": {
+          "home": 18,
+          "away": 9,
+          "scoreText": "9-18"
+        }
+      },
+      {
+        "date": null,
+        "dateText": "Mon, May 11",
+        "time": "6:00 PM",
+        "homeTeam": "Newmarket Hawks 8U A",
+        "homeTeamCode": "617896",
+        "awayTeam": "TNT Thunder 8U A",
+        "awayTeamCode": "618056",
+        "location": "Fairgrounds Park",
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 14,
+          "scoreText": "14-14"
+        }
+      },
+      {
+        "date": null,
+        "dateText": "Mon, May 11",
+        "time": "6:30 PM",
+        "homeTeam": "Barrie Baycats 8U A",
+        "homeTeamCode": "612775",
+        "awayTeam": "Orillia 8U B",
+        "awayTeamCode": "618379",
+        "location": "Barrie Sports Complex - Diamond 12",
+        "isCompleted": true,
+        "score": {
+          "home": 17,
+          "away": 15,
+          "scoreText": "15-17"
+        }
+      },
+      {
+        "date": null,
+        "dateText": "Mon, May 11",
+        "time": "6:30 PM",
+        "homeTeam": "Markham Mariners 8U A",
+        "homeTeamCode": "617873",
+        "awayTeam": "Caledon Nationals 8U A",
+        "awayTeamCode": "618474",
+        "location": "Morgan Park",
+        "isCompleted": true,
+        "score": {
+          "home": 25,
+          "away": 2,
+          "scoreText": "2-25"
+        }
+      },
+      {
+        "date": null,
+        "dateText": "Tue, May 12",
+        "time": "6:00 PM",
+        "homeTeam": "Orillia 8U B",
+        "homeTeamCode": "618379",
+        "awayTeam": "Georgina Bulldogs 8U B",
+        "awayTeamCode": "625730",
+        "location": "Dean Heliotis",
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 10,
+          "scoreText": "10-9"
+        }
+      },
+      {
+        "date": null,
+        "dateText": "Sun, May 17",
+        "time": "5:00 PM",
+        "homeTeam": "Caledon Nationals 8U A",
+        "homeTeamCode": "618474",
+        "awayTeam": "Newmarket Hawks 8U A",
+        "awayTeamCode": "617896",
+        "location": "Jays Care (Bolton Camp)",
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 30,
+          "scoreText": "30-10"
+        }
+      },
+      {
+        "date": null,
+        "dateText": "Mon, May 18",
+        "time": "6:00 PM",
+        "homeTeam": "Newmarket Hawks 8U A",
+        "homeTeamCode": "617896",
+        "awayTeam": "Barrie Baycats 8U A",
+        "awayTeamCode": "612775",
+        "location": "Fairgrounds Park",
+        "isCompleted": true,
+        "score": {
+          "home": 24,
+          "away": 13,
+          "scoreText": "13-24"
+        }
+      },
+      {
+        "date": null,
+        "dateText": "Mon, May 18",
+        "time": "6:00 PM",
+        "homeTeam": "Vaughan Vikings 8U A",
+        "homeTeamCode": "617170",
+        "awayTeam": "Markham Mariners 8U A",
+        "awayTeamCode": "617873",
+        "location": "Maple Community Centre",
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 4,
+          "scoreText": "4-13"
+        }
+      },
+      {
+        "date": null,
+        "dateText": "Thu, May 21",
+        "time": "6:00 PM",
+        "homeTeam": "Georgina Bulldogs 8U B",
+        "homeTeamCode": "625730",
+        "awayTeam": "TNT Thunder 8U A",
+        "awayTeamCode": "618056",
+        "location": "The ROC - Diamond 4",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Sat, May 23",
+        "time": "11:00 AM",
+        "homeTeam": "Orillia 8U B",
+        "homeTeamCode": "618379",
+        "awayTeam": "Richmond Hill Phoenix 8U A",
+        "awayTeamCode": "617845",
+        "location": "Kitchener Park - K1",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Sun, May 24",
+        "time": "10:00 AM",
+        "homeTeam": "Stouffville 8U A",
+        "homeTeamCode": "617210",
+        "awayTeam": "Caledon Nationals 8U A",
+        "awayTeamCode": "618474",
+        "location": "Bethesda Sports Field Comm Park - Diamond 3",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Mon, May 25",
+        "time": "6:00 PM",
+        "homeTeam": "Richmond Hill Phoenix 8U A",
+        "homeTeamCode": "617845",
+        "awayTeam": "Vaughan Vikings 8U A",
+        "awayTeamCode": "617170",
+        "location": "Richmond Green Sports Center - Diamond 3",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Mon, May 25",
+        "time": "6:00 PM",
+        "homeTeam": "TNT Thunder 8U A",
+        "homeTeamCode": "618056",
+        "awayTeam": "Caledon Nationals 8U A",
+        "awayTeamCode": "618474",
+        "location": "McLean Diamond",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Mon, May 25",
+        "time": "6:00 PM",
+        "homeTeam": "Newmarket Hawks 8U A",
+        "homeTeamCode": "617896",
+        "awayTeam": "Stouffville 8U A",
+        "awayTeamCode": "617210",
+        "location": "Fairgrounds Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Thu, May 28",
+        "time": "6:00 PM",
+        "homeTeam": "Georgina Bulldogs 8U B",
+        "homeTeamCode": "625730",
+        "awayTeam": "Orillia 8U B",
+        "awayTeamCode": "618379",
+        "location": "The ROC - Diamond 4",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Sun, May 31",
+        "time": "10:00 AM",
+        "homeTeam": "Stouffville 8U A",
+        "homeTeamCode": "617210",
+        "awayTeam": "Orillia 8U B",
+        "awayTeamCode": "618379",
+        "location": "Bethesda Sports Field Comm Park - Diamond 3",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Mon, Jun 1",
+        "time": "6:00 PM",
+        "homeTeam": "Newmarket Hawks 8U A",
+        "homeTeamCode": "617896",
+        "awayTeam": "Vaughan Vikings 8U A",
+        "awayTeamCode": "617170",
+        "location": "Fairgrounds Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Mon, Jun 1",
+        "time": "6:00 PM",
+        "homeTeam": "Richmond Hill Phoenix 8U A",
+        "homeTeamCode": "617845",
+        "awayTeam": "Markham Mariners 8U A",
+        "awayTeamCode": "617873",
+        "location": "Richmond Green Sports Center - Diamond 3",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Mon, Jun 1",
+        "time": "6:30 PM",
+        "homeTeam": "Barrie Baycats 8U A",
+        "homeTeamCode": "612775",
+        "awayTeam": "TNT Thunder 8U A",
+        "awayTeamCode": "618056",
+        "location": "Barrie Sports Complex - Diamond 12",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Wed, Jun 3",
+        "time": "6:30 PM",
+        "homeTeam": "Markham Mariners 8U A",
+        "homeTeamCode": "617873",
+        "awayTeam": "Barrie Baycats 8U A",
+        "awayTeamCode": "612775",
+        "location": "Morgan Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Thu, Jun 4",
+        "time": "6:00 PM",
+        "homeTeam": "Georgina Bulldogs 8U B",
+        "homeTeamCode": "625730",
+        "awayTeam": "Barrie Baycats 8U A",
+        "awayTeamCode": "612775",
+        "location": "The ROC - Diamond 4",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Sun, Jun 7",
+        "time": "10:00 AM",
+        "homeTeam": "Stouffville 8U A",
+        "homeTeamCode": "617210",
+        "awayTeam": "Georgina Bulldogs 8U B",
+        "awayTeamCode": "625730",
+        "location": "Bethesda Sports Field Comm Park - Diamond 3",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Sun, Jun 7",
+        "time": "5:00 PM",
+        "homeTeam": "Caledon Nationals 8U A",
+        "homeTeamCode": "618474",
+        "awayTeam": "Vaughan Vikings 8U A",
+        "awayTeamCode": "617170",
+        "location": "Jays Care (Bolton Camp)",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Mon, Jun 8",
+        "time": "6:00 PM",
+        "homeTeam": "Vaughan Vikings 8U A",
+        "homeTeamCode": "617170",
+        "awayTeam": "Caledon Nationals 8U A",
+        "awayTeamCode": "618474",
+        "location": "Maple Community Centre",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Mon, Jun 8",
+        "time": "6:00 PM",
+        "homeTeam": "TNT Thunder 8U A",
+        "homeTeamCode": "618056",
+        "awayTeam": "Newmarket Hawks 8U A",
+        "awayTeamCode": "617896",
+        "location": "McLean Diamond",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Mon, Jun 8",
+        "time": "6:30 PM",
+        "homeTeam": "Markham Mariners 8U A",
+        "homeTeamCode": "617873",
+        "awayTeam": "Stouffville 8U A",
+        "awayTeamCode": "617210",
+        "location": "Morgan Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Mon, Jun 8",
+        "time": "6:30 PM",
+        "homeTeam": "Barrie Baycats 8U A",
+        "homeTeamCode": "612775",
+        "awayTeam": "Richmond Hill Phoenix 8U A",
+        "awayTeamCode": "617845",
+        "location": "Barrie Sports Complex - Diamond 12",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Thu, Jun 11",
+        "time": "6:00 PM",
+        "homeTeam": "Georgina Bulldogs 8U B",
+        "homeTeamCode": "625730",
+        "awayTeam": "Markham Mariners 8U A",
+        "awayTeamCode": "617873",
+        "location": "The ROC - Diamond 4",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Sun, Jun 14",
+        "time": "10:00 AM",
+        "homeTeam": "Stouffville 8U A",
+        "homeTeamCode": "617210",
+        "awayTeam": "TNT Thunder 8U A",
+        "awayTeamCode": "618056",
+        "location": "Rupert Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Sun, Jun 14",
+        "time": "5:00 PM",
+        "homeTeam": "Caledon Nationals 8U A",
+        "homeTeamCode": "618474",
+        "awayTeam": "Markham Mariners 8U A",
+        "awayTeamCode": "617873",
+        "location": "Jays Care (Bolton Camp)",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Mon, Jun 15",
+        "time": "6:00 PM",
+        "homeTeam": "Vaughan Vikings 8U A",
+        "homeTeamCode": "617170",
+        "awayTeam": "Stouffville 8U A",
+        "awayTeamCode": "617210",
+        "location": "Maple Community Centre",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Mon, Jun 15",
+        "time": "6:00 PM",
+        "homeTeam": "TNT Thunder 8U A",
+        "homeTeamCode": "618056",
+        "awayTeam": "Georgina Bulldogs 8U B",
+        "awayTeamCode": "625730",
+        "location": "McLean Diamond",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Mon, Jun 15",
+        "time": "6:30 PM",
+        "homeTeam": "Barrie Baycats 8U A",
+        "homeTeamCode": "612775",
+        "awayTeam": "Newmarket Hawks 8U A",
+        "awayTeamCode": "617896",
+        "location": "Barrie Sports Complex - Diamond 12",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Thu, Jun 18",
+        "time": "6:00 PM",
+        "homeTeam": "Georgina Bulldogs 8U B",
+        "homeTeamCode": "625730",
+        "awayTeam": "Caledon Nationals 8U A",
+        "awayTeamCode": "618474",
+        "location": "The ROC - Diamond 4",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Sat, Jun 20",
+        "time": "11:00 AM",
+        "homeTeam": "Orillia 8U B",
+        "homeTeamCode": "618379",
+        "awayTeam": "Newmarket Hawks 8U A",
+        "awayTeamCode": "617896",
+        "location": "Kitchener Park - K1",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Sat, Jun 20",
+        "time": "1:30 PM",
+        "homeTeam": "Newmarket Hawks 8U A",
+        "homeTeamCode": "617896",
+        "awayTeam": "Orillia 8U B",
+        "awayTeamCode": "618379",
+        "location": "Kitchener Park - K1",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Mon, Jun 22",
+        "time": "6:00 PM",
+        "homeTeam": "Richmond Hill Phoenix 8U A",
+        "homeTeamCode": "617845",
+        "awayTeam": "Caledon Nationals 8U A",
+        "awayTeamCode": "618474",
+        "location": "Richmond Green Sports Center - Diamond 3",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Mon, Jun 22",
+        "time": "6:30 PM",
+        "homeTeam": "Markham Mariners 8U A",
+        "homeTeamCode": "617873",
+        "awayTeam": "Vaughan Vikings 8U A",
+        "awayTeamCode": "617170",
+        "location": "Morgan Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Mon, Jun 22",
+        "time": "6:30 PM",
+        "homeTeam": "Barrie Baycats 8U A",
+        "homeTeamCode": "612775",
+        "awayTeam": "Georgina Bulldogs 8U B",
+        "awayTeamCode": "625730",
+        "location": "Barrie Sports Complex - Diamond 12",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Wed, Jun 24",
+        "time": "6:00 PM",
+        "homeTeam": "Newmarket Hawks 8U A",
+        "homeTeamCode": "617896",
+        "awayTeam": "Georgina Bulldogs 8U B",
+        "awayTeamCode": "625730",
+        "location": "Fairgrounds Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Thu, Jun 25",
+        "time": "6:00 PM",
+        "homeTeam": "Georgina Bulldogs 8U B",
+        "homeTeamCode": "625730",
+        "awayTeam": "Richmond Hill Phoenix 8U A",
+        "awayTeamCode": "617845",
+        "location": "The ROC - Diamond 4",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Sun, Jun 28",
+        "time": "9:00 AM",
+        "homeTeam": "Stouffville 8U A",
+        "homeTeamCode": "617210",
+        "awayTeam": "Richmond Hill Phoenix 8U A",
+        "awayTeamCode": "617845",
+        "location": "Bethesda Sports Field Comm Park - Diamond 3",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Sun, Jun 28",
+        "time": "11:00 AM",
+        "homeTeam": "Stouffville 8U A",
+        "homeTeamCode": "617210",
+        "awayTeam": "Vaughan Vikings 8U A",
+        "awayTeamCode": "617170",
+        "location": "Bethesda Sports Field Comm Park - Diamond 3",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Sun, Jun 28",
+        "time": "5:00 PM",
+        "homeTeam": "Caledon Nationals 8U A",
+        "homeTeamCode": "618474",
+        "awayTeam": "Orillia 8U B",
+        "awayTeamCode": "618379",
+        "location": "Jays Care (Bolton Camp)",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Mon, Jun 29",
+        "time": "6:00 PM",
+        "homeTeam": "TNT Thunder 8U A",
+        "homeTeamCode": "618056",
+        "awayTeam": "Vaughan Vikings 8U A",
+        "awayTeamCode": "617170",
+        "location": "McLean Diamond",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Mon, Jun 29",
+        "time": "6:30 PM",
+        "homeTeam": "Markham Mariners 8U A",
+        "homeTeamCode": "617873",
+        "awayTeam": "Richmond Hill Phoenix 8U A",
+        "awayTeamCode": "617845",
+        "location": "Morgan Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Mon, Jun 29",
+        "time": "6:30 PM",
+        "homeTeam": "Barrie Baycats 8U A",
+        "homeTeamCode": "612775",
+        "awayTeam": "Stouffville 8U A",
+        "awayTeamCode": "617210",
+        "location": "Barrie Sports Complex - Diamond 12",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Tue, Jun 30",
+        "time": "6:00 PM",
+        "homeTeam": "Orillia 8U B",
+        "homeTeamCode": "618379",
+        "awayTeam": "Markham Mariners 8U A",
+        "awayTeamCode": "617873",
+        "location": "Dean Heliotis",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Thu, Jul 2",
+        "time": "6:00 PM",
+        "homeTeam": "Orillia 8U B",
+        "homeTeamCode": "618379",
+        "awayTeam": "Barrie Baycats 8U A",
+        "awayTeamCode": "612775",
+        "location": "Dean Heliotis",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Sun, Jul 5",
+        "time": "9:00 AM",
+        "homeTeam": "Stouffville 8U A",
+        "homeTeamCode": "617210",
+        "awayTeam": "Vaughan Vikings 8U A",
+        "awayTeamCode": "617170",
+        "location": "Bethesda Sports Field Comm Park - Diamond 3",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Sun, Jul 5",
+        "time": "11:00 AM",
+        "homeTeam": "Stouffville 8U A",
+        "homeTeamCode": "617210",
+        "awayTeam": "Markham Mariners 8U A",
+        "awayTeamCode": "617873",
+        "location": "Bethesda Sports Field Comm Park - Diamond 3",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Sun, Jul 5",
+        "time": "5:00 PM",
+        "homeTeam": "Caledon Nationals 8U A",
+        "homeTeamCode": "618474",
+        "awayTeam": "Richmond Hill Phoenix 8U A",
+        "awayTeamCode": "617845",
+        "location": "Jays Care (Bolton Camp)",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Mon, Jul 6",
+        "time": "6:00 PM",
+        "homeTeam": "Vaughan Vikings 8U A",
+        "homeTeamCode": "617170",
+        "awayTeam": "Caledon Nationals 8U A",
+        "awayTeamCode": "618474",
+        "location": "Maple Community Centre",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Mon, Jul 6",
+        "time": "6:30 PM",
+        "homeTeam": "Markham Mariners 8U A",
+        "homeTeamCode": "617873",
+        "awayTeam": "TNT Thunder 8U A",
+        "awayTeamCode": "618056",
+        "location": "Morgan Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Mon, Jul 6",
+        "time": "6:30 PM",
+        "homeTeam": "Barrie Baycats 8U A",
+        "homeTeamCode": "612775",
+        "awayTeam": "Newmarket Hawks 8U A",
+        "awayTeamCode": "617896",
+        "location": "Barrie Sports Complex - Diamond 12",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Mon, Jul 13",
+        "time": "6:00 PM",
+        "homeTeam": "Richmond Hill Phoenix 8U A",
+        "homeTeamCode": "617845",
+        "awayTeam": "Newmarket Hawks 8U A",
+        "awayTeamCode": "617896",
+        "location": "Richmond Green Sports Center - Diamond 3",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Mon, Jul 13",
+        "time": "6:30 PM",
+        "homeTeam": "Barrie Baycats 8U A",
+        "homeTeamCode": "612775",
+        "awayTeam": "Caledon Nationals 8U A",
+        "awayTeamCode": "618474",
+        "location": "Barrie Sports Complex - Diamond 12",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Thu, Jul 16",
+        "time": "6:00 PM",
+        "homeTeam": "Georgina Bulldogs 8U B",
+        "homeTeamCode": "625730",
+        "awayTeam": "Newmarket Hawks 8U A",
+        "awayTeamCode": "617896",
+        "location": "The ROC - Diamond 4",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Sat, Jul 18",
+        "time": "10:00 AM",
+        "homeTeam": "Richmond Hill Phoenix 8U A",
+        "homeTeamCode": "617845",
+        "awayTeam": "Markham Mariners 8U A",
+        "awayTeamCode": "617873",
+        "location": "Richvale Athletic Park - Diamond #2",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Sun, Jul 19",
+        "time": "6:00 PM",
+        "homeTeam": "TNT Thunder 8U A",
+        "homeTeamCode": "618056",
+        "awayTeam": "Orillia 8U B",
+        "awayTeamCode": "618379",
+        "location": "McLean Diamond",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Mon, Jul 20",
+        "time": "6:00 PM",
+        "homeTeam": "Vaughan Vikings 8U A",
+        "homeTeamCode": "617170",
+        "awayTeam": "Barrie Baycats 8U A",
+        "awayTeamCode": "612775",
+        "location": "Maple Community Centre",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Mon, Jul 20",
+        "time": "6:00 PM",
+        "homeTeam": "Newmarket Hawks 8U A",
+        "homeTeamCode": "617896",
+        "awayTeam": "Markham Mariners 8U A",
+        "awayTeamCode": "617873",
+        "location": "Fairgrounds Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Mon, Jul 20",
+        "time": "6:00 PM",
+        "homeTeam": "Richmond Hill Phoenix 8U A",
+        "homeTeamCode": "617845",
+        "awayTeam": "TNT Thunder 8U A",
+        "awayTeamCode": "618056",
+        "location": "Richmond Green Sports Center - Diamond 3",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Thu, Jul 23",
+        "time": "6:00 PM",
+        "homeTeam": "Georgina Bulldogs 8U B",
+        "homeTeamCode": "625730",
+        "awayTeam": "TNT Thunder 8U A",
+        "awayTeamCode": "618056",
+        "location": "The ROC - Diamond 4",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Sat, Jul 25",
+        "time": "11:00 AM",
+        "homeTeam": "Orillia 8U B",
+        "homeTeamCode": "618379",
+        "awayTeam": "TNT Thunder 8U A",
+        "awayTeamCode": "618056",
+        "location": "Kitchener Park - K1",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Sat, Jul 25",
+        "time": "1:30 PM",
+        "homeTeam": "TNT Thunder 8U A",
+        "homeTeamCode": "618056",
+        "awayTeam": "Orillia 8U B",
+        "awayTeamCode": "618379",
+        "location": "Kitchener Park - K1",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Sun, Jul 26",
+        "time": "5:00 PM",
+        "homeTeam": "Caledon Nationals 8U A",
+        "homeTeamCode": "618474",
+        "awayTeam": "Stouffville 8U A",
+        "awayTeamCode": "617210",
+        "location": "Jays Care (Bolton Camp)",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Mon, Jul 27",
+        "time": "6:00 PM",
+        "homeTeam": "Newmarket Hawks 8U A",
+        "homeTeamCode": "617896",
+        "awayTeam": "Georgina Bulldogs 8U B",
+        "awayTeamCode": "625730",
+        "location": "Fairgrounds Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Mon, Jul 27",
+        "time": "6:00 PM",
+        "homeTeam": "Vaughan Vikings 8U A",
+        "homeTeamCode": "617170",
+        "awayTeam": "Richmond Hill Phoenix 8U A",
+        "awayTeamCode": "617845",
+        "location": "Maple Community Centre",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Mon, Jul 27",
+        "time": "6:00 PM",
+        "homeTeam": "TNT Thunder 8U A",
+        "homeTeamCode": "618056",
+        "awayTeam": "Barrie Baycats 8U A",
+        "awayTeamCode": "612775",
+        "location": "McLean Diamond",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Tue, Jul 28",
+        "time": "6:00 PM",
+        "homeTeam": "Orillia 8U B",
+        "homeTeamCode": "618379",
+        "awayTeam": "Barrie Baycats 8U A",
+        "awayTeamCode": "612775",
+        "location": "Dean Heliotis",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Wed, Jul 29",
+        "time": "6:00 PM",
+        "homeTeam": "Caledon Nationals 8U A",
+        "homeTeamCode": "618474",
+        "awayTeam": "Richmond Hill Phoenix 8U A",
+        "awayTeamCode": "617845",
+        "location": "North Hill Park - Diamond #2",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Wed, Jul 29",
+        "time": "6:30 PM",
+        "homeTeam": "Markham Mariners 8U A",
+        "homeTeamCode": "617873",
+        "awayTeam": "Stouffville 8U A",
+        "awayTeamCode": "617210",
+        "location": "Morgan Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Thu, Jul 30",
+        "time": "6:00 PM",
+        "homeTeam": "Georgina Bulldogs 8U B",
+        "homeTeamCode": "625730",
+        "awayTeam": "Vaughan Vikings 8U A",
+        "awayTeamCode": "617170",
+        "location": "The ROC - Diamond 4",
+        "isCompleted": false,
+        "score": null
+      }
+    ],
+    "recentGames": [
+      {
+        "date": null,
+        "dateText": "Mon, May 11",
+        "time": "6:00 PM",
+        "homeTeam": "Richmond Hill Phoenix 8U A",
+        "homeTeamCode": "617845",
+        "awayTeam": "Stouffville 8U A",
+        "awayTeamCode": "617210",
+        "location": "Richmond Green Sports Center - Diamond 3",
+        "isCompleted": true,
+        "score": {
+          "home": 18,
+          "away": 9,
+          "scoreText": "9-18"
+        }
+      },
+      {
+        "date": null,
+        "dateText": "Mon, May 11",
+        "time": "6:00 PM",
+        "homeTeam": "Newmarket Hawks 8U A",
+        "homeTeamCode": "617896",
+        "awayTeam": "TNT Thunder 8U A",
+        "awayTeamCode": "618056",
+        "location": "Fairgrounds Park",
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 14,
+          "scoreText": "14-14"
+        }
+      },
+      {
+        "date": null,
+        "dateText": "Mon, May 11",
+        "time": "6:30 PM",
+        "homeTeam": "Barrie Baycats 8U A",
+        "homeTeamCode": "612775",
+        "awayTeam": "Orillia 8U B",
+        "awayTeamCode": "618379",
+        "location": "Barrie Sports Complex - Diamond 12",
+        "isCompleted": true,
+        "score": {
+          "home": 17,
+          "away": 15,
+          "scoreText": "15-17"
+        }
+      },
+      {
+        "date": null,
+        "dateText": "Mon, May 11",
+        "time": "6:30 PM",
+        "homeTeam": "Markham Mariners 8U A",
+        "homeTeamCode": "617873",
+        "awayTeam": "Caledon Nationals 8U A",
+        "awayTeamCode": "618474",
+        "location": "Morgan Park",
+        "isCompleted": true,
+        "score": {
+          "home": 25,
+          "away": 2,
+          "scoreText": "2-25"
+        }
+      },
+      {
+        "date": null,
+        "dateText": "Tue, May 12",
+        "time": "6:00 PM",
+        "homeTeam": "Orillia 8U B",
+        "homeTeamCode": "618379",
+        "awayTeam": "Georgina Bulldogs 8U B",
+        "awayTeamCode": "625730",
+        "location": "Dean Heliotis",
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 10,
+          "scoreText": "10-9"
+        }
+      },
+      {
+        "date": null,
+        "dateText": "Sun, May 17",
+        "time": "5:00 PM",
+        "homeTeam": "Caledon Nationals 8U A",
+        "homeTeamCode": "618474",
+        "awayTeam": "Newmarket Hawks 8U A",
+        "awayTeamCode": "617896",
+        "location": "Jays Care (Bolton Camp)",
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 30,
+          "scoreText": "30-10"
+        }
+      },
+      {
+        "date": null,
+        "dateText": "Mon, May 18",
+        "time": "6:00 PM",
+        "homeTeam": "Newmarket Hawks 8U A",
+        "homeTeamCode": "617896",
+        "awayTeam": "Barrie Baycats 8U A",
+        "awayTeamCode": "612775",
+        "location": "Fairgrounds Park",
+        "isCompleted": true,
+        "score": {
+          "home": 24,
+          "away": 13,
+          "scoreText": "13-24"
+        }
+      },
+      {
+        "date": null,
+        "dateText": "Mon, May 18",
+        "time": "6:00 PM",
+        "homeTeam": "Vaughan Vikings 8U A",
+        "homeTeamCode": "617170",
+        "awayTeam": "Markham Mariners 8U A",
+        "awayTeamCode": "617873",
+        "location": "Maple Community Centre",
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 4,
+          "scoreText": "4-13"
+        }
+      }
+    ],
+    "upcomingGames": [],
+    "lastUpdated": "2026-05-23T23:27:41.073Z",
+    "totalGames": 75
   },
   "summary": {
     "totalTeams": 0,
-    "totalGames": 0,
-    "completedGames": 0,
-    "upcomingGames": 0,
+    "totalGames": 75,
+    "completedGames": 8,
+    "upcomingGames": 67,
     "topTeam": null,
-    "highestScoringGame": null,
-    "lastUpdated": "2026-05-23T22:18:35.900Z"
+    "highestScoringGame": {
+      "homeTeam": "Caledon Nationals 8U A",
+      "awayTeam": "Newmarket Hawks 8U A",
+      "homeScore": 10,
+      "awayScore": 30,
+      "totalRuns": 40,
+      "date": "Sun, May 17",
+      "location": "Jays Care (Bolton Camp)"
+    },
+    "lastUpdated": "2026-05-23T23:33:28.052Z"
   }
 }
