@@ -2,7 +2,7 @@
   "standings": {
     "teams": [
       {
-        "position": 1,
+        "position": 3,
         "team": "Stayner 18U C",
         "teamCode": "617169",
         "record": {
@@ -20,7 +20,7 @@
         }
       },
       {
-        "position": 2,
+        "position": 4,
         "team": "Barrie Baycats 18U A",
         "teamCode": "612795",
         "record": {
@@ -35,24 +35,6 @@
           "runsFor": 10,
           "runsAgainst": 2,
           "runDifferential": 8
-        }
-      },
-      {
-        "position": 3,
-        "team": "TNT Thunder 18U A",
-        "teamCode": "618063",
-        "record": {
-          "gamesPlayed": 2,
-          "wins": 2,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": "1.000"
-        },
-        "stats": {
-          "points": 4,
-          "runsFor": 23,
-          "runsAgainst": 16,
-          "runDifferential": 7
         }
       },
       {
@@ -74,21 +56,39 @@
         }
       },
       {
-        "position": 5,
+        "position": 1,
         "team": "Barrie Baycats 17U A",
         "teamCode": "612794",
         "record": {
-          "gamesPlayed": 2,
-          "wins": 1,
+          "gamesPlayed": 3,
+          "wins": 2,
           "losses": 1,
           "ties": 0,
-          "winPercentage": "0.500"
+          "winPercentage": "0.667"
         },
         "stats": {
-          "points": 2,
-          "runsFor": 18,
-          "runsAgainst": 10,
-          "runDifferential": 8
+          "points": 4,
+          "runsFor": 32,
+          "runsAgainst": 14,
+          "runDifferential": 18
+        }
+      },
+      {
+        "position": 2,
+        "team": "TNT Thunder 18U A",
+        "teamCode": "618063",
+        "record": {
+          "gamesPlayed": 3,
+          "wins": 2,
+          "losses": 1,
+          "ties": 0,
+          "winPercentage": "0.667"
+        },
+        "stats": {
+          "points": 4,
+          "runsFor": 27,
+          "runsAgainst": 30,
+          "runDifferential": -3
         }
       },
       {
@@ -110,7 +110,7 @@
         }
       },
       {
-        "position": 4,
+        "position": 5,
         "team": "Bradford Tigers 18U A - Team 2",
         "teamCode": "625723",
         "record": {
@@ -200,7 +200,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-05-25T17:06:44.562Z",
+    "lastUpdated": "2026-05-25T19:01:24.550Z",
     "totalTeams": 11
   },
   "schedule": {
@@ -208,7 +208,7 @@
       "612794": {
         "teamCode": "612794",
         "totalGames": 18,
-        "playedGames": 2,
+        "playedGames": 3,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -242,10 +242,26 @@
               "away": 5,
               "scoreText": "5-8"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Thu, May 21",
+            "time": "7:30 PM",
+            "homeTeam": "Barrie Baycats 17U A",
+            "homeTeamCode": "612794",
+            "awayTeam": "TNT Thunder 18U A",
+            "awayTeamCode": "618063",
+            "location": "Dana field at the sports complex (2100 Nursery Road, Minesing)",
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 4,
+              "scoreText": "4-14"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-25T17:06:47.284Z"
+        "lastUpdated": "2026-05-25T19:01:27.238Z"
       },
       "612795": {
         "teamCode": "612795",
@@ -287,7 +303,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-25T17:06:47.284Z"
+        "lastUpdated": "2026-05-25T19:01:27.238Z"
       },
       "617169": {
         "teamCode": "617169",
@@ -329,7 +345,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-25T17:06:47.284Z"
+        "lastUpdated": "2026-05-25T19:01:27.238Z"
       },
       "617951": {
         "teamCode": "617951",
@@ -371,7 +387,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-25T17:06:47.284Z"
+        "lastUpdated": "2026-05-25T19:01:27.238Z"
       },
       "618012": {
         "teamCode": "618012",
@@ -397,7 +413,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-25T17:06:47.284Z"
+        "lastUpdated": "2026-05-25T19:01:27.238Z"
       },
       "618025": {
         "teamCode": "618025",
@@ -423,7 +439,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-25T17:06:47.284Z"
+        "lastUpdated": "2026-05-25T19:01:27.238Z"
       },
       "618049": {
         "teamCode": "618049",
@@ -449,12 +465,12 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-25T17:06:47.284Z"
+        "lastUpdated": "2026-05-25T19:01:27.238Z"
       },
       "618063": {
         "teamCode": "618063",
         "totalGames": 18,
-        "playedGames": 2,
+        "playedGames": 3,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -488,10 +504,26 @@
               "away": 11,
               "scoreText": "11-15"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Thu, May 21",
+            "time": "7:30 PM",
+            "homeTeam": "Barrie Baycats 17U A",
+            "homeTeamCode": "612794",
+            "awayTeam": "TNT Thunder 18U A",
+            "awayTeamCode": "618063",
+            "location": "Dana field at the sports complex (2100 Nursery Road, Minesing)",
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 4,
+              "scoreText": "4-14"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-25T17:06:47.284Z"
+        "lastUpdated": "2026-05-25T19:01:27.238Z"
       },
       "618388": {
         "teamCode": "618388",
@@ -517,7 +549,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-25T17:06:47.284Z"
+        "lastUpdated": "2026-05-25T19:01:27.238Z"
       },
       "625723": {
         "teamCode": "625723",
@@ -591,7 +623,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-25T17:06:47.284Z"
+        "lastUpdated": "2026-05-25T19:01:27.238Z"
       },
       "628939": {
         "teamCode": "628939",
@@ -633,7 +665,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-25T17:06:47.284Z"
+        "lastUpdated": "2026-05-25T19:01:27.238Z"
       }
     },
     "allGames": [
@@ -842,8 +874,12 @@
         "awayTeam": "TNT Thunder 18U A",
         "awayTeamCode": "618063",
         "location": "Dana field at the sports complex (2100 Nursery Road, Minesing)",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 4,
+          "scoreText": "4-14"
+        }
       },
       {
         "date": null,
@@ -866,18 +902,6 @@
         "awayTeam": "Bradford Tigers 18U A - Team 2",
         "awayTeamCode": "625723",
         "location": "Tudhope Park Jerry Udell Diamond, 450 Atherley Road Orillia",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": null,
-        "dateText": "Mon, May 25",
-        "time": "8:30 PM",
-        "homeTeam": "TNT Thunder 18U A",
-        "homeTeamCode": "618063",
-        "awayTeam": "Collingwood Jays 18U A",
-        "awayTeamCode": "618012",
-        "location": "Beeton Diamond at 72 Prospect St. Beeton",
         "isCompleted": false,
         "score": null
       },
@@ -1087,13 +1111,13 @@
       },
       {
         "date": null,
-        "dateText": "Tue, Jun 9",
+        "dateText": "Mon, Jun 8",
         "time": "8:30 PM",
-        "homeTeam": "Orillia 18U B",
-        "homeTeamCode": "618388",
-        "awayTeam": "TNT Thunder 18U A",
-        "awayTeamCode": "618063",
-        "location": "Ross diamond is McKinnel Square Park 137 Dunedin Street",
+        "homeTeam": "TNT Thunder 18U A",
+        "homeTeamCode": "618063",
+        "awayTeam": "Collingwood Jays 18U A",
+        "awayTeamCode": "618012",
+        "location": "Beeton Diamond at 72 Prospect St. Beeton",
         "isCompleted": false,
         "score": null
       },
@@ -1106,6 +1130,18 @@
         "awayTeam": "Muskoka Hornets 18U A",
         "awayTeamCode": "628939",
         "location": "7315 Yonge St, Innisfil ON L9S 2M6, North Diamond",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Tue, Jun 9",
+        "time": "8:30 PM",
+        "homeTeam": "Orillia 18U B",
+        "homeTeamCode": "618388",
+        "awayTeam": "TNT Thunder 18U A",
+        "awayTeamCode": "618063",
+        "location": "Ross diamond is McKinnel Square Park 137 Dunedin Street",
         "isCompleted": false,
         "score": null
       },
@@ -2029,14 +2065,14 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-05-25T17:06:47.284Z",
+    "lastUpdated": "2026-05-25T19:01:27.238Z",
     "totalGames": 99
   },
   "summary": {
     "totalTeams": 11,
     "totalGames": 99,
-    "completedGames": 10,
-    "upcomingGames": 89,
+    "completedGames": 11,
+    "upcomingGames": 88,
     "topTeam": {
       "team": "Stayner 18U C",
       "teamCode": "617169",
@@ -2053,6 +2089,6 @@
       "date": "Mon, May 18",
       "location": "Beeton Diamond at 72 Prospect St. Beeton"
     },
-    "lastUpdated": "2026-05-25T17:07:58.242Z"
+    "lastUpdated": "2026-05-25T19:02:39.014Z"
   }
 }
