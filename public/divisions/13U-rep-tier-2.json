@@ -2,25 +2,25 @@
   "standings": {
     "teams": [
       {
-        "position": 4,
-        "team": "Barrie Baycats 13U AA",
-        "teamCode": "612786",
+        "position": 2,
+        "team": "Thornhill Reds 13U AA",
+        "teamCode": "617990",
         "record": {
-          "gamesPlayed": 1,
-          "wins": 1,
+          "gamesPlayed": 3,
+          "wins": 2,
           "losses": 0,
-          "ties": 0,
-          "winPercentage": "1.000"
+          "ties": 1,
+          "winPercentage": "0.833"
         },
         "stats": {
-          "points": 2,
-          "runsFor": 13,
-          "runsAgainst": 7,
-          "runDifferential": 6
+          "points": 5,
+          "runsFor": 32,
+          "runsAgainst": 18,
+          "runDifferential": 14
         }
       },
       {
-        "position": 1,
+        "position": 3,
         "team": "Aurora-King Jays 13U AA",
         "teamCode": "617975",
         "record": {
@@ -38,39 +38,39 @@
         }
       },
       {
-        "position": 3,
-        "team": "Thornhill Reds 13U AA",
-        "teamCode": "617990",
+        "position": 1,
+        "team": "Stouffville 13U AA",
+        "teamCode": "617206",
         "record": {
-          "gamesPlayed": 2,
-          "wins": 1,
-          "losses": 0,
-          "ties": 1,
+          "gamesPlayed": 4,
+          "wins": 3,
+          "losses": 1,
+          "ties": 0,
           "winPercentage": "0.750"
         },
         "stats": {
-          "points": 3,
-          "runsFor": 17,
-          "runsAgainst": 13,
+          "points": 6,
+          "runsFor": 30,
+          "runsAgainst": 26,
           "runDifferential": 4
         }
       },
       {
-        "position": 2,
-        "team": "Stouffville 13U AA",
-        "teamCode": "617206",
+        "position": 4,
+        "team": "Barrie Baycats 13U AA",
+        "teamCode": "612786",
         "record": {
-          "gamesPlayed": 3,
-          "wins": 2,
+          "gamesPlayed": 2,
+          "wins": 1,
           "losses": 1,
           "ties": 0,
-          "winPercentage": "0.667"
+          "winPercentage": "0.500"
         },
         "stats": {
-          "points": 4,
-          "runsFor": 19,
-          "runsAgainst": 19,
-          "runDifferential": 0
+          "points": 2,
+          "runsFor": 18,
+          "runsAgainst": 22,
+          "runDifferential": -4
         }
       },
       {
@@ -93,6 +93,24 @@
       },
       {
         "position": 6,
+        "team": "Caledon Nationals 13U AA",
+        "teamCode": "618466",
+        "record": {
+          "gamesPlayed": 2,
+          "wins": 0,
+          "losses": 2,
+          "ties": 0,
+          "winPercentage": "0.000"
+        },
+        "stats": {
+          "points": 0,
+          "runsFor": 14,
+          "runsAgainst": 24,
+          "runDifferential": -10
+        }
+      },
+      {
+        "position": 7,
         "team": "Newmarket Hawks 13U AA",
         "teamCode": "617909",
         "record": {
@@ -108,27 +126,9 @@
           "runsAgainst": 20,
           "runDifferential": -10
         }
-      },
-      {
-        "position": 7,
-        "team": "Caledon Nationals 13U AA",
-        "teamCode": "618466",
-        "record": {
-          "gamesPlayed": 1,
-          "wins": 0,
-          "losses": 1,
-          "ties": 0,
-          "winPercentage": "0.000"
-        },
-        "stats": {
-          "points": 0,
-          "runsFor": 7,
-          "runsAgainst": 13,
-          "runDifferential": -6
-        }
       }
     ],
-    "lastUpdated": "2026-05-26T08:08:07.727Z",
+    "lastUpdated": "2026-05-26T14:55:40.935Z",
     "totalTeams": 7
   },
   "schedule": {
@@ -136,7 +136,7 @@
       "612786": {
         "teamCode": "612786",
         "totalGames": 18,
-        "playedGames": 1,
+        "playedGames": 2,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -154,10 +154,26 @@
               "away": 13,
               "scoreText": "13-7"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, May 25",
+            "time": "6:30 PM",
+            "homeTeam": "Thornhill Reds 13U AA",
+            "homeTeamCode": "617990",
+            "awayTeam": "Barrie Baycats 13U AA",
+            "awayTeamCode": "612786",
+            "location": "Bishops Cross",
+            "isCompleted": true,
+            "score": {
+              "home": 15,
+              "away": 5,
+              "scoreText": "5-15"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-26T08:08:12.227Z"
+        "lastUpdated": "2026-05-26T14:55:45.173Z"
       },
       "612787": {
         "teamCode": "612787",
@@ -166,7 +182,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-26T08:08:12.227Z"
+        "lastUpdated": "2026-05-26T14:55:45.173Z"
       },
       "617180": {
         "teamCode": "617180",
@@ -175,12 +191,12 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-26T08:08:12.227Z"
+        "lastUpdated": "2026-05-26T14:55:45.174Z"
       },
       "617206": {
         "teamCode": "617206",
         "totalGames": 18,
-        "playedGames": 3,
+        "playedGames": 4,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -230,10 +246,26 @@
               "away": 6,
               "scoreText": "6-11"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, May 25",
+            "time": "8:30 PM",
+            "homeTeam": "Stouffville 13U AA",
+            "homeTeamCode": "617206",
+            "awayTeam": "Caledon Nationals 13U AA",
+            "awayTeamCode": "618466",
+            "location": "Memorial Park",
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 7,
+              "scoreText": "7-11"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-26T08:08:12.227Z"
+        "lastUpdated": "2026-05-26T14:55:45.174Z"
       },
       "617853": {
         "teamCode": "617853",
@@ -275,7 +307,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-26T08:08:12.227Z"
+        "lastUpdated": "2026-05-26T14:55:45.174Z"
       },
       "617854": {
         "teamCode": "617854",
@@ -284,7 +316,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-26T08:08:12.227Z"
+        "lastUpdated": "2026-05-26T14:55:45.174Z"
       },
       "617882": {
         "teamCode": "617882",
@@ -293,7 +325,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-26T08:08:12.227Z"
+        "lastUpdated": "2026-05-26T14:55:45.174Z"
       },
       "617909": {
         "teamCode": "617909",
@@ -335,7 +367,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-26T08:08:12.227Z"
+        "lastUpdated": "2026-05-26T14:55:45.174Z"
       },
       "617975": {
         "teamCode": "617975",
@@ -393,7 +425,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-26T08:08:12.227Z"
+        "lastUpdated": "2026-05-26T14:55:45.174Z"
       },
       "617976": {
         "teamCode": "617976",
@@ -402,7 +434,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-26T08:08:12.227Z"
+        "lastUpdated": "2026-05-26T14:55:45.174Z"
       },
       "617989": {
         "teamCode": "617989",
@@ -411,12 +443,12 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-26T08:08:12.227Z"
+        "lastUpdated": "2026-05-26T14:55:45.174Z"
       },
       "617990": {
         "teamCode": "617990",
         "totalGames": 17,
-        "playedGames": 2,
+        "playedGames": 3,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -450,10 +482,26 @@
               "away": 8,
               "scoreText": "8-12"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, May 25",
+            "time": "6:30 PM",
+            "homeTeam": "Thornhill Reds 13U AA",
+            "homeTeamCode": "617990",
+            "awayTeam": "Barrie Baycats 13U AA",
+            "awayTeamCode": "612786",
+            "location": "Bishops Cross",
+            "isCompleted": true,
+            "score": {
+              "home": 15,
+              "away": 5,
+              "scoreText": "5-15"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-26T08:08:12.227Z"
+        "lastUpdated": "2026-05-26T14:55:45.174Z"
       },
       "618008": {
         "teamCode": "618008",
@@ -462,7 +510,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-26T08:08:12.227Z"
+        "lastUpdated": "2026-05-26T14:55:45.174Z"
       },
       "618023": {
         "teamCode": "618023",
@@ -471,7 +519,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-26T08:08:12.227Z"
+        "lastUpdated": "2026-05-26T14:55:45.174Z"
       },
       "618045": {
         "teamCode": "618045",
@@ -480,7 +528,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-26T08:08:12.227Z"
+        "lastUpdated": "2026-05-26T14:55:45.174Z"
       },
       "618060": {
         "teamCode": "618060",
@@ -489,7 +537,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-26T08:08:12.227Z"
+        "lastUpdated": "2026-05-26T14:55:45.174Z"
       },
       "618384": {
         "teamCode": "618384",
@@ -498,12 +546,12 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-26T08:08:12.227Z"
+        "lastUpdated": "2026-05-26T14:55:45.174Z"
       },
       "618466": {
         "teamCode": "618466",
         "totalGames": 18,
-        "playedGames": 1,
+        "playedGames": 2,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -521,10 +569,26 @@
               "away": 13,
               "scoreText": "13-7"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, May 25",
+            "time": "8:30 PM",
+            "homeTeam": "Stouffville 13U AA",
+            "homeTeamCode": "617206",
+            "awayTeam": "Caledon Nationals 13U AA",
+            "awayTeamCode": "618466",
+            "location": "Memorial Park",
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 7,
+              "scoreText": "7-11"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-26T08:08:12.227Z"
+        "lastUpdated": "2026-05-26T14:55:45.174Z"
       }
     },
     "allGames": [
@@ -877,8 +941,12 @@
         "awayTeam": "Barrie Baycats 13U AA",
         "awayTeamCode": "612786",
         "location": "Bishops Cross",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 15,
+          "away": 5,
+          "scoreText": "5-15"
+        }
       },
       {
         "date": null,
@@ -913,8 +981,12 @@
         "awayTeam": "Caledon Nationals 13U AA",
         "awayTeamCode": "618466",
         "location": "Memorial Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 7,
+          "scoreText": "7-11"
+        }
       },
       {
         "date": null,
@@ -2733,23 +2805,55 @@
           "away": 6,
           "scoreText": "6-11"
         }
+      },
+      {
+        "date": null,
+        "dateText": "Mon, May 25",
+        "time": "6:30 PM",
+        "homeTeam": "Thornhill Reds 13U AA",
+        "homeTeamCode": "617990",
+        "awayTeam": "Barrie Baycats 13U AA",
+        "awayTeamCode": "612786",
+        "location": "Bishops Cross",
+        "isCompleted": true,
+        "score": {
+          "home": 15,
+          "away": 5,
+          "scoreText": "5-15"
+        }
+      },
+      {
+        "date": null,
+        "dateText": "Mon, May 25",
+        "time": "8:30 PM",
+        "homeTeam": "Stouffville 13U AA",
+        "homeTeamCode": "617206",
+        "awayTeam": "Caledon Nationals 13U AA",
+        "awayTeamCode": "618466",
+        "location": "Memorial Park",
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 7,
+          "scoreText": "7-11"
+        }
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-05-26T08:08:12.227Z",
+    "lastUpdated": "2026-05-26T14:55:45.174Z",
     "totalGames": 172
   },
   "summary": {
     "totalTeams": 7,
     "totalGames": 172,
-    "completedGames": 7,
-    "upcomingGames": 165,
+    "completedGames": 9,
+    "upcomingGames": 163,
     "topTeam": {
-      "team": "Barrie Baycats 13U AA",
-      "teamCode": "612786",
-      "wins": 1,
+      "team": "Thornhill Reds 13U AA",
+      "teamCode": "617990",
+      "wins": 2,
       "losses": 0,
-      "winPercentage": "1.000"
+      "winPercentage": "0.833"
     },
     "highestScoringGame": {
       "homeTeam": "Caledon Nationals 13U AA",
@@ -2760,6 +2864,6 @@
       "date": "Wed, May 13",
       "location": "North Hill #3"
     },
-    "lastUpdated": "2026-05-26T08:11:17.374Z"
+    "lastUpdated": "2026-05-26T14:58:42.315Z"
   }
 }
