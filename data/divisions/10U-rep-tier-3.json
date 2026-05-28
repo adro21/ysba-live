@@ -2,7 +2,25 @@
   "standings": {
     "teams": [
       {
-        "position": 2,
+        "position": 1,
+        "team": "Barrie Baycats 10U A",
+        "teamCode": "612779",
+        "record": {
+          "gamesPlayed": 4,
+          "wins": 4,
+          "losses": 0,
+          "ties": 0,
+          "winPercentage": "1.000"
+        },
+        "stats": {
+          "points": 8,
+          "runsFor": 52,
+          "runsAgainst": 29,
+          "runDifferential": 23
+        }
+      },
+      {
+        "position": 3,
         "team": "Vaughan Vikings 10U A Team 2",
         "teamCode": "617174",
         "record": {
@@ -17,24 +35,6 @@
           "runsFor": 39,
           "runsAgainst": 9,
           "runDifferential": 30
-        }
-      },
-      {
-        "position": 3,
-        "team": "Barrie Baycats 10U A",
-        "teamCode": "612779",
-        "record": {
-          "gamesPlayed": 3,
-          "wins": 3,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": "1.000"
-        },
-        "stats": {
-          "points": 6,
-          "runsFor": 43,
-          "runsAgainst": 26,
-          "runDifferential": 17
         }
       },
       {
@@ -56,7 +56,7 @@
         }
       },
       {
-        "position": 1,
+        "position": 2,
         "team": "Thornhill Reds 10U A",
         "teamCode": "617985",
         "record": {
@@ -110,7 +110,7 @@
         }
       },
       {
-        "position": 8,
+        "position": 9,
         "team": "Newmarket Hawks 10U A",
         "teamCode": "617900",
         "record": {
@@ -128,7 +128,7 @@
         }
       },
       {
-        "position": 9,
+        "position": 10,
         "team": "Midland Penetang Twins 10U B",
         "teamCode": "618394",
         "record": {
@@ -143,24 +143,6 @@
           "runsFor": 16,
           "runsAgainst": 15,
           "runDifferential": 1
-        }
-      },
-      {
-        "position": 10,
-        "team": "Bradford Tigers 10U A",
-        "teamCode": "617944",
-        "record": {
-          "gamesPlayed": 2,
-          "wins": 1,
-          "losses": 1,
-          "ties": 0,
-          "winPercentage": "0.500"
-        },
-        "stats": {
-          "points": 2,
-          "runsFor": 19,
-          "runsAgainst": 27,
-          "runDifferential": -8
         }
       },
       {
@@ -179,6 +161,24 @@
           "runsFor": 20,
           "runsAgainst": 31,
           "runDifferential": -11
+        }
+      },
+      {
+        "position": 8,
+        "team": "Bradford Tigers 10U A",
+        "teamCode": "617944",
+        "record": {
+          "gamesPlayed": 3,
+          "wins": 1,
+          "losses": 2,
+          "ties": 0,
+          "winPercentage": "0.333"
+        },
+        "stats": {
+          "points": 2,
+          "runsFor": 22,
+          "runsAgainst": 36,
+          "runDifferential": -14
         }
       },
       {
@@ -290,7 +290,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-05-28T14:34:02.786Z",
+    "lastUpdated": "2026-05-28T18:00:20.010Z",
     "totalTeams": 16
   },
   "schedule": {
@@ -298,7 +298,7 @@
       "612779": {
         "teamCode": "612779",
         "totalGames": 19,
-        "playedGames": 3,
+        "playedGames": 4,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -348,10 +348,26 @@
               "away": 14,
               "scoreText": "14-8"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Wed, May 27",
+            "time": "6:30 PM",
+            "homeTeam": "Barrie Baycats 10U A",
+            "homeTeamCode": "612779",
+            "awayTeam": "Bradford Tigers 10U A",
+            "awayTeamCode": "617944",
+            "location": "Barrie Sports Complex Pinwheel 12",
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 3,
+              "scoreText": "3-9"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-28T14:34:06.885Z"
+        "lastUpdated": "2026-05-28T18:00:24.026Z"
       },
       "617173": {
         "teamCode": "617173",
@@ -409,7 +425,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-28T14:34:06.885Z"
+        "lastUpdated": "2026-05-28T18:00:24.026Z"
       },
       "617174": {
         "teamCode": "617174",
@@ -467,7 +483,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-28T14:34:06.885Z"
+        "lastUpdated": "2026-05-28T18:00:24.026Z"
       },
       "617848": {
         "teamCode": "617848",
@@ -541,7 +557,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-28T14:34:06.885Z"
+        "lastUpdated": "2026-05-28T18:00:24.026Z"
       },
       "617900": {
         "teamCode": "617900",
@@ -583,12 +599,12 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-28T14:34:06.885Z"
+        "lastUpdated": "2026-05-28T18:00:24.026Z"
       },
       "617944": {
         "teamCode": "617944",
         "totalGames": 19,
-        "playedGames": 2,
+        "playedGames": 3,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -622,10 +638,26 @@
               "away": 5,
               "scoreText": "5-15"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Wed, May 27",
+            "time": "6:30 PM",
+            "homeTeam": "Barrie Baycats 10U A",
+            "homeTeamCode": "612779",
+            "awayTeam": "Bradford Tigers 10U A",
+            "awayTeamCode": "617944",
+            "location": "Barrie Sports Complex Pinwheel 12",
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 3,
+              "scoreText": "3-9"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-28T14:34:06.885Z"
+        "lastUpdated": "2026-05-28T18:00:24.026Z"
       },
       "617970": {
         "teamCode": "617970",
@@ -651,7 +683,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-28T14:34:06.885Z"
+        "lastUpdated": "2026-05-28T18:00:24.026Z"
       },
       "617985": {
         "teamCode": "617985",
@@ -725,7 +757,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-28T14:34:06.885Z"
+        "lastUpdated": "2026-05-28T18:00:24.026Z"
       },
       "618005": {
         "teamCode": "618005",
@@ -783,7 +815,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-28T14:34:06.885Z"
+        "lastUpdated": "2026-05-28T18:00:24.026Z"
       },
       "618019": {
         "teamCode": "618019",
@@ -809,7 +841,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-28T14:34:06.885Z"
+        "lastUpdated": "2026-05-28T18:00:24.026Z"
       },
       "618041": {
         "teamCode": "618041",
@@ -835,7 +867,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-28T14:34:06.885Z"
+        "lastUpdated": "2026-05-28T18:00:24.026Z"
       },
       "618057": {
         "teamCode": "618057",
@@ -893,7 +925,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-28T14:34:06.885Z"
+        "lastUpdated": "2026-05-28T18:00:24.026Z"
       },
       "618381": {
         "teamCode": "618381",
@@ -951,7 +983,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-28T14:34:06.885Z"
+        "lastUpdated": "2026-05-28T18:00:24.026Z"
       },
       "618394": {
         "teamCode": "618394",
@@ -993,7 +1025,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-28T14:34:06.885Z"
+        "lastUpdated": "2026-05-28T18:00:24.026Z"
       },
       "625725": {
         "teamCode": "625725",
@@ -1035,7 +1067,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-28T14:34:06.885Z"
+        "lastUpdated": "2026-05-28T18:00:24.026Z"
       },
       "627209": {
         "teamCode": "627209",
@@ -1061,7 +1093,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-28T14:34:06.885Z"
+        "lastUpdated": "2026-05-28T18:00:24.026Z"
       }
     },
     "allGames": [
@@ -1486,8 +1518,12 @@
         "awayTeam": "Bradford Tigers 10U A",
         "awayTeamCode": "617944",
         "location": "Barrie Sports Complex Pinwheel 12",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 3,
+          "scoreText": "3-9"
+        }
       },
       {
         "date": null,
@@ -3129,18 +3165,18 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-05-28T14:34:06.885Z",
+    "lastUpdated": "2026-05-28T18:00:24.026Z",
     "totalGames": 152
   },
   "summary": {
     "totalTeams": 16,
     "totalGames": 152,
-    "completedGames": 19,
-    "upcomingGames": 133,
+    "completedGames": 20,
+    "upcomingGames": 132,
     "topTeam": {
-      "team": "Vaughan Vikings 10U A Team 2",
-      "teamCode": "617174",
-      "wins": 3,
+      "team": "Barrie Baycats 10U A",
+      "teamCode": "612779",
+      "wins": 4,
       "losses": 0,
       "winPercentage": "1.000"
     },
@@ -3153,6 +3189,6 @@
       "date": "Thu, May 21",
       "location": "Georgina Roc- Diamond 2"
     },
-    "lastUpdated": "2026-05-28T14:38:15.260Z"
+    "lastUpdated": "2026-05-28T18:04:35.134Z"
   }
 }
