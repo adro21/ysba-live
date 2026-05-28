@@ -6,17 +6,17 @@
         "team": "Aurora-King Jays 13U AA",
         "teamCode": "617975",
         "record": {
-          "gamesPlayed": 4,
-          "wins": 3,
+          "gamesPlayed": 5,
+          "wins": 4,
           "losses": 0,
           "ties": 1,
-          "winPercentage": "0.875"
+          "winPercentage": "0.900"
         },
         "stats": {
-          "points": 7,
-          "runsFor": 35,
-          "runsAgainst": 22,
-          "runDifferential": 13
+          "points": 9,
+          "runsFor": 49,
+          "runsAgainst": 28,
+          "runDifferential": 21
         }
       },
       {
@@ -60,16 +60,16 @@
         "team": "Barrie Baycats 13U AA",
         "teamCode": "612786",
         "record": {
-          "gamesPlayed": 2,
+          "gamesPlayed": 3,
           "wins": 1,
           "losses": 1,
-          "ties": 0,
+          "ties": 1,
           "winPercentage": "0.500"
         },
         "stats": {
-          "points": 2,
-          "runsFor": 18,
-          "runsAgainst": 22,
+          "points": 3,
+          "runsFor": 28,
+          "runsAgainst": 32,
           "runDifferential": -4
         }
       },
@@ -78,16 +78,16 @@
         "team": "Newmarket Hawks 13U AA",
         "teamCode": "617909",
         "record": {
-          "gamesPlayed": 3,
+          "gamesPlayed": 4,
           "wins": 1,
           "losses": 2,
-          "ties": 0,
-          "winPercentage": "0.333"
+          "ties": 1,
+          "winPercentage": "0.375"
         },
         "stats": {
-          "points": 2,
-          "runsFor": 14,
-          "runsAgainst": 22,
+          "points": 3,
+          "runsFor": 24,
+          "runsAgainst": 32,
           "runDifferential": -8
         }
       },
@@ -114,21 +114,21 @@
         "team": "Caledon Nationals 13U AA",
         "teamCode": "618466",
         "record": {
-          "gamesPlayed": 2,
+          "gamesPlayed": 3,
           "wins": 0,
-          "losses": 2,
+          "losses": 3,
           "ties": 0,
           "winPercentage": "0.000"
         },
         "stats": {
           "points": 0,
-          "runsFor": 14,
-          "runsAgainst": 24,
-          "runDifferential": -10
+          "runsFor": 20,
+          "runsAgainst": 38,
+          "runDifferential": -18
         }
       }
     ],
-    "lastUpdated": "2026-05-28T02:37:59.981Z",
+    "lastUpdated": "2026-05-28T06:51:28.531Z",
     "totalTeams": 7
   },
   "schedule": {
@@ -136,7 +136,7 @@
       "612786": {
         "teamCode": "612786",
         "totalGames": 18,
-        "playedGames": 2,
+        "playedGames": 3,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -170,10 +170,26 @@
               "away": 5,
               "scoreText": "5-15"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Wed, May 27",
+            "time": "6:30 PM",
+            "homeTeam": "Barrie Baycats 13U AA",
+            "homeTeamCode": "612786",
+            "awayTeam": "Newmarket Hawks 13U AA",
+            "awayTeamCode": "617909",
+            "location": "Barrie Sports Complex #13",
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 10,
+              "scoreText": "10-10"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-28T02:38:04.269Z"
+        "lastUpdated": "2026-05-28T06:51:33.165Z"
       },
       "612787": {
         "teamCode": "612787",
@@ -247,7 +263,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-28T02:38:04.269Z"
+        "lastUpdated": "2026-05-28T06:51:33.165Z"
       },
       "617180": {
         "teamCode": "617180",
@@ -305,7 +321,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-28T02:38:04.269Z"
+        "lastUpdated": "2026-05-28T06:51:33.165Z"
       },
       "617206": {
         "teamCode": "617206",
@@ -379,7 +395,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-28T02:38:04.269Z"
+        "lastUpdated": "2026-05-28T06:51:33.165Z"
       },
       "617853": {
         "teamCode": "617853",
@@ -437,7 +453,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-28T02:38:04.269Z"
+        "lastUpdated": "2026-05-28T06:51:33.165Z"
       },
       "617854": {
         "teamCode": "617854",
@@ -495,7 +511,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-28T02:38:04.269Z"
+        "lastUpdated": "2026-05-28T06:51:33.165Z"
       },
       "617882": {
         "teamCode": "617882",
@@ -553,12 +569,12 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-28T02:38:04.269Z"
+        "lastUpdated": "2026-05-28T06:51:33.165Z"
       },
       "617909": {
         "teamCode": "617909",
         "totalGames": 18,
-        "playedGames": 3,
+        "playedGames": 4,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -608,15 +624,31 @@
               "away": 2,
               "scoreText": "2-4"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Wed, May 27",
+            "time": "6:30 PM",
+            "homeTeam": "Barrie Baycats 13U AA",
+            "homeTeamCode": "612786",
+            "awayTeam": "Newmarket Hawks 13U AA",
+            "awayTeamCode": "617909",
+            "location": "Barrie Sports Complex #13",
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 10,
+              "scoreText": "10-10"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-28T02:38:04.269Z"
+        "lastUpdated": "2026-05-28T06:51:33.165Z"
       },
       "617975": {
         "teamCode": "617975",
         "totalGames": 18,
-        "playedGames": 4,
+        "playedGames": 5,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -682,10 +714,26 @@
               "away": 7,
               "scoreText": "7-5"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Wed, May 27",
+            "time": "6:30 PM",
+            "homeTeam": "Caledon Nationals 13U AA",
+            "homeTeamCode": "618466",
+            "awayTeam": "Aurora-King Jays 13U AA",
+            "awayTeamCode": "617975",
+            "location": "North Hill #2",
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 14,
+              "scoreText": "14-6"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-28T02:38:04.269Z"
+        "lastUpdated": "2026-05-28T06:51:33.165Z"
       },
       "617976": {
         "teamCode": "617976",
@@ -743,7 +791,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-28T02:38:04.269Z"
+        "lastUpdated": "2026-05-28T06:51:33.165Z"
       },
       "617989": {
         "teamCode": "617989",
@@ -769,7 +817,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-28T02:38:04.269Z"
+        "lastUpdated": "2026-05-28T06:51:33.165Z"
       },
       "617990": {
         "teamCode": "617990",
@@ -843,7 +891,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-28T02:38:04.269Z"
+        "lastUpdated": "2026-05-28T06:51:33.165Z"
       },
       "618008": {
         "teamCode": "618008",
@@ -885,7 +933,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-28T02:38:04.269Z"
+        "lastUpdated": "2026-05-28T06:51:33.165Z"
       },
       "618023": {
         "teamCode": "618023",
@@ -959,7 +1007,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-28T02:38:04.269Z"
+        "lastUpdated": "2026-05-28T06:51:33.166Z"
       },
       "618045": {
         "teamCode": "618045",
@@ -985,7 +1033,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-28T02:38:04.269Z"
+        "lastUpdated": "2026-05-28T06:51:33.166Z"
       },
       "618060": {
         "teamCode": "618060",
@@ -1043,7 +1091,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-28T02:38:04.269Z"
+        "lastUpdated": "2026-05-28T06:51:33.166Z"
       },
       "618384": {
         "teamCode": "618384",
@@ -1101,12 +1149,12 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-28T02:38:04.269Z"
+        "lastUpdated": "2026-05-28T06:51:33.166Z"
       },
       "618466": {
         "teamCode": "618466",
         "totalGames": 18,
-        "playedGames": 2,
+        "playedGames": 3,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -1140,10 +1188,26 @@
               "away": 7,
               "scoreText": "7-11"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Wed, May 27",
+            "time": "6:30 PM",
+            "homeTeam": "Caledon Nationals 13U AA",
+            "homeTeamCode": "618466",
+            "awayTeam": "Aurora-King Jays 13U AA",
+            "awayTeamCode": "617975",
+            "location": "North Hill #2",
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 14,
+              "scoreText": "14-6"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-28T02:38:04.269Z"
+        "lastUpdated": "2026-05-28T06:51:33.166Z"
       }
     },
     "allGames": [
@@ -1680,8 +1744,12 @@
         "awayTeam": "Aurora-King Jays 13U AA",
         "awayTeamCode": "617975",
         "location": "North Hill #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 14,
+          "scoreText": "14-6"
+        }
       },
       {
         "date": null,
@@ -1692,8 +1760,12 @@
         "awayTeam": "Newmarket Hawks 13U AA",
         "awayTeamCode": "617909",
         "location": "Barrie Sports Complex #13",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 10,
+          "scoreText": "10-10"
+        }
       },
       {
         "date": null,
@@ -3479,20 +3551,20 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-05-28T02:38:04.269Z",
+    "lastUpdated": "2026-05-28T06:51:33.166Z",
     "totalGames": 172
   },
   "summary": {
     "totalTeams": 7,
     "totalGames": 172,
-    "completedGames": 26,
-    "upcomingGames": 146,
+    "completedGames": 28,
+    "upcomingGames": 144,
     "topTeam": {
       "team": "Aurora-King Jays 13U AA",
       "teamCode": "617975",
-      "wins": 3,
+      "wins": 4,
       "losses": 0,
-      "winPercentage": "0.875"
+      "winPercentage": "0.900"
     },
     "highestScoringGame": {
       "homeTeam": "Markham Mariners 13U A",
@@ -3503,6 +3575,6 @@
       "date": "Fri, May 22",
       "location": "Berczy Park South"
     },
-    "lastUpdated": "2026-05-28T02:41:00.913Z"
+    "lastUpdated": "2026-05-28T06:54:39.990Z"
   }
 }
