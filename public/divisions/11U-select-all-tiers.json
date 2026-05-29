@@ -3,6 +3,24 @@
     "teams": [
       {
         "position": 1,
+        "team": "Thornhill Reds 11U DS",
+        "teamCode": "618000",
+        "record": {
+          "gamesPlayed": 5,
+          "wins": 5,
+          "losses": 0,
+          "ties": 0,
+          "winPercentage": "1.000"
+        },
+        "stats": {
+          "points": 10,
+          "runsFor": 66,
+          "runsAgainst": 32,
+          "runDifferential": 34
+        }
+      },
+      {
+        "position": 2,
         "team": "Vaughan Vikings 11U DS",
         "teamCode": "617190",
         "record": {
@@ -20,39 +38,21 @@
         }
       },
       {
-        "position": 2,
-        "team": "Thornhill Reds 11U DS",
-        "teamCode": "618000",
-        "record": {
-          "gamesPlayed": 4,
-          "wins": 4,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": "1.000"
-        },
-        "stats": {
-          "points": 8,
-          "runsFor": 50,
-          "runsAgainst": 25,
-          "runDifferential": 25
-        }
-      },
-      {
         "position": 4,
         "team": "Markham Mariners 11U DS",
         "teamCode": "617892",
         "record": {
-          "gamesPlayed": 2,
+          "gamesPlayed": 3,
           "wins": 2,
-          "losses": 0,
+          "losses": 1,
           "ties": 0,
-          "winPercentage": "1.000"
+          "winPercentage": "0.667"
         },
         "stats": {
           "points": 4,
-          "runsFor": 33,
-          "runsAgainst": 19,
-          "runDifferential": 14
+          "runsFor": 40,
+          "runsAgainst": 35,
+          "runDifferential": 5
         }
       },
       {
@@ -200,7 +200,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-05-29T13:58:57.942Z",
+    "lastUpdated": "2026-05-29T17:34:08.568Z",
     "totalTeams": 11
   },
   "schedule": {
@@ -261,7 +261,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-29T13:59:00.685Z"
+        "lastUpdated": "2026-05-29T17:34:11.384Z"
       },
       "617189": {
         "teamCode": "617189",
@@ -270,7 +270,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-29T13:59:00.685Z"
+        "lastUpdated": "2026-05-29T17:34:11.384Z"
       },
       "617190": {
         "teamCode": "617190",
@@ -344,12 +344,12 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-29T13:59:00.685Z"
+        "lastUpdated": "2026-05-29T17:34:11.384Z"
       },
       "617892": {
         "teamCode": "617892",
         "totalGames": 16,
-        "playedGames": 2,
+        "playedGames": 3,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -383,10 +383,26 @@
               "away": 12,
               "scoreText": "12-10"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Thu, May 28",
+            "time": "6:00 PM",
+            "homeTeam": "Thornhill Reds 11U DS",
+            "homeTeamCode": "618000",
+            "awayTeam": "Markham Mariners 11U DS",
+            "awayTeamCode": "617892",
+            "location": "Thornhill Park",
+            "isCompleted": true,
+            "score": {
+              "home": 16,
+              "away": 7,
+              "scoreText": "7-16"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-29T13:59:00.685Z"
+        "lastUpdated": "2026-05-29T17:34:11.384Z"
       },
       "617917": {
         "teamCode": "617917",
@@ -395,12 +411,12 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-29T13:59:00.685Z"
+        "lastUpdated": "2026-05-29T17:34:11.384Z"
       },
       "618000": {
         "teamCode": "618000",
         "totalGames": 16,
-        "playedGames": 4,
+        "playedGames": 5,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -466,10 +482,26 @@
               "away": 17,
               "scoreText": "17-3"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Thu, May 28",
+            "time": "6:00 PM",
+            "homeTeam": "Thornhill Reds 11U DS",
+            "homeTeamCode": "618000",
+            "awayTeam": "Markham Mariners 11U DS",
+            "awayTeamCode": "617892",
+            "location": "Thornhill Park",
+            "isCompleted": true,
+            "score": {
+              "home": 16,
+              "away": 7,
+              "scoreText": "7-16"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-29T13:59:00.685Z"
+        "lastUpdated": "2026-05-29T17:34:11.384Z"
       },
       "618014": {
         "teamCode": "618014",
@@ -543,7 +575,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-29T13:59:00.685Z"
+        "lastUpdated": "2026-05-29T17:34:11.384Z"
       },
       "618027": {
         "teamCode": "618027",
@@ -552,7 +584,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-29T13:59:00.685Z"
+        "lastUpdated": "2026-05-29T17:34:11.384Z"
       },
       "618053": {
         "teamCode": "618053",
@@ -642,7 +674,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-29T13:59:00.685Z"
+        "lastUpdated": "2026-05-29T17:34:11.384Z"
       },
       "618391": {
         "teamCode": "618391",
@@ -684,7 +716,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-29T13:59:00.685Z"
+        "lastUpdated": "2026-05-29T17:34:11.384Z"
       },
       "618476": {
         "teamCode": "618476",
@@ -726,7 +758,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-29T13:59:00.685Z"
+        "lastUpdated": "2026-05-29T17:34:11.384Z"
       }
     },
     "allGames": [
@@ -1031,8 +1063,12 @@
         "awayTeam": "Markham Mariners 11U DS",
         "awayTeamCode": "617892",
         "location": "Thornhill Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 16,
+          "away": 7,
+          "scoreText": "7-16"
+        }
       },
       {
         "date": null,
@@ -2002,18 +2038,18 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-05-29T13:59:00.685Z",
+    "lastUpdated": "2026-05-29T17:34:11.384Z",
     "totalGames": 88
   },
   "summary": {
     "totalTeams": 11,
     "totalGames": 88,
-    "completedGames": 13,
-    "upcomingGames": 75,
+    "completedGames": 14,
+    "upcomingGames": 74,
     "topTeam": {
-      "team": "Vaughan Vikings 11U DS",
-      "teamCode": "617190",
-      "wins": 4,
+      "team": "Thornhill Reds 11U DS",
+      "teamCode": "618000",
+      "wins": 5,
       "losses": 0,
       "winPercentage": "1.000"
     },
@@ -2026,6 +2062,6 @@
       "date": "Sat, May 16",
       "location": "Stroud"
     },
-    "lastUpdated": "2026-05-29T13:59:14.953Z"
+    "lastUpdated": "2026-05-29T17:34:25.507Z"
   }
 }
