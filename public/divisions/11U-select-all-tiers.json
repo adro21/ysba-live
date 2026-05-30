@@ -38,7 +38,7 @@
         }
       },
       {
-        "position": 4,
+        "position": 5,
         "team": "Markham Mariners 11U DS",
         "teamCode": "617892",
         "record": {
@@ -56,39 +56,39 @@
         }
       },
       {
+        "position": 4,
+        "team": "Barrie Baycats 11U DS",
+        "teamCode": "612798",
+        "record": {
+          "gamesPlayed": 5,
+          "wins": 2,
+          "losses": 2,
+          "ties": 1,
+          "winPercentage": "0.500"
+        },
+        "stats": {
+          "points": 5,
+          "runsFor": 61,
+          "runsAgainst": 46,
+          "runDifferential": 15
+        }
+      },
+      {
         "position": 3,
         "team": "Collingwood Jays 11U DS",
         "teamCode": "618014",
         "record": {
-          "gamesPlayed": 4,
+          "gamesPlayed": 6,
           "wins": 2,
-          "losses": 2,
-          "ties": 0,
-          "winPercentage": "0.500"
+          "losses": 3,
+          "ties": 1,
+          "winPercentage": "0.417"
         },
         "stats": {
-          "points": 4,
-          "runsFor": 51,
-          "runsAgainst": 45,
-          "runDifferential": 6
-        }
-      },
-      {
-        "position": 5,
-        "team": "Barrie Baycats 11U DS",
-        "teamCode": "612798",
-        "record": {
-          "gamesPlayed": 3,
-          "wins": 1,
-          "losses": 2,
-          "ties": 0,
-          "winPercentage": "0.333"
-        },
-        "stats": {
-          "points": 2,
-          "runsFor": 37,
-          "runsAgainst": 26,
-          "runDifferential": 11
+          "points": 5,
+          "runsFor": 71,
+          "runsAgainst": 69,
+          "runDifferential": 2
         }
       },
       {
@@ -200,7 +200,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-05-30T21:36:25.931Z",
+    "lastUpdated": "2026-05-30T22:58:39.935Z",
     "totalTeams": 11
   },
   "schedule": {
@@ -208,7 +208,7 @@
       "612798": {
         "teamCode": "612798",
         "totalGames": 16,
-        "playedGames": 3,
+        "playedGames": 5,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -258,10 +258,42 @@
               "away": 20,
               "scoreText": "20-4"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, May 30",
+            "time": "10:00 AM",
+            "homeTeam": "Collingwood Jays 11U DS",
+            "homeTeamCode": "618014",
+            "awayTeam": "Barrie Baycats 11U DS",
+            "awayTeamCode": "612798",
+            "location": "Central Diamond #2",
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 12,
+              "scoreText": "12-8"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, May 30",
+            "time": "12:00 PM",
+            "homeTeam": "Collingwood Jays 11U DS",
+            "homeTeamCode": "618014",
+            "awayTeam": "Barrie Baycats 11U DS",
+            "awayTeamCode": "612798",
+            "location": "Central Diamond #2",
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 12,
+              "scoreText": "12-12"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-30T21:36:28.626Z"
+        "lastUpdated": "2026-05-30T22:58:42.687Z"
       },
       "617189": {
         "teamCode": "617189",
@@ -270,7 +302,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-30T21:36:28.626Z"
+        "lastUpdated": "2026-05-30T22:58:42.688Z"
       },
       "617190": {
         "teamCode": "617190",
@@ -344,7 +376,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-30T21:36:28.626Z"
+        "lastUpdated": "2026-05-30T22:58:42.688Z"
       },
       "617892": {
         "teamCode": "617892",
@@ -402,7 +434,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-30T21:36:28.626Z"
+        "lastUpdated": "2026-05-30T22:58:42.688Z"
       },
       "617917": {
         "teamCode": "617917",
@@ -411,7 +443,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-30T21:36:28.626Z"
+        "lastUpdated": "2026-05-30T22:58:42.688Z"
       },
       "618000": {
         "teamCode": "618000",
@@ -501,30 +533,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-30T21:36:28.626Z"
+        "lastUpdated": "2026-05-30T22:58:42.688Z"
       },
       "618014": {
         "teamCode": "618014",
         "totalGames": 16,
-        "playedGames": 4,
+        "playedGames": 6,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sat, May 16",
-            "time": "11:00 AM",
-            "homeTeam": "Vaughan Vikings 11U DS",
-            "homeTeamCode": "617190",
-            "awayTeam": "Collingwood Jays 11U DS",
-            "awayTeamCode": "618014",
-            "location": "Chatfield District Park",
-            "isCompleted": true,
-            "score": {
-              "home": 14,
-              "away": 13,
-              "scoreText": "13-14"
-            }
-          },
           {
             "date": null,
             "dateText": "Sat, May 16",
@@ -572,10 +588,42 @@
               "away": 6,
               "scoreText": "6-16"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, May 30",
+            "time": "10:00 AM",
+            "homeTeam": "Collingwood Jays 11U DS",
+            "homeTeamCode": "618014",
+            "awayTeam": "Barrie Baycats 11U DS",
+            "awayTeamCode": "612798",
+            "location": "Central Diamond #2",
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 12,
+              "scoreText": "12-8"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, May 30",
+            "time": "12:00 PM",
+            "homeTeam": "Collingwood Jays 11U DS",
+            "homeTeamCode": "618014",
+            "awayTeam": "Barrie Baycats 11U DS",
+            "awayTeamCode": "612798",
+            "location": "Central Diamond #2",
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 12,
+              "scoreText": "12-12"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-30T21:36:28.626Z"
+        "lastUpdated": "2026-05-30T22:58:42.688Z"
       },
       "618027": {
         "teamCode": "618027",
@@ -584,7 +632,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-30T21:36:28.626Z"
+        "lastUpdated": "2026-05-30T22:58:42.688Z"
       },
       "618053": {
         "teamCode": "618053",
@@ -674,7 +722,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-30T21:36:28.626Z"
+        "lastUpdated": "2026-05-30T22:58:42.688Z"
       },
       "618391": {
         "teamCode": "618391",
@@ -716,7 +764,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-30T21:36:28.626Z"
+        "lastUpdated": "2026-05-30T22:58:42.688Z"
       },
       "618476": {
         "teamCode": "618476",
@@ -758,7 +806,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-30T21:36:28.626Z"
+        "lastUpdated": "2026-05-30T22:58:42.688Z"
       }
     },
     "allGames": [
@@ -1079,8 +1127,12 @@
         "awayTeam": "Barrie Baycats 11U DS",
         "awayTeamCode": "612798",
         "location": "Central Diamond #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 12,
+          "scoreText": "12-8"
+        }
       },
       {
         "date": null,
@@ -1103,8 +1155,12 @@
         "awayTeam": "Barrie Baycats 11U DS",
         "awayTeamCode": "612798",
         "location": "Central Diamond #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 12,
+          "scoreText": "12-12"
+        }
       },
       {
         "date": null,
@@ -2038,14 +2094,14 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-05-30T21:36:28.626Z",
+    "lastUpdated": "2026-05-30T22:58:42.688Z",
     "totalGames": 88
   },
   "summary": {
     "totalTeams": 11,
     "totalGames": 88,
-    "completedGames": 14,
-    "upcomingGames": 74,
+    "completedGames": 16,
+    "upcomingGames": 72,
     "topTeam": {
       "team": "Thornhill Reds 11U DS",
       "teamCode": "618000",
@@ -2062,6 +2118,6 @@
       "date": "Sat, May 16",
       "location": "Stroud"
     },
-    "lastUpdated": "2026-05-30T21:36:42.711Z"
+    "lastUpdated": "2026-05-30T22:58:56.845Z"
   }
 }
