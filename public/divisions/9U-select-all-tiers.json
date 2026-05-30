@@ -3,6 +3,24 @@
     "teams": [
       {
         "position": 1,
+        "team": "Collingwood Jays 9U DS",
+        "teamCode": "618013",
+        "record": {
+          "gamesPlayed": 6,
+          "wins": 6,
+          "losses": 0,
+          "ties": 0,
+          "winPercentage": "1.000"
+        },
+        "stats": {
+          "points": 12,
+          "runsFor": 106,
+          "runsAgainst": 25,
+          "runDifferential": 81
+        }
+      },
+      {
+        "position": 2,
         "team": "Vaughan Vikings 9U DS",
         "teamCode": "617188",
         "record": {
@@ -20,25 +38,7 @@
         }
       },
       {
-        "position": 2,
-        "team": "Collingwood Jays 9U DS",
-        "teamCode": "618013",
-        "record": {
-          "gamesPlayed": 4,
-          "wins": 4,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": "1.000"
-        },
-        "stats": {
-          "points": 8,
-          "runsFor": 66,
-          "runsAgainst": 16,
-          "runDifferential": 50
-        }
-      },
-      {
-        "position": 4,
+        "position": 5,
         "team": "Markham Mariners 9U DS",
         "teamCode": "617891",
         "record": {
@@ -53,24 +53,6 @@
           "runsFor": 54,
           "runsAgainst": 10,
           "runDifferential": 44
-        }
-      },
-      {
-        "position": 5,
-        "team": "Midland Penetang Twins 9U DS",
-        "teamCode": "618393",
-        "record": {
-          "gamesPlayed": 3,
-          "wins": 3,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": "1.000"
-        },
-        "stats": {
-          "points": 6,
-          "runsFor": 36,
-          "runsAgainst": 12,
-          "runDifferential": 24
         }
       },
       {
@@ -89,6 +71,24 @@
           "runsFor": 18,
           "runsAgainst": 6,
           "runDifferential": 12
+        }
+      },
+      {
+        "position": 4,
+        "team": "Midland Penetang Twins 9U DS",
+        "teamCode": "618393",
+        "record": {
+          "gamesPlayed": 5,
+          "wins": 3,
+          "losses": 2,
+          "ties": 0,
+          "winPercentage": "0.600"
+        },
+        "stats": {
+          "points": 6,
+          "runsFor": 45,
+          "runsAgainst": 52,
+          "runDifferential": -7
         }
       },
       {
@@ -254,7 +254,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-05-30T20:09:10.768Z",
+    "lastUpdated": "2026-05-30T21:36:18.684Z",
     "totalTeams": 14
   },
   "schedule": {
@@ -283,7 +283,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-30T20:09:15.094Z"
+        "lastUpdated": "2026-05-30T21:36:22.954Z"
       },
       "617187": {
         "teamCode": "617187",
@@ -357,7 +357,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-30T20:09:15.094Z"
+        "lastUpdated": "2026-05-30T21:36:22.954Z"
       },
       "617188": {
         "teamCode": "617188",
@@ -447,7 +447,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-30T20:09:15.094Z"
+        "lastUpdated": "2026-05-30T21:36:22.954Z"
       },
       "617891": {
         "teamCode": "617891",
@@ -505,7 +505,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-30T20:09:15.094Z"
+        "lastUpdated": "2026-05-30T21:36:22.954Z"
       },
       "617916": {
         "teamCode": "617916",
@@ -563,7 +563,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-30T20:09:15.094Z"
+        "lastUpdated": "2026-05-30T21:36:22.954Z"
       },
       "617954": {
         "teamCode": "617954",
@@ -637,7 +637,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-30T20:09:15.094Z"
+        "lastUpdated": "2026-05-30T21:36:22.954Z"
       },
       "617998": {
         "teamCode": "617998",
@@ -711,30 +711,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-30T20:09:15.094Z"
+        "lastUpdated": "2026-05-30T21:36:22.954Z"
       },
       "618013": {
         "teamCode": "618013",
         "totalGames": 16,
-        "playedGames": 4,
+        "playedGames": 6,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sun, May 17",
-            "time": "11:00 AM",
-            "homeTeam": "Thornhill Reds 9U DS",
-            "homeTeamCode": "617998",
-            "awayTeam": "Collingwood Jays 9U DS",
-            "awayTeamCode": "618013",
-            "location": "Thornhill Park",
-            "isCompleted": true,
-            "score": {
-              "home": 4,
-              "away": 16,
-              "scoreText": "16-4"
-            }
-          },
           {
             "date": null,
             "dateText": "Sun, May 17",
@@ -782,10 +766,42 @@
               "away": 3,
               "scoreText": "3-21"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, May 30",
+            "time": "10:00 AM",
+            "homeTeam": "Collingwood Jays 9U DS",
+            "homeTeamCode": "618013",
+            "awayTeam": "Midland Penetang Twins 9U DS",
+            "awayTeamCode": "618393",
+            "location": "85 Paterson St, Collingwood",
+            "isCompleted": true,
+            "score": {
+              "home": 21,
+              "away": 1,
+              "scoreText": "1-21"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, May 30",
+            "time": "12:30 PM",
+            "homeTeam": "Collingwood Jays 9U DS",
+            "homeTeamCode": "618013",
+            "awayTeam": "Midland Penetang Twins 9U DS",
+            "awayTeamCode": "618393",
+            "location": "85 Paterson St, Collingwood",
+            "isCompleted": true,
+            "score": {
+              "home": 19,
+              "away": 8,
+              "scoreText": "8-19"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-30T20:09:15.094Z"
+        "lastUpdated": "2026-05-30T21:36:22.954Z"
       },
       "618026": {
         "teamCode": "618026",
@@ -859,7 +875,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-30T20:09:15.094Z"
+        "lastUpdated": "2026-05-30T21:36:22.954Z"
       },
       "618052": {
         "teamCode": "618052",
@@ -901,7 +917,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-30T20:09:15.094Z"
+        "lastUpdated": "2026-05-30T21:36:22.954Z"
       },
       "618065": {
         "teamCode": "618065",
@@ -991,7 +1007,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-30T20:09:15.094Z"
+        "lastUpdated": "2026-05-30T21:36:22.954Z"
       },
       "618390": {
         "teamCode": "618390",
@@ -1033,12 +1049,12 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-30T20:09:15.094Z"
+        "lastUpdated": "2026-05-30T21:36:22.954Z"
       },
       "618393": {
         "teamCode": "618393",
         "totalGames": 16,
-        "playedGames": 3,
+        "playedGames": 5,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -1088,10 +1104,42 @@
               "away": 2,
               "scoreText": "2-10"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, May 30",
+            "time": "10:00 AM",
+            "homeTeam": "Collingwood Jays 9U DS",
+            "homeTeamCode": "618013",
+            "awayTeam": "Midland Penetang Twins 9U DS",
+            "awayTeamCode": "618393",
+            "location": "85 Paterson St, Collingwood",
+            "isCompleted": true,
+            "score": {
+              "home": 21,
+              "away": 1,
+              "scoreText": "1-21"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, May 30",
+            "time": "12:30 PM",
+            "homeTeam": "Collingwood Jays 9U DS",
+            "homeTeamCode": "618013",
+            "awayTeam": "Midland Penetang Twins 9U DS",
+            "awayTeamCode": "618393",
+            "location": "85 Paterson St, Collingwood",
+            "isCompleted": true,
+            "score": {
+              "home": 19,
+              "away": 8,
+              "scoreText": "8-19"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-30T20:09:15.094Z"
+        "lastUpdated": "2026-05-30T21:36:22.954Z"
       },
       "618477": {
         "teamCode": "618477",
@@ -1165,7 +1213,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-30T20:09:15.094Z"
+        "lastUpdated": "2026-05-30T21:36:22.954Z"
       }
     },
     "allGames": [
@@ -1782,8 +1830,12 @@
         "awayTeam": "Midland Penetang Twins 9U DS",
         "awayTeamCode": "618393",
         "location": "85 Paterson St, Collingwood",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 21,
+          "away": 1,
+          "scoreText": "1-21"
+        }
       },
       {
         "date": null,
@@ -1806,8 +1858,12 @@
         "awayTeam": "Midland Penetang Twins 9U DS",
         "awayTeamCode": "618393",
         "location": "85 Paterson St, Collingwood",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 19,
+          "away": 8,
+          "scoreText": "8-19"
+        }
       },
       {
         "date": null,
@@ -2777,17 +2833,17 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-05-30T20:09:15.094Z",
+    "lastUpdated": "2026-05-30T21:36:22.954Z",
     "totalGames": 112
   },
   "summary": {
     "totalTeams": 14,
     "totalGames": 112,
-    "completedGames": 25,
-    "upcomingGames": 87,
+    "completedGames": 27,
+    "upcomingGames": 85,
     "topTeam": {
-      "team": "Vaughan Vikings 9U DS",
-      "teamCode": "617188",
+      "team": "Collingwood Jays 9U DS",
+      "teamCode": "618013",
       "wins": 6,
       "losses": 0,
       "winPercentage": "1.000"
@@ -2801,6 +2857,6 @@
       "date": "Sat, May 16",
       "location": "McLean Park"
     },
-    "lastUpdated": "2026-05-30T20:09:34.990Z"
+    "lastUpdated": "2026-05-30T21:36:42.711Z"
   }
 }
