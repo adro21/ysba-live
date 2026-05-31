@@ -38,21 +38,21 @@
         }
       },
       {
-        "position": 5,
-        "team": "Markham Mariners 11U DS",
-        "teamCode": "617892",
+        "position": 6,
+        "team": "Newmarket Hawks 11U DS",
+        "teamCode": "617917",
         "record": {
-          "gamesPlayed": 3,
+          "gamesPlayed": 2,
           "wins": 2,
-          "losses": 1,
+          "losses": 0,
           "ties": 0,
-          "winPercentage": "0.667"
+          "winPercentage": "1.000"
         },
         "stats": {
           "points": 4,
-          "runsFor": 40,
-          "runsAgainst": 35,
-          "runDifferential": 5
+          "runsFor": 24,
+          "runsAgainst": 14,
+          "runDifferential": 10
         }
       },
       {
@@ -92,7 +92,25 @@
         }
       },
       {
-        "position": 6,
+        "position": 5,
+        "team": "Markham Mariners 11U DS",
+        "teamCode": "617892",
+        "record": {
+          "gamesPlayed": 5,
+          "wins": 2,
+          "losses": 3,
+          "ties": 0,
+          "winPercentage": "0.400"
+        },
+        "stats": {
+          "points": 4,
+          "runsFor": 54,
+          "runsAgainst": 59,
+          "runDifferential": -5
+        }
+      },
+      {
+        "position": 7,
         "team": "Innisfil Cardinals 11U DS",
         "teamCode": "618053",
         "record": {
@@ -110,7 +128,7 @@
         }
       },
       {
-        "position": 7,
+        "position": 8,
         "team": "Orillia 11U DS",
         "teamCode": "618391",
         "record": {
@@ -128,7 +146,7 @@
         }
       },
       {
-        "position": 8,
+        "position": 9,
         "team": "Caledon Nationals 11U DS",
         "teamCode": "618476",
         "record": {
@@ -143,24 +161,6 @@
           "runsFor": 8,
           "runsAgainst": 28,
           "runDifferential": -20
-        }
-      },
-      {
-        "position": 9,
-        "team": "Newmarket Hawks 11U DS",
-        "teamCode": "617917",
-        "record": {
-          "gamesPlayed": 0,
-          "wins": 0,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": ".000"
-        },
-        "stats": {
-          "points": 0,
-          "runsFor": 0,
-          "runsAgainst": 0,
-          "runDifferential": 0
         }
       },
       {
@@ -200,7 +200,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-05-31T00:02:01.979Z",
+    "lastUpdated": "2026-05-31T07:44:58.016Z",
     "totalTeams": 11
   },
   "schedule": {
@@ -293,7 +293,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-31T00:02:04.799Z"
+        "lastUpdated": "2026-05-31T07:45:00.729Z"
       },
       "617189": {
         "teamCode": "617189",
@@ -302,7 +302,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-31T00:02:04.799Z"
+        "lastUpdated": "2026-05-31T07:45:00.729Z"
       },
       "617190": {
         "teamCode": "617190",
@@ -376,12 +376,12 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-31T00:02:04.799Z"
+        "lastUpdated": "2026-05-31T07:45:00.729Z"
       },
       "617892": {
         "teamCode": "617892",
         "totalGames": 16,
-        "playedGames": 3,
+        "playedGames": 5,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -431,19 +431,84 @@
               "away": 7,
               "scoreText": "7-16"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, May 30",
+            "time": "12:00 PM",
+            "homeTeam": "Newmarket Hawks 11U DS",
+            "homeTeamCode": "617917",
+            "awayTeam": "Markham Mariners 11U DS",
+            "awayTeamCode": "617892",
+            "location": "Fairgrounds #1",
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 8,
+              "scoreText": "8-9"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, May 30",
+            "time": "2:30 PM",
+            "homeTeam": "Newmarket Hawks 11U DS",
+            "homeTeamCode": "617917",
+            "awayTeam": "Markham Mariners 11U DS",
+            "awayTeamCode": "617892",
+            "location": "Fairgrounds #1",
+            "isCompleted": true,
+            "score": {
+              "home": 15,
+              "away": 6,
+              "scoreText": "6-15"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-31T00:02:04.799Z"
+        "lastUpdated": "2026-05-31T07:45:00.729Z"
       },
       "617917": {
         "teamCode": "617917",
         "totalGames": 16,
-        "playedGames": 0,
+        "playedGames": 2,
         "upcomingGames": 0,
-        "recentGames": [],
+        "recentGames": [
+          {
+            "date": null,
+            "dateText": "Sat, May 30",
+            "time": "12:00 PM",
+            "homeTeam": "Newmarket Hawks 11U DS",
+            "homeTeamCode": "617917",
+            "awayTeam": "Markham Mariners 11U DS",
+            "awayTeamCode": "617892",
+            "location": "Fairgrounds #1",
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 8,
+              "scoreText": "8-9"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, May 30",
+            "time": "2:30 PM",
+            "homeTeam": "Newmarket Hawks 11U DS",
+            "homeTeamCode": "617917",
+            "awayTeam": "Markham Mariners 11U DS",
+            "awayTeamCode": "617892",
+            "location": "Fairgrounds #1",
+            "isCompleted": true,
+            "score": {
+              "home": 15,
+              "away": 6,
+              "scoreText": "6-15"
+            }
+          }
+        ],
         "nextGames": [],
-        "lastUpdated": "2026-05-31T00:02:04.799Z"
+        "lastUpdated": "2026-05-31T07:45:00.729Z"
       },
       "618000": {
         "teamCode": "618000",
@@ -533,7 +598,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-31T00:02:04.799Z"
+        "lastUpdated": "2026-05-31T07:45:00.729Z"
       },
       "618014": {
         "teamCode": "618014",
@@ -623,7 +688,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-31T00:02:04.799Z"
+        "lastUpdated": "2026-05-31T07:45:00.729Z"
       },
       "618027": {
         "teamCode": "618027",
@@ -632,7 +697,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-05-31T00:02:04.799Z"
+        "lastUpdated": "2026-05-31T07:45:00.729Z"
       },
       "618053": {
         "teamCode": "618053",
@@ -722,7 +787,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-31T00:02:04.799Z"
+        "lastUpdated": "2026-05-31T07:45:00.729Z"
       },
       "618391": {
         "teamCode": "618391",
@@ -764,7 +829,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-31T00:02:04.799Z"
+        "lastUpdated": "2026-05-31T07:45:00.729Z"
       },
       "618476": {
         "teamCode": "618476",
@@ -806,7 +871,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-05-31T00:02:04.799Z"
+        "lastUpdated": "2026-05-31T07:45:00.729Z"
       }
     },
     "allGames": [
@@ -1143,8 +1208,12 @@
         "awayTeam": "Markham Mariners 11U DS",
         "awayTeamCode": "617892",
         "location": "Fairgrounds #1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 8,
+          "scoreText": "8-9"
+        }
       },
       {
         "date": null,
@@ -1171,8 +1240,12 @@
         "awayTeam": "Markham Mariners 11U DS",
         "awayTeamCode": "617892",
         "location": "Fairgrounds #1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 15,
+          "away": 6,
+          "scoreText": "6-15"
+        }
       },
       {
         "date": null,
@@ -2094,14 +2167,14 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-05-31T00:02:04.799Z",
+    "lastUpdated": "2026-05-31T07:45:00.729Z",
     "totalGames": 88
   },
   "summary": {
     "totalTeams": 11,
     "totalGames": 88,
-    "completedGames": 16,
-    "upcomingGames": 72,
+    "completedGames": 18,
+    "upcomingGames": 70,
     "topTeam": {
       "team": "Thornhill Reds 11U DS",
       "teamCode": "618000",
@@ -2118,6 +2191,6 @@
       "date": "Sat, May 16",
       "location": "Stroud"
     },
-    "lastUpdated": "2026-05-31T00:02:19.232Z"
+    "lastUpdated": "2026-05-31T07:45:14.629Z"
   }
 }
