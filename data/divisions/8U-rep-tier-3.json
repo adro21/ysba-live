@@ -2,6 +2,24 @@
   "standings": {
     "teams": [
       {
+        "position": 2,
+        "team": "Georgina Bulldogs 8U B",
+        "teamCode": "625730",
+        "record": {
+          "gamesPlayed": 3,
+          "wins": 3,
+          "losses": 0,
+          "ties": 0,
+          "winPercentage": "1.000"
+        },
+        "stats": {
+          "points": 6,
+          "runsFor": 46,
+          "runsAgainst": 22,
+          "runDifferential": 24
+        }
+      },
+      {
         "position": 3,
         "team": "Vaughan Vikings 8U A",
         "teamCode": "617170",
@@ -38,24 +56,6 @@
         }
       },
       {
-        "position": 2,
-        "team": "Georgina Bulldogs 8U B",
-        "teamCode": "625730",
-        "record": {
-          "gamesPlayed": 3,
-          "wins": 2,
-          "losses": 1,
-          "ties": 0,
-          "winPercentage": "0.667"
-        },
-        "stats": {
-          "points": 4,
-          "runsFor": 31,
-          "runsAgainst": 37,
-          "runDifferential": -6
-        }
-      },
-      {
         "position": 4,
         "team": "TNT Thunder 8U A",
         "teamCode": "618056",
@@ -74,7 +74,7 @@
         }
       },
       {
-        "position": 6,
+        "position": 5,
         "team": "Markham Mariners 8U A",
         "teamCode": "617873",
         "record": {
@@ -92,7 +92,7 @@
         }
       },
       {
-        "position": 7,
+        "position": 6,
         "team": "Richmond Hill Phoenix 8U A",
         "teamCode": "617845",
         "record": {
@@ -110,7 +110,7 @@
         }
       },
       {
-        "position": 8,
+        "position": 7,
         "team": "Barrie Baycats 8U A",
         "teamCode": "612775",
         "record": {
@@ -128,21 +128,21 @@
         }
       },
       {
-        "position": 5,
+        "position": 8,
         "team": "Orillia 8U B",
         "teamCode": "618379",
         "record": {
           "gamesPlayed": 3,
-          "wins": 1,
-          "losses": 2,
+          "wins": 0,
+          "losses": 3,
           "ties": 0,
-          "winPercentage": "0.333"
+          "winPercentage": "0.000"
         },
         "stats": {
-          "points": 2,
-          "runsFor": 45,
-          "runsAgainst": 33,
-          "runDifferential": 12
+          "points": 0,
+          "runsFor": 30,
+          "runsAgainst": 48,
+          "runDifferential": -18
         }
       },
       {
@@ -182,7 +182,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-06-01T16:33:01.262Z",
+    "lastUpdated": "2026-06-01T20:51:48.919Z",
     "totalTeams": 10
   },
   "schedule": {
@@ -227,7 +227,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-01T16:33:03.915Z"
+        "lastUpdated": "2026-06-01T20:51:51.628Z"
       },
       "617170": {
         "teamCode": "617170",
@@ -269,7 +269,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-01T16:33:03.915Z"
+        "lastUpdated": "2026-06-01T20:51:51.628Z"
       },
       "617210": {
         "teamCode": "617210",
@@ -311,7 +311,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-01T16:33:03.915Z"
+        "lastUpdated": "2026-06-01T20:51:51.628Z"
       },
       "617845": {
         "teamCode": "617845",
@@ -353,7 +353,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-01T16:33:03.915Z"
+        "lastUpdated": "2026-06-01T20:51:51.628Z"
       },
       "617873": {
         "teamCode": "617873",
@@ -395,7 +395,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-01T16:33:03.915Z"
+        "lastUpdated": "2026-06-01T20:51:51.628Z"
       },
       "617896": {
         "teamCode": "617896",
@@ -469,7 +469,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-01T16:33:03.915Z"
+        "lastUpdated": "2026-06-01T20:51:51.629Z"
       },
       "618056": {
         "teamCode": "618056",
@@ -527,7 +527,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-01T16:33:03.915Z"
+        "lastUpdated": "2026-06-01T20:51:51.629Z"
       },
       "618379": {
         "teamCode": "618379",
@@ -578,14 +578,14 @@
             "location": "The ROC - Diamond 4",
             "isCompleted": true,
             "score": {
-              "home": 6,
-              "away": 21,
-              "scoreText": "21-6"
+              "home": 21,
+              "away": 6,
+              "scoreText": "6-21"
             }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-01T16:33:03.915Z"
+        "lastUpdated": "2026-06-01T20:51:51.629Z"
       },
       "618474": {
         "teamCode": "618474",
@@ -643,7 +643,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-01T16:33:03.915Z"
+        "lastUpdated": "2026-06-01T20:51:51.629Z"
       },
       "625730": {
         "teamCode": "625730",
@@ -694,14 +694,14 @@
             "location": "The ROC - Diamond 4",
             "isCompleted": true,
             "score": {
-              "home": 6,
-              "away": 21,
-              "scoreText": "21-6"
+              "home": 21,
+              "away": 6,
+              "scoreText": "6-21"
             }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-01T16:33:03.915Z"
+        "lastUpdated": "2026-06-01T20:51:51.629Z"
       }
     },
     "allGames": [
@@ -932,9 +932,9 @@
         "location": "The ROC - Diamond 4",
         "isCompleted": true,
         "score": {
-          "home": 6,
-          "away": 21,
-          "scoreText": "21-6"
+          "home": 21,
+          "away": 6,
+          "scoreText": "6-21"
         }
       },
       {
@@ -1821,7 +1821,7 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-06-01T16:33:03.915Z",
+    "lastUpdated": "2026-06-01T20:51:51.629Z",
     "totalGames": 75
   },
   "summary": {
@@ -1830,9 +1830,9 @@
     "completedGames": 13,
     "upcomingGames": 62,
     "topTeam": {
-      "team": "Vaughan Vikings 8U A",
-      "teamCode": "617170",
-      "wins": 2,
+      "team": "Georgina Bulldogs 8U B",
+      "teamCode": "625730",
+      "wins": 3,
       "losses": 0,
       "winPercentage": "1.000"
     },
@@ -1845,6 +1845,6 @@
       "date": "Sun, May 17",
       "location": "Jays Care (Bolton Camp)"
     },
-    "lastUpdated": "2026-06-01T16:38:31.366Z"
+    "lastUpdated": "2026-06-01T20:57:10.756Z"
   }
 }
