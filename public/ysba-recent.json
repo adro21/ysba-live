@@ -1,7 +1,35 @@
 {
-  "lastUpdated": "2026-06-01T20:57:10.756Z",
+  "lastUpdated": "2026-06-01T23:03:53.394Z",
   "totalGames": 180,
   "games": [
+    {
+      "date": "2026-06-01T22:30:00.000Z",
+      "dateText": "Mon, Jun 1",
+      "time": "6:30 PM",
+      "homeTeam": "Barrie",
+      "homeTeamCode": "892634",
+      "awayTeam": "Caledon",
+      "awayTeamCode": "892646",
+      "location": "North Hill — Diamond 2 — Bolton",
+      "isCompleted": false,
+      "score": null,
+      "division": "10U",
+      "tier": "interlock-all-tiers"
+    },
+    {
+      "date": "2026-06-01T22:00:00.000Z",
+      "dateText": "Mon, Jun 1",
+      "time": "6:00 PM",
+      "homeTeam": "Georgina",
+      "homeTeamCode": "892647",
+      "awayTeam": "Vaughan",
+      "awayTeamCode": "892644",
+      "location": "Chatfield — Vaughan",
+      "isCompleted": false,
+      "score": null,
+      "division": "10U",
+      "tier": "interlock-all-tiers"
+    },
     {
       "date": "2026-05-28T22:30:00.000Z",
       "dateText": "Thu, May 28",
@@ -47,8 +75,12 @@
       "awayTeam": "Bloordale",
       "awayTeamCode": "892638",
       "location": "Millwood — Diamond 2 — Toronto",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 8,
+        "away": 9,
+        "scoreText": "9-8"
+      },
       "division": "10U",
       "tier": "interlock-all-tiers"
     },
@@ -139,34 +171,6 @@
         "away": 7,
         "scoreText": "7-14"
       },
-      "division": "10U",
-      "tier": "interlock-all-tiers"
-    },
-    {
-      "date": "2026-05-24T22:30:00.000Z",
-      "dateText": "Sun, May 24",
-      "time": "6:30 PM",
-      "homeTeam": "Aurora-King",
-      "homeTeamCode": "892642",
-      "awayTeam": "Scarborough",
-      "awayTeamCode": "892643",
-      "location": "Neilson - Scarborough — Diamond 2 — Toronto",
-      "isCompleted": false,
-      "score": null,
-      "division": "10U",
-      "tier": "interlock-all-tiers"
-    },
-    {
-      "date": "2026-05-24T21:00:00.000Z",
-      "dateText": "Sun, May 24",
-      "time": "5:00 PM",
-      "homeTeam": "Caledon",
-      "homeTeamCode": "892646",
-      "awayTeam": "East York",
-      "awayTeamCode": "892640",
-      "location": "Stan Wadlow — Diamond 2 — Toronto",
-      "isCompleted": false,
-      "score": null,
       "division": "10U",
       "tier": "interlock-all-tiers"
     },
