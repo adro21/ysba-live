@@ -3,6 +3,24 @@
     "teams": [
       {
         "position": 1,
+        "team": "Vaughan Vikings 9U DS",
+        "teamCode": "617188",
+        "record": {
+          "gamesPlayed": 7,
+          "wins": 7,
+          "losses": 0,
+          "ties": 0,
+          "winPercentage": "1.000"
+        },
+        "stats": {
+          "points": 14,
+          "runsFor": 120,
+          "runsAgainst": 29,
+          "runDifferential": 91
+        }
+      },
+      {
+        "position": 2,
         "team": "Collingwood Jays 9U DS",
         "teamCode": "618013",
         "record": {
@@ -17,24 +35,6 @@
           "runsFor": 106,
           "runsAgainst": 25,
           "runDifferential": 81
-        }
-      },
-      {
-        "position": 2,
-        "team": "Vaughan Vikings 9U DS",
-        "teamCode": "617188",
-        "record": {
-          "gamesPlayed": 6,
-          "wins": 6,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": "1.000"
-        },
-        "stats": {
-          "points": 12,
-          "runsFor": 103,
-          "runsAgainst": 27,
-          "runDifferential": 76
         }
       },
       {
@@ -186,17 +186,17 @@
         "team": "Vaughan Vikings 8U DS",
         "teamCode": "617187",
         "record": {
-          "gamesPlayed": 6,
+          "gamesPlayed": 7,
           "wins": 0,
-          "losses": 5,
+          "losses": 6,
           "ties": 0,
           "winPercentage": "0.000"
         },
         "stats": {
           "points": 0,
-          "runsFor": 32,
-          "runsAgainst": 110,
-          "runDifferential": -78
+          "runsFor": 34,
+          "runsAgainst": 127,
+          "runDifferential": -93
         }
       },
       {
@@ -254,7 +254,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-06-03T20:39:06.560Z",
+    "lastUpdated": "2026-06-04T13:59:45.713Z",
     "totalTeams": 14
   },
   "schedule": {
@@ -283,30 +283,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-03T20:39:10.706Z"
+        "lastUpdated": "2026-06-04T13:59:50.124Z"
       },
       "617187": {
         "teamCode": "617187",
         "totalGames": 16,
-        "playedGames": 5,
+        "playedGames": 6,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sun, May 10",
-            "time": "12:00 PM",
-            "homeTeam": "Vaughan Vikings 8U DS",
-            "homeTeamCode": "617187",
-            "awayTeam": "Bradford Tigers 9U DS",
-            "awayTeamCode": "617954",
-            "location": "Matthew Park",
-            "isCompleted": true,
-            "score": {
-              "home": 5,
-              "away": 17,
-              "scoreText": "17-5"
-            }
-          },
           {
             "date": null,
             "dateText": "Sun, May 10",
@@ -357,6 +341,22 @@
           },
           {
             "date": null,
+            "dateText": "Sun, May 24",
+            "time": "11:00 AM",
+            "homeTeam": "Vaughan Vikings 8U DS",
+            "homeTeamCode": "617187",
+            "awayTeam": "Vaughan Vikings 9U DS",
+            "awayTeamCode": "617188",
+            "location": "Matthew Park",
+            "isCompleted": true,
+            "score": {
+              "home": 2,
+              "away": 17,
+              "scoreText": "17-2"
+            }
+          },
+          {
+            "date": null,
             "dateText": "Sun, May 31",
             "time": "1:30 PM",
             "homeTeam": "Thornhill Reds 9U DS",
@@ -373,30 +373,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-03T20:39:10.706Z"
+        "lastUpdated": "2026-06-04T13:59:50.124Z"
       },
       "617188": {
         "teamCode": "617188",
         "totalGames": 16,
-        "playedGames": 6,
+        "playedGames": 7,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sun, May 10",
-            "time": "1:30 PM",
-            "homeTeam": "Thornhill Reds 9U DS",
-            "homeTeamCode": "617998",
-            "awayTeam": "Vaughan Vikings 9U DS",
-            "awayTeamCode": "617188",
-            "location": "Thornhill Park",
-            "isCompleted": true,
-            "score": {
-              "home": 10,
-              "away": 16,
-              "scoreText": "16-10"
-            }
-          },
           {
             "date": null,
             "dateText": "Sat, May 16",
@@ -460,10 +444,26 @@
               "away": 20,
               "scoreText": "20-5"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sun, May 24",
+            "time": "11:00 AM",
+            "homeTeam": "Vaughan Vikings 8U DS",
+            "homeTeamCode": "617187",
+            "awayTeam": "Vaughan Vikings 9U DS",
+            "awayTeamCode": "617188",
+            "location": "Matthew Park",
+            "isCompleted": true,
+            "score": {
+              "home": 2,
+              "away": 17,
+              "scoreText": "17-2"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-03T20:39:10.706Z"
+        "lastUpdated": "2026-06-04T13:59:50.124Z"
       },
       "617891": {
         "teamCode": "617891",
@@ -553,7 +553,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-03T20:39:10.706Z"
+        "lastUpdated": "2026-06-04T13:59:50.124Z"
       },
       "617916": {
         "teamCode": "617916",
@@ -611,7 +611,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-03T20:39:10.706Z"
+        "lastUpdated": "2026-06-04T13:59:50.124Z"
       },
       "617954": {
         "teamCode": "617954",
@@ -685,7 +685,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-03T20:39:10.706Z"
+        "lastUpdated": "2026-06-04T13:59:50.124Z"
       },
       "617998": {
         "teamCode": "617998",
@@ -775,7 +775,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-03T20:39:10.706Z"
+        "lastUpdated": "2026-06-04T13:59:50.124Z"
       },
       "618013": {
         "teamCode": "618013",
@@ -865,7 +865,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-03T20:39:10.706Z"
+        "lastUpdated": "2026-06-04T13:59:50.124Z"
       },
       "618026": {
         "teamCode": "618026",
@@ -939,7 +939,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-03T20:39:10.706Z"
+        "lastUpdated": "2026-06-04T13:59:50.124Z"
       },
       "618052": {
         "teamCode": "618052",
@@ -981,7 +981,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-03T20:39:10.706Z"
+        "lastUpdated": "2026-06-04T13:59:50.124Z"
       },
       "618065": {
         "teamCode": "618065",
@@ -1071,7 +1071,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-03T20:39:10.706Z"
+        "lastUpdated": "2026-06-04T13:59:50.124Z"
       },
       "618390": {
         "teamCode": "618390",
@@ -1113,7 +1113,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-03T20:39:10.706Z"
+        "lastUpdated": "2026-06-04T13:59:50.124Z"
       },
       "618393": {
         "teamCode": "618393",
@@ -1203,7 +1203,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-03T20:39:10.706Z"
+        "lastUpdated": "2026-06-04T13:59:50.124Z"
       },
       "618477": {
         "teamCode": "618477",
@@ -1277,7 +1277,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-03T20:39:10.706Z"
+        "lastUpdated": "2026-06-04T13:59:50.124Z"
       }
     },
     "allGames": [
@@ -1842,8 +1842,12 @@
         "awayTeam": "Vaughan Vikings 9U DS",
         "awayTeamCode": "617188",
         "location": "Matthew Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 2,
+          "away": 17,
+          "scoreText": "17-2"
+        }
       },
       {
         "date": null,
@@ -2909,18 +2913,18 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-06-03T20:39:10.706Z",
+    "lastUpdated": "2026-06-04T13:59:50.124Z",
     "totalGames": 112
   },
   "summary": {
     "totalTeams": 14,
     "totalGames": 112,
-    "completedGames": 30,
-    "upcomingGames": 82,
+    "completedGames": 31,
+    "upcomingGames": 81,
     "topTeam": {
-      "team": "Collingwood Jays 9U DS",
-      "teamCode": "618013",
-      "wins": 6,
+      "team": "Vaughan Vikings 9U DS",
+      "teamCode": "617188",
+      "wins": 7,
       "losses": 0,
       "winPercentage": "1.000"
     },
@@ -2933,6 +2937,6 @@
       "date": "Sat, May 16",
       "location": "McLean Park"
     },
-    "lastUpdated": "2026-06-03T20:39:30.281Z"
+    "lastUpdated": "2026-06-04T14:00:10.498Z"
   }
 }
