@@ -56,7 +56,7 @@
         }
       },
       {
-        "position": 4,
+        "position": 6,
         "team": "Richmond Hill Phoenix 8U A",
         "teamCode": "617845",
         "record": {
@@ -74,21 +74,39 @@
         }
       },
       {
-        "position": 5,
+        "position": 4,
         "team": "TNT Thunder 8U A",
         "teamCode": "618056",
         "record": {
-          "gamesPlayed": 3,
-          "wins": 1,
+          "gamesPlayed": 4,
+          "wins": 2,
           "losses": 1,
           "ties": 1,
+          "winPercentage": "0.625"
+        },
+        "stats": {
+          "points": 5,
+          "runsFor": 51,
+          "runsAgainst": 46,
+          "runDifferential": 5
+        }
+      },
+      {
+        "position": 5,
+        "team": "Markham Mariners 8U A",
+        "teamCode": "617873",
+        "record": {
+          "gamesPlayed": 4,
+          "wins": 2,
+          "losses": 2,
+          "ties": 0,
           "winPercentage": "0.500"
         },
         "stats": {
-          "points": 3,
-          "runsFor": 37,
-          "runsAgainst": 35,
-          "runDifferential": 2
+          "points": 4,
+          "runsFor": 51,
+          "runsAgainst": 54,
+          "runDifferential": -3
         }
       },
       {
@@ -96,35 +114,17 @@
         "team": "Barrie Baycats 8U A",
         "teamCode": "612775",
         "record": {
-          "gamesPlayed": 2,
+          "gamesPlayed": 4,
           "wins": 1,
-          "losses": 1,
+          "losses": 3,
           "ties": 0,
-          "winPercentage": "0.500"
+          "winPercentage": "0.250"
         },
         "stats": {
           "points": 2,
-          "runsFor": 30,
-          "runsAgainst": 39,
-          "runDifferential": -9
-        }
-      },
-      {
-        "position": 6,
-        "team": "Markham Mariners 8U A",
-        "teamCode": "617873",
-        "record": {
-          "gamesPlayed": 3,
-          "wins": 1,
-          "losses": 2,
-          "ties": 0,
-          "winPercentage": "0.333"
-        },
-        "stats": {
-          "points": 2,
-          "runsFor": 34,
-          "runsAgainst": 38,
-          "runDifferential": -4
+          "runsFor": 57,
+          "runsAgainst": 70,
+          "runDifferential": -13
         }
       },
       {
@@ -182,7 +182,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-06-04T19:18:40.254Z",
+    "lastUpdated": "2026-06-04T22:52:04.152Z",
     "totalTeams": 10
   },
   "schedule": {
@@ -190,7 +190,7 @@
       "612775": {
         "teamCode": "612775",
         "totalGames": 15,
-        "playedGames": 2,
+        "playedGames": 4,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -224,10 +224,42 @@
               "away": 13,
               "scoreText": "13-24"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, Jun 1",
+            "time": "6:30 PM",
+            "homeTeam": "Barrie Baycats 8U A",
+            "homeTeamCode": "612775",
+            "awayTeam": "TNT Thunder 8U A",
+            "awayTeamCode": "618056",
+            "location": "Barrie Sports Complex - Diamond 12",
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 14,
+              "scoreText": "14-11"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Wed, Jun 3",
+            "time": "6:30 PM",
+            "homeTeam": "Markham Mariners 8U A",
+            "homeTeamCode": "617873",
+            "awayTeam": "Barrie Baycats 8U A",
+            "awayTeamCode": "612775",
+            "location": "Morgan Park",
+            "isCompleted": true,
+            "score": {
+              "home": 17,
+              "away": 16,
+              "scoreText": "16-17"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-04T19:18:42.825Z"
+        "lastUpdated": "2026-06-04T22:52:07.198Z"
       },
       "617170": {
         "teamCode": "617170",
@@ -285,7 +317,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-04T19:18:42.825Z"
+        "lastUpdated": "2026-06-04T22:52:07.198Z"
       },
       "617210": {
         "teamCode": "617210",
@@ -327,7 +359,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-04T19:18:42.825Z"
+        "lastUpdated": "2026-06-04T22:52:07.198Z"
       },
       "617845": {
         "teamCode": "617845",
@@ -385,12 +417,12 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-04T19:18:42.825Z"
+        "lastUpdated": "2026-06-04T22:52:07.198Z"
       },
       "617873": {
         "teamCode": "617873",
         "totalGames": 15,
-        "playedGames": 3,
+        "playedGames": 4,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -440,10 +472,26 @@
               "away": 5,
               "scoreText": "5-23"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Wed, Jun 3",
+            "time": "6:30 PM",
+            "homeTeam": "Markham Mariners 8U A",
+            "homeTeamCode": "617873",
+            "awayTeam": "Barrie Baycats 8U A",
+            "awayTeamCode": "612775",
+            "location": "Morgan Park",
+            "isCompleted": true,
+            "score": {
+              "home": 17,
+              "away": 16,
+              "scoreText": "16-17"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-04T19:18:42.825Z"
+        "lastUpdated": "2026-06-04T22:52:07.198Z"
       },
       "617896": {
         "teamCode": "617896",
@@ -533,12 +581,12 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-04T19:18:42.825Z"
+        "lastUpdated": "2026-06-04T22:52:07.198Z"
       },
       "618056": {
         "teamCode": "618056",
         "totalGames": 15,
-        "playedGames": 3,
+        "playedGames": 4,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -588,10 +636,26 @@
               "away": 6,
               "scoreText": "6-16"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, Jun 1",
+            "time": "6:30 PM",
+            "homeTeam": "Barrie Baycats 8U A",
+            "homeTeamCode": "612775",
+            "awayTeam": "TNT Thunder 8U A",
+            "awayTeamCode": "618056",
+            "location": "Barrie Sports Complex - Diamond 12",
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 14,
+              "scoreText": "14-11"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-04T19:18:42.825Z"
+        "lastUpdated": "2026-06-04T22:52:07.198Z"
       },
       "618379": {
         "teamCode": "618379",
@@ -649,7 +713,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-04T19:18:42.825Z"
+        "lastUpdated": "2026-06-04T22:52:07.198Z"
       },
       "618474": {
         "teamCode": "618474",
@@ -707,7 +771,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-04T19:18:42.825Z"
+        "lastUpdated": "2026-06-04T22:52:07.198Z"
       },
       "625730": {
         "teamCode": "625730",
@@ -765,7 +829,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-04T19:18:42.825Z"
+        "lastUpdated": "2026-06-04T22:52:07.198Z"
       }
     },
     "allGames": [
@@ -1054,8 +1118,12 @@
         "awayTeam": "TNT Thunder 8U A",
         "awayTeamCode": "618056",
         "location": "Barrie Sports Complex - Diamond 12",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 14,
+          "scoreText": "14-11"
+        }
       },
       {
         "date": null,
@@ -1066,8 +1134,12 @@
         "awayTeam": "Barrie Baycats 8U A",
         "awayTeamCode": "612775",
         "location": "Morgan Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 17,
+          "away": 16,
+          "scoreText": "16-17"
+        }
       },
       {
         "date": null,
@@ -1893,14 +1965,14 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-06-04T19:18:42.825Z",
+    "lastUpdated": "2026-06-04T22:52:07.198Z",
     "totalGames": 75
   },
   "summary": {
     "totalTeams": 10,
     "totalGames": 75,
-    "completedGames": 15,
-    "upcomingGames": 60,
+    "completedGames": 17,
+    "upcomingGames": 58,
     "topTeam": {
       "team": "Georgina Bulldogs 8U B",
       "teamCode": "625730",
@@ -1917,6 +1989,6 @@
       "date": "Sun, May 17",
       "location": "Jays Care (Bolton Camp)"
     },
-    "lastUpdated": "2026-06-04T19:23:54.001Z"
+    "lastUpdated": "2026-06-04T22:58:55.335Z"
   }
 }
