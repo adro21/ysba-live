@@ -38,39 +38,39 @@
         }
       },
       {
+        "position": 5,
+        "team": "Bradford Tigers 18U A - Team 1",
+        "teamCode": "617951",
+        "record": {
+          "gamesPlayed": 4,
+          "wins": 3,
+          "losses": 1,
+          "ties": 0,
+          "winPercentage": "0.750"
+        },
+        "stats": {
+          "points": 6,
+          "runsFor": 26,
+          "runsAgainst": 15,
+          "runDifferential": 11
+        }
+      },
+      {
         "position": 2,
         "team": "Orillia 18U B",
         "teamCode": "618388",
         "record": {
-          "gamesPlayed": 5,
+          "gamesPlayed": 6,
           "wins": 4,
-          "losses": 1,
-          "ties": 0,
-          "winPercentage": "0.800"
-        },
-        "stats": {
-          "points": 8,
-          "runsFor": 48,
-          "runsAgainst": 27,
-          "runDifferential": 21
-        }
-      },
-      {
-        "position": 8,
-        "team": "Bradford Tigers 18U A - Team 1",
-        "teamCode": "617951",
-        "record": {
-          "gamesPlayed": 3,
-          "wins": 2,
-          "losses": 1,
+          "losses": 2,
           "ties": 0,
           "winPercentage": "0.667"
         },
         "stats": {
-          "points": 4,
-          "runsFor": 21,
-          "runsAgainst": 12,
-          "runDifferential": 9
+          "points": 8,
+          "runsFor": 51,
+          "runsAgainst": 32,
+          "runDifferential": 19
         }
       },
       {
@@ -92,7 +92,7 @@
         }
       },
       {
-        "position": 6,
+        "position": 7,
         "team": "TNT Thunder 18U A",
         "teamCode": "618063",
         "record": {
@@ -110,7 +110,7 @@
         }
       },
       {
-        "position": 7,
+        "position": 8,
         "team": "Innisfil Cardinals 18U A",
         "teamCode": "618049",
         "record": {
@@ -128,7 +128,7 @@
         }
       },
       {
-        "position": 5,
+        "position": 6,
         "team": "Bradford Tigers 18U A - Team 2",
         "teamCode": "625723",
         "record": {
@@ -200,7 +200,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-06-08T18:25:53.721Z",
+    "lastUpdated": "2026-06-08T22:25:50.365Z",
     "totalTeams": 11
   },
   "schedule": {
@@ -293,7 +293,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-08T18:25:56.551Z"
+        "lastUpdated": "2026-06-08T22:25:53.352Z"
       },
       "612795": {
         "teamCode": "612795",
@@ -383,7 +383,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-08T18:25:56.551Z"
+        "lastUpdated": "2026-06-08T22:25:53.352Z"
       },
       "617169": {
         "teamCode": "617169",
@@ -457,12 +457,12 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-08T18:25:56.551Z"
+        "lastUpdated": "2026-06-08T22:25:53.352Z"
       },
       "617951": {
         "teamCode": "617951",
         "totalGames": 18,
-        "playedGames": 3,
+        "playedGames": 4,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -512,10 +512,26 @@
               "away": 6,
               "scoreText": "6-9"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Thu, Jun 4",
+            "time": "8:30 PM",
+            "homeTeam": "Orillia 18U B",
+            "homeTeamCode": "618388",
+            "awayTeam": "Bradford Tigers 18U A - Team 1",
+            "awayTeamCode": "617951",
+            "location": "Ross diamond is McKinnel Square Park 137 Dunedin Street",
+            "isCompleted": true,
+            "score": {
+              "home": 3,
+              "away": 5,
+              "scoreText": "5-3"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-08T18:25:56.551Z"
+        "lastUpdated": "2026-06-08T22:25:53.352Z"
       },
       "618012": {
         "teamCode": "618012",
@@ -573,7 +589,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-08T18:25:56.551Z"
+        "lastUpdated": "2026-06-08T22:25:53.352Z"
       },
       "618025": {
         "teamCode": "618025",
@@ -631,7 +647,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-08T18:25:56.551Z"
+        "lastUpdated": "2026-06-08T22:25:53.352Z"
       },
       "618049": {
         "teamCode": "618049",
@@ -721,7 +737,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-08T18:25:56.551Z"
+        "lastUpdated": "2026-06-08T22:25:53.352Z"
       },
       "618063": {
         "teamCode": "618063",
@@ -811,30 +827,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-08T18:25:56.551Z"
+        "lastUpdated": "2026-06-08T22:25:53.352Z"
       },
       "618388": {
         "teamCode": "618388",
         "totalGames": 18,
-        "playedGames": 5,
+        "playedGames": 6,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Tue, May 5",
-            "time": "8:00 PM",
-            "homeTeam": "Orillia 18U B",
-            "homeTeamCode": "618388",
-            "awayTeam": "Orangeville Bengals 18U B",
-            "awayTeamCode": "618025",
-            "location": "Tudhope Park Jerry Udell Diamond, 450 Atherley Road Orillia",
-            "isCompleted": true,
-            "score": {
-              "home": 10,
-              "away": 1,
-              "scoreText": "1-10"
-            }
-          },
           {
             "date": null,
             "dateText": "Tue, May 26",
@@ -898,10 +898,26 @@
               "away": 13,
               "scoreText": "13-7"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Thu, Jun 4",
+            "time": "8:30 PM",
+            "homeTeam": "Orillia 18U B",
+            "homeTeamCode": "618388",
+            "awayTeam": "Bradford Tigers 18U A - Team 1",
+            "awayTeamCode": "617951",
+            "location": "Ross diamond is McKinnel Square Park 137 Dunedin Street",
+            "isCompleted": true,
+            "score": {
+              "home": 3,
+              "away": 5,
+              "scoreText": "5-3"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-08T18:25:56.551Z"
+        "lastUpdated": "2026-06-08T22:25:53.352Z"
       },
       "625723": {
         "teamCode": "625723",
@@ -991,7 +1007,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-08T18:25:56.551Z"
+        "lastUpdated": "2026-06-08T22:25:53.352Z"
       },
       "628939": {
         "teamCode": "628939",
@@ -1081,7 +1097,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-08T18:25:56.551Z"
+        "lastUpdated": "2026-06-08T22:25:53.352Z"
       }
     },
     "allGames": [
@@ -1546,8 +1562,12 @@
         "awayTeam": "Bradford Tigers 18U A - Team 1",
         "awayTeamCode": "617951",
         "location": "Ross diamond is McKinnel Square Park 137 Dunedin Street",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 3,
+          "away": 5,
+          "scoreText": "5-3"
+        }
       },
       {
         "date": null,
@@ -2541,14 +2561,14 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-06-08T18:25:56.551Z",
+    "lastUpdated": "2026-06-08T22:25:53.352Z",
     "totalGames": 99
   },
   "summary": {
     "totalTeams": 11,
     "totalGames": 99,
-    "completedGames": 26,
-    "upcomingGames": 73,
+    "completedGames": 27,
+    "upcomingGames": 72,
     "topTeam": {
       "team": "Stayner 18U C",
       "teamCode": "617169",
@@ -2565,6 +2585,6 @@
       "date": "Mon, May 18",
       "location": "Beeton Diamond at 72 Prospect St. Beeton"
     },
-    "lastUpdated": "2026-06-08T18:27:35.368Z"
+    "lastUpdated": "2026-06-08T22:27:10.408Z"
   }
 }
