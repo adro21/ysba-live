@@ -2,24 +2,6 @@
   "standings": {
     "teams": [
       {
-        "position": 1,
-        "team": "Collingwood Jays 12U A",
-        "teamCode": "618007",
-        "record": {
-          "gamesPlayed": 5,
-          "wins": 5,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": "1.000"
-        },
-        "stats": {
-          "points": 10,
-          "runsFor": 75,
-          "runsAgainst": 30,
-          "runDifferential": 45
-        }
-      },
-      {
         "position": 2,
         "team": "Newmarket Hawks 12U A",
         "teamCode": "617906",
@@ -56,7 +38,7 @@
         }
       },
       {
-        "position": 6,
+        "position": 7,
         "team": "TNT Thunder 12U A",
         "teamCode": "618059",
         "record": {
@@ -71,6 +53,24 @@
           "runsFor": 51,
           "runsAgainst": 9,
           "runDifferential": 42
+        }
+      },
+      {
+        "position": 1,
+        "team": "Collingwood Jays 12U A",
+        "teamCode": "618007",
+        "record": {
+          "gamesPlayed": 6,
+          "wins": 5,
+          "losses": 1,
+          "ties": 0,
+          "winPercentage": "0.833"
+        },
+        "stats": {
+          "points": 10,
+          "runsFor": 81,
+          "runsAgainst": 42,
+          "runDifferential": 39
         }
       },
       {
@@ -92,7 +92,7 @@
         }
       },
       {
-        "position": 5,
+        "position": 6,
         "team": "Markham Mariners 12U A",
         "teamCode": "617880",
         "record": {
@@ -110,21 +110,21 @@
         }
       },
       {
-        "position": 7,
+        "position": 5,
         "team": "Thornhill Reds 12U A Team 1",
         "teamCode": "617987",
         "record": {
-          "gamesPlayed": 4,
-          "wins": 2,
+          "gamesPlayed": 5,
+          "wins": 3,
           "losses": 2,
           "ties": 0,
-          "winPercentage": "0.500"
+          "winPercentage": "0.600"
         },
         "stats": {
-          "points": 4,
-          "runsFor": 43,
-          "runsAgainst": 33,
-          "runDifferential": 10
+          "points": 6,
+          "runsFor": 49,
+          "runsAgainst": 38,
+          "runDifferential": 11
         }
       },
       {
@@ -143,6 +143,24 @@
           "runsFor": 19,
           "runsAgainst": 21,
           "runDifferential": -2
+        }
+      },
+      {
+        "position": 8,
+        "team": "New Lowell Knights 12U B",
+        "teamCode": "618068",
+        "record": {
+          "gamesPlayed": 5,
+          "wins": 2,
+          "losses": 3,
+          "ties": 0,
+          "winPercentage": "0.400"
+        },
+        "stats": {
+          "points": 4,
+          "runsFor": 67,
+          "runsAgainst": 53,
+          "runDifferential": 14
         }
       },
       {
@@ -200,24 +218,6 @@
         }
       },
       {
-        "position": 8,
-        "team": "New Lowell Knights 12U B",
-        "teamCode": "618068",
-        "record": {
-          "gamesPlayed": 4,
-          "wins": 1,
-          "losses": 3,
-          "ties": 0,
-          "winPercentage": "0.250"
-        },
-        "stats": {
-          "points": 2,
-          "runsFor": 55,
-          "runsAgainst": 47,
-          "runDifferential": 8
-        }
-      },
-      {
         "position": 9,
         "team": "Orangeville Bengals 12U B",
         "teamCode": "618021",
@@ -240,17 +240,17 @@
         "team": "Vaughan Vikings 12U A",
         "teamCode": "617178",
         "record": {
-          "gamesPlayed": 4,
+          "gamesPlayed": 5,
           "wins": 0,
-          "losses": 4,
+          "losses": 5,
           "ties": 0,
           "winPercentage": "0.000"
         },
         "stats": {
           "points": 0,
-          "runsFor": 31,
-          "runsAgainst": 48,
-          "runDifferential": -17
+          "runsFor": 36,
+          "runsAgainst": 54,
+          "runDifferential": -18
         }
       },
       {
@@ -308,7 +308,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-06-10T14:35:12.316Z",
+    "lastUpdated": "2026-06-10T20:23:07.337Z",
     "totalTeams": 17
   },
   "schedule": {
@@ -401,7 +401,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T14:35:16.569Z"
+        "lastUpdated": "2026-06-10T20:23:11.507Z"
       },
       "612784": {
         "teamCode": "612784",
@@ -459,7 +459,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T14:35:16.569Z"
+        "lastUpdated": "2026-06-10T20:23:11.507Z"
       },
       "617177": {
         "teamCode": "617177",
@@ -533,12 +533,12 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T14:35:16.569Z"
+        "lastUpdated": "2026-06-10T20:23:11.507Z"
       },
       "617178": {
         "teamCode": "617178",
         "totalGames": 14,
-        "playedGames": 4,
+        "playedGames": 5,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -604,10 +604,26 @@
               "away": 13,
               "scoreText": "13-3"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Tue, Jun 9",
+            "time": "6:30 PM",
+            "homeTeam": "Thornhill Reds 12U A Team 1",
+            "homeTeamCode": "617987",
+            "awayTeam": "Vaughan Vikings 12U A",
+            "awayTeamCode": "617178",
+            "location": "Bishop’s Cross",
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 5,
+              "scoreText": "5-6"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T14:35:16.569Z"
+        "lastUpdated": "2026-06-10T20:23:11.507Z"
       },
       "617204": {
         "teamCode": "617204",
@@ -665,30 +681,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T14:35:16.569Z"
+        "lastUpdated": "2026-06-10T20:23:11.507Z"
       },
       "617852": {
         "teamCode": "617852",
         "totalGames": 16,
-        "playedGames": 7,
+        "playedGames": 8,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Mon, May 25",
-            "time": "7:00 PM",
-            "homeTeam": "Richmond Hill Phoenix 12U AA",
-            "homeTeamCode": "617852",
-            "awayTeam": "Vaughan Vikings 12U AA",
-            "awayTeamCode": "617177",
-            "location": "David Hamilton Park",
-            "isCompleted": true,
-            "score": {
-              "home": 18,
-              "away": 14,
-              "scoreText": "14-18"
-            }
-          },
           {
             "date": null,
             "dateText": "Thu, May 28",
@@ -752,33 +752,33 @@
               "away": 11,
               "scoreText": "11-5"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Tue, Jun 9",
+            "time": "6:00 PM",
+            "homeTeam": "Newmarket Hawks 12U AA",
+            "homeTeamCode": "617907",
+            "awayTeam": "Richmond Hill Phoenix 12U AA",
+            "awayTeamCode": "617852",
+            "location": "Fairgrounds Park Diamond # 1",
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 4,
+              "scoreText": "4-4"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T14:35:16.569Z"
+        "lastUpdated": "2026-06-10T20:23:11.507Z"
       },
       "617879": {
         "teamCode": "617879",
         "totalGames": 15,
-        "playedGames": 5,
+        "playedGames": 6,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Tue, May 12",
-            "time": "6:00 PM",
-            "homeTeam": "Newmarket Hawks 12U AA",
-            "homeTeamCode": "617907",
-            "awayTeam": "Markham Mariners 12U AA",
-            "awayTeamCode": "617879",
-            "location": "Fairgrounds Park Diamond # 1",
-            "isCompleted": true,
-            "score": {
-              "home": 10,
-              "away": 12,
-              "scoreText": "12-10"
-            }
-          },
           {
             "date": null,
             "dateText": "Thu, May 14",
@@ -842,10 +842,26 @@
               "away": 12,
               "scoreText": "12-4"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Tue, Jun 9",
+            "time": "7:00 PM",
+            "homeTeam": "Orangeville Bengals 12U AA",
+            "homeTeamCode": "618022",
+            "awayTeam": "Markham Mariners 12U AA",
+            "awayTeamCode": "617879",
+            "location": "Idlewyld Park",
+            "isCompleted": true,
+            "score": {
+              "home": 2,
+              "away": 12,
+              "scoreText": "12-2"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T14:35:16.569Z"
+        "lastUpdated": "2026-06-10T20:23:11.507Z"
       },
       "617880": {
         "teamCode": "617880",
@@ -919,7 +935,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T14:35:16.569Z"
+        "lastUpdated": "2026-06-10T20:23:11.507Z"
       },
       "617906": {
         "teamCode": "617906",
@@ -1009,30 +1025,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T14:35:16.569Z"
+        "lastUpdated": "2026-06-10T20:23:11.507Z"
       },
       "617907": {
         "teamCode": "617907",
         "totalGames": 16,
-        "playedGames": 6,
+        "playedGames": 7,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Thu, May 14",
-            "time": "6:30 PM",
-            "homeTeam": "Markham Mariners 12U AA",
-            "homeTeamCode": "617879",
-            "awayTeam": "Newmarket Hawks 12U AA",
-            "awayTeamCode": "617907",
-            "location": "Millikan Mills Comm Centre Field # 5",
-            "isCompleted": true,
-            "score": {
-              "home": 6,
-              "away": 1,
-              "scoreText": "1-6"
-            }
-          },
           {
             "date": null,
             "dateText": "Tue, May 19",
@@ -1096,10 +1096,26 @@
               "away": 11,
               "scoreText": "11-9"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Tue, Jun 9",
+            "time": "6:00 PM",
+            "homeTeam": "Newmarket Hawks 12U AA",
+            "homeTeamCode": "617907",
+            "awayTeam": "Richmond Hill Phoenix 12U AA",
+            "awayTeamCode": "617852",
+            "location": "Fairgrounds Park Diamond # 1",
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 4,
+              "scoreText": "4-4"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T14:35:16.569Z"
+        "lastUpdated": "2026-06-10T20:23:11.507Z"
       },
       "617946": {
         "teamCode": "617946",
@@ -1157,7 +1173,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T14:35:16.569Z"
+        "lastUpdated": "2026-06-10T20:23:11.507Z"
       },
       "617973": {
         "teamCode": "617973",
@@ -1247,7 +1263,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T14:35:16.569Z"
+        "lastUpdated": "2026-06-10T20:23:11.507Z"
       },
       "617974": {
         "teamCode": "617974",
@@ -1289,12 +1305,12 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T14:35:16.569Z"
+        "lastUpdated": "2026-06-10T20:23:11.507Z"
       },
       "617987": {
         "teamCode": "617987",
         "totalGames": 16,
-        "playedGames": 4,
+        "playedGames": 5,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -1360,10 +1376,26 @@
               "away": 9,
               "scoreText": "9-6"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Tue, Jun 9",
+            "time": "6:30 PM",
+            "homeTeam": "Thornhill Reds 12U A Team 1",
+            "homeTeamCode": "617987",
+            "awayTeam": "Vaughan Vikings 12U A",
+            "awayTeamCode": "617178",
+            "location": "Bishop’s Cross",
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 5,
+              "scoreText": "5-6"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T14:35:16.569Z"
+        "lastUpdated": "2026-06-10T20:23:11.507Z"
       },
       "617988": {
         "teamCode": "617988",
@@ -1453,30 +1485,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T14:35:16.569Z"
+        "lastUpdated": "2026-06-10T20:23:11.507Z"
       },
       "618007": {
         "teamCode": "618007",
         "totalGames": 16,
-        "playedGames": 5,
+        "playedGames": 6,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Mon, May 11",
-            "time": "6:00 PM",
-            "homeTeam": "Collingwood Jays 12U A",
-            "homeTeamCode": "618007",
-            "awayTeam": "Innisfil Cardinals 12U A",
-            "awayTeamCode": "618044",
-            "location": "Heritage Park",
-            "isCompleted": true,
-            "score": {
-              "home": 7,
-              "away": 1,
-              "scoreText": "1-7"
-            }
-          },
           {
             "date": null,
             "dateText": "Mon, May 18",
@@ -1540,10 +1556,26 @@
               "away": 5,
               "scoreText": "5-16"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, Jun 8",
+            "time": "6:00 PM",
+            "homeTeam": "Collingwood Jays 12U A",
+            "homeTeamCode": "618007",
+            "awayTeam": "New Lowell Knights 12U B",
+            "awayTeamCode": "618068",
+            "location": "Heritage Park",
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 12,
+              "scoreText": "12-6"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T14:35:16.569Z"
+        "lastUpdated": "2026-06-10T20:23:11.507Z"
       },
       "618021": {
         "teamCode": "618021",
@@ -1617,12 +1649,12 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T14:35:16.569Z"
+        "lastUpdated": "2026-06-10T20:23:11.507Z"
       },
       "618022": {
         "teamCode": "618022",
         "totalGames": 16,
-        "playedGames": 4,
+        "playedGames": 5,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -1688,10 +1720,26 @@
               "away": 6,
               "scoreText": "6-8"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Tue, Jun 9",
+            "time": "7:00 PM",
+            "homeTeam": "Orangeville Bengals 12U AA",
+            "homeTeamCode": "618022",
+            "awayTeam": "Markham Mariners 12U AA",
+            "awayTeamCode": "617879",
+            "location": "Idlewyld Park",
+            "isCompleted": true,
+            "score": {
+              "home": 2,
+              "away": 12,
+              "scoreText": "12-2"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T14:35:16.569Z"
+        "lastUpdated": "2026-06-10T20:23:11.507Z"
       },
       "618044": {
         "teamCode": "618044",
@@ -1765,7 +1813,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T14:35:16.569Z"
+        "lastUpdated": "2026-06-10T20:23:11.507Z"
       },
       "618059": {
         "teamCode": "618059",
@@ -1823,12 +1871,12 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T14:35:16.569Z"
+        "lastUpdated": "2026-06-10T20:23:11.507Z"
       },
       "618068": {
         "teamCode": "618068",
         "totalGames": 16,
-        "playedGames": 4,
+        "playedGames": 5,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -1894,10 +1942,26 @@
               "away": 28,
               "scoreText": "28-12"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, Jun 8",
+            "time": "6:00 PM",
+            "homeTeam": "Collingwood Jays 12U A",
+            "homeTeamCode": "618007",
+            "awayTeam": "New Lowell Knights 12U B",
+            "awayTeamCode": "618068",
+            "location": "Heritage Park",
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 12,
+              "scoreText": "12-6"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T14:35:16.569Z"
+        "lastUpdated": "2026-06-10T20:23:11.507Z"
       },
       "618383": {
         "teamCode": "618383",
@@ -1955,7 +2019,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T14:35:16.569Z"
+        "lastUpdated": "2026-06-10T20:23:11.507Z"
       },
       "618395": {
         "teamCode": "618395",
@@ -2029,7 +2093,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T14:35:16.569Z"
+        "lastUpdated": "2026-06-10T20:23:11.507Z"
       },
       "618468": {
         "teamCode": "618468",
@@ -2087,7 +2151,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T14:35:16.569Z"
+        "lastUpdated": "2026-06-10T20:23:11.507Z"
       },
       "625727": {
         "teamCode": "625727",
@@ -2161,7 +2225,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T14:35:16.569Z"
+        "lastUpdated": "2026-06-10T20:23:11.507Z"
       },
       "628934": {
         "teamCode": "628934",
@@ -2219,7 +2283,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T14:35:16.569Z"
+        "lastUpdated": "2026-06-10T20:23:11.507Z"
       }
     },
     "allGames": [
@@ -3104,8 +3168,12 @@
         "awayTeam": "New Lowell Knights 12U B",
         "awayTeamCode": "618068",
         "location": "Heritage Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 12,
+          "scoreText": "12-6"
+        }
       },
       {
         "date": null,
@@ -3116,8 +3184,12 @@
         "awayTeam": "Richmond Hill Phoenix 12U AA",
         "awayTeamCode": "617852",
         "location": "Fairgrounds Park Diamond # 1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 4,
+          "scoreText": "4-4"
+        }
       },
       {
         "date": null,
@@ -3156,8 +3228,12 @@
         "awayTeam": "Vaughan Vikings 12U A",
         "awayTeamCode": "617178",
         "location": "Bishop’s Cross",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 5,
+          "scoreText": "5-6"
+        }
       },
       {
         "date": null,
@@ -3168,8 +3244,12 @@
         "awayTeam": "Markham Mariners 12U AA",
         "awayTeamCode": "617879",
         "location": "Idlewyld Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 2,
+          "away": 12,
+          "scoreText": "12-2"
+        }
       },
       {
         "date": null,
@@ -5003,17 +5083,17 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-06-10T14:35:16.569Z",
+    "lastUpdated": "2026-06-10T20:23:11.507Z",
     "totalGames": 200
   },
   "summary": {
     "totalTeams": 17,
     "totalGames": 200,
-    "completedGames": 54,
-    "upcomingGames": 146,
+    "completedGames": 58,
+    "upcomingGames": 142,
     "topTeam": {
-      "team": "Collingwood Jays 12U A",
-      "teamCode": "618007",
+      "team": "Newmarket Hawks 12U A",
+      "teamCode": "617906",
       "wins": 5,
       "losses": 0,
       "winPercentage": "1.000"
@@ -5027,6 +5107,6 @@
       "date": "Mon, May 18",
       "location": "Lampman Lane"
     },
-    "lastUpdated": "2026-06-10T14:38:36.632Z"
+    "lastUpdated": "2026-06-10T20:26:31.213Z"
   }
 }

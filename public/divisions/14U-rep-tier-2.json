@@ -6,17 +6,17 @@
         "team": "Barrie Baycats 14U AA",
         "teamCode": "612788",
         "record": {
-          "gamesPlayed": 5,
-          "wins": 5,
+          "gamesPlayed": 6,
+          "wins": 6,
           "losses": 0,
           "ties": 0,
           "winPercentage": "1.000"
         },
         "stats": {
-          "points": 10,
-          "runsFor": 60,
-          "runsAgainst": 37,
-          "runDifferential": 23
+          "points": 12,
+          "runsFor": 71,
+          "runsAgainst": 40,
+          "runDifferential": 31
         }
       },
       {
@@ -24,41 +24,23 @@
         "team": "Richmond Hill Phoenix 14U AA",
         "teamCode": "617856",
         "record": {
-          "gamesPlayed": 6,
-          "wins": 5,
+          "gamesPlayed": 7,
+          "wins": 6,
           "losses": 1,
           "ties": 0,
-          "winPercentage": "0.833"
+          "winPercentage": "0.857"
         },
         "stats": {
-          "points": 10,
-          "runsFor": 64,
-          "runsAgainst": 32,
-          "runDifferential": 32
+          "points": 12,
+          "runsFor": 70,
+          "runsAgainst": 34,
+          "runDifferential": 36
         }
       },
       {
         "position": 4,
         "team": "Stouffville 14U AA",
         "teamCode": "617207",
-        "record": {
-          "gamesPlayed": 4,
-          "wins": 3,
-          "losses": 1,
-          "ties": 0,
-          "winPercentage": "0.750"
-        },
-        "stats": {
-          "points": 6,
-          "runsFor": 37,
-          "runsAgainst": 24,
-          "runDifferential": 13
-        }
-      },
-      {
-        "position": 3,
-        "team": "Caledon Nationals 14U AA",
-        "teamCode": "618465",
         "record": {
           "gamesPlayed": 5,
           "wins": 3,
@@ -68,9 +50,27 @@
         },
         "stats": {
           "points": 6,
-          "runsFor": 63,
-          "runsAgainst": 41,
-          "runDifferential": 22
+          "runsFor": 40,
+          "runsAgainst": 35,
+          "runDifferential": 5
+        }
+      },
+      {
+        "position": 3,
+        "team": "Caledon Nationals 14U AA",
+        "teamCode": "618465",
+        "record": {
+          "gamesPlayed": 6,
+          "wins": 3,
+          "losses": 3,
+          "ties": 0,
+          "winPercentage": "0.500"
+        },
+        "stats": {
+          "points": 6,
+          "runsFor": 65,
+          "runsAgainst": 47,
+          "runDifferential": 18
         }
       },
       {
@@ -128,7 +128,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-06-10T14:36:03.301Z",
+    "lastUpdated": "2026-06-10T20:23:57.929Z",
     "totalTeams": 7
   },
   "schedule": {
@@ -140,30 +140,14 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T14:36:07.637Z"
+        "lastUpdated": "2026-06-10T20:24:02.219Z"
       },
       "612788": {
         "teamCode": "612788",
         "totalGames": 20,
-        "playedGames": 5,
+        "playedGames": 6,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Tue, May 12",
-            "time": "7:20 PM",
-            "homeTeam": "Barrie Baycats 14U AA",
-            "homeTeamCode": "612788",
-            "awayTeam": "Aurora-King Jays 14U AA",
-            "awayTeamCode": "617978",
-            "location": "Barrie Community Sports Complex - DANA",
-            "isCompleted": true,
-            "score": {
-              "home": 11,
-              "away": 7,
-              "scoreText": "7-11"
-            }
-          },
           {
             "date": null,
             "dateText": "Sun, May 17",
@@ -227,10 +211,26 @@
               "away": 16,
               "scoreText": "16-1"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Tue, Jun 9",
+            "time": "7:00 PM",
+            "homeTeam": "Barrie Baycats 14U AA",
+            "homeTeamCode": "612788",
+            "awayTeam": "Stouffville 14U AA",
+            "awayTeamCode": "617207",
+            "location": "Athletic Kulture Stadium",
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 3,
+              "scoreText": "3-11"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T14:36:07.637Z"
+        "lastUpdated": "2026-06-10T20:24:02.219Z"
       },
       "612789": {
         "teamCode": "612789",
@@ -256,7 +256,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T14:36:07.637Z"
+        "lastUpdated": "2026-06-10T20:24:02.219Z"
       },
       "617181": {
         "teamCode": "617181",
@@ -265,12 +265,12 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T14:36:07.637Z"
+        "lastUpdated": "2026-06-10T20:24:02.219Z"
       },
       "617207": {
         "teamCode": "617207",
         "totalGames": 19,
-        "playedGames": 4,
+        "playedGames": 5,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -336,33 +336,33 @@
               "away": 2,
               "scoreText": "2-13"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Tue, Jun 9",
+            "time": "7:00 PM",
+            "homeTeam": "Barrie Baycats 14U AA",
+            "homeTeamCode": "612788",
+            "awayTeam": "Stouffville 14U AA",
+            "awayTeamCode": "617207",
+            "location": "Athletic Kulture Stadium",
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 3,
+              "scoreText": "3-11"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T14:36:07.637Z"
+        "lastUpdated": "2026-06-10T20:24:02.219Z"
       },
       "617856": {
         "teamCode": "617856",
         "totalGames": 20,
-        "playedGames": 6,
+        "playedGames": 7,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Tue, May 26",
-            "time": "7:00 PM",
-            "homeTeam": "Richmond Hill Phoenix 14U AA",
-            "homeTeamCode": "617856",
-            "awayTeam": "Stouffville 14U AA",
-            "awayTeamCode": "617207",
-            "location": "Richmond Green #1",
-            "isCompleted": true,
-            "score": {
-              "home": 6,
-              "away": 3,
-              "scoreText": "3-6"
-            }
-          },
           {
             "date": null,
             "dateText": "Wed, May 27",
@@ -426,10 +426,26 @@
               "away": 10,
               "scoreText": "10-4"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Tue, Jun 9",
+            "time": "8:30 PM",
+            "homeTeam": "Caledon Nationals 14U AA",
+            "homeTeamCode": "618465",
+            "awayTeam": "Richmond Hill Phoenix 14U AA",
+            "awayTeamCode": "617856",
+            "location": "North Hill - Diamond 1",
+            "isCompleted": true,
+            "score": {
+              "home": 2,
+              "away": 6,
+              "scoreText": "6-2"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T14:36:07.637Z"
+        "lastUpdated": "2026-06-10T20:24:02.219Z"
       },
       "617857": {
         "teamCode": "617857",
@@ -438,7 +454,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T14:36:07.637Z"
+        "lastUpdated": "2026-06-10T20:24:02.219Z"
       },
       "617884": {
         "teamCode": "617884",
@@ -480,7 +496,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T14:36:07.637Z"
+        "lastUpdated": "2026-06-10T20:24:02.219Z"
       },
       "617885": {
         "teamCode": "617885",
@@ -489,7 +505,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T14:36:07.637Z"
+        "lastUpdated": "2026-06-10T20:24:02.219Z"
       },
       "617911": {
         "teamCode": "617911",
@@ -498,7 +514,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T14:36:07.637Z"
+        "lastUpdated": "2026-06-10T20:24:02.219Z"
       },
       "617912": {
         "teamCode": "617912",
@@ -588,7 +604,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T14:36:07.637Z"
+        "lastUpdated": "2026-06-10T20:24:02.219Z"
       },
       "617978": {
         "teamCode": "617978",
@@ -678,7 +694,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T14:36:07.637Z"
+        "lastUpdated": "2026-06-10T20:24:02.219Z"
       },
       "617991": {
         "teamCode": "617991",
@@ -687,7 +703,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T14:36:07.637Z"
+        "lastUpdated": "2026-06-10T20:24:02.219Z"
       },
       "618009": {
         "teamCode": "618009",
@@ -729,7 +745,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T14:36:07.637Z"
+        "lastUpdated": "2026-06-10T20:24:02.219Z"
       },
       "618024": {
         "teamCode": "618024",
@@ -771,7 +787,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T14:36:07.637Z"
+        "lastUpdated": "2026-06-10T20:24:02.219Z"
       },
       "618031": {
         "teamCode": "618031",
@@ -813,7 +829,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T14:36:07.637Z"
+        "lastUpdated": "2026-06-10T20:24:02.219Z"
       },
       "618046": {
         "teamCode": "618046",
@@ -887,7 +903,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T14:36:07.637Z"
+        "lastUpdated": "2026-06-10T20:24:02.219Z"
       },
       "618061": {
         "teamCode": "618061",
@@ -913,7 +929,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T14:36:07.637Z"
+        "lastUpdated": "2026-06-10T20:24:02.219Z"
       },
       "618385": {
         "teamCode": "618385",
@@ -987,30 +1003,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T14:36:07.637Z"
+        "lastUpdated": "2026-06-10T20:24:02.219Z"
       },
       "618465": {
         "teamCode": "618465",
         "totalGames": 20,
-        "playedGames": 5,
+        "playedGames": 6,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sun, May 17",
-            "time": "10:00 AM",
-            "homeTeam": "Barrie Baycats 14U AA",
-            "homeTeamCode": "612788",
-            "awayTeam": "Caledon Nationals 14U AA",
-            "awayTeamCode": "618465",
-            "location": "Lennox Park - B",
-            "isCompleted": true,
-            "score": {
-              "home": 6,
-              "away": 4,
-              "scoreText": "4-6"
-            }
-          },
           {
             "date": null,
             "dateText": "Sun, May 17",
@@ -1074,10 +1074,26 @@
               "away": 9,
               "scoreText": "9-10"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Tue, Jun 9",
+            "time": "8:30 PM",
+            "homeTeam": "Caledon Nationals 14U AA",
+            "homeTeamCode": "618465",
+            "awayTeam": "Richmond Hill Phoenix 14U AA",
+            "awayTeamCode": "617856",
+            "location": "North Hill - Diamond 1",
+            "isCompleted": true,
+            "score": {
+              "home": 2,
+              "away": 6,
+              "scoreText": "6-2"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T14:36:07.637Z"
+        "lastUpdated": "2026-06-10T20:24:02.219Z"
       },
       "625728": {
         "teamCode": "625728",
@@ -1086,7 +1102,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T14:36:07.637Z"
+        "lastUpdated": "2026-06-10T20:24:02.219Z"
       },
       "628936": {
         "teamCode": "628936",
@@ -1128,7 +1144,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T14:36:07.637Z"
+        "lastUpdated": "2026-06-10T20:24:02.219Z"
       }
     },
     "allGames": [
@@ -1937,8 +1953,12 @@
         "awayTeam": "Stouffville 14U AA",
         "awayTeamCode": "617207",
         "location": "Athletic Kulture Stadium",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 3,
+          "scoreText": "3-11"
+        }
       },
       {
         "date": null,
@@ -1949,8 +1969,12 @@
         "awayTeam": "Richmond Hill Phoenix 14U AA",
         "awayTeamCode": "617856",
         "location": "North Hill - Diamond 1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 2,
+          "away": 6,
+          "scoreText": "6-2"
+        }
       },
       {
         "date": null,
@@ -3796,18 +3820,18 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-06-10T14:36:07.637Z",
+    "lastUpdated": "2026-06-10T20:24:02.219Z",
     "totalGames": 200
   },
   "summary": {
     "totalTeams": 7,
     "totalGames": 200,
-    "completedGames": 25,
-    "upcomingGames": 175,
+    "completedGames": 27,
+    "upcomingGames": 173,
     "topTeam": {
       "team": "Barrie Baycats 14U AA",
       "teamCode": "612788",
-      "wins": 5,
+      "wins": 6,
       "losses": 0,
       "winPercentage": "1.000"
     },
@@ -3820,6 +3844,6 @@
       "date": "Mon, May 25",
       "location": "Innisfil Recreation Centre"
     },
-    "lastUpdated": "2026-06-10T14:38:36.632Z"
+    "lastUpdated": "2026-06-10T20:26:31.213Z"
   }
 }
