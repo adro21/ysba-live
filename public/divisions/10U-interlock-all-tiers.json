@@ -60,17 +60,17 @@
         "team": "Barrie",
         "teamCode": "892634",
         "record": {
-          "gamesPlayed": 6,
+          "gamesPlayed": 7,
           "wins": 5,
-          "losses": 1,
+          "losses": 2,
           "ties": 0,
-          "winPercentage": "0.833"
+          "winPercentage": "0.714"
         },
         "stats": {
           "points": 10,
-          "runsFor": 74,
-          "runsAgainst": 41,
-          "runDifferential": 33
+          "runsFor": 77,
+          "runsAgainst": 54,
+          "runDifferential": 23
         }
       },
       {
@@ -110,7 +110,25 @@
         }
       },
       {
-        "position": 8,
+        "position": 7,
+        "team": "Georgina",
+        "teamCode": "892647",
+        "record": {
+          "gamesPlayed": 6,
+          "wins": 3,
+          "losses": 3,
+          "ties": 0,
+          "winPercentage": "0.500"
+        },
+        "stats": {
+          "points": 6,
+          "runsFor": 63,
+          "runsAgainst": 41,
+          "runDifferential": 22
+        }
+      },
+      {
+        "position": 9,
         "team": "East York",
         "teamCode": "892640",
         "record": {
@@ -128,25 +146,7 @@
         }
       },
       {
-        "position": 9,
-        "team": "Georgina",
-        "teamCode": "892647",
-        "record": {
-          "gamesPlayed": 5,
-          "wins": 2,
-          "losses": 3,
-          "ties": 0,
-          "winPercentage": "0.400"
-        },
-        "stats": {
-          "points": 4,
-          "runsFor": 50,
-          "runsAgainst": 38,
-          "runDifferential": 12
-        }
-      },
-      {
-        "position": 7,
+        "position": 8,
         "team": "Stouffville",
         "teamCode": "892639",
         "record": {
@@ -254,7 +254,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-06-10T07:09:51.778Z",
+    "lastUpdated": "2026-06-10T14:38:36.586Z",
     "totalTeams": 14
   },
   "schedule": {
@@ -408,7 +408,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-10T07:09:51.824Z"
+        "lastUpdated": "2026-06-10T14:38:36.631Z"
       },
       "892634": {
         "teamCode": "892634",
@@ -489,8 +489,12 @@
             "awayTeam": "Georgina",
             "awayTeamCode": "892647",
             "location": "ROC — Diamond 2 — Georgina",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 3,
+              "away": 13,
+              "scoreText": "13-3"
+            }
           }
         ],
         "nextGames": [
@@ -555,7 +559,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-10T07:09:51.824Z"
+        "lastUpdated": "2026-06-10T14:38:36.631Z"
       },
       "892636": {
         "teamCode": "892636",
@@ -702,7 +706,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-10T07:09:51.824Z"
+        "lastUpdated": "2026-06-10T14:38:36.631Z"
       },
       "892637": {
         "teamCode": "892637",
@@ -849,7 +853,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-10T07:09:51.824Z"
+        "lastUpdated": "2026-06-10T14:38:36.631Z"
       },
       "892638": {
         "teamCode": "892638",
@@ -984,7 +988,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-10T07:09:51.824Z"
+        "lastUpdated": "2026-06-10T14:38:36.631Z"
       },
       "892639": {
         "teamCode": "892639",
@@ -1135,7 +1139,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-10T07:09:51.824Z"
+        "lastUpdated": "2026-06-10T14:38:36.632Z"
       },
       "892640": {
         "teamCode": "892640",
@@ -1282,7 +1286,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-10T07:09:51.824Z"
+        "lastUpdated": "2026-06-10T14:38:36.632Z"
       },
       "892642": {
         "teamCode": "892642",
@@ -1421,7 +1425,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-10T07:09:51.824Z"
+        "lastUpdated": "2026-06-10T14:38:36.632Z"
       },
       "892643": {
         "teamCode": "892643",
@@ -1560,7 +1564,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-10T07:09:51.825Z"
+        "lastUpdated": "2026-06-10T14:38:36.632Z"
       },
       "892644": {
         "teamCode": "892644",
@@ -1707,7 +1711,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-10T07:09:51.825Z"
+        "lastUpdated": "2026-06-10T14:38:36.632Z"
       },
       "892645": {
         "teamCode": "892645",
@@ -1850,7 +1854,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-10T07:09:51.825Z"
+        "lastUpdated": "2026-06-10T14:38:36.632Z"
       },
       "892646": {
         "teamCode": "892646",
@@ -1989,7 +1993,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-10T07:09:51.825Z"
+        "lastUpdated": "2026-06-10T14:38:36.632Z"
       },
       "892647": {
         "teamCode": "892647",
@@ -2058,8 +2062,12 @@
             "awayTeam": "Georgina",
             "awayTeamCode": "892647",
             "location": "ROC — Diamond 2 — Georgina",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 3,
+              "away": 13,
+              "scoreText": "13-3"
+            }
           }
         ],
         "nextGames": [
@@ -2124,7 +2132,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-10T07:09:51.825Z"
+        "lastUpdated": "2026-06-10T14:38:36.632Z"
       },
       "892648": {
         "teamCode": "892648",
@@ -2267,7 +2275,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-10T07:09:51.825Z"
+        "lastUpdated": "2026-06-10T14:38:36.632Z"
       }
     },
     "allGames": [
@@ -2996,8 +3004,12 @@
         "awayTeam": "Georgina",
         "awayTeamCode": "892647",
         "location": "ROC — Diamond 2 — Georgina",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 3,
+          "away": 13,
+          "scoreText": "13-3"
+        }
       },
       {
         "date": "2026-06-09T22:30:00.000Z",
@@ -4198,8 +4210,12 @@
         "awayTeam": "Georgina",
         "awayTeamCode": "892647",
         "location": "ROC — Diamond 2 — Georgina",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 3,
+          "away": 13,
+          "scoreText": "13-3"
+        }
       },
       {
         "date": "2026-06-09T22:00:00.000Z",
@@ -4440,14 +4456,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2026-06-10T07:09:51.825Z",
+    "lastUpdated": "2026-06-10T14:38:36.632Z",
     "totalGames": 147
   },
   "summary": {
     "totalTeams": 14,
     "totalGames": 147,
-    "completedGames": 35,
-    "upcomingGames": 112,
+    "completedGames": 36,
+    "upcomingGames": 111,
     "topTeam": {
       "team": "Royal York",
       "teamCode": "892633",
@@ -4464,6 +4480,6 @@
       "date": "Wed, May 20",
       "location": "Armstrong — Diamond 1 — Newmarket"
     },
-    "lastUpdated": "2026-06-10T07:09:51.825Z"
+    "lastUpdated": "2026-06-10T14:38:36.632Z"
   }
 }

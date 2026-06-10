@@ -42,17 +42,17 @@
         "team": "Vaughan Vikings 10U DS",
         "teamCode": "617189",
         "record": {
-          "gamesPlayed": 2,
+          "gamesPlayed": 3,
           "wins": 2,
-          "losses": 0,
+          "losses": 1,
           "ties": 0,
-          "winPercentage": "1.000"
+          "winPercentage": "0.667"
         },
         "stats": {
           "points": 4,
-          "runsFor": 19,
-          "runsAgainst": 14,
-          "runDifferential": 5
+          "runsFor": 28,
+          "runsAgainst": 26,
+          "runDifferential": 2
         }
       },
       {
@@ -168,17 +168,17 @@
         "team": "Innisfil Cardinals 11U DS",
         "teamCode": "618053",
         "record": {
-          "gamesPlayed": 6,
-          "wins": 0,
+          "gamesPlayed": 7,
+          "wins": 1,
           "losses": 6,
           "ties": 0,
-          "winPercentage": "0.000"
+          "winPercentage": "0.143"
         },
         "stats": {
-          "points": 0,
-          "runsFor": 49,
-          "runsAgainst": 96,
-          "runDifferential": -47
+          "points": 2,
+          "runsFor": 61,
+          "runsAgainst": 105,
+          "runDifferential": -44
         }
       },
       {
@@ -200,7 +200,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-06-10T07:09:34.153Z",
+    "lastUpdated": "2026-06-10T14:38:19.084Z",
     "totalTeams": 11
   },
   "schedule": {
@@ -293,12 +293,12 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T07:09:37.020Z"
+        "lastUpdated": "2026-06-10T14:38:21.871Z"
       },
       "617189": {
         "teamCode": "617189",
         "totalGames": 16,
-        "playedGames": 2,
+        "playedGames": 3,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -332,10 +332,26 @@
               "away": 7,
               "scoreText": "7-8"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Tue, Jun 9",
+            "time": "6:30 PM",
+            "homeTeam": "Innisfil Cardinals 11U DS",
+            "homeTeamCode": "618053",
+            "awayTeam": "Vaughan Vikings 10U DS",
+            "awayTeamCode": "617189",
+            "location": "Innisfil Beach L.",
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 9,
+              "scoreText": "9-12"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T07:09:37.020Z"
+        "lastUpdated": "2026-06-10T14:38:21.871Z"
       },
       "617190": {
         "teamCode": "617190",
@@ -425,7 +441,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T07:09:37.020Z"
+        "lastUpdated": "2026-06-10T14:38:21.871Z"
       },
       "617892": {
         "teamCode": "617892",
@@ -515,7 +531,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T07:09:37.020Z"
+        "lastUpdated": "2026-06-10T14:38:21.871Z"
       },
       "617917": {
         "teamCode": "617917",
@@ -605,7 +621,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T07:09:37.020Z"
+        "lastUpdated": "2026-06-10T14:38:21.871Z"
       },
       "618000": {
         "teamCode": "618000",
@@ -695,7 +711,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T07:09:37.020Z"
+        "lastUpdated": "2026-06-10T14:38:21.871Z"
       },
       "618014": {
         "teamCode": "618014",
@@ -785,7 +801,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T07:09:37.020Z"
+        "lastUpdated": "2026-06-10T14:38:21.871Z"
       },
       "618027": {
         "teamCode": "618027",
@@ -875,30 +891,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T07:09:37.020Z"
+        "lastUpdated": "2026-06-10T14:38:21.871Z"
       },
       "618053": {
         "teamCode": "618053",
         "totalGames": 16,
-        "playedGames": 6,
+        "playedGames": 7,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sat, May 16",
-            "time": "12:00 PM",
-            "homeTeam": "Innisfil Cardinals 11U DS",
-            "homeTeamCode": "618053",
-            "awayTeam": "Markham Mariners 11U DS",
-            "awayTeamCode": "617892",
-            "location": "Stroud",
-            "isCompleted": true,
-            "score": {
-              "home": 10,
-              "away": 12,
-              "scoreText": "12-10"
-            }
-          },
           {
             "date": null,
             "dateText": "Sat, May 23",
@@ -962,10 +962,26 @@
               "away": 11,
               "scoreText": "11-10"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Tue, Jun 9",
+            "time": "6:30 PM",
+            "homeTeam": "Innisfil Cardinals 11U DS",
+            "homeTeamCode": "618053",
+            "awayTeam": "Vaughan Vikings 10U DS",
+            "awayTeamCode": "617189",
+            "location": "Innisfil Beach L.",
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 9,
+              "scoreText": "9-12"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T07:09:37.020Z"
+        "lastUpdated": "2026-06-10T14:38:21.871Z"
       },
       "618391": {
         "teamCode": "618391",
@@ -1055,7 +1071,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T07:09:37.020Z"
+        "lastUpdated": "2026-06-10T14:38:21.871Z"
       },
       "618476": {
         "teamCode": "618476",
@@ -1145,7 +1161,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-10T07:09:37.020Z"
+        "lastUpdated": "2026-06-10T14:38:21.871Z"
       }
     },
     "allGames": [
@@ -1754,8 +1770,12 @@
         "awayTeam": "Vaughan Vikings 10U DS",
         "awayTeamCode": "617189",
         "location": "Innisfil Beach L.",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 9,
+          "scoreText": "9-12"
+        }
       },
       {
         "date": null,
@@ -2509,14 +2529,14 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-06-10T07:09:37.020Z",
+    "lastUpdated": "2026-06-10T14:38:21.871Z",
     "totalGames": 88
   },
   "summary": {
     "totalTeams": 11,
     "totalGames": 88,
-    "completedGames": 35,
-    "upcomingGames": 53,
+    "completedGames": 36,
+    "upcomingGames": 52,
     "topTeam": {
       "team": "Thornhill Reds 11U DS",
       "teamCode": "618000",
@@ -2533,6 +2553,6 @@
       "date": "Sat, May 16",
       "location": "Stroud"
     },
-    "lastUpdated": "2026-06-10T07:09:51.825Z"
+    "lastUpdated": "2026-06-10T14:38:36.632Z"
   }
 }
