@@ -6,23 +6,23 @@
         "team": "Vaughan Vikings 10U A Team 2",
         "teamCode": "617174",
         "record": {
-          "gamesPlayed": 8,
-          "wins": 8,
+          "gamesPlayed": 9,
+          "wins": 9,
           "losses": 0,
           "ties": 0,
           "winPercentage": "1.000"
         },
         "stats": {
-          "points": 16,
-          "runsFor": 107,
-          "runsAgainst": 36,
-          "runDifferential": 71
+          "points": 18,
+          "runsFor": 116,
+          "runsAgainst": 41,
+          "runDifferential": 75
         }
       },
       {
-        "position": 2,
-        "team": "Thornhill Reds 10U A",
-        "teamCode": "617985",
+        "position": 3,
+        "team": "Barrie Baycats 10U A",
+        "teamCode": "612779",
         "record": {
           "gamesPlayed": 7,
           "wins": 6,
@@ -32,27 +32,9 @@
         },
         "stats": {
           "points": 12,
-          "runsFor": 68,
+          "runsFor": 85,
           "runsAgainst": 45,
-          "runDifferential": 23
-        }
-      },
-      {
-        "position": 3,
-        "team": "Barrie Baycats 10U A",
-        "teamCode": "612779",
-        "record": {
-          "gamesPlayed": 6,
-          "wins": 5,
-          "losses": 1,
-          "ties": 0,
-          "winPercentage": "0.833"
-        },
-        "stats": {
-          "points": 10,
-          "runsFor": 72,
-          "runsAgainst": 41,
-          "runDifferential": 31
+          "runDifferential": 40
         }
       },
       {
@@ -89,6 +71,24 @@
           "runsFor": 55,
           "runsAgainst": 44,
           "runDifferential": 11
+        }
+      },
+      {
+        "position": 2,
+        "team": "Thornhill Reds 10U A",
+        "teamCode": "617985",
+        "record": {
+          "gamesPlayed": 8,
+          "wins": 6,
+          "losses": 2,
+          "ties": 0,
+          "winPercentage": "0.750"
+        },
+        "stats": {
+          "points": 12,
+          "runsFor": 73,
+          "runsAgainst": 54,
+          "runDifferential": 19
         }
       },
       {
@@ -276,21 +276,21 @@
         "team": "Orangeville Bengals 10U A",
         "teamCode": "618019",
         "record": {
-          "gamesPlayed": 5,
+          "gamesPlayed": 6,
           "wins": 0,
-          "losses": 5,
+          "losses": 6,
           "ties": 0,
           "winPercentage": "0.000"
         },
         "stats": {
           "points": 0,
-          "runsFor": 26,
-          "runsAgainst": 77,
-          "runDifferential": -51
+          "runsFor": 30,
+          "runsAgainst": 90,
+          "runDifferential": -60
         }
       }
     ],
-    "lastUpdated": "2026-06-11T08:04:35.893Z",
+    "lastUpdated": "2026-06-11T16:34:16.855Z",
     "totalTeams": 16
   },
   "schedule": {
@@ -298,25 +298,9 @@
       "612779": {
         "teamCode": "612779",
         "totalGames": 19,
-        "playedGames": 6,
+        "playedGames": 7,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Thu, May 21",
-            "time": "6:30 PM",
-            "homeTeam": "Aurora-King Jays 10U A",
-            "homeTeamCode": "617970",
-            "awayTeam": "Barrie Baycats 10U A",
-            "awayTeamCode": "612779",
-            "location": "Hallmark 2",
-            "isCompleted": true,
-            "score": {
-              "home": 12,
-              "away": 16,
-              "scoreText": "16-12"
-            }
-          },
           {
             "date": null,
             "dateText": "Tue, May 26",
@@ -380,10 +364,26 @@
               "away": 8,
               "scoreText": "8-9"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Wed, Jun 10",
+            "time": "6:30 PM",
+            "homeTeam": "Barrie Baycats 10U A",
+            "homeTeamCode": "612779",
+            "awayTeam": "Orangeville Bengals 10U A",
+            "awayTeamCode": "618019",
+            "location": "Barrie Sports Complex Pinwheel 12",
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 4,
+              "scoreText": "4-13"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-11T08:04:40.431Z"
+        "lastUpdated": "2026-06-11T16:34:21.023Z"
       },
       "617173": {
         "teamCode": "617173",
@@ -473,30 +473,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-11T08:04:40.431Z"
+        "lastUpdated": "2026-06-11T16:34:21.023Z"
       },
       "617174": {
         "teamCode": "617174",
         "totalGames": 19,
-        "playedGames": 8,
+        "playedGames": 9,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Wed, May 27",
-            "time": "6:00 PM",
-            "homeTeam": "Vaughan Vikings 10U A Team 2",
-            "homeTeamCode": "617174",
-            "awayTeam": "Stouffville 10U A",
-            "awayTeamCode": "627209",
-            "location": "Concord Regional park #4",
-            "isCompleted": true,
-            "score": {
-              "home": 13,
-              "away": 3,
-              "scoreText": "3-13"
-            }
-          },
           {
             "date": null,
             "dateText": "Mon, Jun 1",
@@ -560,10 +544,26 @@
               "away": 12,
               "scoreText": "12-10"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Wed, Jun 10",
+            "time": "6:00 PM",
+            "homeTeam": "Thornhill Reds 10U A",
+            "homeTeamCode": "617985",
+            "awayTeam": "Vaughan Vikings 10U A Team 2",
+            "awayTeamCode": "617174",
+            "location": "CONCORD REGIONAL #3",
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 9,
+              "scoreText": "9-5"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-11T08:04:40.431Z"
+        "lastUpdated": "2026-06-11T16:34:21.023Z"
       },
       "617848": {
         "teamCode": "617848",
@@ -653,7 +653,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-11T08:04:40.431Z"
+        "lastUpdated": "2026-06-11T16:34:21.023Z"
       },
       "617900": {
         "teamCode": "617900",
@@ -743,7 +743,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-11T08:04:40.431Z"
+        "lastUpdated": "2026-06-11T16:34:21.023Z"
       },
       "617944": {
         "teamCode": "617944",
@@ -833,7 +833,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-11T08:04:40.431Z"
+        "lastUpdated": "2026-06-11T16:34:21.023Z"
       },
       "617970": {
         "teamCode": "617970",
@@ -923,30 +923,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-11T08:04:40.431Z"
+        "lastUpdated": "2026-06-11T16:34:21.023Z"
       },
       "617985": {
         "teamCode": "617985",
         "totalGames": 19,
-        "playedGames": 7,
+        "playedGames": 8,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Mon, May 18",
-            "time": "6:30 PM",
-            "homeTeam": "Newmarket Hawks 10U A",
-            "homeTeamCode": "617900",
-            "awayTeam": "Thornhill Reds 10U A",
-            "awayTeamCode": "617985",
-            "location": "Armstrong Park (Diamond 1)",
-            "isCompleted": true,
-            "score": {
-              "home": 3,
-              "away": 6,
-              "scoreText": "6-3"
-            }
-          },
           {
             "date": null,
             "dateText": "Wed, May 20",
@@ -1010,10 +994,26 @@
               "away": 11,
               "scoreText": "11-5"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Wed, Jun 10",
+            "time": "6:00 PM",
+            "homeTeam": "Thornhill Reds 10U A",
+            "homeTeamCode": "617985",
+            "awayTeam": "Vaughan Vikings 10U A Team 2",
+            "awayTeamCode": "617174",
+            "location": "CONCORD REGIONAL #3",
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 9,
+              "scoreText": "9-5"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-11T08:04:40.431Z"
+        "lastUpdated": "2026-06-11T16:34:21.023Z"
       },
       "618005": {
         "teamCode": "618005",
@@ -1103,30 +1103,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-11T08:04:40.431Z"
+        "lastUpdated": "2026-06-11T16:34:21.023Z"
       },
       "618019": {
         "teamCode": "618019",
         "totalGames": 19,
-        "playedGames": 5,
+        "playedGames": 6,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Thu, May 21",
-            "time": "6:00 PM",
-            "homeTeam": "Orangeville Bengals 10U A",
-            "homeTeamCode": "618019",
-            "awayTeam": "Collingwood Jays 10U A",
-            "awayTeamCode": "618005",
-            "location": "Alton Park",
-            "isCompleted": true,
-            "score": {
-              "home": 7,
-              "away": 19,
-              "scoreText": "19-7"
-            }
-          },
           {
             "date": null,
             "dateText": "Mon, May 25",
@@ -1190,10 +1174,26 @@
               "away": 8,
               "scoreText": "8-12"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Wed, Jun 10",
+            "time": "6:30 PM",
+            "homeTeam": "Barrie Baycats 10U A",
+            "homeTeamCode": "612779",
+            "awayTeam": "Orangeville Bengals 10U A",
+            "awayTeamCode": "618019",
+            "location": "Barrie Sports Complex Pinwheel 12",
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 4,
+              "scoreText": "4-13"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-11T08:04:40.431Z"
+        "lastUpdated": "2026-06-11T16:34:21.023Z"
       },
       "618041": {
         "teamCode": "618041",
@@ -1283,7 +1283,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-11T08:04:40.431Z"
+        "lastUpdated": "2026-06-11T16:34:21.023Z"
       },
       "618057": {
         "teamCode": "618057",
@@ -1373,7 +1373,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-11T08:04:40.431Z"
+        "lastUpdated": "2026-06-11T16:34:21.023Z"
       },
       "618381": {
         "teamCode": "618381",
@@ -1463,7 +1463,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-11T08:04:40.431Z"
+        "lastUpdated": "2026-06-11T16:34:21.023Z"
       },
       "618394": {
         "teamCode": "618394",
@@ -1537,7 +1537,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-11T08:04:40.431Z"
+        "lastUpdated": "2026-06-11T16:34:21.023Z"
       },
       "625725": {
         "teamCode": "625725",
@@ -1627,7 +1627,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-11T08:04:40.431Z"
+        "lastUpdated": "2026-06-11T16:34:21.023Z"
       },
       "627209": {
         "teamCode": "627209",
@@ -1717,7 +1717,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-11T08:04:40.431Z"
+        "lastUpdated": "2026-06-11T16:34:21.023Z"
       }
     },
     "allGames": [
@@ -1819,18 +1819,6 @@
       },
       {
         "date": null,
-        "dateText": "Tue, May 12",
-        "time": "7:00 PM",
-        "homeTeam": "Midland Penetang Twins 10U B",
-        "homeTeamCode": "618394",
-        "awayTeam": "Aurora-King Jays 10U A",
-        "awayTeamCode": "617970",
-        "location": "PPD",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": null,
         "dateText": "Wed, May 13",
         "time": "6:00 PM",
         "homeTeam": "Thornhill Reds 10U A",
@@ -1840,22 +1828,6 @@
         "location": "CONCORD REGIONAL #3",
         "isCompleted": false,
         "score": null
-      },
-      {
-        "date": null,
-        "dateText": "Mon, May 18",
-        "time": "6:00 PM",
-        "homeTeam": "Vaughan Vikings 10U A Team 1",
-        "homeTeamCode": "617173",
-        "awayTeam": "Midland Penetang Twins 10U B",
-        "awayTeamCode": "618394",
-        "location": "Matthew Park",
-        "isCompleted": true,
-        "score": {
-          "home": 6,
-          "away": 8,
-          "scoreText": "8-6"
-        }
       },
       {
         "date": null,
@@ -1871,6 +1843,22 @@
           "home": 14,
           "away": 4,
           "scoreText": "4-14"
+        }
+      },
+      {
+        "date": null,
+        "dateText": "Mon, May 18",
+        "time": "6:00 PM",
+        "homeTeam": "Vaughan Vikings 10U A Team 1",
+        "homeTeamCode": "617173",
+        "awayTeam": "Midland Penetang Twins 10U B",
+        "awayTeamCode": "618394",
+        "location": "Matthew Park",
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 8,
+          "scoreText": "8-6"
         }
       },
       {
@@ -1907,15 +1895,19 @@
       },
       {
         "date": null,
-        "dateText": "Tue, May 19",
-        "time": "7:00 PM",
-        "homeTeam": "Midland Penetang Twins 10U B",
-        "homeTeamCode": "618394",
-        "awayTeam": "Stouffville 10U A",
-        "awayTeamCode": "627209",
-        "location": "PPD",
-        "isCompleted": false,
-        "score": null
+        "dateText": "Wed, May 20",
+        "time": "6:00 PM",
+        "homeTeam": "Collingwood Jays 10U A",
+        "homeTeamCode": "618005",
+        "awayTeam": "Orillia 10U B",
+        "awayTeamCode": "618381",
+        "location": "Heritage Park- Small",
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 10,
+          "scoreText": "10-6"
+        }
       },
       {
         "date": null,
@@ -1931,22 +1923,6 @@
           "home": 15,
           "away": 5,
           "scoreText": "5-15"
-        }
-      },
-      {
-        "date": null,
-        "dateText": "Wed, May 20",
-        "time": "6:00 PM",
-        "homeTeam": "Collingwood Jays 10U A",
-        "homeTeamCode": "618005",
-        "awayTeam": "Orillia 10U B",
-        "awayTeamCode": "618381",
-        "location": "Heritage Park- Small",
-        "isCompleted": true,
-        "score": {
-          "home": 6,
-          "away": 10,
-          "scoreText": "10-6"
         }
       },
       {
@@ -2105,22 +2081,6 @@
         "date": null,
         "dateText": "Wed, May 27",
         "time": "6:00 PM",
-        "homeTeam": "Vaughan Vikings 10U A Team 2",
-        "homeTeamCode": "617174",
-        "awayTeam": "Stouffville 10U A",
-        "awayTeamCode": "627209",
-        "location": "Concord Regional park #4",
-        "isCompleted": true,
-        "score": {
-          "home": 13,
-          "away": 3,
-          "scoreText": "3-13"
-        }
-      },
-      {
-        "date": null,
-        "dateText": "Wed, May 27",
-        "time": "6:00 PM",
         "homeTeam": "Collingwood Jays 10U A",
         "homeTeamCode": "618005",
         "awayTeam": "Vaughan Vikings 10U A Team 1",
@@ -2131,6 +2091,22 @@
           "home": 9,
           "away": 10,
           "scoreText": "10-9"
+        }
+      },
+      {
+        "date": null,
+        "dateText": "Wed, May 27",
+        "time": "6:00 PM",
+        "homeTeam": "Vaughan Vikings 10U A Team 2",
+        "homeTeamCode": "617174",
+        "awayTeam": "Stouffville 10U A",
+        "awayTeamCode": "627209",
+        "location": "Concord Regional park #4",
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 3,
+          "scoreText": "3-13"
         }
       },
       {
@@ -2233,22 +2209,6 @@
         "date": null,
         "dateText": "Mon, Jun 1",
         "time": "6:00 PM",
-        "homeTeam": "Bradford Tigers 10U A",
-        "homeTeamCode": "617944",
-        "awayTeam": "Newmarket Hawks 10U A",
-        "awayTeamCode": "617900",
-        "location": "Magani #2",
-        "isCompleted": true,
-        "score": {
-          "home": 10,
-          "away": 20,
-          "scoreText": "20-10"
-        }
-      },
-      {
-        "date": null,
-        "dateText": "Mon, Jun 1",
-        "time": "6:00 PM",
         "homeTeam": "Vaughan Vikings 10U A Team 2",
         "homeTeamCode": "617174",
         "awayTeam": "Orangeville Bengals 10U A",
@@ -2259,6 +2219,22 @@
           "home": 16,
           "away": 4,
           "scoreText": "4-16"
+        }
+      },
+      {
+        "date": null,
+        "dateText": "Mon, Jun 1",
+        "time": "6:00 PM",
+        "homeTeam": "Bradford Tigers 10U A",
+        "homeTeamCode": "617944",
+        "awayTeam": "Newmarket Hawks 10U A",
+        "awayTeamCode": "617900",
+        "location": "Magani #2",
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 20,
+          "scoreText": "20-10"
         }
       },
       {
@@ -2345,22 +2321,6 @@
         "date": null,
         "dateText": "Wed, Jun 3",
         "time": "6:00 PM",
-        "homeTeam": "Collingwood Jays 10U A",
-        "homeTeamCode": "618005",
-        "awayTeam": "Barrie Baycats 10U A",
-        "awayTeamCode": "612779",
-        "location": "Heritage Park- Small",
-        "isCompleted": true,
-        "score": {
-          "home": 9,
-          "away": 8,
-          "scoreText": "8-9"
-        }
-      },
-      {
-        "date": null,
-        "dateText": "Wed, Jun 3",
-        "time": "6:00 PM",
         "homeTeam": "Vaughan Vikings 10U A Team 2",
         "homeTeamCode": "617174",
         "awayTeam": "Midland Penetang Twins 10U B",
@@ -2371,6 +2331,22 @@
           "home": 13,
           "away": 5,
           "scoreText": "5-13"
+        }
+      },
+      {
+        "date": null,
+        "dateText": "Wed, Jun 3",
+        "time": "6:00 PM",
+        "homeTeam": "Collingwood Jays 10U A",
+        "homeTeamCode": "618005",
+        "awayTeam": "Barrie Baycats 10U A",
+        "awayTeamCode": "612779",
+        "location": "Heritage Park- Small",
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 8,
+          "scoreText": "8-9"
         }
       },
       {
@@ -2489,18 +2465,6 @@
         "date": null,
         "dateText": "Mon, Jun 8",
         "time": "6:00 PM",
-        "homeTeam": "Bradford Tigers 10U A",
-        "homeTeamCode": "617944",
-        "awayTeam": "Collingwood Jays 10U A",
-        "awayTeamCode": "618005",
-        "location": "Magani #2",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": null,
-        "dateText": "Mon, Jun 8",
-        "time": "6:00 PM",
         "homeTeam": "Vaughan Vikings 10U A Team 1",
         "homeTeamCode": "617173",
         "awayTeam": "Vaughan Vikings 10U A Team 2",
@@ -2512,6 +2476,18 @@
           "away": 12,
           "scoreText": "12-10"
         }
+      },
+      {
+        "date": null,
+        "dateText": "Mon, Jun 8",
+        "time": "6:00 PM",
+        "homeTeam": "Bradford Tigers 10U A",
+        "homeTeamCode": "617944",
+        "awayTeam": "Collingwood Jays 10U A",
+        "awayTeamCode": "618005",
+        "location": "Magani #2",
+        "isCompleted": false,
+        "score": null
       },
       {
         "date": null,
@@ -2594,8 +2570,12 @@
         "awayTeam": "Vaughan Vikings 10U A Team 2",
         "awayTeamCode": "617174",
         "location": "CONCORD REGIONAL #3",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 5,
+          "away": 9,
+          "scoreText": "9-5"
+        }
       },
       {
         "date": null,
@@ -2606,8 +2586,12 @@
         "awayTeam": "Orangeville Bengals 10U A",
         "awayTeamCode": "618019",
         "location": "Barrie Sports Complex Pinwheel 12",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 4,
+          "scoreText": "4-13"
+        }
       },
       {
         "date": null,
@@ -3261,11 +3245,11 @@
         "date": null,
         "dateText": "Fri, Jul 17",
         "time": "6:30 PM",
-        "homeTeam": "Newmarket Hawks 10U A",
-        "homeTeamCode": "617900",
-        "awayTeam": "Vaughan Vikings 10U A Team 2",
-        "awayTeamCode": "617174",
-        "location": "Armstrong Park (Diamond 1)",
+        "homeTeam": "Innisfil Cardinals 10U A",
+        "homeTeamCode": "618041",
+        "awayTeam": "Orangeville Bengals 10U A",
+        "awayTeamCode": "618019",
+        "location": "Stroud",
         "isCompleted": false,
         "score": null
       },
@@ -3273,11 +3257,11 @@
         "date": null,
         "dateText": "Fri, Jul 17",
         "time": "6:30 PM",
-        "homeTeam": "Innisfil Cardinals 10U A",
-        "homeTeamCode": "618041",
-        "awayTeam": "Orangeville Bengals 10U A",
-        "awayTeamCode": "618019",
-        "location": "Stroud",
+        "homeTeam": "Newmarket Hawks 10U A",
+        "homeTeamCode": "617900",
+        "awayTeam": "Vaughan Vikings 10U A Team 2",
+        "awayTeamCode": "617174",
+        "location": "Armstrong Park (Diamond 1)",
         "isCompleted": false,
         "score": null
       },
@@ -3345,11 +3329,11 @@
         "date": null,
         "dateText": "Tue, Jul 21",
         "time": "6:00 PM",
-        "homeTeam": "Vaughan Vikings 10U A Team 1",
-        "homeTeamCode": "617173",
-        "awayTeam": "Orangeville Bengals 10U A",
-        "awayTeamCode": "618019",
-        "location": "Chatfield Park",
+        "homeTeam": "TNT Thunder 10U A",
+        "homeTeamCode": "618057",
+        "awayTeam": "Midland Penetang Twins 10U B",
+        "awayTeamCode": "618394",
+        "location": "Haley",
         "isCompleted": false,
         "score": null
       },
@@ -3357,11 +3341,11 @@
         "date": null,
         "dateText": "Tue, Jul 21",
         "time": "6:00 PM",
-        "homeTeam": "TNT Thunder 10U A",
-        "homeTeamCode": "618057",
-        "awayTeam": "Midland Penetang Twins 10U B",
-        "awayTeamCode": "618394",
-        "location": "Haley",
+        "homeTeam": "Vaughan Vikings 10U A Team 1",
+        "homeTeamCode": "617173",
+        "awayTeam": "Orangeville Bengals 10U A",
+        "awayTeamCode": "618019",
+        "location": "Chatfield Park",
         "isCompleted": false,
         "score": null
       },
@@ -3501,11 +3485,11 @@
         "date": null,
         "dateText": "Wed, Jul 29",
         "time": "6:00 PM",
-        "homeTeam": "Collingwood Jays 10U A",
-        "homeTeamCode": "618005",
-        "awayTeam": "Newmarket Hawks 10U A",
-        "awayTeamCode": "617900",
-        "location": "Heritage Park- Small",
+        "homeTeam": "Orillia 10U B",
+        "homeTeamCode": "618381",
+        "awayTeam": "Midland Penetang Twins 10U B",
+        "awayTeamCode": "618394",
+        "location": "Heliotis",
         "isCompleted": false,
         "score": null
       },
@@ -3513,11 +3497,11 @@
         "date": null,
         "dateText": "Wed, Jul 29",
         "time": "6:00 PM",
-        "homeTeam": "Orillia 10U B",
-        "homeTeamCode": "618381",
-        "awayTeam": "Midland Penetang Twins 10U B",
-        "awayTeamCode": "618394",
-        "location": "Heliotis",
+        "homeTeam": "Collingwood Jays 10U A",
+        "homeTeamCode": "618005",
+        "awayTeam": "Newmarket Hawks 10U A",
+        "awayTeamCode": "617900",
+        "location": "Heritage Park- Small",
         "isCompleted": false,
         "score": null
       },
@@ -3609,11 +3593,11 @@
         "date": null,
         "dateText": "Mon, Aug 3",
         "time": "6:00 PM",
-        "homeTeam": "Vaughan Vikings 10U A Team 2",
-        "homeTeamCode": "617174",
-        "awayTeam": "Vaughan Vikings 10U A Team 1",
-        "awayTeamCode": "617173",
-        "location": "Concord Regional park #4",
+        "homeTeam": "Orillia 10U B",
+        "homeTeamCode": "618381",
+        "awayTeam": "Georgina Bulldogs 10U B",
+        "awayTeamCode": "625725",
+        "location": "Cliff Yeo Diamond",
         "isCompleted": false,
         "score": null
       },
@@ -3621,11 +3605,11 @@
         "date": null,
         "dateText": "Mon, Aug 3",
         "time": "6:00 PM",
-        "homeTeam": "Orillia 10U B",
-        "homeTeamCode": "618381",
-        "awayTeam": "Georgina Bulldogs 10U B",
-        "awayTeamCode": "625725",
-        "location": "Cliff Yeo Diamond",
+        "homeTeam": "Vaughan Vikings 10U A Team 2",
+        "homeTeamCode": "617174",
+        "awayTeam": "Vaughan Vikings 10U A Team 1",
+        "awayTeamCode": "617173",
+        "location": "Concord Regional park #4",
         "isCompleted": false,
         "score": null
       },
@@ -3722,6 +3706,30 @@
         "awayTeam": "Thornhill Reds 10U A",
         "awayTeamCode": "617985",
         "location": "Stroud",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Sat, Aug 8",
+        "time": "11:00 AM",
+        "homeTeam": "Midland Penetang Twins 10U B",
+        "homeTeamCode": "618394",
+        "awayTeam": "Aurora-King Jays 10U A",
+        "awayTeamCode": "617970",
+        "location": "Little Lake Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Sat, Aug 8",
+        "time": "2:00 PM",
+        "homeTeam": "Midland Penetang Twins 10U B",
+        "homeTeamCode": "618394",
+        "awayTeam": "Stouffville 10U A",
+        "awayTeamCode": "627209",
+        "location": "Little Lake Park",
         "isCompleted": false,
         "score": null
       },
@@ -3839,22 +3847,6 @@
         "date": null,
         "dateText": "Mon, May 18",
         "time": "6:00 PM",
-        "homeTeam": "Vaughan Vikings 10U A Team 1",
-        "homeTeamCode": "617173",
-        "awayTeam": "Midland Penetang Twins 10U B",
-        "awayTeamCode": "618394",
-        "location": "Matthew Park",
-        "isCompleted": true,
-        "score": {
-          "home": 6,
-          "away": 8,
-          "scoreText": "8-6"
-        }
-      },
-      {
-        "date": null,
-        "dateText": "Mon, May 18",
-        "time": "6:00 PM",
         "homeTeam": "Vaughan Vikings 10U A Team 2",
         "homeTeamCode": "617174",
         "awayTeam": "Georgina Bulldogs 10U B",
@@ -3865,6 +3857,22 @@
           "home": 14,
           "away": 4,
           "scoreText": "4-14"
+        }
+      },
+      {
+        "date": null,
+        "dateText": "Mon, May 18",
+        "time": "6:00 PM",
+        "homeTeam": "Vaughan Vikings 10U A Team 1",
+        "homeTeamCode": "617173",
+        "awayTeam": "Midland Penetang Twins 10U B",
+        "awayTeamCode": "618394",
+        "location": "Matthew Park",
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 8,
+          "scoreText": "8-6"
         }
       },
       {
@@ -3901,18 +3909,18 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-06-11T08:04:40.431Z",
+    "lastUpdated": "2026-06-11T16:34:21.023Z",
     "totalGames": 152
   },
   "summary": {
     "totalTeams": 16,
     "totalGames": 152,
-    "completedGames": 48,
-    "upcomingGames": 104,
+    "completedGames": 50,
+    "upcomingGames": 102,
     "topTeam": {
       "team": "Vaughan Vikings 10U A Team 2",
       "teamCode": "617174",
-      "wins": 8,
+      "wins": 9,
       "losses": 0,
       "winPercentage": "1.000"
     },
@@ -3925,6 +3933,6 @@
       "date": "Thu, May 21",
       "location": "Georgina Roc- Diamond 2"
     },
-    "lastUpdated": "2026-06-11T08:09:47.587Z"
+    "lastUpdated": "2026-06-11T16:38:35.787Z"
   }
 }
