@@ -20,21 +20,21 @@
         }
       },
       {
-        "position": 5,
+        "position": 4,
         "team": "Markham",
         "teamCode": "892645",
         "record": {
-          "gamesPlayed": 4,
-          "wins": 4,
-          "losses": 0,
+          "gamesPlayed": 6,
+          "wins": 5,
+          "losses": 1,
           "ties": 0,
-          "winPercentage": "1.000"
+          "winPercentage": "0.833"
         },
         "stats": {
-          "points": 8,
-          "runsFor": 45,
-          "runsAgainst": 18,
-          "runDifferential": 27
+          "points": 10,
+          "runsFor": 62,
+          "runsAgainst": 34,
+          "runDifferential": 28
         }
       },
       {
@@ -74,7 +74,7 @@
         }
       },
       {
-        "position": 6,
+        "position": 8,
         "team": "Vaughan",
         "teamCode": "892644",
         "record": {
@@ -92,7 +92,7 @@
         }
       },
       {
-        "position": 4,
+        "position": 5,
         "team": "Aurora-King",
         "teamCode": "892642",
         "record": {
@@ -110,25 +110,61 @@
         }
       },
       {
-        "position": 7,
+        "position": 6,
         "team": "Georgina",
         "teamCode": "892647",
         "record": {
-          "gamesPlayed": 6,
-          "wins": 3,
-          "losses": 3,
+          "gamesPlayed": 8,
+          "wins": 4,
+          "losses": 4,
           "ties": 0,
           "winPercentage": "0.500"
         },
         "stats": {
+          "points": 8,
+          "runsFor": 77,
+          "runsAgainst": 58,
+          "runDifferential": 19
+        }
+      },
+      {
+        "position": 7,
+        "team": "Stouffville",
+        "teamCode": "892639",
+        "record": {
+          "gamesPlayed": 7,
+          "wins": 3,
+          "losses": 4,
+          "ties": 0,
+          "winPercentage": "0.429"
+        },
+        "stats": {
           "points": 6,
           "runsFor": 63,
-          "runsAgainst": 41,
-          "runDifferential": 22
+          "runsAgainst": 70,
+          "runDifferential": -7
         }
       },
       {
         "position": 9,
+        "team": "Bloordale",
+        "teamCode": "892638",
+        "record": {
+          "gamesPlayed": 5,
+          "wins": 2,
+          "losses": 3,
+          "ties": 0,
+          "winPercentage": "0.400"
+        },
+        "stats": {
+          "points": 4,
+          "runsFor": 39,
+          "runsAgainst": 51,
+          "runDifferential": -12
+        }
+      },
+      {
+        "position": 10,
         "team": "East York",
         "teamCode": "892640",
         "record": {
@@ -143,42 +179,6 @@
           "runsFor": 46,
           "runsAgainst": 40,
           "runDifferential": 6
-        }
-      },
-      {
-        "position": 8,
-        "team": "Stouffville",
-        "teamCode": "892639",
-        "record": {
-          "gamesPlayed": 6,
-          "wins": 2,
-          "losses": 4,
-          "ties": 0,
-          "winPercentage": "0.333"
-        },
-        "stats": {
-          "points": 4,
-          "runsFor": 53,
-          "runsAgainst": 66,
-          "runDifferential": -13
-        }
-      },
-      {
-        "position": 10,
-        "team": "Bloordale",
-        "teamCode": "892638",
-        "record": {
-          "gamesPlayed": 4,
-          "wins": 1,
-          "losses": 3,
-          "ties": 0,
-          "winPercentage": "0.250"
-        },
-        "stats": {
-          "points": 2,
-          "runsFor": 28,
-          "runsAgainst": 44,
-          "runDifferential": -16
         }
       },
       {
@@ -222,6 +222,24 @@
         "team": "Richmond Hill",
         "teamCode": "892636",
         "record": {
+          "gamesPlayed": 6,
+          "wins": 0,
+          "losses": 6,
+          "ties": 0,
+          "winPercentage": "0.000"
+        },
+        "stats": {
+          "points": 0,
+          "runsFor": 13,
+          "runsAgainst": 67,
+          "runDifferential": -54
+        }
+      },
+      {
+        "position": 14,
+        "team": "Caledon",
+        "teamCode": "892646",
+        "record": {
           "gamesPlayed": 5,
           "wins": 0,
           "losses": 5,
@@ -230,31 +248,13 @@
         },
         "stats": {
           "points": 0,
-          "runsFor": 9,
-          "runsAgainst": 57,
-          "runDifferential": -48
-        }
-      },
-      {
-        "position": 14,
-        "team": "Caledon",
-        "teamCode": "892646",
-        "record": {
-          "gamesPlayed": 4,
-          "wins": 0,
-          "losses": 4,
-          "ties": 0,
-          "winPercentage": "0.000"
-        },
-        "stats": {
-          "points": 0,
-          "runsFor": 20,
-          "runsAgainst": 50,
-          "runDifferential": -30
+          "runsFor": 27,
+          "runsAgainst": 59,
+          "runDifferential": -32
         }
       }
     ],
-    "lastUpdated": "2026-06-12T10:55:21.133Z",
+    "lastUpdated": "2026-06-12T14:06:25.941Z",
     "totalTeams": 14
   },
   "schedule": {
@@ -404,7 +404,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-12T10:55:21.176Z"
+        "lastUpdated": "2026-06-12T14:06:25.981Z"
       },
       "892634": {
         "teamCode": "892634",
@@ -555,7 +555,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-12T10:55:21.176Z"
+        "lastUpdated": "2026-06-12T14:06:25.981Z"
       },
       "892636": {
         "teamCode": "892636",
@@ -628,8 +628,12 @@
             "awayTeam": "Stouffville",
             "awayTeamCode": "892639",
             "location": "Bethesda — Diamond 3 — Whitchurch-Stouffville",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 10,
+              "scoreText": "10-4"
+            }
           }
         ],
         "nextGames": [
@@ -694,7 +698,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-12T10:55:21.176Z"
+        "lastUpdated": "2026-06-12T14:06:25.981Z"
       },
       "892637": {
         "teamCode": "892637",
@@ -845,7 +849,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-12T10:55:21.176Z"
+        "lastUpdated": "2026-06-12T14:06:25.981Z"
       },
       "892638": {
         "teamCode": "892638",
@@ -922,8 +926,12 @@
             "awayTeam": "Bloordale",
             "awayTeamCode": "892638",
             "location": "Millwood — Diamond 2 — Toronto",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 11,
+              "scoreText": "11-7"
+            }
           }
         ],
         "nextGames": [
@@ -988,7 +996,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-12T10:55:21.176Z"
+        "lastUpdated": "2026-06-12T14:06:25.981Z"
       },
       "892639": {
         "teamCode": "892639",
@@ -1069,8 +1077,12 @@
             "awayTeam": "Stouffville",
             "awayTeamCode": "892639",
             "location": "Bethesda — Diamond 3 — Whitchurch-Stouffville",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 10,
+              "scoreText": "10-4"
+            }
           }
         ],
         "nextGames": [
@@ -1135,7 +1147,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-12T10:55:21.176Z"
+        "lastUpdated": "2026-06-12T14:06:25.981Z"
       },
       "892640": {
         "teamCode": "892640",
@@ -1278,7 +1290,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-12T10:55:21.178Z"
+        "lastUpdated": "2026-06-12T14:06:25.981Z"
       },
       "892642": {
         "teamCode": "892642",
@@ -1417,7 +1429,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-12T10:55:21.178Z"
+        "lastUpdated": "2026-06-12T14:06:25.981Z"
       },
       "892643": {
         "teamCode": "892643",
@@ -1551,12 +1563,12 @@
             "homeTeamCode": "892643",
             "awayTeam": "Georgina",
             "awayTeamCode": "892647",
-            "location": "ROC — Diamond 2 — Georgina",
+            "location": "ROC — Diamond 3 — Georgina",
             "isCompleted": false,
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-12T10:55:21.178Z"
+        "lastUpdated": "2026-06-12T14:06:25.981Z"
       },
       "892644": {
         "teamCode": "892644",
@@ -1703,7 +1715,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-12T10:55:21.178Z"
+        "lastUpdated": "2026-06-12T14:06:25.981Z"
       },
       "892645": {
         "teamCode": "892645",
@@ -1736,8 +1748,12 @@
             "awayTeam": "Markham",
             "awayTeamCode": "892645",
             "location": "Carlton   — Toronto",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 10,
+              "scoreText": "10-5"
+            }
           },
           {
             "date": "2026-06-04T22:00:00.000Z",
@@ -1780,8 +1796,12 @@
             "awayTeam": "Bloordale",
             "awayTeamCode": "892638",
             "location": "Millwood — Diamond 2 — Toronto",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 11,
+              "scoreText": "11-7"
+            }
           }
         ],
         "nextGames": [
@@ -1846,7 +1866,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-12T10:55:21.178Z"
+        "lastUpdated": "2026-06-12T14:06:25.981Z"
       },
       "892646": {
         "teamCode": "892646",
@@ -1919,8 +1939,12 @@
             "awayTeam": "Caledon",
             "awayTeamCode": "892646",
             "location": "North Hill — Diamond 2 — Bolton",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 7,
+              "scoreText": "7-9"
+            }
           }
         ],
         "nextGames": [
@@ -1944,7 +1968,7 @@
             "homeTeamCode": "892646",
             "awayTeam": "Georgina",
             "awayTeamCode": "892647",
-            "location": "ROC — Diamond 2 — Georgina",
+            "location": "ROC — Diamond 3 — Georgina",
             "isCompleted": false,
             "score": null
           },
@@ -1985,7 +2009,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-12T10:55:21.178Z"
+        "lastUpdated": "2026-06-12T14:06:25.982Z"
       },
       "892647": {
         "teamCode": "892647",
@@ -2030,8 +2054,12 @@
             "awayTeam": "Markham",
             "awayTeamCode": "892645",
             "location": "Carlton   — Toronto",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 10,
+              "scoreText": "10-5"
+            }
           },
           {
             "date": "2026-06-08T22:30:00.000Z",
@@ -2042,8 +2070,12 @@
             "awayTeam": "Caledon",
             "awayTeamCode": "892646",
             "location": "North Hill — Diamond 2 — Bolton",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 7,
+              "scoreText": "7-9"
+            }
           },
           {
             "date": "2026-06-09T22:15:00.000Z",
@@ -2071,7 +2103,7 @@
             "homeTeamCode": "892646",
             "awayTeam": "Georgina",
             "awayTeamCode": "892647",
-            "location": "ROC — Diamond 2 — Georgina",
+            "location": "ROC — Diamond 3 — Georgina",
             "isCompleted": false,
             "score": null
           },
@@ -2083,7 +2115,7 @@
             "homeTeamCode": "892643",
             "awayTeam": "Georgina",
             "awayTeamCode": "892647",
-            "location": "ROC — Diamond 2 — Georgina",
+            "location": "ROC — Diamond 3 — Georgina",
             "isCompleted": false,
             "score": null
           },
@@ -2095,7 +2127,7 @@
             "homeTeamCode": "892636",
             "awayTeam": "Georgina",
             "awayTeamCode": "892647",
-            "location": "ROC — Diamond 2 — Georgina",
+            "location": "ROC — Diamond 3 — Georgina",
             "isCompleted": false,
             "score": null
           },
@@ -2124,7 +2156,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-12T10:55:21.178Z"
+        "lastUpdated": "2026-06-12T14:06:25.982Z"
       },
       "892648": {
         "teamCode": "892648",
@@ -2267,7 +2299,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-12T10:55:21.178Z"
+        "lastUpdated": "2026-06-12T14:06:25.982Z"
       }
     },
     "allGames": [
@@ -2840,8 +2872,12 @@
         "awayTeam": "Markham",
         "awayTeamCode": "892645",
         "location": "Carlton   — Toronto",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 5,
+          "away": 10,
+          "scoreText": "10-5"
+        }
       },
       {
         "date": "2026-06-03T22:30:00.000Z",
@@ -2972,8 +3008,12 @@
         "awayTeam": "Caledon",
         "awayTeamCode": "892646",
         "location": "North Hill — Diamond 2 — Bolton",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 7,
+          "scoreText": "7-9"
+        }
       },
       {
         "date": "2026-06-09T22:00:00.000Z",
@@ -3040,8 +3080,12 @@
         "awayTeam": "Stouffville",
         "awayTeamCode": "892639",
         "location": "Bethesda — Diamond 3 — Whitchurch-Stouffville",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 10,
+          "scoreText": "10-4"
+        }
       },
       {
         "date": "2026-06-11T22:00:00.000Z",
@@ -3052,8 +3096,12 @@
         "awayTeam": "Bloordale",
         "awayTeamCode": "892638",
         "location": "Millwood — Diamond 2 — Toronto",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 11,
+          "scoreText": "11-7"
+        }
       },
       {
         "date": "2026-06-11T22:30:00.000Z",
@@ -3159,7 +3207,7 @@
         "homeTeamCode": "892646",
         "awayTeam": "Georgina",
         "awayTeamCode": "892647",
-        "location": "ROC — Diamond 2 — Georgina",
+        "location": "ROC — Diamond 3 — Georgina",
         "isCompleted": false,
         "score": null
       },
@@ -3291,7 +3339,7 @@
         "homeTeamCode": "892643",
         "awayTeam": "Georgina",
         "awayTeamCode": "892647",
-        "location": "ROC — Diamond 2 — Georgina",
+        "location": "ROC — Diamond 3 — Georgina",
         "isCompleted": false,
         "score": null
       },
@@ -3507,7 +3555,7 @@
         "homeTeamCode": "892636",
         "awayTeam": "Georgina",
         "awayTeamCode": "892647",
-        "location": "ROC — Diamond 2 — Georgina",
+        "location": "ROC — Diamond 3 — Georgina",
         "isCompleted": false,
         "score": null
       },
@@ -3651,7 +3699,7 @@
         "homeTeamCode": "892637",
         "awayTeam": "Georgina",
         "awayTeamCode": "892647",
-        "location": "ROC — Diamond 2 — Georgina",
+        "location": "ROC — Diamond 3 — Georgina",
         "isCompleted": false,
         "score": null
       },
@@ -3807,7 +3855,7 @@
         "homeTeamCode": "892645",
         "awayTeam": "Georgina",
         "awayTeamCode": "892647",
-        "location": "ROC — Diamond 2 — Georgina",
+        "location": "ROC — Diamond 3 — Georgina",
         "isCompleted": false,
         "score": null
       },
@@ -3927,7 +3975,7 @@
         "homeTeamCode": "892639",
         "awayTeam": "Georgina",
         "awayTeamCode": "892647",
-        "location": "ROC — Diamond 2 — Georgina",
+        "location": "ROC — Diamond 3 — Georgina",
         "isCompleted": false,
         "score": null
       },
@@ -4035,7 +4083,7 @@
         "homeTeamCode": "892644",
         "awayTeam": "Georgina",
         "awayTeamCode": "892647",
-        "location": "ROC — Diamond 2 — Georgina",
+        "location": "ROC — Diamond 3 — Georgina",
         "isCompleted": false,
         "score": null
       },
@@ -4206,8 +4254,12 @@
         "awayTeam": "Stouffville",
         "awayTeamCode": "892639",
         "location": "Bethesda — Diamond 3 — Whitchurch-Stouffville",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 10,
+          "scoreText": "10-4"
+        }
       },
       {
         "date": "2026-06-11T22:00:00.000Z",
@@ -4218,8 +4270,12 @@
         "awayTeam": "Bloordale",
         "awayTeamCode": "892638",
         "location": "Millwood — Diamond 2 — Toronto",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 11,
+          "scoreText": "11-7"
+        }
       },
       {
         "date": "2026-06-10T22:45:00.000Z",
@@ -4286,8 +4342,12 @@
         "awayTeam": "Caledon",
         "awayTeamCode": "892646",
         "location": "North Hill — Diamond 2 — Bolton",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 7,
+          "scoreText": "7-9"
+        }
       },
       {
         "date": "2026-06-08T22:00:00.000Z",
@@ -4427,7 +4487,7 @@
         "homeTeamCode": "892646",
         "awayTeam": "Georgina",
         "awayTeamCode": "892647",
-        "location": "ROC — Diamond 2 — Georgina",
+        "location": "ROC — Diamond 3 — Georgina",
         "isCompleted": false,
         "score": null
       },
@@ -4444,14 +4504,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2026-06-12T10:55:21.178Z",
+    "lastUpdated": "2026-06-12T14:06:25.982Z",
     "totalGames": 147
   },
   "summary": {
     "totalTeams": 14,
     "totalGames": 147,
-    "completedGames": 37,
-    "upcomingGames": 110,
+    "completedGames": 41,
+    "upcomingGames": 106,
     "topTeam": {
       "team": "Royal York",
       "teamCode": "892633",
@@ -4468,6 +4528,6 @@
       "date": "Wed, May 20",
       "location": "Armstrong — Diamond 1 — Newmarket"
     },
-    "lastUpdated": "2026-06-12T10:55:21.179Z"
+    "lastUpdated": "2026-06-12T14:06:25.982Z"
   }
 }
