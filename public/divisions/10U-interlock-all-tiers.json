@@ -20,7 +20,7 @@
         }
       },
       {
-        "position": 4,
+        "position": 5,
         "team": "Markham",
         "teamCode": "892645",
         "record": {
@@ -92,21 +92,21 @@
         }
       },
       {
-        "position": 5,
+        "position": 4,
         "team": "Aurora-King",
         "teamCode": "892642",
         "record": {
-          "gamesPlayed": 7,
-          "wins": 4,
-          "losses": 3,
+          "gamesPlayed": 9,
+          "wins": 5,
+          "losses": 4,
           "ties": 0,
-          "winPercentage": "0.571"
+          "winPercentage": "0.556"
         },
         "stats": {
-          "points": 8,
-          "runsFor": 57,
-          "runsAgainst": 53,
-          "runDifferential": 4
+          "points": 10,
+          "runsFor": 72,
+          "runsAgainst": 69,
+          "runDifferential": 3
         }
       },
       {
@@ -183,6 +183,24 @@
       },
       {
         "position": 11,
+        "team": "Leaside",
+        "teamCode": "892648",
+        "record": {
+          "gamesPlayed": 5,
+          "wins": 2,
+          "losses": 3,
+          "ties": 0,
+          "winPercentage": "0.400"
+        },
+        "stats": {
+          "points": 4,
+          "runsFor": 33,
+          "runsAgainst": 57,
+          "runDifferential": -24
+        }
+      },
+      {
+        "position": 12,
         "team": "Scarborough",
         "teamCode": "892643",
         "record": {
@@ -200,39 +218,21 @@
         }
       },
       {
-        "position": 12,
-        "team": "Leaside",
-        "teamCode": "892648",
-        "record": {
-          "gamesPlayed": 4,
-          "wins": 1,
-          "losses": 3,
-          "ties": 0,
-          "winPercentage": "0.250"
-        },
-        "stats": {
-          "points": 2,
-          "runsFor": 24,
-          "runsAgainst": 50,
-          "runDifferential": -26
-        }
-      },
-      {
         "position": 13,
         "team": "Richmond Hill",
         "teamCode": "892636",
         "record": {
-          "gamesPlayed": 6,
+          "gamesPlayed": 7,
           "wins": 0,
-          "losses": 6,
+          "losses": 7,
           "ties": 0,
           "winPercentage": "0.000"
         },
         "stats": {
           "points": 0,
-          "runsFor": 13,
-          "runsAgainst": 67,
-          "runDifferential": -54
+          "runsFor": 20,
+          "runsAgainst": 75,
+          "runDifferential": -55
         }
       },
       {
@@ -254,7 +254,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-06-12T14:06:25.941Z",
+    "lastUpdated": "2026-06-12T16:52:10.999Z",
     "totalTeams": 14
   },
   "schedule": {
@@ -404,7 +404,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-12T14:06:25.981Z"
+        "lastUpdated": "2026-06-12T16:52:11.039Z"
       },
       "892634": {
         "teamCode": "892634",
@@ -555,7 +555,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-12T14:06:25.981Z"
+        "lastUpdated": "2026-06-12T16:52:11.039Z"
       },
       "892636": {
         "teamCode": "892636",
@@ -588,8 +588,12 @@
             "awayTeam": "Richmond Hill",
             "awayTeamCode": "892636",
             "location": "Morgan — Markham",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 7,
+              "scoreText": "7-8"
+            }
           },
           {
             "date": "2026-06-06T19:00:00.000Z",
@@ -698,7 +702,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-12T14:06:25.981Z"
+        "lastUpdated": "2026-06-12T16:52:11.039Z"
       },
       "892637": {
         "teamCode": "892637",
@@ -849,7 +853,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-12T14:06:25.981Z"
+        "lastUpdated": "2026-06-12T16:52:11.039Z"
       },
       "892638": {
         "teamCode": "892638",
@@ -996,7 +1000,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-12T14:06:25.981Z"
+        "lastUpdated": "2026-06-12T16:52:11.039Z"
       },
       "892639": {
         "teamCode": "892639",
@@ -1147,7 +1151,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-12T14:06:25.981Z"
+        "lastUpdated": "2026-06-12T16:52:11.039Z"
       },
       "892640": {
         "teamCode": "892640",
@@ -1290,25 +1294,29 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-12T14:06:25.981Z"
+        "lastUpdated": "2026-06-12T16:52:11.039Z"
       },
       "892642": {
         "teamCode": "892642",
         "totalGames": 21,
-        "playedGames": 10,
-        "upcomingGames": 11,
+        "playedGames": 9,
+        "upcomingGames": 12,
         "recentGames": [
           {
-            "date": "2026-05-24T22:30:00.000Z",
-            "dateText": "Sun, May 24",
-            "time": "6:30 PM",
+            "date": "2026-05-21T22:00:00.000Z",
+            "dateText": "Thu, May 21",
+            "time": "6:00 PM",
             "homeTeam": "Aurora-King",
             "homeTeamCode": "892642",
-            "awayTeam": "Scarborough",
-            "awayTeamCode": "892643",
-            "location": "Neilson - Scarborough — Diamond 2 — Toronto",
-            "isCompleted": false,
-            "score": null
+            "awayTeam": "Stouffville",
+            "awayTeamCode": "892639",
+            "location": "Bethesda — Diamond 3 — Whitchurch-Stouffville",
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 3,
+              "scoreText": "3-14"
+            }
           },
           {
             "date": "2026-05-26T22:15:00.000Z",
@@ -1335,8 +1343,12 @@
             "awayTeam": "Leaside",
             "awayTeamCode": "892648",
             "location": "Rolph Road PS — Diamond East — Toronto",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 9,
+              "scoreText": "9-7"
+            }
           },
           {
             "date": "2026-06-03T22:45:00.000Z",
@@ -1347,8 +1359,12 @@
             "awayTeam": "Richmond Hill",
             "awayTeamCode": "892636",
             "location": "Morgan — Markham",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 7,
+              "scoreText": "7-8"
+            }
           },
           {
             "date": "2026-06-07T22:30:00.000Z",
@@ -1429,14 +1445,30 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-12T14:06:25.981Z"
+        "lastUpdated": "2026-06-12T16:52:11.040Z"
       },
       "892643": {
         "teamCode": "892643",
         "totalGames": 21,
-        "playedGames": 7,
-        "upcomingGames": 14,
+        "playedGames": 6,
+        "upcomingGames": 15,
         "recentGames": [
+          {
+            "date": "2026-05-17T22:30:00.000Z",
+            "dateText": "Sun, May 17",
+            "time": "6:30 PM",
+            "homeTeam": "Newmarket",
+            "homeTeamCode": "892637",
+            "awayTeam": "Scarborough",
+            "awayTeamCode": "892643",
+            "location": "Neilson - Scarborough — Diamond 2 — Toronto",
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 4,
+              "scoreText": "4-7"
+            }
+          },
           {
             "date": "2026-05-23T20:30:00.000Z",
             "dateText": "Sat, May 23",
@@ -1445,18 +1477,6 @@
             "homeTeamCode": "892643",
             "awayTeam": "Caledon",
             "awayTeamCode": "892646",
-            "location": "Neilson - Scarborough — Diamond 2 — Toronto",
-            "isCompleted": false,
-            "score": null
-          },
-          {
-            "date": "2026-05-24T22:30:00.000Z",
-            "dateText": "Sun, May 24",
-            "time": "6:30 PM",
-            "homeTeam": "Aurora-King",
-            "homeTeamCode": "892642",
-            "awayTeam": "Scarborough",
-            "awayTeamCode": "892643",
             "location": "Neilson - Scarborough — Diamond 2 — Toronto",
             "isCompleted": false,
             "score": null
@@ -1568,7 +1588,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-12T14:06:25.981Z"
+        "lastUpdated": "2026-06-12T16:52:11.040Z"
       },
       "892644": {
         "teamCode": "892644",
@@ -1715,7 +1735,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-12T14:06:25.981Z"
+        "lastUpdated": "2026-06-12T16:52:11.040Z"
       },
       "892645": {
         "teamCode": "892645",
@@ -1866,7 +1886,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-12T14:06:25.981Z"
+        "lastUpdated": "2026-06-12T16:52:11.040Z"
       },
       "892646": {
         "teamCode": "892646",
@@ -2009,7 +2029,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-12T14:06:25.982Z"
+        "lastUpdated": "2026-06-12T16:52:11.040Z"
       },
       "892647": {
         "teamCode": "892647",
@@ -2156,7 +2176,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-12T14:06:25.982Z"
+        "lastUpdated": "2026-06-12T16:52:11.040Z"
       },
       "892648": {
         "teamCode": "892648",
@@ -2221,8 +2241,12 @@
             "awayTeam": "Leaside",
             "awayTeamCode": "892648",
             "location": "Rolph Road PS — Diamond East — Toronto",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 9,
+              "scoreText": "9-7"
+            }
           },
           {
             "date": "2026-06-09T22:00:00.000Z",
@@ -2299,7 +2323,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-12T14:06:25.982Z"
+        "lastUpdated": "2026-06-12T16:52:11.040Z"
       }
     },
     "allGames": [
@@ -2684,8 +2708,8 @@
         "score": null
       },
       {
-        "date": "2026-05-24T22:30:00.000Z",
-        "dateText": "Sun, May 24",
+        "date": "2026-08-08T22:30:00.000Z",
+        "dateText": "Sat, Aug 8",
         "time": "6:30 PM",
         "homeTeam": "Aurora-King",
         "homeTeamCode": "892642",
@@ -2860,8 +2884,12 @@
         "awayTeam": "Leaside",
         "awayTeamCode": "892648",
         "location": "Rolph Road PS — Diamond East — Toronto",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 9,
+          "scoreText": "9-7"
+        }
       },
       {
         "date": "2026-06-02T22:30:00.000Z",
@@ -2904,8 +2932,12 @@
         "awayTeam": "Richmond Hill",
         "awayTeamCode": "892636",
         "location": "Morgan — Markham",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 7,
+          "scoreText": "7-8"
+        }
       },
       {
         "date": "2026-06-04T22:00:00.000Z",
@@ -4504,14 +4536,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2026-06-12T14:06:25.982Z",
+    "lastUpdated": "2026-06-12T16:52:11.040Z",
     "totalGames": 147
   },
   "summary": {
     "totalTeams": 14,
     "totalGames": 147,
-    "completedGames": 41,
-    "upcomingGames": 106,
+    "completedGames": 43,
+    "upcomingGames": 104,
     "topTeam": {
       "team": "Royal York",
       "teamCode": "892633",
@@ -4528,6 +4560,6 @@
       "date": "Wed, May 20",
       "location": "Armstrong — Diamond 1 — Newmarket"
     },
-    "lastUpdated": "2026-06-12T14:06:25.982Z"
+    "lastUpdated": "2026-06-12T16:52:11.040Z"
   }
 }
