@@ -3,6 +3,24 @@
     "teams": [
       {
         "position": 1,
+        "team": "Vaughan Vikings 11U DS",
+        "teamCode": "617190",
+        "record": {
+          "gamesPlayed": 8,
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "winPercentage": "1.000"
+        },
+        "stats": {
+          "points": 16,
+          "runsFor": 110,
+          "runsAgainst": 51,
+          "runDifferential": 59
+        }
+      },
+      {
+        "position": 2,
         "team": "Thornhill Reds 11U DS",
         "teamCode": "618000",
         "record": {
@@ -17,42 +35,6 @@
           "runsFor": 87,
           "runsAgainst": 39,
           "runDifferential": 48
-        }
-      },
-      {
-        "position": 2,
-        "team": "Vaughan Vikings 11U DS",
-        "teamCode": "617190",
-        "record": {
-          "gamesPlayed": 6,
-          "wins": 6,
-          "losses": 0,
-          "ties": 0,
-          "winPercentage": "1.000"
-        },
-        "stats": {
-          "points": 12,
-          "runsFor": 87,
-          "runsAgainst": 36,
-          "runDifferential": 51
-        }
-      },
-      {
-        "position": 9,
-        "team": "Vaughan Vikings 10U DS",
-        "teamCode": "617189",
-        "record": {
-          "gamesPlayed": 3,
-          "wins": 2,
-          "losses": 1,
-          "ties": 0,
-          "winPercentage": "0.667"
-        },
-        "stats": {
-          "points": 4,
-          "runsFor": 28,
-          "runsAgainst": 26,
-          "runDifferential": 2
         }
       },
       {
@@ -128,6 +110,24 @@
         }
       },
       {
+        "position": 9,
+        "team": "Vaughan Vikings 10U DS",
+        "teamCode": "617189",
+        "record": {
+          "gamesPlayed": 5,
+          "wins": 2,
+          "losses": 3,
+          "ties": 0,
+          "winPercentage": "0.400"
+        },
+        "stats": {
+          "points": 4,
+          "runsFor": 43,
+          "runsAgainst": 49,
+          "runDifferential": -6
+        }
+      },
+      {
         "position": 6,
         "team": "Newmarket Hawks 11U DS",
         "teamCode": "617917",
@@ -200,7 +200,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-06-13T19:21:28.658Z",
+    "lastUpdated": "2026-06-13T20:51:24.578Z",
     "totalTeams": 11
   },
   "schedule": {
@@ -293,12 +293,12 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-13T19:21:31.533Z"
+        "lastUpdated": "2026-06-13T20:51:27.277Z"
       },
       "617189": {
         "teamCode": "617189",
         "totalGames": 16,
-        "playedGames": 3,
+        "playedGames": 5,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -348,49 +348,49 @@
               "away": 9,
               "scoreText": "9-12"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, Jun 13",
+            "time": "11:00 AM",
+            "homeTeam": "Vaughan Vikings 11U DS",
+            "homeTeamCode": "617190",
+            "awayTeam": "Vaughan Vikings 10U DS",
+            "awayTeamCode": "617189",
+            "location": "Chatfield District Park",
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 5,
+              "scoreText": "5-8"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, Jun 13",
+            "time": "1:30 PM",
+            "homeTeam": "Vaughan Vikings 11U DS",
+            "homeTeamCode": "617190",
+            "awayTeam": "Vaughan Vikings 10U DS",
+            "awayTeamCode": "617189",
+            "location": "Chatfield District Park",
+            "isCompleted": true,
+            "score": {
+              "home": 15,
+              "away": 10,
+              "scoreText": "10-15"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-13T19:21:31.533Z"
+        "lastUpdated": "2026-06-13T20:51:27.277Z"
       },
       "617190": {
         "teamCode": "617190",
         "totalGames": 16,
-        "playedGames": 6,
+        "playedGames": 8,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sat, May 9",
-            "time": "1:30 PM",
-            "homeTeam": "Vaughan Vikings 11U DS",
-            "homeTeamCode": "617190",
-            "awayTeam": "Orillia 11U DS",
-            "awayTeamCode": "618391",
-            "location": "Chatfield District Park",
-            "isCompleted": true,
-            "score": {
-              "home": 18,
-              "away": 4,
-              "scoreText": "4-18"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Sat, May 16",
-            "time": "11:00 AM",
-            "homeTeam": "Vaughan Vikings 11U DS",
-            "homeTeamCode": "617190",
-            "awayTeam": "Collingwood Jays 11U DS",
-            "awayTeamCode": "618014",
-            "location": "Chatfield District Park",
-            "isCompleted": true,
-            "score": {
-              "home": 14,
-              "away": 13,
-              "scoreText": "13-14"
-            }
-          },
           {
             "date": null,
             "dateText": "Sat, May 16",
@@ -438,10 +438,42 @@
               "away": 7,
               "scoreText": "7-18"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, Jun 13",
+            "time": "11:00 AM",
+            "homeTeam": "Vaughan Vikings 11U DS",
+            "homeTeamCode": "617190",
+            "awayTeam": "Vaughan Vikings 10U DS",
+            "awayTeamCode": "617189",
+            "location": "Chatfield District Park",
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 5,
+              "scoreText": "5-8"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, Jun 13",
+            "time": "1:30 PM",
+            "homeTeam": "Vaughan Vikings 11U DS",
+            "homeTeamCode": "617190",
+            "awayTeam": "Vaughan Vikings 10U DS",
+            "awayTeamCode": "617189",
+            "location": "Chatfield District Park",
+            "isCompleted": true,
+            "score": {
+              "home": 15,
+              "away": 10,
+              "scoreText": "10-15"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-13T19:21:31.533Z"
+        "lastUpdated": "2026-06-13T20:51:27.277Z"
       },
       "617892": {
         "teamCode": "617892",
@@ -531,7 +563,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-13T19:21:31.533Z"
+        "lastUpdated": "2026-06-13T20:51:27.277Z"
       },
       "617917": {
         "teamCode": "617917",
@@ -621,7 +653,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-13T19:21:31.533Z"
+        "lastUpdated": "2026-06-13T20:51:27.277Z"
       },
       "618000": {
         "teamCode": "618000",
@@ -711,7 +743,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-13T19:21:31.533Z"
+        "lastUpdated": "2026-06-13T20:51:27.277Z"
       },
       "618014": {
         "teamCode": "618014",
@@ -801,7 +833,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-13T19:21:31.533Z"
+        "lastUpdated": "2026-06-13T20:51:27.277Z"
       },
       "618027": {
         "teamCode": "618027",
@@ -891,7 +923,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-13T19:21:31.533Z"
+        "lastUpdated": "2026-06-13T20:51:27.277Z"
       },
       "618053": {
         "teamCode": "618053",
@@ -981,7 +1013,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-13T19:21:31.533Z"
+        "lastUpdated": "2026-06-13T20:51:27.277Z"
       },
       "618391": {
         "teamCode": "618391",
@@ -1071,7 +1103,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-13T19:21:31.533Z"
+        "lastUpdated": "2026-06-13T20:51:27.277Z"
       },
       "618476": {
         "teamCode": "618476",
@@ -1161,7 +1193,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-13T19:21:31.533Z"
+        "lastUpdated": "2026-06-13T20:51:27.277Z"
       }
     },
     "allGames": [
@@ -1802,8 +1834,12 @@
         "awayTeam": "Vaughan Vikings 10U DS",
         "awayTeamCode": "617189",
         "location": "Chatfield District Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 5,
+          "scoreText": "5-8"
+        }
       },
       {
         "date": null,
@@ -1814,8 +1850,12 @@
         "awayTeam": "Vaughan Vikings 10U DS",
         "awayTeamCode": "617189",
         "location": "Chatfield District Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 15,
+          "away": 10,
+          "scoreText": "10-15"
+        }
       },
       {
         "date": null,
@@ -2533,18 +2573,18 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-06-13T19:21:31.533Z",
+    "lastUpdated": "2026-06-13T20:51:27.277Z",
     "totalGames": 88
   },
   "summary": {
     "totalTeams": 11,
     "totalGames": 88,
-    "completedGames": 37,
-    "upcomingGames": 51,
+    "completedGames": 39,
+    "upcomingGames": 49,
     "topTeam": {
-      "team": "Thornhill Reds 11U DS",
-      "teamCode": "618000",
-      "wins": 7,
+      "team": "Vaughan Vikings 11U DS",
+      "teamCode": "617190",
+      "wins": 8,
       "losses": 0,
       "winPercentage": "1.000"
     },
@@ -2557,6 +2597,6 @@
       "date": "Sat, May 16",
       "location": "Stroud"
     },
-    "lastUpdated": "2026-06-13T19:21:46.142Z"
+    "lastUpdated": "2026-06-13T20:51:41.375Z"
   }
 }
