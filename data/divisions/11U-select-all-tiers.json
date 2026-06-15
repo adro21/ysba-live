@@ -92,43 +92,25 @@
         }
       },
       {
-        "position": 7,
+        "position": 6,
         "team": "Orangeville Bengals 11U DS",
         "teamCode": "618027",
         "record": {
-          "gamesPlayed": 6,
-          "wins": 2,
+          "gamesPlayed": 7,
+          "wins": 3,
           "losses": 3,
           "ties": 1,
-          "winPercentage": "0.417"
+          "winPercentage": "0.500"
         },
         "stats": {
-          "points": 5,
-          "runsFor": 59,
-          "runsAgainst": 56,
-          "runDifferential": 3
+          "points": 7,
+          "runsFor": 68,
+          "runsAgainst": 60,
+          "runDifferential": 8
         }
       },
       {
-        "position": 9,
-        "team": "Vaughan Vikings 10U DS",
-        "teamCode": "617189",
-        "record": {
-          "gamesPlayed": 5,
-          "wins": 2,
-          "losses": 3,
-          "ties": 0,
-          "winPercentage": "0.400"
-        },
-        "stats": {
-          "points": 4,
-          "runsFor": 43,
-          "runsAgainst": 49,
-          "runDifferential": -6
-        }
-      },
-      {
-        "position": 6,
+        "position": 7,
         "team": "Newmarket Hawks 11U DS",
         "teamCode": "617917",
         "record": {
@@ -147,6 +129,24 @@
       },
       {
         "position": 8,
+        "team": "Vaughan Vikings 10U DS",
+        "teamCode": "617189",
+        "record": {
+          "gamesPlayed": 6,
+          "wins": 2,
+          "losses": 4,
+          "ties": 0,
+          "winPercentage": "0.333"
+        },
+        "stats": {
+          "points": 4,
+          "runsFor": 47,
+          "runsAgainst": 58,
+          "runDifferential": -11
+        }
+      },
+      {
+        "position": 9,
         "team": "Orillia 11U DS",
         "teamCode": "618391",
         "record": {
@@ -200,7 +200,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-06-15T10:01:02.185Z",
+    "lastUpdated": "2026-06-15T15:45:22.466Z",
     "totalTeams": 11
   },
   "schedule": {
@@ -293,30 +293,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-15T10:01:05.189Z"
+        "lastUpdated": "2026-06-15T15:45:25.300Z"
       },
       "617189": {
         "teamCode": "617189",
         "totalGames": 16,
-        "playedGames": 5,
+        "playedGames": 6,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sun, Jun 7",
-            "time": "11:00 AM",
-            "homeTeam": "Vaughan Vikings 10U DS",
-            "homeTeamCode": "617189",
-            "awayTeam": "Newmarket Hawks 11U DS",
-            "awayTeamCode": "617917",
-            "location": "Chatfield District Park",
-            "isCompleted": true,
-            "score": {
-              "home": 11,
-              "away": 7,
-              "scoreText": "7-11"
-            }
-          },
           {
             "date": null,
             "dateText": "Sun, Jun 7",
@@ -380,10 +364,26 @@
               "away": 10,
               "scoreText": "10-15"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sun, Jun 14",
+            "time": "11:00 AM",
+            "homeTeam": "Vaughan Vikings 10U DS",
+            "homeTeamCode": "617189",
+            "awayTeam": "Orangeville Bengals 11U DS",
+            "awayTeamCode": "618027",
+            "location": "Chatfield District Park",
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 9,
+              "scoreText": "9-4"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-15T10:01:05.189Z"
+        "lastUpdated": "2026-06-15T15:45:25.300Z"
       },
       "617190": {
         "teamCode": "617190",
@@ -473,7 +473,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-15T10:01:05.189Z"
+        "lastUpdated": "2026-06-15T15:45:25.300Z"
       },
       "617892": {
         "teamCode": "617892",
@@ -563,7 +563,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-15T10:01:05.189Z"
+        "lastUpdated": "2026-06-15T15:45:25.300Z"
       },
       "617917": {
         "teamCode": "617917",
@@ -653,7 +653,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-15T10:01:05.189Z"
+        "lastUpdated": "2026-06-15T15:45:25.300Z"
       },
       "618000": {
         "teamCode": "618000",
@@ -743,7 +743,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-15T10:01:05.189Z"
+        "lastUpdated": "2026-06-15T15:45:25.300Z"
       },
       "618014": {
         "teamCode": "618014",
@@ -833,30 +833,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-15T10:01:05.189Z"
+        "lastUpdated": "2026-06-15T15:45:25.300Z"
       },
       "618027": {
         "teamCode": "618027",
         "totalGames": 16,
-        "playedGames": 6,
+        "playedGames": 7,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sun, May 31",
-            "time": "1:30 PM",
-            "homeTeam": "Orillia 11U DS",
-            "homeTeamCode": "618391",
-            "awayTeam": "Orangeville Bengals 11U DS",
-            "awayTeamCode": "618027",
-            "location": "Kitchener Park # 2",
-            "isCompleted": true,
-            "score": {
-              "home": 10,
-              "away": 9,
-              "scoreText": "9-10"
-            }
-          },
           {
             "date": null,
             "dateText": "Sat, Jun 6",
@@ -920,10 +904,26 @@
               "away": 6,
               "scoreText": "6-16"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sun, Jun 14",
+            "time": "11:00 AM",
+            "homeTeam": "Vaughan Vikings 10U DS",
+            "homeTeamCode": "617189",
+            "awayTeam": "Orangeville Bengals 11U DS",
+            "awayTeamCode": "618027",
+            "location": "Chatfield District Park",
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 9,
+              "scoreText": "9-4"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-15T10:01:05.189Z"
+        "lastUpdated": "2026-06-15T15:45:25.300Z"
       },
       "618053": {
         "teamCode": "618053",
@@ -1013,7 +1013,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-15T10:01:05.189Z"
+        "lastUpdated": "2026-06-15T15:45:25.300Z"
       },
       "618391": {
         "teamCode": "618391",
@@ -1103,7 +1103,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-15T10:01:05.189Z"
+        "lastUpdated": "2026-06-15T15:45:25.300Z"
       },
       "618476": {
         "teamCode": "618476",
@@ -1193,7 +1193,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-15T10:01:05.189Z"
+        "lastUpdated": "2026-06-15T15:45:25.300Z"
       }
     },
     "allGames": [
@@ -1882,8 +1882,12 @@
         "awayTeam": "Orangeville Bengals 11U DS",
         "awayTeamCode": "618027",
         "location": "Chatfield District Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 9,
+          "scoreText": "9-4"
+        }
       },
       {
         "date": null,
@@ -2577,14 +2581,14 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-06-15T10:01:05.189Z",
+    "lastUpdated": "2026-06-15T15:45:25.300Z",
     "totalGames": 88
   },
   "summary": {
     "totalTeams": 11,
     "totalGames": 88,
-    "completedGames": 40,
-    "upcomingGames": 48,
+    "completedGames": 41,
+    "upcomingGames": 47,
     "topTeam": {
       "team": "Vaughan Vikings 11U DS",
       "teamCode": "617190",
@@ -2601,6 +2605,6 @@
       "date": "Sat, May 16",
       "location": "Stroud"
     },
-    "lastUpdated": "2026-06-15T10:01:20.079Z"
+    "lastUpdated": "2026-06-15T15:45:39.864Z"
   }
 }
