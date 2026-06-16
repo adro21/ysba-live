@@ -74,21 +74,21 @@
         }
       },
       {
-        "position": 8,
+        "position": 6,
         "team": "Vaughan",
         "teamCode": "892644",
         "record": {
-          "gamesPlayed": 5,
-          "wins": 3,
+          "gamesPlayed": 6,
+          "wins": 4,
           "losses": 2,
           "ties": 0,
-          "winPercentage": "0.600"
+          "winPercentage": "0.667"
         },
         "stats": {
-          "points": 6,
-          "runsFor": 57,
-          "runsAgainst": 42,
-          "runDifferential": 15
+          "points": 8,
+          "runsFor": 63,
+          "runsAgainst": 47,
+          "runDifferential": 16
         }
       },
       {
@@ -110,7 +110,7 @@
         }
       },
       {
-        "position": 6,
+        "position": 7,
         "team": "Georgina",
         "teamCode": "892647",
         "record": {
@@ -146,7 +146,7 @@
         }
       },
       {
-        "position": 7,
+        "position": 8,
         "team": "Stouffville",
         "teamCode": "892639",
         "record": {
@@ -240,21 +240,21 @@
         "team": "Caledon",
         "teamCode": "892646",
         "record": {
-          "gamesPlayed": 5,
+          "gamesPlayed": 6,
           "wins": 0,
-          "losses": 5,
+          "losses": 6,
           "ties": 0,
           "winPercentage": "0.000"
         },
         "stats": {
           "points": 0,
-          "runsFor": 27,
-          "runsAgainst": 59,
-          "runDifferential": -32
+          "runsFor": 32,
+          "runsAgainst": 65,
+          "runDifferential": -33
         }
       }
     ],
-    "lastUpdated": "2026-06-16T05:49:15.249Z",
+    "lastUpdated": "2026-06-16T19:45:10.935Z",
     "totalTeams": 14
   },
   "schedule": {
@@ -392,19 +392,19 @@
             "score": null
           },
           {
-            "date": "2026-07-07T22:00:00.000Z",
-            "dateText": "Tue, Jul 7",
-            "time": "6:00 PM",
-            "homeTeam": "Royal York",
-            "homeTeamCode": "892633",
-            "awayTeam": "Leaside",
-            "awayTeamCode": "892648",
-            "location": "Trace Manes — Toronto",
+            "date": "2026-07-11T15:00:00.000Z",
+            "dateText": "Sat, Jul 11",
+            "time": "11:00 AM",
+            "homeTeam": "Georgina",
+            "homeTeamCode": "892647",
+            "awayTeam": "Royal York",
+            "awayTeamCode": "892633",
+            "location": "Westway — Toronto",
             "isCompleted": false,
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-16T05:49:15.293Z"
+        "lastUpdated": "2026-06-16T19:45:10.979Z"
       },
       "892634": {
         "teamCode": "892634",
@@ -551,7 +551,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-16T05:49:15.293Z"
+        "lastUpdated": "2026-06-16T19:45:10.979Z"
       },
       "892636": {
         "teamCode": "892636",
@@ -694,7 +694,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-16T05:49:15.293Z"
+        "lastUpdated": "2026-06-16T19:45:10.979Z"
       },
       "892637": {
         "teamCode": "892637",
@@ -845,7 +845,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-16T05:49:15.293Z"
+        "lastUpdated": "2026-06-16T19:45:10.979Z"
       },
       "892638": {
         "teamCode": "892638",
@@ -988,7 +988,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-16T05:49:15.294Z"
+        "lastUpdated": "2026-06-16T19:45:10.979Z"
       },
       "892639": {
         "teamCode": "892639",
@@ -1139,7 +1139,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-16T05:49:15.294Z"
+        "lastUpdated": "2026-06-16T19:45:10.979Z"
       },
       "892640": {
         "teamCode": "892640",
@@ -1278,7 +1278,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-16T05:49:15.294Z"
+        "lastUpdated": "2026-06-16T19:45:10.979Z"
       },
       "892642": {
         "teamCode": "892642",
@@ -1425,7 +1425,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-16T05:49:15.294Z"
+        "lastUpdated": "2026-06-16T19:45:10.979Z"
       },
       "892643": {
         "teamCode": "892643",
@@ -1568,7 +1568,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-16T05:49:15.294Z"
+        "lastUpdated": "2026-06-16T19:45:10.979Z"
       },
       "892644": {
         "teamCode": "892644",
@@ -1645,8 +1645,12 @@
             "awayTeam": "Caledon",
             "awayTeamCode": "892646",
             "location": "North Hill — Diamond 2 — Bolton",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 5,
+              "scoreText": "5-6"
+            }
           }
         ],
         "nextGames": [
@@ -1711,7 +1715,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-16T05:49:15.294Z"
+        "lastUpdated": "2026-06-16T19:45:10.980Z"
       },
       "892645": {
         "teamCode": "892645",
@@ -1858,7 +1862,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-16T05:49:15.294Z"
+        "lastUpdated": "2026-06-16T19:45:10.980Z"
       },
       "892646": {
         "teamCode": "892646",
@@ -1935,8 +1939,12 @@
             "awayTeam": "Caledon",
             "awayTeamCode": "892646",
             "location": "North Hill — Diamond 2 — Bolton",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 5,
+              "scoreText": "5-6"
+            }
           }
         ],
         "nextGames": [
@@ -2001,7 +2009,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-16T05:49:15.294Z"
+        "lastUpdated": "2026-06-16T19:45:10.980Z"
       },
       "892647": {
         "teamCode": "892647",
@@ -2148,7 +2156,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-16T05:49:15.294Z"
+        "lastUpdated": "2026-06-16T19:45:10.980Z"
       },
       "892648": {
         "teamCode": "892648",
@@ -2271,18 +2279,6 @@
             "score": null
           },
           {
-            "date": "2026-07-07T22:00:00.000Z",
-            "dateText": "Tue, Jul 7",
-            "time": "6:00 PM",
-            "homeTeam": "Royal York",
-            "homeTeamCode": "892633",
-            "awayTeam": "Leaside",
-            "awayTeamCode": "892648",
-            "location": "Trace Manes — Toronto",
-            "isCompleted": false,
-            "score": null
-          },
-          {
             "date": "2026-07-14T22:00:00.000Z",
             "dateText": "Tue, Jul 14",
             "time": "6:00 PM",
@@ -2293,9 +2289,21 @@
             "location": "Trace Manes — Toronto",
             "isCompleted": false,
             "score": null
+          },
+          {
+            "date": "2026-07-15T22:30:00.000Z",
+            "dateText": "Wed, Jul 15",
+            "time": "6:30 PM",
+            "homeTeam": "Leaside",
+            "homeTeamCode": "892648",
+            "awayTeam": "Barrie",
+            "awayTeamCode": "892634",
+            "location": "Barrie Sports Complex — Diamond 14 — Minesing",
+            "isCompleted": false,
+            "score": null
           }
         ],
-        "lastUpdated": "2026-06-16T05:49:15.294Z"
+        "lastUpdated": "2026-06-16T19:45:10.980Z"
       }
     },
     "allGames": [
@@ -3196,8 +3204,12 @@
         "awayTeam": "Caledon",
         "awayTeamCode": "892646",
         "location": "North Hill — Diamond 2 — Bolton",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 5,
+          "scoreText": "5-6"
+        }
       },
       {
         "date": "2026-06-16T22:00:00.000Z",
@@ -3548,8 +3560,8 @@
         "score": null
       },
       {
-        "date": "2026-07-07T22:00:00.000Z",
-        "dateText": "Tue, Jul 7",
+        "date": "2026-08-18T22:00:00.000Z",
+        "dateText": "Tue, Aug 18",
         "time": "6:00 PM",
         "homeTeam": "Royal York",
         "homeTeamCode": "892633",
@@ -4254,8 +4266,12 @@
         "awayTeam": "Caledon",
         "awayTeamCode": "892646",
         "location": "North Hill — Diamond 2 — Bolton",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 5,
+          "scoreText": "5-6"
+        }
       },
       {
         "date": "2026-06-14T22:30:00.000Z",
@@ -4500,14 +4516,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2026-06-16T05:49:15.294Z",
+    "lastUpdated": "2026-06-16T19:45:10.980Z",
     "totalGames": 147
   },
   "summary": {
     "totalTeams": 14,
     "totalGames": 147,
-    "completedGames": 45,
-    "upcomingGames": 102,
+    "completedGames": 46,
+    "upcomingGames": 101,
     "topTeam": {
       "team": "Royal York",
       "teamCode": "892633",
@@ -4524,6 +4540,6 @@
       "date": "Wed, May 20",
       "location": "Armstrong — Diamond 1 — Newmarket"
     },
-    "lastUpdated": "2026-06-16T05:49:15.295Z"
+    "lastUpdated": "2026-06-16T19:45:10.980Z"
   }
 }
