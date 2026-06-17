@@ -111,6 +111,24 @@
       },
       {
         "position": 8,
+        "team": "Vaughan Vikings 10U A Team 1",
+        "teamCode": "617173",
+        "record": {
+          "gamesPlayed": 8,
+          "wins": 4,
+          "losses": 4,
+          "ties": 0,
+          "winPercentage": "0.500"
+        },
+        "stats": {
+          "points": 8,
+          "runsFor": 71,
+          "runsAgainst": 75,
+          "runDifferential": -4
+        }
+      },
+      {
+        "position": 9,
         "team": "Orillia 10U B",
         "teamCode": "618381",
         "record": {
@@ -125,24 +143,6 @@
           "runsFor": 59,
           "runsAgainst": 61,
           "runDifferential": -2
-        }
-      },
-      {
-        "position": 9,
-        "team": "Vaughan Vikings 10U A Team 1",
-        "teamCode": "617173",
-        "record": {
-          "gamesPlayed": 7,
-          "wins": 3,
-          "losses": 4,
-          "ties": 0,
-          "winPercentage": "0.429"
-        },
-        "stats": {
-          "points": 6,
-          "runsFor": 58,
-          "runsAgainst": 72,
-          "runDifferential": -14
         }
       },
       {
@@ -200,7 +200,7 @@
         }
       },
       {
-        "position": 11,
+        "position": 12,
         "team": "TNT Thunder 10U A",
         "teamCode": "618057",
         "record": {
@@ -215,24 +215,6 @@
           "runsFor": 63,
           "runsAgainst": 64,
           "runDifferential": -1
-        }
-      },
-      {
-        "position": 12,
-        "team": "Richmond Hill Phoenix 10U A",
-        "teamCode": "617848",
-        "record": {
-          "gamesPlayed": 7,
-          "wins": 2,
-          "losses": 5,
-          "ties": 0,
-          "winPercentage": "0.286"
-        },
-        "stats": {
-          "points": 4,
-          "runsFor": 62,
-          "runsAgainst": 81,
-          "runDifferential": -19
         }
       },
       {
@@ -251,6 +233,24 @@
           "runsFor": 58,
           "runsAgainst": 80,
           "runDifferential": -22
+        }
+      },
+      {
+        "position": 11,
+        "team": "Richmond Hill Phoenix 10U A",
+        "teamCode": "617848",
+        "record": {
+          "gamesPlayed": 8,
+          "wins": 2,
+          "losses": 6,
+          "ties": 0,
+          "winPercentage": "0.250"
+        },
+        "stats": {
+          "points": 4,
+          "runsFor": 65,
+          "runsAgainst": 94,
+          "runDifferential": -29
         }
       },
       {
@@ -290,7 +290,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-06-17T12:48:14.234Z",
+    "lastUpdated": "2026-06-17T16:34:51.922Z",
     "totalTeams": 16
   },
   "schedule": {
@@ -383,30 +383,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-17T12:48:18.413Z"
+        "lastUpdated": "2026-06-17T16:34:56.154Z"
       },
       "617173": {
         "teamCode": "617173",
         "totalGames": 19,
-        "playedGames": 7,
+        "playedGames": 8,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Mon, May 25",
-            "time": "6:15 PM",
-            "homeTeam": "Vaughan Vikings 10U A Team 1",
-            "homeTeamCode": "617173",
-            "awayTeam": "TNT Thunder 10U A",
-            "awayTeamCode": "618057",
-            "location": "Matthew Park",
-            "isCompleted": true,
-            "score": {
-              "home": 9,
-              "away": 7,
-              "scoreText": "7-9"
-            }
-          },
           {
             "date": null,
             "dateText": "Wed, May 27",
@@ -470,10 +454,26 @@
               "away": 16,
               "scoreText": "16-8"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, Jun 15",
+            "time": "6:00 PM",
+            "homeTeam": "Vaughan Vikings 10U A Team 1",
+            "homeTeamCode": "617173",
+            "awayTeam": "Richmond Hill Phoenix 10U A",
+            "awayTeamCode": "617848",
+            "location": "Matthew Park",
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 3,
+              "scoreText": "3-13"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-17T12:48:18.413Z"
+        "lastUpdated": "2026-06-17T16:34:56.154Z"
       },
       "617174": {
         "teamCode": "617174",
@@ -563,30 +563,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-17T12:48:18.413Z"
+        "lastUpdated": "2026-06-17T16:34:56.154Z"
       },
       "617848": {
         "teamCode": "617848",
         "totalGames": 19,
-        "playedGames": 7,
+        "playedGames": 8,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Thu, May 21",
-            "time": "6:15 PM",
-            "homeTeam": "Georgina Bulldogs 10U B",
-            "homeTeamCode": "625725",
-            "awayTeam": "Richmond Hill Phoenix 10U A",
-            "awayTeamCode": "617848",
-            "location": "Georgina Roc- Diamond 2",
-            "isCompleted": true,
-            "score": {
-              "home": 15,
-              "away": 21,
-              "scoreText": "21-15"
-            }
-          },
           {
             "date": null,
             "dateText": "Mon, May 25",
@@ -650,10 +634,26 @@
               "away": 12,
               "scoreText": "12-8"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, Jun 15",
+            "time": "6:00 PM",
+            "homeTeam": "Vaughan Vikings 10U A Team 1",
+            "homeTeamCode": "617173",
+            "awayTeam": "Richmond Hill Phoenix 10U A",
+            "awayTeamCode": "617848",
+            "location": "Matthew Park",
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 3,
+              "scoreText": "3-13"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-17T12:48:18.413Z"
+        "lastUpdated": "2026-06-17T16:34:56.154Z"
       },
       "617900": {
         "teamCode": "617900",
@@ -743,7 +743,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-17T12:48:18.413Z"
+        "lastUpdated": "2026-06-17T16:34:56.154Z"
       },
       "617944": {
         "teamCode": "617944",
@@ -833,7 +833,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-17T12:48:18.413Z"
+        "lastUpdated": "2026-06-17T16:34:56.154Z"
       },
       "617970": {
         "teamCode": "617970",
@@ -923,7 +923,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-17T12:48:18.413Z"
+        "lastUpdated": "2026-06-17T16:34:56.154Z"
       },
       "617985": {
         "teamCode": "617985",
@@ -1013,7 +1013,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-17T12:48:18.413Z"
+        "lastUpdated": "2026-06-17T16:34:56.154Z"
       },
       "618005": {
         "teamCode": "618005",
@@ -1103,7 +1103,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-17T12:48:18.413Z"
+        "lastUpdated": "2026-06-17T16:34:56.154Z"
       },
       "618019": {
         "teamCode": "618019",
@@ -1193,7 +1193,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-17T12:48:18.413Z"
+        "lastUpdated": "2026-06-17T16:34:56.154Z"
       },
       "618041": {
         "teamCode": "618041",
@@ -1283,7 +1283,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-17T12:48:18.413Z"
+        "lastUpdated": "2026-06-17T16:34:56.154Z"
       },
       "618057": {
         "teamCode": "618057",
@@ -1373,7 +1373,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-17T12:48:18.413Z"
+        "lastUpdated": "2026-06-17T16:34:56.154Z"
       },
       "618381": {
         "teamCode": "618381",
@@ -1463,7 +1463,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-17T12:48:18.413Z"
+        "lastUpdated": "2026-06-17T16:34:56.154Z"
       },
       "618394": {
         "teamCode": "618394",
@@ -1553,7 +1553,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-17T12:48:18.413Z"
+        "lastUpdated": "2026-06-17T16:34:56.154Z"
       },
       "625725": {
         "teamCode": "625725",
@@ -1643,7 +1643,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-17T12:48:18.413Z"
+        "lastUpdated": "2026-06-17T16:34:56.154Z"
       },
       "627209": {
         "teamCode": "627209",
@@ -1733,7 +1733,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-17T12:48:18.413Z"
+        "lastUpdated": "2026-06-17T16:34:56.154Z"
       }
     },
     "allGames": [
@@ -2714,8 +2714,12 @@
         "awayTeam": "Richmond Hill Phoenix 10U A",
         "awayTeamCode": "617848",
         "location": "Matthew Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 3,
+          "scoreText": "3-13"
+        }
       },
       {
         "date": null,
@@ -3957,14 +3961,14 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-06-17T12:48:18.413Z",
+    "lastUpdated": "2026-06-17T16:34:56.154Z",
     "totalGames": 152
   },
   "summary": {
     "totalTeams": 16,
     "totalGames": 152,
-    "completedGames": 58,
-    "upcomingGames": 94,
+    "completedGames": 59,
+    "upcomingGames": 93,
     "topTeam": {
       "team": "Vaughan Vikings 10U A Team 2",
       "teamCode": "617174",
@@ -3981,6 +3985,6 @@
       "date": "Thu, May 21",
       "location": "Georgina Roc- Diamond 2"
     },
-    "lastUpdated": "2026-06-17T12:52:34.918Z"
+    "lastUpdated": "2026-06-17T16:39:17.971Z"
   }
 }
