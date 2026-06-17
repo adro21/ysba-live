@@ -2,24 +2,6 @@
   "standings": {
     "teams": [
       {
-        "position": 2,
-        "team": "Stayner 18U C",
-        "teamCode": "617169",
-        "record": {
-          "gamesPlayed": 5,
-          "wins": 4,
-          "losses": 0,
-          "ties": 1,
-          "winPercentage": "0.900"
-        },
-        "stats": {
-          "points": 9,
-          "runsFor": 46,
-          "runsAgainst": 27,
-          "runDifferential": 19
-        }
-      },
-      {
         "position": 1,
         "team": "Barrie Baycats 18U A",
         "teamCode": "612795",
@@ -38,25 +20,43 @@
         }
       },
       {
-        "position": 5,
-        "team": "Bradford Tigers 18U A - Team 1",
-        "teamCode": "617951",
+        "position": 3,
+        "team": "Stayner 18U C",
+        "teamCode": "617169",
         "record": {
           "gamesPlayed": 6,
           "wins": 4,
-          "losses": 2,
-          "ties": 0,
-          "winPercentage": "0.667"
+          "losses": 1,
+          "ties": 1,
+          "winPercentage": "0.750"
         },
         "stats": {
-          "points": 8,
-          "runsFor": 41,
-          "runsAgainst": 22,
-          "runDifferential": 19
+          "points": 9,
+          "runsFor": 54,
+          "runsAgainst": 39,
+          "runDifferential": 15
         }
       },
       {
-        "position": 4,
+        "position": 2,
+        "team": "Bradford Tigers 18U A - Team 1",
+        "teamCode": "617951",
+        "record": {
+          "gamesPlayed": 7,
+          "wins": 5,
+          "losses": 2,
+          "ties": 0,
+          "winPercentage": "0.714"
+        },
+        "stats": {
+          "points": 10,
+          "runsFor": 53,
+          "runsAgainst": 30,
+          "runDifferential": 23
+        }
+      },
+      {
+        "position": 5,
         "team": "Orillia 18U B",
         "teamCode": "618388",
         "record": {
@@ -74,7 +74,7 @@
         }
       },
       {
-        "position": 3,
+        "position": 4,
         "team": "Barrie Baycats 17U A",
         "teamCode": "612794",
         "record": {
@@ -128,9 +128,9 @@
         }
       },
       {
-        "position": 6,
-        "team": "TNT Thunder 18U A",
-        "teamCode": "618063",
+        "position": 7,
+        "team": "Bradford Tigers 18U A - Team 2",
+        "teamCode": "625723",
         "record": {
           "gamesPlayed": 8,
           "wins": 3,
@@ -140,9 +140,27 @@
         },
         "stats": {
           "points": 6,
-          "runsFor": 43,
-          "runsAgainst": 59,
-          "runDifferential": -16
+          "runsFor": 53,
+          "runsAgainst": 68,
+          "runDifferential": -15
+        }
+      },
+      {
+        "position": 6,
+        "team": "TNT Thunder 18U A",
+        "teamCode": "618063",
+        "record": {
+          "gamesPlayed": 9,
+          "wins": 3,
+          "losses": 6,
+          "ties": 0,
+          "winPercentage": "0.333"
+        },
+        "stats": {
+          "points": 6,
+          "runsFor": 44,
+          "runsAgainst": 77,
+          "runDifferential": -33
         }
       },
       {
@@ -164,24 +182,6 @@
         }
       },
       {
-        "position": 7,
-        "team": "Bradford Tigers 18U A - Team 2",
-        "teamCode": "625723",
-        "record": {
-          "gamesPlayed": 7,
-          "wins": 2,
-          "losses": 5,
-          "ties": 0,
-          "winPercentage": "0.286"
-        },
-        "stats": {
-          "points": 4,
-          "runsFor": 35,
-          "runsAgainst": 67,
-          "runDifferential": -32
-        }
-      },
-      {
         "position": 11,
         "team": "Muskoka Hornets 18U A",
         "teamCode": "628939",
@@ -200,7 +200,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-06-17T19:25:58.253Z",
+    "lastUpdated": "2026-06-17T21:31:46.982Z",
     "totalTeams": 11
   },
   "schedule": {
@@ -293,7 +293,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-17T19:26:01.504Z"
+        "lastUpdated": "2026-06-17T21:31:49.955Z"
       },
       "612795": {
         "teamCode": "612795",
@@ -383,30 +383,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-17T19:26:01.504Z"
+        "lastUpdated": "2026-06-17T21:31:49.955Z"
       },
       "617169": {
         "teamCode": "617169",
         "totalGames": 18,
-        "playedGames": 5,
+        "playedGames": 6,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sat, May 9",
-            "time": "1:00 PM",
-            "homeTeam": "Stayner 18U C",
-            "homeTeamCode": "617169",
-            "awayTeam": "Barrie Baycats 17U A",
-            "awayTeamCode": "612794",
-            "location": "5212 County Road 9, New Lowell.",
-            "isCompleted": true,
-            "score": {
-              "home": 8,
-              "away": 5,
-              "scoreText": "5-8"
-            }
-          },
           {
             "date": null,
             "dateText": "Sun, May 17",
@@ -470,33 +454,33 @@
               "away": 8,
               "scoreText": "8-8"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, Jun 15",
+            "time": "8:00 PM",
+            "homeTeam": "Bradford Tigers 18U A - Team 1",
+            "homeTeamCode": "617951",
+            "awayTeam": "Stayner 18U C",
+            "awayTeamCode": "617169",
+            "location": "Joe Magani Park, 3541 Concession road 11, Bradford, Diamond 4",
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 8,
+              "scoreText": "8-12"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-17T19:26:01.504Z"
+        "lastUpdated": "2026-06-17T21:31:49.955Z"
       },
       "617951": {
         "teamCode": "617951",
         "totalGames": 18,
-        "playedGames": 6,
+        "playedGames": 7,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Mon, May 18",
-            "time": "8:00 PM",
-            "homeTeam": "Bradford Tigers 18U A - Team 1",
-            "homeTeamCode": "617951",
-            "awayTeam": "Bradford Tigers 18U A - Team 2",
-            "awayTeamCode": "625723",
-            "location": "Joe Magani Park, 3541 Concession road 11, Bradford, Diamond 4",
-            "isCompleted": true,
-            "score": {
-              "home": 10,
-              "away": 2,
-              "scoreText": "2-10"
-            }
-          },
           {
             "date": null,
             "dateText": "Mon, Jun 1",
@@ -560,10 +544,26 @@
               "away": 2,
               "scoreText": "2-4"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, Jun 15",
+            "time": "8:00 PM",
+            "homeTeam": "Bradford Tigers 18U A - Team 1",
+            "homeTeamCode": "617951",
+            "awayTeam": "Stayner 18U C",
+            "awayTeamCode": "617169",
+            "location": "Joe Magani Park, 3541 Concession road 11, Bradford, Diamond 4",
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 8,
+              "scoreText": "8-12"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-17T19:26:01.504Z"
+        "lastUpdated": "2026-06-17T21:31:49.955Z"
       },
       "618012": {
         "teamCode": "618012",
@@ -653,7 +653,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-17T19:26:01.504Z"
+        "lastUpdated": "2026-06-17T21:31:49.955Z"
       },
       "618025": {
         "teamCode": "618025",
@@ -727,7 +727,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-17T19:26:01.504Z"
+        "lastUpdated": "2026-06-17T21:31:49.956Z"
       },
       "618049": {
         "teamCode": "618049",
@@ -817,30 +817,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-17T19:26:01.504Z"
+        "lastUpdated": "2026-06-17T21:31:49.956Z"
       },
       "618063": {
         "teamCode": "618063",
         "totalGames": 18,
-        "playedGames": 8,
+        "playedGames": 9,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Mon, Jun 1",
-            "time": "8:00 PM",
-            "homeTeam": "Bradford Tigers 18U A - Team 1",
-            "homeTeamCode": "617951",
-            "awayTeam": "TNT Thunder 18U A",
-            "awayTeamCode": "618063",
-            "location": "Joe Magani Park, 3541 Concession road 11, Bradford, Diamond 4",
-            "isCompleted": true,
-            "score": {
-              "home": 9,
-              "away": 6,
-              "scoreText": "6-9"
-            }
-          },
           {
             "date": null,
             "dateText": "Wed, Jun 3",
@@ -904,10 +888,26 @@
               "away": 3,
               "scoreText": "3-0"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, Jun 15",
+            "time": "8:30 PM",
+            "homeTeam": "TNT Thunder 18U A",
+            "homeTeamCode": "618063",
+            "awayTeam": "Bradford Tigers 18U A - Team 2",
+            "awayTeamCode": "625723",
+            "location": "Beeton Diamond at 72 Prospect St. Beeton",
+            "isCompleted": true,
+            "score": {
+              "home": 1,
+              "away": 18,
+              "scoreText": "18-1"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-17T19:26:01.504Z"
+        "lastUpdated": "2026-06-17T21:31:49.956Z"
       },
       "618388": {
         "teamCode": "618388",
@@ -997,30 +997,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-17T19:26:01.504Z"
+        "lastUpdated": "2026-06-17T21:31:49.956Z"
       },
       "625723": {
         "teamCode": "625723",
         "totalGames": 18,
-        "playedGames": 7,
+        "playedGames": 8,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sun, May 17",
-            "time": "5:00 PM",
-            "homeTeam": "Muskoka Hornets 18U A",
-            "homeTeamCode": "628939",
-            "awayTeam": "Bradford Tigers 18U A - Team 2",
-            "awayTeamCode": "625723",
-            "location": "McCulley Robertson Sports Complex, 300 Williams St, Huntsville,ON",
-            "isCompleted": true,
-            "score": {
-              "home": 11,
-              "away": 14,
-              "scoreText": "14-11"
-            }
-          },
           {
             "date": null,
             "dateText": "Mon, May 18",
@@ -1084,10 +1068,26 @@
               "away": 10,
               "scoreText": "10-4"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, Jun 15",
+            "time": "8:30 PM",
+            "homeTeam": "TNT Thunder 18U A",
+            "homeTeamCode": "618063",
+            "awayTeam": "Bradford Tigers 18U A - Team 2",
+            "awayTeamCode": "625723",
+            "location": "Beeton Diamond at 72 Prospect St. Beeton",
+            "isCompleted": true,
+            "score": {
+              "home": 1,
+              "away": 18,
+              "scoreText": "18-1"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-17T19:26:01.504Z"
+        "lastUpdated": "2026-06-17T21:31:49.956Z"
       },
       "628939": {
         "teamCode": "628939",
@@ -1177,7 +1177,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-17T19:26:01.505Z"
+        "lastUpdated": "2026-06-17T21:31:49.956Z"
       }
     },
     "allGames": [
@@ -1842,8 +1842,12 @@
         "awayTeam": "Stayner 18U C",
         "awayTeamCode": "617169",
         "location": "Joe Magani Park, 3541 Concession road 11, Bradford, Diamond 4",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 8,
+          "scoreText": "8-12"
+        }
       },
       {
         "date": null,
@@ -1854,8 +1858,12 @@
         "awayTeam": "Bradford Tigers 18U A - Team 2",
         "awayTeamCode": "625723",
         "location": "Beeton Diamond at 72 Prospect St. Beeton",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 1,
+          "away": 18,
+          "scoreText": "18-1"
+        }
       },
       {
         "date": null,
@@ -2669,20 +2677,20 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-06-17T19:26:01.505Z",
+    "lastUpdated": "2026-06-17T21:31:49.956Z",
     "totalGames": 99
   },
   "summary": {
     "totalTeams": 11,
     "totalGames": 99,
-    "completedGames": 34,
-    "upcomingGames": 65,
+    "completedGames": 36,
+    "upcomingGames": 63,
     "topTeam": {
-      "team": "Stayner 18U C",
-      "teamCode": "617169",
-      "wins": 4,
-      "losses": 0,
-      "winPercentage": "0.900"
+      "team": "Barrie Baycats 18U A",
+      "teamCode": "612795",
+      "wins": 5,
+      "losses": 1,
+      "winPercentage": "0.786"
     },
     "highestScoringGame": {
       "homeTeam": "TNT Thunder 18U A",
@@ -2693,6 +2701,6 @@
       "date": "Mon, May 18",
       "location": "Beeton Diamond at 72 Prospect St. Beeton"
     },
-    "lastUpdated": "2026-06-17T19:27:47.205Z"
+    "lastUpdated": "2026-06-17T21:33:08.362Z"
   }
 }
