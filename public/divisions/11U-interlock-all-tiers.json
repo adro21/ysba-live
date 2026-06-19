@@ -20,43 +20,43 @@
         }
       },
       {
-        "position": 6,
-        "team": "Caledon",
-        "teamCode": "883733",
-        "record": {
-          "gamesPlayed": 5,
-          "wins": 4,
-          "losses": 1,
-          "ties": 0,
-          "winPercentage": "0.800"
-        },
-        "stats": {
-          "points": 8,
-          "runsFor": 51,
-          "runsAgainst": 26,
-          "runDifferential": 25
-        }
-      },
-      {
         "position": 2,
         "team": "Stouffville",
         "teamCode": "883730",
         "record": {
-          "gamesPlayed": 9,
+          "gamesPlayed": 10,
           "wins": 7,
           "losses": 2,
-          "ties": 0,
-          "winPercentage": "0.778"
+          "ties": 1,
+          "winPercentage": "0.750"
         },
         "stats": {
-          "points": 14,
-          "runsFor": 61,
-          "runsAgainst": 36,
+          "points": 15,
+          "runsFor": 68,
+          "runsAgainst": 43,
           "runDifferential": 25
         }
       },
       {
         "position": 4,
+        "team": "Caledon",
+        "teamCode": "883733",
+        "record": {
+          "gamesPlayed": 6,
+          "wins": 4,
+          "losses": 1,
+          "ties": 1,
+          "winPercentage": "0.750"
+        },
+        "stats": {
+          "points": 9,
+          "runsFor": 58,
+          "runsAgainst": 33,
+          "runDifferential": 25
+        }
+      },
+      {
+        "position": 5,
         "team": "Whitby",
         "teamCode": "883731",
         "record": {
@@ -74,7 +74,7 @@
         }
       },
       {
-        "position": 5,
+        "position": 6,
         "team": "Richmond Hill",
         "teamCode": "883732",
         "record": {
@@ -218,7 +218,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-06-19T00:34:52.384Z",
+    "lastUpdated": "2026-06-19T02:20:23.664Z",
     "totalTeams": 12
   },
   "schedule": {
@@ -372,7 +372,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-19T00:34:52.406Z"
+        "lastUpdated": "2026-06-19T02:20:23.688Z"
       },
       "883723": {
         "teamCode": "883723",
@@ -515,7 +515,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-19T00:34:52.406Z"
+        "lastUpdated": "2026-06-19T02:20:23.688Z"
       },
       "883724": {
         "teamCode": "883724",
@@ -658,7 +658,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-19T00:34:52.406Z"
+        "lastUpdated": "2026-06-19T02:20:23.688Z"
       },
       "883725": {
         "teamCode": "883725",
@@ -809,7 +809,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-19T00:34:52.406Z"
+        "lastUpdated": "2026-06-19T02:20:23.689Z"
       },
       "883726": {
         "teamCode": "883726",
@@ -960,7 +960,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-19T00:34:52.406Z"
+        "lastUpdated": "2026-06-19T02:20:23.689Z"
       },
       "883727": {
         "teamCode": "883727",
@@ -1103,7 +1103,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-19T00:34:52.406Z"
+        "lastUpdated": "2026-06-19T02:20:23.689Z"
       },
       "883728": {
         "teamCode": "883728",
@@ -1250,7 +1250,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-19T00:34:52.406Z"
+        "lastUpdated": "2026-06-19T02:20:23.689Z"
       },
       "883729": {
         "teamCode": "883729",
@@ -1397,7 +1397,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-19T00:34:52.406Z"
+        "lastUpdated": "2026-06-19T02:20:23.689Z"
       },
       "883730": {
         "teamCode": "883730",
@@ -1474,8 +1474,12 @@
             "awayTeam": "Caledon",
             "awayTeamCode": "883733",
             "location": "North Hill — Diamond 3 — Bolton",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 7,
+              "scoreText": "7-7"
+            }
           }
         ],
         "nextGames": [
@@ -1540,7 +1544,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-19T00:34:52.406Z"
+        "lastUpdated": "2026-06-19T02:20:23.689Z"
       },
       "883731": {
         "teamCode": "883731",
@@ -1687,7 +1691,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-19T00:34:52.406Z"
+        "lastUpdated": "2026-06-19T02:20:23.689Z"
       },
       "883732": {
         "teamCode": "883732",
@@ -1838,7 +1842,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-19T00:34:52.406Z"
+        "lastUpdated": "2026-06-19T02:20:23.689Z"
       },
       "883733": {
         "teamCode": "883733",
@@ -1919,8 +1923,12 @@
             "awayTeam": "Caledon",
             "awayTeamCode": "883733",
             "location": "North Hill — Diamond 3 — Bolton",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 7,
+              "scoreText": "7-7"
+            }
           }
         ],
         "nextGames": [
@@ -1985,7 +1993,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-19T00:34:52.407Z"
+        "lastUpdated": "2026-06-19T02:20:23.689Z"
       }
     },
     "allGames": [
@@ -2794,8 +2802,12 @@
         "awayTeam": "Caledon",
         "awayTeamCode": "883733",
         "location": "North Hill — Diamond 3 — Bolton",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 7,
+          "scoreText": "7-7"
+        }
       },
       {
         "date": "2026-06-18T22:00:00.000Z",
@@ -3456,8 +3468,12 @@
         "awayTeam": "Caledon",
         "awayTeamCode": "883733",
         "location": "North Hill — Diamond 3 — Bolton",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 7,
+          "scoreText": "7-7"
+        }
       },
       {
         "date": "2026-06-18T22:00:00.000Z",
@@ -3718,14 +3734,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2026-06-19T00:34:52.407Z",
+    "lastUpdated": "2026-06-19T02:20:23.689Z",
     "totalGames": 106
   },
   "summary": {
     "totalTeams": 12,
     "totalGames": 106,
-    "completedGames": 46,
-    "upcomingGames": 60,
+    "completedGames": 47,
+    "upcomingGames": 59,
     "topTeam": {
       "team": "Etobicoke",
       "teamCode": "883728",
@@ -3742,6 +3758,6 @@
       "date": "Sun, May 31",
       "location": "North Hill — Diamond 3 — Bolton"
     },
-    "lastUpdated": "2026-06-19T00:34:52.407Z"
+    "lastUpdated": "2026-06-19T02:20:23.689Z"
   }
 }
