@@ -467,6 +467,29 @@ module.exports = {
         schedules: true,
         emailNotifications: false
       }
+    },
+    '11U-interlock': {
+      displayName: '11U Interlock AAA',
+      shortName: '11U Inter',
+      source: 'interlock',
+      tsDivisionId: 164004, // "Rep 11U AAA" inside event 48913
+      tiers: {
+        'all-tiers': { displayName: 'All Teams' }
+      },
+      theme: {
+        primary: '#024220',
+        secondary: '#015c2a',
+        accent: '#facc15',
+        text: '#14532d',
+        background: '#f0fdf4',
+        headerBg: 'linear-gradient(135deg, #024220, #015c2a)',
+        brandSubtitle: '#6b7280'
+      },
+      features: {
+        divisionFilter: false,
+        schedules: true,
+        emailNotifications: false
+      }
     }
   },
 

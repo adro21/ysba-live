@@ -197,16 +197,19 @@ class InterlockScraper {
       m => m.divisionId === cfg.tsDivisionId && !m.deleted
     );
 
+    // e.g. "10U Interlock AA" -> "10U AA", "11U Interlock AAA" -> "11U AAA".
+    const divisionLabel = (cfg.displayName || '').replace(/\s*Interlock\s*/, ' ').trim();
+
     const allGames = [];
     for (const match of divisionMatches) {
-      const game = this._matchToGame(match, event);
+      const game = this._matchToGame(match, event, divisionLabel);
       if (game) allGames.push(game);
     }
 
     return this._processAllGames(allGames);
   }
 
-  _matchToGame(match, event) {
+  _matchToGame(match, event, divisionLabel) {
     const competitors = (event.matchPartsByMatchId.get(match.id) || [])
       .filter(mp => mp.type === 'competitor')
       .sort((a, b) => (a.number || 0) - (b.number || 0));
@@ -254,7 +257,7 @@ class InterlockScraper {
       homeScore,
       awayScore,
       location,
-      division: '10U AA',
+      division: divisionLabel,
       gameTier: match.gameType || '',
       isCompleted,
       scoreText

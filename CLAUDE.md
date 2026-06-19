@@ -70,8 +70,8 @@ The application now includes a background worker system (`src/scraper/`) that:
 The application supports multiple divisions with dynamic routing:
 - **Rep Divisions**: 8U through 22U and Senior (with A/AA/AAA tiers) — scraped from YSBA via Puppeteer
 - **Select Divisions**: 9U, 11U, 13U, 15U (all teams) — scraped from YSBA via Puppeteer
-- **Interlock Divisions**: 10U AA — pulled from the Toronto Baseball Association TeamSnap Tournaments API (`events.teamsnap.com/events/48913`). The page at `torontobaseball.ca/schedules-standings/schedule/` is just an iframe over that SPA; scraping the iframe's `divisionSelect` dropdown would be brittle, so we hit the underlying public JSON API directly using the API key extracted from the SPA bundle (stored in `config.INTERLOCK_TEAMSNAP`).
-- **URL structure**: `/{division}/{tier}` (e.g., `/13U-rep/A`, `/9U-select/all-tiers`, `/10U-interlock/all-tiers`)
+- **Interlock Divisions**: 10U AA, 11U AAA — pulled from the Toronto Baseball Association TeamSnap Tournaments API (`events.teamsnap.com/events/48913`). The page at `torontobaseball.ca/schedules-standings/schedule/` is just an iframe over that SPA; scraping the iframe's `divisionSelect` dropdown would be brittle, so we hit the underlying public JSON API directly using the API key extracted from the SPA bundle (stored in `config.INTERLOCK_TEAMSNAP`).
+- **URL structure**: `/{division}/{tier}` (e.g., `/13U-rep/A`, `/9U-select/all-tiers`, `/10U-interlock/all-tiers`, `/11U-interlock/all-tiers`)
 
 Division configuration is centralized in `config.js` using `getDivisionConfig(division, tier)`. Interlock divisions are flagged with `source: 'interlock'` and `tsDivisionId: <id>`; the GitHub Actions worker dispatches to `InterlockScraper` for those, and to `YSBAScraper` (Puppeteer) for everything else.
 
