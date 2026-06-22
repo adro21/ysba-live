@@ -20,7 +20,7 @@
         }
       },
       {
-        "position": 2,
+        "position": 3,
         "team": "Thornhill Reds 11U DS",
         "teamCode": "618000",
         "record": {
@@ -38,21 +38,21 @@
         }
       },
       {
-        "position": 3,
+        "position": 2,
         "team": "Barrie Baycats 11U DS",
         "teamCode": "612798",
         "record": {
-          "gamesPlayed": 8,
-          "wins": 4,
+          "gamesPlayed": 10,
+          "wins": 6,
           "losses": 2,
           "ties": 2,
-          "winPercentage": "0.625"
+          "winPercentage": "0.700"
         },
         "stats": {
-          "points": 10,
-          "runsFor": 98,
-          "runsAgainst": 69,
-          "runDifferential": 29
+          "points": 14,
+          "runsFor": 129,
+          "runsAgainst": 85,
+          "runDifferential": 44
         }
       },
       {
@@ -128,7 +128,7 @@
         }
       },
       {
-        "position": 8,
+        "position": 9,
         "team": "Vaughan Vikings 10U DS",
         "teamCode": "617189",
         "record": {
@@ -146,21 +146,21 @@
         }
       },
       {
-        "position": 9,
+        "position": 8,
         "team": "Orillia 11U DS",
         "teamCode": "618391",
         "record": {
-          "gamesPlayed": 6,
+          "gamesPlayed": 8,
           "wins": 2,
-          "losses": 4,
+          "losses": 6,
           "ties": 0,
-          "winPercentage": "0.333"
+          "winPercentage": "0.250"
         },
         "stats": {
           "points": 4,
-          "runsFor": 33,
-          "runsAgainst": 64,
-          "runDifferential": -31
+          "runsFor": 49,
+          "runsAgainst": 95,
+          "runDifferential": -46
         }
       },
       {
@@ -200,7 +200,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-06-22T13:17:00.742Z",
+    "lastUpdated": "2026-06-22T21:15:32.574Z",
     "totalTeams": 11
   },
   "schedule": {
@@ -208,41 +208,9 @@
       "612798": {
         "teamCode": "612798",
         "totalGames": 16,
-        "playedGames": 8,
+        "playedGames": 10,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sat, May 30",
-            "time": "10:00 AM",
-            "homeTeam": "Collingwood Jays 11U DS",
-            "homeTeamCode": "618014",
-            "awayTeam": "Barrie Baycats 11U DS",
-            "awayTeamCode": "612798",
-            "location": "Central Diamond #2",
-            "isCompleted": true,
-            "score": {
-              "home": 8,
-              "away": 12,
-              "scoreText": "12-8"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Sat, May 30",
-            "time": "12:00 PM",
-            "homeTeam": "Collingwood Jays 11U DS",
-            "homeTeamCode": "618014",
-            "awayTeam": "Barrie Baycats 11U DS",
-            "awayTeamCode": "612798",
-            "location": "Central Diamond #2",
-            "isCompleted": true,
-            "score": {
-              "home": 12,
-              "away": 12,
-              "scoreText": "12-12"
-            }
-          },
           {
             "date": null,
             "dateText": "Tue, Jun 2",
@@ -290,10 +258,42 @@
               "away": 5,
               "scoreText": "5-18"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sun, Jun 21",
+            "time": "11:00 AM",
+            "homeTeam": "Orillia 11U DS",
+            "homeTeamCode": "618391",
+            "awayTeam": "Barrie Baycats 11U DS",
+            "awayTeamCode": "612798",
+            "location": "Kitchener Park # 2",
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 18,
+              "scoreText": "18-9"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sun, Jun 21",
+            "time": "1:30 PM",
+            "homeTeam": "Orillia 11U DS",
+            "homeTeamCode": "618391",
+            "awayTeam": "Barrie Baycats 11U DS",
+            "awayTeamCode": "612798",
+            "location": "Kitchener Park # 2",
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 13,
+              "scoreText": "13-7"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-22T13:17:03.597Z"
+        "lastUpdated": "2026-06-22T21:15:35.488Z"
       },
       "617189": {
         "teamCode": "617189",
@@ -383,7 +383,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-22T13:17:03.597Z"
+        "lastUpdated": "2026-06-22T21:15:35.488Z"
       },
       "617190": {
         "teamCode": "617190",
@@ -473,7 +473,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-22T13:17:03.597Z"
+        "lastUpdated": "2026-06-22T21:15:35.488Z"
       },
       "617892": {
         "teamCode": "617892",
@@ -563,7 +563,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-22T13:17:03.597Z"
+        "lastUpdated": "2026-06-22T21:15:35.488Z"
       },
       "617917": {
         "teamCode": "617917",
@@ -653,7 +653,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-22T13:17:03.597Z"
+        "lastUpdated": "2026-06-22T21:15:35.488Z"
       },
       "618000": {
         "teamCode": "618000",
@@ -743,7 +743,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-22T13:17:03.597Z"
+        "lastUpdated": "2026-06-22T21:15:35.488Z"
       },
       "618014": {
         "teamCode": "618014",
@@ -833,7 +833,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-22T13:17:03.597Z"
+        "lastUpdated": "2026-06-22T21:15:35.488Z"
       },
       "618027": {
         "teamCode": "618027",
@@ -923,7 +923,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-22T13:17:03.597Z"
+        "lastUpdated": "2026-06-22T21:15:35.488Z"
       },
       "618053": {
         "teamCode": "618053",
@@ -1013,46 +1013,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-22T13:17:03.597Z"
+        "lastUpdated": "2026-06-22T21:15:35.488Z"
       },
       "618391": {
         "teamCode": "618391",
         "totalGames": 16,
-        "playedGames": 6,
+        "playedGames": 8,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sat, May 9",
-            "time": "1:30 PM",
-            "homeTeam": "Vaughan Vikings 11U DS",
-            "homeTeamCode": "617190",
-            "awayTeam": "Orillia 11U DS",
-            "awayTeamCode": "618391",
-            "location": "Chatfield District Park",
-            "isCompleted": true,
-            "score": {
-              "home": 18,
-              "away": 4,
-              "scoreText": "4-18"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Sun, May 31",
-            "time": "11:00 AM",
-            "homeTeam": "Orillia 11U DS",
-            "homeTeamCode": "618391",
-            "awayTeam": "Orangeville Bengals 11U DS",
-            "awayTeamCode": "618027",
-            "location": "Kitchener Park # 2",
-            "isCompleted": true,
-            "score": {
-              "home": 6,
-              "away": 14,
-              "scoreText": "14-6"
-            }
-          },
           {
             "date": null,
             "dateText": "Sun, May 31",
@@ -1100,10 +1068,42 @@
               "away": 6,
               "scoreText": "6-5"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sun, Jun 21",
+            "time": "11:00 AM",
+            "homeTeam": "Orillia 11U DS",
+            "homeTeamCode": "618391",
+            "awayTeam": "Barrie Baycats 11U DS",
+            "awayTeamCode": "612798",
+            "location": "Kitchener Park # 2",
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 18,
+              "scoreText": "18-9"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sun, Jun 21",
+            "time": "1:30 PM",
+            "homeTeam": "Orillia 11U DS",
+            "homeTeamCode": "618391",
+            "awayTeam": "Barrie Baycats 11U DS",
+            "awayTeamCode": "612798",
+            "location": "Kitchener Park # 2",
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 13,
+              "scoreText": "13-7"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-22T13:17:03.597Z"
+        "lastUpdated": "2026-06-22T21:15:35.488Z"
       },
       "618476": {
         "teamCode": "618476",
@@ -1193,7 +1193,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-22T13:17:03.597Z"
+        "lastUpdated": "2026-06-22T21:15:35.488Z"
       }
     },
     "allGames": [
@@ -1388,18 +1388,6 @@
           "away": 6,
           "scoreText": "6-16"
         }
-      },
-      {
-        "date": null,
-        "dateText": "Sat, May 23",
-        "time": "4:00 PM",
-        "homeTeam": "Barrie Baycats 11U DS",
-        "homeTeamCode": "612798",
-        "awayTeam": "Vaughan Vikings 11U DS",
-        "awayTeamCode": "617190",
-        "location": "Lampman Lane Park",
-        "isCompleted": false,
-        "score": null
       },
       {
         "date": null,
@@ -1881,18 +1869,6 @@
         "date": null,
         "dateText": "Sun, Jun 14",
         "time": "1:30 PM",
-        "homeTeam": "Markham Mariners 11U DS",
-        "homeTeamCode": "617892",
-        "awayTeam": "Collingwood Jays 11U DS",
-        "awayTeamCode": "618014",
-        "location": "Carlton Park",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": null,
-        "dateText": "Sun, Jun 14",
-        "time": "1:30 PM",
         "homeTeam": "Vaughan Vikings 10U DS",
         "homeTeamCode": "617189",
         "awayTeam": "Orangeville Bengals 11U DS",
@@ -1903,6 +1879,18 @@
       },
       {
         "date": null,
+        "dateText": "Sun, Jun 14",
+        "time": "1:30 PM",
+        "homeTeam": "Markham Mariners 11U DS",
+        "homeTeamCode": "617892",
+        "awayTeam": "Collingwood Jays 11U DS",
+        "awayTeamCode": "618014",
+        "location": "Carlton Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
         "dateText": "Sun, Jun 21",
         "time": "11:00 AM",
         "homeTeam": "Markham Mariners 11U DS",
@@ -1926,8 +1914,12 @@
         "awayTeam": "Barrie Baycats 11U DS",
         "awayTeamCode": "612798",
         "location": "Kitchener Park # 2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 18,
+          "scoreText": "18-9"
+        }
       },
       {
         "date": null,
@@ -1954,8 +1946,12 @@
         "awayTeam": "Barrie Baycats 11U DS",
         "awayTeamCode": "612798",
         "location": "Kitchener Park # 2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 13,
+          "scoreText": "13-7"
+        }
       },
       {
         "date": null,
@@ -1966,6 +1962,18 @@
         "awayTeam": "Innisfil Cardinals 11U DS",
         "awayTeamCode": "618053",
         "location": "John Alexander Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Tue, Jun 23",
+        "time": "6:30 PM",
+        "homeTeam": "Vaughan Vikings 11U DS",
+        "homeTeamCode": "617190",
+        "awayTeam": "Barrie Baycats 11U DS",
+        "awayTeamCode": "612798",
+        "location": "Chatfield District Park",
         "isCompleted": false,
         "score": null
       },
@@ -2589,14 +2597,14 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-06-22T13:17:03.597Z",
+    "lastUpdated": "2026-06-22T21:15:35.488Z",
     "totalGames": 88
   },
   "summary": {
     "totalTeams": 11,
     "totalGames": 88,
-    "completedGames": 43,
-    "upcomingGames": 45,
+    "completedGames": 45,
+    "upcomingGames": 43,
     "topTeam": {
       "team": "Vaughan Vikings 11U DS",
       "teamCode": "617190",
@@ -2613,6 +2621,6 @@
       "date": "Sat, May 16",
       "location": "Stroud"
     },
-    "lastUpdated": "2026-06-22T13:17:18.617Z"
+    "lastUpdated": "2026-06-22T21:15:51.354Z"
   }
 }
