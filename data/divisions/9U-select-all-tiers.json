@@ -24,17 +24,17 @@
         "team": "Collingwood Jays 9U DS",
         "teamCode": "618013",
         "record": {
-          "gamesPlayed": 8,
-          "wins": 8,
+          "gamesPlayed": 10,
+          "wins": 10,
           "losses": 0,
           "ties": 0,
           "winPercentage": "1.000"
         },
         "stats": {
-          "points": 16,
-          "runsFor": 145,
-          "runsAgainst": 35,
-          "runDifferential": 110
+          "points": 20,
+          "runsFor": 188,
+          "runsAgainst": 39,
+          "runDifferential": 149
         }
       },
       {
@@ -240,21 +240,21 @@
         "team": "Orillia 9U DS",
         "teamCode": "618390",
         "record": {
-          "gamesPlayed": 4,
+          "gamesPlayed": 6,
           "wins": 0,
-          "losses": 4,
+          "losses": 6,
           "ties": 0,
           "winPercentage": "0.000"
         },
         "stats": {
           "points": 0,
-          "runsFor": 18,
-          "runsAgainst": 71,
-          "runDifferential": -53
+          "runsFor": 22,
+          "runsAgainst": 114,
+          "runDifferential": -92
         }
       }
     ],
-    "lastUpdated": "2026-06-21T23:10:25.573Z",
+    "lastUpdated": "2026-06-22T02:06:56.160Z",
     "totalTeams": 14
   },
   "schedule": {
@@ -315,7 +315,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-21T23:10:29.911Z"
+        "lastUpdated": "2026-06-22T02:07:01.040Z"
       },
       "617187": {
         "teamCode": "617187",
@@ -405,7 +405,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-21T23:10:29.911Z"
+        "lastUpdated": "2026-06-22T02:07:01.040Z"
       },
       "617188": {
         "teamCode": "617188",
@@ -495,7 +495,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-21T23:10:29.911Z"
+        "lastUpdated": "2026-06-22T02:07:01.040Z"
       },
       "617891": {
         "teamCode": "617891",
@@ -585,7 +585,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-21T23:10:29.911Z"
+        "lastUpdated": "2026-06-22T02:07:01.040Z"
       },
       "617916": {
         "teamCode": "617916",
@@ -675,7 +675,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-21T23:10:29.911Z"
+        "lastUpdated": "2026-06-22T02:07:01.040Z"
       },
       "617954": {
         "teamCode": "617954",
@@ -765,7 +765,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-21T23:10:29.911Z"
+        "lastUpdated": "2026-06-22T02:07:01.040Z"
       },
       "617998": {
         "teamCode": "617998",
@@ -855,46 +855,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-21T23:10:29.911Z"
+        "lastUpdated": "2026-06-22T02:07:01.040Z"
       },
       "618013": {
         "teamCode": "618013",
         "totalGames": 16,
-        "playedGames": 8,
+        "playedGames": 10,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sat, May 23",
-            "time": "12:30 PM",
-            "homeTeam": "Collingwood Jays 9U DS",
-            "homeTeamCode": "618013",
-            "awayTeam": "Orangeville Bengals 9U DS",
-            "awayTeamCode": "618026",
-            "location": "85 Paterson St, Collingwood",
-            "isCompleted": true,
-            "score": {
-              "home": 21,
-              "away": 3,
-              "scoreText": "3-21"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Sat, May 30",
-            "time": "10:00 AM",
-            "homeTeam": "Collingwood Jays 9U DS",
-            "homeTeamCode": "618013",
-            "awayTeam": "Midland Penetang Twins 9U DS",
-            "awayTeamCode": "618393",
-            "location": "85 Paterson St, Collingwood",
-            "isCompleted": true,
-            "score": {
-              "home": 21,
-              "away": 1,
-              "scoreText": "1-21"
-            }
-          },
           {
             "date": null,
             "dateText": "Sat, May 30",
@@ -942,10 +910,42 @@
               "away": 20,
               "scoreText": "20-9"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, Jun 20",
+            "time": "10:00 AM",
+            "homeTeam": "Collingwood Jays 9U DS",
+            "homeTeamCode": "618013",
+            "awayTeam": "Orillia 9U DS",
+            "awayTeamCode": "618390",
+            "location": "85 Paterson St, Collingwood",
+            "isCompleted": true,
+            "score": {
+              "home": 21,
+              "away": 1,
+              "scoreText": "1-21"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, Jun 20",
+            "time": "12:30 PM",
+            "homeTeam": "Collingwood Jays 9U DS",
+            "homeTeamCode": "618013",
+            "awayTeam": "Orillia 9U DS",
+            "awayTeamCode": "618390",
+            "location": "85 Paterson St, Collingwood",
+            "isCompleted": true,
+            "score": {
+              "home": 22,
+              "away": 3,
+              "scoreText": "3-22"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-21T23:10:29.911Z"
+        "lastUpdated": "2026-06-22T02:07:01.040Z"
       },
       "618026": {
         "teamCode": "618026",
@@ -1035,7 +1035,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-21T23:10:29.911Z"
+        "lastUpdated": "2026-06-22T02:07:01.040Z"
       },
       "618052": {
         "teamCode": "618052",
@@ -1125,7 +1125,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-21T23:10:29.911Z"
+        "lastUpdated": "2026-06-22T02:07:01.040Z"
       },
       "618065": {
         "teamCode": "618065",
@@ -1215,30 +1215,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-21T23:10:29.911Z"
+        "lastUpdated": "2026-06-22T02:07:01.040Z"
       },
       "618390": {
         "teamCode": "618390",
         "totalGames": 16,
-        "playedGames": 4,
+        "playedGames": 6,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sat, May 9",
-            "time": "3:30 PM",
-            "homeTeam": "Barrie Baycats 9U DS",
-            "homeTeamCode": "612797",
-            "awayTeam": "Orillia 9U DS",
-            "awayTeamCode": "618390",
-            "location": "59 Lampman Lane, Barrie",
-            "isCompleted": true,
-            "score": {
-              "home": 18,
-              "away": 6,
-              "scoreText": "6-18"
-            }
-          },
           {
             "date": null,
             "dateText": "Sat, May 23",
@@ -1286,10 +1270,42 @@
               "away": 7,
               "scoreText": "7-23"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, Jun 20",
+            "time": "10:00 AM",
+            "homeTeam": "Collingwood Jays 9U DS",
+            "homeTeamCode": "618013",
+            "awayTeam": "Orillia 9U DS",
+            "awayTeamCode": "618390",
+            "location": "85 Paterson St, Collingwood",
+            "isCompleted": true,
+            "score": {
+              "home": 21,
+              "away": 1,
+              "scoreText": "1-21"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, Jun 20",
+            "time": "12:30 PM",
+            "homeTeam": "Collingwood Jays 9U DS",
+            "homeTeamCode": "618013",
+            "awayTeam": "Orillia 9U DS",
+            "awayTeamCode": "618390",
+            "location": "85 Paterson St, Collingwood",
+            "isCompleted": true,
+            "score": {
+              "home": 22,
+              "away": 3,
+              "scoreText": "3-22"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-21T23:10:29.911Z"
+        "lastUpdated": "2026-06-22T02:07:01.040Z"
       },
       "618393": {
         "teamCode": "618393",
@@ -1379,7 +1395,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-21T23:10:29.911Z"
+        "lastUpdated": "2026-06-22T02:07:01.040Z"
       },
       "618477": {
         "teamCode": "618477",
@@ -1469,7 +1485,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-21T23:10:29.911Z"
+        "lastUpdated": "2026-06-22T02:07:01.040Z"
       }
     },
     "allGames": [
@@ -2526,8 +2542,12 @@
         "awayTeam": "Orillia 9U DS",
         "awayTeamCode": "618390",
         "location": "85 Paterson St, Collingwood",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 21,
+          "away": 1,
+          "scoreText": "1-21"
+        }
       },
       {
         "date": null,
@@ -2538,8 +2558,12 @@
         "awayTeam": "Orillia 9U DS",
         "awayTeamCode": "618390",
         "location": "85 Paterson St, Collingwood",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 22,
+          "away": 3,
+          "scoreText": "3-22"
+        }
       },
       {
         "date": null,
@@ -3185,14 +3209,14 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-06-21T23:10:29.911Z",
+    "lastUpdated": "2026-06-22T02:07:01.040Z",
     "totalGames": 112
   },
   "summary": {
     "totalTeams": 14,
     "totalGames": 112,
-    "completedGames": 51,
-    "upcomingGames": 61,
+    "completedGames": 53,
+    "upcomingGames": 59,
     "topTeam": {
       "team": "Vaughan Vikings 9U DS",
       "teamCode": "617188",
@@ -3209,6 +3233,6 @@
       "date": "Sat, May 16",
       "location": "McLean Park"
     },
-    "lastUpdated": "2026-06-21T23:10:50.247Z"
+    "lastUpdated": "2026-06-22T02:07:22.157Z"
   }
 }
