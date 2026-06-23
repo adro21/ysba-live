@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T14:40:22.917Z",
+  "lastUpdated": "2026-06-23T17:18:46.646Z",
   "totalGames": 190,
   "games": [
     {
@@ -25,8 +25,12 @@
       "awayTeam": "Vaughan",
       "awayTeamCode": "892644",
       "location": "Chatfield — Vaughan",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 3,
+        "away": 12,
+        "scoreText": "12-3"
+      },
       "division": "10U",
       "tier": "interlock-all-tiers"
     },
@@ -516,6 +520,24 @@
     },
     {
       "date": null,
+      "dateText": "Thu, May 7",
+      "time": "6:30 PM",
+      "homeTeam": "Barrie Baycats 9U AA",
+      "homeTeamCode": "612776",
+      "awayTeam": "Newmarket Hawks 9U AA",
+      "awayTeamCode": "617899",
+      "location": "Barrie Sports Complex - Pinwheel #13",
+      "isCompleted": true,
+      "score": {
+        "home": 7,
+        "away": 13,
+        "scoreText": "13-7"
+      },
+      "division": "9U",
+      "tier": "rep-tier-2"
+    },
+    {
+      "date": null,
       "dateText": "Tue, May 12",
       "time": "6:00 PM",
       "homeTeam": "Richmond Hill Phoenix 9U A",
@@ -528,6 +550,42 @@
         "home": 21,
         "away": 6,
         "scoreText": "6-21"
+      },
+      "division": "9U",
+      "tier": "rep-tier-2"
+    },
+    {
+      "date": null,
+      "dateText": "Tue, May 12",
+      "time": "6:00 PM",
+      "homeTeam": "Vaughan Vikings 9U AA",
+      "homeTeamCode": "617171",
+      "awayTeam": "Caledon Nationals 9U AA",
+      "awayTeamCode": "618472",
+      "location": "Maple Community Centre",
+      "isCompleted": true,
+      "score": {
+        "home": 5,
+        "away": 18,
+        "scoreText": "18-5"
+      },
+      "division": "9U",
+      "tier": "rep-tier-2"
+    },
+    {
+      "date": null,
+      "dateText": "Tue, May 12",
+      "time": "6:30 PM",
+      "homeTeam": "Markham Mariners 9U AA",
+      "homeTeamCode": "617874",
+      "awayTeam": "Newmarket Hawks 9U AA",
+      "awayTeamCode": "617899",
+      "location": "Morgan Park",
+      "isCompleted": true,
+      "score": {
+        "home": 8,
+        "away": 16,
+        "scoreText": "16-8"
       },
       "division": "9U",
       "tier": "rep-tier-2"
@@ -570,129 +628,93 @@
     },
     {
       "date": null,
-      "dateText": "Thu, May 21",
-      "time": "6:00 PM",
-      "homeTeam": "Newmarket Hawks 9U A",
-      "homeTeamCode": "617898",
-      "awayTeam": "Barrie Baycats 9U A",
-      "awayTeamCode": "612777",
-      "location": "Fairgrounds Park, Diamond #2",
-      "isCompleted": true,
-      "score": {
-        "home": 18,
-        "away": 7,
-        "scoreText": "7-18"
-      },
-      "division": "9U",
-      "tier": "rep-tier-2"
-    },
-    {
-      "date": null,
-      "dateText": "Thu, May 21",
-      "time": "6:00 PM",
-      "homeTeam": "Richmond Hill Phoenix 9U A",
-      "homeTeamCode": "617846",
-      "awayTeam": "Orangeville Bengals 9U A",
-      "awayTeamCode": "618018",
-      "location": "Richmond Green #3",
-      "isCompleted": true,
-      "score": {
-        "home": 10,
-        "away": 12,
-        "scoreText": "12-10"
-      },
-      "division": "9U",
-      "tier": "rep-tier-2"
-    },
-    {
-      "date": null,
-      "dateText": "Tue, May 26",
-      "time": "6:00 PM",
-      "homeTeam": "Richmond Hill Phoenix 9U A",
-      "homeTeamCode": "617846",
-      "awayTeam": "Georgina Bulldogs 9U B",
-      "awayTeamCode": "625731",
-      "location": "Richmond Green #3",
-      "isCompleted": true,
-      "score": {
-        "home": 12,
-        "away": 0,
-        "scoreText": "0-12"
-      },
-      "division": "9U",
-      "tier": "rep-tier-2"
-    },
-    {
-      "date": null,
-      "dateText": "Tue, May 26",
-      "time": "6:00 PM",
-      "homeTeam": "Bradford Tigers 9U A",
-      "homeTeamCode": "617943",
-      "awayTeam": "Aurora-King Jays 9U A",
-      "awayTeamCode": "617968",
-      "location": "Magani 3",
-      "isCompleted": true,
-      "score": {
-        "home": 16,
-        "away": 0,
-        "scoreText": "0-16"
-      },
-      "division": "9U",
-      "tier": "rep-tier-2"
-    },
-    {
-      "date": null,
-      "dateText": "Tue, May 26",
+      "dateText": "Fri, May 15",
       "time": "6:30 PM",
-      "homeTeam": "Barrie Baycats 9U A",
-      "homeTeamCode": "612777",
-      "awayTeam": "Orillia 9U A",
-      "awayTeamCode": "618380",
-      "location": "Barrie Sports Complex, Diamond 12",
+      "homeTeam": "Newmarket Hawks 9U AA",
+      "homeTeamCode": "617899",
+      "awayTeam": "Aurora-King Jays 9U AA",
+      "awayTeamCode": "617967",
+      "location": "Fairgrounds #2 - Diamond 2 (Southwest Diamond)",
       "isCompleted": true,
       "score": {
         "home": 17,
-        "away": 16,
-        "scoreText": "16-17"
+        "away": 2,
+        "scoreText": "2-17"
       },
       "division": "9U",
       "tier": "rep-tier-2"
     },
     {
       "date": null,
-      "dateText": "Thu, May 28",
-      "time": "6:15 PM",
-      "homeTeam": "Georgina Bulldogs 9U B",
-      "homeTeamCode": "625731",
-      "awayTeam": "Bradford Tigers 9U A",
-      "awayTeamCode": "617943",
-      "location": "Georgina ROC",
-      "isCompleted": true,
-      "score": {
-        "home": 19,
-        "away": 15,
-        "scoreText": "15-19"
-      },
-      "division": "9U",
-      "tier": "rep-tier-2"
-    },
-    {
-      "date": null,
-      "dateText": "Thu, May 28",
+      "dateText": "Sun, May 17",
       "time": "6:30 PM",
-      "homeTeam": "Orangeville Bengals 9U A",
-      "homeTeamCode": "618018",
-      "awayTeam": "Newmarket Hawks 9U A",
-      "awayTeamCode": "617898",
-      "location": "Caledon Fairgrounds",
+      "homeTeam": "Aurora-King Jays 9U AA",
+      "homeTeamCode": "617967",
+      "awayTeam": "Caledon Nationals 9U AA",
+      "awayTeamCode": "618472",
+      "location": "Town Park - Aurora (Southwest Corner)",
       "isCompleted": true,
       "score": {
-        "home": 24,
-        "away": 13,
-        "scoreText": "13-24"
+        "home": 1,
+        "away": 16,
+        "scoreText": "16-1"
       },
       "division": "9U",
       "tier": "rep-tier-2"
+    },
+    {
+      "date": null,
+      "dateText": "Mon, May 18",
+      "time": "6:30 PM",
+      "homeTeam": "Caledon Nationals 9U AA",
+      "homeTeamCode": "618472",
+      "awayTeam": "Stouffville 9U AA",
+      "awayTeamCode": "617212",
+      "location": "Jays Care Diamond (Bolton Camp)",
+      "isCompleted": true,
+      "score": {
+        "home": 13,
+        "away": 5,
+        "scoreText": "5-13"
+      },
+      "division": "9U",
+      "tier": "rep-tier-2"
+    },
+    {
+      "date": null,
+      "dateText": "Tue, May 19",
+      "time": "6:00 PM",
+      "homeTeam": "Stouffville 9U AA",
+      "homeTeamCode": "617212",
+      "awayTeam": "Markham Mariners 9U AA",
+      "awayTeamCode": "617874",
+      "location": "Bethesda Sports Fields Diamond #3",
+      "isCompleted": true,
+      "score": {
+        "home": 3,
+        "away": 24,
+        "scoreText": "24-3"
+      },
+      "division": "9U",
+      "tier": "rep-tier-2"
+    },
+    {
+      "date": null,
+      "dateText": "Thu, May 7",
+      "time": "6:30 PM",
+      "homeTeam": "Barrie Baycats 9U AA",
+      "homeTeamCode": "612776",
+      "awayTeam": "Newmarket Hawks 9U AA",
+      "awayTeamCode": "617899",
+      "location": "Barrie Sports Complex - Pinwheel #13",
+      "isCompleted": true,
+      "score": {
+        "home": 7,
+        "away": 13,
+        "scoreText": "13-7"
+      },
+      "division": "9U",
+      "tier": "rep-tier-3"
     },
     {
       "date": null,
@@ -708,6 +730,42 @@
         "home": 21,
         "away": 6,
         "scoreText": "6-21"
+      },
+      "division": "9U",
+      "tier": "rep-tier-3"
+    },
+    {
+      "date": null,
+      "dateText": "Tue, May 12",
+      "time": "6:00 PM",
+      "homeTeam": "Vaughan Vikings 9U AA",
+      "homeTeamCode": "617171",
+      "awayTeam": "Caledon Nationals 9U AA",
+      "awayTeamCode": "618472",
+      "location": "Maple Community Centre",
+      "isCompleted": true,
+      "score": {
+        "home": 5,
+        "away": 18,
+        "scoreText": "18-5"
+      },
+      "division": "9U",
+      "tier": "rep-tier-3"
+    },
+    {
+      "date": null,
+      "dateText": "Tue, May 12",
+      "time": "6:30 PM",
+      "homeTeam": "Markham Mariners 9U AA",
+      "homeTeamCode": "617874",
+      "awayTeam": "Newmarket Hawks 9U AA",
+      "awayTeamCode": "617899",
+      "location": "Morgan Park",
+      "isCompleted": true,
+      "score": {
+        "home": 8,
+        "away": 16,
+        "scoreText": "16-8"
       },
       "division": "9U",
       "tier": "rep-tier-3"
@@ -750,126 +808,72 @@
     },
     {
       "date": null,
-      "dateText": "Thu, May 21",
-      "time": "6:00 PM",
-      "homeTeam": "Newmarket Hawks 9U A",
-      "homeTeamCode": "617898",
-      "awayTeam": "Barrie Baycats 9U A",
-      "awayTeamCode": "612777",
-      "location": "Fairgrounds Park, Diamond #2",
-      "isCompleted": true,
-      "score": {
-        "home": 18,
-        "away": 7,
-        "scoreText": "7-18"
-      },
-      "division": "9U",
-      "tier": "rep-tier-3"
-    },
-    {
-      "date": null,
-      "dateText": "Thu, May 21",
-      "time": "6:00 PM",
-      "homeTeam": "Richmond Hill Phoenix 9U A",
-      "homeTeamCode": "617846",
-      "awayTeam": "Orangeville Bengals 9U A",
-      "awayTeamCode": "618018",
-      "location": "Richmond Green #3",
-      "isCompleted": true,
-      "score": {
-        "home": 10,
-        "away": 12,
-        "scoreText": "12-10"
-      },
-      "division": "9U",
-      "tier": "rep-tier-3"
-    },
-    {
-      "date": null,
-      "dateText": "Tue, May 26",
-      "time": "6:00 PM",
-      "homeTeam": "Richmond Hill Phoenix 9U A",
-      "homeTeamCode": "617846",
-      "awayTeam": "Georgina Bulldogs 9U B",
-      "awayTeamCode": "625731",
-      "location": "Richmond Green #3",
-      "isCompleted": true,
-      "score": {
-        "home": 12,
-        "away": 0,
-        "scoreText": "0-12"
-      },
-      "division": "9U",
-      "tier": "rep-tier-3"
-    },
-    {
-      "date": null,
-      "dateText": "Tue, May 26",
-      "time": "6:00 PM",
-      "homeTeam": "Bradford Tigers 9U A",
-      "homeTeamCode": "617943",
-      "awayTeam": "Aurora-King Jays 9U A",
-      "awayTeamCode": "617968",
-      "location": "Magani 3",
-      "isCompleted": true,
-      "score": {
-        "home": 16,
-        "away": 0,
-        "scoreText": "0-16"
-      },
-      "division": "9U",
-      "tier": "rep-tier-3"
-    },
-    {
-      "date": null,
-      "dateText": "Tue, May 26",
+      "dateText": "Fri, May 15",
       "time": "6:30 PM",
-      "homeTeam": "Barrie Baycats 9U A",
-      "homeTeamCode": "612777",
-      "awayTeam": "Orillia 9U A",
-      "awayTeamCode": "618380",
-      "location": "Barrie Sports Complex, Diamond 12",
+      "homeTeam": "Newmarket Hawks 9U AA",
+      "homeTeamCode": "617899",
+      "awayTeam": "Aurora-King Jays 9U AA",
+      "awayTeamCode": "617967",
+      "location": "Fairgrounds #2 - Diamond 2 (Southwest Diamond)",
       "isCompleted": true,
       "score": {
         "home": 17,
-        "away": 16,
-        "scoreText": "16-17"
+        "away": 2,
+        "scoreText": "2-17"
       },
       "division": "9U",
       "tier": "rep-tier-3"
     },
     {
       "date": null,
-      "dateText": "Thu, May 28",
-      "time": "6:15 PM",
-      "homeTeam": "Georgina Bulldogs 9U B",
-      "homeTeamCode": "625731",
-      "awayTeam": "Bradford Tigers 9U A",
-      "awayTeamCode": "617943",
-      "location": "Georgina ROC",
-      "isCompleted": true,
-      "score": {
-        "home": 19,
-        "away": 15,
-        "scoreText": "15-19"
-      },
-      "division": "9U",
-      "tier": "rep-tier-3"
-    },
-    {
-      "date": null,
-      "dateText": "Thu, May 28",
+      "dateText": "Sun, May 17",
       "time": "6:30 PM",
-      "homeTeam": "Orangeville Bengals 9U A",
-      "homeTeamCode": "618018",
-      "awayTeam": "Newmarket Hawks 9U A",
-      "awayTeamCode": "617898",
-      "location": "Caledon Fairgrounds",
+      "homeTeam": "Aurora-King Jays 9U AA",
+      "homeTeamCode": "617967",
+      "awayTeam": "Caledon Nationals 9U AA",
+      "awayTeamCode": "618472",
+      "location": "Town Park - Aurora (Southwest Corner)",
       "isCompleted": true,
       "score": {
-        "home": 24,
-        "away": 13,
-        "scoreText": "13-24"
+        "home": 1,
+        "away": 16,
+        "scoreText": "16-1"
+      },
+      "division": "9U",
+      "tier": "rep-tier-3"
+    },
+    {
+      "date": null,
+      "dateText": "Mon, May 18",
+      "time": "6:30 PM",
+      "homeTeam": "Caledon Nationals 9U AA",
+      "homeTeamCode": "618472",
+      "awayTeam": "Stouffville 9U AA",
+      "awayTeamCode": "617212",
+      "location": "Jays Care Diamond (Bolton Camp)",
+      "isCompleted": true,
+      "score": {
+        "home": 13,
+        "away": 5,
+        "scoreText": "5-13"
+      },
+      "division": "9U",
+      "tier": "rep-tier-3"
+    },
+    {
+      "date": null,
+      "dateText": "Tue, May 19",
+      "time": "6:00 PM",
+      "homeTeam": "Stouffville 9U AA",
+      "homeTeamCode": "617212",
+      "awayTeam": "Markham Mariners 9U AA",
+      "awayTeamCode": "617874",
+      "location": "Bethesda Sports Fields Diamond #3",
+      "isCompleted": true,
+      "score": {
+        "home": 3,
+        "away": 24,
+        "scoreText": "24-3"
       },
       "division": "9U",
       "tier": "rep-tier-3"
