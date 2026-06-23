@@ -74,6 +74,24 @@
         }
       },
       {
+        "position": 6,
+        "team": "Midland Penetang Twins 9U DS",
+        "teamCode": "618393",
+        "record": {
+          "gamesPlayed": 7,
+          "wins": 5,
+          "losses": 2,
+          "ties": 0,
+          "winPercentage": "0.714"
+        },
+        "stats": {
+          "points": 10,
+          "runsFor": 80,
+          "runsAgainst": 78,
+          "runDifferential": 2
+        }
+      },
+      {
         "position": 3,
         "team": "Markham Mariners 9U DS",
         "teamCode": "617891",
@@ -96,39 +114,21 @@
         "team": "Barrie Baycats 9U DS",
         "teamCode": "612797",
         "record": {
-          "gamesPlayed": 3,
+          "gamesPlayed": 5,
           "wins": 2,
-          "losses": 1,
+          "losses": 3,
           "ties": 0,
-          "winPercentage": "0.667"
+          "winPercentage": "0.400"
         },
         "stats": {
           "points": 4,
-          "runsFor": 40,
-          "runsAgainst": 36,
-          "runDifferential": 4
+          "runsFor": 66,
+          "runsAgainst": 71,
+          "runDifferential": -5
         }
       },
       {
         "position": 7,
-        "team": "Midland Penetang Twins 9U DS",
-        "teamCode": "618393",
-        "record": {
-          "gamesPlayed": 5,
-          "wins": 3,
-          "losses": 2,
-          "ties": 0,
-          "winPercentage": "0.600"
-        },
-        "stats": {
-          "points": 6,
-          "runsFor": 45,
-          "runsAgainst": 52,
-          "runDifferential": -7
-        }
-      },
-      {
-        "position": 6,
         "team": "TNT Thunder 9U DS",
         "teamCode": "618065",
         "record": {
@@ -254,7 +254,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-06-23T00:17:20.577Z",
+    "lastUpdated": "2026-06-23T11:41:48.608Z",
     "totalTeams": 14
   },
   "schedule": {
@@ -262,7 +262,7 @@
       "612797": {
         "teamCode": "612797",
         "totalGames": 16,
-        "playedGames": 3,
+        "playedGames": 5,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -279,6 +279,38 @@
               "home": 18,
               "away": 6,
               "scoreText": "6-18"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, Jun 6",
+            "time": "10:00 AM",
+            "homeTeam": "Midland Penetang Twins 9U DS",
+            "homeTeamCode": "618393",
+            "awayTeam": "Barrie Baycats 9U DS",
+            "awayTeamCode": "612797",
+            "location": "Little Lake Park",
+            "isCompleted": true,
+            "score": {
+              "home": 21,
+              "away": 15,
+              "scoreText": "15-21"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, Jun 6",
+            "time": "12:50 PM",
+            "homeTeam": "Midland Penetang Twins 9U DS",
+            "homeTeamCode": "618393",
+            "awayTeam": "Barrie Baycats 9U DS",
+            "awayTeamCode": "612797",
+            "location": "Little Lake Park",
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 11,
+              "scoreText": "11-14"
             }
           },
           {
@@ -315,7 +347,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-23T00:17:24.984Z"
+        "lastUpdated": "2026-06-23T11:41:52.896Z"
       },
       "617187": {
         "teamCode": "617187",
@@ -405,7 +437,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-23T00:17:24.984Z"
+        "lastUpdated": "2026-06-23T11:41:52.896Z"
       },
       "617188": {
         "teamCode": "617188",
@@ -495,7 +527,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-23T00:17:24.984Z"
+        "lastUpdated": "2026-06-23T11:41:52.896Z"
       },
       "617891": {
         "teamCode": "617891",
@@ -585,7 +617,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-23T00:17:24.984Z"
+        "lastUpdated": "2026-06-23T11:41:52.896Z"
       },
       "617916": {
         "teamCode": "617916",
@@ -675,7 +707,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-23T00:17:24.984Z"
+        "lastUpdated": "2026-06-23T11:41:52.896Z"
       },
       "617954": {
         "teamCode": "617954",
@@ -765,7 +797,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-23T00:17:24.984Z"
+        "lastUpdated": "2026-06-23T11:41:52.896Z"
       },
       "617998": {
         "teamCode": "617998",
@@ -855,7 +887,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-23T00:17:24.984Z"
+        "lastUpdated": "2026-06-23T11:41:52.896Z"
       },
       "618013": {
         "teamCode": "618013",
@@ -945,7 +977,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-23T00:17:24.984Z"
+        "lastUpdated": "2026-06-23T11:41:52.896Z"
       },
       "618026": {
         "teamCode": "618026",
@@ -1035,7 +1067,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-23T00:17:24.984Z"
+        "lastUpdated": "2026-06-23T11:41:52.896Z"
       },
       "618052": {
         "teamCode": "618052",
@@ -1125,7 +1157,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-23T00:17:24.984Z"
+        "lastUpdated": "2026-06-23T11:41:52.896Z"
       },
       "618065": {
         "teamCode": "618065",
@@ -1215,7 +1247,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-23T00:17:24.984Z"
+        "lastUpdated": "2026-06-23T11:41:52.896Z"
       },
       "618390": {
         "teamCode": "618390",
@@ -1305,46 +1337,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-23T00:17:24.984Z"
+        "lastUpdated": "2026-06-23T11:41:52.896Z"
       },
       "618393": {
         "teamCode": "618393",
         "totalGames": 16,
-        "playedGames": 5,
+        "playedGames": 7,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sun, May 10",
-            "time": "10:30 AM",
-            "homeTeam": "Orangeville Bengals 9U DS",
-            "homeTeamCode": "618026",
-            "awayTeam": "Midland Penetang Twins 9U DS",
-            "awayTeamCode": "618393",
-            "location": "Springbrook Shack Diamond, 450 Town Line, Orangville",
-            "isCompleted": true,
-            "score": {
-              "home": 1,
-              "away": 14,
-              "scoreText": "14-1"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Sun, May 10",
-            "time": "1:00 PM",
-            "homeTeam": "Orangeville Bengals 9U DS",
-            "homeTeamCode": "618026",
-            "awayTeam": "Midland Penetang Twins 9U DS",
-            "awayTeamCode": "618393",
-            "location": "Springbrook Shack Diamond, 450 Town Line, Orangville",
-            "isCompleted": true,
-            "score": {
-              "home": 9,
-              "away": 12,
-              "scoreText": "12-9"
-            }
-          },
           {
             "date": null,
             "dateText": "Sat, May 23",
@@ -1392,10 +1392,42 @@
               "away": 8,
               "scoreText": "8-19"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, Jun 6",
+            "time": "10:00 AM",
+            "homeTeam": "Midland Penetang Twins 9U DS",
+            "homeTeamCode": "618393",
+            "awayTeam": "Barrie Baycats 9U DS",
+            "awayTeamCode": "612797",
+            "location": "Little Lake Park",
+            "isCompleted": true,
+            "score": {
+              "home": 21,
+              "away": 15,
+              "scoreText": "15-21"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, Jun 6",
+            "time": "12:50 PM",
+            "homeTeam": "Midland Penetang Twins 9U DS",
+            "homeTeamCode": "618393",
+            "awayTeam": "Barrie Baycats 9U DS",
+            "awayTeamCode": "612797",
+            "location": "Little Lake Park",
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 11,
+              "scoreText": "11-14"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-23T00:17:24.984Z"
+        "lastUpdated": "2026-06-23T11:41:52.896Z"
       },
       "618477": {
         "teamCode": "618477",
@@ -1485,7 +1517,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-23T00:17:24.984Z"
+        "lastUpdated": "2026-06-23T11:41:52.896Z"
       }
     },
     "allGames": [
@@ -2250,8 +2282,12 @@
         "awayTeam": "Barrie Baycats 9U DS",
         "awayTeamCode": "612797",
         "location": "Little Lake Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 21,
+          "away": 15,
+          "scoreText": "15-21"
+        }
       },
       {
         "date": null,
@@ -2294,8 +2330,12 @@
         "awayTeam": "Barrie Baycats 9U DS",
         "awayTeamCode": "612797",
         "location": "Little Lake Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 11,
+          "scoreText": "11-14"
+        }
       },
       {
         "date": null,
@@ -3209,14 +3249,14 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-06-23T00:17:24.984Z",
+    "lastUpdated": "2026-06-23T11:41:52.896Z",
     "totalGames": 112
   },
   "summary": {
     "totalTeams": 14,
     "totalGames": 112,
-    "completedGames": 53,
-    "upcomingGames": 59,
+    "completedGames": 55,
+    "upcomingGames": 57,
     "topTeam": {
       "team": "Vaughan Vikings 9U DS",
       "teamCode": "617188",
@@ -3233,6 +3273,6 @@
       "date": "Sat, May 16",
       "location": "McLean Park"
     },
-    "lastUpdated": "2026-06-23T00:17:45.918Z"
+    "lastUpdated": "2026-06-23T11:42:13.330Z"
   }
 }
