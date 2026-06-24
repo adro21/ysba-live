@@ -1,12 +1,18 @@
 {
   "source": "GitHub Actions",
-  "successCount": 54,
+  "successCount": 53,
   "errorCount": 0,
-  "errors": [],
-  "divisionsScraped": 54,
+  "errors": [
+    {
+      "division": "11U-interlock",
+      "tier": "all-tiers",
+      "error": "Skipped due to time budget"
+    }
+  ],
+  "divisionsScraped": 53,
   "totalDivisions": 54,
-  "duration": 493876,
-  "generatedAt": "2026-06-24T17:36:14.284Z",
+  "duration": 495128,
+  "generatedAt": "2026-06-24T19:18:53.503Z",
   "worker": {
     "version": "1.0.0",
     "nodeVersion": "v18.20.8",
