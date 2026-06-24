@@ -20,39 +20,21 @@
         }
       },
       {
-        "position": 6,
+        "position": 5,
         "team": "Markham",
         "teamCode": "892645",
         "record": {
-          "gamesPlayed": 6,
-          "wins": 5,
+          "gamesPlayed": 7,
+          "wins": 6,
           "losses": 1,
           "ties": 0,
-          "winPercentage": "0.833"
+          "winPercentage": "0.857"
         },
         "stats": {
-          "points": 10,
-          "runsFor": 62,
-          "runsAgainst": 34,
-          "runDifferential": 28
-        }
-      },
-      {
-        "position": 3,
-        "team": "Vaughan",
-        "teamCode": "892644",
-        "record": {
-          "gamesPlayed": 9,
-          "wins": 7,
-          "losses": 2,
-          "ties": 0,
-          "winPercentage": "0.778"
-        },
-        "stats": {
-          "points": 14,
-          "runsFor": 101,
-          "runsAgainst": 58,
-          "runDifferential": 43
+          "points": 12,
+          "runsFor": 71,
+          "runsAgainst": 39,
+          "runDifferential": 32
         }
       },
       {
@@ -71,6 +53,24 @@
           "runsFor": 84,
           "runsAgainst": 56,
           "runDifferential": 28
+        }
+      },
+      {
+        "position": 3,
+        "team": "Vaughan",
+        "teamCode": "892644",
+        "record": {
+          "gamesPlayed": 10,
+          "wins": 7,
+          "losses": 3,
+          "ties": 0,
+          "winPercentage": "0.700"
+        },
+        "stats": {
+          "points": 14,
+          "runsFor": 106,
+          "runsAgainst": 67,
+          "runDifferential": 39
         }
       },
       {
@@ -128,7 +128,7 @@
         }
       },
       {
-        "position": 5,
+        "position": 6,
         "team": "Aurora-King",
         "teamCode": "892642",
         "record": {
@@ -254,7 +254,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-06-24T12:37:48.157Z",
+    "lastUpdated": "2026-06-24T15:35:25.468Z",
     "totalTeams": 14
   },
   "schedule": {
@@ -404,7 +404,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-24T12:37:48.203Z"
+        "lastUpdated": "2026-06-24T15:35:25.513Z"
       },
       "892634": {
         "teamCode": "892634",
@@ -551,7 +551,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-24T12:37:48.203Z"
+        "lastUpdated": "2026-06-24T15:35:25.513Z"
       },
       "892636": {
         "teamCode": "892636",
@@ -698,7 +698,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-24T12:37:48.203Z"
+        "lastUpdated": "2026-06-24T15:35:25.514Z"
       },
       "892637": {
         "teamCode": "892637",
@@ -849,7 +849,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-24T12:37:48.203Z"
+        "lastUpdated": "2026-06-24T15:35:25.514Z"
       },
       "892638": {
         "teamCode": "892638",
@@ -988,7 +988,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-24T12:37:48.204Z"
+        "lastUpdated": "2026-06-24T15:35:25.514Z"
       },
       "892639": {
         "teamCode": "892639",
@@ -1135,7 +1135,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-24T12:37:48.204Z"
+        "lastUpdated": "2026-06-24T15:35:25.514Z"
       },
       "892640": {
         "teamCode": "892640",
@@ -1278,7 +1278,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-24T12:37:48.204Z"
+        "lastUpdated": "2026-06-24T15:35:25.514Z"
       },
       "892642": {
         "teamCode": "892642",
@@ -1421,7 +1421,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-24T12:37:48.204Z"
+        "lastUpdated": "2026-06-24T15:35:25.514Z"
       },
       "892643": {
         "teamCode": "892643",
@@ -1560,7 +1560,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-24T12:37:48.204Z"
+        "lastUpdated": "2026-06-24T15:35:25.514Z"
       },
       "892644": {
         "teamCode": "892644",
@@ -1641,8 +1641,12 @@
             "awayTeam": "Markham",
             "awayTeamCode": "892645",
             "location": "Carlton   — Toronto",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 9,
+              "scoreText": "9-5"
+            }
           }
         ],
         "nextGames": [
@@ -1707,7 +1711,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-24T12:37:48.204Z"
+        "lastUpdated": "2026-06-24T15:35:25.514Z"
       },
       "892645": {
         "teamCode": "892645",
@@ -1780,8 +1784,12 @@
             "awayTeam": "Markham",
             "awayTeamCode": "892645",
             "location": "Carlton   — Toronto",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 9,
+              "scoreText": "9-5"
+            }
           }
         ],
         "nextGames": [
@@ -1846,7 +1854,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-24T12:37:48.204Z"
+        "lastUpdated": "2026-06-24T15:35:25.514Z"
       },
       "892646": {
         "teamCode": "892646",
@@ -1985,7 +1993,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-24T12:37:48.204Z"
+        "lastUpdated": "2026-06-24T15:35:25.514Z"
       },
       "892647": {
         "teamCode": "892647",
@@ -2128,7 +2136,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-24T12:37:48.204Z"
+        "lastUpdated": "2026-06-24T15:35:25.514Z"
       },
       "892648": {
         "teamCode": "892648",
@@ -2275,7 +2283,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-24T12:37:48.204Z"
+        "lastUpdated": "2026-06-24T15:35:25.514Z"
       }
     },
     "allGames": [
@@ -3380,8 +3388,12 @@
         "awayTeam": "Markham",
         "awayTeamCode": "892645",
         "location": "Carlton   — Toronto",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 5,
+          "away": 9,
+          "scoreText": "9-5"
+        }
       },
       {
         "date": "2026-06-24T22:30:00.000Z",
@@ -4274,8 +4286,12 @@
         "awayTeam": "Markham",
         "awayTeamCode": "892645",
         "location": "Carlton   — Toronto",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 5,
+          "away": 9,
+          "scoreText": "9-5"
+        }
       },
       {
         "date": "2026-06-23T22:15:00.000Z",
@@ -4524,14 +4540,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2026-06-24T12:37:48.204Z",
+    "lastUpdated": "2026-06-24T15:35:25.514Z",
     "totalGames": 147
   },
   "summary": {
     "totalTeams": 14,
     "totalGames": 147,
-    "completedGames": 55,
-    "upcomingGames": 92,
+    "completedGames": 56,
+    "upcomingGames": 91,
     "topTeam": {
       "team": "Royal York",
       "teamCode": "892633",
@@ -4548,6 +4564,6 @@
       "date": "Wed, May 20",
       "location": "Armstrong — Diamond 1 — Newmarket"
     },
-    "lastUpdated": "2026-06-24T12:37:48.730Z"
+    "lastUpdated": "2026-06-24T15:35:26.037Z"
   }
 }
