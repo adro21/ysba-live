@@ -1,7 +1,7 @@
 {
   "standings": {
     "teams": [],
-    "lastUpdated": "2026-06-25T11:16:23.198Z",
+    "lastUpdated": "2026-06-25T13:37:00.425Z",
     "totalTeams": 0
   },
   "schedule": {
@@ -94,7 +94,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-25T11:16:25.871Z"
+        "lastUpdated": "2026-06-25T13:37:03.211Z"
       },
       "612795": {
         "teamCode": "612795",
@@ -184,30 +184,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-25T11:16:25.871Z"
+        "lastUpdated": "2026-06-25T13:37:03.211Z"
       },
       "617169": {
         "teamCode": "617169",
         "totalGames": 18,
-        "playedGames": 6,
+        "playedGames": 7,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sun, May 17",
-            "time": "4:00 PM",
-            "homeTeam": "Collingwood Jays 18U A",
-            "homeTeamCode": "618012",
-            "awayTeam": "Stayner 18U C",
-            "awayTeamCode": "617169",
-            "location": "Large Heritage Park 451 third street Collingwood (Between 2nd and third)",
-            "isCompleted": true,
-            "score": {
-              "home": 7,
-              "away": 18,
-              "scoreText": "18-7"
-            }
-          },
           {
             "date": null,
             "dateText": "Wed, May 27",
@@ -271,10 +255,26 @@
               "away": 8,
               "scoreText": "8-12"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Wed, Jun 17",
+            "time": "6:00 PM",
+            "homeTeam": "Stayner 18U C",
+            "homeTeamCode": "617169",
+            "awayTeam": "Orangeville Bengals 18U B",
+            "awayTeamCode": "618025",
+            "location": "5212 County Road 9, New Lowell.",
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 3,
+              "scoreText": "3-6"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-25T11:16:25.871Z"
+        "lastUpdated": "2026-06-25T13:37:03.211Z"
       },
       "617951": {
         "teamCode": "617951",
@@ -364,7 +364,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-25T11:16:25.871Z"
+        "lastUpdated": "2026-06-25T13:37:03.211Z"
       },
       "618012": {
         "teamCode": "618012",
@@ -454,12 +454,12 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-25T11:16:25.871Z"
+        "lastUpdated": "2026-06-25T13:37:03.211Z"
       },
       "618025": {
         "teamCode": "618025",
         "totalGames": 18,
-        "playedGames": 4,
+        "playedGames": 5,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -525,10 +525,26 @@
               "away": 10,
               "scoreText": "10-4"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Wed, Jun 17",
+            "time": "6:00 PM",
+            "homeTeam": "Stayner 18U C",
+            "homeTeamCode": "617169",
+            "awayTeam": "Orangeville Bengals 18U B",
+            "awayTeamCode": "618025",
+            "location": "5212 County Road 9, New Lowell.",
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 3,
+              "scoreText": "3-6"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-25T11:16:25.871Z"
+        "lastUpdated": "2026-06-25T13:37:03.211Z"
       },
       "618049": {
         "teamCode": "618049",
@@ -618,7 +634,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-25T11:16:25.871Z"
+        "lastUpdated": "2026-06-25T13:37:03.211Z"
       },
       "618063": {
         "teamCode": "618063",
@@ -708,7 +724,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-25T11:16:25.871Z"
+        "lastUpdated": "2026-06-25T13:37:03.211Z"
       },
       "618388": {
         "teamCode": "618388",
@@ -798,7 +814,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-25T11:16:25.871Z"
+        "lastUpdated": "2026-06-25T13:37:03.211Z"
       },
       "625723": {
         "teamCode": "625723",
@@ -888,7 +904,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-25T11:16:25.871Z"
+        "lastUpdated": "2026-06-25T13:37:03.211Z"
       },
       "628939": {
         "teamCode": "628939",
@@ -978,7 +994,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-25T11:16:25.871Z"
+        "lastUpdated": "2026-06-25T13:37:03.211Z"
       }
     },
     "allGames": [
@@ -1687,8 +1703,12 @@
         "awayTeam": "Orangeville Bengals 18U B",
         "awayTeamCode": "618025",
         "location": "5212 County Road 9, New Lowell.",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 3,
+          "scoreText": "3-6"
+        }
       },
       {
         "date": null,
@@ -2478,14 +2498,14 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-06-25T11:16:25.871Z",
+    "lastUpdated": "2026-06-25T13:37:03.211Z",
     "totalGames": 99
   },
   "summary": {
     "totalTeams": 0,
     "totalGames": 99,
-    "completedGames": 36,
-    "upcomingGames": 63,
+    "completedGames": 37,
+    "upcomingGames": 62,
     "topTeam": null,
     "highestScoringGame": {
       "homeTeam": "TNT Thunder 18U A",
@@ -2496,6 +2516,6 @@
       "date": "Mon, May 18",
       "location": "Beeton Diamond at 72 Prospect St. Beeton"
     },
-    "lastUpdated": "2026-06-25T11:17:56.126Z"
+    "lastUpdated": "2026-06-25T13:38:33.340Z"
   }
 }

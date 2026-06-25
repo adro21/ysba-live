@@ -3,6 +3,24 @@
     "teams": [
       {
         "position": 1,
+        "team": "Stayner 18U C",
+        "teamCode": "617169",
+        "record": {
+          "gamesPlayed": 8,
+          "wins": 6,
+          "losses": 1,
+          "ties": 1,
+          "winPercentage": "0.813"
+        },
+        "stats": {
+          "points": 13,
+          "runsFor": 65,
+          "runsAgainst": 46,
+          "runDifferential": 19
+        }
+      },
+      {
+        "position": 2,
         "team": "Barrie Baycats 18U A",
         "teamCode": "612795",
         "record": {
@@ -21,38 +39,20 @@
       },
       {
         "position": 3,
-        "team": "Stayner 18U C",
-        "teamCode": "617169",
-        "record": {
-          "gamesPlayed": 6,
-          "wins": 4,
-          "losses": 1,
-          "ties": 1,
-          "winPercentage": "0.750"
-        },
-        "stats": {
-          "points": 9,
-          "runsFor": 54,
-          "runsAgainst": 39,
-          "runDifferential": 15
-        }
-      },
-      {
-        "position": 2,
         "team": "Bradford Tigers 18U A - Team 1",
         "teamCode": "617951",
         "record": {
-          "gamesPlayed": 7,
+          "gamesPlayed": 8,
           "wins": 5,
-          "losses": 2,
+          "losses": 3,
           "ties": 0,
-          "winPercentage": "0.714"
+          "winPercentage": "0.625"
         },
         "stats": {
           "points": 10,
-          "runsFor": 53,
-          "runsAgainst": 30,
-          "runDifferential": 23
+          "runsFor": 57,
+          "runsAgainst": 35,
+          "runDifferential": 22
         }
       },
       {
@@ -92,24 +92,6 @@
         }
       },
       {
-        "position": 10,
-        "team": "Orangeville Bengals 18U B",
-        "teamCode": "618025",
-        "record": {
-          "gamesPlayed": 4,
-          "wins": 2,
-          "losses": 2,
-          "ties": 0,
-          "winPercentage": "0.500"
-        },
-        "stats": {
-          "points": 4,
-          "runsFor": 31,
-          "runsAgainst": 38,
-          "runDifferential": -7
-        }
-      },
-      {
         "position": 9,
         "team": "Collingwood Jays 18U A",
         "teamCode": "618012",
@@ -125,6 +107,24 @@
           "runsFor": 29,
           "runsAgainst": 33,
           "runDifferential": -4
+        }
+      },
+      {
+        "position": 10,
+        "team": "Orangeville Bengals 18U B",
+        "teamCode": "618025",
+        "record": {
+          "gamesPlayed": 5,
+          "wins": 2,
+          "losses": 3,
+          "ties": 0,
+          "winPercentage": "0.400"
+        },
+        "stats": {
+          "points": 4,
+          "runsFor": 34,
+          "runsAgainst": 44,
+          "runDifferential": -10
         }
       },
       {
@@ -200,7 +200,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-06-25T11:16:40.484Z",
+    "lastUpdated": "2026-06-25T13:37:17.621Z",
     "totalTeams": 11
   },
   "schedule": {
@@ -293,7 +293,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-25T11:16:43.181Z"
+        "lastUpdated": "2026-06-25T13:37:20.383Z"
       },
       "612795": {
         "teamCode": "612795",
@@ -383,46 +383,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-25T11:16:43.181Z"
+        "lastUpdated": "2026-06-25T13:37:20.383Z"
       },
       "617169": {
         "teamCode": "617169",
         "totalGames": 18,
-        "playedGames": 6,
+        "playedGames": 8,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sun, May 17",
-            "time": "4:00 PM",
-            "homeTeam": "Collingwood Jays 18U A",
-            "homeTeamCode": "618012",
-            "awayTeam": "Stayner 18U C",
-            "awayTeamCode": "617169",
-            "location": "Large Heritage Park 451 third street Collingwood (Between 2nd and third)",
-            "isCompleted": true,
-            "score": {
-              "home": 7,
-              "away": 18,
-              "scoreText": "18-7"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Wed, May 27",
-            "time": "6:00 PM",
-            "homeTeam": "Stayner 18U C",
-            "homeTeamCode": "617169",
-            "awayTeam": "Barrie Baycats 18U A",
-            "awayTeamCode": "612795",
-            "location": "5212 County Road 9, New Lowell.",
-            "isCompleted": true,
-            "score": {
-              "home": 9,
-              "away": 5,
-              "scoreText": "5-9"
-            }
-          },
           {
             "date": null,
             "dateText": "Wed, Jun 3",
@@ -470,33 +438,49 @@
               "away": 8,
               "scoreText": "8-12"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Wed, Jun 17",
+            "time": "6:00 PM",
+            "homeTeam": "Stayner 18U C",
+            "homeTeamCode": "617169",
+            "awayTeam": "Orangeville Bengals 18U B",
+            "awayTeamCode": "618025",
+            "location": "5212 County Road 9, New Lowell.",
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 3,
+              "scoreText": "3-6"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Wed, Jun 24",
+            "time": "6:00 PM",
+            "homeTeam": "Stayner 18U C",
+            "homeTeamCode": "617169",
+            "awayTeam": "Bradford Tigers 18U A - Team 1",
+            "awayTeamCode": "617951",
+            "location": "5212 County Road 9, New Lowell.",
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 4,
+              "scoreText": "4-5"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-25T11:16:43.181Z"
+        "lastUpdated": "2026-06-25T13:37:20.383Z"
       },
       "617951": {
         "teamCode": "617951",
         "totalGames": 18,
-        "playedGames": 7,
+        "playedGames": 8,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Mon, Jun 1",
-            "time": "8:00 PM",
-            "homeTeam": "Bradford Tigers 18U A - Team 1",
-            "homeTeamCode": "617951",
-            "awayTeam": "TNT Thunder 18U A",
-            "awayTeamCode": "618063",
-            "location": "Joe Magani Park, 3541 Concession road 11, Bradford, Diamond 4",
-            "isCompleted": true,
-            "score": {
-              "home": 9,
-              "away": 6,
-              "scoreText": "6-9"
-            }
-          },
           {
             "date": null,
             "dateText": "Thu, Jun 4",
@@ -560,10 +544,26 @@
               "away": 8,
               "scoreText": "8-12"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Wed, Jun 24",
+            "time": "6:00 PM",
+            "homeTeam": "Stayner 18U C",
+            "homeTeamCode": "617169",
+            "awayTeam": "Bradford Tigers 18U A - Team 1",
+            "awayTeamCode": "617951",
+            "location": "5212 County Road 9, New Lowell.",
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 4,
+              "scoreText": "4-5"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-25T11:16:43.181Z"
+        "lastUpdated": "2026-06-25T13:37:20.383Z"
       },
       "618012": {
         "teamCode": "618012",
@@ -653,12 +653,12 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-25T11:16:43.181Z"
+        "lastUpdated": "2026-06-25T13:37:20.383Z"
       },
       "618025": {
         "teamCode": "618025",
         "totalGames": 18,
-        "playedGames": 4,
+        "playedGames": 5,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -724,10 +724,26 @@
               "away": 10,
               "scoreText": "10-4"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Wed, Jun 17",
+            "time": "6:00 PM",
+            "homeTeam": "Stayner 18U C",
+            "homeTeamCode": "617169",
+            "awayTeam": "Orangeville Bengals 18U B",
+            "awayTeamCode": "618025",
+            "location": "5212 County Road 9, New Lowell.",
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 3,
+              "scoreText": "3-6"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-25T11:16:43.181Z"
+        "lastUpdated": "2026-06-25T13:37:20.383Z"
       },
       "618049": {
         "teamCode": "618049",
@@ -817,7 +833,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-25T11:16:43.181Z"
+        "lastUpdated": "2026-06-25T13:37:20.383Z"
       },
       "618063": {
         "teamCode": "618063",
@@ -907,7 +923,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-25T11:16:43.181Z"
+        "lastUpdated": "2026-06-25T13:37:20.383Z"
       },
       "618388": {
         "teamCode": "618388",
@@ -997,7 +1013,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-25T11:16:43.181Z"
+        "lastUpdated": "2026-06-25T13:37:20.383Z"
       },
       "625723": {
         "teamCode": "625723",
@@ -1087,7 +1103,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-25T11:16:43.181Z"
+        "lastUpdated": "2026-06-25T13:37:20.383Z"
       },
       "628939": {
         "teamCode": "628939",
@@ -1177,7 +1193,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-25T11:16:43.181Z"
+        "lastUpdated": "2026-06-25T13:37:20.383Z"
       }
     },
     "allGames": [
@@ -1886,8 +1902,12 @@
         "awayTeam": "Orangeville Bengals 18U B",
         "awayTeamCode": "618025",
         "location": "5212 County Road 9, New Lowell.",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 3,
+          "scoreText": "3-6"
+        }
       },
       {
         "date": null,
@@ -1994,8 +2014,12 @@
         "awayTeam": "Bradford Tigers 18U A - Team 1",
         "awayTeamCode": "617951",
         "location": "5212 County Road 9, New Lowell.",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 5,
+          "away": 4,
+          "scoreText": "4-5"
+        }
       },
       {
         "date": null,
@@ -2677,20 +2701,20 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-06-25T11:16:43.181Z",
+    "lastUpdated": "2026-06-25T13:37:20.383Z",
     "totalGames": 99
   },
   "summary": {
     "totalTeams": 11,
     "totalGames": 99,
-    "completedGames": 36,
-    "upcomingGames": 63,
+    "completedGames": 38,
+    "upcomingGames": 61,
     "topTeam": {
-      "team": "Barrie Baycats 18U A",
-      "teamCode": "612795",
-      "wins": 5,
+      "team": "Stayner 18U C",
+      "teamCode": "617169",
+      "wins": 6,
       "losses": 1,
-      "winPercentage": "0.786"
+      "winPercentage": "0.813"
     },
     "highestScoringGame": {
       "homeTeam": "TNT Thunder 18U A",
@@ -2701,6 +2725,6 @@
       "date": "Mon, May 18",
       "location": "Beeton Diamond at 72 Prospect St. Beeton"
     },
-    "lastUpdated": "2026-06-25T11:17:56.126Z"
+    "lastUpdated": "2026-06-25T13:38:33.340Z"
   }
 }
