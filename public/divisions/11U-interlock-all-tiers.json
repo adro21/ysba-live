@@ -6,17 +6,17 @@
         "team": "Etobicoke",
         "teamCode": "883728",
         "record": {
-          "gamesPlayed": 10,
-          "wins": 9,
+          "gamesPlayed": 11,
+          "wins": 10,
           "losses": 1,
           "ties": 0,
-          "winPercentage": "0.900"
+          "winPercentage": "0.909"
         },
         "stats": {
-          "points": 18,
-          "runsFor": 111,
-          "runsAgainst": 42,
-          "runDifferential": 69
+          "points": 20,
+          "runsFor": 121,
+          "runsAgainst": 43,
+          "runDifferential": 78
         }
       },
       {
@@ -56,24 +56,6 @@
         }
       },
       {
-        "position": 6,
-        "team": "Richmond Hill",
-        "teamCode": "883732",
-        "record": {
-          "gamesPlayed": 6,
-          "wins": 4,
-          "losses": 2,
-          "ties": 0,
-          "winPercentage": "0.667"
-        },
-        "stats": {
-          "points": 8,
-          "runsFor": 33,
-          "runsAgainst": 28,
-          "runDifferential": 5
-        }
-      },
-      {
         "position": 5,
         "team": "Whitby",
         "teamCode": "883731",
@@ -107,6 +89,24 @@
           "runsFor": 75,
           "runsAgainst": 57,
           "runDifferential": 18
+        }
+      },
+      {
+        "position": 6,
+        "team": "Richmond Hill",
+        "teamCode": "883732",
+        "record": {
+          "gamesPlayed": 7,
+          "wins": 4,
+          "losses": 3,
+          "ties": 0,
+          "winPercentage": "0.571"
+        },
+        "stats": {
+          "points": 8,
+          "runsFor": 34,
+          "runsAgainst": 38,
+          "runDifferential": -4
         }
       },
       {
@@ -218,7 +218,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-06-25T00:08:37.380Z",
+    "lastUpdated": "2026-06-25T04:46:55.024Z",
     "totalTeams": 12
   },
   "schedule": {
@@ -372,7 +372,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-25T00:08:37.400Z"
+        "lastUpdated": "2026-06-25T04:46:55.045Z"
       },
       "883723": {
         "teamCode": "883723",
@@ -515,7 +515,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-25T00:08:37.400Z"
+        "lastUpdated": "2026-06-25T04:46:55.045Z"
       },
       "883724": {
         "teamCode": "883724",
@@ -654,7 +654,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-25T00:08:37.400Z"
+        "lastUpdated": "2026-06-25T04:46:55.045Z"
       },
       "883725": {
         "teamCode": "883725",
@@ -805,7 +805,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-25T00:08:37.400Z"
+        "lastUpdated": "2026-06-25T04:46:55.045Z"
       },
       "883726": {
         "teamCode": "883726",
@@ -956,7 +956,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-25T00:08:37.401Z"
+        "lastUpdated": "2026-06-25T04:46:55.045Z"
       },
       "883727": {
         "teamCode": "883727",
@@ -1099,7 +1099,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-25T00:08:37.401Z"
+        "lastUpdated": "2026-06-25T04:46:55.045Z"
       },
       "883728": {
         "teamCode": "883728",
@@ -1160,8 +1160,12 @@
             "awayTeam": "Richmond Hill",
             "awayTeamCode": "883732",
             "location": "Harding Park — Richmond Hill",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 1,
+              "scoreText": "1-10"
+            }
           },
           {
             "date": "2026-06-24T23:00:00.000Z",
@@ -1238,7 +1242,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-25T00:08:37.401Z"
+        "lastUpdated": "2026-06-25T04:46:55.045Z"
       },
       "883729": {
         "teamCode": "883729",
@@ -1381,7 +1385,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-25T00:08:37.401Z"
+        "lastUpdated": "2026-06-25T04:46:55.045Z"
       },
       "883730": {
         "teamCode": "883730",
@@ -1528,7 +1532,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-25T00:08:37.401Z"
+        "lastUpdated": "2026-06-25T04:46:55.045Z"
       },
       "883731": {
         "teamCode": "883731",
@@ -1675,7 +1679,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-25T00:08:37.401Z"
+        "lastUpdated": "2026-06-25T04:46:55.045Z"
       },
       "883732": {
         "teamCode": "883732",
@@ -1756,8 +1760,12 @@
             "awayTeam": "Richmond Hill",
             "awayTeamCode": "883732",
             "location": "Harding Park — Richmond Hill",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 1,
+              "scoreText": "1-10"
+            }
           }
         ],
         "nextGames": [
@@ -1822,7 +1830,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-25T00:08:37.401Z"
+        "lastUpdated": "2026-06-25T04:46:55.045Z"
       },
       "883733": {
         "teamCode": "883733",
@@ -1969,7 +1977,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-25T00:08:37.401Z"
+        "lastUpdated": "2026-06-25T04:46:55.045Z"
       }
     },
     "allGames": [
@@ -2866,8 +2874,12 @@
         "awayTeam": "Richmond Hill",
         "awayTeamCode": "883732",
         "location": "Harding Park — Richmond Hill",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 1,
+          "scoreText": "1-10"
+        }
       },
       {
         "date": "2026-06-24T23:00:00.000Z",
@@ -3480,8 +3492,12 @@
         "awayTeam": "Richmond Hill",
         "awayTeamCode": "883732",
         "location": "Harding Park — Richmond Hill",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 1,
+          "scoreText": "1-10"
+        }
       },
       {
         "date": "2026-06-22T22:00:00.000Z",
@@ -3710,20 +3726,20 @@
         "score": null
       }
     ],
-    "lastUpdated": "2026-06-25T00:08:37.401Z",
+    "lastUpdated": "2026-06-25T04:46:55.045Z",
     "totalGames": 106
   },
   "summary": {
     "totalTeams": 12,
     "totalGames": 106,
-    "completedGames": 50,
-    "upcomingGames": 56,
+    "completedGames": 51,
+    "upcomingGames": 55,
     "topTeam": {
       "team": "Etobicoke",
       "teamCode": "883728",
-      "wins": 9,
+      "wins": 10,
       "losses": 1,
-      "winPercentage": "0.900"
+      "winPercentage": "0.909"
     },
     "highestScoringGame": {
       "homeTeam": "Etobicoke",
@@ -3734,6 +3750,6 @@
       "date": "Sun, May 31",
       "location": "North Hill — Diamond 3 — Bolton"
     },
-    "lastUpdated": "2026-06-25T00:08:37.401Z"
+    "lastUpdated": "2026-06-25T04:46:55.045Z"
   }
 }
