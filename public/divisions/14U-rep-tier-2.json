@@ -2,39 +2,39 @@
   "standings": {
     "teams": [
       {
-        "position": 2,
+        "position": 1,
         "team": "Barrie Baycats 14U AA",
         "teamCode": "612788",
         "record": {
-          "gamesPlayed": 7,
-          "wins": 7,
+          "gamesPlayed": 8,
+          "wins": 8,
           "losses": 0,
           "ties": 0,
           "winPercentage": "1.000"
         },
         "stats": {
-          "points": 14,
-          "runsFor": 93,
-          "runsAgainst": 44,
-          "runDifferential": 49
+          "points": 16,
+          "runsFor": 103,
+          "runsAgainst": 47,
+          "runDifferential": 56
         }
       },
       {
-        "position": 1,
+        "position": 2,
         "team": "Richmond Hill Phoenix 14U AA",
         "teamCode": "617856",
         "record": {
-          "gamesPlayed": 8,
+          "gamesPlayed": 9,
           "wins": 7,
-          "losses": 1,
+          "losses": 2,
           "ties": 0,
-          "winPercentage": "0.875"
+          "winPercentage": "0.778"
         },
         "stats": {
           "points": 14,
-          "runsFor": 79,
-          "runsAgainst": 39,
-          "runDifferential": 40
+          "runsFor": 87,
+          "runsAgainst": 51,
+          "runDifferential": 36
         }
       },
       {
@@ -60,17 +60,17 @@
         "team": "Markham Mariners 14U AA",
         "teamCode": "617884",
         "record": {
-          "gamesPlayed": 5,
-          "wins": 2,
+          "gamesPlayed": 6,
+          "wins": 3,
           "losses": 3,
           "ties": 0,
-          "winPercentage": "0.400"
+          "winPercentage": "0.500"
         },
         "stats": {
-          "points": 4,
-          "runsFor": 40,
-          "runsAgainst": 38,
-          "runDifferential": 2
+          "points": 6,
+          "runsFor": 52,
+          "runsAgainst": 46,
+          "runDifferential": 6
         }
       },
       {
@@ -96,17 +96,17 @@
         "team": "Newmarket Hawks 14U AA",
         "teamCode": "617912",
         "record": {
-          "gamesPlayed": 6,
+          "gamesPlayed": 7,
           "wins": 1,
-          "losses": 5,
+          "losses": 6,
           "ties": 0,
-          "winPercentage": "0.167"
+          "winPercentage": "0.143"
         },
         "stats": {
           "points": 2,
-          "runsFor": 43,
-          "runsAgainst": 69,
-          "runDifferential": -26
+          "runsFor": 46,
+          "runsAgainst": 79,
+          "runDifferential": -33
         }
       },
       {
@@ -128,7 +128,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-06-25T13:36:01.496Z",
+    "lastUpdated": "2026-06-25T18:33:26.098Z",
     "totalTeams": 7
   },
   "schedule": {
@@ -140,30 +140,14 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-06-25T13:36:06.003Z"
+        "lastUpdated": "2026-06-25T18:33:30.652Z"
       },
       "612788": {
         "teamCode": "612788",
         "totalGames": 20,
-        "playedGames": 7,
+        "playedGames": 8,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sun, May 17",
-            "time": "1:00 PM",
-            "homeTeam": "Barrie Baycats 14U AA",
-            "homeTeamCode": "612788",
-            "awayTeam": "Caledon Nationals 14U AA",
-            "awayTeamCode": "618465",
-            "location": "Lennox Park - B",
-            "isCompleted": true,
-            "score": {
-              "home": 12,
-              "away": 11,
-              "scoreText": "11-12"
-            }
-          },
           {
             "date": null,
             "dateText": "Wed, May 20",
@@ -227,10 +211,26 @@
               "away": 22,
               "scoreText": "22-4"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Wed, Jun 24",
+            "time": "8:00 PM",
+            "homeTeam": "Newmarket Hawks 14U AA",
+            "homeTeamCode": "617912",
+            "awayTeam": "Barrie Baycats 14U AA",
+            "awayTeamCode": "612788",
+            "location": "Whipper Billy Watson Park",
+            "isCompleted": true,
+            "score": {
+              "home": 3,
+              "away": 10,
+              "scoreText": "10-3"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-25T13:36:06.003Z"
+        "lastUpdated": "2026-06-25T18:33:30.652Z"
       },
       "612789": {
         "teamCode": "612789",
@@ -288,7 +288,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-25T13:36:06.003Z"
+        "lastUpdated": "2026-06-25T18:33:30.652Z"
       },
       "617181": {
         "teamCode": "617181",
@@ -297,7 +297,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-06-25T13:36:06.003Z"
+        "lastUpdated": "2026-06-25T18:33:30.652Z"
       },
       "617207": {
         "teamCode": "617207",
@@ -387,30 +387,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-25T13:36:06.003Z"
+        "lastUpdated": "2026-06-25T18:33:30.653Z"
       },
       "617856": {
         "teamCode": "617856",
         "totalGames": 20,
-        "playedGames": 8,
+        "playedGames": 9,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sat, May 30",
-            "time": "10:00 AM",
-            "homeTeam": "Aurora-King Jays 14U AA",
-            "homeTeamCode": "617978",
-            "awayTeam": "Richmond Hill Phoenix 14U AA",
-            "awayTeamCode": "617856",
-            "location": "Stewart Burnett Park",
-            "isCompleted": true,
-            "score": {
-              "home": 5,
-              "away": 13,
-              "scoreText": "13-5"
-            }
-          },
           {
             "date": null,
             "dateText": "Tue, Jun 2",
@@ -474,10 +458,26 @@
               "away": 5,
               "scoreText": "5-9"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Tue, Jun 23",
+            "time": "7:00 PM",
+            "homeTeam": "Richmond Hill Phoenix 14U AA",
+            "homeTeamCode": "617856",
+            "awayTeam": "Markham Mariners 14U AA",
+            "awayTeamCode": "617884",
+            "location": "Richmond Green #1",
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 12,
+              "scoreText": "12-8"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-25T13:36:06.003Z"
+        "lastUpdated": "2026-06-25T18:33:30.653Z"
       },
       "617857": {
         "teamCode": "617857",
@@ -486,30 +486,14 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-06-25T13:36:06.003Z"
+        "lastUpdated": "2026-06-25T18:33:30.653Z"
       },
       "617884": {
         "teamCode": "617884",
         "totalGames": 20,
-        "playedGames": 5,
+        "playedGames": 6,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Tue, May 26",
-            "time": "6:30 PM",
-            "homeTeam": "Markham Mariners 14U AA",
-            "homeTeamCode": "617884",
-            "awayTeam": "Barrie Baycats 14U AA",
-            "awayTeamCode": "612788",
-            "location": "Cornell Park",
-            "isCompleted": true,
-            "score": {
-              "home": 1,
-              "away": 16,
-              "scoreText": "16-1"
-            }
-          },
           {
             "date": null,
             "dateText": "Wed, Jun 3",
@@ -573,10 +557,26 @@
               "away": 10,
               "scoreText": "10-12"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Tue, Jun 23",
+            "time": "7:00 PM",
+            "homeTeam": "Richmond Hill Phoenix 14U AA",
+            "homeTeamCode": "617856",
+            "awayTeam": "Markham Mariners 14U AA",
+            "awayTeamCode": "617884",
+            "location": "Richmond Green #1",
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 12,
+              "scoreText": "12-8"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-25T13:36:06.003Z"
+        "lastUpdated": "2026-06-25T18:33:30.653Z"
       },
       "617885": {
         "teamCode": "617885",
@@ -585,7 +585,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-06-25T13:36:06.003Z"
+        "lastUpdated": "2026-06-25T18:33:30.653Z"
       },
       "617911": {
         "teamCode": "617911",
@@ -594,30 +594,14 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-06-25T13:36:06.003Z"
+        "lastUpdated": "2026-06-25T18:33:30.653Z"
       },
       "617912": {
         "teamCode": "617912",
         "totalGames": 19,
-        "playedGames": 6,
+        "playedGames": 7,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Wed, May 20",
-            "time": "8:00 PM",
-            "homeTeam": "Newmarket Hawks 14U AA",
-            "homeTeamCode": "617912",
-            "awayTeam": "Barrie Baycats 14U AA",
-            "awayTeamCode": "612788",
-            "location": "Whipper Billy Watson Park",
-            "isCompleted": true,
-            "score": {
-              "home": 14,
-              "away": 15,
-              "scoreText": "15-14"
-            }
-          },
           {
             "date": null,
             "dateText": "Tue, May 26",
@@ -681,10 +665,26 @@
               "away": 6,
               "scoreText": "6-7"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Wed, Jun 24",
+            "time": "8:00 PM",
+            "homeTeam": "Newmarket Hawks 14U AA",
+            "homeTeamCode": "617912",
+            "awayTeam": "Barrie Baycats 14U AA",
+            "awayTeamCode": "612788",
+            "location": "Whipper Billy Watson Park",
+            "isCompleted": true,
+            "score": {
+              "home": 3,
+              "away": 10,
+              "scoreText": "10-3"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-25T13:36:06.003Z"
+        "lastUpdated": "2026-06-25T18:33:30.653Z"
       },
       "617978": {
         "teamCode": "617978",
@@ -774,7 +774,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-25T13:36:06.004Z"
+        "lastUpdated": "2026-06-25T18:33:30.653Z"
       },
       "617991": {
         "teamCode": "617991",
@@ -783,7 +783,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-06-25T13:36:06.004Z"
+        "lastUpdated": "2026-06-25T18:33:30.653Z"
       },
       "618009": {
         "teamCode": "618009",
@@ -841,7 +841,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-25T13:36:06.004Z"
+        "lastUpdated": "2026-06-25T18:33:30.653Z"
       },
       "618024": {
         "teamCode": "618024",
@@ -931,7 +931,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-25T13:36:06.004Z"
+        "lastUpdated": "2026-06-25T18:33:30.653Z"
       },
       "618031": {
         "teamCode": "618031",
@@ -989,7 +989,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-25T13:36:06.004Z"
+        "lastUpdated": "2026-06-25T18:33:30.653Z"
       },
       "618046": {
         "teamCode": "618046",
@@ -1079,7 +1079,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-25T13:36:06.004Z"
+        "lastUpdated": "2026-06-25T18:33:30.653Z"
       },
       "618061": {
         "teamCode": "618061",
@@ -1153,7 +1153,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-25T13:36:06.004Z"
+        "lastUpdated": "2026-06-25T18:33:30.653Z"
       },
       "618385": {
         "teamCode": "618385",
@@ -1243,7 +1243,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-25T13:36:06.004Z"
+        "lastUpdated": "2026-06-25T18:33:30.653Z"
       },
       "618465": {
         "teamCode": "618465",
@@ -1333,7 +1333,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-25T13:36:06.004Z"
+        "lastUpdated": "2026-06-25T18:33:30.653Z"
       },
       "625728": {
         "teamCode": "625728",
@@ -1342,7 +1342,7 @@
         "upcomingGames": 0,
         "recentGames": [],
         "nextGames": [],
-        "lastUpdated": "2026-06-25T13:36:06.004Z"
+        "lastUpdated": "2026-06-25T18:33:30.653Z"
       },
       "628936": {
         "teamCode": "628936",
@@ -1384,7 +1384,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-25T13:36:06.004Z"
+        "lastUpdated": "2026-06-25T18:33:30.653Z"
       }
     },
     "allGames": [
@@ -2601,8 +2601,12 @@
         "awayTeam": "Markham Mariners 14U AA",
         "awayTeamCode": "617884",
         "location": "Richmond Green #1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 12,
+          "scoreText": "12-8"
+        }
       },
       {
         "date": null,
@@ -2625,8 +2629,12 @@
         "awayTeam": "Barrie Baycats 14U AA",
         "awayTeamCode": "612788",
         "location": "Whipper Billy Watson Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 3,
+          "away": 10,
+          "scoreText": "10-3"
+        }
       },
       {
         "date": null,
@@ -4112,18 +4120,18 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-06-25T13:36:06.004Z",
+    "lastUpdated": "2026-06-25T18:33:30.653Z",
     "totalGames": 200
   },
   "summary": {
     "totalTeams": 7,
     "totalGames": 200,
-    "completedGames": 40,
-    "upcomingGames": 160,
+    "completedGames": 42,
+    "upcomingGames": 158,
     "topTeam": {
       "team": "Barrie Baycats 14U AA",
       "teamCode": "612788",
-      "wins": 7,
+      "wins": 8,
       "losses": 0,
       "winPercentage": "1.000"
     },
@@ -4136,6 +4144,6 @@
       "date": "Mon, May 25",
       "location": "Innisfil Recreation Centre"
     },
-    "lastUpdated": "2026-06-25T13:38:33.340Z"
+    "lastUpdated": "2026-06-25T18:37:01.426Z"
   }
 }

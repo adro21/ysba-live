@@ -93,6 +93,24 @@
       },
       {
         "position": 6,
+        "team": "Oshawa",
+        "teamCode": "883729",
+        "record": {
+          "gamesPlayed": 7,
+          "wins": 4,
+          "losses": 3,
+          "ties": 0,
+          "winPercentage": "0.571"
+        },
+        "stats": {
+          "points": 8,
+          "runsFor": 50,
+          "runsAgainst": 56,
+          "runDifferential": -6
+        }
+      },
+      {
+        "position": 7,
         "team": "Richmond Hill",
         "teamCode": "883732",
         "record": {
@@ -107,24 +125,6 @@
           "runsFor": 34,
           "runsAgainst": 38,
           "runDifferential": -4
-        }
-      },
-      {
-        "position": 7,
-        "team": "Oshawa",
-        "teamCode": "883729",
-        "record": {
-          "gamesPlayed": 6,
-          "wins": 3,
-          "losses": 3,
-          "ties": 0,
-          "winPercentage": "0.500"
-        },
-        "stats": {
-          "points": 6,
-          "runsFor": 42,
-          "runsAgainst": 53,
-          "runDifferential": -11
         }
       },
       {
@@ -150,17 +150,17 @@
         "team": "North Toronto",
         "teamCode": "883727",
         "record": {
-          "gamesPlayed": 8,
+          "gamesPlayed": 9,
           "wins": 2,
-          "losses": 5,
+          "losses": 6,
           "ties": 1,
-          "winPercentage": "0.313"
+          "winPercentage": "0.278"
         },
         "stats": {
           "points": 5,
-          "runsFor": 50,
-          "runsAgainst": 70,
-          "runDifferential": -20
+          "runsFor": 53,
+          "runsAgainst": 78,
+          "runDifferential": -25
         }
       },
       {
@@ -218,7 +218,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-06-25T13:38:33.316Z",
+    "lastUpdated": "2026-06-25T18:37:01.404Z",
     "totalTeams": 12
   },
   "schedule": {
@@ -372,7 +372,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-25T13:38:33.339Z"
+        "lastUpdated": "2026-06-25T18:37:01.425Z"
       },
       "883723": {
         "teamCode": "883723",
@@ -515,7 +515,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-25T13:38:33.339Z"
+        "lastUpdated": "2026-06-25T18:37:01.425Z"
       },
       "883724": {
         "teamCode": "883724",
@@ -654,7 +654,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-25T13:38:33.339Z"
+        "lastUpdated": "2026-06-25T18:37:01.425Z"
       },
       "883725": {
         "teamCode": "883725",
@@ -805,7 +805,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-25T13:38:33.339Z"
+        "lastUpdated": "2026-06-25T18:37:01.425Z"
       },
       "883726": {
         "teamCode": "883726",
@@ -956,7 +956,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-25T13:38:33.339Z"
+        "lastUpdated": "2026-06-25T18:37:01.425Z"
       },
       "883727": {
         "teamCode": "883727",
@@ -1033,8 +1033,12 @@
             "awayTeam": "North Toronto",
             "awayTeamCode": "883727",
             "location": "Memorial — Diamond Red — Toronto",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 3,
+              "scoreText": "3-8"
+            }
           }
         ],
         "nextGames": [
@@ -1099,7 +1103,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-25T13:38:33.339Z"
+        "lastUpdated": "2026-06-25T18:37:01.425Z"
       },
       "883728": {
         "teamCode": "883728",
@@ -1242,7 +1246,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-25T13:38:33.339Z"
+        "lastUpdated": "2026-06-25T18:37:01.425Z"
       },
       "883729": {
         "teamCode": "883729",
@@ -1319,8 +1323,12 @@
             "awayTeam": "North Toronto",
             "awayTeamCode": "883727",
             "location": "Memorial — Diamond Red — Toronto",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 3,
+              "scoreText": "3-8"
+            }
           }
         ],
         "nextGames": [
@@ -1385,7 +1393,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-25T13:38:33.339Z"
+        "lastUpdated": "2026-06-25T18:37:01.425Z"
       },
       "883730": {
         "teamCode": "883730",
@@ -1532,7 +1540,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-25T13:38:33.339Z"
+        "lastUpdated": "2026-06-25T18:37:01.425Z"
       },
       "883731": {
         "teamCode": "883731",
@@ -1679,7 +1687,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-25T13:38:33.340Z"
+        "lastUpdated": "2026-06-25T18:37:01.425Z"
       },
       "883732": {
         "teamCode": "883732",
@@ -1830,7 +1838,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-25T13:38:33.340Z"
+        "lastUpdated": "2026-06-25T18:37:01.425Z"
       },
       "883733": {
         "teamCode": "883733",
@@ -1977,7 +1985,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-06-25T13:38:33.340Z"
+        "lastUpdated": "2026-06-25T18:37:01.425Z"
       }
     },
     "allGames": [
@@ -2902,8 +2910,12 @@
         "awayTeam": "North Toronto",
         "awayTeamCode": "883727",
         "location": "Memorial — Diamond Red — Toronto",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 3,
+          "scoreText": "3-8"
+        }
       },
       {
         "date": "2026-06-25T22:00:00.000Z",
@@ -3480,8 +3492,12 @@
         "awayTeam": "North Toronto",
         "awayTeamCode": "883727",
         "location": "Memorial — Diamond Red — Toronto",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 3,
+          "scoreText": "3-8"
+        }
       },
       {
         "date": "2026-06-23T22:00:00.000Z",
@@ -3726,14 +3742,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2026-06-25T13:38:33.340Z",
+    "lastUpdated": "2026-06-25T18:37:01.425Z",
     "totalGames": 106
   },
   "summary": {
     "totalTeams": 12,
     "totalGames": 106,
-    "completedGames": 51,
-    "upcomingGames": 55,
+    "completedGames": 52,
+    "upcomingGames": 54,
     "topTeam": {
       "team": "Etobicoke",
       "teamCode": "883728",
@@ -3750,6 +3766,6 @@
       "date": "Sun, May 31",
       "location": "North Hill — Diamond 3 — Bolton"
     },
-    "lastUpdated": "2026-06-25T13:38:33.340Z"
+    "lastUpdated": "2026-06-25T18:37:01.426Z"
   }
 }
