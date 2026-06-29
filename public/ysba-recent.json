@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T14:39:36.657Z",
+  "lastUpdated": "2026-06-29T17:38:52.684Z",
   "totalGames": 190,
   "games": [
     {
@@ -11,8 +11,12 @@
       "awayTeam": "Aurora-King",
       "awayTeamCode": "892642",
       "location": "Aurora Leisure Complex — Diamond 2 — Aurora",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 6,
+        "away": 10,
+        "scoreText": "10-6"
+      },
       "division": "10U",
       "tier": "interlock-all-tiers"
     },
@@ -25,8 +29,12 @@
       "awayTeam": "Oshawa",
       "awayTeamCode": "883729",
       "location": "Durham College - Babcock Field — Oshawa",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 14,
+        "away": 5,
+        "scoreText": "5-14"
+      },
       "division": "11U",
       "tier": "interlock-all-tiers"
     },
@@ -109,9 +117,9 @@
       "location": "Bethesda — Diamond 3 — Whitchurch-Stouffville",
       "isCompleted": true,
       "score": {
-        "home": 9,
-        "away": 11,
-        "scoreText": "11-9"
+        "home": 11,
+        "away": 9,
+        "scoreText": "9-11"
       },
       "division": "10U",
       "tier": "interlock-all-tiers"

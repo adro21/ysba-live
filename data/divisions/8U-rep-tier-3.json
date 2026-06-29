@@ -2,39 +2,39 @@
   "standings": {
     "teams": [
       {
+        "position": 2,
+        "team": "Richmond Hill Phoenix 8U A",
+        "teamCode": "617845",
+        "record": {
+          "gamesPlayed": 8,
+          "wins": 7,
+          "losses": 1,
+          "ties": 0,
+          "winPercentage": "0.875"
+        },
+        "stats": {
+          "points": 14,
+          "runsFor": 153,
+          "runsAgainst": 73,
+          "runDifferential": 80
+        }
+      },
+      {
         "position": 3,
         "team": "Vaughan Vikings 8U A",
         "teamCode": "617170",
         "record": {
-          "gamesPlayed": 7,
-          "wins": 6,
+          "gamesPlayed": 8,
+          "wins": 7,
           "losses": 1,
           "ties": 0,
-          "winPercentage": "0.857"
+          "winPercentage": "0.875"
         },
         "stats": {
-          "points": 12,
-          "runsFor": 118,
-          "runsAgainst": 51,
-          "runDifferential": 67
-        }
-      },
-      {
-        "position": 6,
-        "team": "Richmond Hill Phoenix 8U A",
-        "teamCode": "617845",
-        "record": {
-          "gamesPlayed": 5,
-          "wins": 4,
-          "losses": 1,
-          "ties": 0,
-          "winPercentage": "0.800"
-        },
-        "stats": {
-          "points": 8,
-          "runsFor": 90,
-          "runsAgainst": 40,
-          "runDifferential": 50
+          "points": 14,
+          "runsFor": 139,
+          "runsAgainst": 59,
+          "runDifferential": 80
         }
       },
       {
@@ -56,25 +56,25 @@
         }
       },
       {
-        "position": 2,
+        "position": 4,
         "team": "Georgina Bulldogs 8U B",
         "teamCode": "625730",
         "record": {
-          "gamesPlayed": 9,
+          "gamesPlayed": 10,
           "wins": 6,
-          "losses": 3,
+          "losses": 4,
           "ties": 0,
-          "winPercentage": "0.667"
+          "winPercentage": "0.600"
         },
         "stats": {
           "points": 12,
-          "runsFor": 132,
-          "runsAgainst": 102,
-          "runDifferential": 30
+          "runsFor": 139,
+          "runsAgainst": 111,
+          "runDifferential": 28
         }
       },
       {
-        "position": 5,
+        "position": 6,
         "team": "Markham Mariners 8U A",
         "teamCode": "617873",
         "record": {
@@ -92,7 +92,7 @@
         }
       },
       {
-        "position": 4,
+        "position": 5,
         "team": "Barrie Baycats 8U A",
         "teamCode": "612775",
         "record": {
@@ -132,17 +132,17 @@
         "team": "Stouffville 8U A",
         "teamCode": "617210",
         "record": {
-          "gamesPlayed": 7,
+          "gamesPlayed": 9,
           "wins": 2,
-          "losses": 5,
+          "losses": 7,
           "ties": 0,
-          "winPercentage": "0.286"
+          "winPercentage": "0.222"
         },
         "stats": {
           "points": 4,
-          "runsFor": 78,
-          "runsAgainst": 132,
-          "runDifferential": -54
+          "runsFor": 94,
+          "runsAgainst": 181,
+          "runDifferential": -87
         }
       },
       {
@@ -150,17 +150,17 @@
         "team": "Orillia 8U B",
         "teamCode": "618379",
         "record": {
-          "gamesPlayed": 5,
-          "wins": 0,
-          "losses": 4,
+          "gamesPlayed": 7,
+          "wins": 1,
+          "losses": 5,
           "ties": 1,
-          "winPercentage": "0.100"
+          "winPercentage": "0.214"
         },
         "stats": {
-          "points": 1,
-          "runsFor": 54,
-          "runsAgainst": 80,
-          "runDifferential": -26
+          "points": 3,
+          "runsFor": 99,
+          "runsAgainst": 110,
+          "runDifferential": -11
         }
       },
       {
@@ -168,21 +168,21 @@
         "team": "Caledon Nationals 8U A",
         "teamCode": "618474",
         "record": {
-          "gamesPlayed": 7,
+          "gamesPlayed": 8,
           "wins": 0,
-          "losses": 7,
+          "losses": 8,
           "ties": 0,
           "winPercentage": "0.000"
         },
         "stats": {
           "points": 0,
-          "runsFor": 42,
-          "runsAgainst": 150,
-          "runDifferential": -108
+          "runsFor": 46,
+          "runsAgainst": 177,
+          "runDifferential": -131
         }
       }
     ],
-    "lastUpdated": "2026-06-29T14:32:34.828Z",
+    "lastUpdated": "2026-06-29T17:31:29.352Z",
     "totalTeams": 10
   },
   "schedule": {
@@ -275,30 +275,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-29T14:32:37.823Z"
+        "lastUpdated": "2026-06-29T17:31:32.306Z"
       },
       "617170": {
         "teamCode": "617170",
         "totalGames": 15,
-        "playedGames": 7,
+        "playedGames": 8,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Mon, Jun 1",
-            "time": "6:00 PM",
-            "homeTeam": "Newmarket Hawks 8U A",
-            "homeTeamCode": "617896",
-            "awayTeam": "Vaughan Vikings 8U A",
-            "awayTeamCode": "617170",
-            "location": "Fairgrounds Park",
-            "isCompleted": true,
-            "score": {
-              "home": 12,
-              "away": 14,
-              "scoreText": "14-12"
-            }
-          },
           {
             "date": null,
             "dateText": "Sun, Jun 7",
@@ -362,49 +346,33 @@
               "away": 12,
               "scoreText": "12-13"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sun, Jun 28",
+            "time": "11:00 AM",
+            "homeTeam": "Stouffville 8U A",
+            "homeTeamCode": "617210",
+            "awayTeam": "Vaughan Vikings 8U A",
+            "awayTeamCode": "617170",
+            "location": "Bethesda Sports Field Comm Park - Diamond 3",
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 21,
+              "scoreText": "21-8"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-29T14:32:37.823Z"
+        "lastUpdated": "2026-06-29T17:31:32.306Z"
       },
       "617210": {
         "teamCode": "617210",
         "totalGames": 15,
-        "playedGames": 7,
+        "playedGames": 9,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sun, Jun 7",
-            "time": "10:00 AM",
-            "homeTeam": "Stouffville 8U A",
-            "homeTeamCode": "617210",
-            "awayTeam": "Georgina Bulldogs 8U B",
-            "awayTeamCode": "625730",
-            "location": "Bethesda Sports Field Comm Park - Diamond 3",
-            "isCompleted": true,
-            "score": {
-              "home": 9,
-              "away": 19,
-              "scoreText": "19-9"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Mon, Jun 8",
-            "time": "6:30 PM",
-            "homeTeam": "Markham Mariners 8U A",
-            "homeTeamCode": "617873",
-            "awayTeam": "Stouffville 8U A",
-            "awayTeamCode": "617210",
-            "location": "Morgan Park",
-            "isCompleted": true,
-            "score": {
-              "home": 23,
-              "away": 11,
-              "scoreText": "11-23"
-            }
-          },
           {
             "date": null,
             "dateText": "Fri, Jun 12",
@@ -452,65 +420,49 @@
               "away": 7,
               "scoreText": "7-22"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sun, Jun 28",
+            "time": "9:00 AM",
+            "homeTeam": "Stouffville 8U A",
+            "homeTeamCode": "617210",
+            "awayTeam": "Richmond Hill Phoenix 8U A",
+            "awayTeamCode": "617845",
+            "location": "Bethesda Sports Field Comm Park - Diamond 3",
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 28,
+              "scoreText": "28-8"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sun, Jun 28",
+            "time": "11:00 AM",
+            "homeTeam": "Stouffville 8U A",
+            "homeTeamCode": "617210",
+            "awayTeam": "Vaughan Vikings 8U A",
+            "awayTeamCode": "617170",
+            "location": "Bethesda Sports Field Comm Park - Diamond 3",
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 21,
+              "scoreText": "21-8"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-29T14:32:37.823Z"
+        "lastUpdated": "2026-06-29T17:31:32.306Z"
       },
       "617845": {
         "teamCode": "617845",
         "totalGames": 15,
-        "playedGames": 5,
+        "playedGames": 8,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Mon, May 11",
-            "time": "6:00 PM",
-            "homeTeam": "Richmond Hill Phoenix 8U A",
-            "homeTeamCode": "617845",
-            "awayTeam": "Stouffville 8U A",
-            "awayTeamCode": "617210",
-            "location": "Richmond Green Sports Center - Diamond 3",
-            "isCompleted": true,
-            "score": {
-              "home": 18,
-              "away": 9,
-              "scoreText": "9-18"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Mon, May 25",
-            "time": "6:00 PM",
-            "homeTeam": "Richmond Hill Phoenix 8U A",
-            "homeTeamCode": "617845",
-            "awayTeam": "Vaughan Vikings 8U A",
-            "awayTeamCode": "617170",
-            "location": "Richmond Green Sports Center - Diamond 3",
-            "isCompleted": true,
-            "score": {
-              "home": 8,
-              "away": 19,
-              "scoreText": "19-8"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Mon, Jun 1",
-            "time": "6:00 PM",
-            "homeTeam": "Richmond Hill Phoenix 8U A",
-            "homeTeamCode": "617845",
-            "awayTeam": "Markham Mariners 8U A",
-            "awayTeamCode": "617873",
-            "location": "Richmond Green Sports Center - Diamond 3",
-            "isCompleted": true,
-            "score": {
-              "home": 23,
-              "away": 5,
-              "scoreText": "5-23"
-            }
-          },
           {
             "date": null,
             "dateText": "Mon, Jun 8",
@@ -542,10 +494,58 @@
               "away": 3,
               "scoreText": "3-21"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Thu, Jun 25",
+            "time": "6:00 PM",
+            "homeTeam": "Georgina Bulldogs 8U B",
+            "homeTeamCode": "625730",
+            "awayTeam": "Richmond Hill Phoenix 8U A",
+            "awayTeamCode": "617845",
+            "location": "The ROC - Diamond 4",
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 9,
+              "scoreText": "9-7"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, Jun 27",
+            "time": "11:00 AM",
+            "homeTeam": "Orillia 8U B",
+            "homeTeamCode": "618379",
+            "awayTeam": "Richmond Hill Phoenix 8U A",
+            "awayTeamCode": "617845",
+            "location": "Kitchener Park - K1",
+            "isCompleted": true,
+            "score": {
+              "home": 18,
+              "away": 26,
+              "scoreText": "26-18"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sun, Jun 28",
+            "time": "9:00 AM",
+            "homeTeam": "Stouffville 8U A",
+            "homeTeamCode": "617210",
+            "awayTeam": "Richmond Hill Phoenix 8U A",
+            "awayTeamCode": "617845",
+            "location": "Bethesda Sports Field Comm Park - Diamond 3",
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 28,
+              "scoreText": "28-8"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-29T14:32:37.823Z"
+        "lastUpdated": "2026-06-29T17:31:32.306Z"
       },
       "617873": {
         "teamCode": "617873",
@@ -635,7 +635,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-29T14:32:37.823Z"
+        "lastUpdated": "2026-06-29T17:31:32.306Z"
       },
       "617896": {
         "teamCode": "617896",
@@ -725,7 +725,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-29T14:32:37.823Z"
+        "lastUpdated": "2026-06-29T17:31:32.306Z"
       },
       "618056": {
         "teamCode": "618056",
@@ -815,46 +815,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-29T14:32:37.823Z"
+        "lastUpdated": "2026-06-29T17:31:32.306Z"
       },
       "618379": {
         "teamCode": "618379",
         "totalGames": 15,
-        "playedGames": 5,
+        "playedGames": 7,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Mon, May 11",
-            "time": "6:30 PM",
-            "homeTeam": "Barrie Baycats 8U A",
-            "homeTeamCode": "612775",
-            "awayTeam": "Orillia 8U B",
-            "awayTeamCode": "618379",
-            "location": "Barrie Sports Complex - Diamond 12",
-            "isCompleted": true,
-            "score": {
-              "home": 17,
-              "away": 15,
-              "scoreText": "15-17"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Tue, May 12",
-            "time": "6:00 PM",
-            "homeTeam": "Orillia 8U B",
-            "homeTeamCode": "618379",
-            "awayTeam": "Georgina Bulldogs 8U B",
-            "awayTeamCode": "625730",
-            "location": "Dean Heliotis",
-            "isCompleted": true,
-            "score": {
-              "home": 9,
-              "away": 10,
-              "scoreText": "10-9"
-            }
-          },
           {
             "date": null,
             "dateText": "Thu, May 28",
@@ -902,33 +870,49 @@
               "away": 13,
               "scoreText": "13-13"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, Jun 27",
+            "time": "11:00 AM",
+            "homeTeam": "Orillia 8U B",
+            "homeTeamCode": "618379",
+            "awayTeam": "Richmond Hill Phoenix 8U A",
+            "awayTeamCode": "617845",
+            "location": "Kitchener Park - K1",
+            "isCompleted": true,
+            "score": {
+              "home": 18,
+              "away": 26,
+              "scoreText": "26-18"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sun, Jun 28",
+            "time": "5:00 PM",
+            "homeTeam": "Caledon Nationals 8U A",
+            "homeTeamCode": "618474",
+            "awayTeam": "Orillia 8U B",
+            "awayTeamCode": "618379",
+            "location": "Jays Care (Bolton Camp)",
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 27,
+              "scoreText": "27-4"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-29T14:32:37.823Z"
+        "lastUpdated": "2026-06-29T17:31:32.306Z"
       },
       "618474": {
         "teamCode": "618474",
         "totalGames": 15,
-        "playedGames": 7,
+        "playedGames": 8,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Mon, May 25",
-            "time": "6:00 PM",
-            "homeTeam": "TNT Thunder 8U A",
-            "homeTeamCode": "618056",
-            "awayTeam": "Caledon Nationals 8U A",
-            "awayTeamCode": "618474",
-            "location": "McLean Diamond",
-            "isCompleted": true,
-            "score": {
-              "home": 16,
-              "away": 6,
-              "scoreText": "6-16"
-            }
-          },
           {
             "date": null,
             "dateText": "Sun, Jun 7",
@@ -992,33 +976,33 @@
               "away": 3,
               "scoreText": "3-21"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sun, Jun 28",
+            "time": "5:00 PM",
+            "homeTeam": "Caledon Nationals 8U A",
+            "homeTeamCode": "618474",
+            "awayTeam": "Orillia 8U B",
+            "awayTeamCode": "618379",
+            "location": "Jays Care (Bolton Camp)",
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 27,
+              "scoreText": "27-4"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-29T14:32:37.823Z"
+        "lastUpdated": "2026-06-29T17:31:32.306Z"
       },
       "625730": {
         "teamCode": "625730",
         "totalGames": 15,
-        "playedGames": 9,
+        "playedGames": 10,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sun, Jun 7",
-            "time": "10:00 AM",
-            "homeTeam": "Stouffville 8U A",
-            "homeTeamCode": "617210",
-            "awayTeam": "Georgina Bulldogs 8U B",
-            "awayTeamCode": "625730",
-            "location": "Bethesda Sports Field Comm Park - Diamond 3",
-            "isCompleted": true,
-            "score": {
-              "home": 9,
-              "away": 19,
-              "scoreText": "19-9"
-            }
-          },
           {
             "date": null,
             "dateText": "Thu, Jun 11",
@@ -1082,10 +1066,26 @@
               "away": 11,
               "scoreText": "11-12"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Thu, Jun 25",
+            "time": "6:00 PM",
+            "homeTeam": "Georgina Bulldogs 8U B",
+            "homeTeamCode": "625730",
+            "awayTeam": "Richmond Hill Phoenix 8U A",
+            "awayTeamCode": "617845",
+            "location": "The ROC - Diamond 4",
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 9,
+              "scoreText": "9-7"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-06-29T14:32:37.823Z"
+        "lastUpdated": "2026-06-29T17:31:32.306Z"
       }
     },
     "allGames": [
@@ -1686,8 +1686,12 @@
         "awayTeam": "Richmond Hill Phoenix 8U A",
         "awayTeamCode": "617845",
         "location": "The ROC - Diamond 4",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 9,
+          "scoreText": "9-7"
+        }
       },
       {
         "date": null,
@@ -1698,8 +1702,12 @@
         "awayTeam": "Richmond Hill Phoenix 8U A",
         "awayTeamCode": "617845",
         "location": "Kitchener Park - K1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 18,
+          "away": 26,
+          "scoreText": "26-18"
+        }
       },
       {
         "date": null,
@@ -1710,8 +1718,12 @@
         "awayTeam": "Richmond Hill Phoenix 8U A",
         "awayTeamCode": "617845",
         "location": "Bethesda Sports Field Comm Park - Diamond 3",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 28,
+          "scoreText": "28-8"
+        }
       },
       {
         "date": null,
@@ -1722,8 +1734,12 @@
         "awayTeam": "Vaughan Vikings 8U A",
         "awayTeamCode": "617170",
         "location": "Bethesda Sports Field Comm Park - Diamond 3",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 21,
+          "scoreText": "21-8"
+        }
       },
       {
         "date": null,
@@ -1734,8 +1750,12 @@
         "awayTeam": "Orillia 8U B",
         "awayTeamCode": "618379",
         "location": "Jays Care (Bolton Camp)",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 27,
+          "scoreText": "27-4"
+        }
       },
       {
         "date": null,
@@ -2297,30 +2317,30 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-06-29T14:32:37.823Z",
+    "lastUpdated": "2026-06-29T17:31:32.306Z",
     "totalGames": 75
   },
   "summary": {
     "totalTeams": 10,
     "totalGames": 75,
-    "completedGames": 36,
-    "upcomingGames": 39,
+    "completedGames": 41,
+    "upcomingGames": 34,
     "topTeam": {
-      "team": "Vaughan Vikings 8U A",
-      "teamCode": "617170",
-      "wins": 6,
+      "team": "Richmond Hill Phoenix 8U A",
+      "teamCode": "617845",
+      "wins": 7,
       "losses": 1,
-      "winPercentage": "0.857"
+      "winPercentage": "0.875"
     },
     "highestScoringGame": {
-      "homeTeam": "Caledon Nationals 8U A",
-      "awayTeam": "Newmarket Hawks 8U A",
-      "homeScore": 10,
-      "awayScore": 30,
-      "totalRuns": 40,
-      "date": "Sun, May 17",
-      "location": "Jays Care (Bolton Camp)"
+      "homeTeam": "Orillia 8U B",
+      "awayTeam": "Richmond Hill Phoenix 8U A",
+      "homeScore": 18,
+      "awayScore": 26,
+      "totalRuns": 44,
+      "date": "Sat, Jun 27",
+      "location": "Kitchener Park - K1"
     },
-    "lastUpdated": "2026-06-29T14:39:36.657Z"
+    "lastUpdated": "2026-06-29T17:38:52.684Z"
   }
 }
