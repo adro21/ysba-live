@@ -39,6 +39,24 @@
       },
       {
         "position": 3,
+        "team": "Midland Penetang Twins 13U DS",
+        "teamCode": "618396",
+        "record": {
+          "gamesPlayed": 10,
+          "wins": 7,
+          "losses": 2,
+          "ties": 1,
+          "winPercentage": "0.750"
+        },
+        "stats": {
+          "points": 15,
+          "runsFor": 91,
+          "runsAgainst": 41,
+          "runDifferential": 50
+        }
+      },
+      {
+        "position": 4,
         "team": "Newmarket Hawks 13U DS",
         "teamCode": "617918",
         "record": {
@@ -56,25 +74,7 @@
         }
       },
       {
-        "position": 6,
-        "team": "Midland Penetang Twins 13U DS",
-        "teamCode": "618396",
-        "record": {
-          "gamesPlayed": 9,
-          "wins": 6,
-          "losses": 2,
-          "ties": 1,
-          "winPercentage": "0.722"
-        },
-        "stats": {
-          "points": 13,
-          "runsFor": 79,
-          "runsAgainst": 39,
-          "runDifferential": 40
-        }
-      },
-      {
-        "position": 4,
+        "position": 5,
         "team": "Orillia 13U DS",
         "teamCode": "618392",
         "record": {
@@ -92,7 +92,7 @@
         }
       },
       {
-        "position": 5,
+        "position": 6,
         "team": "New Lowell Knights 13U DS",
         "teamCode": "618069",
         "record": {
@@ -168,17 +168,17 @@
         "team": "Innisfil Cardinals 13U DS",
         "teamCode": "618054",
         "record": {
-          "gamesPlayed": 9,
+          "gamesPlayed": 10,
           "wins": 4,
-          "losses": 5,
+          "losses": 6,
           "ties": 0,
-          "winPercentage": "0.444"
+          "winPercentage": "0.400"
         },
         "stats": {
           "points": 8,
-          "runsFor": 61,
-          "runsAgainst": 80,
-          "runDifferential": -19
+          "runsFor": 63,
+          "runsAgainst": 92,
+          "runDifferential": -29
         }
       },
       {
@@ -272,7 +272,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-07-01T20:26:29.003Z",
+    "lastUpdated": "2026-07-01T22:03:04.407Z",
     "totalTeams": 15
   },
   "schedule": {
@@ -365,7 +365,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-01T20:26:33.302Z"
+        "lastUpdated": "2026-07-01T22:03:08.643Z"
       },
       "617191": {
         "teamCode": "617191",
@@ -455,7 +455,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-01T20:26:33.302Z"
+        "lastUpdated": "2026-07-01T22:03:08.643Z"
       },
       "617861": {
         "teamCode": "617861",
@@ -529,7 +529,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-01T20:26:33.302Z"
+        "lastUpdated": "2026-07-01T22:03:08.643Z"
       },
       "617893": {
         "teamCode": "617893",
@@ -619,7 +619,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-01T20:26:33.302Z"
+        "lastUpdated": "2026-07-01T22:03:08.643Z"
       },
       "617894": {
         "teamCode": "617894",
@@ -709,7 +709,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-01T20:26:33.302Z"
+        "lastUpdated": "2026-07-01T22:03:08.643Z"
       },
       "617918": {
         "teamCode": "617918",
@@ -799,7 +799,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-01T20:26:33.302Z"
+        "lastUpdated": "2026-07-01T22:03:08.643Z"
       },
       "618001": {
         "teamCode": "618001",
@@ -889,7 +889,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-01T20:26:33.302Z"
+        "lastUpdated": "2026-07-01T22:03:08.643Z"
       },
       "618028": {
         "teamCode": "618028",
@@ -979,30 +979,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-01T20:26:33.302Z"
+        "lastUpdated": "2026-07-01T22:03:08.643Z"
       },
       "618054": {
         "teamCode": "618054",
         "totalGames": 16,
-        "playedGames": 9,
+        "playedGames": 10,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sat, Jun 6",
-            "time": "12:30 PM",
-            "homeTeam": "Innisfil Cardinals 13U DS",
-            "homeTeamCode": "618054",
-            "awayTeam": "Orangeville Bengals 13U DS",
-            "awayTeamCode": "618028",
-            "location": "Stroud Arena",
-            "isCompleted": true,
-            "score": {
-              "home": 16,
-              "away": 8,
-              "scoreText": "8-16"
-            }
-          },
           {
             "date": null,
             "dateText": "Sat, Jun 20",
@@ -1066,10 +1050,26 @@
               "away": 10,
               "scoreText": "10-9"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Tue, Jun 30",
+            "time": "7:00 PM",
+            "homeTeam": "Innisfil Cardinals 13U DS",
+            "homeTeamCode": "618054",
+            "awayTeam": "Midland Penetang Twins 13U DS",
+            "awayTeamCode": "618396",
+            "location": "Toanche Park - Diamond 1",
+            "isCompleted": true,
+            "score": {
+              "home": 2,
+              "away": 12,
+              "scoreText": "12-2"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-01T20:26:33.302Z"
+        "lastUpdated": "2026-07-01T22:03:08.643Z"
       },
       "618066": {
         "teamCode": "618066",
@@ -1159,7 +1159,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-01T20:26:33.302Z"
+        "lastUpdated": "2026-07-01T22:03:08.643Z"
       },
       "618069": {
         "teamCode": "618069",
@@ -1249,7 +1249,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-01T20:26:33.302Z"
+        "lastUpdated": "2026-07-01T22:03:08.643Z"
       },
       "618392": {
         "teamCode": "618392",
@@ -1339,30 +1339,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-01T20:26:33.302Z"
+        "lastUpdated": "2026-07-01T22:03:08.643Z"
       },
       "618396": {
         "teamCode": "618396",
         "totalGames": 16,
-        "playedGames": 9,
+        "playedGames": 10,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sat, May 23",
-            "time": "10:00 AM",
-            "homeTeam": "Innisfil Cardinals 13U DS",
-            "homeTeamCode": "618054",
-            "awayTeam": "Midland Penetang Twins 13U DS",
-            "awayTeamCode": "618396",
-            "location": "Stroud Arena",
-            "isCompleted": true,
-            "score": {
-              "home": 1,
-              "away": 8,
-              "scoreText": "8-1"
-            }
-          },
           {
             "date": null,
             "dateText": "Sat, Jun 6",
@@ -1426,10 +1410,26 @@
               "away": 6,
               "scoreText": "6-6"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Tue, Jun 30",
+            "time": "7:00 PM",
+            "homeTeam": "Innisfil Cardinals 13U DS",
+            "homeTeamCode": "618054",
+            "awayTeam": "Midland Penetang Twins 13U DS",
+            "awayTeamCode": "618396",
+            "location": "Toanche Park - Diamond 1",
+            "isCompleted": true,
+            "score": {
+              "home": 2,
+              "away": 12,
+              "scoreText": "12-2"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-01T20:26:33.302Z"
+        "lastUpdated": "2026-07-01T22:03:08.643Z"
       },
       "618475": {
         "teamCode": "618475",
@@ -1519,7 +1519,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-01T20:26:33.302Z"
+        "lastUpdated": "2026-07-01T22:03:08.643Z"
       },
       "628935": {
         "teamCode": "628935",
@@ -1609,7 +1609,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-01T20:26:33.302Z"
+        "lastUpdated": "2026-07-01T22:03:08.643Z"
       }
     },
     "allGames": [
@@ -2742,8 +2742,12 @@
         "awayTeam": "Midland Penetang Twins 13U DS",
         "awayTeamCode": "618396",
         "location": "Toanche Park - Diamond 1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 2,
+          "away": 12,
+          "scoreText": "12-2"
+        }
       },
       {
         "date": null,
@@ -3485,14 +3489,14 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-07-01T20:26:33.302Z",
+    "lastUpdated": "2026-07-01T22:03:08.643Z",
     "totalGames": 120
   },
   "summary": {
     "totalTeams": 15,
     "totalGames": 120,
-    "completedGames": 67,
-    "upcomingGames": 53,
+    "completedGames": 68,
+    "upcomingGames": 52,
     "topTeam": {
       "team": "Markham Mariners 13U DS Team 1",
       "teamCode": "617893",
@@ -3509,6 +3513,6 @@
       "date": "Sat, May 16",
       "location": "Coventry Park"
     },
-    "lastUpdated": "2026-07-01T20:26:40.589Z"
+    "lastUpdated": "2026-07-01T22:03:16.060Z"
   }
 }
