@@ -6,17 +6,17 @@
         "team": "Royal York",
         "teamCode": "892633",
         "record": {
-          "gamesPlayed": 9,
-          "wins": 8,
+          "gamesPlayed": 10,
+          "wins": 9,
           "losses": 1,
           "ties": 0,
-          "winPercentage": "0.889"
+          "winPercentage": "0.900"
         },
         "stats": {
-          "points": 16,
-          "runsFor": 94,
-          "runsAgainst": 66,
-          "runDifferential": 28
+          "points": 18,
+          "runsFor": 101,
+          "runsAgainst": 70,
+          "runDifferential": 31
         }
       },
       {
@@ -164,24 +164,6 @@
         }
       },
       {
-        "position": 11,
-        "team": "Scarborough",
-        "teamCode": "892643",
-        "record": {
-          "gamesPlayed": 8,
-          "wins": 3,
-          "losses": 5,
-          "ties": 0,
-          "winPercentage": "0.375"
-        },
-        "stats": {
-          "points": 6,
-          "runsFor": 64,
-          "runsAgainst": 76,
-          "runDifferential": -12
-        }
-      },
-      {
         "position": 9,
         "team": "Bloordale",
         "teamCode": "892638",
@@ -197,6 +179,24 @@
           "runsFor": 62,
           "runsAgainst": 94,
           "runDifferential": -32
+        }
+      },
+      {
+        "position": 11,
+        "team": "Scarborough",
+        "teamCode": "892643",
+        "record": {
+          "gamesPlayed": 9,
+          "wins": 3,
+          "losses": 6,
+          "ties": 0,
+          "winPercentage": "0.333"
+        },
+        "stats": {
+          "points": 6,
+          "runsFor": 68,
+          "runsAgainst": 83,
+          "runDifferential": -15
         }
       },
       {
@@ -254,7 +254,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-07-03T09:47:23.827Z",
+    "lastUpdated": "2026-07-03T12:10:01.542Z",
     "totalTeams": 14
   },
   "schedule": {
@@ -338,8 +338,12 @@
             "awayTeam": "Royal York",
             "awayTeamCode": "892633",
             "location": "Rotary Peace Park — Diamond South — Toronto",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 7,
+              "scoreText": "7-4"
+            }
           }
         ],
         "nextGames": [
@@ -380,9 +384,9 @@
             "score": null
           },
           {
-            "date": "2026-07-19T18:30:00.000Z",
+            "date": "2026-07-19T17:30:00.000Z",
             "dateText": "Sun, Jul 19",
-            "time": "2:30 PM",
+            "time": "1:30 PM",
             "homeTeam": "Markham",
             "homeTeamCode": "892645",
             "awayTeam": "Royal York",
@@ -404,7 +408,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-03T09:47:23.872Z"
+        "lastUpdated": "2026-07-03T12:10:01.588Z"
       },
       "892634": {
         "teamCode": "892634",
@@ -551,7 +555,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-03T09:47:23.872Z"
+        "lastUpdated": "2026-07-03T12:10:01.588Z"
       },
       "892636": {
         "teamCode": "892636",
@@ -702,7 +706,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-03T09:47:23.873Z"
+        "lastUpdated": "2026-07-03T12:10:01.589Z"
       },
       "892637": {
         "teamCode": "892637",
@@ -853,7 +857,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-03T09:47:23.873Z"
+        "lastUpdated": "2026-07-03T12:10:01.589Z"
       },
       "892638": {
         "teamCode": "892638",
@@ -996,7 +1000,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-03T09:47:23.873Z"
+        "lastUpdated": "2026-07-03T12:10:01.589Z"
       },
       "892639": {
         "teamCode": "892639",
@@ -1147,7 +1151,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-03T09:47:23.873Z"
+        "lastUpdated": "2026-07-03T12:10:01.589Z"
       },
       "892640": {
         "teamCode": "892640",
@@ -1290,7 +1294,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-03T09:47:23.873Z"
+        "lastUpdated": "2026-07-03T12:10:01.589Z"
       },
       "892642": {
         "teamCode": "892642",
@@ -1437,7 +1441,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-03T09:47:23.873Z"
+        "lastUpdated": "2026-07-03T12:10:01.589Z"
       },
       "892643": {
         "teamCode": "892643",
@@ -1510,8 +1514,12 @@
             "awayTeam": "Royal York",
             "awayTeamCode": "892633",
             "location": "Rotary Peace Park — Diamond South — Toronto",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 7,
+              "scoreText": "7-4"
+            }
           }
         ],
         "nextGames": [
@@ -1576,7 +1584,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-03T09:47:23.873Z"
+        "lastUpdated": "2026-07-03T12:10:01.589Z"
       },
       "892644": {
         "teamCode": "892644",
@@ -1727,7 +1735,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-03T09:47:23.873Z"
+        "lastUpdated": "2026-07-03T12:10:01.589Z"
       },
       "892645": {
         "teamCode": "892645",
@@ -1850,9 +1858,9 @@
             "score": null
           },
           {
-            "date": "2026-07-19T18:30:00.000Z",
+            "date": "2026-07-19T17:30:00.000Z",
             "dateText": "Sun, Jul 19",
-            "time": "2:30 PM",
+            "time": "1:30 PM",
             "homeTeam": "Markham",
             "homeTeamCode": "892645",
             "awayTeam": "Royal York",
@@ -1874,7 +1882,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-03T09:47:23.873Z"
+        "lastUpdated": "2026-07-03T12:10:01.589Z"
       },
       "892646": {
         "teamCode": "892646",
@@ -2017,7 +2025,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-03T09:47:23.873Z"
+        "lastUpdated": "2026-07-03T12:10:01.589Z"
       },
       "892647": {
         "teamCode": "892647",
@@ -2164,7 +2172,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-03T09:47:23.873Z"
+        "lastUpdated": "2026-07-03T12:10:01.589Z"
       },
       "892648": {
         "teamCode": "892648",
@@ -2315,7 +2323,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-03T09:47:23.873Z"
+        "lastUpdated": "2026-07-03T12:10:01.589Z"
       }
     },
     "allGames": [
@@ -3628,8 +3636,12 @@
         "awayTeam": "Royal York",
         "awayTeamCode": "892633",
         "location": "Rotary Peace Park — Diamond South — Toronto",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 7,
+          "scoreText": "7-4"
+        }
       },
       {
         "date": "2026-07-05T21:00:00.000Z",
@@ -3896,9 +3908,9 @@
         "score": null
       },
       {
-        "date": "2026-07-19T18:30:00.000Z",
+        "date": "2026-07-19T17:30:00.000Z",
         "dateText": "Sun, Jul 19",
-        "time": "2:30 PM",
+        "time": "1:30 PM",
         "homeTeam": "Markham",
         "homeTeamCode": "892645",
         "awayTeam": "Royal York",
@@ -4374,8 +4386,12 @@
         "awayTeam": "Royal York",
         "awayTeamCode": "892633",
         "location": "Rotary Peace Park — Diamond South — Toronto",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 7,
+          "scoreText": "7-4"
+        }
       },
       {
         "date": "2026-07-01T19:00:00.000Z",
@@ -4640,20 +4656,20 @@
         "score": null
       }
     ],
-    "lastUpdated": "2026-07-03T09:47:23.873Z",
+    "lastUpdated": "2026-07-03T12:10:01.589Z",
     "totalGames": 147
   },
   "summary": {
     "totalTeams": 14,
     "totalGames": 147,
-    "completedGames": 70,
-    "upcomingGames": 77,
+    "completedGames": 71,
+    "upcomingGames": 76,
     "topTeam": {
       "team": "Royal York",
       "teamCode": "892633",
-      "wins": 8,
+      "wins": 9,
       "losses": 1,
-      "winPercentage": "0.889"
+      "winPercentage": "0.900"
     },
     "highestScoringGame": {
       "homeTeam": "Georgina",
@@ -4664,6 +4680,6 @@
       "date": "Wed, May 20",
       "location": "Armstrong — Diamond 1 — Newmarket"
     },
-    "lastUpdated": "2026-07-03T09:47:24.395Z"
+    "lastUpdated": "2026-07-03T12:10:02.112Z"
   }
 }
