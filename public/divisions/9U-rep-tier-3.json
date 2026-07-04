@@ -6,17 +6,17 @@
         "team": "Orillia 9U A",
         "teamCode": "618380",
         "record": {
-          "gamesPlayed": 11,
-          "wins": 8,
+          "gamesPlayed": 12,
+          "wins": 9,
           "losses": 3,
           "ties": 0,
-          "winPercentage": "0.727"
+          "winPercentage": "0.750"
         },
         "stats": {
-          "points": 16,
-          "runsFor": 183,
-          "runsAgainst": 105,
-          "runDifferential": 78
+          "points": 18,
+          "runsFor": 205,
+          "runsAgainst": 116,
+          "runDifferential": 89
         }
       },
       {
@@ -56,24 +56,6 @@
         }
       },
       {
-        "position": 5,
-        "team": "Barrie Baycats 9U A",
-        "teamCode": "612777",
-        "record": {
-          "gamesPlayed": 7,
-          "wins": 4,
-          "losses": 3,
-          "ties": 0,
-          "winPercentage": "0.571"
-        },
-        "stats": {
-          "points": 8,
-          "runsFor": 108,
-          "runsAgainst": 102,
-          "runDifferential": 6
-        }
-      },
-      {
         "position": 4,
         "team": "Newmarket Hawks 9U A",
         "teamCode": "617898",
@@ -89,6 +71,24 @@
           "runsFor": 117,
           "runsAgainst": 107,
           "runDifferential": 10
+        }
+      },
+      {
+        "position": 5,
+        "team": "Barrie Baycats 9U A",
+        "teamCode": "612777",
+        "record": {
+          "gamesPlayed": 8,
+          "wins": 4,
+          "losses": 4,
+          "ties": 0,
+          "winPercentage": "0.500"
+        },
+        "stats": {
+          "points": 8,
+          "runsFor": 119,
+          "runsAgainst": 124,
+          "runDifferential": -5
         }
       },
       {
@@ -164,7 +164,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-07-04T10:32:04.880Z",
+    "lastUpdated": "2026-07-04T14:08:03.033Z",
     "totalTeams": 9
   },
   "schedule": {
@@ -257,30 +257,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-04T10:32:09.203Z"
+        "lastUpdated": "2026-07-04T14:08:07.205Z"
       },
       "612777": {
         "teamCode": "612777",
         "totalGames": 16,
-        "playedGames": 7,
+        "playedGames": 8,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Thu, May 21",
-            "time": "6:00 PM",
-            "homeTeam": "Newmarket Hawks 9U A",
-            "homeTeamCode": "617898",
-            "awayTeam": "Barrie Baycats 9U A",
-            "awayTeamCode": "612777",
-            "location": "Fairgrounds Park, Diamond #2",
-            "isCompleted": true,
-            "score": {
-              "home": 18,
-              "away": 7,
-              "scoreText": "7-18"
-            }
-          },
           {
             "date": null,
             "dateText": "Tue, May 26",
@@ -344,10 +328,26 @@
               "away": 15,
               "scoreText": "15-16"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, Jun 29",
+            "time": "6:00 PM",
+            "homeTeam": "Orillia 9U A",
+            "homeTeamCode": "618380",
+            "awayTeam": "Barrie Baycats 9U A",
+            "awayTeamCode": "612777",
+            "location": "Dean Heliotis Field",
+            "isCompleted": true,
+            "score": {
+              "home": 22,
+              "away": 11,
+              "scoreText": "11-22"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-04T10:32:09.203Z"
+        "lastUpdated": "2026-07-04T14:08:07.205Z"
       },
       "617171": {
         "teamCode": "617171",
@@ -437,7 +437,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-04T10:32:09.203Z"
+        "lastUpdated": "2026-07-04T14:08:07.205Z"
       },
       "617212": {
         "teamCode": "617212",
@@ -527,7 +527,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-04T10:32:09.203Z"
+        "lastUpdated": "2026-07-04T14:08:07.205Z"
       },
       "617846": {
         "teamCode": "617846",
@@ -617,7 +617,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-04T10:32:09.203Z"
+        "lastUpdated": "2026-07-04T14:08:07.205Z"
       },
       "617874": {
         "teamCode": "617874",
@@ -707,7 +707,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-04T10:32:09.203Z"
+        "lastUpdated": "2026-07-04T14:08:07.205Z"
       },
       "617898": {
         "teamCode": "617898",
@@ -797,7 +797,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-04T10:32:09.203Z"
+        "lastUpdated": "2026-07-04T14:08:07.205Z"
       },
       "617899": {
         "teamCode": "617899",
@@ -887,7 +887,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-04T10:32:09.203Z"
+        "lastUpdated": "2026-07-04T14:08:07.205Z"
       },
       "617943": {
         "teamCode": "617943",
@@ -977,7 +977,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-04T10:32:09.203Z"
+        "lastUpdated": "2026-07-04T14:08:07.205Z"
       },
       "617967": {
         "teamCode": "617967",
@@ -1067,7 +1067,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-04T10:32:09.203Z"
+        "lastUpdated": "2026-07-04T14:08:07.205Z"
       },
       "617968": {
         "teamCode": "617968",
@@ -1157,7 +1157,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-04T10:32:09.203Z"
+        "lastUpdated": "2026-07-04T14:08:07.205Z"
       },
       "618018": {
         "teamCode": "618018",
@@ -1247,30 +1247,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-04T10:32:09.203Z"
+        "lastUpdated": "2026-07-04T14:08:07.205Z"
       },
       "618380": {
         "teamCode": "618380",
         "totalGames": 16,
-        "playedGames": 11,
+        "playedGames": 12,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Mon, Jun 15",
-            "time": "6:00 PM",
-            "homeTeam": "Orillia 9U A",
-            "homeTeamCode": "618380",
-            "awayTeam": "Georgina Bulldogs 9U B",
-            "awayTeamCode": "625731",
-            "location": "Dean Heliotis Field",
-            "isCompleted": true,
-            "score": {
-              "home": 15,
-              "away": 9,
-              "scoreText": "9-15"
-            }
-          },
           {
             "date": null,
             "dateText": "Sat, Jun 20",
@@ -1334,10 +1318,26 @@
               "away": 14,
               "scoreText": "14-11"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, Jun 29",
+            "time": "6:00 PM",
+            "homeTeam": "Orillia 9U A",
+            "homeTeamCode": "618380",
+            "awayTeam": "Barrie Baycats 9U A",
+            "awayTeamCode": "612777",
+            "location": "Dean Heliotis Field",
+            "isCompleted": true,
+            "score": {
+              "home": 22,
+              "away": 11,
+              "scoreText": "11-22"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-04T10:32:09.203Z"
+        "lastUpdated": "2026-07-04T14:08:07.205Z"
       },
       "618472": {
         "teamCode": "618472",
@@ -1427,7 +1427,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-04T10:32:09.203Z"
+        "lastUpdated": "2026-07-04T14:08:07.205Z"
       },
       "625731": {
         "teamCode": "625731",
@@ -1517,7 +1517,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-04T10:32:09.203Z"
+        "lastUpdated": "2026-07-04T14:08:07.205Z"
       },
       "628932": {
         "teamCode": "628932",
@@ -1607,7 +1607,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-04T10:32:09.203Z"
+        "lastUpdated": "2026-07-04T14:08:07.205Z"
       }
     },
     "allGames": [
@@ -2816,8 +2816,12 @@
         "awayTeam": "Barrie Baycats 9U A",
         "awayTeamCode": "612777",
         "location": "Dean Heliotis Field",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 22,
+          "away": 11,
+          "scoreText": "11-22"
+        }
       },
       {
         "date": null,
@@ -3687,20 +3691,20 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-07-04T10:32:09.203Z",
+    "lastUpdated": "2026-07-04T14:08:07.205Z",
     "totalGames": 135
   },
   "summary": {
     "totalTeams": 9,
     "totalGames": 135,
-    "completedGames": 73,
-    "upcomingGames": 62,
+    "completedGames": 74,
+    "upcomingGames": 61,
     "topTeam": {
       "team": "Orillia 9U A",
       "teamCode": "618380",
-      "wins": 8,
+      "wins": 9,
       "losses": 3,
-      "winPercentage": "0.727"
+      "winPercentage": "0.750"
     },
     "highestScoringGame": {
       "homeTeam": "Georgina Bulldogs 9U B",
@@ -3711,6 +3715,6 @@
       "date": "Sat, Jun 6",
       "location": "Mc-Culley Robertson Sports Complex"
     },
-    "lastUpdated": "2026-07-04T10:37:03.637Z"
+    "lastUpdated": "2026-07-04T14:12:54.237Z"
   }
 }
