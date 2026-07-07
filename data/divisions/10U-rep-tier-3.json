@@ -20,7 +20,7 @@
         }
       },
       {
-        "position": 2,
+        "position": 3,
         "team": "Innisfil Cardinals 10U A",
         "teamCode": "618041",
         "record": {
@@ -74,25 +74,25 @@
         }
       },
       {
-        "position": 3,
+        "position": 2,
         "team": "Thornhill Reds 10U A",
         "teamCode": "617985",
         "record": {
-          "gamesPlayed": 11,
-          "wins": 8,
+          "gamesPlayed": 12,
+          "wins": 9,
           "losses": 3,
           "ties": 0,
-          "winPercentage": "0.727"
+          "winPercentage": "0.750"
         },
         "stats": {
-          "points": 16,
-          "runsFor": 103,
-          "runsAgainst": 74,
-          "runDifferential": 29
+          "points": 18,
+          "runsFor": 115,
+          "runsAgainst": 76,
+          "runDifferential": 39
         }
       },
       {
-        "position": 10,
+        "position": 11,
         "team": "Midland Penetang Twins 10U B",
         "teamCode": "618394",
         "record": {
@@ -129,20 +129,38 @@
       },
       {
         "position": 9,
-        "team": "Orillia 10U B",
-        "teamCode": "618381",
+        "team": "TNT Thunder 10U A",
+        "teamCode": "618057",
         "record": {
-          "gamesPlayed": 8,
+          "gamesPlayed": 9,
           "wins": 4,
-          "losses": 4,
+          "losses": 5,
           "ties": 0,
-          "winPercentage": "0.500"
+          "winPercentage": "0.444"
         },
         "stats": {
           "points": 8,
-          "runsFor": 70,
-          "runsAgainst": 71,
-          "runDifferential": -1
+          "runsFor": 87,
+          "runsAgainst": 82,
+          "runDifferential": 5
+        }
+      },
+      {
+        "position": 10,
+        "team": "Orillia 10U B",
+        "teamCode": "618381",
+        "record": {
+          "gamesPlayed": 9,
+          "wins": 4,
+          "losses": 5,
+          "ties": 0,
+          "winPercentage": "0.444"
+        },
+        "stats": {
+          "points": 8,
+          "runsFor": 78,
+          "runsAgainst": 83,
+          "runDifferential": -5
         }
       },
       {
@@ -179,24 +197,6 @@
           "runsFor": 135,
           "runsAgainst": 147,
           "runDifferential": -12
-        }
-      },
-      {
-        "position": 11,
-        "team": "TNT Thunder 10U A",
-        "teamCode": "618057",
-        "record": {
-          "gamesPlayed": 8,
-          "wins": 3,
-          "losses": 5,
-          "ties": 0,
-          "winPercentage": "0.375"
-        },
-        "stats": {
-          "points": 6,
-          "runsFor": 75,
-          "runsAgainst": 74,
-          "runDifferential": 1
         }
       },
       {
@@ -240,17 +240,17 @@
         "team": "Richmond Hill Phoenix 10U A",
         "teamCode": "617848",
         "record": {
-          "gamesPlayed": 10,
+          "gamesPlayed": 11,
           "wins": 2,
-          "losses": 8,
+          "losses": 9,
           "ties": 0,
-          "winPercentage": "0.200"
+          "winPercentage": "0.182"
         },
         "stats": {
           "points": 4,
-          "runsFor": 74,
-          "runsAgainst": 121,
-          "runDifferential": -47
+          "runsFor": 76,
+          "runsAgainst": 133,
+          "runDifferential": -57
         }
       },
       {
@@ -290,7 +290,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-07-07T11:43:20.027Z",
+    "lastUpdated": "2026-07-07T14:15:54.597Z",
     "totalTeams": 16
   },
   "schedule": {
@@ -383,7 +383,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-07T11:43:24.719Z"
+        "lastUpdated": "2026-07-07T14:15:59.269Z"
       },
       "617173": {
         "teamCode": "617173",
@@ -473,7 +473,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-07T11:43:24.719Z"
+        "lastUpdated": "2026-07-07T14:15:59.269Z"
       },
       "617174": {
         "teamCode": "617174",
@@ -563,30 +563,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-07T11:43:24.719Z"
+        "lastUpdated": "2026-07-07T14:15:59.269Z"
       },
       "617848": {
         "teamCode": "617848",
         "totalGames": 19,
-        "playedGames": 10,
+        "playedGames": 11,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Mon, Jun 1",
-            "time": "6:30 PM",
-            "homeTeam": "Richmond Hill Phoenix 10U A",
-            "homeTeamCode": "617848",
-            "awayTeam": "Aurora-King Jays 10U A",
-            "awayTeamCode": "617970",
-            "location": "Morgan Boyle Park.  FORFEIT",
-            "isCompleted": true,
-            "score": {
-              "home": 0,
-              "away": 7,
-              "scoreText": "7-0"
-            }
-          },
           {
             "date": null,
             "dateText": "Mon, Jun 8",
@@ -650,10 +634,26 @@
               "away": 14,
               "scoreText": "14-6"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, Jul 6",
+            "time": "6:30 PM",
+            "homeTeam": "Richmond Hill Phoenix 10U A",
+            "homeTeamCode": "617848",
+            "awayTeam": "Thornhill Reds 10U A",
+            "awayTeamCode": "617985",
+            "location": "Morgan Boyle Park.",
+            "isCompleted": true,
+            "score": {
+              "home": 2,
+              "away": 12,
+              "scoreText": "12-2"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-07T11:43:24.719Z"
+        "lastUpdated": "2026-07-07T14:15:59.269Z"
       },
       "617900": {
         "teamCode": "617900",
@@ -743,7 +743,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-07T11:43:24.719Z"
+        "lastUpdated": "2026-07-07T14:15:59.269Z"
       },
       "617944": {
         "teamCode": "617944",
@@ -833,7 +833,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-07T11:43:24.719Z"
+        "lastUpdated": "2026-07-07T14:15:59.269Z"
       },
       "617970": {
         "teamCode": "617970",
@@ -923,30 +923,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-07T11:43:24.719Z"
+        "lastUpdated": "2026-07-07T14:15:59.269Z"
       },
       "617985": {
         "teamCode": "617985",
         "totalGames": 19,
-        "playedGames": 11,
+        "playedGames": 12,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Mon, Jun 8",
-            "time": "6:30 PM",
-            "homeTeam": "Orillia 10U B",
-            "homeTeamCode": "618381",
-            "awayTeam": "Thornhill Reds 10U A",
-            "awayTeamCode": "617985",
-            "location": "Cliff Yeo Diamond",
-            "isCompleted": true,
-            "score": {
-              "home": 5,
-              "away": 11,
-              "scoreText": "11-5"
-            }
-          },
           {
             "date": null,
             "dateText": "Wed, Jun 10",
@@ -1010,10 +994,26 @@
               "away": 4,
               "scoreText": "4-7"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, Jul 6",
+            "time": "6:30 PM",
+            "homeTeam": "Richmond Hill Phoenix 10U A",
+            "homeTeamCode": "617848",
+            "awayTeam": "Thornhill Reds 10U A",
+            "awayTeamCode": "617985",
+            "location": "Morgan Boyle Park.",
+            "isCompleted": true,
+            "score": {
+              "home": 2,
+              "away": 12,
+              "scoreText": "12-2"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-07T11:43:24.719Z"
+        "lastUpdated": "2026-07-07T14:15:59.269Z"
       },
       "618005": {
         "teamCode": "618005",
@@ -1103,7 +1103,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-07T11:43:24.719Z"
+        "lastUpdated": "2026-07-07T14:15:59.269Z"
       },
       "618019": {
         "teamCode": "618019",
@@ -1193,7 +1193,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-07T11:43:24.719Z"
+        "lastUpdated": "2026-07-07T14:15:59.269Z"
       },
       "618041": {
         "teamCode": "618041",
@@ -1283,30 +1283,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-07T11:43:24.719Z"
+        "lastUpdated": "2026-07-07T14:15:59.269Z"
       },
       "618057": {
         "teamCode": "618057",
         "totalGames": 19,
-        "playedGames": 8,
+        "playedGames": 9,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Tue, Jun 2",
-            "time": "6:00 PM",
-            "homeTeam": "TNT Thunder 10U A",
-            "homeTeamCode": "618057",
-            "awayTeam": "Bradford Tigers 10U A",
-            "awayTeamCode": "617944",
-            "location": "Haley",
-            "isCompleted": true,
-            "score": {
-              "home": 5,
-              "away": 8,
-              "scoreText": "8-5"
-            }
-          },
           {
             "date": null,
             "dateText": "Wed, Jun 3",
@@ -1370,33 +1354,33 @@
               "away": 12,
               "scoreText": "12-10"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, Jul 6",
+            "time": "6:30 PM",
+            "homeTeam": "Orillia 10U B",
+            "homeTeamCode": "618381",
+            "awayTeam": "TNT Thunder 10U A",
+            "awayTeamCode": "618057",
+            "location": "Cliff Yeo Diamond",
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 12,
+              "scoreText": "12-8"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-07T11:43:24.719Z"
+        "lastUpdated": "2026-07-07T14:15:59.269Z"
       },
       "618381": {
         "teamCode": "618381",
         "totalGames": 19,
-        "playedGames": 8,
+        "playedGames": 9,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sun, May 31",
-            "time": "6:45 PM",
-            "homeTeam": "Aurora-King Jays 10U A",
-            "homeTeamCode": "617970",
-            "awayTeam": "Orillia 10U B",
-            "awayTeamCode": "618381",
-            "location": "Fleury Park",
-            "isCompleted": true,
-            "score": {
-              "home": 11,
-              "away": 8,
-              "scoreText": "8-11"
-            }
-          },
           {
             "date": null,
             "dateText": "Mon, Jun 1",
@@ -1460,10 +1444,26 @@
               "away": 11,
               "scoreText": "11-10"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, Jul 6",
+            "time": "6:30 PM",
+            "homeTeam": "Orillia 10U B",
+            "homeTeamCode": "618381",
+            "awayTeam": "TNT Thunder 10U A",
+            "awayTeamCode": "618057",
+            "location": "Cliff Yeo Diamond",
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 12,
+              "scoreText": "12-8"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-07T11:43:24.719Z"
+        "lastUpdated": "2026-07-07T14:15:59.269Z"
       },
       "618394": {
         "teamCode": "618394",
@@ -1553,7 +1553,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-07T11:43:24.719Z"
+        "lastUpdated": "2026-07-07T14:15:59.269Z"
       },
       "625725": {
         "teamCode": "625725",
@@ -1643,7 +1643,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-07T11:43:24.719Z"
+        "lastUpdated": "2026-07-07T14:15:59.269Z"
       },
       "627209": {
         "teamCode": "627209",
@@ -1733,7 +1733,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-07T11:43:24.719Z"
+        "lastUpdated": "2026-07-07T14:15:59.269Z"
       }
     },
     "allGames": [
@@ -3106,8 +3106,12 @@
         "awayTeam": "TNT Thunder 10U A",
         "awayTeamCode": "618057",
         "location": "Cliff Yeo Diamond",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 12,
+          "scoreText": "12-8"
+        }
       },
       {
         "date": null,
@@ -3118,8 +3122,12 @@
         "awayTeam": "Thornhill Reds 10U A",
         "awayTeamCode": "617985",
         "location": "Morgan Boyle Park.",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 2,
+          "away": 12,
+          "scoreText": "12-2"
+        }
       },
       {
         "date": null,
@@ -4041,14 +4049,14 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-07-07T11:43:24.719Z",
+    "lastUpdated": "2026-07-07T14:15:59.269Z",
     "totalGames": 152
   },
   "summary": {
     "totalTeams": 16,
     "totalGames": 152,
-    "completedGames": 79,
-    "upcomingGames": 73,
+    "completedGames": 81,
+    "upcomingGames": 71,
     "topTeam": {
       "team": "Vaughan Vikings 10U A Team 2",
       "teamCode": "617174",
@@ -4065,6 +4073,6 @@
       "date": "Thu, May 21",
       "location": "Georgina Roc- Diamond 2"
     },
-    "lastUpdated": "2026-07-07T11:49:14.953Z"
+    "lastUpdated": "2026-07-07T14:21:27.142Z"
   }
 }
