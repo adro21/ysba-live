@@ -6,17 +6,17 @@
         "team": "Barrie Baycats 14U A",
         "teamCode": "612789",
         "record": {
-          "gamesPlayed": 6,
-          "wins": 6,
+          "gamesPlayed": 7,
+          "wins": 7,
           "losses": 0,
           "ties": 0,
           "winPercentage": "1.000"
         },
         "stats": {
-          "points": 12,
-          "runsFor": 95,
-          "runsAgainst": 20,
-          "runDifferential": 75
+          "points": 14,
+          "runsFor": 106,
+          "runsAgainst": 25,
+          "runDifferential": 81
         }
       },
       {
@@ -38,7 +38,7 @@
         }
       },
       {
-        "position": 3,
+        "position": 4,
         "team": "Newmarket Hawks 14U A",
         "teamCode": "617911",
         "record": {
@@ -56,7 +56,7 @@
         }
       },
       {
-        "position": 2,
+        "position": 3,
         "team": "Orillia 14U B",
         "teamCode": "618385",
         "record": {
@@ -75,6 +75,24 @@
       },
       {
         "position": 1,
+        "team": "Innisfil Cardinals 14U A",
+        "teamCode": "618046",
+        "record": {
+          "gamesPlayed": 10,
+          "wins": 7,
+          "losses": 3,
+          "ties": 0,
+          "winPercentage": "0.700"
+        },
+        "stats": {
+          "points": 14,
+          "runsFor": 146,
+          "runsAgainst": 87,
+          "runDifferential": 59
+        }
+      },
+      {
+        "position": 2,
         "team": "Markham Mariners 14U A",
         "teamCode": "617885",
         "record": {
@@ -89,24 +107,6 @@
           "runsFor": 97,
           "runsAgainst": 72,
           "runDifferential": 25
-        }
-      },
-      {
-        "position": 4,
-        "team": "Innisfil Cardinals 14U A",
-        "teamCode": "618046",
-        "record": {
-          "gamesPlayed": 9,
-          "wins": 6,
-          "losses": 3,
-          "ties": 0,
-          "winPercentage": "0.667"
-        },
-        "stats": {
-          "points": 12,
-          "runsFor": 134,
-          "runsAgainst": 77,
-          "runDifferential": 57
         }
       },
       {
@@ -186,17 +186,17 @@
         "team": "Collingwood Jays 14U A",
         "teamCode": "618009",
         "record": {
-          "gamesPlayed": 8,
+          "gamesPlayed": 9,
           "wins": 3,
-          "losses": 5,
+          "losses": 6,
           "ties": 0,
-          "winPercentage": "0.375"
+          "winPercentage": "0.333"
         },
         "stats": {
           "points": 6,
-          "runsFor": 70,
-          "runsAgainst": 95,
-          "runDifferential": -25
+          "runsFor": 75,
+          "runsAgainst": 106,
+          "runDifferential": -31
         }
       },
       {
@@ -204,17 +204,17 @@
         "team": "Muskoka Hornets 14U B",
         "teamCode": "628936",
         "record": {
-          "gamesPlayed": 11,
+          "gamesPlayed": 12,
           "wins": 2,
-          "losses": 9,
+          "losses": 10,
           "ties": 0,
-          "winPercentage": "0.182"
+          "winPercentage": "0.167"
         },
         "stats": {
           "points": 4,
-          "runsFor": 60,
-          "runsAgainst": 155,
-          "runDifferential": -95
+          "runsFor": 70,
+          "runsAgainst": 167,
+          "runDifferential": -97
         }
       },
       {
@@ -272,7 +272,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-07-07T01:17:27.441Z",
+    "lastUpdated": "2026-07-07T05:33:08.222Z",
     "totalTeams": 15
   },
   "schedule": {
@@ -365,7 +365,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-07T01:17:31.860Z"
+        "lastUpdated": "2026-07-07T05:33:12.557Z"
       },
       "612788": {
         "teamCode": "612788",
@@ -455,30 +455,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-07T01:17:31.860Z"
+        "lastUpdated": "2026-07-07T05:33:12.557Z"
       },
       "612789": {
         "teamCode": "612789",
         "totalGames": 17,
-        "playedGames": 6,
+        "playedGames": 7,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Wed, Jun 10",
-            "time": "8:30 PM",
-            "homeTeam": "Orillia 14U B",
-            "homeTeamCode": "618385",
-            "awayTeam": "Barrie Baycats 14U A",
-            "awayTeamCode": "612789",
-            "location": "McKinnell Square Park (Ross Diamond)",
-            "isCompleted": true,
-            "score": {
-              "home": 9,
-              "away": 13,
-              "scoreText": "13-9"
-            }
-          },
           {
             "date": null,
             "dateText": "Mon, Jun 15",
@@ -542,10 +526,26 @@
               "away": 19,
               "scoreText": "19-1"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, Jul 6",
+            "time": "7:30 PM",
+            "homeTeam": "Barrie Baycats 14U A",
+            "homeTeamCode": "612789",
+            "awayTeam": "Collingwood Jays 14U A",
+            "awayTeamCode": "618009",
+            "location": "Dana Field / Barrie Sports Complex",
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 5,
+              "scoreText": "5-11"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-07T01:17:31.861Z"
+        "lastUpdated": "2026-07-07T05:33:12.557Z"
       },
       "617181": {
         "teamCode": "617181",
@@ -619,7 +619,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-07T01:17:31.861Z"
+        "lastUpdated": "2026-07-07T05:33:12.557Z"
       },
       "617207": {
         "teamCode": "617207",
@@ -709,7 +709,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-07T01:17:31.861Z"
+        "lastUpdated": "2026-07-07T05:33:12.557Z"
       },
       "617856": {
         "teamCode": "617856",
@@ -799,7 +799,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-07T01:17:31.861Z"
+        "lastUpdated": "2026-07-07T05:33:12.557Z"
       },
       "617857": {
         "teamCode": "617857",
@@ -889,7 +889,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-07T01:17:31.861Z"
+        "lastUpdated": "2026-07-07T05:33:12.557Z"
       },
       "617884": {
         "teamCode": "617884",
@@ -979,7 +979,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-07T01:17:31.861Z"
+        "lastUpdated": "2026-07-07T05:33:12.557Z"
       },
       "617885": {
         "teamCode": "617885",
@@ -1069,7 +1069,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-07T01:17:31.861Z"
+        "lastUpdated": "2026-07-07T05:33:12.557Z"
       },
       "617911": {
         "teamCode": "617911",
@@ -1159,7 +1159,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-07T01:17:31.861Z"
+        "lastUpdated": "2026-07-07T05:33:12.557Z"
       },
       "617912": {
         "teamCode": "617912",
@@ -1249,7 +1249,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-07T01:17:31.861Z"
+        "lastUpdated": "2026-07-07T05:33:12.557Z"
       },
       "617978": {
         "teamCode": "617978",
@@ -1339,7 +1339,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-07T01:17:31.861Z"
+        "lastUpdated": "2026-07-07T05:33:12.557Z"
       },
       "617991": {
         "teamCode": "617991",
@@ -1429,30 +1429,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-07T01:17:31.861Z"
+        "lastUpdated": "2026-07-07T05:33:12.557Z"
       },
       "618009": {
         "teamCode": "618009",
         "totalGames": 17,
-        "playedGames": 8,
+        "playedGames": 9,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Mon, Jun 8",
-            "time": "8:30 PM",
-            "homeTeam": "Innisfil Cardinals 14U A",
-            "homeTeamCode": "618046",
-            "awayTeam": "Collingwood Jays 14U A",
-            "awayTeamCode": "618009",
-            "location": "Innisfil Recreation Centre",
-            "isCompleted": true,
-            "score": {
-              "home": 13,
-              "away": 3,
-              "scoreText": "3-13"
-            }
-          },
           {
             "date": null,
             "dateText": "Sun, Jun 21",
@@ -1516,10 +1500,26 @@
               "away": 19,
               "scoreText": "19-6"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, Jul 6",
+            "time": "7:30 PM",
+            "homeTeam": "Barrie Baycats 14U A",
+            "homeTeamCode": "612789",
+            "awayTeam": "Collingwood Jays 14U A",
+            "awayTeamCode": "618009",
+            "location": "Dana Field / Barrie Sports Complex",
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 5,
+              "scoreText": "5-11"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-07T01:17:31.861Z"
+        "lastUpdated": "2026-07-07T05:33:12.557Z"
       },
       "618024": {
         "teamCode": "618024",
@@ -1609,7 +1609,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-07T01:17:31.861Z"
+        "lastUpdated": "2026-07-07T05:33:12.557Z"
       },
       "618031": {
         "teamCode": "618031",
@@ -1699,30 +1699,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-07T01:17:31.861Z"
+        "lastUpdated": "2026-07-07T05:33:12.557Z"
       },
       "618046": {
         "teamCode": "618046",
         "totalGames": 18,
-        "playedGames": 9,
+        "playedGames": 10,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Mon, Jun 8",
-            "time": "8:30 PM",
-            "homeTeam": "Innisfil Cardinals 14U A",
-            "homeTeamCode": "618046",
-            "awayTeam": "Collingwood Jays 14U A",
-            "awayTeamCode": "618009",
-            "location": "Innisfil Recreation Centre",
-            "isCompleted": true,
-            "score": {
-              "home": 13,
-              "away": 3,
-              "scoreText": "3-13"
-            }
-          },
           {
             "date": null,
             "dateText": "Thu, Jun 11",
@@ -1786,10 +1770,26 @@
               "away": 19,
               "scoreText": "19-6"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, Jul 6",
+            "time": "8:30 PM",
+            "homeTeam": "Innisfil Cardinals 14U A",
+            "homeTeamCode": "618046",
+            "awayTeam": "Muskoka Hornets 14U B",
+            "awayTeamCode": "628936",
+            "location": "Innisfil Recreation Centre",
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 10,
+              "scoreText": "10-12"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-07T01:17:31.861Z"
+        "lastUpdated": "2026-07-07T05:33:12.557Z"
       },
       "618061": {
         "teamCode": "618061",
@@ -1879,7 +1879,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-07T01:17:31.861Z"
+        "lastUpdated": "2026-07-07T05:33:12.557Z"
       },
       "618385": {
         "teamCode": "618385",
@@ -1969,7 +1969,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-07T01:17:31.861Z"
+        "lastUpdated": "2026-07-07T05:33:12.557Z"
       },
       "618465": {
         "teamCode": "618465",
@@ -2059,7 +2059,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-07T01:17:31.861Z"
+        "lastUpdated": "2026-07-07T05:33:12.557Z"
       },
       "625728": {
         "teamCode": "625728",
@@ -2101,30 +2101,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-07T01:17:31.861Z"
+        "lastUpdated": "2026-07-07T05:33:12.557Z"
       },
       "628936": {
         "teamCode": "628936",
         "totalGames": 18,
-        "playedGames": 11,
+        "playedGames": 12,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sun, Jun 28",
-            "time": "11:00 AM",
-            "homeTeam": "Orangeville Bengals 14U B",
-            "homeTeamCode": "618024",
-            "awayTeam": "Muskoka Hornets 14U B",
-            "awayTeamCode": "628936",
-            "location": "McCulley-Robertson Sports Complex",
-            "isCompleted": true,
-            "score": {
-              "home": 3,
-              "away": 9,
-              "scoreText": "9-3"
-            }
-          },
           {
             "date": null,
             "dateText": "Sun, Jun 28",
@@ -2188,10 +2172,26 @@
               "away": 19,
               "scoreText": "19-1"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, Jul 6",
+            "time": "8:30 PM",
+            "homeTeam": "Innisfil Cardinals 14U A",
+            "homeTeamCode": "618046",
+            "awayTeam": "Muskoka Hornets 14U B",
+            "awayTeamCode": "628936",
+            "location": "Innisfil Recreation Centre",
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 10,
+              "scoreText": "10-12"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-07T01:17:31.861Z"
+        "lastUpdated": "2026-07-07T05:33:12.557Z"
       }
     },
     "allGames": [
@@ -3936,8 +3936,12 @@
         "awayTeam": "Collingwood Jays 14U A",
         "awayTeamCode": "618009",
         "location": "Dana Field / Barrie Sports Complex",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 5,
+          "scoreText": "5-11"
+        }
       },
       {
         "date": null,
@@ -3960,8 +3964,12 @@
         "awayTeam": "Muskoka Hornets 14U B",
         "awayTeamCode": "628936",
         "location": "Innisfil Recreation Centre",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 10,
+          "scoreText": "10-12"
+        }
       },
       {
         "date": null,
@@ -5111,18 +5119,18 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-07-07T01:17:31.861Z",
+    "lastUpdated": "2026-07-07T05:33:12.557Z",
     "totalGames": 200
   },
   "summary": {
     "totalTeams": 15,
     "totalGames": 200,
-    "completedGames": 88,
-    "upcomingGames": 112,
+    "completedGames": 90,
+    "upcomingGames": 110,
     "topTeam": {
       "team": "Barrie Baycats 14U A",
       "teamCode": "612789",
-      "wins": 6,
+      "wins": 7,
       "losses": 0,
       "winPercentage": "1.000"
     },
@@ -5135,6 +5143,6 @@
       "date": "Mon, May 25",
       "location": "Innisfil Recreation Centre"
     },
-    "lastUpdated": "2026-07-07T01:19:55.337Z"
+    "lastUpdated": "2026-07-07T05:35:34.886Z"
   }
 }
