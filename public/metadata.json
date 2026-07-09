@@ -1,12 +1,178 @@
 {
   "source": "GitHub Actions",
-  "successCount": 54,
-  "errorCount": 0,
-  "errors": [],
-  "divisionsScraped": 54,
+  "successCount": 21,
+  "errorCount": 3,
+  "errors": [
+    {
+      "division": "13U-rep",
+      "tier": "tier-1",
+      "error": "Standings failed: Standings timeout after 45s"
+    },
+    {
+      "division": "13U-rep",
+      "tier": "tier-2",
+      "error": "Standings failed: Standings timeout after 45s"
+    },
+    {
+      "division": "13U-rep",
+      "tier": "tier-3",
+      "error": "Standings failed: Standings timeout after 45s"
+    },
+    {
+      "division": "14U-rep",
+      "tier": "no-tier",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "14U-rep",
+      "tier": "tier-1",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "14U-rep",
+      "tier": "tier-2",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "14U-rep",
+      "tier": "tier-3",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "15U-rep",
+      "tier": "no-tier",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "15U-rep",
+      "tier": "tier-1",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "15U-rep",
+      "tier": "tier-2",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "15U-rep",
+      "tier": "tier-3",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "16U-rep",
+      "tier": "no-tier",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "16U-rep",
+      "tier": "tier-1",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "16U-rep",
+      "tier": "tier-2",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "16U-rep",
+      "tier": "tier-3",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "18U-rep",
+      "tier": "no-tier",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "18U-rep",
+      "tier": "tier-1",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "18U-rep",
+      "tier": "tier-2",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "18U-rep",
+      "tier": "tier-3",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "22U-rep",
+      "tier": "no-tier",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "22U-rep",
+      "tier": "tier-1",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "22U-rep",
+      "tier": "tier-2",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "22U-rep",
+      "tier": "tier-3",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "senior-rep",
+      "tier": "no-tier",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "senior-rep",
+      "tier": "tier-1",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "senior-rep",
+      "tier": "tier-2",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "senior-rep",
+      "tier": "tier-3",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "9U-select",
+      "tier": "all-tiers",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "11U-select",
+      "tier": "all-tiers",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "13U-select",
+      "tier": "all-tiers",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "15U-select",
+      "tier": "all-tiers",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "10U-interlock",
+      "tier": "all-tiers",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "11U-interlock",
+      "tier": "all-tiers",
+      "error": "Skipped due to circuit breaker"
+    }
+  ],
+  "divisionsScraped": 21,
   "totalDivisions": 54,
-  "duration": 344298,
-  "generatedAt": "2026-07-09T04:33:13.867Z",
+  "duration": 309167,
+  "generatedAt": "2026-07-09T08:04:10.212Z",
   "worker": {
     "version": "1.0.0",
     "nodeVersion": "v18.20.8",
