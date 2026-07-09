@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-07-09T16:28:48.435Z",
+  "lastUpdated": "2026-07-09T18:21:14.496Z",
   "totals": {
     "divisions": 54,
     "teams": 213,
     "games": 5549,
-    "completed": 3210,
-    "upcoming": 2339
+    "completed": 3217,
+    "upcoming": 2332
   },
   "recentActivity": [
     {
@@ -77,8 +77,12 @@
       "awayTeam": "Markham",
       "awayTeamCode": "892645",
       "location": "Carlton   — Toronto",
-      "isCompleted": false,
-      "score": null
+      "isCompleted": true,
+      "score": {
+        "home": 9,
+        "away": 13,
+        "scoreText": "13-9"
+      }
     }
   ],
   "upcomingGames": [
