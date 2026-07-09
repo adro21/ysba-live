@@ -20,7 +20,7 @@
         }
       },
       {
-        "position": 3,
+        "position": 4,
         "team": "Innisfil Cardinals 10U A",
         "teamCode": "618041",
         "record": {
@@ -38,21 +38,21 @@
         }
       },
       {
-        "position": 4,
+        "position": 3,
         "team": "Barrie Baycats 10U A",
         "teamCode": "612779",
         "record": {
-          "gamesPlayed": 10,
-          "wins": 8,
+          "gamesPlayed": 11,
+          "wins": 9,
           "losses": 2,
           "ties": 0,
-          "winPercentage": "0.800"
+          "winPercentage": "0.818"
         },
         "stats": {
-          "points": 16,
-          "runsFor": 129,
-          "runsAgainst": 66,
-          "runDifferential": 63
+          "points": 18,
+          "runsFor": 137,
+          "runsAgainst": 72,
+          "runDifferential": 65
         }
       },
       {
@@ -92,21 +92,21 @@
         }
       },
       {
-        "position": 9,
+        "position": 7,
         "team": "Midland Penetang Twins 10U B",
         "teamCode": "618394",
         "record": {
-          "gamesPlayed": 8,
-          "wins": 5,
+          "gamesPlayed": 9,
+          "wins": 6,
           "losses": 3,
           "ties": 0,
-          "winPercentage": "0.625"
+          "winPercentage": "0.667"
         },
         "stats": {
-          "points": 10,
-          "runsFor": 70,
-          "runsAgainst": 52,
-          "runDifferential": 18
+          "points": 12,
+          "runsFor": 89,
+          "runsAgainst": 59,
+          "runDifferential": 30
         }
       },
       {
@@ -114,17 +114,17 @@
         "team": "Vaughan Vikings 10U A Team 1",
         "teamCode": "617173",
         "record": {
-          "gamesPlayed": 11,
+          "gamesPlayed": 12,
           "wins": 6,
-          "losses": 5,
+          "losses": 6,
           "ties": 0,
-          "winPercentage": "0.545"
+          "winPercentage": "0.500"
         },
         "stats": {
           "points": 12,
-          "runsFor": 98,
-          "runsAgainst": 101,
-          "runDifferential": -3
+          "runsFor": 104,
+          "runsAgainst": 109,
+          "runDifferential": -5
         }
       },
       {
@@ -146,7 +146,7 @@
         }
       },
       {
-        "position": 8,
+        "position": 9,
         "team": "Collingwood Jays 10U A",
         "teamCode": "618005",
         "record": {
@@ -182,24 +182,6 @@
         }
       },
       {
-        "position": 7,
-        "team": "Bradford Tigers 10U A",
-        "teamCode": "617944",
-        "record": {
-          "gamesPlayed": 13,
-          "wins": 5,
-          "losses": 8,
-          "ties": 0,
-          "winPercentage": "0.385"
-        },
-        "stats": {
-          "points": 10,
-          "runsFor": 135,
-          "runsAgainst": 147,
-          "runDifferential": -12
-        }
-      },
-      {
         "position": 12,
         "team": "Stouffville 10U A",
         "teamCode": "627209",
@@ -215,6 +197,24 @@
           "runsFor": 71,
           "runsAgainst": 83,
           "runDifferential": -12
+        }
+      },
+      {
+        "position": 8,
+        "team": "Bradford Tigers 10U A",
+        "teamCode": "617944",
+        "record": {
+          "gamesPlayed": 14,
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "winPercentage": "0.357"
+        },
+        "stats": {
+          "points": 10,
+          "runsFor": 142,
+          "runsAgainst": 166,
+          "runDifferential": -24
         }
       },
       {
@@ -290,7 +290,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-07-09T13:49:22.351Z",
+    "lastUpdated": "2026-07-09T16:24:25.321Z",
     "totalTeams": 16
   },
   "schedule": {
@@ -298,25 +298,9 @@
       "612779": {
         "teamCode": "612779",
         "totalGames": 19,
-        "playedGames": 10,
+        "playedGames": 11,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Wed, Jun 3",
-            "time": "6:00 PM",
-            "homeTeam": "Collingwood Jays 10U A",
-            "homeTeamCode": "618005",
-            "awayTeam": "Barrie Baycats 10U A",
-            "awayTeamCode": "612779",
-            "location": "Heritage Park- Small",
-            "isCompleted": true,
-            "score": {
-              "home": 9,
-              "away": 8,
-              "scoreText": "8-9"
-            }
-          },
           {
             "date": null,
             "dateText": "Wed, Jun 10",
@@ -380,33 +364,33 @@
               "away": 20,
               "scoreText": "20-4"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Wed, Jul 8",
+            "time": "6:30 PM",
+            "homeTeam": "Barrie Baycats 10U A",
+            "homeTeamCode": "612779",
+            "awayTeam": "Vaughan Vikings 10U A Team 1",
+            "awayTeamCode": "617173",
+            "location": "Barrie Sports Complex Pinwheel 12",
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 6,
+              "scoreText": "6-8"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-09T13:49:26.444Z"
+        "lastUpdated": "2026-07-09T16:24:29.481Z"
       },
       "617173": {
         "teamCode": "617173",
         "totalGames": 19,
-        "playedGames": 11,
+        "playedGames": 12,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sat, Jun 13",
-            "time": "5:00 PM",
-            "homeTeam": "Stouffville 10U A",
-            "homeTeamCode": "627209",
-            "awayTeam": "Vaughan Vikings 10U A Team 1",
-            "awayTeamCode": "617173",
-            "location": "Bethesda 1",
-            "isCompleted": true,
-            "score": {
-              "home": 8,
-              "away": 16,
-              "scoreText": "16-8"
-            }
-          },
           {
             "date": null,
             "dateText": "Mon, Jun 15",
@@ -470,10 +454,26 @@
               "away": 7,
               "scoreText": "7-10"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Wed, Jul 8",
+            "time": "6:30 PM",
+            "homeTeam": "Barrie Baycats 10U A",
+            "homeTeamCode": "612779",
+            "awayTeam": "Vaughan Vikings 10U A Team 1",
+            "awayTeamCode": "617173",
+            "location": "Barrie Sports Complex Pinwheel 12",
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 6,
+              "scoreText": "6-8"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-09T13:49:26.444Z"
+        "lastUpdated": "2026-07-09T16:24:29.481Z"
       },
       "617174": {
         "teamCode": "617174",
@@ -563,7 +563,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-09T13:49:26.444Z"
+        "lastUpdated": "2026-07-09T16:24:29.481Z"
       },
       "617848": {
         "teamCode": "617848",
@@ -653,7 +653,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-09T13:49:26.444Z"
+        "lastUpdated": "2026-07-09T16:24:29.481Z"
       },
       "617900": {
         "teamCode": "617900",
@@ -743,30 +743,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-09T13:49:26.444Z"
+        "lastUpdated": "2026-07-09T16:24:29.481Z"
       },
       "617944": {
         "teamCode": "617944",
         "totalGames": 19,
-        "playedGames": 13,
+        "playedGames": 14,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Wed, Jun 10",
-            "time": "6:00 PM",
-            "homeTeam": "Collingwood Jays 10U A",
-            "homeTeamCode": "618005",
-            "awayTeam": "Bradford Tigers 10U A",
-            "awayTeamCode": "617944",
-            "location": "Heritage Park- Small",
-            "isCompleted": true,
-            "score": {
-              "home": 14,
-              "away": 13,
-              "scoreText": "13-14"
-            }
-          },
           {
             "date": null,
             "dateText": "Mon, Jun 15",
@@ -830,10 +814,26 @@
               "away": 12,
               "scoreText": "12-10"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, Jul 6",
+            "time": "6:00 PM",
+            "homeTeam": "Bradford Tigers 10U A",
+            "homeTeamCode": "617944",
+            "awayTeam": "Midland Penetang Twins 10U B",
+            "awayTeamCode": "618394",
+            "location": "Magani #2",
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 19,
+              "scoreText": "19-7"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-09T13:49:26.444Z"
+        "lastUpdated": "2026-07-09T16:24:29.481Z"
       },
       "617970": {
         "teamCode": "617970",
@@ -923,7 +923,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-09T13:49:26.444Z"
+        "lastUpdated": "2026-07-09T16:24:29.481Z"
       },
       "617985": {
         "teamCode": "617985",
@@ -1013,7 +1013,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-09T13:49:26.444Z"
+        "lastUpdated": "2026-07-09T16:24:29.481Z"
       },
       "618005": {
         "teamCode": "618005",
@@ -1103,7 +1103,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-09T13:49:26.444Z"
+        "lastUpdated": "2026-07-09T16:24:29.481Z"
       },
       "618019": {
         "teamCode": "618019",
@@ -1193,7 +1193,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-09T13:49:26.444Z"
+        "lastUpdated": "2026-07-09T16:24:29.481Z"
       },
       "618041": {
         "teamCode": "618041",
@@ -1283,7 +1283,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-09T13:49:26.444Z"
+        "lastUpdated": "2026-07-09T16:24:29.481Z"
       },
       "618057": {
         "teamCode": "618057",
@@ -1373,7 +1373,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-09T13:49:26.444Z"
+        "lastUpdated": "2026-07-09T16:24:29.481Z"
       },
       "618381": {
         "teamCode": "618381",
@@ -1463,30 +1463,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-09T13:49:26.444Z"
+        "lastUpdated": "2026-07-09T16:24:29.481Z"
       },
       "618394": {
         "teamCode": "618394",
         "totalGames": 19,
-        "playedGames": 8,
+        "playedGames": 9,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Wed, Jun 3",
-            "time": "6:00 PM",
-            "homeTeam": "Vaughan Vikings 10U A Team 2",
-            "homeTeamCode": "617174",
-            "awayTeam": "Midland Penetang Twins 10U B",
-            "awayTeamCode": "618394",
-            "location": "Concord Regional park #4",
-            "isCompleted": true,
-            "score": {
-              "home": 13,
-              "away": 5,
-              "scoreText": "5-13"
-            }
-          },
           {
             "date": null,
             "dateText": "Thu, Jun 11",
@@ -1537,6 +1521,22 @@
           },
           {
             "date": null,
+            "dateText": "Mon, Jul 6",
+            "time": "6:00 PM",
+            "homeTeam": "Bradford Tigers 10U A",
+            "homeTeamCode": "617944",
+            "awayTeam": "Midland Penetang Twins 10U B",
+            "awayTeamCode": "618394",
+            "location": "Magani #2",
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 19,
+              "scoreText": "19-7"
+            }
+          },
+          {
+            "date": null,
             "dateText": "Tue, Jul 7",
             "time": "7:00 PM",
             "homeTeam": "Midland Penetang Twins 10U B",
@@ -1553,7 +1553,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-09T13:49:26.444Z"
+        "lastUpdated": "2026-07-09T16:24:29.481Z"
       },
       "625725": {
         "teamCode": "625725",
@@ -1643,7 +1643,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-09T13:49:26.444Z"
+        "lastUpdated": "2026-07-09T16:24:29.481Z"
       },
       "627209": {
         "teamCode": "627209",
@@ -1733,7 +1733,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-09T13:49:26.444Z"
+        "lastUpdated": "2026-07-09T16:24:29.481Z"
       }
     },
     "allGames": [
@@ -3058,8 +3058,12 @@
         "awayTeam": "Midland Penetang Twins 10U B",
         "awayTeamCode": "618394",
         "location": "Magani #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 19,
+          "scoreText": "19-7"
+        }
       },
       {
         "date": null,
@@ -3166,8 +3170,12 @@
         "awayTeam": "Vaughan Vikings 10U A Team 1",
         "awayTeamCode": "617173",
         "location": "Barrie Sports Complex Pinwheel 12",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 6,
+          "scoreText": "6-8"
+        }
       },
       {
         "date": null,
@@ -4053,14 +4061,14 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-07-09T13:49:26.444Z",
+    "lastUpdated": "2026-07-09T16:24:29.481Z",
     "totalGames": 152
   },
   "summary": {
     "totalTeams": 16,
     "totalGames": 152,
-    "completedGames": 82,
-    "upcomingGames": 70,
+    "completedGames": 84,
+    "upcomingGames": 68,
     "topTeam": {
       "team": "Vaughan Vikings 10U A Team 2",
       "teamCode": "617174",
@@ -4077,6 +4085,6 @@
       "date": "Thu, May 21",
       "location": "Georgina Roc- Diamond 2"
     },
-    "lastUpdated": "2026-07-09T13:53:46.829Z"
+    "lastUpdated": "2026-07-09T16:28:48.435Z"
   }
 }
