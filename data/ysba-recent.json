@@ -1,25 +1,7 @@
 {
-  "lastUpdated": "2026-07-10T01:12:32.993Z",
+  "lastUpdated": "2026-07-10T08:54:30.470Z",
   "totalGames": 190,
   "games": [
-    {
-      "date": "2026-07-10T23:00:00.000Z",
-      "dateText": "Fri, Jul 10",
-      "time": "7:00 PM",
-      "homeTeam": "Richmond Hill",
-      "homeTeamCode": "883732",
-      "awayTeam": "Leaside",
-      "awayTeamCode": "883722",
-      "location": "Irving Paisley — Toronto",
-      "isCompleted": true,
-      "score": {
-        "home": 13,
-        "away": 6,
-        "scoreText": "6-13"
-      },
-      "division": "11U",
-      "tier": "interlock-all-tiers"
-    },
     {
       "date": "2026-07-09T22:00:00.000Z",
       "dateText": "Thu, Jul 9",
@@ -171,8 +153,12 @@
       "awayTeam": "Richmond Hill",
       "awayTeamCode": "883732",
       "location": "Harding Park — Richmond Hill",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 6,
+        "away": 13,
+        "scoreText": "13-6"
+      },
       "division": "11U",
       "tier": "interlock-all-tiers"
     },
@@ -330,6 +316,24 @@
         "home": 8,
         "away": 3,
         "scoreText": "3-8"
+      },
+      "division": "11U",
+      "tier": "interlock-all-tiers"
+    },
+    {
+      "date": "2026-06-23T22:00:00.000Z",
+      "dateText": "Tue, Jun 23",
+      "time": "6:00 PM",
+      "homeTeam": "Etobicoke",
+      "homeTeamCode": "883728",
+      "awayTeam": "Richmond Hill",
+      "awayTeamCode": "883732",
+      "location": "Harding Park — Richmond Hill",
+      "isCompleted": true,
+      "score": {
+        "home": 10,
+        "away": 1,
+        "scoreText": "1-10"
       },
       "division": "11U",
       "tier": "interlock-all-tiers"
