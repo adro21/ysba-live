@@ -2,25 +2,25 @@
   "standings": {
     "teams": [
       {
-        "position": 2,
+        "position": 1,
         "team": "Barrie Baycats 18U A",
         "teamCode": "612795",
         "record": {
-          "gamesPlayed": 11,
-          "wins": 8,
+          "gamesPlayed": 12,
+          "wins": 9,
           "losses": 2,
           "ties": 1,
-          "winPercentage": "0.773"
+          "winPercentage": "0.792"
         },
         "stats": {
-          "points": 17,
-          "runsFor": 103,
-          "runsAgainst": 46,
-          "runDifferential": 57
+          "points": 19,
+          "runsFor": 116,
+          "runsAgainst": 51,
+          "runDifferential": 65
         }
       },
       {
-        "position": 1,
+        "position": 2,
         "team": "Stayner 18U C",
         "teamCode": "617169",
         "record": {
@@ -168,17 +168,17 @@
         "team": "Orangeville Bengals 18U B",
         "teamCode": "618025",
         "record": {
-          "gamesPlayed": 12,
+          "gamesPlayed": 13,
           "wins": 4,
-          "losses": 8,
+          "losses": 9,
           "ties": 0,
-          "winPercentage": "0.333"
+          "winPercentage": "0.308"
         },
         "stats": {
           "points": 8,
-          "runsFor": 54,
-          "runsAgainst": 99,
-          "runDifferential": -45
+          "runsFor": 59,
+          "runsAgainst": 112,
+          "runDifferential": -53
         }
       },
       {
@@ -200,7 +200,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-07-10T20:01:27.162Z",
+    "lastUpdated": "2026-07-10T21:09:07.943Z",
     "totalTeams": 11
   },
   "schedule": {
@@ -293,30 +293,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-10T20:01:29.900Z"
+        "lastUpdated": "2026-07-10T21:09:11.221Z"
       },
       "612795": {
         "teamCode": "612795",
         "totalGames": 18,
-        "playedGames": 11,
+        "playedGames": 12,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Wed, Jun 10",
-            "time": "7:30 PM",
-            "homeTeam": "Barrie Baycats 18U A",
-            "homeTeamCode": "612795",
-            "awayTeam": "Stayner 18U C",
-            "awayTeamCode": "617169",
-            "location": "Athletic Kulture Stadium aka \"The Stadium\", Barrie Community Sports Complex, 2100 Nursery Road, Minesing, ON",
-            "isCompleted": true,
-            "score": {
-              "home": 8,
-              "away": 8,
-              "scoreText": "8-8"
-            }
-          },
           {
             "date": null,
             "dateText": "Wed, Jun 17",
@@ -380,10 +364,26 @@
               "away": 1,
               "scoreText": "1-11"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Wed, Jul 8",
+            "time": "7:30 PM",
+            "homeTeam": "Barrie Baycats 18U A",
+            "homeTeamCode": "612795",
+            "awayTeam": "Orangeville Bengals 18U B",
+            "awayTeamCode": "618025",
+            "location": "Athletic Kulture Stadium aka \"The Stadium\", Barrie Community Sports Complex, 2100 Nursery Road, Minesing, ON",
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 5,
+              "scoreText": "5-13"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-10T20:01:29.900Z"
+        "lastUpdated": "2026-07-10T21:09:11.221Z"
       },
       "617169": {
         "teamCode": "617169",
@@ -473,7 +473,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-10T20:01:29.900Z"
+        "lastUpdated": "2026-07-10T21:09:11.221Z"
       },
       "617951": {
         "teamCode": "617951",
@@ -563,7 +563,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-10T20:01:29.900Z"
+        "lastUpdated": "2026-07-10T21:09:11.221Z"
       },
       "618012": {
         "teamCode": "618012",
@@ -653,30 +653,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-10T20:01:29.900Z"
+        "lastUpdated": "2026-07-10T21:09:11.221Z"
       },
       "618025": {
         "teamCode": "618025",
         "totalGames": 18,
-        "playedGames": 12,
+        "playedGames": 13,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sat, Jun 27",
-            "time": "11:00 AM",
-            "homeTeam": "Orangeville Bengals 18U B",
-            "homeTeamCode": "618025",
-            "awayTeam": "Muskoka Hornets 18U A",
-            "awayTeamCode": "628939",
-            "location": "Princess of Wales Park, 2 Saxon Street Orangeville",
-            "isCompleted": true,
-            "score": {
-              "home": 5,
-              "away": 16,
-              "scoreText": "16-5"
-            }
-          },
           {
             "date": null,
             "dateText": "Sat, Jun 27",
@@ -740,10 +724,26 @@
               "away": 8,
               "scoreText": "8-0"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Wed, Jul 8",
+            "time": "7:30 PM",
+            "homeTeam": "Barrie Baycats 18U A",
+            "homeTeamCode": "612795",
+            "awayTeam": "Orangeville Bengals 18U B",
+            "awayTeamCode": "618025",
+            "location": "Athletic Kulture Stadium aka \"The Stadium\", Barrie Community Sports Complex, 2100 Nursery Road, Minesing, ON",
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 5,
+              "scoreText": "5-13"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-10T20:01:29.900Z"
+        "lastUpdated": "2026-07-10T21:09:11.221Z"
       },
       "618049": {
         "teamCode": "618049",
@@ -833,7 +833,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-10T20:01:29.900Z"
+        "lastUpdated": "2026-07-10T21:09:11.221Z"
       },
       "618063": {
         "teamCode": "618063",
@@ -923,7 +923,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-10T20:01:29.901Z"
+        "lastUpdated": "2026-07-10T21:09:11.221Z"
       },
       "618388": {
         "teamCode": "618388",
@@ -1013,7 +1013,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-10T20:01:29.901Z"
+        "lastUpdated": "2026-07-10T21:09:11.221Z"
       },
       "625723": {
         "teamCode": "625723",
@@ -1103,7 +1103,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-10T20:01:29.901Z"
+        "lastUpdated": "2026-07-10T21:09:11.221Z"
       },
       "628939": {
         "teamCode": "628939",
@@ -1193,7 +1193,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-10T20:01:29.901Z"
+        "lastUpdated": "2026-07-10T21:09:11.221Z"
       }
     },
     "allGames": [
@@ -2398,8 +2398,12 @@
         "awayTeam": "Orangeville Bengals 18U B",
         "awayTeamCode": "618025",
         "location": "Athletic Kulture Stadium aka \"The Stadium\", Barrie Community Sports Complex, 2100 Nursery Road, Minesing, ON",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 5,
+          "scoreText": "5-13"
+        }
       },
       {
         "date": null,
@@ -2805,20 +2809,20 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-07-10T20:01:29.901Z",
+    "lastUpdated": "2026-07-10T21:09:11.221Z",
     "totalGames": 99
   },
   "summary": {
     "totalTeams": 11,
     "totalGames": 99,
-    "completedGames": 64,
-    "upcomingGames": 35,
+    "completedGames": 65,
+    "upcomingGames": 34,
     "topTeam": {
       "team": "Barrie Baycats 18U A",
       "teamCode": "612795",
-      "wins": 8,
+      "wins": 9,
       "losses": 2,
-      "winPercentage": "0.773"
+      "winPercentage": "0.792"
     },
     "highestScoringGame": {
       "homeTeam": "TNT Thunder 18U A",
@@ -2829,6 +2833,6 @@
       "date": "Mon, May 18",
       "location": "Beeton Diamond at 72 Prospect St. Beeton"
     },
-    "lastUpdated": "2026-07-10T20:02:45.336Z"
+    "lastUpdated": "2026-07-10T21:10:50.811Z"
   }
 }
