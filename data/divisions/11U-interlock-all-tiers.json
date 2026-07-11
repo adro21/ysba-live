@@ -74,24 +74,6 @@
         }
       },
       {
-        "position": 6,
-        "team": "Richmond Hill",
-        "teamCode": "883732",
-        "record": {
-          "gamesPlayed": 8,
-          "wins": 5,
-          "losses": 3,
-          "ties": 0,
-          "winPercentage": "0.625"
-        },
-        "stats": {
-          "points": 10,
-          "runsFor": 47,
-          "runsAgainst": 44,
-          "runDifferential": 3
-        }
-      },
-      {
         "position": 5,
         "team": "Whitby",
         "teamCode": "883731",
@@ -107,6 +89,24 @@
           "runsFor": 62,
           "runsAgainst": 43,
           "runDifferential": 19
+        }
+      },
+      {
+        "position": 6,
+        "team": "Richmond Hill",
+        "teamCode": "883732",
+        "record": {
+          "gamesPlayed": 9,
+          "wins": 5,
+          "losses": 4,
+          "ties": 0,
+          "winPercentage": "0.556"
+        },
+        "stats": {
+          "points": 10,
+          "runsFor": 53,
+          "runsAgainst": 51,
+          "runDifferential": 2
         }
       },
       {
@@ -128,7 +128,7 @@
         }
       },
       {
-        "position": 11,
+        "position": 12,
         "team": "Newmarket",
         "teamCode": "883723",
         "record": {
@@ -200,25 +200,25 @@
         }
       },
       {
-        "position": 12,
+        "position": 11,
         "team": "Leaside",
         "teamCode": "883722",
         "record": {
-          "gamesPlayed": 10,
-          "wins": 1,
+          "gamesPlayed": 11,
+          "wins": 2,
           "losses": 9,
           "ties": 0,
-          "winPercentage": "0.100"
+          "winPercentage": "0.182"
         },
         "stats": {
-          "points": 2,
-          "runsFor": 58,
-          "runsAgainst": 95,
-          "runDifferential": -37
+          "points": 4,
+          "runsFor": 65,
+          "runsAgainst": 101,
+          "runDifferential": -36
         }
       }
     ],
-    "lastUpdated": "2026-07-11T02:07:42.579Z",
+    "lastUpdated": "2026-07-11T05:32:45.895Z",
     "totalTeams": 12
   },
   "schedule": {
@@ -298,8 +298,12 @@
             "awayTeam": "Leaside",
             "awayTeamCode": "883722",
             "location": "Irving Paisley — Toronto",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 7,
+              "scoreText": "7-6"
+            }
           }
         ],
         "nextGames": [
@@ -364,7 +368,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-11T02:07:42.602Z"
+        "lastUpdated": "2026-07-11T05:32:45.910Z"
       },
       "883723": {
         "teamCode": "883723",
@@ -507,7 +511,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-11T02:07:42.602Z"
+        "lastUpdated": "2026-07-11T05:32:45.910Z"
       },
       "883724": {
         "teamCode": "883724",
@@ -654,7 +658,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-11T02:07:42.602Z"
+        "lastUpdated": "2026-07-11T05:32:45.910Z"
       },
       "883725": {
         "teamCode": "883725",
@@ -801,7 +805,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-11T02:07:42.602Z"
+        "lastUpdated": "2026-07-11T05:32:45.910Z"
       },
       "883726": {
         "teamCode": "883726",
@@ -948,7 +952,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-11T02:07:42.602Z"
+        "lastUpdated": "2026-07-11T05:32:45.910Z"
       },
       "883727": {
         "teamCode": "883727",
@@ -1095,7 +1099,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-11T02:07:42.602Z"
+        "lastUpdated": "2026-07-11T05:32:45.910Z"
       },
       "883728": {
         "teamCode": "883728",
@@ -1226,7 +1230,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-11T02:07:42.602Z"
+        "lastUpdated": "2026-07-11T05:32:45.910Z"
       },
       "883729": {
         "teamCode": "883729",
@@ -1377,7 +1381,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-11T02:07:42.602Z"
+        "lastUpdated": "2026-07-11T05:32:45.910Z"
       },
       "883730": {
         "teamCode": "883730",
@@ -1524,7 +1528,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-11T02:07:42.602Z"
+        "lastUpdated": "2026-07-11T05:32:45.910Z"
       },
       "883731": {
         "teamCode": "883731",
@@ -1675,7 +1679,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-11T02:07:42.602Z"
+        "lastUpdated": "2026-07-11T05:32:45.910Z"
       },
       "883732": {
         "teamCode": "883732",
@@ -1756,8 +1760,12 @@
             "awayTeam": "Leaside",
             "awayTeamCode": "883722",
             "location": "Irving Paisley — Toronto",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 7,
+              "scoreText": "7-6"
+            }
           }
         ],
         "nextGames": [
@@ -1822,7 +1830,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-11T02:07:42.602Z"
+        "lastUpdated": "2026-07-11T05:32:45.910Z"
       },
       "883733": {
         "teamCode": "883733",
@@ -1969,7 +1977,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-11T02:07:42.602Z"
+        "lastUpdated": "2026-07-11T05:32:45.910Z"
       }
     },
     "allGames": [
@@ -3022,8 +3030,12 @@
         "awayTeam": "Leaside",
         "awayTeamCode": "883722",
         "location": "Irving Paisley — Toronto",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 7,
+          "scoreText": "7-6"
+        }
       },
       {
         "date": "2026-07-12T21:00:00.000Z",
@@ -3492,8 +3504,12 @@
         "awayTeam": "Leaside",
         "awayTeamCode": "883722",
         "location": "Irving Paisley — Toronto",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 7,
+          "scoreText": "7-6"
+        }
       },
       {
         "date": "2026-07-09T22:00:00.000Z",
@@ -3750,14 +3766,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2026-07-11T02:07:42.602Z",
+    "lastUpdated": "2026-07-11T05:32:45.910Z",
     "totalGames": 106
   },
   "summary": {
     "totalTeams": 12,
     "totalGames": 106,
-    "completedGames": 59,
-    "upcomingGames": 47,
+    "completedGames": 60,
+    "upcomingGames": 46,
     "topTeam": {
       "team": "Etobicoke",
       "teamCode": "883728",
@@ -3774,6 +3790,6 @@
       "date": "Sun, May 31",
       "location": "North Hill — Diamond 3 — Bolton"
     },
-    "lastUpdated": "2026-07-11T02:07:42.603Z"
+    "lastUpdated": "2026-07-11T05:32:45.911Z"
   }
 }
