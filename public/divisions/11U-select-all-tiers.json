@@ -92,6 +92,24 @@
         }
       },
       {
+        "position": 6,
+        "team": "Orangeville Bengals 11U DS",
+        "teamCode": "618027",
+        "record": {
+          "gamesPlayed": 11,
+          "wins": 5,
+          "losses": 5,
+          "ties": 1,
+          "winPercentage": "0.500"
+        },
+        "stats": {
+          "points": 11,
+          "runsFor": 97,
+          "runsAgainst": 90,
+          "runDifferential": 7
+        }
+      },
+      {
         "position": 7,
         "team": "Collingwood Jays 11U DS",
         "teamCode": "618014",
@@ -107,24 +125,6 @@
           "runsFor": 92,
           "runsAgainst": 97,
           "runDifferential": -5
-        }
-      },
-      {
-        "position": 6,
-        "team": "Orangeville Bengals 11U DS",
-        "teamCode": "618027",
-        "record": {
-          "gamesPlayed": 10,
-          "wins": 4,
-          "losses": 5,
-          "ties": 1,
-          "winPercentage": "0.450"
-        },
-        "stats": {
-          "points": 9,
-          "runsFor": 88,
-          "runsAgainst": 86,
-          "runDifferential": 2
         }
       },
       {
@@ -146,7 +146,7 @@
         }
       },
       {
-        "position": 9,
+        "position": 10,
         "team": "Vaughan Vikings 10U DS",
         "teamCode": "617189",
         "record": {
@@ -164,21 +164,21 @@
         }
       },
       {
-        "position": 10,
+        "position": 9,
         "team": "Caledon Nationals 11U DS",
         "teamCode": "618476",
         "record": {
-          "gamesPlayed": 11,
+          "gamesPlayed": 12,
           "wins": 3,
-          "losses": 8,
+          "losses": 9,
           "ties": 0,
-          "winPercentage": "0.273"
+          "winPercentage": "0.250"
         },
         "stats": {
           "points": 6,
-          "runsFor": 82,
-          "runsAgainst": 121,
-          "runDifferential": -39
+          "runsFor": 86,
+          "runsAgainst": 130,
+          "runDifferential": -44
         }
       },
       {
@@ -200,7 +200,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-07-13T01:08:35.925Z",
+    "lastUpdated": "2026-07-13T05:02:57.990Z",
     "totalTeams": 11
   },
   "schedule": {
@@ -293,7 +293,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-13T01:08:38.713Z"
+        "lastUpdated": "2026-07-13T05:03:00.903Z"
       },
       "617189": {
         "teamCode": "617189",
@@ -383,7 +383,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-13T01:08:38.713Z"
+        "lastUpdated": "2026-07-13T05:03:00.903Z"
       },
       "617190": {
         "teamCode": "617190",
@@ -473,7 +473,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-13T01:08:38.713Z"
+        "lastUpdated": "2026-07-13T05:03:00.903Z"
       },
       "617892": {
         "teamCode": "617892",
@@ -563,7 +563,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-13T01:08:38.713Z"
+        "lastUpdated": "2026-07-13T05:03:00.903Z"
       },
       "617917": {
         "teamCode": "617917",
@@ -653,7 +653,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-13T01:08:38.713Z"
+        "lastUpdated": "2026-07-13T05:03:00.903Z"
       },
       "618000": {
         "teamCode": "618000",
@@ -743,7 +743,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-13T01:08:38.713Z"
+        "lastUpdated": "2026-07-13T05:03:00.903Z"
       },
       "618014": {
         "teamCode": "618014",
@@ -833,30 +833,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-13T01:08:38.713Z"
+        "lastUpdated": "2026-07-13T05:03:00.903Z"
       },
       "618027": {
         "teamCode": "618027",
         "totalGames": 16,
-        "playedGames": 10,
+        "playedGames": 11,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sun, Jun 7",
-            "time": "12:00 PM",
-            "homeTeam": "Orangeville Bengals 11U DS",
-            "homeTeamCode": "618027",
-            "awayTeam": "Collingwood Jays 11U DS",
-            "awayTeamCode": "618014",
-            "location": "Springbrook Shack",
-            "isCompleted": true,
-            "score": {
-              "home": 16,
-              "away": 6,
-              "scoreText": "6-16"
-            }
-          },
           {
             "date": null,
             "dateText": "Sun, Jun 14",
@@ -920,10 +904,26 @@
               "away": 3,
               "scoreText": "3-14"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Tue, Jul 7",
+            "time": "6:00 PM",
+            "homeTeam": "Orangeville Bengals 11U DS",
+            "homeTeamCode": "618027",
+            "awayTeam": "Caledon Nationals 11U DS",
+            "awayTeamCode": "618476",
+            "location": "John Alexander Park",
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 4,
+              "scoreText": "4-9"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-13T01:08:38.713Z"
+        "lastUpdated": "2026-07-13T05:03:00.903Z"
       },
       "618053": {
         "teamCode": "618053",
@@ -1013,7 +1013,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-13T01:08:38.713Z"
+        "lastUpdated": "2026-07-13T05:03:00.903Z"
       },
       "618391": {
         "teamCode": "618391",
@@ -1103,30 +1103,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-13T01:08:38.713Z"
+        "lastUpdated": "2026-07-13T05:03:00.903Z"
       },
       "618476": {
         "teamCode": "618476",
         "totalGames": 16,
-        "playedGames": 11,
+        "playedGames": 12,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Thu, Jun 11",
-            "time": "1:00 PM",
-            "homeTeam": "Caledon Nationals 11U DS",
-            "homeTeamCode": "618476",
-            "awayTeam": "Innisfil Cardinals 11U DS",
-            "awayTeamCode": "618053",
-            "location": "Caledon East Park #1",
-            "isCompleted": true,
-            "score": {
-              "home": 9,
-              "away": 7,
-              "scoreText": "7-9"
-            }
-          },
           {
             "date": null,
             "dateText": "Sun, Jun 28",
@@ -1190,10 +1174,26 @@
               "away": 12,
               "scoreText": "12-11"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Tue, Jul 7",
+            "time": "6:00 PM",
+            "homeTeam": "Orangeville Bengals 11U DS",
+            "homeTeamCode": "618027",
+            "awayTeam": "Caledon Nationals 11U DS",
+            "awayTeamCode": "618476",
+            "location": "John Alexander Park",
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 4,
+              "scoreText": "4-9"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-13T01:08:38.713Z"
+        "lastUpdated": "2026-07-13T05:03:00.903Z"
       }
     },
     "allGames": [
@@ -2246,8 +2246,12 @@
         "awayTeam": "Caledon Nationals 11U DS",
         "awayTeamCode": "618476",
         "location": "John Alexander Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 4,
+          "scoreText": "4-9"
+        }
       },
       {
         "date": null,
@@ -2677,14 +2681,14 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-07-13T01:08:38.713Z",
+    "lastUpdated": "2026-07-13T05:03:00.903Z",
     "totalGames": 88
   },
   "summary": {
     "totalTeams": 11,
     "totalGames": 88,
-    "completedGames": 65,
-    "upcomingGames": 23,
+    "completedGames": 66,
+    "upcomingGames": 22,
     "topTeam": {
       "team": "Thornhill Reds 11U DS",
       "teamCode": "618000",
@@ -2701,6 +2705,6 @@
       "date": "Sat, May 16",
       "location": "Stroud"
     },
-    "lastUpdated": "2026-07-13T01:08:53.519Z"
+    "lastUpdated": "2026-07-13T05:03:15.073Z"
   }
 }

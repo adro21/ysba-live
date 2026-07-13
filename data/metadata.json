@@ -1,12 +1,23 @@
 {
   "source": "GitHub Actions",
-  "successCount": 54,
+  "successCount": 52,
   "errorCount": 0,
-  "errors": [],
-  "divisionsScraped": 54,
+  "errors": [
+    {
+      "division": "10U-interlock",
+      "tier": "all-tiers",
+      "error": "Skipped due to time budget"
+    },
+    {
+      "division": "11U-interlock",
+      "tier": "all-tiers",
+      "error": "Skipped due to time budget"
+    }
+  ],
+  "divisionsScraped": 52,
   "totalDivisions": 54,
-  "duration": 342307,
-  "generatedAt": "2026-07-13T01:08:53.593Z",
+  "duration": 496701,
+  "generatedAt": "2026-07-13T05:03:15.141Z",
   "worker": {
     "version": "1.0.0",
     "nodeVersion": "v18.20.8",
