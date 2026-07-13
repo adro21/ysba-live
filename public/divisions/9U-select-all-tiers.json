@@ -56,6 +56,24 @@
         }
       },
       {
+        "position": 4,
+        "team": "Markham Mariners 9U DS",
+        "teamCode": "617891",
+        "record": {
+          "gamesPlayed": 11,
+          "wins": 8,
+          "losses": 3,
+          "ties": 0,
+          "winPercentage": "0.727"
+        },
+        "stats": {
+          "points": 16,
+          "runsFor": 154,
+          "runsAgainst": 69,
+          "runDifferential": 85
+        }
+      },
+      {
         "position": 7,
         "team": "Midland Penetang Twins 9U DS",
         "teamCode": "618393",
@@ -75,42 +93,6 @@
       },
       {
         "position": 5,
-        "team": "Markham Mariners 9U DS",
-        "teamCode": "617891",
-        "record": {
-          "gamesPlayed": 9,
-          "wins": 6,
-          "losses": 3,
-          "ties": 0,
-          "winPercentage": "0.667"
-        },
-        "stats": {
-          "points": 12,
-          "runsFor": 120,
-          "runsAgainst": 50,
-          "runDifferential": 70
-        }
-      },
-      {
-        "position": 6,
-        "team": "Barrie Baycats 9U DS",
-        "teamCode": "612797",
-        "record": {
-          "gamesPlayed": 8,
-          "wins": 5,
-          "losses": 3,
-          "ties": 0,
-          "winPercentage": "0.625"
-        },
-        "stats": {
-          "points": 10,
-          "runsFor": 117,
-          "runsAgainst": 91,
-          "runDifferential": 26
-        }
-      },
-      {
-        "position": 4,
         "team": "Innisfil Cardinals 9U DS",
         "teamCode": "618052",
         "record": {
@@ -128,21 +110,21 @@
         }
       },
       {
-        "position": 9,
-        "team": "Bradford Tigers 9U DS",
-        "teamCode": "617954",
+        "position": 6,
+        "team": "Barrie Baycats 9U DS",
+        "teamCode": "612797",
         "record": {
-          "gamesPlayed": 10,
-          "wins": 4,
-          "losses": 6,
+          "gamesPlayed": 12,
+          "wins": 7,
+          "losses": 5,
           "ties": 0,
-          "winPercentage": "0.400"
+          "winPercentage": "0.583"
         },
         "stats": {
-          "points": 8,
-          "runsFor": 112,
-          "runsAgainst": 155,
-          "runDifferential": -43
+          "points": 14,
+          "runsFor": 179,
+          "runsAgainst": 147,
+          "runDifferential": 32
         }
       },
       {
@@ -179,6 +161,24 @@
           "runsFor": 131,
           "runsAgainst": 167,
           "runDifferential": -36
+        }
+      },
+      {
+        "position": 9,
+        "team": "Bradford Tigers 9U DS",
+        "teamCode": "617954",
+        "record": {
+          "gamesPlayed": 12,
+          "wins": 4,
+          "losses": 8,
+          "ties": 0,
+          "winPercentage": "0.333"
+        },
+        "stats": {
+          "points": 8,
+          "runsFor": 134,
+          "runsAgainst": 198,
+          "runDifferential": -64
         }
       },
       {
@@ -254,7 +254,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-07-12T23:28:34.120Z",
+    "lastUpdated": "2026-07-13T01:08:28.549Z",
     "totalTeams": 14
   },
   "schedule": {
@@ -262,41 +262,9 @@
       "612797": {
         "teamCode": "612797",
         "totalGames": 16,
-        "playedGames": 8,
+        "playedGames": 12,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sat, Jun 6",
-            "time": "12:50 PM",
-            "homeTeam": "Midland Penetang Twins 9U DS",
-            "homeTeamCode": "618393",
-            "awayTeam": "Barrie Baycats 9U DS",
-            "awayTeamCode": "612797",
-            "location": "Little Lake Park",
-            "isCompleted": true,
-            "score": {
-              "home": 14,
-              "away": 11,
-              "scoreText": "11-14"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Sat, Jun 13",
-            "time": "9:30 AM",
-            "homeTeam": "Barrie Baycats 9U DS",
-            "homeTeamCode": "612797",
-            "awayTeam": "Innisfil Cardinals 9U DS",
-            "awayTeamCode": "618052",
-            "location": "59 Lampman Lane, Barrie",
-            "isCompleted": true,
-            "score": {
-              "home": 18,
-              "away": 15,
-              "scoreText": "15-18"
-            }
-          },
           {
             "date": null,
             "dateText": "Sat, Jun 13",
@@ -344,10 +312,42 @@
               "away": 20,
               "scoreText": "20-17"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, Jul 11",
+            "time": "3:30 PM",
+            "homeTeam": "Barrie Baycats 9U DS",
+            "homeTeamCode": "612797",
+            "awayTeam": "Markham Mariners 9U DS",
+            "awayTeamCode": "617891",
+            "location": "59 Lampman Lane, Barrie",
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 16,
+              "scoreText": "16-12"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, Jul 11",
+            "time": "6:30 PM",
+            "homeTeam": "Barrie Baycats 9U DS",
+            "homeTeamCode": "612797",
+            "awayTeam": "Markham Mariners 9U DS",
+            "awayTeamCode": "617891",
+            "location": "59 Lampman Lane, Barrie",
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 18,
+              "scoreText": "18-7"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-12T23:28:38.464Z"
+        "lastUpdated": "2026-07-13T01:08:32.787Z"
       },
       "617187": {
         "teamCode": "617187",
@@ -437,7 +437,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-12T23:28:38.464Z"
+        "lastUpdated": "2026-07-13T01:08:32.787Z"
       },
       "617188": {
         "teamCode": "617188",
@@ -527,46 +527,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-12T23:28:38.464Z"
+        "lastUpdated": "2026-07-13T01:08:32.787Z"
       },
       "617891": {
         "teamCode": "617891",
         "totalGames": 16,
-        "playedGames": 9,
+        "playedGames": 11,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sat, May 23",
-            "time": "10:00 AM",
-            "homeTeam": "Markham Mariners 9U DS",
-            "homeTeamCode": "617891",
-            "awayTeam": "Caledon Nationals 9U DS",
-            "awayTeamCode": "618477",
-            "location": "Morgan Park",
-            "isCompleted": true,
-            "score": {
-              "home": 7,
-              "away": 10,
-              "scoreText": "10-7"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Sat, May 30",
-            "time": "10:00 AM",
-            "homeTeam": "Markham Mariners 9U DS",
-            "homeTeamCode": "617891",
-            "awayTeam": "Thornhill Reds 9U DS",
-            "awayTeamCode": "617998",
-            "location": "Morgan Park",
-            "isCompleted": true,
-            "score": {
-              "home": 19,
-              "away": 0,
-              "scoreText": "0-19"
-            }
-          },
           {
             "date": null,
             "dateText": "Sat, May 30",
@@ -614,10 +582,42 @@
               "away": 5,
               "scoreText": "5-13"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, Jul 11",
+            "time": "3:30 PM",
+            "homeTeam": "Barrie Baycats 9U DS",
+            "homeTeamCode": "612797",
+            "awayTeam": "Markham Mariners 9U DS",
+            "awayTeamCode": "617891",
+            "location": "59 Lampman Lane, Barrie",
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 16,
+              "scoreText": "16-12"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, Jul 11",
+            "time": "6:30 PM",
+            "homeTeam": "Barrie Baycats 9U DS",
+            "homeTeamCode": "612797",
+            "awayTeam": "Markham Mariners 9U DS",
+            "awayTeamCode": "617891",
+            "location": "59 Lampman Lane, Barrie",
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 18,
+              "scoreText": "18-7"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-12T23:28:38.464Z"
+        "lastUpdated": "2026-07-13T01:08:32.787Z"
       },
       "617916": {
         "teamCode": "617916",
@@ -707,12 +707,12 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-12T23:28:38.464Z"
+        "lastUpdated": "2026-07-13T01:08:32.787Z"
       },
       "617954": {
         "teamCode": "617954",
         "totalGames": 16,
-        "playedGames": 10,
+        "playedGames": 12,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -797,7 +797,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-12T23:28:38.464Z"
+        "lastUpdated": "2026-07-13T01:08:32.787Z"
       },
       "617998": {
         "teamCode": "617998",
@@ -887,7 +887,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-12T23:28:38.464Z"
+        "lastUpdated": "2026-07-13T01:08:32.787Z"
       },
       "618013": {
         "teamCode": "618013",
@@ -977,7 +977,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-12T23:28:38.464Z"
+        "lastUpdated": "2026-07-13T01:08:32.787Z"
       },
       "618026": {
         "teamCode": "618026",
@@ -1067,7 +1067,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-12T23:28:38.464Z"
+        "lastUpdated": "2026-07-13T01:08:32.787Z"
       },
       "618052": {
         "teamCode": "618052",
@@ -1157,7 +1157,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-12T23:28:38.464Z"
+        "lastUpdated": "2026-07-13T01:08:32.787Z"
       },
       "618065": {
         "teamCode": "618065",
@@ -1247,7 +1247,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-12T23:28:38.464Z"
+        "lastUpdated": "2026-07-13T01:08:32.787Z"
       },
       "618390": {
         "teamCode": "618390",
@@ -1337,7 +1337,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-12T23:28:38.464Z"
+        "lastUpdated": "2026-07-13T01:08:32.787Z"
       },
       "618393": {
         "teamCode": "618393",
@@ -1427,7 +1427,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-12T23:28:38.464Z"
+        "lastUpdated": "2026-07-13T01:08:32.787Z"
       },
       "618477": {
         "teamCode": "618477",
@@ -1517,7 +1517,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-12T23:28:38.464Z"
+        "lastUpdated": "2026-07-13T01:08:32.787Z"
       }
     },
     "allGames": [
@@ -1898,8 +1898,12 @@
         "awayTeam": "Barrie Baycats 9U DS",
         "awayTeamCode": "612797",
         "location": "Joe Mangani Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 19,
+          "scoreText": "19-9"
+        }
       },
       {
         "date": null,
@@ -1986,8 +1990,12 @@
         "awayTeam": "Barrie Baycats 9U DS",
         "awayTeamCode": "612797",
         "location": "Joe Mangani Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 24,
+          "scoreText": "24-13"
+        }
       },
       {
         "date": null,
@@ -2922,8 +2930,12 @@
         "awayTeam": "Markham Mariners 9U DS",
         "awayTeamCode": "617891",
         "location": "59 Lampman Lane, Barrie",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 16,
+          "scoreText": "16-12"
+        }
       },
       {
         "date": null,
@@ -2934,8 +2946,12 @@
         "awayTeam": "Markham Mariners 9U DS",
         "awayTeamCode": "617891",
         "location": "59 Lampman Lane, Barrie",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 18,
+          "scoreText": "18-7"
+        }
       },
       {
         "date": null,
@@ -3317,14 +3333,14 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-07-12T23:28:38.464Z",
+    "lastUpdated": "2026-07-13T01:08:32.787Z",
     "totalGames": 112
   },
   "summary": {
     "totalTeams": 14,
     "totalGames": 112,
-    "completedGames": 72,
-    "upcomingGames": 40,
+    "completedGames": 76,
+    "upcomingGames": 36,
     "topTeam": {
       "team": "Vaughan Vikings 9U DS",
       "teamCode": "617188",
@@ -3341,6 +3357,6 @@
       "date": "Sat, May 23",
       "location": "225 pine street, newmarket"
     },
-    "lastUpdated": "2026-07-12T23:28:59.518Z"
+    "lastUpdated": "2026-07-13T01:08:53.519Z"
   }
 }
