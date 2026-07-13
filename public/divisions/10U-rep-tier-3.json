@@ -38,25 +38,7 @@
         }
       },
       {
-        "position": 4,
-        "team": "Barrie Baycats 10U A",
-        "teamCode": "612779",
-        "record": {
-          "gamesPlayed": 11,
-          "wins": 9,
-          "losses": 2,
-          "ties": 0,
-          "winPercentage": "0.818"
-        },
-        "stats": {
-          "points": 18,
-          "runsFor": 137,
-          "runsAgainst": 72,
-          "runDifferential": 65
-        }
-      },
-      {
-        "position": 6,
+        "position": 7,
         "team": "Newmarket Hawks 10U A",
         "teamCode": "617900",
         "record": {
@@ -75,6 +57,42 @@
       },
       {
         "position": 3,
+        "team": "Barrie Baycats 10U A",
+        "teamCode": "612779",
+        "record": {
+          "gamesPlayed": 12,
+          "wins": 9,
+          "losses": 3,
+          "ties": 0,
+          "winPercentage": "0.750"
+        },
+        "stats": {
+          "points": 18,
+          "runsFor": 139,
+          "runsAgainst": 78,
+          "runDifferential": 61
+        }
+      },
+      {
+        "position": 4,
+        "team": "Midland Penetang Twins 10U B",
+        "teamCode": "618394",
+        "record": {
+          "gamesPlayed": 12,
+          "wins": 9,
+          "losses": 3,
+          "ties": 0,
+          "winPercentage": "0.750"
+        },
+        "stats": {
+          "points": 18,
+          "runsFor": 123,
+          "runsAgainst": 73,
+          "runDifferential": 50
+        }
+      },
+      {
+        "position": 5,
         "team": "Thornhill Reds 10U A",
         "teamCode": "617985",
         "record": {
@@ -92,25 +110,7 @@
         }
       },
       {
-        "position": 7,
-        "team": "Midland Penetang Twins 10U B",
-        "teamCode": "618394",
-        "record": {
-          "gamesPlayed": 9,
-          "wins": 6,
-          "losses": 3,
-          "ties": 0,
-          "winPercentage": "0.667"
-        },
-        "stats": {
-          "points": 12,
-          "runsFor": 89,
-          "runsAgainst": 59,
-          "runDifferential": 30
-        }
-      },
-      {
-        "position": 5,
+        "position": 6,
         "team": "Vaughan Vikings 10U A Team 1",
         "teamCode": "617173",
         "record": {
@@ -258,17 +258,17 @@
         "team": "Georgina Bulldogs 10U B",
         "teamCode": "625725",
         "record": {
-          "gamesPlayed": 10,
+          "gamesPlayed": 12,
           "wins": 1,
-          "losses": 9,
+          "losses": 11,
           "ties": 0,
-          "winPercentage": "0.100"
+          "winPercentage": "0.083"
         },
         "stats": {
           "points": 2,
-          "runsFor": 85,
-          "runsAgainst": 147,
-          "runDifferential": -62
+          "runsFor": 97,
+          "runsAgainst": 175,
+          "runDifferential": -78
         }
       },
       {
@@ -290,7 +290,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-07-13T11:37:00.737Z",
+    "lastUpdated": "2026-07-13T14:17:57.172Z",
     "totalTeams": 16
   },
   "schedule": {
@@ -298,25 +298,9 @@
       "612779": {
         "teamCode": "612779",
         "totalGames": 19,
-        "playedGames": 11,
+        "playedGames": 12,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Wed, Jun 10",
-            "time": "6:30 PM",
-            "homeTeam": "Barrie Baycats 10U A",
-            "homeTeamCode": "612779",
-            "awayTeam": "Orangeville Bengals 10U A",
-            "awayTeamCode": "618019",
-            "location": "Barrie Sports Complex Pinwheel 12",
-            "isCompleted": true,
-            "score": {
-              "home": 13,
-              "away": 4,
-              "scoreText": "4-13"
-            }
-          },
           {
             "date": null,
             "dateText": "Wed, Jun 17",
@@ -380,10 +364,26 @@
               "away": 6,
               "scoreText": "6-8"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sun, Jul 12",
+            "time": "12:00 PM",
+            "homeTeam": "Midland Penetang Twins 10U B",
+            "homeTeamCode": "618394",
+            "awayTeam": "Barrie Baycats 10U A",
+            "awayTeamCode": "612779",
+            "location": "Little Lake Park",
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 2,
+              "scoreText": "2-6"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-13T11:37:04.955Z"
+        "lastUpdated": "2026-07-13T14:18:01.560Z"
       },
       "617173": {
         "teamCode": "617173",
@@ -473,7 +473,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-13T11:37:04.955Z"
+        "lastUpdated": "2026-07-13T14:18:01.560Z"
       },
       "617174": {
         "teamCode": "617174",
@@ -563,7 +563,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-13T11:37:04.955Z"
+        "lastUpdated": "2026-07-13T14:18:01.560Z"
       },
       "617848": {
         "teamCode": "617848",
@@ -653,7 +653,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-13T11:37:04.955Z"
+        "lastUpdated": "2026-07-13T14:18:01.560Z"
       },
       "617900": {
         "teamCode": "617900",
@@ -743,7 +743,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-13T11:37:04.955Z"
+        "lastUpdated": "2026-07-13T14:18:01.560Z"
       },
       "617944": {
         "teamCode": "617944",
@@ -833,7 +833,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-13T11:37:04.955Z"
+        "lastUpdated": "2026-07-13T14:18:01.560Z"
       },
       "617970": {
         "teamCode": "617970",
@@ -923,7 +923,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-13T11:37:04.955Z"
+        "lastUpdated": "2026-07-13T14:18:01.560Z"
       },
       "617985": {
         "teamCode": "617985",
@@ -1013,7 +1013,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-13T11:37:04.955Z"
+        "lastUpdated": "2026-07-13T14:18:01.560Z"
       },
       "618005": {
         "teamCode": "618005",
@@ -1103,7 +1103,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-13T11:37:04.955Z"
+        "lastUpdated": "2026-07-13T14:18:01.560Z"
       },
       "618019": {
         "teamCode": "618019",
@@ -1193,7 +1193,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-13T11:37:04.955Z"
+        "lastUpdated": "2026-07-13T14:18:01.560Z"
       },
       "618041": {
         "teamCode": "618041",
@@ -1283,7 +1283,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-13T11:37:04.955Z"
+        "lastUpdated": "2026-07-13T14:18:01.560Z"
       },
       "618057": {
         "teamCode": "618057",
@@ -1373,7 +1373,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-13T11:37:04.955Z"
+        "lastUpdated": "2026-07-13T14:18:01.560Z"
       },
       "618381": {
         "teamCode": "618381",
@@ -1463,62 +1463,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-13T11:37:04.955Z"
+        "lastUpdated": "2026-07-13T14:18:01.560Z"
       },
       "618394": {
         "teamCode": "618394",
         "totalGames": 19,
-        "playedGames": 9,
+        "playedGames": 12,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Thu, Jun 11",
-            "time": "6:00 PM",
-            "homeTeam": "Orangeville Bengals 10U A",
-            "homeTeamCode": "618019",
-            "awayTeam": "Midland Penetang Twins 10U B",
-            "awayTeamCode": "618394",
-            "location": "Alton Park",
-            "isCompleted": true,
-            "score": {
-              "home": 0,
-              "away": 14,
-              "scoreText": "14-0"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Tue, Jun 23",
-            "time": "7:00 PM",
-            "homeTeam": "Midland Penetang Twins 10U B",
-            "homeTeamCode": "618394",
-            "awayTeam": "Newmarket Hawks 10U A",
-            "awayTeamCode": "617900",
-            "location": "Toanche",
-            "isCompleted": true,
-            "score": {
-              "home": 8,
-              "away": 4,
-              "scoreText": "4-8"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Wed, Jul 1",
-            "time": "6:00 PM",
-            "homeTeam": "Thornhill Reds 10U A",
-            "homeTeamCode": "617985",
-            "awayTeam": "Midland Penetang Twins 10U B",
-            "awayTeamCode": "618394",
-            "location": "CONCORD REGIONAL #3",
-            "isCompleted": true,
-            "score": {
-              "home": 7,
-              "away": 4,
-              "scoreText": "4-7"
-            }
-          },
           {
             "date": null,
             "dateText": "Mon, Jul 6",
@@ -1550,49 +1502,65 @@
               "away": 4,
               "scoreText": "4-13"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, Jul 11",
+            "time": "10:00 AM",
+            "homeTeam": "Georgina Bulldogs 10U B",
+            "homeTeamCode": "625725",
+            "awayTeam": "Midland Penetang Twins 10U B",
+            "awayTeamCode": "618394",
+            "location": "West Park- Diamond 2",
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 13,
+              "scoreText": "13-5"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, Jul 11",
+            "time": "1:00 PM",
+            "homeTeam": "Georgina Bulldogs 10U B",
+            "homeTeamCode": "625725",
+            "awayTeam": "Midland Penetang Twins 10U B",
+            "awayTeamCode": "618394",
+            "location": "West Park-Diamond 2",
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 15,
+              "scoreText": "15-7"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sun, Jul 12",
+            "time": "12:00 PM",
+            "homeTeam": "Midland Penetang Twins 10U B",
+            "homeTeamCode": "618394",
+            "awayTeam": "Barrie Baycats 10U A",
+            "awayTeamCode": "612779",
+            "location": "Little Lake Park",
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 2,
+              "scoreText": "2-6"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-13T11:37:04.955Z"
+        "lastUpdated": "2026-07-13T14:18:01.560Z"
       },
       "625725": {
         "teamCode": "625725",
         "totalGames": 19,
-        "playedGames": 10,
+        "playedGames": 12,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Thu, Jun 11",
-            "time": "6:15 PM",
-            "homeTeam": "Georgina Bulldogs 10U B",
-            "homeTeamCode": "625725",
-            "awayTeam": "Stouffville 10U A",
-            "awayTeamCode": "627209",
-            "location": "Georgina Roc- Diamond 2",
-            "isCompleted": true,
-            "score": {
-              "home": 9,
-              "away": 20,
-              "scoreText": "20-9"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Wed, Jun 17",
-            "time": "6:00 PM",
-            "homeTeam": "Thornhill Reds 10U A",
-            "homeTeamCode": "617985",
-            "awayTeam": "Georgina Bulldogs 10U B",
-            "awayTeamCode": "625725",
-            "location": "CONCORD REGIONAL #3",
-            "isCompleted": true,
-            "score": {
-              "home": 15,
-              "away": 6,
-              "scoreText": "6-15"
-            }
-          },
           {
             "date": null,
             "dateText": "Wed, Jun 24",
@@ -1640,10 +1608,42 @@
               "away": 7,
               "scoreText": "7-8"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, Jul 11",
+            "time": "10:00 AM",
+            "homeTeam": "Georgina Bulldogs 10U B",
+            "homeTeamCode": "625725",
+            "awayTeam": "Midland Penetang Twins 10U B",
+            "awayTeamCode": "618394",
+            "location": "West Park- Diamond 2",
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 13,
+              "scoreText": "13-5"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, Jul 11",
+            "time": "1:00 PM",
+            "homeTeam": "Georgina Bulldogs 10U B",
+            "homeTeamCode": "625725",
+            "awayTeam": "Midland Penetang Twins 10U B",
+            "awayTeamCode": "618394",
+            "location": "West Park-Diamond 2",
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 15,
+              "scoreText": "15-7"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-13T11:37:04.955Z"
+        "lastUpdated": "2026-07-13T14:18:01.560Z"
       },
       "627209": {
         "teamCode": "627209",
@@ -1733,7 +1733,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-13T11:37:04.955Z"
+        "lastUpdated": "2026-07-13T14:18:01.560Z"
       }
     },
     "allGames": [
@@ -3206,8 +3206,12 @@
         "awayTeam": "Midland Penetang Twins 10U B",
         "awayTeamCode": "618394",
         "location": "West Park- Diamond 2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 5,
+          "away": 13,
+          "scoreText": "13-5"
+        }
       },
       {
         "date": null,
@@ -3218,8 +3222,12 @@
         "awayTeam": "Midland Penetang Twins 10U B",
         "awayTeamCode": "618394",
         "location": "West Park-Diamond 2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 15,
+          "scoreText": "15-7"
+        }
       },
       {
         "date": null,
@@ -3230,8 +3238,12 @@
         "awayTeam": "Barrie Baycats 10U A",
         "awayTeamCode": "612779",
         "location": "Little Lake Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 2,
+          "scoreText": "2-6"
+        }
       },
       {
         "date": null,
@@ -4069,14 +4081,14 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-07-13T11:37:04.955Z",
+    "lastUpdated": "2026-07-13T14:18:01.560Z",
     "totalGames": 152
   },
   "summary": {
     "totalTeams": 16,
     "totalGames": 152,
-    "completedGames": 86,
-    "upcomingGames": 66,
+    "completedGames": 89,
+    "upcomingGames": 63,
     "topTeam": {
       "team": "Vaughan Vikings 10U A Team 2",
       "teamCode": "617174",
@@ -4093,6 +4105,6 @@
       "date": "Thu, May 21",
       "location": "Georgina Roc- Diamond 2"
     },
-    "lastUpdated": "2026-07-13T11:41:25.758Z"
+    "lastUpdated": "2026-07-13T14:22:59.425Z"
   }
 }
