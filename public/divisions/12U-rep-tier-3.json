@@ -128,6 +128,24 @@
         }
       },
       {
+        "position": 11,
+        "team": "Barrie Baycats 12U A",
+        "teamCode": "612784",
+        "record": {
+          "gamesPlayed": 7,
+          "wins": 4,
+          "losses": 3,
+          "ties": 0,
+          "winPercentage": "0.571"
+        },
+        "stats": {
+          "points": 8,
+          "runsFor": 92,
+          "runsAgainst": 114,
+          "runDifferential": -22
+        }
+      },
+      {
         "position": 8,
         "team": "Markham Mariners 12U A",
         "teamCode": "617880",
@@ -143,24 +161,6 @@
           "runsFor": 84,
           "runsAgainst": 85,
           "runDifferential": -1
-        }
-      },
-      {
-        "position": 13,
-        "team": "Barrie Baycats 12U A",
-        "teamCode": "612784",
-        "record": {
-          "gamesPlayed": 6,
-          "wins": 3,
-          "losses": 3,
-          "ties": 0,
-          "winPercentage": "0.500"
-        },
-        "stats": {
-          "points": 6,
-          "runsFor": 81,
-          "runsAgainst": 104,
-          "runDifferential": -23
         }
       },
       {
@@ -200,7 +200,7 @@
         }
       },
       {
-        "position": 11,
+        "position": 12,
         "team": "Vaughan Vikings 12U A",
         "teamCode": "617178",
         "record": {
@@ -218,7 +218,7 @@
         }
       },
       {
-        "position": 12,
+        "position": 13,
         "team": "Orillia 12U B",
         "teamCode": "618383",
         "record": {
@@ -276,17 +276,17 @@
         "team": "Innisfil Cardinals 12U A",
         "teamCode": "618044",
         "record": {
-          "gamesPlayed": 11,
+          "gamesPlayed": 12,
           "wins": 2,
-          "losses": 9,
+          "losses": 10,
           "ties": 0,
-          "winPercentage": "0.182"
+          "winPercentage": "0.167"
         },
         "stats": {
           "points": 4,
-          "runsFor": 51,
-          "runsAgainst": 126,
-          "runDifferential": -75
+          "runsFor": 61,
+          "runsAgainst": 137,
+          "runDifferential": -76
         }
       },
       {
@@ -308,7 +308,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-07-14T11:05:54.428Z",
+    "lastUpdated": "2026-07-14T12:47:48.654Z",
     "totalTeams": 17
   },
   "schedule": {
@@ -401,30 +401,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T11:05:58.711Z"
+        "lastUpdated": "2026-07-14T12:47:52.809Z"
       },
       "612784": {
         "teamCode": "612784",
         "totalGames": 15,
-        "playedGames": 6,
+        "playedGames": 7,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Wed, May 27",
-            "time": "6:30 PM",
-            "homeTeam": "New Lowell Knights 12U B",
-            "homeTeamCode": "618068",
-            "awayTeam": "Barrie Baycats 12U A",
-            "awayTeamCode": "612784",
-            "location": "New Lowell #3",
-            "isCompleted": true,
-            "score": {
-              "home": 15,
-              "away": 18,
-              "scoreText": "18-15"
-            }
-          },
           {
             "date": null,
             "dateText": "Mon, Jun 1",
@@ -488,10 +472,26 @@
               "away": 8,
               "scoreText": "8-13"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, Jul 13",
+            "time": "6:30 PM",
+            "homeTeam": "Barrie Baycats 12U A",
+            "homeTeamCode": "612784",
+            "awayTeam": "Innisfil Cardinals 12U A",
+            "awayTeamCode": "618044",
+            "location": "Lampman Lane",
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 10,
+              "scoreText": "10-11"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T11:05:58.711Z"
+        "lastUpdated": "2026-07-14T12:47:52.809Z"
       },
       "617177": {
         "teamCode": "617177",
@@ -581,7 +581,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T11:05:58.711Z"
+        "lastUpdated": "2026-07-14T12:47:52.809Z"
       },
       "617178": {
         "teamCode": "617178",
@@ -671,7 +671,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T11:05:58.711Z"
+        "lastUpdated": "2026-07-14T12:47:52.809Z"
       },
       "617204": {
         "teamCode": "617204",
@@ -761,7 +761,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T11:05:58.711Z"
+        "lastUpdated": "2026-07-14T12:47:52.809Z"
       },
       "617852": {
         "teamCode": "617852",
@@ -851,7 +851,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T11:05:58.711Z"
+        "lastUpdated": "2026-07-14T12:47:52.809Z"
       },
       "617879": {
         "teamCode": "617879",
@@ -941,7 +941,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T11:05:58.711Z"
+        "lastUpdated": "2026-07-14T12:47:52.809Z"
       },
       "617880": {
         "teamCode": "617880",
@@ -1031,7 +1031,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T11:05:58.711Z"
+        "lastUpdated": "2026-07-14T12:47:52.809Z"
       },
       "617906": {
         "teamCode": "617906",
@@ -1121,7 +1121,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T11:05:58.711Z"
+        "lastUpdated": "2026-07-14T12:47:52.809Z"
       },
       "617907": {
         "teamCode": "617907",
@@ -1211,7 +1211,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T11:05:58.711Z"
+        "lastUpdated": "2026-07-14T12:47:52.809Z"
       },
       "617946": {
         "teamCode": "617946",
@@ -1301,7 +1301,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T11:05:58.711Z"
+        "lastUpdated": "2026-07-14T12:47:52.809Z"
       },
       "617973": {
         "teamCode": "617973",
@@ -1391,7 +1391,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T11:05:58.711Z"
+        "lastUpdated": "2026-07-14T12:47:52.809Z"
       },
       "617974": {
         "teamCode": "617974",
@@ -1481,7 +1481,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T11:05:58.711Z"
+        "lastUpdated": "2026-07-14T12:47:52.809Z"
       },
       "617987": {
         "teamCode": "617987",
@@ -1571,7 +1571,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T11:05:58.711Z"
+        "lastUpdated": "2026-07-14T12:47:52.809Z"
       },
       "617988": {
         "teamCode": "617988",
@@ -1661,7 +1661,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T11:05:58.711Z"
+        "lastUpdated": "2026-07-14T12:47:52.809Z"
       },
       "618007": {
         "teamCode": "618007",
@@ -1751,7 +1751,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T11:05:58.711Z"
+        "lastUpdated": "2026-07-14T12:47:52.809Z"
       },
       "618021": {
         "teamCode": "618021",
@@ -1841,7 +1841,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T11:05:58.711Z"
+        "lastUpdated": "2026-07-14T12:47:52.809Z"
       },
       "618022": {
         "teamCode": "618022",
@@ -1931,30 +1931,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T11:05:58.711Z"
+        "lastUpdated": "2026-07-14T12:47:52.809Z"
       },
       "618044": {
         "teamCode": "618044",
         "totalGames": 15,
-        "playedGames": 11,
+        "playedGames": 12,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Wed, Jun 17",
-            "time": "8:00 PM",
-            "homeTeam": "Orangeville Bengals 12U B",
-            "homeTeamCode": "618021",
-            "awayTeam": "Innisfil Cardinals 12U A",
-            "awayTeamCode": "618044",
-            "location": "Rotary Park S",
-            "isCompleted": true,
-            "score": {
-              "home": 3,
-              "away": 6,
-              "scoreText": "6-3"
-            }
-          },
           {
             "date": null,
             "dateText": "Mon, Jun 22",
@@ -2018,10 +2002,26 @@
               "away": 12,
               "scoreText": "12-7"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, Jul 13",
+            "time": "6:30 PM",
+            "homeTeam": "Barrie Baycats 12U A",
+            "homeTeamCode": "612784",
+            "awayTeam": "Innisfil Cardinals 12U A",
+            "awayTeamCode": "618044",
+            "location": "Lampman Lane",
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 10,
+              "scoreText": "10-11"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T11:05:58.711Z"
+        "lastUpdated": "2026-07-14T12:47:52.809Z"
       },
       "618059": {
         "teamCode": "618059",
@@ -2111,7 +2111,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T11:05:58.711Z"
+        "lastUpdated": "2026-07-14T12:47:52.809Z"
       },
       "618068": {
         "teamCode": "618068",
@@ -2201,7 +2201,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T11:05:58.711Z"
+        "lastUpdated": "2026-07-14T12:47:52.809Z"
       },
       "618383": {
         "teamCode": "618383",
@@ -2291,7 +2291,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T11:05:58.711Z"
+        "lastUpdated": "2026-07-14T12:47:52.809Z"
       },
       "618395": {
         "teamCode": "618395",
@@ -2381,7 +2381,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T11:05:58.711Z"
+        "lastUpdated": "2026-07-14T12:47:52.809Z"
       },
       "618468": {
         "teamCode": "618468",
@@ -2471,7 +2471,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T11:05:58.711Z"
+        "lastUpdated": "2026-07-14T12:47:52.809Z"
       },
       "625727": {
         "teamCode": "625727",
@@ -2561,7 +2561,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T11:05:58.711Z"
+        "lastUpdated": "2026-07-14T12:47:52.809Z"
       },
       "628934": {
         "teamCode": "628934",
@@ -2651,7 +2651,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T11:05:58.711Z"
+        "lastUpdated": "2026-07-14T12:47:52.809Z"
       }
     },
     "allGames": [
@@ -4704,8 +4704,12 @@
         "awayTeam": "Innisfil Cardinals 12U A",
         "awayTeamCode": "618044",
         "location": "Lampman Lane",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 10,
+          "scoreText": "10-11"
+        }
       },
       {
         "date": null,
@@ -5703,14 +5707,14 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-07-14T11:05:58.711Z",
+    "lastUpdated": "2026-07-14T12:47:52.809Z",
     "totalGames": 200
   },
   "summary": {
     "totalTeams": 17,
     "totalGames": 200,
-    "completedGames": 121,
-    "upcomingGames": 79,
+    "completedGames": 122,
+    "upcomingGames": 78,
     "topTeam": {
       "team": "Newmarket Hawks 12U A",
       "teamCode": "617906",
@@ -5727,6 +5731,6 @@
       "date": "Mon, May 18",
       "location": "Lampman Lane"
     },
-    "lastUpdated": "2026-07-14T11:09:20.520Z"
+    "lastUpdated": "2026-07-14T12:51:16.790Z"
   }
 }
