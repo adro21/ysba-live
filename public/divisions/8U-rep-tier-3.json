@@ -24,21 +24,39 @@
         "team": "Richmond Hill Phoenix 8U A",
         "teamCode": "617845",
         "record": {
-          "gamesPlayed": 10,
+          "gamesPlayed": 11,
           "wins": 9,
-          "losses": 1,
+          "losses": 2,
           "ties": 0,
-          "winPercentage": "0.900"
+          "winPercentage": "0.818"
         },
         "stats": {
           "points": 18,
-          "runsFor": 188,
-          "runsAgainst": 92,
-          "runDifferential": 96
+          "runsFor": 196,
+          "runsAgainst": 104,
+          "runDifferential": 92
         }
       },
       {
-        "position": 4,
+        "position": 3,
+        "team": "Newmarket Hawks 8U A",
+        "teamCode": "617896",
+        "record": {
+          "gamesPlayed": 12,
+          "wins": 7,
+          "losses": 3,
+          "ties": 2,
+          "winPercentage": "0.667"
+        },
+        "stats": {
+          "points": 16,
+          "runsFor": 209,
+          "runsAgainst": 161,
+          "runDifferential": 48
+        }
+      },
+      {
+        "position": 5,
         "team": "Barrie Baycats 8U A",
         "teamCode": "612775",
         "record": {
@@ -56,7 +74,7 @@
         }
       },
       {
-        "position": 5,
+        "position": 6,
         "team": "Georgina Bulldogs 8U B",
         "teamCode": "625730",
         "record": {
@@ -74,25 +92,7 @@
         }
       },
       {
-        "position": 6,
-        "team": "Newmarket Hawks 8U A",
-        "teamCode": "617896",
-        "record": {
-          "gamesPlayed": 11,
-          "wins": 6,
-          "losses": 3,
-          "ties": 2,
-          "winPercentage": "0.636"
-        },
-        "stats": {
-          "points": 14,
-          "runsFor": 197,
-          "runsAgainst": 153,
-          "runDifferential": 44
-        }
-      },
-      {
-        "position": 3,
+        "position": 4,
         "team": "Markham Mariners 8U A",
         "teamCode": "617873",
         "record": {
@@ -182,7 +182,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-07-14T17:39:12.902Z",
+    "lastUpdated": "2026-07-14T19:08:45.763Z",
     "totalTeams": 10
   },
   "schedule": {
@@ -275,7 +275,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T17:39:15.481Z"
+        "lastUpdated": "2026-07-14T19:08:48.687Z"
       },
       "617170": {
         "teamCode": "617170",
@@ -365,7 +365,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T17:39:15.481Z"
+        "lastUpdated": "2026-07-14T19:08:48.687Z"
       },
       "617210": {
         "teamCode": "617210",
@@ -455,30 +455,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T17:39:15.481Z"
+        "lastUpdated": "2026-07-14T19:08:48.687Z"
       },
       "617845": {
         "teamCode": "617845",
         "totalGames": 15,
-        "playedGames": 10,
+        "playedGames": 11,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Thu, Jun 25",
-            "time": "6:00 PM",
-            "homeTeam": "Georgina Bulldogs 8U B",
-            "homeTeamCode": "625730",
-            "awayTeam": "Richmond Hill Phoenix 8U A",
-            "awayTeamCode": "617845",
-            "location": "The ROC - Diamond 4",
-            "isCompleted": true,
-            "score": {
-              "home": 7,
-              "away": 9,
-              "scoreText": "9-7"
-            }
-          },
           {
             "date": null,
             "dateText": "Sat, Jun 27",
@@ -542,10 +526,26 @@
               "away": 17,
               "scoreText": "17-9"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, Jul 13",
+            "time": "6:00 PM",
+            "homeTeam": "Richmond Hill Phoenix 8U A",
+            "homeTeamCode": "617845",
+            "awayTeam": "Newmarket Hawks 8U A",
+            "awayTeamCode": "617896",
+            "location": "Richmond Green Sports Center - Diamond 3",
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 12,
+              "scoreText": "12-8"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T17:39:15.481Z"
+        "lastUpdated": "2026-07-14T19:08:48.687Z"
       },
       "617873": {
         "teamCode": "617873",
@@ -635,30 +635,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T17:39:15.481Z"
+        "lastUpdated": "2026-07-14T19:08:48.687Z"
       },
       "617896": {
         "teamCode": "617896",
         "totalGames": 15,
-        "playedGames": 11,
+        "playedGames": 12,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Mon, Jun 15",
-            "time": "6:30 PM",
-            "homeTeam": "Barrie Baycats 8U A",
-            "homeTeamCode": "612775",
-            "awayTeam": "Newmarket Hawks 8U A",
-            "awayTeamCode": "617896",
-            "location": "Barrie Sports Complex - Diamond 12",
-            "isCompleted": true,
-            "score": {
-              "home": 19,
-              "away": 17,
-              "scoreText": "17-19"
-            }
-          },
           {
             "date": null,
             "dateText": "Sat, Jun 20",
@@ -722,10 +706,26 @@
               "away": 11,
               "scoreText": "11-26"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, Jul 13",
+            "time": "6:00 PM",
+            "homeTeam": "Richmond Hill Phoenix 8U A",
+            "homeTeamCode": "617845",
+            "awayTeam": "Newmarket Hawks 8U A",
+            "awayTeamCode": "617896",
+            "location": "Richmond Green Sports Center - Diamond 3",
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 12,
+              "scoreText": "12-8"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T17:39:15.481Z"
+        "lastUpdated": "2026-07-14T19:08:48.687Z"
       },
       "618056": {
         "teamCode": "618056",
@@ -815,7 +815,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T17:39:15.481Z"
+        "lastUpdated": "2026-07-14T19:08:48.687Z"
       },
       "618379": {
         "teamCode": "618379",
@@ -905,7 +905,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T17:39:15.481Z"
+        "lastUpdated": "2026-07-14T19:08:48.687Z"
       },
       "618474": {
         "teamCode": "618474",
@@ -995,7 +995,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T17:39:15.481Z"
+        "lastUpdated": "2026-07-14T19:08:48.687Z"
       },
       "625730": {
         "teamCode": "625730",
@@ -1085,7 +1085,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T17:39:15.481Z"
+        "lastUpdated": "2026-07-14T19:08:48.687Z"
       }
     },
     "allGames": [
@@ -1962,8 +1962,12 @@
         "awayTeam": "Newmarket Hawks 8U A",
         "awayTeamCode": "617896",
         "location": "Richmond Green Sports Center - Diamond 3",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 12,
+          "scoreText": "12-8"
+        }
       },
       {
         "date": null,
@@ -2369,14 +2373,14 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-07-14T17:39:15.481Z",
+    "lastUpdated": "2026-07-14T19:08:48.687Z",
     "totalGames": 75
   },
   "summary": {
     "totalTeams": 10,
     "totalGames": 75,
-    "completedGames": 54,
-    "upcomingGames": 21,
+    "completedGames": 55,
+    "upcomingGames": 20,
     "topTeam": {
       "team": "Vaughan Vikings 8U A",
       "teamCode": "617170",
@@ -2393,6 +2397,6 @@
       "date": "Sat, Jun 27",
       "location": "Kitchener Park - K1"
     },
-    "lastUpdated": "2026-07-14T17:43:49.725Z"
+    "lastUpdated": "2026-07-14T19:14:08.928Z"
   }
 }
