@@ -2,7 +2,7 @@
   "standings": {
     "teams": [
       {
-        "position": 5,
+        "position": 6,
         "team": "Markham Mariners 13U DS Team 1",
         "teamCode": "617893",
         "record": {
@@ -56,7 +56,25 @@
         }
       },
       {
-        "position": 4,
+        "position": 3,
+        "team": "Newmarket Hawks 13U DS",
+        "teamCode": "617918",
+        "record": {
+          "gamesPlayed": 14,
+          "wins": 10,
+          "losses": 3,
+          "ties": 1,
+          "winPercentage": "0.750"
+        },
+        "stats": {
+          "points": 21,
+          "runsFor": 152,
+          "runsAgainst": 116,
+          "runDifferential": 36
+        }
+      },
+      {
+        "position": 5,
         "team": "Thornhill Reds 13U DS",
         "teamCode": "618001",
         "record": {
@@ -74,7 +92,7 @@
         }
       },
       {
-        "position": 3,
+        "position": 4,
         "team": "Barrie Baycats 13U DS",
         "teamCode": "612799",
         "record": {
@@ -89,24 +107,6 @@
           "runsFor": 122,
           "runsAgainst": 82,
           "runDifferential": 40
-        }
-      },
-      {
-        "position": 6,
-        "team": "Newmarket Hawks 13U DS",
-        "teamCode": "617918",
-        "record": {
-          "gamesPlayed": 12,
-          "wins": 8,
-          "losses": 3,
-          "ties": 1,
-          "winPercentage": "0.708"
-        },
-        "stats": {
-          "points": 17,
-          "runsFor": 122,
-          "runsAgainst": 91,
-          "runDifferential": 31
         }
       },
       {
@@ -128,24 +128,6 @@
         }
       },
       {
-        "position": 8,
-        "team": "TNT Thunder 13U DS",
-        "teamCode": "618066",
-        "record": {
-          "gamesPlayed": 10,
-          "wins": 6,
-          "losses": 4,
-          "ties": 0,
-          "winPercentage": "0.600"
-        },
-        "stats": {
-          "points": 12,
-          "runsFor": 105,
-          "runsAgainst": 86,
-          "runDifferential": 19
-        }
-      },
-      {
         "position": 9,
         "team": "Caledon Nationals 13U HS",
         "teamCode": "618475",
@@ -161,6 +143,24 @@
           "runsFor": 86,
           "runsAgainst": 69,
           "runDifferential": 17
+        }
+      },
+      {
+        "position": 8,
+        "team": "TNT Thunder 13U DS",
+        "teamCode": "618066",
+        "record": {
+          "gamesPlayed": 12,
+          "wins": 6,
+          "losses": 6,
+          "ties": 0,
+          "winPercentage": "0.500"
+        },
+        "stats": {
+          "points": 12,
+          "runsFor": 130,
+          "runsAgainst": 116,
+          "runDifferential": 14
         }
       },
       {
@@ -272,7 +272,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-07-15T21:36:03.246Z",
+    "lastUpdated": "2026-07-15T22:58:07.878Z",
     "totalTeams": 15
   },
   "schedule": {
@@ -365,7 +365,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-15T21:36:07.374Z"
+        "lastUpdated": "2026-07-15T22:58:12.131Z"
       },
       "617191": {
         "teamCode": "617191",
@@ -455,7 +455,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-15T21:36:07.374Z"
+        "lastUpdated": "2026-07-15T22:58:12.131Z"
       },
       "617861": {
         "teamCode": "617861",
@@ -545,7 +545,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-15T21:36:07.374Z"
+        "lastUpdated": "2026-07-15T22:58:12.131Z"
       },
       "617893": {
         "teamCode": "617893",
@@ -635,7 +635,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-15T21:36:07.374Z"
+        "lastUpdated": "2026-07-15T22:58:12.131Z"
       },
       "617894": {
         "teamCode": "617894",
@@ -725,46 +725,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-15T21:36:07.374Z"
+        "lastUpdated": "2026-07-15T22:58:12.131Z"
       },
       "617918": {
         "teamCode": "617918",
         "totalGames": 16,
-        "playedGames": 12,
+        "playedGames": 14,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sat, Jun 13",
-            "time": "2:00 PM",
-            "homeTeam": "Markham Mariners 13U DS Team 1",
-            "homeTeamCode": "617893",
-            "awayTeam": "Newmarket Hawks 13U DS",
-            "awayTeamCode": "617918",
-            "location": "Milliken Mills #2",
-            "isCompleted": true,
-            "score": {
-              "home": 3,
-              "away": 9,
-              "scoreText": "9-3"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Sat, Jun 20",
-            "time": "12:00 PM",
-            "homeTeam": "Newmarket Hawks 13U DS",
-            "homeTeamCode": "617918",
-            "awayTeam": "Thornhill Reds 13U DS",
-            "awayTeamCode": "618001",
-            "location": "Fairgrounds Park - Diamond #1",
-            "isCompleted": true,
-            "score": {
-              "home": 13,
-              "away": 8,
-              "scoreText": "8-13"
-            }
-          },
           {
             "date": null,
             "dateText": "Sat, Jun 20",
@@ -812,10 +780,42 @@
               "away": 5,
               "scoreText": "5-14"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sun, Jul 12",
+            "time": "9:00 AM",
+            "homeTeam": "TNT Thunder 13U DS",
+            "homeTeamCode": "618066",
+            "awayTeam": "Newmarket Hawks 13U DS",
+            "awayTeamCode": "617918",
+            "location": "Beeton South Diamond",
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 13,
+              "scoreText": "13-9"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sun, Jul 12",
+            "time": "12:00 PM",
+            "homeTeam": "TNT Thunder 13U DS",
+            "homeTeamCode": "618066",
+            "awayTeam": "Newmarket Hawks 13U DS",
+            "awayTeamCode": "617918",
+            "location": "Beeton South Diamond",
+            "isCompleted": true,
+            "score": {
+              "home": 16,
+              "away": 17,
+              "scoreText": "17-16"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-15T21:36:07.374Z"
+        "lastUpdated": "2026-07-15T22:58:12.131Z"
       },
       "618001": {
         "teamCode": "618001",
@@ -905,7 +905,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-15T21:36:07.374Z"
+        "lastUpdated": "2026-07-15T22:58:12.131Z"
       },
       "618028": {
         "teamCode": "618028",
@@ -995,7 +995,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-15T21:36:07.374Z"
+        "lastUpdated": "2026-07-15T22:58:12.131Z"
       },
       "618054": {
         "teamCode": "618054",
@@ -1085,46 +1085,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-15T21:36:07.374Z"
+        "lastUpdated": "2026-07-15T22:58:12.131Z"
       },
       "618066": {
         "teamCode": "618066",
         "totalGames": 16,
-        "playedGames": 10,
+        "playedGames": 12,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sat, Jun 6",
-            "time": "12:00 PM",
-            "homeTeam": "TNT Thunder 13U DS",
-            "homeTeamCode": "618066",
-            "awayTeam": "Markham Mariners 13U DS Team 2",
-            "awayTeamCode": "617894",
-            "location": "Beeton South Diamond",
-            "isCompleted": true,
-            "score": {
-              "home": 12,
-              "away": 10,
-              "scoreText": "10-12"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Sat, Jun 13",
-            "time": "9:00 AM",
-            "homeTeam": "Thornhill Reds 13U DS",
-            "homeTeamCode": "618001",
-            "awayTeam": "TNT Thunder 13U DS",
-            "awayTeamCode": "618066",
-            "location": "Bishops Cross (small field)",
-            "isCompleted": true,
-            "score": {
-              "home": 16,
-              "away": 6,
-              "scoreText": "6-16"
-            }
-          },
           {
             "date": null,
             "dateText": "Sat, Jun 13",
@@ -1172,10 +1140,42 @@
               "away": 9,
               "scoreText": "9-5"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sun, Jul 12",
+            "time": "9:00 AM",
+            "homeTeam": "TNT Thunder 13U DS",
+            "homeTeamCode": "618066",
+            "awayTeam": "Newmarket Hawks 13U DS",
+            "awayTeamCode": "617918",
+            "location": "Beeton South Diamond",
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 13,
+              "scoreText": "13-9"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sun, Jul 12",
+            "time": "12:00 PM",
+            "homeTeam": "TNT Thunder 13U DS",
+            "homeTeamCode": "618066",
+            "awayTeam": "Newmarket Hawks 13U DS",
+            "awayTeamCode": "617918",
+            "location": "Beeton South Diamond",
+            "isCompleted": true,
+            "score": {
+              "home": 16,
+              "away": 17,
+              "scoreText": "17-16"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-15T21:36:07.375Z"
+        "lastUpdated": "2026-07-15T22:58:12.131Z"
       },
       "618069": {
         "teamCode": "618069",
@@ -1265,7 +1265,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-15T21:36:07.375Z"
+        "lastUpdated": "2026-07-15T22:58:12.131Z"
       },
       "618392": {
         "teamCode": "618392",
@@ -1355,7 +1355,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-15T21:36:07.375Z"
+        "lastUpdated": "2026-07-15T22:58:12.131Z"
       },
       "618396": {
         "teamCode": "618396",
@@ -1445,7 +1445,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-15T21:36:07.375Z"
+        "lastUpdated": "2026-07-15T22:58:12.131Z"
       },
       "618475": {
         "teamCode": "618475",
@@ -1535,7 +1535,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-15T21:36:07.375Z"
+        "lastUpdated": "2026-07-15T22:58:12.131Z"
       },
       "628935": {
         "teamCode": "628935",
@@ -1625,7 +1625,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-15T21:36:07.375Z"
+        "lastUpdated": "2026-07-15T22:58:12.132Z"
       }
     },
     "allGames": [
@@ -3058,8 +3058,12 @@
         "awayTeam": "Newmarket Hawks 13U DS",
         "awayTeamCode": "617918",
         "location": "Beeton South Diamond",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 13,
+          "scoreText": "13-9"
+        }
       },
       {
         "date": null,
@@ -3086,8 +3090,12 @@
         "awayTeam": "Newmarket Hawks 13U DS",
         "awayTeamCode": "617918",
         "location": "Beeton South Diamond",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 16,
+          "away": 17,
+          "scoreText": "17-16"
+        }
       },
       {
         "date": null,
@@ -3593,14 +3601,14 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-07-15T21:36:07.375Z",
+    "lastUpdated": "2026-07-15T22:58:12.132Z",
     "totalGames": 120
   },
   "summary": {
     "totalTeams": 15,
     "totalGames": 120,
-    "completedGames": 90,
-    "upcomingGames": 30,
+    "completedGames": 92,
+    "upcomingGames": 28,
     "topTeam": {
       "team": "Markham Mariners 13U DS Team 1",
       "teamCode": "617893",
@@ -3610,13 +3618,13 @@
     },
     "highestScoringGame": {
       "homeTeam": "TNT Thunder 13U DS",
-      "awayTeam": "Markham Mariners 13U DS Team 1",
-      "homeScore": 15,
+      "awayTeam": "Newmarket Hawks 13U DS",
+      "homeScore": 16,
       "awayScore": 17,
-      "totalRuns": 32,
-      "date": "Sat, May 16",
-      "location": "Coventry Park"
+      "totalRuns": 33,
+      "date": "Sun, Jul 12",
+      "location": "Beeton South Diamond"
     },
-    "lastUpdated": "2026-07-15T21:36:14.633Z"
+    "lastUpdated": "2026-07-15T22:58:19.537Z"
   }
 }
