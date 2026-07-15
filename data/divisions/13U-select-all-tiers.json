@@ -2,7 +2,7 @@
   "standings": {
     "teams": [
       {
-        "position": 4,
+        "position": 5,
         "team": "Markham Mariners 13U DS Team 1",
         "teamCode": "617893",
         "record": {
@@ -56,7 +56,7 @@
         }
       },
       {
-        "position": 3,
+        "position": 4,
         "team": "Thornhill Reds 13U DS",
         "teamCode": "618001",
         "record": {
@@ -74,7 +74,25 @@
         }
       },
       {
-        "position": 5,
+        "position": 3,
+        "team": "Barrie Baycats 13U DS",
+        "teamCode": "612799",
+        "record": {
+          "gamesPlayed": 14,
+          "wins": 10,
+          "losses": 4,
+          "ties": 0,
+          "winPercentage": "0.714"
+        },
+        "stats": {
+          "points": 20,
+          "runsFor": 122,
+          "runsAgainst": 82,
+          "runDifferential": 40
+        }
+      },
+      {
+        "position": 6,
         "team": "Newmarket Hawks 13U DS",
         "teamCode": "617918",
         "record": {
@@ -107,24 +125,6 @@
           "runsFor": 114,
           "runsAgainst": 66,
           "runDifferential": 48
-        }
-      },
-      {
-        "position": 6,
-        "team": "Barrie Baycats 13U DS",
-        "teamCode": "612799",
-        "record": {
-          "gamesPlayed": 12,
-          "wins": 8,
-          "losses": 4,
-          "ties": 0,
-          "winPercentage": "0.667"
-        },
-        "stats": {
-          "points": 16,
-          "runsFor": 108,
-          "runsAgainst": 76,
-          "runDifferential": 32
         }
       },
       {
@@ -200,24 +200,6 @@
         }
       },
       {
-        "position": 13,
-        "team": "Markham Mariners 13U DS Team 2",
-        "teamCode": "617894",
-        "record": {
-          "gamesPlayed": 11,
-          "wins": 2,
-          "losses": 9,
-          "ties": 0,
-          "winPercentage": "0.182"
-        },
-        "stats": {
-          "points": 4,
-          "runsFor": 74,
-          "runsAgainst": 123,
-          "runDifferential": -49
-        }
-      },
-      {
         "position": 12,
         "team": "Muskoka Hornets 13U DS",
         "teamCode": "628935",
@@ -233,6 +215,24 @@
           "runsFor": 67,
           "runsAgainst": 140,
           "runDifferential": -73
+        }
+      },
+      {
+        "position": 13,
+        "team": "Markham Mariners 13U DS Team 2",
+        "teamCode": "617894",
+        "record": {
+          "gamesPlayed": 13,
+          "wins": 2,
+          "losses": 11,
+          "ties": 0,
+          "winPercentage": "0.154"
+        },
+        "stats": {
+          "points": 4,
+          "runsFor": 80,
+          "runsAgainst": 137,
+          "runDifferential": -57
         }
       },
       {
@@ -272,7 +272,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-07-14T22:57:12.810Z",
+    "lastUpdated": "2026-07-15T01:55:23.165Z",
     "totalTeams": 15
   },
   "schedule": {
@@ -280,41 +280,9 @@
       "612799": {
         "teamCode": "612799",
         "totalGames": 16,
-        "playedGames": 12,
+        "playedGames": 14,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sat, Jun 6",
-            "time": "7:00 PM",
-            "homeTeam": "Barrie Baycats 13U DS",
-            "homeTeamCode": "612799",
-            "awayTeam": "Midland Penetang Twins 13U DS",
-            "awayTeamCode": "618396",
-            "location": "Lampman Lane Park",
-            "isCompleted": true,
-            "score": {
-              "home": 11,
-              "away": 9,
-              "scoreText": "9-11"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Sat, Jun 27",
-            "time": "4:00 PM",
-            "homeTeam": "Barrie Baycats 13U DS",
-            "homeTeamCode": "612799",
-            "awayTeam": "Orillia 13U DS",
-            "awayTeamCode": "618392",
-            "location": "Lampman Lane Park",
-            "isCompleted": true,
-            "score": {
-              "home": 0,
-              "away": 10,
-              "scoreText": "10-0"
-            }
-          },
           {
             "date": null,
             "dateText": "Sat, Jun 27",
@@ -362,10 +330,42 @@
               "away": 15,
               "scoreText": "15-0"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sun, Jul 12",
+            "time": "11:00 AM",
+            "homeTeam": "Markham Mariners 13U DS Team 2",
+            "homeTeamCode": "617894",
+            "awayTeam": "Barrie Baycats 13U DS",
+            "awayTeamCode": "612799",
+            "location": "Berczy Park",
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 8,
+              "scoreText": "8-6"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sun, Jul 12",
+            "time": "2:00 PM",
+            "homeTeam": "Markham Mariners 13U DS Team 2",
+            "homeTeamCode": "617894",
+            "awayTeam": "Barrie Baycats 13U DS",
+            "awayTeamCode": "612799",
+            "location": "Berczy Park",
+            "isCompleted": true,
+            "score": {
+              "home": 0,
+              "away": 6,
+              "scoreText": "6-0"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T22:57:17.068Z"
+        "lastUpdated": "2026-07-15T01:55:27.394Z"
       },
       "617191": {
         "teamCode": "617191",
@@ -455,7 +455,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T22:57:17.068Z"
+        "lastUpdated": "2026-07-15T01:55:27.394Z"
       },
       "617861": {
         "teamCode": "617861",
@@ -545,7 +545,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T22:57:17.068Z"
+        "lastUpdated": "2026-07-15T01:55:27.394Z"
       },
       "617893": {
         "teamCode": "617893",
@@ -635,46 +635,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T22:57:17.068Z"
+        "lastUpdated": "2026-07-15T01:55:27.394Z"
       },
       "617894": {
         "teamCode": "617894",
         "totalGames": 16,
-        "playedGames": 11,
+        "playedGames": 13,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sat, Jun 6",
-            "time": "9:00 AM",
-            "homeTeam": "TNT Thunder 13U DS",
-            "homeTeamCode": "618066",
-            "awayTeam": "Markham Mariners 13U DS Team 2",
-            "awayTeamCode": "617894",
-            "location": "Beeton South Diamond",
-            "isCompleted": true,
-            "score": {
-              "home": 13,
-              "away": 3,
-              "scoreText": "3-13"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Sat, Jun 6",
-            "time": "12:00 PM",
-            "homeTeam": "TNT Thunder 13U DS",
-            "homeTeamCode": "618066",
-            "awayTeam": "Markham Mariners 13U DS Team 2",
-            "awayTeamCode": "617894",
-            "location": "Beeton South Diamond",
-            "isCompleted": true,
-            "score": {
-              "home": 12,
-              "away": 10,
-              "scoreText": "10-12"
-            }
-          },
           {
             "date": null,
             "dateText": "Sat, Jul 4",
@@ -722,10 +690,42 @@
               "away": 4,
               "scoreText": "4-12"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sun, Jul 12",
+            "time": "11:00 AM",
+            "homeTeam": "Markham Mariners 13U DS Team 2",
+            "homeTeamCode": "617894",
+            "awayTeam": "Barrie Baycats 13U DS",
+            "awayTeamCode": "612799",
+            "location": "Berczy Park",
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 8,
+              "scoreText": "8-6"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sun, Jul 12",
+            "time": "2:00 PM",
+            "homeTeam": "Markham Mariners 13U DS Team 2",
+            "homeTeamCode": "617894",
+            "awayTeam": "Barrie Baycats 13U DS",
+            "awayTeamCode": "612799",
+            "location": "Berczy Park",
+            "isCompleted": true,
+            "score": {
+              "home": 0,
+              "away": 6,
+              "scoreText": "6-0"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T22:57:17.068Z"
+        "lastUpdated": "2026-07-15T01:55:27.394Z"
       },
       "617918": {
         "teamCode": "617918",
@@ -815,7 +815,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T22:57:17.068Z"
+        "lastUpdated": "2026-07-15T01:55:27.394Z"
       },
       "618001": {
         "teamCode": "618001",
@@ -905,7 +905,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T22:57:17.068Z"
+        "lastUpdated": "2026-07-15T01:55:27.394Z"
       },
       "618028": {
         "teamCode": "618028",
@@ -995,7 +995,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T22:57:17.068Z"
+        "lastUpdated": "2026-07-15T01:55:27.394Z"
       },
       "618054": {
         "teamCode": "618054",
@@ -1085,7 +1085,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T22:57:17.068Z"
+        "lastUpdated": "2026-07-15T01:55:27.394Z"
       },
       "618066": {
         "teamCode": "618066",
@@ -1175,7 +1175,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T22:57:17.068Z"
+        "lastUpdated": "2026-07-15T01:55:27.394Z"
       },
       "618069": {
         "teamCode": "618069",
@@ -1265,7 +1265,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T22:57:17.068Z"
+        "lastUpdated": "2026-07-15T01:55:27.394Z"
       },
       "618392": {
         "teamCode": "618392",
@@ -1355,7 +1355,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T22:57:17.068Z"
+        "lastUpdated": "2026-07-15T01:55:27.394Z"
       },
       "618396": {
         "teamCode": "618396",
@@ -1445,7 +1445,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T22:57:17.068Z"
+        "lastUpdated": "2026-07-15T01:55:27.394Z"
       },
       "618475": {
         "teamCode": "618475",
@@ -1535,7 +1535,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T22:57:17.068Z"
+        "lastUpdated": "2026-07-15T01:55:27.394Z"
       },
       "628935": {
         "teamCode": "628935",
@@ -1625,7 +1625,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-14T22:57:17.068Z"
+        "lastUpdated": "2026-07-15T01:55:27.394Z"
       }
     },
     "allGames": [
@@ -3070,8 +3070,12 @@
         "awayTeam": "Barrie Baycats 13U DS",
         "awayTeamCode": "612799",
         "location": "Berczy Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 8,
+          "scoreText": "8-6"
+        }
       },
       {
         "date": null,
@@ -3094,8 +3098,12 @@
         "awayTeam": "Barrie Baycats 13U DS",
         "awayTeamCode": "612799",
         "location": "Berczy Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 0,
+          "away": 6,
+          "scoreText": "6-0"
+        }
       },
       {
         "date": null,
@@ -3585,14 +3593,14 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-07-14T22:57:17.068Z",
+    "lastUpdated": "2026-07-15T01:55:27.394Z",
     "totalGames": 120
   },
   "summary": {
     "totalTeams": 15,
     "totalGames": 120,
-    "completedGames": 88,
-    "upcomingGames": 32,
+    "completedGames": 90,
+    "upcomingGames": 30,
     "topTeam": {
       "team": "Markham Mariners 13U DS Team 1",
       "teamCode": "617893",
@@ -3609,6 +3617,6 @@
       "date": "Sat, May 16",
       "location": "Coventry Park"
     },
-    "lastUpdated": "2026-07-14T22:57:24.604Z"
+    "lastUpdated": "2026-07-15T01:55:34.888Z"
   }
 }
