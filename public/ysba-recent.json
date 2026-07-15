@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-15T16:20:36.249Z",
+  "lastUpdated": "2026-07-15T19:06:20.048Z",
   "totalGames": 190,
   "games": [
     {
@@ -25,8 +25,12 @@
       "awayTeam": "Markham",
       "awayTeamCode": "892645",
       "location": "Carlton   — Toronto",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 10,
+        "away": 11,
+        "scoreText": "11-10"
+      },
       "division": "10U",
       "tier": "interlock-all-tiers"
     },
