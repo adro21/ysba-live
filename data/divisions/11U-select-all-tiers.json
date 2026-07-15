@@ -56,25 +56,43 @@
         }
       },
       {
+        "position": 5,
+        "team": "Orangeville Bengals 11U DS",
+        "teamCode": "618027",
+        "record": {
+          "gamesPlayed": 12,
+          "wins": 6,
+          "losses": 5,
+          "ties": 1,
+          "winPercentage": "0.542"
+        },
+        "stats": {
+          "points": 13,
+          "runsFor": 103,
+          "runsAgainst": 95,
+          "runDifferential": 8
+        }
+      },
+      {
         "position": 4,
         "team": "Newmarket Hawks 11U DS",
         "teamCode": "617917",
         "record": {
-          "gamesPlayed": 12,
+          "gamesPlayed": 13,
           "wins": 7,
-          "losses": 5,
+          "losses": 6,
           "ties": 0,
-          "winPercentage": "0.583"
+          "winPercentage": "0.538"
         },
         "stats": {
           "points": 14,
-          "runsFor": 111,
-          "runsAgainst": 94,
-          "runDifferential": 17
+          "runsFor": 116,
+          "runsAgainst": 100,
+          "runDifferential": 16
         }
       },
       {
-        "position": 5,
+        "position": 6,
         "team": "Orillia 11U DS",
         "teamCode": "618391",
         "record": {
@@ -89,24 +107,6 @@
           "runsFor": 109,
           "runsAgainst": 124,
           "runDifferential": -15
-        }
-      },
-      {
-        "position": 6,
-        "team": "Orangeville Bengals 11U DS",
-        "teamCode": "618027",
-        "record": {
-          "gamesPlayed": 11,
-          "wins": 5,
-          "losses": 5,
-          "ties": 1,
-          "winPercentage": "0.500"
-        },
-        "stats": {
-          "points": 11,
-          "runsFor": 97,
-          "runsAgainst": 90,
-          "runDifferential": 7
         }
       },
       {
@@ -146,6 +146,24 @@
         }
       },
       {
+        "position": 9,
+        "team": "Caledon Nationals 11U DS",
+        "teamCode": "618476",
+        "record": {
+          "gamesPlayed": 13,
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "winPercentage": "0.308"
+        },
+        "stats": {
+          "points": 8,
+          "runsFor": 96,
+          "runsAgainst": 137,
+          "runDifferential": -41
+        }
+      },
+      {
         "position": 10,
         "team": "Vaughan Vikings 10U DS",
         "teamCode": "617189",
@@ -164,43 +182,25 @@
         }
       },
       {
-        "position": 9,
-        "team": "Caledon Nationals 11U DS",
-        "teamCode": "618476",
-        "record": {
-          "gamesPlayed": 12,
-          "wins": 3,
-          "losses": 9,
-          "ties": 0,
-          "winPercentage": "0.250"
-        },
-        "stats": {
-          "points": 6,
-          "runsFor": 86,
-          "runsAgainst": 130,
-          "runDifferential": -44
-        }
-      },
-      {
         "position": 11,
         "team": "Innisfil Cardinals 11U DS",
         "teamCode": "618053",
         "record": {
-          "gamesPlayed": 14,
+          "gamesPlayed": 15,
           "wins": 1,
-          "losses": 13,
+          "losses": 14,
           "ties": 0,
-          "winPercentage": "0.071"
+          "winPercentage": "0.067"
         },
         "stats": {
           "points": 2,
-          "runsFor": 109,
-          "runsAgainst": 190,
-          "runDifferential": -81
+          "runsFor": 116,
+          "runsAgainst": 200,
+          "runDifferential": -84
         }
       }
     ],
-    "lastUpdated": "2026-07-15T11:13:08.614Z",
+    "lastUpdated": "2026-07-15T12:54:38.211Z",
     "totalTeams": 11
   },
   "schedule": {
@@ -293,7 +293,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-15T11:13:11.699Z"
+        "lastUpdated": "2026-07-15T12:54:41.284Z"
       },
       "617189": {
         "teamCode": "617189",
@@ -383,7 +383,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-15T11:13:11.699Z"
+        "lastUpdated": "2026-07-15T12:54:41.284Z"
       },
       "617190": {
         "teamCode": "617190",
@@ -473,7 +473,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-15T11:13:11.699Z"
+        "lastUpdated": "2026-07-15T12:54:41.284Z"
       },
       "617892": {
         "teamCode": "617892",
@@ -563,30 +563,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-15T11:13:11.699Z"
+        "lastUpdated": "2026-07-15T12:54:41.284Z"
       },
       "617917": {
         "teamCode": "617917",
         "totalGames": 16,
-        "playedGames": 12,
+        "playedGames": 13,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sun, Jun 7",
-            "time": "1:30 PM",
-            "homeTeam": "Vaughan Vikings 10U DS",
-            "homeTeamCode": "617189",
-            "awayTeam": "Newmarket Hawks 11U DS",
-            "awayTeamCode": "617917",
-            "location": "Chatfield District Park",
-            "isCompleted": true,
-            "score": {
-              "home": 8,
-              "away": 7,
-              "scoreText": "7-8"
-            }
-          },
           {
             "date": null,
             "dateText": "Sat, Jun 27",
@@ -650,10 +634,26 @@
               "away": 12,
               "scoreText": "12-11"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Tue, Jul 14",
+            "time": "6:00 PM",
+            "homeTeam": "Orangeville Bengals 11U DS",
+            "homeTeamCode": "618027",
+            "awayTeam": "Newmarket Hawks 11U DS",
+            "awayTeamCode": "617917",
+            "location": "John Alexander Park",
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 5,
+              "scoreText": "5-6"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-15T11:13:11.699Z"
+        "lastUpdated": "2026-07-15T12:54:41.284Z"
       },
       "618000": {
         "teamCode": "618000",
@@ -743,7 +743,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-15T11:13:11.699Z"
+        "lastUpdated": "2026-07-15T12:54:41.284Z"
       },
       "618014": {
         "teamCode": "618014",
@@ -833,30 +833,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-15T11:13:11.699Z"
+        "lastUpdated": "2026-07-15T12:54:41.284Z"
       },
       "618027": {
         "teamCode": "618027",
         "totalGames": 16,
-        "playedGames": 11,
+        "playedGames": 12,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sun, Jun 14",
-            "time": "11:00 AM",
-            "homeTeam": "Vaughan Vikings 10U DS",
-            "homeTeamCode": "617189",
-            "awayTeam": "Orangeville Bengals 11U DS",
-            "awayTeamCode": "618027",
-            "location": "Chatfield District Park",
-            "isCompleted": true,
-            "score": {
-              "home": 4,
-              "away": 9,
-              "scoreText": "9-4"
-            }
-          },
           {
             "date": null,
             "dateText": "Tue, Jun 23",
@@ -920,33 +904,33 @@
               "away": 4,
               "scoreText": "4-9"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Tue, Jul 14",
+            "time": "6:00 PM",
+            "homeTeam": "Orangeville Bengals 11U DS",
+            "homeTeamCode": "618027",
+            "awayTeam": "Newmarket Hawks 11U DS",
+            "awayTeamCode": "617917",
+            "location": "John Alexander Park",
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 5,
+              "scoreText": "5-6"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-15T11:13:11.699Z"
+        "lastUpdated": "2026-07-15T12:54:41.284Z"
       },
       "618053": {
         "teamCode": "618053",
         "totalGames": 16,
-        "playedGames": 14,
+        "playedGames": 15,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sat, Jun 27",
-            "time": "12:00 PM",
-            "homeTeam": "Newmarket Hawks 11U DS",
-            "homeTeamCode": "617917",
-            "awayTeam": "Innisfil Cardinals 11U DS",
-            "awayTeamCode": "618053",
-            "location": "Fairgrounds #1",
-            "isCompleted": true,
-            "score": {
-              "home": 16,
-              "away": 7,
-              "scoreText": "7-16"
-            }
-          },
           {
             "date": null,
             "dateText": "Sat, Jun 27",
@@ -1010,10 +994,26 @@
               "away": 9,
               "scoreText": "9-8"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Tue, Jul 14",
+            "time": "6:30 PM",
+            "homeTeam": "Caledon Nationals 11U DS",
+            "homeTeamCode": "618476",
+            "awayTeam": "Innisfil Cardinals 11U DS",
+            "awayTeamCode": "618053",
+            "location": "Innisfil Beach Park",
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 7,
+              "scoreText": "7-10"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-15T11:13:11.699Z"
+        "lastUpdated": "2026-07-15T12:54:41.284Z"
       },
       "618391": {
         "teamCode": "618391",
@@ -1103,30 +1103,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-15T11:13:11.699Z"
+        "lastUpdated": "2026-07-15T12:54:41.284Z"
       },
       "618476": {
         "teamCode": "618476",
         "totalGames": 16,
-        "playedGames": 12,
+        "playedGames": 13,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sun, Jun 28",
-            "time": "1:00 PM",
-            "homeTeam": "Caledon Nationals 11U DS",
-            "homeTeamCode": "618476",
-            "awayTeam": "Vaughan Vikings 10U DS",
-            "awayTeamCode": "617189",
-            "location": "Caledon East Park #1",
-            "isCompleted": true,
-            "score": {
-              "home": 10,
-              "away": 5,
-              "scoreText": "5-10"
-            }
-          },
           {
             "date": null,
             "dateText": "Sun, Jun 28",
@@ -1190,10 +1174,26 @@
               "away": 4,
               "scoreText": "4-9"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Tue, Jul 14",
+            "time": "6:30 PM",
+            "homeTeam": "Caledon Nationals 11U DS",
+            "homeTeamCode": "618476",
+            "awayTeam": "Innisfil Cardinals 11U DS",
+            "awayTeamCode": "618053",
+            "location": "Innisfil Beach Park",
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 7,
+              "scoreText": "7-10"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-15T11:13:11.699Z"
+        "lastUpdated": "2026-07-15T12:54:41.284Z"
       }
     },
     "allGames": [
@@ -2262,8 +2262,12 @@
         "awayTeam": "Newmarket Hawks 11U DS",
         "awayTeamCode": "617917",
         "location": "John Alexander Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 5,
+          "scoreText": "5-6"
+        }
       },
       {
         "date": null,
@@ -2274,8 +2278,12 @@
         "awayTeam": "Innisfil Cardinals 11U DS",
         "awayTeamCode": "618053",
         "location": "Innisfil Beach Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 7,
+          "scoreText": "7-10"
+        }
       },
       {
         "date": null,
@@ -2681,14 +2689,14 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-07-15T11:13:11.699Z",
+    "lastUpdated": "2026-07-15T12:54:41.284Z",
     "totalGames": 88
   },
   "summary": {
     "totalTeams": 11,
     "totalGames": 88,
-    "completedGames": 66,
-    "upcomingGames": 22,
+    "completedGames": 68,
+    "upcomingGames": 20,
     "topTeam": {
       "team": "Thornhill Reds 11U DS",
       "teamCode": "618000",
@@ -2705,6 +2713,6 @@
       "date": "Sat, May 16",
       "location": "Stroud"
     },
-    "lastUpdated": "2026-07-15T11:13:27.895Z"
+    "lastUpdated": "2026-07-15T12:54:56.514Z"
   }
 }
