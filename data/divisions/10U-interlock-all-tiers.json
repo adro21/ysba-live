@@ -2,7 +2,7 @@
   "standings": {
     "teams": [
       {
-        "position": 2,
+        "position": 3,
         "team": "Royal York",
         "teamCode": "892633",
         "record": {
@@ -20,21 +20,21 @@
         }
       },
       {
-        "position": 3,
+        "position": 2,
         "team": "Barrie",
         "teamCode": "892634",
         "record": {
-          "gamesPlayed": 12,
-          "wins": 10,
+          "gamesPlayed": 13,
+          "wins": 11,
           "losses": 2,
           "ties": 0,
-          "winPercentage": "0.833"
+          "winPercentage": "0.846"
         },
         "stats": {
-          "points": 20,
-          "runsFor": 133,
-          "runsAgainst": 81,
-          "runDifferential": 52
+          "points": 22,
+          "runsFor": 144,
+          "runsAgainst": 90,
+          "runDifferential": 54
         }
       },
       {
@@ -110,24 +110,6 @@
         }
       },
       {
-        "position": 8,
-        "team": "Leaside",
-        "teamCode": "892648",
-        "record": {
-          "gamesPlayed": 10,
-          "wins": 5,
-          "losses": 5,
-          "ties": 0,
-          "winPercentage": "0.500"
-        },
-        "stats": {
-          "points": 10,
-          "runsFor": 66,
-          "runsAgainst": 95,
-          "runDifferential": -29
-        }
-      },
-      {
         "position": 6,
         "team": "Aurora-King",
         "teamCode": "892642",
@@ -143,6 +125,24 @@
           "runsFor": 126,
           "runsAgainst": 129,
           "runDifferential": -3
+        }
+      },
+      {
+        "position": 8,
+        "team": "Leaside",
+        "teamCode": "892648",
+        "record": {
+          "gamesPlayed": 11,
+          "wins": 5,
+          "losses": 6,
+          "ties": 0,
+          "winPercentage": "0.455"
+        },
+        "stats": {
+          "points": 10,
+          "runsFor": 75,
+          "runsAgainst": 106,
+          "runDifferential": -31
         }
       },
       {
@@ -254,7 +254,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-07-16T12:03:24.912Z",
+    "lastUpdated": "2026-07-16T13:55:15.491Z",
     "totalTeams": 14
   },
   "schedule": {
@@ -408,7 +408,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-16T12:03:24.954Z"
+        "lastUpdated": "2026-07-16T13:55:15.519Z"
       },
       "892634": {
         "teamCode": "892634",
@@ -489,8 +489,12 @@
             "awayTeam": "Barrie",
             "awayTeamCode": "892634",
             "location": "Barrie Sports Complex — Diamond 14 — Minesing",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 11,
+              "scoreText": "11-9"
+            }
           }
         ],
         "nextGames": [
@@ -555,7 +559,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-16T12:03:24.954Z"
+        "lastUpdated": "2026-07-16T13:55:15.519Z"
       },
       "892636": {
         "teamCode": "892636",
@@ -678,7 +682,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-16T12:03:24.954Z"
+        "lastUpdated": "2026-07-16T13:55:15.519Z"
       },
       "892637": {
         "teamCode": "892637",
@@ -801,7 +805,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-16T12:03:24.954Z"
+        "lastUpdated": "2026-07-16T13:55:15.519Z"
       },
       "892638": {
         "teamCode": "892638",
@@ -940,7 +944,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-16T12:03:24.954Z"
+        "lastUpdated": "2026-07-16T13:55:15.519Z"
       },
       "892639": {
         "teamCode": "892639",
@@ -1079,7 +1083,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-16T12:03:24.954Z"
+        "lastUpdated": "2026-07-16T13:55:15.519Z"
       },
       "892640": {
         "teamCode": "892640",
@@ -1226,7 +1230,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-16T12:03:24.954Z"
+        "lastUpdated": "2026-07-16T13:55:15.519Z"
       },
       "892642": {
         "teamCode": "892642",
@@ -1377,7 +1381,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-16T12:03:24.954Z"
+        "lastUpdated": "2026-07-16T13:55:15.519Z"
       },
       "892643": {
         "teamCode": "892643",
@@ -1524,7 +1528,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-16T12:03:24.954Z"
+        "lastUpdated": "2026-07-16T13:55:15.519Z"
       },
       "892644": {
         "teamCode": "892644",
@@ -1675,7 +1679,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-16T12:03:24.954Z"
+        "lastUpdated": "2026-07-16T13:55:15.519Z"
       },
       "892645": {
         "teamCode": "892645",
@@ -1826,7 +1830,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-16T12:03:24.954Z"
+        "lastUpdated": "2026-07-16T13:55:15.519Z"
       },
       "892646": {
         "teamCode": "892646",
@@ -1973,7 +1977,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-16T12:03:24.954Z"
+        "lastUpdated": "2026-07-16T13:55:15.519Z"
       },
       "892647": {
         "teamCode": "892647",
@@ -2120,7 +2124,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-16T12:03:24.954Z"
+        "lastUpdated": "2026-07-16T13:55:15.519Z"
       },
       "892648": {
         "teamCode": "892648",
@@ -2197,8 +2201,12 @@
             "awayTeam": "Barrie",
             "awayTeamCode": "892634",
             "location": "Barrie Sports Complex — Diamond 14 — Minesing",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 11,
+              "scoreText": "11-9"
+            }
           }
         ],
         "nextGames": [
@@ -2263,7 +2271,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-16T12:03:24.954Z"
+        "lastUpdated": "2026-07-16T13:55:15.519Z"
       }
     },
     "allGames": [
@@ -3868,8 +3876,12 @@
         "awayTeam": "Barrie",
         "awayTeamCode": "892634",
         "location": "Barrie Sports Complex — Diamond 14 — Minesing",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 11,
+          "scoreText": "11-9"
+        }
       },
       {
         "date": "2026-07-15T22:45:00.000Z",
@@ -4402,8 +4414,12 @@
         "awayTeam": "Barrie",
         "awayTeamCode": "892634",
         "location": "Barrie Sports Complex — Diamond 14 — Minesing",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 11,
+          "scoreText": "11-9"
+        }
       },
       {
         "date": "2026-07-14T22:30:00.000Z",
@@ -4648,14 +4664,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2026-07-16T12:03:24.954Z",
+    "lastUpdated": "2026-07-16T13:55:15.519Z",
     "totalGames": 147
   },
   "summary": {
     "totalTeams": 14,
     "totalGames": 147,
-    "completedGames": 87,
-    "upcomingGames": 60,
+    "completedGames": 88,
+    "upcomingGames": 59,
     "topTeam": {
       "team": "Royal York",
       "teamCode": "892633",
@@ -4672,6 +4688,6 @@
       "date": "Mon, Jun 29",
       "location": "North Hill — Diamond 2 — Bolton"
     },
-    "lastUpdated": "2026-07-16T12:03:25.474Z"
+    "lastUpdated": "2026-07-16T13:55:16.031Z"
   }
 }
