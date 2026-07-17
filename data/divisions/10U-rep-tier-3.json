@@ -2,24 +2,6 @@
   "standings": {
     "teams": [
       {
-        "position": 1,
-        "team": "Vaughan Vikings 10U A Team 2",
-        "teamCode": "617174",
-        "record": {
-          "gamesPlayed": 13,
-          "wins": 12,
-          "losses": 1,
-          "ties": 0,
-          "winPercentage": "0.923"
-        },
-        "stats": {
-          "points": 24,
-          "runsFor": 179,
-          "runsAgainst": 67,
-          "runDifferential": 112
-        }
-      },
-      {
         "position": 2,
         "team": "Innisfil Cardinals 10U A",
         "teamCode": "618041",
@@ -35,6 +17,24 @@
           "runsFor": 141,
           "runsAgainst": 85,
           "runDifferential": 56
+        }
+      },
+      {
+        "position": 1,
+        "team": "Vaughan Vikings 10U A Team 2",
+        "teamCode": "617174",
+        "record": {
+          "gamesPlayed": 14,
+          "wins": 12,
+          "losses": 2,
+          "ties": 0,
+          "winPercentage": "0.857"
+        },
+        "stats": {
+          "points": 24,
+          "runsFor": 183,
+          "runsAgainst": 74,
+          "runDifferential": 109
         }
       },
       {
@@ -57,6 +57,24 @@
       },
       {
         "position": 3,
+        "team": "Barrie Baycats 10U A",
+        "teamCode": "612779",
+        "record": {
+          "gamesPlayed": 13,
+          "wins": 10,
+          "losses": 3,
+          "ties": 0,
+          "winPercentage": "0.769"
+        },
+        "stats": {
+          "points": 20,
+          "runsFor": 146,
+          "runsAgainst": 82,
+          "runDifferential": 64
+        }
+      },
+      {
+        "position": 4,
         "team": "Midland Penetang Twins 10U B",
         "teamCode": "618394",
         "record": {
@@ -74,7 +92,7 @@
         }
       },
       {
-        "position": 4,
+        "position": 5,
         "team": "Thornhill Reds 10U A",
         "teamCode": "617985",
         "record": {
@@ -89,24 +107,6 @@
           "runsFor": 122,
           "runsAgainst": 76,
           "runDifferential": 46
-        }
-      },
-      {
-        "position": 5,
-        "team": "Barrie Baycats 10U A",
-        "teamCode": "612779",
-        "record": {
-          "gamesPlayed": 12,
-          "wins": 9,
-          "losses": 3,
-          "ties": 0,
-          "winPercentage": "0.750"
-        },
-        "stats": {
-          "points": 18,
-          "runsFor": 139,
-          "runsAgainst": 78,
-          "runDifferential": 61
         }
       },
       {
@@ -290,7 +290,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-07-17T12:42:00.788Z",
+    "lastUpdated": "2026-07-17T14:28:02.870Z",
     "totalTeams": 16
   },
   "schedule": {
@@ -298,25 +298,9 @@
       "612779": {
         "teamCode": "612779",
         "totalGames": 19,
-        "playedGames": 12,
+        "playedGames": 13,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Wed, Jun 17",
-            "time": "6:30 PM",
-            "homeTeam": "Barrie Baycats 10U A",
-            "homeTeamCode": "612779",
-            "awayTeam": "Orillia 10U B",
-            "awayTeamCode": "618381",
-            "location": "Barrie Sports Complex Pinwheel 12",
-            "isCompleted": true,
-            "score": {
-              "home": 10,
-              "away": 11,
-              "scoreText": "11-10"
-            }
-          },
           {
             "date": null,
             "dateText": "Mon, Jun 29",
@@ -380,10 +364,26 @@
               "away": 2,
               "scoreText": "2-6"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Wed, Jul 15",
+            "time": "6:30 PM",
+            "homeTeam": "Barrie Baycats 10U A",
+            "homeTeamCode": "612779",
+            "awayTeam": "Vaughan Vikings 10U A Team 2",
+            "awayTeamCode": "617174",
+            "location": "Barrie Sports Complex Pinwheel 12",
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 4,
+              "scoreText": "4-7"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-17T12:42:05.227Z"
+        "lastUpdated": "2026-07-17T14:28:07.145Z"
       },
       "617173": {
         "teamCode": "617173",
@@ -473,30 +473,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-17T12:42:05.227Z"
+        "lastUpdated": "2026-07-17T14:28:07.145Z"
       },
       "617174": {
         "teamCode": "617174",
         "totalGames": 19,
-        "playedGames": 13,
+        "playedGames": 14,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Wed, Jun 10",
-            "time": "6:00 PM",
-            "homeTeam": "Thornhill Reds 10U A",
-            "homeTeamCode": "617985",
-            "awayTeam": "Vaughan Vikings 10U A Team 2",
-            "awayTeamCode": "617174",
-            "location": "CONCORD REGIONAL #3",
-            "isCompleted": true,
-            "score": {
-              "home": 5,
-              "away": 9,
-              "scoreText": "9-5"
-            }
-          },
           {
             "date": null,
             "dateText": "Mon, Jun 15",
@@ -560,10 +544,26 @@
               "away": 7,
               "scoreText": "7-9"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Wed, Jul 15",
+            "time": "6:30 PM",
+            "homeTeam": "Barrie Baycats 10U A",
+            "homeTeamCode": "612779",
+            "awayTeam": "Vaughan Vikings 10U A Team 2",
+            "awayTeamCode": "617174",
+            "location": "Barrie Sports Complex Pinwheel 12",
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 4,
+              "scoreText": "4-7"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-17T12:42:05.227Z"
+        "lastUpdated": "2026-07-17T14:28:07.145Z"
       },
       "617848": {
         "teamCode": "617848",
@@ -653,7 +653,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-17T12:42:05.227Z"
+        "lastUpdated": "2026-07-17T14:28:07.145Z"
       },
       "617900": {
         "teamCode": "617900",
@@ -743,7 +743,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-17T12:42:05.227Z"
+        "lastUpdated": "2026-07-17T14:28:07.145Z"
       },
       "617944": {
         "teamCode": "617944",
@@ -833,7 +833,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-17T12:42:05.227Z"
+        "lastUpdated": "2026-07-17T14:28:07.145Z"
       },
       "617970": {
         "teamCode": "617970",
@@ -923,7 +923,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-17T12:42:05.227Z"
+        "lastUpdated": "2026-07-17T14:28:07.145Z"
       },
       "617985": {
         "teamCode": "617985",
@@ -1013,7 +1013,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-17T12:42:05.227Z"
+        "lastUpdated": "2026-07-17T14:28:07.145Z"
       },
       "618005": {
         "teamCode": "618005",
@@ -1103,7 +1103,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-17T12:42:05.227Z"
+        "lastUpdated": "2026-07-17T14:28:07.145Z"
       },
       "618019": {
         "teamCode": "618019",
@@ -1193,7 +1193,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-17T12:42:05.227Z"
+        "lastUpdated": "2026-07-17T14:28:07.145Z"
       },
       "618041": {
         "teamCode": "618041",
@@ -1283,7 +1283,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-17T12:42:05.227Z"
+        "lastUpdated": "2026-07-17T14:28:07.145Z"
       },
       "618057": {
         "teamCode": "618057",
@@ -1373,7 +1373,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-17T12:42:05.227Z"
+        "lastUpdated": "2026-07-17T14:28:07.145Z"
       },
       "618381": {
         "teamCode": "618381",
@@ -1463,7 +1463,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-17T12:42:05.227Z"
+        "lastUpdated": "2026-07-17T14:28:07.145Z"
       },
       "618394": {
         "teamCode": "618394",
@@ -1553,7 +1553,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-17T12:42:05.227Z"
+        "lastUpdated": "2026-07-17T14:28:07.145Z"
       },
       "625725": {
         "teamCode": "625725",
@@ -1643,7 +1643,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-17T12:42:05.227Z"
+        "lastUpdated": "2026-07-17T14:28:07.145Z"
       },
       "627209": {
         "teamCode": "627209",
@@ -1733,7 +1733,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-17T12:42:05.227Z"
+        "lastUpdated": "2026-07-17T14:28:07.145Z"
       }
     },
     "allGames": [
@@ -3306,8 +3306,12 @@
         "awayTeam": "Vaughan Vikings 10U A Team 2",
         "awayTeamCode": "617174",
         "location": "Barrie Sports Complex Pinwheel 12",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 4,
+          "scoreText": "4-7"
+        }
       },
       {
         "date": null,
@@ -4113,20 +4117,20 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-07-17T12:42:05.227Z",
+    "lastUpdated": "2026-07-17T14:28:07.145Z",
     "totalGames": 152
   },
   "summary": {
     "totalTeams": 16,
     "totalGames": 152,
-    "completedGames": 97,
-    "upcomingGames": 55,
+    "completedGames": 98,
+    "upcomingGames": 54,
     "topTeam": {
-      "team": "Vaughan Vikings 10U A Team 2",
-      "teamCode": "617174",
-      "wins": 12,
+      "team": "Innisfil Cardinals 10U A",
+      "teamCode": "618041",
+      "wins": 11,
       "losses": 1,
-      "winPercentage": "0.923"
+      "winPercentage": "0.917"
     },
     "highestScoringGame": {
       "homeTeam": "Georgina Bulldogs 10U B",
@@ -4137,6 +4141,6 @@
       "date": "Thu, May 21",
       "location": "Georgina Roc- Diamond 2"
     },
-    "lastUpdated": "2026-07-17T12:47:05.228Z"
+    "lastUpdated": "2026-07-17T14:32:33.381Z"
   }
 }
