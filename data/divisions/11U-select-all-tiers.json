@@ -6,17 +6,17 @@
         "team": "Thornhill Reds 11U DS",
         "teamCode": "618000",
         "record": {
-          "gamesPlayed": 12,
-          "wins": 12,
+          "gamesPlayed": 14,
+          "wins": 14,
           "losses": 0,
           "ties": 0,
           "winPercentage": "1.000"
         },
         "stats": {
-          "points": 24,
-          "runsFor": 135,
-          "runsAgainst": 67,
-          "runDifferential": 68
+          "points": 28,
+          "runsFor": 167,
+          "runsAgainst": 71,
+          "runDifferential": 96
         }
       },
       {
@@ -24,17 +24,17 @@
         "team": "Vaughan Vikings 11U DS",
         "teamCode": "617190",
         "record": {
-          "gamesPlayed": 13,
+          "gamesPlayed": 14,
           "wins": 11,
-          "losses": 2,
+          "losses": 3,
           "ties": 0,
-          "winPercentage": "0.846"
+          "winPercentage": "0.786"
         },
         "stats": {
           "points": 22,
-          "runsFor": 152,
-          "runsAgainst": 81,
-          "runDifferential": 71
+          "runsFor": 156,
+          "runsAgainst": 86,
+          "runDifferential": 70
         }
       },
       {
@@ -42,17 +42,17 @@
         "team": "Barrie Baycats 11U DS",
         "teamCode": "612798",
         "record": {
-          "gamesPlayed": 15,
-          "wins": 10,
+          "gamesPlayed": 16,
+          "wins": 11,
           "losses": 3,
           "ties": 2,
-          "winPercentage": "0.733"
+          "winPercentage": "0.750"
         },
         "stats": {
-          "points": 22,
-          "runsFor": 190,
-          "runsAgainst": 120,
-          "runDifferential": 70
+          "points": 24,
+          "runsFor": 195,
+          "runsAgainst": 124,
+          "runDifferential": 71
         }
       },
       {
@@ -168,17 +168,17 @@
         "team": "Vaughan Vikings 10U DS",
         "teamCode": "617189",
         "record": {
-          "gamesPlayed": 11,
+          "gamesPlayed": 13,
           "wins": 3,
-          "losses": 8,
+          "losses": 10,
           "ties": 0,
-          "winPercentage": "0.273"
+          "winPercentage": "0.231"
         },
         "stats": {
           "points": 6,
-          "runsFor": 84,
-          "runsAgainst": 123,
-          "runDifferential": -39
+          "runsFor": 88,
+          "runsAgainst": 155,
+          "runDifferential": -67
         }
       },
       {
@@ -200,7 +200,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-07-19T22:28:00.246Z",
+    "lastUpdated": "2026-07-19T23:31:12.238Z",
     "totalTeams": 11
   },
   "schedule": {
@@ -208,25 +208,9 @@
       "612798": {
         "teamCode": "612798",
         "totalGames": 16,
-        "playedGames": 15,
+        "playedGames": 16,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Tue, Jun 23",
-            "time": "6:30 PM",
-            "homeTeam": "Vaughan Vikings 11U DS",
-            "homeTeamCode": "617190",
-            "awayTeam": "Barrie Baycats 11U DS",
-            "awayTeamCode": "612798",
-            "location": "Chatfield District Park",
-            "isCompleted": true,
-            "score": {
-              "home": 8,
-              "away": 7,
-              "scoreText": "7-8"
-            }
-          },
           {
             "date": null,
             "dateText": "Sat, Jul 4",
@@ -290,49 +274,33 @@
               "away": 4,
               "scoreText": "4-12"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sun, Jul 19",
+            "time": "10:00 AM",
+            "homeTeam": "Barrie Baycats 11U DS",
+            "homeTeamCode": "612798",
+            "awayTeam": "Vaughan Vikings 11U DS",
+            "awayTeamCode": "617190",
+            "location": "Lampman Lane Park",
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 4,
+              "scoreText": "4-5"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-19T22:28:03.095Z"
+        "lastUpdated": "2026-07-19T23:31:15.014Z"
       },
       "617189": {
         "teamCode": "617189",
         "totalGames": 16,
-        "playedGames": 11,
+        "playedGames": 13,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sun, Jun 28",
-            "time": "1:00 PM",
-            "homeTeam": "Caledon Nationals 11U DS",
-            "homeTeamCode": "618476",
-            "awayTeam": "Vaughan Vikings 10U DS",
-            "awayTeamCode": "617189",
-            "location": "Caledon East Park #1",
-            "isCompleted": true,
-            "score": {
-              "home": 10,
-              "away": 5,
-              "scoreText": "5-10"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Sun, Jun 28",
-            "time": "3:30 PM",
-            "homeTeam": "Caledon Nationals 11U DS",
-            "homeTeamCode": "618476",
-            "awayTeam": "Vaughan Vikings 10U DS",
-            "awayTeamCode": "617189",
-            "location": "Caledon East Park #1",
-            "isCompleted": true,
-            "score": {
-              "home": 15,
-              "away": 6,
-              "scoreText": "6-15"
-            }
-          },
           {
             "date": null,
             "dateText": "Tue, Jun 30",
@@ -380,33 +348,49 @@
               "away": 15,
               "scoreText": "15-9"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sun, Jul 19",
+            "time": "12:00 PM",
+            "homeTeam": "Thornhill Reds 11U DS",
+            "homeTeamCode": "618000",
+            "awayTeam": "Vaughan Vikings 10U DS",
+            "awayTeamCode": "617189",
+            "location": "Yorkhill West",
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 3,
+              "scoreText": "3-14"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sun, Jul 19",
+            "time": "2:30 PM",
+            "homeTeam": "Thornhill Reds 11U DS",
+            "homeTeamCode": "618000",
+            "awayTeam": "Vaughan Vikings 10U DS",
+            "awayTeamCode": "617189",
+            "location": "Yorkhill West",
+            "isCompleted": true,
+            "score": {
+              "home": 18,
+              "away": 1,
+              "scoreText": "1-18"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-19T22:28:03.095Z"
+        "lastUpdated": "2026-07-19T23:31:15.014Z"
       },
       "617190": {
         "teamCode": "617190",
         "totalGames": 16,
-        "playedGames": 13,
+        "playedGames": 14,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sun, Jun 21",
-            "time": "11:00 AM",
-            "homeTeam": "Markham Mariners 11U DS",
-            "homeTeamCode": "617892",
-            "awayTeam": "Vaughan Vikings 11U DS",
-            "awayTeamCode": "617190",
-            "location": "Carlton Park",
-            "isCompleted": true,
-            "score": {
-              "home": 5,
-              "away": 14,
-              "scoreText": "14-5"
-            }
-          },
           {
             "date": null,
             "dateText": "Sun, Jun 21",
@@ -470,10 +454,26 @@
               "away": 2,
               "scoreText": "2-6"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sun, Jul 19",
+            "time": "10:00 AM",
+            "homeTeam": "Barrie Baycats 11U DS",
+            "homeTeamCode": "612798",
+            "awayTeam": "Vaughan Vikings 11U DS",
+            "awayTeamCode": "617190",
+            "location": "Lampman Lane Park",
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 4,
+              "scoreText": "4-5"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-19T22:28:03.095Z"
+        "lastUpdated": "2026-07-19T23:31:15.014Z"
       },
       "617892": {
         "teamCode": "617892",
@@ -563,7 +563,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-19T22:28:03.095Z"
+        "lastUpdated": "2026-07-19T23:31:15.014Z"
       },
       "617917": {
         "teamCode": "617917",
@@ -653,46 +653,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-19T22:28:03.095Z"
+        "lastUpdated": "2026-07-19T23:31:15.014Z"
       },
       "618000": {
         "teamCode": "618000",
         "totalGames": 16,
-        "playedGames": 12,
+        "playedGames": 14,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sun, Jun 28",
-            "time": "12:00 PM",
-            "homeTeam": "Thornhill Reds 11U DS",
-            "homeTeamCode": "618000",
-            "awayTeam": "Orangeville Bengals 11U DS",
-            "awayTeamCode": "618027",
-            "location": "Yorkhill West",
-            "isCompleted": true,
-            "score": {
-              "home": 7,
-              "away": 6,
-              "scoreText": "6-7"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Sun, Jun 28",
-            "time": "2:30 PM",
-            "homeTeam": "Thornhill Reds 11U DS",
-            "homeTeamCode": "618000",
-            "awayTeam": "Orangeville Bengals 11U DS",
-            "awayTeamCode": "618027",
-            "location": "Yorkhill West",
-            "isCompleted": true,
-            "score": {
-              "home": 14,
-              "away": 3,
-              "scoreText": "3-14"
-            }
-          },
           {
             "date": null,
             "dateText": "Thu, Jul 2",
@@ -740,10 +708,42 @@
               "away": 2,
               "scoreText": "2-6"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sun, Jul 19",
+            "time": "12:00 PM",
+            "homeTeam": "Thornhill Reds 11U DS",
+            "homeTeamCode": "618000",
+            "awayTeam": "Vaughan Vikings 10U DS",
+            "awayTeamCode": "617189",
+            "location": "Yorkhill West",
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 3,
+              "scoreText": "3-14"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sun, Jul 19",
+            "time": "2:30 PM",
+            "homeTeam": "Thornhill Reds 11U DS",
+            "homeTeamCode": "618000",
+            "awayTeam": "Vaughan Vikings 10U DS",
+            "awayTeamCode": "617189",
+            "location": "Yorkhill West",
+            "isCompleted": true,
+            "score": {
+              "home": 18,
+              "away": 1,
+              "scoreText": "1-18"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-19T22:28:03.095Z"
+        "lastUpdated": "2026-07-19T23:31:15.014Z"
       },
       "618014": {
         "teamCode": "618014",
@@ -833,7 +833,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-19T22:28:03.095Z"
+        "lastUpdated": "2026-07-19T23:31:15.014Z"
       },
       "618027": {
         "teamCode": "618027",
@@ -923,7 +923,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-19T22:28:03.095Z"
+        "lastUpdated": "2026-07-19T23:31:15.014Z"
       },
       "618053": {
         "teamCode": "618053",
@@ -1013,7 +1013,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-19T22:28:03.095Z"
+        "lastUpdated": "2026-07-19T23:31:15.014Z"
       },
       "618391": {
         "teamCode": "618391",
@@ -1103,7 +1103,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-19T22:28:03.095Z"
+        "lastUpdated": "2026-07-19T23:31:15.014Z"
       },
       "618476": {
         "teamCode": "618476",
@@ -1193,7 +1193,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-19T22:28:03.095Z"
+        "lastUpdated": "2026-07-19T23:31:15.014Z"
       }
     },
     "allGames": [
@@ -2342,8 +2342,12 @@
         "awayTeam": "Vaughan Vikings 11U DS",
         "awayTeamCode": "617190",
         "location": "Lampman Lane Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 5,
+          "away": 4,
+          "scoreText": "4-5"
+        }
       },
       {
         "date": null,
@@ -2354,8 +2358,12 @@
         "awayTeam": "Vaughan Vikings 10U DS",
         "awayTeamCode": "617189",
         "location": "Yorkhill West",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 3,
+          "scoreText": "3-14"
+        }
       },
       {
         "date": null,
@@ -2366,8 +2374,12 @@
         "awayTeam": "Vaughan Vikings 10U DS",
         "awayTeamCode": "617189",
         "location": "Yorkhill West",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 18,
+          "away": 1,
+          "scoreText": "1-18"
+        }
       },
       {
         "date": null,
@@ -2701,18 +2713,18 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-07-19T22:28:03.095Z",
+    "lastUpdated": "2026-07-19T23:31:15.014Z",
     "totalGames": 88
   },
   "summary": {
     "totalTeams": 11,
     "totalGames": 88,
-    "completedGames": 71,
-    "upcomingGames": 17,
+    "completedGames": 74,
+    "upcomingGames": 14,
     "topTeam": {
       "team": "Thornhill Reds 11U DS",
       "teamCode": "618000",
-      "wins": 12,
+      "wins": 14,
       "losses": 0,
       "winPercentage": "1.000"
     },
@@ -2725,6 +2737,6 @@
       "date": "Sat, May 16",
       "location": "Stroud"
     },
-    "lastUpdated": "2026-07-19T22:28:18.022Z"
+    "lastUpdated": "2026-07-19T23:31:29.814Z"
   }
 }
