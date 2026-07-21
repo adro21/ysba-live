@@ -74,24 +74,6 @@
         }
       },
       {
-        "position": 6,
-        "team": "Vaughan",
-        "teamCode": "892644",
-        "record": {
-          "gamesPlayed": 13,
-          "wins": 8,
-          "losses": 5,
-          "ties": 0,
-          "winPercentage": "0.615"
-        },
-        "stats": {
-          "points": 16,
-          "runsFor": 130,
-          "runsAgainst": 97,
-          "runDifferential": 33
-        }
-      },
-      {
         "position": 7,
         "team": "Georgina",
         "teamCode": "892647",
@@ -107,6 +89,24 @@
           "runsFor": 123,
           "runsAgainst": 98,
           "runDifferential": 25
+        }
+      },
+      {
+        "position": 6,
+        "team": "Vaughan",
+        "teamCode": "892644",
+        "record": {
+          "gamesPlayed": 14,
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "winPercentage": "0.571"
+        },
+        "stats": {
+          "points": 16,
+          "runsFor": 136,
+          "runsAgainst": 105,
+          "runDifferential": 31
         }
       },
       {
@@ -132,17 +132,17 @@
         "team": "East York",
         "teamCode": "892640",
         "record": {
-          "gamesPlayed": 12,
-          "wins": 5,
+          "gamesPlayed": 13,
+          "wins": 6,
           "losses": 6,
           "ties": 1,
-          "winPercentage": "0.458"
+          "winPercentage": "0.500"
         },
         "stats": {
-          "points": 11,
-          "runsFor": 104,
-          "runsAgainst": 83,
-          "runDifferential": 21
+          "points": 13,
+          "runsFor": 112,
+          "runsAgainst": 89,
+          "runDifferential": 23
         }
       },
       {
@@ -254,7 +254,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-07-21T10:41:39.911Z",
+    "lastUpdated": "2026-07-21T12:27:19.781Z",
     "totalTeams": 14
   },
   "schedule": {
@@ -404,7 +404,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-21T10:41:39.951Z"
+        "lastUpdated": "2026-07-21T12:27:19.824Z"
       },
       "892634": {
         "teamCode": "892634",
@@ -555,7 +555,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-21T10:41:39.951Z"
+        "lastUpdated": "2026-07-21T12:27:19.825Z"
       },
       "892636": {
         "teamCode": "892636",
@@ -694,7 +694,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-21T10:41:39.952Z"
+        "lastUpdated": "2026-07-21T12:27:19.825Z"
       },
       "892637": {
         "teamCode": "892637",
@@ -821,7 +821,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-21T10:41:39.952Z"
+        "lastUpdated": "2026-07-21T12:27:19.825Z"
       },
       "892638": {
         "teamCode": "892638",
@@ -952,7 +952,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-21T10:41:39.952Z"
+        "lastUpdated": "2026-07-21T12:27:19.825Z"
       },
       "892639": {
         "teamCode": "892639",
@@ -1095,7 +1095,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-21T10:41:39.952Z"
+        "lastUpdated": "2026-07-21T12:27:19.825Z"
       },
       "892640": {
         "teamCode": "892640",
@@ -1172,8 +1172,12 @@
             "awayTeam": "Vaughan",
             "awayTeamCode": "892644",
             "location": "Chatfield — Vaughan",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 6,
+              "scoreText": "6-8"
+            }
           }
         ],
         "nextGames": [
@@ -1238,7 +1242,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-21T10:41:39.952Z"
+        "lastUpdated": "2026-07-21T12:27:19.825Z"
       },
       "892642": {
         "teamCode": "892642",
@@ -1377,7 +1381,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-21T10:41:39.952Z"
+        "lastUpdated": "2026-07-21T12:27:19.825Z"
       },
       "892643": {
         "teamCode": "892643",
@@ -1516,7 +1520,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-21T10:41:39.952Z"
+        "lastUpdated": "2026-07-21T12:27:19.825Z"
       },
       "892644": {
         "teamCode": "892644",
@@ -1597,8 +1601,12 @@
             "awayTeam": "Vaughan",
             "awayTeamCode": "892644",
             "location": "Chatfield — Vaughan",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 6,
+              "scoreText": "6-8"
+            }
           }
         ],
         "nextGames": [
@@ -1663,7 +1671,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-21T10:41:39.952Z"
+        "lastUpdated": "2026-07-21T12:27:19.825Z"
       },
       "892645": {
         "teamCode": "892645",
@@ -1814,7 +1822,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-21T10:41:39.952Z"
+        "lastUpdated": "2026-07-21T12:27:19.825Z"
       },
       "892646": {
         "teamCode": "892646",
@@ -1953,7 +1961,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-21T10:41:39.952Z"
+        "lastUpdated": "2026-07-21T12:27:19.825Z"
       },
       "892647": {
         "teamCode": "892647",
@@ -2104,7 +2112,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-21T10:41:39.952Z"
+        "lastUpdated": "2026-07-21T12:27:19.825Z"
       },
       "892648": {
         "teamCode": "892648",
@@ -2247,7 +2255,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-21T10:41:39.952Z"
+        "lastUpdated": "2026-07-21T12:27:19.825Z"
       }
     },
     "allGames": [
@@ -3972,8 +3980,12 @@
         "awayTeam": "Vaughan",
         "awayTeamCode": "892644",
         "location": "Chatfield — Vaughan",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 6,
+          "scoreText": "6-8"
+        }
       },
       {
         "date": "2026-07-20T22:30:00.000Z",
@@ -4414,8 +4426,12 @@
         "awayTeam": "Vaughan",
         "awayTeamCode": "892644",
         "location": "Chatfield — Vaughan",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 6,
+          "scoreText": "6-8"
+        }
       },
       {
         "date": "2026-07-19T22:30:00.000Z",
@@ -4656,14 +4672,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2026-07-21T10:41:39.952Z",
+    "lastUpdated": "2026-07-21T12:27:19.825Z",
     "totalGames": 147
   },
   "summary": {
     "totalTeams": 14,
     "totalGames": 147,
-    "completedGames": 94,
-    "upcomingGames": 53,
+    "completedGames": 95,
+    "upcomingGames": 52,
     "topTeam": {
       "team": "Royal York",
       "teamCode": "892633",
@@ -4680,6 +4696,6 @@
       "date": "Mon, Jun 29",
       "location": "North Hill — Diamond 2 — Bolton"
     },
-    "lastUpdated": "2026-07-21T10:41:40.476Z"
+    "lastUpdated": "2026-07-21T12:27:20.351Z"
   }
 }
