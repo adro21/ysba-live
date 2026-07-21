@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-07-21T17:58:02.929Z",
-  "totalDivisions": 7,
+  "lastUpdated": "2026-07-21T19:14:35.659Z",
+  "totalDivisions": 9,
   "divisions": {
     "8U": {
       "displayName": "8U",
@@ -26,6 +26,11 @@
           "key": "rep-tier-3",
           "teams": 9,
           "games": 135
+        },
+        {
+          "key": "select-all-tiers",
+          "teams": 14,
+          "games": 112
         }
       ]
     },
@@ -37,6 +42,11 @@
           "key": "rep-tier-3",
           "teams": 16,
           "games": 152
+        },
+        {
+          "key": "interlock-all-tiers",
+          "teams": 14,
+          "games": 147
         }
       ]
     },
@@ -53,6 +63,16 @@
           "key": "rep-tier-3",
           "teams": 13,
           "games": 200
+        },
+        {
+          "key": "select-all-tiers",
+          "teams": 11,
+          "games": 88
+        },
+        {
+          "key": "interlock-all-tiers",
+          "teams": 12,
+          "games": 106
         }
       ]
     },
@@ -85,6 +105,11 @@
           "key": "rep-tier-3",
           "teams": 11,
           "games": 173
+        },
+        {
+          "key": "select-all-tiers",
+          "teams": 15,
+          "games": 120
         }
       ]
     },
@@ -101,6 +126,28 @@
           "key": "rep-tier-3",
           "teams": 15,
           "games": 200
+        }
+      ]
+    },
+    "15U": {
+      "displayName": "15U",
+      "shortName": "15U",
+      "tiers": [
+        {
+          "key": "select-all-tiers",
+          "teams": 5,
+          "games": 40
+        }
+      ]
+    },
+    "18U": {
+      "displayName": "18U",
+      "shortName": "18U",
+      "tiers": [
+        {
+          "key": "rep-tier-3",
+          "teams": 11,
+          "games": 99
         }
       ]
     }
