@@ -2,7 +2,7 @@
   "standings": {
     "teams": [
       {
-        "position": 1,
+        "position": 2,
         "team": "Vaughan Vikings 8U A",
         "teamCode": "617170",
         "record": {
@@ -20,21 +20,21 @@
         }
       },
       {
-        "position": 2,
+        "position": 1,
         "team": "Richmond Hill Phoenix 8U A",
         "teamCode": "617845",
         "record": {
-          "gamesPlayed": 11,
-          "wins": 9,
+          "gamesPlayed": 12,
+          "wins": 10,
           "losses": 2,
           "ties": 0,
-          "winPercentage": "0.818"
+          "winPercentage": "0.833"
         },
         "stats": {
-          "points": 18,
-          "runsFor": 196,
-          "runsAgainst": 104,
-          "runDifferential": 92
+          "points": 20,
+          "runsFor": 210,
+          "runsAgainst": 107,
+          "runDifferential": 103
         }
       },
       {
@@ -42,35 +42,35 @@
         "team": "Newmarket Hawks 8U A",
         "teamCode": "617896",
         "record": {
-          "gamesPlayed": 12,
-          "wins": 7,
+          "gamesPlayed": 13,
+          "wins": 8,
           "losses": 3,
           "ties": 2,
+          "winPercentage": "0.692"
+        },
+        "stats": {
+          "points": 18,
+          "runsFor": 226,
+          "runsAgainst": 168,
+          "runDifferential": 58
+        }
+      },
+      {
+        "position": 4,
+        "team": "Barrie Baycats 8U A",
+        "teamCode": "612775",
+        "record": {
+          "gamesPlayed": 12,
+          "wins": 8,
+          "losses": 4,
+          "ties": 0,
           "winPercentage": "0.667"
         },
         "stats": {
           "points": 16,
-          "runsFor": 209,
-          "runsAgainst": 161,
-          "runDifferential": 48
-        }
-      },
-      {
-        "position": 5,
-        "team": "Barrie Baycats 8U A",
-        "teamCode": "612775",
-        "record": {
-          "gamesPlayed": 11,
-          "wins": 7,
-          "losses": 4,
-          "ties": 0,
-          "winPercentage": "0.636"
-        },
-        "stats": {
-          "points": 14,
-          "runsFor": 191,
-          "runsAgainst": 144,
-          "runDifferential": 47
+          "runsFor": 212,
+          "runsAgainst": 148,
+          "runDifferential": 64
         }
       },
       {
@@ -92,25 +92,25 @@
         }
       },
       {
-        "position": 4,
+        "position": 5,
         "team": "Markham Mariners 8U A",
         "teamCode": "617873",
         "record": {
-          "gamesPlayed": 12,
+          "gamesPlayed": 13,
           "wins": 7,
-          "losses": 5,
+          "losses": 6,
           "ties": 0,
-          "winPercentage": "0.583"
+          "winPercentage": "0.538"
         },
         "stats": {
           "points": 14,
-          "runsFor": 171,
-          "runsAgainst": 155,
-          "runDifferential": 16
+          "runsFor": 178,
+          "runsAgainst": 172,
+          "runDifferential": 6
         }
       },
       {
-        "position": 7,
+        "position": 8,
         "team": "Orillia 8U B",
         "teamCode": "618379",
         "record": {
@@ -128,21 +128,21 @@
         }
       },
       {
-        "position": 8,
+        "position": 7,
         "team": "TNT Thunder 8U A",
         "teamCode": "618056",
         "record": {
-          "gamesPlayed": 9,
+          "gamesPlayed": 10,
           "wins": 2,
-          "losses": 6,
+          "losses": 7,
           "ties": 1,
-          "winPercentage": "0.278"
+          "winPercentage": "0.250"
         },
         "stats": {
           "points": 5,
-          "runsFor": 118,
-          "runsAgainst": 149,
-          "runDifferential": -31
+          "runsFor": 121,
+          "runsAgainst": 163,
+          "runDifferential": -42
         }
       },
       {
@@ -168,21 +168,21 @@
         "team": "Caledon Nationals 8U A",
         "teamCode": "618474",
         "record": {
-          "gamesPlayed": 12,
+          "gamesPlayed": 13,
           "wins": 0,
-          "losses": 12,
+          "losses": 13,
           "ties": 0,
           "winPercentage": "0.000"
         },
         "stats": {
           "points": 0,
-          "runsFor": 81,
-          "runsAgainst": 270,
-          "runDifferential": -189
+          "runsFor": 85,
+          "runsAgainst": 291,
+          "runDifferential": -206
         }
       }
     ],
-    "lastUpdated": "2026-07-21T21:59:38.664Z",
+    "lastUpdated": "2026-07-21T23:00:52.733Z",
     "totalTeams": 10
   },
   "schedule": {
@@ -190,25 +190,9 @@
       "612775": {
         "teamCode": "612775",
         "totalGames": 15,
-        "playedGames": 11,
+        "playedGames": 12,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Mon, Jun 15",
-            "time": "6:30 PM",
-            "homeTeam": "Barrie Baycats 8U A",
-            "homeTeamCode": "612775",
-            "awayTeam": "Newmarket Hawks 8U A",
-            "awayTeamCode": "617896",
-            "location": "Barrie Sports Complex - Diamond 12",
-            "isCompleted": true,
-            "score": {
-              "home": 19,
-              "away": 17,
-              "scoreText": "17-19"
-            }
-          },
           {
             "date": null,
             "dateText": "Mon, Jun 22",
@@ -272,10 +256,26 @@
               "away": 11,
               "scoreText": "11-26"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, Jul 13",
+            "time": "6:30 PM",
+            "homeTeam": "Barrie Baycats 8U A",
+            "homeTeamCode": "612775",
+            "awayTeam": "Caledon Nationals 8U A",
+            "awayTeamCode": "618474",
+            "location": "Barrie Sports Complex - Diamond 12",
+            "isCompleted": true,
+            "score": {
+              "home": 21,
+              "away": 4,
+              "scoreText": "4-21"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-21T21:59:41.464Z"
+        "lastUpdated": "2026-07-21T23:00:56.765Z"
       },
       "617170": {
         "teamCode": "617170",
@@ -365,7 +365,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-21T21:59:41.464Z"
+        "lastUpdated": "2026-07-21T23:00:56.765Z"
       },
       "617210": {
         "teamCode": "617210",
@@ -455,30 +455,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-21T21:59:41.464Z"
+        "lastUpdated": "2026-07-21T23:00:56.765Z"
       },
       "617845": {
         "teamCode": "617845",
         "totalGames": 15,
-        "playedGames": 11,
+        "playedGames": 12,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sat, Jun 27",
-            "time": "11:00 AM",
-            "homeTeam": "Orillia 8U B",
-            "homeTeamCode": "618379",
-            "awayTeam": "Richmond Hill Phoenix 8U A",
-            "awayTeamCode": "617845",
-            "location": "Kitchener Park - K1",
-            "isCompleted": true,
-            "score": {
-              "home": 18,
-              "away": 26,
-              "scoreText": "26-18"
-            }
-          },
           {
             "date": null,
             "dateText": "Sun, Jun 28",
@@ -542,33 +526,33 @@
               "away": 12,
               "scoreText": "12-8"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, Jul 20",
+            "time": "6:00 PM",
+            "homeTeam": "Richmond Hill Phoenix 8U A",
+            "homeTeamCode": "617845",
+            "awayTeam": "TNT Thunder 8U A",
+            "awayTeamCode": "618056",
+            "location": "Richmond Green Sports Center - Diamond 3",
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 3,
+              "scoreText": "3-14"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-21T21:59:41.464Z"
+        "lastUpdated": "2026-07-21T23:00:56.765Z"
       },
       "617873": {
         "teamCode": "617873",
         "totalGames": 15,
-        "playedGames": 12,
+        "playedGames": 13,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Mon, Jun 29",
-            "time": "6:30 PM",
-            "homeTeam": "Markham Mariners 8U A",
-            "homeTeamCode": "617873",
-            "awayTeam": "Richmond Hill Phoenix 8U A",
-            "awayTeamCode": "617845",
-            "location": "Morgan Park",
-            "isCompleted": true,
-            "score": {
-              "home": 10,
-              "away": 18,
-              "scoreText": "18-10"
-            }
-          },
           {
             "date": null,
             "dateText": "Tue, Jun 30",
@@ -632,33 +616,33 @@
               "away": 29,
               "scoreText": "29-9"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, Jul 20",
+            "time": "6:00 PM",
+            "homeTeam": "Newmarket Hawks 8U A",
+            "homeTeamCode": "617896",
+            "awayTeam": "Markham Mariners 8U A",
+            "awayTeamCode": "617873",
+            "location": "Fairgrounds Park",
+            "isCompleted": true,
+            "score": {
+              "home": 17,
+              "away": 7,
+              "scoreText": "7-17"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-21T21:59:41.464Z"
+        "lastUpdated": "2026-07-21T23:00:56.765Z"
       },
       "617896": {
         "teamCode": "617896",
         "totalGames": 15,
-        "playedGames": 12,
+        "playedGames": 13,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sat, Jun 20",
-            "time": "11:00 AM",
-            "homeTeam": "Orillia 8U B",
-            "homeTeamCode": "618379",
-            "awayTeam": "Newmarket Hawks 8U A",
-            "awayTeamCode": "617896",
-            "location": "Kitchener Park - K1",
-            "isCompleted": true,
-            "score": {
-              "home": 11,
-              "away": 19,
-              "scoreText": "19-11"
-            }
-          },
           {
             "date": null,
             "dateText": "Sat, Jun 20",
@@ -722,33 +706,33 @@
               "away": 12,
               "scoreText": "12-8"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, Jul 20",
+            "time": "6:00 PM",
+            "homeTeam": "Newmarket Hawks 8U A",
+            "homeTeamCode": "617896",
+            "awayTeam": "Markham Mariners 8U A",
+            "awayTeamCode": "617873",
+            "location": "Fairgrounds Park",
+            "isCompleted": true,
+            "score": {
+              "home": 17,
+              "away": 7,
+              "scoreText": "7-17"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-21T21:59:41.464Z"
+        "lastUpdated": "2026-07-21T23:00:56.765Z"
       },
       "618056": {
         "teamCode": "618056",
         "totalGames": 15,
-        "playedGames": 9,
+        "playedGames": 10,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Mon, Jun 8",
-            "time": "6:00 PM",
-            "homeTeam": "TNT Thunder 8U A",
-            "homeTeamCode": "618056",
-            "awayTeam": "Newmarket Hawks 8U A",
-            "awayTeamCode": "617896",
-            "location": "McLean Diamond",
-            "isCompleted": true,
-            "score": {
-              "home": 13,
-              "away": 21,
-              "scoreText": "21-13"
-            }
-          },
           {
             "date": null,
             "dateText": "Sun, Jun 14",
@@ -812,10 +796,26 @@
               "away": 14,
               "scoreText": "14-15"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, Jul 20",
+            "time": "6:00 PM",
+            "homeTeam": "Richmond Hill Phoenix 8U A",
+            "homeTeamCode": "617845",
+            "awayTeam": "TNT Thunder 8U A",
+            "awayTeamCode": "618056",
+            "location": "Richmond Green Sports Center - Diamond 3",
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 3,
+              "scoreText": "3-14"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-21T21:59:41.464Z"
+        "lastUpdated": "2026-07-21T23:00:56.765Z"
       },
       "618379": {
         "teamCode": "618379",
@@ -905,30 +905,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-21T21:59:41.464Z"
+        "lastUpdated": "2026-07-21T23:00:56.765Z"
       },
       "618474": {
         "teamCode": "618474",
         "totalGames": 15,
-        "playedGames": 12,
+        "playedGames": 13,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sun, Jun 28",
-            "time": "5:00 PM",
-            "homeTeam": "Caledon Nationals 8U A",
-            "homeTeamCode": "618474",
-            "awayTeam": "Orillia 8U B",
-            "awayTeamCode": "618379",
-            "location": "Jays Care (Bolton Camp)",
-            "isCompleted": true,
-            "score": {
-              "home": 4,
-              "away": 27,
-              "scoreText": "27-4"
-            }
-          },
           {
             "date": null,
             "dateText": "Tue, Jun 30",
@@ -992,10 +976,26 @@
               "away": 29,
               "scoreText": "29-9"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, Jul 13",
+            "time": "6:30 PM",
+            "homeTeam": "Barrie Baycats 8U A",
+            "homeTeamCode": "612775",
+            "awayTeam": "Caledon Nationals 8U A",
+            "awayTeamCode": "618474",
+            "location": "Barrie Sports Complex - Diamond 12",
+            "isCompleted": true,
+            "score": {
+              "home": 21,
+              "away": 4,
+              "scoreText": "4-21"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-21T21:59:41.464Z"
+        "lastUpdated": "2026-07-21T23:00:56.765Z"
       },
       "625730": {
         "teamCode": "625730",
@@ -1085,7 +1085,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-21T21:59:41.464Z"
+        "lastUpdated": "2026-07-21T23:00:56.765Z"
       }
     },
     "allGames": [
@@ -1978,8 +1978,12 @@
         "awayTeam": "Caledon Nationals 8U A",
         "awayTeamCode": "618474",
         "location": "Barrie Sports Complex - Diamond 12",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 21,
+          "away": 4,
+          "scoreText": "4-21"
+        }
       },
       {
         "date": null,
@@ -2026,8 +2030,12 @@
         "awayTeam": "Markham Mariners 8U A",
         "awayTeamCode": "617873",
         "location": "Fairgrounds Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 17,
+          "away": 7,
+          "scoreText": "7-17"
+        }
       },
       {
         "date": null,
@@ -2038,8 +2046,12 @@
         "awayTeam": "TNT Thunder 8U A",
         "awayTeamCode": "618056",
         "location": "Richmond Green Sports Center - Diamond 3",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 3,
+          "scoreText": "3-14"
+        }
       },
       {
         "date": null,
@@ -2373,14 +2385,14 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-07-21T21:59:41.464Z",
+    "lastUpdated": "2026-07-21T23:00:56.765Z",
     "totalGames": 75
   },
   "summary": {
     "totalTeams": 10,
     "totalGames": 75,
-    "completedGames": 55,
-    "upcomingGames": 20,
+    "completedGames": 58,
+    "upcomingGames": 17,
     "topTeam": {
       "team": "Vaughan Vikings 8U A",
       "teamCode": "617170",
@@ -2397,6 +2409,6 @@
       "date": "Sat, Jun 27",
       "location": "Kitchener Park - K1"
     },
-    "lastUpdated": "2026-07-21T22:05:51.731Z"
+    "lastUpdated": "2026-07-21T23:07:06.950Z"
   }
 }
