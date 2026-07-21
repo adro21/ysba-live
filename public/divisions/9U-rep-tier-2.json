@@ -24,17 +24,17 @@
         "team": "Markham Mariners 9U AA",
         "teamCode": "617874",
         "record": {
-          "gamesPlayed": 11,
+          "gamesPlayed": 12,
           "wins": 9,
-          "losses": 2,
+          "losses": 3,
           "ties": 0,
-          "winPercentage": "0.818"
+          "winPercentage": "0.750"
         },
         "stats": {
           "points": 18,
-          "runsFor": 144,
-          "runsAgainst": 52,
-          "runDifferential": 92
+          "runsFor": 146,
+          "runsAgainst": 62,
+          "runDifferential": 84
         }
       },
       {
@@ -42,21 +42,21 @@
         "team": "Caledon Nationals 9U AA",
         "teamCode": "618472",
         "record": {
-          "gamesPlayed": 16,
-          "wins": 10,
+          "gamesPlayed": 18,
+          "wins": 12,
           "losses": 5,
           "ties": 1,
-          "winPercentage": "0.656"
+          "winPercentage": "0.694"
         },
         "stats": {
-          "points": 21,
-          "runsFor": 158,
-          "runsAgainst": 111,
-          "runDifferential": 47
+          "points": 25,
+          "runsFor": 180,
+          "runsAgainst": 117,
+          "runDifferential": 63
         }
       },
       {
-        "position": 4,
+        "position": 5,
         "team": "Barrie Baycats 9U AA",
         "teamCode": "612776",
         "record": {
@@ -74,39 +74,39 @@
         }
       },
       {
-        "position": 5,
-        "team": "Vaughan Vikings 9U AA",
-        "teamCode": "617171",
+        "position": 4,
+        "team": "Stouffville 9U AA",
+        "teamCode": "617212",
         "record": {
-          "gamesPlayed": 10,
-          "wins": 3,
-          "losses": 7,
-          "ties": 0,
-          "winPercentage": "0.300"
+          "gamesPlayed": 16,
+          "wins": 4,
+          "losses": 11,
+          "ties": 1,
+          "winPercentage": "0.281"
         },
         "stats": {
-          "points": 6,
-          "runsFor": 85,
-          "runsAgainst": 126,
-          "runDifferential": -41
+          "points": 9,
+          "runsFor": 145,
+          "runsAgainst": 252,
+          "runDifferential": -107
         }
       },
       {
         "position": 6,
-        "team": "Stouffville 9U AA",
-        "teamCode": "617212",
+        "team": "Vaughan Vikings 9U AA",
+        "teamCode": "617171",
         "record": {
-          "gamesPlayed": 14,
-          "wins": 2,
-          "losses": 11,
-          "ties": 1,
-          "winPercentage": "0.179"
+          "gamesPlayed": 11,
+          "wins": 3,
+          "losses": 8,
+          "ties": 0,
+          "winPercentage": "0.273"
         },
         "stats": {
-          "points": 5,
-          "runsFor": 126,
-          "runsAgainst": 235,
-          "runDifferential": -109
+          "points": 6,
+          "runsFor": 91,
+          "runsAgainst": 133,
+          "runDifferential": -42
         }
       },
       {
@@ -114,21 +114,21 @@
         "team": "Aurora-King Jays 9U AA",
         "teamCode": "617967",
         "record": {
-          "gamesPlayed": 12,
+          "gamesPlayed": 14,
           "wins": 1,
-          "losses": 11,
+          "losses": 13,
           "ties": 0,
-          "winPercentage": "0.083"
+          "winPercentage": "0.071"
         },
         "stats": {
           "points": 2,
-          "runsFor": 86,
-          "runsAgainst": 180,
-          "runDifferential": -94
+          "runsFor": 101,
+          "runsAgainst": 204,
+          "runDifferential": -103
         }
       }
     ],
-    "lastUpdated": "2026-07-21T16:18:47.551Z",
+    "lastUpdated": "2026-07-21T17:51:59.826Z",
     "totalTeams": 7
   },
   "schedule": {
@@ -221,7 +221,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-21T16:18:52.082Z"
+        "lastUpdated": "2026-07-21T17:52:04.034Z"
       },
       "612777": {
         "teamCode": "612777",
@@ -311,30 +311,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-21T16:18:52.082Z"
+        "lastUpdated": "2026-07-21T17:52:04.034Z"
       },
       "617171": {
         "teamCode": "617171",
         "totalGames": 18,
-        "playedGames": 10,
+        "playedGames": 11,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Mon, Jun 22",
-            "time": "6:30 PM",
-            "homeTeam": "Caledon Nationals 9U AA",
-            "homeTeamCode": "618472",
-            "awayTeam": "Vaughan Vikings 9U AA",
-            "awayTeamCode": "617171",
-            "location": "Jays Care Diamond (Bolton Camp)",
-            "isCompleted": true,
-            "score": {
-              "home": 8,
-              "away": 5,
-              "scoreText": "5-8"
-            }
-          },
           {
             "date": null,
             "dateText": "Tue, Jun 23",
@@ -398,49 +382,33 @@
               "away": 12,
               "scoreText": "12-13"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sun, Jul 19",
+            "time": "6:00 PM",
+            "homeTeam": "Stouffville 9U AA",
+            "homeTeamCode": "617212",
+            "awayTeam": "Vaughan Vikings 9U AA",
+            "awayTeamCode": "617171",
+            "location": "Bethesda Sports Fields Diamond #3",
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 6,
+              "scoreText": "6-7"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-21T16:18:52.082Z"
+        "lastUpdated": "2026-07-21T17:52:04.034Z"
       },
       "617212": {
         "teamCode": "617212",
         "totalGames": 18,
-        "playedGames": 14,
+        "playedGames": 16,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Thu, Jun 11",
-            "time": "6:30 PM",
-            "homeTeam": "Barrie Baycats 9U AA",
-            "homeTeamCode": "612776",
-            "awayTeam": "Stouffville 9U AA",
-            "awayTeamCode": "617212",
-            "location": "Barrie Sports Complex - Pinwheel #13",
-            "isCompleted": true,
-            "score": {
-              "home": 21,
-              "away": 10,
-              "scoreText": "10-21"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Tue, Jun 23",
-            "time": "6:00 PM",
-            "homeTeam": "Stouffville 9U AA",
-            "homeTeamCode": "617212",
-            "awayTeam": "Aurora-King Jays 9U AA",
-            "awayTeamCode": "617967",
-            "location": "Bethesda Sports Fields Diamond #3",
-            "isCompleted": true,
-            "score": {
-              "home": 17,
-              "away": 23,
-              "scoreText": "23-17"
-            }
-          },
           {
             "date": null,
             "dateText": "Tue, Jun 30",
@@ -488,10 +456,42 @@
               "away": 18,
               "scoreText": "18-12"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Tue, Jul 14",
+            "time": "6:00 PM",
+            "homeTeam": "Stouffville 9U AA",
+            "homeTeamCode": "617212",
+            "awayTeam": "Aurora-King Jays 9U AA",
+            "awayTeamCode": "617967",
+            "location": "Bethesda Sports Fields Diamond #3",
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 11,
+              "scoreText": "11-12"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sun, Jul 19",
+            "time": "6:00 PM",
+            "homeTeam": "Stouffville 9U AA",
+            "homeTeamCode": "617212",
+            "awayTeam": "Vaughan Vikings 9U AA",
+            "awayTeamCode": "617171",
+            "location": "Bethesda Sports Fields Diamond #3",
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 6,
+              "scoreText": "6-7"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-21T16:18:52.082Z"
+        "lastUpdated": "2026-07-21T17:52:04.034Z"
       },
       "617846": {
         "teamCode": "617846",
@@ -581,30 +581,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-21T16:18:52.082Z"
+        "lastUpdated": "2026-07-21T17:52:04.034Z"
       },
       "617874": {
         "teamCode": "617874",
         "totalGames": 18,
-        "playedGames": 11,
+        "playedGames": 12,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Mon, Jun 15",
-            "time": "6:30 PM",
-            "homeTeam": "Caledon Nationals 9U AA",
-            "homeTeamCode": "618472",
-            "awayTeam": "Markham Mariners 9U AA",
-            "awayTeamCode": "617874",
-            "location": "Jays Care Diamond (Bolton Camp)",
-            "isCompleted": true,
-            "score": {
-              "home": 6,
-              "away": 4,
-              "scoreText": "4-6"
-            }
-          },
           {
             "date": null,
             "dateText": "Tue, Jun 16",
@@ -668,10 +652,26 @@
               "away": 1,
               "scoreText": "1-16"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Tue, Jul 14",
+            "time": "6:30 PM",
+            "homeTeam": "Markham Mariners 9U AA",
+            "homeTeamCode": "617874",
+            "awayTeam": "Caledon Nationals 9U AA",
+            "awayTeamCode": "618472",
+            "location": "Morgan Park",
+            "isCompleted": true,
+            "score": {
+              "home": 2,
+              "away": 10,
+              "scoreText": "10-2"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-21T16:18:52.082Z"
+        "lastUpdated": "2026-07-21T17:52:04.034Z"
       },
       "617898": {
         "teamCode": "617898",
@@ -761,7 +761,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-21T16:18:52.082Z"
+        "lastUpdated": "2026-07-21T17:52:04.034Z"
       },
       "617899": {
         "teamCode": "617899",
@@ -851,7 +851,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-21T16:18:52.082Z"
+        "lastUpdated": "2026-07-21T17:52:04.034Z"
       },
       "617943": {
         "teamCode": "617943",
@@ -941,46 +941,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-21T16:18:52.082Z"
+        "lastUpdated": "2026-07-21T17:52:04.034Z"
       },
       "617967": {
         "teamCode": "617967",
         "totalGames": 18,
-        "playedGames": 12,
+        "playedGames": 14,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sun, Jun 28",
-            "time": "6:30 PM",
-            "homeTeam": "Aurora-King Jays 9U AA",
-            "homeTeamCode": "617967",
-            "awayTeam": "Newmarket Hawks 9U AA",
-            "awayTeamCode": "617899",
-            "location": "Town Park - Aurora (Southwest Corner)",
-            "isCompleted": true,
-            "score": {
-              "home": 3,
-              "away": 14,
-              "scoreText": "14-3"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Mon, Jun 29",
-            "time": "6:30 PM",
-            "homeTeam": "Caledon Nationals 9U AA",
-            "homeTeamCode": "618472",
-            "awayTeam": "Aurora-King Jays 9U AA",
-            "awayTeamCode": "617967",
-            "location": "Jays Care Diamond (Bolton Camp)",
-            "isCompleted": true,
-            "score": {
-              "home": 7,
-              "away": 3,
-              "scoreText": "3-7"
-            }
-          },
           {
             "date": null,
             "dateText": "Tue, Jun 30",
@@ -1028,10 +996,42 @@
               "away": 17,
               "scoreText": "17-2"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Tue, Jul 14",
+            "time": "6:00 PM",
+            "homeTeam": "Stouffville 9U AA",
+            "homeTeamCode": "617212",
+            "awayTeam": "Aurora-King Jays 9U AA",
+            "awayTeamCode": "617967",
+            "location": "Bethesda Sports Fields Diamond #3",
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 11,
+              "scoreText": "11-12"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, Jul 20",
+            "time": "6:30 PM",
+            "homeTeam": "Caledon Nationals 9U AA",
+            "homeTeamCode": "618472",
+            "awayTeam": "Aurora-King Jays 9U AA",
+            "awayTeamCode": "617967",
+            "location": "Jays Care Diamond (Bolton Camp)",
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 4,
+              "scoreText": "4-12"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-21T16:18:52.082Z"
+        "lastUpdated": "2026-07-21T17:52:04.034Z"
       },
       "617968": {
         "teamCode": "617968",
@@ -1121,7 +1121,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-21T16:18:52.082Z"
+        "lastUpdated": "2026-07-21T17:52:04.034Z"
       },
       "618018": {
         "teamCode": "618018",
@@ -1211,7 +1211,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-21T16:18:52.082Z"
+        "lastUpdated": "2026-07-21T17:52:04.034Z"
       },
       "618380": {
         "teamCode": "618380",
@@ -1301,46 +1301,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-21T16:18:52.082Z"
+        "lastUpdated": "2026-07-21T17:52:04.034Z"
       },
       "618472": {
         "teamCode": "618472",
         "totalGames": 18,
-        "playedGames": 16,
+        "playedGames": 18,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Mon, Jun 29",
-            "time": "6:30 PM",
-            "homeTeam": "Caledon Nationals 9U AA",
-            "homeTeamCode": "618472",
-            "awayTeam": "Aurora-King Jays 9U AA",
-            "awayTeamCode": "617967",
-            "location": "Jays Care Diamond (Bolton Camp)",
-            "isCompleted": true,
-            "score": {
-              "home": 7,
-              "away": 3,
-              "scoreText": "3-7"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Tue, Jun 30",
-            "time": "6:00 PM",
-            "homeTeam": "Vaughan Vikings 9U AA",
-            "homeTeamCode": "617171",
-            "awayTeam": "Caledon Nationals 9U AA",
-            "awayTeamCode": "618472",
-            "location": "Maple Community Centre",
-            "isCompleted": true,
-            "score": {
-              "home": 11,
-              "away": 16,
-              "scoreText": "16-11"
-            }
-          },
           {
             "date": null,
             "dateText": "Mon, Jul 6",
@@ -1388,10 +1356,42 @@
               "away": 4,
               "scoreText": "4-2"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Tue, Jul 14",
+            "time": "6:30 PM",
+            "homeTeam": "Markham Mariners 9U AA",
+            "homeTeamCode": "617874",
+            "awayTeam": "Caledon Nationals 9U AA",
+            "awayTeamCode": "618472",
+            "location": "Morgan Park",
+            "isCompleted": true,
+            "score": {
+              "home": 2,
+              "away": 10,
+              "scoreText": "10-2"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, Jul 20",
+            "time": "6:30 PM",
+            "homeTeam": "Caledon Nationals 9U AA",
+            "homeTeamCode": "618472",
+            "awayTeam": "Aurora-King Jays 9U AA",
+            "awayTeamCode": "617967",
+            "location": "Jays Care Diamond (Bolton Camp)",
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 4,
+              "scoreText": "4-12"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-21T16:18:52.082Z"
+        "lastUpdated": "2026-07-21T17:52:04.034Z"
       },
       "625731": {
         "teamCode": "625731",
@@ -1481,7 +1481,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-21T16:18:52.082Z"
+        "lastUpdated": "2026-07-21T17:52:04.034Z"
       },
       "628932": {
         "teamCode": "628932",
@@ -1571,7 +1571,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-21T16:18:52.082Z"
+        "lastUpdated": "2026-07-21T17:52:04.034Z"
       }
     },
     "allGames": [
@@ -2155,22 +2155,6 @@
         "date": null,
         "dateText": "Fri, Jun 5",
         "time": "6:30 PM",
-        "homeTeam": "Aurora-King Jays 9U A",
-        "homeTeamCode": "617968",
-        "awayTeam": "Barrie Baycats 9U A",
-        "awayTeamCode": "612777",
-        "location": "Town Park Aurora",
-        "isCompleted": true,
-        "score": {
-          "home": 4,
-          "away": 24,
-          "scoreText": "24-4"
-        }
-      },
-      {
-        "date": null,
-        "dateText": "Fri, Jun 5",
-        "time": "6:30 PM",
         "homeTeam": "Newmarket Hawks 9U AA",
         "homeTeamCode": "617899",
         "awayTeam": "Stouffville 9U AA",
@@ -2185,18 +2169,18 @@
       },
       {
         "date": null,
-        "dateText": "Sat, Jun 6",
-        "time": "11:00 AM",
-        "homeTeam": "Muskoka Hornets 9U A",
-        "homeTeamCode": "628932",
-        "awayTeam": "Georgina Bulldogs 9U B",
-        "awayTeamCode": "625731",
-        "location": "Mc-Culley Robertson Sports Complex",
+        "dateText": "Fri, Jun 5",
+        "time": "6:30 PM",
+        "homeTeam": "Aurora-King Jays 9U A",
+        "homeTeamCode": "617968",
+        "awayTeam": "Barrie Baycats 9U A",
+        "awayTeamCode": "612777",
+        "location": "Town Park Aurora",
         "isCompleted": true,
         "score": {
-          "home": 19,
-          "away": 18,
-          "scoreText": "18-19"
+          "home": 4,
+          "away": 24,
+          "scoreText": "24-4"
         }
       },
       {
@@ -2213,6 +2197,22 @@
           "home": 16,
           "away": 14,
           "scoreText": "14-16"
+        }
+      },
+      {
+        "date": null,
+        "dateText": "Sat, Jun 6",
+        "time": "11:00 AM",
+        "homeTeam": "Muskoka Hornets 9U A",
+        "homeTeamCode": "628932",
+        "awayTeam": "Georgina Bulldogs 9U B",
+        "awayTeamCode": "625731",
+        "location": "Mc-Culley Robertson Sports Complex",
+        "isCompleted": true,
+        "score": {
+          "home": 19,
+          "away": 18,
+          "scoreText": "18-19"
         }
       },
       {
@@ -2499,18 +2499,6 @@
         "date": null,
         "dateText": "Tue, Jun 16",
         "time": "6:00 PM",
-        "homeTeam": "Stouffville 9U AA",
-        "homeTeamCode": "617212",
-        "awayTeam": "Vaughan Vikings 9U AA",
-        "awayTeamCode": "617171",
-        "location": "Bethesda Sports Fields Diamond #3",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": null,
-        "dateText": "Tue, Jun 16",
-        "time": "6:00 PM",
         "homeTeam": "Richmond Hill Phoenix 9U A",
         "homeTeamCode": "617846",
         "awayTeam": "Newmarket Hawks 9U A",
@@ -2683,22 +2671,6 @@
         "date": null,
         "dateText": "Fri, Jun 26",
         "time": "6:30 PM",
-        "homeTeam": "Aurora-King Jays 9U A",
-        "homeTeamCode": "617968",
-        "awayTeam": "Bradford Tigers 9U A",
-        "awayTeamCode": "617943",
-        "location": "Town Park Aurora",
-        "isCompleted": true,
-        "score": {
-          "home": 13,
-          "away": 23,
-          "scoreText": "23-13"
-        }
-      },
-      {
-        "date": null,
-        "dateText": "Fri, Jun 26",
-        "time": "6:30 PM",
         "homeTeam": "Newmarket Hawks 9U AA",
         "homeTeamCode": "617899",
         "awayTeam": "Vaughan Vikings 9U AA",
@@ -2709,6 +2681,22 @@
           "home": 16,
           "away": 6,
           "scoreText": "6-16"
+        }
+      },
+      {
+        "date": null,
+        "dateText": "Fri, Jun 26",
+        "time": "6:30 PM",
+        "homeTeam": "Aurora-King Jays 9U A",
+        "homeTeamCode": "617968",
+        "awayTeam": "Bradford Tigers 9U A",
+        "awayTeamCode": "617943",
+        "location": "Town Park Aurora",
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 23,
+          "scoreText": "23-13"
         }
       },
       {
@@ -2795,6 +2783,22 @@
         "date": null,
         "dateText": "Tue, Jun 30",
         "time": "6:00 PM",
+        "homeTeam": "Vaughan Vikings 9U AA",
+        "homeTeamCode": "617171",
+        "awayTeam": "Caledon Nationals 9U AA",
+        "awayTeamCode": "618472",
+        "location": "Maple Community Centre",
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 16,
+          "scoreText": "16-11"
+        }
+      },
+      {
+        "date": null,
+        "dateText": "Tue, Jun 30",
+        "time": "6:00 PM",
         "homeTeam": "Stouffville 9U AA",
         "homeTeamCode": "617212",
         "awayTeam": "Newmarket Hawks 9U AA",
@@ -2810,18 +2814,14 @@
       {
         "date": null,
         "dateText": "Tue, Jun 30",
-        "time": "6:00 PM",
-        "homeTeam": "Vaughan Vikings 9U AA",
-        "homeTeamCode": "617171",
-        "awayTeam": "Caledon Nationals 9U AA",
-        "awayTeamCode": "618472",
-        "location": "Maple Community Centre",
-        "isCompleted": true,
-        "score": {
-          "home": 11,
-          "away": 16,
-          "scoreText": "16-11"
-        }
+        "time": "6:30 PM",
+        "homeTeam": "Bradford Tigers 9U A",
+        "homeTeamCode": "617943",
+        "awayTeam": "Barrie Baycats 9U A",
+        "awayTeamCode": "612777",
+        "location": "Magani 3",
+        "isCompleted": false,
+        "score": null
       },
       {
         "date": null,
@@ -2838,18 +2838,6 @@
           "away": 4,
           "scoreText": "4-12"
         }
-      },
-      {
-        "date": null,
-        "dateText": "Tue, Jun 30",
-        "time": "6:30 PM",
-        "homeTeam": "Bradford Tigers 9U A",
-        "homeTeamCode": "617943",
-        "awayTeam": "Barrie Baycats 9U A",
-        "awayTeamCode": "612777",
-        "location": "Magani 3",
-        "isCompleted": false,
-        "score": null
       },
       {
         "date": null,
@@ -2919,16 +2907,16 @@
         "date": null,
         "dateText": "Tue, Jul 7",
         "time": "6:00 PM",
-        "homeTeam": "Vaughan Vikings 9U AA",
-        "homeTeamCode": "617171",
-        "awayTeam": "Aurora-King Jays 9U AA",
-        "awayTeamCode": "617967",
-        "location": "Maple Community Centre",
+        "homeTeam": "Bradford Tigers 9U A",
+        "homeTeamCode": "617943",
+        "awayTeam": "Richmond Hill Phoenix 9U A",
+        "awayTeamCode": "617846",
+        "location": "Magani 3",
         "isCompleted": true,
         "score": {
-          "home": 13,
-          "away": 12,
-          "scoreText": "12-13"
+          "home": 12,
+          "away": 8,
+          "scoreText": "8-12"
         }
       },
       {
@@ -2951,16 +2939,16 @@
         "date": null,
         "dateText": "Tue, Jul 7",
         "time": "6:00 PM",
-        "homeTeam": "Bradford Tigers 9U A",
-        "homeTeamCode": "617943",
-        "awayTeam": "Richmond Hill Phoenix 9U A",
-        "awayTeamCode": "617846",
-        "location": "Magani 3",
+        "homeTeam": "Vaughan Vikings 9U AA",
+        "homeTeamCode": "617171",
+        "awayTeam": "Aurora-King Jays 9U AA",
+        "awayTeamCode": "617967",
+        "location": "Maple Community Centre",
         "isCompleted": true,
         "score": {
-          "home": 12,
-          "away": 8,
-          "scoreText": "8-12"
+          "home": 13,
+          "away": 12,
+          "scoreText": "12-13"
         }
       },
       {
@@ -3013,30 +3001,6 @@
       },
       {
         "date": null,
-        "dateText": "Thu, Jul 9",
-        "time": "6:30 PM",
-        "homeTeam": "Barrie Baycats 9U AA",
-        "homeTeamCode": "612776",
-        "awayTeam": "Aurora-King Jays 9U AA",
-        "awayTeamCode": "617967",
-        "location": "Barrie Sports Complex - Pinwheel #13",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": null,
-        "dateText": "Fri, Jul 10",
-        "time": "6:30 PM",
-        "homeTeam": "Aurora-King Jays 9U A",
-        "homeTeamCode": "617968",
-        "awayTeam": "Newmarket Hawks 9U A",
-        "awayTeamCode": "617898",
-        "location": "Town Park Aurora",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": null,
         "dateText": "Fri, Jul 10",
         "time": "6:30 PM",
         "homeTeam": "Newmarket Hawks 9U AA",
@@ -3050,6 +3014,18 @@
           "away": 5,
           "scoreText": "5-6"
         }
+      },
+      {
+        "date": null,
+        "dateText": "Fri, Jul 10",
+        "time": "6:30 PM",
+        "homeTeam": "Aurora-King Jays 9U A",
+        "homeTeamCode": "617968",
+        "awayTeam": "Newmarket Hawks 9U A",
+        "awayTeamCode": "617898",
+        "location": "Town Park Aurora",
+        "isCompleted": false,
+        "score": null
       },
       {
         "date": null,
@@ -3168,8 +3144,12 @@
         "awayTeam": "Aurora-King Jays 9U AA",
         "awayTeamCode": "617967",
         "location": "Bethesda Sports Fields Diamond #3",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 11,
+          "scoreText": "11-12"
+        }
       },
       {
         "date": null,
@@ -3180,8 +3160,12 @@
         "awayTeam": "Caledon Nationals 9U AA",
         "awayTeamCode": "618472",
         "location": "Morgan Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 2,
+          "away": 10,
+          "scoreText": "10-2"
+        }
       },
       {
         "date": null,
@@ -3289,6 +3273,22 @@
       },
       {
         "date": null,
+        "dateText": "Sun, Jul 19",
+        "time": "6:00 PM",
+        "homeTeam": "Stouffville 9U AA",
+        "homeTeamCode": "617212",
+        "awayTeam": "Vaughan Vikings 9U AA",
+        "awayTeamCode": "617171",
+        "location": "Bethesda Sports Fields Diamond #3",
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 6,
+          "scoreText": "6-7"
+        }
+      },
+      {
+        "date": null,
         "dateText": "Mon, Jul 20",
         "time": "6:30 PM",
         "homeTeam": "Caledon Nationals 9U AA",
@@ -3296,6 +3296,22 @@
         "awayTeam": "Aurora-King Jays 9U AA",
         "awayTeamCode": "617967",
         "location": "Jays Care Diamond (Bolton Camp)",
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 4,
+          "scoreText": "4-12"
+        }
+      },
+      {
+        "date": null,
+        "dateText": "Tue, Jul 21",
+        "time": "6:00 PM",
+        "homeTeam": "Bradford Tigers 9U A",
+        "homeTeamCode": "617943",
+        "awayTeam": "Newmarket Hawks 9U A",
+        "awayTeamCode": "617898",
+        "location": "Magani 3",
         "isCompleted": false,
         "score": null
       },
@@ -3308,18 +3324,6 @@
         "awayTeam": "Barrie Baycats 9U A",
         "awayTeamCode": "612777",
         "location": "Richmond Green #3",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": null,
-        "dateText": "Tue, Jul 21",
-        "time": "6:00 PM",
-        "homeTeam": "Bradford Tigers 9U A",
-        "homeTeamCode": "617943",
-        "awayTeam": "Newmarket Hawks 9U A",
-        "awayTeamCode": "617898",
-        "location": "Magani 3",
         "isCompleted": false,
         "score": null
       },
@@ -3386,6 +3390,18 @@
       {
         "date": null,
         "dateText": "Sun, Jul 26",
+        "time": "4:00 PM",
+        "homeTeam": "Barrie Baycats 9U AA",
+        "homeTeamCode": "612776",
+        "awayTeam": "Aurora-King Jays 9U AA",
+        "awayTeamCode": "617967",
+        "location": "Barrie Sports Complex - Pinwheel #13",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Sun, Jul 26",
         "time": "6:30 PM",
         "homeTeam": "Aurora-King Jays 9U AA",
         "homeTeamCode": "617967",
@@ -3411,18 +3427,6 @@
         "date": null,
         "dateText": "Tue, Jul 28",
         "time": "6:30 PM",
-        "homeTeam": "Barrie Baycats 9U A",
-        "homeTeamCode": "612777",
-        "awayTeam": "Georgina Bulldogs 9U B",
-        "awayTeamCode": "625731",
-        "location": "Barrie Sports Complex",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": null,
-        "dateText": "Tue, Jul 28",
-        "time": "6:30 PM",
         "homeTeam": "Markham Mariners 9U AA",
         "homeTeamCode": "617874",
         "awayTeam": "Aurora-King Jays 9U AA",
@@ -3433,13 +3437,13 @@
       },
       {
         "date": null,
-        "dateText": "Thu, Jul 30",
-        "time": "6:00 PM",
-        "homeTeam": "Newmarket Hawks 9U A",
-        "homeTeamCode": "617898",
-        "awayTeam": "Aurora-King Jays 9U A",
-        "awayTeamCode": "617968",
-        "location": "Fairgrounds Park, Diamond #2",
+        "dateText": "Tue, Jul 28",
+        "time": "6:30 PM",
+        "homeTeam": "Barrie Baycats 9U A",
+        "homeTeamCode": "612777",
+        "awayTeam": "Georgina Bulldogs 9U B",
+        "awayTeamCode": "625731",
+        "location": "Barrie Sports Complex",
         "isCompleted": false,
         "score": null
       },
@@ -3452,6 +3456,18 @@
         "awayTeam": "Bradford Tigers 9U A",
         "awayTeamCode": "617943",
         "location": "Alton",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": null,
+        "dateText": "Thu, Jul 30",
+        "time": "6:00 PM",
+        "homeTeam": "Newmarket Hawks 9U A",
+        "homeTeamCode": "617898",
+        "awayTeam": "Aurora-King Jays 9U A",
+        "awayTeamCode": "617968",
+        "location": "Fairgrounds Park, Diamond #2",
         "isCompleted": false,
         "score": null
       },
@@ -3751,14 +3767,14 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-07-21T16:18:52.082Z",
+    "lastUpdated": "2026-07-21T17:52:04.034Z",
     "totalGames": 135
   },
   "summary": {
     "totalTeams": 7,
     "totalGames": 135,
-    "completedGames": 98,
-    "upcomingGames": 37,
+    "completedGames": 102,
+    "upcomingGames": 33,
     "topTeam": {
       "team": "Newmarket Hawks 9U AA",
       "teamCode": "617899",
@@ -3775,6 +3791,6 @@
       "date": "Sat, Jun 6",
       "location": "Mc-Culley Robertson Sports Complex"
     },
-    "lastUpdated": "2026-07-21T16:24:21.434Z"
+    "lastUpdated": "2026-07-21T17:58:02.929Z"
   }
 }
