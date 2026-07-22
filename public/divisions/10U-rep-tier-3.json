@@ -150,17 +150,17 @@
         "team": "Collingwood Jays 10U A",
         "teamCode": "618005",
         "record": {
-          "gamesPlayed": 14,
-          "wins": 6,
+          "gamesPlayed": 15,
+          "wins": 7,
           "losses": 8,
           "ties": 0,
-          "winPercentage": "0.429"
+          "winPercentage": "0.467"
         },
         "stats": {
-          "points": 12,
-          "runsFor": 139,
-          "runsAgainst": 150,
-          "runDifferential": -11
+          "points": 14,
+          "runsFor": 151,
+          "runsAgainst": 160,
+          "runDifferential": -9
         }
       },
       {
@@ -182,24 +182,6 @@
         }
       },
       {
-        "position": 10,
-        "team": "Bradford Tigers 10U A",
-        "teamCode": "617944",
-        "record": {
-          "gamesPlayed": 15,
-          "wins": 5,
-          "losses": 10,
-          "ties": 0,
-          "winPercentage": "0.333"
-        },
-        "stats": {
-          "points": 10,
-          "runsFor": 144,
-          "runsAgainst": 177,
-          "runDifferential": -33
-        }
-      },
-      {
         "position": 11,
         "team": "TNT Thunder 10U A",
         "teamCode": "618057",
@@ -218,25 +200,43 @@
         }
       },
       {
-        "position": 14,
-        "team": "Aurora-King Jays 10U A",
-        "teamCode": "617970",
+        "position": 10,
+        "team": "Bradford Tigers 10U A",
+        "teamCode": "617944",
         "record": {
-          "gamesPlayed": 9,
-          "wins": 2,
-          "losses": 7,
+          "gamesPlayed": 16,
+          "wins": 5,
+          "losses": 11,
           "ties": 0,
-          "winPercentage": "0.222"
+          "winPercentage": "0.313"
         },
         "stats": {
-          "points": 4,
-          "runsFor": 58,
-          "runsAgainst": 103,
-          "runDifferential": -45
+          "points": 10,
+          "runsFor": 153,
+          "runsAgainst": 188,
+          "runDifferential": -35
         }
       },
       {
         "position": 13,
+        "team": "Aurora-King Jays 10U A",
+        "teamCode": "617970",
+        "record": {
+          "gamesPlayed": 11,
+          "wins": 3,
+          "losses": 8,
+          "ties": 0,
+          "winPercentage": "0.273"
+        },
+        "stats": {
+          "points": 6,
+          "runsFor": 79,
+          "runsAgainst": 124,
+          "runDifferential": -45
+        }
+      },
+      {
+        "position": 14,
         "team": "Richmond Hill Phoenix 10U A",
         "teamCode": "617848",
         "record": {
@@ -290,7 +290,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-07-22T12:23:58.774Z",
+    "lastUpdated": "2026-07-22T14:33:47.352Z",
     "totalTeams": 16
   },
   "schedule": {
@@ -383,7 +383,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-22T12:24:03.144Z"
+        "lastUpdated": "2026-07-22T14:33:51.570Z"
       },
       "617173": {
         "teamCode": "617173",
@@ -473,7 +473,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-22T12:24:03.144Z"
+        "lastUpdated": "2026-07-22T14:33:51.570Z"
       },
       "617174": {
         "teamCode": "617174",
@@ -563,7 +563,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-22T12:24:03.144Z"
+        "lastUpdated": "2026-07-22T14:33:51.570Z"
       },
       "617848": {
         "teamCode": "617848",
@@ -653,7 +653,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-22T12:24:03.144Z"
+        "lastUpdated": "2026-07-22T14:33:51.570Z"
       },
       "617900": {
         "teamCode": "617900",
@@ -743,30 +743,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-22T12:24:03.144Z"
+        "lastUpdated": "2026-07-22T14:33:51.570Z"
       },
       "617944": {
         "teamCode": "617944",
         "totalGames": 19,
-        "playedGames": 15,
+        "playedGames": 16,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Thu, Jun 25",
-            "time": "6:00 PM",
-            "homeTeam": "Orangeville Bengals 10U A",
-            "homeTeamCode": "618019",
-            "awayTeam": "Bradford Tigers 10U A",
-            "awayTeamCode": "617944",
-            "location": "Alton Park",
-            "isCompleted": true,
-            "score": {
-              "home": 2,
-              "away": 19,
-              "scoreText": "19-2"
-            }
-          },
           {
             "date": null,
             "dateText": "Mon, Jun 29",
@@ -830,49 +814,33 @@
               "away": 2,
               "scoreText": "2-11"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, Jul 20",
+            "time": "6:30 PM",
+            "homeTeam": "Bradford Tigers 10U A",
+            "homeTeamCode": "617944",
+            "awayTeam": "Aurora-King Jays 10U A",
+            "awayTeamCode": "617970",
+            "location": "Magani #2",
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 11,
+              "scoreText": "11-9"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-22T12:24:03.144Z"
+        "lastUpdated": "2026-07-22T14:33:51.570Z"
       },
       "617970": {
         "teamCode": "617970",
         "totalGames": 19,
-        "playedGames": 9,
+        "playedGames": 11,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Thu, Jun 4",
-            "time": "6:30 PM",
-            "homeTeam": "Aurora-King Jays 10U A",
-            "homeTeamCode": "617970",
-            "awayTeam": "Thornhill Reds 10U A",
-            "awayTeamCode": "617985",
-            "location": "Hallmark 2",
-            "isCompleted": true,
-            "score": {
-              "home": 1,
-              "away": 8,
-              "scoreText": "8-1"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Sun, Jun 7",
-            "time": "2:00 PM",
-            "homeTeam": "Stouffville 10U A",
-            "homeTeamCode": "627209",
-            "awayTeam": "Aurora-King Jays 10U A",
-            "awayTeamCode": "617970",
-            "location": "Bethesda 3",
-            "isCompleted": true,
-            "score": {
-              "home": 9,
-              "away": 6,
-              "scoreText": "6-9"
-            }
-          },
           {
             "date": null,
             "dateText": "Thu, Jun 25",
@@ -920,10 +888,42 @@
               "away": 14,
               "scoreText": "14-5"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Thu, Jul 16",
+            "time": "6:30 PM",
+            "homeTeam": "Aurora-King Jays 10U A",
+            "homeTeamCode": "617970",
+            "awayTeam": "Collingwood Jays 10U A",
+            "awayTeamCode": "618005",
+            "location": "Hallmark 2",
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 12,
+              "scoreText": "12-10"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, Jul 20",
+            "time": "6:30 PM",
+            "homeTeam": "Bradford Tigers 10U A",
+            "homeTeamCode": "617944",
+            "awayTeam": "Aurora-King Jays 10U A",
+            "awayTeamCode": "617970",
+            "location": "Magani #2",
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 11,
+              "scoreText": "11-9"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-22T12:24:03.144Z"
+        "lastUpdated": "2026-07-22T14:33:51.570Z"
       },
       "617985": {
         "teamCode": "617985",
@@ -1013,30 +1013,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-22T12:24:03.144Z"
+        "lastUpdated": "2026-07-22T14:33:51.570Z"
       },
       "618005": {
         "teamCode": "618005",
         "totalGames": 19,
-        "playedGames": 14,
+        "playedGames": 15,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Mon, Jun 15",
-            "time": "6:30 PM",
-            "homeTeam": "Newmarket Hawks 10U A",
-            "homeTeamCode": "617900",
-            "awayTeam": "Collingwood Jays 10U A",
-            "awayTeamCode": "618005",
-            "location": "Armstrong Park (Diamond 1)",
-            "isCompleted": true,
-            "score": {
-              "home": 7,
-              "away": 6,
-              "scoreText": "6-7"
-            }
-          },
           {
             "date": null,
             "dateText": "Wed, Jul 1",
@@ -1087,6 +1071,22 @@
           },
           {
             "date": null,
+            "dateText": "Thu, Jul 16",
+            "time": "6:30 PM",
+            "homeTeam": "Aurora-King Jays 10U A",
+            "homeTeamCode": "617970",
+            "awayTeam": "Collingwood Jays 10U A",
+            "awayTeamCode": "618005",
+            "location": "Hallmark 2",
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 12,
+              "scoreText": "12-10"
+            }
+          },
+          {
+            "date": null,
             "dateText": "Sun, Jul 19",
             "time": "2:00 PM",
             "homeTeam": "Stouffville 10U A",
@@ -1103,7 +1103,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-22T12:24:03.144Z"
+        "lastUpdated": "2026-07-22T14:33:51.570Z"
       },
       "618019": {
         "teamCode": "618019",
@@ -1193,7 +1193,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-22T12:24:03.144Z"
+        "lastUpdated": "2026-07-22T14:33:51.570Z"
       },
       "618041": {
         "teamCode": "618041",
@@ -1283,7 +1283,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-22T12:24:03.144Z"
+        "lastUpdated": "2026-07-22T14:33:51.570Z"
       },
       "618057": {
         "teamCode": "618057",
@@ -1373,7 +1373,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-22T12:24:03.144Z"
+        "lastUpdated": "2026-07-22T14:33:51.570Z"
       },
       "618381": {
         "teamCode": "618381",
@@ -1463,7 +1463,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-22T12:24:03.144Z"
+        "lastUpdated": "2026-07-22T14:33:51.570Z"
       },
       "618394": {
         "teamCode": "618394",
@@ -1553,7 +1553,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-22T12:24:03.144Z"
+        "lastUpdated": "2026-07-22T14:33:51.570Z"
       },
       "625725": {
         "teamCode": "625725",
@@ -1643,7 +1643,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-22T12:24:03.144Z"
+        "lastUpdated": "2026-07-22T14:33:51.570Z"
       },
       "627209": {
         "teamCode": "627209",
@@ -1733,7 +1733,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-22T12:24:03.144Z"
+        "lastUpdated": "2026-07-22T14:33:51.570Z"
       }
     },
     "allGames": [
@@ -3338,8 +3338,12 @@
         "awayTeam": "Collingwood Jays 10U A",
         "awayTeamCode": "618005",
         "location": "Hallmark 2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 12,
+          "scoreText": "12-10"
+        }
       },
       {
         "date": null,
@@ -3442,8 +3446,12 @@
         "awayTeam": "Aurora-King Jays 10U A",
         "awayTeamCode": "617970",
         "location": "Magani #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 11,
+          "scoreText": "11-9"
+        }
       },
       {
         "date": null,
@@ -4137,14 +4145,14 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-07-22T12:24:03.144Z",
+    "lastUpdated": "2026-07-22T14:33:51.570Z",
     "totalGames": 152
   },
   "summary": {
     "totalTeams": 16,
     "totalGames": 152,
-    "completedGames": 103,
-    "upcomingGames": 49,
+    "completedGames": 105,
+    "upcomingGames": 47,
     "topTeam": {
       "team": "Innisfil Cardinals 10U A",
       "teamCode": "618041",
@@ -4161,6 +4169,6 @@
       "date": "Thu, May 21",
       "location": "Georgina Roc- Diamond 2"
     },
-    "lastUpdated": "2026-07-22T12:29:15.212Z"
+    "lastUpdated": "2026-07-22T14:38:12.782Z"
   }
 }
