@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-23T11:52:17.818Z",
+  "lastUpdated": "2026-07-23T13:46:44.606Z",
   "totalGames": 190,
   "games": [
     {
@@ -29,8 +29,12 @@
       "awayTeam": "Etobicoke",
       "awayTeamCode": "883728",
       "location": "Rotary Peace Park — Toronto",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 6,
+        "away": 7,
+        "scoreText": "7-6"
+      },
       "division": "11U",
       "tier": "interlock-all-tiers"
     },
@@ -43,8 +47,12 @@
       "awayTeam": "Richmond Hill",
       "awayTeamCode": "892636",
       "location": "Morgan — Markham",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 13,
+        "away": 10,
+        "scoreText": "10-13"
+      },
       "division": "10U",
       "tier": "interlock-all-tiers"
     },
@@ -99,20 +107,6 @@
       "awayTeam": "Georgina",
       "awayTeamCode": "892647",
       "location": "ROC — Diamond 3 — Georgina",
-      "isCompleted": false,
-      "score": null,
-      "division": "10U",
-      "tier": "interlock-all-tiers"
-    },
-    {
-      "date": "2026-07-21T22:00:00.000Z",
-      "dateText": "Tue, Jul 21",
-      "time": "6:00 PM",
-      "homeTeam": "East York",
-      "homeTeamCode": "892640",
-      "awayTeam": "Leaside",
-      "awayTeamCode": "892648",
-      "location": "Trace Manes — Toronto",
       "isCompleted": false,
       "score": null,
       "division": "10U",
@@ -218,6 +212,24 @@
         "home": 16,
         "away": 4,
         "scoreText": "4-16"
+      },
+      "division": "10U",
+      "tier": "interlock-all-tiers"
+    },
+    {
+      "date": "2026-07-19T21:00:00.000Z",
+      "dateText": "Sun, Jul 19",
+      "time": "5:00 PM",
+      "homeTeam": "Bloordale",
+      "homeTeamCode": "892638",
+      "awayTeam": "East York",
+      "awayTeamCode": "892640",
+      "location": "Stan Wadlow — Diamond 2 — Toronto",
+      "isCompleted": true,
+      "score": {
+        "home": 2,
+        "away": 12,
+        "scoreText": "12-2"
       },
       "division": "10U",
       "tier": "interlock-all-tiers"
