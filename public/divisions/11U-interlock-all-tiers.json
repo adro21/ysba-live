@@ -92,39 +92,39 @@
         }
       },
       {
-        "position": 3,
-        "team": "East York",
-        "teamCode": "883724",
-        "record": {
-          "gamesPlayed": 13,
-          "wins": 7,
-          "losses": 5,
-          "ties": 1,
-          "winPercentage": "0.577"
-        },
-        "stats": {
-          "points": 15,
-          "runsFor": 101,
-          "runsAgainst": 92,
-          "runDifferential": 9
-        }
-      },
-      {
         "position": 7,
         "team": "Oshawa",
         "teamCode": "883729",
         "record": {
-          "gamesPlayed": 8,
-          "wins": 4,
+          "gamesPlayed": 9,
+          "wins": 5,
           "losses": 4,
           "ties": 0,
-          "winPercentage": "0.500"
+          "winPercentage": "0.556"
         },
         "stats": {
-          "points": 8,
-          "runsFor": 55,
-          "runsAgainst": 70,
-          "runDifferential": -15
+          "points": 10,
+          "runsFor": 64,
+          "runsAgainst": 77,
+          "runDifferential": -13
+        }
+      },
+      {
+        "position": 3,
+        "team": "East York",
+        "teamCode": "883724",
+        "record": {
+          "gamesPlayed": 14,
+          "wins": 7,
+          "losses": 6,
+          "ties": 1,
+          "winPercentage": "0.536"
+        },
+        "stats": {
+          "points": 15,
+          "runsFor": 108,
+          "runsAgainst": 101,
+          "runDifferential": 7
         }
       },
       {
@@ -218,7 +218,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-07-24T00:01:16.483Z",
+    "lastUpdated": "2026-07-24T02:11:24.930Z",
     "totalTeams": 12
   },
   "schedule": {
@@ -352,7 +352,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-24T00:01:16.508Z"
+        "lastUpdated": "2026-07-24T02:11:24.942Z"
       },
       "883723": {
         "teamCode": "883723",
@@ -483,7 +483,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-24T00:01:16.508Z"
+        "lastUpdated": "2026-07-24T02:11:24.942Z"
       },
       "883724": {
         "teamCode": "883724",
@@ -560,8 +560,12 @@
             "awayTeam": "Oshawa",
             "awayTeamCode": "883729",
             "location": "Durham College - Babcock Field — Oshawa",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 9,
+              "scoreText": "9-7"
+            }
           }
         ],
         "nextGames": [
@@ -602,7 +606,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-24T00:01:16.508Z"
+        "lastUpdated": "2026-07-24T02:11:24.942Z"
       },
       "883725": {
         "teamCode": "883725",
@@ -741,7 +745,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-24T00:01:16.508Z"
+        "lastUpdated": "2026-07-24T02:11:24.942Z"
       },
       "883726": {
         "teamCode": "883726",
@@ -868,7 +872,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-24T00:01:16.508Z"
+        "lastUpdated": "2026-07-24T02:11:24.942Z"
       },
       "883727": {
         "teamCode": "883727",
@@ -995,7 +999,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-24T00:01:16.508Z"
+        "lastUpdated": "2026-07-24T02:11:24.942Z"
       },
       "883728": {
         "teamCode": "883728",
@@ -1102,7 +1106,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-24T00:01:16.508Z"
+        "lastUpdated": "2026-07-24T02:11:24.942Z"
       },
       "883729": {
         "teamCode": "883729",
@@ -1179,8 +1183,12 @@
             "awayTeam": "Oshawa",
             "awayTeamCode": "883729",
             "location": "Durham College - Babcock Field — Oshawa",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 9,
+              "scoreText": "9-7"
+            }
           }
         ],
         "nextGames": [
@@ -1245,7 +1253,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-24T00:01:16.508Z"
+        "lastUpdated": "2026-07-24T02:11:24.942Z"
       },
       "883730": {
         "teamCode": "883730",
@@ -1352,7 +1360,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-24T00:01:16.508Z"
+        "lastUpdated": "2026-07-24T02:11:24.942Z"
       },
       "883731": {
         "teamCode": "883731",
@@ -1483,7 +1491,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-24T00:01:16.508Z"
+        "lastUpdated": "2026-07-24T02:11:24.942Z"
       },
       "883732": {
         "teamCode": "883732",
@@ -1630,7 +1638,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-24T00:01:16.508Z"
+        "lastUpdated": "2026-07-24T02:11:24.943Z"
       },
       "883733": {
         "teamCode": "883733",
@@ -1773,7 +1781,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-24T00:01:16.508Z"
+        "lastUpdated": "2026-07-24T02:11:24.943Z"
       }
     },
     "allGames": [
@@ -3006,8 +3014,12 @@
         "awayTeam": "Oshawa",
         "awayTeamCode": "883729",
         "location": "Durham College - Babcock Field — Oshawa",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 9,
+          "scoreText": "9-7"
+        }
       },
       {
         "date": "2026-07-23T22:00:00.000Z",
@@ -3320,8 +3332,12 @@
         "awayTeam": "Oshawa",
         "awayTeamCode": "883729",
         "location": "Durham College - Babcock Field — Oshawa",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 9,
+          "scoreText": "9-7"
+        }
       },
       {
         "date": "2026-07-23T22:00:00.000Z",
@@ -3558,14 +3574,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2026-07-24T00:01:16.508Z",
+    "lastUpdated": "2026-07-24T02:11:24.943Z",
     "totalGames": 106
   },
   "summary": {
     "totalTeams": 12,
     "totalGames": 106,
-    "completedGames": 65,
-    "upcomingGames": 41,
+    "completedGames": 66,
+    "upcomingGames": 40,
     "topTeam": {
       "team": "Etobicoke",
       "teamCode": "883728",
@@ -3582,6 +3598,6 @@
       "date": "Sun, May 31",
       "location": "North Hill — Diamond 3 — Bolton"
     },
-    "lastUpdated": "2026-07-24T00:01:16.508Z"
+    "lastUpdated": "2026-07-24T02:11:24.943Z"
   }
 }
