@@ -38,25 +38,25 @@
         }
       },
       {
-        "position": 4,
-        "team": "Caledon",
-        "teamCode": "883733",
+        "position": 3,
+        "team": "Whitby",
+        "teamCode": "883731",
         "record": {
-          "gamesPlayed": 11,
-          "wins": 7,
-          "losses": 3,
-          "ties": 1,
-          "winPercentage": "0.682"
+          "gamesPlayed": 13,
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "winPercentage": "0.692"
         },
         "stats": {
-          "points": 15,
-          "runsFor": 110,
-          "runsAgainst": 61,
-          "runDifferential": 49
+          "points": 18,
+          "runsFor": 90,
+          "runsAgainst": 51,
+          "runDifferential": 39
         }
       },
       {
-        "position": 5,
+        "position": 6,
         "team": "Richmond Hill",
         "teamCode": "883732",
         "record": {
@@ -74,21 +74,21 @@
         }
       },
       {
-        "position": 6,
-        "team": "Whitby",
-        "teamCode": "883731",
+        "position": 5,
+        "team": "Caledon",
+        "teamCode": "883733",
         "record": {
-          "gamesPlayed": 10,
-          "wins": 6,
+          "gamesPlayed": 12,
+          "wins": 7,
           "losses": 4,
-          "ties": 0,
-          "winPercentage": "0.600"
+          "ties": 1,
+          "winPercentage": "0.625"
         },
         "stats": {
-          "points": 12,
-          "runsFor": 62,
-          "runsAgainst": 43,
-          "runDifferential": 19
+          "points": 15,
+          "runsFor": 112,
+          "runsAgainst": 72,
+          "runDifferential": 40
         }
       },
       {
@@ -110,7 +110,7 @@
         }
       },
       {
-        "position": 3,
+        "position": 4,
         "team": "East York",
         "teamCode": "883724",
         "record": {
@@ -128,7 +128,7 @@
         }
       },
       {
-        "position": 8,
+        "position": 9,
         "team": "Newmarket",
         "teamCode": "883723",
         "record": {
@@ -146,21 +146,21 @@
         }
       },
       {
-        "position": 9,
+        "position": 8,
         "team": "Scarborough",
         "teamCode": "883725",
         "record": {
-          "gamesPlayed": 10,
-          "wins": 2,
-          "losses": 7,
+          "gamesPlayed": 13,
+          "wins": 3,
+          "losses": 9,
           "ties": 1,
-          "winPercentage": "0.250"
+          "winPercentage": "0.269"
         },
         "stats": {
-          "points": 5,
-          "runsFor": 49,
-          "runsAgainst": 79,
-          "runDifferential": -30
+          "points": 7,
+          "runsFor": 61,
+          "runsAgainst": 100,
+          "runDifferential": -39
         }
       },
       {
@@ -204,21 +204,21 @@
         "team": "Leaside",
         "teamCode": "883722",
         "record": {
-          "gamesPlayed": 12,
+          "gamesPlayed": 13,
           "wins": 2,
-          "losses": 10,
+          "losses": 11,
           "ties": 0,
-          "winPercentage": "0.167"
+          "winPercentage": "0.154"
         },
         "stats": {
           "points": 4,
-          "runsFor": 71,
-          "runsAgainst": 108,
-          "runDifferential": -37
+          "runsFor": 75,
+          "runsAgainst": 114,
+          "runDifferential": -39
         }
       }
     ],
-    "lastUpdated": "2026-07-29T13:18:04.004Z",
+    "lastUpdated": "2026-07-29T15:32:40.316Z",
     "totalTeams": 12
   },
   "schedule": {
@@ -226,9 +226,21 @@
       "883722": {
         "teamCode": "883722",
         "totalGames": 18,
-        "playedGames": 15,
-        "upcomingGames": 3,
+        "playedGames": 14,
+        "upcomingGames": 4,
         "recentGames": [
+          {
+            "date": "2026-06-26T23:00:00.000Z",
+            "dateText": "Fri, Jun 26",
+            "time": "7:00 PM",
+            "homeTeam": "Etobicoke",
+            "homeTeamCode": "883728",
+            "awayTeam": "Leaside",
+            "awayTeamCode": "883722",
+            "location": "Irving Paisley — Toronto",
+            "isCompleted": false,
+            "score": null
+          },
           {
             "date": "2026-07-07T22:00:00.000Z",
             "dateText": "Tue, Jul 7",
@@ -278,18 +290,6 @@
             }
           },
           {
-            "date": "2026-07-15T22:00:00.000Z",
-            "dateText": "Wed, Jul 15",
-            "time": "6:00 PM",
-            "homeTeam": "Leaside",
-            "homeTeamCode": "883722",
-            "awayTeam": "North Toronto",
-            "awayTeamCode": "883727",
-            "location": "Memorial — Diamond Red — Toronto",
-            "isCompleted": false,
-            "score": null
-          },
-          {
             "date": "2026-07-28T23:30:00.000Z",
             "dateText": "Tue, Jul 28",
             "time": "7:30 PM",
@@ -298,8 +298,12 @@
             "awayTeam": "Scarborough",
             "awayTeamCode": "883725",
             "location": "Neilson - Scarborough — Diamond 2 — Toronto",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 6,
+              "scoreText": "6-4"
+            }
           }
         ],
         "nextGames": [
@@ -312,6 +316,18 @@
             "awayTeam": "Etobicoke",
             "awayTeamCode": "883728",
             "location": "Rotary Peace Park — Toronto",
+            "isCompleted": false,
+            "score": null
+          },
+          {
+            "date": "2026-07-30T22:00:00.000Z",
+            "dateText": "Thu, Jul 30",
+            "time": "6:00 PM",
+            "homeTeam": "Leaside",
+            "homeTeamCode": "883722",
+            "awayTeam": "North Toronto",
+            "awayTeamCode": "883727",
+            "location": "Memorial — Diamond Red — Toronto",
             "isCompleted": false,
             "score": null
           },
@@ -340,7 +356,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-29T13:18:04.026Z"
+        "lastUpdated": "2026-07-29T15:32:40.337Z"
       },
       "883723": {
         "teamCode": "883723",
@@ -471,7 +487,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-29T13:18:04.026Z"
+        "lastUpdated": "2026-07-29T15:32:40.337Z"
       },
       "883724": {
         "teamCode": "883724",
@@ -594,7 +610,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-29T13:18:04.026Z"
+        "lastUpdated": "2026-07-29T15:32:40.337Z"
       },
       "883725": {
         "teamCode": "883725",
@@ -611,18 +627,6 @@
             "awayTeam": "North York",
             "awayTeamCode": "883726",
             "location": "Bond — Diamond 2 — Toronto",
-            "isCompleted": false,
-            "score": null
-          },
-          {
-            "date": "2026-07-14T23:30:00.000Z",
-            "dateText": "Tue, Jul 14",
-            "time": "7:30 PM",
-            "homeTeam": "Whitby",
-            "homeTeamCode": "883731",
-            "awayTeam": "Scarborough",
-            "awayTeamCode": "883725",
-            "location": "Neilson - Scarborough — Diamond 2 — Toronto",
             "isCompleted": false,
             "score": null
           },
@@ -647,8 +651,28 @@
             "awayTeam": "Whitby",
             "awayTeamCode": "883731",
             "location": "Carson — Whitby",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 2,
+              "away": 11,
+              "scoreText": "11-2"
+            }
+          },
+          {
+            "date": "2026-07-27T23:30:00.000Z",
+            "dateText": "Mon, Jul 27",
+            "time": "7:30 PM",
+            "homeTeam": "Whitby",
+            "homeTeamCode": "883731",
+            "awayTeam": "Scarborough",
+            "awayTeamCode": "883725",
+            "location": "Neilson - Scarborough — Diamond 2 — Toronto",
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 4,
+              "scoreText": "4-6"
+            }
           },
           {
             "date": "2026-07-28T23:30:00.000Z",
@@ -659,8 +683,12 @@
             "awayTeam": "Scarborough",
             "awayTeamCode": "883725",
             "location": "Neilson - Scarborough — Diamond 2 — Toronto",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 6,
+              "scoreText": "6-4"
+            }
           }
         ],
         "nextGames": [
@@ -701,7 +729,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-29T13:18:04.026Z"
+        "lastUpdated": "2026-07-29T15:32:40.337Z"
       },
       "883726": {
         "teamCode": "883726",
@@ -816,14 +844,30 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-29T13:18:04.026Z"
+        "lastUpdated": "2026-07-29T15:32:40.338Z"
       },
       "883727": {
         "teamCode": "883727",
         "totalGames": 18,
-        "playedGames": 14,
-        "upcomingGames": 4,
+        "playedGames": 13,
+        "upcomingGames": 5,
         "recentGames": [
+          {
+            "date": "2026-06-17T22:00:00.000Z",
+            "dateText": "Wed, Jun 17",
+            "time": "6:00 PM",
+            "homeTeam": "North York",
+            "homeTeamCode": "883726",
+            "awayTeam": "North Toronto",
+            "awayTeamCode": "883727",
+            "location": "Memorial — Diamond Red — Toronto",
+            "isCompleted": true,
+            "score": {
+              "home": 1,
+              "away": 10,
+              "scoreText": "10-1"
+            }
+          },
           {
             "date": "2026-06-21T20:00:00.000Z",
             "dateText": "Sun, Jun 21",
@@ -869,18 +913,6 @@
             }
           },
           {
-            "date": "2026-07-15T22:00:00.000Z",
-            "dateText": "Wed, Jul 15",
-            "time": "6:00 PM",
-            "homeTeam": "Leaside",
-            "homeTeamCode": "883722",
-            "awayTeam": "North Toronto",
-            "awayTeamCode": "883727",
-            "location": "Memorial — Diamond Red — Toronto",
-            "isCompleted": false,
-            "score": null
-          },
-          {
             "date": "2026-07-16T22:00:00.000Z",
             "dateText": "Thu, Jul 16",
             "time": "6:00 PM",
@@ -900,6 +932,18 @@
             "time": "6:00 PM",
             "homeTeam": "East York",
             "homeTeamCode": "883724",
+            "awayTeam": "North Toronto",
+            "awayTeamCode": "883727",
+            "location": "Memorial — Diamond Red — Toronto",
+            "isCompleted": false,
+            "score": null
+          },
+          {
+            "date": "2026-07-30T22:00:00.000Z",
+            "dateText": "Thu, Jul 30",
+            "time": "6:00 PM",
+            "homeTeam": "Leaside",
+            "homeTeamCode": "883722",
             "awayTeam": "North Toronto",
             "awayTeamCode": "883727",
             "location": "Memorial — Diamond Red — Toronto",
@@ -943,7 +987,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-29T13:18:04.026Z"
+        "lastUpdated": "2026-07-29T15:32:40.338Z"
       },
       "883728": {
         "teamCode": "883728",
@@ -1050,7 +1094,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-29T13:18:04.026Z"
+        "lastUpdated": "2026-07-29T15:32:40.338Z"
       },
       "883729": {
         "teamCode": "883729",
@@ -1197,7 +1241,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-29T13:18:04.026Z"
+        "lastUpdated": "2026-07-29T15:32:40.338Z"
       },
       "883730": {
         "teamCode": "883730",
@@ -1304,7 +1348,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-29T13:18:04.026Z"
+        "lastUpdated": "2026-07-29T15:32:40.338Z"
       },
       "883731": {
         "teamCode": "883731",
@@ -1329,18 +1373,6 @@
             }
           },
           {
-            "date": "2026-07-14T23:30:00.000Z",
-            "dateText": "Tue, Jul 14",
-            "time": "7:30 PM",
-            "homeTeam": "Whitby",
-            "homeTeamCode": "883731",
-            "awayTeam": "Scarborough",
-            "awayTeamCode": "883725",
-            "location": "Neilson - Scarborough — Diamond 2 — Toronto",
-            "isCompleted": false,
-            "score": null
-          },
-          {
             "date": "2026-07-21T22:00:00.000Z",
             "dateText": "Tue, Jul 21",
             "time": "6:00 PM",
@@ -1361,8 +1393,28 @@
             "awayTeam": "Whitby",
             "awayTeamCode": "883731",
             "location": "Carson — Whitby",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 2,
+              "away": 11,
+              "scoreText": "11-2"
+            }
+          },
+          {
+            "date": "2026-07-27T23:30:00.000Z",
+            "dateText": "Mon, Jul 27",
+            "time": "7:30 PM",
+            "homeTeam": "Whitby",
+            "homeTeamCode": "883731",
+            "awayTeam": "Scarborough",
+            "awayTeamCode": "883725",
+            "location": "Neilson - Scarborough — Diamond 2 — Toronto",
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 4,
+              "scoreText": "4-6"
+            }
           },
           {
             "date": "2026-07-28T22:30:00.000Z",
@@ -1373,8 +1425,12 @@
             "awayTeam": "Caledon",
             "awayTeamCode": "883733",
             "location": "North Hill — Diamond 3 — Bolton",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 2,
+              "scoreText": "2-11"
+            }
           }
         ],
         "nextGames": [
@@ -1403,7 +1459,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-29T13:18:04.026Z"
+        "lastUpdated": "2026-07-29T15:32:40.338Z"
       },
       "883732": {
         "teamCode": "883732",
@@ -1546,7 +1602,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-29T13:18:04.026Z"
+        "lastUpdated": "2026-07-29T15:32:40.338Z"
       },
       "883733": {
         "teamCode": "883733",
@@ -1623,8 +1679,12 @@
             "awayTeam": "Caledon",
             "awayTeamCode": "883733",
             "location": "North Hill — Diamond 3 — Bolton",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 2,
+              "scoreText": "2-11"
+            }
           }
         ],
         "nextGames": [
@@ -1677,7 +1737,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-29T13:18:04.026Z"
+        "lastUpdated": "2026-07-29T15:32:40.338Z"
       }
     },
     "allGames": [
@@ -2774,16 +2834,20 @@
         }
       },
       {
-        "date": "2026-07-14T23:30:00.000Z",
-        "dateText": "Tue, Jul 14",
+        "date": "2026-07-27T23:30:00.000Z",
+        "dateText": "Mon, Jul 27",
         "time": "7:30 PM",
         "homeTeam": "Whitby",
         "homeTeamCode": "883731",
         "awayTeam": "Scarborough",
         "awayTeamCode": "883725",
         "location": "Neilson - Scarborough — Diamond 2 — Toronto",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 4,
+          "scoreText": "4-6"
+        }
       },
       {
         "date": "2026-07-14T22:00:00.000Z",
@@ -2802,8 +2866,8 @@
         }
       },
       {
-        "date": "2026-07-15T22:00:00.000Z",
-        "dateText": "Wed, Jul 15",
+        "date": "2026-07-30T22:00:00.000Z",
+        "dateText": "Thu, Jul 30",
         "time": "6:00 PM",
         "homeTeam": "Leaside",
         "homeTeamCode": "883722",
@@ -2942,8 +3006,12 @@
         "awayTeam": "Whitby",
         "awayTeamCode": "883731",
         "location": "Carson — Whitby",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 2,
+          "away": 11,
+          "scoreText": "11-2"
+        }
       },
       {
         "date": "2026-07-28T22:30:00.000Z",
@@ -2954,8 +3022,12 @@
         "awayTeam": "Caledon",
         "awayTeamCode": "883733",
         "location": "North Hill — Diamond 3 — Bolton",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 2,
+          "scoreText": "2-11"
+        }
       },
       {
         "date": "2026-07-28T22:00:00.000Z",
@@ -2978,8 +3050,12 @@
         "awayTeam": "Scarborough",
         "awayTeamCode": "883725",
         "location": "Neilson - Scarborough — Diamond 2 — Toronto",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 6,
+          "scoreText": "6-4"
+        }
       },
       {
         "date": "2026-07-29T22:00:00.000Z",
@@ -3232,8 +3308,12 @@
         "awayTeam": "Scarborough",
         "awayTeamCode": "883725",
         "location": "Neilson - Scarborough — Diamond 2 — Toronto",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 6,
+          "scoreText": "6-4"
+        }
       },
       {
         "date": "2026-07-28T22:30:00.000Z",
@@ -3244,8 +3324,12 @@
         "awayTeam": "Caledon",
         "awayTeamCode": "883733",
         "location": "North Hill — Diamond 3 — Bolton",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 2,
+          "scoreText": "2-11"
+        }
       },
       {
         "date": "2026-07-28T22:00:00.000Z",
@@ -3260,6 +3344,22 @@
         "score": null
       },
       {
+        "date": "2026-07-27T23:30:00.000Z",
+        "dateText": "Mon, Jul 27",
+        "time": "7:30 PM",
+        "homeTeam": "Whitby",
+        "homeTeamCode": "883731",
+        "awayTeam": "Scarborough",
+        "awayTeamCode": "883725",
+        "location": "Neilson - Scarborough — Diamond 2 — Toronto",
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 4,
+          "scoreText": "4-6"
+        }
+      },
+      {
         "date": "2026-07-26T13:30:00.000Z",
         "dateText": "Sun, Jul 26",
         "time": "9:30 AM",
@@ -3268,8 +3368,12 @@
         "awayTeam": "Whitby",
         "awayTeamCode": "883731",
         "location": "Carson — Whitby",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 2,
+          "away": 11,
+          "scoreText": "11-2"
+        }
       },
       {
         "date": "2026-07-23T22:00:00.000Z",
@@ -3342,18 +3446,6 @@
         "location": "North Hill — Diamond 3 — Bolton",
         "isCompleted": false,
         "score": null
-      },
-      {
-        "date": "2026-07-21T22:00:00.000Z",
-        "dateText": "Tue, Jul 21",
-        "time": "6:00 PM",
-        "homeTeam": "Richmond Hill",
-        "homeTeamCode": "883732",
-        "awayTeam": "Whitby",
-        "awayTeamCode": "883731",
-        "location": "Carson — Whitby",
-        "isCompleted": false,
-        "score": null
       }
     ],
     "upcomingGames": [
@@ -3378,6 +3470,18 @@
         "awayTeam": "Etobicoke",
         "awayTeamCode": "883728",
         "location": "Rotary Peace Park — Toronto",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-07-30T22:00:00.000Z",
+        "dateText": "Thu, Jul 30",
+        "time": "6:00 PM",
+        "homeTeam": "Leaside",
+        "homeTeamCode": "883722",
+        "awayTeam": "North Toronto",
+        "awayTeamCode": "883727",
+        "location": "Memorial — Diamond Red — Toronto",
         "isCompleted": false,
         "score": null
       },
@@ -3464,28 +3568,16 @@
         "location": "Harding Park — Richmond Hill",
         "isCompleted": false,
         "score": null
-      },
-      {
-        "date": "2026-08-04T22:30:00.000Z",
-        "dateText": "Tue, Aug 4",
-        "time": "6:30 PM",
-        "homeTeam": "Newmarket",
-        "homeTeamCode": "883723",
-        "awayTeam": "Caledon",
-        "awayTeamCode": "883733",
-        "location": "North Hill — Diamond 3 — Bolton",
-        "isCompleted": false,
-        "score": null
       }
     ],
-    "lastUpdated": "2026-07-29T13:18:04.026Z",
+    "lastUpdated": "2026-07-29T15:32:40.338Z",
     "totalGames": 106
   },
   "summary": {
     "totalTeams": 12,
     "totalGames": 106,
-    "completedGames": 67,
-    "upcomingGames": 39,
+    "completedGames": 71,
+    "upcomingGames": 35,
     "topTeam": {
       "team": "Etobicoke",
       "teamCode": "883728",
@@ -3502,6 +3594,6 @@
       "date": "Sun, May 31",
       "location": "North Hill — Diamond 3 — Bolton"
     },
-    "lastUpdated": "2026-07-29T13:18:04.027Z"
+    "lastUpdated": "2026-07-29T15:32:40.338Z"
   }
 }

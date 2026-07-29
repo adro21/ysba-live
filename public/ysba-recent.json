@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-29T13:18:04.027Z",
+  "lastUpdated": "2026-07-29T15:32:40.338Z",
   "totalGames": 190,
   "games": [
     {
@@ -11,8 +11,12 @@
       "awayTeam": "Scarborough",
       "awayTeamCode": "883725",
       "location": "Neilson - Scarborough — Diamond 2 — Toronto",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 4,
+        "away": 6,
+        "scoreText": "6-4"
+      },
       "division": "11U",
       "tier": "interlock-all-tiers"
     },
@@ -25,8 +29,12 @@
       "awayTeam": "Caledon",
       "awayTeamCode": "883733",
       "location": "North Hill — Diamond 3 — Bolton",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 11,
+        "away": 2,
+        "scoreText": "2-11"
+      },
       "division": "11U",
       "tier": "interlock-all-tiers"
     },
@@ -69,6 +77,24 @@
       "location": "Harding Park — Richmond Hill",
       "isCompleted": false,
       "score": null,
+      "division": "11U",
+      "tier": "interlock-all-tiers"
+    },
+    {
+      "date": "2026-07-27T23:30:00.000Z",
+      "dateText": "Mon, Jul 27",
+      "time": "7:30 PM",
+      "homeTeam": "Whitby",
+      "homeTeamCode": "883731",
+      "awayTeam": "Scarborough",
+      "awayTeamCode": "883725",
+      "location": "Neilson - Scarborough — Diamond 2 — Toronto",
+      "isCompleted": true,
+      "score": {
+        "home": 6,
+        "away": 4,
+        "scoreText": "4-6"
+      },
       "division": "11U",
       "tier": "interlock-all-tiers"
     },
@@ -163,8 +189,12 @@
       "awayTeam": "Whitby",
       "awayTeamCode": "883731",
       "location": "Carson — Whitby",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 2,
+        "away": 11,
+        "scoreText": "11-2"
+      },
       "division": "11U",
       "tier": "interlock-all-tiers"
     },
@@ -299,20 +329,6 @@
       "awayTeam": "Caledon",
       "awayTeamCode": "883733",
       "location": "North Hill — Diamond 3 — Bolton",
-      "isCompleted": false,
-      "score": null,
-      "division": "11U",
-      "tier": "interlock-all-tiers"
-    },
-    {
-      "date": "2026-07-21T22:00:00.000Z",
-      "dateText": "Tue, Jul 21",
-      "time": "6:00 PM",
-      "homeTeam": "Richmond Hill",
-      "homeTeamCode": "883732",
-      "awayTeam": "Whitby",
-      "awayTeamCode": "883731",
-      "location": "Carson — Whitby",
       "isCompleted": false,
       "score": null,
       "division": "11U",
