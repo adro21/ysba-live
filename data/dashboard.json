@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-07-29T15:32:40.338Z",
+  "lastUpdated": "2026-07-29T16:53:59.278Z",
   "totals": {
     "divisions": 54,
     "teams": 213,
     "games": 5549,
-    "completed": 4333,
-    "upcoming": 1216
+    "completed": 4334,
+    "upcoming": 1215
   },
   "recentActivity": [
     {
@@ -73,8 +73,12 @@
       "awayTeam": "North York",
       "awayTeamCode": "883726",
       "location": "Harding Park — Richmond Hill",
-      "isCompleted": false,
-      "score": null
+      "isCompleted": true,
+      "score": {
+        "home": 12,
+        "away": 3,
+        "scoreText": "3-12"
+      }
     }
   ],
   "upcomingGames": [
