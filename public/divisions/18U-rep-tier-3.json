@@ -2,7 +2,7 @@
   "standings": {
     "teams": [
       {
-        "position": 1,
+        "position": 2,
         "team": "Barrie Baycats 18U A",
         "teamCode": "612795",
         "record": {
@@ -20,7 +20,7 @@
         }
       },
       {
-        "position": 2,
+        "position": 3,
         "team": "Bradford Tigers 18U A - Team 1",
         "teamCode": "617951",
         "record": {
@@ -38,21 +38,21 @@
         }
       },
       {
-        "position": 3,
+        "position": 1,
         "team": "Stayner 18U C",
         "teamCode": "617169",
         "record": {
-          "gamesPlayed": 16,
-          "wins": 11,
-          "losses": 4,
+          "gamesPlayed": 18,
+          "wins": 12,
+          "losses": 5,
           "ties": 1,
-          "winPercentage": "0.719"
+          "winPercentage": "0.694"
         },
         "stats": {
-          "points": 23,
-          "runsFor": 131,
-          "runsAgainst": 84,
-          "runDifferential": 47
+          "points": 25,
+          "runsFor": 145,
+          "runsAgainst": 92,
+          "runDifferential": 53
         }
       },
       {
@@ -110,25 +110,25 @@
         }
       },
       {
-        "position": 8,
+        "position": 7,
         "team": "Innisfil Cardinals 18U B",
         "teamCode": "618049",
         "record": {
-          "gamesPlayed": 14,
-          "wins": 6,
-          "losses": 8,
+          "gamesPlayed": 16,
+          "wins": 7,
+          "losses": 9,
           "ties": 0,
-          "winPercentage": "0.429"
+          "winPercentage": "0.438"
         },
         "stats": {
-          "points": 12,
-          "runsFor": 74,
-          "runsAgainst": 101,
-          "runDifferential": -27
+          "points": 14,
+          "runsFor": 82,
+          "runsAgainst": 115,
+          "runDifferential": -33
         }
       },
       {
-        "position": 7,
+        "position": 8,
         "team": "TNT Thunder 18U B",
         "teamCode": "618063",
         "record": {
@@ -200,7 +200,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-07-29T02:04:10.358Z",
+    "lastUpdated": "2026-07-29T05:31:31.990Z",
     "totalTeams": 11
   },
   "schedule": {
@@ -293,7 +293,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-29T02:04:13.063Z"
+        "lastUpdated": "2026-07-29T05:31:34.934Z"
       },
       "612795": {
         "teamCode": "612795",
@@ -383,46 +383,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-29T02:04:13.063Z"
+        "lastUpdated": "2026-07-29T05:31:34.934Z"
       },
       "617169": {
         "teamCode": "617169",
         "totalGames": 18,
-        "playedGames": 16,
+        "playedGames": 18,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sat, Jul 4",
-            "time": "2:00 PM",
-            "homeTeam": "Stayner 18U C",
-            "homeTeamCode": "617169",
-            "awayTeam": "Orillia 18U B",
-            "awayTeamCode": "618388",
-            "location": "5212 County Road 9, New Lowell.",
-            "isCompleted": true,
-            "score": {
-              "home": 8,
-              "away": 7,
-              "scoreText": "7-8"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Mon, Jul 13",
-            "time": "8:30 PM",
-            "homeTeam": "TNT Thunder 18U B",
-            "homeTeamCode": "618063",
-            "awayTeam": "Stayner 18U C",
-            "awayTeamCode": "617169",
-            "location": "Beeton Diamond at 72 Prospect St. Beeton",
-            "isCompleted": true,
-            "score": {
-              "home": 1,
-              "away": 21,
-              "scoreText": "21-1"
-            }
-          },
           {
             "date": null,
             "dateText": "Wed, Jul 22",
@@ -470,10 +438,42 @@
               "away": 1,
               "scoreText": "1-4"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sun, Jul 26",
+            "time": "8:30 PM",
+            "homeTeam": "Innisfil Cardinals 18U B",
+            "homeTeamCode": "618049",
+            "awayTeam": "Stayner 18U C",
+            "awayTeamCode": "617169",
+            "location": "7315 Yonge St, Innisfil ON L9S 2M6, North Diamond",
+            "isCompleted": true,
+            "score": {
+              "home": 2,
+              "away": 9,
+              "scoreText": "9-2"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Tue, Jul 28",
+            "time": "6:00 PM",
+            "homeTeam": "Stayner 18U C",
+            "homeTeamCode": "617169",
+            "awayTeam": "Innisfil Cardinals 18U B",
+            "awayTeamCode": "618049",
+            "location": "5212 County Rd 9, New Lowell, ON L0M 1N0",
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 6,
+              "scoreText": "6-5"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-29T02:04:13.063Z"
+        "lastUpdated": "2026-07-29T05:31:34.934Z"
       },
       "617951": {
         "teamCode": "617951",
@@ -563,7 +563,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-29T02:04:13.063Z"
+        "lastUpdated": "2026-07-29T05:31:34.934Z"
       },
       "618012": {
         "teamCode": "618012",
@@ -653,7 +653,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-29T02:04:13.063Z"
+        "lastUpdated": "2026-07-29T05:31:34.934Z"
       },
       "618025": {
         "teamCode": "618025",
@@ -743,46 +743,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-29T02:04:13.063Z"
+        "lastUpdated": "2026-07-29T05:31:34.934Z"
       },
       "618049": {
         "teamCode": "618049",
         "totalGames": 18,
-        "playedGames": 14,
+        "playedGames": 16,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Thu, Jul 2",
-            "time": "8:00 PM",
-            "homeTeam": "Bradford Tigers 18U A - Team 2",
-            "homeTeamCode": "625723",
-            "awayTeam": "Innisfil Cardinals 18U B",
-            "awayTeamCode": "618049",
-            "location": "Joe Magani Park, 3541 Concession road 11, Bradford, Diamond 5",
-            "isCompleted": true,
-            "score": {
-              "home": 9,
-              "away": 15,
-              "scoreText": "15-9"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Tue, Jul 7",
-            "time": "8:30 PM",
-            "homeTeam": "Innisfil Cardinals 18U B",
-            "homeTeamCode": "618049",
-            "awayTeam": "Bradford Tigers 18U A - Team 1",
-            "awayTeamCode": "617951",
-            "location": "7315 Yonge St, Innisfil ON L9S 2M6, North Diamond",
-            "isCompleted": true,
-            "score": {
-              "home": 0,
-              "away": 7,
-              "scoreText": "7-0"
-            }
-          },
           {
             "date": null,
             "dateText": "Tue, Jul 14",
@@ -830,10 +798,42 @@
               "away": 9,
               "scoreText": "9-1"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sun, Jul 26",
+            "time": "8:30 PM",
+            "homeTeam": "Innisfil Cardinals 18U B",
+            "homeTeamCode": "618049",
+            "awayTeam": "Stayner 18U C",
+            "awayTeamCode": "617169",
+            "location": "7315 Yonge St, Innisfil ON L9S 2M6, North Diamond",
+            "isCompleted": true,
+            "score": {
+              "home": 2,
+              "away": 9,
+              "scoreText": "9-2"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Tue, Jul 28",
+            "time": "6:00 PM",
+            "homeTeam": "Stayner 18U C",
+            "homeTeamCode": "617169",
+            "awayTeam": "Innisfil Cardinals 18U B",
+            "awayTeamCode": "618049",
+            "location": "5212 County Rd 9, New Lowell, ON L0M 1N0",
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 6,
+              "scoreText": "6-5"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-29T02:04:13.063Z"
+        "lastUpdated": "2026-07-29T05:31:34.934Z"
       },
       "618063": {
         "teamCode": "618063",
@@ -923,7 +923,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-29T02:04:13.063Z"
+        "lastUpdated": "2026-07-29T05:31:34.934Z"
       },
       "618388": {
         "teamCode": "618388",
@@ -1013,7 +1013,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-29T02:04:13.063Z"
+        "lastUpdated": "2026-07-29T05:31:34.934Z"
       },
       "625723": {
         "teamCode": "625723",
@@ -1103,7 +1103,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-29T02:04:13.063Z"
+        "lastUpdated": "2026-07-29T05:31:34.934Z"
       },
       "628939": {
         "teamCode": "628939",
@@ -1193,7 +1193,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-29T02:04:13.063Z"
+        "lastUpdated": "2026-07-29T05:31:34.934Z"
       }
     },
     "allGames": [
@@ -2575,18 +2575,6 @@
       },
       {
         "date": null,
-        "dateText": "Tue, Jul 21",
-        "time": "8:30 PM",
-        "homeTeam": "Innisfil Cardinals 18U B",
-        "homeTeamCode": "618049",
-        "awayTeam": "Stayner 18U C",
-        "awayTeamCode": "617169",
-        "location": "7315 Yonge St, Innisfil ON L9S 2M6, North Diamond",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": null,
         "dateText": "Wed, Jul 22",
         "time": "6:30 PM",
         "homeTeam": "Barrie Baycats 17U A",
@@ -2727,6 +2715,22 @@
       },
       {
         "date": null,
+        "dateText": "Sun, Jul 26",
+        "time": "8:30 PM",
+        "homeTeam": "Innisfil Cardinals 18U B",
+        "homeTeamCode": "618049",
+        "awayTeam": "Stayner 18U C",
+        "awayTeamCode": "617169",
+        "location": "7315 Yonge St, Innisfil ON L9S 2M6, North Diamond",
+        "isCompleted": true,
+        "score": {
+          "home": 2,
+          "away": 9,
+          "scoreText": "9-2"
+        }
+      },
+      {
+        "date": null,
         "dateText": "Tue, Jul 28",
         "time": "6:00 PM",
         "homeTeam": "Stayner 18U C",
@@ -2734,8 +2738,12 @@
         "awayTeam": "Innisfil Cardinals 18U B",
         "awayTeamCode": "618049",
         "location": "5212 County Rd 9, New Lowell, ON L0M 1N0",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 5,
+          "away": 6,
+          "scoreText": "6-5"
+        }
       }
     ],
     "recentGames": [
@@ -2901,14 +2909,14 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-07-29T02:04:13.063Z",
+    "lastUpdated": "2026-07-29T05:31:34.934Z",
     "totalGames": 99
   },
   "summary": {
     "totalTeams": 11,
     "totalGames": 99,
-    "completedGames": 88,
-    "upcomingGames": 11,
+    "completedGames": 90,
+    "upcomingGames": 9,
     "topTeam": {
       "team": "Barrie Baycats 18U A",
       "teamCode": "612795",
@@ -2925,6 +2933,6 @@
       "date": "Thu, Jul 23",
       "location": "Joe Magani Park, 3541 Concession road 11, Bradford, Diamond 5"
     },
-    "lastUpdated": "2026-07-29T02:05:28.294Z"
+    "lastUpdated": "2026-07-29T05:32:53.300Z"
   }
 }
