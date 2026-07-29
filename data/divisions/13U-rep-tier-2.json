@@ -20,7 +20,7 @@
         }
       },
       {
-        "position": 2,
+        "position": 3,
         "team": "Thornhill Reds 13U AA",
         "teamCode": "617990",
         "record": {
@@ -38,21 +38,21 @@
         }
       },
       {
-        "position": 3,
+        "position": 2,
         "team": "Newmarket Hawks 13U AA",
         "teamCode": "617909",
         "record": {
-          "gamesPlayed": 15,
-          "wins": 9,
+          "gamesPlayed": 17,
+          "wins": 11,
           "losses": 5,
           "ties": 1,
-          "winPercentage": "0.633"
+          "winPercentage": "0.676"
         },
         "stats": {
-          "points": 19,
-          "runsFor": 120,
-          "runsAgainst": 96,
-          "runDifferential": 24
+          "points": 23,
+          "runsFor": 130,
+          "runsAgainst": 101,
+          "runDifferential": 29
         }
       },
       {
@@ -78,17 +78,17 @@
         "team": "Caledon Nationals 13U AA",
         "teamCode": "618466",
         "record": {
-          "gamesPlayed": 15,
-          "wins": 5,
+          "gamesPlayed": 16,
+          "wins": 6,
           "losses": 9,
           "ties": 1,
-          "winPercentage": "0.367"
+          "winPercentage": "0.406"
         },
         "stats": {
-          "points": 11,
-          "runsFor": 137,
-          "runsAgainst": 141,
-          "runDifferential": -4
+          "points": 13,
+          "runsFor": 147,
+          "runsAgainst": 146,
+          "runDifferential": 1
         }
       },
       {
@@ -96,17 +96,17 @@
         "team": "Barrie Baycats 13U AA",
         "teamCode": "612786",
         "record": {
-          "gamesPlayed": 14,
+          "gamesPlayed": 15,
           "wins": 3,
-          "losses": 10,
+          "losses": 11,
           "ties": 1,
-          "winPercentage": "0.250"
+          "winPercentage": "0.233"
         },
         "stats": {
           "points": 7,
-          "runsFor": 97,
-          "runsAgainst": 191,
-          "runDifferential": -94
+          "runsFor": 102,
+          "runsAgainst": 201,
+          "runDifferential": -99
         }
       },
       {
@@ -114,21 +114,21 @@
         "team": "Richmond Hill Phoenix 13U AA",
         "teamCode": "617853",
         "record": {
-          "gamesPlayed": 15,
+          "gamesPlayed": 17,
           "wins": 2,
-          "losses": 12,
+          "losses": 14,
           "ties": 1,
-          "winPercentage": "0.167"
+          "winPercentage": "0.147"
         },
         "stats": {
           "points": 5,
-          "runsFor": 91,
-          "runsAgainst": 147,
-          "runDifferential": -56
+          "runsFor": 96,
+          "runsAgainst": 157,
+          "runDifferential": -61
         }
       }
     ],
-    "lastUpdated": "2026-07-29T11:03:18.670Z",
+    "lastUpdated": "2026-07-29T13:14:55.393Z",
     "totalTeams": 7
   },
   "schedule": {
@@ -136,25 +136,9 @@
       "612786": {
         "teamCode": "612786",
         "totalGames": 18,
-        "playedGames": 14,
+        "playedGames": 15,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Tue, Jun 30",
-            "time": "6:00 PM",
-            "homeTeam": "Newmarket Hawks 13U AA",
-            "homeTeamCode": "617909",
-            "awayTeam": "Barrie Baycats 13U AA",
-            "awayTeamCode": "612786",
-            "location": "Armstrong #2",
-            "isCompleted": true,
-            "score": {
-              "home": 11,
-              "away": 2,
-              "scoreText": "2-11"
-            }
-          },
           {
             "date": null,
             "dateText": "Tue, Jul 7",
@@ -218,33 +202,33 @@
               "away": 3,
               "scoreText": "3-13"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Tue, Jul 28",
+            "time": "6:30 PM",
+            "homeTeam": "Barrie Baycats 13U AA",
+            "homeTeamCode": "612786",
+            "awayTeam": "Caledon Nationals 13U AA",
+            "awayTeamCode": "618466",
+            "location": "Barrie Sports Complex #13",
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 10,
+              "scoreText": "10-5"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-29T11:03:22.798Z"
+        "lastUpdated": "2026-07-29T13:14:59.803Z"
       },
       "612787": {
         "teamCode": "612787",
         "totalGames": 20,
-        "playedGames": 16,
+        "playedGames": 17,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Thu, Jul 2",
-            "time": "6:30 PM",
-            "homeTeam": "Richmond Hill Phoenix 13U A",
-            "homeTeamCode": "617854",
-            "awayTeam": "Barrie Baycats 13U A",
-            "awayTeamCode": "612787",
-            "location": "David Hamilton Park",
-            "isCompleted": true,
-            "score": {
-              "home": 11,
-              "away": 10,
-              "scoreText": "10-11"
-            }
-          },
           {
             "date": null,
             "dateText": "Mon, Jul 6",
@@ -308,81 +292,33 @@
               "away": 6,
               "scoreText": "6-7"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Tue, Jul 28",
+            "time": "6:30 PM",
+            "homeTeam": "Innisfil Cardinals 13U A",
+            "homeTeamCode": "618045",
+            "awayTeam": "Barrie Baycats 13U A",
+            "awayTeamCode": "612787",
+            "location": "Stroud Community Centre",
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 6,
+              "scoreText": "6-8"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-29T11:03:22.798Z"
+        "lastUpdated": "2026-07-29T13:14:59.803Z"
       },
       "617180": {
         "teamCode": "617180",
         "totalGames": 20,
-        "playedGames": 12,
+        "playedGames": 16,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Wed, Jun 10",
-            "time": "6:00 PM",
-            "homeTeam": "Orillia 13U B",
-            "homeTeamCode": "618384",
-            "awayTeam": "Vaughan Vikings 13U A",
-            "awayTeamCode": "617180",
-            "location": "Franklin Carmichael Park",
-            "isCompleted": true,
-            "score": {
-              "home": 13,
-              "away": 3,
-              "scoreText": "3-13"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Mon, Jun 15",
-            "time": "8:30 PM",
-            "homeTeam": "Vaughan Vikings 13U A",
-            "homeTeamCode": "617180",
-            "awayTeam": "Markham Mariners 13U A",
-            "awayTeamCode": "617882",
-            "location": "Maple Community Centre",
-            "isCompleted": true,
-            "score": {
-              "home": 4,
-              "away": 14,
-              "scoreText": "14-4"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Mon, Jun 22",
-            "time": "8:30 PM",
-            "homeTeam": "Vaughan Vikings 13U A",
-            "homeTeamCode": "617180",
-            "awayTeam": "Orillia 13U B",
-            "awayTeamCode": "618384",
-            "location": "Maple Community Centre",
-            "isCompleted": true,
-            "score": {
-              "home": 9,
-              "away": 10,
-              "scoreText": "10-9"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Tue, Jun 23",
-            "time": "6:30 PM",
-            "homeTeam": "Thornhill Reds 13U A",
-            "homeTeamCode": "617989",
-            "awayTeam": "Vaughan Vikings 13U A",
-            "awayTeamCode": "617180",
-            "location": "Bayview Reservoir Park",
-            "isCompleted": true,
-            "score": {
-              "home": 13,
-              "away": 9,
-              "scoreText": "9-13"
-            }
-          },
           {
             "date": null,
             "dateText": "Mon, Jun 29",
@@ -398,10 +334,74 @@
               "away": 12,
               "scoreText": "12-11"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, Jul 13",
+            "time": "8:30 PM",
+            "homeTeam": "Vaughan Vikings 13U A",
+            "homeTeamCode": "617180",
+            "awayTeam": "Richmond Hill Phoenix 13U A",
+            "awayTeamCode": "617854",
+            "location": "Maple Community Centre",
+            "isCompleted": true,
+            "score": {
+              "home": 1,
+              "away": 18,
+              "scoreText": "18-1"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, Jul 20",
+            "time": "8:30 PM",
+            "homeTeam": "Vaughan Vikings 13U A",
+            "homeTeamCode": "617180",
+            "awayTeam": "Innisfil Cardinals 13U A",
+            "awayTeamCode": "618045",
+            "location": "Maple Community Centre",
+            "isCompleted": true,
+            "score": {
+              "home": 0,
+              "away": 14,
+              "scoreText": "14-0"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Wed, Jul 22",
+            "time": "8:30 PM",
+            "homeTeam": "Vaughan Vikings 13U A",
+            "homeTeamCode": "617180",
+            "awayTeam": "Thornhill Reds 13U A",
+            "awayTeamCode": "617989",
+            "location": "Maple Community Centre",
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 6,
+              "scoreText": "6-7"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, Jul 27",
+            "time": "7:30 PM",
+            "homeTeam": "Orangeville Bengals 13U A",
+            "homeTeamCode": "618023",
+            "awayTeam": "Vaughan Vikings 13U A",
+            "awayTeamCode": "617180",
+            "location": "Barbour Field",
+            "isCompleted": true,
+            "score": {
+              "home": 17,
+              "away": 7,
+              "scoreText": "7-17"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-29T11:03:22.798Z"
+        "lastUpdated": "2026-07-29T13:14:59.803Z"
       },
       "617206": {
         "teamCode": "617206",
@@ -491,46 +491,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-29T11:03:22.798Z"
+        "lastUpdated": "2026-07-29T13:14:59.803Z"
       },
       "617853": {
         "teamCode": "617853",
         "totalGames": 18,
-        "playedGames": 15,
+        "playedGames": 17,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Wed, Jul 1",
-            "time": "6:30 PM",
-            "homeTeam": "Aurora-King Jays 13U AA",
-            "homeTeamCode": "617975",
-            "awayTeam": "Richmond Hill Phoenix 13U AA",
-            "awayTeamCode": "617853",
-            "location": "Hallmark Park #1",
-            "isCompleted": true,
-            "score": {
-              "home": 13,
-              "away": 2,
-              "scoreText": "2-13"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Mon, Jul 6",
-            "time": "6:30 PM",
-            "homeTeam": "Thornhill Reds 13U AA",
-            "homeTeamCode": "617990",
-            "awayTeam": "Richmond Hill Phoenix 13U AA",
-            "awayTeamCode": "617853",
-            "location": "Thornhill",
-            "isCompleted": true,
-            "score": {
-              "home": 16,
-              "away": 5,
-              "scoreText": "5-16"
-            }
-          },
           {
             "date": null,
             "dateText": "Wed, Jul 8",
@@ -578,229 +546,229 @@
               "away": 0,
               "scoreText": "0-14"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Tue, Jul 28",
+            "time": "7:00 PM",
+            "homeTeam": "Richmond Hill Phoenix 13U AA",
+            "homeTeamCode": "617853",
+            "awayTeam": "Newmarket Hawks 13U AA",
+            "awayTeamCode": "617909",
+            "location": "David Hamilton #2",
+            "isCompleted": true,
+            "score": {
+              "home": 2,
+              "away": 3,
+              "scoreText": "3-2"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Tue, Jul 28",
+            "time": "7:00 PM",
+            "homeTeam": "Richmond Hill Phoenix 13U AA",
+            "homeTeamCode": "617853",
+            "awayTeam": "Newmarket Hawks 13U AA",
+            "awayTeamCode": "617909",
+            "location": "David Hamilton #2",
+            "isCompleted": true,
+            "score": {
+              "home": 3,
+              "away": 7,
+              "scoreText": "7-3"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-29T11:03:22.798Z"
+        "lastUpdated": "2026-07-29T13:14:59.803Z"
       },
       "617854": {
         "teamCode": "617854",
         "totalGames": 20,
-        "playedGames": 15,
+        "playedGames": 20,
         "upcomingGames": 0,
         "recentGames": [
           {
             "date": null,
-            "dateText": "Tue, Jun 23",
-            "time": "6:30 PM",
-            "homeTeam": "Aurora-King Jays 13U A",
-            "homeTeamCode": "617976",
-            "awayTeam": "Richmond Hill Phoenix 13U A",
-            "awayTeamCode": "617854",
-            "location": "Hallmark Park",
-            "isCompleted": true,
-            "score": {
-              "home": 20,
-              "away": 7,
-              "scoreText": "7-20"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Sat, Jun 27",
-            "time": "10:00 AM",
-            "homeTeam": "TNT Thunder 13U A",
-            "homeTeamCode": "618060",
-            "awayTeam": "Richmond Hill Phoenix 13U A",
-            "awayTeamCode": "617854",
-            "location": "Coventry Park",
-            "isCompleted": true,
-            "score": {
-              "home": 8,
-              "away": 4,
-              "scoreText": "4-8"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Thu, Jul 2",
+            "dateText": "Thu, Jul 9",
             "time": "6:30 PM",
             "homeTeam": "Richmond Hill Phoenix 13U A",
             "homeTeamCode": "617854",
-            "awayTeam": "Barrie Baycats 13U A",
-            "awayTeamCode": "612787",
-            "location": "David Hamilton Park",
-            "isCompleted": true,
-            "score": {
-              "home": 11,
-              "away": 10,
-              "scoreText": "10-11"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Wed, Jul 8",
-            "time": "6:30 PM",
-            "homeTeam": "Richmond Hill Phoenix 13U A",
-            "homeTeamCode": "617854",
-            "awayTeam": "Aurora-King Jays 13U A",
-            "awayTeamCode": "617976",
-            "location": "David Hamilton Park",
-            "isCompleted": true,
-            "score": {
-              "home": 18,
-              "away": 7,
-              "scoreText": "7-18"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Wed, Jul 8",
-            "time": "6:30 PM",
-            "homeTeam": "Markham Mariners 13U A",
-            "homeTeamCode": "617882",
-            "awayTeam": "Richmond Hill Phoenix 13U A",
-            "awayTeamCode": "617854",
-            "location": "Berczy Park South",
-            "isCompleted": true,
-            "score": {
-              "home": 21,
-              "away": 10,
-              "scoreText": "10-21"
-            }
-          }
-        ],
-        "nextGames": [],
-        "lastUpdated": "2026-07-29T11:03:22.798Z"
-      },
-      "617882": {
-        "teamCode": "617882",
-        "totalGames": 20,
-        "playedGames": 13,
-        "upcomingGames": 0,
-        "recentGames": [
-          {
-            "date": null,
-            "dateText": "Mon, Jun 15",
-            "time": "8:30 PM",
-            "homeTeam": "Vaughan Vikings 13U A",
-            "homeTeamCode": "617180",
-            "awayTeam": "Markham Mariners 13U A",
-            "awayTeamCode": "617882",
-            "location": "Maple Community Centre",
-            "isCompleted": true,
-            "score": {
-              "home": 4,
-              "away": 14,
-              "scoreText": "14-4"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Wed, Jun 17",
-            "time": "6:30 PM",
-            "homeTeam": "Markham Mariners 13U A",
-            "homeTeamCode": "617882",
             "awayTeam": "Orangeville Bengals 13U A",
             "awayTeamCode": "618023",
-            "location": "Berczy Park South",
-            "isCompleted": true,
-            "score": {
-              "home": 12,
-              "away": 10,
-              "scoreText": "10-12"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Mon, Jun 22",
-            "time": "7:30 PM",
-            "homeTeam": "Orangeville Bengals 13U A",
-            "homeTeamCode": "618023",
-            "awayTeam": "Markham Mariners 13U A",
-            "awayTeamCode": "617882",
-            "location": "Barbour Field",
+            "location": "David Hamilton Park",
             "isCompleted": true,
             "score": {
               "home": 9,
-              "away": 10,
-              "scoreText": "10-9"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Mon, Jul 6",
-            "time": "6:00 PM",
-            "homeTeam": "Barrie Baycats 13U A",
-            "homeTeamCode": "612787",
-            "awayTeam": "Markham Mariners 13U A",
-            "awayTeamCode": "617882",
-            "location": "Sandringham Park",
-            "isCompleted": true,
-            "score": {
-              "home": 5,
-              "away": 10,
-              "scoreText": "10-5"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Wed, Jul 8",
-            "time": "6:30 PM",
-            "homeTeam": "Markham Mariners 13U A",
-            "homeTeamCode": "617882",
-            "awayTeam": "Richmond Hill Phoenix 13U A",
-            "awayTeamCode": "617854",
-            "location": "Berczy Park South",
-            "isCompleted": true,
-            "score": {
-              "home": 21,
-              "away": 10,
-              "scoreText": "10-21"
-            }
-          }
-        ],
-        "nextGames": [],
-        "lastUpdated": "2026-07-29T11:03:22.798Z"
-      },
-      "617909": {
-        "teamCode": "617909",
-        "totalGames": 18,
-        "playedGames": 15,
-        "upcomingGames": 0,
-        "recentGames": [
-          {
-            "date": null,
-            "dateText": "Tue, Jul 7",
-            "time": "6:00 PM",
-            "homeTeam": "Newmarket Hawks 13U AA",
-            "homeTeamCode": "617909",
-            "awayTeam": "Stouffville 13U AA",
-            "awayTeamCode": "617206",
-            "location": "Armstrong #2",
-            "isCompleted": true,
-            "score": {
-              "home": 9,
-              "away": 11,
-              "scoreText": "11-9"
+              "away": 21,
+              "scoreText": "21-9"
             }
           },
           {
             "date": null,
             "dateText": "Mon, Jul 13",
+            "time": "8:30 PM",
+            "homeTeam": "Vaughan Vikings 13U A",
+            "homeTeamCode": "617180",
+            "awayTeam": "Richmond Hill Phoenix 13U A",
+            "awayTeamCode": "617854",
+            "location": "Maple Community Centre",
+            "isCompleted": true,
+            "score": {
+              "home": 1,
+              "away": 18,
+              "scoreText": "18-1"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Thu, Jul 16",
             "time": "6:30 PM",
-            "homeTeam": "Thornhill Reds 13U AA",
-            "homeTeamCode": "617990",
-            "awayTeam": "Newmarket Hawks 13U AA",
-            "awayTeamCode": "617909",
-            "location": "Bishops Cross",
+            "homeTeam": "Richmond Hill Phoenix 13U A",
+            "homeTeamCode": "617854",
+            "awayTeam": "TNT Thunder 13U A",
+            "awayTeamCode": "618060",
+            "location": "David Hamilton Park",
             "isCompleted": true,
             "score": {
               "home": 5,
-              "away": 7,
-              "scoreText": "7-5"
+              "away": 2,
+              "scoreText": "2-5"
             }
           },
+          {
+            "date": null,
+            "dateText": "Tue, Jul 21",
+            "time": "6:30 PM",
+            "homeTeam": "Innisfil Cardinals 13U A",
+            "homeTeamCode": "618045",
+            "awayTeam": "Richmond Hill Phoenix 13U A",
+            "awayTeamCode": "617854",
+            "location": "Stroud Community Centre",
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 7,
+              "scoreText": "7-12"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Thu, Jul 23",
+            "time": "6:30 PM",
+            "homeTeam": "Richmond Hill Phoenix 13U A",
+            "homeTeamCode": "617854",
+            "awayTeam": "Markham Mariners 13U A",
+            "awayTeamCode": "617882",
+            "location": "David Hamilton Park",
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 24,
+              "scoreText": "24-9"
+            }
+          }
+        ],
+        "nextGames": [],
+        "lastUpdated": "2026-07-29T13:14:59.803Z"
+      },
+      "617882": {
+        "teamCode": "617882",
+        "totalGames": 20,
+        "playedGames": 18,
+        "upcomingGames": 0,
+        "recentGames": [
+          {
+            "date": null,
+            "dateText": "Wed, Jul 8",
+            "time": "6:30 PM",
+            "homeTeam": "Markham Mariners 13U A",
+            "homeTeamCode": "617882",
+            "awayTeam": "Richmond Hill Phoenix 13U A",
+            "awayTeamCode": "617854",
+            "location": "Berczy Park South",
+            "isCompleted": true,
+            "score": {
+              "home": 21,
+              "away": 10,
+              "scoreText": "10-21"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Tue, Jul 14",
+            "time": "6:30 PM",
+            "homeTeam": "Innisfil Cardinals 13U A",
+            "homeTeamCode": "618045",
+            "awayTeam": "Markham Mariners 13U A",
+            "awayTeamCode": "617882",
+            "location": "Stroud Community Centre",
+            "isCompleted": true,
+            "score": {
+              "home": 20,
+              "away": 10,
+              "scoreText": "10-20"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Wed, Jul 15",
+            "time": "6:30 PM",
+            "homeTeam": "Markham Mariners 13U A",
+            "homeTeamCode": "617882",
+            "awayTeam": "Aurora-King Jays 13U A",
+            "awayTeamCode": "617976",
+            "location": "Berczy Park South",
+            "isCompleted": true,
+            "score": {
+              "home": 17,
+              "away": 7,
+              "scoreText": "7-17"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Wed, Jul 22",
+            "time": "6:30 PM",
+            "homeTeam": "Markham Mariners 13U A",
+            "homeTeamCode": "617882",
+            "awayTeam": "Innisfil Cardinals 13U A",
+            "awayTeamCode": "618045",
+            "location": "Berczy Park South",
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 4,
+              "scoreText": "4-10"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Thu, Jul 23",
+            "time": "6:30 PM",
+            "homeTeam": "Richmond Hill Phoenix 13U A",
+            "homeTeamCode": "617854",
+            "awayTeam": "Markham Mariners 13U A",
+            "awayTeamCode": "617882",
+            "location": "David Hamilton Park",
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 24,
+              "scoreText": "24-9"
+            }
+          }
+        ],
+        "nextGames": [],
+        "lastUpdated": "2026-07-29T13:14:59.803Z"
+      },
+      "617909": {
+        "teamCode": "617909",
+        "totalGames": 18,
+        "playedGames": 17,
+        "upcomingGames": 0,
+        "recentGames": [
           {
             "date": null,
             "dateText": "Fri, Jul 17",
@@ -848,10 +816,42 @@
               "away": 3,
               "scoreText": "3-13"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Tue, Jul 28",
+            "time": "7:00 PM",
+            "homeTeam": "Richmond Hill Phoenix 13U AA",
+            "homeTeamCode": "617853",
+            "awayTeam": "Newmarket Hawks 13U AA",
+            "awayTeamCode": "617909",
+            "location": "David Hamilton #2",
+            "isCompleted": true,
+            "score": {
+              "home": 2,
+              "away": 3,
+              "scoreText": "3-2"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Tue, Jul 28",
+            "time": "7:00 PM",
+            "homeTeam": "Richmond Hill Phoenix 13U AA",
+            "homeTeamCode": "617853",
+            "awayTeam": "Newmarket Hawks 13U AA",
+            "awayTeamCode": "617909",
+            "location": "David Hamilton #2",
+            "isCompleted": true,
+            "score": {
+              "home": 3,
+              "away": 7,
+              "scoreText": "7-3"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-29T11:03:22.798Z"
+        "lastUpdated": "2026-07-29T13:14:59.803Z"
       },
       "617975": {
         "teamCode": "617975",
@@ -941,30 +941,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-29T11:03:22.798Z"
+        "lastUpdated": "2026-07-29T13:14:59.803Z"
       },
       "617976": {
         "teamCode": "617976",
         "totalGames": 20,
-        "playedGames": 17,
+        "playedGames": 18,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Tue, Jun 30",
-            "time": "6:30 PM",
-            "homeTeam": "Innisfil Cardinals 13U A",
-            "homeTeamCode": "618045",
-            "awayTeam": "Aurora-King Jays 13U A",
-            "awayTeamCode": "617976",
-            "location": "Stroud Community Centre",
-            "isCompleted": true,
-            "score": {
-              "home": 9,
-              "away": 14,
-              "scoreText": "14-9"
-            }
-          },
           {
             "date": null,
             "dateText": "Wed, Jul 8",
@@ -1028,33 +1012,33 @@
               "away": 3,
               "scoreText": "3-13"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Wed, Jul 15",
+            "time": "6:30 PM",
+            "homeTeam": "Markham Mariners 13U A",
+            "homeTeamCode": "617882",
+            "awayTeam": "Aurora-King Jays 13U A",
+            "awayTeamCode": "617976",
+            "location": "Berczy Park South",
+            "isCompleted": true,
+            "score": {
+              "home": 17,
+              "away": 7,
+              "scoreText": "7-17"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-29T11:03:22.798Z"
+        "lastUpdated": "2026-07-29T13:14:59.803Z"
       },
       "617989": {
         "teamCode": "617989",
         "totalGames": 20,
-        "playedGames": 14,
+        "playedGames": 15,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Wed, Jul 8",
-            "time": "6:30 PM",
-            "homeTeam": "Barrie Baycats 13U A",
-            "homeTeamCode": "612787",
-            "awayTeam": "Thornhill Reds 13U A",
-            "awayTeamCode": "617989",
-            "location": "Lampman Lane Park",
-            "isCompleted": true,
-            "score": {
-              "home": 13,
-              "away": 11,
-              "scoreText": "11-13"
-            }
-          },
           {
             "date": null,
             "dateText": "Thu, Jul 9",
@@ -1118,10 +1102,26 @@
               "away": 3,
               "scoreText": "3-7"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Wed, Jul 22",
+            "time": "8:30 PM",
+            "homeTeam": "Vaughan Vikings 13U A",
+            "homeTeamCode": "617180",
+            "awayTeam": "Thornhill Reds 13U A",
+            "awayTeamCode": "617989",
+            "location": "Maple Community Centre",
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 6,
+              "scoreText": "6-7"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-29T11:03:22.798Z"
+        "lastUpdated": "2026-07-29T13:14:59.803Z"
       },
       "617990": {
         "teamCode": "617990",
@@ -1211,7 +1211,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-29T11:03:22.798Z"
+        "lastUpdated": "2026-07-29T13:14:59.803Z"
       },
       "618008": {
         "teamCode": "618008",
@@ -1301,46 +1301,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-29T11:03:22.798Z"
+        "lastUpdated": "2026-07-29T13:14:59.803Z"
       },
       "618023": {
         "teamCode": "618023",
         "totalGames": 20,
-        "playedGames": 15,
+        "playedGames": 17,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Mon, Jun 22",
-            "time": "7:30 PM",
-            "homeTeam": "Orangeville Bengals 13U A",
-            "homeTeamCode": "618023",
-            "awayTeam": "Markham Mariners 13U A",
-            "awayTeamCode": "617882",
-            "location": "Barbour Field",
-            "isCompleted": true,
-            "score": {
-              "home": 9,
-              "away": 10,
-              "scoreText": "10-9"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Tue, Jun 23",
-            "time": "6:30 PM",
-            "homeTeam": "Innisfil Cardinals 13U A",
-            "homeTeamCode": "618045",
-            "awayTeam": "Orangeville Bengals 13U A",
-            "awayTeamCode": "618023",
-            "location": "Stroud Community Centre",
-            "isCompleted": true,
-            "score": {
-              "home": 7,
-              "away": 17,
-              "scoreText": "17-7"
-            }
-          },
           {
             "date": null,
             "dateText": "Mon, Jul 6",
@@ -1355,6 +1323,22 @@
               "home": 6,
               "away": 14,
               "scoreText": "14-6"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Thu, Jul 9",
+            "time": "6:30 PM",
+            "homeTeam": "Richmond Hill Phoenix 13U A",
+            "homeTeamCode": "617854",
+            "awayTeam": "Orangeville Bengals 13U A",
+            "awayTeamCode": "618023",
+            "location": "David Hamilton Park",
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 21,
+              "scoreText": "21-9"
             }
           },
           {
@@ -1388,123 +1372,123 @@
               "away": 9,
               "scoreText": "9-1"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Mon, Jul 27",
+            "time": "7:30 PM",
+            "homeTeam": "Orangeville Bengals 13U A",
+            "homeTeamCode": "618023",
+            "awayTeam": "Vaughan Vikings 13U A",
+            "awayTeamCode": "617180",
+            "location": "Barbour Field",
+            "isCompleted": true,
+            "score": {
+              "home": 17,
+              "away": 7,
+              "scoreText": "7-17"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-29T11:03:22.798Z"
+        "lastUpdated": "2026-07-29T13:14:59.803Z"
       },
       "618045": {
         "teamCode": "618045",
         "totalGames": 20,
-        "playedGames": 12,
+        "playedGames": 17,
         "upcomingGames": 0,
         "recentGames": [
           {
             "date": null,
-            "dateText": "Thu, Jun 18",
+            "dateText": "Tue, Jul 14",
             "time": "6:30 PM",
             "homeTeam": "Innisfil Cardinals 13U A",
             "homeTeamCode": "618045",
-            "awayTeam": "Orillia 13U B",
-            "awayTeamCode": "618384",
+            "awayTeam": "Markham Mariners 13U A",
+            "awayTeamCode": "617882",
             "location": "Stroud Community Centre",
             "isCompleted": true,
             "score": {
-              "home": 14,
-              "away": 11,
-              "scoreText": "11-14"
+              "home": 20,
+              "away": 10,
+              "scoreText": "10-20"
             }
           },
           {
             "date": null,
-            "dateText": "Sat, Jun 20",
-            "time": "10:00 AM",
-            "homeTeam": "TNT Thunder 13U A",
-            "homeTeamCode": "618060",
+            "dateText": "Mon, Jul 20",
+            "time": "8:30 PM",
+            "homeTeam": "Vaughan Vikings 13U A",
+            "homeTeamCode": "617180",
             "awayTeam": "Innisfil Cardinals 13U A",
             "awayTeamCode": "618045",
-            "location": "Coventry Park",
+            "location": "Maple Community Centre",
             "isCompleted": true,
             "score": {
-              "home": 9,
-              "away": 11,
-              "scoreText": "11-9"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Tue, Jun 23",
-            "time": "6:30 PM",
-            "homeTeam": "Innisfil Cardinals 13U A",
-            "homeTeamCode": "618045",
-            "awayTeam": "Orangeville Bengals 13U A",
-            "awayTeamCode": "618023",
-            "location": "Stroud Community Centre",
-            "isCompleted": true,
-            "score": {
-              "home": 7,
-              "away": 17,
-              "scoreText": "17-7"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Tue, Jun 30",
-            "time": "6:30 PM",
-            "homeTeam": "Innisfil Cardinals 13U A",
-            "homeTeamCode": "618045",
-            "awayTeam": "Aurora-King Jays 13U A",
-            "awayTeamCode": "617976",
-            "location": "Stroud Community Centre",
-            "isCompleted": true,
-            "score": {
-              "home": 9,
+              "home": 0,
               "away": 14,
-              "scoreText": "14-9"
+              "scoreText": "14-0"
             }
           },
           {
             "date": null,
-            "dateText": "Mon, Jul 6",
-            "time": "7:30 PM",
-            "homeTeam": "Orangeville Bengals 13U A",
-            "homeTeamCode": "618023",
+            "dateText": "Tue, Jul 21",
+            "time": "6:30 PM",
+            "homeTeam": "Innisfil Cardinals 13U A",
+            "homeTeamCode": "618045",
+            "awayTeam": "Richmond Hill Phoenix 13U A",
+            "awayTeamCode": "617854",
+            "location": "Stroud Community Centre",
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 7,
+              "scoreText": "7-12"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Wed, Jul 22",
+            "time": "6:30 PM",
+            "homeTeam": "Markham Mariners 13U A",
+            "homeTeamCode": "617882",
             "awayTeam": "Innisfil Cardinals 13U A",
             "awayTeamCode": "618045",
-            "location": "Barbour Field",
+            "location": "Berczy Park South",
             "isCompleted": true,
             "score": {
-              "home": 6,
-              "away": 14,
-              "scoreText": "14-6"
+              "home": 10,
+              "away": 4,
+              "scoreText": "4-10"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Tue, Jul 28",
+            "time": "6:30 PM",
+            "homeTeam": "Innisfil Cardinals 13U A",
+            "homeTeamCode": "618045",
+            "awayTeam": "Barrie Baycats 13U A",
+            "awayTeamCode": "612787",
+            "location": "Stroud Community Centre",
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 6,
+              "scoreText": "6-8"
             }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-29T11:03:22.798Z"
+        "lastUpdated": "2026-07-29T13:14:59.803Z"
       },
       "618060": {
         "teamCode": "618060",
         "totalGames": 20,
-        "playedGames": 14,
+        "playedGames": 16,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Wed, Jun 24",
-            "time": "6:00 PM",
-            "homeTeam": "Orillia 13U B",
-            "homeTeamCode": "618384",
-            "awayTeam": "TNT Thunder 13U A",
-            "awayTeamCode": "618060",
-            "location": "Franklin Carmichael Park",
-            "isCompleted": true,
-            "score": {
-              "home": 7,
-              "away": 4,
-              "scoreText": "4-7"
-            }
-          },
           {
             "date": null,
             "dateText": "Sat, Jun 27",
@@ -1568,10 +1552,26 @@
               "away": 7,
               "scoreText": "7-7"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Thu, Jul 16",
+            "time": "6:30 PM",
+            "homeTeam": "Richmond Hill Phoenix 13U A",
+            "homeTeamCode": "617854",
+            "awayTeam": "TNT Thunder 13U A",
+            "awayTeamCode": "618060",
+            "location": "David Hamilton Park",
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 2,
+              "scoreText": "2-5"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-29T11:03:22.798Z"
+        "lastUpdated": "2026-07-29T13:14:59.803Z"
       },
       "618384": {
         "teamCode": "618384",
@@ -1661,30 +1661,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-29T11:03:22.798Z"
+        "lastUpdated": "2026-07-29T13:14:59.803Z"
       },
       "618466": {
         "teamCode": "618466",
         "totalGames": 18,
-        "playedGames": 15,
+        "playedGames": 16,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Tue, Jun 30",
-            "time": "7:00 PM",
-            "homeTeam": "Richmond Hill Phoenix 13U AA",
-            "homeTeamCode": "617853",
-            "awayTeam": "Caledon Nationals 13U AA",
-            "awayTeamCode": "618466",
-            "location": "David Hamilton #2",
-            "isCompleted": true,
-            "score": {
-              "home": 0,
-              "away": 11,
-              "scoreText": "11-0"
-            }
-          },
           {
             "date": null,
             "dateText": "Tue, Jul 7",
@@ -1748,10 +1732,26 @@
               "away": 14,
               "scoreText": "14-10"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Tue, Jul 28",
+            "time": "6:30 PM",
+            "homeTeam": "Barrie Baycats 13U AA",
+            "homeTeamCode": "612786",
+            "awayTeam": "Caledon Nationals 13U AA",
+            "awayTeamCode": "618466",
+            "location": "Barrie Sports Complex #13",
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 10,
+              "scoreText": "10-5"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-29T11:03:22.798Z"
+        "lastUpdated": "2026-07-29T13:14:59.803Z"
       }
     },
     "allGames": [
@@ -1988,8 +1988,12 @@
         "awayTeam": "Markham Mariners 13U A",
         "awayTeamCode": "617882",
         "location": "Coventry Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 5,
+          "away": 4,
+          "scoreText": "4-5"
+        }
       },
       {
         "date": null,
@@ -3676,8 +3680,12 @@
         "awayTeam": "Orangeville Bengals 13U A",
         "awayTeamCode": "618023",
         "location": "David Hamilton Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 21,
+          "scoreText": "21-9"
+        }
       },
       {
         "date": null,
@@ -3784,8 +3792,12 @@
         "awayTeam": "Richmond Hill Phoenix 13U A",
         "awayTeamCode": "617854",
         "location": "Maple Community Centre",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 1,
+          "away": 18,
+          "scoreText": "18-1"
+        }
       },
       {
         "date": null,
@@ -3808,8 +3820,12 @@
         "awayTeam": "Markham Mariners 13U A",
         "awayTeamCode": "617882",
         "location": "Stroud Community Centre",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 20,
+          "away": 10,
+          "scoreText": "10-20"
+        }
       },
       {
         "date": null,
@@ -3880,8 +3896,12 @@
         "awayTeam": "Aurora-King Jays 13U A",
         "awayTeamCode": "617976",
         "location": "Berczy Park South",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 17,
+          "away": 7,
+          "scoreText": "7-17"
+        }
       },
       {
         "date": null,
@@ -3928,8 +3948,12 @@
         "awayTeam": "TNT Thunder 13U A",
         "awayTeamCode": "618060",
         "location": "David Hamilton Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 5,
+          "away": 2,
+          "scoreText": "2-5"
+        }
       },
       {
         "date": null,
@@ -4000,8 +4024,12 @@
         "awayTeam": "Innisfil Cardinals 13U A",
         "awayTeamCode": "618045",
         "location": "Maple Community Centre",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 0,
+          "away": 14,
+          "scoreText": "14-0"
+        }
       },
       {
         "date": null,
@@ -4036,8 +4064,12 @@
         "awayTeam": "Richmond Hill Phoenix 13U A",
         "awayTeamCode": "617854",
         "location": "Stroud Community Centre",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 7,
+          "scoreText": "7-12"
+        }
       },
       {
         "date": null,
@@ -4112,8 +4144,12 @@
         "awayTeam": "Innisfil Cardinals 13U A",
         "awayTeamCode": "618045",
         "location": "Berczy Park South",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 4,
+          "scoreText": "4-10"
+        }
       },
       {
         "date": null,
@@ -4124,8 +4160,12 @@
         "awayTeam": "Thornhill Reds 13U A",
         "awayTeamCode": "617989",
         "location": "Maple Community Centre",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 6,
+          "scoreText": "6-7"
+        }
       },
       {
         "date": null,
@@ -4136,8 +4176,12 @@
         "awayTeam": "Markham Mariners 13U A",
         "awayTeamCode": "617882",
         "location": "David Hamilton Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 24,
+          "scoreText": "24-9"
+        }
       },
       {
         "date": null,
@@ -4208,8 +4252,12 @@
         "awayTeam": "Vaughan Vikings 13U A",
         "awayTeamCode": "617180",
         "location": "Barbour Field",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 17,
+          "away": 7,
+          "scoreText": "7-17"
+        }
       },
       {
         "date": null,
@@ -4232,8 +4280,12 @@
         "awayTeam": "Barrie Baycats 13U A",
         "awayTeamCode": "612787",
         "location": "Stroud Community Centre",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 6,
+          "scoreText": "6-8"
+        }
       },
       {
         "date": null,
@@ -4244,8 +4296,12 @@
         "awayTeam": "Caledon Nationals 13U AA",
         "awayTeamCode": "618466",
         "location": "Barrie Sports Complex #13",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 5,
+          "away": 10,
+          "scoreText": "10-5"
+        }
       },
       {
         "date": null,
@@ -4256,8 +4312,12 @@
         "awayTeam": "Newmarket Hawks 13U AA",
         "awayTeamCode": "617909",
         "location": "David Hamilton #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 2,
+          "away": 3,
+          "scoreText": "3-2"
+        }
       },
       {
         "date": null,
@@ -4268,8 +4328,12 @@
         "awayTeam": "Newmarket Hawks 13U AA",
         "awayTeamCode": "617909",
         "location": "David Hamilton #2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 3,
+          "away": 7,
+          "scoreText": "7-3"
+        }
       },
       {
         "date": null,
@@ -4531,14 +4595,14 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-07-29T11:03:22.798Z",
+    "lastUpdated": "2026-07-29T13:14:59.803Z",
     "totalGames": 173
   },
   "summary": {
     "totalTeams": 7,
     "totalGames": 173,
-    "completedGames": 134,
-    "upcomingGames": 39,
+    "completedGames": 150,
+    "upcomingGames": 23,
     "topTeam": {
       "team": "Aurora-King Jays 13U AA",
       "teamCode": "617975",
@@ -4555,6 +4619,6 @@
       "date": "Wed, Jun 24",
       "location": "Barrie Sports Complex #13"
     },
-    "lastUpdated": "2026-07-29T11:06:22.466Z"
+    "lastUpdated": "2026-07-29T13:18:04.027Z"
   }
 }
