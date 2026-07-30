@@ -2,21 +2,21 @@
   "standings": {
     "teams": [
       {
-        "position": 3,
+        "position": 1,
         "team": "Markham Mariners 13U DS Team 1",
         "teamCode": "617893",
         "record": {
-          "gamesPlayed": 14,
-          "wins": 12,
+          "gamesPlayed": 16,
+          "wins": 14,
           "losses": 1,
           "ties": 1,
-          "winPercentage": "0.893"
+          "winPercentage": "0.906"
         },
         "stats": {
-          "points": 25,
-          "runsFor": 163,
-          "runsAgainst": 87,
-          "runDifferential": 76
+          "points": 29,
+          "runsFor": 180,
+          "runsAgainst": 99,
+          "runDifferential": 81
         }
       },
       {
@@ -38,7 +38,7 @@
         }
       },
       {
-        "position": 1,
+        "position": 2,
         "team": "New Lowell Knights 13U DS",
         "teamCode": "618069",
         "record": {
@@ -56,7 +56,7 @@
         }
       },
       {
-        "position": 2,
+        "position": 3,
         "team": "Newmarket Hawks 13U DS",
         "teamCode": "617918",
         "record": {
@@ -110,24 +110,6 @@
         }
       },
       {
-        "position": 8,
-        "team": "Thornhill Reds 13U DS",
-        "teamCode": "618001",
-        "record": {
-          "gamesPlayed": 14,
-          "wins": 9,
-          "losses": 5,
-          "ties": 0,
-          "winPercentage": "0.643"
-        },
-        "stats": {
-          "points": 18,
-          "runsFor": 147,
-          "runsAgainst": 114,
-          "runDifferential": 33
-        }
-      },
-      {
         "position": 7,
         "team": "Richmond Hill Phoenix 13U DS",
         "teamCode": "617861",
@@ -160,6 +142,24 @@
           "points": 16,
           "runsFor": 125,
           "runsAgainst": 97,
+          "runDifferential": 28
+        }
+      },
+      {
+        "position": 8,
+        "team": "Thornhill Reds 13U DS",
+        "teamCode": "618001",
+        "record": {
+          "gamesPlayed": 16,
+          "wins": 9,
+          "losses": 7,
+          "ties": 0,
+          "winPercentage": "0.563"
+        },
+        "stats": {
+          "points": 18,
+          "runsFor": 159,
+          "runsAgainst": 131,
           "runDifferential": 28
         }
       },
@@ -272,7 +272,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-07-30T12:17:42.992Z",
+    "lastUpdated": "2026-07-30T16:27:07.111Z",
     "totalTeams": 15
   },
   "schedule": {
@@ -365,7 +365,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-30T12:17:47.184Z"
+        "lastUpdated": "2026-07-30T16:27:11.512Z"
       },
       "617191": {
         "teamCode": "617191",
@@ -455,7 +455,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-30T12:17:47.184Z"
+        "lastUpdated": "2026-07-30T16:27:11.512Z"
       },
       "617861": {
         "teamCode": "617861",
@@ -545,46 +545,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-30T12:17:47.184Z"
+        "lastUpdated": "2026-07-30T16:27:11.512Z"
       },
       "617893": {
         "teamCode": "617893",
         "totalGames": 16,
-        "playedGames": 14,
+        "playedGames": 16,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sat, Jun 13",
-            "time": "2:00 PM",
-            "homeTeam": "Markham Mariners 13U DS Team 1",
-            "homeTeamCode": "617893",
-            "awayTeam": "Newmarket Hawks 13U DS",
-            "awayTeamCode": "617918",
-            "location": "Milliken Mills #2",
-            "isCompleted": true,
-            "score": {
-              "home": 3,
-              "away": 9,
-              "scoreText": "9-3"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Sun, Jul 19",
-            "time": "1:00 PM",
-            "homeTeam": "Caledon Nationals 13U HS",
-            "homeTeamCode": "618475",
-            "awayTeam": "Markham Mariners 13U DS Team 1",
-            "awayTeamCode": "617893",
-            "location": "North Hill Park #1",
-            "isCompleted": true,
-            "score": {
-              "home": 14,
-              "away": 14,
-              "scoreText": "14-14"
-            }
-          },
           {
             "date": null,
             "dateText": "Sun, Jul 19",
@@ -632,10 +600,42 @@
               "away": 2,
               "scoreText": "2-18"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Wed, Jul 29",
+            "time": "6:00 PM",
+            "homeTeam": "Thornhill Reds 13U DS",
+            "homeTeamCode": "618001",
+            "awayTeam": "Markham Mariners 13U DS Team 1",
+            "awayTeamCode": "617893",
+            "location": "Bishops Cross (small field)",
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 11,
+              "scoreText": "11-7"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Wed, Jul 29",
+            "time": "8:30 PM",
+            "homeTeam": "Thornhill Reds 13U DS",
+            "homeTeamCode": "618001",
+            "awayTeam": "Markham Mariners 13U DS Team 1",
+            "awayTeamCode": "617893",
+            "location": "Bishops Cross (small field)",
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 6,
+              "scoreText": "6-5"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-30T12:17:47.184Z"
+        "lastUpdated": "2026-07-30T16:27:11.512Z"
       },
       "617894": {
         "teamCode": "617894",
@@ -725,7 +725,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-30T12:17:47.184Z"
+        "lastUpdated": "2026-07-30T16:27:11.512Z"
       },
       "617918": {
         "teamCode": "617918",
@@ -815,46 +815,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-30T12:17:47.184Z"
+        "lastUpdated": "2026-07-30T16:27:11.512Z"
       },
       "618001": {
         "teamCode": "618001",
         "totalGames": 16,
-        "playedGames": 14,
+        "playedGames": 16,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sat, Jun 20",
-            "time": "3:00 PM",
-            "homeTeam": "Newmarket Hawks 13U DS",
-            "homeTeamCode": "617918",
-            "awayTeam": "Thornhill Reds 13U DS",
-            "awayTeamCode": "618001",
-            "location": "Fairgrounds Park - Diamond #1",
-            "isCompleted": true,
-            "score": {
-              "home": 17,
-              "away": 8,
-              "scoreText": "8-17"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Sat, Jul 11",
-            "time": "9:00 AM",
-            "homeTeam": "Thornhill Reds 13U DS",
-            "homeTeamCode": "618001",
-            "awayTeam": "Richmond Hill Phoenix 13U DS",
-            "awayTeamCode": "617861",
-            "location": "Bishops Cross (small field)",
-            "isCompleted": true,
-            "score": {
-              "home": 15,
-              "away": 13,
-              "scoreText": "13-15"
-            }
-          },
           {
             "date": null,
             "dateText": "Sat, Jul 11",
@@ -902,10 +870,42 @@
               "away": 8,
               "scoreText": "8-2"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Wed, Jul 29",
+            "time": "6:00 PM",
+            "homeTeam": "Thornhill Reds 13U DS",
+            "homeTeamCode": "618001",
+            "awayTeam": "Markham Mariners 13U DS Team 1",
+            "awayTeamCode": "617893",
+            "location": "Bishops Cross (small field)",
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 11,
+              "scoreText": "11-7"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Wed, Jul 29",
+            "time": "8:30 PM",
+            "homeTeam": "Thornhill Reds 13U DS",
+            "homeTeamCode": "618001",
+            "awayTeam": "Markham Mariners 13U DS Team 1",
+            "awayTeamCode": "617893",
+            "location": "Bishops Cross (small field)",
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 6,
+              "scoreText": "6-5"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-30T12:17:47.184Z"
+        "lastUpdated": "2026-07-30T16:27:11.512Z"
       },
       "618028": {
         "teamCode": "618028",
@@ -995,7 +995,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-30T12:17:47.184Z"
+        "lastUpdated": "2026-07-30T16:27:11.512Z"
       },
       "618054": {
         "teamCode": "618054",
@@ -1085,7 +1085,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-30T12:17:47.184Z"
+        "lastUpdated": "2026-07-30T16:27:11.512Z"
       },
       "618066": {
         "teamCode": "618066",
@@ -1175,7 +1175,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-30T12:17:47.184Z"
+        "lastUpdated": "2026-07-30T16:27:11.512Z"
       },
       "618069": {
         "teamCode": "618069",
@@ -1265,7 +1265,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-30T12:17:47.184Z"
+        "lastUpdated": "2026-07-30T16:27:11.512Z"
       },
       "618392": {
         "teamCode": "618392",
@@ -1355,7 +1355,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-30T12:17:47.184Z"
+        "lastUpdated": "2026-07-30T16:27:11.512Z"
       },
       "618396": {
         "teamCode": "618396",
@@ -1445,7 +1445,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-30T12:17:47.184Z"
+        "lastUpdated": "2026-07-30T16:27:11.512Z"
       },
       "618475": {
         "teamCode": "618475",
@@ -1535,7 +1535,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-30T12:17:47.184Z"
+        "lastUpdated": "2026-07-30T16:27:11.512Z"
       },
       "628935": {
         "teamCode": "628935",
@@ -1625,7 +1625,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-30T12:17:47.184Z"
+        "lastUpdated": "2026-07-30T16:27:11.512Z"
       }
     },
     "allGames": [
@@ -3494,8 +3494,12 @@
         "awayTeam": "Markham Mariners 13U DS Team 1",
         "awayTeamCode": "617893",
         "location": "Bishops Cross (small field)",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 11,
+          "scoreText": "11-7"
+        }
       },
       {
         "date": null,
@@ -3506,8 +3510,12 @@
         "awayTeam": "Markham Mariners 13U DS Team 1",
         "awayTeamCode": "617893",
         "location": "Bishops Cross (small field)",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 5,
+          "away": 6,
+          "scoreText": "6-5"
+        }
       },
       {
         "date": null,
@@ -3697,20 +3705,20 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-07-30T12:17:47.184Z",
+    "lastUpdated": "2026-07-30T16:27:11.512Z",
     "totalGames": 120
   },
   "summary": {
     "totalTeams": 15,
     "totalGames": 120,
-    "completedGames": 116,
-    "upcomingGames": 4,
+    "completedGames": 118,
+    "upcomingGames": 2,
     "topTeam": {
       "team": "Markham Mariners 13U DS Team 1",
       "teamCode": "617893",
-      "wins": 12,
+      "wins": 14,
       "losses": 1,
-      "winPercentage": "0.893"
+      "winPercentage": "0.906"
     },
     "highestScoringGame": {
       "homeTeam": "TNT Thunder 13U DS",
@@ -3721,6 +3729,6 @@
       "date": "Sun, Jul 12",
       "location": "Beeton South Diamond"
     },
-    "lastUpdated": "2026-07-30T12:17:55.469Z"
+    "lastUpdated": "2026-07-30T16:27:19.352Z"
   }
 }
