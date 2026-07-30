@@ -6,17 +6,17 @@
         "team": "Barrie Baycats 15U DS",
         "teamCode": "612800",
         "record": {
-          "gamesPlayed": 10,
-          "wins": 10,
+          "gamesPlayed": 11,
+          "wins": 11,
           "losses": 0,
           "ties": 0,
           "winPercentage": "1.000"
         },
         "stats": {
-          "points": 20,
-          "runsFor": 160,
-          "runsAgainst": 51,
-          "runDifferential": 109
+          "points": 22,
+          "runsFor": 175,
+          "runsAgainst": 59,
+          "runDifferential": 116
         }
       },
       {
@@ -78,21 +78,21 @@
         "team": "New Lowell Knights 15U DS",
         "teamCode": "618070",
         "record": {
-          "gamesPlayed": 12,
+          "gamesPlayed": 13,
           "wins": 1,
-          "losses": 8,
+          "losses": 9,
           "ties": 3,
-          "winPercentage": "0.208"
+          "winPercentage": "0.192"
         },
         "stats": {
           "points": 5,
-          "runsFor": 104,
-          "runsAgainst": 160,
-          "runDifferential": -56
+          "runsFor": 112,
+          "runsAgainst": 175,
+          "runDifferential": -63
         }
       }
     ],
-    "lastUpdated": "2026-07-30T02:06:52.425Z",
+    "lastUpdated": "2026-07-30T05:17:11.786Z",
     "totalTeams": 5
   },
   "schedule": {
@@ -100,25 +100,9 @@
       "612800": {
         "teamCode": "612800",
         "totalGames": 16,
-        "playedGames": 10,
+        "playedGames": 11,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sat, May 30",
-            "time": "12:00 PM",
-            "homeTeam": "Thornhill Reds 15U DS",
-            "homeTeamCode": "618002",
-            "awayTeam": "Barrie Baycats 15U DS",
-            "awayTeamCode": "612800",
-            "location": "Thornhill Park",
-            "isCompleted": true,
-            "score": {
-              "home": 2,
-              "away": 12,
-              "scoreText": "12-2"
-            }
-          },
           {
             "date": null,
             "dateText": "Sat, Jun 13",
@@ -182,10 +166,26 @@
               "away": 18,
               "scoreText": "18-3"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sun, Jul 26",
+            "time": "2:00 PM",
+            "homeTeam": "New Lowell Knights 15U DS",
+            "homeTeamCode": "618070",
+            "awayTeam": "Barrie Baycats 15U DS",
+            "awayTeamCode": "612800",
+            "location": "Stayner- Ives Park",
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 15,
+              "scoreText": "15-8"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-30T02:06:55.150Z"
+        "lastUpdated": "2026-07-30T05:17:14.409Z"
       },
       "617895": {
         "teamCode": "617895",
@@ -275,7 +275,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-30T02:06:55.150Z"
+        "lastUpdated": "2026-07-30T05:17:14.409Z"
       },
       "617919": {
         "teamCode": "617919",
@@ -365,7 +365,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-30T02:06:55.150Z"
+        "lastUpdated": "2026-07-30T05:17:14.409Z"
       },
       "618002": {
         "teamCode": "618002",
@@ -455,30 +455,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-30T02:06:55.150Z"
+        "lastUpdated": "2026-07-30T05:17:14.409Z"
       },
       "618070": {
         "teamCode": "618070",
         "totalGames": 16,
-        "playedGames": 12,
+        "playedGames": 13,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sat, Jun 20",
-            "time": "1:00 PM",
-            "homeTeam": "Markham Mariners 15U DS",
-            "homeTeamCode": "617895",
-            "awayTeam": "New Lowell Knights 15U DS",
-            "awayTeamCode": "618070",
-            "location": "Milliken",
-            "isCompleted": true,
-            "score": {
-              "home": 24,
-              "away": 6,
-              "scoreText": "6-24"
-            }
-          },
           {
             "date": null,
             "dateText": "Sat, Jun 27",
@@ -542,10 +526,26 @@
               "away": 4,
               "scoreText": "4-10"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sun, Jul 26",
+            "time": "2:00 PM",
+            "homeTeam": "New Lowell Knights 15U DS",
+            "homeTeamCode": "618070",
+            "awayTeam": "Barrie Baycats 15U DS",
+            "awayTeamCode": "612800",
+            "location": "Stayner- Ives Park",
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 15,
+              "scoreText": "15-8"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-30T02:06:55.150Z"
+        "lastUpdated": "2026-07-30T05:17:14.409Z"
       }
     },
     "allGames": [
@@ -1006,8 +1006,12 @@
         "awayTeam": "Barrie Baycats 15U DS",
         "awayTeamCode": "612800",
         "location": "Stayner- Ives Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 8,
+          "away": 15,
+          "scoreText": "15-8"
+        }
       },
       {
         "date": null,
@@ -1024,24 +1028,24 @@
       {
         "date": null,
         "dateText": "Sat, Aug 1",
-        "time": "9:30 AM",
+        "time": "11:30 AM",
         "homeTeam": "Thornhill Reds 15U DS",
         "homeTeamCode": "618002",
         "awayTeam": "Markham Mariners 15U DS",
         "awayTeamCode": "617895",
-        "location": "Thornhill Park",
+        "location": "Bishop Cross Diamond",
         "isCompleted": false,
         "score": null
       },
       {
         "date": null,
         "dateText": "Sat, Aug 1",
-        "time": "12:00 PM",
+        "time": "2:00 PM",
         "homeTeam": "Thornhill Reds 15U DS",
         "homeTeamCode": "618002",
         "awayTeam": "Markham Mariners 15U DS",
         "awayTeamCode": "617895",
-        "location": "Thornhill Park",
+        "location": "Bishop Cross Diamond",
         "isCompleted": false,
         "score": null
       },
@@ -1305,18 +1309,18 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-07-30T02:06:55.150Z",
+    "lastUpdated": "2026-07-30T05:17:14.409Z",
     "totalGames": 40
   },
   "summary": {
     "totalTeams": 5,
     "totalGames": 40,
-    "completedGames": 28,
-    "upcomingGames": 12,
+    "completedGames": 29,
+    "upcomingGames": 11,
     "topTeam": {
       "team": "Barrie Baycats 15U DS",
       "teamCode": "612800",
-      "wins": 10,
+      "wins": 11,
       "losses": 0,
       "winPercentage": "1.000"
     },
@@ -1329,6 +1333,6 @@
       "date": "Sat, Jun 20",
       "location": "Milliken"
     },
-    "lastUpdated": "2026-07-30T02:06:56.775Z"
+    "lastUpdated": "2026-07-30T05:17:16.167Z"
   }
 }

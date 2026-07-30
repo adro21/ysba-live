@@ -6,17 +6,17 @@
         "team": "Barrie",
         "teamCode": "892634",
         "record": {
-          "gamesPlayed": 15,
-          "wins": 13,
+          "gamesPlayed": 16,
+          "wins": 14,
           "losses": 2,
           "ties": 0,
-          "winPercentage": "0.867"
+          "winPercentage": "0.875"
         },
         "stats": {
-          "points": 26,
-          "runsFor": 165,
-          "runsAgainst": 94,
-          "runDifferential": 71
+          "points": 28,
+          "runsFor": 182,
+          "runsAgainst": 101,
+          "runDifferential": 81
         }
       },
       {
@@ -42,17 +42,17 @@
         "team": "Newmarket",
         "teamCode": "892637",
         "record": {
-          "gamesPlayed": 19,
+          "gamesPlayed": 20,
           "wins": 13,
-          "losses": 6,
+          "losses": 7,
           "ties": 0,
-          "winPercentage": "0.684"
+          "winPercentage": "0.650"
         },
         "stats": {
           "points": 26,
           "runsFor": 173,
-          "runsAgainst": 136,
-          "runDifferential": 37
+          "runsAgainst": 146,
+          "runDifferential": 27
         }
       },
       {
@@ -110,6 +110,24 @@
         }
       },
       {
+        "position": 7,
+        "team": "Aurora-King",
+        "teamCode": "892642",
+        "record": {
+          "gamesPlayed": 18,
+          "wins": 9,
+          "losses": 9,
+          "ties": 0,
+          "winPercentage": "0.500"
+        },
+        "stats": {
+          "points": 18,
+          "runsFor": 152,
+          "runsAgainst": 146,
+          "runDifferential": 6
+        }
+      },
+      {
         "position": 8,
         "team": "East York",
         "teamCode": "892640",
@@ -125,24 +143,6 @@
           "runsFor": 112,
           "runsAgainst": 89,
           "runDifferential": 23
-        }
-      },
-      {
-        "position": 7,
-        "team": "Aurora-King",
-        "teamCode": "892642",
-        "record": {
-          "gamesPlayed": 17,
-          "wins": 8,
-          "losses": 9,
-          "ties": 0,
-          "winPercentage": "0.471"
-        },
-        "stats": {
-          "points": 16,
-          "runsFor": 142,
-          "runsAgainst": 146,
-          "runDifferential": -4
         }
       },
       {
@@ -222,17 +222,17 @@
         "team": "Caledon",
         "teamCode": "892646",
         "record": {
-          "gamesPlayed": 14,
+          "gamesPlayed": 15,
           "wins": 3,
-          "losses": 11,
+          "losses": 12,
           "ties": 0,
-          "winPercentage": "0.214"
+          "winPercentage": "0.200"
         },
         "stats": {
           "points": 6,
-          "runsFor": 99,
-          "runsAgainst": 142,
-          "runDifferential": -43
+          "runsFor": 106,
+          "runsAgainst": 159,
+          "runDifferential": -53
         }
       },
       {
@@ -254,7 +254,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-07-30T02:06:56.227Z",
+    "lastUpdated": "2026-07-30T05:17:15.605Z",
     "totalTeams": 14
   },
   "schedule": {
@@ -408,7 +408,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-30T02:06:56.258Z"
+        "lastUpdated": "2026-07-30T05:17:15.647Z"
       },
       "892634": {
         "teamCode": "892634",
@@ -489,8 +489,12 @@
             "awayTeam": "Barrie",
             "awayTeamCode": "892634",
             "location": "Barrie Sports Complex — Diamond 14 — Minesing",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 17,
+              "scoreText": "17-7"
+            }
           }
         ],
         "nextGames": [
@@ -502,7 +506,7 @@
             "homeTeamCode": "892634",
             "awayTeam": "Bloordale",
             "awayTeamCode": "892638",
-            "location": "Millwood — Diamond 2 — Toronto",
+            "location": "Neilson Park - Etobicoke — Toronto",
             "isCompleted": false,
             "score": null
           },
@@ -555,7 +559,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-30T02:06:56.258Z"
+        "lastUpdated": "2026-07-30T05:17:15.647Z"
       },
       "892636": {
         "teamCode": "892636",
@@ -682,7 +686,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-30T02:06:56.258Z"
+        "lastUpdated": "2026-07-30T05:17:15.647Z"
       },
       "892637": {
         "teamCode": "892637",
@@ -763,8 +767,12 @@
             "awayTeam": "Newmarket",
             "awayTeamCode": "892637",
             "location": "Armstrong — Diamond 1 — Newmarket",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 0,
+              "scoreText": "0-10"
+            }
           }
         ],
         "nextGames": [
@@ -781,7 +789,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-30T02:06:56.258Z"
+        "lastUpdated": "2026-07-30T05:17:15.647Z"
       },
       "892638": {
         "teamCode": "892638",
@@ -879,7 +887,7 @@
             "homeTeamCode": "892634",
             "awayTeam": "Bloordale",
             "awayTeamCode": "892638",
-            "location": "Millwood — Diamond 2 — Toronto",
+            "location": "Neilson Park - Etobicoke — Toronto",
             "isCompleted": false,
             "score": null
           },
@@ -932,7 +940,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-30T02:06:56.258Z"
+        "lastUpdated": "2026-07-30T05:17:15.648Z"
       },
       "892639": {
         "teamCode": "892639",
@@ -1075,7 +1083,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-30T02:06:56.258Z"
+        "lastUpdated": "2026-07-30T05:17:15.648Z"
       },
       "892640": {
         "teamCode": "892640",
@@ -1222,7 +1230,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-30T02:06:56.258Z"
+        "lastUpdated": "2026-07-30T05:17:15.648Z"
       },
       "892642": {
         "teamCode": "892642",
@@ -1299,8 +1307,12 @@
             "awayTeam": "Newmarket",
             "awayTeamCode": "892637",
             "location": "Armstrong — Diamond 1 — Newmarket",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 0,
+              "scoreText": "0-10"
+            }
           }
         ],
         "nextGames": [
@@ -1317,7 +1329,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-30T02:06:56.258Z"
+        "lastUpdated": "2026-07-30T05:17:15.648Z"
       },
       "892643": {
         "teamCode": "892643",
@@ -1464,7 +1476,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-30T02:06:56.258Z"
+        "lastUpdated": "2026-07-30T05:17:15.648Z"
       },
       "892644": {
         "teamCode": "892644",
@@ -1591,7 +1603,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-30T02:06:56.258Z"
+        "lastUpdated": "2026-07-30T05:17:15.648Z"
       },
       "892645": {
         "teamCode": "892645",
@@ -1714,7 +1726,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-30T02:06:56.258Z"
+        "lastUpdated": "2026-07-30T05:17:15.648Z"
       },
       "892646": {
         "teamCode": "892646",
@@ -1787,8 +1799,12 @@
             "awayTeam": "Barrie",
             "awayTeamCode": "892634",
             "location": "Barrie Sports Complex — Diamond 14 — Minesing",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 17,
+              "scoreText": "17-7"
+            }
           }
         ],
         "nextGames": [
@@ -1841,7 +1857,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-30T02:06:56.258Z"
+        "lastUpdated": "2026-07-30T05:17:15.648Z"
       },
       "892647": {
         "teamCode": "892647",
@@ -1960,7 +1976,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-30T02:06:56.259Z"
+        "lastUpdated": "2026-07-30T05:17:15.648Z"
       },
       "892648": {
         "teamCode": "892648",
@@ -2103,7 +2119,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-30T02:06:56.259Z"
+        "lastUpdated": "2026-07-30T05:17:15.648Z"
       }
     },
     "allGames": [
@@ -3900,8 +3916,12 @@
         "awayTeam": "Newmarket",
         "awayTeamCode": "892637",
         "location": "Armstrong — Diamond 1 — Newmarket",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 0,
+          "scoreText": "0-10"
+        }
       },
       {
         "date": "2026-07-22T22:45:00.000Z",
@@ -3927,7 +3947,7 @@
         "homeTeamCode": "892634",
         "awayTeam": "Bloordale",
         "awayTeamCode": "892638",
-        "location": "Millwood — Diamond 2 — Toronto",
+        "location": "Neilson Park - Etobicoke — Toronto",
         "isCompleted": false,
         "score": null
       },
@@ -4056,8 +4076,12 @@
         "awayTeam": "Barrie",
         "awayTeamCode": "892634",
         "location": "Barrie Sports Complex — Diamond 14 — Minesing",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 17,
+          "scoreText": "17-7"
+        }
       },
       {
         "date": "2026-07-12T15:45:00.000Z",
@@ -4306,8 +4330,12 @@
         "awayTeam": "Newmarket",
         "awayTeamCode": "892637",
         "location": "Armstrong — Diamond 1 — Newmarket",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 0,
+          "scoreText": "0-10"
+        }
       },
       {
         "date": "2026-07-29T22:30:00.000Z",
@@ -4318,8 +4346,12 @@
         "awayTeam": "Barrie",
         "awayTeamCode": "892634",
         "location": "Barrie Sports Complex — Diamond 14 — Minesing",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 17,
+          "scoreText": "17-7"
+        }
       },
       {
         "date": "2026-07-28T22:15:00.000Z",
@@ -4443,7 +4475,7 @@
         "homeTeamCode": "892634",
         "awayTeam": "Bloordale",
         "awayTeamCode": "892638",
-        "location": "Millwood — Diamond 2 — Toronto",
+        "location": "Neilson Park - Etobicoke — Toronto",
         "isCompleted": false,
         "score": null
       },
@@ -4556,20 +4588,20 @@
         "score": null
       }
     ],
-    "lastUpdated": "2026-07-30T02:06:56.259Z",
+    "lastUpdated": "2026-07-30T05:17:15.648Z",
     "totalGames": 147
   },
   "summary": {
     "totalTeams": 14,
     "totalGames": 147,
-    "completedGames": 106,
-    "upcomingGames": 41,
+    "completedGames": 108,
+    "upcomingGames": 39,
     "topTeam": {
       "team": "Barrie",
       "teamCode": "892634",
-      "wins": 13,
+      "wins": 14,
       "losses": 2,
-      "winPercentage": "0.867"
+      "winPercentage": "0.875"
     },
     "highestScoringGame": {
       "homeTeam": "Bloordale",
@@ -4580,6 +4612,6 @@
       "date": "Mon, Jun 29",
       "location": "North Hill — Diamond 2 — Bolton"
     },
-    "lastUpdated": "2026-07-30T02:06:56.775Z"
+    "lastUpdated": "2026-07-30T05:17:16.167Z"
   }
 }

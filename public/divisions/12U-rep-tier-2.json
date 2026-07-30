@@ -2,6 +2,24 @@
   "standings": {
     "teams": [
       {
+        "position": 4,
+        "team": "Bradford Tigers 12U AA",
+        "teamCode": "617946",
+        "record": {
+          "gamesPlayed": 12,
+          "wins": 8,
+          "losses": 4,
+          "ties": 0,
+          "winPercentage": "0.667"
+        },
+        "stats": {
+          "points": 16,
+          "runsFor": 130,
+          "runsAgainst": 78,
+          "runDifferential": 52
+        }
+      },
+      {
         "position": 1,
         "team": "Orangeville Bengals 12U AA",
         "teamCode": "618022",
@@ -17,24 +35,6 @@
           "runsFor": 141,
           "runsAgainst": 99,
           "runDifferential": 42
-        }
-      },
-      {
-        "position": 5,
-        "team": "Bradford Tigers 12U AA",
-        "teamCode": "617946",
-        "record": {
-          "gamesPlayed": 11,
-          "wins": 7,
-          "losses": 4,
-          "ties": 0,
-          "winPercentage": "0.636"
-        },
-        "stats": {
-          "points": 14,
-          "runsFor": 117,
-          "runsAgainst": 72,
-          "runDifferential": 45
         }
       },
       {
@@ -92,7 +92,7 @@
         }
       },
       {
-        "position": 4,
+        "position": 5,
         "team": "Markham Mariners 12U AA",
         "teamCode": "617879",
         "record": {
@@ -150,21 +150,21 @@
         "team": "Vaughan Vikings 12U AA",
         "teamCode": "617177",
         "record": {
-          "gamesPlayed": 12,
+          "gamesPlayed": 13,
           "wins": 1,
-          "losses": 9,
+          "losses": 10,
           "ties": 2,
-          "winPercentage": "0.167"
+          "winPercentage": "0.154"
         },
         "stats": {
           "points": 4,
-          "runsFor": 93,
-          "runsAgainst": 152,
-          "runDifferential": -59
+          "runsFor": 99,
+          "runsAgainst": 165,
+          "runDifferential": -66
         }
       }
     ],
-    "lastUpdated": "2026-07-30T02:01:22.854Z",
+    "lastUpdated": "2026-07-30T05:13:43.370Z",
     "totalTeams": 9
   },
   "schedule": {
@@ -257,7 +257,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-30T02:01:27.547Z"
+        "lastUpdated": "2026-07-30T05:13:47.569Z"
       },
       "612784": {
         "teamCode": "612784",
@@ -347,30 +347,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-30T02:01:27.547Z"
+        "lastUpdated": "2026-07-30T05:13:47.569Z"
       },
       "617177": {
         "teamCode": "617177",
         "totalGames": 15,
-        "playedGames": 12,
+        "playedGames": 13,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Tue, Jul 7",
-            "time": "7:00 PM",
-            "homeTeam": "Orangeville Bengals 12U AA",
-            "homeTeamCode": "618022",
-            "awayTeam": "Vaughan Vikings 12U AA",
-            "awayTeamCode": "617177",
-            "location": "Idlewyld Park",
-            "isCompleted": true,
-            "score": {
-              "home": 18,
-              "away": 7,
-              "scoreText": "7-18"
-            }
-          },
           {
             "date": null,
             "dateText": "Sun, Jul 19",
@@ -434,10 +418,26 @@
               "away": 5,
               "scoreText": "5-5"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Wed, Jul 29",
+            "time": "6:00 PM",
+            "homeTeam": "Bradford Tigers 12U AA",
+            "homeTeamCode": "617946",
+            "awayTeam": "Vaughan Vikings 12U AA",
+            "awayTeamCode": "617177",
+            "location": "Joe Magani Park Field # 2",
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 6,
+              "scoreText": "6-13"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-30T02:01:27.547Z"
+        "lastUpdated": "2026-07-30T05:13:47.569Z"
       },
       "617178": {
         "teamCode": "617178",
@@ -527,7 +527,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-30T02:01:27.547Z"
+        "lastUpdated": "2026-07-30T05:13:47.569Z"
       },
       "617204": {
         "teamCode": "617204",
@@ -617,7 +617,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-30T02:01:27.547Z"
+        "lastUpdated": "2026-07-30T05:13:47.569Z"
       },
       "617852": {
         "teamCode": "617852",
@@ -707,7 +707,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-30T02:01:27.547Z"
+        "lastUpdated": "2026-07-30T05:13:47.569Z"
       },
       "617879": {
         "teamCode": "617879",
@@ -797,7 +797,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-30T02:01:27.547Z"
+        "lastUpdated": "2026-07-30T05:13:47.569Z"
       },
       "617880": {
         "teamCode": "617880",
@@ -887,7 +887,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-30T02:01:27.547Z"
+        "lastUpdated": "2026-07-30T05:13:47.569Z"
       },
       "617906": {
         "teamCode": "617906",
@@ -977,7 +977,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-30T02:01:27.547Z"
+        "lastUpdated": "2026-07-30T05:13:47.569Z"
       },
       "617907": {
         "teamCode": "617907",
@@ -1067,30 +1067,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-30T02:01:27.547Z"
+        "lastUpdated": "2026-07-30T05:13:47.569Z"
       },
       "617946": {
         "teamCode": "617946",
         "totalGames": 16,
-        "playedGames": 11,
+        "playedGames": 12,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Mon, Jun 22",
-            "time": "7:00 PM",
-            "homeTeam": "Richmond Hill Phoenix 12U AA",
-            "homeTeamCode": "617852",
-            "awayTeam": "Bradford Tigers 12U AA",
-            "awayTeamCode": "617946",
-            "location": "David Hamilton Park",
-            "isCompleted": true,
-            "score": {
-              "home": 11,
-              "away": 19,
-              "scoreText": "19-11"
-            }
-          },
           {
             "date": null,
             "dateText": "Wed, Jun 24",
@@ -1154,10 +1138,26 @@
               "away": 8,
               "scoreText": "8-1"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Wed, Jul 29",
+            "time": "6:00 PM",
+            "homeTeam": "Bradford Tigers 12U AA",
+            "homeTeamCode": "617946",
+            "awayTeam": "Vaughan Vikings 12U AA",
+            "awayTeamCode": "617177",
+            "location": "Joe Magani Park Field # 2",
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 6,
+              "scoreText": "6-13"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-30T02:01:27.547Z"
+        "lastUpdated": "2026-07-30T05:13:47.569Z"
       },
       "617973": {
         "teamCode": "617973",
@@ -1247,7 +1247,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-30T02:01:27.547Z"
+        "lastUpdated": "2026-07-30T05:13:47.569Z"
       },
       "617974": {
         "teamCode": "617974",
@@ -1337,7 +1337,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-30T02:01:27.547Z"
+        "lastUpdated": "2026-07-30T05:13:47.569Z"
       },
       "617987": {
         "teamCode": "617987",
@@ -1427,7 +1427,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-30T02:01:27.547Z"
+        "lastUpdated": "2026-07-30T05:13:47.569Z"
       },
       "617988": {
         "teamCode": "617988",
@@ -1517,7 +1517,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-30T02:01:27.547Z"
+        "lastUpdated": "2026-07-30T05:13:47.569Z"
       },
       "618007": {
         "teamCode": "618007",
@@ -1607,7 +1607,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-30T02:01:27.547Z"
+        "lastUpdated": "2026-07-30T05:13:47.569Z"
       },
       "618021": {
         "teamCode": "618021",
@@ -1697,7 +1697,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-30T02:01:27.547Z"
+        "lastUpdated": "2026-07-30T05:13:47.569Z"
       },
       "618022": {
         "teamCode": "618022",
@@ -1787,7 +1787,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-30T02:01:27.547Z"
+        "lastUpdated": "2026-07-30T05:13:47.569Z"
       },
       "618044": {
         "teamCode": "618044",
@@ -1877,7 +1877,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-30T02:01:27.547Z"
+        "lastUpdated": "2026-07-30T05:13:47.569Z"
       },
       "618059": {
         "teamCode": "618059",
@@ -1967,7 +1967,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-30T02:01:27.547Z"
+        "lastUpdated": "2026-07-30T05:13:47.569Z"
       },
       "618068": {
         "teamCode": "618068",
@@ -2057,7 +2057,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-30T02:01:27.547Z"
+        "lastUpdated": "2026-07-30T05:13:47.569Z"
       },
       "618383": {
         "teamCode": "618383",
@@ -2147,7 +2147,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-30T02:01:27.547Z"
+        "lastUpdated": "2026-07-30T05:13:47.569Z"
       },
       "618395": {
         "teamCode": "618395",
@@ -2237,7 +2237,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-30T02:01:27.547Z"
+        "lastUpdated": "2026-07-30T05:13:47.569Z"
       },
       "618468": {
         "teamCode": "618468",
@@ -2327,7 +2327,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-30T02:01:27.547Z"
+        "lastUpdated": "2026-07-30T05:13:47.569Z"
       },
       "625727": {
         "teamCode": "625727",
@@ -2417,7 +2417,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-30T02:01:27.547Z"
+        "lastUpdated": "2026-07-30T05:13:47.569Z"
       },
       "628934": {
         "teamCode": "628934",
@@ -2507,7 +2507,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-30T02:01:27.547Z"
+        "lastUpdated": "2026-07-30T05:13:47.569Z"
       }
     },
     "allGames": [
@@ -5112,8 +5112,12 @@
         "awayTeam": "Vaughan Vikings 12U AA",
         "awayTeamCode": "617177",
         "location": "Joe Magani Park Field # 2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 6,
+          "scoreText": "6-13"
+        }
       },
       {
         "date": null,
@@ -5687,20 +5691,20 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-07-30T02:01:27.547Z",
+    "lastUpdated": "2026-07-30T05:13:47.569Z",
     "totalGames": 200
   },
   "summary": {
     "totalTeams": 9,
     "totalGames": 200,
-    "completedGames": 153,
-    "upcomingGames": 47,
+    "completedGames": 154,
+    "upcomingGames": 46,
     "topTeam": {
-      "team": "Orangeville Bengals 12U AA",
-      "teamCode": "618022",
-      "wins": 9,
-      "losses": 5,
-      "winPercentage": "0.643"
+      "team": "Bradford Tigers 12U AA",
+      "teamCode": "617946",
+      "wins": 8,
+      "losses": 4,
+      "winPercentage": "0.667"
     },
     "highestScoringGame": {
       "homeTeam": "Barrie Baycats 12U A",
@@ -5711,6 +5715,6 @@
       "date": "Mon, May 18",
       "location": "Lampman Lane"
     },
-    "lastUpdated": "2026-07-30T02:06:56.775Z"
+    "lastUpdated": "2026-07-30T05:17:16.167Z"
   }
 }
