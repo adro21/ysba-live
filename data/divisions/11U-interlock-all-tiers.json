@@ -6,17 +6,17 @@
         "team": "Etobicoke",
         "teamCode": "883728",
         "record": {
-          "gamesPlayed": 13,
-          "wins": 12,
+          "gamesPlayed": 14,
+          "wins": 13,
           "losses": 1,
           "ties": 0,
-          "winPercentage": "0.923"
+          "winPercentage": "0.929"
         },
         "stats": {
-          "points": 24,
-          "runsFor": 138,
-          "runsAgainst": 55,
-          "runDifferential": 83
+          "points": 26,
+          "runsFor": 149,
+          "runsAgainst": 57,
+          "runDifferential": 92
         }
       },
       {
@@ -204,21 +204,21 @@
         "team": "Leaside",
         "teamCode": "883722",
         "record": {
-          "gamesPlayed": 13,
+          "gamesPlayed": 14,
           "wins": 2,
-          "losses": 11,
+          "losses": 12,
           "ties": 0,
-          "winPercentage": "0.154"
+          "winPercentage": "0.143"
         },
         "stats": {
           "points": 4,
-          "runsFor": 75,
-          "runsAgainst": 114,
-          "runDifferential": -39
+          "runsFor": 77,
+          "runsAgainst": 125,
+          "runDifferential": -48
         }
       }
     ],
-    "lastUpdated": "2026-07-30T00:01:48.334Z",
+    "lastUpdated": "2026-07-30T02:06:56.758Z",
     "totalTeams": 12
   },
   "schedule": {
@@ -302,8 +302,12 @@
             "awayTeam": "Etobicoke",
             "awayTeamCode": "883728",
             "location": "Rotary Peace Park — Toronto",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 2,
+              "away": 11,
+              "scoreText": "11-2"
+            }
           }
         ],
         "nextGames": [
@@ -356,7 +360,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-30T00:01:48.356Z"
+        "lastUpdated": "2026-07-30T02:06:56.774Z"
       },
       "883723": {
         "teamCode": "883723",
@@ -503,7 +507,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-30T00:01:48.356Z"
+        "lastUpdated": "2026-07-30T02:06:56.774Z"
       },
       "883724": {
         "teamCode": "883724",
@@ -610,7 +614,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-30T00:01:48.356Z"
+        "lastUpdated": "2026-07-30T02:06:56.774Z"
       },
       "883725": {
         "teamCode": "883725",
@@ -745,7 +749,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-30T00:01:48.356Z"
+        "lastUpdated": "2026-07-30T02:06:56.774Z"
       },
       "883726": {
         "teamCode": "883726",
@@ -896,7 +900,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-30T00:01:48.356Z"
+        "lastUpdated": "2026-07-30T02:06:56.775Z"
       },
       "883727": {
         "teamCode": "883727",
@@ -1039,7 +1043,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-30T00:01:48.356Z"
+        "lastUpdated": "2026-07-30T02:06:56.775Z"
       },
       "883728": {
         "teamCode": "883728",
@@ -1116,8 +1120,12 @@
             "awayTeam": "Etobicoke",
             "awayTeamCode": "883728",
             "location": "Rotary Peace Park — Toronto",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 2,
+              "away": 11,
+              "scoreText": "11-2"
+            }
           }
         ],
         "nextGames": [
@@ -1158,7 +1166,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-30T00:01:48.356Z"
+        "lastUpdated": "2026-07-30T02:06:56.775Z"
       },
       "883729": {
         "teamCode": "883729",
@@ -1305,7 +1313,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-30T00:01:48.356Z"
+        "lastUpdated": "2026-07-30T02:06:56.775Z"
       },
       "883730": {
         "teamCode": "883730",
@@ -1416,7 +1424,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-30T00:01:48.357Z"
+        "lastUpdated": "2026-07-30T02:06:56.775Z"
       },
       "883731": {
         "teamCode": "883731",
@@ -1527,7 +1535,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-30T00:01:48.357Z"
+        "lastUpdated": "2026-07-30T02:06:56.775Z"
       },
       "883732": {
         "teamCode": "883732",
@@ -1674,7 +1682,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-30T00:01:48.357Z"
+        "lastUpdated": "2026-07-30T02:06:56.775Z"
       },
       "883733": {
         "teamCode": "883733",
@@ -1809,7 +1817,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-07-30T00:01:48.357Z"
+        "lastUpdated": "2026-07-30T02:06:56.775Z"
       }
     },
     "allGames": [
@@ -3158,8 +3166,12 @@
         "awayTeam": "Etobicoke",
         "awayTeamCode": "883728",
         "location": "Rotary Peace Park — Toronto",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 2,
+          "away": 11,
+          "scoreText": "11-2"
+        }
       },
       {
         "date": "2026-07-30T22:00:00.000Z",
@@ -3388,8 +3400,12 @@
         "awayTeam": "Etobicoke",
         "awayTeamCode": "883728",
         "location": "Rotary Peace Park — Toronto",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 2,
+          "away": 11,
+          "scoreText": "11-2"
+        }
       },
       {
         "date": "2026-07-29T22:00:00.000Z",
@@ -3654,20 +3670,20 @@
         "score": null
       }
     ],
-    "lastUpdated": "2026-07-30T00:01:48.357Z",
+    "lastUpdated": "2026-07-30T02:06:56.775Z",
     "totalGames": 106
   },
   "summary": {
     "totalTeams": 12,
     "totalGames": 106,
-    "completedGames": 73,
-    "upcomingGames": 33,
+    "completedGames": 74,
+    "upcomingGames": 32,
     "topTeam": {
       "team": "Etobicoke",
       "teamCode": "883728",
-      "wins": 12,
+      "wins": 13,
       "losses": 1,
-      "winPercentage": "0.923"
+      "winPercentage": "0.929"
     },
     "highestScoringGame": {
       "homeTeam": "Etobicoke",
@@ -3678,6 +3694,6 @@
       "date": "Sun, May 31",
       "location": "North Hill — Diamond 3 — Bolton"
     },
-    "lastUpdated": "2026-07-30T00:01:48.357Z"
+    "lastUpdated": "2026-07-30T02:06:56.775Z"
   }
 }
