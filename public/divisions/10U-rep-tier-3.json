@@ -78,17 +78,17 @@
         "team": "Barrie Baycats 10U A",
         "teamCode": "612779",
         "record": {
-          "gamesPlayed": 13,
-          "wins": 10,
+          "gamesPlayed": 14,
+          "wins": 11,
           "losses": 3,
           "ties": 0,
-          "winPercentage": "0.769"
+          "winPercentage": "0.786"
         },
         "stats": {
-          "points": 20,
-          "runsFor": 146,
-          "runsAgainst": 82,
-          "runDifferential": 64
+          "points": 22,
+          "runsFor": 161,
+          "runsAgainst": 96,
+          "runDifferential": 65
         }
       },
       {
@@ -111,6 +111,24 @@
       },
       {
         "position": 7,
+        "team": "Vaughan Vikings 10U A Team 1",
+        "teamCode": "617173",
+        "record": {
+          "gamesPlayed": 17,
+          "wins": 10,
+          "losses": 7,
+          "ties": 0,
+          "winPercentage": "0.588"
+        },
+        "stats": {
+          "points": 20,
+          "runsFor": 147,
+          "runsAgainst": 151,
+          "runDifferential": -4
+        }
+      },
+      {
+        "position": 8,
         "team": "Orillia 10U B",
         "teamCode": "618381",
         "record": {
@@ -125,24 +143,6 @@
           "runsFor": 153,
           "runsAgainst": 124,
           "runDifferential": 29
-        }
-      },
-      {
-        "position": 8,
-        "team": "Vaughan Vikings 10U A Team 1",
-        "teamCode": "617173",
-        "record": {
-          "gamesPlayed": 16,
-          "wins": 9,
-          "losses": 7,
-          "ties": 0,
-          "winPercentage": "0.563"
-        },
-        "stats": {
-          "points": 18,
-          "runsFor": 135,
-          "runsAgainst": 141,
-          "runDifferential": -6
         }
       },
       {
@@ -186,17 +186,17 @@
         "team": "TNT Thunder 10U A",
         "teamCode": "618057",
         "record": {
-          "gamesPlayed": 14,
+          "gamesPlayed": 15,
           "wins": 5,
-          "losses": 9,
+          "losses": 10,
           "ties": 0,
-          "winPercentage": "0.357"
+          "winPercentage": "0.333"
         },
         "stats": {
           "points": 10,
-          "runsFor": 142,
-          "runsAgainst": 141,
-          "runDifferential": 1
+          "runsFor": 156,
+          "runsAgainst": 156,
+          "runDifferential": 0
         }
       },
       {
@@ -240,17 +240,17 @@
         "team": "Richmond Hill Phoenix 10U A",
         "teamCode": "617848",
         "record": {
-          "gamesPlayed": 15,
+          "gamesPlayed": 16,
           "wins": 2,
-          "losses": 13,
+          "losses": 14,
           "ties": 0,
-          "winPercentage": "0.133"
+          "winPercentage": "0.125"
         },
         "stats": {
           "points": 4,
-          "runsFor": 81,
-          "runsAgainst": 180,
-          "runDifferential": -99
+          "runsFor": 91,
+          "runsAgainst": 192,
+          "runDifferential": -101
         }
       },
       {
@@ -290,7 +290,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-07-31T15:14:46.912Z",
+    "lastUpdated": "2026-07-31T17:02:15.406Z",
     "totalTeams": 16
   },
   "schedule": {
@@ -298,25 +298,9 @@
       "612779": {
         "teamCode": "612779",
         "totalGames": 19,
-        "playedGames": 13,
+        "playedGames": 14,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Mon, Jun 29",
-            "time": "6:30 PM",
-            "homeTeam": "Richmond Hill Phoenix 10U A",
-            "homeTeamCode": "617848",
-            "awayTeam": "Barrie Baycats 10U A",
-            "awayTeamCode": "612779",
-            "location": "Morgan Boyle Park.",
-            "isCompleted": true,
-            "score": {
-              "home": 6,
-              "away": 14,
-              "scoreText": "14-6"
-            }
-          },
           {
             "date": null,
             "dateText": "Thu, Jul 2",
@@ -380,33 +364,33 @@
               "away": 4,
               "scoreText": "4-7"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Thu, Jul 30",
+            "time": "6:30 PM",
+            "homeTeam": "Barrie Baycats 10U A",
+            "homeTeamCode": "612779",
+            "awayTeam": "TNT Thunder 10U A",
+            "awayTeamCode": "618057",
+            "location": "Barrie Sports Complex Pinwheel 12",
+            "isCompleted": true,
+            "score": {
+              "home": 15,
+              "away": 14,
+              "scoreText": "14-15"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-31T15:14:51.093Z"
+        "lastUpdated": "2026-07-31T17:02:19.492Z"
       },
       "617173": {
         "teamCode": "617173",
         "totalGames": 19,
-        "playedGames": 16,
+        "playedGames": 17,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Mon, Jul 6",
-            "time": "6:00 PM",
-            "homeTeam": "Vaughan Vikings 10U A Team 1",
-            "homeTeamCode": "617173",
-            "awayTeam": "Georgina Bulldogs 10U B",
-            "awayTeamCode": "625725",
-            "location": "Matthew Park",
-            "isCompleted": true,
-            "score": {
-              "home": 8,
-              "away": 7,
-              "scoreText": "7-8"
-            }
-          },
           {
             "date": null,
             "dateText": "Wed, Jul 8",
@@ -457,6 +441,22 @@
           },
           {
             "date": null,
+            "dateText": "Thu, Jul 30",
+            "time": "6:30 PM",
+            "homeTeam": "Richmond Hill Phoenix 10U A",
+            "homeTeamCode": "617848",
+            "awayTeam": "Vaughan Vikings 10U A Team 1",
+            "awayTeamCode": "617173",
+            "location": "Richmond Green Diamond #5",
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 12,
+              "scoreText": "12-10"
+            }
+          },
+          {
+            "date": null,
             "dateText": "Mon, Aug 3",
             "time": "6:00 PM",
             "homeTeam": "Vaughan Vikings 10U A Team 2",
@@ -473,7 +473,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-31T15:14:51.093Z"
+        "lastUpdated": "2026-07-31T17:02:19.492Z"
       },
       "617174": {
         "teamCode": "617174",
@@ -563,30 +563,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-31T15:14:51.093Z"
+        "lastUpdated": "2026-07-31T17:02:19.492Z"
       },
       "617848": {
         "teamCode": "617848",
         "totalGames": 19,
-        "playedGames": 15,
+        "playedGames": 16,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Mon, Jul 6",
-            "time": "6:30 PM",
-            "homeTeam": "Richmond Hill Phoenix 10U A",
-            "homeTeamCode": "617848",
-            "awayTeam": "Thornhill Reds 10U A",
-            "awayTeamCode": "617985",
-            "location": "Morgan Boyle Park.",
-            "isCompleted": true,
-            "score": {
-              "home": 2,
-              "away": 12,
-              "scoreText": "12-2"
-            }
-          },
           {
             "date": null,
             "dateText": "Wed, Jul 15",
@@ -650,10 +634,26 @@
               "away": 12,
               "scoreText": "12-1"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Thu, Jul 30",
+            "time": "6:30 PM",
+            "homeTeam": "Richmond Hill Phoenix 10U A",
+            "homeTeamCode": "617848",
+            "awayTeam": "Vaughan Vikings 10U A Team 1",
+            "awayTeamCode": "617173",
+            "location": "Richmond Green Diamond #5",
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 12,
+              "scoreText": "12-10"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-31T15:14:51.093Z"
+        "lastUpdated": "2026-07-31T17:02:19.492Z"
       },
       "617900": {
         "teamCode": "617900",
@@ -743,7 +743,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-31T15:14:51.093Z"
+        "lastUpdated": "2026-07-31T17:02:19.492Z"
       },
       "617944": {
         "teamCode": "617944",
@@ -833,7 +833,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-31T15:14:51.093Z"
+        "lastUpdated": "2026-07-31T17:02:19.492Z"
       },
       "617970": {
         "teamCode": "617970",
@@ -923,7 +923,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-31T15:14:51.093Z"
+        "lastUpdated": "2026-07-31T17:02:19.492Z"
       },
       "617985": {
         "teamCode": "617985",
@@ -1013,7 +1013,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-31T15:14:51.093Z"
+        "lastUpdated": "2026-07-31T17:02:19.492Z"
       },
       "618005": {
         "teamCode": "618005",
@@ -1103,7 +1103,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-31T15:14:51.093Z"
+        "lastUpdated": "2026-07-31T17:02:19.492Z"
       },
       "618019": {
         "teamCode": "618019",
@@ -1193,7 +1193,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-31T15:14:51.093Z"
+        "lastUpdated": "2026-07-31T17:02:19.492Z"
       },
       "618041": {
         "teamCode": "618041",
@@ -1283,30 +1283,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-31T15:14:51.093Z"
+        "lastUpdated": "2026-07-31T17:02:19.492Z"
       },
       "618057": {
         "teamCode": "618057",
         "totalGames": 19,
-        "playedGames": 14,
+        "playedGames": 15,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Tue, Jul 7",
-            "time": "6:00 PM",
-            "homeTeam": "TNT Thunder 10U A",
-            "homeTeamCode": "618057",
-            "awayTeam": "Newmarket Hawks 10U A",
-            "awayTeamCode": "617900",
-            "location": "Haley",
-            "isCompleted": true,
-            "score": {
-              "home": 10,
-              "away": 19,
-              "scoreText": "19-10"
-            }
-          },
           {
             "date": null,
             "dateText": "Mon, Jul 13",
@@ -1370,10 +1354,26 @@
               "away": 3,
               "scoreText": "3-13"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Thu, Jul 30",
+            "time": "6:30 PM",
+            "homeTeam": "Barrie Baycats 10U A",
+            "homeTeamCode": "612779",
+            "awayTeam": "TNT Thunder 10U A",
+            "awayTeamCode": "618057",
+            "location": "Barrie Sports Complex Pinwheel 12",
+            "isCompleted": true,
+            "score": {
+              "home": 15,
+              "away": 14,
+              "scoreText": "14-15"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-31T15:14:51.093Z"
+        "lastUpdated": "2026-07-31T17:02:19.492Z"
       },
       "618381": {
         "teamCode": "618381",
@@ -1463,7 +1463,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-31T15:14:51.093Z"
+        "lastUpdated": "2026-07-31T17:02:19.492Z"
       },
       "618394": {
         "teamCode": "618394",
@@ -1553,7 +1553,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-31T15:14:51.093Z"
+        "lastUpdated": "2026-07-31T17:02:19.492Z"
       },
       "625725": {
         "teamCode": "625725",
@@ -1643,7 +1643,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-31T15:14:51.093Z"
+        "lastUpdated": "2026-07-31T17:02:19.492Z"
       },
       "627209": {
         "teamCode": "627209",
@@ -1733,7 +1733,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-07-31T15:14:51.093Z"
+        "lastUpdated": "2026-07-31T17:02:19.492Z"
       }
     },
     "allGames": [
@@ -3738,8 +3738,12 @@
         "awayTeam": "Vaughan Vikings 10U A Team 1",
         "awayTeamCode": "617173",
         "location": "Richmond Green Diamond #5",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 12,
+          "scoreText": "12-10"
+        }
       },
       {
         "date": null,
@@ -3750,8 +3754,12 @@
         "awayTeam": "TNT Thunder 10U A",
         "awayTeamCode": "618057",
         "location": "Barrie Sports Complex Pinwheel 12",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 15,
+          "away": 14,
+          "scoreText": "14-15"
+        }
       },
       {
         "date": null,
@@ -3909,7 +3917,7 @@
         "homeTeamCode": "618057",
         "awayTeam": "Aurora-King Jays 10U A",
         "awayTeamCode": "617970",
-        "location": "Haley",
+        "location": "Loretto",
         "isCompleted": false,
         "score": null
       },
@@ -4209,14 +4217,14 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-07-31T15:14:51.093Z",
+    "lastUpdated": "2026-07-31T17:02:19.492Z",
     "totalGames": 152
   },
   "summary": {
     "totalTeams": 16,
     "totalGames": 152,
-    "completedGames": 121,
-    "upcomingGames": 31,
+    "completedGames": 123,
+    "upcomingGames": 29,
     "topTeam": {
       "team": "Innisfil Cardinals 10U A",
       "teamCode": "618041",
@@ -4233,6 +4241,6 @@
       "date": "Thu, May 21",
       "location": "Georgina Roc- Diamond 2"
     },
-    "lastUpdated": "2026-07-31T15:19:12.639Z"
+    "lastUpdated": "2026-07-31T17:06:39.484Z"
   }
 }
