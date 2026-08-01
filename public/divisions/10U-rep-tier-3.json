@@ -146,6 +146,24 @@
         }
       },
       {
+        "position": 12,
+        "team": "Stouffville 10U A",
+        "teamCode": "627209",
+        "record": {
+          "gamesPlayed": 12,
+          "wins": 5,
+          "losses": 7,
+          "ties": 0,
+          "winPercentage": "0.417"
+        },
+        "stats": {
+          "points": 10,
+          "runsFor": 108,
+          "runsAgainst": 115,
+          "runDifferential": -7
+        }
+      },
+      {
         "position": 9,
         "team": "Collingwood Jays 10U A",
         "teamCode": "618005",
@@ -161,24 +179,6 @@
           "runsFor": 167,
           "runsAgainst": 182,
           "runDifferential": -15
-        }
-      },
-      {
-        "position": 13,
-        "team": "Stouffville 10U A",
-        "teamCode": "627209",
-        "record": {
-          "gamesPlayed": 11,
-          "wins": 4,
-          "losses": 7,
-          "ties": 0,
-          "winPercentage": "0.364"
-        },
-        "stats": {
-          "points": 8,
-          "runsFor": 95,
-          "runsAgainst": 108,
-          "runDifferential": -13
         }
       },
       {
@@ -218,21 +218,21 @@
         }
       },
       {
-        "position": 12,
+        "position": 13,
         "team": "Aurora-King Jays 10U A",
         "teamCode": "617970",
         "record": {
-          "gamesPlayed": 14,
+          "gamesPlayed": 15,
           "wins": 4,
-          "losses": 10,
+          "losses": 11,
           "ties": 0,
-          "winPercentage": "0.286"
+          "winPercentage": "0.267"
         },
         "stats": {
           "points": 8,
-          "runsFor": 113,
-          "runsAgainst": 162,
-          "runDifferential": -49
+          "runsFor": 120,
+          "runsAgainst": 175,
+          "runDifferential": -55
         }
       },
       {
@@ -290,7 +290,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-08-01T13:04:59.545Z",
+    "lastUpdated": "2026-08-01T14:44:48.613Z",
     "totalTeams": 16
   },
   "schedule": {
@@ -383,7 +383,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-01T13:05:03.721Z"
+        "lastUpdated": "2026-08-01T14:44:53.461Z"
       },
       "617173": {
         "teamCode": "617173",
@@ -473,7 +473,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-01T13:05:03.721Z"
+        "lastUpdated": "2026-08-01T14:44:53.461Z"
       },
       "617174": {
         "teamCode": "617174",
@@ -563,7 +563,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-01T13:05:03.721Z"
+        "lastUpdated": "2026-08-01T14:44:53.461Z"
       },
       "617848": {
         "teamCode": "617848",
@@ -653,7 +653,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-01T13:05:03.721Z"
+        "lastUpdated": "2026-08-01T14:44:53.461Z"
       },
       "617900": {
         "teamCode": "617900",
@@ -743,7 +743,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-01T13:05:03.721Z"
+        "lastUpdated": "2026-08-01T14:44:53.461Z"
       },
       "617944": {
         "teamCode": "617944",
@@ -833,30 +833,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-01T13:05:03.721Z"
+        "lastUpdated": "2026-08-01T14:44:53.461Z"
       },
       "617970": {
         "teamCode": "617970",
         "totalGames": 19,
-        "playedGames": 14,
+        "playedGames": 15,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Thu, Jul 16",
-            "time": "6:30 PM",
-            "homeTeam": "Aurora-King Jays 10U A",
-            "homeTeamCode": "617970",
-            "awayTeam": "Collingwood Jays 10U A",
-            "awayTeamCode": "618005",
-            "location": "Hallmark 2",
-            "isCompleted": true,
-            "score": {
-              "home": 10,
-              "away": 12,
-              "scoreText": "12-10"
-            }
-          },
           {
             "date": null,
             "dateText": "Mon, Jul 20",
@@ -920,10 +904,26 @@
               "away": 9,
               "scoreText": "9-17"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Thu, Jul 30",
+            "time": "6:30 PM",
+            "homeTeam": "Aurora-King Jays 10U A",
+            "homeTeamCode": "617970",
+            "awayTeam": "Stouffville 10U A",
+            "awayTeamCode": "627209",
+            "location": "Hallmark 2",
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 13,
+              "scoreText": "13-7"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-01T13:05:03.721Z"
+        "lastUpdated": "2026-08-01T14:44:53.461Z"
       },
       "617985": {
         "teamCode": "617985",
@@ -1013,7 +1013,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-01T13:05:03.721Z"
+        "lastUpdated": "2026-08-01T14:44:53.461Z"
       },
       "618005": {
         "teamCode": "618005",
@@ -1103,7 +1103,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-01T13:05:03.721Z"
+        "lastUpdated": "2026-08-01T14:44:53.461Z"
       },
       "618019": {
         "teamCode": "618019",
@@ -1193,7 +1193,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-01T13:05:03.721Z"
+        "lastUpdated": "2026-08-01T14:44:53.461Z"
       },
       "618041": {
         "teamCode": "618041",
@@ -1283,7 +1283,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-01T13:05:03.721Z"
+        "lastUpdated": "2026-08-01T14:44:53.461Z"
       },
       "618057": {
         "teamCode": "618057",
@@ -1373,7 +1373,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-01T13:05:03.721Z"
+        "lastUpdated": "2026-08-01T14:44:53.461Z"
       },
       "618381": {
         "teamCode": "618381",
@@ -1463,7 +1463,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-01T13:05:03.721Z"
+        "lastUpdated": "2026-08-01T14:44:53.461Z"
       },
       "618394": {
         "teamCode": "618394",
@@ -1553,7 +1553,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-01T13:05:03.721Z"
+        "lastUpdated": "2026-08-01T14:44:53.461Z"
       },
       "625725": {
         "teamCode": "625725",
@@ -1643,30 +1643,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-01T13:05:03.721Z"
+        "lastUpdated": "2026-08-01T14:44:53.461Z"
       },
       "627209": {
         "teamCode": "627209",
         "totalGames": 19,
-        "playedGames": 11,
+        "playedGames": 12,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sat, Jun 13",
-            "time": "5:00 PM",
-            "homeTeam": "Stouffville 10U A",
-            "homeTeamCode": "627209",
-            "awayTeam": "Vaughan Vikings 10U A Team 1",
-            "awayTeamCode": "617173",
-            "location": "Bethesda 1",
-            "isCompleted": true,
-            "score": {
-              "home": 8,
-              "away": 16,
-              "scoreText": "16-8"
-            }
-          },
           {
             "date": null,
             "dateText": "Sun, Jun 21",
@@ -1730,10 +1714,26 @@
               "away": 6,
               "scoreText": "6-7"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Thu, Jul 30",
+            "time": "6:30 PM",
+            "homeTeam": "Aurora-King Jays 10U A",
+            "homeTeamCode": "617970",
+            "awayTeam": "Stouffville 10U A",
+            "awayTeamCode": "627209",
+            "location": "Hallmark 2",
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 13,
+              "scoreText": "13-7"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-01T13:05:03.721Z"
+        "lastUpdated": "2026-08-01T14:44:53.461Z"
       }
     },
     "allGames": [
@@ -3770,8 +3770,12 @@
         "awayTeam": "Stouffville 10U A",
         "awayTeamCode": "627209",
         "location": "Hallmark 2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 13,
+          "scoreText": "13-7"
+        }
       },
       {
         "date": null,
@@ -4217,14 +4221,14 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-08-01T13:05:03.721Z",
+    "lastUpdated": "2026-08-01T14:44:53.461Z",
     "totalGames": 152
   },
   "summary": {
     "totalTeams": 16,
     "totalGames": 152,
-    "completedGames": 123,
-    "upcomingGames": 29,
+    "completedGames": 124,
+    "upcomingGames": 28,
     "topTeam": {
       "team": "Innisfil Cardinals 10U A",
       "teamCode": "618041",
@@ -4241,6 +4245,6 @@
       "date": "Thu, May 21",
       "location": "Georgina Roc- Diamond 2"
     },
-    "lastUpdated": "2026-08-01T13:09:27.711Z"
+    "lastUpdated": "2026-08-01T14:49:36.206Z"
   }
 }
