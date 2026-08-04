@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-08-04T12:33:39.570Z",
+  "lastUpdated": "2026-08-04T15:05:45.739Z",
   "totals": {
     "divisions": 54,
     "teams": 213,
-    "games": 5549,
-    "completed": 4653,
-    "upcoming": 896
+    "games": 5450,
+    "completed": 4570,
+    "upcoming": 880
   },
   "recentActivity": [
     {
@@ -17,8 +17,12 @@
       "awayTeam": "Stouffville",
       "awayTeamCode": "883730",
       "location": "Stouffville Memorial — Diamond 2 — Whitchurch-Stouffville",
-      "isCompleted": false,
-      "score": null
+      "isCompleted": true,
+      "score": {
+        "home": 3,
+        "away": 13,
+        "scoreText": "13-3"
+      }
     },
     {
       "date": "2026-08-02T22:00:00.000Z",
@@ -65,8 +69,12 @@
       "awayTeam": "Bloordale",
       "awayTeamCode": "892638",
       "location": "Neilson Park - Etobicoke — Toronto",
-      "isCompleted": false,
-      "score": null
+      "isCompleted": true,
+      "score": {
+        "home": 17,
+        "away": 0,
+        "scoreText": "0-17"
+      }
     }
   ],
   "upcomingGames": [
@@ -107,18 +115,6 @@
       "score": null
     },
     {
-      "date": "2026-08-04T22:15:00.000Z",
-      "dateText": "Tue, Aug 4",
-      "time": "6:15 PM",
-      "homeTeam": "Vaughan",
-      "homeTeamCode": "892644",
-      "awayTeam": "Georgina",
-      "awayTeamCode": "892647",
-      "location": "ROC — Diamond 3 — Georgina",
-      "isCompleted": false,
-      "score": null
-    },
-    {
       "date": "2026-08-04T22:30:00.000Z",
       "dateText": "Tue, Aug 4",
       "time": "6:30 PM",
@@ -127,6 +123,18 @@
       "awayTeam": "Markham",
       "awayTeamCode": "892645",
       "location": "Carlton   — Toronto",
+      "isCompleted": false,
+      "score": null
+    },
+    {
+      "date": "2026-08-04T22:30:00.000Z",
+      "dateText": "Tue, Aug 4",
+      "time": "6:30 PM",
+      "homeTeam": "Etobicoke",
+      "homeTeamCode": "883728",
+      "awayTeam": "Leaside",
+      "awayTeamCode": "883722",
+      "location": "Irving Paisley — Toronto",
       "isCompleted": false,
       "score": null
     }
