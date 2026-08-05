@@ -74,7 +74,7 @@
         }
       },
       {
-        "position": 5,
+        "position": 6,
         "team": "Georgina",
         "teamCode": "892647",
         "record": {
@@ -92,21 +92,21 @@
         }
       },
       {
-        "position": 6,
+        "position": 5,
         "team": "Markham",
         "teamCode": "892645",
         "record": {
-          "gamesPlayed": 17,
-          "wins": 9,
+          "gamesPlayed": 18,
+          "wins": 10,
           "losses": 7,
           "ties": 1,
-          "winPercentage": "0.559"
+          "winPercentage": "0.583"
         },
         "stats": {
-          "points": 19,
-          "runsFor": 147,
-          "runsAgainst": 140,
-          "runDifferential": 7
+          "points": 21,
+          "runsFor": 162,
+          "runsAgainst": 145,
+          "runDifferential": 17
         }
       },
       {
@@ -146,25 +146,25 @@
         }
       },
       {
-        "position": 10,
+        "position": 9,
         "team": "Leaside",
         "teamCode": "892648",
         "record": {
-          "gamesPlayed": 13,
-          "wins": 5,
-          "losses": 8,
+          "gamesPlayed": 15,
+          "wins": 6,
+          "losses": 9,
           "ties": 0,
-          "winPercentage": "0.385"
+          "winPercentage": "0.400"
         },
         "stats": {
-          "points": 10,
-          "runsFor": 94,
-          "runsAgainst": 134,
-          "runDifferential": -40
+          "points": 12,
+          "runsFor": 111,
+          "runsAgainst": 160,
+          "runDifferential": -49
         }
       },
       {
-        "position": 9,
+        "position": 10,
         "team": "Bloordale",
         "teamCode": "892638",
         "record": {
@@ -222,17 +222,17 @@
         "team": "Caledon",
         "teamCode": "892646",
         "record": {
-          "gamesPlayed": 15,
+          "gamesPlayed": 16,
           "wins": 3,
-          "losses": 12,
+          "losses": 13,
           "ties": 0,
-          "winPercentage": "0.200"
+          "winPercentage": "0.188"
         },
         "stats": {
           "points": 6,
-          "runsFor": 106,
-          "runsAgainst": 159,
-          "runDifferential": -53
+          "runsFor": 117,
+          "runsAgainst": 171,
+          "runDifferential": -54
         }
       },
       {
@@ -254,7 +254,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-08-05T17:04:14.221Z",
+    "lastUpdated": "2026-08-05T18:29:02.696Z",
     "totalTeams": 14
   },
   "schedule": {
@@ -408,7 +408,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-05T17:04:14.276Z"
+        "lastUpdated": "2026-08-05T18:29:02.742Z"
       },
       "892634": {
         "teamCode": "892634",
@@ -519,7 +519,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-05T17:04:14.276Z"
+        "lastUpdated": "2026-08-05T18:29:02.742Z"
       },
       "892636": {
         "teamCode": "892636",
@@ -646,7 +646,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-05T17:04:14.276Z"
+        "lastUpdated": "2026-08-05T18:29:02.742Z"
       },
       "892637": {
         "teamCode": "892637",
@@ -749,7 +749,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-05T17:04:14.276Z"
+        "lastUpdated": "2026-08-05T18:29:02.742Z"
       },
       "892638": {
         "teamCode": "892638",
@@ -900,7 +900,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-05T17:04:14.276Z"
+        "lastUpdated": "2026-08-05T18:29:02.742Z"
       },
       "892639": {
         "teamCode": "892639",
@@ -1047,7 +1047,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-05T17:04:14.276Z"
+        "lastUpdated": "2026-08-05T18:29:02.742Z"
       },
       "892640": {
         "teamCode": "892640",
@@ -1194,7 +1194,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-05T17:04:14.276Z"
+        "lastUpdated": "2026-08-05T18:29:02.742Z"
       },
       "892642": {
         "teamCode": "892642",
@@ -1305,7 +1305,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-05T17:04:14.276Z"
+        "lastUpdated": "2026-08-05T18:29:02.742Z"
       },
       "892643": {
         "teamCode": "892643",
@@ -1448,7 +1448,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-05T17:04:14.276Z"
+        "lastUpdated": "2026-08-05T18:29:02.742Z"
       },
       "892644": {
         "teamCode": "892644",
@@ -1587,7 +1587,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-05T17:04:14.277Z"
+        "lastUpdated": "2026-08-05T18:29:02.743Z"
       },
       "892645": {
         "teamCode": "892645",
@@ -1652,8 +1652,12 @@
             "awayTeam": "Leaside",
             "awayTeamCode": "892648",
             "location": "Trace Manes — Toronto",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 15,
+              "away": 5,
+              "scoreText": "5-15"
+            }
           },
           {
             "date": "2026-08-04T22:30:00.000Z",
@@ -1710,7 +1714,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-05T17:04:14.277Z"
+        "lastUpdated": "2026-08-05T18:29:02.743Z"
       },
       "892646": {
         "teamCode": "892646",
@@ -1787,8 +1791,12 @@
             "awayTeam": "Leaside",
             "awayTeamCode": "892648",
             "location": "Trace Manes — Toronto",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 12,
+              "scoreText": "12-11"
+            }
           }
         ],
         "nextGames": [
@@ -1829,7 +1837,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-05T17:04:14.277Z"
+        "lastUpdated": "2026-08-05T18:29:02.743Z"
       },
       "892647": {
         "teamCode": "892647",
@@ -1964,7 +1972,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-05T17:04:14.277Z"
+        "lastUpdated": "2026-08-05T18:29:02.743Z"
       },
       "892648": {
         "teamCode": "892648",
@@ -2029,8 +2037,12 @@
             "awayTeam": "Leaside",
             "awayTeamCode": "892648",
             "location": "Trace Manes — Toronto",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 15,
+              "away": 5,
+              "scoreText": "5-15"
+            }
           },
           {
             "date": "2026-08-04T22:00:00.000Z",
@@ -2041,8 +2053,12 @@
             "awayTeam": "Leaside",
             "awayTeamCode": "892648",
             "location": "Trace Manes — Toronto",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 12,
+              "scoreText": "12-11"
+            }
           }
         ],
         "nextGames": [
@@ -2107,7 +2123,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-05T17:04:14.277Z"
+        "lastUpdated": "2026-08-05T18:29:02.743Z"
       }
     },
     "allGames": [
@@ -4028,8 +4044,12 @@
         "awayTeam": "Leaside",
         "awayTeamCode": "892648",
         "location": "Trace Manes — Toronto",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 15,
+          "away": 5,
+          "scoreText": "5-15"
+        }
       },
       {
         "date": "2026-07-28T22:15:00.000Z",
@@ -4156,8 +4176,12 @@
         "awayTeam": "Leaside",
         "awayTeamCode": "892648",
         "location": "Trace Manes — Toronto",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 12,
+          "scoreText": "12-11"
+        }
       },
       {
         "date": "2026-08-08T14:45:00.000Z",
@@ -4346,8 +4370,12 @@
         "awayTeam": "Leaside",
         "awayTeamCode": "892648",
         "location": "Trace Manes — Toronto",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 12,
+          "scoreText": "12-11"
+        }
       },
       {
         "date": "2026-08-02T17:00:00.000Z",
@@ -4434,8 +4462,12 @@
         "awayTeam": "Leaside",
         "awayTeamCode": "892648",
         "location": "Trace Manes — Toronto",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 15,
+          "away": 5,
+          "scoreText": "5-15"
+        }
       },
       {
         "date": "2026-07-27T22:30:00.000Z",
@@ -4588,14 +4620,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2026-08-05T17:04:14.277Z",
+    "lastUpdated": "2026-08-05T18:29:02.743Z",
     "totalGames": 147
   },
   "summary": {
     "totalTeams": 14,
     "totalGames": 147,
-    "completedGames": 111,
-    "upcomingGames": 36,
+    "completedGames": 113,
+    "upcomingGames": 34,
     "topTeam": {
       "team": "Barrie",
       "teamCode": "892634",
@@ -4612,6 +4644,6 @@
       "date": "Mon, Jun 29",
       "location": "North Hill — Diamond 2 — Bolton"
     },
-    "lastUpdated": "2026-08-05T17:04:14.800Z"
+    "lastUpdated": "2026-08-05T18:29:03.270Z"
   }
 }
