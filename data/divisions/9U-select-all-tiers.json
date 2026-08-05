@@ -93,6 +93,24 @@
       },
       {
         "position": 6,
+        "team": "TNT Thunder 9U DS",
+        "teamCode": "618065",
+        "record": {
+          "gamesPlayed": 16,
+          "wins": 8,
+          "losses": 8,
+          "ties": 0,
+          "winPercentage": "0.500"
+        },
+        "stats": {
+          "points": 16,
+          "runsFor": 222,
+          "runsAgainst": 238,
+          "runDifferential": -16
+        }
+      },
+      {
+        "position": 7,
         "team": "Innisfil Cardinals 9U DS",
         "teamCode": "618052",
         "record": {
@@ -110,7 +128,7 @@
         }
       },
       {
-        "position": 7,
+        "position": 8,
         "team": "Barrie Baycats 9U DS",
         "teamCode": "612797",
         "record": {
@@ -125,24 +143,6 @@
           "runsFor": 183,
           "runsAgainst": 184,
           "runDifferential": -1
-        }
-      },
-      {
-        "position": 8,
-        "team": "TNT Thunder 9U DS",
-        "teamCode": "618065",
-        "record": {
-          "gamesPlayed": 14,
-          "wins": 7,
-          "losses": 7,
-          "ties": 0,
-          "winPercentage": "0.500"
-        },
-        "stats": {
-          "points": 14,
-          "runsFor": 194,
-          "runsAgainst": 205,
-          "runDifferential": -11
         }
       },
       {
@@ -186,17 +186,17 @@
         "team": "Thornhill Reds 9U DS",
         "teamCode": "617998",
         "record": {
-          "gamesPlayed": 10,
-          "wins": 2,
-          "losses": 8,
+          "gamesPlayed": 12,
+          "wins": 3,
+          "losses": 9,
           "ties": 0,
-          "winPercentage": "0.200"
+          "winPercentage": "0.250"
         },
         "stats": {
-          "points": 4,
-          "runsFor": 68,
-          "runsAgainst": 119,
-          "runDifferential": -51
+          "points": 6,
+          "runsFor": 101,
+          "runsAgainst": 147,
+          "runDifferential": -46
         }
       },
       {
@@ -254,7 +254,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-08-05T15:14:53.920Z",
+    "lastUpdated": "2026-08-05T17:03:49.604Z",
     "totalTeams": 14
   },
   "schedule": {
@@ -347,7 +347,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-05T15:14:58.131Z"
+        "lastUpdated": "2026-08-05T17:03:53.707Z"
       },
       "617187": {
         "teamCode": "617187",
@@ -437,7 +437,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-05T15:14:58.131Z"
+        "lastUpdated": "2026-08-05T17:03:53.707Z"
       },
       "617188": {
         "teamCode": "617188",
@@ -527,7 +527,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-05T15:14:58.131Z"
+        "lastUpdated": "2026-08-05T17:03:53.707Z"
       },
       "617891": {
         "teamCode": "617891",
@@ -617,7 +617,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-05T15:14:58.131Z"
+        "lastUpdated": "2026-08-05T17:03:53.707Z"
       },
       "617916": {
         "teamCode": "617916",
@@ -707,7 +707,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-05T15:14:58.131Z"
+        "lastUpdated": "2026-08-05T17:03:53.707Z"
       },
       "617954": {
         "teamCode": "617954",
@@ -797,46 +797,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-05T15:14:58.131Z"
+        "lastUpdated": "2026-08-05T17:03:53.707Z"
       },
       "617998": {
         "teamCode": "617998",
         "totalGames": 16,
-        "playedGames": 10,
+        "playedGames": 12,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sat, May 30",
-            "time": "12:50 PM",
-            "homeTeam": "Markham Mariners 9U DS",
-            "homeTeamCode": "617891",
-            "awayTeam": "Thornhill Reds 9U DS",
-            "awayTeamCode": "617998",
-            "location": "Morgan Park",
-            "isCompleted": true,
-            "score": {
-              "home": 13,
-              "away": 1,
-              "scoreText": "1-13"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Sun, May 31",
-            "time": "11:00 AM",
-            "homeTeam": "Thornhill Reds 9U DS",
-            "homeTeamCode": "617998",
-            "awayTeam": "Vaughan Vikings 8U DS",
-            "awayTeamCode": "617187",
-            "location": "Thornhill Park",
-            "isCompleted": true,
-            "score": {
-              "home": 23,
-              "away": 0,
-              "scoreText": "0-23"
-            }
-          },
           {
             "date": null,
             "dateText": "Sun, May 31",
@@ -884,10 +852,42 @@
               "away": 5,
               "scoreText": "5-9"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, Aug 1",
+            "time": "10:00 AM",
+            "homeTeam": "TNT Thunder 9U DS",
+            "homeTeamCode": "618065",
+            "awayTeam": "Thornhill Reds 9U DS",
+            "awayTeamCode": "617998",
+            "location": "McLean Park",
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 11,
+              "scoreText": "11-14"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, Aug 1",
+            "time": "12:15 PM",
+            "homeTeam": "TNT Thunder 9U DS",
+            "homeTeamCode": "618065",
+            "awayTeam": "Thornhill Reds 9U DS",
+            "awayTeamCode": "617998",
+            "location": "McLean Park",
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 22,
+              "scoreText": "22-14"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-05T15:14:58.131Z"
+        "lastUpdated": "2026-08-05T17:03:53.707Z"
       },
       "618013": {
         "teamCode": "618013",
@@ -977,7 +977,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-05T15:14:58.131Z"
+        "lastUpdated": "2026-08-05T17:03:53.707Z"
       },
       "618026": {
         "teamCode": "618026",
@@ -1067,7 +1067,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-05T15:14:58.131Z"
+        "lastUpdated": "2026-08-05T17:03:53.707Z"
       },
       "618052": {
         "teamCode": "618052",
@@ -1157,46 +1157,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-05T15:14:58.131Z"
+        "lastUpdated": "2026-08-05T17:03:53.707Z"
       },
       "618065": {
         "teamCode": "618065",
         "totalGames": 16,
-        "playedGames": 14,
+        "playedGames": 16,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sun, Jun 28",
-            "time": "1:00 PM",
-            "homeTeam": "Orangeville Bengals 9U DS",
-            "homeTeamCode": "618026",
-            "awayTeam": "TNT Thunder 9U DS",
-            "awayTeamCode": "618065",
-            "location": "Springbrook Shack Diamond, 450 Town Line, Orangville",
-            "isCompleted": true,
-            "score": {
-              "home": 10,
-              "away": 15,
-              "scoreText": "15-10"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Sat, Jul 11",
-            "time": "10:00 AM",
-            "homeTeam": "TNT Thunder 9U DS",
-            "homeTeamCode": "618065",
-            "awayTeam": "Vaughan Vikings 8U DS",
-            "awayTeamCode": "617187",
-            "location": "McLean Park",
-            "isCompleted": true,
-            "score": {
-              "home": 23,
-              "away": 9,
-              "scoreText": "9-23"
-            }
-          },
           {
             "date": null,
             "dateText": "Sat, Jul 11",
@@ -1244,10 +1212,42 @@
               "away": 23,
               "scoreText": "23-15"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, Aug 1",
+            "time": "10:00 AM",
+            "homeTeam": "TNT Thunder 9U DS",
+            "homeTeamCode": "618065",
+            "awayTeam": "Thornhill Reds 9U DS",
+            "awayTeamCode": "617998",
+            "location": "McLean Park",
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 11,
+              "scoreText": "11-14"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, Aug 1",
+            "time": "12:15 PM",
+            "homeTeam": "TNT Thunder 9U DS",
+            "homeTeamCode": "618065",
+            "awayTeam": "Thornhill Reds 9U DS",
+            "awayTeamCode": "617998",
+            "location": "McLean Park",
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 22,
+              "scoreText": "22-14"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-05T15:14:58.131Z"
+        "lastUpdated": "2026-08-05T17:03:53.707Z"
       },
       "618390": {
         "teamCode": "618390",
@@ -1337,7 +1337,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-05T15:14:58.131Z"
+        "lastUpdated": "2026-08-05T17:03:53.707Z"
       },
       "618393": {
         "teamCode": "618393",
@@ -1427,7 +1427,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-05T15:14:58.131Z"
+        "lastUpdated": "2026-08-05T17:03:53.707Z"
       },
       "618477": {
         "teamCode": "618477",
@@ -1517,7 +1517,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-05T15:14:58.131Z"
+        "lastUpdated": "2026-08-05T17:03:53.707Z"
       }
     },
     "allGames": [
@@ -3186,8 +3186,12 @@
         "awayTeam": "Thornhill Reds 9U DS",
         "awayTeamCode": "617998",
         "location": "McLean Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 11,
+          "scoreText": "11-14"
+        }
       },
       {
         "date": null,
@@ -3198,8 +3202,12 @@
         "awayTeam": "Thornhill Reds 9U DS",
         "awayTeamCode": "617998",
         "location": "McLean Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 22,
+          "scoreText": "22-14"
+        }
       },
       {
         "date": null,
@@ -3421,14 +3429,14 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-08-05T15:14:58.131Z",
+    "lastUpdated": "2026-08-05T17:03:53.707Z",
     "totalGames": 112
   },
   "summary": {
     "totalTeams": 14,
     "totalGames": 112,
-    "completedGames": 98,
-    "upcomingGames": 14,
+    "completedGames": 100,
+    "upcomingGames": 12,
     "topTeam": {
       "team": "Vaughan Vikings 9U DS",
       "teamCode": "617188",
@@ -3445,6 +3453,6 @@
       "date": "Sun, Jul 26",
       "location": "Kitchener Park"
     },
-    "lastUpdated": "2026-08-05T15:15:18.900Z"
+    "lastUpdated": "2026-08-05T17:04:14.800Z"
   }
 }
