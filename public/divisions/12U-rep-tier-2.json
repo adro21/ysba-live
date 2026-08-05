@@ -2,6 +2,24 @@
   "standings": {
     "teams": [
       {
+        "position": 1,
+        "team": "Orangeville Bengals 12U AA",
+        "teamCode": "618022",
+        "record": {
+          "gamesPlayed": 15,
+          "wins": 10,
+          "losses": 5,
+          "ties": 0,
+          "winPercentage": "0.667"
+        },
+        "stats": {
+          "points": 20,
+          "runsFor": 151,
+          "runsAgainst": 101,
+          "runDifferential": 50
+        }
+      },
+      {
         "position": 4,
         "team": "Bradford Tigers 12U AA",
         "teamCode": "617946",
@@ -17,24 +35,6 @@
           "runsFor": 130,
           "runsAgainst": 78,
           "runDifferential": 52
-        }
-      },
-      {
-        "position": 1,
-        "team": "Orangeville Bengals 12U AA",
-        "teamCode": "618022",
-        "record": {
-          "gamesPlayed": 14,
-          "wins": 9,
-          "losses": 5,
-          "ties": 0,
-          "winPercentage": "0.643"
-        },
-        "stats": {
-          "points": 18,
-          "runsFor": 141,
-          "runsAgainst": 99,
-          "runDifferential": 42
         }
       },
       {
@@ -56,38 +56,20 @@
         }
       },
       {
-        "position": 2,
-        "team": "Richmond Hill Phoenix 12U AA",
-        "teamCode": "617852",
-        "record": {
-          "gamesPlayed": 14,
-          "wins": 7,
-          "losses": 5,
-          "ties": 2,
-          "winPercentage": "0.571"
-        },
-        "stats": {
-          "points": 16,
-          "runsFor": 136,
-          "runsAgainst": 147,
-          "runDifferential": -11
-        }
-      },
-      {
         "position": 6,
         "team": "Aurora-King Jays 12U AA",
         "teamCode": "617973",
         "record": {
-          "gamesPlayed": 12,
+          "gamesPlayed": 13,
           "wins": 6,
           "losses": 5,
-          "ties": 1,
-          "winPercentage": "0.542"
+          "ties": 2,
+          "winPercentage": "0.538"
         },
         "stats": {
-          "points": 13,
-          "runsFor": 101,
-          "runsAgainst": 131,
+          "points": 14,
+          "runsFor": 107,
+          "runsAgainst": 137,
           "runDifferential": -30
         }
       },
@@ -96,17 +78,35 @@
         "team": "Markham Mariners 12U AA",
         "teamCode": "617879",
         "record": {
-          "gamesPlayed": 13,
+          "gamesPlayed": 14,
           "wins": 7,
           "losses": 6,
-          "ties": 0,
-          "winPercentage": "0.538"
+          "ties": 1,
+          "winPercentage": "0.536"
         },
         "stats": {
-          "points": 14,
-          "runsFor": 108,
-          "runsAgainst": 84,
+          "points": 15,
+          "runsFor": 114,
+          "runsAgainst": 90,
           "runDifferential": 24
+        }
+      },
+      {
+        "position": 2,
+        "team": "Richmond Hill Phoenix 12U AA",
+        "teamCode": "617852",
+        "record": {
+          "gamesPlayed": 15,
+          "wins": 7,
+          "losses": 6,
+          "ties": 2,
+          "winPercentage": "0.533"
+        },
+        "stats": {
+          "points": 16,
+          "runsFor": 138,
+          "runsAgainst": 157,
+          "runDifferential": -19
         }
       },
       {
@@ -114,17 +114,17 @@
         "team": "Muskoka Hornets 12U AA",
         "teamCode": "628934",
         "record": {
-          "gamesPlayed": 13,
+          "gamesPlayed": 14,
           "wins": 6,
-          "losses": 7,
+          "losses": 8,
           "ties": 0,
-          "winPercentage": "0.462"
+          "winPercentage": "0.429"
         },
         "stats": {
           "points": 12,
-          "runsFor": 113,
-          "runsAgainst": 130,
-          "runDifferential": -17
+          "runsFor": 119,
+          "runsAgainst": 137,
+          "runDifferential": -18
         }
       },
       {
@@ -132,17 +132,17 @@
         "team": "Newmarket Hawks 12U AA",
         "teamCode": "617907",
         "record": {
-          "gamesPlayed": 14,
-          "wins": 3,
+          "gamesPlayed": 15,
+          "wins": 4,
           "losses": 8,
           "ties": 3,
-          "winPercentage": "0.321"
+          "winPercentage": "0.367"
         },
         "stats": {
-          "points": 9,
-          "runsFor": 107,
-          "runsAgainst": 133,
-          "runDifferential": -26
+          "points": 11,
+          "runsFor": 114,
+          "runsAgainst": 139,
+          "runDifferential": -25
         }
       },
       {
@@ -164,7 +164,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-08-05T11:00:09.858Z",
+    "lastUpdated": "2026-08-05T12:54:26.155Z",
     "totalTeams": 9
   },
   "schedule": {
@@ -257,7 +257,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-05T11:00:13.969Z"
+        "lastUpdated": "2026-08-05T12:54:30.384Z"
       },
       "612784": {
         "teamCode": "612784",
@@ -347,7 +347,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-05T11:00:13.969Z"
+        "lastUpdated": "2026-08-05T12:54:30.384Z"
       },
       "617177": {
         "teamCode": "617177",
@@ -437,7 +437,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-05T11:00:13.969Z"
+        "lastUpdated": "2026-08-05T12:54:30.384Z"
       },
       "617178": {
         "teamCode": "617178",
@@ -527,7 +527,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-05T11:00:13.969Z"
+        "lastUpdated": "2026-08-05T12:54:30.384Z"
       },
       "617204": {
         "teamCode": "617204",
@@ -617,30 +617,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-05T11:00:13.969Z"
+        "lastUpdated": "2026-08-05T12:54:30.384Z"
       },
       "617852": {
         "teamCode": "617852",
         "totalGames": 16,
-        "playedGames": 14,
+        "playedGames": 15,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Mon, Jun 22",
-            "time": "7:00 PM",
-            "homeTeam": "Richmond Hill Phoenix 12U AA",
-            "homeTeamCode": "617852",
-            "awayTeam": "Bradford Tigers 12U AA",
-            "awayTeamCode": "617946",
-            "location": "David Hamilton Park",
-            "isCompleted": true,
-            "score": {
-              "home": 11,
-              "away": 19,
-              "scoreText": "19-11"
-            }
-          },
           {
             "date": null,
             "dateText": "Mon, Jun 29",
@@ -704,15 +688,31 @@
               "away": 12,
               "scoreText": "12-12"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Tue, Aug 4",
+            "time": "7:00 PM",
+            "homeTeam": "Orangeville Bengals 12U AA",
+            "homeTeamCode": "618022",
+            "awayTeam": "Richmond Hill Phoenix 12U AA",
+            "awayTeamCode": "617852",
+            "location": "Idlewyld Park",
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 2,
+              "scoreText": "2-10"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-05T11:00:13.969Z"
+        "lastUpdated": "2026-08-05T12:54:30.384Z"
       },
       "617879": {
         "teamCode": "617879",
         "totalGames": 15,
-        "playedGames": 13,
+        "playedGames": 14,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -797,7 +797,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-05T11:00:13.969Z"
+        "lastUpdated": "2026-08-05T12:54:30.384Z"
       },
       "617880": {
         "teamCode": "617880",
@@ -887,7 +887,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-05T11:00:13.969Z"
+        "lastUpdated": "2026-08-05T12:54:30.384Z"
       },
       "617906": {
         "teamCode": "617906",
@@ -977,30 +977,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-05T11:00:13.969Z"
+        "lastUpdated": "2026-08-05T12:54:30.384Z"
       },
       "617907": {
         "teamCode": "617907",
         "totalGames": 16,
-        "playedGames": 14,
+        "playedGames": 15,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sat, Jun 27",
-            "time": "11:00 AM",
-            "homeTeam": "Muskoka Hornets 12U AA",
-            "homeTeamCode": "628934",
-            "awayTeam": "Newmarket Hawks 12U AA",
-            "awayTeamCode": "617907",
-            "location": "Peake Fields Ballpark",
-            "isCompleted": true,
-            "score": {
-              "home": 9,
-              "away": 10,
-              "scoreText": "10-9"
-            }
-          },
           {
             "date": null,
             "dateText": "Tue, Jul 14",
@@ -1064,10 +1048,26 @@
               "away": 5,
               "scoreText": "5-5"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Tue, Aug 4",
+            "time": "6:00 PM",
+            "homeTeam": "Newmarket Hawks 12U AA",
+            "homeTeamCode": "617907",
+            "awayTeam": "Muskoka Hornets 12U AA",
+            "awayTeamCode": "628934",
+            "location": "Fairgrounds Park Diamond # 1",
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 6,
+              "scoreText": "6-7"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-05T11:00:13.969Z"
+        "lastUpdated": "2026-08-05T12:54:30.384Z"
       },
       "617946": {
         "teamCode": "617946",
@@ -1157,12 +1157,12 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-05T11:00:13.969Z"
+        "lastUpdated": "2026-08-05T12:54:30.384Z"
       },
       "617973": {
         "teamCode": "617973",
         "totalGames": 16,
-        "playedGames": 12,
+        "playedGames": 13,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -1247,7 +1247,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-05T11:00:13.969Z"
+        "lastUpdated": "2026-08-05T12:54:30.384Z"
       },
       "617974": {
         "teamCode": "617974",
@@ -1337,7 +1337,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-05T11:00:13.969Z"
+        "lastUpdated": "2026-08-05T12:54:30.384Z"
       },
       "617987": {
         "teamCode": "617987",
@@ -1427,7 +1427,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-05T11:00:13.969Z"
+        "lastUpdated": "2026-08-05T12:54:30.384Z"
       },
       "617988": {
         "teamCode": "617988",
@@ -1517,7 +1517,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-05T11:00:13.969Z"
+        "lastUpdated": "2026-08-05T12:54:30.384Z"
       },
       "618007": {
         "teamCode": "618007",
@@ -1607,7 +1607,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-05T11:00:13.969Z"
+        "lastUpdated": "2026-08-05T12:54:30.384Z"
       },
       "618021": {
         "teamCode": "618021",
@@ -1697,30 +1697,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-05T11:00:13.969Z"
+        "lastUpdated": "2026-08-05T12:54:30.384Z"
       },
       "618022": {
         "teamCode": "618022",
         "totalGames": 16,
-        "playedGames": 14,
+        "playedGames": 15,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Mon, Jun 29",
-            "time": "7:00 PM",
-            "homeTeam": "Richmond Hill Phoenix 12U AA",
-            "homeTeamCode": "617852",
-            "awayTeam": "Orangeville Bengals 12U AA",
-            "awayTeamCode": "618022",
-            "location": "David Hamilton Park",
-            "isCompleted": true,
-            "score": {
-              "home": 1,
-              "away": 16,
-              "scoreText": "16-1"
-            }
-          },
           {
             "date": null,
             "dateText": "Tue, Jul 7",
@@ -1784,10 +1768,26 @@
               "away": 11,
               "scoreText": "11-14"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Tue, Aug 4",
+            "time": "7:00 PM",
+            "homeTeam": "Orangeville Bengals 12U AA",
+            "homeTeamCode": "618022",
+            "awayTeam": "Richmond Hill Phoenix 12U AA",
+            "awayTeamCode": "617852",
+            "location": "Idlewyld Park",
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 2,
+              "scoreText": "2-10"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-05T11:00:13.969Z"
+        "lastUpdated": "2026-08-05T12:54:30.384Z"
       },
       "618044": {
         "teamCode": "618044",
@@ -1877,7 +1877,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-05T11:00:13.969Z"
+        "lastUpdated": "2026-08-05T12:54:30.384Z"
       },
       "618059": {
         "teamCode": "618059",
@@ -1967,7 +1967,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-05T11:00:13.969Z"
+        "lastUpdated": "2026-08-05T12:54:30.384Z"
       },
       "618068": {
         "teamCode": "618068",
@@ -2057,7 +2057,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-05T11:00:13.969Z"
+        "lastUpdated": "2026-08-05T12:54:30.384Z"
       },
       "618383": {
         "teamCode": "618383",
@@ -2147,7 +2147,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-05T11:00:13.969Z"
+        "lastUpdated": "2026-08-05T12:54:30.384Z"
       },
       "618395": {
         "teamCode": "618395",
@@ -2237,7 +2237,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-05T11:00:13.969Z"
+        "lastUpdated": "2026-08-05T12:54:30.384Z"
       },
       "618468": {
         "teamCode": "618468",
@@ -2327,7 +2327,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-05T11:00:13.969Z"
+        "lastUpdated": "2026-08-05T12:54:30.384Z"
       },
       "625727": {
         "teamCode": "625727",
@@ -2417,30 +2417,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-05T11:00:13.969Z"
+        "lastUpdated": "2026-08-05T12:54:30.384Z"
       },
       "628934": {
         "teamCode": "628934",
         "totalGames": 16,
-        "playedGames": 13,
+        "playedGames": 14,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sat, Jul 18",
-            "time": "11:00 AM",
-            "homeTeam": "Muskoka Hornets 12U AA",
-            "homeTeamCode": "628934",
-            "awayTeam": "Markham Mariners 12U AA",
-            "awayTeamCode": "617879",
-            "location": "Peake Fields Ballpark",
-            "isCompleted": true,
-            "score": {
-              "home": 0,
-              "away": 10,
-              "scoreText": "10-0"
-            }
-          },
           {
             "date": null,
             "dateText": "Sat, Jul 18",
@@ -2504,10 +2488,26 @@
               "away": 11,
               "scoreText": "11-14"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Tue, Aug 4",
+            "time": "6:00 PM",
+            "homeTeam": "Newmarket Hawks 12U AA",
+            "homeTeamCode": "617907",
+            "awayTeam": "Muskoka Hornets 12U AA",
+            "awayTeamCode": "628934",
+            "location": "Fairgrounds Park Diamond # 1",
+            "isCompleted": true,
+            "score": {
+              "home": 7,
+              "away": 6,
+              "scoreText": "6-7"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-05T11:00:13.969Z"
+        "lastUpdated": "2026-08-05T12:54:30.384Z"
       }
     },
     "allGames": [
@@ -3768,8 +3768,12 @@
         "awayTeam": "Aurora-King Jays 12U AA",
         "awayTeamCode": "617973",
         "location": "Millikan Mills Comm Centre Field # 5",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 6,
+          "scoreText": "6-6"
+        }
       },
       {
         "date": null,
@@ -5236,8 +5240,12 @@
         "awayTeam": "Muskoka Hornets 12U AA",
         "awayTeamCode": "628934",
         "location": "Fairgrounds Park Diamond # 1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 7,
+          "away": 6,
+          "scoreText": "6-7"
+        }
       },
       {
         "date": null,
@@ -5284,8 +5292,12 @@
         "awayTeam": "Richmond Hill Phoenix 12U AA",
         "awayTeamCode": "617852",
         "location": "Idlewyld Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 2,
+          "scoreText": "2-10"
+        }
       },
       {
         "date": null,
@@ -5691,19 +5703,19 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-08-05T11:00:13.970Z",
+    "lastUpdated": "2026-08-05T12:54:30.384Z",
     "totalGames": 200
   },
   "summary": {
     "totalTeams": 9,
     "totalGames": 200,
-    "completedGames": 154,
-    "upcomingGames": 46,
+    "completedGames": 157,
+    "upcomingGames": 43,
     "topTeam": {
-      "team": "Bradford Tigers 12U AA",
-      "teamCode": "617946",
-      "wins": 8,
-      "losses": 4,
+      "team": "Orangeville Bengals 12U AA",
+      "teamCode": "618022",
+      "wins": 10,
+      "losses": 5,
       "winPercentage": "0.667"
     },
     "highestScoringGame": {
@@ -5715,6 +5727,6 @@
       "date": "Mon, May 18",
       "location": "Lampman Lane"
     },
-    "lastUpdated": "2026-08-05T11:03:41.966Z"
+    "lastUpdated": "2026-08-05T12:58:01.515Z"
   }
 }

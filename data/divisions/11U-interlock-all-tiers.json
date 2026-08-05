@@ -39,6 +39,24 @@
       },
       {
         "position": 3,
+        "team": "Richmond Hill",
+        "teamCode": "883732",
+        "record": {
+          "gamesPlayed": 14,
+          "wins": 10,
+          "losses": 4,
+          "ties": 0,
+          "winPercentage": "0.714"
+        },
+        "stats": {
+          "points": 20,
+          "runsFor": 111,
+          "runsAgainst": 68,
+          "runDifferential": 43
+        }
+      },
+      {
+        "position": 5,
         "team": "Whitby",
         "teamCode": "883731",
         "record": {
@@ -57,38 +75,20 @@
       },
       {
         "position": 4,
-        "team": "Richmond Hill",
-        "teamCode": "883732",
-        "record": {
-          "gamesPlayed": 13,
-          "wins": 9,
-          "losses": 4,
-          "ties": 0,
-          "winPercentage": "0.692"
-        },
-        "stats": {
-          "points": 18,
-          "runsFor": 97,
-          "runsAgainst": 66,
-          "runDifferential": 31
-        }
-      },
-      {
-        "position": 6,
         "team": "Caledon",
         "teamCode": "883733",
         "record": {
-          "gamesPlayed": 12,
-          "wins": 7,
+          "gamesPlayed": 14,
+          "wins": 9,
           "losses": 4,
           "ties": 1,
-          "winPercentage": "0.625"
+          "winPercentage": "0.679"
         },
         "stats": {
-          "points": 15,
-          "runsFor": 112,
-          "runsAgainst": 72,
-          "runDifferential": 40
+          "points": 19,
+          "runsFor": 131,
+          "runsAgainst": 78,
+          "runDifferential": 53
         }
       },
       {
@@ -110,39 +110,21 @@
         }
       },
       {
-        "position": 5,
+        "position": 6,
         "team": "East York",
         "teamCode": "883724",
         "record": {
-          "gamesPlayed": 15,
+          "gamesPlayed": 16,
           "wins": 7,
-          "losses": 7,
+          "losses": 8,
           "ties": 1,
-          "winPercentage": "0.500"
+          "winPercentage": "0.469"
         },
         "stats": {
           "points": 15,
-          "runsFor": 113,
-          "runsAgainst": 109,
-          "runDifferential": 4
-        }
-      },
-      {
-        "position": 11,
-        "team": "Newmarket",
-        "teamCode": "883723",
-        "record": {
-          "gamesPlayed": 11,
-          "wins": 3,
-          "losses": 8,
-          "ties": 0,
-          "winPercentage": "0.273"
-        },
-        "stats": {
-          "points": 6,
-          "runsFor": 65,
-          "runsAgainst": 98,
-          "runDifferential": -33
+          "runsFor": 119,
+          "runsAgainst": 118,
+          "runDifferential": 1
         }
       },
       {
@@ -168,17 +150,35 @@
         "team": "North Toronto",
         "teamCode": "883727",
         "record": {
-          "gamesPlayed": 13,
+          "gamesPlayed": 14,
           "wins": 3,
-          "losses": 9,
+          "losses": 10,
           "ties": 1,
-          "winPercentage": "0.269"
+          "winPercentage": "0.250"
         },
         "stats": {
           "points": 7,
-          "runsFor": 77,
-          "runsAgainst": 115,
-          "runDifferential": -38
+          "runsFor": 79,
+          "runsAgainst": 129,
+          "runDifferential": -50
+        }
+      },
+      {
+        "position": 11,
+        "team": "Newmarket",
+        "teamCode": "883723",
+        "record": {
+          "gamesPlayed": 12,
+          "wins": 3,
+          "losses": 9,
+          "ties": 0,
+          "winPercentage": "0.250"
+        },
+        "stats": {
+          "points": 6,
+          "runsFor": 65,
+          "runsAgainst": 108,
+          "runDifferential": -43
         }
       },
       {
@@ -218,7 +218,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-08-05T11:03:41.953Z",
+    "lastUpdated": "2026-08-05T12:58:01.493Z",
     "totalTeams": 12
   },
   "schedule": {
@@ -324,7 +324,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-05T11:03:41.965Z"
+        "lastUpdated": "2026-08-05T12:58:01.515Z"
       },
       "883723": {
         "teamCode": "883723",
@@ -397,8 +397,12 @@
             "awayTeam": "Caledon",
             "awayTeamCode": "883733",
             "location": "North Hill — Diamond 3 — Bolton",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 0,
+              "away": 10,
+              "scoreText": "10-0"
+            }
           }
         ],
         "nextGames": [
@@ -427,7 +431,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-05T11:03:41.965Z"
+        "lastUpdated": "2026-08-05T12:58:01.515Z"
       },
       "883724": {
         "teamCode": "883724",
@@ -504,8 +508,12 @@
             "awayTeam": "East York",
             "awayTeamCode": "883724",
             "location": "Dieppe — Toronto",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 6,
+              "scoreText": "6-9"
+            }
           }
         ],
         "nextGames": [
@@ -522,7 +530,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-05T11:03:41.965Z"
+        "lastUpdated": "2026-08-05T12:58:01.515Z"
       },
       "883725": {
         "teamCode": "883725",
@@ -641,7 +649,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-05T11:03:41.965Z"
+        "lastUpdated": "2026-08-05T12:58:01.515Z"
       },
       "883726": {
         "teamCode": "883726",
@@ -764,7 +772,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-05T11:03:41.966Z"
+        "lastUpdated": "2026-08-05T12:58:01.515Z"
       },
       "883727": {
         "teamCode": "883727",
@@ -845,8 +853,12 @@
             "awayTeam": "Richmond Hill",
             "awayTeamCode": "883732",
             "location": "Harding Park — Richmond Hill",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 2,
+              "away": 14,
+              "scoreText": "14-2"
+            }
           }
         ],
         "nextGames": [
@@ -875,7 +887,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-05T11:03:41.966Z"
+        "lastUpdated": "2026-08-05T12:58:01.515Z"
       },
       "883728": {
         "teamCode": "883728",
@@ -974,7 +986,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-05T11:03:41.966Z"
+        "lastUpdated": "2026-08-05T12:58:01.515Z"
       },
       "883729": {
         "teamCode": "883729",
@@ -1097,7 +1109,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-05T11:03:41.966Z"
+        "lastUpdated": "2026-08-05T12:58:01.515Z"
       },
       "883730": {
         "teamCode": "883730",
@@ -1200,7 +1212,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-05T11:03:41.966Z"
+        "lastUpdated": "2026-08-05T12:58:01.515Z"
       },
       "883731": {
         "teamCode": "883731",
@@ -1295,7 +1307,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-05T11:03:41.966Z"
+        "lastUpdated": "2026-08-05T12:58:01.515Z"
       },
       "883732": {
         "teamCode": "883732",
@@ -1372,8 +1384,12 @@
             "awayTeam": "Richmond Hill",
             "awayTeamCode": "883732",
             "location": "Harding Park — Richmond Hill",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 2,
+              "away": 14,
+              "scoreText": "14-2"
+            }
           }
         ],
         "nextGames": [
@@ -1414,7 +1430,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-05T11:03:41.966Z"
+        "lastUpdated": "2026-08-05T12:58:01.515Z"
       },
       "883733": {
         "teamCode": "883733",
@@ -1463,8 +1479,12 @@
             "awayTeam": "East York",
             "awayTeamCode": "883724",
             "location": "Dieppe — Toronto",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 9,
+              "away": 6,
+              "scoreText": "6-9"
+            }
           },
           {
             "date": "2026-08-02T13:30:00.000Z",
@@ -1487,8 +1507,12 @@
             "awayTeam": "Caledon",
             "awayTeamCode": "883733",
             "location": "North Hill — Diamond 3 — Bolton",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 0,
+              "away": 10,
+              "scoreText": "10-0"
+            }
           }
         ],
         "nextGames": [
@@ -1505,7 +1529,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-05T11:03:41.966Z"
+        "lastUpdated": "2026-08-05T12:58:01.515Z"
       }
     },
     "allGames": [
@@ -2934,8 +2958,12 @@
         "awayTeam": "East York",
         "awayTeamCode": "883724",
         "location": "Dieppe — Toronto",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 6,
+          "scoreText": "6-9"
+        }
       },
       {
         "date": "2026-08-02T13:30:00.000Z",
@@ -2974,8 +3002,12 @@
         "awayTeam": "Caledon",
         "awayTeamCode": "883733",
         "location": "North Hill — Diamond 3 — Bolton",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 0,
+          "away": 10,
+          "scoreText": "10-0"
+        }
       },
       {
         "date": "2026-08-04T22:00:00.000Z",
@@ -2986,8 +3018,12 @@
         "awayTeam": "Richmond Hill",
         "awayTeamCode": "883732",
         "location": "Harding Park — Richmond Hill",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 2,
+          "away": 14,
+          "scoreText": "14-2"
+        }
       },
       {
         "date": "2026-08-05T23:00:00.000Z",
@@ -3136,8 +3172,12 @@
         "awayTeam": "Caledon",
         "awayTeamCode": "883733",
         "location": "North Hill — Diamond 3 — Bolton",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 0,
+          "away": 10,
+          "scoreText": "10-0"
+        }
       },
       {
         "date": "2026-08-04T22:00:00.000Z",
@@ -3160,8 +3200,12 @@
         "awayTeam": "Richmond Hill",
         "awayTeamCode": "883732",
         "location": "Harding Park — Richmond Hill",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 2,
+          "away": 14,
+          "scoreText": "14-2"
+        }
       },
       {
         "date": "2026-08-03T22:00:00.000Z",
@@ -3212,8 +3256,12 @@
         "awayTeam": "East York",
         "awayTeamCode": "883724",
         "location": "Dieppe — Toronto",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 9,
+          "away": 6,
+          "scoreText": "6-9"
+        }
       },
       {
         "date": "2026-07-31T23:00:00.000Z",
@@ -3370,14 +3418,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2026-08-05T11:03:41.966Z",
+    "lastUpdated": "2026-08-05T12:58:01.515Z",
     "totalGames": 106
   },
   "summary": {
     "totalTeams": 12,
     "totalGames": 106,
-    "completedGames": 82,
-    "upcomingGames": 24,
+    "completedGames": 85,
+    "upcomingGames": 21,
     "topTeam": {
       "team": "Etobicoke",
       "teamCode": "883728",
@@ -3394,6 +3442,6 @@
       "date": "Sun, May 31",
       "location": "North Hill — Diamond 3 — Bolton"
     },
-    "lastUpdated": "2026-08-05T11:03:41.966Z"
+    "lastUpdated": "2026-08-05T12:58:01.515Z"
   }
 }

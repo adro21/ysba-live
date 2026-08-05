@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-05T11:03:41.966Z",
+  "lastUpdated": "2026-08-05T12:58:01.515Z",
   "totalGames": 190,
   "games": [
     {
@@ -43,8 +43,12 @@
       "awayTeam": "Caledon",
       "awayTeamCode": "883733",
       "location": "North Hill — Diamond 3 — Bolton",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 0,
+        "away": 10,
+        "scoreText": "10-0"
+      },
       "division": "11U",
       "tier": "interlock-all-tiers"
     },
@@ -85,8 +89,12 @@
       "awayTeam": "Richmond Hill",
       "awayTeamCode": "883732",
       "location": "Harding Park — Richmond Hill",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 2,
+        "away": 14,
+        "scoreText": "14-2"
+      },
       "division": "11U",
       "tier": "interlock-all-tiers"
     },
@@ -177,8 +185,12 @@
       "awayTeam": "East York",
       "awayTeamCode": "883724",
       "location": "Dieppe — Toronto",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 9,
+        "away": 6,
+        "scoreText": "6-9"
+      },
       "division": "11U",
       "tier": "interlock-all-tiers"
     },
