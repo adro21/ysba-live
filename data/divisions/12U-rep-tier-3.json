@@ -132,17 +132,17 @@
         "team": "Collingwood Jays 12U A",
         "teamCode": "618007",
         "record": {
-          "gamesPlayed": 13,
-          "wins": 7,
+          "gamesPlayed": 14,
+          "wins": 8,
           "losses": 6,
           "ties": 0,
-          "winPercentage": "0.538"
+          "winPercentage": "0.571"
         },
         "stats": {
-          "points": 14,
-          "runsFor": 134,
-          "runsAgainst": 96,
-          "runDifferential": 38
+          "points": 16,
+          "runsFor": 153,
+          "runsAgainst": 106,
+          "runDifferential": 47
         }
       },
       {
@@ -150,17 +150,17 @@
         "team": "Barrie Baycats 12U A",
         "teamCode": "612784",
         "record": {
-          "gamesPlayed": 11,
+          "gamesPlayed": 12,
           "wins": 5,
-          "losses": 5,
+          "losses": 6,
           "ties": 1,
-          "winPercentage": "0.500"
+          "winPercentage": "0.458"
         },
         "stats": {
           "points": 11,
-          "runsFor": 128,
-          "runsAgainst": 157,
-          "runDifferential": -29
+          "runsFor": 140,
+          "runsAgainst": 172,
+          "runDifferential": -32
         }
       },
       {
@@ -182,7 +182,7 @@
         }
       },
       {
-        "position": 13,
+        "position": 14,
         "team": "Aurora-King Jays 12U A",
         "teamCode": "617974",
         "record": {
@@ -219,6 +219,24 @@
       },
       {
         "position": 12,
+        "team": "Orillia 12U B",
+        "teamCode": "618383",
+        "record": {
+          "gamesPlayed": 14,
+          "wins": 4,
+          "losses": 9,
+          "ties": 1,
+          "winPercentage": "0.321"
+        },
+        "stats": {
+          "points": 9,
+          "runsFor": 117,
+          "runsAgainst": 209,
+          "runDifferential": -92
+        }
+      },
+      {
+        "position": 13,
         "team": "Caledon Nationals 12U A",
         "teamCode": "618468",
         "record": {
@@ -233,24 +251,6 @@
           "runsFor": 117,
           "runsAgainst": 139,
           "runDifferential": -22
-        }
-      },
-      {
-        "position": 14,
-        "team": "Orillia 12U B",
-        "teamCode": "618383",
-        "record": {
-          "gamesPlayed": 13,
-          "wins": 3,
-          "losses": 9,
-          "ties": 1,
-          "winPercentage": "0.269"
-        },
-        "stats": {
-          "points": 7,
-          "runsFor": 102,
-          "runsAgainst": 197,
-          "runDifferential": -95
         }
       },
       {
@@ -294,21 +294,21 @@
         "team": "Orangeville Bengals 12U B",
         "teamCode": "618021",
         "record": {
-          "gamesPlayed": 13,
+          "gamesPlayed": 14,
           "wins": 2,
-          "losses": 11,
+          "losses": 12,
           "ties": 0,
-          "winPercentage": "0.154"
+          "winPercentage": "0.143"
         },
         "stats": {
           "points": 4,
-          "runsFor": 114,
-          "runsAgainst": 169,
-          "runDifferential": -55
+          "runsFor": 124,
+          "runsAgainst": 188,
+          "runDifferential": -64
         }
       }
     ],
-    "lastUpdated": "2026-08-06T10:44:35.991Z",
+    "lastUpdated": "2026-08-06T12:55:07.648Z",
     "totalTeams": 17
   },
   "schedule": {
@@ -401,30 +401,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-06T10:44:40.070Z"
+        "lastUpdated": "2026-08-06T12:55:12.043Z"
       },
       "612784": {
         "teamCode": "612784",
         "totalGames": 15,
-        "playedGames": 11,
+        "playedGames": 12,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Mon, Jul 6",
-            "time": "6:00 PM",
-            "homeTeam": "Collingwood Jays 12U A",
-            "homeTeamCode": "618007",
-            "awayTeam": "Barrie Baycats 12U A",
-            "awayTeamCode": "612784",
-            "location": "Heritage Park",
-            "isCompleted": true,
-            "score": {
-              "home": 12,
-              "away": 13,
-              "scoreText": "13-12"
-            }
-          },
           {
             "date": null,
             "dateText": "Mon, Jul 13",
@@ -475,6 +459,22 @@
           },
           {
             "date": null,
+            "dateText": "Mon, Aug 3",
+            "time": "6:30 PM",
+            "homeTeam": "Barrie Baycats 12U A",
+            "homeTeamCode": "612784",
+            "awayTeam": "Orillia 12U B",
+            "awayTeamCode": "618383",
+            "location": "Lampman Lane",
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 15,
+              "scoreText": "15-12"
+            }
+          },
+          {
+            "date": null,
             "dateText": "Tue, Aug 4",
             "time": "1:00 PM",
             "homeTeam": "Orillia 12U B",
@@ -491,7 +491,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-06T10:44:40.070Z"
+        "lastUpdated": "2026-08-06T12:55:12.043Z"
       },
       "617177": {
         "teamCode": "617177",
@@ -581,7 +581,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-06T10:44:40.070Z"
+        "lastUpdated": "2026-08-06T12:55:12.043Z"
       },
       "617178": {
         "teamCode": "617178",
@@ -671,7 +671,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-06T10:44:40.070Z"
+        "lastUpdated": "2026-08-06T12:55:12.043Z"
       },
       "617204": {
         "teamCode": "617204",
@@ -761,7 +761,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-06T10:44:40.070Z"
+        "lastUpdated": "2026-08-06T12:55:12.043Z"
       },
       "617852": {
         "teamCode": "617852",
@@ -851,7 +851,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-06T10:44:40.070Z"
+        "lastUpdated": "2026-08-06T12:55:12.043Z"
       },
       "617879": {
         "teamCode": "617879",
@@ -941,7 +941,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-06T10:44:40.070Z"
+        "lastUpdated": "2026-08-06T12:55:12.043Z"
       },
       "617880": {
         "teamCode": "617880",
@@ -1031,7 +1031,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-06T10:44:40.071Z"
+        "lastUpdated": "2026-08-06T12:55:12.043Z"
       },
       "617906": {
         "teamCode": "617906",
@@ -1121,7 +1121,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-06T10:44:40.071Z"
+        "lastUpdated": "2026-08-06T12:55:12.043Z"
       },
       "617907": {
         "teamCode": "617907",
@@ -1211,7 +1211,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-06T10:44:40.071Z"
+        "lastUpdated": "2026-08-06T12:55:12.043Z"
       },
       "617946": {
         "teamCode": "617946",
@@ -1301,7 +1301,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-06T10:44:40.071Z"
+        "lastUpdated": "2026-08-06T12:55:12.043Z"
       },
       "617973": {
         "teamCode": "617973",
@@ -1391,7 +1391,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-06T10:44:40.071Z"
+        "lastUpdated": "2026-08-06T12:55:12.043Z"
       },
       "617974": {
         "teamCode": "617974",
@@ -1481,7 +1481,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-06T10:44:40.071Z"
+        "lastUpdated": "2026-08-06T12:55:12.043Z"
       },
       "617987": {
         "teamCode": "617987",
@@ -1571,7 +1571,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-06T10:44:40.071Z"
+        "lastUpdated": "2026-08-06T12:55:12.043Z"
       },
       "617988": {
         "teamCode": "617988",
@@ -1661,30 +1661,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-06T10:44:40.071Z"
+        "lastUpdated": "2026-08-06T12:55:12.043Z"
       },
       "618007": {
         "teamCode": "618007",
         "totalGames": 16,
-        "playedGames": 13,
+        "playedGames": 14,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Mon, Jul 6",
-            "time": "6:00 PM",
-            "homeTeam": "Collingwood Jays 12U A",
-            "homeTeamCode": "618007",
-            "awayTeam": "Barrie Baycats 12U A",
-            "awayTeamCode": "612784",
-            "location": "Heritage Park",
-            "isCompleted": true,
-            "score": {
-              "home": 12,
-              "away": 13,
-              "scoreText": "13-12"
-            }
-          },
           {
             "date": null,
             "dateText": "Mon, Jul 20",
@@ -1748,33 +1732,33 @@
               "away": 7,
               "scoreText": "7-10"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Wed, Aug 5",
+            "time": "8:00 PM",
+            "homeTeam": "Orangeville Bengals 12U B",
+            "homeTeamCode": "618021",
+            "awayTeam": "Collingwood Jays 12U A",
+            "awayTeamCode": "618007",
+            "location": "Rotary Park S",
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 19,
+              "scoreText": "19-10"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-06T10:44:40.071Z"
+        "lastUpdated": "2026-08-06T12:55:12.043Z"
       },
       "618021": {
         "teamCode": "618021",
         "totalGames": 16,
-        "playedGames": 13,
+        "playedGames": 14,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Thu, Jul 2",
-            "time": "6:30 PM",
-            "homeTeam": "Innisfil Cardinals 12U A",
-            "homeTeamCode": "618044",
-            "awayTeam": "Orangeville Bengals 12U B",
-            "awayTeamCode": "618021",
-            "location": "Stroud Arena",
-            "isCompleted": true,
-            "score": {
-              "home": 11,
-              "away": 10,
-              "scoreText": "10-11"
-            }
-          },
           {
             "date": null,
             "dateText": "Tue, Jul 7",
@@ -1838,10 +1822,26 @@
               "away": 4,
               "scoreText": "4-14"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Wed, Aug 5",
+            "time": "8:00 PM",
+            "homeTeam": "Orangeville Bengals 12U B",
+            "homeTeamCode": "618021",
+            "awayTeam": "Collingwood Jays 12U A",
+            "awayTeamCode": "618007",
+            "location": "Rotary Park S",
+            "isCompleted": true,
+            "score": {
+              "home": 10,
+              "away": 19,
+              "scoreText": "19-10"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-06T10:44:40.071Z"
+        "lastUpdated": "2026-08-06T12:55:12.043Z"
       },
       "618022": {
         "teamCode": "618022",
@@ -1931,7 +1931,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-06T10:44:40.071Z"
+        "lastUpdated": "2026-08-06T12:55:12.043Z"
       },
       "618044": {
         "teamCode": "618044",
@@ -2021,7 +2021,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-06T10:44:40.071Z"
+        "lastUpdated": "2026-08-06T12:55:12.043Z"
       },
       "618059": {
         "teamCode": "618059",
@@ -2111,7 +2111,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-06T10:44:40.071Z"
+        "lastUpdated": "2026-08-06T12:55:12.043Z"
       },
       "618068": {
         "teamCode": "618068",
@@ -2201,30 +2201,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-06T10:44:40.071Z"
+        "lastUpdated": "2026-08-06T12:55:12.043Z"
       },
       "618383": {
         "teamCode": "618383",
         "totalGames": 16,
-        "playedGames": 13,
+        "playedGames": 14,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Wed, Jul 8",
-            "time": "8:00 PM",
-            "homeTeam": "Orangeville Bengals 12U B",
-            "homeTeamCode": "618021",
-            "awayTeam": "Orillia 12U B",
-            "awayTeamCode": "618383",
-            "location": "Rotary Park S",
-            "isCompleted": true,
-            "score": {
-              "home": 8,
-              "away": 12,
-              "scoreText": "12-8"
-            }
-          },
           {
             "date": null,
             "dateText": "Mon, Jul 13",
@@ -2275,6 +2259,22 @@
           },
           {
             "date": null,
+            "dateText": "Mon, Aug 3",
+            "time": "6:30 PM",
+            "homeTeam": "Barrie Baycats 12U A",
+            "homeTeamCode": "612784",
+            "awayTeam": "Orillia 12U B",
+            "awayTeamCode": "618383",
+            "location": "Lampman Lane",
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 15,
+              "scoreText": "15-12"
+            }
+          },
+          {
+            "date": null,
             "dateText": "Tue, Aug 4",
             "time": "1:00 PM",
             "homeTeam": "Orillia 12U B",
@@ -2291,7 +2291,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-06T10:44:40.071Z"
+        "lastUpdated": "2026-08-06T12:55:12.043Z"
       },
       "618395": {
         "teamCode": "618395",
@@ -2381,7 +2381,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-06T10:44:40.071Z"
+        "lastUpdated": "2026-08-06T12:55:12.043Z"
       },
       "618468": {
         "teamCode": "618468",
@@ -2471,7 +2471,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-06T10:44:40.071Z"
+        "lastUpdated": "2026-08-06T12:55:12.043Z"
       },
       "625727": {
         "teamCode": "625727",
@@ -2561,7 +2561,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-06T10:44:40.071Z"
+        "lastUpdated": "2026-08-06T12:55:12.043Z"
       },
       "628934": {
         "teamCode": "628934",
@@ -2651,7 +2651,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-06T10:44:40.071Z"
+        "lastUpdated": "2026-08-06T12:55:12.043Z"
       }
     },
     "allGames": [
@@ -5388,8 +5388,12 @@
         "awayTeam": "Orillia 12U B",
         "awayTeamCode": "618383",
         "location": "Lampman Lane",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 15,
+          "scoreText": "15-12"
+        }
       },
       {
         "date": null,
@@ -5496,8 +5500,12 @@
         "awayTeam": "Collingwood Jays 12U A",
         "awayTeamCode": "618007",
         "location": "Rotary Park S",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 10,
+          "away": 19,
+          "scoreText": "19-10"
+        }
       },
       {
         "date": null,
@@ -5903,14 +5911,14 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-08-06T10:44:40.071Z",
+    "lastUpdated": "2026-08-06T12:55:12.043Z",
     "totalGames": 200
   },
   "summary": {
     "totalTeams": 17,
     "totalGames": 200,
-    "completedGames": 171,
-    "upcomingGames": 29,
+    "completedGames": 173,
+    "upcomingGames": 27,
     "topTeam": {
       "team": "TNT Thunder 12U A",
       "teamCode": "618059",
@@ -5927,6 +5935,6 @@
       "date": "Mon, May 18",
       "location": "Lampman Lane"
     },
-    "lastUpdated": "2026-08-06T10:47:59.232Z"
+    "lastUpdated": "2026-08-06T13:00:06.414Z"
   }
 }
