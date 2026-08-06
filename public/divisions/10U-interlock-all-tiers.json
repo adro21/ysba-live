@@ -38,6 +38,24 @@
         }
       },
       {
+        "position": 4,
+        "team": "Vaughan",
+        "teamCode": "892644",
+        "record": {
+          "gamesPlayed": 18,
+          "wins": 12,
+          "losses": 6,
+          "ties": 0,
+          "winPercentage": "0.667"
+        },
+        "stats": {
+          "points": 24,
+          "runsFor": 176,
+          "runsAgainst": 122,
+          "runDifferential": 54
+        }
+      },
+      {
         "position": 2,
         "team": "Newmarket",
         "teamCode": "892637",
@@ -53,24 +71,6 @@
           "runsFor": 173,
           "runsAgainst": 146,
           "runDifferential": 27
-        }
-      },
-      {
-        "position": 4,
-        "team": "Vaughan",
-        "teamCode": "892644",
-        "record": {
-          "gamesPlayed": 17,
-          "wins": 11,
-          "losses": 6,
-          "ties": 0,
-          "winPercentage": "0.647"
-        },
-        "stats": {
-          "points": 22,
-          "runsFor": 168,
-          "runsAgainst": 120,
-          "runDifferential": 48
         }
       },
       {
@@ -96,17 +96,17 @@
         "team": "Markham",
         "teamCode": "892645",
         "record": {
-          "gamesPlayed": 18,
+          "gamesPlayed": 19,
           "wins": 10,
-          "losses": 7,
+          "losses": 8,
           "ties": 1,
-          "winPercentage": "0.583"
+          "winPercentage": "0.553"
         },
         "stats": {
           "points": 21,
-          "runsFor": 162,
-          "runsAgainst": 145,
-          "runDifferential": 17
+          "runsFor": 166,
+          "runsAgainst": 153,
+          "runDifferential": 13
         }
       },
       {
@@ -218,43 +218,43 @@
         }
       },
       {
-        "position": 13,
+        "position": 14,
         "team": "Caledon",
         "teamCode": "892646",
         "record": {
-          "gamesPlayed": 16,
+          "gamesPlayed": 17,
           "wins": 3,
-          "losses": 13,
+          "losses": 14,
           "ties": 0,
-          "winPercentage": "0.188"
+          "winPercentage": "0.176"
         },
         "stats": {
           "points": 6,
-          "runsFor": 117,
-          "runsAgainst": 171,
-          "runDifferential": -54
+          "runsFor": 119,
+          "runsAgainst": 179,
+          "runDifferential": -60
         }
       },
       {
-        "position": 14,
+        "position": 13,
         "team": "Richmond Hill",
         "teamCode": "892636",
         "record": {
-          "gamesPlayed": 18,
-          "wins": 2,
+          "gamesPlayed": 19,
+          "wins": 3,
           "losses": 16,
           "ties": 0,
-          "winPercentage": "0.111"
+          "winPercentage": "0.158"
         },
         "stats": {
-          "points": 4,
-          "runsFor": 90,
-          "runsAgainst": 175,
-          "runDifferential": -85
+          "points": 6,
+          "runsFor": 98,
+          "runsAgainst": 179,
+          "runDifferential": -81
         }
       }
     ],
-    "lastUpdated": "2026-08-06T08:04:37.652Z",
+    "lastUpdated": "2026-08-06T10:47:58.663Z",
     "totalTeams": 14
   },
   "schedule": {
@@ -408,7 +408,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-06T08:04:37.695Z"
+        "lastUpdated": "2026-08-06T10:47:58.706Z"
       },
       "892634": {
         "teamCode": "892634",
@@ -519,7 +519,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-06T08:04:37.695Z"
+        "lastUpdated": "2026-08-06T10:47:58.706Z"
       },
       "892636": {
         "teamCode": "892636",
@@ -600,8 +600,12 @@
             "awayTeam": "Richmond Hill",
             "awayTeamCode": "892636",
             "location": "Morgan — Markham",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 8,
+              "scoreText": "8-4"
+            }
           }
         ],
         "nextGames": [
@@ -630,7 +634,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-06T08:04:37.695Z"
+        "lastUpdated": "2026-08-06T10:47:58.706Z"
       },
       "892637": {
         "teamCode": "892637",
@@ -733,7 +737,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-06T08:04:37.695Z"
+        "lastUpdated": "2026-08-06T10:47:58.706Z"
       },
       "892638": {
         "teamCode": "892638",
@@ -884,7 +888,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-06T08:04:37.695Z"
+        "lastUpdated": "2026-08-06T10:47:58.706Z"
       },
       "892639": {
         "teamCode": "892639",
@@ -1031,7 +1035,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-06T08:04:37.695Z"
+        "lastUpdated": "2026-08-06T10:47:58.706Z"
       },
       "892640": {
         "teamCode": "892640",
@@ -1178,7 +1182,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-06T08:04:37.695Z"
+        "lastUpdated": "2026-08-06T10:47:58.707Z"
       },
       "892642": {
         "teamCode": "892642",
@@ -1289,7 +1293,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-06T08:04:37.695Z"
+        "lastUpdated": "2026-08-06T10:47:58.707Z"
       },
       "892643": {
         "teamCode": "892643",
@@ -1432,7 +1436,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-06T08:04:37.696Z"
+        "lastUpdated": "2026-08-06T10:47:58.707Z"
       },
       "892644": {
         "teamCode": "892644",
@@ -1513,8 +1517,12 @@
             "awayTeam": "Vaughan",
             "awayTeamCode": "892644",
             "location": "Chatfield — Vaughan",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 2,
+              "away": 8,
+              "scoreText": "8-2"
+            }
           }
         ],
         "nextGames": [
@@ -1555,7 +1563,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-06T08:04:37.696Z"
+        "lastUpdated": "2026-08-06T10:47:58.707Z"
       },
       "892645": {
         "teamCode": "892645",
@@ -1636,8 +1644,12 @@
             "awayTeam": "Richmond Hill",
             "awayTeamCode": "892636",
             "location": "Morgan — Markham",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 8,
+              "scoreText": "8-4"
+            }
           }
         ],
         "nextGames": [
@@ -1666,7 +1678,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-06T08:04:37.696Z"
+        "lastUpdated": "2026-08-06T10:47:58.707Z"
       },
       "892646": {
         "teamCode": "892646",
@@ -1743,8 +1755,12 @@
             "awayTeam": "Vaughan",
             "awayTeamCode": "892644",
             "location": "Chatfield — Vaughan",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 2,
+              "away": 8,
+              "scoreText": "8-2"
+            }
           }
         ],
         "nextGames": [
@@ -1773,7 +1789,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-06T08:04:37.696Z"
+        "lastUpdated": "2026-08-06T10:47:58.707Z"
       },
       "892647": {
         "teamCode": "892647",
@@ -1908,7 +1924,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-06T08:04:37.696Z"
+        "lastUpdated": "2026-08-06T10:47:58.707Z"
       },
       "892648": {
         "teamCode": "892648",
@@ -2059,7 +2075,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-06T08:04:37.696Z"
+        "lastUpdated": "2026-08-06T10:47:58.707Z"
       }
     },
     "allGames": [
@@ -4156,8 +4172,12 @@
         "awayTeam": "Vaughan",
         "awayTeamCode": "892644",
         "location": "Chatfield — Vaughan",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 2,
+          "away": 8,
+          "scoreText": "8-2"
+        }
       },
       {
         "date": "2026-08-05T22:45:00.000Z",
@@ -4168,8 +4188,12 @@
         "awayTeam": "Richmond Hill",
         "awayTeamCode": "892636",
         "location": "Morgan — Markham",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 8,
+          "scoreText": "8-4"
+        }
       },
       {
         "date": "2026-08-06T22:00:00.000Z",
@@ -4290,8 +4314,12 @@
         "awayTeam": "Richmond Hill",
         "awayTeamCode": "892636",
         "location": "Morgan — Markham",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 8,
+          "scoreText": "8-4"
+        }
       },
       {
         "date": "2026-08-05T22:00:00.000Z",
@@ -4302,8 +4330,12 @@
         "awayTeam": "Vaughan",
         "awayTeamCode": "892644",
         "location": "Chatfield — Vaughan",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 2,
+          "away": 8,
+          "scoreText": "8-2"
+        }
       },
       {
         "date": "2026-08-04T22:30:00.000Z",
@@ -4552,14 +4584,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2026-08-06T08:04:37.696Z",
+    "lastUpdated": "2026-08-06T10:47:58.707Z",
     "totalGames": 147
   },
   "summary": {
     "totalTeams": 14,
     "totalGames": 147,
-    "completedGames": 113,
-    "upcomingGames": 34,
+    "completedGames": 115,
+    "upcomingGames": 32,
     "topTeam": {
       "team": "Barrie",
       "teamCode": "892634",
@@ -4576,6 +4608,6 @@
       "date": "Mon, Jun 29",
       "location": "North Hill — Diamond 2 — Bolton"
     },
-    "lastUpdated": "2026-08-06T08:04:38.222Z"
+    "lastUpdated": "2026-08-06T10:47:59.232Z"
   }
 }
