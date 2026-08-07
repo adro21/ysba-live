@@ -74,25 +74,25 @@
         }
       },
       {
-        "position": 6,
+        "position": 5,
         "team": "Georgina",
         "teamCode": "892647",
         "record": {
-          "gamesPlayed": 16,
-          "wins": 9,
+          "gamesPlayed": 17,
+          "wins": 10,
           "losses": 5,
           "ties": 2,
-          "winPercentage": "0.625"
+          "winPercentage": "0.647"
         },
         "stats": {
-          "points": 20,
-          "runsFor": 142,
-          "runsAgainst": 114,
-          "runDifferential": 28
+          "points": 22,
+          "runsFor": 156,
+          "runsAgainst": 127,
+          "runDifferential": 29
         }
       },
       {
-        "position": 5,
+        "position": 6,
         "team": "Markham",
         "teamCode": "892645",
         "record": {
@@ -204,17 +204,17 @@
         "team": "Stouffville",
         "teamCode": "892639",
         "record": {
-          "gamesPlayed": 15,
+          "gamesPlayed": 16,
           "wins": 4,
-          "losses": 10,
+          "losses": 11,
           "ties": 1,
-          "winPercentage": "0.300"
+          "winPercentage": "0.281"
         },
         "stats": {
           "points": 9,
-          "runsFor": 131,
-          "runsAgainst": 145,
-          "runDifferential": -14
+          "runsFor": 144,
+          "runsAgainst": 159,
+          "runDifferential": -15
         }
       },
       {
@@ -254,7 +254,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-08-07T09:35:38.252Z",
+    "lastUpdated": "2026-08-07T12:11:50.824Z",
     "totalTeams": 14
   },
   "schedule": {
@@ -404,7 +404,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-07T09:35:38.293Z"
+        "lastUpdated": "2026-08-07T12:11:50.868Z"
       },
       "892634": {
         "teamCode": "892634",
@@ -515,7 +515,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-07T09:35:38.293Z"
+        "lastUpdated": "2026-08-07T12:11:50.868Z"
       },
       "892636": {
         "teamCode": "892636",
@@ -630,7 +630,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-07T09:35:38.293Z"
+        "lastUpdated": "2026-08-07T12:11:50.868Z"
       },
       "892637": {
         "teamCode": "892637",
@@ -716,7 +716,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-07T09:35:38.293Z"
+        "lastUpdated": "2026-08-07T12:11:50.868Z"
       },
       "892638": {
         "teamCode": "892638",
@@ -863,7 +863,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-07T09:35:38.293Z"
+        "lastUpdated": "2026-08-07T12:11:50.869Z"
       },
       "892639": {
         "teamCode": "892639",
@@ -940,8 +940,12 @@
             "awayTeam": "Stouffville",
             "awayTeamCode": "892639",
             "location": "Bethesda — Diamond 3 — Whitchurch-Stouffville",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 13,
+              "scoreText": "13-14"
+            }
           }
         ],
         "nextGames": [
@@ -994,7 +998,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-07T09:35:38.293Z"
+        "lastUpdated": "2026-08-07T12:11:50.869Z"
       },
       "892640": {
         "teamCode": "892640",
@@ -1141,7 +1145,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-07T09:35:38.293Z"
+        "lastUpdated": "2026-08-07T12:11:50.869Z"
       },
       "892642": {
         "teamCode": "892642",
@@ -1252,7 +1256,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-07T09:35:38.293Z"
+        "lastUpdated": "2026-08-07T12:11:50.869Z"
       },
       "892643": {
         "teamCode": "892643",
@@ -1395,7 +1399,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-07T09:35:38.293Z"
+        "lastUpdated": "2026-08-07T12:11:50.869Z"
       },
       "892644": {
         "teamCode": "892644",
@@ -1522,7 +1526,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-07T09:35:38.293Z"
+        "lastUpdated": "2026-08-07T12:11:50.869Z"
       },
       "892645": {
         "teamCode": "892645",
@@ -1637,7 +1641,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-07T09:35:38.293Z"
+        "lastUpdated": "2026-08-07T12:11:50.869Z"
       },
       "892646": {
         "teamCode": "892646",
@@ -1748,7 +1752,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-07T09:35:38.294Z"
+        "lastUpdated": "2026-08-07T12:11:50.869Z"
       },
       "892647": {
         "teamCode": "892647",
@@ -1825,8 +1829,12 @@
             "awayTeam": "Stouffville",
             "awayTeamCode": "892639",
             "location": "Bethesda — Diamond 3 — Whitchurch-Stouffville",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 14,
+              "away": 13,
+              "scoreText": "13-14"
+            }
           }
         ],
         "nextGames": [
@@ -1867,7 +1875,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-07T09:35:38.294Z"
+        "lastUpdated": "2026-08-07T12:11:50.869Z"
       },
       "892648": {
         "teamCode": "892648",
@@ -2002,7 +2010,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-07T09:35:38.294Z"
+        "lastUpdated": "2026-08-07T12:11:50.869Z"
       }
     },
     "allGames": [
@@ -4131,8 +4139,12 @@
         "awayTeam": "Stouffville",
         "awayTeamCode": "892639",
         "location": "Bethesda — Diamond 3 — Whitchurch-Stouffville",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 13,
+          "scoreText": "13-14"
+        }
       },
       {
         "date": "2026-08-06T22:00:00.000Z",
@@ -4253,8 +4265,12 @@
         "awayTeam": "Stouffville",
         "awayTeamCode": "892639",
         "location": "Bethesda — Diamond 3 — Whitchurch-Stouffville",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 13,
+          "scoreText": "13-14"
+        }
       },
       {
         "date": "2026-08-06T22:00:00.000Z",
@@ -4499,14 +4515,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2026-08-07T09:35:38.294Z",
+    "lastUpdated": "2026-08-07T12:11:50.869Z",
     "totalGames": 147
   },
   "summary": {
     "totalTeams": 14,
     "totalGames": 147,
-    "completedGames": 115,
-    "upcomingGames": 32,
+    "completedGames": 116,
+    "upcomingGames": 31,
     "topTeam": {
       "team": "Barrie",
       "teamCode": "892634",
@@ -4523,6 +4539,6 @@
       "date": "Mon, Jun 29",
       "location": "North Hill — Diamond 2 — Bolton"
     },
-    "lastUpdated": "2026-08-07T09:35:38.817Z"
+    "lastUpdated": "2026-08-07T12:11:51.393Z"
   }
 }
