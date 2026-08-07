@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-07T00:42:44.193Z",
+  "lastUpdated": "2026-08-07T03:52:43.690Z",
   "totalGames": 190,
   "games": [
     {
@@ -211,8 +211,12 @@
       "awayTeam": "North York",
       "awayTeamCode": "883726",
       "location": "Bond — Diamond 2 — Toronto",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 11,
+        "away": 5,
+        "scoreText": "5-11"
+      },
       "division": "11U",
       "tier": "interlock-all-tiers"
     },
