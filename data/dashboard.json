@@ -1,95 +1,25 @@
 {
-  "lastUpdated": "2026-08-06T15:15:49.170Z",
+  "lastUpdated": "2026-08-07T00:42:44.193Z",
   "totals": {
     "divisions": 54,
     "teams": 213,
     "games": 5549,
-    "completed": 4849,
-    "upcoming": 700
+    "completed": 4854,
+    "upcoming": 695
   },
   "recentActivity": [
     {
-      "date": "2026-08-05T23:00:00.000Z",
-      "dateText": "Wed, Aug 5",
-      "time": "7:00 PM",
-      "homeTeam": "North Toronto",
-      "homeTeamCode": "883727",
-      "awayTeam": "Etobicoke",
-      "awayTeamCode": "883728",
-      "location": "Rotary Peace Park — Toronto",
-      "isCompleted": true,
-      "score": {
-        "home": 0,
-        "away": 9,
-        "scoreText": "9-0"
-      }
-    },
-    {
-      "date": "2026-08-05T22:45:00.000Z",
-      "dateText": "Wed, Aug 5",
-      "time": "6:45 PM",
-      "homeTeam": "Markham",
-      "homeTeamCode": "892645",
-      "awayTeam": "Richmond Hill",
-      "awayTeamCode": "892636",
-      "location": "Morgan — Markham",
-      "isCompleted": true,
-      "score": {
-        "home": 4,
-        "away": 8,
-        "scoreText": "8-4"
-      }
-    },
-    {
-      "date": "2026-08-05T22:00:00.000Z",
-      "dateText": "Wed, Aug 5",
-      "time": "6:00 PM",
-      "homeTeam": "Caledon",
-      "homeTeamCode": "892646",
-      "awayTeam": "Vaughan",
-      "awayTeamCode": "892644",
-      "location": "Chatfield — Vaughan",
-      "isCompleted": true,
-      "score": {
-        "home": 2,
-        "away": 8,
-        "scoreText": "8-2"
-      }
-    },
-    {
-      "date": "2026-08-04T22:30:00.000Z",
-      "dateText": "Tue, Aug 4",
+      "date": "2026-08-06T22:30:00.000Z",
+      "dateText": "Thu, Aug 6",
       "time": "6:30 PM",
-      "homeTeam": "Barrie",
-      "homeTeamCode": "892634",
-      "awayTeam": "Markham",
-      "awayTeamCode": "892645",
-      "location": "Carlton   — Toronto",
-      "isCompleted": true,
-      "score": {
-        "home": 15,
-        "away": 6,
-        "scoreText": "6-15"
-      }
+      "homeTeam": "Leaside",
+      "homeTeamCode": "892648",
+      "awayTeam": "Royal York",
+      "awayTeamCode": "892633",
+      "location": "Rotary Peace Park — Diamond South — Toronto",
+      "isCompleted": false,
+      "score": null
     },
-    {
-      "date": "2026-08-04T22:30:00.000Z",
-      "dateText": "Tue, Aug 4",
-      "time": "6:30 PM",
-      "homeTeam": "Etobicoke",
-      "homeTeamCode": "883728",
-      "awayTeam": "Leaside",
-      "awayTeamCode": "883722",
-      "location": "Irving Paisley — Toronto",
-      "isCompleted": true,
-      "score": {
-        "home": 6,
-        "away": 5,
-        "scoreText": "5-6"
-      }
-    }
-  ],
-  "upcomingGames": [
     {
       "date": "2026-08-06T22:00:00.000Z",
       "dateText": "Thu, Aug 6",
@@ -135,18 +65,72 @@
       "awayTeam": "Newmarket",
       "awayTeamCode": "883723",
       "location": "Armstrong — Diamond 1 — Newmarket",
+      "isCompleted": true,
+      "score": {
+        "home": 2,
+        "away": 11,
+        "scoreText": "11-2"
+      }
+    }
+  ],
+  "upcomingGames": [
+    {
+      "date": "2026-08-07T22:30:00.000Z",
+      "dateText": "Fri, Aug 7",
+      "time": "6:30 PM",
+      "homeTeam": "Aurora-King",
+      "homeTeamCode": "892642",
+      "awayTeam": "Scarborough",
+      "awayTeamCode": "892643",
+      "location": "Neilson - Scarborough — Diamond 2 — Toronto",
       "isCompleted": false,
       "score": null
     },
     {
-      "date": "2026-08-06T22:30:00.000Z",
-      "dateText": "Thu, Aug 6",
+      "date": "2026-08-07T22:30:00.000Z",
+      "dateText": "Fri, Aug 7",
       "time": "6:30 PM",
-      "homeTeam": "Leaside",
-      "homeTeamCode": "892648",
-      "awayTeam": "Royal York",
-      "awayTeamCode": "892633",
-      "location": "Rotary Peace Park — Diamond South — Toronto",
+      "homeTeam": "Stouffville",
+      "homeTeamCode": "892639",
+      "awayTeam": "Richmond Hill",
+      "awayTeamCode": "892636",
+      "location": "Richvale 2 — Richmond Hill",
+      "isCompleted": false,
+      "score": null
+    },
+    {
+      "date": "2026-08-07T23:00:00.000Z",
+      "dateText": "Fri, Aug 7",
+      "time": "7:00 PM",
+      "homeTeam": "Scarborough",
+      "homeTeamCode": "883725",
+      "awayTeam": "Leaside",
+      "awayTeamCode": "883722",
+      "location": "Irving Paisley — Toronto",
+      "isCompleted": false,
+      "score": null
+    },
+    {
+      "date": "2026-08-08T12:30:00.000Z",
+      "dateText": "Sat, Aug 8",
+      "time": "8:30 AM",
+      "homeTeam": "Georgina",
+      "homeTeamCode": "892647",
+      "awayTeam": "Vaughan",
+      "awayTeamCode": "892644",
+      "location": "ROC — Diamond 2 — Georgina",
+      "isCompleted": false,
+      "score": null
+    },
+    {
+      "date": "2026-08-08T14:45:00.000Z",
+      "dateText": "Sat, Aug 8",
+      "time": "10:45 AM",
+      "homeTeam": "Vaughan",
+      "homeTeamCode": "892644",
+      "awayTeam": "Georgina",
+      "awayTeamCode": "892647",
+      "location": "ROC — Diamond 3 — Georgina",
       "isCompleted": false,
       "score": null
     }

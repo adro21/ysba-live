@@ -129,6 +129,24 @@
       },
       {
         "position": 9,
+        "team": "Newmarket",
+        "teamCode": "883723",
+        "record": {
+          "gamesPlayed": 13,
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "winPercentage": "0.308"
+        },
+        "stats": {
+          "points": 8,
+          "runsFor": 76,
+          "runsAgainst": 110,
+          "runDifferential": -34
+        }
+      },
+      {
+        "position": 10,
         "team": "Scarborough",
         "teamCode": "883725",
         "record": {
@@ -143,24 +161,6 @@
           "runsFor": 61,
           "runsAgainst": 100,
           "runDifferential": -39
-        }
-      },
-      {
-        "position": 11,
-        "team": "Newmarket",
-        "teamCode": "883723",
-        "record": {
-          "gamesPlayed": 12,
-          "wins": 3,
-          "losses": 9,
-          "ties": 0,
-          "winPercentage": "0.250"
-        },
-        "stats": {
-          "points": 6,
-          "runsFor": 65,
-          "runsAgainst": 108,
-          "runDifferential": -43
         }
       },
       {
@@ -182,7 +182,7 @@
         }
       },
       {
-        "position": 10,
+        "position": 11,
         "team": "North Toronto",
         "teamCode": "883727",
         "record": {
@@ -204,21 +204,21 @@
         "team": "North York",
         "teamCode": "883726",
         "record": {
-          "gamesPlayed": 14,
+          "gamesPlayed": 15,
           "wins": 2,
-          "losses": 11,
+          "losses": 12,
           "ties": 1,
-          "winPercentage": "0.179"
+          "winPercentage": "0.167"
         },
         "stats": {
           "points": 5,
-          "runsFor": 52,
-          "runsAgainst": 141,
-          "runDifferential": -89
+          "runsFor": 54,
+          "runsAgainst": 152,
+          "runDifferential": -98
         }
       }
     ],
-    "lastUpdated": "2026-08-06T15:15:49.148Z",
+    "lastUpdated": "2026-08-07T00:42:44.167Z",
     "totalTeams": 12
   },
   "schedule": {
@@ -324,26 +324,14 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-06T15:15:49.169Z"
+        "lastUpdated": "2026-08-07T00:42:44.192Z"
       },
       "883723": {
         "teamCode": "883723",
         "totalGames": 18,
-        "playedGames": 16,
-        "upcomingGames": 2,
+        "playedGames": 17,
+        "upcomingGames": 1,
         "recentGames": [
-          {
-            "date": "2026-07-21T23:30:00.000Z",
-            "dateText": "Tue, Jul 21",
-            "time": "7:30 PM",
-            "homeTeam": "Newmarket",
-            "homeTeamCode": "883723",
-            "awayTeam": "Scarborough",
-            "awayTeamCode": "883725",
-            "location": "Neilson - Scarborough — Diamond 2 — Toronto",
-            "isCompleted": false,
-            "score": null
-          },
           {
             "date": "2026-07-22T23:00:00.000Z",
             "dateText": "Wed, Jul 22",
@@ -403,9 +391,7 @@
               "away": 10,
               "scoreText": "10-0"
             }
-          }
-        ],
-        "nextGames": [
+          },
           {
             "date": "2026-08-06T22:00:00.000Z",
             "dateText": "Thu, Aug 6",
@@ -415,9 +401,15 @@
             "awayTeam": "Newmarket",
             "awayTeamCode": "883723",
             "location": "Armstrong — Diamond 1 — Newmarket",
-            "isCompleted": false,
-            "score": null
-          },
+            "isCompleted": true,
+            "score": {
+              "home": 2,
+              "away": 11,
+              "scoreText": "11-2"
+            }
+          }
+        ],
+        "nextGames": [
           {
             "date": "2026-08-09T22:00:00.000Z",
             "dateText": "Sun, Aug 9",
@@ -431,7 +423,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-06T15:15:49.169Z"
+        "lastUpdated": "2026-08-07T00:42:44.192Z"
       },
       "883724": {
         "teamCode": "883724",
@@ -530,7 +522,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-06T15:15:49.169Z"
+        "lastUpdated": "2026-08-07T00:42:44.192Z"
       },
       "883725": {
         "teamCode": "883725",
@@ -649,30 +641,14 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-06T15:15:49.169Z"
+        "lastUpdated": "2026-08-07T00:42:44.192Z"
       },
       "883726": {
         "teamCode": "883726",
         "totalGames": 18,
-        "playedGames": 15,
-        "upcomingGames": 3,
+        "playedGames": 16,
+        "upcomingGames": 2,
         "recentGames": [
-          {
-            "date": "2026-06-25T22:00:00.000Z",
-            "dateText": "Thu, Jun 25",
-            "time": "6:00 PM",
-            "homeTeam": "Whitby",
-            "homeTeamCode": "883731",
-            "awayTeam": "North York",
-            "awayTeamCode": "883726",
-            "location": "Bond — Diamond 2 — Toronto",
-            "isCompleted": true,
-            "score": {
-              "home": 11,
-              "away": 2,
-              "scoreText": "2-11"
-            }
-          },
           {
             "date": "2026-07-23T22:00:00.000Z",
             "dateText": "Thu, Jul 23",
@@ -732,9 +708,7 @@
             "location": "Bond — Diamond 2 — Toronto",
             "isCompleted": false,
             "score": null
-          }
-        ],
-        "nextGames": [
+          },
           {
             "date": "2026-08-06T22:00:00.000Z",
             "dateText": "Thu, Aug 6",
@@ -744,9 +718,15 @@
             "awayTeam": "Newmarket",
             "awayTeamCode": "883723",
             "location": "Armstrong — Diamond 1 — Newmarket",
-            "isCompleted": false,
-            "score": null
-          },
+            "isCompleted": true,
+            "score": {
+              "home": 2,
+              "away": 11,
+              "scoreText": "11-2"
+            }
+          }
+        ],
+        "nextGames": [
           {
             "date": "2026-08-08T22:00:00.000Z",
             "dateText": "Sat, Aug 8",
@@ -772,7 +752,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-06T15:15:49.169Z"
+        "lastUpdated": "2026-08-07T00:42:44.192Z"
       },
       "883727": {
         "teamCode": "883727",
@@ -875,7 +855,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-06T15:15:49.169Z"
+        "lastUpdated": "2026-08-07T00:42:44.192Z"
       },
       "883728": {
         "teamCode": "883728",
@@ -961,30 +941,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-06T15:15:49.169Z"
+        "lastUpdated": "2026-08-07T00:42:44.192Z"
       },
       "883729": {
         "teamCode": "883729",
         "totalGames": 16,
-        "playedGames": 13,
-        "upcomingGames": 3,
+        "playedGames": 14,
+        "upcomingGames": 2,
         "recentGames": [
-          {
-            "date": "2026-06-28T22:00:00.000Z",
-            "dateText": "Sun, Jun 28",
-            "time": "6:00 PM",
-            "homeTeam": "Caledon",
-            "homeTeamCode": "883733",
-            "awayTeam": "Oshawa",
-            "awayTeamCode": "883729",
-            "location": "Durham College - Babcock Field — Oshawa",
-            "isCompleted": true,
-            "score": {
-              "home": 14,
-              "away": 5,
-              "scoreText": "5-14"
-            }
-          },
           {
             "date": "2026-07-21T22:30:00.000Z",
             "dateText": "Tue, Jul 21",
@@ -1044,9 +1008,7 @@
               "away": 13,
               "scoreText": "13-3"
             }
-          }
-        ],
-        "nextGames": [
+          },
           {
             "date": "2026-08-06T22:00:00.000Z",
             "dateText": "Thu, Aug 6",
@@ -1058,7 +1020,9 @@
             "location": "Durham College - Babcock Field — Oshawa",
             "isCompleted": false,
             "score": null
-          },
+          }
+        ],
+        "nextGames": [
           {
             "date": "2026-08-08T20:00:00.000Z",
             "dateText": "Sat, Aug 8",
@@ -1084,7 +1048,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-06T15:15:49.169Z"
+        "lastUpdated": "2026-08-07T00:42:44.192Z"
       },
       "883730": {
         "teamCode": "883730",
@@ -1187,7 +1151,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-06T15:15:49.170Z"
+        "lastUpdated": "2026-08-07T00:42:44.192Z"
       },
       "883731": {
         "teamCode": "883731",
@@ -1282,30 +1246,14 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-06T15:15:49.170Z"
+        "lastUpdated": "2026-08-07T00:42:44.192Z"
       },
       "883732": {
         "teamCode": "883732",
         "totalGames": 18,
-        "playedGames": 15,
-        "upcomingGames": 3,
+        "playedGames": 16,
+        "upcomingGames": 2,
         "recentGames": [
-          {
-            "date": "2026-07-14T22:00:00.000Z",
-            "dateText": "Tue, Jul 14",
-            "time": "6:00 PM",
-            "homeTeam": "Caledon",
-            "homeTeamCode": "883733",
-            "awayTeam": "Richmond Hill",
-            "awayTeamCode": "883732",
-            "location": "Harding Park — Richmond Hill",
-            "isCompleted": true,
-            "score": {
-              "home": 6,
-              "away": 7,
-              "scoreText": "7-6"
-            }
-          },
           {
             "date": "2026-07-21T22:00:00.000Z",
             "dateText": "Tue, Jul 21",
@@ -1365,9 +1313,7 @@
               "away": 14,
               "scoreText": "14-2"
             }
-          }
-        ],
-        "nextGames": [
+          },
           {
             "date": "2026-08-06T22:00:00.000Z",
             "dateText": "Thu, Aug 6",
@@ -1379,7 +1325,9 @@
             "location": "Durham College - Babcock Field — Oshawa",
             "isCompleted": false,
             "score": null
-          },
+          }
+        ],
+        "nextGames": [
           {
             "date": "2026-08-11T23:30:00.000Z",
             "dateText": "Tue, Aug 11",
@@ -1405,7 +1353,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-06T15:15:49.170Z"
+        "lastUpdated": "2026-08-07T00:42:44.192Z"
       },
       "883733": {
         "teamCode": "883733",
@@ -1504,7 +1452,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-06T15:15:49.170Z"
+        "lastUpdated": "2026-08-07T00:42:44.192Z"
       }
     },
     "allGames": [
@@ -3037,8 +2985,12 @@
         "awayTeam": "Newmarket",
         "awayTeamCode": "883723",
         "location": "Armstrong — Diamond 1 — Newmarket",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 2,
+          "away": 11,
+          "scoreText": "11-2"
+        }
       },
       {
         "date": "2026-08-07T23:00:00.000Z",
@@ -3126,6 +3078,34 @@
       }
     ],
     "recentGames": [
+      {
+        "date": "2026-08-06T22:00:00.000Z",
+        "dateText": "Thu, Aug 6",
+        "time": "6:00 PM",
+        "homeTeam": "Richmond Hill",
+        "homeTeamCode": "883732",
+        "awayTeam": "Oshawa",
+        "awayTeamCode": "883729",
+        "location": "Durham College - Babcock Field — Oshawa",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-08-06T22:00:00.000Z",
+        "dateText": "Thu, Aug 6",
+        "time": "6:00 PM",
+        "homeTeam": "North York",
+        "homeTeamCode": "883726",
+        "awayTeam": "Newmarket",
+        "awayTeamCode": "883723",
+        "location": "Armstrong — Diamond 1 — Newmarket",
+        "isCompleted": true,
+        "score": {
+          "home": 2,
+          "away": 11,
+          "scoreText": "11-2"
+        }
+      },
       {
         "date": "2026-08-05T23:00:00.000Z",
         "dateText": "Wed, Aug 5",
@@ -3241,65 +3221,9 @@
         "location": "Carson — Whitby",
         "isCompleted": false,
         "score": null
-      },
-      {
-        "date": "2026-08-01T20:00:00.000Z",
-        "dateText": "Sat, Aug 1",
-        "time": "4:00 PM",
-        "homeTeam": "Caledon",
-        "homeTeamCode": "883733",
-        "awayTeam": "East York",
-        "awayTeamCode": "883724",
-        "location": "Dieppe — Toronto",
-        "isCompleted": true,
-        "score": {
-          "home": 9,
-          "away": 6,
-          "scoreText": "6-9"
-        }
-      },
-      {
-        "date": "2026-07-31T23:00:00.000Z",
-        "dateText": "Fri, Jul 31",
-        "time": "7:00 PM",
-        "homeTeam": "North Toronto",
-        "homeTeamCode": "883727",
-        "awayTeam": "Leaside",
-        "awayTeamCode": "883722",
-        "location": "Irving Paisley — Toronto",
-        "isCompleted": true,
-        "score": {
-          "home": 1,
-          "away": 6,
-          "scoreText": "6-1"
-        }
       }
     ],
     "upcomingGames": [
-      {
-        "date": "2026-08-06T22:00:00.000Z",
-        "dateText": "Thu, Aug 6",
-        "time": "6:00 PM",
-        "homeTeam": "Richmond Hill",
-        "homeTeamCode": "883732",
-        "awayTeam": "Oshawa",
-        "awayTeamCode": "883729",
-        "location": "Durham College - Babcock Field — Oshawa",
-        "isCompleted": false,
-        "score": null
-      },
-      {
-        "date": "2026-08-06T22:00:00.000Z",
-        "dateText": "Thu, Aug 6",
-        "time": "6:00 PM",
-        "homeTeam": "North York",
-        "homeTeamCode": "883726",
-        "awayTeam": "Newmarket",
-        "awayTeamCode": "883723",
-        "location": "Armstrong — Diamond 1 — Newmarket",
-        "isCompleted": false,
-        "score": null
-      },
       {
         "date": "2026-08-07T23:00:00.000Z",
         "dateText": "Fri, Aug 7",
@@ -3397,14 +3321,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2026-08-06T15:15:49.170Z",
+    "lastUpdated": "2026-08-07T00:42:44.192Z",
     "totalGames": 106
   },
   "summary": {
     "totalTeams": 12,
     "totalGames": 106,
-    "completedGames": 86,
-    "upcomingGames": 20,
+    "completedGames": 87,
+    "upcomingGames": 19,
     "topTeam": {
       "team": "Etobicoke",
       "teamCode": "883728",
@@ -3421,6 +3345,6 @@
       "date": "Sun, May 31",
       "location": "North Hill — Diamond 3 — Bolton"
     },
-    "lastUpdated": "2026-08-06T15:15:49.170Z"
+    "lastUpdated": "2026-08-07T00:42:44.193Z"
   }
 }

@@ -92,25 +92,25 @@
         }
       },
       {
-        "position": 7,
+        "position": 6,
         "team": "Barrie Baycats 10U A",
         "teamCode": "612779",
         "record": {
-          "gamesPlayed": 16,
+          "gamesPlayed": 17,
           "wins": 11,
           "losses": 5,
-          "ties": 0,
-          "winPercentage": "0.688"
+          "ties": 1,
+          "winPercentage": "0.676"
         },
         "stats": {
-          "points": 22,
-          "runsFor": 172,
-          "runsAgainst": 121,
+          "points": 23,
+          "runsFor": 187,
+          "runsAgainst": 136,
           "runDifferential": 51
         }
       },
       {
-        "position": 6,
+        "position": 7,
         "team": "Vaughan Vikings 10U A Team 1",
         "teamCode": "617173",
         "record": {
@@ -150,16 +150,16 @@
         "team": "Collingwood Jays 10U A",
         "teamCode": "618005",
         "record": {
-          "gamesPlayed": 17,
+          "gamesPlayed": 18,
           "wins": 7,
           "losses": 10,
-          "ties": 0,
-          "winPercentage": "0.412"
+          "ties": 1,
+          "winPercentage": "0.417"
         },
         "stats": {
-          "points": 14,
-          "runsFor": 167,
-          "runsAgainst": 182,
+          "points": 15,
+          "runsFor": 182,
+          "runsAgainst": 197,
           "runDifferential": -15
         }
       },
@@ -290,7 +290,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-08-06T15:10:20.610Z",
+    "lastUpdated": "2026-08-07T00:38:18.567Z",
     "totalTeams": 16
   },
   "schedule": {
@@ -298,25 +298,9 @@
       "612779": {
         "teamCode": "612779",
         "totalGames": 19,
-        "playedGames": 16,
+        "playedGames": 17,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sun, Jul 12",
-            "time": "12:00 PM",
-            "homeTeam": "Midland Penetang Twins 10U B",
-            "homeTeamCode": "618394",
-            "awayTeam": "Barrie Baycats 10U A",
-            "awayTeamCode": "612779",
-            "location": "Little Lake Park",
-            "isCompleted": true,
-            "score": {
-              "home": 6,
-              "away": 2,
-              "scoreText": "2-6"
-            }
-          },
           {
             "date": null,
             "dateText": "Wed, Jul 15",
@@ -380,10 +364,26 @@
               "away": 11,
               "scoreText": "11-6"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Wed, Aug 5",
+            "time": "6:30 PM",
+            "homeTeam": "Barrie Baycats 10U A",
+            "homeTeamCode": "612779",
+            "awayTeam": "Collingwood Jays 10U A",
+            "awayTeamCode": "618005",
+            "location": "Barrie Sports Complex Pinwheel 12",
+            "isCompleted": true,
+            "score": {
+              "home": 15,
+              "away": 15,
+              "scoreText": "15-15"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-06T15:10:25.006Z"
+        "lastUpdated": "2026-08-07T00:38:22.691Z"
       },
       "617173": {
         "teamCode": "617173",
@@ -473,7 +473,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-06T15:10:25.006Z"
+        "lastUpdated": "2026-08-07T00:38:22.691Z"
       },
       "617174": {
         "teamCode": "617174",
@@ -563,7 +563,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-06T15:10:25.006Z"
+        "lastUpdated": "2026-08-07T00:38:22.691Z"
       },
       "617848": {
         "teamCode": "617848",
@@ -653,7 +653,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-06T15:10:25.006Z"
+        "lastUpdated": "2026-08-07T00:38:22.691Z"
       },
       "617900": {
         "teamCode": "617900",
@@ -743,7 +743,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-06T15:10:25.006Z"
+        "lastUpdated": "2026-08-07T00:38:22.691Z"
       },
       "617944": {
         "teamCode": "617944",
@@ -833,7 +833,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-06T15:10:25.006Z"
+        "lastUpdated": "2026-08-07T00:38:22.691Z"
       },
       "617970": {
         "teamCode": "617970",
@@ -923,7 +923,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-06T15:10:25.006Z"
+        "lastUpdated": "2026-08-07T00:38:22.691Z"
       },
       "617985": {
         "teamCode": "617985",
@@ -1013,30 +1013,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-06T15:10:25.006Z"
+        "lastUpdated": "2026-08-07T00:38:22.691Z"
       },
       "618005": {
         "teamCode": "618005",
         "totalGames": 19,
-        "playedGames": 17,
+        "playedGames": 18,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Wed, Jul 8",
-            "time": "6:00 PM",
-            "homeTeam": "Collingwood Jays 10U A",
-            "homeTeamCode": "618005",
-            "awayTeam": "Innisfil Cardinals 10U A",
-            "awayTeamCode": "618041",
-            "location": "Heritage Park- Small",
-            "isCompleted": true,
-            "score": {
-              "home": 6,
-              "away": 15,
-              "scoreText": "15-6"
-            }
-          },
           {
             "date": null,
             "dateText": "Thu, Jul 16",
@@ -1100,10 +1084,26 @@
               "away": 10,
               "scoreText": "10-8"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Wed, Aug 5",
+            "time": "6:30 PM",
+            "homeTeam": "Barrie Baycats 10U A",
+            "homeTeamCode": "612779",
+            "awayTeam": "Collingwood Jays 10U A",
+            "awayTeamCode": "618005",
+            "location": "Barrie Sports Complex Pinwheel 12",
+            "isCompleted": true,
+            "score": {
+              "home": 15,
+              "away": 15,
+              "scoreText": "15-15"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-06T15:10:25.006Z"
+        "lastUpdated": "2026-08-07T00:38:22.691Z"
       },
       "618019": {
         "teamCode": "618019",
@@ -1193,7 +1193,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-06T15:10:25.006Z"
+        "lastUpdated": "2026-08-07T00:38:22.691Z"
       },
       "618041": {
         "teamCode": "618041",
@@ -1283,7 +1283,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-06T15:10:25.006Z"
+        "lastUpdated": "2026-08-07T00:38:22.691Z"
       },
       "618057": {
         "teamCode": "618057",
@@ -1373,7 +1373,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-06T15:10:25.006Z"
+        "lastUpdated": "2026-08-07T00:38:22.691Z"
       },
       "618381": {
         "teamCode": "618381",
@@ -1463,7 +1463,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-06T15:10:25.006Z"
+        "lastUpdated": "2026-08-07T00:38:22.691Z"
       },
       "618394": {
         "teamCode": "618394",
@@ -1553,7 +1553,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-06T15:10:25.006Z"
+        "lastUpdated": "2026-08-07T00:38:22.691Z"
       },
       "625725": {
         "teamCode": "625725",
@@ -1643,7 +1643,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-06T15:10:25.006Z"
+        "lastUpdated": "2026-08-07T00:38:22.691Z"
       },
       "627209": {
         "teamCode": "627209",
@@ -1733,7 +1733,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-06T15:10:25.006Z"
+        "lastUpdated": "2026-08-07T00:38:22.691Z"
       }
     },
     "allGames": [
@@ -3994,8 +3994,12 @@
         "awayTeam": "Collingwood Jays 10U A",
         "awayTeamCode": "618005",
         "location": "Barrie Sports Complex Pinwheel 12",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 15,
+          "away": 15,
+          "scoreText": "15-15"
+        }
       },
       {
         "date": null,
@@ -4269,14 +4273,14 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-08-06T15:10:25.006Z",
+    "lastUpdated": "2026-08-07T00:38:22.691Z",
     "totalGames": 152
   },
   "summary": {
     "totalTeams": 16,
     "totalGames": 152,
-    "completedGames": 136,
-    "upcomingGames": 16,
+    "completedGames": 137,
+    "upcomingGames": 15,
     "topTeam": {
       "team": "Innisfil Cardinals 10U A",
       "teamCode": "618041",
@@ -4293,6 +4297,6 @@
       "date": "Thu, May 21",
       "location": "Georgina Roc- Diamond 2"
     },
-    "lastUpdated": "2026-08-06T15:15:49.170Z"
+    "lastUpdated": "2026-08-07T00:42:44.193Z"
   }
 }
