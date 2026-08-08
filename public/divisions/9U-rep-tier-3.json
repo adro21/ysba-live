@@ -78,21 +78,39 @@
         "team": "Barrie Baycats 9U A",
         "teamCode": "612777",
         "record": {
-          "gamesPlayed": 15,
+          "gamesPlayed": 16,
           "wins": 7,
-          "losses": 8,
+          "losses": 9,
           "ties": 0,
-          "winPercentage": "0.467"
+          "winPercentage": "0.438"
         },
         "stats": {
           "points": 14,
-          "runsFor": 222,
-          "runsAgainst": 244,
-          "runDifferential": -22
+          "runsFor": 231,
+          "runsAgainst": 259,
+          "runDifferential": -28
         }
       },
       {
         "position": 6,
+        "team": "Bradford Tigers 9U A",
+        "teamCode": "617943",
+        "record": {
+          "gamesPlayed": 16,
+          "wins": 6,
+          "losses": 8,
+          "ties": 2,
+          "winPercentage": "0.438"
+        },
+        "stats": {
+          "points": 14,
+          "runsFor": 199,
+          "runsAgainst": 186,
+          "runDifferential": 13
+        }
+      },
+      {
+        "position": 7,
         "team": "Georgina Bulldogs 9U B",
         "teamCode": "625731",
         "record": {
@@ -107,24 +125,6 @@
           "runsFor": 207,
           "runsAgainst": 210,
           "runDifferential": -3
-        }
-      },
-      {
-        "position": 7,
-        "team": "Bradford Tigers 9U A",
-        "teamCode": "617943",
-        "record": {
-          "gamesPlayed": 15,
-          "wins": 5,
-          "losses": 8,
-          "ties": 2,
-          "winPercentage": "0.400"
-        },
-        "stats": {
-          "points": 12,
-          "runsFor": 184,
-          "runsAgainst": 177,
-          "runDifferential": 7
         }
       },
       {
@@ -164,7 +164,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-08-08T17:02:07.244Z",
+    "lastUpdated": "2026-08-08T17:55:22.061Z",
     "totalTeams": 9
   },
   "schedule": {
@@ -257,12 +257,12 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-08T17:02:11.590Z"
+        "lastUpdated": "2026-08-08T17:55:26.191Z"
       },
       "612777": {
         "teamCode": "612777",
         "totalGames": 16,
-        "playedGames": 15,
+        "playedGames": 16,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -347,7 +347,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-08T17:02:11.590Z"
+        "lastUpdated": "2026-08-08T17:55:26.191Z"
       },
       "617171": {
         "teamCode": "617171",
@@ -437,7 +437,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-08T17:02:11.590Z"
+        "lastUpdated": "2026-08-08T17:55:26.191Z"
       },
       "617212": {
         "teamCode": "617212",
@@ -527,7 +527,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-08T17:02:11.590Z"
+        "lastUpdated": "2026-08-08T17:55:26.191Z"
       },
       "617846": {
         "teamCode": "617846",
@@ -617,7 +617,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-08T17:02:11.590Z"
+        "lastUpdated": "2026-08-08T17:55:26.191Z"
       },
       "617874": {
         "teamCode": "617874",
@@ -707,7 +707,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-08T17:02:11.590Z"
+        "lastUpdated": "2026-08-08T17:55:26.191Z"
       },
       "617898": {
         "teamCode": "617898",
@@ -797,7 +797,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-08T17:02:11.590Z"
+        "lastUpdated": "2026-08-08T17:55:26.191Z"
       },
       "617899": {
         "teamCode": "617899",
@@ -887,28 +887,28 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-08T17:02:11.590Z"
+        "lastUpdated": "2026-08-08T17:55:26.191Z"
       },
       "617943": {
         "teamCode": "617943",
         "totalGames": 16,
-        "playedGames": 15,
+        "playedGames": 16,
         "upcomingGames": 0,
         "recentGames": [
           {
             "date": null,
-            "dateText": "Fri, Jun 26",
+            "dateText": "Tue, Jun 30",
             "time": "6:30 PM",
-            "homeTeam": "Aurora-King Jays 9U A",
-            "homeTeamCode": "617968",
-            "awayTeam": "Bradford Tigers 9U A",
-            "awayTeamCode": "617943",
-            "location": "Town Park Aurora",
+            "homeTeam": "Bradford Tigers 9U A",
+            "homeTeamCode": "617943",
+            "awayTeam": "Barrie Baycats 9U A",
+            "awayTeamCode": "612777",
+            "location": "Magani 3",
             "isCompleted": true,
             "score": {
-              "home": 13,
-              "away": 23,
-              "scoreText": "23-13"
+              "home": 15,
+              "away": 9,
+              "scoreText": "9-15"
             }
           },
           {
@@ -977,7 +977,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-08T17:02:11.590Z"
+        "lastUpdated": "2026-08-08T17:55:26.191Z"
       },
       "617967": {
         "teamCode": "617967",
@@ -1067,7 +1067,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-08T17:02:11.590Z"
+        "lastUpdated": "2026-08-08T17:55:26.191Z"
       },
       "617968": {
         "teamCode": "617968",
@@ -1157,7 +1157,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-08T17:02:11.590Z"
+        "lastUpdated": "2026-08-08T17:55:26.191Z"
       },
       "618018": {
         "teamCode": "618018",
@@ -1247,7 +1247,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-08T17:02:11.590Z"
+        "lastUpdated": "2026-08-08T17:55:26.191Z"
       },
       "618380": {
         "teamCode": "618380",
@@ -1337,7 +1337,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-08T17:02:11.590Z"
+        "lastUpdated": "2026-08-08T17:55:26.191Z"
       },
       "618472": {
         "teamCode": "618472",
@@ -1427,7 +1427,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-08T17:02:11.590Z"
+        "lastUpdated": "2026-08-08T17:55:26.191Z"
       },
       "625731": {
         "teamCode": "625731",
@@ -1517,7 +1517,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-08T17:02:11.590Z"
+        "lastUpdated": "2026-08-08T17:55:26.191Z"
       },
       "628932": {
         "teamCode": "628932",
@@ -1607,7 +1607,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-08T17:02:11.590Z"
+        "lastUpdated": "2026-08-08T17:55:26.191Z"
       }
     },
     "allGames": [
@@ -2856,8 +2856,12 @@
         "awayTeam": "Barrie Baycats 9U A",
         "awayTeamCode": "612777",
         "location": "Magani 3",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 15,
+          "away": 9,
+          "scoreText": "9-15"
+        }
       },
       {
         "date": null,
@@ -3907,14 +3911,14 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-08-08T17:02:11.590Z",
+    "lastUpdated": "2026-08-08T17:55:26.191Z",
     "totalGames": 135
   },
   "summary": {
     "totalTeams": 9,
     "totalGames": 135,
-    "completedGames": 128,
-    "upcomingGames": 7,
+    "completedGames": 129,
+    "upcomingGames": 6,
     "topTeam": {
       "team": "Richmond Hill Phoenix 9U A",
       "teamCode": "617846",
@@ -3931,6 +3935,6 @@
       "date": "Tue, Jul 21",
       "location": "Richmond Green #3"
     },
-    "lastUpdated": "2026-08-08T17:07:13.952Z"
+    "lastUpdated": "2026-08-08T18:00:12.237Z"
   }
 }
