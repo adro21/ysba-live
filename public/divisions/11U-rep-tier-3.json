@@ -147,6 +147,24 @@
       },
       {
         "position": 9,
+        "team": "Aurora-King Jays 11U A",
+        "teamCode": "617972",
+        "record": {
+          "gamesPlayed": 17,
+          "wins": 4,
+          "losses": 12,
+          "ties": 1,
+          "winPercentage": "0.265"
+        },
+        "stats": {
+          "points": 9,
+          "runsFor": 121,
+          "runsAgainst": 193,
+          "runDifferential": -72
+        }
+      },
+      {
+        "position": 10,
         "team": "TNT Thunder 11U A",
         "teamCode": "618058",
         "record": {
@@ -165,24 +183,6 @@
       },
       {
         "position": 11,
-        "team": "Aurora-King Jays 11U A",
-        "teamCode": "617972",
-        "record": {
-          "gamesPlayed": 16,
-          "wins": 3,
-          "losses": 12,
-          "ties": 1,
-          "winPercentage": "0.219"
-        },
-        "stats": {
-          "points": 7,
-          "runsFor": 118,
-          "runsAgainst": 191,
-          "runDifferential": -73
-        }
-      },
-      {
-        "position": 10,
         "team": "Innisfil Cardinals 11U A",
         "teamCode": "618043",
         "record": {
@@ -200,7 +200,7 @@
         }
       },
       {
-        "position": 12,
+        "position": 13,
         "team": "Muskoka Hornets 11U B",
         "teamCode": "628933",
         "record": {
@@ -218,25 +218,25 @@
         }
       },
       {
-        "position": 13,
+        "position": 12,
         "team": "Bradford Tigers 11U A",
         "teamCode": "617945",
         "record": {
-          "gamesPlayed": 16,
+          "gamesPlayed": 17,
           "wins": 2,
-          "losses": 12,
+          "losses": 13,
           "ties": 2,
-          "winPercentage": "0.188"
+          "winPercentage": "0.176"
         },
         "stats": {
           "points": 6,
-          "runsFor": 101,
-          "runsAgainst": 182,
-          "runDifferential": -81
+          "runsFor": 103,
+          "runsAgainst": 185,
+          "runDifferential": -82
         }
       }
     ],
-    "lastUpdated": "2026-08-08T23:23:33.899Z",
+    "lastUpdated": "2026-08-08T23:54:29.527Z",
     "totalTeams": 13
   },
   "schedule": {
@@ -329,7 +329,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-08T23:23:38.213Z"
+        "lastUpdated": "2026-08-08T23:54:33.742Z"
       },
       "612781": {
         "teamCode": "612781",
@@ -419,7 +419,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-08T23:23:38.213Z"
+        "lastUpdated": "2026-08-08T23:54:33.742Z"
       },
       "617175": {
         "teamCode": "617175",
@@ -509,7 +509,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-08T23:23:38.213Z"
+        "lastUpdated": "2026-08-08T23:54:33.742Z"
       },
       "617202": {
         "teamCode": "617202",
@@ -599,7 +599,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-08T23:23:38.213Z"
+        "lastUpdated": "2026-08-08T23:54:33.742Z"
       },
       "617850": {
         "teamCode": "617850",
@@ -689,7 +689,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-08T23:23:38.213Z"
+        "lastUpdated": "2026-08-08T23:54:33.742Z"
       },
       "617876": {
         "teamCode": "617876",
@@ -779,7 +779,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-08T23:23:38.213Z"
+        "lastUpdated": "2026-08-08T23:54:33.742Z"
       },
       "617877": {
         "teamCode": "617877",
@@ -869,7 +869,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-08T23:23:38.213Z"
+        "lastUpdated": "2026-08-08T23:54:33.742Z"
       },
       "617903": {
         "teamCode": "617903",
@@ -959,7 +959,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-08T23:23:38.213Z"
+        "lastUpdated": "2026-08-08T23:54:33.742Z"
       },
       "617904": {
         "teamCode": "617904",
@@ -1049,30 +1049,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-08T23:23:38.213Z"
+        "lastUpdated": "2026-08-08T23:54:33.742Z"
       },
       "617945": {
         "teamCode": "617945",
         "totalGames": 17,
-        "playedGames": 16,
+        "playedGames": 17,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Tue, Jul 14",
-            "time": "6:00 PM",
-            "homeTeam": "Markham Mariners 11U A",
-            "homeTeamCode": "617877",
-            "awayTeam": "Bradford Tigers 11U A",
-            "awayTeamCode": "617945",
-            "location": "Miliken Mills #2",
-            "isCompleted": true,
-            "score": {
-              "home": 15,
-              "away": 5,
-              "scoreText": "5-15"
-            }
-          },
           {
             "date": null,
             "dateText": "Thu, Jul 23",
@@ -1136,10 +1120,26 @@
               "away": 12,
               "scoreText": "12-4"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Fri, Aug 7",
+            "time": "6:00 PM",
+            "homeTeam": "Aurora-King Jays 11U A",
+            "homeTeamCode": "617972",
+            "awayTeam": "Bradford Tigers 11U A",
+            "awayTeamCode": "617945",
+            "location": "Fleury Park",
+            "isCompleted": true,
+            "score": {
+              "home": 3,
+              "away": 2,
+              "scoreText": "2-3"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-08T23:23:38.213Z"
+        "lastUpdated": "2026-08-08T23:54:33.742Z"
       },
       "617971": {
         "teamCode": "617971",
@@ -1229,30 +1229,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-08T23:23:38.213Z"
+        "lastUpdated": "2026-08-08T23:54:33.742Z"
       },
       "617972": {
         "teamCode": "617972",
         "totalGames": 17,
-        "playedGames": 16,
+        "playedGames": 17,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Fri, Jul 10",
-            "time": "6:00 PM",
-            "homeTeam": "Aurora-King Jays 11U A",
-            "homeTeamCode": "617972",
-            "awayTeam": "Innisfil Cardinals 11U A",
-            "awayTeamCode": "618043",
-            "location": "Fleury Park",
-            "isCompleted": true,
-            "score": {
-              "home": 13,
-              "away": 12,
-              "scoreText": "12-13"
-            }
-          },
           {
             "date": null,
             "dateText": "Thu, Jul 23",
@@ -1316,10 +1300,26 @@
               "away": 6,
               "scoreText": "6-14"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Fri, Aug 7",
+            "time": "6:00 PM",
+            "homeTeam": "Aurora-King Jays 11U A",
+            "homeTeamCode": "617972",
+            "awayTeam": "Bradford Tigers 11U A",
+            "awayTeamCode": "617945",
+            "location": "Fleury Park",
+            "isCompleted": true,
+            "score": {
+              "home": 3,
+              "away": 2,
+              "scoreText": "2-3"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-08T23:23:38.213Z"
+        "lastUpdated": "2026-08-08T23:54:33.742Z"
       },
       "617986": {
         "teamCode": "617986",
@@ -1409,7 +1409,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-08T23:23:38.213Z"
+        "lastUpdated": "2026-08-08T23:54:33.742Z"
       },
       "618006": {
         "teamCode": "618006",
@@ -1499,7 +1499,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-08T23:23:38.213Z"
+        "lastUpdated": "2026-08-08T23:54:33.742Z"
       },
       "618020": {
         "teamCode": "618020",
@@ -1589,7 +1589,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-08T23:23:38.213Z"
+        "lastUpdated": "2026-08-08T23:54:33.742Z"
       },
       "618042": {
         "teamCode": "618042",
@@ -1679,7 +1679,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-08T23:23:38.213Z"
+        "lastUpdated": "2026-08-08T23:54:33.742Z"
       },
       "618043": {
         "teamCode": "618043",
@@ -1769,7 +1769,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-08T23:23:38.213Z"
+        "lastUpdated": "2026-08-08T23:54:33.742Z"
       },
       "618058": {
         "teamCode": "618058",
@@ -1859,7 +1859,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-08T23:23:38.213Z"
+        "lastUpdated": "2026-08-08T23:54:33.742Z"
       },
       "618067": {
         "teamCode": "618067",
@@ -1949,7 +1949,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-08T23:23:38.213Z"
+        "lastUpdated": "2026-08-08T23:54:33.742Z"
       },
       "618382": {
         "teamCode": "618382",
@@ -2039,7 +2039,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-08T23:23:38.213Z"
+        "lastUpdated": "2026-08-08T23:54:33.742Z"
       },
       "618470": {
         "teamCode": "618470",
@@ -2129,7 +2129,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-08T23:23:38.213Z"
+        "lastUpdated": "2026-08-08T23:54:33.742Z"
       },
       "625726": {
         "teamCode": "625726",
@@ -2219,7 +2219,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-08T23:23:38.213Z"
+        "lastUpdated": "2026-08-08T23:54:33.742Z"
       },
       "628933": {
         "teamCode": "628933",
@@ -2309,7 +2309,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-08T23:23:38.213Z"
+        "lastUpdated": "2026-08-08T23:54:33.742Z"
       }
     },
     "allGames": [
@@ -5410,8 +5410,12 @@
         "awayTeam": "Bradford Tigers 11U A",
         "awayTeamCode": "617945",
         "location": "Fleury Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 3,
+          "away": 2,
+          "scoreText": "2-3"
+        }
       },
       {
         "date": null,
@@ -5589,14 +5593,14 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-08-08T23:23:38.213Z",
+    "lastUpdated": "2026-08-08T23:54:33.742Z",
     "totalGames": 200
   },
   "summary": {
     "totalTeams": 13,
     "totalGames": 200,
-    "completedGames": 178,
-    "upcomingGames": 22,
+    "completedGames": 179,
+    "upcomingGames": 21,
     "topTeam": {
       "team": "Barrie Baycats 11U A",
       "teamCode": "612781",
@@ -5613,6 +5617,6 @@
       "date": "Tue, Jul 7",
       "location": "Muskoka Wharf"
     },
-    "lastUpdated": "2026-08-08T23:28:19.059Z"
+    "lastUpdated": "2026-08-08T23:58:29.323Z"
   }
 }
