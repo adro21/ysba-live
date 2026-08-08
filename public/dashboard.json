@@ -1,13 +1,25 @@
 {
-  "lastUpdated": "2026-08-08T11:36:42.787Z",
+  "lastUpdated": "2026-08-08T12:39:19.630Z",
   "totals": {
     "divisions": 54,
     "teams": 213,
     "games": 5549,
-    "completed": 4929,
-    "upcoming": 620
+    "completed": 4930,
+    "upcoming": 619
   },
   "recentActivity": [
+    {
+      "date": "2026-08-08T12:30:00.000Z",
+      "dateText": "Sat, Aug 8",
+      "time": "8:30 AM",
+      "homeTeam": "Georgina",
+      "homeTeamCode": "892647",
+      "awayTeam": "Vaughan",
+      "awayTeamCode": "892644",
+      "location": "ROC — Diamond 2 — Georgina",
+      "isCompleted": false,
+      "score": null
+    },
     {
       "date": "2026-08-07T23:00:00.000Z",
       "dateText": "Fri, Aug 7",
@@ -33,8 +45,12 @@
       "awayTeam": "Scarborough",
       "awayTeamCode": "892643",
       "location": "Neilson - Scarborough — Diamond 2 — Toronto",
-      "isCompleted": false,
-      "score": null
+      "isCompleted": true,
+      "score": {
+        "home": 1,
+        "away": 11,
+        "scoreText": "11-1"
+      }
     },
     {
       "date": "2026-08-07T22:30:00.000Z",
@@ -59,37 +75,9 @@
       "location": "Rotary Peace Park — Diamond South — Toronto",
       "isCompleted": false,
       "score": null
-    },
-    {
-      "date": "2026-08-06T22:00:00.000Z",
-      "dateText": "Thu, Aug 6",
-      "time": "6:00 PM",
-      "homeTeam": "Georgina",
-      "homeTeamCode": "892647",
-      "awayTeam": "Stouffville",
-      "awayTeamCode": "892639",
-      "location": "Bethesda — Diamond 3 — Whitchurch-Stouffville",
-      "isCompleted": true,
-      "score": {
-        "home": 14,
-        "away": 13,
-        "scoreText": "13-14"
-      }
     }
   ],
   "upcomingGames": [
-    {
-      "date": "2026-08-08T12:30:00.000Z",
-      "dateText": "Sat, Aug 8",
-      "time": "8:30 AM",
-      "homeTeam": "Georgina",
-      "homeTeamCode": "892647",
-      "awayTeam": "Vaughan",
-      "awayTeamCode": "892644",
-      "location": "ROC — Diamond 2 — Georgina",
-      "isCompleted": false,
-      "score": null
-    },
     {
       "date": "2026-08-08T14:45:00.000Z",
       "dateText": "Sat, Aug 8",
@@ -135,6 +123,18 @@
       "awayTeam": "Scarborough",
       "awayTeamCode": "883725",
       "location": "McGregor — Toronto",
+      "isCompleted": false,
+      "score": null
+    },
+    {
+      "date": "2026-08-08T18:00:00.000Z",
+      "dateText": "Sat, Aug 8",
+      "time": "2:00 PM",
+      "homeTeam": "Bloordale",
+      "homeTeamCode": "892638",
+      "awayTeam": "Scarborough",
+      "awayTeamCode": "892643",
+      "location": "Bridlewood — Toronto",
       "isCompleted": false,
       "score": null
     }
