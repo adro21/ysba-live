@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-08T23:58:29.323Z",
+  "lastUpdated": "2026-08-09T01:17:58.883Z",
   "totalGames": 190,
   "games": [
     {
@@ -25,8 +25,12 @@
       "awayTeam": "East York",
       "awayTeamCode": "883724",
       "location": "Dieppe — Toronto",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 6,
+        "away": 7,
+        "scoreText": "7-6"
+      },
       "division": "11U",
       "tier": "interlock-all-tiers"
     },
@@ -53,8 +57,12 @@
       "awayTeam": "Scarborough",
       "awayTeamCode": "883725",
       "location": "McGregor — Toronto",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 2,
+        "away": 3,
+        "scoreText": "3-2"
+      },
       "division": "11U",
       "tier": "interlock-all-tiers"
     },

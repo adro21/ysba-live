@@ -78,35 +78,17 @@
         "team": "Caledon",
         "teamCode": "883733",
         "record": {
-          "gamesPlayed": 14,
+          "gamesPlayed": 15,
           "wins": 9,
-          "losses": 4,
+          "losses": 5,
           "ties": 1,
-          "winPercentage": "0.679"
+          "winPercentage": "0.633"
         },
         "stats": {
           "points": 19,
-          "runsFor": 131,
-          "runsAgainst": 78,
-          "runDifferential": 53
-        }
-      },
-      {
-        "position": 7,
-        "team": "Oshawa",
-        "teamCode": "883729",
-        "record": {
-          "gamesPlayed": 12,
-          "wins": 6,
-          "losses": 6,
-          "ties": 0,
-          "winPercentage": "0.500"
-        },
-        "stats": {
-          "points": 12,
-          "runsFor": 79,
-          "runsAgainst": 104,
-          "runDifferential": -25
+          "runsFor": 133,
+          "runsAgainst": 81,
+          "runDifferential": 52
         }
       },
       {
@@ -114,17 +96,53 @@
         "team": "East York",
         "teamCode": "883724",
         "record": {
-          "gamesPlayed": 16,
-          "wins": 7,
+          "gamesPlayed": 17,
+          "wins": 8,
           "losses": 8,
           "ties": 1,
-          "winPercentage": "0.469"
+          "winPercentage": "0.500"
         },
         "stats": {
-          "points": 15,
-          "runsFor": 119,
-          "runsAgainst": 118,
-          "runDifferential": 1
+          "points": 17,
+          "runsFor": 126,
+          "runsAgainst": 124,
+          "runDifferential": 2
+        }
+      },
+      {
+        "position": 7,
+        "team": "Oshawa",
+        "teamCode": "883729",
+        "record": {
+          "gamesPlayed": 13,
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "winPercentage": "0.462"
+        },
+        "stats": {
+          "points": 12,
+          "runsFor": 85,
+          "runsAgainst": 111,
+          "runDifferential": -26
+        }
+      },
+      {
+        "position": 8,
+        "team": "Scarborough",
+        "teamCode": "883725",
+        "record": {
+          "gamesPlayed": 16,
+          "wins": 5,
+          "losses": 10,
+          "ties": 1,
+          "winPercentage": "0.344"
+        },
+        "stats": {
+          "points": 11,
+          "runsFor": 80,
+          "runsAgainst": 113,
+          "runDifferential": -33
         }
       },
       {
@@ -147,24 +165,6 @@
       },
       {
         "position": 9,
-        "team": "Scarborough",
-        "teamCode": "883725",
-        "record": {
-          "gamesPlayed": 15,
-          "wins": 4,
-          "losses": 10,
-          "ties": 1,
-          "winPercentage": "0.300"
-        },
-        "stats": {
-          "points": 9,
-          "runsFor": 77,
-          "runsAgainst": 111,
-          "runDifferential": -34
-        }
-      },
-      {
-        "position": 8,
         "team": "Leaside",
         "teamCode": "883722",
         "record": {
@@ -218,7 +218,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-08-08T23:58:29.301Z",
+    "lastUpdated": "2026-08-09T01:17:58.862Z",
     "totalTeams": 12
   },
   "schedule": {
@@ -311,7 +311,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-08T23:58:29.322Z"
+        "lastUpdated": "2026-08-09T01:17:58.882Z"
       },
       "883723": {
         "teamCode": "883723",
@@ -410,7 +410,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-08T23:58:29.323Z"
+        "lastUpdated": "2026-08-09T01:17:58.882Z"
       },
       "883724": {
         "teamCode": "883724",
@@ -491,12 +491,16 @@
             "awayTeam": "East York",
             "awayTeamCode": "883724",
             "location": "Dieppe — Toronto",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 7,
+              "scoreText": "7-6"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-08T23:58:29.323Z"
+        "lastUpdated": "2026-08-09T01:17:58.882Z"
       },
       "883725": {
         "teamCode": "883725",
@@ -577,8 +581,12 @@
             "awayTeam": "Scarborough",
             "awayTeamCode": "883725",
             "location": "McGregor — Toronto",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 2,
+              "away": 3,
+              "scoreText": "3-2"
+            }
           }
         ],
         "nextGames": [
@@ -595,7 +603,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-08T23:58:29.323Z"
+        "lastUpdated": "2026-08-09T01:17:58.882Z"
       },
       "883726": {
         "teamCode": "883726",
@@ -694,7 +702,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-08T23:58:29.323Z"
+        "lastUpdated": "2026-08-09T01:17:58.882Z"
       },
       "883727": {
         "teamCode": "883727",
@@ -780,7 +788,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-08T23:58:29.323Z"
+        "lastUpdated": "2026-08-09T01:17:58.882Z"
       },
       "883728": {
         "teamCode": "883728",
@@ -866,7 +874,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-08T23:58:29.323Z"
+        "lastUpdated": "2026-08-09T01:17:58.882Z"
       },
       "883729": {
         "teamCode": "883729",
@@ -947,8 +955,12 @@
             "awayTeam": "East York",
             "awayTeamCode": "883724",
             "location": "Dieppe — Toronto",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 7,
+              "scoreText": "7-6"
+            }
           }
         ],
         "nextGames": [
@@ -965,7 +977,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-08T23:58:29.323Z"
+        "lastUpdated": "2026-08-09T01:17:58.883Z"
       },
       "883730": {
         "teamCode": "883730",
@@ -1068,7 +1080,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-08T23:58:29.323Z"
+        "lastUpdated": "2026-08-09T01:17:58.883Z"
       },
       "883731": {
         "teamCode": "883731",
@@ -1163,7 +1175,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-08T23:58:29.323Z"
+        "lastUpdated": "2026-08-09T01:17:58.883Z"
       },
       "883732": {
         "teamCode": "883732",
@@ -1274,7 +1286,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-08T23:58:29.323Z"
+        "lastUpdated": "2026-08-09T01:17:58.883Z"
       },
       "883733": {
         "teamCode": "883733",
@@ -1351,12 +1363,16 @@
             "awayTeam": "Scarborough",
             "awayTeamCode": "883725",
             "location": "McGregor — Toronto",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 2,
+              "away": 3,
+              "scoreText": "3-2"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-08T23:58:29.323Z"
+        "lastUpdated": "2026-08-09T01:17:58.883Z"
       }
     },
     "allGames": [
@@ -2929,8 +2945,12 @@
         "awayTeam": "East York",
         "awayTeamCode": "883724",
         "location": "Dieppe — Toronto",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 7,
+          "scoreText": "7-6"
+        }
       },
       {
         "date": "2026-08-08T17:00:00.000Z",
@@ -2941,8 +2961,12 @@
         "awayTeam": "Scarborough",
         "awayTeamCode": "883725",
         "location": "McGregor — Toronto",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 2,
+          "away": 3,
+          "scoreText": "3-2"
+        }
       },
       {
         "date": "2026-08-09T13:30:00.000Z",
@@ -3015,8 +3039,12 @@
         "awayTeam": "East York",
         "awayTeamCode": "883724",
         "location": "Dieppe — Toronto",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 7,
+          "scoreText": "7-6"
+        }
       },
       {
         "date": "2026-08-08T17:00:00.000Z",
@@ -3027,8 +3055,12 @@
         "awayTeam": "Scarborough",
         "awayTeamCode": "883725",
         "location": "McGregor — Toronto",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 2,
+          "away": 3,
+          "scoreText": "3-2"
+        }
       },
       {
         "date": "2026-08-07T23:00:00.000Z",
@@ -3193,14 +3225,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2026-08-08T23:58:29.323Z",
+    "lastUpdated": "2026-08-09T01:17:58.883Z",
     "totalGames": 106
   },
   "summary": {
     "totalTeams": 12,
     "totalGames": 106,
-    "completedGames": 90,
-    "upcomingGames": 16,
+    "completedGames": 92,
+    "upcomingGames": 14,
     "topTeam": {
       "team": "Etobicoke",
       "teamCode": "883728",
@@ -3217,6 +3249,6 @@
       "date": "Sun, May 31",
       "location": "North Hill — Diamond 3 — Bolton"
     },
-    "lastUpdated": "2026-08-08T23:58:29.323Z"
+    "lastUpdated": "2026-08-09T01:17:58.883Z"
   }
 }
