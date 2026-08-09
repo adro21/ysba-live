@@ -56,25 +56,25 @@
         }
       },
       {
-        "position": 5,
+        "position": 4,
         "team": "Whitby",
         "teamCode": "883731",
         "record": {
-          "gamesPlayed": 13,
-          "wins": 9,
+          "gamesPlayed": 14,
+          "wins": 10,
           "losses": 4,
           "ties": 0,
-          "winPercentage": "0.692"
+          "winPercentage": "0.714"
         },
         "stats": {
-          "points": 18,
-          "runsFor": 90,
-          "runsAgainst": 51,
-          "runDifferential": 39
+          "points": 20,
+          "runsFor": 104,
+          "runsAgainst": 56,
+          "runDifferential": 48
         }
       },
       {
-        "position": 4,
+        "position": 5,
         "team": "Caledon",
         "teamCode": "883733",
         "record": {
@@ -204,21 +204,21 @@
         "team": "North York",
         "teamCode": "883726",
         "record": {
-          "gamesPlayed": 17,
+          "gamesPlayed": 18,
           "wins": 2,
-          "losses": 14,
+          "losses": 15,
           "ties": 1,
-          "winPercentage": "0.147"
+          "winPercentage": "0.139"
         },
         "stats": {
           "points": 5,
-          "runsFor": 65,
-          "runsAgainst": 172,
-          "runDifferential": -107
+          "runsFor": 70,
+          "runsAgainst": 186,
+          "runDifferential": -116
         }
       }
     ],
-    "lastUpdated": "2026-08-09T16:02:13.310Z",
+    "lastUpdated": "2026-08-09T16:31:44.069Z",
     "totalTeams": 12
   },
   "schedule": {
@@ -311,7 +311,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T16:02:13.334Z"
+        "lastUpdated": "2026-08-09T16:31:44.086Z"
       },
       "883723": {
         "teamCode": "883723",
@@ -410,7 +410,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-09T16:02:13.335Z"
+        "lastUpdated": "2026-08-09T16:31:44.087Z"
       },
       "883724": {
         "teamCode": "883724",
@@ -500,7 +500,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T16:02:13.335Z"
+        "lastUpdated": "2026-08-09T16:31:44.087Z"
       },
       "883725": {
         "teamCode": "883725",
@@ -603,7 +603,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-09T16:02:13.335Z"
+        "lastUpdated": "2026-08-09T16:31:44.087Z"
       },
       "883726": {
         "teamCode": "883726",
@@ -684,12 +684,16 @@
             "awayTeam": "Whitby",
             "awayTeamCode": "883731",
             "location": "Carson — Whitby",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 14,
+              "scoreText": "14-5"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T16:02:13.335Z"
+        "lastUpdated": "2026-08-09T16:31:44.087Z"
       },
       "883727": {
         "teamCode": "883727",
@@ -779,7 +783,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T16:02:13.335Z"
+        "lastUpdated": "2026-08-09T16:31:44.087Z"
       },
       "883728": {
         "teamCode": "883728",
@@ -865,7 +869,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T16:02:13.335Z"
+        "lastUpdated": "2026-08-09T16:31:44.087Z"
       },
       "883729": {
         "teamCode": "883729",
@@ -968,7 +972,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-09T16:02:13.335Z"
+        "lastUpdated": "2026-08-09T16:31:44.087Z"
       },
       "883730": {
         "teamCode": "883730",
@@ -1071,7 +1075,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-09T16:02:13.335Z"
+        "lastUpdated": "2026-08-09T16:31:44.087Z"
       },
       "883731": {
         "teamCode": "883731",
@@ -1148,12 +1152,16 @@
             "awayTeam": "Whitby",
             "awayTeamCode": "883731",
             "location": "Carson — Whitby",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 5,
+              "away": 14,
+              "scoreText": "14-5"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T16:02:13.335Z"
+        "lastUpdated": "2026-08-09T16:31:44.087Z"
       },
       "883732": {
         "teamCode": "883732",
@@ -1264,7 +1272,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-09T16:02:13.335Z"
+        "lastUpdated": "2026-08-09T16:31:44.087Z"
       },
       "883733": {
         "teamCode": "883733",
@@ -1350,7 +1358,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T16:02:13.335Z"
+        "lastUpdated": "2026-08-09T16:31:44.087Z"
       }
     },
     "allGames": [
@@ -2959,8 +2967,12 @@
         "awayTeam": "Whitby",
         "awayTeamCode": "883731",
         "location": "Carson — Whitby",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 5,
+          "away": 14,
+          "scoreText": "14-5"
+        }
       },
       {
         "date": "2026-08-09T22:00:00.000Z",
@@ -3009,8 +3021,12 @@
         "awayTeam": "Whitby",
         "awayTeamCode": "883731",
         "location": "Carson — Whitby",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 5,
+          "away": 14,
+          "scoreText": "14-5"
+        }
       },
       {
         "date": "2026-08-08T22:00:00.000Z",
@@ -3195,14 +3211,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2026-08-09T16:02:13.335Z",
+    "lastUpdated": "2026-08-09T16:31:44.087Z",
     "totalGames": 106
   },
   "summary": {
     "totalTeams": 12,
     "totalGames": 106,
-    "completedGames": 93,
-    "upcomingGames": 13,
+    "completedGames": 94,
+    "upcomingGames": 12,
     "topTeam": {
       "team": "Etobicoke",
       "teamCode": "883728",
@@ -3219,6 +3235,6 @@
       "date": "Sun, May 31",
       "location": "North Hill — Diamond 3 — Bolton"
     },
-    "lastUpdated": "2026-08-09T16:02:13.335Z"
+    "lastUpdated": "2026-08-09T16:31:44.087Z"
   }
 }
