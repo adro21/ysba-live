@@ -2,6 +2,24 @@
   "standings": {
     "teams": [
       {
+        "position": 2,
+        "team": "Bradford Tigers 12U AA",
+        "teamCode": "617946",
+        "record": {
+          "gamesPlayed": 14,
+          "wins": 10,
+          "losses": 4,
+          "ties": 0,
+          "winPercentage": "0.714"
+        },
+        "stats": {
+          "points": 20,
+          "runsFor": 147,
+          "runsAgainst": 82,
+          "runDifferential": 65
+        }
+      },
+      {
         "position": 1,
         "team": "Orangeville Bengals 12U AA",
         "teamCode": "618022",
@@ -21,24 +39,6 @@
       },
       {
         "position": 4,
-        "team": "Bradford Tigers 12U AA",
-        "teamCode": "617946",
-        "record": {
-          "gamesPlayed": 12,
-          "wins": 8,
-          "losses": 4,
-          "ties": 0,
-          "winPercentage": "0.667"
-        },
-        "stats": {
-          "points": 16,
-          "runsFor": 130,
-          "runsAgainst": 78,
-          "runDifferential": 52
-        }
-      },
-      {
-        "position": 3,
         "team": "Barrie Baycats 12U AA",
         "teamCode": "612783",
         "record": {
@@ -92,7 +92,7 @@
         }
       },
       {
-        "position": 2,
+        "position": 3,
         "team": "Richmond Hill Phoenix 12U AA",
         "teamCode": "617852",
         "record": {
@@ -114,17 +114,17 @@
         "team": "Muskoka Hornets 12U AA",
         "teamCode": "628934",
         "record": {
-          "gamesPlayed": 14,
+          "gamesPlayed": 16,
           "wins": 6,
-          "losses": 8,
+          "losses": 10,
           "ties": 0,
-          "winPercentage": "0.429"
+          "winPercentage": "0.375"
         },
         "stats": {
           "points": 12,
-          "runsFor": 119,
-          "runsAgainst": 137,
-          "runDifferential": -18
+          "runsFor": 123,
+          "runsAgainst": 154,
+          "runDifferential": -31
         }
       },
       {
@@ -164,7 +164,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-08-09T15:03:01.528Z",
+    "lastUpdated": "2026-08-09T15:57:46.912Z",
     "totalTeams": 9
   },
   "schedule": {
@@ -257,7 +257,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T15:03:06.222Z"
+        "lastUpdated": "2026-08-09T15:57:51.813Z"
       },
       "612784": {
         "teamCode": "612784",
@@ -347,7 +347,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T15:03:06.222Z"
+        "lastUpdated": "2026-08-09T15:57:51.814Z"
       },
       "617177": {
         "teamCode": "617177",
@@ -437,7 +437,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T15:03:06.222Z"
+        "lastUpdated": "2026-08-09T15:57:51.814Z"
       },
       "617178": {
         "teamCode": "617178",
@@ -527,7 +527,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T15:03:06.222Z"
+        "lastUpdated": "2026-08-09T15:57:51.814Z"
       },
       "617204": {
         "teamCode": "617204",
@@ -617,7 +617,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T15:03:06.222Z"
+        "lastUpdated": "2026-08-09T15:57:51.814Z"
       },
       "617852": {
         "teamCode": "617852",
@@ -707,7 +707,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T15:03:06.222Z"
+        "lastUpdated": "2026-08-09T15:57:51.814Z"
       },
       "617879": {
         "teamCode": "617879",
@@ -797,7 +797,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T15:03:06.222Z"
+        "lastUpdated": "2026-08-09T15:57:51.814Z"
       },
       "617880": {
         "teamCode": "617880",
@@ -887,7 +887,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T15:03:06.222Z"
+        "lastUpdated": "2026-08-09T15:57:51.814Z"
       },
       "617906": {
         "teamCode": "617906",
@@ -977,7 +977,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T15:03:06.222Z"
+        "lastUpdated": "2026-08-09T15:57:51.814Z"
       },
       "617907": {
         "teamCode": "617907",
@@ -1067,46 +1067,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T15:03:06.222Z"
+        "lastUpdated": "2026-08-09T15:57:51.814Z"
       },
       "617946": {
         "teamCode": "617946",
         "totalGames": 16,
-        "playedGames": 12,
+        "playedGames": 14,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Wed, Jun 24",
-            "time": "6:00 PM",
-            "homeTeam": "Bradford Tigers 12U AA",
-            "homeTeamCode": "617946",
-            "awayTeam": "Barrie Baycats 12U AA",
-            "awayTeamCode": "612783",
-            "location": "Joe Magani Park Field # 2",
-            "isCompleted": true,
-            "score": {
-              "home": 12,
-              "away": 5,
-              "scoreText": "5-12"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Wed, Jul 1",
-            "time": "6:00 PM",
-            "homeTeam": "Bradford Tigers 12U AA",
-            "homeTeamCode": "617946",
-            "awayTeam": "Markham Mariners 12U AA",
-            "awayTeamCode": "617879",
-            "location": "Joe Magani Park Field # 2",
-            "isCompleted": true,
-            "score": {
-              "home": 12,
-              "away": 5,
-              "scoreText": "5-12"
-            }
-          },
           {
             "date": null,
             "dateText": "Sun, Jul 5",
@@ -1154,10 +1122,42 @@
               "away": 6,
               "scoreText": "6-13"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, Aug 8",
+            "time": "11:00 AM",
+            "homeTeam": "Muskoka Hornets 12U AA",
+            "homeTeamCode": "628934",
+            "awayTeam": "Bradford Tigers 12U AA",
+            "awayTeamCode": "617946",
+            "location": "Peake Fields Ballpark",
+            "isCompleted": true,
+            "score": {
+              "home": 3,
+              "away": 13,
+              "scoreText": "13-3"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, Aug 8",
+            "time": "2:00 PM",
+            "homeTeam": "Muskoka Hornets 12U AA",
+            "homeTeamCode": "628934",
+            "awayTeam": "Bradford Tigers 12U AA",
+            "awayTeamCode": "617946",
+            "location": "Peake Fields Ballpark",
+            "isCompleted": true,
+            "score": {
+              "home": 1,
+              "away": 4,
+              "scoreText": "4-1"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T15:03:06.222Z"
+        "lastUpdated": "2026-08-09T15:57:51.814Z"
       },
       "617973": {
         "teamCode": "617973",
@@ -1247,7 +1247,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T15:03:06.222Z"
+        "lastUpdated": "2026-08-09T15:57:51.814Z"
       },
       "617974": {
         "teamCode": "617974",
@@ -1337,7 +1337,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T15:03:06.222Z"
+        "lastUpdated": "2026-08-09T15:57:51.814Z"
       },
       "617987": {
         "teamCode": "617987",
@@ -1427,7 +1427,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T15:03:06.222Z"
+        "lastUpdated": "2026-08-09T15:57:51.814Z"
       },
       "617988": {
         "teamCode": "617988",
@@ -1517,7 +1517,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T15:03:06.222Z"
+        "lastUpdated": "2026-08-09T15:57:51.814Z"
       },
       "618007": {
         "teamCode": "618007",
@@ -1607,7 +1607,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T15:03:06.222Z"
+        "lastUpdated": "2026-08-09T15:57:51.814Z"
       },
       "618021": {
         "teamCode": "618021",
@@ -1697,7 +1697,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T15:03:06.222Z"
+        "lastUpdated": "2026-08-09T15:57:51.814Z"
       },
       "618022": {
         "teamCode": "618022",
@@ -1787,7 +1787,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T15:03:06.222Z"
+        "lastUpdated": "2026-08-09T15:57:51.814Z"
       },
       "618044": {
         "teamCode": "618044",
@@ -1877,7 +1877,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T15:03:06.223Z"
+        "lastUpdated": "2026-08-09T15:57:51.814Z"
       },
       "618059": {
         "teamCode": "618059",
@@ -1967,7 +1967,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T15:03:06.223Z"
+        "lastUpdated": "2026-08-09T15:57:51.814Z"
       },
       "618068": {
         "teamCode": "618068",
@@ -2057,7 +2057,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T15:03:06.223Z"
+        "lastUpdated": "2026-08-09T15:57:51.814Z"
       },
       "618383": {
         "teamCode": "618383",
@@ -2147,7 +2147,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T15:03:06.223Z"
+        "lastUpdated": "2026-08-09T15:57:51.814Z"
       },
       "618395": {
         "teamCode": "618395",
@@ -2237,7 +2237,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T15:03:06.223Z"
+        "lastUpdated": "2026-08-09T15:57:51.814Z"
       },
       "618468": {
         "teamCode": "618468",
@@ -2327,7 +2327,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T15:03:06.223Z"
+        "lastUpdated": "2026-08-09T15:57:51.814Z"
       },
       "625727": {
         "teamCode": "625727",
@@ -2417,46 +2417,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T15:03:06.223Z"
+        "lastUpdated": "2026-08-09T15:57:51.814Z"
       },
       "628934": {
         "teamCode": "628934",
         "totalGames": 16,
-        "playedGames": 14,
+        "playedGames": 16,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sat, Jul 18",
-            "time": "2:00 PM",
-            "homeTeam": "Muskoka Hornets 12U AA",
-            "homeTeamCode": "628934",
-            "awayTeam": "Markham Mariners 12U AA",
-            "awayTeamCode": "617879",
-            "location": "Peake Fields Ballpark",
-            "isCompleted": true,
-            "score": {
-              "home": 1,
-              "away": 12,
-              "scoreText": "12-1"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Sat, Jul 25",
-            "time": "11:00 AM",
-            "homeTeam": "Muskoka Hornets 12U AA",
-            "homeTeamCode": "628934",
-            "awayTeam": "Vaughan Vikings 12U AA",
-            "awayTeamCode": "617177",
-            "location": "Peake Fields Ballpark",
-            "isCompleted": true,
-            "score": {
-              "home": 8,
-              "away": 3,
-              "scoreText": "3-8"
-            }
-          },
           {
             "date": null,
             "dateText": "Sat, Jul 25",
@@ -2504,10 +2472,42 @@
               "away": 6,
               "scoreText": "6-7"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, Aug 8",
+            "time": "11:00 AM",
+            "homeTeam": "Muskoka Hornets 12U AA",
+            "homeTeamCode": "628934",
+            "awayTeam": "Bradford Tigers 12U AA",
+            "awayTeamCode": "617946",
+            "location": "Peake Fields Ballpark",
+            "isCompleted": true,
+            "score": {
+              "home": 3,
+              "away": 13,
+              "scoreText": "13-3"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, Aug 8",
+            "time": "2:00 PM",
+            "homeTeam": "Muskoka Hornets 12U AA",
+            "homeTeamCode": "628934",
+            "awayTeam": "Bradford Tigers 12U AA",
+            "awayTeamCode": "617946",
+            "location": "Peake Fields Ballpark",
+            "isCompleted": true,
+            "score": {
+              "home": 1,
+              "away": 4,
+              "scoreText": "4-1"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T15:03:06.223Z"
+        "lastUpdated": "2026-08-09T15:57:51.814Z"
       }
     },
     "allGames": [
@@ -5420,8 +5420,12 @@
         "awayTeam": "Bradford Tigers 12U AA",
         "awayTeamCode": "617946",
         "location": "Peake Fields Ballpark",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 3,
+          "away": 13,
+          "scoreText": "13-3"
+        }
       },
       {
         "date": null,
@@ -5432,8 +5436,12 @@
         "awayTeam": "Bradford Tigers 12U AA",
         "awayTeamCode": "617946",
         "location": "Peake Fields Ballpark",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 1,
+          "away": 4,
+          "scoreText": "4-1"
+        }
       },
       {
         "date": null,
@@ -5767,20 +5775,20 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-08-09T15:03:06.223Z",
+    "lastUpdated": "2026-08-09T15:57:51.814Z",
     "totalGames": 200
   },
   "summary": {
     "totalTeams": 9,
     "totalGames": 200,
-    "completedGames": 173,
-    "upcomingGames": 27,
+    "completedGames": 175,
+    "upcomingGames": 25,
     "topTeam": {
-      "team": "Orangeville Bengals 12U AA",
-      "teamCode": "618022",
+      "team": "Bradford Tigers 12U AA",
+      "teamCode": "617946",
       "wins": 10,
-      "losses": 5,
-      "winPercentage": "0.667"
+      "losses": 4,
+      "winPercentage": "0.714"
     },
     "highestScoringGame": {
       "homeTeam": "Barrie Baycats 12U A",
@@ -5791,6 +5799,6 @@
       "date": "Mon, May 18",
       "location": "Lampman Lane"
     },
-    "lastUpdated": "2026-08-09T15:07:42.860Z"
+    "lastUpdated": "2026-08-09T16:02:13.335Z"
   }
 }
