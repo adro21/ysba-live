@@ -146,7 +146,7 @@
         }
       },
       {
-        "position": 9,
+        "position": 10,
         "team": "Newmarket Hawks 9U DS",
         "teamCode": "617916",
         "record": {
@@ -164,7 +164,25 @@
         }
       },
       {
-        "position": 10,
+        "position": 9,
+        "team": "Bradford Tigers 9U DS",
+        "teamCode": "617954",
+        "record": {
+          "gamesPlayed": 16,
+          "wins": 4,
+          "losses": 10,
+          "ties": 2,
+          "winPercentage": "0.313"
+        },
+        "stats": {
+          "points": 10,
+          "runsFor": 178,
+          "runsAgainst": 270,
+          "runDifferential": -92
+        }
+      },
+      {
+        "position": 11,
         "team": "Thornhill Reds 9U DS",
         "teamCode": "617998",
         "record": {
@@ -182,43 +200,25 @@
         }
       },
       {
-        "position": 11,
-        "team": "Bradford Tigers 9U DS",
-        "teamCode": "617954",
-        "record": {
-          "gamesPlayed": 14,
-          "wins": 4,
-          "losses": 10,
-          "ties": 0,
-          "winPercentage": "0.286"
-        },
-        "stats": {
-          "points": 8,
-          "runsFor": 150,
-          "runsAgainst": 242,
-          "runDifferential": -92
-        }
-      },
-      {
-        "position": 13,
+        "position": 12,
         "team": "Orangeville Bengals 9U DS",
         "teamCode": "618026",
         "record": {
-          "gamesPlayed": 12,
+          "gamesPlayed": 14,
           "wins": 1,
           "losses": 10,
-          "ties": 1,
-          "winPercentage": "0.125"
+          "ties": 3,
+          "winPercentage": "0.179"
         },
         "stats": {
-          "points": 3,
-          "runsFor": 99,
-          "runsAgainst": 200,
+          "points": 5,
+          "runsFor": 127,
+          "runsAgainst": 228,
           "runDifferential": -101
         }
       },
       {
-        "position": 12,
+        "position": 13,
         "team": "Orillia 9U DS",
         "teamCode": "618390",
         "record": {
@@ -254,7 +254,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-08-09T23:03:00.453Z",
+    "lastUpdated": "2026-08-10T03:28:27.476Z",
     "totalTeams": 14
   },
   "schedule": {
@@ -347,7 +347,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T23:03:04.783Z"
+        "lastUpdated": "2026-08-10T03:28:31.804Z"
       },
       "617187": {
         "teamCode": "617187",
@@ -437,7 +437,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T23:03:04.783Z"
+        "lastUpdated": "2026-08-10T03:28:31.804Z"
       },
       "617188": {
         "teamCode": "617188",
@@ -527,7 +527,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T23:03:04.783Z"
+        "lastUpdated": "2026-08-10T03:28:31.804Z"
       },
       "617891": {
         "teamCode": "617891",
@@ -617,7 +617,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T23:03:04.783Z"
+        "lastUpdated": "2026-08-10T03:28:31.804Z"
       },
       "617916": {
         "teamCode": "617916",
@@ -707,12 +707,12 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T23:03:04.783Z"
+        "lastUpdated": "2026-08-10T03:28:31.804Z"
       },
       "617954": {
         "teamCode": "617954",
         "totalGames": 16,
-        "playedGames": 14,
+        "playedGames": 16,
         "upcomingGames": 0,
         "recentGames": [
           {
@@ -797,7 +797,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T23:03:04.783Z"
+        "lastUpdated": "2026-08-10T03:28:31.804Z"
       },
       "617998": {
         "teamCode": "617998",
@@ -887,7 +887,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T23:03:04.783Z"
+        "lastUpdated": "2026-08-10T03:28:31.804Z"
       },
       "618013": {
         "teamCode": "618013",
@@ -977,28 +977,28 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T23:03:04.783Z"
+        "lastUpdated": "2026-08-10T03:28:31.804Z"
       },
       "618026": {
         "teamCode": "618026",
         "totalGames": 16,
-        "playedGames": 12,
+        "playedGames": 14,
         "upcomingGames": 0,
         "recentGames": [
           {
             "date": null,
-            "dateText": "Sun, Jun 7",
+            "dateText": "Sun, Jun 14",
             "time": "1:00 PM",
-            "homeTeam": "Orangeville Bengals 9U DS",
-            "homeTeamCode": "618026",
-            "awayTeam": "Innisfil Cardinals 9U DS",
-            "awayTeamCode": "618052",
-            "location": "Springbrook Shack Diamond, 450 Town Line, Orangville",
+            "homeTeam": "Bradford Tigers 9U DS",
+            "homeTeamCode": "617954",
+            "awayTeam": "Orangeville Bengals 9U DS",
+            "awayTeamCode": "618026",
+            "location": "Springbrook Shack Diamond",
             "isCompleted": true,
             "score": {
-              "home": 5,
+              "home": 14,
               "away": 14,
-              "scoreText": "14-5"
+              "scoreText": "14-14"
             }
           },
           {
@@ -1067,7 +1067,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T23:03:04.783Z"
+        "lastUpdated": "2026-08-10T03:28:31.804Z"
       },
       "618052": {
         "teamCode": "618052",
@@ -1157,7 +1157,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T23:03:04.783Z"
+        "lastUpdated": "2026-08-10T03:28:31.804Z"
       },
       "618065": {
         "teamCode": "618065",
@@ -1247,7 +1247,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T23:03:04.783Z"
+        "lastUpdated": "2026-08-10T03:28:31.804Z"
       },
       "618390": {
         "teamCode": "618390",
@@ -1337,7 +1337,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T23:03:04.783Z"
+        "lastUpdated": "2026-08-10T03:28:31.804Z"
       },
       "618393": {
         "teamCode": "618393",
@@ -1427,7 +1427,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T23:03:04.783Z"
+        "lastUpdated": "2026-08-10T03:28:31.804Z"
       },
       "618477": {
         "teamCode": "618477",
@@ -1517,7 +1517,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T23:03:04.783Z"
+        "lastUpdated": "2026-08-10T03:28:31.804Z"
       }
     },
     "allGames": [
@@ -2594,8 +2594,12 @@
         "awayTeam": "Orangeville Bengals 9U DS",
         "awayTeamCode": "618026",
         "location": "Springbrook Shack Diamond",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 14,
+          "scoreText": "14-14"
+        }
       },
       {
         "date": null,
@@ -2606,8 +2610,12 @@
         "awayTeam": "Orangeville Bengals 9U DS",
         "awayTeamCode": "618026",
         "location": "Springbrook Shack Diamond",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 14,
+          "away": 14,
+          "scoreText": "14-14"
+        }
       },
       {
         "date": null,
@@ -3445,14 +3453,14 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-08-09T23:03:04.783Z",
+    "lastUpdated": "2026-08-10T03:28:31.804Z",
     "totalGames": 112
   },
   "summary": {
     "totalTeams": 14,
     "totalGames": 112,
-    "completedGames": 104,
-    "upcomingGames": 8,
+    "completedGames": 106,
+    "upcomingGames": 6,
     "topTeam": {
       "team": "Vaughan Vikings 9U DS",
       "teamCode": "617188",
@@ -3469,6 +3477,6 @@
       "date": "Sun, Jul 26",
       "location": "Kitchener Park"
     },
-    "lastUpdated": "2026-08-09T23:03:25.691Z"
+    "lastUpdated": "2026-08-10T03:28:52.985Z"
   }
 }

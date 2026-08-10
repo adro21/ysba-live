@@ -1,93 +1,12 @@
 {
   "source": "GitHub Actions",
-  "successCount": 38,
-  "errorCount": 3,
-  "errors": [
-    {
-      "division": "18U-rep",
-      "tier": "tier-2",
-      "error": "Standings failed: Standings timeout after 45s"
-    },
-    {
-      "division": "18U-rep",
-      "tier": "tier-3",
-      "error": "Standings failed: Standings timeout after 45s"
-    },
-    {
-      "division": "22U-rep",
-      "tier": "no-tier",
-      "error": "Standings failed: Standings timeout after 45s"
-    },
-    {
-      "division": "22U-rep",
-      "tier": "tier-1",
-      "error": "Skipped due to circuit breaker"
-    },
-    {
-      "division": "22U-rep",
-      "tier": "tier-2",
-      "error": "Skipped due to circuit breaker"
-    },
-    {
-      "division": "22U-rep",
-      "tier": "tier-3",
-      "error": "Skipped due to circuit breaker"
-    },
-    {
-      "division": "senior-rep",
-      "tier": "no-tier",
-      "error": "Skipped due to circuit breaker"
-    },
-    {
-      "division": "senior-rep",
-      "tier": "tier-1",
-      "error": "Skipped due to circuit breaker"
-    },
-    {
-      "division": "senior-rep",
-      "tier": "tier-2",
-      "error": "Skipped due to circuit breaker"
-    },
-    {
-      "division": "senior-rep",
-      "tier": "tier-3",
-      "error": "Skipped due to circuit breaker"
-    },
-    {
-      "division": "9U-select",
-      "tier": "all-tiers",
-      "error": "Skipped due to circuit breaker"
-    },
-    {
-      "division": "11U-select",
-      "tier": "all-tiers",
-      "error": "Skipped due to circuit breaker"
-    },
-    {
-      "division": "13U-select",
-      "tier": "all-tiers",
-      "error": "Skipped due to circuit breaker"
-    },
-    {
-      "division": "15U-select",
-      "tier": "all-tiers",
-      "error": "Skipped due to circuit breaker"
-    },
-    {
-      "division": "10U-interlock",
-      "tier": "all-tiers",
-      "error": "Skipped due to circuit breaker"
-    },
-    {
-      "division": "11U-interlock",
-      "tier": "all-tiers",
-      "error": "Skipped due to circuit breaker"
-    }
-  ],
-  "divisionsScraped": 38,
+  "successCount": 54,
+  "errorCount": 0,
+  "errors": [],
+  "divisionsScraped": 54,
   "totalDivisions": 54,
-  "duration": 387218,
-  "generatedAt": "2026-08-10T01:19:29.434Z",
+  "duration": 348921,
+  "generatedAt": "2026-08-10T03:28:53.063Z",
   "worker": {
     "version": "1.0.0",
     "nodeVersion": "v18.20.8",

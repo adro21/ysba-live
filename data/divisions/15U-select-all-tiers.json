@@ -6,17 +6,17 @@
         "team": "Barrie Baycats 15U DS",
         "teamCode": "612800",
         "record": {
-          "gamesPlayed": 12,
-          "wins": 12,
+          "gamesPlayed": 14,
+          "wins": 14,
           "losses": 0,
           "ties": 0,
           "winPercentage": "1.000"
         },
         "stats": {
-          "points": 24,
-          "runsFor": 187,
-          "runsAgainst": 64,
-          "runDifferential": 123
+          "points": 28,
+          "runsFor": 219,
+          "runsAgainst": 71,
+          "runDifferential": 148
         }
       },
       {
@@ -57,24 +57,6 @@
       },
       {
         "position": 5,
-        "team": "Thornhill Reds 15U DS",
-        "teamCode": "618002",
-        "record": {
-          "gamesPlayed": 12,
-          "wins": 1,
-          "losses": 8,
-          "ties": 3,
-          "winPercentage": "0.208"
-        },
-        "stats": {
-          "points": 5,
-          "runsFor": 68,
-          "runsAgainst": 176,
-          "runDifferential": -108
-        }
-      },
-      {
-        "position": 4,
         "team": "New Lowell Knights 15U DS",
         "teamCode": "618070",
         "record": {
@@ -90,9 +72,27 @@
           "runsAgainst": 175,
           "runDifferential": -63
         }
+      },
+      {
+        "position": 4,
+        "team": "Thornhill Reds 15U DS",
+        "teamCode": "618002",
+        "record": {
+          "gamesPlayed": 14,
+          "wins": 1,
+          "losses": 10,
+          "ties": 3,
+          "winPercentage": "0.179"
+        },
+        "stats": {
+          "points": 5,
+          "runsFor": 75,
+          "runsAgainst": 208,
+          "runDifferential": -133
+        }
       }
     ],
-    "lastUpdated": "2026-08-09T23:03:21.444Z",
+    "lastUpdated": "2026-08-10T03:28:48.670Z",
     "totalTeams": 5
   },
   "schedule": {
@@ -100,41 +100,9 @@
       "612800": {
         "teamCode": "612800",
         "totalGames": 16,
-        "playedGames": 12,
+        "playedGames": 14,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Sat, Jun 13",
-            "time": "2:30 PM",
-            "homeTeam": "Barrie Baycats 15U DS",
-            "homeTeamCode": "612800",
-            "awayTeam": "New Lowell Knights 15U DS",
-            "awayTeamCode": "618070",
-            "location": "Lennox Park",
-            "isCompleted": true,
-            "score": {
-              "home": 13,
-              "away": 10,
-              "scoreText": "10-13"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Sat, Jun 27",
-            "time": "10:00 AM",
-            "homeTeam": "Markham Mariners 15U DS",
-            "homeTeamCode": "617895",
-            "awayTeam": "Barrie Baycats 15U DS",
-            "awayTeamCode": "612800",
-            "location": "Cornell",
-            "isCompleted": true,
-            "score": {
-              "home": 5,
-              "away": 19,
-              "scoreText": "19-5"
-            }
-          },
           {
             "date": null,
             "dateText": "Sat, Jun 27",
@@ -182,10 +150,42 @@
               "away": 5,
               "scoreText": "5-12"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, Aug 8",
+            "time": "12:00 PM",
+            "homeTeam": "Barrie Baycats 15U DS",
+            "homeTeamCode": "612800",
+            "awayTeam": "Thornhill Reds 15U DS",
+            "awayTeamCode": "618002",
+            "location": "Lennox Park",
+            "isCompleted": true,
+            "score": {
+              "home": 20,
+              "away": 3,
+              "scoreText": "3-20"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, Aug 8",
+            "time": "2:30 PM",
+            "homeTeam": "Barrie Baycats 15U DS",
+            "homeTeamCode": "612800",
+            "awayTeam": "Thornhill Reds 15U DS",
+            "awayTeamCode": "618002",
+            "location": "Lennox Park",
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 4,
+              "scoreText": "4-12"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T23:03:24.072Z"
+        "lastUpdated": "2026-08-10T03:28:51.413Z"
       },
       "617895": {
         "teamCode": "617895",
@@ -275,7 +275,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T23:03:24.072Z"
+        "lastUpdated": "2026-08-10T03:28:51.413Z"
       },
       "617919": {
         "teamCode": "617919",
@@ -365,46 +365,14 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T23:03:24.072Z"
+        "lastUpdated": "2026-08-10T03:28:51.414Z"
       },
       "618002": {
         "teamCode": "618002",
         "totalGames": 16,
-        "playedGames": 12,
+        "playedGames": 14,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": null,
-            "dateText": "Wed, Jun 10",
-            "time": "7:00 PM",
-            "homeTeam": "Markham Mariners 15U DS",
-            "homeTeamCode": "617895",
-            "awayTeam": "Thornhill Reds 15U DS",
-            "awayTeamCode": "618002",
-            "location": "Cornell",
-            "isCompleted": true,
-            "score": {
-              "home": 6,
-              "away": 6,
-              "scoreText": "6-6"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Sat, Jun 20",
-            "time": "9:30 AM",
-            "homeTeam": "Thornhill Reds 15U DS",
-            "homeTeamCode": "618002",
-            "awayTeam": "Newmarket Hawks 15U DS",
-            "awayTeamCode": "617919",
-            "location": "Thornhill Park",
-            "isCompleted": true,
-            "score": {
-              "home": 11,
-              "away": 11,
-              "scoreText": "11-11"
-            }
-          },
           {
             "date": null,
             "dateText": "Sat, Jun 20",
@@ -452,10 +420,42 @@
               "away": 18,
               "scoreText": "18-0"
             }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, Aug 8",
+            "time": "12:00 PM",
+            "homeTeam": "Barrie Baycats 15U DS",
+            "homeTeamCode": "612800",
+            "awayTeam": "Thornhill Reds 15U DS",
+            "awayTeamCode": "618002",
+            "location": "Lennox Park",
+            "isCompleted": true,
+            "score": {
+              "home": 20,
+              "away": 3,
+              "scoreText": "3-20"
+            }
+          },
+          {
+            "date": null,
+            "dateText": "Sat, Aug 8",
+            "time": "2:30 PM",
+            "homeTeam": "Barrie Baycats 15U DS",
+            "homeTeamCode": "612800",
+            "awayTeam": "Thornhill Reds 15U DS",
+            "awayTeamCode": "618002",
+            "location": "Lennox Park",
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 4,
+              "scoreText": "4-12"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T23:03:24.072Z"
+        "lastUpdated": "2026-08-10T03:28:51.414Z"
       },
       "618070": {
         "teamCode": "618070",
@@ -545,7 +545,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T23:03:24.072Z"
+        "lastUpdated": "2026-08-10T03:28:51.414Z"
       }
     },
     "allGames": [
@@ -1106,8 +1106,12 @@
         "awayTeam": "Thornhill Reds 15U DS",
         "awayTeamCode": "618002",
         "location": "Lennox Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 20,
+          "away": 3,
+          "scoreText": "3-20"
+        }
       },
       {
         "date": null,
@@ -1118,8 +1122,12 @@
         "awayTeam": "Thornhill Reds 15U DS",
         "awayTeamCode": "618002",
         "location": "Lennox Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 4,
+          "scoreText": "4-12"
+        }
       },
       {
         "date": null,
@@ -1321,18 +1329,18 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-08-09T23:03:24.072Z",
+    "lastUpdated": "2026-08-10T03:28:51.414Z",
     "totalGames": 40
   },
   "summary": {
     "totalTeams": 5,
     "totalGames": 40,
-    "completedGames": 32,
-    "upcomingGames": 8,
+    "completedGames": 34,
+    "upcomingGames": 6,
     "topTeam": {
       "team": "Barrie Baycats 15U DS",
       "teamCode": "612800",
-      "wins": 12,
+      "wins": 14,
       "losses": 0,
       "winPercentage": "1.000"
     },
@@ -1345,6 +1353,6 @@
       "date": "Sat, Aug 1",
       "location": "Bishop Cross Diamond"
     },
-    "lastUpdated": "2026-08-09T23:03:25.691Z"
+    "lastUpdated": "2026-08-10T03:28:52.985Z"
   }
 }

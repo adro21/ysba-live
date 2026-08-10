@@ -24,17 +24,17 @@
         "team": "Stouffville",
         "teamCode": "883730",
         "record": {
-          "gamesPlayed": 16,
-          "wins": 12,
+          "gamesPlayed": 17,
+          "wins": 13,
           "losses": 3,
           "ties": 1,
-          "winPercentage": "0.781"
+          "winPercentage": "0.794"
         },
         "stats": {
-          "points": 25,
-          "runsFor": 131,
-          "runsAgainst": 72,
-          "runDifferential": 59
+          "points": 27,
+          "runsFor": 135,
+          "runsAgainst": 75,
+          "runDifferential": 60
         }
       },
       {
@@ -114,17 +114,17 @@
         "team": "Oshawa",
         "teamCode": "883729",
         "record": {
-          "gamesPlayed": 13,
-          "wins": 6,
+          "gamesPlayed": 14,
+          "wins": 7,
           "losses": 7,
           "ties": 0,
-          "winPercentage": "0.462"
+          "winPercentage": "0.500"
         },
         "stats": {
-          "points": 12,
-          "runsFor": 85,
-          "runsAgainst": 111,
-          "runDifferential": -26
+          "points": 14,
+          "runsFor": 97,
+          "runsAgainst": 116,
+          "runDifferential": -19
         }
       },
       {
@@ -150,35 +150,17 @@
         "team": "Newmarket",
         "teamCode": "883723",
         "record": {
-          "gamesPlayed": 13,
+          "gamesPlayed": 14,
           "wins": 4,
-          "losses": 9,
+          "losses": 10,
           "ties": 0,
-          "winPercentage": "0.308"
+          "winPercentage": "0.286"
         },
         "stats": {
           "points": 8,
-          "runsFor": 76,
-          "runsAgainst": 110,
-          "runDifferential": -34
-        }
-      },
-      {
-        "position": 10,
-        "team": "North Toronto",
-        "teamCode": "883727",
-        "record": {
-          "gamesPlayed": 16,
-          "wins": 4,
-          "losses": 11,
-          "ties": 1,
-          "winPercentage": "0.281"
-        },
-        "stats": {
-          "points": 9,
-          "runsFor": 88,
-          "runsAgainst": 144,
-          "runDifferential": -56
+          "runsFor": 81,
+          "runsAgainst": 122,
+          "runDifferential": -41
         }
       },
       {
@@ -200,6 +182,24 @@
         }
       },
       {
+        "position": 10,
+        "team": "North Toronto",
+        "teamCode": "883727",
+        "record": {
+          "gamesPlayed": 17,
+          "wins": 4,
+          "losses": 12,
+          "ties": 1,
+          "winPercentage": "0.265"
+        },
+        "stats": {
+          "points": 9,
+          "runsFor": 91,
+          "runsAgainst": 148,
+          "runDifferential": -57
+        }
+      },
+      {
         "position": 12,
         "team": "North York",
         "teamCode": "883726",
@@ -218,7 +218,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-08-09T23:03:25.665Z",
+    "lastUpdated": "2026-08-10T03:28:52.964Z",
     "totalTeams": 12
   },
   "schedule": {
@@ -311,7 +311,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T23:03:25.690Z"
+        "lastUpdated": "2026-08-10T03:28:52.984Z"
       },
       "883723": {
         "teamCode": "883723",
@@ -388,12 +388,16 @@
             "awayTeam": "Newmarket",
             "awayTeamCode": "883723",
             "location": "Armstrong — Diamond 1 — Newmarket",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 5,
+              "scoreText": "5-12"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T23:03:25.690Z"
+        "lastUpdated": "2026-08-10T03:28:52.984Z"
       },
       "883724": {
         "teamCode": "883724",
@@ -483,7 +487,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T23:03:25.690Z"
+        "lastUpdated": "2026-08-10T03:28:52.984Z"
       },
       "883725": {
         "teamCode": "883725",
@@ -586,7 +590,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-09T23:03:25.690Z"
+        "lastUpdated": "2026-08-10T03:28:52.984Z"
       },
       "883726": {
         "teamCode": "883726",
@@ -676,7 +680,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T23:03:25.690Z"
+        "lastUpdated": "2026-08-10T03:28:52.984Z"
       },
       "883727": {
         "teamCode": "883727",
@@ -684,22 +688,6 @@
         "playedGames": 18,
         "upcomingGames": 0,
         "recentGames": [
-          {
-            "date": "2026-07-30T22:00:00.000Z",
-            "dateText": "Thu, Jul 30",
-            "time": "6:00 PM",
-            "homeTeam": "Leaside",
-            "homeTeamCode": "883722",
-            "awayTeam": "North Toronto",
-            "awayTeamCode": "883727",
-            "location": "Memorial — Diamond Red — Toronto",
-            "isCompleted": true,
-            "score": {
-              "home": 17,
-              "away": 8,
-              "scoreText": "8-17"
-            }
-          },
           {
             "date": "2026-07-31T23:00:00.000Z",
             "dateText": "Fri, Jul 31",
@@ -763,10 +751,26 @@
               "away": 6,
               "scoreText": "6-9"
             }
+          },
+          {
+            "date": "2026-08-09T22:00:00.000Z",
+            "dateText": "Sun, Aug 9",
+            "time": "6:00 PM",
+            "homeTeam": "Stouffville",
+            "homeTeamCode": "883730",
+            "awayTeam": "North Toronto",
+            "awayTeamCode": "883727",
+            "location": "Memorial — Diamond Red — Toronto",
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 3,
+              "scoreText": "3-4"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T23:03:25.691Z"
+        "lastUpdated": "2026-08-10T03:28:52.984Z"
       },
       "883728": {
         "teamCode": "883728",
@@ -852,7 +856,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T23:03:25.691Z"
+        "lastUpdated": "2026-08-10T03:28:52.985Z"
       },
       "883729": {
         "teamCode": "883729",
@@ -933,12 +937,16 @@
             "awayTeam": "Newmarket",
             "awayTeamCode": "883723",
             "location": "Armstrong — Diamond 1 — Newmarket",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 5,
+              "scoreText": "5-12"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T23:03:25.691Z"
+        "lastUpdated": "2026-08-10T03:28:52.985Z"
       },
       "883730": {
         "teamCode": "883730",
@@ -946,22 +954,6 @@
         "playedGames": 17,
         "upcomingGames": 1,
         "recentGames": [
-          {
-            "date": "2026-07-06T22:00:00.000Z",
-            "dateText": "Mon, Jul 6",
-            "time": "6:00 PM",
-            "homeTeam": "Caledon",
-            "homeTeamCode": "883733",
-            "awayTeam": "Stouffville",
-            "awayTeamCode": "883730",
-            "location": "Stouffville Memorial — Diamond 2 — Whitchurch-Stouffville",
-            "isCompleted": true,
-            "score": {
-              "home": 3,
-              "away": 7,
-              "scoreText": "7-3"
-            }
-          },
           {
             "date": "2026-07-13T22:00:00.000Z",
             "dateText": "Mon, Jul 13",
@@ -1025,6 +1017,22 @@
               "away": 13,
               "scoreText": "13-3"
             }
+          },
+          {
+            "date": "2026-08-09T22:00:00.000Z",
+            "dateText": "Sun, Aug 9",
+            "time": "6:00 PM",
+            "homeTeam": "Stouffville",
+            "homeTeamCode": "883730",
+            "awayTeam": "North Toronto",
+            "awayTeamCode": "883727",
+            "location": "Memorial — Diamond Red — Toronto",
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 3,
+              "scoreText": "3-4"
+            }
           }
         ],
         "nextGames": [
@@ -1041,7 +1049,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-09T23:03:25.691Z"
+        "lastUpdated": "2026-08-10T03:28:52.985Z"
       },
       "883731": {
         "teamCode": "883731",
@@ -1127,7 +1135,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T23:03:25.691Z"
+        "lastUpdated": "2026-08-10T03:28:52.985Z"
       },
       "883732": {
         "teamCode": "883732",
@@ -1238,7 +1246,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-09T23:03:25.691Z"
+        "lastUpdated": "2026-08-10T03:28:52.985Z"
       },
       "883733": {
         "teamCode": "883733",
@@ -1324,7 +1332,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-09T23:03:25.691Z"
+        "lastUpdated": "2026-08-10T03:28:52.985Z"
       }
     },
     "allGames": [
@@ -2029,16 +2037,20 @@
         }
       },
       {
-        "date": "2026-06-10T22:00:00.000Z",
-        "dateText": "Wed, Jun 10",
+        "date": "2026-08-09T22:00:00.000Z",
+        "dateText": "Sun, Aug 9",
         "time": "6:00 PM",
         "homeTeam": "Stouffville",
         "homeTeamCode": "883730",
         "awayTeam": "North Toronto",
         "awayTeamCode": "883727",
         "location": "Memorial — Diamond Red — Toronto",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 3,
+          "scoreText": "3-4"
+        }
       },
       {
         "date": "2026-06-11T22:00:00.000Z",
@@ -2949,8 +2961,12 @@
         "awayTeam": "Newmarket",
         "awayTeamCode": "883723",
         "location": "Armstrong — Diamond 1 — Newmarket",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 5,
+          "scoreText": "5-12"
+        }
       },
       {
         "date": "2026-08-11T23:30:00.000Z",
@@ -2982,13 +2998,33 @@
         "date": "2026-08-09T22:00:00.000Z",
         "dateText": "Sun, Aug 9",
         "time": "6:00 PM",
+        "homeTeam": "Stouffville",
+        "homeTeamCode": "883730",
+        "awayTeam": "North Toronto",
+        "awayTeamCode": "883727",
+        "location": "Memorial — Diamond Red — Toronto",
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 3,
+          "scoreText": "3-4"
+        }
+      },
+      {
+        "date": "2026-08-09T22:00:00.000Z",
+        "dateText": "Sun, Aug 9",
+        "time": "6:00 PM",
         "homeTeam": "Oshawa",
         "homeTeamCode": "883729",
         "awayTeam": "Newmarket",
         "awayTeamCode": "883723",
         "location": "Armstrong — Diamond 1 — Newmarket",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 5,
+          "scoreText": "5-12"
+        }
       },
       {
         "date": "2026-08-09T13:30:00.000Z",
@@ -3117,22 +3153,6 @@
           "away": 9,
           "scoreText": "9-0"
         }
-      },
-      {
-        "date": "2026-08-04T22:30:00.000Z",
-        "dateText": "Tue, Aug 4",
-        "time": "6:30 PM",
-        "homeTeam": "Etobicoke",
-        "homeTeamCode": "883728",
-        "awayTeam": "Leaside",
-        "awayTeamCode": "883722",
-        "location": "Irving Paisley — Toronto",
-        "isCompleted": true,
-        "score": {
-          "home": 6,
-          "away": 5,
-          "scoreText": "5-6"
-        }
       }
     ],
     "upcomingGames": [
@@ -3161,14 +3181,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2026-08-09T23:03:25.691Z",
+    "lastUpdated": "2026-08-10T03:28:52.985Z",
     "totalGames": 106
   },
   "summary": {
     "totalTeams": 12,
     "totalGames": 106,
-    "completedGames": 94,
-    "upcomingGames": 12,
+    "completedGames": 96,
+    "upcomingGames": 10,
     "topTeam": {
       "team": "Etobicoke",
       "teamCode": "883728",
@@ -3185,6 +3205,6 @@
       "date": "Sun, May 31",
       "location": "North Hill — Diamond 3 — Bolton"
     },
-    "lastUpdated": "2026-08-09T23:03:25.691Z"
+    "lastUpdated": "2026-08-10T03:28:52.985Z"
   }
 }
