@@ -2,6 +2,24 @@
   "standings": {
     "teams": [
       {
+        "position": 1,
+        "team": "Orangeville Bengals 12U AA",
+        "teamCode": "618022",
+        "record": {
+          "gamesPlayed": 15,
+          "wins": 10,
+          "losses": 5,
+          "ties": 0,
+          "winPercentage": "0.667"
+        },
+        "stats": {
+          "points": 20,
+          "runsFor": 151,
+          "runsAgainst": 101,
+          "runDifferential": 50
+        }
+      },
+      {
         "position": 2,
         "team": "Bradford Tigers 12U AA",
         "teamCode": "617946",
@@ -20,21 +38,21 @@
         }
       },
       {
-        "position": 1,
-        "team": "Orangeville Bengals 12U AA",
-        "teamCode": "618022",
+        "position": 3,
+        "team": "Richmond Hill Phoenix 12U AA",
+        "teamCode": "617852",
         "record": {
           "gamesPlayed": 15,
-          "wins": 10,
-          "losses": 5,
-          "ties": 0,
-          "winPercentage": "0.667"
+          "wins": 7,
+          "losses": 6,
+          "ties": 2,
+          "winPercentage": "0.533"
         },
         "stats": {
-          "points": 20,
-          "runsFor": 151,
-          "runsAgainst": 101,
-          "runDifferential": 50
+          "points": 16,
+          "runsFor": 138,
+          "runsAgainst": 157,
+          "runDifferential": -19
         }
       },
       {
@@ -71,24 +89,6 @@
           "runsFor": 114,
           "runsAgainst": 90,
           "runDifferential": 24
-        }
-      },
-      {
-        "position": 3,
-        "team": "Richmond Hill Phoenix 12U AA",
-        "teamCode": "617852",
-        "record": {
-          "gamesPlayed": 15,
-          "wins": 7,
-          "losses": 6,
-          "ties": 2,
-          "winPercentage": "0.533"
-        },
-        "stats": {
-          "points": 16,
-          "runsFor": 138,
-          "runsAgainst": 157,
-          "runDifferential": -19
         }
       },
       {
@@ -164,7 +164,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-08-11T11:14:11.195Z",
+    "lastUpdated": "2026-08-11T13:12:24.120Z",
     "totalTeams": 9
   },
   "schedule": {
@@ -172,59 +172,11 @@
       "612783": {
         "teamCode": "612783",
         "totalGames": 16,
-        "playedGames": 13,
+        "playedGames": 16,
         "upcomingGames": 0,
         "recentGames": [
           {
-            "date": null,
-            "dateText": "Sat, Jun 20",
-            "time": "11:00 AM",
-            "homeTeam": "Muskoka Hornets 12U AA",
-            "homeTeamCode": "628934",
-            "awayTeam": "Barrie Baycats 12U AA",
-            "awayTeamCode": "612783",
-            "location": "Peake Fields Ballpark",
-            "isCompleted": true,
-            "score": {
-              "home": 9,
-              "away": 3,
-              "scoreText": "3-9"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Tue, Jun 23",
-            "time": "7:00 PM",
-            "homeTeam": "Orangeville Bengals 12U AA",
-            "homeTeamCode": "618022",
-            "awayTeam": "Barrie Baycats 12U AA",
-            "awayTeamCode": "612783",
-            "location": "Idlewyld Park",
-            "isCompleted": true,
-            "score": {
-              "home": 5,
-              "away": 8,
-              "scoreText": "8-5"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Wed, Jun 24",
-            "time": "6:00 PM",
-            "homeTeam": "Bradford Tigers 12U AA",
-            "homeTeamCode": "617946",
-            "awayTeam": "Barrie Baycats 12U AA",
-            "awayTeamCode": "612783",
-            "location": "Joe Magani Park Field # 2",
-            "isCompleted": true,
-            "score": {
-              "home": 12,
-              "away": 5,
-              "scoreText": "5-12"
-            }
-          },
-          {
-            "date": null,
+            "date": "2026-06-30T22:30:00.000Z",
             "dateText": "Tue, Jun 30",
             "time": "6:30 PM",
             "homeTeam": "Barrie Baycats 12U AA",
@@ -240,7 +192,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-14T22:30:00.000Z",
             "dateText": "Tue, Jul 14",
             "time": "6:30 PM",
             "homeTeam": "Barrie Baycats 12U AA",
@@ -254,35 +206,55 @@
               "away": 1,
               "scoreText": "1-11"
             }
+          },
+          {
+            "date": "2026-07-21T22:30:00.000Z",
+            "dateText": "Tue, Jul 21",
+            "time": "6:30 PM",
+            "homeTeam": "Barrie Baycats 12U AA",
+            "homeTeamCode": "612783",
+            "awayTeam": "Markham Mariners 12U AA",
+            "awayTeamCode": "617879",
+            "location": "Lampman Lane Community Centre",
+            "isCompleted": false,
+            "score": null
+          },
+          {
+            "date": "2026-07-28T22:30:00.000Z",
+            "dateText": "Tue, Jul 28",
+            "time": "6:30 PM",
+            "homeTeam": "Barrie Baycats 12U AA",
+            "homeTeamCode": "612783",
+            "awayTeam": "Bradford Tigers 12U AA",
+            "awayTeamCode": "617946",
+            "location": "Lampman Lane Community Centre",
+            "isCompleted": false,
+            "score": null
+          },
+          {
+            "date": "2026-08-09T22:30:00.000Z",
+            "dateText": "Sun, Aug 9",
+            "time": "6:30 PM",
+            "homeTeam": "Aurora-King Jays 12U AA",
+            "homeTeamCode": "617973",
+            "awayTeam": "Barrie Baycats 12U AA",
+            "awayTeamCode": "612783",
+            "location": "Hallmark Park Diamond # 1",
+            "isCompleted": false,
+            "score": null
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-11T11:14:15.458Z"
+        "lastUpdated": "2026-08-11T13:12:27.749Z"
       },
       "612784": {
         "teamCode": "612784",
-        "totalGames": 15,
-        "playedGames": 14,
-        "upcomingGames": 0,
+        "totalGames": 16,
+        "playedGames": 15,
+        "upcomingGames": 1,
         "recentGames": [
           {
-            "date": null,
-            "dateText": "Mon, Jul 27",
-            "time": "6:30 PM",
-            "homeTeam": "Barrie Baycats 12U A",
-            "homeTeamCode": "612784",
-            "awayTeam": "Midland Penetang Twins 12U B",
-            "awayTeamCode": "618395",
-            "location": "Lampman Lane",
-            "isCompleted": true,
-            "score": {
-              "home": 4,
-              "away": 8,
-              "scoreText": "8-4"
-            }
-          },
-          {
-            "date": null,
+            "date": "2026-08-03T22:30:00.000Z",
             "dateText": "Mon, Aug 3",
             "time": "6:30 PM",
             "homeTeam": "Barrie Baycats 12U A",
@@ -298,7 +270,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-08-04T17:00:00.000Z",
             "dateText": "Tue, Aug 4",
             "time": "1:00 PM",
             "homeTeam": "Orillia 12U B",
@@ -314,7 +286,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-08-09T14:00:00.000Z",
             "dateText": "Sun, Aug 9",
             "time": "10:00 AM",
             "homeTeam": "Innisfil Cardinals 12U A",
@@ -330,7 +302,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-08-09T16:30:00.000Z",
             "dateText": "Sun, Aug 9",
             "time": "12:30 PM",
             "homeTeam": "Innisfil Cardinals 12U A",
@@ -344,35 +316,44 @@
               "away": 24,
               "scoreText": "24-6"
             }
+          },
+          {
+            "date": "2026-08-10T22:30:00.000Z",
+            "dateText": "Mon, Aug 10",
+            "time": "6:30 PM",
+            "homeTeam": "Barrie Baycats 12U A",
+            "homeTeamCode": "612784",
+            "awayTeam": "Innisfil Cardinals 12U A",
+            "awayTeamCode": "618044",
+            "location": "Lampman Lane",
+            "isCompleted": false,
+            "score": null
           }
         ],
-        "nextGames": [],
-        "lastUpdated": "2026-08-11T11:14:15.458Z"
+        "nextGames": [
+          {
+            "date": "2026-08-13T22:00:00.000Z",
+            "dateText": "Thu, Aug 13",
+            "time": "6:00 PM",
+            "homeTeam": "TNT Thunder 12U A",
+            "homeTeamCode": "618059",
+            "awayTeam": "Barrie Baycats 12U A",
+            "awayTeamCode": "612784",
+            "location": "Coventry Park",
+            "isCompleted": false,
+            "score": null
+          }
+        ],
+        "lastUpdated": "2026-08-11T13:12:27.749Z"
       },
       "617177": {
         "teamCode": "617177",
-        "totalGames": 15,
-        "playedGames": 13,
-        "upcomingGames": 0,
+        "totalGames": 16,
+        "playedGames": 15,
+        "upcomingGames": 1,
         "recentGames": [
           {
-            "date": null,
-            "dateText": "Sun, Jul 19",
-            "time": "6:30 PM",
-            "homeTeam": "Aurora-King Jays 12U AA",
-            "homeTeamCode": "617973",
-            "awayTeam": "Vaughan Vikings 12U AA",
-            "awayTeamCode": "617177",
-            "location": "Hallmark Park Diamond # 1",
-            "isCompleted": true,
-            "score": {
-              "home": 9,
-              "away": 9,
-              "scoreText": "9-9"
-            }
-          },
-          {
-            "date": null,
+            "date": "2026-07-25T15:00:00.000Z",
             "dateText": "Sat, Jul 25",
             "time": "11:00 AM",
             "homeTeam": "Muskoka Hornets 12U AA",
@@ -388,7 +369,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-25T18:00:00.000Z",
             "dateText": "Sat, Jul 25",
             "time": "2:00 PM",
             "homeTeam": "Muskoka Hornets 12U AA",
@@ -404,7 +385,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-28T22:00:00.000Z",
             "dateText": "Tue, Jul 28",
             "time": "6:00 PM",
             "homeTeam": "Newmarket Hawks 12U AA",
@@ -420,7 +401,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-29T22:00:00.000Z",
             "dateText": "Wed, Jul 29",
             "time": "6:00 PM",
             "homeTeam": "Bradford Tigers 12U AA",
@@ -434,19 +415,44 @@
               "away": 6,
               "scoreText": "6-13"
             }
+          },
+          {
+            "date": "2026-08-07T00:30:00.000Z",
+            "dateText": "Thu, Aug 6",
+            "time": "8:30 PM",
+            "homeTeam": "Vaughan Vikings 12U AA",
+            "homeTeamCode": "617177",
+            "awayTeam": "Bradford Tigers 12U AA",
+            "awayTeamCode": "617946",
+            "location": "Concord Regional Diamond # 4",
+            "isCompleted": false,
+            "score": null
           }
         ],
-        "nextGames": [],
-        "lastUpdated": "2026-08-11T11:14:15.458Z"
+        "nextGames": [
+          {
+            "date": "2026-08-13T22:30:00.000Z",
+            "dateText": "Thu, Aug 13",
+            "time": "6:30 PM",
+            "homeTeam": "Markham Mariners 12U AA",
+            "homeTeamCode": "617879",
+            "awayTeam": "Vaughan Vikings 12U AA",
+            "awayTeamCode": "617177",
+            "location": "Millikan Mills Comm Centre Field # 5",
+            "isCompleted": false,
+            "score": null
+          }
+        ],
+        "lastUpdated": "2026-08-11T13:12:27.749Z"
       },
       "617178": {
         "teamCode": "617178",
-        "totalGames": 15,
+        "totalGames": 16,
         "playedGames": 14,
-        "upcomingGames": 0,
+        "upcomingGames": 2,
         "recentGames": [
           {
-            "date": null,
+            "date": "2026-07-05T14:00:00.000Z",
             "dateText": "Sun, Jul 5",
             "time": "10:00 AM",
             "homeTeam": "Stouffville 12U A",
@@ -462,7 +468,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-07T22:00:00.000Z",
             "dateText": "Tue, Jul 7",
             "time": "6:00 PM",
             "homeTeam": "Vaughan Vikings 12U A",
@@ -478,7 +484,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-28T22:00:00.000Z",
             "dateText": "Tue, Jul 28",
             "time": "6:00 PM",
             "homeTeam": "Thornhill Reds 12U A Team 2",
@@ -494,7 +500,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-30T00:30:00.000Z",
             "dateText": "Wed, Jul 29",
             "time": "8:30 PM",
             "homeTeam": "Vaughan Vikings 12U A",
@@ -510,7 +516,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-08-04T22:30:00.000Z",
             "dateText": "Tue, Aug 4",
             "time": "6:30 PM",
             "homeTeam": "Aurora-King Jays 12U A",
@@ -526,33 +532,42 @@
             }
           }
         ],
-        "nextGames": [],
-        "lastUpdated": "2026-08-11T11:14:15.458Z"
+        "nextGames": [
+          {
+            "date": "2026-08-11T22:00:00.000Z",
+            "dateText": "Tue, Aug 11",
+            "time": "6:00 PM",
+            "homeTeam": "Vaughan Vikings 12U A",
+            "homeTeamCode": "617178",
+            "awayTeam": "Caledon Nationals 12U A",
+            "awayTeamCode": "618468",
+            "location": "Chatfield District",
+            "isCompleted": false,
+            "score": null
+          },
+          {
+            "date": "2026-08-12T22:30:00.000Z",
+            "dateText": "Wed, Aug 12",
+            "time": "6:30 PM",
+            "homeTeam": "Caledon Nationals 12U A",
+            "homeTeamCode": "618468",
+            "awayTeam": "Vaughan Vikings 12U A",
+            "awayTeamCode": "617178",
+            "location": "North Hill #1",
+            "isCompleted": false,
+            "score": null
+          }
+        ],
+        "lastUpdated": "2026-08-11T13:12:27.749Z"
       },
       "617204": {
         "teamCode": "617204",
-        "totalGames": 15,
-        "playedGames": 14,
-        "upcomingGames": 0,
+        "totalGames": 16,
+        "playedGames": 15,
+        "upcomingGames": 1,
         "recentGames": [
           {
-            "date": null,
-            "dateText": "Tue, Jul 14",
-            "time": "6:30 PM",
-            "homeTeam": "Aurora-King Jays 12U A",
-            "homeTeamCode": "617974",
-            "awayTeam": "Stouffville 12U A",
-            "awayTeamCode": "617204",
-            "location": "Hallmark Park",
-            "isCompleted": true,
-            "score": {
-              "home": 10,
-              "away": 7,
-              "scoreText": "7-10"
-            }
-          },
-          {
-            "date": null,
+            "date": "2026-07-19T14:00:00.000Z",
             "dateText": "Sun, Jul 19",
             "time": "10:00 AM",
             "homeTeam": "Stouffville 12U A",
@@ -568,7 +583,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-08-03T22:00:00.000Z",
             "dateText": "Mon, Aug 3",
             "time": "6:00 PM",
             "homeTeam": "Newmarket Hawks 12U A",
@@ -584,7 +599,19 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-08-09T14:00:00.000Z",
+            "dateText": "Sun, Aug 9",
+            "time": "10:00 AM",
+            "homeTeam": "Stouffville 12U A",
+            "homeTeamCode": "617204",
+            "awayTeam": "Thornhill Reds 12U A Team 2",
+            "awayTeamCode": "617988",
+            "location": "Memorial Park",
+            "isCompleted": false,
+            "score": null
+          },
+          {
+            "date": "2026-08-09T16:30:00.000Z",
             "dateText": "Sun, Aug 9",
             "time": "12:30 PM",
             "homeTeam": "Thornhill Reds 12U A Team 1",
@@ -600,7 +627,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-08-09T22:00:00.000Z",
             "dateText": "Sun, Aug 9",
             "time": "6:00 PM",
             "homeTeam": "Stouffville 12U A",
@@ -616,33 +643,30 @@
             }
           }
         ],
-        "nextGames": [],
-        "lastUpdated": "2026-08-11T11:14:15.458Z"
+        "nextGames": [
+          {
+            "date": "2026-08-12T22:15:00.000Z",
+            "dateText": "Wed, Aug 12",
+            "time": "6:15 PM",
+            "homeTeam": "Georgina Bulldogs 12U B",
+            "homeTeamCode": "625727",
+            "awayTeam": "Stouffville 12U A",
+            "awayTeamCode": "617204",
+            "location": "ROC 2",
+            "isCompleted": false,
+            "score": null
+          }
+        ],
+        "lastUpdated": "2026-08-11T13:12:27.749Z"
       },
       "617852": {
         "teamCode": "617852",
         "totalGames": 16,
-        "playedGames": 15,
+        "playedGames": 16,
         "upcomingGames": 0,
         "recentGames": [
           {
-            "date": null,
-            "dateText": "Mon, Jun 29",
-            "time": "7:00 PM",
-            "homeTeam": "Richmond Hill Phoenix 12U AA",
-            "homeTeamCode": "617852",
-            "awayTeam": "Orangeville Bengals 12U AA",
-            "awayTeamCode": "618022",
-            "location": "David Hamilton Park",
-            "isCompleted": true,
-            "score": {
-              "home": 1,
-              "away": 16,
-              "scoreText": "16-1"
-            }
-          },
-          {
-            "date": null,
+            "date": "2026-07-02T22:30:00.000Z",
             "dateText": "Thu, Jul 2",
             "time": "6:30 PM",
             "homeTeam": "Markham Mariners 12U AA",
@@ -658,7 +682,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-06T23:00:00.000Z",
             "dateText": "Mon, Jul 6",
             "time": "7:00 PM",
             "homeTeam": "Richmond Hill Phoenix 12U AA",
@@ -674,7 +698,19 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-17T00:30:00.000Z",
+            "dateText": "Thu, Jul 16",
+            "time": "8:30 PM",
+            "homeTeam": "Vaughan Vikings 12U AA",
+            "homeTeamCode": "617177",
+            "awayTeam": "Richmond Hill Phoenix 12U AA",
+            "awayTeamCode": "617852",
+            "location": "Concord Regional Diamond # 4",
+            "isCompleted": false,
+            "score": null
+          },
+          {
+            "date": "2026-07-27T23:00:00.000Z",
             "dateText": "Mon, Jul 27",
             "time": "7:00 PM",
             "homeTeam": "Richmond Hill Phoenix 12U AA",
@@ -690,7 +726,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-08-04T23:00:00.000Z",
             "dateText": "Tue, Aug 4",
             "time": "7:00 PM",
             "homeTeam": "Orangeville Bengals 12U AA",
@@ -707,32 +743,16 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-11T11:14:15.458Z"
+        "lastUpdated": "2026-08-11T13:12:27.749Z"
       },
       "617879": {
         "teamCode": "617879",
-        "totalGames": 15,
-        "playedGames": 14,
-        "upcomingGames": 0,
+        "totalGames": 16,
+        "playedGames": 15,
+        "upcomingGames": 1,
         "recentGames": [
           {
-            "date": null,
-            "dateText": "Wed, Jul 1",
-            "time": "6:00 PM",
-            "homeTeam": "Bradford Tigers 12U AA",
-            "homeTeamCode": "617946",
-            "awayTeam": "Markham Mariners 12U AA",
-            "awayTeamCode": "617879",
-            "location": "Joe Magani Park Field # 2",
-            "isCompleted": true,
-            "score": {
-              "home": 12,
-              "away": 5,
-              "scoreText": "5-12"
-            }
-          },
-          {
-            "date": null,
+            "date": "2026-07-02T22:30:00.000Z",
             "dateText": "Thu, Jul 2",
             "time": "6:30 PM",
             "homeTeam": "Markham Mariners 12U AA",
@@ -748,7 +768,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-18T15:00:00.000Z",
             "dateText": "Sat, Jul 18",
             "time": "11:00 AM",
             "homeTeam": "Muskoka Hornets 12U AA",
@@ -764,7 +784,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-18T18:00:00.000Z",
             "dateText": "Sat, Jul 18",
             "time": "2:00 PM",
             "homeTeam": "Muskoka Hornets 12U AA",
@@ -780,7 +800,19 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-21T22:30:00.000Z",
+            "dateText": "Tue, Jul 21",
+            "time": "6:30 PM",
+            "homeTeam": "Barrie Baycats 12U AA",
+            "homeTeamCode": "612783",
+            "awayTeam": "Markham Mariners 12U AA",
+            "awayTeamCode": "617879",
+            "location": "Lampman Lane Community Centre",
+            "isCompleted": false,
+            "score": null
+          },
+          {
+            "date": "2026-07-23T22:30:00.000Z",
             "dateText": "Thu, Jul 23",
             "time": "6:30 PM",
             "homeTeam": "Markham Mariners 12U AA",
@@ -796,17 +828,30 @@
             }
           }
         ],
-        "nextGames": [],
-        "lastUpdated": "2026-08-11T11:14:15.458Z"
+        "nextGames": [
+          {
+            "date": "2026-08-13T22:30:00.000Z",
+            "dateText": "Thu, Aug 13",
+            "time": "6:30 PM",
+            "homeTeam": "Markham Mariners 12U AA",
+            "homeTeamCode": "617879",
+            "awayTeam": "Vaughan Vikings 12U AA",
+            "awayTeamCode": "617177",
+            "location": "Millikan Mills Comm Centre Field # 5",
+            "isCompleted": false,
+            "score": null
+          }
+        ],
+        "lastUpdated": "2026-08-11T13:12:27.749Z"
       },
       "617880": {
         "teamCode": "617880",
-        "totalGames": 15,
+        "totalGames": 16,
         "playedGames": 15,
-        "upcomingGames": 0,
+        "upcomingGames": 1,
         "recentGames": [
           {
-            "date": null,
+            "date": "2026-07-19T20:00:00.000Z",
             "dateText": "Sun, Jul 19",
             "time": "4:00 PM",
             "homeTeam": "Markham Mariners 12U A",
@@ -822,7 +867,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-22T22:15:00.000Z",
             "dateText": "Wed, Jul 22",
             "time": "6:15 PM",
             "homeTeam": "Georgina Bulldogs 12U B",
@@ -838,7 +883,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-28T22:30:00.000Z",
             "dateText": "Tue, Jul 28",
             "time": "6:30 PM",
             "homeTeam": "Aurora-King Jays 12U A",
@@ -854,7 +899,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-08-04T22:30:00.000Z",
             "dateText": "Tue, Aug 4",
             "time": "6:30 PM",
             "homeTeam": "Thornhill Reds 12U A Team 1",
@@ -870,7 +915,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-08-06T22:30:00.000Z",
             "dateText": "Thu, Aug 6",
             "time": "6:30 PM",
             "homeTeam": "Markham Mariners 12U A",
@@ -886,49 +931,42 @@
             }
           }
         ],
-        "nextGames": [],
-        "lastUpdated": "2026-08-11T11:14:15.458Z"
+        "nextGames": [
+          {
+            "date": "2026-08-13T22:30:00.000Z",
+            "dateText": "Thu, Aug 13",
+            "time": "6:30 PM",
+            "homeTeam": "Markham Mariners 12U A",
+            "homeTeamCode": "617880",
+            "awayTeam": "Thornhill Reds 12U A Team 2",
+            "awayTeamCode": "617988",
+            "location": "Berczy Park South",
+            "isCompleted": false,
+            "score": null
+          }
+        ],
+        "lastUpdated": "2026-08-11T13:12:27.749Z"
       },
       "617906": {
         "teamCode": "617906",
-        "totalGames": 15,
-        "playedGames": 13,
-        "upcomingGames": 0,
+        "totalGames": 16,
+        "playedGames": 15,
+        "upcomingGames": 1,
         "recentGames": [
           {
-            "date": null,
-            "dateText": "Mon, Jun 22",
+            "date": "2026-07-21T22:00:00.000Z",
+            "dateText": "Tue, Jul 21",
             "time": "6:00 PM",
-            "homeTeam": "Newmarket Hawks 12U A",
-            "homeTeamCode": "617906",
-            "awayTeam": "Caledon Nationals 12U A",
-            "awayTeamCode": "618468",
-            "location": "Fairgrounds #1",
-            "isCompleted": true,
-            "score": {
-              "home": 8,
-              "away": 6,
-              "scoreText": "6-8"
-            }
+            "homeTeam": "Thornhill Reds 12U A Team 2",
+            "homeTeamCode": "617988",
+            "awayTeam": "Newmarket Hawks 12U A",
+            "awayTeamCode": "617906",
+            "location": "PPD",
+            "isCompleted": false,
+            "score": null
           },
           {
-            "date": null,
-            "dateText": "Mon, Jul 20",
-            "time": "6:00 PM",
-            "homeTeam": "Newmarket Hawks 12U A",
-            "homeTeamCode": "617906",
-            "awayTeam": "Georgina Bulldogs 12U B",
-            "awayTeamCode": "625727",
-            "location": "Fairgrounds #1",
-            "isCompleted": true,
-            "score": {
-              "home": 11,
-              "away": 1,
-              "scoreText": "1-11"
-            }
-          },
-          {
-            "date": null,
+            "date": "2026-07-28T22:30:00.000Z",
             "dateText": "Tue, Jul 28",
             "time": "6:30 PM",
             "homeTeam": "Thornhill Reds 12U A Team 1",
@@ -944,7 +982,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-08-03T22:00:00.000Z",
             "dateText": "Mon, Aug 3",
             "time": "6:00 PM",
             "homeTeam": "Newmarket Hawks 12U A",
@@ -960,7 +998,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-08-09T22:00:00.000Z",
             "dateText": "Sun, Aug 9",
             "time": "6:00 PM",
             "homeTeam": "Stouffville 12U A",
@@ -974,10 +1012,39 @@
               "away": 17,
               "scoreText": "17-0"
             }
+          },
+          {
+            "date": "2026-08-10T22:00:00.000Z",
+            "dateText": "Mon, Aug 10",
+            "time": "6:00 PM",
+            "homeTeam": "Newmarket Hawks 12U A",
+            "homeTeamCode": "617906",
+            "awayTeam": "Thornhill Reds 12U A Team 1",
+            "awayTeamCode": "617987",
+            "location": "Fairgrounds #1",
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 13,
+              "scoreText": "13-6"
+            }
           }
         ],
-        "nextGames": [],
-        "lastUpdated": "2026-08-11T11:14:15.458Z"
+        "nextGames": [
+          {
+            "date": "2026-08-11T22:15:00.000Z",
+            "dateText": "Tue, Aug 11",
+            "time": "6:15 PM",
+            "homeTeam": "Georgina Bulldogs 12U B",
+            "homeTeamCode": "625727",
+            "awayTeam": "Newmarket Hawks 12U A",
+            "awayTeamCode": "617906",
+            "location": "ROC 2",
+            "isCompleted": false,
+            "score": null
+          }
+        ],
+        "lastUpdated": "2026-08-11T13:12:27.749Z"
       },
       "617907": {
         "teamCode": "617907",
@@ -986,7 +1053,7 @@
         "upcomingGames": 0,
         "recentGames": [
           {
-            "date": null,
+            "date": "2026-07-21T23:00:00.000Z",
             "dateText": "Tue, Jul 21",
             "time": "7:00 PM",
             "homeTeam": "Orangeville Bengals 12U AA",
@@ -1002,7 +1069,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-27T23:00:00.000Z",
             "dateText": "Mon, Jul 27",
             "time": "7:00 PM",
             "homeTeam": "Richmond Hill Phoenix 12U AA",
@@ -1018,7 +1085,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-28T22:00:00.000Z",
             "dateText": "Tue, Jul 28",
             "time": "6:00 PM",
             "homeTeam": "Newmarket Hawks 12U AA",
@@ -1034,7 +1101,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-08-04T22:00:00.000Z",
             "dateText": "Tue, Aug 4",
             "time": "6:00 PM",
             "homeTeam": "Newmarket Hawks 12U AA",
@@ -1050,7 +1117,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-08-06T22:30:00.000Z",
             "dateText": "Thu, Aug 6",
             "time": "6:30 PM",
             "homeTeam": "Aurora-King Jays 12U AA",
@@ -1067,48 +1134,28 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-11T11:14:15.458Z"
+        "lastUpdated": "2026-08-11T13:12:27.749Z"
       },
       "617946": {
         "teamCode": "617946",
         "totalGames": 16,
-        "playedGames": 14,
+        "playedGames": 16,
         "upcomingGames": 0,
         "recentGames": [
           {
-            "date": null,
-            "dateText": "Sun, Jul 5",
+            "date": "2026-07-28T22:30:00.000Z",
+            "dateText": "Tue, Jul 28",
             "time": "6:30 PM",
-            "homeTeam": "Aurora-King Jays 12U AA",
-            "homeTeamCode": "617973",
+            "homeTeam": "Barrie Baycats 12U AA",
+            "homeTeamCode": "612783",
             "awayTeam": "Bradford Tigers 12U AA",
             "awayTeamCode": "617946",
-            "location": "Hallmark Park Diamond # 1",
-            "isCompleted": true,
-            "score": {
-              "home": 14,
-              "away": 13,
-              "scoreText": "13-14"
-            }
+            "location": "Lampman Lane Community Centre",
+            "isCompleted": false,
+            "score": null
           },
           {
-            "date": null,
-            "dateText": "Thu, Jul 23",
-            "time": "6:30 PM",
-            "homeTeam": "Markham Mariners 12U AA",
-            "homeTeamCode": "617879",
-            "awayTeam": "Bradford Tigers 12U AA",
-            "awayTeamCode": "617946",
-            "location": "Millikan Mills Comm Centre Field # 5",
-            "isCompleted": true,
-            "score": {
-              "home": 1,
-              "away": 8,
-              "scoreText": "8-1"
-            }
-          },
-          {
-            "date": null,
+            "date": "2026-07-29T22:00:00.000Z",
             "dateText": "Wed, Jul 29",
             "time": "6:00 PM",
             "homeTeam": "Bradford Tigers 12U AA",
@@ -1124,7 +1171,19 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-08-07T00:30:00.000Z",
+            "dateText": "Thu, Aug 6",
+            "time": "8:30 PM",
+            "homeTeam": "Vaughan Vikings 12U AA",
+            "homeTeamCode": "617177",
+            "awayTeam": "Bradford Tigers 12U AA",
+            "awayTeamCode": "617946",
+            "location": "Concord Regional Diamond # 4",
+            "isCompleted": false,
+            "score": null
+          },
+          {
+            "date": "2026-08-08T15:00:00.000Z",
             "dateText": "Sat, Aug 8",
             "time": "11:00 AM",
             "homeTeam": "Muskoka Hornets 12U AA",
@@ -1140,7 +1199,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-08-08T18:00:00.000Z",
             "dateText": "Sat, Aug 8",
             "time": "2:00 PM",
             "homeTeam": "Muskoka Hornets 12U AA",
@@ -1157,48 +1216,16 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-11T11:14:15.458Z"
+        "lastUpdated": "2026-08-11T13:12:27.749Z"
       },
       "617973": {
         "teamCode": "617973",
         "totalGames": 16,
-        "playedGames": 14,
+        "playedGames": 16,
         "upcomingGames": 0,
         "recentGames": [
           {
-            "date": null,
-            "dateText": "Sun, Jul 5",
-            "time": "6:30 PM",
-            "homeTeam": "Aurora-King Jays 12U AA",
-            "homeTeamCode": "617973",
-            "awayTeam": "Bradford Tigers 12U AA",
-            "awayTeamCode": "617946",
-            "location": "Hallmark Park Diamond # 1",
-            "isCompleted": true,
-            "score": {
-              "home": 14,
-              "away": 13,
-              "scoreText": "13-14"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Mon, Jul 6",
-            "time": "7:00 PM",
-            "homeTeam": "Richmond Hill Phoenix 12U AA",
-            "homeTeamCode": "617852",
-            "awayTeam": "Aurora-King Jays 12U AA",
-            "awayTeamCode": "617973",
-            "location": "David Hamilton Park",
-            "isCompleted": true,
-            "score": {
-              "home": 15,
-              "away": 0,
-              "scoreText": "0-15"
-            }
-          },
-          {
-            "date": null,
+            "date": "2026-07-14T23:00:00.000Z",
             "dateText": "Tue, Jul 14",
             "time": "7:00 PM",
             "homeTeam": "Orangeville Bengals 12U AA",
@@ -1214,7 +1241,19 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-16T22:30:00.000Z",
+            "dateText": "Thu, Jul 16",
+            "time": "6:30 PM",
+            "homeTeam": "Aurora-King Jays 12U AA",
+            "homeTeamCode": "617973",
+            "awayTeam": "Orangeville Bengals 12U AA",
+            "awayTeamCode": "618022",
+            "location": "Hallmark Park Diamond # 1",
+            "isCompleted": false,
+            "score": null
+          },
+          {
+            "date": "2026-07-19T22:30:00.000Z",
             "dateText": "Sun, Jul 19",
             "time": "6:30 PM",
             "homeTeam": "Aurora-King Jays 12U AA",
@@ -1230,7 +1269,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-08-06T22:30:00.000Z",
             "dateText": "Thu, Aug 6",
             "time": "6:30 PM",
             "homeTeam": "Aurora-King Jays 12U AA",
@@ -1244,35 +1283,31 @@
               "away": 14,
               "scoreText": "14-8"
             }
+          },
+          {
+            "date": "2026-08-09T22:30:00.000Z",
+            "dateText": "Sun, Aug 9",
+            "time": "6:30 PM",
+            "homeTeam": "Aurora-King Jays 12U AA",
+            "homeTeamCode": "617973",
+            "awayTeam": "Barrie Baycats 12U AA",
+            "awayTeamCode": "612783",
+            "location": "Hallmark Park Diamond # 1",
+            "isCompleted": false,
+            "score": null
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-11T11:14:15.458Z"
+        "lastUpdated": "2026-08-11T13:12:27.749Z"
       },
       "617974": {
         "teamCode": "617974",
-        "totalGames": 15,
-        "playedGames": 12,
-        "upcomingGames": 0,
+        "totalGames": 16,
+        "playedGames": 14,
+        "upcomingGames": 2,
         "recentGames": [
           {
-            "date": null,
-            "dateText": "Sun, Jul 12",
-            "time": "10:00 AM",
-            "homeTeam": "Stouffville 12U A",
-            "homeTeamCode": "617204",
-            "awayTeam": "Aurora-King Jays 12U A",
-            "awayTeamCode": "617974",
-            "location": "Memorial Park",
-            "isCompleted": true,
-            "score": {
-              "home": 11,
-              "away": 10,
-              "scoreText": "10-11"
-            }
-          },
-          {
-            "date": null,
+            "date": "2026-07-14T22:30:00.000Z",
             "dateText": "Tue, Jul 14",
             "time": "6:30 PM",
             "homeTeam": "Aurora-King Jays 12U A",
@@ -1288,7 +1323,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-28T22:30:00.000Z",
             "dateText": "Tue, Jul 28",
             "time": "6:30 PM",
             "homeTeam": "Aurora-King Jays 12U A",
@@ -1304,7 +1339,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-08-04T22:30:00.000Z",
             "dateText": "Tue, Aug 4",
             "time": "6:30 PM",
             "homeTeam": "Aurora-King Jays 12U A",
@@ -1320,7 +1355,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-08-06T22:30:00.000Z",
             "dateText": "Thu, Aug 6",
             "time": "6:30 PM",
             "homeTeam": "Markham Mariners 12U A",
@@ -1334,35 +1369,56 @@
               "away": 5,
               "scoreText": "5-20"
             }
+          },
+          {
+            "date": "2026-08-08T14:00:00.000Z",
+            "dateText": "Sat, Aug 8",
+            "time": "10:00 AM",
+            "homeTeam": "Aurora-King Jays 12U A",
+            "homeTeamCode": "617974",
+            "awayTeam": "Thornhill Reds 12U A Team 2",
+            "awayTeamCode": "617988",
+            "location": "Hallmark Park",
+            "isCompleted": false,
+            "score": null
           }
         ],
-        "nextGames": [],
-        "lastUpdated": "2026-08-11T11:14:15.458Z"
+        "nextGames": [
+          {
+            "date": "2026-08-11T22:00:00.000Z",
+            "dateText": "Tue, Aug 11",
+            "time": "6:00 PM",
+            "homeTeam": "Thornhill Reds 12U A Team 2",
+            "homeTeamCode": "617988",
+            "awayTeam": "Aurora-King Jays 12U A",
+            "awayTeamCode": "617974",
+            "location": "Concord #3",
+            "isCompleted": false,
+            "score": null
+          },
+          {
+            "date": "2026-08-18T22:30:00.000Z",
+            "dateText": "Tue, Aug 18",
+            "time": "6:30 PM",
+            "homeTeam": "Aurora-King Jays 12U A",
+            "homeTeamCode": "617974",
+            "awayTeam": "Caledon Nationals 12U A",
+            "awayTeamCode": "618468",
+            "location": "Hallmark Park",
+            "isCompleted": false,
+            "score": null
+          }
+        ],
+        "lastUpdated": "2026-08-11T13:12:27.749Z"
       },
       "617987": {
         "teamCode": "617987",
         "totalGames": 16,
-        "playedGames": 14,
+        "playedGames": 16,
         "upcomingGames": 0,
         "recentGames": [
           {
-            "date": null,
-            "dateText": "Sun, Jul 19",
-            "time": "10:00 AM",
-            "homeTeam": "Stouffville 12U A",
-            "homeTeamCode": "617204",
-            "awayTeam": "Thornhill Reds 12U A Team 1",
-            "awayTeamCode": "617987",
-            "location": "Memorial Park",
-            "isCompleted": true,
-            "score": {
-              "home": 2,
-              "away": 38,
-              "scoreText": "38-2"
-            }
-          },
-          {
-            "date": null,
+            "date": "2026-07-22T22:30:00.000Z",
             "dateText": "Wed, Jul 22",
             "time": "6:30 PM",
             "homeTeam": "Caledon Nationals 12U A",
@@ -1378,7 +1434,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-28T22:30:00.000Z",
             "dateText": "Tue, Jul 28",
             "time": "6:30 PM",
             "homeTeam": "Thornhill Reds 12U A Team 1",
@@ -1394,7 +1450,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-08-04T22:30:00.000Z",
             "dateText": "Tue, Aug 4",
             "time": "6:30 PM",
             "homeTeam": "Thornhill Reds 12U A Team 1",
@@ -1410,7 +1466,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-08-09T16:30:00.000Z",
             "dateText": "Sun, Aug 9",
             "time": "12:30 PM",
             "homeTeam": "Thornhill Reds 12U A Team 1",
@@ -1424,67 +1480,47 @@
               "away": 4,
               "scoreText": "4-11"
             }
+          },
+          {
+            "date": "2026-08-10T22:00:00.000Z",
+            "dateText": "Mon, Aug 10",
+            "time": "6:00 PM",
+            "homeTeam": "Newmarket Hawks 12U A",
+            "homeTeamCode": "617906",
+            "awayTeam": "Thornhill Reds 12U A Team 1",
+            "awayTeamCode": "617987",
+            "location": "Fairgrounds #1",
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 13,
+              "scoreText": "13-6"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-11T11:14:15.458Z"
+        "lastUpdated": "2026-08-11T13:12:27.749Z"
       },
       "617988": {
         "teamCode": "617988",
-        "totalGames": 15,
-        "playedGames": 11,
-        "upcomingGames": 0,
+        "totalGames": 16,
+        "playedGames": 14,
+        "upcomingGames": 2,
         "recentGames": [
           {
-            "date": null,
-            "dateText": "Tue, Jun 16",
+            "date": "2026-07-21T22:00:00.000Z",
+            "dateText": "Tue, Jul 21",
             "time": "6:00 PM",
             "homeTeam": "Thornhill Reds 12U A Team 2",
             "homeTeamCode": "617988",
-            "awayTeam": "Stouffville 12U A",
-            "awayTeamCode": "617204",
-            "location": "Concord #3",
-            "isCompleted": true,
-            "score": {
-              "home": 23,
-              "away": 8,
-              "scoreText": "8-23"
-            }
+            "awayTeam": "Newmarket Hawks 12U A",
+            "awayTeamCode": "617906",
+            "location": "PPD",
+            "isCompleted": false,
+            "score": null
           },
           {
-            "date": null,
-            "dateText": "Tue, Jun 23",
-            "time": "6:30 PM",
-            "homeTeam": "Thornhill Reds 12U A Team 1",
-            "homeTeamCode": "617987",
-            "awayTeam": "Thornhill Reds 12U A Team 2",
-            "awayTeamCode": "617988",
-            "location": "Bishop’s Cross",
-            "isCompleted": true,
-            "score": {
-              "home": 13,
-              "away": 2,
-              "scoreText": "2-13"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Tue, Jul 7",
-            "time": "6:00 PM",
-            "homeTeam": "Thornhill Reds 12U A Team 2",
-            "homeTeamCode": "617988",
-            "awayTeam": "Thornhill Reds 12U A Team 1",
-            "awayTeamCode": "617987",
-            "location": "Concord #3",
-            "isCompleted": true,
-            "score": {
-              "home": 9,
-              "away": 19,
-              "scoreText": "19-9"
-            }
-          },
-          {
-            "date": null,
+            "date": "2026-07-28T22:00:00.000Z",
             "dateText": "Tue, Jul 28",
             "time": "6:00 PM",
             "homeTeam": "Thornhill Reds 12U A Team 2",
@@ -1500,7 +1536,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-30T00:30:00.000Z",
             "dateText": "Wed, Jul 29",
             "time": "8:30 PM",
             "homeTeam": "Vaughan Vikings 12U A",
@@ -1514,35 +1550,68 @@
               "away": 6,
               "scoreText": "6-24"
             }
+          },
+          {
+            "date": "2026-08-08T14:00:00.000Z",
+            "dateText": "Sat, Aug 8",
+            "time": "10:00 AM",
+            "homeTeam": "Aurora-King Jays 12U A",
+            "homeTeamCode": "617974",
+            "awayTeam": "Thornhill Reds 12U A Team 2",
+            "awayTeamCode": "617988",
+            "location": "Hallmark Park",
+            "isCompleted": false,
+            "score": null
+          },
+          {
+            "date": "2026-08-09T14:00:00.000Z",
+            "dateText": "Sun, Aug 9",
+            "time": "10:00 AM",
+            "homeTeam": "Stouffville 12U A",
+            "homeTeamCode": "617204",
+            "awayTeam": "Thornhill Reds 12U A Team 2",
+            "awayTeamCode": "617988",
+            "location": "Memorial Park",
+            "isCompleted": false,
+            "score": null
           }
         ],
-        "nextGames": [],
-        "lastUpdated": "2026-08-11T11:14:15.458Z"
+        "nextGames": [
+          {
+            "date": "2026-08-11T22:00:00.000Z",
+            "dateText": "Tue, Aug 11",
+            "time": "6:00 PM",
+            "homeTeam": "Thornhill Reds 12U A Team 2",
+            "homeTeamCode": "617988",
+            "awayTeam": "Aurora-King Jays 12U A",
+            "awayTeamCode": "617974",
+            "location": "Concord #3",
+            "isCompleted": false,
+            "score": null
+          },
+          {
+            "date": "2026-08-13T22:30:00.000Z",
+            "dateText": "Thu, Aug 13",
+            "time": "6:30 PM",
+            "homeTeam": "Markham Mariners 12U A",
+            "homeTeamCode": "617880",
+            "awayTeam": "Thornhill Reds 12U A Team 2",
+            "awayTeamCode": "617988",
+            "location": "Berczy Park South",
+            "isCompleted": false,
+            "score": null
+          }
+        ],
+        "lastUpdated": "2026-08-11T13:12:27.749Z"
       },
       "618007": {
         "teamCode": "618007",
         "totalGames": 16,
-        "playedGames": 14,
-        "upcomingGames": 0,
+        "playedGames": 15,
+        "upcomingGames": 1,
         "recentGames": [
           {
-            "date": null,
-            "dateText": "Mon, Jul 20",
-            "time": "6:00 PM",
-            "homeTeam": "Collingwood Jays 12U A",
-            "homeTeamCode": "618007",
-            "awayTeam": "TNT Thunder 12U A",
-            "awayTeamCode": "618059",
-            "location": "Heritage Park",
-            "isCompleted": true,
-            "score": {
-              "home": 5,
-              "away": 9,
-              "scoreText": "9-5"
-            }
-          },
-          {
-            "date": null,
+            "date": "2026-07-21T22:00:00.000Z",
             "dateText": "Tue, Jul 21",
             "time": "6:00 PM",
             "homeTeam": "TNT Thunder 12U A",
@@ -1558,7 +1627,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-27T22:00:00.000Z",
             "dateText": "Mon, Jul 27",
             "time": "6:00 PM",
             "homeTeam": "Collingwood Jays 12U A",
@@ -1574,7 +1643,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-08-03T22:00:00.000Z",
             "dateText": "Mon, Aug 3",
             "time": "6:00 PM",
             "homeTeam": "Collingwood Jays 12U A",
@@ -1590,7 +1659,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-08-06T00:00:00.000Z",
             "dateText": "Wed, Aug 5",
             "time": "8:00 PM",
             "homeTeam": "Orangeville Bengals 12U B",
@@ -1604,51 +1673,56 @@
               "away": 19,
               "scoreText": "19-10"
             }
+          },
+          {
+            "date": "2026-08-10T22:00:00.000Z",
+            "dateText": "Mon, Aug 10",
+            "time": "6:00 PM",
+            "homeTeam": "Collingwood Jays 12U A",
+            "homeTeamCode": "618007",
+            "awayTeam": "Orangeville Bengals 12U B",
+            "awayTeamCode": "618021",
+            "location": "Heritage Park",
+            "isCompleted": false,
+            "score": null
           }
         ],
-        "nextGames": [],
-        "lastUpdated": "2026-08-11T11:14:15.458Z"
+        "nextGames": [
+          {
+            "date": "2026-08-11T22:00:00.000Z",
+            "dateText": "Tue, Aug 11",
+            "time": "6:00 PM",
+            "homeTeam": "New Lowell Knights 12U B",
+            "homeTeamCode": "618068",
+            "awayTeam": "Collingwood Jays 12U A",
+            "awayTeamCode": "618007",
+            "location": "New Lowell #2",
+            "isCompleted": false,
+            "score": null
+          }
+        ],
+        "lastUpdated": "2026-08-11T13:12:27.749Z"
       },
       "618021": {
         "teamCode": "618021",
         "totalGames": 16,
-        "playedGames": 14,
+        "playedGames": 16,
         "upcomingGames": 0,
         "recentGames": [
           {
-            "date": null,
-            "dateText": "Tue, Jul 7",
-            "time": "6:00 PM",
-            "homeTeam": "TNT Thunder 12U A",
-            "homeTeamCode": "618059",
-            "awayTeam": "Orangeville Bengals 12U B",
-            "awayTeamCode": "618021",
-            "location": "Coventry Park",
-            "isCompleted": true,
-            "score": {
-              "home": 16,
-              "away": 4,
-              "scoreText": "4-16"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Wed, Jul 8",
+            "date": "2026-07-16T00:00:00.000Z",
+            "dateText": "Wed, Jul 15",
             "time": "8:00 PM",
             "homeTeam": "Orangeville Bengals 12U B",
             "homeTeamCode": "618021",
-            "awayTeam": "Orillia 12U B",
-            "awayTeamCode": "618383",
-            "location": "Rotary Park S",
-            "isCompleted": true,
-            "score": {
-              "home": 8,
-              "away": 12,
-              "scoreText": "12-8"
-            }
+            "awayTeam": "TNT Thunder 12U A",
+            "awayTeamCode": "618059",
+            "location": "PPD",
+            "isCompleted": false,
+            "score": null
           },
           {
-            "date": null,
+            "date": "2026-07-23T00:00:00.000Z",
             "dateText": "Wed, Jul 22",
             "time": "8:00 PM",
             "homeTeam": "Orangeville Bengals 12U B",
@@ -1664,7 +1738,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-29T22:30:00.000Z",
             "dateText": "Wed, Jul 29",
             "time": "6:30 PM",
             "homeTeam": "New Lowell Knights 12U B",
@@ -1680,7 +1754,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-08-06T00:00:00.000Z",
             "dateText": "Wed, Aug 5",
             "time": "8:00 PM",
             "homeTeam": "Orangeville Bengals 12U B",
@@ -1694,35 +1768,31 @@
               "away": 19,
               "scoreText": "19-10"
             }
+          },
+          {
+            "date": "2026-08-10T22:00:00.000Z",
+            "dateText": "Mon, Aug 10",
+            "time": "6:00 PM",
+            "homeTeam": "Collingwood Jays 12U A",
+            "homeTeamCode": "618007",
+            "awayTeam": "Orangeville Bengals 12U B",
+            "awayTeamCode": "618021",
+            "location": "Heritage Park",
+            "isCompleted": false,
+            "score": null
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-11T11:14:15.458Z"
+        "lastUpdated": "2026-08-11T13:12:27.749Z"
       },
       "618022": {
         "teamCode": "618022",
         "totalGames": 16,
-        "playedGames": 15,
+        "playedGames": 16,
         "upcomingGames": 0,
         "recentGames": [
           {
-            "date": null,
-            "dateText": "Tue, Jul 7",
-            "time": "7:00 PM",
-            "homeTeam": "Orangeville Bengals 12U AA",
-            "homeTeamCode": "618022",
-            "awayTeam": "Vaughan Vikings 12U AA",
-            "awayTeamCode": "617177",
-            "location": "Idlewyld Park",
-            "isCompleted": true,
-            "score": {
-              "home": 18,
-              "away": 7,
-              "scoreText": "7-18"
-            }
-          },
-          {
-            "date": null,
+            "date": "2026-07-14T23:00:00.000Z",
             "dateText": "Tue, Jul 14",
             "time": "7:00 PM",
             "homeTeam": "Orangeville Bengals 12U AA",
@@ -1738,7 +1808,19 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-16T22:30:00.000Z",
+            "dateText": "Thu, Jul 16",
+            "time": "6:30 PM",
+            "homeTeam": "Aurora-King Jays 12U AA",
+            "homeTeamCode": "617973",
+            "awayTeam": "Orangeville Bengals 12U AA",
+            "awayTeamCode": "618022",
+            "location": "Hallmark Park Diamond # 1",
+            "isCompleted": false,
+            "score": null
+          },
+          {
+            "date": "2026-07-21T23:00:00.000Z",
             "dateText": "Tue, Jul 21",
             "time": "7:00 PM",
             "homeTeam": "Orangeville Bengals 12U AA",
@@ -1754,7 +1836,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-28T23:00:00.000Z",
             "dateText": "Tue, Jul 28",
             "time": "7:00 PM",
             "homeTeam": "Orangeville Bengals 12U AA",
@@ -1770,7 +1852,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-08-04T23:00:00.000Z",
             "dateText": "Tue, Aug 4",
             "time": "7:00 PM",
             "homeTeam": "Orangeville Bengals 12U AA",
@@ -1787,32 +1869,16 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-11T11:14:15.458Z"
+        "lastUpdated": "2026-08-11T13:12:27.749Z"
       },
       "618044": {
         "teamCode": "618044",
-        "totalGames": 15,
-        "playedGames": 14,
-        "upcomingGames": 0,
+        "totalGames": 16,
+        "playedGames": 15,
+        "upcomingGames": 1,
         "recentGames": [
           {
-            "date": null,
-            "dateText": "Wed, Jul 8",
-            "time": "6:30 PM",
-            "homeTeam": "New Lowell Knights 12U B",
-            "homeTeamCode": "618068",
-            "awayTeam": "Innisfil Cardinals 12U A",
-            "awayTeamCode": "618044",
-            "location": "New Lowell #3",
-            "isCompleted": true,
-            "score": {
-              "home": 16,
-              "away": 1,
-              "scoreText": "1-16"
-            }
-          },
-          {
-            "date": null,
+            "date": "2026-07-09T22:30:00.000Z",
             "dateText": "Thu, Jul 9",
             "time": "6:30 PM",
             "homeTeam": "Innisfil Cardinals 12U A",
@@ -1828,7 +1894,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-13T22:30:00.000Z",
             "dateText": "Mon, Jul 13",
             "time": "6:30 PM",
             "homeTeam": "Barrie Baycats 12U A",
@@ -1844,7 +1910,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-08-09T14:00:00.000Z",
             "dateText": "Sun, Aug 9",
             "time": "10:00 AM",
             "homeTeam": "Innisfil Cardinals 12U A",
@@ -1860,7 +1926,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-08-09T16:30:00.000Z",
             "dateText": "Sun, Aug 9",
             "time": "12:30 PM",
             "homeTeam": "Innisfil Cardinals 12U A",
@@ -1874,35 +1940,44 @@
               "away": 24,
               "scoreText": "24-6"
             }
+          },
+          {
+            "date": "2026-08-10T22:30:00.000Z",
+            "dateText": "Mon, Aug 10",
+            "time": "6:30 PM",
+            "homeTeam": "Barrie Baycats 12U A",
+            "homeTeamCode": "612784",
+            "awayTeam": "Innisfil Cardinals 12U A",
+            "awayTeamCode": "618044",
+            "location": "Lampman Lane",
+            "isCompleted": false,
+            "score": null
           }
         ],
-        "nextGames": [],
-        "lastUpdated": "2026-08-11T11:14:15.458Z"
+        "nextGames": [
+          {
+            "date": "2026-08-13T22:30:00.000Z",
+            "dateText": "Thu, Aug 13",
+            "time": "6:30 PM",
+            "homeTeam": "Innisfil Cardinals 12U A",
+            "homeTeamCode": "618044",
+            "awayTeam": "Orillia 12U B",
+            "awayTeamCode": "618383",
+            "location": "Stroud Arena",
+            "isCompleted": false,
+            "score": null
+          }
+        ],
+        "lastUpdated": "2026-08-11T13:12:27.749Z"
       },
       "618059": {
         "teamCode": "618059",
-        "totalGames": 15,
-        "playedGames": 13,
-        "upcomingGames": 0,
+        "totalGames": 16,
+        "playedGames": 15,
+        "upcomingGames": 1,
         "recentGames": [
           {
-            "date": null,
-            "dateText": "Tue, Jul 7",
-            "time": "6:00 PM",
-            "homeTeam": "TNT Thunder 12U A",
-            "homeTeamCode": "618059",
-            "awayTeam": "Orangeville Bengals 12U B",
-            "awayTeamCode": "618021",
-            "location": "Coventry Park",
-            "isCompleted": true,
-            "score": {
-              "home": 16,
-              "away": 4,
-              "scoreText": "4-16"
-            }
-          },
-          {
-            "date": null,
+            "date": "2026-07-20T22:00:00.000Z",
             "dateText": "Mon, Jul 20",
             "time": "6:00 PM",
             "homeTeam": "Collingwood Jays 12U A",
@@ -1918,7 +1993,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-21T22:00:00.000Z",
             "dateText": "Tue, Jul 21",
             "time": "6:00 PM",
             "homeTeam": "TNT Thunder 12U A",
@@ -1934,7 +2009,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-30T22:30:00.000Z",
             "dateText": "Thu, Jul 30",
             "time": "6:30 PM",
             "homeTeam": "TNT Thunder 12U A",
@@ -1950,7 +2025,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-08-04T22:00:00.000Z",
             "dateText": "Tue, Aug 4",
             "time": "6:00 PM",
             "homeTeam": "TNT Thunder 12U A",
@@ -1964,19 +2039,48 @@
               "away": 4,
               "scoreText": "4-15"
             }
+          },
+          {
+            "date": "2026-08-10T23:00:00.000Z",
+            "dateText": "Mon, Aug 10",
+            "time": "7:00 PM",
+            "homeTeam": "Midland Penetang Twins 12U B",
+            "homeTeamCode": "618395",
+            "awayTeam": "TNT Thunder 12U A",
+            "awayTeamCode": "618059",
+            "location": "Toanche Park",
+            "isCompleted": true,
+            "score": {
+              "home": 2,
+              "away": 6,
+              "scoreText": "6-2"
+            }
           }
         ],
-        "nextGames": [],
-        "lastUpdated": "2026-08-11T11:14:15.458Z"
+        "nextGames": [
+          {
+            "date": "2026-08-13T22:00:00.000Z",
+            "dateText": "Thu, Aug 13",
+            "time": "6:00 PM",
+            "homeTeam": "TNT Thunder 12U A",
+            "homeTeamCode": "618059",
+            "awayTeam": "Barrie Baycats 12U A",
+            "awayTeamCode": "612784",
+            "location": "Coventry Park",
+            "isCompleted": false,
+            "score": null
+          }
+        ],
+        "lastUpdated": "2026-08-11T13:12:27.749Z"
       },
       "618068": {
         "teamCode": "618068",
         "totalGames": 16,
         "playedGames": 15,
-        "upcomingGames": 0,
+        "upcomingGames": 1,
         "recentGames": [
           {
-            "date": null,
+            "date": "2026-07-08T22:30:00.000Z",
             "dateText": "Wed, Jul 8",
             "time": "6:30 PM",
             "homeTeam": "New Lowell Knights 12U B",
@@ -1992,7 +2096,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-09T22:30:00.000Z",
             "dateText": "Thu, Jul 9",
             "time": "6:30 PM",
             "homeTeam": "Innisfil Cardinals 12U A",
@@ -2008,7 +2112,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-23T00:00:00.000Z",
             "dateText": "Wed, Jul 22",
             "time": "8:00 PM",
             "homeTeam": "Orangeville Bengals 12U B",
@@ -2024,7 +2128,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-27T22:00:00.000Z",
             "dateText": "Mon, Jul 27",
             "time": "6:00 PM",
             "homeTeam": "Collingwood Jays 12U A",
@@ -2040,7 +2144,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-29T22:30:00.000Z",
             "dateText": "Wed, Jul 29",
             "time": "6:30 PM",
             "homeTeam": "New Lowell Knights 12U B",
@@ -2056,33 +2160,30 @@
             }
           }
         ],
-        "nextGames": [],
-        "lastUpdated": "2026-08-11T11:14:15.458Z"
+        "nextGames": [
+          {
+            "date": "2026-08-11T22:00:00.000Z",
+            "dateText": "Tue, Aug 11",
+            "time": "6:00 PM",
+            "homeTeam": "New Lowell Knights 12U B",
+            "homeTeamCode": "618068",
+            "awayTeam": "Collingwood Jays 12U A",
+            "awayTeamCode": "618007",
+            "location": "New Lowell #2",
+            "isCompleted": false,
+            "score": null
+          }
+        ],
+        "lastUpdated": "2026-08-11T13:12:27.749Z"
       },
       "618383": {
         "teamCode": "618383",
-        "totalGames": 15,
-        "playedGames": 14,
-        "upcomingGames": 0,
+        "totalGames": 16,
+        "playedGames": 15,
+        "upcomingGames": 1,
         "recentGames": [
           {
-            "date": null,
-            "dateText": "Mon, Jul 13",
-            "time": "7:00 PM",
-            "homeTeam": "Midland Penetang Twins 12U B",
-            "homeTeamCode": "618395",
-            "awayTeam": "Orillia 12U B",
-            "awayTeamCode": "618383",
-            "location": "Toanche Park",
-            "isCompleted": true,
-            "score": {
-              "home": 11,
-              "away": 5,
-              "scoreText": "5-11"
-            }
-          },
-          {
-            "date": null,
+            "date": "2026-07-24T23:00:00.000Z",
             "dateText": "Fri, Jul 24",
             "time": "7:00 PM",
             "homeTeam": "Midland Penetang Twins 12U B",
@@ -2098,7 +2199,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-30T22:30:00.000Z",
             "dateText": "Thu, Jul 30",
             "time": "6:30 PM",
             "homeTeam": "TNT Thunder 12U A",
@@ -2114,7 +2215,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-08-03T22:30:00.000Z",
             "dateText": "Mon, Aug 3",
             "time": "6:30 PM",
             "homeTeam": "Barrie Baycats 12U A",
@@ -2130,7 +2231,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-08-04T17:00:00.000Z",
             "dateText": "Tue, Aug 4",
             "time": "1:00 PM",
             "homeTeam": "Orillia 12U B",
@@ -2144,51 +2245,48 @@
               "away": 14,
               "scoreText": "14-14"
             }
+          },
+          {
+            "date": "2026-08-09T17:00:00.000Z",
+            "dateText": "Sun, Aug 9",
+            "time": "1:00 PM",
+            "homeTeam": "Orillia 12U B",
+            "homeTeamCode": "618383",
+            "awayTeam": "Midland Penetang Twins 12U B",
+            "awayTeamCode": "618395",
+            "location": "Cliff Yeo Diamond",
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 12,
+              "scoreText": "12-11"
+            }
           }
         ],
-        "nextGames": [],
-        "lastUpdated": "2026-08-11T11:14:15.458Z"
+        "nextGames": [
+          {
+            "date": "2026-08-13T22:30:00.000Z",
+            "dateText": "Thu, Aug 13",
+            "time": "6:30 PM",
+            "homeTeam": "Innisfil Cardinals 12U A",
+            "homeTeamCode": "618044",
+            "awayTeam": "Orillia 12U B",
+            "awayTeamCode": "618383",
+            "location": "Stroud Arena",
+            "isCompleted": false,
+            "score": null
+          }
+        ],
+        "lastUpdated": "2026-08-11T13:12:27.749Z"
       },
       "618395": {
         "teamCode": "618395",
         "totalGames": 16,
-        "playedGames": 14,
+        "playedGames": 16,
         "upcomingGames": 0,
         "recentGames": [
           {
-            "date": null,
-            "dateText": "Mon, Jul 20",
-            "time": "7:00 PM",
-            "homeTeam": "Midland Penetang Twins 12U B",
-            "homeTeamCode": "618395",
-            "awayTeam": "Barrie Baycats 12U A",
-            "awayTeamCode": "612784",
-            "location": "Toanche Park",
-            "isCompleted": true,
-            "score": {
-              "home": 9,
-              "away": 5,
-              "scoreText": "5-9"
-            }
-          },
-          {
-            "date": null,
-            "dateText": "Fri, Jul 24",
-            "time": "7:00 PM",
-            "homeTeam": "Midland Penetang Twins 12U B",
-            "homeTeamCode": "618395",
-            "awayTeam": "Orillia 12U B",
-            "awayTeamCode": "618383",
-            "location": "Toanche Park",
-            "isCompleted": true,
-            "score": {
-              "home": 13,
-              "away": 12,
-              "scoreText": "12-13"
-            }
-          },
-          {
-            "date": null,
+            "date": "2026-07-27T22:30:00.000Z",
             "dateText": "Mon, Jul 27",
             "time": "6:30 PM",
             "homeTeam": "Barrie Baycats 12U A",
@@ -2204,7 +2302,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-08-03T22:00:00.000Z",
             "dateText": "Mon, Aug 3",
             "time": "6:00 PM",
             "homeTeam": "Collingwood Jays 12U A",
@@ -2220,7 +2318,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-08-04T22:00:00.000Z",
             "dateText": "Tue, Aug 4",
             "time": "6:00 PM",
             "homeTeam": "TNT Thunder 12U A",
@@ -2234,19 +2332,51 @@
               "away": 4,
               "scoreText": "4-15"
             }
+          },
+          {
+            "date": "2026-08-09T17:00:00.000Z",
+            "dateText": "Sun, Aug 9",
+            "time": "1:00 PM",
+            "homeTeam": "Orillia 12U B",
+            "homeTeamCode": "618383",
+            "awayTeam": "Midland Penetang Twins 12U B",
+            "awayTeamCode": "618395",
+            "location": "Cliff Yeo Diamond",
+            "isCompleted": true,
+            "score": {
+              "home": 11,
+              "away": 12,
+              "scoreText": "12-11"
+            }
+          },
+          {
+            "date": "2026-08-10T23:00:00.000Z",
+            "dateText": "Mon, Aug 10",
+            "time": "7:00 PM",
+            "homeTeam": "Midland Penetang Twins 12U B",
+            "homeTeamCode": "618395",
+            "awayTeam": "TNT Thunder 12U A",
+            "awayTeamCode": "618059",
+            "location": "Toanche Park",
+            "isCompleted": true,
+            "score": {
+              "home": 2,
+              "away": 6,
+              "scoreText": "6-2"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-11T11:14:15.458Z"
+        "lastUpdated": "2026-08-11T13:12:27.749Z"
       },
       "618468": {
         "teamCode": "618468",
-        "totalGames": 14,
+        "totalGames": 16,
         "playedGames": 13,
-        "upcomingGames": 0,
+        "upcomingGames": 3,
         "recentGames": [
           {
-            "date": null,
+            "date": "2026-07-08T22:30:00.000Z",
             "dateText": "Wed, Jul 8",
             "time": "6:30 PM",
             "homeTeam": "Caledon Nationals 12U A",
@@ -2262,7 +2392,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-14T22:30:00.000Z",
             "dateText": "Tue, Jul 14",
             "time": "6:30 PM",
             "homeTeam": "Thornhill Reds 12U A Team 1",
@@ -2278,7 +2408,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-19T20:00:00.000Z",
             "dateText": "Sun, Jul 19",
             "time": "4:00 PM",
             "homeTeam": "Markham Mariners 12U A",
@@ -2294,7 +2424,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-22T22:30:00.000Z",
             "dateText": "Wed, Jul 22",
             "time": "6:30 PM",
             "homeTeam": "Caledon Nationals 12U A",
@@ -2310,7 +2440,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-29T22:30:00.000Z",
             "dateText": "Wed, Jul 29",
             "time": "6:30 PM",
             "homeTeam": "Caledon Nationals 12U A",
@@ -2326,17 +2456,54 @@
             }
           }
         ],
-        "nextGames": [],
-        "lastUpdated": "2026-08-11T11:14:15.458Z"
+        "nextGames": [
+          {
+            "date": "2026-08-11T22:00:00.000Z",
+            "dateText": "Tue, Aug 11",
+            "time": "6:00 PM",
+            "homeTeam": "Vaughan Vikings 12U A",
+            "homeTeamCode": "617178",
+            "awayTeam": "Caledon Nationals 12U A",
+            "awayTeamCode": "618468",
+            "location": "Chatfield District",
+            "isCompleted": false,
+            "score": null
+          },
+          {
+            "date": "2026-08-12T22:30:00.000Z",
+            "dateText": "Wed, Aug 12",
+            "time": "6:30 PM",
+            "homeTeam": "Caledon Nationals 12U A",
+            "homeTeamCode": "618468",
+            "awayTeam": "Vaughan Vikings 12U A",
+            "awayTeamCode": "617178",
+            "location": "North Hill #1",
+            "isCompleted": false,
+            "score": null
+          },
+          {
+            "date": "2026-08-18T22:30:00.000Z",
+            "dateText": "Tue, Aug 18",
+            "time": "6:30 PM",
+            "homeTeam": "Aurora-King Jays 12U A",
+            "homeTeamCode": "617974",
+            "awayTeam": "Caledon Nationals 12U A",
+            "awayTeamCode": "618468",
+            "location": "Hallmark Park",
+            "isCompleted": false,
+            "score": null
+          }
+        ],
+        "lastUpdated": "2026-08-11T13:12:27.749Z"
       },
       "625727": {
         "teamCode": "625727",
-        "totalGames": 14,
+        "totalGames": 16,
         "playedGames": 14,
-        "upcomingGames": 0,
+        "upcomingGames": 2,
         "recentGames": [
           {
-            "date": null,
+            "date": "2026-07-07T22:00:00.000Z",
             "dateText": "Tue, Jul 7",
             "time": "6:00 PM",
             "homeTeam": "Vaughan Vikings 12U A",
@@ -2352,7 +2519,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-14T22:30:00.000Z",
             "dateText": "Tue, Jul 14",
             "time": "6:30 PM",
             "homeTeam": "Markham Mariners 12U A",
@@ -2368,7 +2535,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-20T22:00:00.000Z",
             "dateText": "Mon, Jul 20",
             "time": "6:00 PM",
             "homeTeam": "Newmarket Hawks 12U A",
@@ -2384,7 +2551,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-22T22:15:00.000Z",
             "dateText": "Wed, Jul 22",
             "time": "6:15 PM",
             "homeTeam": "Georgina Bulldogs 12U B",
@@ -2400,7 +2567,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-29T22:30:00.000Z",
             "dateText": "Wed, Jul 29",
             "time": "6:30 PM",
             "homeTeam": "Caledon Nationals 12U A",
@@ -2416,8 +2583,33 @@
             }
           }
         ],
-        "nextGames": [],
-        "lastUpdated": "2026-08-11T11:14:15.458Z"
+        "nextGames": [
+          {
+            "date": "2026-08-11T22:15:00.000Z",
+            "dateText": "Tue, Aug 11",
+            "time": "6:15 PM",
+            "homeTeam": "Georgina Bulldogs 12U B",
+            "homeTeamCode": "625727",
+            "awayTeam": "Newmarket Hawks 12U A",
+            "awayTeamCode": "617906",
+            "location": "ROC 2",
+            "isCompleted": false,
+            "score": null
+          },
+          {
+            "date": "2026-08-12T22:15:00.000Z",
+            "dateText": "Wed, Aug 12",
+            "time": "6:15 PM",
+            "homeTeam": "Georgina Bulldogs 12U B",
+            "homeTeamCode": "625727",
+            "awayTeam": "Stouffville 12U A",
+            "awayTeamCode": "617204",
+            "location": "ROC 2",
+            "isCompleted": false,
+            "score": null
+          }
+        ],
+        "lastUpdated": "2026-08-11T13:12:27.749Z"
       },
       "628934": {
         "teamCode": "628934",
@@ -2426,7 +2618,7 @@
         "upcomingGames": 0,
         "recentGames": [
           {
-            "date": null,
+            "date": "2026-07-25T18:00:00.000Z",
             "dateText": "Sat, Jul 25",
             "time": "2:00 PM",
             "homeTeam": "Muskoka Hornets 12U AA",
@@ -2442,7 +2634,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-28T23:00:00.000Z",
             "dateText": "Tue, Jul 28",
             "time": "7:00 PM",
             "homeTeam": "Orangeville Bengals 12U AA",
@@ -2458,7 +2650,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-08-04T22:00:00.000Z",
             "dateText": "Tue, Aug 4",
             "time": "6:00 PM",
             "homeTeam": "Newmarket Hawks 12U AA",
@@ -2474,7 +2666,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-08-08T15:00:00.000Z",
             "dateText": "Sat, Aug 8",
             "time": "11:00 AM",
             "homeTeam": "Muskoka Hornets 12U AA",
@@ -2490,7 +2682,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-08-08T18:00:00.000Z",
             "dateText": "Sat, Aug 8",
             "time": "2:00 PM",
             "homeTeam": "Muskoka Hornets 12U AA",
@@ -2507,12 +2699,12 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-11T11:14:15.458Z"
+        "lastUpdated": "2026-08-11T13:12:27.749Z"
       }
     },
     "allGames": [
       {
-        "date": null,
+        "date": "2026-05-11T22:00:00.000Z",
         "dateText": "Mon, May 11",
         "time": "6:00 PM",
         "homeTeam": "Newmarket Hawks 12U A",
@@ -2528,7 +2720,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-11T22:00:00.000Z",
         "dateText": "Mon, May 11",
         "time": "6:00 PM",
         "homeTeam": "Collingwood Jays 12U A",
@@ -2544,7 +2736,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-12T22:00:00.000Z",
         "dateText": "Tue, May 12",
         "time": "6:00 PM",
         "homeTeam": "Newmarket Hawks 12U AA",
@@ -2560,7 +2752,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-12T22:00:00.000Z",
         "dateText": "Tue, May 12",
         "time": "6:00 PM",
         "homeTeam": "Vaughan Vikings 12U A",
@@ -2576,7 +2768,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-12T22:00:00.000Z",
         "dateText": "Tue, May 12",
         "time": "6:00 PM",
         "homeTeam": "Thornhill Reds 12U A Team 2",
@@ -2592,7 +2784,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-12T22:30:00.000Z",
         "dateText": "Tue, May 12",
         "time": "6:30 PM",
         "homeTeam": "Barrie Baycats 12U AA",
@@ -2608,7 +2800,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-12T22:30:00.000Z",
         "dateText": "Tue, May 12",
         "time": "6:30 PM",
         "homeTeam": "Thornhill Reds 12U A Team 1",
@@ -2624,7 +2816,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-13T22:00:00.000Z",
         "dateText": "Wed, May 13",
         "time": "6:00 PM",
         "homeTeam": "Bradford Tigers 12U AA",
@@ -2640,7 +2832,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-13T22:30:00.000Z",
         "dateText": "Wed, May 13",
         "time": "6:30 PM",
         "homeTeam": "New Lowell Knights 12U B",
@@ -2656,7 +2848,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-14T22:30:00.000Z",
         "dateText": "Thu, May 14",
         "time": "6:30 PM",
         "homeTeam": "Markham Mariners 12U AA",
@@ -2672,7 +2864,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-15T00:30:00.000Z",
         "dateText": "Thu, May 14",
         "time": "8:30 PM",
         "homeTeam": "Vaughan Vikings 12U AA",
@@ -2688,7 +2880,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-18T22:00:00.000Z",
         "dateText": "Mon, May 18",
         "time": "6:00 PM",
         "homeTeam": "Newmarket Hawks 12U A",
@@ -2704,7 +2896,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-18T22:30:00.000Z",
         "dateText": "Mon, May 18",
         "time": "6:30 PM",
         "homeTeam": "Barrie Baycats 12U A",
@@ -2720,7 +2912,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-18T23:00:00.000Z",
         "dateText": "Mon, May 18",
         "time": "7:00 PM",
         "homeTeam": "Richmond Hill Phoenix 12U AA",
@@ -2736,7 +2928,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-19T22:00:00.000Z",
         "dateText": "Tue, May 19",
         "time": "6:00 PM",
         "homeTeam": "Newmarket Hawks 12U AA",
@@ -2752,7 +2944,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-19T22:00:00.000Z",
         "dateText": "Tue, May 19",
         "time": "6:00 PM",
         "homeTeam": "Thornhill Reds 12U A Team 2",
@@ -2768,7 +2960,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-19T22:30:00.000Z",
         "dateText": "Tue, May 19",
         "time": "6:30 PM",
         "homeTeam": "Markham Mariners 12U A",
@@ -2784,7 +2976,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-20T22:30:00.000Z",
         "dateText": "Wed, May 20",
         "time": "6:30 PM",
         "homeTeam": "Caledon Nationals 12U A",
@@ -2800,7 +2992,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-21T00:00:00.000Z",
         "dateText": "Wed, May 20",
         "time": "8:00 PM",
         "homeTeam": "Orangeville Bengals 12U B",
@@ -2816,7 +3008,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-21T22:30:00.000Z",
         "dateText": "Thu, May 21",
         "time": "6:30 PM",
         "homeTeam": "Markham Mariners 12U AA",
@@ -2832,7 +3024,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-22T00:30:00.000Z",
         "dateText": "Thu, May 21",
         "time": "8:30 PM",
         "homeTeam": "Vaughan Vikings 12U AA",
@@ -2848,7 +3040,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-25T22:00:00.000Z",
         "dateText": "Mon, May 25",
         "time": "6:00 PM",
         "homeTeam": "Newmarket Hawks 12U A",
@@ -2864,7 +3056,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-25T23:00:00.000Z",
         "dateText": "Mon, May 25",
         "time": "7:00 PM",
         "homeTeam": "Midland Penetang Twins 12U B",
@@ -2880,7 +3072,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-25T23:00:00.000Z",
         "dateText": "Mon, May 25",
         "time": "7:00 PM",
         "homeTeam": "Richmond Hill Phoenix 12U AA",
@@ -2896,7 +3088,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-26T22:00:00.000Z",
         "dateText": "Tue, May 26",
         "time": "6:00 PM",
         "homeTeam": "Orillia 12U B",
@@ -2912,7 +3104,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-26T22:00:00.000Z",
         "dateText": "Tue, May 26",
         "time": "6:00 PM",
         "homeTeam": "Newmarket Hawks 12U AA",
@@ -2928,7 +3120,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-26T22:00:00.000Z",
         "dateText": "Tue, May 26",
         "time": "6:00 PM",
         "homeTeam": "TNT Thunder 12U A",
@@ -2944,7 +3136,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-26T22:30:00.000Z",
         "dateText": "Tue, May 26",
         "time": "6:30 PM",
         "homeTeam": "Thornhill Reds 12U A Team 1",
@@ -2960,7 +3152,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-27T22:00:00.000Z",
         "dateText": "Wed, May 27",
         "time": "6:00 PM",
         "homeTeam": "Bradford Tigers 12U AA",
@@ -2976,7 +3168,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-27T22:15:00.000Z",
         "dateText": "Wed, May 27",
         "time": "6:15 PM",
         "homeTeam": "Georgina Bulldogs 12U B",
@@ -2992,7 +3184,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-27T22:30:00.000Z",
         "dateText": "Wed, May 27",
         "time": "6:30 PM",
         "homeTeam": "New Lowell Knights 12U B",
@@ -3008,7 +3200,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-27T22:30:00.000Z",
         "dateText": "Wed, May 27",
         "time": "6:30 PM",
         "homeTeam": "Caledon Nationals 12U A",
@@ -3024,7 +3216,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-28T00:00:00.000Z",
         "dateText": "Wed, May 27",
         "time": "8:00 PM",
         "homeTeam": "Orangeville Bengals 12U B",
@@ -3040,7 +3232,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-28T22:30:00.000Z",
         "dateText": "Thu, May 28",
         "time": "6:30 PM",
         "homeTeam": "Aurora-King Jays 12U AA",
@@ -3056,7 +3248,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-28T22:30:00.000Z",
         "dateText": "Thu, May 28",
         "time": "6:30 PM",
         "homeTeam": "Markham Mariners 12U AA",
@@ -3072,7 +3264,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-28T22:30:00.000Z",
         "dateText": "Thu, May 28",
         "time": "6:30 PM",
         "homeTeam": "Markham Mariners 12U A",
@@ -3088,7 +3280,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-28T22:30:00.000Z",
         "dateText": "Thu, May 28",
         "time": "6:30 PM",
         "homeTeam": "Innisfil Cardinals 12U A",
@@ -3104,7 +3296,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-29T00:30:00.000Z",
         "dateText": "Thu, May 28",
         "time": "8:30 PM",
         "homeTeam": "Vaughan Vikings 12U AA",
@@ -3120,7 +3312,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-30T15:00:00.000Z",
         "dateText": "Sat, May 30",
         "time": "11:00 AM",
         "homeTeam": "Muskoka Hornets 12U AA",
@@ -3136,7 +3328,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-30T18:00:00.000Z",
         "dateText": "Sat, May 30",
         "time": "2:00 PM",
         "homeTeam": "Muskoka Hornets 12U AA",
@@ -3152,7 +3344,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-31T14:00:00.000Z",
         "dateText": "Sun, May 31",
         "time": "10:00 AM",
         "homeTeam": "Stouffville 12U A",
@@ -3168,7 +3360,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-31T17:00:00.000Z",
         "dateText": "Sun, May 31",
         "time": "1:00 PM",
         "homeTeam": "Orillia 12U B",
@@ -3184,7 +3376,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-01T22:00:00.000Z",
         "dateText": "Mon, Jun 1",
         "time": "6:00 PM",
         "homeTeam": "Collingwood Jays 12U A",
@@ -3200,7 +3392,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-01T22:30:00.000Z",
         "dateText": "Mon, Jun 1",
         "time": "6:30 PM",
         "homeTeam": "Barrie Baycats 12U A",
@@ -3216,7 +3408,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-01T23:00:00.000Z",
         "dateText": "Mon, Jun 1",
         "time": "7:00 PM",
         "homeTeam": "Midland Penetang Twins 12U B",
@@ -3232,7 +3424,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-01T23:00:00.000Z",
         "dateText": "Mon, Jun 1",
         "time": "7:00 PM",
         "homeTeam": "Richmond Hill Phoenix 12U AA",
@@ -3248,7 +3440,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-02T22:00:00.000Z",
         "dateText": "Tue, Jun 2",
         "time": "6:00 PM",
         "homeTeam": "Thornhill Reds 12U A Team 2",
@@ -3264,7 +3456,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-02T22:00:00.000Z",
         "dateText": "Tue, Jun 2",
         "time": "6:00 PM",
         "homeTeam": "Newmarket Hawks 12U AA",
@@ -3280,7 +3472,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-02T22:00:00.000Z",
         "dateText": "Tue, Jun 2",
         "time": "6:00 PM",
         "homeTeam": "Vaughan Vikings 12U A",
@@ -3296,7 +3488,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-02T22:30:00.000Z",
         "dateText": "Tue, Jun 2",
         "time": "6:30 PM",
         "homeTeam": "Barrie Baycats 12U AA",
@@ -3312,7 +3504,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-02T23:00:00.000Z",
         "dateText": "Tue, Jun 2",
         "time": "7:00 PM",
         "homeTeam": "Orangeville Bengals 12U AA",
@@ -3328,7 +3520,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-03T22:15:00.000Z",
         "dateText": "Wed, Jun 3",
         "time": "6:15 PM",
         "homeTeam": "Georgina Bulldogs 12U B",
@@ -3344,7 +3536,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-04T22:30:00.000Z",
         "dateText": "Thu, Jun 4",
         "time": "6:30 PM",
         "homeTeam": "Innisfil Cardinals 12U A",
@@ -3360,7 +3552,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-06T15:00:00.000Z",
         "dateText": "Sat, Jun 6",
         "time": "11:00 AM",
         "homeTeam": "Muskoka Hornets 12U AA",
@@ -3376,7 +3568,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-08T22:00:00.000Z",
         "dateText": "Mon, Jun 8",
         "time": "6:00 PM",
         "homeTeam": "Collingwood Jays 12U A",
@@ -3392,7 +3584,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-09T22:00:00.000Z",
         "dateText": "Tue, Jun 9",
         "time": "6:00 PM",
         "homeTeam": "Newmarket Hawks 12U AA",
@@ -3408,7 +3600,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-09T22:30:00.000Z",
         "dateText": "Tue, Jun 9",
         "time": "6:30 PM",
         "homeTeam": "Barrie Baycats 12U AA",
@@ -3424,7 +3616,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-09T22:30:00.000Z",
         "dateText": "Tue, Jun 9",
         "time": "6:30 PM",
         "homeTeam": "Aurora-King Jays 12U A",
@@ -3440,7 +3632,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-09T22:30:00.000Z",
         "dateText": "Tue, Jun 9",
         "time": "6:30 PM",
         "homeTeam": "Thornhill Reds 12U A Team 1",
@@ -3456,7 +3648,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-09T23:00:00.000Z",
         "dateText": "Tue, Jun 9",
         "time": "7:00 PM",
         "homeTeam": "Orangeville Bengals 12U AA",
@@ -3472,7 +3664,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-10T22:00:00.000Z",
         "dateText": "Wed, Jun 10",
         "time": "6:00 PM",
         "homeTeam": "Bradford Tigers 12U AA",
@@ -3488,7 +3680,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-10T22:15:00.000Z",
         "dateText": "Wed, Jun 10",
         "time": "6:15 PM",
         "homeTeam": "Georgina Bulldogs 12U B",
@@ -3504,7 +3696,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-10T22:30:00.000Z",
         "dateText": "Wed, Jun 10",
         "time": "6:30 PM",
         "homeTeam": "Caledon Nationals 12U A",
@@ -3520,7 +3712,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-11T00:00:00.000Z",
         "dateText": "Wed, Jun 10",
         "time": "8:00 PM",
         "homeTeam": "Orangeville Bengals 12U B",
@@ -3536,7 +3728,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-11T22:30:00.000Z",
         "dateText": "Thu, Jun 11",
         "time": "6:30 PM",
         "homeTeam": "Markham Mariners 12U A",
@@ -3552,7 +3744,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-11T22:30:00.000Z",
         "dateText": "Thu, Jun 11",
         "time": "6:30 PM",
         "homeTeam": "Innisfil Cardinals 12U A",
@@ -3568,7 +3760,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-12T00:30:00.000Z",
         "dateText": "Thu, Jun 11",
         "time": "8:30 PM",
         "homeTeam": "Vaughan Vikings 12U AA",
@@ -3584,7 +3776,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-13T14:00:00.000Z",
         "dateText": "Sat, Jun 13",
         "time": "10:00 AM",
         "homeTeam": "Aurora-King Jays 12U A",
@@ -3600,7 +3792,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-15T22:00:00.000Z",
         "dateText": "Mon, Jun 15",
         "time": "6:00 PM",
         "homeTeam": "Newmarket Hawks 12U A",
@@ -3616,7 +3808,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-15T22:30:00.000Z",
         "dateText": "Mon, Jun 15",
         "time": "6:30 PM",
         "homeTeam": "Barrie Baycats 12U A",
@@ -3632,7 +3824,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-15T23:00:00.000Z",
         "dateText": "Mon, Jun 15",
         "time": "7:00 PM",
         "homeTeam": "Midland Penetang Twins 12U B",
@@ -3648,7 +3840,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-16T22:00:00.000Z",
         "dateText": "Tue, Jun 16",
         "time": "6:00 PM",
         "homeTeam": "Vaughan Vikings 12U A",
@@ -3664,7 +3856,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-16T22:00:00.000Z",
         "dateText": "Tue, Jun 16",
         "time": "6:00 PM",
         "homeTeam": "Newmarket Hawks 12U AA",
@@ -3680,7 +3872,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-16T22:00:00.000Z",
         "dateText": "Tue, Jun 16",
         "time": "6:00 PM",
         "homeTeam": "Thornhill Reds 12U A Team 2",
@@ -3696,7 +3888,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-16T22:30:00.000Z",
         "dateText": "Tue, Jun 16",
         "time": "6:30 PM",
         "homeTeam": "Barrie Baycats 12U AA",
@@ -3712,7 +3904,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-17T22:00:00.000Z",
         "dateText": "Wed, Jun 17",
         "time": "6:00 PM",
         "homeTeam": "Bradford Tigers 12U AA",
@@ -3728,7 +3920,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-17T22:30:00.000Z",
         "dateText": "Wed, Jun 17",
         "time": "6:30 PM",
         "homeTeam": "New Lowell Knights 12U B",
@@ -3744,7 +3936,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-18T00:00:00.000Z",
         "dateText": "Wed, Jun 17",
         "time": "8:00 PM",
         "homeTeam": "Orangeville Bengals 12U B",
@@ -3760,7 +3952,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-18T22:30:00.000Z",
         "dateText": "Thu, Jun 18",
         "time": "6:30 PM",
         "homeTeam": "Markham Mariners 12U AA",
@@ -3776,7 +3968,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-20T15:00:00.000Z",
         "dateText": "Sat, Jun 20",
         "time": "11:00 AM",
         "homeTeam": "Markham Mariners 12U A",
@@ -3792,7 +3984,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-20T15:00:00.000Z",
         "dateText": "Sat, Jun 20",
         "time": "11:00 AM",
         "homeTeam": "Muskoka Hornets 12U AA",
@@ -3808,7 +4000,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-21T19:30:00.000Z",
         "dateText": "Sun, Jun 21",
         "time": "3:30 PM",
         "homeTeam": "Aurora-King Jays 12U AA",
@@ -3824,7 +4016,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-21T22:30:00.000Z",
         "dateText": "Sun, Jun 21",
         "time": "6:30 PM",
         "homeTeam": "Aurora-King Jays 12U AA",
@@ -3840,7 +4032,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-22T22:00:00.000Z",
         "dateText": "Mon, Jun 22",
         "time": "6:00 PM",
         "homeTeam": "Orillia 12U B",
@@ -3856,7 +4048,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-22T22:00:00.000Z",
         "dateText": "Mon, Jun 22",
         "time": "6:00 PM",
         "homeTeam": "Newmarket Hawks 12U A",
@@ -3872,7 +4064,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-22T23:00:00.000Z",
         "dateText": "Mon, Jun 22",
         "time": "7:00 PM",
         "homeTeam": "Richmond Hill Phoenix 12U AA",
@@ -3888,7 +4080,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-22T23:00:00.000Z",
         "dateText": "Mon, Jun 22",
         "time": "7:00 PM",
         "homeTeam": "Midland Penetang Twins 12U B",
@@ -3904,7 +4096,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-23T22:00:00.000Z",
         "dateText": "Tue, Jun 23",
         "time": "6:00 PM",
         "homeTeam": "Orillia 12U B",
@@ -3920,7 +4112,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-23T22:00:00.000Z",
         "dateText": "Tue, Jun 23",
         "time": "6:00 PM",
         "homeTeam": "TNT Thunder 12U A",
@@ -3936,7 +4128,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-23T22:00:00.000Z",
         "dateText": "Tue, Jun 23",
         "time": "6:00 PM",
         "homeTeam": "Vaughan Vikings 12U A",
@@ -3952,7 +4144,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-23T22:30:00.000Z",
         "dateText": "Tue, Jun 23",
         "time": "6:30 PM",
         "homeTeam": "Thornhill Reds 12U A Team 1",
@@ -3968,7 +4160,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-23T23:00:00.000Z",
         "dateText": "Tue, Jun 23",
         "time": "7:00 PM",
         "homeTeam": "Orangeville Bengals 12U AA",
@@ -3984,7 +4176,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-24T22:00:00.000Z",
         "dateText": "Wed, Jun 24",
         "time": "6:00 PM",
         "homeTeam": "Bradford Tigers 12U AA",
@@ -4000,7 +4192,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-24T22:15:00.000Z",
         "dateText": "Wed, Jun 24",
         "time": "6:15 PM",
         "homeTeam": "Georgina Bulldogs 12U B",
@@ -4016,7 +4208,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-24T22:30:00.000Z",
         "dateText": "Wed, Jun 24",
         "time": "6:30 PM",
         "homeTeam": "New Lowell Knights 12U B",
@@ -4032,7 +4224,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-24T22:30:00.000Z",
         "dateText": "Wed, Jun 24",
         "time": "6:30 PM",
         "homeTeam": "Caledon Nationals 12U A",
@@ -4048,7 +4240,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-26T00:30:00.000Z",
         "dateText": "Thu, Jun 25",
         "time": "8:30 PM",
         "homeTeam": "Vaughan Vikings 12U AA",
@@ -4064,7 +4256,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-27T14:30:00.000Z",
         "dateText": "Sat, Jun 27",
         "time": "10:30 AM",
         "homeTeam": "New Lowell Knights 12U B",
@@ -4080,7 +4272,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-27T15:00:00.000Z",
         "dateText": "Sat, Jun 27",
         "time": "11:00 AM",
         "homeTeam": "Muskoka Hornets 12U AA",
@@ -4096,7 +4288,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-28T14:00:00.000Z",
         "dateText": "Sun, Jun 28",
         "time": "10:00 AM",
         "homeTeam": "Stouffville 12U A",
@@ -4112,7 +4304,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-28T17:00:00.000Z",
         "dateText": "Sun, Jun 28",
         "time": "1:00 PM",
         "homeTeam": "Orillia 12U B",
@@ -4128,7 +4320,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-28T22:30:00.000Z",
         "dateText": "Sun, Jun 28",
         "time": "6:30 PM",
         "homeTeam": "Aurora-King Jays 12U AA",
@@ -4144,7 +4336,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-29T22:30:00.000Z",
         "dateText": "Mon, Jun 29",
         "time": "6:30 PM",
         "homeTeam": "Barrie Baycats 12U A",
@@ -4160,7 +4352,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-29T23:00:00.000Z",
         "dateText": "Mon, Jun 29",
         "time": "7:00 PM",
         "homeTeam": "Richmond Hill Phoenix 12U AA",
@@ -4176,7 +4368,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-30T22:00:00.000Z",
         "dateText": "Tue, Jun 30",
         "time": "6:00 PM",
         "homeTeam": "TNT Thunder 12U A",
@@ -4192,7 +4384,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-30T22:00:00.000Z",
         "dateText": "Tue, Jun 30",
         "time": "6:00 PM",
         "homeTeam": "Vaughan Vikings 12U A",
@@ -4208,7 +4400,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-30T22:15:00.000Z",
         "dateText": "Tue, Jun 30",
         "time": "6:15 PM",
         "homeTeam": "Georgina Bulldogs 12U B",
@@ -4224,7 +4416,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-30T22:30:00.000Z",
         "dateText": "Tue, Jun 30",
         "time": "6:30 PM",
         "homeTeam": "Aurora-King Jays 12U A",
@@ -4236,7 +4428,7 @@
         "score": null
       },
       {
-        "date": null,
+        "date": "2026-06-30T22:30:00.000Z",
         "dateText": "Tue, Jun 30",
         "time": "6:30 PM",
         "homeTeam": "Barrie Baycats 12U AA",
@@ -4252,7 +4444,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-01T22:00:00.000Z",
         "dateText": "Wed, Jul 1",
         "time": "6:00 PM",
         "homeTeam": "Bradford Tigers 12U AA",
@@ -4268,7 +4460,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-02T22:00:00.000Z",
         "dateText": "Thu, Jul 2",
         "time": "6:00 PM",
         "homeTeam": "Stouffville 12U A",
@@ -4284,7 +4476,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-02T22:30:00.000Z",
         "dateText": "Thu, Jul 2",
         "time": "6:30 PM",
         "homeTeam": "Innisfil Cardinals 12U A",
@@ -4300,7 +4492,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-02T22:30:00.000Z",
         "dateText": "Thu, Jul 2",
         "time": "6:30 PM",
         "homeTeam": "Markham Mariners 12U AA",
@@ -4316,7 +4508,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-05T14:00:00.000Z",
         "dateText": "Sun, Jul 5",
         "time": "10:00 AM",
         "homeTeam": "Stouffville 12U A",
@@ -4332,7 +4524,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-05T17:00:00.000Z",
         "dateText": "Sun, Jul 5",
         "time": "1:00 PM",
         "homeTeam": "Orillia 12U B",
@@ -4348,7 +4540,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-05T22:30:00.000Z",
         "dateText": "Sun, Jul 5",
         "time": "6:30 PM",
         "homeTeam": "Aurora-King Jays 12U AA",
@@ -4364,7 +4556,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-06T22:00:00.000Z",
         "dateText": "Mon, Jul 6",
         "time": "6:00 PM",
         "homeTeam": "Collingwood Jays 12U A",
@@ -4380,7 +4572,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-06T23:00:00.000Z",
         "dateText": "Mon, Jul 6",
         "time": "7:00 PM",
         "homeTeam": "Richmond Hill Phoenix 12U AA",
@@ -4396,7 +4588,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-07T22:00:00.000Z",
         "dateText": "Tue, Jul 7",
         "time": "6:00 PM",
         "homeTeam": "Thornhill Reds 12U A Team 2",
@@ -4412,7 +4604,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-07T22:00:00.000Z",
         "dateText": "Tue, Jul 7",
         "time": "6:00 PM",
         "homeTeam": "Vaughan Vikings 12U A",
@@ -4428,7 +4620,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-07T22:00:00.000Z",
         "dateText": "Tue, Jul 7",
         "time": "6:00 PM",
         "homeTeam": "TNT Thunder 12U A",
@@ -4444,7 +4636,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-07T23:00:00.000Z",
         "dateText": "Tue, Jul 7",
         "time": "7:00 PM",
         "homeTeam": "Orangeville Bengals 12U AA",
@@ -4460,7 +4652,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-08T22:30:00.000Z",
         "dateText": "Wed, Jul 8",
         "time": "6:30 PM",
         "homeTeam": "New Lowell Knights 12U B",
@@ -4476,7 +4668,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-08T22:30:00.000Z",
         "dateText": "Wed, Jul 8",
         "time": "6:30 PM",
         "homeTeam": "Caledon Nationals 12U A",
@@ -4492,7 +4684,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-09T00:00:00.000Z",
         "dateText": "Wed, Jul 8",
         "time": "8:00 PM",
         "homeTeam": "Orangeville Bengals 12U B",
@@ -4508,7 +4700,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-09T22:30:00.000Z",
         "dateText": "Thu, Jul 9",
         "time": "6:30 PM",
         "homeTeam": "Innisfil Cardinals 12U A",
@@ -4524,7 +4716,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-12T14:00:00.000Z",
         "dateText": "Sun, Jul 12",
         "time": "10:00 AM",
         "homeTeam": "Stouffville 12U A",
@@ -4540,7 +4732,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-13T22:30:00.000Z",
         "dateText": "Mon, Jul 13",
         "time": "6:30 PM",
         "homeTeam": "Barrie Baycats 12U A",
@@ -4556,7 +4748,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-13T23:00:00.000Z",
         "dateText": "Mon, Jul 13",
         "time": "7:00 PM",
         "homeTeam": "Midland Penetang Twins 12U B",
@@ -4572,7 +4764,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-14T22:30:00.000Z",
         "dateText": "Tue, Jul 14",
         "time": "6:30 PM",
         "homeTeam": "Markham Mariners 12U A",
@@ -4588,7 +4780,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-14T22:30:00.000Z",
         "dateText": "Tue, Jul 14",
         "time": "6:30 PM",
         "homeTeam": "Thornhill Reds 12U A Team 1",
@@ -4604,7 +4796,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-14T22:30:00.000Z",
         "dateText": "Tue, Jul 14",
         "time": "6:30 PM",
         "homeTeam": "Aurora-King Jays 12U A",
@@ -4620,7 +4812,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-14T22:30:00.000Z",
         "dateText": "Tue, Jul 14",
         "time": "6:30 PM",
         "homeTeam": "Barrie Baycats 12U AA",
@@ -4636,7 +4828,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-14T23:00:00.000Z",
         "dateText": "Tue, Jul 14",
         "time": "7:00 PM",
         "homeTeam": "Orangeville Bengals 12U AA",
@@ -4652,7 +4844,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-16T00:00:00.000Z",
         "dateText": "Wed, Jul 15",
         "time": "8:00 PM",
         "homeTeam": "Orangeville Bengals 12U B",
@@ -4664,7 +4856,7 @@
         "score": null
       },
       {
-        "date": null,
+        "date": "2026-07-16T22:30:00.000Z",
         "dateText": "Thu, Jul 16",
         "time": "6:30 PM",
         "homeTeam": "Aurora-King Jays 12U AA",
@@ -4676,7 +4868,7 @@
         "score": null
       },
       {
-        "date": null,
+        "date": "2026-07-17T00:30:00.000Z",
         "dateText": "Thu, Jul 16",
         "time": "8:30 PM",
         "homeTeam": "Vaughan Vikings 12U AA",
@@ -4688,7 +4880,7 @@
         "score": null
       },
       {
-        "date": null,
+        "date": "2026-07-18T15:00:00.000Z",
         "dateText": "Sat, Jul 18",
         "time": "11:00 AM",
         "homeTeam": "Muskoka Hornets 12U AA",
@@ -4704,7 +4896,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-18T18:00:00.000Z",
         "dateText": "Sat, Jul 18",
         "time": "2:00 PM",
         "homeTeam": "Muskoka Hornets 12U AA",
@@ -4720,7 +4912,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-19T14:00:00.000Z",
         "dateText": "Sun, Jul 19",
         "time": "10:00 AM",
         "homeTeam": "Stouffville 12U A",
@@ -4736,7 +4928,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-19T20:00:00.000Z",
         "dateText": "Sun, Jul 19",
         "time": "4:00 PM",
         "homeTeam": "Markham Mariners 12U A",
@@ -4752,7 +4944,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-19T22:30:00.000Z",
         "dateText": "Sun, Jul 19",
         "time": "6:30 PM",
         "homeTeam": "Aurora-King Jays 12U AA",
@@ -4768,7 +4960,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-20T22:00:00.000Z",
         "dateText": "Mon, Jul 20",
         "time": "6:00 PM",
         "homeTeam": "Collingwood Jays 12U A",
@@ -4784,7 +4976,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-20T22:00:00.000Z",
         "dateText": "Mon, Jul 20",
         "time": "6:00 PM",
         "homeTeam": "Newmarket Hawks 12U A",
@@ -4800,7 +4992,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-20T23:00:00.000Z",
         "dateText": "Mon, Jul 20",
         "time": "7:00 PM",
         "homeTeam": "Midland Penetang Twins 12U B",
@@ -4816,7 +5008,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-21T22:00:00.000Z",
         "dateText": "Tue, Jul 21",
         "time": "6:00 PM",
         "homeTeam": "Thornhill Reds 12U A Team 2",
@@ -4828,7 +5020,7 @@
         "score": null
       },
       {
-        "date": null,
+        "date": "2026-07-21T22:00:00.000Z",
         "dateText": "Tue, Jul 21",
         "time": "6:00 PM",
         "homeTeam": "TNT Thunder 12U A",
@@ -4844,7 +5036,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-21T22:30:00.000Z",
         "dateText": "Tue, Jul 21",
         "time": "6:30 PM",
         "homeTeam": "Barrie Baycats 12U AA",
@@ -4856,7 +5048,7 @@
         "score": null
       },
       {
-        "date": null,
+        "date": "2026-07-21T23:00:00.000Z",
         "dateText": "Tue, Jul 21",
         "time": "7:00 PM",
         "homeTeam": "Orangeville Bengals 12U AA",
@@ -4872,7 +5064,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-22T22:15:00.000Z",
         "dateText": "Wed, Jul 22",
         "time": "6:15 PM",
         "homeTeam": "Georgina Bulldogs 12U B",
@@ -4888,7 +5080,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-22T22:30:00.000Z",
         "dateText": "Wed, Jul 22",
         "time": "6:30 PM",
         "homeTeam": "Caledon Nationals 12U A",
@@ -4904,7 +5096,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-23T00:00:00.000Z",
         "dateText": "Wed, Jul 22",
         "time": "8:00 PM",
         "homeTeam": "Orangeville Bengals 12U B",
@@ -4920,7 +5112,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-23T22:30:00.000Z",
         "dateText": "Thu, Jul 23",
         "time": "6:30 PM",
         "homeTeam": "Markham Mariners 12U AA",
@@ -4936,7 +5128,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-24T23:00:00.000Z",
         "dateText": "Fri, Jul 24",
         "time": "7:00 PM",
         "homeTeam": "Midland Penetang Twins 12U B",
@@ -4952,7 +5144,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-25T15:00:00.000Z",
         "dateText": "Sat, Jul 25",
         "time": "11:00 AM",
         "homeTeam": "Muskoka Hornets 12U AA",
@@ -4968,7 +5160,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-25T18:00:00.000Z",
         "dateText": "Sat, Jul 25",
         "time": "2:00 PM",
         "homeTeam": "Muskoka Hornets 12U AA",
@@ -4984,7 +5176,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-27T22:00:00.000Z",
         "dateText": "Mon, Jul 27",
         "time": "6:00 PM",
         "homeTeam": "Collingwood Jays 12U A",
@@ -5000,7 +5192,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-27T22:30:00.000Z",
         "dateText": "Mon, Jul 27",
         "time": "6:30 PM",
         "homeTeam": "Barrie Baycats 12U A",
@@ -5016,7 +5208,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-27T23:00:00.000Z",
         "dateText": "Mon, Jul 27",
         "time": "7:00 PM",
         "homeTeam": "Richmond Hill Phoenix 12U AA",
@@ -5032,7 +5224,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-28T22:00:00.000Z",
         "dateText": "Tue, Jul 28",
         "time": "6:00 PM",
         "homeTeam": "Thornhill Reds 12U A Team 2",
@@ -5048,7 +5240,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-28T22:00:00.000Z",
         "dateText": "Tue, Jul 28",
         "time": "6:00 PM",
         "homeTeam": "Newmarket Hawks 12U AA",
@@ -5064,7 +5256,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-28T22:30:00.000Z",
         "dateText": "Tue, Jul 28",
         "time": "6:30 PM",
         "homeTeam": "Thornhill Reds 12U A Team 1",
@@ -5080,7 +5272,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-28T22:30:00.000Z",
         "dateText": "Tue, Jul 28",
         "time": "6:30 PM",
         "homeTeam": "Aurora-King Jays 12U A",
@@ -5096,7 +5288,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-28T22:30:00.000Z",
         "dateText": "Tue, Jul 28",
         "time": "6:30 PM",
         "homeTeam": "Barrie Baycats 12U AA",
@@ -5108,7 +5300,7 @@
         "score": null
       },
       {
-        "date": null,
+        "date": "2026-07-28T23:00:00.000Z",
         "dateText": "Tue, Jul 28",
         "time": "7:00 PM",
         "homeTeam": "Orangeville Bengals 12U AA",
@@ -5124,7 +5316,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-29T22:00:00.000Z",
         "dateText": "Wed, Jul 29",
         "time": "6:00 PM",
         "homeTeam": "Bradford Tigers 12U AA",
@@ -5140,7 +5332,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-29T22:30:00.000Z",
         "dateText": "Wed, Jul 29",
         "time": "6:30 PM",
         "homeTeam": "Caledon Nationals 12U A",
@@ -5156,7 +5348,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-29T22:30:00.000Z",
         "dateText": "Wed, Jul 29",
         "time": "6:30 PM",
         "homeTeam": "New Lowell Knights 12U B",
@@ -5172,7 +5364,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-30T00:30:00.000Z",
         "dateText": "Wed, Jul 29",
         "time": "8:30 PM",
         "homeTeam": "Vaughan Vikings 12U A",
@@ -5188,7 +5380,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-30T22:30:00.000Z",
         "dateText": "Thu, Jul 30",
         "time": "6:30 PM",
         "homeTeam": "TNT Thunder 12U A",
@@ -5204,7 +5396,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-08-03T22:00:00.000Z",
         "dateText": "Mon, Aug 3",
         "time": "6:00 PM",
         "homeTeam": "Collingwood Jays 12U A",
@@ -5220,7 +5412,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-08-03T22:00:00.000Z",
         "dateText": "Mon, Aug 3",
         "time": "6:00 PM",
         "homeTeam": "Newmarket Hawks 12U A",
@@ -5236,7 +5428,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-08-03T22:30:00.000Z",
         "dateText": "Mon, Aug 3",
         "time": "6:30 PM",
         "homeTeam": "Barrie Baycats 12U A",
@@ -5252,7 +5444,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-08-04T17:00:00.000Z",
         "dateText": "Tue, Aug 4",
         "time": "1:00 PM",
         "homeTeam": "Orillia 12U B",
@@ -5268,7 +5460,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-08-04T22:00:00.000Z",
         "dateText": "Tue, Aug 4",
         "time": "6:00 PM",
         "homeTeam": "Newmarket Hawks 12U AA",
@@ -5284,7 +5476,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-08-04T22:00:00.000Z",
         "dateText": "Tue, Aug 4",
         "time": "6:00 PM",
         "homeTeam": "TNT Thunder 12U A",
@@ -5300,7 +5492,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-08-04T22:30:00.000Z",
         "dateText": "Tue, Aug 4",
         "time": "6:30 PM",
         "homeTeam": "Thornhill Reds 12U A Team 1",
@@ -5316,7 +5508,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-08-04T22:30:00.000Z",
         "dateText": "Tue, Aug 4",
         "time": "6:30 PM",
         "homeTeam": "Aurora-King Jays 12U A",
@@ -5332,7 +5524,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-08-04T23:00:00.000Z",
         "dateText": "Tue, Aug 4",
         "time": "7:00 PM",
         "homeTeam": "Orangeville Bengals 12U AA",
@@ -5348,7 +5540,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-08-06T00:00:00.000Z",
         "dateText": "Wed, Aug 5",
         "time": "8:00 PM",
         "homeTeam": "Orangeville Bengals 12U B",
@@ -5364,7 +5556,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-08-06T22:30:00.000Z",
         "dateText": "Thu, Aug 6",
         "time": "6:30 PM",
         "homeTeam": "Markham Mariners 12U A",
@@ -5380,7 +5572,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-08-06T22:30:00.000Z",
         "dateText": "Thu, Aug 6",
         "time": "6:30 PM",
         "homeTeam": "Aurora-King Jays 12U AA",
@@ -5396,7 +5588,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-08-07T00:30:00.000Z",
         "dateText": "Thu, Aug 6",
         "time": "8:30 PM",
         "homeTeam": "Vaughan Vikings 12U AA",
@@ -5408,7 +5600,7 @@
         "score": null
       },
       {
-        "date": null,
+        "date": "2026-08-08T14:00:00.000Z",
         "dateText": "Sat, Aug 8",
         "time": "10:00 AM",
         "homeTeam": "Aurora-King Jays 12U A",
@@ -5420,7 +5612,7 @@
         "score": null
       },
       {
-        "date": null,
+        "date": "2026-08-08T15:00:00.000Z",
         "dateText": "Sat, Aug 8",
         "time": "11:00 AM",
         "homeTeam": "Muskoka Hornets 12U AA",
@@ -5436,7 +5628,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-08-08T18:00:00.000Z",
         "dateText": "Sat, Aug 8",
         "time": "2:00 PM",
         "homeTeam": "Muskoka Hornets 12U AA",
@@ -5452,7 +5644,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-08-09T14:00:00.000Z",
         "dateText": "Sun, Aug 9",
         "time": "10:00 AM",
         "homeTeam": "Stouffville 12U A",
@@ -5464,7 +5656,7 @@
         "score": null
       },
       {
-        "date": null,
+        "date": "2026-08-09T14:00:00.000Z",
         "dateText": "Sun, Aug 9",
         "time": "10:00 AM",
         "homeTeam": "Innisfil Cardinals 12U A",
@@ -5480,7 +5672,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-08-09T16:30:00.000Z",
         "dateText": "Sun, Aug 9",
         "time": "12:30 PM",
         "homeTeam": "Innisfil Cardinals 12U A",
@@ -5496,7 +5688,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-08-09T16:30:00.000Z",
         "dateText": "Sun, Aug 9",
         "time": "12:30 PM",
         "homeTeam": "Thornhill Reds 12U A Team 1",
@@ -5512,7 +5704,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-08-09T17:00:00.000Z",
         "dateText": "Sun, Aug 9",
         "time": "1:00 PM",
         "homeTeam": "Orillia 12U B",
@@ -5520,11 +5712,15 @@
         "awayTeam": "Midland Penetang Twins 12U B",
         "awayTeamCode": "618395",
         "location": "Cliff Yeo Diamond",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 12,
+          "scoreText": "12-11"
+        }
       },
       {
-        "date": null,
+        "date": "2026-08-09T22:00:00.000Z",
         "dateText": "Sun, Aug 9",
         "time": "6:00 PM",
         "homeTeam": "Stouffville 12U A",
@@ -5540,7 +5736,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-08-09T22:30:00.000Z",
         "dateText": "Sun, Aug 9",
         "time": "6:30 PM",
         "homeTeam": "Aurora-King Jays 12U AA",
@@ -5552,7 +5748,7 @@
         "score": null
       },
       {
-        "date": null,
+        "date": "2026-08-10T22:00:00.000Z",
         "dateText": "Mon, Aug 10",
         "time": "6:00 PM",
         "homeTeam": "Collingwood Jays 12U A",
@@ -5564,7 +5760,7 @@
         "score": null
       },
       {
-        "date": null,
+        "date": "2026-08-10T22:00:00.000Z",
         "dateText": "Mon, Aug 10",
         "time": "6:00 PM",
         "homeTeam": "Newmarket Hawks 12U A",
@@ -5572,11 +5768,15 @@
         "awayTeam": "Thornhill Reds 12U A Team 1",
         "awayTeamCode": "617987",
         "location": "Fairgrounds #1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 13,
+          "scoreText": "13-6"
+        }
       },
       {
-        "date": null,
+        "date": "2026-08-10T22:30:00.000Z",
         "dateText": "Mon, Aug 10",
         "time": "6:30 PM",
         "homeTeam": "Barrie Baycats 12U A",
@@ -5588,7 +5788,7 @@
         "score": null
       },
       {
-        "date": null,
+        "date": "2026-08-10T23:00:00.000Z",
         "dateText": "Mon, Aug 10",
         "time": "7:00 PM",
         "homeTeam": "Midland Penetang Twins 12U B",
@@ -5596,11 +5796,15 @@
         "awayTeam": "TNT Thunder 12U A",
         "awayTeamCode": "618059",
         "location": "Toanche Park",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 2,
+          "away": 6,
+          "scoreText": "6-2"
+        }
       },
       {
-        "date": null,
+        "date": "2026-08-11T22:00:00.000Z",
         "dateText": "Tue, Aug 11",
         "time": "6:00 PM",
         "homeTeam": "New Lowell Knights 12U B",
@@ -5612,7 +5816,7 @@
         "score": null
       },
       {
-        "date": null,
+        "date": "2026-08-11T22:00:00.000Z",
         "dateText": "Tue, Aug 11",
         "time": "6:00 PM",
         "homeTeam": "Thornhill Reds 12U A Team 2",
@@ -5624,7 +5828,7 @@
         "score": null
       },
       {
-        "date": null,
+        "date": "2026-08-11T22:00:00.000Z",
         "dateText": "Tue, Aug 11",
         "time": "6:00 PM",
         "homeTeam": "Vaughan Vikings 12U A",
@@ -5634,179 +5838,380 @@
         "location": "Chatfield District",
         "isCompleted": false,
         "score": null
+      },
+      {
+        "date": "2026-08-11T22:15:00.000Z",
+        "dateText": "Tue, Aug 11",
+        "time": "6:15 PM",
+        "homeTeam": "Georgina Bulldogs 12U B",
+        "homeTeamCode": "625727",
+        "awayTeam": "Newmarket Hawks 12U A",
+        "awayTeamCode": "617906",
+        "location": "ROC 2",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-08-12T22:15:00.000Z",
+        "dateText": "Wed, Aug 12",
+        "time": "6:15 PM",
+        "homeTeam": "Georgina Bulldogs 12U B",
+        "homeTeamCode": "625727",
+        "awayTeam": "Stouffville 12U A",
+        "awayTeamCode": "617204",
+        "location": "ROC 2",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-08-12T22:30:00.000Z",
+        "dateText": "Wed, Aug 12",
+        "time": "6:30 PM",
+        "homeTeam": "Caledon Nationals 12U A",
+        "homeTeamCode": "618468",
+        "awayTeam": "Vaughan Vikings 12U A",
+        "awayTeamCode": "617178",
+        "location": "North Hill #1",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-08-13T22:00:00.000Z",
+        "dateText": "Thu, Aug 13",
+        "time": "6:00 PM",
+        "homeTeam": "TNT Thunder 12U A",
+        "homeTeamCode": "618059",
+        "awayTeam": "Barrie Baycats 12U A",
+        "awayTeamCode": "612784",
+        "location": "Coventry Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-08-13T22:30:00.000Z",
+        "dateText": "Thu, Aug 13",
+        "time": "6:30 PM",
+        "homeTeam": "Innisfil Cardinals 12U A",
+        "homeTeamCode": "618044",
+        "awayTeam": "Orillia 12U B",
+        "awayTeamCode": "618383",
+        "location": "Stroud Arena",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-08-13T22:30:00.000Z",
+        "dateText": "Thu, Aug 13",
+        "time": "6:30 PM",
+        "homeTeam": "Markham Mariners 12U AA",
+        "homeTeamCode": "617879",
+        "awayTeam": "Vaughan Vikings 12U AA",
+        "awayTeamCode": "617177",
+        "location": "Millikan Mills Comm Centre Field # 5",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-08-13T22:30:00.000Z",
+        "dateText": "Thu, Aug 13",
+        "time": "6:30 PM",
+        "homeTeam": "Markham Mariners 12U A",
+        "homeTeamCode": "617880",
+        "awayTeam": "Thornhill Reds 12U A Team 2",
+        "awayTeamCode": "617988",
+        "location": "Berczy Park South",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-08-18T22:30:00.000Z",
+        "dateText": "Tue, Aug 18",
+        "time": "6:30 PM",
+        "homeTeam": "Aurora-King Jays 12U A",
+        "homeTeamCode": "617974",
+        "awayTeam": "Caledon Nationals 12U A",
+        "awayTeamCode": "618468",
+        "location": "Hallmark Park",
+        "isCompleted": false,
+        "score": null
       }
     ],
     "recentGames": [
       {
-        "date": null,
-        "dateText": "Mon, May 11",
-        "time": "6:00 PM",
-        "homeTeam": "Newmarket Hawks 12U A",
-        "homeTeamCode": "617906",
-        "awayTeam": "Aurora-King Jays 12U A",
-        "awayTeamCode": "617974",
-        "location": "Fairgrounds #1",
+        "date": "2026-08-10T23:00:00.000Z",
+        "dateText": "Mon, Aug 10",
+        "time": "7:00 PM",
+        "homeTeam": "Midland Penetang Twins 12U B",
+        "homeTeamCode": "618395",
+        "awayTeam": "TNT Thunder 12U A",
+        "awayTeamCode": "618059",
+        "location": "Toanche Park",
         "isCompleted": true,
         "score": {
-          "home": 10,
-          "away": 5,
-          "scoreText": "5-10"
+          "home": 2,
+          "away": 6,
+          "scoreText": "6-2"
         }
       },
       {
-        "date": null,
-        "dateText": "Mon, May 11",
+        "date": "2026-08-10T22:30:00.000Z",
+        "dateText": "Mon, Aug 10",
+        "time": "6:30 PM",
+        "homeTeam": "Barrie Baycats 12U A",
+        "homeTeamCode": "612784",
+        "awayTeam": "Innisfil Cardinals 12U A",
+        "awayTeamCode": "618044",
+        "location": "Lampman Lane",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-08-10T22:00:00.000Z",
+        "dateText": "Mon, Aug 10",
         "time": "6:00 PM",
         "homeTeam": "Collingwood Jays 12U A",
         "homeTeamCode": "618007",
-        "awayTeam": "Innisfil Cardinals 12U A",
-        "awayTeamCode": "618044",
+        "awayTeam": "Orangeville Bengals 12U B",
+        "awayTeamCode": "618021",
         "location": "Heritage Park",
-        "isCompleted": true,
-        "score": {
-          "home": 7,
-          "away": 1,
-          "scoreText": "1-7"
-        }
+        "isCompleted": false,
+        "score": null
       },
       {
-        "date": null,
-        "dateText": "Tue, May 12",
+        "date": "2026-08-10T22:00:00.000Z",
+        "dateText": "Mon, Aug 10",
         "time": "6:00 PM",
-        "homeTeam": "Newmarket Hawks 12U AA",
-        "homeTeamCode": "617907",
-        "awayTeam": "Markham Mariners 12U AA",
-        "awayTeamCode": "617879",
-        "location": "Fairgrounds Park Diamond # 1",
-        "isCompleted": true,
-        "score": {
-          "home": 10,
-          "away": 12,
-          "scoreText": "12-10"
-        }
-      },
-      {
-        "date": null,
-        "dateText": "Tue, May 12",
-        "time": "6:00 PM",
-        "homeTeam": "Vaughan Vikings 12U A",
-        "homeTeamCode": "617178",
-        "awayTeam": "Stouffville 12U A",
-        "awayTeamCode": "617204",
-        "location": "Chatfield District",
-        "isCompleted": true,
-        "score": {
-          "home": 12,
-          "away": 17,
-          "scoreText": "17-12"
-        }
-      },
-      {
-        "date": null,
-        "dateText": "Tue, May 12",
-        "time": "6:00 PM",
-        "homeTeam": "Thornhill Reds 12U A Team 2",
-        "homeTeamCode": "617988",
-        "awayTeam": "Markham Mariners 12U A",
-        "awayTeamCode": "617880",
-        "location": "Concord #3",
-        "isCompleted": true,
-        "score": {
-          "home": 15,
-          "away": 5,
-          "scoreText": "5-15"
-        }
-      },
-      {
-        "date": null,
-        "dateText": "Tue, May 12",
-        "time": "6:30 PM",
-        "homeTeam": "Barrie Baycats 12U AA",
-        "homeTeamCode": "612783",
-        "awayTeam": "Richmond Hill Phoenix 12U AA",
-        "awayTeamCode": "617852",
-        "location": "Lampman Lane Community Centre",
-        "isCompleted": true,
-        "score": {
-          "home": 20,
-          "away": 2,
-          "scoreText": "2-20"
-        }
-      },
-      {
-        "date": null,
-        "dateText": "Tue, May 12",
-        "time": "6:30 PM",
-        "homeTeam": "Thornhill Reds 12U A Team 1",
-        "homeTeamCode": "617987",
-        "awayTeam": "Georgina Bulldogs 12U B",
-        "awayTeamCode": "625727",
-        "location": "Bishop’s Cross",
-        "isCompleted": true,
-        "score": {
-          "home": 15,
-          "away": 4,
-          "scoreText": "4-15"
-        }
-      },
-      {
-        "date": null,
-        "dateText": "Wed, May 13",
-        "time": "6:00 PM",
-        "homeTeam": "Bradford Tigers 12U AA",
-        "homeTeamCode": "617946",
-        "awayTeam": "Aurora-King Jays 12U AA",
-        "awayTeamCode": "617973",
-        "location": "Joe Magani Park Field # 2",
-        "isCompleted": true,
-        "score": {
-          "home": 13,
-          "away": 3,
-          "scoreText": "3-13"
-        }
-      },
-      {
-        "date": null,
-        "dateText": "Wed, May 13",
-        "time": "6:30 PM",
-        "homeTeam": "New Lowell Knights 12U B",
-        "homeTeamCode": "618068",
-        "awayTeam": "Midland Penetang Twins 12U B",
-        "awayTeamCode": "618395",
-        "location": "New Lowell #3",
-        "isCompleted": true,
-        "score": {
-          "home": 10,
-          "away": 12,
-          "scoreText": "12-10"
-        }
-      },
-      {
-        "date": null,
-        "dateText": "Thu, May 14",
-        "time": "6:30 PM",
-        "homeTeam": "Markham Mariners 12U AA",
-        "homeTeamCode": "617879",
-        "awayTeam": "Newmarket Hawks 12U AA",
-        "awayTeamCode": "617907",
-        "location": "Millikan Mills Comm Centre Field # 5",
+        "homeTeam": "Newmarket Hawks 12U A",
+        "homeTeamCode": "617906",
+        "awayTeam": "Thornhill Reds 12U A Team 1",
+        "awayTeamCode": "617987",
+        "location": "Fairgrounds #1",
         "isCompleted": true,
         "score": {
           "home": 6,
-          "away": 1,
-          "scoreText": "1-6"
+          "away": 13,
+          "scoreText": "13-6"
         }
+      },
+      {
+        "date": "2026-08-09T22:30:00.000Z",
+        "dateText": "Sun, Aug 9",
+        "time": "6:30 PM",
+        "homeTeam": "Aurora-King Jays 12U AA",
+        "homeTeamCode": "617973",
+        "awayTeam": "Barrie Baycats 12U AA",
+        "awayTeamCode": "612783",
+        "location": "Hallmark Park Diamond # 1",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-08-09T22:00:00.000Z",
+        "dateText": "Sun, Aug 9",
+        "time": "6:00 PM",
+        "homeTeam": "Stouffville 12U A",
+        "homeTeamCode": "617204",
+        "awayTeam": "Newmarket Hawks 12U A",
+        "awayTeamCode": "617906",
+        "location": "Fairgrounds #1",
+        "isCompleted": true,
+        "score": {
+          "home": 0,
+          "away": 17,
+          "scoreText": "17-0"
+        }
+      },
+      {
+        "date": "2026-08-09T17:00:00.000Z",
+        "dateText": "Sun, Aug 9",
+        "time": "1:00 PM",
+        "homeTeam": "Orillia 12U B",
+        "homeTeamCode": "618383",
+        "awayTeam": "Midland Penetang Twins 12U B",
+        "awayTeamCode": "618395",
+        "location": "Cliff Yeo Diamond",
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 12,
+          "scoreText": "12-11"
+        }
+      },
+      {
+        "date": "2026-08-09T16:30:00.000Z",
+        "dateText": "Sun, Aug 9",
+        "time": "12:30 PM",
+        "homeTeam": "Innisfil Cardinals 12U A",
+        "homeTeamCode": "618044",
+        "awayTeam": "Barrie Baycats 12U A",
+        "awayTeamCode": "612784",
+        "location": "IRC South",
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 24,
+          "scoreText": "24-6"
+        }
+      },
+      {
+        "date": "2026-08-09T16:30:00.000Z",
+        "dateText": "Sun, Aug 9",
+        "time": "12:30 PM",
+        "homeTeam": "Thornhill Reds 12U A Team 1",
+        "homeTeamCode": "617987",
+        "awayTeam": "Stouffville 12U A",
+        "awayTeamCode": "617204",
+        "location": "Bayview Glen Park",
+        "isCompleted": true,
+        "score": {
+          "home": 11,
+          "away": 4,
+          "scoreText": "4-11"
+        }
+      },
+      {
+        "date": "2026-08-09T14:00:00.000Z",
+        "dateText": "Sun, Aug 9",
+        "time": "10:00 AM",
+        "homeTeam": "Stouffville 12U A",
+        "homeTeamCode": "617204",
+        "awayTeam": "Thornhill Reds 12U A Team 2",
+        "awayTeamCode": "617988",
+        "location": "Memorial Park",
+        "isCompleted": false,
+        "score": null
       }
     ],
-    "upcomingGames": [],
-    "lastUpdated": "2026-08-11T11:14:15.458Z",
-    "totalGames": 200
+    "upcomingGames": [
+      {
+        "date": "2026-08-11T22:00:00.000Z",
+        "dateText": "Tue, Aug 11",
+        "time": "6:00 PM",
+        "homeTeam": "New Lowell Knights 12U B",
+        "homeTeamCode": "618068",
+        "awayTeam": "Collingwood Jays 12U A",
+        "awayTeamCode": "618007",
+        "location": "New Lowell #2",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-08-11T22:00:00.000Z",
+        "dateText": "Tue, Aug 11",
+        "time": "6:00 PM",
+        "homeTeam": "Thornhill Reds 12U A Team 2",
+        "homeTeamCode": "617988",
+        "awayTeam": "Aurora-King Jays 12U A",
+        "awayTeamCode": "617974",
+        "location": "Concord #3",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-08-11T22:00:00.000Z",
+        "dateText": "Tue, Aug 11",
+        "time": "6:00 PM",
+        "homeTeam": "Vaughan Vikings 12U A",
+        "homeTeamCode": "617178",
+        "awayTeam": "Caledon Nationals 12U A",
+        "awayTeamCode": "618468",
+        "location": "Chatfield District",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-08-11T22:15:00.000Z",
+        "dateText": "Tue, Aug 11",
+        "time": "6:15 PM",
+        "homeTeam": "Georgina Bulldogs 12U B",
+        "homeTeamCode": "625727",
+        "awayTeam": "Newmarket Hawks 12U A",
+        "awayTeamCode": "617906",
+        "location": "ROC 2",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-08-12T22:15:00.000Z",
+        "dateText": "Wed, Aug 12",
+        "time": "6:15 PM",
+        "homeTeam": "Georgina Bulldogs 12U B",
+        "homeTeamCode": "625727",
+        "awayTeam": "Stouffville 12U A",
+        "awayTeamCode": "617204",
+        "location": "ROC 2",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-08-12T22:30:00.000Z",
+        "dateText": "Wed, Aug 12",
+        "time": "6:30 PM",
+        "homeTeam": "Caledon Nationals 12U A",
+        "homeTeamCode": "618468",
+        "awayTeam": "Vaughan Vikings 12U A",
+        "awayTeamCode": "617178",
+        "location": "North Hill #1",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-08-13T22:00:00.000Z",
+        "dateText": "Thu, Aug 13",
+        "time": "6:00 PM",
+        "homeTeam": "TNT Thunder 12U A",
+        "homeTeamCode": "618059",
+        "awayTeam": "Barrie Baycats 12U A",
+        "awayTeamCode": "612784",
+        "location": "Coventry Park",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-08-13T22:30:00.000Z",
+        "dateText": "Thu, Aug 13",
+        "time": "6:30 PM",
+        "homeTeam": "Innisfil Cardinals 12U A",
+        "homeTeamCode": "618044",
+        "awayTeam": "Orillia 12U B",
+        "awayTeamCode": "618383",
+        "location": "Stroud Arena",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-08-13T22:30:00.000Z",
+        "dateText": "Thu, Aug 13",
+        "time": "6:30 PM",
+        "homeTeam": "Markham Mariners 12U AA",
+        "homeTeamCode": "617879",
+        "awayTeam": "Vaughan Vikings 12U AA",
+        "awayTeamCode": "617177",
+        "location": "Millikan Mills Comm Centre Field # 5",
+        "isCompleted": false,
+        "score": null
+      },
+      {
+        "date": "2026-08-13T22:30:00.000Z",
+        "dateText": "Thu, Aug 13",
+        "time": "6:30 PM",
+        "homeTeam": "Markham Mariners 12U A",
+        "homeTeamCode": "617880",
+        "awayTeam": "Thornhill Reds 12U A Team 2",
+        "awayTeamCode": "617988",
+        "location": "Berczy Park South",
+        "isCompleted": false,
+        "score": null
+      }
+    ],
+    "lastUpdated": "2026-08-11T13:12:27.749Z",
+    "totalGames": 208
   },
   "summary": {
     "totalTeams": 9,
-    "totalGames": 200,
-    "completedGames": 181,
-    "upcomingGames": 19,
+    "totalGames": 208,
+    "completedGames": 184,
+    "upcomingGames": 24,
     "topTeam": {
       "team": "Bradford Tigers 12U AA",
       "teamCode": "617946",
@@ -5823,6 +6228,6 @@
       "date": "Mon, May 18",
       "location": "Lampman Lane"
     },
-    "lastUpdated": "2026-08-11T11:17:43.678Z"
+    "lastUpdated": "2026-08-11T13:15:47.672Z"
   }
 }

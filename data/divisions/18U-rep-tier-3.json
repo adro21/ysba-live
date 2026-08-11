@@ -2,6 +2,24 @@
   "standings": {
     "teams": [
       {
+        "position": 1,
+        "team": "Stayner 18U C",
+        "teamCode": "617169",
+        "record": {
+          "gamesPlayed": 18,
+          "wins": 12,
+          "losses": 5,
+          "ties": 1,
+          "winPercentage": "0.694"
+        },
+        "stats": {
+          "points": 25,
+          "runsFor": 145,
+          "runsAgainst": 92,
+          "runDifferential": 53
+        }
+      },
+      {
         "position": 2,
         "team": "Barrie Baycats 18U A",
         "teamCode": "612795",
@@ -35,24 +53,6 @@
           "runsFor": 127,
           "runsAgainst": 61,
           "runDifferential": 66
-        }
-      },
-      {
-        "position": 1,
-        "team": "Stayner 18U C",
-        "teamCode": "617169",
-        "record": {
-          "gamesPlayed": 18,
-          "wins": 12,
-          "losses": 5,
-          "ties": 1,
-          "winPercentage": "0.694"
-        },
-        "stats": {
-          "points": 25,
-          "runsFor": 145,
-          "runsAgainst": 92,
-          "runDifferential": 53
         }
       },
       {
@@ -200,7 +200,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-08-11T11:16:27.065Z",
+    "lastUpdated": "2026-08-11T13:14:32.967Z",
     "totalTeams": 11
   },
   "schedule": {
@@ -208,27 +208,11 @@
       "612794": {
         "teamCode": "612794",
         "totalGames": 18,
-        "playedGames": 17,
+        "playedGames": 18,
         "upcomingGames": 0,
         "recentGames": [
           {
-            "date": null,
-            "dateText": "Sun, Jul 12",
-            "time": "4:00 PM",
-            "homeTeam": "Orillia 18U B",
-            "homeTeamCode": "618388",
-            "awayTeam": "Barrie Baycats 17U A",
-            "awayTeamCode": "612794",
-            "location": "Tudhope Park Jerry Udell Diamond, 450 Atherley Road Orillia",
-            "isCompleted": true,
-            "score": {
-              "home": 2,
-              "away": 0,
-              "scoreText": "0-2"
-            }
-          },
-          {
-            "date": null,
+            "date": "2026-07-14T23:30:00.000Z",
             "dateText": "Tue, Jul 14",
             "time": "7:30 PM",
             "homeTeam": "Barrie Baycats 17U A",
@@ -244,7 +228,19 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-16T23:00:00.000Z",
+            "dateText": "Thu, Jul 16",
+            "time": "7:00 PM",
+            "homeTeam": "Orangeville Bengals 18U B",
+            "homeTeamCode": "618025",
+            "awayTeam": "Barrie Baycats 17U A",
+            "awayTeamCode": "612794",
+            "location": "Princess of Wales Park, 2 Saxon Street Orangeville",
+            "isCompleted": false,
+            "score": null
+          },
+          {
+            "date": "2026-07-20T23:30:00.000Z",
             "dateText": "Mon, Jul 20",
             "time": "7:30 PM",
             "homeTeam": "Barrie Baycats 17U A",
@@ -260,7 +256,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-22T22:30:00.000Z",
             "dateText": "Wed, Jul 22",
             "time": "6:30 PM",
             "homeTeam": "Barrie Baycats 17U A",
@@ -276,7 +272,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-23T23:30:00.000Z",
             "dateText": "Thu, Jul 23",
             "time": "7:30 PM",
             "homeTeam": "Barrie Baycats 17U A",
@@ -293,32 +289,16 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-11T11:16:29.776Z"
+        "lastUpdated": "2026-08-11T13:14:35.648Z"
       },
       "612795": {
         "teamCode": "612795",
         "totalGames": 18,
-        "playedGames": 15,
+        "playedGames": 18,
         "upcomingGames": 0,
         "recentGames": [
           {
-            "date": null,
-            "dateText": "Thu, Jul 2",
-            "time": "7:30 PM",
-            "homeTeam": "Barrie Baycats 17U A",
-            "homeTeamCode": "612794",
-            "awayTeam": "Barrie Baycats 18U A",
-            "awayTeamCode": "612795",
-            "location": "Dana field at the sports complex (2100 Nursery Road, Minesing)",
-            "isCompleted": true,
-            "score": {
-              "home": 11,
-              "away": 1,
-              "scoreText": "1-11"
-            }
-          },
-          {
-            "date": null,
+            "date": "2026-07-08T23:30:00.000Z",
             "dateText": "Wed, Jul 8",
             "time": "7:30 PM",
             "homeTeam": "Barrie Baycats 18U A",
@@ -334,7 +314,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-15T00:30:00.000Z",
             "dateText": "Tue, Jul 14",
             "time": "8:30 PM",
             "homeTeam": "Orillia 18U B",
@@ -350,7 +330,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-18T21:00:00.000Z",
             "dateText": "Sat, Jul 18",
             "time": "5:00 PM",
             "homeTeam": "Muskoka Hornets 18U A",
@@ -366,7 +346,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-20T22:00:00.000Z",
             "dateText": "Mon, Jul 20",
             "time": "6:00 PM",
             "homeTeam": "Barrie Baycats 18U A",
@@ -380,10 +360,22 @@
               "away": 4,
               "scoreText": "4-9"
             }
+          },
+          {
+            "date": "2026-07-22T23:30:00.000Z",
+            "dateText": "Wed, Jul 22",
+            "time": "7:30 PM",
+            "homeTeam": "Barrie Baycats 18U A",
+            "homeTeamCode": "612795",
+            "awayTeam": "Orillia 18U B",
+            "awayTeamCode": "618388",
+            "location": "Athletic Kulture Stadium aka \"The Stadium\", Barrie Community Sports Complex, 2100 Nursery Road, Minesing, ON",
+            "isCompleted": false,
+            "score": null
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-11T11:16:29.776Z"
+        "lastUpdated": "2026-08-11T13:14:35.648Z"
       },
       "617169": {
         "teamCode": "617169",
@@ -392,7 +384,7 @@
         "upcomingGames": 0,
         "recentGames": [
           {
-            "date": null,
+            "date": "2026-07-22T22:30:00.000Z",
             "dateText": "Wed, Jul 22",
             "time": "6:30 PM",
             "homeTeam": "Barrie Baycats 17U A",
@@ -408,7 +400,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-24T23:00:00.000Z",
             "dateText": "Fri, Jul 24",
             "time": "7:00 PM",
             "homeTeam": "Bradford Tigers 18U A - Team 2",
@@ -424,7 +416,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-25T15:00:00.000Z",
             "dateText": "Sat, Jul 25",
             "time": "11:00 AM",
             "homeTeam": "Stayner 18U C",
@@ -440,7 +432,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-27T00:30:00.000Z",
             "dateText": "Sun, Jul 26",
             "time": "8:30 PM",
             "homeTeam": "Innisfil Cardinals 18U B",
@@ -456,7 +448,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-28T22:00:00.000Z",
             "dateText": "Tue, Jul 28",
             "time": "6:00 PM",
             "homeTeam": "Stayner 18U C",
@@ -473,32 +465,28 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-11T11:16:29.776Z"
+        "lastUpdated": "2026-08-11T13:14:35.648Z"
       },
       "617951": {
         "teamCode": "617951",
         "totalGames": 18,
-        "playedGames": 16,
+        "playedGames": 18,
         "upcomingGames": 0,
         "recentGames": [
           {
-            "date": null,
-            "dateText": "Sat, Jun 27",
-            "time": "1:00 PM",
-            "homeTeam": "Collingwood Jays 18U A",
-            "homeTeamCode": "618012",
-            "awayTeam": "Bradford Tigers 18U A - Team 1",
-            "awayTeamCode": "617951",
-            "location": "Large Heritage Park 451 third street Collingwood (Between 2nd and third)",
-            "isCompleted": true,
-            "score": {
-              "home": 4,
-              "away": 7,
-              "scoreText": "7-4"
-            }
+            "date": "2026-06-30T00:00:00.000Z",
+            "dateText": "Mon, Jun 29",
+            "time": "8:00 PM",
+            "homeTeam": "Bradford Tigers 18U A - Team 1",
+            "homeTeamCode": "617951",
+            "awayTeam": "Barrie Baycats 18U A",
+            "awayTeamCode": "612795",
+            "location": "Joe Magani Park, 3541 Concession road 11, Bradford, Diamond 4",
+            "isCompleted": false,
+            "score": null
           },
           {
-            "date": null,
+            "date": "2026-07-08T00:30:00.000Z",
             "dateText": "Tue, Jul 7",
             "time": "8:30 PM",
             "homeTeam": "Innisfil Cardinals 18U B",
@@ -514,7 +502,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-10T00:00:00.000Z",
             "dateText": "Thu, Jul 9",
             "time": "8:00 PM",
             "homeTeam": "Bradford Tigers 18U A - Team 2",
@@ -530,7 +518,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-14T00:00:00.000Z",
             "dateText": "Mon, Jul 13",
             "time": "8:00 PM",
             "homeTeam": "Bradford Tigers 18U A - Team 1",
@@ -546,7 +534,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-23T23:30:00.000Z",
             "dateText": "Thu, Jul 23",
             "time": "7:30 PM",
             "homeTeam": "Barrie Baycats 17U A",
@@ -563,16 +551,16 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-11T11:16:29.776Z"
+        "lastUpdated": "2026-08-11T13:14:35.648Z"
       },
       "618012": {
         "teamCode": "618012",
         "totalGames": 18,
-        "playedGames": 15,
+        "playedGames": 18,
         "upcomingGames": 0,
         "recentGames": [
           {
-            "date": null,
+            "date": "2026-06-29T23:00:00.000Z",
             "dateText": "Mon, Jun 29",
             "time": "7:00 PM",
             "homeTeam": "Orangeville Bengals 18U B",
@@ -588,7 +576,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-02T22:00:00.000Z",
             "dateText": "Thu, Jul 2",
             "time": "6:00 PM",
             "homeTeam": "Stayner 18U C",
@@ -604,7 +592,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-05T17:00:00.000Z",
             "dateText": "Sun, Jul 5",
             "time": "1:00 PM",
             "homeTeam": "Collingwood Jays 18U A",
@@ -620,7 +608,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-05T20:00:00.000Z",
             "dateText": "Sun, Jul 5",
             "time": "4:00 PM",
             "homeTeam": "Collingwood Jays 18U A",
@@ -636,7 +624,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-20T22:00:00.000Z",
             "dateText": "Mon, Jul 20",
             "time": "6:00 PM",
             "homeTeam": "Barrie Baycats 18U A",
@@ -653,32 +641,16 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-11T11:16:29.776Z"
+        "lastUpdated": "2026-08-11T13:14:35.648Z"
       },
       "618025": {
         "teamCode": "618025",
         "totalGames": 18,
-        "playedGames": 15,
+        "playedGames": 18,
         "upcomingGames": 0,
         "recentGames": [
           {
-            "date": null,
-            "dateText": "Tue, Jun 30",
-            "time": "8:30 PM",
-            "homeTeam": "Innisfil Cardinals 18U B",
-            "homeTeamCode": "618049",
-            "awayTeam": "Orangeville Bengals 18U B",
-            "awayTeamCode": "618025",
-            "location": "7315 Yonge St, Innisfil ON L9S 2M6, North Diamond",
-            "isCompleted": true,
-            "score": {
-              "home": 9,
-              "away": 1,
-              "scoreText": "1-9"
-            }
-          },
-          {
-            "date": null,
+            "date": "2026-07-02T23:00:00.000Z",
             "dateText": "Thu, Jul 2",
             "time": "7:00 PM",
             "homeTeam": "Orangeville Bengals 18U B",
@@ -694,7 +666,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-08T23:30:00.000Z",
             "dateText": "Wed, Jul 8",
             "time": "7:30 PM",
             "homeTeam": "Barrie Baycats 18U A",
@@ -710,7 +682,19 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-16T23:00:00.000Z",
+            "dateText": "Thu, Jul 16",
+            "time": "7:00 PM",
+            "homeTeam": "Orangeville Bengals 18U B",
+            "homeTeamCode": "618025",
+            "awayTeam": "Barrie Baycats 17U A",
+            "awayTeamCode": "612794",
+            "location": "Princess of Wales Park, 2 Saxon Street Orangeville",
+            "isCompleted": false,
+            "score": null
+          },
+          {
+            "date": "2026-07-21T00:30:00.000Z",
             "dateText": "Mon, Jul 20",
             "time": "8:30 PM",
             "homeTeam": "TNT Thunder 18U B",
@@ -726,7 +710,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-23T23:00:00.000Z",
             "dateText": "Thu, Jul 23",
             "time": "7:00 PM",
             "homeTeam": "Orangeville Bengals 18U B",
@@ -743,16 +727,16 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-11T11:16:29.776Z"
+        "lastUpdated": "2026-08-11T13:14:35.648Z"
       },
       "618049": {
         "teamCode": "618049",
         "totalGames": 18,
-        "playedGames": 16,
+        "playedGames": 18,
         "upcomingGames": 0,
         "recentGames": [
           {
-            "date": null,
+            "date": "2026-07-15T00:30:00.000Z",
             "dateText": "Tue, Jul 14",
             "time": "8:30 PM",
             "homeTeam": "Innisfil Cardinals 18U B",
@@ -768,7 +752,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-20T23:30:00.000Z",
             "dateText": "Mon, Jul 20",
             "time": "7:30 PM",
             "homeTeam": "Barrie Baycats 17U A",
@@ -784,7 +768,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-23T23:00:00.000Z",
             "dateText": "Thu, Jul 23",
             "time": "7:00 PM",
             "homeTeam": "Orangeville Bengals 18U B",
@@ -800,7 +784,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-27T00:30:00.000Z",
             "dateText": "Sun, Jul 26",
             "time": "8:30 PM",
             "homeTeam": "Innisfil Cardinals 18U B",
@@ -816,7 +800,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-28T22:00:00.000Z",
             "dateText": "Tue, Jul 28",
             "time": "6:00 PM",
             "homeTeam": "Stayner 18U C",
@@ -833,7 +817,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-11T11:16:29.776Z"
+        "lastUpdated": "2026-08-11T13:14:35.648Z"
       },
       "618063": {
         "teamCode": "618063",
@@ -842,7 +826,7 @@
         "upcomingGames": 0,
         "recentGames": [
           {
-            "date": null,
+            "date": "2026-07-04T17:00:00.000Z",
             "dateText": "Sat, Jul 4",
             "time": "1:00 PM",
             "homeTeam": "Muskoka Hornets 18U A",
@@ -858,7 +842,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-07T00:30:00.000Z",
             "dateText": "Mon, Jul 6",
             "time": "8:30 PM",
             "homeTeam": "TNT Thunder 18U B",
@@ -874,7 +858,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-14T00:30:00.000Z",
             "dateText": "Mon, Jul 13",
             "time": "8:30 PM",
             "homeTeam": "TNT Thunder 18U B",
@@ -890,7 +874,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-15T00:30:00.000Z",
             "dateText": "Tue, Jul 14",
             "time": "8:30 PM",
             "homeTeam": "Innisfil Cardinals 18U B",
@@ -906,7 +890,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-21T00:30:00.000Z",
             "dateText": "Mon, Jul 20",
             "time": "8:30 PM",
             "homeTeam": "TNT Thunder 18U B",
@@ -923,32 +907,16 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-11T11:16:29.776Z"
+        "lastUpdated": "2026-08-11T13:14:35.648Z"
       },
       "618388": {
         "teamCode": "618388",
         "totalGames": 18,
-        "playedGames": 16,
+        "playedGames": 18,
         "upcomingGames": 0,
         "recentGames": [
           {
-            "date": null,
-            "dateText": "Sun, Jul 12",
-            "time": "4:00 PM",
-            "homeTeam": "Orillia 18U B",
-            "homeTeamCode": "618388",
-            "awayTeam": "Barrie Baycats 17U A",
-            "awayTeamCode": "612794",
-            "location": "Tudhope Park Jerry Udell Diamond, 450 Atherley Road Orillia",
-            "isCompleted": true,
-            "score": {
-              "home": 2,
-              "away": 0,
-              "scoreText": "0-2"
-            }
-          },
-          {
-            "date": null,
+            "date": "2026-07-14T00:00:00.000Z",
             "dateText": "Mon, Jul 13",
             "time": "8:00 PM",
             "homeTeam": "Bradford Tigers 18U A - Team 1",
@@ -964,7 +932,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-15T00:30:00.000Z",
             "dateText": "Tue, Jul 14",
             "time": "8:30 PM",
             "homeTeam": "Orillia 18U B",
@@ -980,7 +948,19 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-22T23:30:00.000Z",
+            "dateText": "Wed, Jul 22",
+            "time": "7:30 PM",
+            "homeTeam": "Barrie Baycats 18U A",
+            "homeTeamCode": "612795",
+            "awayTeam": "Orillia 18U B",
+            "awayTeamCode": "618388",
+            "location": "Athletic Kulture Stadium aka \"The Stadium\", Barrie Community Sports Complex, 2100 Nursery Road, Minesing, ON",
+            "isCompleted": false,
+            "score": null
+          },
+          {
+            "date": "2026-07-25T18:00:00.000Z",
             "dateText": "Sat, Jul 25",
             "time": "2:00 PM",
             "homeTeam": "Orillia 18U B",
@@ -996,7 +976,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-25T20:30:00.000Z",
             "dateText": "Sat, Jul 25",
             "time": "4:30 PM",
             "homeTeam": "Orillia 18U B",
@@ -1013,16 +993,16 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-11T11:16:29.776Z"
+        "lastUpdated": "2026-08-11T13:14:35.648Z"
       },
       "625723": {
         "teamCode": "625723",
         "totalGames": 18,
-        "playedGames": 17,
+        "playedGames": 18,
         "upcomingGames": 0,
         "recentGames": [
           {
-            "date": null,
+            "date": "2026-07-10T00:00:00.000Z",
             "dateText": "Thu, Jul 9",
             "time": "8:00 PM",
             "homeTeam": "Bradford Tigers 18U A - Team 2",
@@ -1038,7 +1018,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-24T00:00:00.000Z",
             "dateText": "Thu, Jul 23",
             "time": "8:00 PM",
             "homeTeam": "Bradford Tigers 18U A - Team 2",
@@ -1054,7 +1034,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-24T23:00:00.000Z",
             "dateText": "Fri, Jul 24",
             "time": "7:00 PM",
             "homeTeam": "Bradford Tigers 18U A - Team 2",
@@ -1070,7 +1050,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-25T18:00:00.000Z",
             "dateText": "Sat, Jul 25",
             "time": "2:00 PM",
             "homeTeam": "Orillia 18U B",
@@ -1086,7 +1066,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-25T20:30:00.000Z",
             "dateText": "Sat, Jul 25",
             "time": "4:30 PM",
             "homeTeam": "Orillia 18U B",
@@ -1103,16 +1083,16 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-11T11:16:29.776Z"
+        "lastUpdated": "2026-08-11T13:14:35.648Z"
       },
       "628939": {
         "teamCode": "628939",
         "totalGames": 18,
-        "playedGames": 17,
+        "playedGames": 18,
         "upcomingGames": 0,
         "recentGames": [
           {
-            "date": null,
+            "date": "2026-07-05T17:00:00.000Z",
             "dateText": "Sun, Jul 5",
             "time": "1:00 PM",
             "homeTeam": "Collingwood Jays 18U A",
@@ -1128,7 +1108,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-14T23:30:00.000Z",
             "dateText": "Tue, Jul 14",
             "time": "7:30 PM",
             "homeTeam": "Barrie Baycats 17U A",
@@ -1144,7 +1124,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-18T21:00:00.000Z",
             "dateText": "Sat, Jul 18",
             "time": "5:00 PM",
             "homeTeam": "Muskoka Hornets 18U A",
@@ -1160,7 +1140,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-24T00:00:00.000Z",
             "dateText": "Thu, Jul 23",
             "time": "8:00 PM",
             "homeTeam": "Bradford Tigers 18U A - Team 2",
@@ -1176,7 +1156,7 @@
             }
           },
           {
-            "date": null,
+            "date": "2026-07-25T15:00:00.000Z",
             "dateText": "Sat, Jul 25",
             "time": "11:00 AM",
             "homeTeam": "Stayner 18U C",
@@ -1193,12 +1173,12 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-11T11:16:29.776Z"
+        "lastUpdated": "2026-08-11T13:14:35.648Z"
       }
     },
     "allGames": [
       {
-        "date": null,
+        "date": "2026-05-06T00:00:00.000Z",
         "dateText": "Tue, May 5",
         "time": "8:00 PM",
         "homeTeam": "Orillia 18U B",
@@ -1214,7 +1194,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-06T23:30:00.000Z",
         "dateText": "Wed, May 6",
         "time": "7:30 PM",
         "homeTeam": "Barrie Baycats 18U A",
@@ -1230,7 +1210,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-07T23:30:00.000Z",
         "dateText": "Thu, May 7",
         "time": "7:30 PM",
         "homeTeam": "Barrie Baycats 17U A",
@@ -1246,7 +1226,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-09T17:00:00.000Z",
         "dateText": "Sat, May 9",
         "time": "1:00 PM",
         "homeTeam": "Stayner 18U C",
@@ -1262,7 +1242,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-12T00:00:00.000Z",
         "dateText": "Mon, May 11",
         "time": "8:00 PM",
         "homeTeam": "Bradford Tigers 18U A - Team 1",
@@ -1274,7 +1254,7 @@
         "score": null
       },
       {
-        "date": null,
+        "date": "2026-05-15T00:00:00.000Z",
         "dateText": "Thu, May 14",
         "time": "8:00 PM",
         "homeTeam": "Bradford Tigers 18U A - Team 2",
@@ -1290,7 +1270,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-17T20:00:00.000Z",
         "dateText": "Sun, May 17",
         "time": "4:00 PM",
         "homeTeam": "Collingwood Jays 18U A",
@@ -1306,7 +1286,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-17T21:00:00.000Z",
         "dateText": "Sun, May 17",
         "time": "5:00 PM",
         "homeTeam": "Muskoka Hornets 18U A",
@@ -1322,7 +1302,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-18T22:00:00.000Z",
         "dateText": "Mon, May 18",
         "time": "6:00 PM",
         "homeTeam": "TNT Thunder 18U B",
@@ -1338,7 +1318,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-19T00:00:00.000Z",
         "dateText": "Mon, May 18",
         "time": "8:00 PM",
         "homeTeam": "Bradford Tigers 18U A - Team 1",
@@ -1354,7 +1334,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-20T00:30:00.000Z",
         "dateText": "Tue, May 19",
         "time": "8:30 PM",
         "homeTeam": "Innisfil Cardinals 18U B",
@@ -1366,7 +1346,7 @@
         "score": null
       },
       {
-        "date": null,
+        "date": "2026-05-20T23:30:00.000Z",
         "dateText": "Wed, May 20",
         "time": "7:30 PM",
         "homeTeam": "Barrie Baycats 18U A",
@@ -1382,7 +1362,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-21T23:30:00.000Z",
         "dateText": "Thu, May 21",
         "time": "7:30 PM",
         "homeTeam": "Barrie Baycats 17U A",
@@ -1398,7 +1378,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-27T00:30:00.000Z",
         "dateText": "Tue, May 26",
         "time": "8:30 PM",
         "homeTeam": "Innisfil Cardinals 18U B",
@@ -1414,7 +1394,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-27T22:00:00.000Z",
         "dateText": "Wed, May 27",
         "time": "6:00 PM",
         "homeTeam": "Stayner 18U C",
@@ -1430,7 +1410,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-28T23:00:00.000Z",
         "dateText": "Thu, May 28",
         "time": "7:00 PM",
         "homeTeam": "Orangeville Bengals 18U B",
@@ -1446,7 +1426,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-29T00:00:00.000Z",
         "dateText": "Thu, May 28",
         "time": "8:00 PM",
         "homeTeam": "Bradford Tigers 18U A - Team 2",
@@ -1462,7 +1442,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-30T21:00:00.000Z",
         "dateText": "Sat, May 30",
         "time": "5:00 PM",
         "homeTeam": "Muskoka Hornets 18U A",
@@ -1478,7 +1458,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-31T15:00:00.000Z",
         "dateText": "Sun, May 31",
         "time": "11:00 AM",
         "homeTeam": "Muskoka Hornets 18U A",
@@ -1494,7 +1474,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-31T17:00:00.000Z",
         "dateText": "Sun, May 31",
         "time": "1:00 PM",
         "homeTeam": "Barrie Baycats 17U A",
@@ -1510,7 +1490,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-31T17:30:00.000Z",
         "dateText": "Sun, May 31",
         "time": "1:30 PM",
         "homeTeam": "Muskoka Hornets 18U A",
@@ -1526,7 +1506,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-05-31T20:00:00.000Z",
         "dateText": "Sun, May 31",
         "time": "4:00 PM",
         "homeTeam": "Collingwood Jays 18U A",
@@ -1542,7 +1522,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-01T23:30:00.000Z",
         "dateText": "Mon, Jun 1",
         "time": "7:30 PM",
         "homeTeam": "Barrie Baycats 18U A",
@@ -1558,7 +1538,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-02T00:00:00.000Z",
         "dateText": "Mon, Jun 1",
         "time": "8:00 PM",
         "homeTeam": "Bradford Tigers 18U A - Team 1",
@@ -1574,7 +1554,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-03T00:00:00.000Z",
         "dateText": "Tue, Jun 2",
         "time": "8:00 PM",
         "homeTeam": "Orillia 18U B",
@@ -1590,7 +1570,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-03T00:30:00.000Z",
         "dateText": "Tue, Jun 2",
         "time": "8:30 PM",
         "homeTeam": "Innisfil Cardinals 18U B",
@@ -1606,7 +1586,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-03T22:00:00.000Z",
         "dateText": "Wed, Jun 3",
         "time": "6:00 PM",
         "homeTeam": "Stayner 18U C",
@@ -1622,7 +1602,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-03T23:30:00.000Z",
         "dateText": "Wed, Jun 3",
         "time": "7:30 PM",
         "homeTeam": "Barrie Baycats 18U A",
@@ -1638,7 +1618,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-05T00:30:00.000Z",
         "dateText": "Thu, Jun 4",
         "time": "8:30 PM",
         "homeTeam": "Orillia 18U B",
@@ -1654,7 +1634,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-09T00:00:00.000Z",
         "dateText": "Mon, Jun 8",
         "time": "8:00 PM",
         "homeTeam": "Bradford Tigers 18U A - Team 1",
@@ -1670,7 +1650,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-09T00:30:00.000Z",
         "dateText": "Mon, Jun 8",
         "time": "8:30 PM",
         "homeTeam": "TNT Thunder 18U B",
@@ -1686,7 +1666,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-10T00:30:00.000Z",
         "dateText": "Tue, Jun 9",
         "time": "8:30 PM",
         "homeTeam": "Innisfil Cardinals 18U B",
@@ -1698,7 +1678,7 @@
         "score": null
       },
       {
-        "date": null,
+        "date": "2026-06-10T00:30:00.000Z",
         "dateText": "Tue, Jun 9",
         "time": "8:30 PM",
         "homeTeam": "Orillia 18U B",
@@ -1714,7 +1694,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-10T23:00:00.000Z",
         "dateText": "Wed, Jun 10",
         "time": "7:00 PM",
         "homeTeam": "Orangeville Bengals 18U B",
@@ -1726,7 +1706,7 @@
         "score": null
       },
       {
-        "date": null,
+        "date": "2026-06-10T23:30:00.000Z",
         "dateText": "Wed, Jun 10",
         "time": "7:30 PM",
         "homeTeam": "Barrie Baycats 18U A",
@@ -1742,7 +1722,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-11T23:30:00.000Z",
         "dateText": "Thu, Jun 11",
         "time": "7:30 PM",
         "homeTeam": "Barrie Baycats 17U A",
@@ -1758,7 +1738,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-12T00:00:00.000Z",
         "dateText": "Thu, Jun 11",
         "time": "8:00 PM",
         "homeTeam": "Bradford Tigers 18U A - Team 2",
@@ -1774,7 +1754,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-12T22:30:00.000Z",
         "dateText": "Fri, Jun 12",
         "time": "6:30 PM",
         "homeTeam": "Collingwood Jays 18U A",
@@ -1790,7 +1770,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-14T20:00:00.000Z",
         "dateText": "Sun, Jun 14",
         "time": "4:00 PM",
         "homeTeam": "Collingwood Jays 18U A",
@@ -1802,7 +1782,7 @@
         "score": null
       },
       {
-        "date": null,
+        "date": "2026-06-16T00:00:00.000Z",
         "dateText": "Mon, Jun 15",
         "time": "8:00 PM",
         "homeTeam": "Bradford Tigers 18U A - Team 1",
@@ -1818,7 +1798,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-16T00:30:00.000Z",
         "dateText": "Mon, Jun 15",
         "time": "8:30 PM",
         "homeTeam": "TNT Thunder 18U B",
@@ -1834,7 +1814,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-17T22:00:00.000Z",
         "dateText": "Wed, Jun 17",
         "time": "6:00 PM",
         "homeTeam": "Stayner 18U C",
@@ -1850,7 +1830,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-17T23:30:00.000Z",
         "dateText": "Wed, Jun 17",
         "time": "7:30 PM",
         "homeTeam": "Barrie Baycats 18U A",
@@ -1866,7 +1846,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-18T23:00:00.000Z",
         "dateText": "Thu, Jun 18",
         "time": "7:00 PM",
         "homeTeam": "Orangeville Bengals 18U B",
@@ -1878,7 +1858,7 @@
         "score": null
       },
       {
-        "date": null,
+        "date": "2026-06-20T15:00:00.000Z",
         "dateText": "Sat, Jun 20",
         "time": "11:00 AM",
         "homeTeam": "Muskoka Hornets 18U A",
@@ -1894,7 +1874,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-20T16:00:00.000Z",
         "dateText": "Sat, Jun 20",
         "time": "12:00 PM",
         "homeTeam": "Bradford Tigers 18U A - Team 2",
@@ -1910,7 +1890,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-20T18:00:00.000Z",
         "dateText": "Sat, Jun 20",
         "time": "2:00 PM",
         "homeTeam": "Bradford Tigers 18U A - Team 1",
@@ -1926,7 +1906,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-21T20:00:00.000Z",
         "dateText": "Sun, Jun 21",
         "time": "4:00 PM",
         "homeTeam": "Collingwood Jays 18U A",
@@ -1942,7 +1922,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-21T23:00:00.000Z",
         "dateText": "Sun, Jun 21",
         "time": "7:00 PM",
         "homeTeam": "Orangeville Bengals 18U B",
@@ -1958,7 +1938,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-22T00:30:00.000Z",
         "dateText": "Sun, Jun 21",
         "time": "8:30 PM",
         "homeTeam": "Innisfil Cardinals 18U B",
@@ -1974,7 +1954,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-23T00:00:00.000Z",
         "dateText": "Mon, Jun 22",
         "time": "8:00 PM",
         "homeTeam": "Bradford Tigers 18U A - Team 1",
@@ -1990,7 +1970,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-23T00:30:00.000Z",
         "dateText": "Mon, Jun 22",
         "time": "8:30 PM",
         "homeTeam": "TNT Thunder 18U B",
@@ -2006,7 +1986,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-24T22:00:00.000Z",
         "dateText": "Wed, Jun 24",
         "time": "6:00 PM",
         "homeTeam": "Stayner 18U C",
@@ -2022,7 +2002,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-27T15:00:00.000Z",
         "dateText": "Sat, Jun 27",
         "time": "11:00 AM",
         "homeTeam": "Orangeville Bengals 18U B",
@@ -2038,7 +2018,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-27T16:00:00.000Z",
         "dateText": "Sat, Jun 27",
         "time": "12:00 PM",
         "homeTeam": "Bradford Tigers 18U A - Team 2",
@@ -2054,7 +2034,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-27T17:00:00.000Z",
         "dateText": "Sat, Jun 27",
         "time": "1:00 PM",
         "homeTeam": "Collingwood Jays 18U A",
@@ -2070,7 +2050,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-27T18:00:00.000Z",
         "dateText": "Sat, Jun 27",
         "time": "2:00 PM",
         "homeTeam": "Muskoka Hornets 18U A",
@@ -2086,7 +2066,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-28T20:00:00.000Z",
         "dateText": "Sun, Jun 28",
         "time": "4:00 PM",
         "homeTeam": "Collingwood Jays 18U A",
@@ -2102,7 +2082,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-28T21:00:00.000Z",
         "dateText": "Sun, Jun 28",
         "time": "5:00 PM",
         "homeTeam": "Muskoka Hornets 18U A",
@@ -2118,7 +2098,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-29T23:00:00.000Z",
         "dateText": "Mon, Jun 29",
         "time": "7:00 PM",
         "homeTeam": "Orangeville Bengals 18U B",
@@ -2134,7 +2114,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-06-30T00:00:00.000Z",
         "dateText": "Mon, Jun 29",
         "time": "8:00 PM",
         "homeTeam": "Bradford Tigers 18U A - Team 1",
@@ -2146,7 +2126,7 @@
         "score": null
       },
       {
-        "date": null,
+        "date": "2026-06-30T00:30:00.000Z",
         "dateText": "Mon, Jun 29",
         "time": "8:30 PM",
         "homeTeam": "TNT Thunder 18U B",
@@ -2162,7 +2142,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-01T00:30:00.000Z",
         "dateText": "Tue, Jun 30",
         "time": "8:30 PM",
         "homeTeam": "Innisfil Cardinals 18U B",
@@ -2178,7 +2158,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-02T22:00:00.000Z",
         "dateText": "Thu, Jul 2",
         "time": "6:00 PM",
         "homeTeam": "Stayner 18U C",
@@ -2194,7 +2174,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-02T23:00:00.000Z",
         "dateText": "Thu, Jul 2",
         "time": "7:00 PM",
         "homeTeam": "Orangeville Bengals 18U B",
@@ -2210,7 +2190,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-02T23:30:00.000Z",
         "dateText": "Thu, Jul 2",
         "time": "7:30 PM",
         "homeTeam": "Barrie Baycats 17U A",
@@ -2226,7 +2206,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-03T00:00:00.000Z",
         "dateText": "Thu, Jul 2",
         "time": "8:00 PM",
         "homeTeam": "Bradford Tigers 18U A - Team 2",
@@ -2242,7 +2222,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-04T15:00:00.000Z",
         "dateText": "Sat, Jul 4",
         "time": "11:00 AM",
         "homeTeam": "TNT Thunder 18U B",
@@ -2258,7 +2238,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-04T17:00:00.000Z",
         "dateText": "Sat, Jul 4",
         "time": "1:00 PM",
         "homeTeam": "Muskoka Hornets 18U A",
@@ -2274,7 +2254,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-04T18:00:00.000Z",
         "dateText": "Sat, Jul 4",
         "time": "2:00 PM",
         "homeTeam": "Stayner 18U C",
@@ -2290,7 +2270,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-05T17:00:00.000Z",
         "dateText": "Sun, Jul 5",
         "time": "1:00 PM",
         "homeTeam": "Collingwood Jays 18U A",
@@ -2306,7 +2286,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-05T20:00:00.000Z",
         "dateText": "Sun, Jul 5",
         "time": "4:00 PM",
         "homeTeam": "Collingwood Jays 18U A",
@@ -2322,7 +2302,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-07T00:30:00.000Z",
         "dateText": "Mon, Jul 6",
         "time": "8:30 PM",
         "homeTeam": "TNT Thunder 18U B",
@@ -2338,7 +2318,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-08T00:30:00.000Z",
         "dateText": "Tue, Jul 7",
         "time": "8:30 PM",
         "homeTeam": "Innisfil Cardinals 18U B",
@@ -2354,7 +2334,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-08T23:30:00.000Z",
         "dateText": "Wed, Jul 8",
         "time": "7:30 PM",
         "homeTeam": "Barrie Baycats 18U A",
@@ -2370,7 +2350,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-10T00:00:00.000Z",
         "dateText": "Thu, Jul 9",
         "time": "8:00 PM",
         "homeTeam": "Bradford Tigers 18U A - Team 2",
@@ -2386,7 +2366,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-12T17:00:00.000Z",
         "dateText": "Sun, Jul 12",
         "time": "1:00 PM",
         "homeTeam": "Orillia 18U B",
@@ -2402,7 +2382,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-12T20:00:00.000Z",
         "dateText": "Sun, Jul 12",
         "time": "4:00 PM",
         "homeTeam": "Orillia 18U B",
@@ -2418,7 +2398,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-14T00:00:00.000Z",
         "dateText": "Mon, Jul 13",
         "time": "8:00 PM",
         "homeTeam": "Bradford Tigers 18U A - Team 1",
@@ -2434,7 +2414,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-14T00:30:00.000Z",
         "dateText": "Mon, Jul 13",
         "time": "8:30 PM",
         "homeTeam": "TNT Thunder 18U B",
@@ -2450,7 +2430,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-14T23:30:00.000Z",
         "dateText": "Tue, Jul 14",
         "time": "7:30 PM",
         "homeTeam": "Barrie Baycats 17U A",
@@ -2466,7 +2446,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-15T00:30:00.000Z",
         "dateText": "Tue, Jul 14",
         "time": "8:30 PM",
         "homeTeam": "Orillia 18U B",
@@ -2482,7 +2462,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-15T00:30:00.000Z",
         "dateText": "Tue, Jul 14",
         "time": "8:30 PM",
         "homeTeam": "Innisfil Cardinals 18U B",
@@ -2498,7 +2478,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-16T23:00:00.000Z",
         "dateText": "Thu, Jul 16",
         "time": "7:00 PM",
         "homeTeam": "Orangeville Bengals 18U B",
@@ -2510,7 +2490,7 @@
         "score": null
       },
       {
-        "date": null,
+        "date": "2026-07-18T21:00:00.000Z",
         "dateText": "Sat, Jul 18",
         "time": "5:00 PM",
         "homeTeam": "Muskoka Hornets 18U A",
@@ -2526,7 +2506,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-20T22:00:00.000Z",
         "dateText": "Mon, Jul 20",
         "time": "6:00 PM",
         "homeTeam": "Barrie Baycats 18U A",
@@ -2542,7 +2522,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-20T23:30:00.000Z",
         "dateText": "Mon, Jul 20",
         "time": "7:30 PM",
         "homeTeam": "Barrie Baycats 17U A",
@@ -2558,7 +2538,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-21T00:30:00.000Z",
         "dateText": "Mon, Jul 20",
         "time": "8:30 PM",
         "homeTeam": "TNT Thunder 18U B",
@@ -2574,7 +2554,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-22T22:30:00.000Z",
         "dateText": "Wed, Jul 22",
         "time": "6:30 PM",
         "homeTeam": "Barrie Baycats 17U A",
@@ -2590,7 +2570,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-22T23:30:00.000Z",
         "dateText": "Wed, Jul 22",
         "time": "7:30 PM",
         "homeTeam": "Barrie Baycats 18U A",
@@ -2602,7 +2582,7 @@
         "score": null
       },
       {
-        "date": null,
+        "date": "2026-07-23T23:00:00.000Z",
         "dateText": "Thu, Jul 23",
         "time": "7:00 PM",
         "homeTeam": "Orangeville Bengals 18U B",
@@ -2618,7 +2598,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-23T23:30:00.000Z",
         "dateText": "Thu, Jul 23",
         "time": "7:30 PM",
         "homeTeam": "Barrie Baycats 17U A",
@@ -2634,7 +2614,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-24T00:00:00.000Z",
         "dateText": "Thu, Jul 23",
         "time": "8:00 PM",
         "homeTeam": "Bradford Tigers 18U A - Team 2",
@@ -2650,7 +2630,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-24T23:00:00.000Z",
         "dateText": "Fri, Jul 24",
         "time": "7:00 PM",
         "homeTeam": "Bradford Tigers 18U A - Team 2",
@@ -2666,7 +2646,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-25T15:00:00.000Z",
         "dateText": "Sat, Jul 25",
         "time": "11:00 AM",
         "homeTeam": "Stayner 18U C",
@@ -2682,7 +2662,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-25T18:00:00.000Z",
         "dateText": "Sat, Jul 25",
         "time": "2:00 PM",
         "homeTeam": "Orillia 18U B",
@@ -2698,7 +2678,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-25T20:30:00.000Z",
         "dateText": "Sat, Jul 25",
         "time": "4:30 PM",
         "homeTeam": "Orillia 18U B",
@@ -2714,7 +2694,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-27T00:30:00.000Z",
         "dateText": "Sun, Jul 26",
         "time": "8:30 PM",
         "homeTeam": "Innisfil Cardinals 18U B",
@@ -2730,7 +2710,7 @@
         }
       },
       {
-        "date": null,
+        "date": "2026-07-28T22:00:00.000Z",
         "dateText": "Tue, Jul 28",
         "time": "6:00 PM",
         "homeTeam": "Stayner 18U C",
@@ -2748,78 +2728,126 @@
     ],
     "recentGames": [
       {
-        "date": null,
-        "dateText": "Tue, May 5",
-        "time": "8:00 PM",
+        "date": "2026-07-28T22:00:00.000Z",
+        "dateText": "Tue, Jul 28",
+        "time": "6:00 PM",
+        "homeTeam": "Stayner 18U C",
+        "homeTeamCode": "617169",
+        "awayTeam": "Innisfil Cardinals 18U B",
+        "awayTeamCode": "618049",
+        "location": "5212 County Rd 9, New Lowell, ON L0M 1N0",
+        "isCompleted": true,
+        "score": {
+          "home": 5,
+          "away": 6,
+          "scoreText": "6-5"
+        }
+      },
+      {
+        "date": "2026-07-27T00:30:00.000Z",
+        "dateText": "Sun, Jul 26",
+        "time": "8:30 PM",
+        "homeTeam": "Innisfil Cardinals 18U B",
+        "homeTeamCode": "618049",
+        "awayTeam": "Stayner 18U C",
+        "awayTeamCode": "617169",
+        "location": "7315 Yonge St, Innisfil ON L9S 2M6, North Diamond",
+        "isCompleted": true,
+        "score": {
+          "home": 2,
+          "away": 9,
+          "scoreText": "9-2"
+        }
+      },
+      {
+        "date": "2026-07-25T20:30:00.000Z",
+        "dateText": "Sat, Jul 25",
+        "time": "4:30 PM",
         "homeTeam": "Orillia 18U B",
         "homeTeamCode": "618388",
-        "awayTeam": "Orangeville Bengals 18U B",
-        "awayTeamCode": "618025",
+        "awayTeam": "Bradford Tigers 18U A - Team 2",
+        "awayTeamCode": "625723",
         "location": "Tudhope Park Jerry Udell Diamond, 450 Atherley Road Orillia",
         "isCompleted": true,
         "score": {
-          "home": 10,
-          "away": 1,
-          "scoreText": "1-10"
+          "home": 6,
+          "away": 3,
+          "scoreText": "3-6"
         }
       },
       {
-        "date": null,
-        "dateText": "Wed, May 6",
-        "time": "7:30 PM",
-        "homeTeam": "Barrie Baycats 18U A",
-        "homeTeamCode": "612795",
-        "awayTeam": "Bradford Tigers 18U A - Team 1",
-        "awayTeamCode": "617951",
-        "location": "Athletic Kulture Stadium aka \"The Stadium\", Barrie Community Sports Complex, 2100 Nursery Road, Minesing, ON",
+        "date": "2026-07-25T18:00:00.000Z",
+        "dateText": "Sat, Jul 25",
+        "time": "2:00 PM",
+        "homeTeam": "Orillia 18U B",
+        "homeTeamCode": "618388",
+        "awayTeam": "Bradford Tigers 18U A - Team 2",
+        "awayTeamCode": "625723",
+        "location": "Tudhope Park Jerry Udell Diamond, 450 Atherley Road Orillia",
+        "isCompleted": true,
+        "score": {
+          "home": 3,
+          "away": 2,
+          "scoreText": "2-3"
+        }
+      },
+      {
+        "date": "2026-07-25T15:00:00.000Z",
+        "dateText": "Sat, Jul 25",
+        "time": "11:00 AM",
+        "homeTeam": "Stayner 18U C",
+        "homeTeamCode": "617169",
+        "awayTeam": "Muskoka Hornets 18U A",
+        "awayTeamCode": "628939",
+        "location": "31 Edward St E, Creemore, ON L0M 1G0",
         "isCompleted": true,
         "score": {
           "home": 4,
-          "away": 2,
-          "scoreText": "2-4"
+          "away": 1,
+          "scoreText": "1-4"
         }
       },
       {
-        "date": null,
-        "dateText": "Thu, May 7",
-        "time": "7:30 PM",
-        "homeTeam": "Barrie Baycats 17U A",
-        "homeTeamCode": "612794",
-        "awayTeam": "Bradford Tigers 18U A - Team 2",
-        "awayTeamCode": "625723",
-        "location": "Dana field at the sports complex (2100 Nursery Road, Minesing)",
+        "date": "2026-07-24T23:00:00.000Z",
+        "dateText": "Fri, Jul 24",
+        "time": "7:00 PM",
+        "homeTeam": "Bradford Tigers 18U A - Team 2",
+        "homeTeamCode": "625723",
+        "awayTeam": "Stayner 18U C",
+        "awayTeamCode": "617169",
+        "location": "Joe Magani Park, 3541 Concession road 11, Bradford, Diamond 5",
         "isCompleted": true,
         "score": {
-          "home": 13,
-          "away": 2,
-          "scoreText": "2-13"
+          "home": 7,
+          "away": 11,
+          "scoreText": "11-7"
         }
       },
       {
-        "date": null,
-        "dateText": "Sat, May 9",
-        "time": "1:00 PM",
-        "homeTeam": "Stayner 18U C",
-        "homeTeamCode": "617169",
-        "awayTeam": "Barrie Baycats 17U A",
-        "awayTeamCode": "612794",
-        "location": "5212 County Road 9, New Lowell.",
-        "isCompleted": true,
-        "score": {
-          "home": 8,
-          "away": 5,
-          "scoreText": "5-8"
-        }
-      },
-      {
-        "date": null,
-        "dateText": "Thu, May 14",
+        "date": "2026-07-24T00:00:00.000Z",
+        "dateText": "Thu, Jul 23",
         "time": "8:00 PM",
         "homeTeam": "Bradford Tigers 18U A - Team 2",
         "homeTeamCode": "625723",
-        "awayTeam": "TNT Thunder 18U B",
-        "awayTeamCode": "618063",
+        "awayTeam": "Muskoka Hornets 18U A",
+        "awayTeamCode": "628939",
         "location": "Joe Magani Park, 3541 Concession road 11, Bradford, Diamond 5",
+        "isCompleted": true,
+        "score": {
+          "home": 13,
+          "away": 14,
+          "scoreText": "14-13"
+        }
+      },
+      {
+        "date": "2026-07-23T23:30:00.000Z",
+        "dateText": "Thu, Jul 23",
+        "time": "7:30 PM",
+        "homeTeam": "Barrie Baycats 17U A",
+        "homeTeamCode": "612794",
+        "awayTeam": "Bradford Tigers 18U A - Team 1",
+        "awayTeamCode": "617951",
+        "location": "Dana field at the sports complex (2100 Nursery Road, Minesing)",
         "isCompleted": true,
         "score": {
           "home": 5,
@@ -2828,88 +2856,36 @@
         }
       },
       {
-        "date": null,
-        "dateText": "Sun, May 17",
-        "time": "4:00 PM",
-        "homeTeam": "Collingwood Jays 18U A",
-        "homeTeamCode": "618012",
-        "awayTeam": "Stayner 18U C",
-        "awayTeamCode": "617169",
-        "location": "Large Heritage Park 451 third street Collingwood (Between 2nd and third)",
-        "isCompleted": true,
-        "score": {
-          "home": 7,
-          "away": 18,
-          "scoreText": "18-7"
-        }
-      },
-      {
-        "date": null,
-        "dateText": "Sun, May 17",
-        "time": "5:00 PM",
-        "homeTeam": "Muskoka Hornets 18U A",
-        "homeTeamCode": "628939",
-        "awayTeam": "Bradford Tigers 18U A - Team 2",
-        "awayTeamCode": "625723",
-        "location": "McCulley Robertson Sports Complex, 300 Williams St, Huntsville,ON",
-        "isCompleted": true,
-        "score": {
-          "home": 11,
-          "away": 14,
-          "scoreText": "14-11"
-        }
-      },
-      {
-        "date": null,
-        "dateText": "Mon, May 18",
-        "time": "6:00 PM",
-        "homeTeam": "TNT Thunder 18U B",
-        "homeTeamCode": "618063",
+        "date": "2026-07-23T23:00:00.000Z",
+        "dateText": "Thu, Jul 23",
+        "time": "7:00 PM",
+        "homeTeam": "Orangeville Bengals 18U B",
+        "homeTeamCode": "618025",
         "awayTeam": "Innisfil Cardinals 18U B",
         "awayTeamCode": "618049",
-        "location": "Beeton Diamond at 72 Prospect St. Beeton",
+        "location": "Princess of Wales Park, 2 Saxon Street Orangeville",
         "isCompleted": true,
         "score": {
-          "home": 15,
-          "away": 11,
-          "scoreText": "11-15"
+          "home": 1,
+          "away": 9,
+          "scoreText": "9-1"
         }
       },
       {
-        "date": null,
-        "dateText": "Mon, May 18",
-        "time": "8:00 PM",
-        "homeTeam": "Bradford Tigers 18U A - Team 1",
-        "homeTeamCode": "617951",
-        "awayTeam": "Bradford Tigers 18U A - Team 2",
-        "awayTeamCode": "625723",
-        "location": "Joe Magani Park, 3541 Concession road 11, Bradford, Diamond 4",
-        "isCompleted": true,
-        "score": {
-          "home": 10,
-          "away": 2,
-          "scoreText": "2-10"
-        }
-      },
-      {
-        "date": null,
-        "dateText": "Wed, May 20",
+        "date": "2026-07-22T23:30:00.000Z",
+        "dateText": "Wed, Jul 22",
         "time": "7:30 PM",
         "homeTeam": "Barrie Baycats 18U A",
         "homeTeamCode": "612795",
-        "awayTeam": "Muskoka Hornets 18U A",
-        "awayTeamCode": "628939",
+        "awayTeam": "Orillia 18U B",
+        "awayTeamCode": "618388",
         "location": "Athletic Kulture Stadium aka \"The Stadium\", Barrie Community Sports Complex, 2100 Nursery Road, Minesing, ON",
-        "isCompleted": true,
-        "score": {
-          "home": 6,
-          "away": 0,
-          "scoreText": "0-6"
-        }
+        "isCompleted": false,
+        "score": null
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-08-11T11:16:29.776Z",
+    "lastUpdated": "2026-08-11T13:14:35.648Z",
     "totalGames": 99
   },
   "summary": {
@@ -2933,6 +2909,6 @@
       "date": "Thu, Jul 23",
       "location": "Joe Magani Park, 3541 Concession road 11, Bradford, Diamond 5"
     },
-    "lastUpdated": "2026-08-11T11:17:43.678Z"
+    "lastUpdated": "2026-08-11T13:15:47.672Z"
   }
 }

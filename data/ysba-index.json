@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-11T12:10:34.468Z",
-  "totalDivisions": 4,
+  "lastUpdated": "2026-08-11T13:15:47.672Z",
+  "totalDivisions": 9,
   "divisions": {
     "8U": {
       "displayName": "8U",
@@ -26,6 +26,11 @@
           "key": "rep-tier-3",
           "teams": 9,
           "games": 135
+        },
+        {
+          "key": "select-all-tiers",
+          "teams": 14,
+          "games": 112
         }
       ]
     },
@@ -37,6 +42,11 @@
           "key": "rep-tier-3",
           "teams": 16,
           "games": 152
+        },
+        {
+          "key": "interlock-all-tiers",
+          "teams": 14,
+          "games": 147
         }
       ]
     },
@@ -47,7 +57,97 @@
         {
           "key": "rep-tier-2",
           "teams": 10,
-          "games": 0
+          "games": 204
+        },
+        {
+          "key": "rep-tier-3",
+          "teams": 13,
+          "games": 204
+        },
+        {
+          "key": "select-all-tiers",
+          "teams": 11,
+          "games": 88
+        },
+        {
+          "key": "interlock-all-tiers",
+          "teams": 12,
+          "games": 106
+        }
+      ]
+    },
+    "12U": {
+      "displayName": "12U",
+      "shortName": "12U",
+      "tiers": [
+        {
+          "key": "rep-tier-2",
+          "teams": 9,
+          "games": 208
+        },
+        {
+          "key": "rep-tier-3",
+          "teams": 17,
+          "games": 208
+        }
+      ]
+    },
+    "13U": {
+      "displayName": "13U",
+      "shortName": "13U",
+      "tiers": [
+        {
+          "key": "rep-tier-2",
+          "teams": 7,
+          "games": 172
+        },
+        {
+          "key": "rep-tier-3",
+          "teams": 11,
+          "games": 172
+        },
+        {
+          "key": "select-all-tiers",
+          "teams": 15,
+          "games": 120
+        }
+      ]
+    },
+    "14U": {
+      "displayName": "14U",
+      "shortName": "14U",
+      "tiers": [
+        {
+          "key": "rep-tier-2",
+          "teams": 7,
+          "games": 204
+        },
+        {
+          "key": "rep-tier-3",
+          "teams": 15,
+          "games": 204
+        }
+      ]
+    },
+    "15U": {
+      "displayName": "15U",
+      "shortName": "15U",
+      "tiers": [
+        {
+          "key": "select-all-tiers",
+          "teams": 5,
+          "games": 40
+        }
+      ]
+    },
+    "18U": {
+      "displayName": "18U",
+      "shortName": "18U",
+      "tiers": [
+        {
+          "key": "rep-tier-3",
+          "teams": 11,
+          "games": 99
         }
       ]
     }
