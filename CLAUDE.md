@@ -20,6 +20,9 @@ npm run test-worker   # Test worker locally (same as start-worker)
 
 ### Testing & Debugging
 ```bash
+# Run the unit test suite (node:test, no framework deps)
+npm test
+
 # Test API endpoints
 curl "http://localhost:3000/api/status"
 curl "http://localhost:3000/api/divisions?filterEmpty=true"
@@ -27,7 +30,20 @@ curl "http://localhost:3000/api/standings?division=9U-select&tier=all-tiers"
 
 # Enable debug mode in browser console
 localStorage.setItem('debugMode', 'true')
+
+# Targeted local scraper run (see warning below about .env keys)
+SENDGRID_API_KEY= OPENAI_API_KEY= NODE_ENV=production \
+  SCRAPER_ONLY_DIVISIONS="8U-rep,10U-interlock" \
+  node scripts/github-action-scraper.js
 ```
+
+**⚠️ Local scraper runs**: `.env` contains real SendGrid/OpenAI keys. Always blank
+them (`SENDGRID_API_KEY= OPENAI_API_KEY=`) when running the scraper locally —
+a stale local dataset makes the change detector see huge standings "changes"
+and it will email real subscribers. Env knobs: `SCRAPER_ONLY_DIVISIONS`
+(comma-separated division filter) and `SCRAPER_TIMEOUT_MS` (script budget;
+useful because macOS throttles backgrounded processes and can stretch
+wall-clock time far past the default 12-minute cap).
 
 ## Architecture Overview
 
@@ -49,7 +65,9 @@ The application now includes a background worker system (`src/scraper/`) that:
 
 **`scripts/github-action-scraper.js`** - GitHub Actions worker that orchestrates scraping, change detection, emails, and story generation
 
-**`src/scraper/scraper.js`** - Modular Puppeteer-based scraping engine (extracted from original scraper.js)
+**`src/scraper/scraper.js`** - Modular Puppeteer-based scraping engine (extracted from original scraper.js). Two invariants worth knowing:
+- Game timestamps are attached **in Node** by `YSBAScraper.attachGameDates` (ET-anchored via `buildEasternDate`) after `page.evaluate` extraction — helpers defined in Node scope do not exist inside the browser context, and calling them there fails silently (this once nulled every game date for months).
+- The schedule is an ASP.NET DataGrid paged at 100 rows; `gotoSchedulePage` walks every numeric pager link with proper `waitForNavigation` (each click is a full postback), and `dedupeGames` drops exact repeats. Never hardcode pager control IDs like `dgGrid$ctl104$ctl02`.
 
 **`src/scraper/interlock-scraper.js`** - HTTP-only scraper for the Toronto Baseball Association "Rep Interlock" league. Mirrors `YSBAScraper`'s public interface (`scrapeStandingsForDivision`, `scrapeScheduleForDivision`) but reads from the TeamSnap Tournaments public JSON API instead of driving Puppeteer. Selected automatically by `github-action-scraper.js` and `worker.js` whenever a division has `source: 'interlock'` in `config.js`.
 
@@ -108,6 +126,18 @@ Scraping operations use `withBrowserSession()` to coordinate Puppeteer instances
 - Sends email notifications for standings changes
 - Generates new stories when story-worthy events occur (first wins, hot streaks, etc.)
 - Generates JSON files that the application serves
+- **Merge-on-write (never wipe)**: freshly scraped data is merged over the
+  previously committed dataset (`GitHubActionScraper.mergeFormattedData` /
+  `mergeAPIData`). Divisions that fail or are skipped keep their
+  last-known-good standings and schedules; a tier whose standings succeeded
+  but whose schedule scrape failed keeps its previous schedule. A partial run
+  can therefore never remove divisions from the site.
+- **Session reset on failure**: the orchestrator's `withTimeout` abandons but
+  cannot cancel a Puppeteer operation, and `YSBAScraper.withBrowserSession`
+  runs a single-file queue — so an abandoned op would otherwise starve every
+  later division into 45s timeouts (a cascade that trips the circuit
+  breaker). After any division/schedule failure the orchestrator calls
+  `scraper.resetSession()`, which rejects queued ops and kills the browser.
 - **Circuit breaker**: After 3 consecutive scrape failures, assumes the YSBA site is down and exits gracefully (code 0) to avoid GitHub Actions failure emails. Previous data files remain valid.
 
 ## Key API Endpoints
@@ -130,8 +160,8 @@ Scraping operations use `withBrowserSession()` to coordinate Puppeteer instances
 
 ### Modifying Scraping Logic
 1. Update `src/scraper/scraper.js` - modify Puppeteer selectors/logic
-2. Test locally with `npm run test-worker` or `npm run test-scraper`
-3. Deploy changes to trigger GitHub Actions scraping
+2. Run `npm test`, then do a targeted live run with `SCRAPER_ONLY_DIVISIONS` (blank the `.env` keys — see Testing & Debugging above)
+3. Push to main — the workflow has a push trigger on `src/scraper/**`, so a full CI scrape starts immediately and commits regenerated data
 
 ### Frontend Changes
 1. Main logic in `public/js/app.js`
