@@ -22,8 +22,10 @@ const config = require('../config');
 const fs = require('fs').promises;
 const path = require('path');
 
-// Maximum time for the entire script (10 minutes to leave buffer for git operations)
-const SCRIPT_TIMEOUT_MS = 10 * 60 * 1000;
+// Maximum time for the entire script (12 minutes; the GitHub job allows 15,
+// leaving buffer for git operations). Overridable for local debugging where
+// macOS background throttling can stretch wall-clock time.
+const SCRIPT_TIMEOUT_MS = parseInt(process.env.SCRAPER_TIMEOUT_MS, 10) || 12 * 60 * 1000;
 // Time to reserve for file writing and cleanup (60 seconds)
 const RESERVED_TIME_MS = 60 * 1000;
 // Maximum time for a single division scrape - standings only (45 seconds)
@@ -85,6 +87,9 @@ class GitHubActionScraper {
       let successCount = 0;
       let errorCount = 0;
       const errors = [];
+      // `${division}-${tier}` combos whose standings succeeded but whose
+      // schedule scrape failed — their previous schedule is preserved.
+      const scheduleFailedKeys = new Set();
 
       // Scrape each division with circuit breaker and time budget
       for (let i = 0; i < divisionsToScrape.length; i++) {
@@ -142,7 +147,12 @@ class GitHubActionScraper {
             );
           } catch (scheduleError) {
             console.log(`⚠️  ${progress} Schedule failed for ${division}/${tier}, continuing with standings only: ${scheduleError.message}`);
-            // Continue without schedule data - standings are more important
+            scheduleFailedKeys.add(`${division}-${tier}`);
+            // The abandoned schedule operation may still occupy the browser
+            // queue; reset so it can't starve the next division.
+            if (scraperForDivision === this.scraper) {
+              await this.scraper.resetSession(`schedule failure for ${division}/${tier}`);
+            }
           }
 
           const divisionKey = `${division}-${tier}`;
@@ -166,6 +176,14 @@ class GitHubActionScraper {
           errors.push({ division, tier, error: error.message });
           console.error(`❌ ${progress} ${division}/${tier} failed:`, error.message);
 
+          // A timed-out scrape is abandoned, not cancelled — it still
+          // occupies the single-file browser queue. Without a reset, every
+          // subsequent division queues behind it, times out in turn, and
+          // the circuit breaker aborts the whole run.
+          if (this.getScraperFor(division) === this.scraper) {
+            await this.scraper.resetSession(`failure on ${division}/${tier}`);
+          }
+
           // Check circuit breaker threshold
           if (this.consecutiveFailures >= CIRCUIT_BREAKER_THRESHOLD) {
             console.error(`\n⚡ CIRCUIT BREAKER TRIPPED: ${CIRCUIT_BREAKER_THRESHOLD} consecutive failures`);
@@ -180,12 +198,31 @@ class GitHubActionScraper {
 
       if (successCount > 0) {
         console.log('\n📝 Processing and writing data files...');
-        
+
         // Format the data
-        const formattedData = this.formatter.formatYSBAData(allDivisionData);
-        const apiData = this.formatter.formatForAPI(allDivisionData);
-        const dashboardData = this.formatter.generateDashboardSummary(allDivisionData);
-        
+        let formattedData = this.formatter.formatYSBAData(allDivisionData);
+        let apiData = this.formatter.formatForAPI(allDivisionData);
+
+        // Merge over the previously committed dataset so failed/skipped
+        // divisions keep their last-known-good data instead of being wiped.
+        const previousFormatted = await this.writer.readExistingData('ysba.json');
+        const previousApi = await this.writer.readExistingData('ysba-api.json');
+        if (previousFormatted) {
+          const before = Object.keys(allDivisionData).length;
+          formattedData = GitHubActionScraper.mergeFormattedData(formattedData, previousFormatted, scheduleFailedKeys);
+          const after = formattedData.metadata.totalDivisions;
+          if (after > before) {
+            console.log(`🛟 Carried forward ${after - before} division/tier combos from previous data`);
+          }
+        }
+        if (previousApi) {
+          apiData = GitHubActionScraper.mergeAPIData(apiData, previousApi, scheduleFailedKeys);
+        }
+
+        const dashboardData = this.formatter.generateDashboardSummary(
+          GitHubActionScraper.toRawLikeDivisionData(formattedData)
+        );
+
         // Write all output files
         await Promise.all([
           this.writer.writeYSBAData(formattedData),
@@ -202,19 +239,13 @@ class GitHubActionScraper {
           })
         ]);
         
-        // Write individual division files
+        // Write individual division files from the merged dataset so
+        // carried-forward divisions stay consistent with ysba.json.
         console.log('📁 Writing individual division files...');
-        for (const [divisionKey, data] of Object.entries(allDivisionData)) {
-          const [division, ...tierParts] = divisionKey.split('-');
-          const tier = tierParts.join('-');
-          
-          const divisionFormatted = {
-            standings: this.formatter.formatStandings(data.standings, data.schedule),
-            schedule: this.formatter.formatSchedule(data.schedule),
-            summary: this.formatter.generateDivisionSummary(data.standings, data.schedule)
-          };
-          
-          await this.writer.writeDivisionData(division, tier, divisionFormatted);
+        for (const [division, divisionData] of Object.entries(formattedData.divisions)) {
+          for (const [tier, tierData] of Object.entries(divisionData.tiers || {})) {
+            await this.writer.writeDivisionData(division, tier, tierData);
+          }
         }
         
         // Create optimized files
@@ -317,6 +348,103 @@ class GitHubActionScraper {
     }
   }
 
+  // Merge freshly scraped formatted data over the previously committed
+  // dataset so divisions that failed or were skipped this run keep their
+  // last-known-good data instead of being wiped from ysba.json.
+  // scheduleFailedKeys holds `${division}-${tier}` combos whose standings
+  // succeeded but whose schedule scrape failed; their previous schedule is
+  // preserved rather than overwritten with an empty error stub.
+  static mergeFormattedData(newData, previousData, scheduleFailedKeys = new Set()) {
+    const prevDivisions = previousData?.divisions || {};
+    const merged = {
+      ...newData,
+      metadata: { ...newData.metadata },
+      divisions: {}
+    };
+
+    for (const [divKey, prevDiv] of Object.entries(prevDivisions)) {
+      merged.divisions[divKey] = { ...prevDiv, tiers: { ...prevDiv.tiers } };
+    }
+    for (const [divKey, newDiv] of Object.entries(newData.divisions || {})) {
+      const existing = merged.divisions[divKey];
+      merged.divisions[divKey] = {
+        ...newDiv,
+        tiers: { ...(existing?.tiers || {}), ...newDiv.tiers }
+      };
+    }
+
+    for (const key of scheduleFailedKeys) {
+      const division = key.split('-')[0];
+      const tier = key.substring(division.length + 1);
+      const prevTier = prevDivisions[division]?.tiers?.[tier];
+      const mergedTier = merged.divisions[division]?.tiers?.[tier];
+      const prevSchedule = prevTier?.schedule;
+      if (!mergedTier || !prevSchedule || prevSchedule.error) continue;
+
+      merged.divisions[division].tiers[tier] = {
+        ...mergedTier,
+        schedule: prevSchedule,
+        summary: {
+          ...mergedTier.summary,
+          totalGames: prevTier.summary?.totalGames ?? prevSchedule.totalGames ?? 0,
+          completedGames: prevTier.summary?.completedGames ?? 0,
+          upcomingGames: prevTier.summary?.upcomingGames ?? 0,
+          highestScoringGame: prevTier.summary?.highestScoringGame ?? null
+        }
+      };
+    }
+
+    merged.metadata.totalDivisions = Object.values(merged.divisions)
+      .reduce((sum, div) => sum + Object.keys(div.tiers || {}).length, 0);
+
+    return merged;
+  }
+
+  // Same carry-forward logic for the lightweight API file.
+  static mergeAPIData(newApi, previousApi, scheduleFailedKeys = new Set()) {
+    const prevDivisions = previousApi?.divisions || {};
+    const merged = { ...newApi, divisions: {} };
+
+    for (const [divKey, tiers] of Object.entries(prevDivisions)) {
+      merged.divisions[divKey] = { ...tiers };
+    }
+    for (const [divKey, tiers] of Object.entries(newApi.divisions || {})) {
+      merged.divisions[divKey] = { ...(merged.divisions[divKey] || {}), ...tiers };
+    }
+
+    for (const key of scheduleFailedKeys) {
+      const division = key.split('-')[0];
+      const tier = key.substring(division.length + 1);
+      const prevTier = prevDivisions[division]?.[tier];
+      const mergedTier = merged.divisions[division]?.[tier];
+      if (!prevTier || !mergedTier) continue;
+
+      merged.divisions[division][tier] = {
+        ...mergedTier,
+        recentGames: prevTier.recentGames || [],
+        nextGames: prevTier.nextGames || []
+      };
+    }
+
+    return merged;
+  }
+
+  // Adapt merged formatted data back into the `${division}-${tier}` keyed
+  // shape generateDashboardSummary expects, so dashboard totals cover
+  // carried-forward divisions too.
+  static toRawLikeDivisionData(formattedData) {
+    const rawLike = {};
+    for (const [division, divisionData] of Object.entries(formattedData.divisions || {})) {
+      for (const [tier, tierData] of Object.entries(divisionData.tiers || {})) {
+        rawLike[`${division}-${tier}`] = {
+          standings: { teams: tierData.standings?.teams || [] },
+          schedule: { allGames: tierData.schedule?.allGames || [] }
+        };
+      }
+    }
+    return rawLike;
+  }
+
   // Pick the right scraper for a division. Interlock divisions have
   // source: 'interlock' in config and use the TeamSnap public API.
   getScraperFor(division) {
@@ -329,13 +457,20 @@ class GitHubActionScraper {
 
   getDivisionsToScrape() {
     const divisions = [];
-    
+
+    // Optional comma-separated division filter for local debugging,
+    // e.g. SCRAPER_ONLY_DIVISIONS="8U-rep,10U-interlock"
+    const only = process.env.SCRAPER_ONLY_DIVISIONS
+      ? new Set(process.env.SCRAPER_ONLY_DIVISIONS.split(',').map(s => s.trim()))
+      : null;
+
     for (const [divisionKey, divisionConfig] of Object.entries(config.DIVISIONS)) {
+      if (only && !only.has(divisionKey)) continue;
       for (const tierKey of Object.keys(divisionConfig.tiers)) {
         divisions.push({ division: divisionKey, tier: tierKey });
       }
     }
-    
+
     return divisions;
   }
 

@@ -74,6 +74,81 @@ class YSBAScraper {
     this.maxConsecutiveErrors = 2;
   }
 
+  // Anchor scraped wall-clock date/time strings to America/Toronto and
+  // attach ISO timestamps. Runs in Node (page.evaluate can't see
+  // buildEasternDate, so date parsing must happen after extraction).
+  static attachGameDates(games) {
+    const currentYear = new Date().getFullYear();
+    return games.map(game => {
+      const dateText = game.dateText;
+      if (!dateText || dateText === '-') {
+        return { ...game, date: null };
+      }
+
+      let fullDateText = dateText;
+      if (!dateText.includes(String(currentYear)) && !dateText.includes(String(currentYear + 1))) {
+        fullDateText = `${dateText}, ${currentYear}`;
+      }
+
+      const timeText = game.time && game.time !== '-' ? game.time : null;
+      let gameDate = buildEasternDate(fullDateText, timeText);
+      if (!gameDate || isNaN(gameDate.getTime())) {
+        // Permissive fallback so we don't drop the game outright
+        const fallback = new Date(fullDateText);
+        gameDate = isNaN(fallback.getTime()) ? null : fallback;
+      }
+
+      return { ...game, date: gameDate ? gameDate.toISOString() : null };
+    });
+  }
+
+  // Drop exact repeats (same date, time, and matchup) that can appear if a
+  // pager postback races the extraction. Doubleheaders differ by time and
+  // are kept.
+  static dedupeGames(games) {
+    const seen = new Set();
+    return games.filter(game => {
+      const key = [game.dateText, game.time, game.homeTeamCode, game.awayTeamCode].join('|');
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+  }
+
+  // Reject everything still waiting in the session queue and drop the
+  // browser. Called by the orchestrator when it abandons a timed-out
+  // operation: the stale op still occupies the single-file queue, and
+  // without a reset every later division would starve behind it.
+  async resetSession(reason = 'timeout') {
+    const pending = this.browserOperationQueue.splice(0, this.browserOperationQueue.length);
+    for (const entry of pending) {
+      entry.reject(new Error(`Browser session reset (${reason}): ${entry.operationName} cancelled`));
+    }
+    if (pending.length > 0) {
+      console.log(`🔄 Session reset: cancelled ${pending.length} queued operation(s)`);
+    }
+    if (this.browser) {
+      const browser = this.browser;
+      this.browser = null;
+      try {
+        // close() can wedge behind a stuck navigation; don't let the reset
+        // itself stall the run.
+        await Promise.race([
+          browser.close().catch(() => {}),
+          new Promise(resolve => setTimeout(resolve, 5000))
+        ]);
+      } catch (e) {
+        // Ignore close errors
+      }
+      try {
+        browser.process()?.kill('SIGKILL');
+      } catch (e) {
+        // Already gone
+      }
+    }
+    this.consecutiveBrowserErrors = 0;
+  }
+
   // Force restart the browser if it's in a bad state
   async restartBrowser() {
     console.log('🔄 Restarting browser due to errors...');
@@ -442,23 +517,24 @@ class YSBAScraper {
         console.log('Extracting games from page 1...');
         let allGames = await this.extractGamesFromPage(page);
 
-        // Check for pagination
+        // The schedule is an ASP.NET DataGrid paged at 100 rows. Walk every
+        // numeric pager link (each click is a full postback) instead of the
+        // old hardcoded page-2 control, which silently truncated divisions
+        // with 200+ games and raced the postback.
+        const MAX_SCHEDULE_PAGES = 12;
         try {
-          const page2Link = await page.$('a[href*="dgGrid$ctl104$ctl02"]');
-          
-          if (page2Link) {
-            console.log('Found page 2, clicking to load more games...');
-            await page2Link.click();
-            await page.waitForSelector('#dgGrid', { timeout: 10000 });
-            await this.sleep(isProduction ? 1000 : 2000);
-            
-            console.log('Extracting games from page 2...');
-            const page2Games = await this.extractGamesFromPage(page);
-            allGames = allGames.concat(page2Games);
+          for (let nextPage = 2; nextPage <= MAX_SCHEDULE_PAGES; nextPage++) {
+            const advanced = await this.gotoSchedulePage(page, nextPage);
+            if (!advanced) break;
+
+            console.log(`Extracting games from page ${nextPage}...`);
+            allGames = allGames.concat(await this.extractGamesFromPage(page));
           }
         } catch (paginationError) {
-          console.log('Error handling pagination, continuing with page 1 data:', paginationError.message);
+          console.log(`Error handling pagination, continuing with ${allGames.length} games:`, paginationError.message);
         }
+
+        allGames = YSBAScraper.dedupeGames(allGames);
 
         const processedGames = this.processAllGames(allGames);
         console.log(`✓ Successfully scraped ${allGames.length} games for ${division}/${tier}`);
@@ -471,8 +547,34 @@ class YSBAScraper {
     }, `scrape-schedule-${division}-${tier}`);
   }
 
+  // Click the numeric pager link for pageNumber inside #dgGrid and wait for
+  // the resulting postback navigation. Returns false when the link doesn't
+  // exist (i.e. we're past the last page).
+  async gotoSchedulePage(page, pageNumber) {
+    const handle = await page.evaluateHandle((target) => {
+      const table = document.getElementById('dgGrid');
+      if (!table) return null;
+      const links = Array.from(table.querySelectorAll('a[href*="__doPostBack"]'));
+      return links.find(a => a.textContent.trim() === String(target)) || null;
+    }, pageNumber);
+
+    const element = handle.asElement();
+    if (!element) {
+      await handle.dispose();
+      return false;
+    }
+
+    console.log(`Found page ${pageNumber}, clicking to load more games...`);
+    await Promise.all([
+      page.waitForNavigation({ waitUntil: 'domcontentloaded', timeout: 15000 }),
+      element.click()
+    ]);
+    await page.waitForSelector('#dgGrid', { timeout: 10000 });
+    return true;
+  }
+
   async extractGamesFromPage(page) {
-    return await page.evaluate(() => {
+    const rawGames = await page.evaluate(() => {
       const games = [];
       
       const table = document.getElementById('dgGrid');
@@ -509,31 +611,6 @@ class YSBAScraper {
 
           if (!dateText || !awayTeamInfo.code || !homeTeamInfo.code) return;
 
-          let gameDate = null;
-          try {
-            if (dateText && dateText !== '-') {
-              const currentYear = new Date().getFullYear();
-              let fullDateText = dateText;
-
-              if (!dateText.includes(currentYear.toString()) && !dateText.includes((currentYear+1).toString())) {
-                fullDateText = `${dateText}, ${currentYear}`;
-              }
-
-              // Build the timestamp anchored to America/Toronto (EDT/EST),
-              // not to whatever timezone Node thinks "local" is (UTC on CI).
-              const etDate = buildEasternDate(fullDateText, timeText !== '-' ? timeText : null);
-              if (etDate && !isNaN(etDate.getTime())) {
-                gameDate = etDate;
-              } else {
-                // Fallback to permissive parse so we don't drop the game outright
-                const tempDate = new Date(fullDateText);
-                if (!isNaN(tempDate.getTime())) gameDate = tempDate;
-              }
-            }
-          } catch (e) {
-            console.warn('Error parsing date:', dateText, e.message);
-          }
-
           let homeScore = null;
           let awayScore = null;
           let isCompleted = false;
@@ -548,7 +625,7 @@ class YSBAScraper {
           }
 
           games.push({
-            date: gameDate ? gameDate.toISOString() : null,
+            date: null, // attached in Node by attachGameDates()
             dateText: dateText,
             time: timeText,
             homeTeam: homeTeamInfo.name,
@@ -571,6 +648,10 @@ class YSBAScraper {
 
       return games;
     });
+
+    // Timestamps are anchored to America/Toronto here in Node —
+    // buildEasternDate doesn't exist inside the browser context.
+    return YSBAScraper.attachGameDates(rawGames);
   }
 
   processAllGames(allGames) {

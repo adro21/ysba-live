@@ -159,10 +159,13 @@ class DataFormatter {
       awayTeamCode: game.awayTeamCode,
       location: game.location,
       isCompleted: game.isCompleted,
+      // Accept both raw games (homeScore/awayScore) and already-formatted
+      // games (score: {home, away}) — merged data is re-formatted for the
+      // dashboard summary.
       score: game.isCompleted ? {
-        home: game.homeScore,
-        away: game.awayScore,
-        scoreText: game.scoreText
+        home: game.homeScore ?? game.score?.home ?? null,
+        away: game.awayScore ?? game.score?.away ?? null,
+        scoreText: game.scoreText ?? game.score?.scoreText ?? null
       } : null
     }));
   }

@@ -15,6 +15,7 @@
     "dev": "nodemon server-optimized.js",
     "dev-worker": "nodemon src/scraper/worker.js",
     "build": "node scripts/update-cache-version.js",
+    "test": "node --test \"test/**/*.test.js\"",
     "test-worker": "node src/scraper/worker.js",
     "test-scraper": "node scripts/github-action-scraper.js",
     "test-emails": "node test-email-notifications.js"
