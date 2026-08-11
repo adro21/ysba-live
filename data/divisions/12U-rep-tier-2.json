@@ -57,24 +57,42 @@
       },
       {
         "position": 4,
-        "team": "Barrie Baycats 12U AA",
-        "teamCode": "612783",
+        "team": "Aurora-King Jays 12U AA",
+        "teamCode": "617973",
         "record": {
-          "gamesPlayed": 13,
-          "wins": 8,
-          "losses": 5,
-          "ties": 0,
-          "winPercentage": "0.615"
+          "gamesPlayed": 15,
+          "wins": 7,
+          "losses": 6,
+          "ties": 2,
+          "winPercentage": "0.533"
         },
         "stats": {
           "points": 16,
-          "runsFor": 131,
-          "runsAgainst": 99,
-          "runDifferential": 32
+          "runsFor": 127,
+          "runsAgainst": 159,
+          "runDifferential": -32
         }
       },
       {
         "position": 5,
+        "team": "Barrie Baycats 12U AA",
+        "teamCode": "612783",
+        "record": {
+          "gamesPlayed": 14,
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "winPercentage": "0.571"
+        },
+        "stats": {
+          "points": 16,
+          "runsFor": 139,
+          "runsAgainst": 111,
+          "runDifferential": 28
+        }
+      },
+      {
+        "position": 6,
         "team": "Markham Mariners 12U AA",
         "teamCode": "617879",
         "record": {
@@ -89,24 +107,6 @@
           "runsFor": 114,
           "runsAgainst": 90,
           "runDifferential": 24
-        }
-      },
-      {
-        "position": 6,
-        "team": "Aurora-King Jays 12U AA",
-        "teamCode": "617973",
-        "record": {
-          "gamesPlayed": 14,
-          "wins": 6,
-          "losses": 6,
-          "ties": 2,
-          "winPercentage": "0.500"
-        },
-        "stats": {
-          "points": 14,
-          "runsFor": 115,
-          "runsAgainst": 151,
-          "runDifferential": -36
         }
       },
       {
@@ -164,7 +164,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-08-11T18:54:43.748Z",
+    "lastUpdated": "2026-08-11T19:59:10.312Z",
     "totalTeams": 9
   },
   "schedule": {
@@ -240,12 +240,16 @@
             "awayTeam": "Barrie Baycats 12U AA",
             "awayTeamCode": "612783",
             "location": "Hallmark Park Diamond # 1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 8,
+              "scoreText": "8-12"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-11T18:54:47.682Z"
+        "lastUpdated": "2026-08-11T19:59:13.949Z"
       },
       "612784": {
         "teamCode": "612784",
@@ -326,8 +330,12 @@
             "awayTeam": "Innisfil Cardinals 12U A",
             "awayTeamCode": "618044",
             "location": "Lampman Lane",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 5,
+              "scoreText": "5-6"
+            }
           }
         ],
         "nextGames": [
@@ -344,7 +352,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-11T18:54:47.682Z"
+        "lastUpdated": "2026-08-11T19:59:13.949Z"
       },
       "617177": {
         "teamCode": "617177",
@@ -443,7 +451,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-11T18:54:47.682Z"
+        "lastUpdated": "2026-08-11T19:59:13.949Z"
       },
       "617178": {
         "teamCode": "617178",
@@ -558,7 +566,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-11T18:54:47.682Z"
+        "lastUpdated": "2026-08-11T19:59:13.949Z"
       },
       "617204": {
         "teamCode": "617204",
@@ -657,7 +665,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-11T18:54:47.682Z"
+        "lastUpdated": "2026-08-11T19:59:13.949Z"
       },
       "617852": {
         "teamCode": "617852",
@@ -743,7 +751,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-11T18:54:47.682Z"
+        "lastUpdated": "2026-08-11T19:59:13.949Z"
       },
       "617879": {
         "teamCode": "617879",
@@ -842,7 +850,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-11T18:54:47.682Z"
+        "lastUpdated": "2026-08-11T19:59:13.949Z"
       },
       "617880": {
         "teamCode": "617880",
@@ -945,7 +953,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-11T18:54:47.682Z"
+        "lastUpdated": "2026-08-11T19:59:13.949Z"
       },
       "617906": {
         "teamCode": "617906",
@@ -1044,7 +1052,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-11T18:54:47.682Z"
+        "lastUpdated": "2026-08-11T19:59:13.949Z"
       },
       "617907": {
         "teamCode": "617907",
@@ -1134,7 +1142,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-11T18:54:47.682Z"
+        "lastUpdated": "2026-08-11T19:59:13.949Z"
       },
       "617946": {
         "teamCode": "617946",
@@ -1216,7 +1224,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-11T18:54:47.682Z"
+        "lastUpdated": "2026-08-11T19:59:13.949Z"
       },
       "617973": {
         "teamCode": "617973",
@@ -1293,12 +1301,16 @@
             "awayTeam": "Barrie Baycats 12U AA",
             "awayTeamCode": "612783",
             "location": "Hallmark Park Diamond # 1",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 8,
+              "scoreText": "8-12"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-11T18:54:47.682Z"
+        "lastUpdated": "2026-08-11T19:59:13.949Z"
       },
       "617974": {
         "teamCode": "617974",
@@ -1413,7 +1425,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-11T18:54:47.682Z"
+        "lastUpdated": "2026-08-11T19:59:13.949Z"
       },
       "617987": {
         "teamCode": "617987",
@@ -1503,7 +1515,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-11T18:54:47.682Z"
+        "lastUpdated": "2026-08-11T19:59:13.949Z"
       },
       "617988": {
         "teamCode": "617988",
@@ -1610,7 +1622,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-11T18:54:47.682Z"
+        "lastUpdated": "2026-08-11T19:59:13.949Z"
       },
       "618007": {
         "teamCode": "618007",
@@ -1713,7 +1725,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-11T18:54:47.682Z"
+        "lastUpdated": "2026-08-11T19:59:13.949Z"
       },
       "618021": {
         "teamCode": "618021",
@@ -1799,7 +1811,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-11T18:54:47.682Z"
+        "lastUpdated": "2026-08-11T19:59:13.949Z"
       },
       "618022": {
         "teamCode": "618022",
@@ -1885,7 +1897,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-11T18:54:47.682Z"
+        "lastUpdated": "2026-08-11T19:59:13.949Z"
       },
       "618044": {
         "teamCode": "618044",
@@ -1966,8 +1978,12 @@
             "awayTeam": "Innisfil Cardinals 12U A",
             "awayTeamCode": "618044",
             "location": "Lampman Lane",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 6,
+              "away": 5,
+              "scoreText": "5-6"
+            }
           }
         ],
         "nextGames": [
@@ -1984,7 +2000,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-11T18:54:47.682Z"
+        "lastUpdated": "2026-08-11T19:59:13.949Z"
       },
       "618059": {
         "teamCode": "618059",
@@ -2087,7 +2103,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-11T18:54:47.682Z"
+        "lastUpdated": "2026-08-11T19:59:13.949Z"
       },
       "618068": {
         "teamCode": "618068",
@@ -2190,7 +2206,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-11T18:54:47.682Z"
+        "lastUpdated": "2026-08-11T19:59:13.949Z"
       },
       "618383": {
         "teamCode": "618383",
@@ -2293,7 +2309,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-11T18:54:47.682Z"
+        "lastUpdated": "2026-08-11T19:59:13.949Z"
       },
       "618395": {
         "teamCode": "618395",
@@ -2383,7 +2399,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-11T18:54:47.682Z"
+        "lastUpdated": "2026-08-11T19:59:13.949Z"
       },
       "618468": {
         "teamCode": "618468",
@@ -2510,7 +2526,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-11T18:54:47.682Z"
+        "lastUpdated": "2026-08-11T19:59:13.949Z"
       },
       "625727": {
         "teamCode": "625727",
@@ -2625,7 +2641,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-11T18:54:47.682Z"
+        "lastUpdated": "2026-08-11T19:59:13.949Z"
       },
       "628934": {
         "teamCode": "628934",
@@ -2715,7 +2731,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-11T18:54:47.682Z"
+        "lastUpdated": "2026-08-11T19:59:13.949Z"
       }
     },
     "allGames": [
@@ -5764,8 +5780,12 @@
         "awayTeam": "Barrie Baycats 12U AA",
         "awayTeamCode": "612783",
         "location": "Hallmark Park Diamond # 1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 8,
+          "scoreText": "8-12"
+        }
       },
       {
         "date": "2026-08-10T22:00:00.000Z",
@@ -5808,8 +5828,12 @@
         "awayTeam": "Innisfil Cardinals 12U A",
         "awayTeamCode": "618044",
         "location": "Lampman Lane",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 5,
+          "scoreText": "5-6"
+        }
       },
       {
         "date": "2026-08-10T23:00:00.000Z",
@@ -5986,8 +6010,12 @@
         "awayTeam": "Innisfil Cardinals 12U A",
         "awayTeamCode": "618044",
         "location": "Lampman Lane",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 5,
+          "scoreText": "5-6"
+        }
       },
       {
         "date": "2026-08-10T22:00:00.000Z",
@@ -6030,8 +6058,12 @@
         "awayTeam": "Barrie Baycats 12U AA",
         "awayTeamCode": "612783",
         "location": "Hallmark Park Diamond # 1",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 8,
+          "scoreText": "8-12"
+        }
       },
       {
         "date": "2026-08-09T22:00:00.000Z",
@@ -6232,14 +6264,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2026-08-11T18:54:47.682Z",
+    "lastUpdated": "2026-08-11T19:59:13.949Z",
     "totalGames": 208
   },
   "summary": {
     "totalTeams": 9,
     "totalGames": 208,
-    "completedGames": 186,
-    "upcomingGames": 22,
+    "completedGames": 188,
+    "upcomingGames": 20,
     "topTeam": {
       "team": "Bradford Tigers 12U AA",
       "teamCode": "617946",
@@ -6256,6 +6288,6 @@
       "date": "Mon, May 18",
       "location": "Lampman Lane"
     },
-    "lastUpdated": "2026-08-11T18:58:09.936Z"
+    "lastUpdated": "2026-08-11T20:02:34.329Z"
   }
 }
