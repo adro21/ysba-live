@@ -3,6 +3,24 @@
     "teams": [
       {
         "position": 1,
+        "team": "Newmarket Hawks 12U A",
+        "teamCode": "617906",
+        "record": {
+          "gamesPlayed": 15,
+          "wins": 13,
+          "losses": 2,
+          "ties": 0,
+          "winPercentage": "0.867"
+        },
+        "stats": {
+          "points": 26,
+          "runsFor": 171,
+          "runsAgainst": 63,
+          "runDifferential": 108
+        }
+      },
+      {
+        "position": 2,
         "team": "TNT Thunder 12U A",
         "teamCode": "618059",
         "record": {
@@ -20,7 +38,7 @@
         }
       },
       {
-        "position": 2,
+        "position": 3,
         "team": "Thornhill Reds 12U A Team 1",
         "teamCode": "617987",
         "record": {
@@ -38,7 +56,7 @@
         }
       },
       {
-        "position": 3,
+        "position": 4,
         "team": "Midland Penetang Twins 12U B",
         "teamCode": "618395",
         "record": {
@@ -53,24 +71,6 @@
           "runsFor": 151,
           "runsAgainst": 125,
           "runDifferential": 26
-        }
-      },
-      {
-        "position": 4,
-        "team": "Newmarket Hawks 12U A",
-        "teamCode": "617906",
-        "record": {
-          "gamesPlayed": 14,
-          "wins": 12,
-          "losses": 2,
-          "ties": 0,
-          "winPercentage": "0.857"
-        },
-        "stats": {
-          "points": 24,
-          "runsFor": 165,
-          "runsAgainst": 60,
-          "runDifferential": 105
         }
       },
       {
@@ -168,17 +168,17 @@
         "team": "Georgina Bulldogs 12U B",
         "teamCode": "625727",
         "record": {
-          "gamesPlayed": 14,
+          "gamesPlayed": 15,
           "wins": 5,
-          "losses": 8,
+          "losses": 9,
           "ties": 1,
-          "winPercentage": "0.393"
+          "winPercentage": "0.367"
         },
         "stats": {
           "points": 11,
-          "runsFor": 124,
-          "runsAgainst": 145,
-          "runDifferential": -21
+          "runsFor": 127,
+          "runsAgainst": 151,
+          "runDifferential": -24
         }
       },
       {
@@ -308,7 +308,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-08-12T01:21:49.350Z",
+    "lastUpdated": "2026-08-12T03:36:14.447Z",
     "totalTeams": 17
   },
   "schedule": {
@@ -393,7 +393,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-12T01:21:53.050Z"
+        "lastUpdated": "2026-08-12T03:36:18.052Z"
       },
       "612784": {
         "teamCode": "612784",
@@ -496,7 +496,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-12T01:21:53.050Z"
+        "lastUpdated": "2026-08-12T03:36:18.052Z"
       },
       "617177": {
         "teamCode": "617177",
@@ -595,7 +595,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-12T01:21:53.050Z"
+        "lastUpdated": "2026-08-12T03:36:18.052Z"
       },
       "617178": {
         "teamCode": "617178",
@@ -694,7 +694,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-12T01:21:53.050Z"
+        "lastUpdated": "2026-08-12T03:36:18.052Z"
       },
       "617204": {
         "teamCode": "617204",
@@ -793,7 +793,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-12T01:21:53.050Z"
+        "lastUpdated": "2026-08-12T03:36:18.052Z"
       },
       "617852": {
         "teamCode": "617852",
@@ -879,7 +879,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-12T01:21:53.050Z"
+        "lastUpdated": "2026-08-12T03:36:18.052Z"
       },
       "617879": {
         "teamCode": "617879",
@@ -978,7 +978,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-12T01:21:53.050Z"
+        "lastUpdated": "2026-08-12T03:36:18.052Z"
       },
       "617880": {
         "teamCode": "617880",
@@ -1081,7 +1081,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-12T01:21:53.050Z"
+        "lastUpdated": "2026-08-12T03:36:18.052Z"
       },
       "617906": {
         "teamCode": "617906",
@@ -1162,12 +1162,16 @@
             "awayTeam": "Newmarket Hawks 12U A",
             "awayTeamCode": "617906",
             "location": "ROC 2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 3,
+              "away": 6,
+              "scoreText": "6-3"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-12T01:21:53.050Z"
+        "lastUpdated": "2026-08-12T03:36:18.052Z"
       },
       "617907": {
         "teamCode": "617907",
@@ -1257,7 +1261,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-12T01:21:53.050Z"
+        "lastUpdated": "2026-08-12T03:36:18.052Z"
       },
       "617946": {
         "teamCode": "617946",
@@ -1339,7 +1343,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-12T01:21:53.050Z"
+        "lastUpdated": "2026-08-12T03:36:18.052Z"
       },
       "617973": {
         "teamCode": "617973",
@@ -1425,7 +1429,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-12T01:21:53.050Z"
+        "lastUpdated": "2026-08-12T03:36:18.052Z"
       },
       "617974": {
         "teamCode": "617974",
@@ -1524,7 +1528,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-12T01:21:53.050Z"
+        "lastUpdated": "2026-08-12T03:36:18.052Z"
       },
       "617987": {
         "teamCode": "617987",
@@ -1614,7 +1618,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-12T01:21:53.050Z"
+        "lastUpdated": "2026-08-12T03:36:18.052Z"
       },
       "617988": {
         "teamCode": "617988",
@@ -1709,7 +1713,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-12T01:21:53.050Z"
+        "lastUpdated": "2026-08-12T03:36:18.052Z"
       },
       "618007": {
         "teamCode": "618007",
@@ -1799,7 +1803,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-12T01:21:53.050Z"
+        "lastUpdated": "2026-08-12T03:36:18.052Z"
       },
       "618021": {
         "teamCode": "618021",
@@ -1885,7 +1889,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-12T01:21:53.050Z"
+        "lastUpdated": "2026-08-12T03:36:18.052Z"
       },
       "618022": {
         "teamCode": "618022",
@@ -1971,7 +1975,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-12T01:21:53.050Z"
+        "lastUpdated": "2026-08-12T03:36:18.052Z"
       },
       "618044": {
         "teamCode": "618044",
@@ -2074,7 +2078,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-12T01:21:53.050Z"
+        "lastUpdated": "2026-08-12T03:36:18.052Z"
       },
       "618059": {
         "teamCode": "618059",
@@ -2177,7 +2181,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-12T01:21:53.050Z"
+        "lastUpdated": "2026-08-12T03:36:18.052Z"
       },
       "618068": {
         "teamCode": "618068",
@@ -2267,7 +2271,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-12T01:21:53.050Z"
+        "lastUpdated": "2026-08-12T03:36:18.052Z"
       },
       "618383": {
         "teamCode": "618383",
@@ -2370,7 +2374,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-12T01:21:53.050Z"
+        "lastUpdated": "2026-08-12T03:36:18.052Z"
       },
       "618395": {
         "teamCode": "618395",
@@ -2460,7 +2464,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-12T01:21:53.050Z"
+        "lastUpdated": "2026-08-12T03:36:18.052Z"
       },
       "618468": {
         "teamCode": "618468",
@@ -2571,7 +2575,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-12T01:21:53.050Z"
+        "lastUpdated": "2026-08-12T03:36:18.052Z"
       },
       "625727": {
         "teamCode": "625727",
@@ -2652,8 +2656,12 @@
             "awayTeam": "Newmarket Hawks 12U A",
             "awayTeamCode": "617906",
             "location": "ROC 2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 3,
+              "away": 6,
+              "scoreText": "6-3"
+            }
           }
         ],
         "nextGames": [
@@ -2670,7 +2678,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-12T01:21:53.050Z"
+        "lastUpdated": "2026-08-12T03:36:18.052Z"
       },
       "628934": {
         "teamCode": "628934",
@@ -2760,7 +2768,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-12T01:21:53.050Z"
+        "lastUpdated": "2026-08-12T03:36:18.052Z"
       }
     },
     "allGames": [
@@ -5929,8 +5937,12 @@
         "awayTeam": "Newmarket Hawks 12U A",
         "awayTeamCode": "617906",
         "location": "ROC 2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 3,
+          "away": 6,
+          "scoreText": "6-3"
+        }
       },
       {
         "date": "2026-08-12T22:15:00.000Z",
@@ -6027,8 +6039,12 @@
         "awayTeam": "Newmarket Hawks 12U A",
         "awayTeamCode": "617906",
         "location": "ROC 2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 3,
+          "away": 6,
+          "scoreText": "6-3"
+        }
       },
       {
         "date": "2026-08-11T22:00:00.000Z",
@@ -6253,14 +6269,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2026-08-12T01:21:53.050Z",
+    "lastUpdated": "2026-08-12T03:36:18.052Z",
     "totalGames": 208
   },
   "summary": {
     "totalTeams": 17,
     "totalGames": 208,
-    "completedGames": 189,
-    "upcomingGames": 19,
+    "completedGames": 190,
+    "upcomingGames": 18,
     "topTeam": {
       "team": "TNT Thunder 12U A",
       "teamCode": "618059",
@@ -6277,6 +6293,6 @@
       "date": "Mon, May 18",
       "location": "Lampman Lane"
     },
-    "lastUpdated": "2026-08-12T01:26:06.921Z"
+    "lastUpdated": "2026-08-12T03:39:32.663Z"
   }
 }
