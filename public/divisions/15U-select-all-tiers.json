@@ -24,17 +24,17 @@
         "team": "Markham Mariners 15U DS",
         "teamCode": "617895",
         "record": {
-          "gamesPlayed": 14,
+          "gamesPlayed": 15,
           "wins": 8,
-          "losses": 5,
+          "losses": 6,
           "ties": 1,
-          "winPercentage": "0.607"
+          "winPercentage": "0.567"
         },
         "stats": {
           "points": 17,
-          "runsFor": 159,
-          "runsAgainst": 130,
-          "runDifferential": 29
+          "runsFor": 163,
+          "runsAgainst": 149,
+          "runDifferential": 14
         }
       },
       {
@@ -42,17 +42,17 @@
         "team": "Newmarket Hawks 15U DS",
         "teamCode": "617919",
         "record": {
-          "gamesPlayed": 13,
-          "wins": 5,
+          "gamesPlayed": 14,
+          "wins": 6,
           "losses": 5,
           "ties": 3,
-          "winPercentage": "0.500"
+          "winPercentage": "0.536"
         },
         "stats": {
-          "points": 13,
-          "runsFor": 143,
-          "runsAgainst": 124,
-          "runDifferential": 19
+          "points": 15,
+          "runsFor": 162,
+          "runsAgainst": 128,
+          "runDifferential": 34
         }
       },
       {
@@ -92,7 +92,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-08-12T20:41:31.743Z",
+    "lastUpdated": "2026-08-12T21:43:30.622Z",
     "totalTeams": 5
   },
   "schedule": {
@@ -194,7 +194,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-12T20:41:34.522Z"
+        "lastUpdated": "2026-08-12T21:43:33.494Z"
       },
       "617895": {
         "teamCode": "617895",
@@ -275,8 +275,12 @@
             "awayTeam": "Newmarket Hawks 15U DS",
             "awayTeamCode": "617919",
             "location": "Cornell Park- Diamond 2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 19,
+              "scoreText": "19-4"
+            }
           }
         ],
         "nextGames": [
@@ -293,7 +297,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-12T20:41:34.522Z"
+        "lastUpdated": "2026-08-12T21:43:33.494Z"
       },
       "617919": {
         "teamCode": "617919",
@@ -374,8 +378,12 @@
             "awayTeam": "Newmarket Hawks 15U DS",
             "awayTeamCode": "617919",
             "location": "Cornell Park- Diamond 2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 4,
+              "away": 19,
+              "scoreText": "19-4"
+            }
           }
         ],
         "nextGames": [
@@ -404,7 +412,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-12T20:41:34.522Z"
+        "lastUpdated": "2026-08-12T21:43:33.494Z"
       },
       "618002": {
         "teamCode": "618002",
@@ -486,7 +494,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-12T20:41:34.522Z"
+        "lastUpdated": "2026-08-12T21:43:33.494Z"
       },
       "618070": {
         "teamCode": "618070",
@@ -564,7 +572,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-12T20:41:34.522Z"
+        "lastUpdated": "2026-08-12T21:43:33.494Z"
       }
     },
     "allGames": [
@@ -1113,8 +1121,12 @@
         "awayTeam": "Newmarket Hawks 15U DS",
         "awayTeamCode": "617919",
         "location": "Cornell Park- Diamond 2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 19,
+          "scoreText": "19-4"
+        }
       },
       {
         "date": "2026-08-08T16:00:00.000Z",
@@ -1239,8 +1251,12 @@
         "awayTeam": "Newmarket Hawks 15U DS",
         "awayTeamCode": "617919",
         "location": "Cornell Park- Diamond 2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 4,
+          "away": 19,
+          "scoreText": "19-4"
+        }
       },
       {
         "date": "2026-08-06T00:00:00.000Z",
@@ -1357,14 +1373,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2026-08-12T20:41:34.522Z",
+    "lastUpdated": "2026-08-12T21:43:33.494Z",
     "totalGames": 40
   },
   "summary": {
     "totalTeams": 5,
     "totalGames": 40,
-    "completedGames": 34,
-    "upcomingGames": 6,
+    "completedGames": 35,
+    "upcomingGames": 5,
     "topTeam": {
       "team": "Barrie Baycats 15U DS",
       "teamCode": "612800",
@@ -1381,6 +1397,6 @@
       "date": "Sat, Aug 1",
       "location": "Bishop Cross Diamond"
     },
-    "lastUpdated": "2026-08-12T20:41:36.367Z"
+    "lastUpdated": "2026-08-12T21:43:35.317Z"
   }
 }
