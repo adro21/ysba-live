@@ -6,17 +6,17 @@
         "team": "Barrie Baycats 15U DS",
         "teamCode": "612800",
         "record": {
-          "gamesPlayed": 14,
-          "wins": 14,
+          "gamesPlayed": 15,
+          "wins": 15,
           "losses": 0,
           "ties": 0,
           "winPercentage": "1.000"
         },
         "stats": {
-          "points": 28,
-          "runsFor": 219,
+          "points": 30,
+          "runsFor": 234,
           "runsAgainst": 71,
-          "runDifferential": 148
+          "runDifferential": 163
         }
       },
       {
@@ -57,6 +57,24 @@
       },
       {
         "position": 4,
+        "team": "New Lowell Knights 15U DS",
+        "teamCode": "618070",
+        "record": {
+          "gamesPlayed": 14,
+          "wins": 1,
+          "losses": 10,
+          "ties": 3,
+          "winPercentage": "0.179"
+        },
+        "stats": {
+          "points": 5,
+          "runsFor": 112,
+          "runsAgainst": 190,
+          "runDifferential": -78
+        }
+      },
+      {
+        "position": 5,
         "team": "Thornhill Reds 15U DS",
         "teamCode": "618002",
         "record": {
@@ -72,27 +90,9 @@
           "runsAgainst": 208,
           "runDifferential": -133
         }
-      },
-      {
-        "position": 5,
-        "team": "New Lowell Knights 15U DS",
-        "teamCode": "618070",
-        "record": {
-          "gamesPlayed": 13,
-          "wins": 1,
-          "losses": 9,
-          "ties": 3,
-          "winPercentage": "0.192"
-        },
-        "stats": {
-          "points": 5,
-          "runsFor": 112,
-          "runsAgainst": 175,
-          "runDifferential": -63
-        }
       }
     ],
-    "lastUpdated": "2026-08-13T03:43:11.074Z",
+    "lastUpdated": "2026-08-13T05:34:03.301Z",
     "totalTeams": 5
   },
   "schedule": {
@@ -176,8 +176,12 @@
             "awayTeam": "Barrie Baycats 15U DS",
             "awayTeamCode": "612800",
             "location": "New Lowell- Diamond One",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 0,
+              "away": 15,
+              "scoreText": "15-0"
+            }
           }
         ],
         "nextGames": [
@@ -194,7 +198,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-13T03:43:13.930Z"
+        "lastUpdated": "2026-08-13T05:34:05.856Z"
       },
       "617895": {
         "teamCode": "617895",
@@ -280,7 +284,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-13T03:43:13.930Z"
+        "lastUpdated": "2026-08-13T05:34:05.856Z"
       },
       "617919": {
         "teamCode": "617919",
@@ -379,7 +383,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-13T03:43:13.930Z"
+        "lastUpdated": "2026-08-13T05:34:05.856Z"
       },
       "618002": {
         "teamCode": "618002",
@@ -461,7 +465,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-13T03:43:13.930Z"
+        "lastUpdated": "2026-08-13T05:34:05.856Z"
       },
       "618070": {
         "teamCode": "618070",
@@ -534,12 +538,16 @@
             "awayTeam": "Barrie Baycats 15U DS",
             "awayTeamCode": "612800",
             "location": "New Lowell- Diamond One",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 0,
+              "away": 15,
+              "scoreText": "15-0"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-13T03:43:13.930Z"
+        "lastUpdated": "2026-08-13T05:34:05.856Z"
       }
     },
     "allGames": [
@@ -1136,8 +1144,12 @@
         "awayTeam": "Barrie Baycats 15U DS",
         "awayTeamCode": "612800",
         "location": "New Lowell- Diamond One",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 0,
+          "away": 15,
+          "scoreText": "15-0"
+        }
       },
       {
         "date": "2026-08-12T23:30:00.000Z",
@@ -1186,8 +1198,12 @@
         "awayTeam": "Barrie Baycats 15U DS",
         "awayTeamCode": "612800",
         "location": "New Lowell- Diamond One",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 0,
+          "away": 15,
+          "scoreText": "15-0"
+        }
       },
       {
         "date": "2026-08-08T18:30:00.000Z",
@@ -1324,18 +1340,18 @@
         "score": null
       }
     ],
-    "lastUpdated": "2026-08-13T03:43:13.930Z",
+    "lastUpdated": "2026-08-13T05:34:05.856Z",
     "totalGames": 40
   },
   "summary": {
     "totalTeams": 5,
     "totalGames": 40,
-    "completedGames": 35,
-    "upcomingGames": 5,
+    "completedGames": 36,
+    "upcomingGames": 4,
     "topTeam": {
       "team": "Barrie Baycats 15U DS",
       "teamCode": "612800",
-      "wins": 14,
+      "wins": 15,
       "losses": 0,
       "winPercentage": "1.000"
     },
@@ -1348,6 +1364,6 @@
       "date": "Sat, Aug 1",
       "location": "Bishop Cross Diamond"
     },
-    "lastUpdated": "2026-08-13T03:43:15.529Z"
+    "lastUpdated": "2026-08-13T05:34:07.413Z"
   }
 }

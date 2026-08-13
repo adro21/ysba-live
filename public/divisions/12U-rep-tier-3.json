@@ -165,6 +165,24 @@
       },
       {
         "position": 10,
+        "team": "Georgina Bulldogs 12U B",
+        "teamCode": "625727",
+        "record": {
+          "gamesPlayed": 16,
+          "wins": 6,
+          "losses": 9,
+          "ties": 1,
+          "winPercentage": "0.406"
+        },
+        "stats": {
+          "points": 13,
+          "runsFor": 146,
+          "runsAgainst": 152,
+          "runDifferential": -6
+        }
+      },
+      {
+        "position": 11,
         "team": "Aurora-King Jays 12U A",
         "teamCode": "617974",
         "record": {
@@ -179,24 +197,6 @@
           "runsFor": 114,
           "runsAgainst": 172,
           "runDifferential": -58
-        }
-      },
-      {
-        "position": 11,
-        "team": "Georgina Bulldogs 12U B",
-        "teamCode": "625727",
-        "record": {
-          "gamesPlayed": 15,
-          "wins": 5,
-          "losses": 9,
-          "ties": 1,
-          "winPercentage": "0.367"
-        },
-        "stats": {
-          "points": 11,
-          "runsFor": 127,
-          "runsAgainst": 151,
-          "runDifferential": -24
         }
       },
       {
@@ -294,21 +294,21 @@
         "team": "Stouffville 12U A",
         "teamCode": "617204",
         "record": {
-          "gamesPlayed": 14,
+          "gamesPlayed": 15,
           "wins": 2,
-          "losses": 12,
+          "losses": 13,
           "ties": 0,
-          "winPercentage": "0.143"
+          "winPercentage": "0.133"
         },
         "stats": {
           "points": 4,
-          "runsFor": 69,
-          "runsAgainst": 229,
-          "runDifferential": -160
+          "runsFor": 70,
+          "runsAgainst": 248,
+          "runDifferential": -178
         }
       }
     ],
-    "lastUpdated": "2026-08-13T03:39:52.822Z",
+    "lastUpdated": "2026-08-13T05:30:54.624Z",
     "totalTeams": 17
   },
   "schedule": {
@@ -397,7 +397,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-13T03:39:56.560Z"
+        "lastUpdated": "2026-08-13T05:30:58.218Z"
       },
       "612784": {
         "teamCode": "612784",
@@ -500,7 +500,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-13T03:39:56.560Z"
+        "lastUpdated": "2026-08-13T05:30:58.218Z"
       },
       "617177": {
         "teamCode": "617177",
@@ -603,14 +603,30 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-13T03:39:56.560Z"
+        "lastUpdated": "2026-08-13T05:30:58.218Z"
       },
       "617178": {
         "teamCode": "617178",
         "totalGames": 16,
-        "playedGames": 16,
-        "upcomingGames": 0,
+        "playedGames": 15,
+        "upcomingGames": 1,
         "recentGames": [
+          {
+            "date": "2026-07-07T22:00:00.000Z",
+            "dateText": "Tue, Jul 7",
+            "time": "6:00 PM",
+            "homeTeam": "Vaughan Vikings 12U A",
+            "homeTeamCode": "617178",
+            "awayTeam": "Georgina Bulldogs 12U B",
+            "awayTeamCode": "625727",
+            "location": "Chatfield District",
+            "isCompleted": true,
+            "score": {
+              "home": 8,
+              "away": 15,
+              "scoreText": "15-8"
+            }
+          },
           {
             "date": "2026-07-28T22:00:00.000Z",
             "dateText": "Tue, Jul 28",
@@ -674,10 +690,12 @@
               "away": 12,
               "scoreText": "12-6"
             }
-          },
+          }
+        ],
+        "nextGames": [
           {
-            "date": "2026-08-12T22:30:00.000Z",
-            "dateText": "Wed, Aug 12",
+            "date": "2026-08-13T22:30:00.000Z",
+            "dateText": "Thu, Aug 13",
             "time": "6:30 PM",
             "homeTeam": "Caledon Nationals 12U A",
             "homeTeamCode": "618468",
@@ -688,8 +706,7 @@
             "score": null
           }
         ],
-        "nextGames": [],
-        "lastUpdated": "2026-08-13T03:39:56.560Z"
+        "lastUpdated": "2026-08-13T05:30:58.218Z"
       },
       "617204": {
         "teamCode": "617204",
@@ -766,12 +783,16 @@
             "awayTeam": "Stouffville 12U A",
             "awayTeamCode": "617204",
             "location": "ROC 2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 19,
+              "away": 1,
+              "scoreText": "1-19"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-13T03:39:56.560Z"
+        "lastUpdated": "2026-08-13T05:30:58.218Z"
       },
       "617852": {
         "teamCode": "617852",
@@ -861,7 +882,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-13T03:39:56.560Z"
+        "lastUpdated": "2026-08-13T05:30:58.218Z"
       },
       "617879": {
         "teamCode": "617879",
@@ -964,7 +985,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-13T03:39:56.560Z"
+        "lastUpdated": "2026-08-13T05:30:58.218Z"
       },
       "617880": {
         "teamCode": "617880",
@@ -1067,7 +1088,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-13T03:39:56.560Z"
+        "lastUpdated": "2026-08-13T05:30:58.218Z"
       },
       "617906": {
         "teamCode": "617906",
@@ -1157,7 +1178,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-13T03:39:56.560Z"
+        "lastUpdated": "2026-08-13T05:30:58.218Z"
       },
       "617907": {
         "teamCode": "617907",
@@ -1247,7 +1268,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-13T03:39:56.560Z"
+        "lastUpdated": "2026-08-13T05:30:58.218Z"
       },
       "617946": {
         "teamCode": "617946",
@@ -1333,7 +1354,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-13T03:39:56.560Z"
+        "lastUpdated": "2026-08-13T05:30:58.218Z"
       },
       "617973": {
         "teamCode": "617973",
@@ -1419,7 +1440,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-13T03:39:56.560Z"
+        "lastUpdated": "2026-08-13T05:30:58.218Z"
       },
       "617974": {
         "teamCode": "617974",
@@ -1522,7 +1543,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-13T03:39:56.560Z"
+        "lastUpdated": "2026-08-13T05:30:58.218Z"
       },
       "617987": {
         "teamCode": "617987",
@@ -1612,7 +1633,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-13T03:39:56.560Z"
+        "lastUpdated": "2026-08-13T05:30:58.218Z"
       },
       "617988": {
         "teamCode": "617988",
@@ -1711,7 +1732,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-13T03:39:56.560Z"
+        "lastUpdated": "2026-08-13T05:30:58.218Z"
       },
       "618007": {
         "teamCode": "618007",
@@ -1801,7 +1822,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-13T03:39:56.560Z"
+        "lastUpdated": "2026-08-13T05:30:58.218Z"
       },
       "618021": {
         "teamCode": "618021",
@@ -1887,7 +1908,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-13T03:39:56.560Z"
+        "lastUpdated": "2026-08-13T05:30:58.218Z"
       },
       "618022": {
         "teamCode": "618022",
@@ -1973,7 +1994,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-13T03:39:56.560Z"
+        "lastUpdated": "2026-08-13T05:30:58.218Z"
       },
       "618044": {
         "teamCode": "618044",
@@ -2076,7 +2097,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-13T03:39:56.560Z"
+        "lastUpdated": "2026-08-13T05:30:58.218Z"
       },
       "618059": {
         "teamCode": "618059",
@@ -2179,7 +2200,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-13T03:39:56.560Z"
+        "lastUpdated": "2026-08-13T05:30:58.218Z"
       },
       "618068": {
         "teamCode": "618068",
@@ -2269,7 +2290,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-13T03:39:56.560Z"
+        "lastUpdated": "2026-08-13T05:30:58.218Z"
       },
       "618383": {
         "teamCode": "618383",
@@ -2372,7 +2393,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-13T03:39:56.560Z"
+        "lastUpdated": "2026-08-13T05:30:58.218Z"
       },
       "618395": {
         "teamCode": "618395",
@@ -2462,14 +2483,30 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-13T03:39:56.560Z"
+        "lastUpdated": "2026-08-13T05:30:58.218Z"
       },
       "618468": {
         "teamCode": "618468",
         "totalGames": 16,
-        "playedGames": 15,
-        "upcomingGames": 1,
+        "playedGames": 14,
+        "upcomingGames": 2,
         "recentGames": [
+          {
+            "date": "2026-07-14T22:30:00.000Z",
+            "dateText": "Tue, Jul 14",
+            "time": "6:30 PM",
+            "homeTeam": "Thornhill Reds 12U A Team 1",
+            "homeTeamCode": "617987",
+            "awayTeam": "Caledon Nationals 12U A",
+            "awayTeamCode": "618468",
+            "location": "Bishop’s Cross",
+            "isCompleted": true,
+            "score": {
+              "home": 13,
+              "away": 2,
+              "scoreText": "2-13"
+            }
+          },
           {
             "date": "2026-07-19T20:00:00.000Z",
             "dateText": "Sun, Jul 19",
@@ -2533,10 +2570,12 @@
               "away": 12,
               "scoreText": "12-6"
             }
-          },
+          }
+        ],
+        "nextGames": [
           {
-            "date": "2026-08-12T22:30:00.000Z",
-            "dateText": "Wed, Aug 12",
+            "date": "2026-08-13T22:30:00.000Z",
+            "dateText": "Thu, Aug 13",
             "time": "6:30 PM",
             "homeTeam": "Caledon Nationals 12U A",
             "homeTeamCode": "618468",
@@ -2545,9 +2584,7 @@
             "location": "North Hill #1",
             "isCompleted": false,
             "score": null
-          }
-        ],
-        "nextGames": [
+          },
           {
             "date": "2026-08-18T22:30:00.000Z",
             "dateText": "Tue, Aug 18",
@@ -2561,7 +2598,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-13T03:39:56.560Z"
+        "lastUpdated": "2026-08-13T05:30:58.218Z"
       },
       "625727": {
         "teamCode": "625727",
@@ -2642,12 +2679,16 @@
             "awayTeam": "Stouffville 12U A",
             "awayTeamCode": "617204",
             "location": "ROC 2",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 19,
+              "away": 1,
+              "scoreText": "1-19"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-13T03:39:56.560Z"
+        "lastUpdated": "2026-08-13T05:30:58.218Z"
       },
       "628934": {
         "teamCode": "628934",
@@ -2737,7 +2778,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-13T03:39:56.560Z"
+        "lastUpdated": "2026-08-13T05:30:58.218Z"
       }
     },
     "allGames": [
@@ -5930,8 +5971,12 @@
         "awayTeam": "Stouffville 12U A",
         "awayTeamCode": "617204",
         "location": "ROC 2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 19,
+          "away": 1,
+          "scoreText": "1-19"
+        }
       },
       {
         "date": "2026-08-12T22:30:00.000Z",
@@ -5948,18 +5993,6 @@
           "away": 0,
           "scoreText": "0-7"
         }
-      },
-      {
-        "date": "2026-08-12T22:30:00.000Z",
-        "dateText": "Wed, Aug 12",
-        "time": "6:30 PM",
-        "homeTeam": "Caledon Nationals 12U A",
-        "homeTeamCode": "618468",
-        "awayTeam": "Vaughan Vikings 12U A",
-        "awayTeamCode": "617178",
-        "location": "North Hill #1",
-        "isCompleted": false,
-        "score": null
       },
       {
         "date": "2026-08-13T22:00:00.000Z",
@@ -6010,6 +6043,18 @@
         "score": null
       },
       {
+        "date": "2026-08-13T22:30:00.000Z",
+        "dateText": "Thu, Aug 13",
+        "time": "6:30 PM",
+        "homeTeam": "Caledon Nationals 12U A",
+        "homeTeamCode": "618468",
+        "awayTeam": "Vaughan Vikings 12U A",
+        "awayTeamCode": "617178",
+        "location": "North Hill #1",
+        "isCompleted": false,
+        "score": null
+      },
+      {
         "date": "2026-08-18T22:30:00.000Z",
         "dateText": "Tue, Aug 18",
         "time": "6:30 PM",
@@ -6040,18 +6085,6 @@
         }
       },
       {
-        "date": "2026-08-12T22:30:00.000Z",
-        "dateText": "Wed, Aug 12",
-        "time": "6:30 PM",
-        "homeTeam": "Caledon Nationals 12U A",
-        "homeTeamCode": "618468",
-        "awayTeam": "Vaughan Vikings 12U A",
-        "awayTeamCode": "617178",
-        "location": "North Hill #1",
-        "isCompleted": false,
-        "score": null
-      },
-      {
         "date": "2026-08-12T22:15:00.000Z",
         "dateText": "Wed, Aug 12",
         "time": "6:15 PM",
@@ -6060,8 +6093,12 @@
         "awayTeam": "Stouffville 12U A",
         "awayTeamCode": "617204",
         "location": "ROC 2",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 19,
+          "away": 1,
+          "scoreText": "1-19"
+        }
       },
       {
         "date": "2026-08-11T22:15:00.000Z",
@@ -6174,6 +6211,22 @@
           "away": 1,
           "scoreText": "1-16"
         }
+      },
+      {
+        "date": "2026-08-10T22:00:00.000Z",
+        "dateText": "Mon, Aug 10",
+        "time": "6:00 PM",
+        "homeTeam": "Newmarket Hawks 12U A",
+        "homeTeamCode": "617906",
+        "awayTeam": "Thornhill Reds 12U A Team 1",
+        "awayTeamCode": "617987",
+        "location": "Fairgrounds #1",
+        "isCompleted": true,
+        "score": {
+          "home": 6,
+          "away": 13,
+          "scoreText": "13-6"
+        }
       }
     ],
     "upcomingGames": [
@@ -6226,6 +6279,18 @@
         "score": null
       },
       {
+        "date": "2026-08-13T22:30:00.000Z",
+        "dateText": "Thu, Aug 13",
+        "time": "6:30 PM",
+        "homeTeam": "Caledon Nationals 12U A",
+        "homeTeamCode": "618468",
+        "awayTeam": "Vaughan Vikings 12U A",
+        "awayTeamCode": "617178",
+        "location": "North Hill #1",
+        "isCompleted": false,
+        "score": null
+      },
+      {
         "date": "2026-08-18T22:30:00.000Z",
         "dateText": "Tue, Aug 18",
         "time": "6:30 PM",
@@ -6238,14 +6303,14 @@
         "score": null
       }
     ],
-    "lastUpdated": "2026-08-13T03:39:56.560Z",
+    "lastUpdated": "2026-08-13T05:30:58.218Z",
     "totalGames": 208
   },
   "summary": {
     "totalTeams": 17,
     "totalGames": 208,
-    "completedGames": 196,
-    "upcomingGames": 12,
+    "completedGames": 197,
+    "upcomingGames": 11,
     "topTeam": {
       "team": "TNT Thunder 12U A",
       "teamCode": "618059",
@@ -6262,6 +6327,6 @@
       "date": "Mon, May 18",
       "location": "Lampman Lane"
     },
-    "lastUpdated": "2026-08-13T03:43:15.529Z"
+    "lastUpdated": "2026-08-13T05:34:07.413Z"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-13T03:43:15.529Z",
+  "lastUpdated": "2026-08-13T05:34:07.413Z",
   "totalGames": 190,
   "games": [
     {
@@ -150,20 +150,6 @@
       "date": "2026-08-12T22:30:00.000Z",
       "dateText": "Wed, Aug 12",
       "time": "6:30 PM",
-      "homeTeam": "Caledon Nationals 12U A",
-      "homeTeamCode": "618468",
-      "awayTeam": "Vaughan Vikings 12U A",
-      "awayTeamCode": "617178",
-      "location": "North Hill #1",
-      "isCompleted": false,
-      "score": null,
-      "division": "12U",
-      "tier": "rep-tier-2"
-    },
-    {
-      "date": "2026-08-12T22:30:00.000Z",
-      "dateText": "Wed, Aug 12",
-      "time": "6:30 PM",
       "homeTeam": "Aurora-King Jays 12U A",
       "homeTeamCode": "617974",
       "awayTeam": "Thornhill Reds 12U A Team 1",
@@ -179,20 +165,6 @@
       "tier": "rep-tier-3"
     },
     {
-      "date": "2026-08-12T22:30:00.000Z",
-      "dateText": "Wed, Aug 12",
-      "time": "6:30 PM",
-      "homeTeam": "Caledon Nationals 12U A",
-      "homeTeamCode": "618468",
-      "awayTeam": "Vaughan Vikings 12U A",
-      "awayTeamCode": "617178",
-      "location": "North Hill #1",
-      "isCompleted": false,
-      "score": null,
-      "division": "12U",
-      "tier": "rep-tier-3"
-    },
-    {
       "date": "2026-08-12T22:15:00.000Z",
       "dateText": "Wed, Aug 12",
       "time": "6:15 PM",
@@ -201,8 +173,12 @@
       "awayTeam": "Stouffville 12U A",
       "awayTeamCode": "617204",
       "location": "ROC 2",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 19,
+        "away": 1,
+        "scoreText": "1-19"
+      },
       "division": "12U",
       "tier": "rep-tier-2"
     },
@@ -215,8 +191,12 @@
       "awayTeam": "Stouffville 12U A",
       "awayTeamCode": "617204",
       "location": "ROC 2",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 19,
+        "away": 1,
+        "scoreText": "1-19"
+      },
       "division": "12U",
       "tier": "rep-tier-3"
     },
@@ -649,8 +629,12 @@
       "awayTeam": "Barrie Baycats 15U DS",
       "awayTeamCode": "612800",
       "location": "New Lowell- Diamond One",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 0,
+        "away": 15,
+        "scoreText": "15-0"
+      },
       "division": "15U",
       "tier": "select-all-tiers"
     },
@@ -789,6 +773,38 @@
       },
       "division": "12U",
       "tier": "rep-tier-2"
+    },
+    {
+      "date": "2026-08-10T22:30:00.000Z",
+      "dateText": "Mon, Aug 10",
+      "time": "6:30 PM",
+      "homeTeam": "Barrie Baycats 12U A",
+      "homeTeamCode": "612784",
+      "awayTeam": "Innisfil Cardinals 12U A",
+      "awayTeamCode": "618044",
+      "location": "Lampman Lane",
+      "isCompleted": true,
+      "score": {
+        "home": 6,
+        "away": 5,
+        "scoreText": "5-6"
+      },
+      "division": "12U",
+      "tier": "rep-tier-3"
+    },
+    {
+      "date": "2026-08-10T22:00:00.000Z",
+      "dateText": "Mon, Aug 10",
+      "time": "6:00 PM",
+      "homeTeam": "Vaughan Vikings 10U A Team 2",
+      "homeTeamCode": "617174",
+      "awayTeam": "TNT Thunder 10U A",
+      "awayTeamCode": "618057",
+      "location": "Concord Regional park #4",
+      "isCompleted": false,
+      "score": null,
+      "division": "10U",
+      "tier": "rep-tier-3"
     }
   ]
 }
