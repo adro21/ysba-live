@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-14T03:40:47.520Z",
+  "lastUpdated": "2026-08-14T05:32:00.030Z",
   "totalGames": 190,
   "games": [
     {
@@ -11,8 +11,12 @@
       "awayTeam": "Richmond Hill Phoenix 14U AA",
       "awayTeamCode": "617856",
       "location": "Barrie Community Sports Complex - DANA",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 15,
+        "away": 15,
+        "scoreText": "15-15"
+      },
       "division": "14U",
       "tier": "rep-tier-2"
     },
@@ -25,8 +29,12 @@
       "awayTeam": "Richmond Hill Phoenix 14U AA",
       "awayTeamCode": "617856",
       "location": "Barrie Community Sports Complex - DANA",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 15,
+        "away": 15,
+        "scoreText": "15-15"
+      },
       "division": "14U",
       "tier": "rep-tier-3"
     },
@@ -39,8 +47,12 @@
       "awayTeam": "Caledon Nationals 14U AA",
       "awayTeamCode": "618465",
       "location": "Don McKnight",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 11,
+        "away": 12,
+        "scoreText": "12-11"
+      },
       "division": "14U",
       "tier": "rep-tier-2"
     },
@@ -53,8 +65,12 @@
       "awayTeam": "Caledon Nationals 14U AA",
       "awayTeamCode": "618465",
       "location": "Don McKnight",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 11,
+        "away": 12,
+        "scoreText": "12-11"
+      },
       "division": "14U",
       "tier": "rep-tier-3"
     },
@@ -203,8 +219,12 @@
       "awayTeam": "Stouffville 14U AA",
       "awayTeamCode": "617207",
       "location": "TBD",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 2,
+        "away": 18,
+        "scoreText": "18-2"
+      },
       "division": "14U",
       "tier": "rep-tier-2"
     },
@@ -217,8 +237,12 @@
       "awayTeam": "Stouffville 14U AA",
       "awayTeamCode": "617207",
       "location": "TBD",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 2,
+        "away": 18,
+        "scoreText": "18-2"
+      },
       "division": "14U",
       "tier": "rep-tier-3"
     },
@@ -330,6 +354,24 @@
       "date": "2026-08-13T00:30:00.000Z",
       "dateText": "Wed, Aug 12",
       "time": "8:30 PM",
+      "homeTeam": "Stouffville 14U AA",
+      "homeTeamCode": "617207",
+      "awayTeam": "Newmarket Hawks 14U AA",
+      "awayTeamCode": "617912",
+      "location": "Bethesda Diamond #2",
+      "isCompleted": true,
+      "score": {
+        "home": 16,
+        "away": 7,
+        "scoreText": "7-16"
+      },
+      "division": "14U",
+      "tier": "rep-tier-2"
+    },
+    {
+      "date": "2026-08-13T00:30:00.000Z",
+      "dateText": "Wed, Aug 12",
+      "time": "8:30 PM",
       "homeTeam": "Orillia 14U B",
       "homeTeamCode": "618385",
       "awayTeam": "TNT Thunder 14U A",
@@ -353,25 +395,11 @@
       "awayTeam": "Newmarket Hawks 14U AA",
       "awayTeamCode": "617912",
       "location": "Bethesda Diamond #2",
-      "isCompleted": false,
-      "score": null,
-      "division": "14U",
-      "tier": "rep-tier-2"
-    },
-    {
-      "date": "2026-08-13T00:30:00.000Z",
-      "dateText": "Wed, Aug 12",
-      "time": "8:30 PM",
-      "homeTeam": "Orillia 14U B",
-      "homeTeamCode": "618385",
-      "awayTeam": "TNT Thunder 14U A",
-      "awayTeamCode": "618061",
-      "location": "McKinnell Square Park (Ross Diamond)",
       "isCompleted": true,
       "score": {
-        "home": 10,
-        "away": 6,
-        "scoreText": "6-10"
+        "home": 16,
+        "away": 7,
+        "scoreText": "7-16"
       },
       "division": "14U",
       "tier": "rep-tier-3"
@@ -380,13 +408,17 @@
       "date": "2026-08-13T00:30:00.000Z",
       "dateText": "Wed, Aug 12",
       "time": "8:30 PM",
-      "homeTeam": "Stouffville 14U AA",
-      "homeTeamCode": "617207",
-      "awayTeam": "Newmarket Hawks 14U AA",
-      "awayTeamCode": "617912",
-      "location": "Bethesda Diamond #2",
-      "isCompleted": false,
-      "score": null,
+      "homeTeam": "Orillia 14U B",
+      "homeTeamCode": "618385",
+      "awayTeam": "TNT Thunder 14U A",
+      "awayTeamCode": "618061",
+      "location": "McKinnell Square Park (Ross Diamond)",
+      "isCompleted": true,
+      "score": {
+        "home": 10,
+        "away": 6,
+        "scoreText": "6-10"
+      },
       "division": "14U",
       "tier": "rep-tier-3"
     },
@@ -582,20 +614,6 @@
       "date": "2026-08-12T00:30:00.000Z",
       "dateText": "Tue, Aug 11",
       "time": "8:30 PM",
-      "homeTeam": "Caledon Nationals 14U AA",
-      "homeTeamCode": "618465",
-      "awayTeam": "Stouffville 14U AA",
-      "awayTeamCode": "617207",
-      "location": "North Hill - Diamond 1",
-      "isCompleted": false,
-      "score": null,
-      "division": "14U",
-      "tier": "rep-tier-2"
-    },
-    {
-      "date": "2026-08-12T00:30:00.000Z",
-      "dateText": "Tue, Aug 11",
-      "time": "8:30 PM",
       "homeTeam": "Vaughan Vikings 14U A",
       "homeTeamCode": "617181",
       "awayTeam": "Ontario Women's",
@@ -615,6 +633,24 @@
       "awayTeam": "Stouffville 14U AA",
       "awayTeamCode": "617207",
       "location": "North Hill - Diamond 1",
+      "isCompleted": true,
+      "score": {
+        "home": 7,
+        "away": 8,
+        "scoreText": "8-7"
+      },
+      "division": "14U",
+      "tier": "rep-tier-2"
+    },
+    {
+      "date": "2026-08-12T00:30:00.000Z",
+      "dateText": "Tue, Aug 11",
+      "time": "8:30 PM",
+      "homeTeam": "Vaughan Vikings 14U A",
+      "homeTeamCode": "617181",
+      "awayTeam": "Ontario Women's",
+      "awayTeamCode": "546378",
+      "location": "Concord Regional Park Diamond #2",
       "isCompleted": false,
       "score": null,
       "division": "14U",
@@ -624,13 +660,17 @@
       "date": "2026-08-12T00:30:00.000Z",
       "dateText": "Tue, Aug 11",
       "time": "8:30 PM",
-      "homeTeam": "Vaughan Vikings 14U A",
-      "homeTeamCode": "617181",
-      "awayTeam": "Ontario Women's",
-      "awayTeamCode": "546378",
-      "location": "Concord Regional Park Diamond #2",
-      "isCompleted": false,
-      "score": null,
+      "homeTeam": "Caledon Nationals 14U AA",
+      "homeTeamCode": "618465",
+      "awayTeam": "Stouffville 14U AA",
+      "awayTeamCode": "617207",
+      "location": "North Hill - Diamond 1",
+      "isCompleted": true,
+      "score": {
+        "home": 7,
+        "away": 8,
+        "scoreText": "8-7"
+      },
       "division": "14U",
       "tier": "rep-tier-3"
     },
