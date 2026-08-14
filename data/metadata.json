@@ -1,12 +1,213 @@
 {
   "source": "GitHub Actions",
-  "successCount": 54,
-  "errorCount": 0,
-  "errors": [],
-  "divisionsScraped": 54,
+  "successCount": 14,
+  "errorCount": 3,
+  "errors": [
+    {
+      "division": "11U-rep",
+      "tier": "tier-2",
+      "error": "Standings failed: Standings timeout after 45s"
+    },
+    {
+      "division": "11U-rep",
+      "tier": "tier-3",
+      "error": "Standings failed: Standings timeout after 45s"
+    },
+    {
+      "division": "12U-rep",
+      "tier": "no-tier",
+      "error": "Standings failed: Standings timeout after 45s"
+    },
+    {
+      "division": "12U-rep",
+      "tier": "tier-1",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "12U-rep",
+      "tier": "tier-2",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "12U-rep",
+      "tier": "tier-3",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "13U-rep",
+      "tier": "no-tier",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "13U-rep",
+      "tier": "tier-1",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "13U-rep",
+      "tier": "tier-2",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "13U-rep",
+      "tier": "tier-3",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "14U-rep",
+      "tier": "no-tier",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "14U-rep",
+      "tier": "tier-1",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "14U-rep",
+      "tier": "tier-2",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "14U-rep",
+      "tier": "tier-3",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "15U-rep",
+      "tier": "no-tier",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "15U-rep",
+      "tier": "tier-1",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "15U-rep",
+      "tier": "tier-2",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "15U-rep",
+      "tier": "tier-3",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "16U-rep",
+      "tier": "no-tier",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "16U-rep",
+      "tier": "tier-1",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "16U-rep",
+      "tier": "tier-2",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "16U-rep",
+      "tier": "tier-3",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "18U-rep",
+      "tier": "no-tier",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "18U-rep",
+      "tier": "tier-1",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "18U-rep",
+      "tier": "tier-2",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "18U-rep",
+      "tier": "tier-3",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "22U-rep",
+      "tier": "no-tier",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "22U-rep",
+      "tier": "tier-1",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "22U-rep",
+      "tier": "tier-2",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "22U-rep",
+      "tier": "tier-3",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "senior-rep",
+      "tier": "no-tier",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "senior-rep",
+      "tier": "tier-1",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "senior-rep",
+      "tier": "tier-2",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "senior-rep",
+      "tier": "tier-3",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "9U-select",
+      "tier": "all-tiers",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "11U-select",
+      "tier": "all-tiers",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "13U-select",
+      "tier": "all-tiers",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "15U-select",
+      "tier": "all-tiers",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "10U-interlock",
+      "tier": "all-tiers",
+      "error": "Skipped due to circuit breaker"
+    },
+    {
+      "division": "11U-interlock",
+      "tier": "all-tiers",
+      "error": "Skipped due to circuit breaker"
+    }
+  ],
+  "divisionsScraped": 14,
   "totalDivisions": 54,
-  "duration": 332304,
-  "generatedAt": "2026-08-14T16:18:22.216Z",
+  "duration": 239845,
+  "generatedAt": "2026-08-14T17:29:10.018Z",
   "worker": {
     "version": "1.0.0",
     "nodeVersion": "v18.20.8",
