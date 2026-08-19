@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-08-18T23:50:09.393Z",
+  "lastUpdated": "2026-08-19T00:56:58.909Z",
   "totals": {
     "divisions": 54,
     "teams": 213,
     "games": 5609,
-    "completed": 5283,
-    "upcoming": 326
+    "completed": 5284,
+    "upcoming": 325
   },
   "recentActivity": [
     {
@@ -65,8 +65,12 @@
       "awayTeam": "Leaside",
       "awayTeamCode": "892648",
       "location": "Trace Manes — Toronto",
-      "isCompleted": false,
-      "score": null
+      "isCompleted": true,
+      "score": {
+        "home": 10,
+        "away": 1,
+        "scoreText": "1-10"
+      }
     }
   ],
   "upcomingGames": []
