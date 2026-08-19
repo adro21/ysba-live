@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-08-19T19:06:25.046Z",
+  "lastUpdated": "2026-08-19T19:52:53.724Z",
   "totals": {
     "divisions": 54,
     "teams": 213,
     "games": 5611,
-    "completed": 5284,
-    "upcoming": 327
+    "completed": 5288,
+    "upcoming": 323
   },
   "recentActivity": [
     {
@@ -17,8 +17,12 @@
       "awayTeam": "Caledon Nationals 12U A",
       "awayTeamCode": "618468",
       "location": "Hallmark Park",
-      "isCompleted": false,
-      "score": null
+      "isCompleted": true,
+      "score": {
+        "home": 9,
+        "away": 16,
+        "scoreText": "16-9"
+      }
     },
     {
       "date": "2026-08-18T22:30:00.000Z",
@@ -29,8 +33,12 @@
       "awayTeam": "Caledon Nationals 12U A",
       "awayTeamCode": "618468",
       "location": "Hallmark Park",
-      "isCompleted": false,
-      "score": null
+      "isCompleted": true,
+      "score": {
+        "home": 9,
+        "away": 16,
+        "scoreText": "16-9"
+      }
     },
     {
       "date": "2026-08-18T22:30:00.000Z",
@@ -41,8 +49,12 @@
       "awayTeam": "Caledon Nationals 12U A",
       "awayTeamCode": "618468",
       "location": "Hallmark Park",
-      "isCompleted": false,
-      "score": null
+      "isCompleted": true,
+      "score": {
+        "home": 9,
+        "away": 16,
+        "scoreText": "16-9"
+      }
     },
     {
       "date": "2026-08-18T22:30:00.000Z",
@@ -53,8 +65,12 @@
       "awayTeam": "Caledon Nationals 12U A",
       "awayTeamCode": "618468",
       "location": "Hallmark Park",
-      "isCompleted": false,
-      "score": null
+      "isCompleted": true,
+      "score": {
+        "home": 9,
+        "away": 16,
+        "scoreText": "16-9"
+      }
     },
     {
       "date": "2026-08-18T22:00:00.000Z",
@@ -73,5 +89,30 @@
       }
     }
   ],
-  "upcomingGames": []
+  "upcomingGames": [
+    {
+      "date": "2026-08-20T22:00:00.000Z",
+      "dateText": "Thu, Aug 20",
+      "time": "6:00 PM",
+      "homeTeam": "Bloordale",
+      "homeTeamCode": "892638",
+      "awayTeam": "Leaside",
+      "awayTeamCode": "892648",
+      "location": "Rotary Peace Park — Diamond South — Toronto",
+      "isCompleted": false,
+      "score": null
+    },
+    {
+      "date": "2026-08-20T22:00:00.000Z",
+      "dateText": "Thu, Aug 20",
+      "time": "6:00 PM",
+      "homeTeam": "Scarborough",
+      "homeTeamCode": "892643",
+      "awayTeam": "East York",
+      "awayTeamCode": "892640",
+      "location": "TBA",
+      "isCompleted": false,
+      "score": null
+    }
+  ]
 }
