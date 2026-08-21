@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-08-21T01:01:26.283Z",
+  "lastUpdated": "2026-08-21T02:25:38.507Z",
   "totals": {
     "divisions": 54,
     "teams": 213,
-    "games": 5615,
-    "completed": 5372,
+    "games": 5617,
+    "completed": 5374,
     "upcoming": 243
   },
   "recentActivity": [
@@ -17,8 +17,12 @@
       "awayTeam": "Leaside",
       "awayTeamCode": "892648",
       "location": "Rotary Peace Park — Diamond South — Toronto",
-      "isCompleted": false,
-      "score": null
+      "isCompleted": true,
+      "score": {
+        "home": 4,
+        "away": 6,
+        "scoreText": "6-4"
+      }
     },
     {
       "date": "2026-08-20T22:00:00.000Z",
@@ -29,8 +33,12 @@
       "awayTeam": "East York",
       "awayTeamCode": "892640",
       "location": "TBA",
-      "isCompleted": false,
-      "score": null
+      "isCompleted": true,
+      "score": {
+        "home": 1,
+        "away": 16,
+        "scoreText": "16-1"
+      }
     },
     {
       "date": "2026-08-18T22:30:00.000Z",
@@ -81,5 +89,30 @@
       }
     }
   ],
-  "upcomingGames": []
+  "upcomingGames": [
+    {
+      "date": "2026-08-21T20:30:00.000Z",
+      "dateText": "Fri, Aug 21",
+      "time": "4:30 PM",
+      "homeTeam": "Leaside",
+      "homeTeamCode": "892648",
+      "awayTeam": "Royal York",
+      "awayTeamCode": "892633",
+      "location": "Rotary Peace Park — Diamond South — Toronto",
+      "isCompleted": false,
+      "score": null
+    },
+    {
+      "date": "2026-08-21T23:00:00.000Z",
+      "dateText": "Fri, Aug 21",
+      "time": "7:00 PM",
+      "homeTeam": "Scarborough",
+      "homeTeamCode": "892643",
+      "awayTeam": "Bloordale",
+      "awayTeamCode": "892638",
+      "location": "Rotary Peace Park — Diamond South — Toronto",
+      "isCompleted": false,
+      "score": null
+    }
+  ]
 }
