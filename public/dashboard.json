@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-08-21T23:23:34.048Z",
+  "lastUpdated": "2026-08-21T23:51:22.332Z",
   "totals": {
     "divisions": 54,
     "teams": 213,
-    "games": 5617,
-    "completed": 5374,
+    "games": 5618,
+    "completed": 5375,
     "upcoming": 243
   },
   "recentActivity": [
@@ -29,8 +29,12 @@
       "awayTeam": "Royal York",
       "awayTeamCode": "892633",
       "location": "Rotary Peace Park — Diamond South — Toronto",
-      "isCompleted": false,
-      "score": null
+      "isCompleted": true,
+      "score": {
+        "home": 4,
+        "away": 5,
+        "scoreText": "5-4"
+      }
     },
     {
       "date": "2026-08-20T22:00:00.000Z",
@@ -81,5 +85,18 @@
       }
     }
   ],
-  "upcomingGames": []
+  "upcomingGames": [
+    {
+      "date": "2026-08-22T15:30:00.000Z",
+      "dateText": "Sat, Aug 22",
+      "time": "11:30 AM",
+      "homeTeam": "East York",
+      "homeTeamCode": "892640",
+      "awayTeam": "Royal York",
+      "awayTeamCode": "892633",
+      "location": "Rotary Peace Park — Diamond South — Toronto",
+      "isCompleted": false,
+      "score": null
+    }
+  ]
 }
