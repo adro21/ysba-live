@@ -1,13 +1,29 @@
 {
-  "lastUpdated": "2026-08-22T21:50:52.680Z",
+  "lastUpdated": "2026-08-22T22:19:40.397Z",
   "totals": {
     "divisions": 54,
     "teams": 213,
-    "games": 5619,
-    "completed": 5378,
+    "games": 5621,
+    "completed": 5380,
     "upcoming": 241
   },
   "recentActivity": [
+    {
+      "date": "2026-08-22T20:00:00.000Z",
+      "dateText": "Sat, Aug 22",
+      "time": "4:00 PM",
+      "homeTeam": "Leaside",
+      "homeTeamCode": "892648",
+      "awayTeam": "Royal York",
+      "awayTeamCode": "892633",
+      "location": "Donald Russell Memorial Park",
+      "isCompleted": true,
+      "score": {
+        "home": 0,
+        "away": 13,
+        "scoreText": "13-0"
+      }
+    },
     {
       "date": "2026-08-22T17:00:00.000Z",
       "dateText": "Sat, Aug 22",
@@ -17,8 +33,12 @@
       "awayTeam": "Scarborough",
       "awayTeamCode": "892643",
       "location": "Donald Russell Memorial Park",
-      "isCompleted": false,
-      "score": null
+      "isCompleted": true,
+      "score": {
+        "home": 12,
+        "away": 11,
+        "scoreText": "11-12"
+      }
     },
     {
       "date": "2026-08-22T15:30:00.000Z",
@@ -67,23 +87,20 @@
         "away": 5,
         "scoreText": "5-4"
       }
-    },
-    {
-      "date": "2026-08-20T22:00:00.000Z",
-      "dateText": "Thu, Aug 20",
-      "time": "6:00 PM",
-      "homeTeam": "Bloordale",
-      "homeTeamCode": "892638",
-      "awayTeam": "Leaside",
-      "awayTeamCode": "892648",
-      "location": "Rotary Peace Park — Diamond South — Toronto",
-      "isCompleted": true,
-      "score": {
-        "home": 4,
-        "away": 6,
-        "scoreText": "6-4"
-      }
     }
   ],
-  "upcomingGames": []
+  "upcomingGames": [
+    {
+      "date": "2026-08-23T15:30:00.000Z",
+      "dateText": "Sun, Aug 23",
+      "time": "11:30 AM",
+      "homeTeam": "Royal York",
+      "homeTeamCode": "892633",
+      "awayTeam": "East York",
+      "awayTeamCode": "892640",
+      "location": "Rotary Peace Park — Diamond South — Toronto",
+      "isCompleted": false,
+      "score": null
+    }
+  ]
 }
