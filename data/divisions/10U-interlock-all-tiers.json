@@ -254,7 +254,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-08-22T00:57:03.215Z",
+    "lastUpdated": "2026-08-22T02:18:53.173Z",
     "totalTeams": 14
   },
   "schedule": {
@@ -360,7 +360,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-22T00:57:03.243Z"
+        "lastUpdated": "2026-08-22T02:18:53.207Z"
       },
       "892634": {
         "teamCode": "892634",
@@ -442,7 +442,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-22T00:57:03.243Z"
+        "lastUpdated": "2026-08-22T02:18:53.208Z"
       },
       "892636": {
         "teamCode": "892636",
@@ -532,7 +532,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-22T00:57:03.244Z"
+        "lastUpdated": "2026-08-22T02:18:53.208Z"
       },
       "892637": {
         "teamCode": "892637",
@@ -618,7 +618,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-22T00:57:03.244Z"
+        "lastUpdated": "2026-08-22T02:18:53.208Z"
       },
       "892638": {
         "teamCode": "892638",
@@ -699,12 +699,16 @@
             "awayTeam": "Bloordale",
             "awayTeamCode": "892638",
             "location": "Rotary Peace Park — Diamond South — Toronto",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 4,
+              "scoreText": "4-12"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-22T00:57:03.244Z"
+        "lastUpdated": "2026-08-22T02:18:53.208Z"
       },
       "892639": {
         "teamCode": "892639",
@@ -790,7 +794,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-22T00:57:03.244Z"
+        "lastUpdated": "2026-08-22T02:18:53.208Z"
       },
       "892640": {
         "teamCode": "892640",
@@ -889,7 +893,7 @@
             "score": null
           }
         ],
-        "lastUpdated": "2026-08-22T00:57:03.244Z"
+        "lastUpdated": "2026-08-22T02:18:53.208Z"
       },
       "892642": {
         "teamCode": "892642",
@@ -975,13 +979,13 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-22T00:57:03.244Z"
+        "lastUpdated": "2026-08-22T02:18:53.208Z"
       },
       "892643": {
         "teamCode": "892643",
-        "totalGames": 23,
+        "totalGames": 24,
         "playedGames": 23,
-        "upcomingGames": 0,
+        "upcomingGames": 1,
         "recentGames": [
           {
             "date": "2026-08-09T21:00:00.000Z",
@@ -1056,12 +1060,29 @@
             "awayTeam": "Bloordale",
             "awayTeamCode": "892638",
             "location": "Rotary Peace Park — Diamond South — Toronto",
+            "isCompleted": true,
+            "score": {
+              "home": 12,
+              "away": 4,
+              "scoreText": "4-12"
+            }
+          }
+        ],
+        "nextGames": [
+          {
+            "date": "2026-08-22T18:00:00.000Z",
+            "dateText": "Sat, Aug 22",
+            "time": "2:00 PM",
+            "homeTeam": "Leaside",
+            "homeTeamCode": "892648",
+            "awayTeam": "Scarborough",
+            "awayTeamCode": "892643",
+            "location": "Rotary Peace Park — Diamond South — Toronto",
             "isCompleted": false,
             "score": null
           }
         ],
-        "nextGames": [],
-        "lastUpdated": "2026-08-22T00:57:03.244Z"
+        "lastUpdated": "2026-08-22T02:18:53.208Z"
       },
       "892644": {
         "teamCode": "892644",
@@ -1143,7 +1164,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-22T00:57:03.244Z"
+        "lastUpdated": "2026-08-22T02:18:53.208Z"
       },
       "892645": {
         "teamCode": "892645",
@@ -1233,7 +1254,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-22T00:57:03.244Z"
+        "lastUpdated": "2026-08-22T02:18:53.208Z"
       },
       "892646": {
         "teamCode": "892646",
@@ -1323,7 +1344,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-22T00:57:03.244Z"
+        "lastUpdated": "2026-08-22T02:18:53.208Z"
       },
       "892647": {
         "teamCode": "892647",
@@ -1405,13 +1426,13 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-22T00:57:03.244Z"
+        "lastUpdated": "2026-08-22T02:18:53.208Z"
       },
       "892648": {
         "teamCode": "892648",
-        "totalGames": 23,
+        "totalGames": 24,
         "playedGames": 23,
-        "upcomingGames": 0,
+        "upcomingGames": 1,
         "recentGames": [
           {
             "date": "2026-08-15T14:00:00.000Z",
@@ -1494,8 +1515,21 @@
             }
           }
         ],
-        "nextGames": [],
-        "lastUpdated": "2026-08-22T00:57:03.244Z"
+        "nextGames": [
+          {
+            "date": "2026-08-22T18:00:00.000Z",
+            "dateText": "Sat, Aug 22",
+            "time": "2:00 PM",
+            "homeTeam": "Leaside",
+            "homeTeamCode": "892648",
+            "awayTeam": "Scarborough",
+            "awayTeamCode": "892643",
+            "location": "Rotary Peace Park — Diamond South — Toronto",
+            "isCompleted": false,
+            "score": null
+          }
+        ],
+        "lastUpdated": "2026-08-22T02:18:53.209Z"
       }
     },
     "allGames": [
@@ -3880,6 +3914,22 @@
         "awayTeam": "Bloordale",
         "awayTeamCode": "892638",
         "location": "Rotary Peace Park — Diamond South — Toronto",
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 4,
+          "scoreText": "4-12"
+        }
+      },
+      {
+        "date": "2026-08-22T18:00:00.000Z",
+        "dateText": "Sat, Aug 22",
+        "time": "2:00 PM",
+        "homeTeam": "Leaside",
+        "homeTeamCode": "892648",
+        "awayTeam": "Scarborough",
+        "awayTeamCode": "892643",
+        "location": "Rotary Peace Park — Diamond South — Toronto",
         "isCompleted": false,
         "score": null
       }
@@ -3894,8 +3944,12 @@
         "awayTeam": "Bloordale",
         "awayTeamCode": "892638",
         "location": "Rotary Peace Park — Diamond South — Toronto",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 12,
+          "away": 4,
+          "scoreText": "4-12"
+        }
       },
       {
         "date": "2026-08-21T20:30:00.000Z",
@@ -4054,15 +4108,27 @@
         "location": "Rotary Peace Park — Diamond South — Toronto",
         "isCompleted": false,
         "score": null
+      },
+      {
+        "date": "2026-08-22T18:00:00.000Z",
+        "dateText": "Sat, Aug 22",
+        "time": "2:00 PM",
+        "homeTeam": "Leaside",
+        "homeTeamCode": "892648",
+        "awayTeam": "Scarborough",
+        "awayTeamCode": "892643",
+        "location": "Rotary Peace Park — Diamond South — Toronto",
+        "isCompleted": false,
+        "score": null
       }
     ],
-    "lastUpdated": "2026-08-22T00:57:03.244Z",
-    "totalGames": 152
+    "lastUpdated": "2026-08-22T02:18:53.209Z",
+    "totalGames": 153
   },
   "summary": {
     "totalTeams": 14,
-    "totalGames": 152,
-    "completedGames": 140,
+    "totalGames": 153,
+    "completedGames": 141,
     "upcomingGames": 12,
     "topTeam": {
       "team": "Barrie",
@@ -4080,6 +4146,6 @@
       "date": "Mon, Jun 29",
       "location": "North Hill — Diamond 2 — Bolton"
     },
-    "lastUpdated": "2026-08-22T00:57:03.763Z"
+    "lastUpdated": "2026-08-22T02:18:53.730Z"
   }
 }
