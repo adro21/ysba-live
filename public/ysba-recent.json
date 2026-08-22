@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T16:23:36.305Z",
+  "lastUpdated": "2026-08-22T16:53:20.435Z",
   "totalGames": 190,
   "games": [
     {
@@ -277,8 +277,12 @@
       "awayTeam": "Newmarket Hawks 15U DS",
       "awayTeamCode": "617919",
       "location": "Whipper Billy Watson",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 18,
+        "away": 9,
+        "scoreText": "9-18"
+      },
       "division": "15U",
       "tier": "select-all-tiers"
     },

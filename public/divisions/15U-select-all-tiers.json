@@ -6,17 +6,17 @@
         "team": "Barrie Baycats 15U DS",
         "teamCode": "612800",
         "record": {
-          "gamesPlayed": 15,
-          "wins": 15,
+          "gamesPlayed": 16,
+          "wins": 16,
           "losses": 0,
           "ties": 0,
           "winPercentage": "1.000"
         },
         "stats": {
-          "points": 30,
-          "runsFor": 234,
-          "runsAgainst": 71,
-          "runDifferential": 163
+          "points": 32,
+          "runsFor": 252,
+          "runsAgainst": 80,
+          "runDifferential": 172
         }
       },
       {
@@ -42,17 +42,17 @@
         "team": "Newmarket Hawks 15U DS",
         "teamCode": "617919",
         "record": {
-          "gamesPlayed": 15,
+          "gamesPlayed": 16,
           "wins": 6,
-          "losses": 6,
+          "losses": 7,
           "ties": 3,
-          "winPercentage": "0.500"
+          "winPercentage": "0.469"
         },
         "stats": {
           "points": 15,
-          "runsFor": 167,
-          "runsAgainst": 138,
-          "runDifferential": 29
+          "runsFor": 176,
+          "runsAgainst": 156,
+          "runDifferential": 20
         }
       },
       {
@@ -92,7 +92,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-08-22T16:23:32.018Z",
+    "lastUpdated": "2026-08-22T16:53:15.632Z",
     "totalTeams": 5
   },
   "schedule": {
@@ -176,12 +176,16 @@
             "awayTeam": "Newmarket Hawks 15U DS",
             "awayTeamCode": "617919",
             "location": "Whipper Billy Watson",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 18,
+              "away": 9,
+              "scoreText": "9-18"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-22T16:23:34.602Z"
+        "lastUpdated": "2026-08-22T16:53:18.507Z"
       },
       "617895": {
         "teamCode": "617895",
@@ -271,7 +275,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-22T16:23:34.602Z"
+        "lastUpdated": "2026-08-22T16:53:18.507Z"
       },
       "617919": {
         "teamCode": "617919",
@@ -352,12 +356,16 @@
             "awayTeam": "Newmarket Hawks 15U DS",
             "awayTeamCode": "617919",
             "location": "Whipper Billy Watson",
-            "isCompleted": false,
-            "score": null
+            "isCompleted": true,
+            "score": {
+              "home": 18,
+              "away": 9,
+              "scoreText": "9-18"
+            }
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-22T16:23:34.602Z"
+        "lastUpdated": "2026-08-22T16:53:18.507Z"
       },
       "618002": {
         "teamCode": "618002",
@@ -447,7 +455,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-22T16:23:34.602Z"
+        "lastUpdated": "2026-08-22T16:53:18.507Z"
       },
       "618070": {
         "teamCode": "618070",
@@ -537,7 +545,7 @@
           }
         ],
         "nextGames": [],
-        "lastUpdated": "2026-08-22T16:23:34.602Z"
+        "lastUpdated": "2026-08-22T16:53:18.507Z"
       }
     },
     "allGames": [
@@ -1174,8 +1182,12 @@
         "awayTeam": "Newmarket Hawks 15U DS",
         "awayTeamCode": "617919",
         "location": "Whipper Billy Watson",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 18,
+          "away": 9,
+          "scoreText": "9-18"
+        }
       }
     ],
     "recentGames": [
@@ -1188,8 +1200,12 @@
         "awayTeam": "Newmarket Hawks 15U DS",
         "awayTeamCode": "617919",
         "location": "Whipper Billy Watson",
-        "isCompleted": false,
-        "score": null
+        "isCompleted": true,
+        "score": {
+          "home": 18,
+          "away": 9,
+          "scoreText": "9-18"
+        }
       },
       {
         "date": "2026-08-12T23:30:00.000Z",
@@ -1337,18 +1353,18 @@
       }
     ],
     "upcomingGames": [],
-    "lastUpdated": "2026-08-22T16:23:34.602Z",
+    "lastUpdated": "2026-08-22T16:53:18.507Z",
     "totalGames": 40
   },
   "summary": {
     "totalTeams": 5,
     "totalGames": 40,
-    "completedGames": 39,
-    "upcomingGames": 1,
+    "completedGames": 40,
+    "upcomingGames": 0,
     "topTeam": {
       "team": "Barrie Baycats 15U DS",
       "teamCode": "612800",
-      "wins": 15,
+      "wins": 16,
       "losses": 0,
       "winPercentage": "1.000"
     },
@@ -1361,6 +1377,6 @@
       "date": "Sat, Aug 1",
       "location": "Bishop Cross Diamond"
     },
-    "lastUpdated": "2026-08-22T16:23:36.305Z"
+    "lastUpdated": "2026-08-22T16:53:20.435Z"
   }
 }
