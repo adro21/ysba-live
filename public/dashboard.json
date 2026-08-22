@@ -1,13 +1,25 @@
 {
-  "lastUpdated": "2026-08-22T16:53:20.435Z",
+  "lastUpdated": "2026-08-22T17:19:31.578Z",
   "totals": {
     "divisions": 54,
     "teams": 213,
     "games": 5619,
-    "completed": 5377,
-    "upcoming": 242
+    "completed": 5378,
+    "upcoming": 241
   },
   "recentActivity": [
+    {
+      "date": "2026-08-22T17:00:00.000Z",
+      "dateText": "Sat, Aug 22",
+      "time": "1:00 PM",
+      "homeTeam": "Leaside",
+      "homeTeamCode": "892648",
+      "awayTeam": "Scarborough",
+      "awayTeamCode": "892643",
+      "location": "Donald Russell Memorial Park",
+      "isCompleted": false,
+      "score": null
+    },
     {
       "date": "2026-08-22T15:30:00.000Z",
       "dateText": "Sat, Aug 22",
@@ -17,8 +29,12 @@
       "awayTeam": "Royal York",
       "awayTeamCode": "892633",
       "location": "Rotary Peace Park — Diamond South — Toronto",
-      "isCompleted": false,
-      "score": null
+      "isCompleted": true,
+      "score": {
+        "home": 11,
+        "away": 3,
+        "scoreText": "3-11"
+      }
     },
     {
       "date": "2026-08-21T23:00:00.000Z",
@@ -67,36 +83,7 @@
         "away": 6,
         "scoreText": "6-4"
       }
-    },
-    {
-      "date": "2026-08-20T22:00:00.000Z",
-      "dateText": "Thu, Aug 20",
-      "time": "6:00 PM",
-      "homeTeam": "Scarborough",
-      "homeTeamCode": "892643",
-      "awayTeam": "East York",
-      "awayTeamCode": "892640",
-      "location": "TBA",
-      "isCompleted": true,
-      "score": {
-        "home": 1,
-        "away": 16,
-        "scoreText": "16-1"
-      }
     }
   ],
-  "upcomingGames": [
-    {
-      "date": "2026-08-22T17:00:00.000Z",
-      "dateText": "Sat, Aug 22",
-      "time": "1:00 PM",
-      "homeTeam": "Leaside",
-      "homeTeamCode": "892648",
-      "awayTeam": "Scarborough",
-      "awayTeamCode": "892643",
-      "location": "Donald Russell Memorial Park",
-      "isCompleted": false,
-      "score": null
-    }
-  ]
+  "upcomingGames": []
 }

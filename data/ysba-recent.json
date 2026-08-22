@@ -1,7 +1,21 @@
 {
-  "lastUpdated": "2026-08-22T16:53:20.435Z",
+  "lastUpdated": "2026-08-22T17:19:31.578Z",
   "totalGames": 190,
   "games": [
+    {
+      "date": "2026-08-22T17:00:00.000Z",
+      "dateText": "Sat, Aug 22",
+      "time": "1:00 PM",
+      "homeTeam": "Leaside",
+      "homeTeamCode": "892648",
+      "awayTeam": "Scarborough",
+      "awayTeamCode": "892643",
+      "location": "Donald Russell Memorial Park",
+      "isCompleted": false,
+      "score": null,
+      "division": "10U",
+      "tier": "interlock-all-tiers"
+    },
     {
       "date": "2026-08-22T15:30:00.000Z",
       "dateText": "Sat, Aug 22",
@@ -11,8 +25,12 @@
       "awayTeam": "Royal York",
       "awayTeamCode": "892633",
       "location": "Rotary Peace Park — Diamond South — Toronto",
-      "isCompleted": false,
-      "score": null,
+      "isCompleted": true,
+      "score": {
+        "home": 11,
+        "away": 3,
+        "scoreText": "3-11"
+      },
       "division": "10U",
       "tier": "interlock-all-tiers"
     },
@@ -321,24 +339,6 @@
       },
       "division": "14U",
       "tier": "rep-tier-3"
-    },
-    {
-      "date": "2026-08-15T14:00:00.000Z",
-      "dateText": "Sat, Aug 15",
-      "time": "10:00 AM",
-      "homeTeam": "East York",
-      "homeTeamCode": "892640",
-      "awayTeam": "Leaside",
-      "awayTeamCode": "892648",
-      "location": "Dieppe — Toronto",
-      "isCompleted": true,
-      "score": {
-        "home": 3,
-        "away": 2,
-        "scoreText": "2-3"
-      },
-      "division": "10U",
-      "tier": "interlock-all-tiers"
     },
     {
       "date": "2026-08-13T23:30:00.000Z",
