@@ -171,7 +171,7 @@ Scraping operations use `withBrowserSession()` to coordinate Puppeteer instances
 3. Use `npm run build` to update cache version for deployment
 
 ### Adding or Changing a Sponsor
-1. Export two transparent PNGs into `public/images/sponsors/`: `<id>.png` (brand colour, for white surfaces) and `<id>-white.png` (white, for the dark footer). Keep them around 640px wide; `sips -Z 720 in.png --out out.png` is enough. For a black logo, a white variant can be derived with a short Pillow script (see the Walt Ortho commit history).
+1. Produce two transparent PNGs in `public/images/sponsors/`: `<id>.png` (brand colour, for white surfaces) and `<id>-white.png` (white, for the dark footer). If the sponsor supplies both, resize with `sips -Z 720 in.png --out out.png`. If you only have the colour version, `python3 scripts/make-sponsor-logo.py <id> logo.png` trims, transparentizes, resizes and derives the white variant (needs Pillow; keeps saturated accents like Walt Ortho's blue dot). A `.ai` file can be rendered first with `sips -s format png --resampleWidth 1200 logo.ai --out logo.png`.
 2. Add an entry to `SPONSORS` in `public/js/sponsors.js` with `id`, `name`, `url`, both logo paths, the PNG's pixel `width`/`height_px`, and `height` (the resting height in px inside the header cell; balance wordmarks vs. stacked marks by eye — the strip and footer scale from this value).
 3. Update the `CREDIT` line in the same file if the sponsored team changes.
 4. Run `npm run build` so `sponsors.js`/`sponsors.css` get a fresh cache version, then push to main.
