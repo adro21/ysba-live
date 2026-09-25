@@ -83,6 +83,8 @@ The application now includes a background worker system (`src/scraper/`) that:
 
 **`ai-story-service.js`** - OpenAI-powered story generation system for homepage news content
 
+**`public/js/sponsors.js`** + **`public/css/sponsors.css`** - Sponsor credits ("Presented by") for the Richmond Hill Phoenix 11U team sponsors. The sponsor list lives at the top of `sponsors.js`; the script renders it into every element carrying a `data-sponsors="cell|strip|footer"` attribute. Both pages mount three placements: a cell at the right end of the header on desktop, a slim strip under the header stack on phones, and a credit row in the dark footer. Logos are served from `public/images/sponsors/` as a colour-on-white / white-on-dark PNG pair per sponsor. Links use `rel="sponsored noopener"` and fire a `sponsor_click` Google Analytics event with `sponsor` and `placement` parameters.
+
 ### Multi-Division System
 
 The application supports multiple divisions with dynamic routing:
@@ -167,6 +169,13 @@ Scraping operations use `withBrowserSession()` to coordinate Puppeteer instances
 1. Main logic in `public/js/app.js`
 2. Styles in `public/css/styles.css`
 3. Use `npm run build` to update cache version for deployment
+
+### Adding or Changing a Sponsor
+1. Export two transparent PNGs into `public/images/sponsors/`: `<id>.png` (brand colour, for white surfaces) and `<id>-white.png` (white, for the dark footer). Keep them around 640px wide; `sips -Z 720 in.png --out out.png` is enough. For a black logo, a white variant can be derived with a short Pillow script (see the Walt Ortho commit history).
+2. Add an entry to `SPONSORS` in `public/js/sponsors.js` with `id`, `name`, `url`, both logo paths, the PNG's pixel `width`/`height_px`, and `height` (the resting height in px inside the header cell; balance wordmarks vs. stacked marks by eye — the strip and footer scale from this value).
+3. Update the `CREDIT` line in the same file if the sponsored team changes.
+4. Run `npm run build` so `sponsors.js`/`sponsors.css` get a fresh cache version, then push to main.
+Responsive show/hide is class-driven on the mount elements (`sp-from-901`/`sp-until-900` on the home page, `sp-from-769`/`sp-until-768` on standings); the home masthead hides its Teams/Divisions cells below 1100px to make room for the sponsor cell.
 
 ### Email System Changes
 1. Modify `email-service.js` for email logic

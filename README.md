@@ -16,6 +16,7 @@ A comprehensive web application that scrapes and displays real-time standings an
 - 📱 **Progressive Web App** with offline support
 - 🔧 **Background Worker** - Render background service for data scraping
 - 📋 **Multi-Division Support** - All Rep and Select divisions (8U through 18U)
+- 🤝 **Sponsor credits** - "Presented by" logos in the header, phone strip and footer, configured in `public/js/sponsors.js`
 
 ## Technology Stack
 
@@ -264,6 +265,8 @@ The application can be configured through `config.js`:
 - `USER_AGENT`: Browser user agent string for scraping
 - `DIVISION_VALUE`: YSBA division ID for 9U Select (default: '13')
 - `TIER_VALUE`: Tier selection (default: '__ALL__')
+
+Sponsor logos and links are configured separately in `public/js/sponsors.js` (see `CLAUDE.md` → "Adding or Changing a Sponsor"). Logo files live in `public/images/sponsors/`.
 
 ## How It Works
 
