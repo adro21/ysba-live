@@ -12,7 +12,7 @@
     <meta name="description" content="YSBA Live — Real-time baseball standings, recent scores and headlines from the York Simcoe Baseball Association.">
     <meta name="theme-color" content="#0f0f12">
     <link rel="manifest" href="/manifest.json?v=321200">
-    <link rel="icon" type="image/svg+xml" href="/icons/icon.svg?v=898971">
+    <link rel="icon" type="image/svg+xml" href="/icons/icon.svg?v=945648">
     <link rel="apple-touch-icon" sizes="180x180" href="/icons/ios/AppIcon@3x.png?v=321200">
 
     <!-- Google tag -->
@@ -28,6 +28,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,700&family=Barlow:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/sponsors.css?v=945648">
+    <script src="/js/sponsors.js?v=945648" defer></script>
 
     <style>
         /* =========================================================
@@ -292,7 +294,8 @@
         @keyframes spin {
             to { transform: rotate(360deg); }
         }
-        @media (max-width: 900px) {
+        @media (max-width: 1100px) {
+            /* Make room for the sponsor cell before the brand block wraps */
             .meta-cell:not(.meta-live):not(.meta-refresh) { display: none; }
         }
         @media (max-width: 560px) {
@@ -1853,6 +1856,7 @@
                     <span class="sep">·</span>
                     <span class="next">next <span id="refreshNext">2:00</span></span>
                 </div>
+                <div class="sp-from-901" data-sponsors="cell"></div>
             </div>
         </div>
     </header>
@@ -1877,6 +1881,9 @@
         <span class="pulse-stat"><span class="num" id="pulseWeekTotal">—</span> Games this week</span>
         <span class="pulse-day" id="pulseDay">—</span>
     </section>
+
+    <!-- ============ SPONSORS (phones; desktop shows them in the masthead) ============ -->
+    <div class="sp-until-900" data-sponsors="strip"></div>
 
     <!-- ============ PAGE BODY ============ -->
     <main class="page-wrap">
@@ -1944,6 +1951,7 @@
                 <span><a href="/manage">Manage Subscriptions</a></span>
             </div>
         </div>
+        <div class="colophon-partners" data-sponsors="footer"></div>
     </footer>
 
     <!-- ============ MEGA MENU (DESKTOP — original markup) ============ -->

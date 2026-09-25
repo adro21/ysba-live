@@ -27,6 +27,8 @@ filesToUpdate.forEach(filePath => {
     content = content.replace(/\/js\/dev-utils\.js\?v=\d+/g, `/js/dev-utils.js?v=${cacheVersion}`);
     content = content.replace(/\/js\/backup\.js\?v=\d+/g, `/js/backup.js?v=${cacheVersion}`);
     content = content.replace(/js\/manage\.js\?v=\d+/g, `js/manage.js?v=${cacheVersion}`);
+    content = content.replace(/\/css\/sponsors\.css\?v=\d+/g, `/css/sponsors.css?v=${cacheVersion}`);
+    content = content.replace(/\/js\/sponsors\.js\?v=\d+/g, `/js/sponsors.js?v=${cacheVersion}`);
     
     // Update icon version numbers (favicon and app icons)
     content = content.replace(/\/icons\/icon\.svg(\?v=\d+)?/g, `/icons/icon.svg?v=${cacheVersion}`);
