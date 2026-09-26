@@ -12,7 +12,7 @@
     <meta name="description" content="YSBA Live — Real-time baseball standings, recent scores and headlines from the York Simcoe Baseball Association.">
     <meta name="theme-color" content="#0f0f12">
     <link rel="manifest" href="/manifest.json?v=321200">
-    <link rel="icon" type="image/svg+xml" href="/icons/icon.svg?v=691984">
+    <link rel="icon" type="image/svg+xml" href="/icons/icon.svg?v=463340">
     <link rel="apple-touch-icon" sizes="180x180" href="/icons/ios/AppIcon@3x.png?v=321200">
 
     <!-- Google tag -->
@@ -28,8 +28,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,700&family=Barlow:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/sponsors.css?v=691984">
-    <script src="/js/sponsors.js?v=691984" defer></script>
+    <link rel="stylesheet" href="/css/sponsors.css?v=463340">
+    <script src="/js/sponsors.js?v=463340" defer></script>
 
     <style>
         /* =========================================================
@@ -352,6 +352,9 @@
             font-weight: 600;
         }
         .pulse-stat .lbl-short { display: none; }
+        .pulse-note { display: none; color: var(--ink-2); }
+        .pulse.is-offseason .pulse-stat { display: none; }
+        .pulse.is-offseason .pulse-note { display: inline; }
         @media (max-width: 560px) {
             /* One line on phones: short labels, no wrapping, day hidden */
             .pulse { padding: 0.5rem 0.85rem; gap: 0.9rem; font-size: 0.76rem; flex-wrap: nowrap; justify-content: space-between; }
@@ -753,6 +756,44 @@
             margin-bottom: 1.2rem;
             text-wrap: pretty;
         }
+        /* Box-score line for the team the lead story is about */
+        .lead-stats {
+            margin-top: auto;
+            display: grid;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            padding: 0.9rem 0 0.2rem;
+            border-top: 1px solid var(--rule);
+        }
+        .lead-stats[hidden] { display: none; }
+        .lead-stat {
+            display: flex;
+            flex-direction: column;
+            gap: 0.2rem;
+            padding: 0 1rem 0 0;
+            min-width: 0;
+        }
+        .lead-stat + .lead-stat { padding-left: 1rem; border-left: 1px solid var(--rule); }
+        .lead-stat .v {
+            font-family: var(--mono);
+            font-weight: 700;
+            font-size: clamp(1.15rem, 1.4vw, 1.5rem);
+            line-height: 1;
+            color: var(--ink);
+            font-variant-numeric: tabular-nums;
+            white-space: nowrap;
+        }
+        .lead-stat .v.pos { color: var(--green); }
+        .lead-stat .v.neg { color: var(--red); }
+        .lead-stat .k {
+            font-family: var(--mono);
+            font-size: 0.62rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--ink-3);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
         .lead-meta {
             display: flex;
             align-items: center;
@@ -853,6 +894,11 @@
             .lead-main { padding: 1.1rem 1rem 1.2rem; }
             .top-tag { font-size: 0.72rem; padding: 0.28rem 0.55rem; margin-bottom: 0.85rem; }
             .lead-meta { gap: 0.55rem; flex-wrap: wrap; font-size: 0.72rem; }
+            .lead-stats { padding-top: 0.75rem; }
+            .lead-stat { padding-right: 0.5rem; }
+            .lead-stat + .lead-stat { padding-left: 0.5rem; }
+            .lead-stat .v { font-size: 1.05rem; }
+            .lead-stat .k { font-size: 0.56rem; letter-spacing: 0.06em; }
             .secondary { padding: 0.85rem 1rem; }
         }
 
@@ -865,7 +911,19 @@
             gap: 0.85rem;
         }
         @media (max-width: 520px) {
-            .scoreboard { grid-template-columns: 1fr; gap: 0.7rem; }
+            /* Two compact cards per row: half the scroll to reach standings */
+            .scoreboard { grid-template-columns: 1fr 1fr; gap: 0.55rem; }
+            .score-top { padding: 0.45rem 0.6rem; font-size: 0.66rem; letter-spacing: 0.04em; }
+            .score-top .division-tag::before { width: 0.25rem; height: 0.7rem; }
+            .score-status { font-size: 0.58rem; }
+            .matchup { padding: 0.35rem 0; }
+            .team-row { padding: 0.4rem 0.6rem; gap: 0.45rem; }
+            .team-row .team-name { font-size: 0.86rem; }
+            .team-row .runs { font-size: 1.25rem; }
+            .score-bottom { padding: 0.4rem 0.6rem; font-size: 0.62rem; margin-top: auto; }
+            .score-bottom .where { display: none; }
+            /* Long names ("Caledon Nationals 12U A") get two lines, then clip */
+            .team-row .team-name { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; line-height: 1.15; }
         }
         .score-card {
             background: var(--surface);
@@ -1276,7 +1334,7 @@
         .standings-col-link:hover { color: white; gap: 0.5rem; }
         .standings-table {
             display: grid;
-            grid-template-columns: 1.8rem 1fr 3.2rem 2.8rem 2.8rem;
+            grid-template-columns: 1.8rem 1fr 3.7rem 2.8rem 2.8rem;
             align-items: center;
             font-size: 0.86rem;
         }
@@ -1339,6 +1397,7 @@
             transform: translateY(-1px);
         }
         .standings-table .row-num {
+            white-space: nowrap;
             font-family: var(--mono);
             font-variant-numeric: tabular-nums;
             font-weight: 600;
@@ -1370,7 +1429,11 @@
             gap: 0.85rem;
         }
         @media (max-width: 480px) {
-            .division-grid { grid-template-columns: 1fr; gap: 0.65rem; }
+            .division-grid { grid-template-columns: 1fr 1fr; gap: 0.55rem; }
+            .division-tile-head { padding: 0.5rem 0.65rem; }
+            .division-tile-name { font-size: 1rem; }
+            .division-tile-body { padding: 0.6rem 0.65rem 0.65rem; gap: 0.5rem; }
+            .division-tile-stats { font-size: 0.64rem; gap: 0.6rem; }
         }
         /* tier chips: hit area ≥ 36px tall, comfortable tap target */
         .tier-chip { min-height: 32px; line-height: 1; display: inline-flex; align-items: center; }
@@ -1859,10 +1922,8 @@
                 <div class="meta-cell meta-live">LIVE</div>
                 <div class="meta-cell"><strong id="teamCount">—</strong> Teams</div>
                 <div class="meta-cell"><strong id="divCount">—</strong> Divisions</div>
-                <div class="meta-cell meta-refresh" id="refreshStatus" title="Auto-refreshes every 2 minutes">
+                <div class="meta-cell meta-refresh" id="refreshStatus" title="Standings and scores refresh automatically">
                     <span class="age" id="refreshAge">—</span>
-                    <span class="sep">·</span>
-                    <span class="next">next <span id="refreshNext">2:00</span></span>
                 </div>
                 <div class="sp-from-901" data-sponsors="cell"></div>
             </div>
@@ -1887,6 +1948,7 @@
         <span class="pulse-stat"><span class="num" id="pulseTodayFinal">—</span> <span class="lbl"><span class="lbl-full">Finals today</span><span class="lbl-short">Finals</span></span></span>
         <span class="pulse-stat"><span class="num" id="pulseTodayUpcoming">—</span> <span class="lbl"><span class="lbl-full">Today's slate</span><span class="lbl-short">Today</span></span></span>
         <span class="pulse-stat"><span class="num" id="pulseWeekTotal">—</span> <span class="lbl"><span class="lbl-full">Games this week</span><span class="lbl-short">This week</span></span></span>
+        <span class="pulse-note" id="pulseNote">Season complete · standings are final</span>
         <span class="pulse-day" id="pulseDay">—</span>
     </section>
 
@@ -1902,6 +1964,7 @@
                 <div class="top-tag" id="topTag">Top Story</div>
                 <h2 class="lead-headline" id="leadHeadline">Loading the latest from around the league.</h2>
                 <p class="lead-body" id="leadBody">Stories from across the league are loading — wins, streaks, breakthroughs and the slow grind of a brand-new season.</p>
+                <div class="lead-stats" id="leadStats" hidden></div>
                 <div class="lead-meta">
                     <span class="division-pill" id="leadDivision">YSBA</span>
                     <a class="read-link" id="leadLink" href="/">View standings</a>
@@ -2261,6 +2324,7 @@
             document.getElementById('leadBody').textContent = lead.body || '';
             document.getElementById('leadDivision').textContent = lead.division || 'YSBA';
             document.getElementById('leadLink').href = slugFromDivisionString(lead.division);
+            renderLeadStats(lead);
 
             const rail = document.getElementById('leadRail');
             const sec = stories.slice(1, 4);
@@ -2276,6 +2340,45 @@
             `).join('');
         };
 
+        /* Find the standings row for the team a story is about and show its line. */
+        const findStoryTeam = (story) => {
+            const slug = slugFromDivisionString(story.division || '');
+            const m = slug.match(/^\/([^-]+)-(rep|select|interlock)\/(.+)$/);
+            if (!m) return null;
+            const [, age, type, tierPath] = m;
+            const tierKey = type === 'rep' ? `rep-${tierPath}` : `${type}-all-tiers`;
+            const tier = state.standings.divisions?.[age]?.tiers?.[tierKey];
+            if (!tier || !tier.teams) return null;
+            const text = `${story.headline || ''} ${story.body || ''}`.toLowerCase();
+            let best = null;
+            for (const t of tier.teams) {
+                const name = (t.team || '').toLowerCase();
+                if (name && text.includes(name) && (!best || name.length > best.team.length)) best = t;
+            }
+            return best ? { team: best, division: friendlyDivisionLabel(age, tierKey) } : null;
+        };
+        const ordinal = (n) => {
+            const r = n % 100;
+            if (r >= 11 && r <= 13) return `${n}th`;
+            return `${n}${['th', 'st', 'nd', 'rd'][n % 10] || 'th'}`;
+        };
+        const renderLeadStats = (story) => {
+            const el = document.getElementById('leadStats');
+            if (!el) return;
+            const hit = findStoryTeam(story);
+            if (!hit) { el.hidden = true; el.innerHTML = ''; return; }
+            const t = hit.team;
+            const rd = (t.rf || 0) - (t.ra || 0);
+            const pct = (t.pct || '0').replace(/^0(?=\.)/, '');
+            el.innerHTML = `
+                <div class="lead-stat"><span class="v">${t.w}-${t.l}${t.t ? '-' + t.t : ''}</span><span class="k">Record</span></div>
+                <div class="lead-stat"><span class="v">${esc(pct)}</span><span class="k">Win pct</span></div>
+                <div class="lead-stat"><span class="v ${rd > 0 ? 'pos' : (rd < 0 ? 'neg' : '')}">${rd > 0 ? '+' : ''}${rd}</span><span class="k">Run diff</span></div>
+                <div class="lead-stat"><span class="v">${t.pos ? ordinal(t.pos) : '—'}</span><span class="k" title="${esc(hit.division)}">${esc(hit.division)}</span></div>
+            `;
+            el.hidden = false;
+        };
+
         const stylizeHeadline = (h) => {
             if (!h) return '';
             const safe = esc(h);
@@ -2286,6 +2389,10 @@
             }
             return safe;
         };
+
+        /* "Rotary Peace Park — Diamond South — Toronto" → "Rotary Peace Park" */
+        const venueName = (location, max) =>
+            (location || '').split('(')[0].split(/\s+[—–-]\s+/)[0].trim().replace(/\s+/g, ' ').slice(0, max);
 
         /* ---------- Game routing helpers ---------- */
         const gameUrl = (g) => {
@@ -2309,7 +2416,7 @@
             else if (today)   { statusText = 'TODAY'; statusCls = 'today'; }
             else              { statusText = (g.dateText || 'TBD').toUpperCase(); }
 
-            const where  = (g.location || '').split('(')[0].trim().replace(/\s+/g, ' ').slice(0, 30) || '';
+            const where  = venueName(g.location, 30);
             const matchup = `${esc(g.awayTeam || 'Away')}<span class="vs">@</span>${esc(g.homeTeam || 'Home')}`;
             const rowCls = `${isLive ? 'is-live' : ''} ${today && !isLive ? 'is-today' : ''}`.trim();
 
@@ -2333,7 +2440,7 @@
             const tie     = g.score.home === g.score.away;
             const awayClass = awayWin ? 'winner' : (tie ? '' : 'loser');
             const homeClass = homeWin ? 'winner' : (tie ? '' : 'loser');
-            const where = (g.location || '').split('(')[0].trim().replace(/\s+/g, ' ').slice(0, 38) || '';
+            const where = venueName(g.location, 38);
 
             const justIn = gameLiveState(g) === 'just-in';
             const statusHtml = justIn
@@ -2404,15 +2511,21 @@
                 return (gameStartMs(a) || 0) - (gameStartMs(b) || 0);
             });
 
-            const scheduledShown = scheduled.slice(0, 8);
-            const finalsShown    = finals.slice(0, 12);
-            const liveCount = scheduled.filter(g => gameLiveState(g) === 'live').length;
+            // The feed lists a game once per tier a team belongs to; show it once.
+            const gameKey = (g) => [g.awayTeam, g.homeTeam, (g.date || g.dateText || '').slice(0, 10),
+                g.score ? `${g.score.away}-${g.score.home}` : ''].join('|').toLowerCase();
+            const dedupe = (list) => { const seen = new Set(); return list.filter(g => { const k = gameKey(g); if (seen.has(k)) return false; seen.add(k); return true; }); };
+            const scheduledAll = dedupe(scheduled);
+            const finalsAll    = dedupe(finals);
+            const scheduledShown = scheduledAll.slice(0, 8);
+            const finalsShown    = finalsAll.slice(0, 12);
+            const liveCount = scheduledAll.filter(g => gameLiveState(g) === 'live').length;
 
             let html = '';
             let i = 0;
 
             if (scheduledShown.length) {
-                const total = scheduled.length;
+                const total = scheduledAll.length;
                 const countParts = [`${total} ${total === 1 ? 'game' : 'games'}`];
                 if (liveCount) countParts.push(`<span class="live-tag">${liveCount} live</span>`);
                 html += `
@@ -2476,8 +2589,8 @@
                 return;
             }
             if (meta) {
-                const activeDivisions = picks.length;
-                meta.textContent = `${activeDivisions} ${activeDivisions === 1 ? 'division' : 'divisions'} live`;
+                const activeTiers = picks.length;
+                meta.textContent = `${activeTiers} ${activeTiers === 1 ? 'tier' : 'tiers'} in play`;
             }
 
             strip.innerHTML = top3.map((p, idx) => {
@@ -2523,9 +2636,13 @@
         };
 
         /* ---------- Division grid ---------- */
+        // Divisions with at least one team in some tier (config can list a division before it fills).
+        const activeDivisionEntries = () => Object.entries(state.divisions)
+            .filter(([, d]) => Object.values(d.tiers || {}).some(t => (t.teams || 0) > 0));
+
         const renderDivisionGrid = () => {
             const grid = document.getElementById('divisionGrid');
-            const entries = Object.entries(state.divisions);
+            const entries = activeDivisionEntries();
             if (!entries.length) {
                 grid.innerHTML = `<div class="placeholder">Divisions are loading…</div>`;
                 return;
@@ -2554,7 +2671,8 @@
             grid.innerHTML = sorted.map((entry, i) => {
                 const [key, division] = entry;
                 const type = key.split('-')[1] || 'rep';
-                const ageLabel = (division.displayName || key).replace(/\s*Rep$|\s*Select$|\s*Interlock$/i, '');
+                // The tile's type badge already says Rep / Select / Interlock
+                const ageLabel = (division.displayName || key).replace(/\b(Rep|Select|Interlock)\b/gi, '').replace(/\s+/g, ' ').trim();
                 const tiers = Object.entries(division.tiers || {});
                 const totalTeams = tiers.reduce((a, [, t]) => a + (t.teams || 0), 0);
                 const totalGames = tiers.reduce((a, [, t]) => a + (t.games || 0), 0);
@@ -2970,6 +3088,18 @@
             const liveStat = document.querySelector('.pulse-stat.live') || document.querySelectorAll('.pulse-stat')[0];
             if (liveStat) liveStat.classList.toggle('live', liveCount > 0);
 
+            // A row of zeros says nothing. In season, drop the strip on a quiet week;
+            // once the last final is two weeks old with nothing scheduled, say the season is done.
+            const strip = document.getElementById('pulseStrip');
+            const allZero = !liveCount && !todayFinals && !todayUpcoming && !weekTotal;
+            const newestFinal = games.reduce((m, g) => (g.isCompleted ? Math.max(m, gameStartMs(g) || 0) : m), 0);
+            const hasUpcoming = games.some(g => !g.isCompleted && (gameStartMs(g) || 0) > Date.now());
+            const offSeason = allZero && newestFinal > 0 && !hasUpcoming && (Date.now() - newestFinal) > 14 * 24 * 60 * 60 * 1000;
+            if (strip) {
+                strip.classList.toggle('is-offseason', offSeason);
+                strip.hidden = allZero && !offSeason;
+            }
+
             // Day label
             const dayLabel = new Date().toLocaleDateString('en-US', { weekday: 'long' }).toUpperCase();
             document.getElementById('pulseDay').textContent = dayLabel;
@@ -2978,23 +3108,15 @@
         /* ---------- Refresh status indicator ---------- */
         let refreshTickHandle = null;
         const renderRefreshStatus = () => {
-            const el = document.getElementById('refreshStatus');
             const ageEl = document.getElementById('refreshAge');
-            const nextEl = document.getElementById('refreshNext');
-            if (!el || !ageEl || !nextEl) return;
-
-            const sinceMs = Date.now() - state.lastRefreshAt;
-            const secs = Math.max(0, Math.floor(sinceMs / 1000));
-            ageEl.textContent = secs < 60 ? `${secs}s ago` : `${Math.floor(secs / 60)}m ago`;
-
-            const nextMs = Math.max(0, REFRESH_INTERVAL_MS - sinceMs);
-            const m = Math.floor(nextMs / 60000);
-            const s = Math.floor((nextMs % 60000) / 1000);
-            nextEl.textContent = `${m}:${String(s).padStart(2, '0')}`;
+            if (!ageEl) return;
+            // Readers care how fresh the data is, not when the next poll fires.
+            const dataTs = state.recent.lastUpdated || state.standings.lastUpdated;
+            ageEl.textContent = dataTs ? `Updated ${timeAgo(dataTs)}` : '—';
         };
         const startRefreshTick = () => {
             if (refreshTickHandle) clearInterval(refreshTickHandle);
-            refreshTickHandle = setInterval(renderRefreshStatus, 1000);
+            refreshTickHandle = setInterval(renderRefreshStatus, 60000);
             renderRefreshStatus();
         };
         const stopRefreshTick = () => {
@@ -3081,7 +3203,7 @@
             if (recentRes.status === 'fulfilled' && recentRes.value?.games) state.recent = recentRes.value;
             if (standingsRes.status === 'fulfilled' && standingsRes.value?.divisions) state.standings = standingsRes.value;
 
-            const divEntries = Object.values(state.divisions);
+            const divEntries = activeDivisionEntries().map(([, d]) => d);
             const divCount = divEntries.length;
             const teamCount = divEntries.reduce((acc, d) => acc + Object.values(d.tiers || {}).reduce((a, t) => a + (t.teams || 0), 0), 0);
             document.getElementById('divCount').textContent = divCount;

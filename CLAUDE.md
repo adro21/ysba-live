@@ -85,6 +85,15 @@ The application now includes a background worker system (`src/scraper/`) that:
 
 **`public/js/sponsors.js`** + **`public/css/sponsors.css`** - Sponsor credits ("Presented by") for the Richmond Hill Phoenix 11U team sponsors. The sponsor list lives at the top of `sponsors.js`; the script renders it into every element carrying a `data-sponsors="cell|strip|footer"` attribute. Both pages mount three placements: a cell at the right end of the header on desktop, a slim strip under the header stack on phones, and a credit row in the dark footer. Every logo sits in a fixed-size slot (`--sp-slot` × `--sp-box`, set per placement in the CSS) and is clamped to it, so the row width is predictable and no logo shape can cause horizontal overflow. The footer shows every sponsor in a wrapping grid; the header cell and phone strip show a fixed number of slots (`SLOTS` in the JS: 3 on desktop, 3/2 on phones) and, when there are more sponsors than slots, rotate through them in groups every 8s with a crossfade (instant swap under `prefers-reduced-motion`, paused on hover, skipped while the tab is hidden). Logos are served from `public/images/sponsors/` as a colour-on-white / white-on-dark PNG pair per sponsor. Links use `rel="sponsored noopener"` and fire a `sponsor_click` Google Analytics event with `sponsor` and `placement` parameters.
 
+### Homepage behaviours worth knowing (`public/index.html`)
+
+- **Games are deduped before rendering.** The recent-games feed lists a game once per tier a team belongs to (a 12U A game also appears under 12U AA). `renderScores` dedupes on away/home/date/score so the Latest Scores grid never shows the same game twice.
+- **Counts say what they count.** The masthead and All Divisions section count divisions with at least one team (`activeDivisionEntries`); the Standings Snapshot header counts tiers ("19 tiers in play"). Divisions configured but empty (e.g. 11U Select before it fills) are hidden everywhere.
+- **Pulse strip states.** All-zero in season → the strip is hidden. All-zero with the newest final more than 14 days old and nothing scheduled → the strip says "Season complete · standings are final" (class `is-offseason`).
+- **Lead story stat line.** `renderLeadStats` looks up the story's division in standings and matches a team name inside the headline/body; if found it shows record, win pct, run diff and rank under the story. No match → the block stays hidden.
+- **Masthead freshness cell** shows the data's `lastUpdated` age ("Updated 58 min ago"), not the client poll timer.
+- **Phones:** score cards and division tiles are two per row below 520px/480px; venue text drops the diamond/city suffix (`venueName`) and is hidden on phone cards; the pulse strip uses short labels and never wraps.
+
 ### Multi-Division System
 
 The application supports multiple divisions with dynamic routing:
