@@ -83,7 +83,7 @@ The application now includes a background worker system (`src/scraper/`) that:
 
 **`ai-story-service.js`** - OpenAI-powered story generation system for homepage news content
 
-**`public/js/sponsors.js`** + **`public/css/sponsors.css`** - Sponsor credits ("Presented by") for the Richmond Hill Phoenix 11U team sponsors. The sponsor list lives at the top of `sponsors.js`; the script renders it into every element carrying a `data-sponsors="cell|strip|footer"` attribute. Both pages mount three placements: a cell at the right end of the header on desktop, a slim strip under the header stack on phones, and a credit row in the dark footer. Logos are served from `public/images/sponsors/` as a colour-on-white / white-on-dark PNG pair per sponsor. Links use `rel="sponsored noopener"` and fire a `sponsor_click` Google Analytics event with `sponsor` and `placement` parameters.
+**`public/js/sponsors.js`** + **`public/css/sponsors.css`** - Sponsor credits ("Presented by") for the Richmond Hill Phoenix 11U team sponsors. The sponsor list lives at the top of `sponsors.js`; the script renders it into every element carrying a `data-sponsors="cell|strip|footer"` attribute. Both pages mount three placements: a cell at the right end of the header on desktop, a slim strip under the header stack on phones, and a credit row in the dark footer. Every logo sits in a fixed-size slot (`--sp-slot` × `--sp-box`, set per placement in the CSS) and is clamped to it, so the row width is predictable and no logo shape can cause horizontal overflow. The footer shows every sponsor in a wrapping grid; the header cell and phone strip show a fixed number of slots (`SLOTS` in the JS: 3 on desktop, 3/2 on phones) and, when there are more sponsors than slots, rotate through them in groups every 8s with a crossfade (instant swap under `prefers-reduced-motion`, paused on hover, skipped while the tab is hidden). Logos are served from `public/images/sponsors/` as a colour-on-white / white-on-dark PNG pair per sponsor. Links use `rel="sponsored noopener"` and fire a `sponsor_click` Google Analytics event with `sponsor` and `placement` parameters.
 
 ### Multi-Division System
 
@@ -175,7 +175,9 @@ Scraping operations use `withBrowserSession()` to coordinate Puppeteer instances
 2. Add an entry to `SPONSORS` in `public/js/sponsors.js` with `id`, `name`, `url`, both logo paths, the PNG's pixel `width`/`height_px`, and `height` (the resting height in px inside the header cell; balance wordmarks vs. stacked marks by eye — the strip and footer scale from this value).
 3. Update the `CREDIT` line in the same file if the sponsored team changes.
 4. Run `npm run build` so `sponsors.js`/`sponsors.css` get a fresh cache version, then push to main.
-Responsive show/hide is class-driven on the mount elements (`sp-from-901`/`sp-until-900` on the home page, `sp-from-769`/`sp-until-768` on standings); the home masthead hides its Teams/Divisions cells below 1100px to make room for the sponsor cell.
+Responsive show/hide is class-driven on the mount elements (`sp-from-901`/`sp-until-900` on the home page, `sp-from-769`/`sp-until-768` on standings); the home masthead hides its Teams/Divisions cells below 1100px to make room for the sponsor cell. Any number of sponsors is supported without layout changes: the footer wraps, the header/strip rotate. If you change slot sizes, keep three phone footer slots under ~328px (the 360px phone content width).
+
+**Testing phone widths locally**: Chrome on macOS won't resize below ~600px, so embed the pages in `<iframe width="360">` on a scratch page served from `public/` and compare `documentElement.scrollWidth` to `clientWidth`. Also check `navigator.serviceWorker.getRegistrations()` first — a stale service worker from another project on `localhost:3000` once served old JS/CSS to the iframes and made new code look broken.
 
 ### Email System Changes
 1. Modify `email-service.js` for email logic

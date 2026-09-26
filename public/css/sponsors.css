@@ -1,10 +1,14 @@
 /* =========================================================
    YSBA LIVE — Sponsor credits
    Self-contained: no dependency on either page's tokens.
-   Three placements, rendered by /js/sponsors.js:
+   Rendered by /js/sponsors.js into three placements:
      .sp--cell   a cell at the end of the header chrome (desktop)
      .sp--strip  a slim strip under the header stack (phones)
      .sp--footer a credit row on the dark footer band
+
+   Every logo sits in a fixed-size slot (--sp-slot × --sp-box) and
+   is clamped to it, so the row width is predictable, rotation never
+   shifts the layout, and no logo shape can push the page sideways.
    ========================================================= */
 
 :root {
@@ -22,15 +26,23 @@
 .sp {
     display: flex;
     align-items: center;
+    min-width: 0;
+    max-width: 100%;
+    box-sizing: border-box;
     --sp-scale: 1;
+    --sp-slot: 112px;   /* slot width  */
+    --sp-box: 32px;     /* slot height */
+    --sp-gap: 0.9rem;
 }
+.sp *, .sp *::before, .sp *::after { box-sizing: border-box; }
 .sp:empty { display: none; }
 
 .sp-lead {
-    display: inline-flex;
+    display: flex;
     align-items: center;
-    gap: 0.9rem;
+    gap: 0.85rem;
     min-width: 0;
+    max-width: 100%;
 }
 .sp-label {
     font-family: var(--sp-display);
@@ -40,78 +52,89 @@
     text-transform: uppercase;
     color: var(--sp-ink-3);
     white-space: nowrap;
+    flex: none;
 }
 .sp-logos {
-    display: inline-flex;
+    display: flex;
     align-items: center;
-    gap: 1.15rem;
+    gap: var(--sp-gap);
+    min-width: 0;
+    transition: opacity 320ms ease;   /* keep in step with FADE_MS in sponsors.js */
 }
-.sp-link {
-    display: inline-flex;
+.sp-logos.is-fading { opacity: 0; }
+
+.sp-slot {
+    flex: none;
+    width: var(--sp-slot);
+    height: var(--sp-box);
+    display: flex;
     align-items: center;
-    line-height: 0;
+    justify-content: center;
     border-radius: 2px;
     transition: transform 150ms ease, opacity 150ms ease;
 }
-a.sp-link:hover { transform: translateY(-1px); }
-.sp-link:focus-visible {
+a.sp-slot:hover { transform: translateY(-1px); }
+.sp-slot:focus-visible {
     outline: 2px solid var(--sp-focus);
     outline-offset: 4px;
 }
 .sp-logo {
     display: block;
-    height: calc(var(--sp-h, 20px) * var(--sp-scale));
     width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: min(100%, calc(var(--sp-h, 20px) * var(--sp-scale)));
 }
 
-/* ---- Header cell ------------------------------------------------ */
+/* ---- Header cell (desktop) --------------------------------------- */
 .sp--cell {
     padding: 0 1.1rem;
     border-left: 1px solid var(--sp-rule);
     white-space: nowrap;
 }
 
-/* ---- Phone strip ------------------------------------------------ */
+/* ---- Phone strip -------------------------------------------------- */
 .sp--strip {
     background: var(--sp-surface);
     border-bottom: 1px solid var(--sp-rule);
-    padding: 0.55rem 0.85rem;
-    justify-content: space-between;
-    gap: 0.75rem;
-    --sp-scale: 0.95;
+    padding: 0.5rem 0.85rem;
+    --sp-scale: 0.92;
+    --sp-slot: 100px;
+    --sp-box: 30px;
+    --sp-gap: 0.75rem;
 }
-.sp--strip .sp-lead { justify-content: space-between; width: 100%; }
-.sp--strip .sp-logos { gap: 1rem; }
+.sp--strip .sp-lead { width: 100%; justify-content: space-between; }
 
-/* ---- Footer credit row ------------------------------------------ */
+/* ---- Footer credit row (all sponsors, wrapping) ------------------- */
 .sp--footer {
     margin-top: 1.7rem;
     padding-top: 1.4rem;
     border-top: 1px solid var(--sp-rule-dark);
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 0.9rem 1.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.9rem;
     --sp-scale: 1.3;
+    --sp-slot: 128px;
+    --sp-box: 42px;
+    --sp-gap: 0.75rem 1.25rem;
 }
+.sp--footer .sp-lead { flex-wrap: wrap; gap: 0.75rem 1.1rem; width: 100%; }
 .sp--footer .sp-label { color: var(--sp-on-dark-3); }
-.sp--footer .sp-lead { gap: 1.1rem; }
-.sp--footer .sp-logos { gap: 1.5rem; }
-.sp--footer .sp-link { opacity: 0.88; }
-.sp--footer a.sp-link:hover { opacity: 1; }
+.sp--footer .sp-logos { flex-wrap: wrap; }
+.sp--footer .sp-slot { opacity: 0.88; }
+.sp--footer a.sp-slot:hover { opacity: 1; }
 .sp-credit {
     font-family: var(--sp-sans);
     font-size: 0.86rem;
     line-height: 1.4;
     color: var(--sp-on-dark-2);
 }
-.sp--footer.sp--center {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 0.75rem;
-}
+/* Centred variant (standings footer) */
+.sp--footer.sp--center { align-items: center; text-align: center; }
+.sp--footer.sp--center .sp-lead,
+.sp--footer.sp--center .sp-logos { justify-content: center; }
 
-/* ---- Responsive show/hide (the page picks which class it uses) -- */
+/* ---- Responsive show/hide (each page picks its own pair) ---------- */
 @media (max-width: 900px)  { .sp-from-901 { display: none; } }
 @media (min-width: 901px)  { .sp-until-900 { display: none; } }
 @media (max-width: 768px)  { .sp-from-769 { display: none; } }
@@ -120,19 +143,19 @@ a.sp-link:hover { transform: translateY(-1px); }
 /* Tight desktop widths: keep the logos, drop the caption */
 @media (max-width: 1180px) { .sp--cell .sp-label { display: none; } }
 
-@media (max-width: 480px) {
-    .sp--strip { padding: 0.5rem 0.75rem; --sp-scale: 0.85; }
-    .sp--strip .sp-logos { gap: 0.8rem; }
-    .sp--footer { --sp-scale: 1.15; }
-    .sp--footer .sp-logos { gap: 1.2rem; }
+/* Phones: the strip shows two slots (see SLOTS in sponsors.js) */
+@media (max-width: 479px) {
+    .sp--strip { padding: 0.45rem 0.75rem; --sp-slot: 96px; --sp-box: 28px; --sp-scale: 0.85; }
+    /* Three slots per row on a 360px phone (3×96 + 2×12 = 312px) */
+    .sp--footer { --sp-scale: 1.1; --sp-slot: 96px; --sp-box: 36px; --sp-gap: 0.6rem 0.75rem; }
 }
 
 @media (prefers-reduced-motion: reduce) {
-    .sp-link { transition: none; }
-    a.sp-link:hover { transform: none; }
+    .sp-slot, .sp-logos { transition: none; }
+    a.sp-slot:hover { transform: none; }
 }
 
-/* ---- Page-specific fit ------------------------------------------ */
+/* ---- Page-specific fit --------------------------------------------- */
 /* Standings header: the cell sits alone on the right of the brand row */
 .modern-header .sp--cell { border-left: 0; padding: 0; }
 .modern-header .sp--strip { border-bottom: 0; padding-left: 0; padding-right: 0; }
