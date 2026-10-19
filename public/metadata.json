@@ -1,12 +1,53 @@
 {
   "source": "GitHub Actions",
-  "successCount": 54,
-  "errorCount": 0,
-  "errors": [],
-  "divisionsScraped": 54,
+  "successCount": 46,
+  "errorCount": 2,
+  "errors": [
+    {
+      "division": "12U-rep",
+      "tier": "tier-1",
+      "error": "Standings failed: Standings timeout after 45s"
+    },
+    {
+      "division": "12U-rep",
+      "tier": "tier-2",
+      "error": "Standings failed: Standings timeout after 45s"
+    },
+    {
+      "division": "9U-select",
+      "tier": "all-tiers",
+      "error": "Skipped due to time budget"
+    },
+    {
+      "division": "11U-select",
+      "tier": "all-tiers",
+      "error": "Skipped due to time budget"
+    },
+    {
+      "division": "13U-select",
+      "tier": "all-tiers",
+      "error": "Skipped due to time budget"
+    },
+    {
+      "division": "15U-select",
+      "tier": "all-tiers",
+      "error": "Skipped due to time budget"
+    },
+    {
+      "division": "10U-interlock",
+      "tier": "all-tiers",
+      "error": "Skipped due to time budget"
+    },
+    {
+      "division": "11U-interlock",
+      "tier": "all-tiers",
+      "error": "Skipped due to time budget"
+    }
+  ],
+  "divisionsScraped": 46,
   "totalDivisions": 54,
-  "duration": 324732,
-  "generatedAt": "2026-10-18T22:17:08.466Z",
+  "duration": 633265,
+  "generatedAt": "2026-10-19T00:29:38.655Z",
   "worker": {
     "version": "1.0.0",
     "nodeVersion": "v18.20.8",
