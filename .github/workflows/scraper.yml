@@ -15,6 +15,11 @@ on:
       - 'src/scraper/**'
       - '.github/workflows/scraper.yml'
 
+# The built-in GITHUB_TOKEN commits the scraped data (the old PAT_TOKEN was
+# revoked 2026-10-21 after the Railway breach). Needs contents: write.
+permissions:
+  contents: write
+
 concurrency:
   group: scraper
   cancel-in-progress: true
@@ -28,7 +33,6 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
       with:
-        token: ${{ secrets.PAT_TOKEN }}
         persist-credentials: true
     
     - name: Setup Node.js
@@ -48,12 +52,6 @@ jobs:
       env:
         NODE_ENV: production
         PUPPETEER_ARGS: --no-sandbox,--disable-setuid-sandbox,--disable-dev-shm-usage,--disable-accelerated-2d-canvas,--no-first-run,--no-zygote,--single-process,--disable-gpu,--disable-extensions
-        SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
-        FROM_EMAIL: ${{ secrets.FROM_EMAIL }}
-        FROM_NAME: ${{ secrets.FROM_NAME }}
-        BASE_URL: ${{ secrets.BASE_URL }}
-        GITHUB_TOKEN: ${{ secrets.GIST_GITHUB_TOKEN }}
-        GIST_ID: ${{ secrets.GIST_ID }}
     
     - name: Commit and push changes
       run: |
