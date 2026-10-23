@@ -1,4 +1,5 @@
-FROM node:20-alpine
+# Node pinned to a patched 22 release (Oct 21 2026 Node.js security release; Node 20 is EOL, no fix).
+FROM node:22.23.4-alpine
 
 WORKDIR /app
 
