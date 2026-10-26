@@ -27,13 +27,13 @@
 
     var SPONSORS = [
         {
-            id: 'ifixlaptops',
-            name: 'ifixlaptops.biz',
-            url: 'https://ifixlaptops.biz',
-            logo: '/images/sponsors/ifixlaptops.png',
-            logoOnDark: '/images/sponsors/ifixlaptops-white.png',
-            width: 720, height_px: 101,
-            height: 17
+            id: 'rev',
+            name: 'REV',
+            url: 'https://revinc.com',
+            logo: '/images/sponsors/rev.png',
+            logoOnDark: '/images/sponsors/rev-white.png',
+            width: 640, height_px: 212,
+            height: 20
         },
         {
             id: 'sanction',

@@ -9,7 +9,7 @@ white background transparent, resizes to 640px wide and writes:
     public/images/sponsors/<id>.png         colour, for white surfaces
     public/images/sponsors/<id>-white.png   white, for the dark footer
 
-The white variant turns dark ink white while preserving anti-aliasing.
+The white variant turns any ink solid white while preserving anti-aliasing.
 Strongly coloured pixels (e.g. a blue accent dot) are left as-is so a
 brand accent survives on the dark footer. If the whole logo is one
 colour (e.g. a blue wordmark) pass --keep-hue=no to whiten everything,
@@ -52,8 +52,12 @@ def main():
             if a == 0: continue
             if keep_hue and (max(r, g, b) - min(r, g, b)) > 60:
                 continue  # saturated accent: keep it
-            lum = (r + g + b) / 3
-            px[x, y] = (255, 255, 255, round(a * (1 - lum / 255)))
+            # Any real ink (darkest channel < 170) becomes solid white; only the
+            # near-white anti-aliasing fades out, and white cut-outs inside a
+            # coloured shape (e.g. a tooth in a disc) stay transparent.
+            m = min(r, g, b)
+            k = 1 if m < 170 else max(0, (250 - m) / 80)
+            px[x, y] = (255, 255, 255, round(a * k))
     white.save(out_dir / f'{sid}-white.png', optimize=True)
     print(f'wrote {out_dir}/{sid}.png and {sid}-white.png ({colour.size[0]}x{colour.size[1]})')
 
